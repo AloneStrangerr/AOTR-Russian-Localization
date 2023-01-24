@@ -8266,7 +8266,7 @@ CONTROLBAR:TrollFindRock
 END
 
 CONTROLBAR:TrollFindTastyOrc
-"F&ind an Orc to Eat"
+"Find an Orc to Eat (&T)"
 END
 
 CONTROLBAR:TrollFindOrcToHold
