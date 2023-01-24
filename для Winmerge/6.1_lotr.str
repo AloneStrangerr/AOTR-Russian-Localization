@@ -69919,7 +69919,7 @@ CONTROLBAR:GuldurCarnage
 End
 
 CONTROLBAR:ToolTipGuldurCarnage
-"Modifier Type: Buff \n Target allies gain +100% Damage, at the cost of -50% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target units"
+"Modifier Type: Buff \n Target allies gain +75% Damage, at the cost of -25% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target units"
 End
 
 CONTROLBAR:GuldurMarsh
@@ -69943,7 +69943,7 @@ CONTROLBAR:DolGuldurChill
 End
 
 CONTROLBAR:TooltipDolGuldurChill
-"Enemy units are slowed by 50% and take damage over time \n Left click icon then click on target"
+"Enemy units are slowed by 40% and take damage over time for 20 seconds\n Left click icon then click on target"
 End
 
 CONTROLBAR:GuldurForestOfFear
