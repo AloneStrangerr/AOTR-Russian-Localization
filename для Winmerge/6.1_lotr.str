@@ -19494,6 +19494,11 @@ GUI:UPGRADEEVIL_DISCOUNT
 "Surplus Bonus -%d%%"
 END
 
+GUI:WILDUPGRADEEVIL_DISCOUNT
+// Context: used to display the upgrade discount modifier in the palantir
+"Treasure Bonus -%d%%"
+END
+
 GUI:STRUCTURE_WALL_DISCOUNT
 // Context: used to display the structure/wall discount modifier in the palantir
 "Structure/Wall Bonus -%d%%"
@@ -21768,6 +21773,10 @@ End
 
 LW:TerritoryErebor
 "Erebor"
+End
+
+LW:TerritoryHarad
+"Haradwaith"
 End
 
 LW:ClickToBegin
@@ -24588,6 +24597,14 @@ OBJECT:HordeIsengardFighter
 "Fighting Uruk-hai"
 END
 
+OBJECT:IsengardShieldBearer
+"Uruk-hai Shieldbearer"
+END
+
+OBJECT:HordeIsengardShieldBearer
+"Uruk-hai Shieldbearers"
+END
+
 OBJECT:HordeIsengardFighterPikemenCombo
 "Uruk-hai - Uruk Pikemen"
 END
@@ -24765,320 +24782,6 @@ APT:OfficialLadderSite
 // Context: Text Label for Official Ladder Web site button in Online Home screen
 "Official Ladder Site"
 END
-
-////////////////////////////////
-///////SAVE GAME MAP NAMES//////
-////////////////////////////////
-
-Map:MAPEVILAmonHen
-"Evil Amon Hen"
-END
- 
-Map:MAPEVILEdoras
-"Evil Edoras"
-END
- 
-Map:MAPEVILFangorn
-"Evil Fangorn"
-END
- 
-Map:MAPEVILHelmsDeep
-"Evil Helm's Deep"
-END
- 
-Map:MAPEVILIsengard
-"Evil Isengard"
-END
- 
-Map:MAPEVILMinasTirith
-"Evil Minas Tirith"
-END
- 
-Map:MAPEVILNearHarad
-"Evil Near Harad"
-END
- 
-Map:MAPEVILOsgiliath
-"Evil Osgiliath"
-END
- 
-Map:MAPEVILShelobsLair
-"Evil Cirith Ungol"
-END
- 
-Map:MAPEVILSouthernIthilien
-"Evil Southern Ithilien"
-END
- 
-Map:MAPGOODAmonHen
-"Good Amon Hen"
-END
- 
-Map:MAPGOODBlackGate
-"Good Black Gate"
-END
- 
-Map:MAPGOODFangorn
-"Good Eaves of Fangorn"
-END
- 
-Map:MAPGOODHelmsDeep
-"Good Helm's Deep"
-END
- 
-Map:MAPGOODIsengard
-"Good Isengard"
-END
- 
-Map:MAPGOODIthilien
-"Good Northern Ithilien"
-END
- 
-Map:MAPGOODLastAlliance
-"Good Last Alliance"
-END
- 
-Map:MAPGOODLothlorien
-"Good Lothlorien"
-END
-
-Map:MAPGOODMinasTirith
-"Good Minas Tirith"
-END
- 
-Map:MAPGOODMoria
-"Good Moria"
-END
- 
-Map:MAPGOODOsgiliath
-"Good Osgiliath"
-END
- 
-Map:MAPGOODShelobsLair
-"Good Cirith Ungol"
-END
-
-Map:MAPSPSEVILWestfold
-"Evil Westfold"
-END
-Map:MAPSPSEVILAnfalas
-"Evil Anfalas"
-END
- 
-Map:MAPSPSEVILAnorien
-"Evil Anorien"
-END
- 
-Map:MAPSPSEVILBelfalas
-"Evil Belfalas"
-END
- 
-Map:MAPSPSEVILBrownLands
-"Evil Old Brown Lands"
-END
- 
-Map:MAPSPSEVILCairAndros
-"Evil Cair Andros"
-END
- 
-Map:MAPSPSEVILCentralIthilien
-"Evil Central Ithilien"
-END
- 
-Map:MAPSPSEVILCrossroads
-"Evil Crossroads"
-END
- 
-Map:MAPSPSEVILDeadMarshes
-"Evil Dead Marshes"
-END
- 
-Map:MAPSPSEVILDruadanForest
-"Evil Druadan Forest"
-END
- 
-Map:MAPSPSEVILDunharrow
-"Evil Dunharrow"
-END
- 
-Map:MAPSPSEVILEastEmnet
-"Evil East Emnet"
-END
- 
-Map:MAPSPSEVILEastRohan
-"Evil Eastern Rohan"
-END
- 
-Map:MAPSPSEVILEavesofFangorn
-"Evil Eaves of Fangorn"
-END
- 
-Map:MAPSPSEVILEmynArnen
-"Evil Emyn Arnen"
-END
- 
-Map:MAPSPSEVILEmynMuil
-"Evil Emyn Muil"
-END
- 
-Map:MAPSPSEVILEnedwaith
-"Evil Enedwaith"
-END
- 
-Map:MAPSPSEVILFordsofIsen
-"Evil Fords of Isen"
-END
- 
-Map:MAPSPSEVILGapofRohan
-"Evil Gap of Rohan"
-END
- 
-Map:MAPSPSEVILHalifirien
-"Evil Halifirien"
-END
- 
-Map:MAPSPSEVILHarlond
-"Evil Harlond"
-END
- 
-Map:MAPSPSEVILLebennin
-"Evil Lebennin"
-END
- 
-Map:MAPSPSEVILMirkwood
-"Evil Mirkwood"
-END
- 
-Map:MAPSPSEVILMouthsofEntwash
-"Evil Mouths of the Entwash"
-END
- 
-Map:MAPSPSEVILNorthernIthilien
-"Evil Northern Ithilien"
-END
- 
-Map:MAPSPSEVILPelargir
-"Evil Pelargir"
-END
- 
-Map:MAPSPSEVILRohan
-"Evil Rohan"
-END
- 
-Map:MAPSPSEVILWestEmnet
-"Evil West Emnet"
-END
-
-SCRIPT:MapSPSEvilWestEmnetHintText_01
-"You've obtained some wargs."
-END
- 
-Map:MAPSPSGOODAnorien
-"Good Anorien"
-END
- 
-Map:MAPSPSGOODCairAndros
-"Good Cair Andros"
-END
- 
-Map:MAPSPSGOODCentralIthilien
-"Good Central Ithilien"
-END
- 
-Map:MAPSPSGOODCrossroads
-"Good Crossroads"
-END
- 
-Map:MAPSPSGOODDagorlad
-"Good Dagorlad"
-END
- 
-Map:MAPSPSGOODDeadMarshes
-"Good Dead Marshes"
-END
- 
-Map:MAPSPSGOODDruadanForest
-"Good Druadan Forest"
-END
- 
-Map:MAPSPSGOODDunharrow
-"Good Dunharrow"
-END
- 
-Map:MAPSPSGOODEastEmnet
-"Good East Emnet"
-END
- 
-Map:MAPSPSGOODEastRohan
-"Good Eastern Rohan"
-END
- 
-Map:MAPSPSGOODEastfold
-"Good Eastfold"
-END
- 
-Map:MAPSPSGOODEmynArnen
-"Good Emyn Arnen"
-END
- 
-Map:MAPSPSGOODEmynMuil
-"Good Emyn Muil"
-END
- 
-Map:MAPSPSGOODFangorn
-"Good Fangorn Forest"
-END
- 
-Map:MAPSPSGOODHalifirien
-"Good Halifirien"
-END
- 
-Map:MAPSPSGOODHarondor
-"Good Harondor"
-END
- 
-Map:MAPSPSGOODMirkwood
-"Good Mirkwood"
-END
- 
-Map:MAPSPSGOODMouthsofEntwash
-"Good Mouths of the Entwash"
-END
- 
-Map:MAPSPSGOODNearHarad
-"Good Near Harad"
-END
- 
-Map:MAPSPSGOODNurn
-"Good Nurn"
-END
- 
-Map:MAPSPSGOODRhun
-"Good Rhun"
-END
- 
-Map:MAPSPSGOODRohan
-"Good Rohan"
-END
- 
-Map:MAPSPSGOODSouthernIthilien
-"Good Southern Ithilien"
-END
- 
-Map:MAPSPSGOODWestEmnet
-"Good West Emnet"
-END
- 
-Map:MAPSPSGOODWestfold
-"Good Westfold"
-END
- 
-Map:MAPSPSGOODWold
-"Good Wold"
-END
-
-
-
 
 //////////////////////////////////////////////
 ////AND NOW IT'S TIME FOR THE BONUS ROUND/////
@@ -25998,7 +25701,7 @@ END
 //New Upgrade System Text
 
 CONTROLBAR:PurchaseTechnologyRohanFireArrows
-"Research Fire Arro&ws Upgrade"
+"Research Fire Arrows Upgrade (&R)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanFireArrows
@@ -26006,15 +25709,11 @@ CONTROLBAR:ToolTipPurchaseUpgradeRohanFireArrows
 END
 
 CONTROLBAR:PurchaseTechnologyRohanForgedBlades
-"&Forged Blade Upgrade"
+"Forged Blade Upgrade (&D)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades
 "Purchase Forged Blade Upgrade \n Select a battalion to upgrade"
-END
-
-CONTROLBAR:PurchaseUpgradeRohanForgedBlades
-"Forged B&lades"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanForgedBlades
@@ -26030,7 +25729,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRohanHeavyArmor
 END
 
 CONTROLBAR:PurchaseUpgradeRohanHeavyArmor
-"Hea&vy Armor"
+"Heavy Armor (&T)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanHeavyArmor
@@ -26041,16 +25740,12 @@ END
 
 
 //New Banner Stuff
-CONTROLBAR:PurchaseTechnologyRohanBasicTraining
-"Research Banner Carrier Upgrade"
-END
-
 CONTROLBAR:ToolTipPurchaseTechnologyRohanBasicTraining
 "Increases a unit to Level 2 \n Can only be equipped at Level 1"
 END
 
 CONTROLBAR:PurchaseUpgradeRohanBasicTraining
-"Ba&nner Carrier Upgrade"
+"Banner Carrier Upgrade (&V)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanBasicTraining
@@ -26151,7 +25846,7 @@ END
 
 
 CONTROLBAR:GoHarvest
-"Harvest &Resources"
+"Harvest Resources (&W)"
 END
 
 CONTROLBAR:TooltipGoHarvest
@@ -30407,11 +30102,11 @@ CONTROLBAR:LW_Unit_IsengardWildmanHordePlural
 END
 
 CONTROLBAR:LW_Unit_IsengardUrukCrossbowHorde
-"Uruk Crossbow Horde"
+"Uruk-hai Crossbow Horde"
 END
 
 CONTROLBAR:LW_Unit_IsengardUrukCrossbowHordePlural
-"Uruk Crossbow Hordes"
+"Uruk-hai Crossbow Hordes"
 END
 
 CONTROLBAR:LW_Unit_IsengardUrukFighterCrossbowHorde
@@ -30423,11 +30118,11 @@ CONTROLBAR:LW_Unit_IsengardUrukFighterCrossbowHordePlural
 END
 
 CONTROLBAR:LW_Unit_IsengardPikemanHorde
-"Uruk Pikeman Horde"
+"Uruk-hai Pikeman Horde"
 END
 
 CONTROLBAR:LW_Unit_IsengardPikemanHordePlural
-"Uruk Pikeman Hordes"
+"Uruk-hai Pikeman Hordes"
 END
 
 CONTROLBAR:LW_ToolTipBuild_IsengardPikemanHorde
@@ -30436,6 +30131,22 @@ END
 
 CONTROLBAR:LW_ToolTip_IsengardPikemanHorde
 "\nUnit Type: Elite Pikemen\nStrong vs. Cavalry"
+END
+
+CONTROLBAR:LW_Unit_IsengardUrukShieldbearer
+"Uruk-hai Shieldbearer Horde"
+END
+
+CONTROLBAR:LW_Unit_IsengardUrukShieldbearerPlural
+"Uruk-hai Shieldbearer Hordes"
+END
+
+CONTROLBAR:LW_ToolTip_IsengardUrukShieldbearer
+"\nUnit Type: Support\nHeavily armored support unit\nAble to switch formation for improved defensive capabilities"
+END
+
+CONTROLBAR:LW_Unit_ToolTipBuild_IsengardUrukShieldbearer
+"Unit Type: Support\nHeavily armored support unit\nAble to switch formation for improved defensive capabilities"
 END
 
 CONTROLBAR:LW_Unit_IsengardWargRiderHorde
@@ -36271,7 +35982,7 @@ OBJECT:HordeDunedainRanger
 END
 
 CONTROLBAR:StopBombard
-"&Stop Bombarding"
+"Stop Bombarding (&R)"
 END
 
 CONTROLBAR:ToolTipCommandStopBombard
@@ -36465,6 +36176,10 @@ TOOLTIP:LackGondorFireArrowsTechnology
 "Requires Level 3 Archery Range"
 END
 
+TOOLTIP:LackGreyCompanyFireArrowsTechnology
+"Requires Level 3 Blacksmith"
+END
+
 TOOLTIP:LackArnorForgedBladesTechnology
 "Requires Level 2 Rivendell Forge"
 END
@@ -36478,7 +36193,7 @@ TOOLTIP:LackSilverthornTechnology
 END
 
 CONTROLBAR:ArcherBarrage
-"Bo&mbard"
+"Bombard (&W)"
 END
 
 CONTROLBAR:ToolTipBuildFireDrake
@@ -36510,15 +36225,15 @@ CONTROLBAR:ArwenRevive
 END
 
 CONTROLBAR:ElvenArwenHotkey
-"A&rwen"
+"Arwen (&W)"
 END
 
 CONTROLBAR:ElvenHaldirHotkey
-"Hal&dir"
+"Haldir (&T)"
 END
 
 CONTROLBAR:ElvenElrondHotkey
-"&Elrond"
+"Elrond (&D)"
 END
 
 CONTROLBAR:FrodoRecruit
@@ -36530,15 +36245,15 @@ CONTROLBAR:FrodoRevive
 END
 
 CONTROLBAR:ElvenFrodoHotkey
-"Fro&do"
+"Frodo (&A)"
 END
 
 CONTROLBAR:IsengardWormtongueHotkey
-"&Wormtongue"
+"Wormtongue (&W)"
 END
 
 CONTROLBAR:IsengardSharkuHotkey
-"Shar&ku"
+"Sharku (&E)"
 END
 
 CONTROLBAR:IsengardSharkuRecruit
