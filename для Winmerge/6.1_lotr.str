@@ -31528,6 +31528,10 @@ CONTROLBAR:UntamedAllegiance
 "Untamed Allegiance"
 END
 
+CONTROLBAR:WildAllegiance
+"Wild Allegiance (&T)"
+END
+
 CONTROLBAR:AwakenWyrm
 "Summon Were-worm"
 END
@@ -31550,7 +31554,8 @@ END
 /////////////////////
 
 CONTROLBAR:PurchaseUpgradeWildFortressBatCloud
-"Bat Swa&rm"
+//"Bat Swarm (&T)"
+"Cave Bats (&E)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud
@@ -31558,15 +31563,24 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud
 END
 
 CONTROLBAR:PurchaseUpgradeWildFortressFireArrows
-"&Scaffolding"
+//"Scaffolding (&D)"
+"Infestation (&T)"
 END
 
 CONTROLBAR:PurchaseUpgradeWildFortressGoblinTown
-"Allegiance: Gobli&n-town"
+"Allegiance: Goblin-town (&W)"
 END
 
+CONTROLBAR:PurchaseUpgradeWildFortressWildAllegiance
+"Wild Allegiance (&W)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWildAllegiance
+"Unlocks Wild Allegiance \n Can be cast on any Creep Lair to take control of the lair and start producing units \n Captured lairs produce resources \n Reduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces cost of builders by 20%"
+End
+
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressGoblinTown
-"Allows training of Goblin-towners and The Great Goblin \n Reduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces cost of builders by 20%""
+"Allows training of Goblin-towners and The Great Goblin \n Reduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces cost of builders by 20%"
 End
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressGoblinTownForMap
@@ -31574,7 +31588,8 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressGoblinTownForMap
 End
 
 CONTROLBAR:PurchaseUpgradeWildFortressWebCocoon
-"Allegiance: &Gundabad"
+//"Allegiance: Gundabad (&E)"
+"Gundabad Spires (&D)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWebCocoon
@@ -59269,6 +59284,56 @@ CONTROLBAR:ToolTipBuildWildGundabadArcherHorde
 "Requires Level 2 Gundabad Pit \n Strong vs Swordsmen \n Can fire Barbed Arrows \n \n Feared throughout Eriador, these Mountain-orc manhunters have a reputation for being cruel and ruthless in tracking down their quarry."
 End
 
+
+//------------ Lug the Mauled ---------------
+
+OBJECT:LugtheMauled
+"Lug the Mauled"
+END
+CONTROLBAR:LugRecruitNew
+"Recruit the deranged killer for hire, Lug \n \n Harboring an equal appetite for gold and destruction, Lug is a ferocious manhunter whose murderous reputation precedes him throughout the dredges of the Misty Mountains."
+END
+CONTROLBAR:LugReviveNew
+"Revive the fallen Hero, Lug"
+END
+CONTROLBAR:LugHotkeyNew
+"Lug the Mauled (&T)"
+END
+CONTROLBAR:ToolTipLugHeadhunter
+"Puts a price on an enemy hero's head, reducing their armor and speed by 20% \n At level 3, reduces armor and speed by 30% \n At level 6, reduces armor and speed by 40% \n At level 10, reduces armor and speed by 50% \nLeft click icon then left click on target"
+END
+CONTROLBAR:GoingDownSwinging
+"Goin' Down Swinging (&T)"
+END
+CONTROLBAR:ToolTipGoingDownSwinging
+"Requires Level 3 \n Lug harms himself to temporarily gain +50% armour, +50% damage and +20% speed \n Can only use with sword equipped \n Left click to activate"
+END
+CONTROLBAR:LugScorchedEarth
+"Scorched Earth (&C)"
+END
+CONTROLBAR:ToolTipLugScorchedEarth
+"Requires Level 6 \n Lug sets fire to the earth and burns all friendly and enemy units \n Left click to activate"
+END
+CONTROLBAR:LW_Hero_Lug
+"Lug the Mauled"
+END
+//------------ Bolg New ---------------
+
+OBJECT:WildBolgNew
+"Bolg of the North"
+END
+CONTROLBAR:ToolTipBuildBolgNew
+"Recruit Bolg of the North"
+END
+CONTROLBAR:BolgRecruitNew
+"Recruit the Scourge of the Misty Mountains \n \n 'The Goblins are upon you! Bolg of the North is coming. O Dain! whose father you slew in Moria. \n Behold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'"
+END
+CONTROLBAR:BolgReviveNew
+"Revive the fallen Hero, Bolg"
+END
+CONTROLBAR:BolgHotkeyNew
+"Bolg of the North (&D)"
+END
 //------------ Bolg Hobbit ---------------
 
 OBJECT:WildBolg
@@ -59287,7 +59352,45 @@ END
 CONTROLBAR:BolgHotkey
 "&Bolg"
 END
-
+CONTROLBAR:BolgLeadership
+"Wild Overlord"
+END
+CONTROLBAR:ToolTipBolgLeadership
+"Modifier Type: Leadership\nNearby Orcs, Wargs and Giant Bats receive +50% armour and resistance to fear and terror\nStacks with Buffs and Spells\nPassive ability"
+END
+CONTROLBAR:BolgGrowingHatred
+"Growing Hatred (&R)"
+END
+CONTROLBAR:ToolTipBolgGrowingHatred
+"Requires Level 3\n Bolg deals increased damage against Dwarves \n Passive ability \n\n When activated, Bolg deals knockback damage with a greater attack radius \n Consecutive attacks temporarily increase attack damage by 10% up to a maximum of 50% \n Left click to activate"
+END
+CONTROLBAR:BolgRuledByFear
+"Ruled By Fear (&T)"
+END
+CONTROLBAR:ToolTipBolgRuledByFear
+"Requires Level 5\n Modifier Type: Spell\nNearby allied units temporarily deal +125% damage, but lose -50% armour and do not gain experience whilst effect lasts\nStacks with Buffs, Leadership and other Spells\n\n Nearby enemies units flee in terror\nLeft click to activate"
+END
+CONTROLBAR:BolgUnpierceableRanks
+"Unpierceable Ranks (&C)"
+END
+CONTROLBAR:ToolTipBolgUnpierceableRanks
+"Requires Level 7\nBolg is protected by four Bodyguards \n Passive ability \n\n When activated, Bolg gains +50% armour \n Left click to activate"
+END
+CONTROLBAR:BolgTerrorOfNorth
+"Terror of the North (&V)"
+END
+CONTROLBAR:ToolTipBolgTerrorOfNorth
+"Requires Level 10\nBolg summons a small army of Mountain-orcs, Wolf-riders and Giants Bats\n Left click icon then left click target area"
+END
+OBJECT:BolgBodyGuard
+"Bolg's Bodyguard"
+END
+OBJECT:GolfimbulBodyguard
+"Golfimbul's Bodyguard"
+END
+OBJECT:AzogBodyguard
+"Azog's Bodyguard"
+END
 CONTROLBAR:BolgCastellan
 "Castellan of Mount Gundabad"
 END
@@ -59301,7 +59404,7 @@ CONTROLBAR:SpecialAbilityBolgCripple
 END
 
 CONTROLBAR:SpecialAbilityBolgCarnage
-"O&rcish Fury"
+"Orcish Fury (&R)"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityBolgCarnage
@@ -68818,7 +68921,7 @@ OBJECT:Lindir
 END
 
 CONTROLBAR:ConstructWildGundabadBerserkerHorde
-"Gundaba&d Berserkers"
+"Gundabad Berserkers (&T)"
 END
 
 CONTROLBAR:ToolTipBuildWildGundabadBerserkerHorde
