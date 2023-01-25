@@ -8282,7 +8282,7 @@ CONTROLBAR:GrabAndEatPassenger
 END
 
 CONTROLBAR:SpecialAbilityIgnite
-"&Ignite"
+"Ignite (&W)"
 END
 
 CONTROLBAR:SpecialAbilityFlamingSword
@@ -8290,19 +8290,19 @@ CONTROLBAR:SpecialAbilityFlamingSword
 END
 
 CONTROLBAR:SpecialAbilityFireWhip
-"Fire &Whip"
+"Fire Whip (&R)"
 END
 
 CONTROLBAR:SpecialAbilityBalrogScream
-"Screa&m"
+"Scream (&T)"
 END
 
 CONTROLBAR:SpecialAbilityBalrogBreath
-"B&reathe Fire"
+"Breathe Fire (&C)"
 END
 
 CONTROLBAR:SpecialAbilityBalrogWings
-"Wi&ngs"
+"Wings (&V)"
 END
 
 CONTROLBAR:KnifeFighter
@@ -8318,7 +8318,7 @@ CONTROLBAR:SwoopAttack
 End
 
 CONTROLBAR:ChargeAttack
-"&Charge Attack"
+"Charge Attack (&W)"
 END
 
 CONTROLBAR:Guard
@@ -8679,7 +8679,7 @@ UPGRADE:StoneworkerUpgradeReinforcedGate
 END
 
 UPGRADE:StoneworkerUpgradeNumenorStonework
-"Númenor Stonework"
+"Númenórean Stonework"
 END
  
 UPGRADE:StoneworkerUpgradeToUseFireArrows
@@ -8850,6 +8850,10 @@ OBJECT:RohanSpearThrower
 "Yeoman Spear Thrower"
 END
 
+OBJECT:RohanSpearThrowerHorde
+"Yeoman Spear Throwers"
+END
+
 OBJECT:RohanTheoden
 "Théoden"
 END
@@ -8973,7 +8977,7 @@ UPGRADE:UpgradeMundburgMasonry
 End
 
 CONTROLBAR:MundburgMasonry
-"Mundburg Masonr&y"
+"Mundburg Masonry (&R)"
 End
 
 CONTROLBAR:ToolTipMundburgMasonry
@@ -9020,6 +9024,10 @@ OBJECT:GondorRanger
 "Ithilien Ranger"
 END
 
+OBJECT:GondorRangerSpear
+"Ithilien Sentinel"
+END
+
 OBJECT:GondorFaramir
 "Faramir"
 END
@@ -9060,6 +9068,10 @@ OBJECT:GondorAragorn
 "Aragorn"
 END
 
+OBJECT:CampaignRoheryn
+"Roheryn"
+END
+
 OBJECT:RohanGrimbold
 "Grimbold"
 END
@@ -9082,6 +9094,18 @@ END
 
 OBJECT:CaptainCarthaen
 "Captain Carthaen"
+END
+
+OBJECT:CampaignToradan
+"Toradan"
+END
+
+OBJECT:CampaignAmdir
+"Amdir"
+END
+
+OBJECT:CampaignLothrandir
+"Lothrandir"
 END
 
 OBJECT:ElvenArwen
@@ -9237,6 +9261,10 @@ OBJECT:IsengardSaruman
 "Saruman"
 END
 
+OBJECT:IsengardSarumanRingHero
+"Saruman of Many Colours"
+END
+
 OBJECT:IsengardSharku
 "Sharku"
 END
@@ -9244,6 +9272,14 @@ END
 OBJECT:IsengardWildman
 "Wildman of Dunland"
 END
+
+OBJECT:Ruffian
+"Ruffian"
+END
+
+OBJECT:HordeRuffian
+"Ruffians"
+End
 
 OBJECT:IsengardWildmanGuard
 "Guard of Orthanc"
@@ -9371,6 +9407,14 @@ OBJECT:Throne
 "Throne"
 END
 
+OBJECT:DwarfThroneofErebor
+"Throne"
+END
+
+OBJECT:AotROsgiliathGrate
+"Sewer Gate"
+END
+
 OBJECT:Stairs
 "Stairs"
 END
@@ -9489,6 +9533,10 @@ END
 
 OBJECT:Skeleton
 "Skeleton"
+END
+
+OBJECT:CampaignSpellstone
+"Spell-stone"
 END
 
 OBJECT:Village
@@ -9815,7 +9863,7 @@ OBJECT:GenericMountainTroll
 END
 
 CONTROLBAR:TrollFindTree
-"Find a &Tree"
+"Find a Tree (&C)"
 END
 
 CONTROLBAR:ConstructWarg
@@ -9827,7 +9875,7 @@ CONTROLBAR:ToolTipBuildWarg
 END
 
 CONTROLBAR:ConstructSpider
-"Spider&ling"
+"Spiderling (&W)"
 END
 
 CONTROLBAR:ToolTipBuildSpider
@@ -9835,7 +9883,7 @@ CONTROLBAR:ToolTipBuildSpider
 END
 
 CONTROLBAR:ConstructBarrowWight
-"&Wight"
+"Wight (&W)"
 END
 
 CONTROLBAR:ToolTipBuildBarrowWight
@@ -9843,7 +9891,7 @@ CONTROLBAR:ToolTipBuildBarrowWight
 END
 
 CONTROLBAR:NimrodelWaters
-"Blessed &Waters"
+"Blessed Waters (&W)"
 END
 
 CONTROLBAR:ToolTipNimrodelWaters
@@ -9851,7 +9899,7 @@ CONTROLBAR:ToolTipNimrodelWaters
 END
 
 CONTROLBAR:MallornRoots
-"Mallorn &Roots"
+"Mallorn Roots (&E)"
 END
 
 CONTROLBAR:ToolTipMallornRoots
@@ -10786,6 +10834,10 @@ OBJECT:WeaponRack
 "Weapon Rack"
 END
 
+OBJECT:GondorArmorRack
+"Armor Rack"
+END
+
 OBJECT:Flag
 "Flag"
 END
@@ -10942,6 +10994,8 @@ END
 ///FUDGE CAMPAIGN Strings
 //////////////////////////////////
 
+//////////CAMPAIGN OBJECTS/////////////
+
 OBJECT:GamlingRoyalBanner
 "Banner of Eorl"
 END
@@ -10987,6 +11041,62 @@ OBJECT:FireWood
 "Firewood"
 END
 
+OBJECT:DunedainSword
+"Dunedain Sword"
+END
+
+OBJECT:CampaignBrooch
+"Brooch"
+END
+
+OBJECT:CampaignBelt
+"Hobbit Belt"
+END
+
+OBJECT:CampaignUrukArmour
+"Abandoned Armour"
+END
+
+OBJECT:BoromirShieldRohan
+"Rohan shield"
+END
+
+OBJECT:CampaignGorg
+"Gorg"
+END
+
+OBJECT:CampaignGrog
+"Grog"
+END
+
+OBJECT:CampaignBooks
+"Books"
+END
+
+OBJECT:CampaignWaystone
+"Waystone"
+END
+
+OBJECT:CampaignMog
+"Mog"
+END
+
+OBJECT:GarrisonableBush
+"Hiding Spot"
+END
+
+OBJECT:CollapsingRockColumn
+"Rocks"
+END
+
+OBJECT:Shane
+"Shane"
+END
+
+//////////CAMPAIGN MISSIONS/////////////
+
+///////Fellowship/////////
+
 CampaignName:LastAlliance
 "The Last Alliance"
 END
@@ -11020,12 +11130,58 @@ CampaignName:Khazad
 END
 
 CampaignName:Lothlorien
-"The Woods of Lothlorien"
+"Assault upon the Golden Wood"
 END
 
 CampaignName:AmonHen
 "Breaking of the Fellowship"
 END
+
+///////TwoTowers/////////
+
+CampaignName:FordsofIsen
+"Battle of the Fords of Isen"
+END
+
+CampaignName:TamingofSmeagol
+"The Taming of Smeagol"
+END
+
+CampaignName:EavesofFangorn
+"The Three Hunters"
+END
+
+CampaignName:DurinsTower
+"The Battle of the Peak"
+END
+
+CampaignName:Ithilien
+"Ambush in Ithilien"
+END
+
+CampaignName:Westfold
+"The Burning of the Westfold"
+END
+
+CampaignName:Osgiliath
+"Escape from Osgiliath"
+END
+
+CampaignName:GreyCompany
+"The Grey Company Sets Out"
+END
+
+CampaignName:HelmsDeep
+"The Battle of the Hornburg"
+END
+
+CampaignName:Isengard
+"The Last March of the Ents"
+END
+
+//////////CAMPAIGN MAPS/////////////
+
+///////Fellowship/////////
 
 Map:MAP GOOD REDHORN
 "Good Redhorn"
@@ -11043,13 +11199,73 @@ Map:MAP GOOD COUNCIL OF ELROND
 "Good Council of Elrond"
 END
 
-Map:MAP GOOD DWEATHERTOP
+Map:MAP GOOD WEATHERTOP
 "Good Fords of Bruinen"
 END
 
 Map:MAP GOOD SHADOW OF THE PAST
 "Good Shadow of the Past"
 END
+
+///////TwoTowers/////////
+
+Map:MAPGOODfordsofisen
+"Campaign Fords of Isen"
+End
+
+Map:MAPGOODtamingofsmeagol
+"Campaign Taming of Smeagol"
+End
+
+Map:MAPGOODeavesoffangorn
+"Campaign Three Hunters"
+End
+
+Map:MAPGOODdurinstower
+"Campaign Durin's Tower"
+End
+
+Map:MAPGOODithilien
+"Campaign Ithilien"
+End
+
+Map:MAPGOODwestfold
+"Campaign Westfold"
+End
+
+Map:MAPGOODosgiliath
+"Campaign Osgiliath"
+End
+
+Map:MAPGOODgreycompany
+"Campaign Grey Company"
+End
+
+Map:MAPGOODhelmsdeep
+"Campaign Helm's Deep"
+End
+
+Map:MAPGOODisengard
+"Campaign Isengard"
+End
+
+//////////CAMPAIGN DIALOGUE/////////////
+
+DIALOGEVENT:mgfotr_nazgul004
+"Son of Gondor... you are known to us..." 
+END
+
+DIALOGEVENT:mgfotr_nazgul005
+"Foolish boy... like your father..." 
+END
+
+DIALOGEVENT:mgfotr_nazgul006
+"Your victory is hollow... the Dark Lord will have your city..." 
+END
+
+//////////////////////////////////////
+//////////END OF CAMPAIGN/////////////
+//////////////////////////////////////
 
 // comment:
 
