@@ -14682,7 +14682,7 @@ SCRIPT:Objective04_Shadow
 END
 
 SCRIPT:Objective05_Shadow
-"Defend the Prancing Pony from the Black Riders assault"
+"Defend the Prancing Pony from the Black Riders' assault"
 END
 
 SCRIPT:ObjectiveHint01_Shadow
@@ -14920,7 +14920,7 @@ SCRIPT:BonusObjective02_Moria
 END
 
 SCRIPT:BonusObjective03_Moria
-"Reach the Great Hall within 10 minutes."
+"Reach the Great Hall within 25 minutes."
 END
 
 SCRIPT:BonusObjective04_Moria
@@ -14930,19 +14930,19 @@ END
 //////////////////KHAZAD-DUM////////////////////
 
 SCRIPT:Objective01_Khazad
-"Escape Moria."
+"Escape Moria"
 END
 
 SCRIPT:Objective02_Khazad
-"All heroes must survive."
+"All heroes must survive"
 END
 
 SCRIPT:Objective03_Khazad
-"Find the Chamber of Mazarbul."
+"Find the Chamber of Mazarbul"
 END
 
 SCRIPT:Objective04_Khazad
-"Kill the Goblin Shamans to break the enchanment"
+"Kill the Goblin Shamans to break the enchantment"
 END
 
 SCRIPT:Objective05_Khazad
@@ -15068,11 +15068,11 @@ CONTROLBAR:TooltipOutpostUnpack
 END
 
 CONTROLBAR:ConstructMenWallHub
-"&Wall Hub"
+"Wall Hub (&A)"
 END
 
 CONTROLBAR:ConstructMenFortress
-"&Fortress"
+"Fortress (&I)"
 END
 
 CONTROLBAR:ConstructEconomyPlot
@@ -15096,7 +15096,7 @@ CONTROLBAR:TooltipLumbermillUnpack
 END
 
 CONTROLBAR:UnpackLumbermill
-"Build L&umber Mill"
+"Build Lumber Mill (&D)"
 END
 
 CONTROLBAR:UnpackSlaughterhouse
@@ -15104,11 +15104,11 @@ CONTROLBAR:UnpackSlaughterhouse
 END
 
 CONTROLBAR:TooltipSlaughterhouseUnpack
-"Generates resources based on available terrain Increases command point limit \n Reduces cost of Trolls and Mûmakil"
+"Generates resources based on available terrain Increases command point limit \n Reduces cost of Trolls and Great Beasts of Gorgoroth"
 END
 
 CONTROLBAR:ConstructMenPorter
-"Bui&lder"
+"Builder (&W)"
 END
 
 CONTROLBAR:ToolTipConstructMenPorter
@@ -15116,15 +15116,23 @@ CONTROLBAR:ToolTipConstructMenPorter
 END
 
 CONTROLBAR:ConstructMenFarm
-"Build Fa&rm"
+"Build Farm (&W)"
 END
 
 CONTROLBAR:ConstructMenBarracks
-"Build Barra&cks"
+"Build Barracks (&T)"
+END
+
+CONTROLBAR:ConstructDolAmrothBarracks
+"Build Dol Amr&oth Barracks"
+END
+
+CONTROLBAR:ToolTipConstructDolAmrothBarracks
+"Trains the units of Dol Amroth princedom \n Increases command point limit by 25 \n Requires Prince Imrahil"
 END
 
 CONTROLBAR:ConstructMenArcheryRange
-"Build Archer&y Range"
+"Build Archery Range (&C)"
 END
 
 CONTROLBAR:ToolTipMenArcheryRange
