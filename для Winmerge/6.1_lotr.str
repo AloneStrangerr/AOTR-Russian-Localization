@@ -61040,16 +61040,16 @@ END
 
 CONTROLBAR:GreatGoblinSwarm
 //"&Totem of the Swarm"
-"S&warm"
+"Swarm (&W)"
 END
 
 CONTROLBAR:ToolTipGreatGoblinSwarm
-//"Requires Level 10 \n The Great Goblin may recruit hordes of Goblin Towners at his Totem \n Left click on icon then left click on target position"
-"Summons Goblin-towners \n Number of summoned hordes summoned is analogous to the Great Goblin's rank \n Left click to activate"
+//"Requires Level 10 \n The Great Goblin may recruit hordes of Goblin-towners at his Totem \n Left click on icon then left click on target position"
+"Summons Goblin-town Warriors \n Number of summoned hordes summoned is analogous to the Great Goblin's rank \n\n Modifier Type: Buff \n When activated, nearby Moria-orcs and Goblin-towers gain +15% speed and damage \n Stacks with leaderships, spells and other buffs \n Left click to activate"
 END
 
 CONTROLBAR:GreatGoblinSwarm2
-"&Swarm"
+"Swarm (&W)"
 END
 
 CONTROLBAR:ToolTipGreatGoblinSwarm2
