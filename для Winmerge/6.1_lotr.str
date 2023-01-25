@@ -16530,7 +16530,10 @@ CONTROLBAR:ConstructMordorCorsairHorde
 "&Corsairs of Umbar"
 END
 CONTROLBAR:ConstructMordorEasterlingHorde
-"&Easterling Phalanx"
+"&E)"
+END
+CONTROLBAR:ConstructMordorEasterlingHordeInn
+"Easterling Phalanx (&W)"
 END
 CONTROLBAR:ConstructMordorCaveTroll
 "&Cave Troll"
