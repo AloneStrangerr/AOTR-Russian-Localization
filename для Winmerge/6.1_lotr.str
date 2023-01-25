@@ -59362,19 +59362,19 @@ END
 //------------ Muzgash ---------------
 
 OBJECT:WildMuzgash
-"Muzgash"
+"Mûzgash"
 END
 
 CONTROLBAR:WildMuzgashRecruit
-"Recruit a dangerous Moria Orc warlord \n \n 'A roving goblin warlord, Muzgash enjoys great renown amongst the Orcs of the Misty Mountains. Orc-women want him, Orc-men want to be like him.'"
+"Recruit a dangerous Moria Orc warlord \n \n 'A roving goblin warlord, Mûzgash enjoys great renown amongst the Orcs of the Misty Mountains. Orc-women want him, Orc-men want to be like him.'"
 END
 
 CONTROLBAR:WildMuzgashRevive
-"Revive the fallen warlord, Muzgash"
+"Revive the fallen warlord, Mûzgash"
 END
 
 CONTROLBAR:WildMuzgashHotKey
-"&Muzgash"
+"Mûzgash (&W)"
 END
 
 CONTROLBAR:MuzgashLeadership
@@ -59382,7 +59382,7 @@ CONTROLBAR:MuzgashLeadership
 End
 
 CONTROLBAR:ToolTipMuzgashLeadership
-"Modifier Type: Leadership \n Moria and Mountain-orcs near Muzgash gain\n+33% Damage, +33% Armor and earn experience 50% faster\n Nearby allies earn resources per kill\n Stacks with Buffs and Spells \nPassive ability"
+"Modifier Type: Leadership \n Moria and Mountain-orcs near Mûzgash gain\n +15% Damage and Armor \n Stacks with Buffs and Spells\n\n At rank 8, Moria and Mountain-orcs near Mûzgash gain\n +33% Damage and Armor\n Nearby allies earn resources per kill\n\nPassive ability"
 End
 
 CONTROLBAR:MuzgashLeadership2
@@ -59390,31 +59390,31 @@ CONTROLBAR:MuzgashLeadership2
 End
 
 CONTROLBAR:ToolTipMuzgashLeadership2
-"Requires Level 4 \n Muzgash permanently gains poison damage\nPassive ability"
+"Requires Level 4 \n Mûzgash permanently gains poison damage\nPassive ability"
 End
 
 CONTROLBAR:MuzgashPutridBlade
-"P&utrid Blade"
+"Putrid Blade (&R)"
 End
 
 CONTROLBAR:ToolTipMuzgashPutridBlade
-"Requires Level 3 \n Muzgash dips his blade in orcish poison, \n temporarily dealing strong poison damage and knockback \n Left click to activate"
+"Requires Level 3 \n Mûzgash dips his blade in orcish poison, \n temporarily dealing strong poison damage and knockback \n Left click to activate"
 End
 
 CONTROLBAR:MuzgashDiscipline
-"Iron D&iscipline"
+"Iron Discipline (&T)"
 END
 
 CONTROLBAR:ToolTipMuzgashDiscipline
-"Requires Level 6 \n Muzgash whips his underlings into proper formation, \n granting them +33% movement speed for a limited time \n Left click on icon then left click on target"
+"Requires Level 6 \n Mûzgash whips his underlings into proper formation, \n granting them +33% movement speed for a limited time \n Left click on icon then left click on target"
 End
 
 CONTROLBAR:MuzgashSupremacy
-"Token of Supremac&y"
+"Token of Supremacy (&C)"
 END
 
 CONTROLBAR:ToolTipMuzgashSupremacy
-"Requires Level 9 \n Muzgash presents his foes with a token of past victories \n Enemy units lose all leadership and lose 33% movement speed \n Left click on icon then left click on target"
+"Requires Level 9 \n Mûzgash presents his foes with a token of past victories \n Enemy units lose all leadership and lose 33% movement speed \n Left click on icon then left click on target"
 End
 
 //------- Callous
@@ -59424,7 +59424,7 @@ CONTROLBAR:MuzgashLeadership3
 End
 
 CONTROLBAR:ToolTipMuzgashLeadership3
-"Requires Level 10 \n Modifier Type: Leadership \n Allies near Muzgash gain fear resistance\n Stacks with Buffs and Spells \nPassive ability"
+"Requires Level 10 \n Modifier Type: Leadership \n Allies near Mûzgash gain fear resistance\n Stacks with Buffs and Spells \nPassive ability"
 End
 
 CONTROLBAR:MuzgashHowl
@@ -59432,7 +59432,7 @@ CONTROLBAR:MuzgashHowl
 End
 
 CONTROLBAR:ToolTipMuzgashHowl
-"Requires Level 7 \n Muzgash stun enemies with terror \n Left click to activate \nPassive ability"
+"Requires Level 7 \n Mûzgash stun enemies with terror \n Left click to activate \nPassive ability"
 End
 
 //------------ Drake Lair ---------------
@@ -59442,7 +59442,7 @@ OBJECT:WyrmDrakeLair
 End
 
 OBJECT:FireWyrmLairDescription
-"Allows recruitment of Wyrms"
+"Allows recruitment of Wyrms and Cold Drakes"
 END
 
 CONTROLBAR:ConstructFireWyrmLair
@@ -59451,15 +59451,15 @@ END
 
 CONTROLBAR:ToolTipConstructFireWyrmLair
 //"Allows the recruitment of Wyrms and Giant Bats \n Increases command point limit by 25"
-"Requires the Allegiance: Northern Wastes upgrade \n Trains and upgrades Wyrms \n Increases command point limit by 25"
+"Requires the Brood of the North upgrade \n Tames Wyrms and Cold Drakes \n Increases command point limit by 25"
 END
 
 CONTROLBAR:UpgradeFireWyrmLairLevel2
-"&Upgrade Wyrm Lair to Level 2"
+"Upgrade Wyrm Lair to Level 2 (&A)"
 END
 
 CONTROLBAR:UpgradeFireWyrmLairLevel3
-"&Upgrade Wyrm Lair to Level 3"
+"Upgrade Wyrm Lair to Level 3 (&A)"
 END
 
 Upgrade:FireWyrmLairLevel2
