@@ -8282,7 +8282,7 @@ CONTROLBAR:GrabAndEatPassenger
 END
 
 CONTROLBAR:SpecialAbilityIgnite
-"&Ignite"
+"Ignite (&W)"
 END
 
 CONTROLBAR:SpecialAbilityFlamingSword
@@ -8290,19 +8290,19 @@ CONTROLBAR:SpecialAbilityFlamingSword
 END
 
 CONTROLBAR:SpecialAbilityFireWhip
-"Fire &Whip"
+"Fire Whip (&R)"
 END
 
 CONTROLBAR:SpecialAbilityBalrogScream
-"Screa&m"
+"Scream (&T)"
 END
 
 CONTROLBAR:SpecialAbilityBalrogBreath
-"B&reathe Fire"
+"Breathe Fire (&C)"
 END
 
 CONTROLBAR:SpecialAbilityBalrogWings
-"Wi&ngs"
+"Wings (&V)"
 END
 
 CONTROLBAR:KnifeFighter
@@ -8318,7 +8318,7 @@ CONTROLBAR:SwoopAttack
 End
 
 CONTROLBAR:ChargeAttack
-"&Charge Attack"
+"Charge Attack (&W)"
 END
 
 CONTROLBAR:Guard
@@ -8679,7 +8679,7 @@ UPGRADE:StoneworkerUpgradeReinforcedGate
 END
 
 UPGRADE:StoneworkerUpgradeNumenorStonework
-"Númenor Stonework"
+"Númenórean Stonework"
 END
  
 UPGRADE:StoneworkerUpgradeToUseFireArrows
@@ -8850,6 +8850,10 @@ OBJECT:RohanSpearThrower
 "Yeoman Spear Thrower"
 END
 
+OBJECT:RohanSpearThrowerHorde
+"Yeoman Spear Throwers"
+END
+
 OBJECT:RohanTheoden
 "Théoden"
 END
@@ -8973,7 +8977,7 @@ UPGRADE:UpgradeMundburgMasonry
 End
 
 CONTROLBAR:MundburgMasonry
-"Mundburg Masonr&y"
+"Mundburg Masonry (&R)"
 End
 
 CONTROLBAR:ToolTipMundburgMasonry
@@ -9020,6 +9024,10 @@ OBJECT:GondorRanger
 "Ithilien Ranger"
 END
 
+OBJECT:GondorRangerSpear
+"Ithilien Sentinel"
+END
+
 OBJECT:GondorFaramir
 "Faramir"
 END
@@ -9060,6 +9068,10 @@ OBJECT:GondorAragorn
 "Aragorn"
 END
 
+OBJECT:CampaignRoheryn
+"Roheryn"
+END
+
 OBJECT:RohanGrimbold
 "Grimbold"
 END
@@ -9082,6 +9094,18 @@ END
 
 OBJECT:CaptainCarthaen
 "Captain Carthaen"
+END
+
+OBJECT:CampaignToradan
+"Toradan"
+END
+
+OBJECT:CampaignAmdir
+"Amdir"
+END
+
+OBJECT:CampaignLothrandir
+"Lothrandir"
 END
 
 OBJECT:ElvenArwen
@@ -9237,6 +9261,10 @@ OBJECT:IsengardSaruman
 "Saruman"
 END
 
+OBJECT:IsengardSarumanRingHero
+"Saruman of Many Colours"
+END
+
 OBJECT:IsengardSharku
 "Sharku"
 END
@@ -9244,6 +9272,14 @@ END
 OBJECT:IsengardWildman
 "Wildman of Dunland"
 END
+
+OBJECT:Ruffian
+"Ruffian"
+END
+
+OBJECT:HordeRuffian
+"Ruffians"
+End
 
 OBJECT:IsengardWildmanGuard
 "Guard of Orthanc"
@@ -9371,6 +9407,14 @@ OBJECT:Throne
 "Throne"
 END
 
+OBJECT:DwarfThroneofErebor
+"Throne"
+END
+
+OBJECT:AotROsgiliathGrate
+"Sewer Gate"
+END
+
 OBJECT:Stairs
 "Stairs"
 END
@@ -9489,6 +9533,10 @@ END
 
 OBJECT:Skeleton
 "Skeleton"
+END
+
+OBJECT:CampaignSpellstone
+"Spell-stone"
 END
 
 OBJECT:Village
@@ -9815,7 +9863,7 @@ OBJECT:GenericMountainTroll
 END
 
 CONTROLBAR:TrollFindTree
-"Find a &Tree"
+"Find a Tree (&C)"
 END
 
 CONTROLBAR:ConstructWarg
@@ -9827,7 +9875,7 @@ CONTROLBAR:ToolTipBuildWarg
 END
 
 CONTROLBAR:ConstructSpider
-"Spider&ling"
+"Spiderling (&W)"
 END
 
 CONTROLBAR:ToolTipBuildSpider
@@ -9835,7 +9883,7 @@ CONTROLBAR:ToolTipBuildSpider
 END
 
 CONTROLBAR:ConstructBarrowWight
-"&Wight"
+"Wight (&W)"
 END
 
 CONTROLBAR:ToolTipBuildBarrowWight
@@ -9843,7 +9891,7 @@ CONTROLBAR:ToolTipBuildBarrowWight
 END
 
 CONTROLBAR:NimrodelWaters
-"Blessed &Waters"
+"Blessed Waters (&W)"
 END
 
 CONTROLBAR:ToolTipNimrodelWaters
@@ -9851,7 +9899,7 @@ CONTROLBAR:ToolTipNimrodelWaters
 END
 
 CONTROLBAR:MallornRoots
-"Mallorn &Roots"
+"Mallorn Roots (&E)"
 END
 
 CONTROLBAR:ToolTipMallornRoots
@@ -10786,6 +10834,10 @@ OBJECT:WeaponRack
 "Weapon Rack"
 END
 
+OBJECT:GondorArmorRack
+"Armor Rack"
+END
+
 OBJECT:Flag
 "Flag"
 END
@@ -10942,6 +10994,8 @@ END
 ///FUDGE CAMPAIGN Strings
 //////////////////////////////////
 
+//////////CAMPAIGN OBJECTS/////////////
+
 OBJECT:GamlingRoyalBanner
 "Banner of Eorl"
 END
@@ -10987,6 +11041,62 @@ OBJECT:FireWood
 "Firewood"
 END
 
+OBJECT:DunedainSword
+"Dunedain Sword"
+END
+
+OBJECT:CampaignBrooch
+"Brooch"
+END
+
+OBJECT:CampaignBelt
+"Hobbit Belt"
+END
+
+OBJECT:CampaignUrukArmour
+"Abandoned Armour"
+END
+
+OBJECT:BoromirShieldRohan
+"Rohan shield"
+END
+
+OBJECT:CampaignGorg
+"Gorg"
+END
+
+OBJECT:CampaignGrog
+"Grog"
+END
+
+OBJECT:CampaignBooks
+"Books"
+END
+
+OBJECT:CampaignWaystone
+"Waystone"
+END
+
+OBJECT:CampaignMog
+"Mog"
+END
+
+OBJECT:GarrisonableBush
+"Hiding Spot"
+END
+
+OBJECT:CollapsingRockColumn
+"Rocks"
+END
+
+OBJECT:Shane
+"Shane"
+END
+
+//////////CAMPAIGN MISSIONS/////////////
+
+///////Fellowship/////////
+
 CampaignName:LastAlliance
 "The Last Alliance"
 END
@@ -11020,12 +11130,58 @@ CampaignName:Khazad
 END
 
 CampaignName:Lothlorien
-"The Woods of Lothlorien"
+"Assault upon the Golden Wood"
 END
 
 CampaignName:AmonHen
 "Breaking of the Fellowship"
 END
+
+///////TwoTowers/////////
+
+CampaignName:FordsofIsen
+"Battle of the Fords of Isen"
+END
+
+CampaignName:TamingofSmeagol
+"The Taming of Smeagol"
+END
+
+CampaignName:EavesofFangorn
+"The Three Hunters"
+END
+
+CampaignName:DurinsTower
+"The Battle of the Peak"
+END
+
+CampaignName:Ithilien
+"Ambush in Ithilien"
+END
+
+CampaignName:Westfold
+"The Burning of the Westfold"
+END
+
+CampaignName:Osgiliath
+"Escape from Osgiliath"
+END
+
+CampaignName:GreyCompany
+"The Grey Company Sets Out"
+END
+
+CampaignName:HelmsDeep
+"The Battle of the Hornburg"
+END
+
+CampaignName:Isengard
+"The Last March of the Ents"
+END
+
+//////////CAMPAIGN MAPS/////////////
+
+///////Fellowship/////////
 
 Map:MAP GOOD REDHORN
 "Good Redhorn"
@@ -11043,13 +11199,73 @@ Map:MAP GOOD COUNCIL OF ELROND
 "Good Council of Elrond"
 END
 
-Map:MAP GOOD DWEATHERTOP
+Map:MAP GOOD WEATHERTOP
 "Good Fords of Bruinen"
 END
 
 Map:MAP GOOD SHADOW OF THE PAST
 "Good Shadow of the Past"
 END
+
+///////TwoTowers/////////
+
+Map:MAPGOODfordsofisen
+"Campaign Fords of Isen"
+End
+
+Map:MAPGOODtamingofsmeagol
+"Campaign Taming of Smeagol"
+End
+
+Map:MAPGOODeavesoffangorn
+"Campaign Three Hunters"
+End
+
+Map:MAPGOODdurinstower
+"Campaign Durin's Tower"
+End
+
+Map:MAPGOODithilien
+"Campaign Ithilien"
+End
+
+Map:MAPGOODwestfold
+"Campaign Westfold"
+End
+
+Map:MAPGOODosgiliath
+"Campaign Osgiliath"
+End
+
+Map:MAPGOODgreycompany
+"Campaign Grey Company"
+End
+
+Map:MAPGOODhelmsdeep
+"Campaign Helm's Deep"
+End
+
+Map:MAPGOODisengard
+"Campaign Isengard"
+End
+
+//////////CAMPAIGN DIALOGUE/////////////
+
+DIALOGEVENT:mgfotr_nazgul004
+"Son of Gondor... you are known to us..." 
+END
+
+DIALOGEVENT:mgfotr_nazgul005
+"Foolish boy... like your father..." 
+END
+
+DIALOGEVENT:mgfotr_nazgul006
+"Your victory is hollow... the Dark Lord will have your city..." 
+END
+
+//////////////////////////////////////
+//////////END OF CAMPAIGN/////////////
+//////////////////////////////////////
 
 // comment:
 
@@ -14466,7 +14682,7 @@ SCRIPT:Objective04_Shadow
 END
 
 SCRIPT:Objective05_Shadow
-"Defend the Prancing Pony from the Black Riders assault"
+"Defend the Prancing Pony from the Black Riders' assault"
 END
 
 SCRIPT:ObjectiveHint01_Shadow
@@ -14704,7 +14920,7 @@ SCRIPT:BonusObjective02_Moria
 END
 
 SCRIPT:BonusObjective03_Moria
-"Reach the Great Hall within 10 minutes."
+"Reach the Great Hall within 25 minutes."
 END
 
 SCRIPT:BonusObjective04_Moria
@@ -14714,19 +14930,19 @@ END
 //////////////////KHAZAD-DUM////////////////////
 
 SCRIPT:Objective01_Khazad
-"Escape Moria."
+"Escape Moria"
 END
 
 SCRIPT:Objective02_Khazad
-"All heroes must survive."
+"All heroes must survive"
 END
 
 SCRIPT:Objective03_Khazad
-"Find the Chamber of Mazarbul."
+"Find the Chamber of Mazarbul"
 END
 
 SCRIPT:Objective04_Khazad
-"Kill the Goblin Shamans to break the enchanment"
+"Kill the Goblin Shamans to break the enchantment"
 END
 
 SCRIPT:Objective05_Khazad
@@ -14852,11 +15068,11 @@ CONTROLBAR:TooltipOutpostUnpack
 END
 
 CONTROLBAR:ConstructMenWallHub
-"&Wall Hub"
+"Wall Hub (&A)"
 END
 
 CONTROLBAR:ConstructMenFortress
-"&Fortress"
+"Fortress (&I)"
 END
 
 CONTROLBAR:ConstructEconomyPlot
@@ -14880,7 +15096,7 @@ CONTROLBAR:TooltipLumbermillUnpack
 END
 
 CONTROLBAR:UnpackLumbermill
-"Build L&umber Mill"
+"Build Lumber Mill (&D)"
 END
 
 CONTROLBAR:UnpackSlaughterhouse
@@ -14888,11 +15104,11 @@ CONTROLBAR:UnpackSlaughterhouse
 END
 
 CONTROLBAR:TooltipSlaughterhouseUnpack
-"Generates resources based on available terrain Increases command point limit \n Reduces cost of Trolls and Mûmakil"
+"Generates resources based on available terrain Increases command point limit \n Reduces cost of Trolls and Great Beasts of Gorgoroth"
 END
 
 CONTROLBAR:ConstructMenPorter
-"Bui&lder"
+"Builder (&W)"
 END
 
 CONTROLBAR:ToolTipConstructMenPorter
@@ -14900,15 +15116,23 @@ CONTROLBAR:ToolTipConstructMenPorter
 END
 
 CONTROLBAR:ConstructMenFarm
-"Build Fa&rm"
+"Build Farm (&W)"
 END
 
 CONTROLBAR:ConstructMenBarracks
-"Build Barra&cks"
+"Build Barracks (&T)"
+END
+
+CONTROLBAR:ConstructDolAmrothBarracks
+"Build Dol Amr&oth Barracks"
+END
+
+CONTROLBAR:ToolTipConstructDolAmrothBarracks
+"Trains the units of Dol Amroth princedom \n Increases command point limit by 25 \n Requires Prince Imrahil"
 END
 
 CONTROLBAR:ConstructMenArcheryRange
-"Build Archer&y Range"
+"Build Archery Range (&C)"
 END
 
 CONTROLBAR:ToolTipMenArcheryRange
@@ -19270,6 +19494,11 @@ GUI:UPGRADEEVIL_DISCOUNT
 "Surplus Bonus -%d%%"
 END
 
+GUI:WILDUPGRADEEVIL_DISCOUNT
+// Context: used to display the upgrade discount modifier in the palantir
+"Treasure Bonus -%d%%"
+END
+
 GUI:STRUCTURE_WALL_DISCOUNT
 // Context: used to display the structure/wall discount modifier in the palantir
 "Structure/Wall Bonus -%d%%"
@@ -21544,6 +21773,10 @@ End
 
 LW:TerritoryErebor
 "Erebor"
+End
+
+LW:TerritoryHarad
+"Haradwaith"
 End
 
 LW:ClickToBegin
@@ -31528,6 +31761,10 @@ CONTROLBAR:UntamedAllegiance
 "Untamed Allegiance"
 END
 
+CONTROLBAR:WildAllegiance
+"Wild Allegiance (&T)"
+END
+
 CONTROLBAR:AwakenWyrm
 "Summon Were-worm"
 END
@@ -31550,7 +31787,8 @@ END
 /////////////////////
 
 CONTROLBAR:PurchaseUpgradeWildFortressBatCloud
-"Bat Swa&rm"
+//"Bat Swarm (&T)"
+"Cave Bats (&E)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud
@@ -31558,15 +31796,24 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud
 END
 
 CONTROLBAR:PurchaseUpgradeWildFortressFireArrows
-"&Scaffolding"
+//"Scaffolding (&D)"
+"Infestation (&T)"
 END
 
 CONTROLBAR:PurchaseUpgradeWildFortressGoblinTown
-"Allegiance: Gobli&n-town"
+"Allegiance: Goblin-town (&W)"
 END
 
+CONTROLBAR:PurchaseUpgradeWildFortressWildAllegiance
+"Wild Allegiance (&W)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWildAllegiance
+"Unlocks Wild Allegiance \n Can be cast on any Creep Lair to take control of the lair and start producing units \n Captured lairs produce resources \n Reduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces cost of builders by 20%"
+End
+
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressGoblinTown
-"Allows training of Goblin-towners and The Great Goblin \n Reduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces cost of builders by 20%""
+"Allows training of Goblin-towners and The Great Goblin \n Reduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces cost of builders by 20%"
 End
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressGoblinTownForMap
@@ -31574,7 +31821,8 @@ CONTROLBAR:ToolTipPurchaseUpgradeWildFortressGoblinTownForMap
 End
 
 CONTROLBAR:PurchaseUpgradeWildFortressWebCocoon
-"Allegiance: &Gundabad"
+//"Allegiance: Gundabad (&E)"
+"Gundabad Spires (&D)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWebCocoon
@@ -59269,6 +59517,56 @@ CONTROLBAR:ToolTipBuildWildGundabadArcherHorde
 "Requires Level 2 Gundabad Pit \n Strong vs Swordsmen \n Can fire Barbed Arrows \n \n Feared throughout Eriador, these Mountain-orc manhunters have a reputation for being cruel and ruthless in tracking down their quarry."
 End
 
+
+//------------ Lug the Mauled ---------------
+
+OBJECT:LugtheMauled
+"Lug the Mauled"
+END
+CONTROLBAR:LugRecruitNew
+"Recruit the deranged killer for hire, Lug \n \n Harboring an equal appetite for gold and destruction, Lug is a ferocious manhunter whose murderous reputation precedes him throughout the dredges of the Misty Mountains."
+END
+CONTROLBAR:LugReviveNew
+"Revive the fallen Hero, Lug"
+END
+CONTROLBAR:LugHotkeyNew
+"Lug the Mauled (&T)"
+END
+CONTROLBAR:ToolTipLugHeadhunter
+"Puts a price on an enemy hero's head, reducing their armor and speed by 20% \n At level 3, reduces armor and speed by 30% \n At level 6, reduces armor and speed by 40% \n At level 10, reduces armor and speed by 50% \nLeft click icon then left click on target"
+END
+CONTROLBAR:GoingDownSwinging
+"Goin' Down Swinging (&T)"
+END
+CONTROLBAR:ToolTipGoingDownSwinging
+"Requires Level 3 \n Lug harms himself to temporarily gain +50% armour, +50% damage and +20% speed \n Can only use with sword equipped \n Left click to activate"
+END
+CONTROLBAR:LugScorchedEarth
+"Scorched Earth (&C)"
+END
+CONTROLBAR:ToolTipLugScorchedEarth
+"Requires Level 6 \n Lug sets fire to the earth and burns all friendly and enemy units \n Left click to activate"
+END
+CONTROLBAR:LW_Hero_Lug
+"Lug the Mauled"
+END
+//------------ Bolg New ---------------
+
+OBJECT:WildBolgNew
+"Bolg of the North"
+END
+CONTROLBAR:ToolTipBuildBolgNew
+"Recruit Bolg of the North"
+END
+CONTROLBAR:BolgRecruitNew
+"Recruit the Scourge of the Misty Mountains \n \n 'The Goblins are upon you! Bolg of the North is coming. O Dain! whose father you slew in Moria. \n Behold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'"
+END
+CONTROLBAR:BolgReviveNew
+"Revive the fallen Hero, Bolg"
+END
+CONTROLBAR:BolgHotkeyNew
+"Bolg of the North (&D)"
+END
 //------------ Bolg Hobbit ---------------
 
 OBJECT:WildBolg
@@ -59287,7 +59585,45 @@ END
 CONTROLBAR:BolgHotkey
 "&Bolg"
 END
-
+CONTROLBAR:BolgLeadership
+"Wild Overlord"
+END
+CONTROLBAR:ToolTipBolgLeadership
+"Modifier Type: Leadership\nNearby Orcs, Wargs and Giant Bats receive +50% armour and resistance to fear and terror\nStacks with Buffs and Spells\nPassive ability"
+END
+CONTROLBAR:BolgGrowingHatred
+"Growing Hatred (&R)"
+END
+CONTROLBAR:ToolTipBolgGrowingHatred
+"Requires Level 3\n Bolg deals increased damage against Dwarves \n Passive ability \n\n When activated, Bolg deals knockback damage with a greater attack radius \n Consecutive attacks temporarily increase attack damage by 10% up to a maximum of 50% \n Left click to activate"
+END
+CONTROLBAR:BolgRuledByFear
+"Ruled By Fear (&T)"
+END
+CONTROLBAR:ToolTipBolgRuledByFear
+"Requires Level 5\n Modifier Type: Spell\nNearby allied units temporarily deal +125% damage, but lose -50% armour and do not gain experience whilst effect lasts\nStacks with Buffs, Leadership and other Spells\n\n Nearby enemies units flee in terror\nLeft click to activate"
+END
+CONTROLBAR:BolgUnpierceableRanks
+"Unpierceable Ranks (&C)"
+END
+CONTROLBAR:ToolTipBolgUnpierceableRanks
+"Requires Level 7\nBolg is protected by four Bodyguards \n Passive ability \n\n When activated, Bolg gains +50% armour \n Left click to activate"
+END
+CONTROLBAR:BolgTerrorOfNorth
+"Terror of the North (&V)"
+END
+CONTROLBAR:ToolTipBolgTerrorOfNorth
+"Requires Level 10\nBolg summons a small army of Mountain-orcs, Wolf-riders and Giants Bats\n Left click icon then left click target area"
+END
+OBJECT:BolgBodyGuard
+"Bolg's Bodyguard"
+END
+OBJECT:GolfimbulBodyguard
+"Golfimbul's Bodyguard"
+END
+OBJECT:AzogBodyguard
+"Azog's Bodyguard"
+END
 CONTROLBAR:BolgCastellan
 "Castellan of Mount Gundabad"
 END
@@ -59301,7 +59637,7 @@ CONTROLBAR:SpecialAbilityBolgCripple
 END
 
 CONTROLBAR:SpecialAbilityBolgCarnage
-"O&rcish Fury"
+"Orcish Fury (&R)"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityBolgCarnage
@@ -61040,16 +61376,16 @@ END
 
 CONTROLBAR:GreatGoblinSwarm
 //"&Totem of the Swarm"
-"S&warm"
+"Swarm (&W)"
 END
 
 CONTROLBAR:ToolTipGreatGoblinSwarm
-//"Requires Level 10 \n The Great Goblin may recruit hordes of Goblin Towners at his Totem \n Left click on icon then left click on target position"
-"Summons Goblin-towners \n Number of summoned hordes summoned is analogous to the Great Goblin's rank \n Left click to activate"
+//"Requires Level 10 \n The Great Goblin may recruit hordes of Goblin-towners at his Totem \n Left click on icon then left click on target position"
+"Summons Goblin-town Warriors \n Number of summoned hordes summoned is analogous to the Great Goblin's rank \n\n Modifier Type: Buff \n When activated, nearby Moria-orcs and Goblin-towers gain +15% speed and damage \n Stacks with leaderships, spells and other buffs \n Left click to activate"
 END
 
 CONTROLBAR:GreatGoblinSwarm2
-"&Swarm"
+"Swarm (&W)"
 END
 
 CONTROLBAR:ToolTipGreatGoblinSwarm2
@@ -68818,7 +69154,7 @@ OBJECT:Lindir
 END
 
 CONTROLBAR:ConstructWildGundabadBerserkerHorde
-"Gundaba&d Berserkers"
+"Gundabad Berserkers (&T)"
 END
 
 CONTROLBAR:ToolTipBuildWildGundabadBerserkerHorde
