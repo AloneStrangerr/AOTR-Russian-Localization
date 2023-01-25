@@ -61015,7 +61015,7 @@ CONTROLBAR:TooltipSummonLossarnachAllies
 END
 
 CONTROLBAR:WildGreatGoblinRecruit
-"Requires the Allegiance: Goblin-town upgrade \n Recruit the King of Goblin Town \n \n 'Abominations, disfigurations, mutilations, and repulsions... That's all you're going to find down here.'"
+"Recruit the King of Goblin-town \n \n 'Abominations, disfigurations, mutilations, and repulsions... That's all you're going to find down here.'"
 END
 
 CONTROLBAR:WildGreatGoblinRevive
@@ -61023,7 +61023,7 @@ CONTROLBAR:WildGreatGoblinRevive
 END
 
 CONTROLBAR:WildGreatGoblinHotkey
-"Great Gobli&n"
+"Great Goblin (&S)"
 END
 
 OBJECT:WildGreatGoblin
@@ -61031,11 +61031,11 @@ OBJECT:WildGreatGoblin
 END
 
 OBJECT:GoblinTownFighter
-"Goblin Towner"
+"Goblin-town Warrior"
 END
 
 OBJECT:HordeGoblinTownFighters
-"Goblin Towners"
+"Goblin-town Warriors"
 END
 
 CONTROLBAR:GreatGoblinSwarm
@@ -61053,38 +61053,46 @@ CONTROLBAR:GreatGoblinSwarm2
 END
 
 CONTROLBAR:ToolTipGreatGoblinSwarm2
-"The Great Goblin calls a horde of Goblin Towners to battle \n Respects command limit \n Strong vs. Pikemen \n 60 Command Points \n Left click on icon to summon a horde"
+"The Great Goblin calls a horde of Goblin-towners to battle \n Respects command limit \n Strong vs. Pikemen \n 60 Command Points \n Left click on icon to summon a horde"
 END
 
 CONTROLBAR:ConstructGoblinTownFighterHorde
-"&Goblin Town Warriors"
+"Goblin-town Warriors (&W)"
 END
 
 CONTROLBAR:ToolTipBuildGoblinTownFighterHorde
-"Requires the Allegiance: Goblin-town upgrade \n Strong vs. Pikemen \n\n This wretched swarm of diseased, mutilated troglodytes is united by one thing alone: their fearful worship of The Great Fat One - an abominable orcish warlord who has managed to wield their collective villainy to construct the great settlement of Goblin-town."
+"Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Moria Orc Screechers, Moria Orc Archers and Goblin-town Warriors gain +50% damage when gathered in numbers of 150 or more \n Stacks with buffs, Leadership and other spells \n\n This wretched swarm of diseased, mutilated troglodytes is united by one thing alone: their fearful worship of The Great Fat One - an abominable orcish warlord who has managed to wield their collective villainy to construct the great settlement of Goblin-town."
 END
 
 CONTROLBAR:GreatGoblinLeadership
-"The Goblin &King"
+"The Goblin King (&R)"
 END
 
 CONTROLBAR:ToolTipGreatGoblinLeadership
-"Requires Level 3 \nModifier Type: Leadership \n Nearby Moria Orcs and Goblin Towners gain +33% Damage and +33% Armor\n Stacks with Buffs and Spells \n Passive ability \n\n At Level 7 \n Gives targeted units excellent experience \n Left click icon then left click on target units"
+"Modifier Type: Leadership \n Nearby Moria Orcs and Goblin-towners gain +33% Damage and +33% Armor and resistance to fear and terror\n Stacks with Buffs and Spells \n Passive ability \n\n At Level 7 \n Gives targeted units excellent experience \n Left click icon then left click on target units"
+END
+
+CONTROLBAR:GreatGoblinDemand
+"Goblin King's Demand (&T)"
+END
+
+CONTROLBAR:ToolTipGreatGoblinDemand
+"Requires Level 5 \n Summons a Totem of the Swarm at the target location \n Totem can recruit Goblin-town Warriors and reveal stealthed units \n Nearby enemy movement speed is decreased by -25% \n Maximum of 3 Totems allowed \n Left click then left click target location"
 END
 
 CONTROLBAR:GreatGoblinAntiquarian
-"Ant&iquarian"
+"Antiquarian (&C)"
 END
 CONTROLBAR:ToolTipGreatGoblinAntiquarian
 "Requires Level 7 \n The Great Goblin makes a deal on some fine antiques. Be careful though, his eyesight is going and he might get burned. Beware of Dragon Sickness. \n Left click on icon then left click on target area"
 END
 
 CONTROLBAR:GreatGoblinAbominableSong
-"Abomi&nable Song"
+"Abominable Song (&V)"
 END
 
 CONTROLBAR:TooltipGreatGoblinAbominableSong
-"Requires Level 5 \nModifier Type: Spell and Active Debuff \n Nearby friendly units gain +33% Damage and +33% Armor\n Nearby enemy units suffer -25% Damage and -20% Armor \nNullifies enemy Leadership \n Stacks With Buffs, Leadership and other Spells \n Does not stack with other Debuffs \nLeft click icon to activate"
+"Requires Level 9 \nModifier Type: Spell and Active Debuff \n Nearby friendly units gain +33% Damage and +33% Armor\n Nearby enemy units suffer -25% Damage and -20% Armor \nNullifies enemy Leadership \n Stacks With Buffs, Leadership and other Spells \n Does not stack with other Debuffs \nLeft click icon to activate"
 END
 
 OBJECT:Antequaries
