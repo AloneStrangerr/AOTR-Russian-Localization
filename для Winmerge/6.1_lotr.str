@@ -55367,7 +55367,7 @@ OBJECT:HordeLorienWarrior
 "Tawar-na-Eithyr"
 END
 CONTROLBAR:ConstructElvenLorienWarriorHorde
-"Tawar-na-&Eithyr"
+"Tawar-na-Eithyr (&W)"
 END
 
 OBJECT:HordeLorienArcher
@@ -55375,7 +55375,7 @@ OBJECT:HordeLorienArcher
 END
 CONTROLBAR:ConstructElvenLorienArcherHorde
 //"Tr&ain Lorien Archers"
-"Tawar-na-&Pengryn"
+"Tawar-na-Pengryn (&E)"
 END
 
 OBJECT:HordeLorienWardenArcherCombo
