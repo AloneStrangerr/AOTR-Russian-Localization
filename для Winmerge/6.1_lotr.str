@@ -26856,15 +26856,15 @@ CONTROLBAR:ToolTipCommand_ConstructMenWallHubExpansion
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressNumenorStonework
-"Númenor S&tonework"
+"Númenórean Stonework (&S)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework
-"Increases Fortress and Wall armor \n Prerequisite for Ivory Tower"
+"Increases Fortress and Wall armor \n Prerequisite for Tower of Ecthelion"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressFlamingMunitions
-"&Flaming Munitions"
+"Flaming Munitions (&T)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressFlamingMunitions
@@ -26879,11 +26879,15 @@ CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressFlamingMunitions
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressBanners
-"Ba&nners"
+"Banners of the White Tree (&W)"
+END
+
+CONTROLBAR:PurchaseUpgradeLothlorienFortressBanners
+"Banners of the Golden Wood (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressHouseOfHealing
-"House of Healin&g"
+"House of Healing (&E)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
@@ -26891,7 +26895,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower
-"I&vory Tower"
+"Tower of Ecthelion (&D)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower
@@ -26903,11 +26907,11 @@ CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower_WOTR
 END
 
 CONTROLBAR:PurchaseUpgradeMenFortressBoilingOil
-"Bo&iling Oil"
+"Bulwark of the West (&R)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil
-"Allows the Fortress to pour boiling oil on nearby enemy troops"
+"Unlocks the Stalwart Defense ability \n Can be used to summon two battalions of Citadel Guards to defend the fortress"
 END
 
 
@@ -26916,7 +26920,7 @@ END
 ///////////////////////////////////
 
 CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan
-"Build Wall"
+"Build Wall (&W)"
 END
 
 CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
@@ -26924,7 +26928,7 @@ CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan
 END
 
 CONTROLBAR:Command_MenWallUpgradeToHub
-"&Wall Hub"
+"Wall Hub (&W)"
 END
 
 CONTROLBAR:ToolTipCommand_MenWallUpgradeToHub
@@ -26932,7 +26936,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToHub
 END
 
 CONTROLBAR:Command_MenWallUpgradeToRegularGate
-"&Gate"
+"Gate (&E)"
 END
 
 CONTROLBAR:ToolTipCommand_MenWallUpgradeToRegularGate
@@ -26940,7 +26944,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_MenWallUpgradeToPosternGate
-"&Postern Gate"
+"Postern Gate (&R)"
 END
 
 CONTROLBAR:ToolTipCommand_MenWallUpgradeToPosternGate
@@ -26948,7 +26952,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToPosternGate
 END
 
 CONTROLBAR:Command_MenWallUpgradeToTower
-"A&rrow Tower"
+"Arrow Tower (&T)"
 END
 
 CONTROLBAR:ToolTipCommand_MenWallUpgradeToTower
@@ -26956,7 +26960,7 @@ CONTROLBAR:ToolTipCommand_MenWallUpgradeToTower
 END
 
 CONTROLBAR:Command_MenWallUpgradeToTrebuchet
-"&Trebuchet"
+"Trebuchet (&S)"
 END
 
 CONTROLBAR:ToolTipCommand_MenWallUpgradeToTrebuchet
@@ -27011,7 +27015,7 @@ END
 ////////////////////////////////
 
 CONTROLBAR:ConstructDwarvenFortress
-"Build &Fortress"
+"Build Fortress (&I)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenFortress
@@ -27019,7 +27023,7 @@ CONTROLBAR:ToolTipConstructDwarvenFortress
 END
 
 CONTROLBAR:ConstructDwarvenSentryTower
-"Build Battle &Tower"
+"Build Battle Tower (&Y)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenSentryTower
@@ -27027,7 +27031,7 @@ CONTROLBAR:ToolTipConstructDwarvenSentryTower
 END
 
 CONTROLBAR:ConstructDwarvenBarracks
-"Build Ha&ll of Warriors"
+"Build Hall of Warriors (&T)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenBarracks
@@ -27035,7 +27039,7 @@ CONTROLBAR:ToolTipConstructDwarvenBarracks
 END
 
 CONTROLBAR:ConstructDwarvenWell
-"Build Dw&arven Well"
+"Build Dwarven Well (&G)"
 END
 
 CONTROLBAR:ConstructDwarvenHearth
@@ -27047,7 +27051,7 @@ CONTROLBAR:ToolTipConstructDwarvenHearth
 END
 
 CONTROLBAR:ConstructDwarvenForgeWorks
-"Build Gra&nd Forge"
+"Build Grand Forge (&R)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenForgeWorks
@@ -27055,7 +27059,7 @@ CONTROLBAR:ToolTipConstructDwarvenForgeWorks
 END
 
 CONTROLBAR:ConstructDwarvenHusbandry
-"Build Erebor Redo&ubt"
+"Build Erebor Redoubt (&V)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenHusbandry
@@ -27067,7 +27071,7 @@ CONTROLBAR:ToolTipConstructDwarvenHusbandryBlueMountains
 END
 
 CONTROLBAR:ConstructDwarvenWorkshop
-"Build Erebor Wor&kshop"
+"Build Erebor Workshop (&N)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenWorkshop
@@ -27092,7 +27096,7 @@ OBJECT:DwarvenWorkshopDescription
 END
 
 CONTROLBAR:ConstructDwarvenMineShaft
-"Build Dwa&rven Mine"
+"Build Dwarven Mine (&W)"
 END
 
 CONTROLBAR:ConstructEreborForge
@@ -27100,7 +27104,7 @@ CONTROLBAR:ConstructEreborForge
 END
 
 CONTROLBAR:ConstructDwarvenStatue
-"Build Hero&ic Statue"
+"Build Heroic Statue (&U)"
 END
 
 CONTROLBAR:TooltipConstructDwarvenStatue
@@ -27116,7 +27120,7 @@ CONTROLBAR:TooltipConstructDwarvenArcheryRange
 END
 
 CONTROLBAR:ConstructDwarvenAssembly
-"Build Erebor Assembl&y"
+"Build Erebor Assembly (&C)"
 END
 
 CONTROLBAR:TooltipConstructDwarvenAssembly
@@ -27124,7 +27128,7 @@ CONTROLBAR:TooltipConstructDwarvenAssembly
 END
 
 CONTROLBAR:ConstructDwarvenWallHub
-"Build &Wall Hub"
+"Build Wall Hub (&A)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenWallHub
@@ -27756,6 +27760,10 @@ END
 
 OBJECT:WildArrowDenExpansion
 "Arrow Den Expansion"
+END
+
+OBJECT:WildTrollSentryExpansion
+"Troll Sentry Expansion"
 END
 
 OBJECT:WildGiantSentryExpansion
