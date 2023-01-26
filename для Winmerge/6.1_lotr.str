@@ -26800,7 +26800,7 @@ CONTROLBAR:ToolTipCaptureBuilding
 END
 
 CONTROLBAR:SelectUpgradesMenFortress
-"Fortress &Upgrades"
+"Fortress Upgrades (&R)"
 END
 
 CONTROLBAR:ToolTipCommandSelectUpgradesMenFortress
@@ -26808,7 +26808,7 @@ CONTROLBAR:ToolTipCommandSelectUpgradesMenFortress
 END
 
 CONTROLBAR:SelectRevivablesMenFortress
-"He&roes"
+"Heroes (&E)"
 END
 
 CONTROLBAR:ToolTipCommandSelectRevivablesMenFortress
@@ -26820,7 +26820,7 @@ CONTROLBAR:ToolTipCommandSelectRevivablesMenFortress_WOTR
 END
 
 CONTROLBAR:ConstructMenTrebuchetExpansion
-"&Trebuchet Expansion"
+"Trebuchet Expansion (&R)"
 END
 
 CONTROLBAR:ToolTipConstructMenTrebuchetExpansion
@@ -26828,11 +26828,19 @@ CONTROLBAR:ToolTipConstructMenTrebuchetExpansion
 END
 
 CONTROLBAR:ConstructMenArrowTowerExpansion
-"A&rrow Tower Expansion"
+"Arrow Tower Expansion (&E)"
+END
+
+CONTROLBAR:ConstructMenSolemnStatueExpansion
+"Solemn Statue Expansion (&T)"
+END
+
+CONTROLBAR:ToolTipConstructMenSolemnStatueExpansion
+"Fountain Guards will defend the statue and attack nearby enemies"
 END
 
 CONTROLBAR:ConstructMenDormitory
-"&Dormitory Expansion"
+"Dormitory Expansion (&E)"
 END
 
 CONTROLBAR:ToolTipConstructMenArrowTowerExpansion
@@ -26840,7 +26848,7 @@ CONTROLBAR:ToolTipConstructMenArrowTowerExpansion
 END
 
 CONTROLBAR:Command_ConstructMenWallHubExpansion
-"&Wall Hub Expansion"
+"Wall Hub Expansion (&W)"
 END
 
 CONTROLBAR:ToolTipCommand_ConstructMenWallHubExpansion
@@ -33319,6 +33327,10 @@ OBJECT:Doors
 "Doors"
 End
 
+OBJECT:GondorSolemnStatue
+"Solemn Statue Expansion"
+END
+
 OBJECT:DormitoryExpansion
 "Dormitory Expansion"
 End
@@ -33586,7 +33598,7 @@ OBJECT:FallingRocks
 End
 
 OBJECT:FarmerMaggots
-"Farmer Maggots"
+"Bamfurlong"
 End
 
 OBJECT:FireDrakeLair
@@ -33758,7 +33770,7 @@ CONTROLBAR:GondorDenethorRevive
 END
 
 CONTROLBAR:GondorDenethorHotkey
-"Dene&thor II, Son of Ecthelion"
+"Denethor II, Son of Ecthelion (&S)"
 END
 
 OBJECT:GondorForbiddenPool
@@ -34191,6 +34203,10 @@ END
 
 STRATEGICHUD:ConstructionTurnsRemainingTooltip
 "Construction turns remaining"
+END
+
+OBJECT:IsengardAttackTroll
+"Isengard Troll"
 END
 
 OBJECT:MordorAttackTroll
@@ -42429,11 +42445,11 @@ Upgrade:WildFissureLevel3
 END
 
 Upgrade:WildSpiderPitLevel2
-"Warg Cage Level 2"
+"Wolf Cairn Level 2"
 END
 
 Upgrade:WildSpiderPitLevel3
-"Warg Cage Level 3"
+"Wolf Cairn Level 3"
 END
 
 Upgrade:WildVenomSacs
@@ -42527,11 +42543,11 @@ Upgrade:FortressHouseofHealing
 END
 
 Upgrade:FortressIvoryTower
-"Ivory Tower"
+"Tower of Ecthelion"
 END
 
 Upgrade:FortressNumenorStonework
-"Númenor Stonework"
+"Númenórean Stonework"
 END
 
 Upgrade:FortressFlamingMunitions
@@ -43368,7 +43384,7 @@ CampaignName:DolGuldur
 END
 
 CampaignName:Lothlorien
-"Lorien"
+"Assault upon the Golden Wood"
 END
 
 CampaignName:Shire
@@ -45112,7 +45128,7 @@ CONTROLBAR:CAH_Starlight
 END
 
 CONTROLBAR:HeroToggleHorse
-"&Mount / Dismount"
+"Mount / Dismount (&W)"
 END
 
 CONTROLBAR:CAH_HotW_Conquer
@@ -45984,7 +46000,7 @@ GUI:StuckAsObserverInStrategicRTSGameMessage
 END
 
 TOOLTIP:LackDragonNestWebCocoon
-"Requires the Allegiance: Gundabad upgrade \n Permanently summons 5 hordes of Moria Orcs"
+"Requires the Gundabad Spires upgrade \n Temporarily summons 5 hordes of Moria-orc Screechers"
 END
 
 TOOLTIP:LackEagleNestEncasingVines
@@ -54113,7 +54129,7 @@ UPGRADE:Upgrade_AngmarWallTower
 End
 
 CONTROLBAR:IsengardMineDetonate
-"Detonate Mine"
+"Detonate Mine (&W)"
 END
 
 CONTROLBAR:ToolTipIsengardMineDetonate
@@ -76115,8 +76131,8 @@ LW:DisplayNameEdoras
 "Edoras"
 End
 
-Map:MAPWORfortressedoras/Desc
-"Edoras is the capital of Rohan, encircled by walls and with the Golden Hall of Meduseld at the summit of its great mound. Outside the city, the tombs of past rulers of Rohan were arrayed in barrows, covered with flowering Simbelmyne."
+Map:MAPWORedoras/Desc
+"Edoras is the capital of Rohan, encircled by walls and with the Golden Hall of Meduseld at the summit of its great mound. Outside the city, the tombs of past rulers of Rohan are arrayed in barrows, covered with flowering Simbelmyne."
 End
 
 
@@ -76229,11 +76245,11 @@ End
 /////Region Evendim_Lake
 
 LW:DisplayNameEvendimLake
-"Lake Evendim"
+"Annúminas"
 End
 
 Map:MAPWORevendimlake/Desc
-"Lake Evendim is a large lake in northern Eriador. After the fall of Númenor, Elendil established the capital of Arnor, Annúminas, on the southern shore of the lake."
+"On the southern shores of Lake Evendim stand the ancient ruins of Annúminas, once seat of the Kings of Arnor. Its fair ruins and surrounding foothills are inhabited by the Dúnedain."
 End
 
 
