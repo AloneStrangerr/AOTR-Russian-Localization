@@ -41042,7 +41042,7 @@ CONTROLBAR:SauronRevive
 END
 
 CONTROLBAR:SauronHotkey
-"Sau&ron"
+"Sauron (&A)"
 END
 
 CONTROLBAR:SauronRecruit
@@ -41050,31 +41050,31 @@ CONTROLBAR:SauronRecruit
 END
 
 CONTROLBAR:SauronConflagaration
-"Conflagratio&n"
+"Conflagration (&R)"
 END
 
 CONTROLBAR:ToolTipSauronConflagaration
-"Destroys targeted enemy hero \n (only deals 25% of total damage to Gandalf, Elessar, Saruman, Witch-king, Azog, Galadriel, Elrond, Glorfindel, Thranduil, Théoden, Thorin, Necromancer, King Dáin, Golden King)"
+"Destroys targeted enemy hero \n (only deals 25% of total damage to Gandalf, Elessar, Saruman, Witch-king, Bolg, Galadriel, Elrond, Glorfindel, Thranduil, Théoden, Thorin, Necromancer, King Dáin, Golden King) \n Left click then left click target hero"
 END
 
 CONTROLBAR:SauronDominate
-"Annatar, &Lord of Gifts"
+"Annatar, Lord of Gifts (&T)"
 END
 
 CONTROLBAR:ToolTipSauronDominate
-"Temporarily converts enemy units in large radius"
+"Permanently converts enemy units in large radius \n Left click then left click target area"
 END
 
 CONTROLBAR:SauronLeadership
-"Gorthaur"
+"Gorthaur (&W)"
 END
 
 CONTROLBAR:ToolTipSauronLeadership
-"Modifier Type: Leadership \n All nearby units cower in fear whether friend or foe \n Stacks with Buffs and Spells \n Passive ability"
+"Modifier Type: Leadership \n All nearby units cower in fear whether friend or foe \n Stacks with Buffs and Spells \n Passive ability \n\n When activated, nearby enemy units and heroes are paralysed for 10 seconds \n Left click to activate"
 END
 
 CONTROLBAR:SpecialPowerSauronLordoftheRings
-"The Lord of the &Rings"
+"The Lord of the Rings (&C)"
 END
 
 CONTROLBAR:ToolTipSpecialPowerSauronLordoftheRings
@@ -41082,11 +41082,11 @@ CONTROLBAR:ToolTipSpecialPowerSauronLordoftheRings
 END
 
 TOOLTIP:LackIvoryTower
-"Requires the Numenor Stonework upgrade \n Provides Palantir Vision Power and Allows the recruitment of Fountain Guards \n Increases Fortress vision range"
+"Requires the Númenórean Stonework upgrade \n Provides Palantir Vision Power and Allows the recruitment of Fountain Guards \n Increases Fortress vision range"
 END
 
 TOOLTIP:LackIvoryTower_WOTR
-"Requires the Numenor Stonework upgrade \n Provides Palantir Vision Power \n Increases Fortress vision range"
+"Requires the Númenórean Stonework upgrade \n Provides Palantir Vision Power \n Increases Fortress vision range"
 END
 
 OBJECT:MordorBarricadeDescription
@@ -41890,7 +41890,7 @@ CONTROLBAR:TooltipPurchaseUpgradeMirkwoodSilverthornArrowsBattleTower
 END
 
 CONTROLBAR:PurchaseUpgradeMirkwoodSilverthornArrowsForBattleTower
-"Silvan F&letching"
+"Silvan Fletching (&W)"
 END
 
 TOOLTIP:LackArnorFireArrows
@@ -41982,7 +41982,7 @@ TOOLTIP:LackMordorFireArrow
 END
 
 TOOLTIP:LackGuldurFireArrow
-"Research upgrade at Guldur Gaol to enable this equipment \n When equipped, significantly increases the damage done by Arrows and allows level 2 Hunters to use 'Bring It Down!' ability to deal additional damage vs Flyers"
+"Research upgrade at Guldur Gaol to enable this equipment \n When equipped, significantly increases the damage done by Arrows"
 END
 
 TOOLTIP:LackMordorBasicTraining
