@@ -29516,7 +29516,7 @@ Recruit and Revive Heroes
 
 
 [CONTROLBAR:SelectUpgradesMordorFortress]
-&Upgrade Fortress
+Upgrade Fortress (&R)
 
 
 [CONTROLBAR:ToolTipCommandSelectUpgradesMordorFortress]
@@ -29524,7 +29524,7 @@ Purchase upgrades and additional defenses for the Fortress
 
 
 [CONTROLBAR:SelectRevivablesMordorFortress]
-He&roes
+Heroes (&E)
 
 
 [CONTROLBAR:ToolTipCommandSelectRevivablesMordorFortress]
@@ -29532,7 +29532,7 @@ Recruit and Revive Heroes
 
 
 [CONTROLBAR:ConstructMordorWallCatapultExpansion]
-&Catapult Expansion
+Catapult Expansion (&W)
 
 
 [CONTROLBAR:ToolTipConstructMordorWallCatapultExpansion]
@@ -29540,7 +29540,7 @@ Long range defensive weapon
 
 
 [CONTROLBAR:ConstructMordorBarricadeExpansion]
-Ba&rricade Expansion
+Barricade Expansion (&E)
 
 
 [CONTROLBAR:ToolTipConstructMordorBarricadeExpansion]
@@ -29548,7 +29548,7 @@ Defensive arrow tower that fires at enemy units
 
 
 [CONTROLBAR:ConstructMordorGateWatchersExpansion]
-Gate &Watchers Expansion
+Gate Watchers Expansion (&W)
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressFireArrows]
@@ -29560,11 +29560,11 @@ Equips Barricades with Fire Arrows
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressMorgulSorcery]
-Morgul Sor&cery
+Morgul Sorcery (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSorcery]
-Increases Fortress armor \n Unlocks Gothmog, Morgul Vanguard, Legions of Morgul and Olog-hai \n Prerequisite to Morgul Spire
+Increases Fortress armor \n Unlocks Gothmog, Legions of Morgul and Olog-hai \n Prerequisite to Morgul Spire
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSorceryForMaps]
@@ -29572,11 +29572,11 @@ Unlocks Gothmog, Morgul Vanguard, Legions of Morgul and Olog-hai
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressDoomPyres]
-&Doom Pyres
+Doom Pyres (&W)
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressMagmaCauldrons]
-&Magma Cauldrons
+Magma Cauldrons (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMagmaCauldrons]
@@ -29584,7 +29584,7 @@ Allows the Fortress to pour burning lava on nearby enemy units
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressLavaMoat]
-Flames of &Sammath Naur
+Flames of Sammath Naur (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat]
@@ -29600,7 +29600,7 @@ Allows the Fortress to launch a giant fireball
 
 
 [CONTROLBAR:FireWeaponMordorFortressMagmaCauldrons]
-&Magma Cauldrons
+Magma Cauldrons (&T)
 
 
 [CONTROLBAR:ToolTipFireWeaponMordorFortressMagmaCauldrons]
@@ -29636,7 +29636,7 @@ Repairs the selected wall span
 
 
 [CONTROLBAR:ConstructIsengardLumberMill]
-L&umber Mill
+Lumber Mill (&D)
 
 
 [CONTROLBAR:ToolTipConstructIsengardLumberMill]
@@ -29644,7 +29644,7 @@ Harvests resources from nearby trees \n Reduces cost of Buildings\n 2 Lumber Mil
 
 
 [CONTROLBAR:ConstructIsengardWargSentry]
-Build Warg Sentr&y
+Build Warg Sentry (&Y)
 
 
 [CONTROLBAR:ToolTipConstructIsengardWargSentry]
@@ -29652,7 +29652,7 @@ Defensive wargs that will attack nearby enemies \n Increases command point limit
 
 
 [CONTROLBAR:ConstructIsengardFortress]
-Build &Fortress
+Build Fortress (&I)
 
 
 [CONTROLBAR:ToolTipConstructIsengardFortress]
@@ -29668,7 +29668,7 @@ Trains Corsairs of Umbar \n Allows research of Mordor unit upgrades
 
 
 [CONTROLBAR:ConstructMordorLumberMill]
-B&uild Lumber Mill
+Build Lumber Mill (&D)
 
 
 [CONTROLBAR:TooltipConstructMordorLumberMill]
@@ -29693,11 +29693,11 @@ Strong vs. Pikemen
 
 
 [CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan]
-Build Wall
+Build Wall (&W)
 
 
 [CONTROLBAR:ConstructDwarvenHallExpansion]
-Ha&ll Expansion
+Hall Expansion (&R)
 
 
 [CONTROLBAR:Citadel]
@@ -29713,7 +29713,7 @@ Places a Citadel Fortress anywhere on the battlefield \n Left click icon then le
 
 
 [CONTROLBAR:SonicSong]
-Soni&c Song
+Sonic Song (&W)
 
 
 [CONTROLBAR:ToolTipSonicSong]
@@ -29721,7 +29721,7 @@ A powerful attack that blasts back nearby enemies \n Left click icon then left c
 
 
 [CONTROLBAR:SpecialPowerIncorruptable]
-&Incorruptible
+Incorruptible (&I)
 
 
 [CONTROLBAR:SpecialPowerToolTipIncorruptable]
@@ -29729,7 +29729,7 @@ Nothing may harm the Master of wood, water and hill\nBombadil temporarily become
 
 
 [CONTROLBAR:SummonWillow]
-Old Man &Willow
+Old Man Willow (&T)
 
 
 [OBJECT:OldManWillow]
@@ -29761,11 +29761,11 @@ Cause fear to nearby enemies
 
 
 [CONTROLBAR:MouthOfSauronDoubt]
-Dark Sorcer&y
+Dark Sorcery (&Y)
 
 
 [CONTROLBAR:MouthOfSauronDissent]
-Fa&ithless and Accursed
+Faithless and Accursed (&V)
 
 
 [CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye]
@@ -29786,7 +29786,7 @@ Requires Level 4 \n Targeted enemy takes poison damage over \n time and becomes 
 
 
 [CONTROLBAR:Escape]
-Es&cape
+Escape (&W)
 
 
 [CONTROLBAR:TooltipEscape]
@@ -29794,27 +29794,39 @@ Wormtongue becomes stealthed and can neither be attacked nor make an attack \n L
 
 
 [CONTROLBAR:VenomousWords]
-&Venomous Words
+Venomous Words (&R)
 
 
 [CONTROLBAR:Backstab]
-Back S&tab
+Back Stab (&T)
 
 
 [CONTROLBAR:CorrodeAllegiance]
 Co&rrode Allegiance
 
 
+[CONTROLBAR:MalignedLeechcraft]
+Maligned Leechcraft (&C)
+
+
 [CONTROLBAR:TameTheBeast]
 &Tame the Beast
 
 
+[CONTROLBAR:SendIntheWargs]
+Send in the Wargs (&R)
+
+
+[CONTROLBAR:ToolTipSendintheWargs]
+Requires Level 3\n Summons a wave of charging Wargs to crush the enemy \n Left click icon then left click on target
+
+
 [CONTROLBAR:BloodHunt]
-Blood Hunt
+Blood Hunt (&W)
 
 
 [CONTROLBAR:SharkuManEater]
-Man Eate&r
+Man Eater (&T)
 
 
 [CONTROLBAR:ElrondFarsight]
@@ -29838,7 +29850,7 @@ Blade of Puri&ty
 
 
 [CONTROLBAR:GlorfindelWindRider]
-&Noro lim, Asfaloth!
+Noro lim, Asfaloth! (&T)
 
 
 [CONTROLBAR:GlorfindelStarlight]

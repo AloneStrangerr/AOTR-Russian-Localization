@@ -30067,7 +30067,7 @@ Defensive arrow tower that fires at enemy units
 
 
 [CONTROLBAR:ConstructMordorGateWatchersExpansion]
-Gate Watchers Expansion (&R)
+Gate Watchers Expansion (&W)
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressFireArrows]
@@ -30135,7 +30135,7 @@ Launches a Fireball \n Left click on icon then left click on target area
 
 
 [CONTROLBAR:ConstructMordorFortress]
-Build Fortress (&I)
+Build Fortress (&F)
 
 
 [CONTROLBAR:ToolTipConstructMordorFortress]
@@ -30163,7 +30163,7 @@ Harvests resources from nearby trees \n Reduces cost of Buildings\n 2 Lumber Mil
 
 
 [CONTROLBAR:ConstructIsengardWargSentry]
-Build Warg Sentry (&F)
+Build Warg Sentry (&Y)
 
 
 [CONTROLBAR:ToolTipConstructIsengardWargSentry]
@@ -30196,7 +30196,7 @@ Harvests resources from nearby trees \n Reduces cost of buildings \n Increases c
 
 
 [CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde]
-Corsairs of Umbar (&W)
+Corsairs of Umbar (&C)
 
 
 [CONTROLBAR:ToolTipBuildMordorCorsairsOfUmbarHorde]
@@ -30240,7 +30240,7 @@ A powerful attack that blasts back nearby enemies \n Left click icon then left c
 
 
 [CONTROLBAR:SpecialPowerIncorruptable]
-Incorruptible (&R)
+Incorruptible (&I)
 
 
 [CONTROLBAR:SpecialPowerToolTipIncorruptable]
@@ -30280,7 +30280,7 @@ Cause fear to nearby enemies
 
 
 [CONTROLBAR:MouthOfSauronDoubt]
-Dark Sorcery (&R)
+Dark Sorcery (&Y)
 
 
 [CONTROLBAR:MouthOfSauronDissent]
