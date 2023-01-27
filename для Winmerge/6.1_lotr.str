@@ -30279,11 +30279,11 @@ Modifier Type: Leadership \n Allies near Thorin III Stonehelm gain +33% Damage, 
 
 
 [CONTROLBAR:GloinHeal]
-H&erb Lore
+Herb Lore (&W)
 
 
 [CONTROLBAR:ToolTipGloinHeal]
-Heals nearby units\nAt rank 3, also grants +15% armor\nLeft click to activate
+Heals nearby units\n Left click to activate \n\n Requires Level 3 \n Modifier Type: Leadership \n Allies near Glóin gain +15% Damage and +15% Armor \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:ProudFather]
@@ -30294,8 +30294,16 @@ Proud Father
 Glóin gains +33% armor and damage while near Gimli\nPassive ability
 
 
+[CONTROLBAR:GloinGloriousCharge]
+Baruk Khazâd! (&T)
+
+
+[CONTROLBAR:ToolTipGloinGloriousCharge]
+Requires Level 3\n Modifier type: Spell\n Nearby Dwarven units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror \n Stacks with buffs, leadership and spells\n Left click to activate
+
+
 [CONTROLBAR:VentureCapitalism]
-&Venture Capitalism
+Venture Capitalism (&C)
 
 
 [CONTROLBAR:ToolTipVentureCapitalism]
@@ -30303,7 +30311,7 @@ Requires Level 5\nTargeted Mine or Grand Forge has +200% increased production\nL
 
 
 [CONTROLBAR:GloinSecretWays]
-Secret Wa&ys
+Secret Ways (&V)
 
 
 [CONTROLBAR:TooltipGloinSecretWays]
@@ -30319,14 +30327,14 @@ Modifier Type: Leadership\nGrants +5% damage to nearby Lake-town units\nand incr
 
 
 [CONTROLBAR:MasterSpy]
- S&ubtle Subterfuge
+ Subtle Subterfuge (&R)
 
 [CONTROLBAR:ToolTipMasterSpy]
 Place a Master's Spy on the map. The Master's Spy is stealthed and cannot move, and reveals a large amount of shroud \n Left click icon then left click on pathable location
 
 
 [CONTROLBAR:UnderhandedStrike]
-Underhanded S&trike
+Underhanded Strike (&T)
 
 
 [CONTROLBAR:ToolTipUnderhandedStrike]
@@ -30334,14 +30342,14 @@ Targeted enemy unit or hero is temporarily crippled and loses 25% armour\nLeft c
 
 
 [CONTROLBAR:LaketownCallGuard]
-&Call the Guard!
+Call the Guard! (&C)
 
 [CONTROLBAR:ToolTipLaketownCallGuard]
-Requires Level 3\nSummons a battalion of Guards of the Master that stay on the field until killed \n At rank 6, summons two battalions \n Respects command point limit \n Left click icon then left click on target area
+Requires Level 3\nTemporarily summons a battalion of Guards of the Master \n At rank 6, summons two battalions \n Left click icon then left click on target area
 
 
 [CONTROLBAR:AncientStatute]
-A&ncient Statute
+Ancient Statute (&V)
 
 
 [CONTROLBAR:ToolTipAncientStatute]
