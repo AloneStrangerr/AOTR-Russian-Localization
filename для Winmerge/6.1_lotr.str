@@ -28785,28 +28785,28 @@ Strengthen the garrison army in %s by moving nearby units into %s.
 [STRATEGICHUD:StrengthenHeroArmyChecklistItem]
 Strengthen %s by selecting nearby units to join %s.
 
-<<<<<<< HEAD
-CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWebCocoon
-// "Increases Fortress armor \n Prerequisite to Dragon's Nest"
-//"Increases Fortress armor \n Allows training of Gundabad Wolf-riders, Gundabad Berserkers, Gundabad Stone-trolls,\nand a second battalion of Bolg's Bodyguard"
-"Increases Fortress armor \n Allows training of a second battalion of Bolg's Bodyguard"
-End
 
-CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWebCocoonForMaps
-// "Increases Fortress armor \n Prerequisite to Dragon's Nest"
-"Allows training of a second battalion of Bolg's Bodyguard"
-End
 
-CONTROLBAR:PurchaseUpgradeWildFortressNorthernWastes
-//"Allegiance: Northern Wastes (&R)"
-"Brood of the North (&S)"
-END
-=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [STRATEGICHUD:BuildBarracksChecklistItem]
 Build a barracks to generate new units.
 
->>>>>>> 2ffbc54df955d0055388aa3d6036fc9d4b7fa08e
+
 
 [STRATEGICHUD:BuildFortressChecklistItem]
 Build a fortress in an unprotected territory to strengthen its defenses.
@@ -29226,7 +29226,7 @@ Fire-drake’s Wrath
 
 
 [CONTROLBAR:tooltipDragonStrike]
-Summons a fire breathing Dragon to fly-by and scorch the battlefield \n Left click icon then left click on target area
+Summons a fire breathing Dragon to fly-by and scorch the battlefield \n Strong vs structures \n Left click icon then left click on target area
 
 
 [CONTROLBAR:Flood]
@@ -29344,7 +29344,7 @@ Increases Fortress armor \n Unlocks Gundabad Olog-hai and Giant Bats
 
 
 [CONTROLBAR:PurchaseUpgradeWildFortressRazorSpines]
-Razor S&pines
+Cruel Spikes (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines]
@@ -29466,7 +29466,7 @@ Allows the construction of walls
 
 
 [CONTROLBAR:Command_IsengardWallUpgradeToRegularGate]
-Up&grade to gate
+Upgrade to gate (&G)
 
 
 [CONTROLBAR:TooltipCommand_IsengardWallUpgradeToRegularGate]
@@ -29568,7 +29568,7 @@ Increases Fortress armor \n Unlocks Gothmog, Legions of Morgul and Olog-hai \n P
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSorceryForMaps]
-Unlocks Gothmog, Morgul Vanguard, Legions of Morgul and Olog-hai
+Unlocks Unlocks Gothmog, Morgul Vanguard, Legions of Morgul and Olog-hai
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressDoomPyres]
@@ -29616,7 +29616,7 @@ Launches a Fireball \n Left click on icon then left click on target area
 
 
 [CONTROLBAR:ConstructMordorFortress]
-Build &Fortress
+Build Fortress (&F)
 
 
 [CONTROLBAR:ToolTipConstructMordorFortress]
@@ -29677,7 +29677,7 @@ Harvests resources from nearby trees \n Reduces cost of buildings \n Increases c
 
 
 [CONTROLBAR:ConstructMordorCorsairsOfUmbarHorde]
-&Corsairs of Umbar
+Corsairs of Umbar (&C)
 
 
 [CONTROLBAR:ToolTipBuildMordorCorsairsOfUmbarHorde]
@@ -30357,7 +30357,7 @@ Requires Level 9\n The Master of Laketown and nearby Laketown units steal resour
 
 
 [CONTROLBAR:DominateTroll]
-Dominate &Troll
+Dominate Troll (&W)
 
 
 [CONTROLBAR:ElrondLeadership]
@@ -30373,7 +30373,7 @@ Farsight
 
 
 [CONTROLBAR:FireWeaponMenFortressBoilingOil]
-Release Bo&iling Oil
+Release Boiling Oil (&S)
 
 
 [CONTROLBAR:GoblinKingBattleFrenzy]
@@ -30381,11 +30381,11 @@ Battle Frenz&y
 
 
 [CONTROLBAR:GoblinKingMount]
-&Mount / Dismount
+Mount / Dismount (&W)
 
 
 [CONTROLBAR:GondorCastleWallHub]
-Build &Wall Hub
+Build Wall Hub (&A)
 
 
 [CONTROLBAR:IsengardWargSentryUnleash]
@@ -30394,19 +30394,19 @@ Un&leash Warg
 
 
 [CONTROLBAR:IvoryTowerVision]
-Use I&vory Tower
+Palantír of the White Tower (&D)
 
 
 [CONTROLBAR:Knife]
-&Knife
+Knife (&R)
 
 
 [CONTROLBAR:MenLongShotAbility]
-Lo&ngshot
+Longshot (&T)
 
 
 [CONTROLBAR:FirienholtLongShotAbility]
-&Longshot
+Longshot (&T)
 
 
 [CONTROLBAR:Messenger]
@@ -30438,7 +30438,7 @@ Give several commands and execute them simultaneously
 
 
 [CONTROLBAR:PoisonArrows]
-&Poison Arrows
+Poison Arrows (&R)
 
 
 [CONTROLBAR:PurchaseIsengardWargSentry]
@@ -30446,7 +30446,7 @@ Build &Warg Sentries
 
 
 [CONTROLBAR:Roar]
-&Roar
+Roar (&W)
 
 
 [CONTROLBAR:RohanGamlingRecruit]
@@ -30490,7 +30490,7 @@ Deplo&y
 
 
 [CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades]
-&Poisoned Blades
+Poisoned Blades (&W)
 
 
 
@@ -30510,7 +30510,7 @@ Pillage
 
 
 [CONTROLBAR:ThrowFireBombs]
-Firebo&mbs
+Firebombs (&R)
 
 
 [CONTROLBAR:ToggleDwarvenGuardianWeapons]
@@ -30586,7 +30586,7 @@ Requires Level 3 Troll Cage and Morgul Sorcery Upgrade \n Strong vs. Swordsmen, 
 
 
 [CONTROLBAR:ToolTipBuildWildAttackTroll]
-Requires Level 3 Troll Lair and the Allegiance: Gundabad upgrade \n Strong vs. Swordsmen, Cavalry, and Structures \n \n These Stone-trolls originate from the darkest, most hostile environments in the Misty Mountains. Their hides are tough, their grasping limbs long and powerful, and their cruelty is second to none.
+Requires Level 3 Troll Lair\n Strong vs. Swordsmen, Cavalry, and Structures \n \n These Stone-trolls originate from the darkest, most hostile environments in the Misty Mountains. Their hides are tough, their grasping limbs long and powerful, and their cruelty is second to none.
 
 
 [CONTROLBAR:ToolTipCitadelCatapultUpgrade]
@@ -30680,7 +30680,7 @@ This shouldn't be in the game
 
 
 [CONTROLBAR:ToolTipPoisonArrows]
-Poison tipped arrows that cause damage over time \n Left click icon then left click on target
+Poison tipped arrows that cause damage over time\nPoison arrows deal +50% additional damage against monsters\nLeft click icon then left click on target
 
 
 [CONTROLBAR:ToolTipPurchaseIsengardWargSentry]
@@ -30708,7 +30708,7 @@ Move the dragon to a different location on the battlefield
 
 
 [CONTROLBAR:ToolTipSpecialAbilityWildmanPillage]
-The Wildmen steal resources whenever dealing damage to enemy structures \n Passive ability
+Requires Level 2\nThe Wildmen steal resources whenever dealing damage to enemy structures \n Passive ability
 
 
 [CONTROLBAR:ToolTipSpecialAbilityOrcPillage]
@@ -30749,7 +30749,7 @@ Reveals shroud in targeted area \n Left click icon then left click on target are
 
 
 [CONTROLBAR:TooltipIvoryTowerVision]
-Requires the Ivory Tower upgrade \n Reveals the entire shroud for 30 seconds \n Detects stealthed units
+Requires the Tower of Ecthelion upgrade \n Reveals the entire shroud for 30 seconds \n Detects stealthed units
 
 
 [CONTROLBAR:TooltipRoar]
@@ -30809,51 +30809,51 @@ Unpack Furnace
 
 
 [CONTROLBAR:UpgradeIsengardSiegeWorksLevel2]
-&Upgrade the Siege Works to Level 2
+Upgrade the Siege Works to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeIsengardSiegeWorksLevel3]
-&Upgrade the Siege Works to Level 3
+Upgrade the Siege Works to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeIsengardUrukPitLevel2]
-&Upgrade Uruk Pit to Level 2
+Upgrade Uruk Pit to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeIsengardUrukPitLevel3]
-&Upgrade Uruk Pit to Level 3
+Upgrade Uruk Pit to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeIsengardWargPitLevel2]
-&Upgrade Warg Pit to Level 2
+Upgrade Warg Pit to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeIsengardWargPitLevel3]
-&Upgrade Warg Pit to Level 3
+Upgrade Warg Pit to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeMordorHaradrimPalaceLevel2]
-&Upgrade Easterling Encampment to Level 2
+Upgrade Easterling Encampment to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeMordorHaradrimPalaceLevel3]
-&Upgrade Easterling Encampment to Level 3
+Upgrade Easterling Encampment to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeMordorOrcPitLevel2]
-&Upgrade Orc Barracks to Level 2
+Upgrade Orc Barracks to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeMordorOrcPitLevel3]
-&Upgrade Orc Barracks to Level 3
+Upgrade Orc Barracks to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeMordorSiegeWorksLevel2]
-&Upgrade Siege Works to Level 2
+Upgrade Siege Works to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeMordorSiegeWorksLevel3]
-&Upgrade Siege Works to Level 3
+Upgrade Siege Works to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeMordorTavernLevel2]
@@ -30865,11 +30865,11 @@ Unpack Furnace
 
 
 [CONTROLBAR:UpgradeMordorTrollCageLevel2]
-&Upgrade Troll Cage to Level 2
+Upgrade Troll Cage to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeMordorTrollCageLevel3]
-&Upgrade Troll Cage to Level 3
+Upgrade Troll Cage to Level 3 (&A)
 
 
 [CONTROLBAR:WildDrogothRevive]
@@ -30885,7 +30885,7 @@ Grab enemy unit
 
 
 [CONTROLBAR:WildMountainGiantStomp]
-S&tomp
+Stomp (&T)
 
 
 [CONTROLBAR:WildShelobPoisonedStinger]
@@ -30893,11 +30893,11 @@ Poisoned Stinge&r
 
 
 [CONTROLBAR:WitchKingDismount]
-Dis&mount Fellbeast
+Dismount Fellbeast (&W)
 
 
 [CONTROLBAR:WitchKingMount]
-&Mount Fellbeast
+Mount Fellbeast (&W)
 
 
 [OBJECT:Bagend]
@@ -30906,6 +30906,10 @@ Bag End
 
 [OBJECT:Banner]
 Banner
+
+
+[OBJECT:HoleGun]
+Hole
 
 
 [OBJECT:Bat]
