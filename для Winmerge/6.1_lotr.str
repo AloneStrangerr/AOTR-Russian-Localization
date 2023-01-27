@@ -31545,16 +31545,18 @@ END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWebCocoon
 // "Increases Fortress armor \n Prerequisite to Dragon's Nest"
-"Increases Fortress armor \n Allows training of Gundabad Wolf-riders, Gundabad Berserkers, Gundabad Stone-trolls,\nand a second battalion of Horrors of Gram"
+//"Increases Fortress armor \n Allows training of Gundabad Wolf-riders, Gundabad Berserkers, Gundabad Stone-trolls,\nand a second battalion of Bolg's Bodyguard"
+"Increases Fortress armor \n Allows training of a second battalion of Bolg's Bodyguard"
 End
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWebCocoonForMaps
 // "Increases Fortress armor \n Prerequisite to Dragon's Nest"
-"Allows training of Gundabad Berserkers, Gundabad Stone-trolls,\nand a second battalion of Horrors of Gram"
+"Allows training of a second battalion of Bolg's Bodyguard"
 End
 
 CONTROLBAR:PurchaseUpgradeWildFortressNorthernWastes
-"Allegiance: Northern &Wastes"
+//"Allegiance: Northern Wastes (&R)"
+"Brood of the North (&S)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressNorthernWastes
@@ -48127,11 +48129,11 @@ CONTROLBAR:ToolTipConstructArnorPorter
 END
 
 CONTROLBAR:ConstructArnorFarm
-"Build Rivendell O&rchard"
+"Build Rivendell Orchard (&W)"
 END
 
 CONTROLBAR:ConstructArnorBarracks
-"Build Rivendell &Dormitory"
+"Build Rivendell Dormitory (&N)"
 END
 
 CONTROLBAR:ToolTipConstructArnorBarracks
@@ -48139,7 +48141,7 @@ CONTROLBAR:ToolTipConstructArnorBarracks
 END
 
 CONTROLBAR:ConstructArnorArcheryRange
-"Build Bree-land E&ncampment"
+"Build Bree-land Encampment (&T)"
 END
 
 CONTROLBAR:ToolTipArnorArcheryRange
@@ -48147,7 +48149,7 @@ CONTROLBAR:ToolTipArnorArcheryRange
 END
 
 CONTROLBAR:ConstructArnorStable
-"Build Dúnedain G&athering"
+"Build Dúnedain Gathering (&V)"
 END
 
 CONTROLBAR:ToolTipConstructArnorStable
@@ -48163,7 +48165,7 @@ CONTROLBAR:ToolTipConstructArnorWorkshop
 END
 
 CONTROLBAR:ConstructArnorSentryTower
-"Build Rivendell Ba&ttle Tower"
+"Build Rivendell Battle Tower (&Y)"
 END
 
 CONTROLBAR:ToolTipConstructArnorSentryTower
@@ -48171,19 +48173,19 @@ CONTROLBAR:ToolTipConstructArnorSentryTower
 END
 
 CONTROLBAR:ToolTipConstructArnorWell
-"Units near well auto-heal if not under attack \n Detects stealth \n Reduces cost of infantry \n Increases command point limit by 10"
+"Units near well auto-heal if not under attack \n Detects stealth\n Increases command point limit by 10"
 END
 
 CONTROLBAR:ToolTipConstructArnorStatue
-"Leadership bonus to nearby troops \n Reduces cost of heroes \n Increases command point limit by 10"
+"Leadership bonus to nearby troops \n Reduces cost of infantry \n Increases command point limit by 10"
 END
 
 CONTROLBAR:ConstructArnorWallHub
-"Rivendell &Wall Hub"
+"Rivendell Wall Hub (&A)"
 END
 
 CONTROLBAR:ConstructArnorFortress
-"Rivendell Conservatory (&Fortress)"
+"Rivendell Conservatory (Fortress) (&I)"
 END
 
 CONTROLBAR:ToolTipConstructArnorWallHub
@@ -48195,17 +48197,17 @@ CONTROLBAR:ToolTipConstructArnorFortress
 END
 
 CONTROLBAR:ConstructArnorWell
-"Bui&ld Well of Celebrian"
+"Build Well of Celebrian (&G)"
 END
 
 CONTROLBAR:ConstructArnorStatue
-"Build Statue of &Gil-galad"
+"Build Statue of Gil-galad (&U)"
 END
 
 
 
 CONTROLBAR:ConstructArnorBlacksmith
-"Build Rivendell Forg&e"
+"Build Rivendell Forge (&R)"
 END
 
 CONTROLBAR:ToolTipConstructArnorBlacksmith
@@ -48213,7 +48215,7 @@ CONTROLBAR:ToolTipConstructArnorBlacksmith
 END
 
 CONTROLBAR:ConstructArnorMarketPlace
-"Build Rivendell Librar&y"
+"Build Rivendell Library (&M)"
 END
 
 CONTROLBAR:ToolTipConstructArnorMarketPlace
