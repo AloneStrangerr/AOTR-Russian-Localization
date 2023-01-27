@@ -45916,11 +45916,11 @@ Train a Rivendell Builder \n Builds structures \n Increases command point limit 
 
 
 [CONTROLBAR:ConstructArnorFarm]
-Build Rivendell O&rchard
+Build Rivendell Orchard (&W)
 
 
 [CONTROLBAR:ConstructArnorBarracks]
-Build Rivendell &Dormitory
+Build Rivendell Dormitory (&N)
 
 
 [CONTROLBAR:ToolTipConstructArnorBarracks]
@@ -45928,7 +45928,7 @@ Trains the Elves of Rivendell \n Increases command point limit by 25
 
 
 [CONTROLBAR:ConstructArnorArcheryRange]
-Build Bree-land E&ncampment
+Build Bree-land Encampment (&T)
 
 
 [CONTROLBAR:ToolTipArnorArcheryRange]
@@ -45936,7 +45936,7 @@ Trains Hobbits and Men from Bree \n Increases command point limit by 25
 
 
 [CONTROLBAR:ConstructArnorStable]
-Build Dúnedain G&athering
+Build Dúnedain Gathering (&V)
 
 
 [CONTROLBAR:ToolTipConstructArnorStable]
@@ -45952,7 +45952,7 @@ Constructs Rivendell's Siege Weapons
 
 
 [CONTROLBAR:ConstructArnorSentryTower]
-Build Rivendell Ba&ttle Tower
+Build Rivendell Battle Tower (&Y)
 
 
 [CONTROLBAR:ToolTipConstructArnorSentryTower]
@@ -45960,19 +45960,19 @@ Defensive tower, will fire at enemy units \n Can be garrisoned with archers for 
 
 
 [CONTROLBAR:ToolTipConstructArnorWell]
-Units near well auto-heal if not under attack \n Detects stealth \n Reduces cost of infantry \n Increases command point limit by 10
+Units near well auto-heal if not under attack \n Detects stealth\n Increases command point limit by 10
 
 
 [CONTROLBAR:ToolTipConstructArnorStatue]
-Leadership bonus to nearby troops \n Reduces cost of heroes \n Increases command point limit by 10
+Leadership bonus to nearby troops \n Reduces cost of infantry \n Increases command point limit by 10
 
 
 [CONTROLBAR:ConstructArnorWallHub]
-Rivendell &Wall Hub
+Rivendell Wall Hub (&A)
 
 
 [CONTROLBAR:ConstructArnorFortress]
-Rivendell Conservatory (&Fortress)
+Rivendell Conservatory (Fortress) (&I)
 
 
 [CONTROLBAR:ToolTipConstructArnorWallHub]
@@ -45984,17 +45984,17 @@ Recruits Builders and Heroes \n Can be upgraded with improvements and expansions
 
 
 [CONTROLBAR:ConstructArnorWell]
-Bui&ld Well of Celebrian
+Build Well of Celebrian (&G)
 
 
 [CONTROLBAR:ConstructArnorStatue]
-Build Statue of &Gil-galad
+Build Statue of Gil-galad (&U)
 
 
 
 
 [CONTROLBAR:ConstructArnorBlacksmith]
-Build Rivendell Forg&e
+Build Rivendell Forge (&R)
 
 
 [CONTROLBAR:ToolTipConstructArnorBlacksmith]
@@ -46002,7 +46002,7 @@ Provides worked metals as a resource based on available terrain\nUpgrades weapon
 
 
 [CONTROLBAR:ConstructArnorMarketPlace]
-Build Rivendell Librar&y
+Build Rivendell Library (&M)
 
 
 [CONTROLBAR:ToolTipConstructArnorMarketPlace]
@@ -46038,31 +46038,31 @@ Allows research of Tengwar-Inscribed Blades
 Allows research of Swan-Feathered Arrows
 
 [CONTROLBAR:ConstructArnorArcheryRangeLevel2Upgrade]
-&Upgrade Bree-land Encampment to Level 2
+Upgrade Bree-land Encampment to Level 2 (&A)
 
 [CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel2Upgrade]
-Level 2: +10% Faster Build Speed \n Allows recruitment of Battering Rams and Fatty Bolger
+Level 2: +10% Faster Build Speed \n Allows recruitment of Fatty Bolger and Battering Rams
 
 [CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel2Upgrade_WOTR]
 Level 2: +10% Faster Build Speed \n Allows recruitment of Battering Rams
 
 [CONTROLBAR:ConstructArnorArcheryRangeLevel3Upgrade]
-&Upgrade Bree-land Encampment to Level 3
+Upgrade Bree-land Encampment to Level 3 (&A)
 
 [CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel3Upgrade]
-Level 3: +25% Faster Build Speed \n Allows recruitment of Farmer Maggot
+Level 3: +25% Faster Build Speed \n Allows recruitment of Farmer Maggot\n Heals nearby damaged siege engines
 
 [CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel3Upgrade_WOTR]
-Level 3: +25% Faster Build Speed
+Level 3: +25% Faster Build Speed \n Heals nearby damaged siege engines
 
 [CONTROLBAR:ConstructArnorBarracks2Upgrade]
-&Upgrade Dormitory to Level 2
+Upgrade Dormitory to Level 2 (&A)
 
 [CONTROLBAR:ToolTipBuildArnorBarracksLevel2Upgrade]
-Level 2: +10% Faster Build Speed  \n Allows recruitment of Quingar and Roquentari
+Level 2: +10% Faster Build Speed  \n Allows recruitment of Quingar
 
 [CONTROLBAR:ConstructArnorBarracksLevel3Upgrade]
-&Upgrade Dormitory to Level 3
+Upgrade Dormitory to Level 3 (&A)
 
 [OBJECT:RivendellBlacksmith]
 Rivendell Forge
@@ -46072,7 +46072,7 @@ Upgrades weapons and armor \n Generates resources based on available terrain \n 
 
 
 [CONTROLBAR:ConstructRivendellBlacksmith]
-Build R&ivendell Forge
+Build Rivendell Forge (&R)
 
 
 [CONTROLBAR:ToolTipConstructRivendellBlacksmith]
@@ -46080,10 +46080,10 @@ Upgrades weapons and armor \n Generates resources based on available terrain \n 
 
 
 [CONTROLBAR:ToolTipBuildArnorBarracksLevel3Upgrade]
-Level 3: +25% Faster Build Speed \n Allows recruitment of Laurëthelyn
+Level 3: +25% Faster Build Speed \n Allows recruitment of Roquentari and Laurëthelyn
 
 [CONTROLBAR:ToolTipBuildArnorBarracksLevel3Upgrade_WOTR]
-Level 3: +25% Faster Build Speed
+Level 3: +25% Faster Build Speed \n Allows recruitment of Roquentari
 
 [CONTROLBAR:ConstructArnorStable2Upgrade]
 &Upgrade Gathering to Level 2
@@ -46112,7 +46112,7 @@ Level 3: +25% Faster Build Speed
 
 
 [CONTROLBAR:ConstructRivendellHobbitShirrif]
-Bounder&s
+Bounders (&W)
 
 
 [CONTROLBAR:ToolTipRivendellHobbitShirrif]
@@ -46120,39 +46120,39 @@ Strong vs. Infantry \n Can stealth near trees \n\nThe Bounders are peace-keepers
 
 
 [CONTROLBAR:ConstructArnorArcherHorde]
-Rivendell Ar&chers
+Rivendell Archers (&E)
 
 
 [CONTROLBAR:ConstructArnorRangerHorde]
-Dúnedain &Rangers
+Dúnedain Rangers (&W)
 
 
 [CONTROLBAR:ConstructRivendellGreyCompanyHorde]
-Grey &Company
+Grey Company (&R)
 
 
 [CONTROLBAR:ConstructArnorFighterHorde]
-Bree-land Town&sguard
+Bree-land Townsguard (&R)
 
 
 [CONTROLBAR:ConstructElvenImladrisWarriorHordeS]
-&Macari
+Macari (&W)
 
 
 [CONTROLBAR:ConstructElvenImladrisWarriorHorde]
-Quin&gar
+Quingar (&R)
 
 
 [CONTROLBAR:ConstructArnorShieldGuardHorde]
-&Ehtyari
+Ehtyari (&E)
 
 
 [CONTROLBAR:ConstructRivendellRevelerHorde]
-Quentaro&li
+Quentaroli (&T)
 
 
 [CONTROLBAR:ConstructArnorKnightHorde]
-Roque&ntari
+Roquentari (&T)
 
 
 [CONTROLBAR:ConstructArnorTrebuchet]
@@ -46201,6 +46201,10 @@ Strong at Range
 
 [CONTROLBAR:ToolTipBuildRivendellGreyCompanyHorde]
 Strong vs. All Normal Troops and Heroes \nRequires the Lay of Leithian from the Library\nCan stealth near trees\nOnly 1 unit of Grey Company are allowed at any time.\n\n Gathered by Halbarad, captain of the Dúnedain, these grim-faced warriors rode South to aid Aragorn, their chieftain.
+
+
+[CONTROLBAR:ToolTipBuildRivendellGreyCompanyHorde_GC]
+Strong vs. All Normal Troops and Heroes \nRequires the Lay of Leithian\nCan stealth near trees\nLimited to 2\n\n Gathered by Halbarad, captain of the Dúnedain, these grim-faced warriors rode South to aid Aragorn, their chieftain.
 
 
 [CONTROLBAR:ToolTipBuildArnorRangerHorde]
@@ -46300,7 +46304,7 @@ Defensive tower that fires arrows at nearby enemies
 
 
 [CONTROLBAR:PurchaseTechnologyArnorFireArrows]
-Research &Swan-Feathered Arrows
+Research Swan-Feathered Arrows (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyArnorFireArrows]
@@ -46316,7 +46320,7 @@ Increases base damage and adds additional piercing damage to arrows \n Left clic
 
 
 [CONTROLBAR:PurchaseTechnologyArnorForgedBlades]
-Research &Tengwar-Inscribed Blades
+Research Tengwar-Inscribed Blades (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyArnorForgedBlades]
@@ -46324,7 +46328,7 @@ Purchase Forged Blade Upgrade \n Increases damage done by Melee Weapons \n Selec
 
 
 [CONTROLBAR:PurchaseUpgradeArnorForgedBlades]
-Purchase &Tengwar-Inscribed Blades
+Purchase Tengwar-Inscribed Blades (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorForgedBlades]
@@ -46332,7 +46336,7 @@ Purchase &Tengwar-Inscribed Blades
 
 
 [CONTROLBAR:PurchaseTechnologyArnorHeavyArmor]
-Research Noldo&rin Armors
+Research Noldorin Armors (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyArnorHeavyArmor]
@@ -46340,7 +46344,7 @@ Purchase Heavy Armor Upgrade \n Select a battalion to upgrade
 
 
 [CONTROLBAR:PurchaseUpgradeArnorHeavyArmor]
-Purchase Noldo&rin Armor
+Purchase Noldorin Armor (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorHeavyArmor]
@@ -46348,7 +46352,7 @@ Left click to upgrade this unit
 
 
 [CONTROLBAR:PurchaseTechnologyArnorBasicTraining]
-Research Ba&nner Carriers
+Research Banner Carriers (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyArnorBasicTraining]
@@ -46356,11 +46360,11 @@ Increases a unit to Level 2 \n Can only be equipped at Level 1
 
 
 [CONTROLBAR:PurchaseUpgradeArnorBasicTrainingEredLuin]
-Purchase Ered Luin &Venturer
+Purchase Ered Luin Venturer (&V)
 
 
 [CONTROLBAR:PurchaseUpgradeArnorBasicTraining]
-Purchase Banner &Carrier
+Purchase Banner Carrier (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorBasicTraining]
@@ -46393,7 +46397,7 @@ Banner Carrier
 
 
 [CONTROLBAR:SelectUpgradesArnorFortress]
-Fortress &Upgrades
+Fortress Upgrades (&R)
 
 
 [CONTROLBAR:ToolTipCommandSelectUpgradesArnorFortress]
@@ -46401,7 +46405,7 @@ Purchase upgrades and additional defenses for the Fortress
 
 
 [CONTROLBAR:SelectRevivablesArnorFortress]
-He&roes
+Heroes (&E)
 
 
 [CONTROLBAR:ToolTipCommandSelectRevivablesArnorFortress]
@@ -46445,7 +46449,7 @@ Númenor S&tonework
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorFortressNumenorStonework]
-Increases Fortress and Wall armor \n Prerequisite for Ivory Tower
+Increases Fortress and Wall armor \n Prerequisite for Tower of Ecthelion
 
 
 [CONTROLBAR:PurchaseUpgradeArnorFortressFlamingMunitions]
@@ -46477,7 +46481,7 @@ White Council Obser&vatory
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorFortressIvoryTower]
-Unlocks three spells that can be cast from the Fortress \n Lightning Strike: Saruman's magic deals damage and stuns units within its radius \n Call of Belegaer: Cirdan's wisdom temporarily decreases cost and build time of Elf units \n Aiwendil, Bird-Friend: Radagast's friendship with Gwaihir's folk allows the fortress to temporarily summon a Giant Eagle.
+Unlocks three spells that can be cast from the Fortress \n Lightning Strike: Saruman's magic deals damage and stuns units within its radius \n Call of Belegaer: Cirdan's wisdom temporarily decreases build time of Elf units \n Aiwendil, Bird-Friend: Radagast's friendship with Gwaihir's folk allows the fortress to temporarily summon a Giant Eagle.
 
 
 [CONTROLBAR:PurchaseUpgradeArnorFortressBoilingOil]
@@ -46490,7 +46494,7 @@ Allows the Fortress to pour boiling oil on nearby enemy troops
 
 
 [CONTROLBAR:Command_ArnorCastleWallHub_BeginWallSpan]
-Build Wall
+Build Wall (&W)
 
 
 [CONTROLBAR:ToolTipCommand_ArnorCastleWallHub_BeginWallSpan]
@@ -46498,7 +46502,7 @@ Left click and drag to construct a Wall
 
 
 [CONTROLBAR:Command_ArnorWallUpgradeToHub]
-&Wall Hub
+Wall Hub (&W)
 
 
 [CONTROLBAR:ToolTipCommand_ArnorWallUpgradeToHub]
@@ -46506,7 +46510,7 @@ Allows construction of additional walls
 
 
 [CONTROLBAR:Command_ArnorWallUpgradeToRegularGate]
-&Gate
+Gate (&E)
 
 
 [CONTROLBAR:ToolTipCommand_ArnorWallUpgradeToRegularGate]
@@ -46514,7 +46518,7 @@ This primary defensive gate can be opened and closed
 
 
 [CONTROLBAR:Command_ArnorWallUpgradeToPosternGate]
-&Postern Gate
+Postern Gate (&R)
 
 
 [CONTROLBAR:ToolTipCommand_ArnorWallUpgradeToPosternGate]
