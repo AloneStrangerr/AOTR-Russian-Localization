@@ -17704,8 +17704,16 @@ CONTROLBAR:TooltipGimliElfFriend
 "Requires Level 10\nSummons Legolas Greenleaf to the battlefield\nLeft click to activate"
 END
 
+CONTROLBAR:ToggleElfhelmWeapons
+"Toggle Weapon (&R)"
+END
+
+CONTROLBAR:ToggleLegolasEreborWeapons
+"Toggle Weapon (&W)"
+END
+
 CONTROLBAR:ToggleFaramirWeapons
-"&Toggle Weapon"
+"Toggle Weapon (&W)"
 END
 
 CONTROLBAR:ToolTipToggleFaramirWeapons
@@ -17725,7 +17733,7 @@ CONTROLBAR:ToolTipToggleLegolasWeapons
 END
 
 CONTROLBAR:ToggleDamrodWeapons
-"&Toggle Weapon"
+"Toggle Weapon (&W)"
 END
 
 CONTROLBAR:ToolTipToggleDamrodWeapons
@@ -17748,20 +17756,40 @@ CONTROLBAR:TooltipSpecialPowerDeadlySniper
 "Deadly Sniper"
 END
 
+CONTROLBAR:ToggleUrukScoutWeapon
+"Toggle Weapon (&W)"
+END
+
+CONTROLBAR:ToggleLugWeapon
+"Toggle Weapon (&W)"
+END
+
 CONTROLBAR:ToggleLurtzWeapon
-"&Toggle Weapon"
+"Toggle Weapon (&W)"
 END
 
 CONTROLBAR:ToolTipToggleLurtzWeapon
 "Left click to toggle between bow and sword"
 END
 
+CONTROLBAR:ToolTipToggleLugWeapon
+"Left click to toggle between throwing knives and sword"
+END
+
 CONTROLBAR:SpecialAbilityLurtzCripple
-"&Cripple"
+"Cripple (&C)"
 END
 
 CONTROLBAR:SpecialAbilityLurtzCarnage
-"Ca&rnage"
+"Relentless Warrior (&T)"
+END
+
+CONTROLBAR:UrukChief
+"Uruk Chief"
+End
+
+CONTROLBAR:ToolTipUrukChief
+"Requires Level 10 \n Lurtz is clad in thick armor \n Permanently gains +50% Armor\nPassive ability"
 END
 
 CONTROLBAR:ToggleHorseBow
@@ -17777,7 +17805,11 @@ CONTROLBAR:ToggleFormation
 END
 
 CONTROLBAR:ToggleSkirmishFormation
-"Skir&mish Formation"
+"Skirmish Formation (&R)"
+END
+
+CONTROLBAR:ToggleSkirmishFormationYeomanArcher
+"Skirmish Formation (&R)"
 END
 
 CONTROLBAR:ToolTipToggleSkirmishFormation
@@ -17797,15 +17829,23 @@ CONTROLBAR:ToggleAmbushFormation
 END
 
 CONTROLBAR:ToggleWedgeFormation
-"Wedge For&mation"
+"Wedge Formation (&W)"
 END
 
 CONTROLBAR:ToggleLineFormation
-"Line For&mation"
+"Line Formation (&W)"
+END
+
+CONTROLBAR:ToggleAnorienLineFormation
+"Line Formation (&R)"
+END
+
+CONTROLBAR:ToggleLineFormationYeomanArcher
+"Line Formation (&R)"
 END
 
 CONTROLBAR:ToggleDefaultFormation
-"Default For&mation"
+"Default Formation (&W)"
 END
 
 CONTROLBAR:ToolTipToggleSnowbourneLineFormation
@@ -17821,23 +17861,23 @@ CONTROLBAR:ToolTipToggleWedgeFormation
 END
 
 CONTROLBAR:ToolTipToggleLineFormation
-"Default Line For&mation"
+"Default Line Formation (&W)"
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"Porcupine For&mation"
+"Porcupine Formation (&W)"
 END
 
 CONTROLBAR:TogglePhalanxFormation
-"Phalanx For&mation"
+"Phalanx Formation (&W)"
 END
 
 CONTROLBAR:ToggleSchiltronFormation
-"Schiltron For&mation"
+"Schiltron Formation (&W)"
 END
 
 CONTROLBAR:ToggleSquareFormation
-"Square For&mation"
+"Square Formation (&W)"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -17845,16 +17885,19 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleSpearWallFormation
-"Spear Wall For&mation"
+"Spear Wall Formation (&W)"
 END
 
 CONTROLBAR:ToolTipToggleSpearWallFormation
 "-35% Speed \n +33% Armor \n Resistance to Trample \n Bonus damage vs cavalry"
 END
 
+CONTROLBAR:ToggleBroadShieldsFormation
+"Broad Shields Formation (&W)"
+END
 
 CONTROLBAR:ToggleBlockFormation
-"Shield Wall For&mation"
+"Shield Wall Formation (&W)"
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation
@@ -17862,15 +17905,31 @@ CONTROLBAR:ToolTipToggleBlockFormation
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons
-"Al&ternate Weapon"
+"Alternate Weapon (&W)"
+END
+
+CONTROLBAR:TogglePrisonGuardWeapons
+"Alternate Weapon (&R)"
+END
+
+CONTROLBAR:ToggleInnMirkwoodWarriorWeapons
+"Alternate Weapon (&R)"
+END
+
+CONTROLBAR:ToggleGaladhrimWarriorWeapons
+"Alternate Weapon (&R)"
+END
+
+CONTROLBAR:ToggleHaldirWeapons
+"Alternate Weapon (&R)"
 END
 
 CONTROLBAR:ToggleRohirrimWeapons
-"Al&ternate Weapon"
+"Alternate Weapon (&W)"
 END
 
 CONTROLBAR:ToggleRivendellKnightWeapons
-"Alternate &Weapon"
+"Alternate Weapon (&W)"
 END
 
 CONTROLBAR:ToggleGondorRangerWeapons
@@ -17905,6 +17964,22 @@ CONTROLBAR:ToolTipPorterGiveUpgrade
 "Auto-deliver Upgrade"
 END
 
+CONTROLBAR:ToolTipPorterGiveRohanFB
+"Give Forged Blades upgrade to target battalion\nLeft click icon then left click on target"
+END
+
+CONTROLBAR:ToolTipPorterGiveRohanHA
+"Give Heavy Armor upgrade to target battalion\nLeft click icon then left click on target"
+END
+
+CONTROLBAR:ToolTipPorterGiveRohanFA
+"Give Fire Arrows upgrade to target battalion\nLeft click icon then left click on target"
+END
+
+CONTROLBAR:ToolTipPorterGiveRohanHS
+"Give Horsemen Shields upgrade to target battalion\nLeft click icon then left click on target"
+END
+
 CONTROLBAR:BannerGoCombine
 "&Combine"
 END
@@ -17913,27 +17988,31 @@ CONTROLBAR:tooltipBannerGoCombine
 "Auto-combine with the closest horde"
 END
 CONTROLBAR:WizardBlast
-"&Chief of the Istari"
+"Chief of the Istari (&W)"
 END
 
 CONTROLBAR:ToolTipWizardBlast
-"Dismounted: Close range attack that blasts back enemies\n Left click icon then left click on target \n\n Mounted: Targeted enemy hero is stunned and takes damage\n Left click icon then left click on target \n\n Modifier Type: Leadership \n Allies near Gandalf gain immunity to magic and elemental damage, earn experience 100% faster and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Passive ability \n \n Shield Bubble \n Gandalf occasionally gains +300% armor and resistance to knockback when attacked \n Passive ability but can be manually activated using the shortcut (U)"
+"Dismounted: Close range attack that blasts back enemies\n Left click icon then left click on target \n\n Mounted: Targeted enemy hero is stunned for 10 seconds and takes damage\n Left click icon then left click on target \n\n Modifier Type: Leadership \n Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Passive ability \n \n Shield Bubble \n Gandalf occasionally gains +300% armor and resistance to knockback when attacked \n Passive ability but can be manually activated using the shortcut (U)"
+END
+
+CONTROLBAR:ToolTipWizardBlastCampaign
+"Close range attack that blasts back enemies\n Left click icon then left click on target \n\n Modifier Type: Leadership \n Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Passive ability \n\n Shield Bubble \n Gandalf occasionally gains +300% armor and resistance to knockback when attacked \n Passive ability but can be manually activated using the shortcut (U)"
 END
 
 CONTROLBAR:WordofPower
-"You Shall Not &Pass"
+"You Shall Not Pass (&V)"
 END
 
 CONTROLBAR:ToolTipWordofPower
-"Requires Level 10 \n Blasts back and stuns units in a wide radius surrounding Gandalf \n Left click to activate"
+"Requires Level 10 \n Blasts back and stuns units in a wide radius surrounding Gandalf for 10 seconds\n Left click to activate"
 END
 
 CONTROLBAR:Shadowfax
-"&Mount / Dismount"
+"Mount / Dismount (&W)"
 END
 
 CONTROLBAR:Mount
-"&Mount / Dismount"
+"Mount / Dismount (&W)"
 END
 
 CONTROLBAR:ToolTipMount
@@ -17941,7 +18020,7 @@ CONTROLBAR:ToolTipMount
 END
 
 CONTROLBAR:UseSword
-"Use Swo&rd"
+"Use Sword (&W)"
 END
 
 CONTROLBAR:UseStick
@@ -17949,7 +18028,7 @@ CONTROLBAR:UseStick
 END
 
 CONTROLBAR:UseStingFrodo
-"Use Sti&ng"
+"Use Sting (&W)"
 END
 
 CONTROLBAR:ToolTipUseSword
@@ -17961,7 +18040,7 @@ CONTROLBAR:ToolTipUseSwordRank3
 END
 
 CONTROLBAR:PhialofGaladriel
-"&Phial of Galadriel"
+"Phial of Galadriel (&T)"
 END
 
 CONTROLBAR:ToolTipPhialofGaladriel
@@ -17985,11 +18064,11 @@ CONTROLBAR:EnshroudingMistCampaign
 END
 
 CONTROLBAR:TheOneRing
-"The One R&ing"
+"The One Ring (&R)"
 END
 
 CONTROLBAR:TheOneRing_Campaign
-"A Heavy &Burden"
+"A Heavy Burden (&R)"
 END
 
 CONTROLBAR:ToolTipTheOneRing
@@ -18017,7 +18096,7 @@ CONTROLBAR:HobbitCloak
 END
 
 CONTROLBAR:ElvenCloak
-"Elven &Cloak"
+"Elven Cloak (&R)"
 END
 
 CONTROLBAR:ToolTipElvenCloak
@@ -18033,7 +18112,7 @@ CONTROLBAR:ToolTipElvenCloakBasicUnit
 END
 
 CONTROLBAR:EomerMount
-"&Mount / Dismount"
+"Mount / Dismount (&W)"
 END
 
 CONTROLBAR:ToolTipEomerMount
@@ -18041,7 +18120,7 @@ CONTROLBAR:ToolTipEomerMount
 END
 
 CONTROLBAR:IstariLight
-"F&lame of Anor"
+"Flame of Anor (&C)"
 END
 
 CONTROLBAR:ToolTipIstariLight
@@ -18049,11 +18128,11 @@ CONTROLBAR:ToolTipIstariLight
 END
 
 CONTROLBAR:GandalfPrepareForBattle
-"Prepare for Bat&tle!"
+"Prepare for Battle! (&R)"
 END
 
 CONTROLBAR:ToolTipGandalfPrepareForBattle
-"Requires Level 3 \n Modifier Type: Spell \n Target structure temporarily gains +75% unit production speed\nTarget units temporarily gain resistance to knockback and +25% speed\n Stacks with Leadership and Spells \n Left click icon then left click on target"
+"Requires Level 3 \n Modifier Type: Spell \n Target structure gains +75% unit production speed for 90 seconds \nTarget units gain resistance to knockback and +25% speed for 15 seconds\n Stacks with Leadership and Spells \n Left click icon then left click on target"
 END
 
 CONTROLBAR:LightningSword
@@ -18073,40 +18152,44 @@ CONTROLBAR:ToolTipFellowshipLightningSword
 END
 
 CONTROLBAR:ThrowSpear
-"Spear Thro&w"
+"Spear Throw (&R)"
+END
+
+CONTROLBAR:SuladanSpearThrow
+"Spear Throw (&R)"
 END
 
 CONTROLBAR:HornofGondor
-"Ho&rn of Gondor"
+"Horn of Gondor (&R)"
 END
 
 CONTROLBAR:WoundingArrow
-"&Wounding Arrow"
+"Wounding Arrow (&V)"
 END
 
 CONTROLBAR:CaptainofGondor
 //"Wizard's Pupil"
-"&Proud, Stubborn, Strong"
+"Proud, Stubborn, Strong (&V)"
 END
 
 CONTROLBAR:CaptainofGondorF
-"Faramir's Qua&lity"
+"Faramir's Quality (&C)"
 END
 
 CONTROLBAR:FaramirSummonLeadership
-"&Captain of Ithilien"
+"Captain of Ithilien (&C)"
 END
 
 CONTROLBAR:ToolTipFaramirSummonLeadership
-"Requires Level 3 \n Faramir calls a group of Rangers and one of their captains to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches. \n Left click icon then left click on pathable location \n\n Modifier Type: Leadership \n Allies near Faramir gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability"
+"Requires Level 3 \n Faramir calls a group of Rangers and one of their captains to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches\n At rank 7, summons a larger battalion of Rangers\nLeft click icon then left click on pathable location \n\n Modifier Type: Leadership \n Ithilien Rangers near Faramir gain +15% armor, +15% range and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability"
 END
 
 CONTROLBAR:ToolTipCampaignFaramirSummonLeadership
-"Requires Level 3 \n Faramir calls a group of Rangers to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches. \n Left click icon then left click on pathable location \n\n Modifier Type: Leadership \n Allies near Faramir gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability"
+"Requires Level 3 \n Faramir calls a group of Rangers to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches. \n Left click icon then left click on pathable location \n\n Modifier Type: Leadership \n Ithilien Rangers near Faramir gain +15% armor, +15% range and earn experience 50% faster\n Stacks with Buffs and Spells \n Passive ability"
 END
 
 CONTROLBAR:FaramirAmbushAbility
-"Hidd&en Volley"
+"Hidden Volley (&R)"
 END
 
 CONTROLBAR:ToolTipFaramirAmbushAbility
@@ -18114,11 +18197,11 @@ CONTROLBAR:ToolTipFaramirAmbushAbility
 END
 
 CONTROLBAR:FaramirDesperateCharge
-"Desperate &Charge"
+"Desperate Charge (&R)"
 END
 
 CONTROLBAR:ToolTipFaramirDesperateCharge
-"Required: Rank 5\n Faramir temporarily gains +100% resistance to ranged attacks and pike damage  \n Left click to activate"
+"Required: Rank 5\n Faramir gains +100% resistance to ranged attacks and pike damage for 15 seconds \n Left click to activate"
 END
 
 CONTROLBAR:FaramirWarSpeech
@@ -18130,11 +18213,27 @@ CONTROLBAR:ToolTipFaramirWarSpeech
 END
 
 CONTROLBAR:FaramirKnightRanger
-"Knight/&Ranger Toggle"
+"Knight/Ranger Toggle (&T)"
 END
 
 CONTROLBAR:ToolTipFaramirKnightRanger
 "Requires Level 3 \n Switch between Knight and Ranger modes \n left click to activate"
+END
+
+CONTROLBAR:CampaignToggleMount
+"...."
+END
+
+CONTROLBAR:AragornToggleMount
+"Mount/Dismount (&T)"
+END
+
+CONTROLBAR:BoromirToggleMount
+"Mount/Dismount (&C)"
+END
+
+CONTROLBAR:LegolasToggleMount
+"Mount/Dismount (&T)"
 END
 
 CONTROLBAR:DamrodWarSpeech
@@ -18154,7 +18253,7 @@ CONTROLBAR:ToolTipDamrodKnightRanger
 END
 
 CONTROLBAR:ToggleShieldWallFormation
-"Shield Wall For&mation"
+"Shield Wall Formation (&W)"
 END
 
 CONTROLBAR:ToolTipToggleShieldWallFormation
@@ -18162,7 +18261,7 @@ CONTROLBAR:ToolTipToggleShieldWallFormation
 END
 
 CONTROLBAR:ToggleLooseFormation
-"Loose For&mation"
+"Loose Formation (&W)"
 END
 
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
@@ -18196,7 +18295,12 @@ CONTROLBAR:ToolTipBuildGondorBattleTower
 END
 
 CONTROLBAR:SpeechCraft
-"Spee&ch Craft"
+"Speech Craft (&T)"
+END
+
+
+CONTROLBAR:DarkEloquence
+"Dark Eloquence (&T)"
 END
 
 CONTROLBAR:Disguise
@@ -18204,7 +18308,7 @@ CONTROLBAR:Disguise
 END
 
 CONTROLBAR:Smite
-"Begone, Foul D&wimmerlaik"
+"Begone, Foul Dwimmerlaik (&C)"
 END
 
 CONTROLBAR:ShieldMaiden
@@ -18212,7 +18316,7 @@ CONTROLBAR:ShieldMaiden
 END
 
 CONTROLBAR:ToggleTrebWeapon
-"Bomba&rd"
+"Bombard (&R)"
 END
 
 CONTROLBAR:ToolTipToggleTrebWeapon
@@ -18220,7 +18324,7 @@ CONTROLBAR:ToolTipToggleTrebWeapon
 END
 
 CONTROLBAR:NoAutoAcquire
-"Halt Auto Acqu&ire"
+"Halt Auto Acquire (&W)"
 END
 
 CONTROLBAR:ToolTipNoAutoAcquire
@@ -18228,7 +18332,7 @@ CONTROLBAR:ToolTipNoAutoAcquire
 END
 
 CONTROLBAR:AutoAcquire
-"Auto Acqu&ire"
+"Auto Acquire (&W)"
 END
 
 CONTROLBAR:ToolTipAutoAcquire
@@ -18237,7 +18341,7 @@ END
 
 
 CONTROLBAR:ConstructRohanPeasant
-"&Peasants"
+"Peasants (&E)"
 END
 
 CONTROLBAR:ToolTipBuildRohanPeasant
@@ -18323,11 +18427,11 @@ CONTROLBAR:RepairStructure
 END
 
 CONTROLBAR:ToolTipRepairStructure
-"Repair a damaged building \n Left click icon then left click on target"
+"Repair a damaged building \n Left click icon then right click on target"
 END
 
 CONTROLBAR:DeployMine
-"&Deploy Mine"
+"Deploy Mine (&W)"
 END
 
 CONTROLBAR:ToolTipDeployMine
@@ -18355,11 +18459,11 @@ CONTROLBAR:ToolTipCancelConstruction
 END
 
 CONTROLBAR:ArwenMount
-"&Mount / Dismount"
+"Mount / Dismount (&W)"
 END
 
 CONTROLBAR:GlorfindelMount
-"&Mount / Dismount"
+"Mount / Dismount (&W)"
 END
 
 CONTROLBAR:ToolTipArwenMount
@@ -27141,7 +27245,7 @@ END
 ///////////////////////////////
 
 CONTROLBAR:SelectUpgradesDwarvenFortress
-"Fortress &Upgrades"
+"Fortress Upgrades (&R)"
 END
 
 CONTROLBAR:ToolTipCommandSelectUpgradesDwarvenFortress
@@ -27149,7 +27253,7 @@ CONTROLBAR:ToolTipCommandSelectUpgradesDwarvenFortress
 END
 
 CONTROLBAR:SelectRevivablesDwarvenFortress
-"He&roes"
+"Heroes (&E)"
 END
 
 CONTROLBAR:ToolTipCommandSelectRevivablesDwarvenFortress
@@ -27157,7 +27261,7 @@ CONTROLBAR:ToolTipCommandSelectRevivablesDwarvenFortress
 END
 
 CONTROLBAR:ConstructDwarvenCatapultExpansion
-"Cat&apult Expansion"
+"Catapult Expansion (&W)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenCatapultExpansion
@@ -27165,7 +27269,7 @@ CONTROLBAR:ToolTipConstructDwarvenCatapultExpansion
 END
 
 CONTROLBAR:ConstructDwarvenEreborTowerTowerExpansion
-"Guard Tower E&xpansion"
+"Guard Tower Expansion (&E)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenEreborTowerTowerExpansion
@@ -27173,7 +27277,7 @@ CONTROLBAR:ToolTipConstructDwarvenEreborTowerTowerExpansion
 END
 
 CONTROLBAR:Command_ConstructDwarvenWallHubExpansion
-"&Wall Hub Expansion"
+"Wall Hub Expansion (&T)"
 END
 
 CONTROLBAR:TooltipCommand_ConstructDwarvenWallHubExpansion
@@ -27181,7 +27285,7 @@ CONTROLBAR:TooltipCommand_ConstructDwarvenWallHubExpansion
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework
-"For&tifications"
+"Fortifications (&S)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
@@ -27189,15 +27293,15 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions
-"&Erebor Braziers"
+"Erebor Braziers (&T)"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressBanners
-"Raven Ba&nners"
+"Raven Banners (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs
-"&Moat"
+"Moat (&R)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
@@ -27205,7 +27309,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult
-"&Arkenstone"
+"Arkenstone (&D)"
 END
 
 TOOLTIP:LackMightyCatapultDwarvenStonework
@@ -27251,7 +27355,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressOilCasks
 END
 
 CONTROLBAR:FireWeaponDwarvenFortressOilCasks
-"Launch O&il Casks"
+"Launch Oil Casks (&T)"
 END
 
 CONTROLBAR:ToolTipFireWeaponDwarvenFortressOilCasks
@@ -27259,7 +27363,7 @@ CONTROLBAR:ToolTipFireWeaponDwarvenFortressOilCasks
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenHornsoftheGate
-"Horns of the &Gate"
+"Horns of the Gate (&E)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenHornsoftheGate
@@ -27267,7 +27371,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenHornsoftheGate
 END
 
 CONTROLBAR:ConstructDwarvenPorter
-"Recruit Bui&lder"
+"Recruit Builder (&W)"
 END
 
 CONTROLBAR:ToolTipConstructDwarvenPorter
@@ -27284,7 +27388,7 @@ END
 
 
 CONTROLBAR:Command_DwarvenCastleWallHub_BeginWallSpan
-"Build Wall"
+"Build Wall (&W)"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
@@ -27292,7 +27396,7 @@ CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan
 END
 
 CONTROLBAR:Command_DwarvenWallUpgradeToHub
-"&Wall Hub"
+"Wall Hub (&W)"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToHub
@@ -27300,7 +27404,7 @@ CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToHub
 END
 
 CONTROLBAR:Command_DwarvenWallUpgradeToBanners
-"&Raven Banners"
+"Raven Banners (&S)"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToBanners
@@ -27316,7 +27420,7 @@ CONTROLBAR:TooltipDwarvenWallBannersButton
 END
 
 CONTROLBAR:Command_DwarvenWallUpgradeToRegularGate
-"&Gate"
+"Gate (&E)"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToRegularGate
@@ -27324,7 +27428,7 @@ CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_DwarvenWallUpgradeToPosternGate
-"&Postern Gate"
+"Postern Gate (&R)"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToPosternGate
@@ -27332,7 +27436,7 @@ CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToPosternGate
 END
 
 CONTROLBAR:Command_DwarvenWallUpgradeToTower
-"G&uard Tower"
+"Guard Tower (&T)"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToTower
@@ -27344,11 +27448,11 @@ CONTROLBAR:TooltipCommand_RohanWallUpgradeToTower
 END
 
 CONTROLBAR:Command_DwarvenWallUpgradeToCatapult
-"&Catapult"
+"Catapult (&D)"
 END
 
 CONTROLBAR:Command_RohanWallUpgradeToCatapult
-"Rohirri&c Onager"
+"Rohirric Onager (&S)"
 END
 
 CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToCatapult
@@ -27360,7 +27464,7 @@ END
 ////////////////////////////////////
 
 CONTROLBAR:GloinHotkey
-"G&lóin"
+"Glóin (&E)"
 END
 
 CONTROLBAR:GloinRecruit
@@ -27436,7 +27540,7 @@ END
 /////////////////////////////////////////
 
 CONTROLBAR:ConstructDwarvenGuardianHorde
-"Âz&agh-baruk"
+"Âzagh-baruk (&W)"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenGuardianHorde
@@ -27444,7 +27548,7 @@ CONTROLBAR:ToolTipBuildDwarvenGuardianHorde
 END
 
 CONTROLBAR:ConstructDwarvenPhalanxHorde
-"&Sigin-udrîg "
+"Sigin-udrîg (&E)"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde
@@ -27460,7 +27564,7 @@ CONTROLBAR:ToolTipBuildDwarvenAxeThrowerHorde
 END
 
 CONTROLBAR:ConstructDwarvenArcherHorde
-"&Rakhâs-abzâg"
+"Rakhâs-abzâg (&R)"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenArcherHorde
@@ -27468,7 +27572,7 @@ CONTROLBAR:ToolTipBuildDwarvenArcherHorde
 END
 
 CONTROLBAR:ConstructDwarvenDemolisher
-"Zirinmazn"
+"Zirinmazn (&S)"
 END
 
 TOOLTIP:LackLevel2ForgeWorksDemolisher
@@ -27476,11 +27580,11 @@ TOOLTIP:LackLevel2ForgeWorksDemolisher
 END
 
 CONTROLBAR:ConstructDwarvenBattleWagon
-"Ibsênab-azgha&kakâ"
+"Ibsênab-azghakakâ (&E)"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenBattleWagon
-"Battlewagon \n Requires Level 2 Workshop \n Strong vs. Swordsmen and Archers \n Can be upgraded with various improvements \n Limited to 3. \n \n The Dwarves of Iron Hills have developed a chariot that can cross even the roughest of terrain and ride down the toughest of foes."
+"Battlewagon \n Strong vs. Swordsmen and Archers \n Can be upgraded with various improvements \n Limited to 3. \n \n The Dwarves of Iron Hills have developed a chariot that can cross even the roughest of terrain and ride down the toughest of foes."
 END
 
 CONTROLBAR:ConstructDwarvenCatapult
@@ -27492,11 +27596,11 @@ CONTROLBAR:ToolTipBuildDwarvenCatapult
 END
 
 CONTROLBAR:UpgradeDwarvenBarracksLevel2
-"&Upgrade Hall of Warriors to Level 2"
+"Upgrade Hall of Warriors to Level 2 (&A)"
 END
 
 CONTROLBAR:UpgradeDwarvenBarracksLevel3
-"&Upgrade Hall of Warriors to Level 3"
+"Upgrade Hall of Warriors to Level 3 (&A)"
 END
 
 CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel3
@@ -27508,7 +27612,7 @@ CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel3_WOTR
 END
 
 CONTROLBAR:ConstructDwarvenMenOfDale
-"Barding Longbo&wmen"
+"Barding Longbowmen (&T)"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenMenOfDaleHorde
@@ -27516,7 +27620,7 @@ CONTROLBAR:ToolTipBuildDwarvenMenOfDaleHorde
 END
 
 CONTROLBAR:ConstructDwarvenDaleGuardHorde
-"Barding &Phalanx"
+"Barding Phalanx (&E)"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenDaleGuardHorde
@@ -27536,27 +27640,27 @@ CONTROLBAR:ConstructDwarvenArcheryRangeLevel3Upgrade
 END
 
 CONTROLBAR:ConstructDwarvenAssemblyLevel2Upgrade
-"&Upgrade Erebor Assembly to Level 2"
+"Upgrade Erebor Assembly to Level 2 (&A)"
 END
 
 CONTROLBAR:ConstructDwarvenAssemblyLevel3Upgrade
-"&Upgrade Erebor Assembly to Level 3"
+"Upgrade Erebor Assembly to Level 3 (&A)"
 END
 
 CONTROLBAR:UpgradeDwarvenForgeWorksLevel2
-"&Upgrade Erebor Redoubt to Level 2"
+"Upgrade Erebor Redoubt to Level 2 (&A)"
 END
 
 CONTROLBAR:UpgradeDwarvenForgeWorksLevel3
-"&Upgrade Erebor Redoubt to Level 3"
+"Upgrade Erebor Redoubt to Level 3 (&A)"
 END
 
 CONTROLBAR:UpgradeDwarvenWorkshopLevel2
-"&Upgrade Workshop to Level 2"
+"Upgrade Workshop to Level 2 (&A)"
 END
 
 CONTROLBAR:UpgradeDwarvenWorkshopLevel3
-"&Upgrade Workshop to Level 3"
+"Upgrade Workshop to Level 3 (&A)"
 END
 
 TOOLTIP:LackLevel2DarkIronForge
@@ -27588,7 +27692,7 @@ END
 //////////////////////////////
 
 CONTROLBAR:ConstructWildSpiderHolesExpansion
-"Wolf D&en Expansion"
+"Wolf Den Expansion (&E)"
 END
 
 CONTROLBAR:ToolTipConstructWildSpiderHolesExpansion
@@ -27596,11 +27700,11 @@ CONTROLBAR:ToolTipConstructWildSpiderHolesExpansion
 END
 
 CONTROLBAR:ConstructWildArrowDenExpansion
-"Orcish Loo&kout Expansion"
+"Orcish Lookout Expansion (&W)"
 END
 
 CONTROLBAR:ToolTipConstructWildArrowDenExpansion
-"Fires arrows at nearby enemy units \n Benefits from the Scaffolding upgrade"
+"Fires arrows at nearby enemy units \n Benefits from the Infestation upgrade"
 END
 
 CONTROLBAR:ConstructWildGiantSentryExpansion
@@ -27611,8 +27715,16 @@ CONTROLBAR:ToolTipConstructWildGiantSentryExpansion
 "A Giant that hurls rocks at enemy units"
 END
 
+CONTROLBAR:ConstructWildTrollSentryExpansion
+"Troll Sentry Expansion (&R)"
+END
+
+CONTROLBAR:ToolTipConstructWildTrollSentryExpansion
+"A troll that hurls rocks at enemy units"
+END
+
 CONTROLBAR:SelectUpgradesWildFortress
-"Fortress &Upgrades"
+"Fortress Upgrades (&R)"
 END
 
 CONTROLBAR:ToolTipCommandSelectUpgradesWildFortress
@@ -27620,7 +27732,7 @@ CONTROLBAR:ToolTipCommandSelectUpgradesWildFortress
 END
 
 CONTROLBAR:SelectRevivablesGoblinFortress
-"He&roes"
+"Heroes (&E)"
 END
 
 CONTROLBAR:ToolTipCommandSelectRevivablesWildFortress
@@ -27628,7 +27740,7 @@ CONTROLBAR:ToolTipCommandSelectRevivablesWildFortress
 END
 
 CONTROLBAR:WildGoblinKingHotkey
-"Gol&fimbul"
+"Golfimbul (&T)"
 END
 
 CONTROLBAR:WildGoblinKingRecruit
@@ -27636,7 +27748,7 @@ CONTROLBAR:WildGoblinKingRecruit
 END
 
 CONTROLBAR:WildDrogothHotkey
-"&Smaug the Magnificent"
+"Smaug the Magnificent (&A)"
 END
 
 CONTROLBAR:WildDrogothRecruit
@@ -27644,13 +27756,20 @@ CONTROLBAR:WildDrogothRecruit
 END
 
 CONTROLBAR:PurchaseWildFireDrake
-"&Fire Wyrm"
+"Fire Wyrm (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeWildFortressDragonNest
 "&Dragon's Nest"
 END
 
+CONTROLBAR:PurchaseWildColdDrake
+"Cold-drake (&R)"
+END
+
+CONTROLBAR:ToolTipWildColdDrake
+"Requires Level 2 Wyrm Lair \n Tame a wild Cold-drake \n Strong vs. infantry, cavalry and structures \n \n They were very great beside the Men of those days - cold as in the nature of snakes and serpents, \nand of them a many having wings go with the uttermost noise and speed... \n Only 1 Cold Drake is allowed at any time."
+END
 
 ///////////////////////////////
 // Goblin Structure Tooltips //
@@ -27705,7 +27824,7 @@ CONTROLBAR:ToolTipPurchaseWildFireDrake
 END
 
 CONTROLBAR:ConstructWildSentryTower
-"Build Sentr&y Tower"
+"Build Sentry Tower (&Y)"
 END
 
 CONTROLBAR:ToolTipConstructWildSentryTower
@@ -27726,7 +27845,7 @@ OBJECT:WildMineShaft
 END
 
 OBJECT:WildSpiderPit
-"Warg Cage"
+"Wolf Cairn"
 END
 
 OBJECT:WildSpiderPitDescription
@@ -27831,7 +27950,7 @@ END
 
 
 CONTROLBAR:ConstructElvenFortress
-"Build &Fortress"
+"Build Fortress (&I)"
 END
 
 CONTROLBAR:ToolTipConstructElvenFortress
@@ -27839,7 +27958,7 @@ CONTROLBAR:ToolTipConstructElvenFortress
 END
 
 CONTROLBAR:ConstructElvenWatchtowerExpansion
-"&Flet Expansion"
+"Flet Expansion (&W)"
 END
 
 CONTROLBAR:ToolTipConstructElvenWatchtowerExpansion
@@ -27847,15 +27966,51 @@ CONTROLBAR:ToolTipConstructElvenWatchtowerExpansion
 END
 
 CONTROLBAR:ConstructRivendellWatchtowerExpansion
-"To&wer Expansion"
+"Tower Expansion (&W)"
 END
 
 CONTROLBAR:ToolTipConstructRivendellWatchtowerExpansion
 "Defensive tower that fires at nearby enemy units"
 END
 
+OBJECT:ElvenAxeElfGarrisonExpansion
+"Axe-elf Garrison Expansion"
+END
+
+CONTROLBAR:ConstructElvenAxeElfGarrisonExpansion
+"Axe-elf Garrison Expansion (&E)"
+END
+
+CONTROLBAR:ToolTipConstructElvenAxeElfGarrisonExpansion
+"Axe-elves will defend the garrison and attack nearby enemy units \n May purchase Forth, Axe-elves! upgrade, which allows the Axe-elf Garrison to summon a horde of warriors onto enemy battalions and siege engines"
+END
+
+CONTROLBAR:PurchaseForthAxeElves
+"Purchase Forth, Axe-elves! Upgrade (&W)"
+END
+
+CONTROLBAR:ToolTipPurchaseForthAxeElves
+"Allows the Axe-elf Garrison to summon a horde\nof Axe-elves"
+END
+
+CONTROLBAR:ForthAxeElves
+"Forth, Axe-elves! (&W)"
+END
+
+CONTROLBAR:ToolTipForthAxeElves
+"Summons a horde of Axe-elves\nLeft click icon then left click on target"
+END
+
+CONTROLBAR:BorderPatrol
+"Border Patrol (&T)"
+END
+
+CONTROLBAR:ToolTipBorderPatrol
+"Requires Veteran Marchwardens upgrade \n Summons a trio of individual Marchwardens anywhere on the map to reveal the area, detect stealth, and fire on nearby enemies\nLeft click icon then left click on target area"
+END
+
 CONTROLBAR:ConstructElvenVigilantEntExpansion
-"&Vigilant Ent Expansion"
+"Vigilant Ent Expansion (&E)"
 END
 
 CONTROLBAR:ToolTipConstructElvenVigilantEntExpansion
@@ -27863,7 +28018,7 @@ CONTROLBAR:ToolTipConstructElvenVigilantEntExpansion
 END
 
 CONTROLBAR:ConstructElvenFloodgateExpansion
-"Flood &Gate Expansion"
+"Flood Gate Expansion (&R)"
 END
 
 CONTROLBAR:ToolTipConstructElvenFloodgateExpansion
@@ -27871,7 +28026,7 @@ CONTROLBAR:ToolTipConstructElvenFloodgateExpansion
 END
 
 CONTROLBAR:SelectRevivablesElvenFortress
-"He&roes"
+"Heroes (&E)"
 END
 
 CONTROLBAR:ToolTipCommandSelectRevivablesElvenFortress
@@ -27879,7 +28034,7 @@ CONTROLBAR:ToolTipCommandSelectRevivablesElvenFortress
 END
 
 CONTROLBAR:SelectUpgradesElvenFortress
-"Fortress &Upgrades"
+"Fortress Upgrades (&R)"
 END
 
 CONTROLBAR:ToolTipCommandSelectUpgradesElvenFortress
@@ -27903,15 +28058,15 @@ CONTROLBAR:ToolTipPurchaseElvenEagle
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressEncasingVines
-"Mallorn &Roots"
+"Blessed Lanterns (&D)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEncasingVines
-"Increases Fortress armor \n Prerequisite to Eärendil's Guidance"
+"Enemy units near the fortress are slowed more the closer they come to it, with a maximum of -33% \n Prerequisite to Eärendil's Guidance"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressMysticFountains
-"W&aters of the Celebrant"
+"Waters of the Celebrant (&T)"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
@@ -27919,11 +28074,11 @@ CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressBlessedMist
-"Mis&ts of the Anduin"
+"Mists of the Anduin (&E)"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressCrystalMoat
-"&Enchanted Canal"
+"Protection of Nenya (&R)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat
@@ -27935,7 +28090,7 @@ CONTROLBAR:ToolTipElvenEntMoot
 END
 
 CONTROLBAR:ConstructEregionForge
-"Build &Golden Wood Storehouse"
+"Build Golden Wood Storehouse (&R)"
 END
 
 CONTROLBAR:ToolTipEregionForge
@@ -27959,7 +28114,7 @@ CONTROLBAR:ToolTipGreenPasture
 END
 
 CONTROLBAR:ConstructElvenBarracks
-"B&uild Golden Wood Garrison"
+"Build Golden Wood Garrison (&T)"
 END
 
 CONTROLBAR:ToolTipElvenBarracks
@@ -27967,7 +28122,7 @@ CONTROLBAR:ToolTipElvenBarracks
 END
 
 CONTROLBAR:PurchaseUpgradeElvenBarracksLevel2
-"&Upgrade Golden Wood Garrison to Level 2"
+"Upgrade Golden Wood Garrison to Level 2 (&A)"
 END
 
 CONTROLBAR:ToolTipBuildElvenBarracksLevel2
@@ -27975,7 +28130,7 @@ CONTROLBAR:ToolTipBuildElvenBarracksLevel2
 END
 
 CONTROLBAR:ConstructElvenStable
-"Build Golden Wood P&asture"
+"Build Golden Wood Pasture (&V)"
 END
 
 //CONTROLBAR:ToolTipElvenBarracks
@@ -27983,7 +28138,7 @@ END
 //END
 
 CONTROLBAR:ConstructElvenGreenPastureLevel2Upgrade
-"&Upgrade Golden Wood Pasture to Level 2"
+"Upgrade Golden Wood Pasture to Level 2 (&A)"
 END
 
 CONTROLBAR:ToolTipBuildElvenGreenPastureLevel2Upgrade
@@ -27991,11 +28146,11 @@ CONTROLBAR:ToolTipBuildElvenGreenPastureLevel2Upgrade
 END
 
 CONTROLBAR:ConstructElvenGreenPastureLevel3Upgrade
-"&Upgrade Golden Wood Pasture to Level 3"
+"Upgrade Golden Wood Pasture to Level 3 (&A)"
 END
 
 CONTROLBAR:ConstructElvenStatue
-"Build Statue of Amroth Amdír&ion"
+"Build Statue of Amroth Amdírion (&U)"
 END
 
 CONTROLBAR:ToolTipElvenStatue
@@ -28003,7 +28158,7 @@ CONTROLBAR:ToolTipElvenStatue
 END
 
 CONTROLBAR:ConstructElvenBattleTower
-"Build Tree F&let"
+"Build Tree Flet (&Y)"
 END
 
 CONTROLBAR:ToolTipBattleTower
@@ -28011,11 +28166,11 @@ CONTROLBAR:ToolTipBattleTower
 END
 
 CONTROLBAR:ConstructElvenMallornTree
-"Build Mallo&rn Tree"
+"Build Mallorn Tree (&W)"
 END
 
 CONTROLBAR:ConstructGaladrielsWell
-"Build Mirror of Gala&driel"
+"Build Mirror of Galadriel (&M)"
 END
 
 CONTROLBAR:ToolTipEGaladrielsWell
@@ -28023,7 +28178,7 @@ CONTROLBAR:ToolTipEGaladrielsWell
 END
 
 CONTROLBAR:Command_ConstructElvenWallHubExpansion
-"Build &Wall Hub"
+"Build Wall Hub (&A)"
 END
 
 CONTROLBAR:ToolTipCommand_ConstructElvenWallHubExpansion
@@ -28031,11 +28186,11 @@ CONTROLBAR:ToolTipCommand_ConstructElvenWallHubExpansion
 END
 
 CONTROLBAR:Command_ConstructElvenWallHubExpansionCastle
-"&Wall Hub Expansion"
+"Wall Hub Expansion (&T)"
 END
 
 CONTROLBAR:Command_ElvenWallUpgradeToHub
-"Upgrade to &Wall Hub"
+"Upgrade to Wall Hub (&W)"
 END
 
 CONTROLBAR:TooltipCommand_ElvenWallUpgradeToHub
@@ -28043,7 +28198,7 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToHub
 END
 
 CONTROLBAR:Command_ElvenWallUpgradeToRegularGate
-"Up&grade to Gate"
+"Upgrade to Gate (&E)"
 END
 
 CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
@@ -28051,11 +28206,11 @@ CONTROLBAR:TooltipCommand_ElvenWallUpgradeToRegularGate
 END
 
 CONTROLBAR:Command_ElvenCastleWallHub_BeginWallSpan
-"Build Wall"
+"Build Wall (&W)"
 END
 
 CONTROLBAR:PurchaseUpgradeMallornTreeLevel2
-"&Upgrade Mallorn Tree to Level 2"
+"Upgrade Mallorn Tree to Level 2 (&A)"
 END
 
 CONTROLBAR:ToolTipBuildMallornTreeLevel2
@@ -28063,7 +28218,7 @@ CONTROLBAR:ToolTipBuildMallornTreeLevel2
 END
 
 CONTROLBAR:PurchaseUpgradeMallornTreeLevel3
-"&Upgrade Mallorn Tree to Level 3"
+"Upgrade Mallorn Tree to Level 3 (&A)"
 END
 
 CONTROLBAR:ToolTipBuildMallornTreeLevel3
@@ -28093,11 +28248,11 @@ CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenRivendellLancers
-"Rivendell Knights \n Requires Level 2 Dormitory \n Can switch between Bow and Glaive \n Strong vs. Infantry, Archers, and Siege\n\nWhen the lands beyond the Valley are in danger, these Knights will ride out to vanquish any orcish warband they encounter."
+"Rivendell Knights \n Requires Level 3 Dormitory \n Can switch between Bow and Glaive \n Strong vs. Infantry, Archers, and Siege\n\nWhen the lands beyond the Valley are in danger, these Knights will ride out to vanquish any orcish warband they encounter."
 END
 
 CONTROLBAR:ConstructElvenPorter
-"Bui&lder"
+"Builder (&W)"
 END
 
 CONTROLBAR:Tooltipconstructelvenporter
