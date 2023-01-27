@@ -17704,8 +17704,16 @@ CONTROLBAR:TooltipGimliElfFriend
 "Requires Level 10\nSummons Legolas Greenleaf to the battlefield\nLeft click to activate"
 END
 
+CONTROLBAR:ToggleElfhelmWeapons
+"Toggle Weapon (&R)"
+END
+
+CONTROLBAR:ToggleLegolasEreborWeapons
+"Toggle Weapon (&W)"
+END
+
 CONTROLBAR:ToggleFaramirWeapons
-"&Toggle Weapon"
+"Toggle Weapon (&W)"
 END
 
 CONTROLBAR:ToolTipToggleFaramirWeapons
@@ -17725,7 +17733,7 @@ CONTROLBAR:ToolTipToggleLegolasWeapons
 END
 
 CONTROLBAR:ToggleDamrodWeapons
-"&Toggle Weapon"
+"Toggle Weapon (&W)"
 END
 
 CONTROLBAR:ToolTipToggleDamrodWeapons
@@ -17748,20 +17756,40 @@ CONTROLBAR:TooltipSpecialPowerDeadlySniper
 "Deadly Sniper"
 END
 
+CONTROLBAR:ToggleUrukScoutWeapon
+"Toggle Weapon (&W)"
+END
+
+CONTROLBAR:ToggleLugWeapon
+"Toggle Weapon (&W)"
+END
+
 CONTROLBAR:ToggleLurtzWeapon
-"&Toggle Weapon"
+"Toggle Weapon (&W)"
 END
 
 CONTROLBAR:ToolTipToggleLurtzWeapon
 "Left click to toggle between bow and sword"
 END
 
+CONTROLBAR:ToolTipToggleLugWeapon
+"Left click to toggle between throwing knives and sword"
+END
+
 CONTROLBAR:SpecialAbilityLurtzCripple
-"&Cripple"
+"Cripple (&C)"
 END
 
 CONTROLBAR:SpecialAbilityLurtzCarnage
-"Ca&rnage"
+"Relentless Warrior (&T)"
+END
+
+CONTROLBAR:UrukChief
+"Uruk Chief"
+End
+
+CONTROLBAR:ToolTipUrukChief
+"Requires Level 10 \n Lurtz is clad in thick armor \n Permanently gains +50% Armor\nPassive ability"
 END
 
 CONTROLBAR:ToggleHorseBow
@@ -17777,7 +17805,11 @@ CONTROLBAR:ToggleFormation
 END
 
 CONTROLBAR:ToggleSkirmishFormation
-"Skir&mish Formation"
+"Skirmish Formation (&R)"
+END
+
+CONTROLBAR:ToggleSkirmishFormationYeomanArcher
+"Skirmish Formation (&R)"
 END
 
 CONTROLBAR:ToolTipToggleSkirmishFormation
@@ -17797,15 +17829,23 @@ CONTROLBAR:ToggleAmbushFormation
 END
 
 CONTROLBAR:ToggleWedgeFormation
-"Wedge For&mation"
+"Wedge Formation (&W)"
 END
 
 CONTROLBAR:ToggleLineFormation
-"Line For&mation"
+"Line Formation (&W)"
+END
+
+CONTROLBAR:ToggleAnorienLineFormation
+"Line Formation (&R)"
+END
+
+CONTROLBAR:ToggleLineFormationYeomanArcher
+"Line Formation (&R)"
 END
 
 CONTROLBAR:ToggleDefaultFormation
-"Default For&mation"
+"Default Formation (&W)"
 END
 
 CONTROLBAR:ToolTipToggleSnowbourneLineFormation
@@ -17821,23 +17861,23 @@ CONTROLBAR:ToolTipToggleWedgeFormation
 END
 
 CONTROLBAR:ToolTipToggleLineFormation
-"Default Line For&mation"
+"Default Line Formation (&W)"
 END
 
 CONTROLBAR:TogglePorcupineFormation
-"Porcupine For&mation"
+"Porcupine Formation (&W)"
 END
 
 CONTROLBAR:TogglePhalanxFormation
-"Phalanx For&mation"
+"Phalanx Formation (&W)"
 END
 
 CONTROLBAR:ToggleSchiltronFormation
-"Schiltron For&mation"
+"Schiltron Formation (&W)"
 END
 
 CONTROLBAR:ToggleSquareFormation
-"Square For&mation"
+"Square Formation (&W)"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -17845,16 +17885,19 @@ CONTROLBAR:ToolTipTogglePorcupineFormation
 END
 
 CONTROLBAR:ToggleSpearWallFormation
-"Spear Wall For&mation"
+"Spear Wall Formation (&W)"
 END
 
 CONTROLBAR:ToolTipToggleSpearWallFormation
 "-35% Speed \n +33% Armor \n Resistance to Trample \n Bonus damage vs cavalry"
 END
 
+CONTROLBAR:ToggleBroadShieldsFormation
+"Broad Shields Formation (&W)"
+END
 
 CONTROLBAR:ToggleBlockFormation
-"Shield Wall For&mation"
+"Shield Wall Formation (&W)"
 END
 
 CONTROLBAR:ToolTipToggleBlockFormation
@@ -17862,15 +17905,31 @@ CONTROLBAR:ToolTipToggleBlockFormation
 END
 
 CONTROLBAR:ToggleElvenWarriorWeapons
-"Al&ternate Weapon"
+"Alternate Weapon (&W)"
+END
+
+CONTROLBAR:TogglePrisonGuardWeapons
+"Alternate Weapon (&R)"
+END
+
+CONTROLBAR:ToggleInnMirkwoodWarriorWeapons
+"Alternate Weapon (&R)"
+END
+
+CONTROLBAR:ToggleGaladhrimWarriorWeapons
+"Alternate Weapon (&R)"
+END
+
+CONTROLBAR:ToggleHaldirWeapons
+"Alternate Weapon (&R)"
 END
 
 CONTROLBAR:ToggleRohirrimWeapons
-"Al&ternate Weapon"
+"Alternate Weapon (&W)"
 END
 
 CONTROLBAR:ToggleRivendellKnightWeapons
-"Alternate &Weapon"
+"Alternate Weapon (&W)"
 END
 
 CONTROLBAR:ToggleGondorRangerWeapons
