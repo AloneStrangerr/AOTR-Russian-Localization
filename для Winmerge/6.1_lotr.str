@@ -15764,11 +15764,11 @@ Decreases enemy accuracy
 
 
 [CONTROLBAR:ConstructMordorDrummerTrolls]
-&Drummer Troll
+Drummer Troll (&E)
 
 
 [CONTROLBAR:ConstructMordorBatteringRam]
-Batte&ring Ram
+Battering Ram (&W)
 
 
 [CONTROLBAR:ToolTipBuildMordorBatteringRam]
@@ -15783,8 +15783,16 @@ Swi&tch Ammunition
 Switch Ammunition
 
 
+[CONTROLBAR:ScreechSummonedFellbeasts]
+Screech (&W)
+
+
+[CONTROLBAR:ScreechKhamul]
+Screech (&R)
+
+
 [CONTROLBAR:Screech]
-S&creech
+Screech (&C)
 
 
 [CONTROLBAR:TooltipScreech]
@@ -15804,7 +15812,7 @@ Flame of the &West
 
 
 [CONTROLBAR:ElessarBladeMaster]
-Andúril, Flame of the &West
+Andúril, Flame of the West (&R)
 
 
 [CONTROLBAR:NarsilAttack]
@@ -15812,11 +15820,11 @@ Power of Narsill
 
 
 [CONTROLBAR:LightTorch]
-Light &Torch
+Light Torch (&W)
 
 
 [CONTROLBAR:ExtinguishTorch]
-Extinguish &Torch
+Extinguish Torch (&W)
 
 
 [CONTROLBAR:ToolTipNarsilAttack]
@@ -15824,15 +15832,31 @@ Use to defeat Sauron \n left click to activate
 
 
 [CONTROLBAR:WargRiderHowl]
-Ho&wl
+Howl (&W)
+
+
+[CONTROLBAR:WildWargRiderHowl]
+Howl (&R)
+
+
+[CONTROLBAR:WildWhiteWolfHowl]
+Howl (&R)
 
 
 [CONTROLBAR:ToggleGateOpenClose]
-&Toggle Gate
+Toggle Gate (&W)
+
+
+[CONTROLBAR:ToggleGrateOpenClose]
+Open/Close Gra&te
+
+
+[CONTROLBAR:ToolTipToggleGrate]
+Left click to open and close grate
 
 
 [CONTROLBAR:Athelas]
-Ki&ngsfoil
+Kingsfoil (&R)
 
 
 [CONTROLBAR:TooltipAthelas]
@@ -15840,11 +15864,11 @@ Heals nearby friendly Heroes \n Left click to activate
 
 
 [CONTROLBAR:ElessarAthelas]
-Ha&nds of the King
+Hands of the King (&W)
 
 
 [CONTROLBAR:TooltipElessarAthelas]
-Heals nearby friendly Heroes and strengthens them by granting them \n +33% armor for a short time\n Left click to activate
+Heals nearby friendly Heroes and strengthens them by granting them \n +33% armor for 30 seconds\n Left click to activate
 
 
 [CONTROLBAR:ToolTipElendil]
@@ -15864,7 +15888,7 @@ Estel
 
 
 [CONTROLBAR:ElessarOathbreaker]
-Fulfil&l Your Oath!
+Fulfill Your Oath! (&C)
 
 
 [CONTROLBAR:ToolTipElessarOathbreaker]
@@ -15879,20 +15903,40 @@ Fulfil&l Your Oath
 Requires Level 10 \n Summons the Army of the Dead \n Left click icon then left click on pathable location
 
 
+[OBJECT:KotD]
+The King of the Dead
+
+
+[CONTROLBAR:KotDRecruit]
+Recruit the King of the Dead \n \n An ancient ruler of the men of Dunharrow, now cursed in undeath by his treachery to Isildur, the King of the Dead must now fulfill his oath to the true king of Gondor.
+
+
+[CONTROLBAR:KotDRevive]
+Revive the King of the Dead
+
+
+[CONTROLBAR:KotDHotkey]
+The King of the Dead
+
+
 [CONTROLBAR:HawkStrike]
 Hawk St&rike
 
 
 [CONTROLBAR:FellowshipHawkStrike]
-Twin Ar&rows
+Twin Arrows (&R)
 
 
 [CONTROLBAR:ToolTipHawkStrike]
 Double-arrow attack that deals splash damage \n Left click icon then left click on target
 
 
+[CONTROLBAR:ToolTipHawkStrikeStormcrow]
+Double-arrow attack that deals splash damage \n Can only use dismounted \n Left click icon then left click on target
+
+
 [CONTROLBAR:HawkStrike_Summoned]
-Elven S&kill
+Elven Skill (&R)
 
 
 [CONTROLBAR:ArrowWind]
@@ -15967,7 +16011,7 @@ Allies near Tom Bombadil gain \n +50% Damage, +50% Armor, \n and earn experience
 
 
 [CONTROLBAR:DwarvenGrudge]
-Dwarven Grudge
+Dwarven Grudge (&R)
 
 
 [CONTROLBAR:DwarvenGrudgeDescription]
@@ -16015,7 +16059,7 @@ Summons Ents \n Left click icon then left click on pathable location
 
 
 [CONTROLBAR:KingsFavor]
-Oa&ths Fulfilled
+Oaths Fulfilled (&V)
 
 
 [CONTROLBAR:DainKingsFavor]
@@ -16023,15 +16067,19 @@ Migh&ty Veteran
 
 
 [CONTROLBAR:GloriousCharge]
-Arise, &Riders of Théoden!
+Arise, Riders of Théoden! (&C)
 
 
 [CONTROLBAR:TheodenMount]
-&Mount / Dismount
+Mount / Dismount (&W)
+
+
+[CONTROLBAR:GamlingMount]
+Mount / Dismount
 
 
 [CONTROLBAR:ThranduilNewMount]
-Elvenking
+Elvenking (&W)
 
 
 [CONTROLBAR:ThranduilNewMountTooltip]
@@ -16047,11 +16095,11 @@ Requires Level 3\n\nGrants Sindarin Armor to units in radius \n Sindarin Armor: 
 
 
 [CONTROLBAR:ThranduilFavor]
-Love of Silver and Je&wels
+Love of Silver and Jewels (&R)
 
 
 [CONTROLBAR:GlorfindelNewMount]
-&Mount Asfaloth / Dismount
+Mount Asfaloth / Dismount (&W)
 
 
 [CONTROLBAR:GlorfindelNewMountTooltip]
@@ -16059,7 +16107,7 @@ Left click to switch between \n mounted on Asfaloth and on foot
 
 
 [CONTROLBAR:TheodenNewMount]
-&Mount Snowmane / Dismount
+Mount Snowmane / Dismount (&R)
 
 
 [CONTROLBAR:TheodenNewMountTooltip]
@@ -16067,7 +16115,7 @@ Left click to switch between \n mounted on Snowmane and on foot
 
 
 [CONTROLBAR:EomerNewMount]
-&Mount Firefoot / Dismount
+Mount Firefoot / Dismount (&T)
 
 
 [CONTROLBAR:EomerNewMountTooltip]
@@ -16075,7 +16123,7 @@ Left click to switch between \n mounted on Firefoot and on foot
 
 
 [CONTROLBAR:TheodredNewMount]
-&Mount Brego / Dismount
+Mount Brego / Dismount (&W)
 
 
 [CONTROLBAR:TheodredNewMountTooltip]
@@ -16087,7 +16135,19 @@ Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs
 
 
 [CONTROLBAR:EowynMount]
-&Mount / Dismount
+Mount / Dismount (&W)
+
+
+[CONTROLBAR:CassimirMount]
+Mount / Dismount (&R)
+
+
+[CONTROLBAR:SuladanMount]
+Mount / Dismount (&W)
+
+
+[CONTROLBAR:LordDainMount]
+Mount / Dismount (&R)
 
 
 [CONTROLBAR:Leap]
@@ -16099,7 +16159,7 @@ Requires Level 2 \n Gimli jumps to a location causing area-effect damage \n Left
 
 
 [CONTROLBAR:FellowshipLeap]
-Nobody Tosses A D&warf
+Nobody Tosses A Dwarf (&T)
 
 
 [CONTROLBAR:ToolTipFellowshipLeap]
@@ -16107,7 +16167,7 @@ Requires Level 3 \n Gimli jumps to a location causing area-effect damage \n Left
 
 
 [CONTROLBAR:Leap_Summoned]
-Baru&k-Khazad!
+Baruk-Khazad! (&R)
 
 
 [CONTROLBAR:ToolTipLeap_Summoned]
@@ -16115,7 +16175,7 @@ Gimli jumps to a location causing area-effect damage \n Left click icon then lef
 
 
 [CONTROLBAR:AxeThrow]
-Axe &Throw
+Axe Throw (&W)
 
 
 [CONTROLBAR:Slayer]
@@ -16123,7 +16183,7 @@ Slaye&r
 
 
 [CONTROLBAR:ToggleGimliWeapons]
-Axe&master
+Axemaster (&R)
 
 
 [CONTROLBAR:ToolTipToggleGimliWeapons]
@@ -16131,7 +16191,7 @@ Left click to toggle between Balin's Axe (double-headed) and Gloin's Axe (walkin
 
 
 [CONTROLBAR:GimliElfFriend]
-&Elf-friend
+Elf-friend (&V)
 
 
 [CONTROLBAR:TooltipGimliElfFriend]
