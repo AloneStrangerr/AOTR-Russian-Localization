@@ -29886,7 +29886,7 @@ Summon Ro&yal Guard
 
 
 [CONTROLBAR:MightyRage]
-The &Red Axe
+The Red Axe (&R)
 
 
 [CONTROLBAR:GloinSlam]
@@ -29938,7 +29938,7 @@ Causes fear in nearby enemies \n Left click to activate
 
 
 [CONTROLBAR:SpecialAbilityFireDrakeInferno]
-Infe&rno
+Inferno (&W)
 
 
 [CONTROLBAR:SpecialAbilityFiresOfDoom]
@@ -29958,7 +29958,23 @@ Causes fear in nearby enemies \n Left click to activate
 
 
 [CONTROLBAR:SmaugDissent]
-D&ragon Sickness
+Dragon Sickness (&V)
+
+
+[CONTROLBAR:SmaugDismount]
+Land (&W)
+
+
+[CONTROLBAR:SmaugMount]
+Take Flight (&W)
+
+
+[CONTROLBAR:SmaugDismountTooltip]
+Left click to land \n Left click then left click target area
+
+
+[CONTROLBAR:SmaugMountTooltip]
+Left click to take flight
 
 
 [CONTROLBAR:ToolTipSmaugDissent]
@@ -29966,11 +29982,11 @@ Requires Level 10 \n Causes targeted units to become hostile towards each other 
 
 
 [CONTROLBAR:SpecialAbilitySmaugStun]
-Dread Ga&ze
+Dread Gaze (&R)
 
 
 [CONTROLBAR:ToolTipSpecialAbilitySmaugStun]
-Requires Level 6 \n Stuns enemy hero for a short time \n Left click icon then left click on target
+Requires Level 6 \n Pins enemy hero in place for a short time \n Left click icon then left click on target
 
 
 [CONTROLBAR:SpecialAbilityDrogothFireball]
@@ -29982,7 +29998,11 @@ Sends a fireball at selected target \n Left click icon then left click on target
 
 
 [CONTROLBAR:SpecialAbilityWingBlast]
-&Wings Like A Hurricane
+Wings Like A Hurricane (&R)
+
+
+[CONTROLBAR:SpecialAbilityWingBlastGwaihir]
+Wings Like A Hurricane (&W)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityWingBlast]
@@ -29990,7 +30010,7 @@ Requires Level 3 \n Shoots a shockwave of force below Smaug, causing meta damage
 
 
 [CONTROLBAR:SpecialAbilityIncinerate]
-I A&m Death
+I Am Death (&C)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityIncinerate]
@@ -29998,7 +30018,7 @@ Requires Level 10 \n Breathes fire over a selected area \n Left click icon then 
 
 
 [CONTROLBAR:SpecialAbilityDrogothFireflight]
-Fiery Spiri&t
+Fiery Spirit (&T)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight]
@@ -30010,7 +30030,7 @@ This Is My Hour! (&W)
 
 
 [CONTROLBAR:WKWordofPower]
-Th&is is my Hour!
+This is my Hour! (&V)
 
 
 [CONTROLBAR:ToolTipWKWordofPower]
@@ -30110,7 +30130,7 @@ Upgrade with Men of Da&le
 
 
 [CONTROLBAR:BlackArrows]
-Blac&k Arrows
+Black Arrows (&R)
 
 
 [CONTROLBAR:BlackRiderMount]
@@ -30127,7 +30147,7 @@ Build Ramp
 
 
 [CONTROLBAR:Command_DwarvenCastleWallHub_SmallWallSpan]
-Build Wall
+Build Wall (&W)
 
 
 [CONTROLBAR:Command_GondorCastleWallHub_BeginRamp]
@@ -30135,7 +30155,7 @@ Build Ramp
 
 
 [CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan]
-Build Wall
+Build Wall (&W)
 
 
 [CONTROLBAR:ConstructCorsairShip]
@@ -30143,7 +30163,7 @@ Corsair Arrow Ship
 
 
 [CONTROLBAR:ConstructDwarvenBatteringRam]
-&Zirinmazn
+Zirinmazn (&S)
 
 
 [CONTROLBAR:ConstructDwarvenForgeWorksLevel2Upgrade]
@@ -30159,7 +30179,7 @@ Build Grove
 
 
 [CONTROLBAR:ConstructElvenWallHub]
-Build &Wall Hub
+Build Wall Hub (&A)
 
 
 [CONTROLBAR:ConstructElvenWarriorHorde]
@@ -30215,19 +30235,19 @@ Elven &Transport
 
 
 [CONTROLBAR:ConstructMordorAttackTroll]
-O&log-Hai
+Olog-Hai (&R)
 
 
 [CONTROLBAR:ConstructWildAttackTroll]
-Gundabad &Stone-troll
+Gundabad Stone-troll (&T)
 
 
 [CONTROLBAR:ConstructMordorBattleTower]
-Build Batt&le Tower
+Build Battle Tower (&Y)
 
 
 [CONTROLBAR:ConstructGuldurRuinousTower]
-Summon Ruinous &Tower
+Summon Ruinous Tower (&Y)
 
 
 [CONTROLBAR:ConstructMordorHaradrimArcherHorde]
@@ -30235,11 +30255,15 @@ H&aradrim Archers
 
 
 [CONTROLBAR:ConstructRohanArcherHorde]
-&Yeomen Archers
+Yeomen Archers (&W)
+
+
+[CONTROLBAR:ConstructRohanSpearThrowerHorde]
+Yeomen Spear Throwers (&R)
 
 
 [CONTROLBAR:ConstructRohanRohirrimArcherHorde]
-Rohirrim &Archers
+Rohirrim Archers (&R)
 
 
 [CONTROLBAR:DainLeadership]
