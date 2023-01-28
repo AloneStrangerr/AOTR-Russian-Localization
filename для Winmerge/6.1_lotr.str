@@ -46829,7 +46829,7 @@ Tent
 
 
 [CONTROLBAR:MasterTracker]
-&Master Tracker
+Master Tracker (&C)
 
 
 [CONTROLBAR:DunedainChieftain]
@@ -46841,19 +46841,19 @@ Nearby Dúnedain gain +33% attack damage \n and become immune to fear\n Passive p
 
 
 [CONTROLBAR:AragornIsildurHeir]
-&Isildur's Heir
+Isildur's Heir (&T)
 
 
 [CONTROLBAR:ToolTipFellowshipAragornIsildurHeir]
-Requires Level 9 and Andúril Upgrade \n Nearby Dúnedain gain +33% attack damage and become immune to fear\n Passive power \n When activated, all nearby units gain +33% Damage, \n +50% Armor and become immune to fear
+Nearby Dúnedain gain +33% attack damage and become immune to fear\n Passive power \n\n Active ability: Requires Level 9 and Andúril \n When activated, all nearby units gain +33% Damage, \n +50% Armor and become immune to fear
 
 
 [CONTROLBAR:ArnorAragornBlademaster]
-A F&ire Shall Be Woken
+A Fire Shall Be Woken (&V)
 
 
 [CONTROLBAR:TooltipArnorAragornBlademaster]
-Requires Level 6 \n Aragorn temporarily gains\n+75% Damage, +25% Armor, and wields a torch \n While the ability is active, nearby heros gain +15% armor \n Can only use with sword equipped \n Left click to activate
+Requires Level 6 \n Aragorn temporarily gains\n+75% Damage, +25% Armor, and wields a torch \n While the ability is active, nearby heroes gain +15% armor \n Can only use with sword equipped \n Left click to activate
 
 
 [CONTROLBAR:FellowshipAragornBlademaster]
@@ -46861,7 +46861,7 @@ Fa&ithful Protector
 
 
 [CONTROLBAR:TooltipFellowshipAragornBlademaster]
-Requires Level 5 \n Aragorn temporarily gains\n+100% Damage, +100% Armor, and wields a torch \n Left click to activate
+Requires Level 5 \n Aragorn temporarily gains\n+100% Damage, +100% Armor, and deals fire damage \n Left click to activate
 
 
 [CONTROLBAR:TooltipFellowshipStriderBlademaster]
@@ -46869,11 +46869,11 @@ Requires Level 5 \n Strider temporarily gains\n+100% Damage, +100% Armor, and wi
 
 
 [CONTROLBAR:ToolTipMasterTrackerAbility]
-Requires Level 3 \n Aragorn and nearby allies gain\n+15% Speed \n\n When using his bow \n Aragorn temporarily gains +150% vision range and +25% range \nLeft click to activate
+Requires Level 3 \n Aragorn gains +150% vision range, +25% range and +15% speed while nearby allies gain +15% movement speed for 25 seconds\nLeft click to activate
 
 
 [CONTROLBAR:ToolTipMasterTrackerLeadership]
-Requires Level 3 \n Aragorn and nearby allies gain\n+15% movement speed \n\n When using his bow \n Aragorn temporarily gains +150% vision range and +25% range \nPassive ability
+Requires Level 3 \nModifier Type: Spell\nAragorn and nearby allies gain\n+15% movement speed \n\n When using his bow \n Aragorn temporarily gains +150% vision range and +25% range \nPassive ability
 
 
 [CONTROLBAR:ToolTipAragornIsildurLeadership]
@@ -46896,7 +46896,7 @@ Banner Carrier
 
 
 [OBJECT:HordeAngmarDarkDunedain]
-Black Numenoreans
+Black Númenóreans
 
 
 [OBJECT:HordeAngmarRanger]
@@ -46988,11 +46988,11 @@ Angmar Garrison Army
 
 
 [CONTROLBAR:LW_Unit_AngmarDarkDunedainHorde]
-Black Numenorean Horde
+Black Númenórean Horde
 
 
 [CONTROLBAR:LW_Unit_AngmarDarkDunedainHordePlural]
-Black Numenorean Hordes
+Black Númenórean Hordes
 
 
 [CONTROLBAR:LW_ToolTipBuild_AngmarDarkDunedainHorde]
@@ -47016,7 +47016,7 @@ Requires Level 3 Hall of the King's Men
 
 
 [CONTROLBAR:ConstructAngmarDen]
-Build Mahû&d Outpost
+Build Mahûd Outpost (&C)
 
 
 [OBJECT:AngmarDenDescription]
@@ -47112,7 +47112,7 @@ Sorcerer
 
 
 [CONTROLBAR:ConstructAngmarForgeWorks]
-Build Pav&illion of the Golden King
+Build Pavillion of the Golden King (&M)
 
 
 [OBJECT:AngmarForgeWorksDescription]
@@ -47124,11 +47124,11 @@ Trains Troll Stone Throwers and Researches Tech Upgrades
 
 
 [CONTROLBAR:UpgradeAngmarForgeWorksLevel2]
-&Upgrade Pavillion of the Golden King to Level 2
+Upgrade Pavillion of the Golden King to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeAngmarForgeWorksLevel3]
-&Upgrade Pavillion of the Golden King to Level 3
+Upgrade Pavillion of the Golden King to Level 3 (&A)
 
 
 [Upgrade:AngmarForgeWorksLevel2]
@@ -47223,7 +47223,7 @@ Structure Type: Farm\nIncreases treasury\n
 
 
 [CONTROLBAR:ConstructAngmarStoneThrowerExpansion]
-Troll &Stone Thrower Expansion
+Troll Stone Thrower Expansion (&R)
 
 
 [CONTROLBAR:ToolTipConstructAngmarStoneThrowerExpansion]
@@ -47299,7 +47299,7 @@ Harondor Outpost
 
 
 [CONTROLBAR:ConstructHaradwaithSentryTower]
-Build Desert &Lookout
+Build Desert Lookout (&Y)
 
 
 [OBJECT:AngmarHallofTwilight]
@@ -47308,6 +47308,14 @@ Temple of Twilight
 
 [OBJECT:AngmarDen]
 Troll and Wolf Den
+
+
+[OBJECT:HaradTower]
+Desert Lookout
+
+
+[OBJECT:SouthronSentry]
+Sentry Tower
 
 
 
@@ -47342,7 +47350,7 @@ Fires arrows at nearby enemy units \n Can be garrisoned with ranged units for in
 
 
 [OBJECT:AngmarPorter]
-Builder
+Architect
 
 
 [OBJECT:HordeAngmarDarkRanger]
@@ -47509,7 +47517,7 @@ Snow Bind
 
 
 [CONTROLBAR:ConstructAngmarPorter]
-Recruit Bui&lder
+Recruit Architect (&W)
 
 
 [CONTROLBAR:AngmarMorgramirRecruit]
@@ -47569,7 +47577,7 @@ S&ummon Hillmen Hordes
 
 
 [CONTROLBAR:ConstructAngmarMill]
-Build Bazaa&r
+Build Bazaar (&W)
 
 
 [CONTROLBAR:ConstructAngmarBattleTower]
@@ -47578,15 +47586,15 @@ Build Battle &Tower
 
 
 [CONTROLBAR:ConstructAngmarBarracks]
-Build Harondor O&utpost
+Build Harondor Outpost (&T)
 
 
 [CONTROLBAR:ConstructAngmarHallofTwilight]
-Build Umbarian Citade&l
+Build Umbarian Citadel (&N)
 
 
 [CONTROLBAR:ConstructAngmarBarracks2Upgrade]
-&Upgrade Harondor Outpost to Level 2
+Upgrade Harondor Outpost to Level 2 (&A)
 
 
 [CONTROLBAR:ConstructAngmarThrallMaster]
@@ -47594,7 +47602,7 @@ Thrall &Master
 
 
 [CONTROLBAR:ConstructAngmarDarkDunedainHorde]
-Blac&k Numenoreans
+Black Númenórean Warriors (&E)
 
 
 [CONTROLBAR:ConstructAngmarDarkRangerHorde]
@@ -47602,15 +47610,15 @@ Dark &Rangers
 
 
 [CONTROLBAR:ConstructAngmarBarracksLevel3Upgrade]
-&Upgrade Harondor Outpost to Level 3
+Upgrade Harondor Outpost to Level 3 (&A)
 
 
 [CONTROLBAR:ConstructAngmarDen2Upgrade]
-&Upgrade Mahûd Outpost to Level 2
+Upgrade Mahûd Gathering to Level 2 (&A)
 
 
 [CONTROLBAR:ConstructAngmarDen3Upgrade]
-&Upgrade Mahûd Outpost to Level 3
+Upgrade Mahûd Gathering to Level 3 (&A)
 
 
 [CONTROLBAR:ConstructAngmarDireWolfHorde]
@@ -47626,7 +47634,7 @@ Dire Wolves gain +150% Damage \n Left click to activate
 
 
 [CONTROLBAR:ConstructAngmarSnowTrollHorde]
-Sno&w-trolls
+Snow-trolls (&E)
 
 
 [CONTROLBAR:ConstructAngmarHillTrollHorde]
@@ -47634,7 +47642,7 @@ Hi&ll Trolls
 
 
 [CONTROLBAR:ThrallMasterUpgradeOrcWarriors]
-Gundabad Wa&rriors
+Tribal Axemen (&R)
 
 
 [CONTROLBAR:ThrallMasterUpgradeWolfRiders]
@@ -47646,11 +47654,11 @@ Tribal A&xemen
 
 
 [CONTROLBAR:ThrallMasterUpgradeRhudaurSpearmen]
-Tribal S&pearmen
+Tribal Spearmen (&C)
 
 
 [CONTROLBAR:ThrallMasterUpgradeRhudaurSlingers]
-Tribal &Javelineers
+Tribal Javelineers (&T)
 
 
 [CONTROLBAR:NecromancerDeathMask]
@@ -47678,7 +47686,7 @@ Upgrades the Stone Thrower with Ice Shot \n Significantly increases the damage d
 
 
 [CONTROLBAR:AngmarChargeAttack]
-&Charge Attack
+Charge Attack (&R)
 
 
 [CONTROLBAR:AngmarTrollChargeAttack]
@@ -47691,7 +47699,7 @@ All Structures within the area of effect cannot produce, but are immune to damag
 
 
 [CONTROLBAR:TooltipChillWind]
-Moves enemy units closer to the center of the area of effect \n Does minimal damage \n Left click icon then left click on target area
+Moves enemy units closer to the center of the area of effect \n Does minimal damage \n Does not affect cavalry units \n Left click icon then left click on target area
 
 
 [CONTROLBAR:ToolTipConstructAngmarPorter]
@@ -47787,7 +47795,7 @@ Battlefield Support Unit
 
 
 [CONTROLBAR:ConstructAngmarHallofTwilight2Upgrade]
-&Upgrade Umbarian Citadel to Level 2
+Upgrade Umbarian Citadel to Level 2 (&A)
 
 
 [CONTROLBAR:ConstructAngmarHallofTwilightLevel3Upgrade]
@@ -47908,6 +47916,34 @@ Guard of the Mountains
 
 [CONTROLBAR:TooltipSummonGiants]
 Summons three Mountain Giants under your control \n Left click icon then left click on pathable location
+
+
+[CONTROLBAR:TrollishStew]
+Trollish Stew
+
+
+[CONTROLBAR:TooltipTrollishStew]
+Temporarily summons a kettle of Trollish Stew, guarded by Tom, Bert, and William \n The Trollish Stew provides healing and grants +15% armor and damage to nearby units and detects stealth \n Left click icon then left click on pathable location
+
+
+[OBJECT:WildTrollBert]
+Bert
+
+
+[OBJECT:WildTrollTom]
+Tom
+
+
+[OBJECT:WildTrollWilliam]
+William
+
+
+[OBJECT:TrollishStew]
+Trollish Stew
+
+
+[OBJECT:TrollishStewDescription]
+The Trollish Stew provides healing and grants +15% armor and damage to nearby units and detects stealth
 
 
 [CONTROLBAR:SummonOrcs]
@@ -48068,11 +48104,11 @@ Orc Chieftain
 
 
 [CONTROLBAR:DreadWrath]
-Chill of A&ngmar
+Chill of Angmar (&R)
 
 
 [CONTROLBAR:WitchkingMorgulCorruption]
-Morgu&l Blade
+Morgul Blade (&T)
 
 
 [CONTROLBAR:WkTerribleFury]
@@ -48116,7 +48152,7 @@ Citadel Gate
 
 
 [CONTROLBAR:Command_AngmarWallUpgradeToHub]
-&Wall Hub
+Wall Hub (&W)
 
 
 [CONTROLBAR:TooltipCommand_AngmarWallUpgradeToHub]
@@ -48124,7 +48160,7 @@ Allows wall building
 
 
 [CONTROLBAR:Command_AngmarWallUpgradeToRegularGate]
-&Gate
+Gate (&E)
 
 
 [CONTROLBAR:TooltipCommand_AngmarWallUpgradeToRegularGate]
@@ -48132,7 +48168,7 @@ Creates a gate that troops can pass through
 
 
 [CONTROLBAR:Command_AngmarWallUpgradeToPosternGate]
-&Postern Gate
+Postern Gate (&R)
 
 
 [CONTROLBAR:TooltipCommand_AngmarWallUpgradeToTower]
@@ -48387,7 +48423,7 @@ Revive the fallen hero, Khamûl
 
 
 [CONTROLBAR:MordorKhamulHotkey]
-&Khamûl
+Khamûl (&S)
 
 
 [OBJECT:MordorKhamul]
@@ -48455,7 +48491,11 @@ Unit Type: Cavalry\nStrong vs. Archers and Swordsmen\n
 
 
 [CONTROLBAR:ConstructMordorBlackOrcHorde]
-Blac&k Uruk Marauders
+Black Uruk Marauders (&T)
+
+
+[CONTROLBAR:ConstructMordorBlackOrcHordeInn]
+Black Uruk Marauders (&W)
 
 
 [OBJECT:HordeMordorBlackOrcs]
@@ -48475,7 +48515,7 @@ Gothmog
 
 
 [CONTROLBAR:ToolTipBuildMordorGothmog]
-Recruit &Gothmog
+Recruit Gothmog (&R)
 
 
 [CONTROLBAR:MordorGothmogRecruit]
@@ -48487,11 +48527,11 @@ Revive the fallen Hero, Gothmog
 
 
 [CONTROLBAR:MordorGothmogHotkey]
-&Gothmog
+Gothmog (&S)
 
 
 [CONTROLBAR:GothmogIronHand]
-Time of the Orc
+Time of the Orc (&R)
 
 
 [CONTROLBAR:GothmogDayoftheOrc]
@@ -48531,7 +48571,7 @@ Requires Level 2 Gogoroth Armory
 
 
 [TOOLTIP:LackLevel3GuldurGaolFireArrows]
-Requires Level 3 Guldur Gaol
+Requires Level 2 Guldur Gaol
 
 
 [CONTROLBAR:TooltipUpgradeMordorHaradrimPalaceLevel2]
@@ -48553,23 +48593,55 @@ Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
 
 
 [CONTROLBAR:UpgradeIsengardTavernLevel2]
-&Upgrade Clan Steading to Level 2
+Upgrade Clan Steading to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeIsengardTavernLevel3]
-&Upgrade Clan Steading to Level 3
+Upgrade Clan Steading to Level 3 (&A)
 
 
 [CONTROLBAR:TooltipUpgradeIsengardTavernLevel2]
-Allows training of Wildmen Units \n +10% Faster Build Speed
+Allows training of Wildmen Axe-throwers \n +10% Faster Build Speed
 
 
 [CONTROLBAR:TooltipIsengardTavern]
-Trains Wildmen Units \n Increases command point limit by 25
+Trains Wildmen units \n Increases command point limit by 25
 
 
 [CONTROLBAR:ConstructIsengardTavern]
-Build Cla&n Steading
+Build Clan Steading (&C)
+
+
+[OBJECT:IsengardLonghouse]
+Dunlending Longhouse
+
+
+[OBJECT:IsengardLonghouseDescription	]
+Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+
+
+[CONTROLBAR:ConstructIsengardLonghouse]
+Build Dunlending Longhouse (&M)
+
+
+[CONTROLBAR:ToolTipIsengardLonghouse]
+Requires Wulfgar\nTrains Dunlending units \n Increases command point limit by 25
+
+
+[CONTROLBAR:UpgradeDunlendingLonghouseLevel2]
+Upgrade Dunlending Longhouse to Level 2 (&A)
+
+
+[CONTROLBAR:TooltipUpgradeDunlendingLonghouseLevel2]
+Allows training of Dunlending Longbowmen and Dunnish Outriders \n +10% Faster Build Speed
+
+
+[CONTROLBAR:UpgradeDunlendingLonghouseLevel3]
+Upgrade Dunlending Longhouse to Level 3 (&A)
+
+
+[CONTROLBAR:TooltipUpgradeDunlendingLonghouseLevel3]
+Allows training of Dunlending Huskarls \n Adds defensive arrow tower \n +25% Faster Build Speed
 
 
 [CONTROLBAR:ConstructIsengardBerserkerHorde]
@@ -48581,7 +48653,7 @@ Wildmen Axe Thrower
 
 
 [CONTROLBAR:ConstructIsengardWildmanAxeHorde]
-Wildmen Axe &Throwers
+Wildmen Axe Throwers (&R)
 
 
 [CONTROLBAR:ToolTipBuildIsengardWildmanAxeHorde]
@@ -48621,7 +48693,7 @@ Wildmen of Dunland - Wildmen Axe Thrower Hordes
 
 
 [CONTROLBAR:ConstructIsengardWargPack]
-Warg &Pack
+Warg Pack (&W)
 
 
 [CONTROLBAR:ToolTipBuildIsengardWargPack]
@@ -48629,7 +48701,7 @@ Strong vs. Swordsmen and Archers \n \n Fast-moving and ferocious, packs of Wargs
 
 
 [CONTROLBAR:ConstructWhiteWargPack]
-White &Wolves
+White Wolves (&E)
 
 
 [CONTROLBAR:ToolTipBuildWhiteWargPack]
@@ -48654,15 +48726,15 @@ Requires Level 6 \n Allies near the Captain gain \n +50% Damage, +50% Armor, \n 
 
 
 [CONTROLBAR:ZerkSlayer]
-&Immolation
+Immolation (&R)
 
 
 [CONTROLBAR:ConstructDwarvenZerkerHorde]
-Adâru&f-sulûkh
+Adâruf-sulûkh (&E)
 
 
 [CONTROLBAR:ToolTipBuildDwarvenZerkerHorde]
-Wyrm-slayers \n Strong vs. Heroes \n Requires Level 2 Erebor Redoubt \n \n Only the hardiest, most fearsome Dwarves pass the grueling requirements to enter the ranks of the Wyrm-slayers - which is all the better, for the wyrms of the Withered Heath, their quarry, are not to be trifled with.
+Wyrm-slayers \n Strong vs. Heroes and Monsters \n Requires Level 2 Erebor Redoubt \n \n Only the hardiest, most fearsome Dwarves pass the grueling requirements to enter the ranks of the Wyrm-slayers - which is all the better, for the wyrms of the Withered Heath, their quarry, are not to be trifled with.
 
 
 [OBJECT:HordeDwarvenZerker]
@@ -48722,7 +48794,7 @@ Anórien Spearmen
 
 
 [CONTROLBAR:ConstructGondorSpearmenHorde]
-Anórien S&pearmen
+Anórien Spearmen (&S)
 
 
 [CONTROLBAR:ToolTipBuildGondorSpearmenHorde]
@@ -48738,7 +48810,7 @@ Yeoman Spearmen
 
 
 [CONTROLBAR:ConstructRohanSpearmenHorde]
-Yeoman S&pearmen
+Yeoman Spearmen (&W)
 
 
 [CONTROLBAR:ToolTipBuildRohanSpearmenHorde]
@@ -48750,7 +48822,7 @@ Swan Knights
 
 
 [CONTROLBAR:ConstructGondorKnightsofDolHorde]
-&Swan Knights
+Swan Knights (&E)
 
 
 [CONTROLBAR:KnightsofDolInspiration]
@@ -48758,7 +48830,7 @@ Inspiration
 
 
 [CONTROLBAR:KnightsofDolChargeofGlory]
-Amroth for Gondo&r
+Amroth for Gondor (&R)
 
 
 
@@ -48814,15 +48886,15 @@ Azog
 
 
 [CONTROLBAR:WildAzogRecruit]
-Recruit the Great Gundabad Orc that swore to wipe out the line of Durin \n \n 'Nuzdigid? Nuzdi gast...'
+Recruit the LA LI LU LE LO \n \n 'Brexit was a good idea. VERY NICE. Thou art more lovely and more temperate. Rough winds do shake the darling buds of May, And summer's lease hath all too short a date. I am the one who knocks'
 
 
 [CONTROLBAR:WildAzogRevive]
-Revive Azog the Defiler. \n \n 'So, you think his defiling days are done?'
+Revive LA LI LU LE LO \n \n 'So, you think his defiling days are done?'
 
 
 [CONTROLBAR:WildAzogHotKey]
-&Azog the Defiler
+The Real Azog
 
 
 [CONTROLBAR:AzogBrigandage]
@@ -48847,11 +48919,11 @@ Catapults
 
 
 [BANNERUI:AngmarDarkDunedain]
-Black Numenorean
+Black Númenórean
 
 
 [BANNERUI:AngmarDarkDunedains]
-Black Numenoreans
+Black Númenóreans
 
 
 [BANNERUI:AngmarDarkRanger]
@@ -52113,7 +52185,7 @@ Requires Level 2\nReduces enemy armor and damage\nPassive ability
 
 
 [TOOLTIP:LackLevel2SpiderPit]
-Requires Level 2 Warg Cage
+Requires Level 2 Wolf Cairn
 
 
 [OBJECT:DolGuldurPrisonDescription]
@@ -52128,7 +52200,7 @@ Requires Level 2 Barracks
 
 
 [CONTROLBAR:ToolTipZealotAxeThrow]
-Requires Level 5 \n Adâruf-sulûkh throw bottles of Dwarven flash flame, damaging enemy units \n Left click icon then left click on target
+Adâruf-sulûkh throw bottles of Dwarven flash flame, damaging enemy units \n Left click icon then left click on target
 
 
 
@@ -52183,7 +52255,7 @@ Extinguish Fire
 
 
 [CONTROLBAR:EvacuateAll]
-E&vacuate All
+Evacuate All (&E)
 
 
 [OBJECT:WargLairDescription]
@@ -52191,31 +52263,35 @@ Allows training of Warg Packs
 
 
 [CONTROLBAR:ConstructFireDrake]
-&Fire Wyrm
+Fire Wyrm (&W)
 
 
 [CONTROLBAR:HeroicStatueBuild]
-Provides a leadership bonus to nearby allies \n Stacks with Buffs and Spells \n Reduces cost of heroes\n Increases command point limit by 10
+Provides a leadership bonus to nearby allies \n Stacks with Buffs and Spells \n Reduces cost of infantry\n Increases command point limit by 10
 
 
 [CONTROLBAR:ElvenHeroicStatueBuild]
-Provides a leadership bonus to nearby units \n Stacks with Buffs and Spells \n Reduces cost of basic Lorien infantry and heroes \n Increases command point limit by 10
+Provides a leadership bonus to nearby units \n Stacks with Buffs and Spells \n Reduces cost of infantry \n Increases command point limit by 10
+
+
+[CONTROLBAR:HeroicStatueBuildRohan]
+Provides a leadership bonus to nearby units \n Stacks with Buffs and Spells \n Increases command point limit by 10
 
 
 [OBJECT:HeroicStatueDescription]
-Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Culture Bonus - Reduced cost of heroes \n 1 Statue: 5% \n 2 Statues: 10% \n 3 Statues: 15% \n 4 Statues: 20% \n 5+ Statues: 25%
+Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Culture Bonus - Reduced cost of infantry \n 1 Statue: 4% \n 2 Statues: 8% \n 3 Statues: 12% \n 4 Statues: 16% \n 5+ Statues: 20%
 
 
 [OBJECT:RohanHeroicStatueDescription]
-Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Heroism Bonus - Reduced cost of heroes \n 1 Statue: 5% \n 2 Statues: 10% \n 3 Statues: 15% \n 4 Statues: 20% \n 5+ Statues: 25%
+Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells
 
 
 [OBJECT:ElvenHeroicStatueDescription]
-Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Culture Bonus - Reduced cost of basic Lorien infantry and heroes \n 1 Statue: 5% \n 2 Statues: 10% \n 3 Statues: 15% \n 4 Statues: 20% \n 5+ Statues: 25%
+Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Culture Bonus - Reduced cost of infantry \n 1 Statue: 4% \n 2 Statues: 8% \n 3 Statues: 12% \n 4 Statues: 16% \n 5+ Statues: 20%
 
 
 [OBJECT:MirkwoodHeroicStatueDescription]
-Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Heroic Bonus - Reduced cost of heroes \n 1 Statue: 5% \n 2 Statues: 10% \n 3 Statues: 15% \n 4 Statues: 20% \n 5+ Statues: 25%
+Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells
 
 
 [CONTROLBAR:ToolTipBuildEvilBombardShip]
@@ -52234,7 +52310,7 @@ The units return to standard line formation
 
 
 [CONTROLBAR:ToolTipToggleTowerGuardLineToSpearWallFormation]
-The units form a Spear Wall\n Units lose 40% speed, gain resistance to knockback, decelerate crush, and gain +33% armor to all and a bonus 60% armor against cavalry
+The units form a Spear Wall\n Units lose 40% speed, gain resistance to knockback, decelerate crush, and gain +33% armor
 
 
 
@@ -52280,15 +52356,19 @@ Selected structure's resource output is temporarily raised to 300% \n Affects Fu
 
 
 [CONTROLBAR:TooltipUntamedAllegiance]
-Cast on a Lair to gain control of the Lair and associated creatures \n Cast on a Warg Cage, Troll Cage, Mountain-orc Lodge, or Mûmakil Pen, to increase production by 50% for a short time\n Left click icon then left click on target Lair or production building
+Cast on a Lair to gain control of the Lair and associated creatures \n Cast on a Wolf Cairn, Troll Cage, Mountain-orc Lodge, or Mûmakil Pen, to increase production by 50% for a short time\n Left click icon then left click on target Lair or production building
+
+
+[CONTROLBAR:TooltipWildAllegiance]
+Requires the Wild Allegiance upgrade \n Cast on a Lair to gain control of the Lair\n Creatures guarding the lair are slain\n Captured lairs produce resources and recruit units\nLeft click icon then left click on target Lair
 
 
 [CONTROLBAR:ToolTipWhiteWinter]
-Temporarily blankets the map in a raging snowstorm\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness \n Modifier Type: Active Debuff \n Enemy units suffer -25% Damage, -20% Armor, and -30% Vision Range \nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click to activate
+Temporarily blankets the map in a raging snowstorm\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness \n Modifier Type: Active Debuff \n Enemy units suffer -25% Damage, -20% Armor, and -30% Vision Range \nNullifies enemy Leadership \n Does not stack with other Debuffs \n Extinguishes all fires \n\n Left click to activate
 
 
 [CONTROLBAR:ToolTipFreezingRain]
-Temporarily covers the map in rain\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness \n Modifier Type: Active Debuff \n Enemy units suffer -25% Damage and -20% Armor\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click to activate
+Temporarily covers the map in rain\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness \n Modifier Type: Active Debuff \n Enemy units suffer -25% Damage and -20% Armor\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Extinguishes all fires \n\n Left click to activate
 
 
 [CONTROLBAR:TooltipSummonWatcher]
@@ -52296,7 +52376,7 @@ Summons the Watcher in the Water\nCauses major damage to enemies\nLeft click ico
 
 
 [CONTROLBAR:SpecialAbilityWyrmReposition]
-&Reposition
+Reposition (&W)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityIgnite]
