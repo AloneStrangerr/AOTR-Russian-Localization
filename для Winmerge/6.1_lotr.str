@@ -52416,7 +52416,11 @@ Baruk-sharâhul form a Shield Wall \n They gain +33% Armor, -20% Damage, -40% Spe
 The units return to standard line formation
 
 [CONTROLBAR:ToolTipToggleGFighterLineToBlockFormationElite]
-+33% Armor\n-40% Speed \n Reduces arrow damage by 33%
++33% Armor\n-40% Speed
+
+
+[OBJECT:HordeGondorRangerSpear]
+Ithilien Sentinels
 
 
 [OBJECT:HordeGondorRanger]
@@ -52439,7 +52443,7 @@ The Wardens bombard anywhere within a great radius with a volley of arrows \n Le
 
 
 [CONTROLBAR:ToggleIthilienWeapons]
-&Toggle Weapon
+Toggle Weapon (&R)
 
 
 [CONTROLBAR:ToolTipToggleIthilienWeapons]
@@ -52537,17 +52541,17 @@ Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% Arm
 Swan Knights of Dol Amroth
 
 [CONTROLBAR:ToolTipBuildGondorKnightsofDolHorde]
-Strong vs. Infantry, Archers. \n \n The Swan Knights of Dol Amroth were renowned as one of the greatest cavalry regiments in Middle-earth..
+Strong vs. Infantry, Archers \n Limited to 3\n \n The Swan Knights of Dol Amroth were renowned as one of the greatest cavalry regiments in Middle-earth.
 
 [CONTROLBAR:ToolTipBuildGondorKnightsofDolHorde_WOTR]
-Requires Level 2 Stables and Dol Amroth Citadel \n Strong vs. Infantry, Archers. \n \n The Swan Knights of Dol Amroth were renowned as one of the greatest cavalry regiments in Middle-earth..
+Requires Level 2 Stables and Dol Amroth Citadel \n Strong vs. Infantry, Archers\n Limited to 3\n \n The Swan Knights of Dol Amroth were renowned as one of the greatest cavalry regiments in Middle-earth.
 
 [CONTROLBAR:TooltipKnightsofDolInspiration]
 Requires Level 2 \n Nearby Gondor Cavalry gain\n+33% Damage, +33% Armor\nand earn experience 50% faster\nPassive ability
 
 
 [CONTROLBAR:ToolTipSmite]
-Requires Level 10 \n Powerful ranged attack against a single target \n\n Deals great damage to flying units \n \n Deals 200% extra damage to the Witch-king of Angmar \n\n Left click icon then left click on target
+Requires Level 8 \n Powerful ranged attack against a single target\n Deals great damage to flying units\nDeals 200% extra damage to the Witch-king of Angmar\n Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipEomerLeadership]
@@ -52576,18 +52580,18 @@ Requires Level 5 \n Théoden must be mounted to use ability \n Modifier Type: Spe
 
 
 [CONTROLBAR:ToolTipFaramirLeadership]
-Requires Level 3 \n Modifier Type: Leadership \n Allies near Faramir gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Requires Level 3 \n Modifier Type: Leadership \n Pinnath Gelin Riders and Anórien Knights near Faramir gain +15% Speed and -15% trample deceleration \n Stacks with Buffs and Spells \n Passive ability
 
 [CONTROLBAR:ToolTipCaptainofGondor]
 Requires Level 8 \n Give targeted friendly troops experience \n Left click icon then left click on target units
 
 
 [CONTROLBAR:ToolTipHornofGondor]
-Requires Level 2 \n Stun enemies with terror \n Left click to activate
+Requires Level 4 \n Stun enemies with terror for 15 seconds \n Left click to activate
 
 
 [CONTROLBAR:ToolTipFellowshipHornofGondor]
-Requires Level 3 \n Stun enemies with terror \n Left click to activate
+Requires Level 3 \n Stun enemies with terror for 15 seconds \n Left click to activate
 
 
 [CONTROLBAR:ToolTipBoromirLeadership]
@@ -52607,7 +52611,7 @@ Requires Level 2 \n Aragorn temporarily gains\n+100% Damage, +100% Armor \n Left
 
 
 [CONTROLBAR:TooltipElessarBladeMaster]
-Aragorn deals magic damage and splash damage \n When activated, grants +50% extra fire damage, slows enemies and decreases their armor for a short time \n Left click to activate
+Aragorn deals magic damage and splash damage \n When activated, grants +50% extra fire damage, slows enemies by 10% and decreases their armor by 5% for 5 seconds \n Left click to activate
 
 
 [CONTROLBAR:ToolTipAragornLeadership]
@@ -52619,13 +52623,19 @@ Modifier Type: Leadership \n Allies near Elessar gain +33% Damage, +33% Armor, a
 
 
 [CONTROLBAR:GandalfNewMount]
-&Mount Shadowfax / Dismount
+Mount Shadowfax / Dismount (&T)
+
+
+[CONTROLBAR:GandalfNewMountCampaign]
+Mount Shadowfax / Dismount
 
 
 [CONTROLBAR:ToolTipShadowfax]
 Requires Level 5 \n Left click to switch between \n mounted on Shadowfax and on foot
 
 
+[CONTROLBAR:ToolTipShadowfaxStormcrow]
+Left click to switch between \n mounted on Shadowfax and on foot
 
 
 
@@ -52662,7 +52672,7 @@ Mir&kwood Archers
 
 
 [CONTROLBAR:BuildElvenRivendellLancers]
-Roque&ntari
+Roquentari (&T)
 
 
 [CONTROLBAR:BuildElvenRivendellArchers]
@@ -52683,7 +52693,7 @@ Generates resources based on available terrain\n Can be upgraded with Blessed Wa
 
 
 [CONTROLBAR:PurchaseUpgradeElvenBarracksLevel3]
-&Upgrade Golden Wood Garrison to Level 3
+Upgrade Golden Wood Garrison to Level 3 (&A)
 
 [CONTROLBAR:ToolTipBuildElvenBarracksLevel3]
 Allows training of Nandor Hîr-Hathol\n+25% Faster Build Speed \n Adds defensive Arrow Tower
@@ -52704,7 +52714,7 @@ Allows research of Mallorn Bows\nAdds defensive Arrow Tower
 
 
 [CONTROLBAR:PurchaseUpgradeElvenSilverthornArrowsForBattleTower]
-Mallorn Bo&ws
+Mallorn Bows (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEnchantedAnvil]
@@ -52745,7 +52755,7 @@ Requires Level 10 \n A high damage attack that stuns enemy units \nCan only use 
 Requires Level 3 \n Glorfindel gains\n+100% Damage, +100% Armor \n Left click to activate
 
 [CONTROLBAR:ToolTipGlorfindelWindRider]
-Requires Level 5 \n Glorfindel gains +40% Speed, +100% Armor, \n and glides past enemies like the wind \n Can only be used mounted \n Left click to activate
+Requires Level 5 \n Glorfindel gains +20% Speed, +100% Armor, \n and glides past enemies like the wind \n Can only be used mounted \n Left click to activate
 
 
 [CONTROLBAR:ToolTipLegolasTrainArchers  ]
@@ -52753,7 +52763,7 @@ Requires Level 3 \n Targeted Good archers gain good experience \n Left click ico
 
 
 [CONTROLBAR:PrinceMirkwood]
-Prince of Mir&kwood
+Prince of Mirkwood (&T)
 
 
 [CONTROLBAR:ToolTipFellowshipLegolasTrainArchers  ]
@@ -52784,7 +52794,7 @@ Requires Level 7 \n Allows all targeted allies to become temporarily stealthed \
 Requires Level 2 \n Reveals an area of the map \n Left click icon then left click on target area
 
 [CONTROLBAR:TooltipElrondLeadership]
-Modifier Type: Leadership \n Allies near Elrond earn experience 150% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Allies near Elrond gain +33% damage +33% armour and earn experience twice as fast\nStacks with Buffs and Spells\nWhile Elrond is on the field, his Library may be constructed for free\nPassive ability
 
 
 [CONTROLBAR:ToolTipElrondRestoration]
@@ -52804,6 +52814,8 @@ Creates lush terrain \n Modifier Type: Buff \n All allied units gain +50% Damage
 Friendly units within the mist become stealthed \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
 
 
+[CONTROLBAR:TooltipEnshroudingMistCampaign]
+Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
 
 
 
@@ -52815,7 +52827,7 @@ Requires Level 4 \n Order Warriors to charge the enemy \n Modifier Type: Buff \n
 
 
 [CONTROLBAR:PurchaseUpgradeDwarvenSiegeHammer]
-Purchase S&iege Hammers
+Purchase Siege Hammers (&R)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenSiegeHammer]
 Upgrades this battalion with Siege Hammers \n Significantly increases the damage done by Melee Weapons to Structures\n Negates the effects of Forged Blades
@@ -52839,7 +52851,7 @@ Causes enemy monsters to flee in terror \n Left click icon then left click on ta
 
 
 [CONTROLBAR:SpecialAbilityOilBarrels]
-O&il Barrels
+Oil Barrels (&W)
 
 
 [CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier]
@@ -52847,7 +52859,7 @@ Modifier Type: Leadership \n Nearby allies gain +33% Damage, +33% Armor, and ear
 
 
 [CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot]
-Purchase Flaming Sho&t
+Purchase Flaming Shot (&T)
 
 
 
@@ -52893,7 +52905,7 @@ Allows battalions to purchase the Forged Blades upgrade \n When equipped, increa
 Defensive tower that fires arrows at nearby enemies
 
 [CONTROLBAR:PurchaseUpgradeSentryTowerForgedBlades]
-Mithril-&tipped Arrows
+Mithril-tipped Arrows (&D)
 
 
 [CONTROLBAR:ToolTipConstructDwarvenHallExpansion]
@@ -52921,15 +52933,15 @@ Requires Level 4\nTarget enemy building takes heavy damage\nand is temporarily d
 
 
 [CONTROLBAR:ToolTipDainLeadership]
-Modifier Type: Leadership \n Allies near King Dáin gain +100% armor \n King Dáin gains +33% attack damage when near King Brand \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership\nAllies near King Dáin gain +75% armor and resistance to fear and terror\n King Dáin gains +33% attack damage when near King Brand\nPassive ability
 
 
 [CONTROLBAR:DainRestoration]
-Mighty &Veteran
+Mighty Veteran (&T)
 
 
 [CONTROLBAR:ToolTipDainRestoration]
-Requires Level 5 \n Fully refreshes allied units and heroes' special ability timers \n Left click icon then left click on target area
+Requires Level 5\nHeals nearby allies and fully refreshes their special ability timers\nLeft click icon then left click on target area
 
 
 
@@ -52938,8 +52950,11 @@ Powerful ranged attack with radius damage \n Left click icon then left click on 
 
 
 [CONTROLBAR:ToolTipDwarvenGimliAxeThrow]
-Powerful ranged attack with radius damage \n Left click icon then left click on target
+Powerful ranged attack with radius damage \n Target enemy hero is pinned for 10 seconds \n Left click icon then left click on target
 
+
+[CONTROLBAR:ToolTipMirkwoodGimliAxeThrow]
+Powerful ranged attack with radius damage\n Left click icon then left click on target
 
 
 
@@ -52973,7 +52988,7 @@ Uruk-hai Pikeman
 
 
 [CONTROLBAR:PurchaseUpgradeIsengardTorches]
-Purchase &Torches
+Purchase Torches (&C)
 
 
 [OBJECT:IsengardWildmanAxeHorde]
@@ -53001,6 +53016,14 @@ Provides worked metals as a resource based on available terrain \n Reduces the c
 Generates resources based on available terrain\n Steel Bonus - Reduced cost of uruks \n 2 Furnaces: 5% \n 3 Furnaces: 10% \n 4 Furnaces: 15% \n 5+ Furnaces: 20%
 
 
+[CONTROLBAR:HeatBlast]
+Heat Blast (&W)
+
+
+[CONTROLBAR:ToolTipHeatBlast]
+Requires Level 2 and Fuel the Fires\n Knocks back nearby enemy units and sets the surrounding area on fire \n Left click to activate
+
+
 [CONTROLBAR:TooltipUpgradeIsengardTavernLevel3]
 Adds defensive Arrow Tower\n+25% Faster Build Speed
 
@@ -53020,16 +53043,16 @@ Allows research of Fire Arrows\nAdds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations]
-Reduces cost of Isengard structures and walls \n 1 Fortress with Excavations = 17% cheaper \n 2 Fortresses with Excavations = 21% cheaper \n 3 Fortresses with Excavations = 25% cheaper \n 4 Fortresses with Excavations = 29% cheaper \n 5 Fortresses with Excavations = 33% cheaper
+Nearby structures gain +25% Armor
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges]
 Reduces cost of Isengard unit Upgrades \n 1  Fortress with forges = 33% cheaper \n 2 Fortresses with forges = 41% cheaper \n 3 Fortresses with forges = 49% cheaper \n 4 Fortresses with forges = 58% cheaper \n 5 Fortresses with forges = 67% cheaper
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressWizardsTower]
-Requires the Iron Plating upgrade \n Gives access to the focus system
+Requires the Iron Plating upgrade \n Gives access to the Cunning of Curunír
 
 [ToolTip:LackIronPlating]
-Requires the Iron Plating upgrade \n Gives access to the focus system
+Requires the Iron Plating upgrade \n Gives access to the Cunning of Curunír
 
 
 
@@ -53042,20 +53065,20 @@ Strong vs. All Normal Troops\nRequires Level 3 Uruk Pit\nOnly 3 hordes of Deathb
 Requires Level 3 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -25% Damage and -20% Armor \nNullifies enemy leadership \n Does not stack with other Debuffs \n Left click icon then left click on target units
 
 [CONTROLBAR:ToolTipBackstab]
-Requires Level 5 \n High damage melee attack that also poisons targeted enemy \n Left click icon then left click on target
+Requires Level 5 \n High damage melee attack that also poisons targeted enemy \n At rank 10, targeted enemy hero cannot gain experience,\n has its damage output reduced by 50%, and loses 25% movement speed for 30 seconds \n Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage]
-Requires Level 2 \n Lurtz gains +200% Damage and +25% Armor\nCan only use with sword equipped \n Left click to activate
+Requires Level 3 \n Lurtz briefly gains +75% damage\nCan only use with sword equipped \n With each level gained, damage is increased by 25% up to a maximum of +200% at level 8 \n Left click to activate
 
 [CONTROLBAR:ToolTipSpecialAbilityLurtzCripple]
-Requires Level 4 \n Pins enemy Hero in place \n Can only use with bow equipped \n Left click icon then left click on target
+Requires Level 4 \n Pins enemy Hero in place for 15 seconds \n At rank 8, instills fear into nearby enemies \n Can only use with bow equipped \n Left click icon then left click on target
 
 [CONTROLBAR:LurtzLeadership]
-Leader of the Hunt
+Leader of the Hunt (&R)
 
 [CONTROLBAR:ToolTipLurtzLeadership]
-Requires Level 5 \n Modifier Type: Leadership \n Uruk-hai near Lurtz gain +33% Damage and +33% Armor \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Uruk-hai near Lurtz gain +33% Damage and +33% Armor \n Stacks with Buffs and Spells \n Passive ability \n\n Can be cast on enemy heroes to track their movements for 60 seconds
 
 [CONTROLBAR:ToolTipLurtzPillage]
 Requires Level 8 \n Lurtz and nearby allies loot enemy kills for resources \n Passive ability
@@ -53065,11 +53088,15 @@ Requires Level 8 \n Lurtz and nearby allies loot enemy kills for resources \n Pa
 Modifier Type: Leadership \n Allied Warg Riders near Sharku gain +33% Damage, +33% Armor and earn experience 50% faster \n Stacks with Buffs and Spells \nPassive ability\n\nAt rank 4, targeted Warg Riders battalion permanently gain\n+20% health and +20% armor\nLeft click icon then left click on target battalion
 
 [CONTROLBAR:ToolTipSharkuManEater]
-Requires Level 5 \n Kill target enemy which restores Sharku's health and temporarily grants\n+50% Damage, +100% Armor \n Left click icon then left click on target enemy" 
+Requires Level 5 \n Kill target enemy which restores 50% of Sharku's health and temporarily grants\n+50% Damage, +100% Armor \n Left click icon then left click on target enemy" 
 
 
 [CONTROLBAR:ToolTipSpeechCraft]
 Requires Level 5 \n Give targeted units excellent experience \n Left click icon then left click on target units
+
+
+[CONTROLBAR:ToolTipDarkEloquence]
+Requires Level 5 \n Give targeted units excellent experience \n Shorter cooldown with the One Ring \n Left click icon then left click on target units
 
 [CONTROLBAR:ToolTipThunderBolt]
 Requires Level 7 \n Strikes a powerful lightning bolt against targeted enemies\nLeft click icon then left click on target
@@ -53077,6 +53104,9 @@ Requires Level 7 \n Strikes a powerful lightning bolt against targeted enemies\n
 [CONTROLBAR:ToolTipDominate]
 Requires Level 10 \n Temporarily gain control of targeted enemies \n Left click icon then left click on target enemies
 
+
+[CONTROLBAR:ToolTipDominateRing]
+Requires Level 10 \n Permanently gain control of targeted enemies \n Left click icon then left click on target enemies
 
 
 
@@ -53092,7 +53122,7 @@ Taints an area of terrain \n Modifier Type: Buff \n All allied units gain +50% D
 
 
 [CONTROLBAR:PurchaseUpgradeMorderHeavyArmor]
-Purchase Hea&vy Armor
+Purchase Heavy Armor (&T)
 
 
 [OBJECT:MordorBlackOrc]
@@ -53143,7 +53173,7 @@ Mûmakil Killed
 
 
 [CONTROLBAR:ConstructMordorGreatBeast]
-Great B&east of Gorgoroth
+Great Beast of Gorgoroth (&R)
 
 
 
@@ -53189,7 +53219,7 @@ Requires the Morgul Sorcery upgrade\nStrong vs. All except Pikemen \nLimited to 
 
 
 [CONTROLBAR:ToolTipMouthOfSauronDoubt]
-Requires Level 4 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -20% Damage and -20% Armor\n Nullifies enemy leadership \n \n Modifier Type: Active Buff \n Targeted allied units gain +33% Damage and +33% Armor\n Does not stack with other Debuffs \n Left click icon then left click on target units
+Requires Level 4 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -20% Damage and -20% Armor\n Nullifies enemy leadership \n Does not stack with other Debuffs \n \n Modifier Type: Active Buff \n Targeted allied units gain +33% Damage and +33% Armor \n Left click icon then left click on target units
 
 [CONTROLBAR:ToolTipSpecialAbilityMouthOfSauronEvilEye]
 Requires Level 7 \n A powerful ray of light that damages targeted units \n Left click icon then left click on target
@@ -53228,7 +53258,7 @@ Gundabad Archer
 
 
 [CONTROLBAR:ToolTipBuildWildMarauderSwordHorde]
-Strong vs. Pikemen \n \n Hardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Azog the Defiler.
+Strong vs. Pikemen \n \n Hardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Bolg of the North.
 
 
 [OBJECT:WildMarauder]
@@ -53243,7 +53273,7 @@ Find a Goblin to pick up and throw at the enemy\nEnemy units where goblin lands 
 
 
 [CONTROLBAR:ToolTipBuildWildMountainGiant]
-Requires Level 3 Troll Lair and the Allegiance: Northern Wastes upgrade \n Limited to 5 \n Strong vs. Structures and Swordsmen \n \n 'There they were sheltering under a hanging rock for the night, and Bilbo lay beneath a blanket and shook from head to toe. When he peeped out in the lightning-flashes, he saw that across the valley the stone-giants were out, and were hurling rocks at one another for a game, and catching them, and tossing them down into the darkness where they smashed among the trees far below, or splintered into little bits with a bang.'
+Requires Level 3 Troll Lair and the Brood of the North upgrade \n Limited to 5 \n Strong vs. Structures and Swordsmen \n \n 'There they were sheltering under a hanging rock for the night, and Bilbo lay beneath a blanket and shook from head to toe. When he peeped out in the lightning-flashes, he saw that across the valley the stone-giants were out, and were hurling rocks at one another for a game, and catching them, and tossing them down into the darkness where they smashed among the trees far below, or splintered into little bits with a bang.'
 
 [CONTROLBAR:ToolTipWildMountainGiantStomp]
 Powerful attack that causes additional damage and meta impact\nCannot use with rock equipped\nLeft click to activate
@@ -53288,19 +53318,19 @@ Trains Trolls, Giant Bats and Mountain Giants \n Increases command point limit b
 
 
 [CONTROLBAR:ToolTipBuildWildLodgeLevel2Upgrade]
-Allows training of Mountain-orc Scouts and Gundabad Berserkers\n+10% Faster Build Speed
+Allows training of Mountain-orc Scouts\n+10% Faster Build Speed
 
 
 [CONTROLBAR:ToolTipBuildWildLodgeLevel3Upgrade]
-Allows training of Horrors of Gram\n+25% Faster Build Speed
+Allows training of Gundabad Berserkers and Bolg's Bodyguard\n+25% Faster Build Speed
 
 
 [CONTROLBAR:ToolTipBuildWildLodgeLevel3Upgrade_WOTR]
-+25% Faster Build Speed
+Allows training of Gundabad Berserkers\n+25% Faster Build Speed
 
 
 [CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade]
-Allows training of Snow-trolls and  Bats\n+10% Faster Build Speed
+Allows training of Snow-trolls and Bats\n+10% Faster Build Speed
 
 [CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade]
 Allows training of Gundabad Stone-trolls and Mountain Giants\n+25% Faster Build Speed
@@ -53332,10 +53362,10 @@ Defensive tower that fires arrows at nearby enemies
 
 
 [CONTROLBAR:ToolTipConstructWildBurrowsExpansion]
-Connects this Fortress to the tunnel network\nIncreases command point limit
+Connects this Fortress to the tunnel network
 
 [OBJECT:WildFortressBurrowsExpansionDescription]
-Allows access to the tunnel network\nIncreases command point limit
+Allows access to the tunnel network
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWildFortressFireArrows]
 Adds a number of Moria Orc archers with Fire Arrows onto the fortress \n Adds fire damage to all attached Orcish Lookouts
@@ -53368,7 +53398,7 @@ Requires Level 4\nBreathes fire over a selected area \n Left click icon then lef
 Requires Level 2\n Modifier Type: Leadership \nNearby allies gain\n+50% damage and fear resistance\n Stacks with Buffs and Spells \n Passive ability
 
 [CONTROLBAR:AzogFury]
-Sworn &Vengeance
+Sworn Vengeance (&C)
 
 [CONTROLBAR:ToolTipAzogFury]
 Requires Level 6 \n Azog temporarily gains +100% Damage and +40% Armor\nLeft click to activate
@@ -53377,13 +53407,13 @@ Requires Level 6 \n Azog temporarily gains +100% Damage and +40% Armor\nLeft cli
 Requires Level 6 \n Gives targeted units excellent experience \n Left click icon then left click on target units
 
 [CONTROLBAR:AzogDefiler]
-The Def&iler
+The Defiler (&T)
 
 [CONTROLBAR:ToolTipAzogDefiler]
 Requires Level 4 \n Modifier Type: Leadership \n Gundabad Berserkers near Azog gain\n+50% Armor and immunity to fear and terror\nPassive ability \n\n Taints an area around Azog \n Nearby allies near this area earn extra resources on kills \n Enemy units near this area suffer -25% Damage and -20% Armor\n Nullifies enemy leadership \n Does not stack with other Debuffs \n Left click icon
 
 [CONTROLBAR:AzogHeadhunter]
-Head Hun&ter
+Head Hunter (&R)
 
 [CONTROLBAR:ToolTipAzogHeadhunter]
 Requires Level 2 \n Puts a price on an enemy hero's head, reducing their armor and speed by 50% \nLeft click icon then left click on target
@@ -53419,14 +53449,14 @@ Spider
 
 
 [CONTROLBAR:PurchaseUpgradeAngmarDarkIronBlades]
-Purchase Dark Iron B&lades
+Purchase Forged Blades (&C)
 
 [TOOLTIP:LackAngmarDarkIronBlades]
 A nearby Caravan is needed to enable this equipment \n When equipped, increases the damage done by Melee Weapons
 
 
 [CONTROLBAR:PurchaseUpgradeAngmarDarkIronMail]
-Purchase Dark &Iron Mail
+Purchase Heavy Armor (&T)
 
 [TOOLTIP:LackAngmarDarkIronMail]
 A nearby Caravan is needed to enable this equipment \n When equipped, significantly reduces the amount of damage taken
@@ -53446,7 +53476,7 @@ Summon Wolf Riders to serve you \n from a nearby Troll and Wolf Den \nStrong vs.
 
 
 [OBJECT:AngmarDarkDunedain]
-Black Numenorean
+Black Númenórean
 
 [CONTROLBAR:ToolTipBuildAngmarDarkDunedainHorde]
 Requires Level 2 Umbarian Citadel \nStrong vs. Pikemen
@@ -53464,7 +53494,7 @@ Requires Level 3 Hall of King's Men \nStrong at Range
 Strong at Range
 
 [CONTROLBAR:PurchaseUpgradeAngmarIceArrows]
-Purchase Ice Arro&ws
+Purchase Fire Arrows (&C)
 
 [TOOLTIP:LackAngmarIceArrows]
 A nearby Caravan is needed to enable this equipment \n When equipped, significantly increases the damage done by Arrows
@@ -53522,11 +53552,11 @@ May recruit Trade Caravans that make resources and provide nearby friendly units
 
 
 [CONTROLBAR:ToolTipConstructAngmarBarracks]
-Trains units from Harondor and Near Harad
+Trains units from Harondor and Near Harad \n Increases command point limit by 25
 
 
 [CONTROLBAR:ToolTipBuildAngmarBarracksLevel2Upgrade]
-Allows training of Haradrim Raiders, Haradrim Spearmen and Haradrim Archers \n+10% Faster Build Speed
+Allows training of Harondor Raiders, Harondor Spearmen and Harondor Archers \n+10% Faster Build Speed
 
 
 [CONTROLBAR:ToolTipBuildAngmarBarracksLevel3Upgrade]
@@ -53534,7 +53564,7 @@ Allows training of Guards of the Serpent and the research of the Lies and Threat
 
 
 [CONTROLBAR:ToolTipAngmarDen]
-Trains Mahûd units and Mûmakil
+Trains Mahûd units and Mûmakil \n Increases command point limit by 25
 
 [CONTROLBAR:TooltipUpgradeAngmarDenLevel2]
 Allows training of War Mûmakil \n +10% Faster Build Speed
@@ -53550,7 +53580,7 @@ Requires Level 3 Troll and Wolf Den
 
 
 [CONTROLBAR:ToolTipConstructAngmarHallofTwilight]
-Trains Black Numenorean and heroic units
+Trains Black Númenórean and heroic units \n Increases command point limit by 25
 
 [CONTROLBAR:ToolTipPurchaseTechnologyAngmarSoulFreeze]
 Allows Sorcerers to specialize in the Soul Freeze power \n This makes units in the radius immobile but invulnerable for a short time
@@ -53563,13 +53593,13 @@ Allows Sorcerers to specialize in the Corpse Rain power \n This calls down a bar
 
 
 [CONTROLBAR:ToolTipConstructAngmarForgeWorks]
-Trains specialist and siege units
+Trains specialist and siege units \n Increases command point limit by 25
 
 [CONTROLBAR:TooltipUpgradeAngmarForgeWorksLevel2]
-Allows training of Half-troll Marauders \n +10% Faster Build Speed
+Allows training of Risen Carrion \n +10% Faster Build Speed
 
 [CONTROLBAR:TooltipUpgradeAngmarForgeWorksLevel3]
-Allows training of Risen Carrion \n +25% Faster Build Speed
+Allows training of Nafârati Marauders \n +25% Faster Build Speed
 
 [CONTROLBAR:PurchaseTechnologyAngmarIceShot]
 Research &Ice Shot
@@ -54265,7 +54295,7 @@ Man-Slayer
 
 
 [BANNERUI:IsengardFanatics]
-Man-Slayers
+Man-slayers
 
 [CONTROLBAR:LW_Unit_IsengardFanaticHorde]
 Uruk Scout Horde
@@ -54601,7 +54631,7 @@ Heals nearby friendly units \n Left click to activate
 
 
 [CONTROLBAR:ToolTipWoundingArrow]
-Requires Level 6 \n Single ranged attack\nCauses target monster to flee\n Temporarily decreases target's speed and damage by 25% \nCan only use with bow equipped\nLeft click icon then left click on target
+Requires Level 6 \n Single ranged attack\nCauses target monster to flee\n Decreases target's speed and damage by 25% for 10 seconds\nCan only use with bow equipped\nLeft click icon then left click on target
 
 [CONTROLBAR:TooltipNecroFellStrength]
 Drains enemy units of strength \n Modifier Type: Spell and Active Debuff \n Targeted enemy units take slight damage \n Nearby friendly units gain\n+33% Damage and +33% Armor \n Stacks With Buffs, Leadership and other Spells \n Does not stack with other Debuffs \n Left click icon then left click on target area
@@ -54660,16 +54690,16 @@ Requires Level 5 \n Gimli gains +100% Damage and\nincreased attack and movement 
 
 
 [CONTROLBAR:ToolTipDainSlayer]
-Requires Level 10 \n Dáin gains +75% armor and deals splash and knockback damage \n -45% speed for the duration of the power \n Left click to activate
+Requires Level 10 \nKing Dáin gains +75% armor and deals splash damage for 30 seconds\nTemporarily summons two battalions of Ashâmar-sharâhul\nLeft click to activate
 
 
 [CONTROLBAR:DainStand]
-Final Sta&nd
+Final Stand (&V)
 
 
 
 [CONTROLBAR:FellowshipSlayer]
-Stubbo&rn Pride
+Stubborn Pride (&C)
 
 
 [CONTROLBAR:ToolTipFellowshipSlayer]
@@ -54677,7 +54707,7 @@ Requires Level 6 \n Gimli gains +50% Armor and +33% speed \n Left click to activ
 
 
 [CONTROLBAR:FellowshipLegolasSlayer]
-&Piercing Shots
+Piercing Shots (&C)
 
 
 [CONTROLBAR:ToolTipFellowshipLegolasSlayer]
@@ -54689,15 +54719,15 @@ Requires Level 6 \n Legolas temporarily ignores enemy armor and slows down his t
 
 
 [CONTROLBAR:ToolTipMightyRage]
-Requires Level 5 \n Modifier Type: Spell and Active Debuff \n Targeted friendly units gain +33% Damage and +33% Armor\n Targeted enemy units suffer -25% Damage and -20% Armor \nNullifies enemy Leadership \n Stacks With Buffs, Leadership and other Spells \n Does not stack with other Debuffs \nLeft click icon then left click on target units
+Requires Level 5 \n Modifier Type: Spell\n Targeted friendly units gain +33% Damage \n Nullifies enemy leadership \n Stacks With Buffs, Leadership and other Spells
 
 
 [CONTROLBAR:ToolTipDainOldRedAxe]
-Requires Level 3 \n Modifier Type: Spell\n Nearby friendly units gain +33% Damage and resistance to fear and terror \n Stacks With Buffs, Leadership and other Spells \n At level 6, also summons a battalion of Ashâmar-sharâhul \n Left click icon to activate
+Requires Level 3 \n Modifier Type: Spell and Active Debuff \n Targeted friendly units gain +33% damage and armor for 30 seconds\n Targeted enemy units suffer -25% damage and -20% armor for 30 seconds\n\nAt Level 6, targeted friendly units gain +50% damage and armor for 30 seconds\nLeft click icon then left click on target units
 
 
 [CONTROLBAR:DainEmissary]
-&King's Messenger
+King's Messenger (&C)
 
 
 [CONTROLBAR:ToolTipDainEmissary]
