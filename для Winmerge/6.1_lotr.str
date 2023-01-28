@@ -54742,6 +54742,10 @@ Requires Level 8 \n Summons several battalions of dwarves to Dáin's side \n Left
 Requires Level 8 \n Temporarily gains control of targeted enemy Hero \n Left click icon then left click on target
 
 
+[CONTROLBAR:ToolTipMalignedLeechcraft]
+Requires Level 8 \n Targeted enemy hero's ability timers are set to just used \n Left click icon then left click on target
+
+
 
 
 
@@ -54763,6 +54767,10 @@ The Lord of the Rings, The Rise of the Witch-king servers have been permanently 
 
 [CONTROLBAR:ToolTipTameTheBeast]
 Requires Level 5 \n Target Wargs or Warg Riders come under Sharku's control \n Left click icon then left click on target
+
+
+[CONTROLBAR:ToolTipTameTheBeast]
+Requires Level 3 \n Summons a wave of charging Wargs to crush the enemy \n Left click icon then left click on target area
 
 
 [CONTROLBAR:ToolTipSpecialAbilityChargeAttack]
@@ -54813,7 +54821,7 @@ Demolisher becomes immobile but gains +200% armor
 
 
 [CONTROLBAR:ToolTipFueltheFires]
-+70% resources from harvesting trees \n Benefits all Isengard allies \n Passive power
++70% resources from harvesting trees \n Unlocks Heat Blast for Furnaces \n Passive power
 
 
 [CONTROLBAR:ToolTipWildShelobPoisonedStinger]
@@ -54842,7 +54850,7 @@ Left click to switch between mounted and on foot
 
 
 [CONTROLBAR:EowynNewMount]
-&Mount Windfola / Dismount
+Mount Windfola / Dismount (&R)
 
 
 [CONTROLBAR:ToolTipNewEowynMount]
@@ -54858,7 +54866,7 @@ Requires Level 2 \n Grants all nearby allies resistance to fear and terror\n Pas
 
 
 [CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel3]
-Allows training of Uruk Man Slayers \n +25% Faster Build Speed
+Allows training of Uruk-hai Man-slayers \n +25% Faster Build Speed
 
 
 [CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel3_WOTR]
@@ -54925,7 +54933,7 @@ Rhudaur Hillmen Rebels
 
 
 [CONTROLBAR:ToolTipBuildAngmarHallofTwilightLevel2Upgrade]
-Allows training of Black Numenorean units\n +10% Faster Build Speed
+Allows training of Black Númenórean units\n +10% Faster Build Speed
 
 [CONTROLBAR:TooltipBuildAngmarHallofTwilightLevel3Upgrade]
 Allows training of Hasharin Blades and Watchers of Kârna \n +25% Build Speed
@@ -54941,7 +54949,7 @@ Requires Level 5 \n Noldor Warriors gain\n50% Damage, +100% Armor \n Left click 
 
 
 [CONTROLBAR:ToolTipZerkSlayer]
-Requires Level 3 \n Adâruf-sulûkh temporarily deal fire damage per attack and gain +15% movement speed \nLeft click to activate
+Requires Level 3 \n Adâruf-sulûkh deal fire damage per attack, gain +15% movement speed and can trample enemies for 20 seconds\nLeft click to activate
 
 
 [CONTROLBAR:TooltipSunflare]
@@ -54952,8 +54960,8 @@ Calls a fiery beam of sunlight to scorch the battlefield \n Stuns light-sensitiv
 Calls a fiery beam of sunlight to scorch the battlefield \n Stuns light-sensitive creatures \n Left click icon then left click on target area
 
 
-[CONTROLBAR:TooltipFrozenLand]
-Freezes an area of terrain \n Modifier Type: Leadership and Spell \n All allied units gain +33% Damage, +33% Armor earn experience 50% faster \n Stacks with Buffs and Spells \nEnemy units suffer -33% Speed \n Extinguishes all fires\nLeft click icon then left click on target area
+[CONTROLBAR:TooltipFrozenLandAotR]
+Freezes an area of terrain \n Modifier Type: Leadership and Spell \n All allied units gain +25% Damage, +25% Armor and earn experience 50% faster \n Stacks with Buffs and Spells \nEnemy units suffer -25% Speed \n Extinguishes all fires\nLeft click icon then left click on target area
 
 
 [CONTROLBAR:TooltipNecroBlackIce]
