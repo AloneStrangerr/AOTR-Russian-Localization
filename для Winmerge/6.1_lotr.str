@@ -56660,12 +56660,12 @@ Revive the fallen Hero, Mollok
 
 
 [CONTROLBAR:MordorMollokHotKey]
-Mollo&k
+Mollok (&F)
 
 
 
 [CONTROLBAR:MordorMollokLeap]
-&Leap
+Leap (&R)
 
 
 [CONTROLBAR:ToolTipMordorMollokLeap]
@@ -56673,7 +56673,7 @@ Requires Level 4 \n Mollok jumps to a location causing \n area-effect damage \n 
 
 
 [CONTROLBAR:MordorMollokReapingSlash]
-&Reaping Slash
+Reaping Slash (&C)
 
 
 [CONTROLBAR:ToolTipMordorMollokReapingSlash]
