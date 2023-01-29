@@ -14310,7 +14310,7 @@ Sentry Tower will fire at enemy units
 
 
 [CONTROLBAR:SpecialAbilitySarumanFireball]
-Fi&reball
+Fireball (&R)
 
 [CONTROLBAR:ToolTipSpecialAbilitySarumanFireball]
 Requires Level 3 \n Throws a ball of energy \n Left click icon then left click on target
@@ -14337,7 +14337,7 @@ All kills earn extra resources \n Passive power
 
 
 [CONTROLBAR:ToolTipAOTRScavenger]
-For 60 seconds, all kills earn extra resources \n Left click to activate
+For 120 seconds, all kills earn extra resources \n Left click to activate
 
 
 [CONTROLBAR:FreezingRain]
@@ -14470,7 +14470,7 @@ Draft
 
 
 [CONTROLBAR:ToolTipDraft]
-All peasants become armed \n Left click to activate
+All peasants become armed, permanently gaining +5 damage and +40 health\n Left click to activate
 
 
 [CONTROLBAR:ElvenGifts]
@@ -14525,6 +14525,14 @@ Elven Wood
 Take Refuge!
 
 
+[CONTROLBAR:ToolTipElvenWoodCampaign]
+Summons a circle of warding \n Modifier Type: Buff \n All allied units gain +50% Damage, +50% Armor and become immune to fear and terror \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
+
+
+[CONTROLBAR:ToolTipCampaignElvenWood]
+Summons a circle of warding \n Modifier Type: Buff \n All allied units gain +50% Damage, +50% Armor and become immune to fear and terror \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
+
+
 [CONTROLBAR:SummonEntAllies]
 Summon Ent Allies
 
@@ -14554,7 +14562,7 @@ The Messengers of Manwë
 
 
 [CONTROLBAR:CampaignSummonEagleAllies]
-The Eagles Are Coming!
+Wisdom of the Eldar
 
 
 [CONTROLBAR:ToolTipSummonEagleAllies]
@@ -14562,7 +14570,7 @@ Summons 2 Giant Eagles \n Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipCampaignSummonEagleAllies]
-Summons a Giant Eagle \n Left click icon then left click on target area
+Grants experience to targeted friendly units \n Left click icon then left click on target units
 
 
 [CONTROLBAR:SummonDunedainAllies]
@@ -14610,7 +14618,11 @@ Lone Tower
 
 
 [CONTROLBAR:CampaignLoneTower]
-Friendly Outpost
+Elvish Waybread
+
+
+[CONTROLBAR:CampaignRestoration]
+Elvish Waybread
 
 
 [CONTROLBAR:LoneTowerGondor]
@@ -14666,25 +14678,28 @@ Clansmen of &Lamedon
 Blackroot Vale &Archers
 
 [CONTROLBAR:ConstructGondorArcherHorde]
-Anórien &Archers
+Anórien Archers (&E)
+
+[CONTROLBAR:ConstructGondorRangerSpearHorde]
+Ithilien &Sentinels
 
 [CONTROLBAR:ConstructGondorRangerHorde]
-Ithilien &Rangers
+Ithilien Rangers (&R)
 
 [CONTROLBAR:ConstructGondorFighterHorde]
-Anórien &Soldiers
+Anórien Soldiers (&T)
 
 [CONTROLBAR:ConstructGondorShieldGuardHorde]
 Minas Tirith &Citadel Guards
 
 [CONTROLBAR:ConstructGondorKnightHorde]
-Anórien &Knights
+Anórien Knights (&E)
 
 [CONTROLBAR:ConstructGondorLancerHorde]
-Anórien &Knights
+Anórien Knights (&E)
 
 [CONTROLBAR:ConstructGondorTrebuchet]
-T&rebuchet
+Trebuchet (&W)
 
 [CONTROLBAR:ConstructGondorPorter]
 Builder
@@ -14711,7 +14726,7 @@ Battle Tower and Keep Archers
 &Steel of Westernesse
 
 [CONTROLBAR:ConstructNumenorStoneworkUpgrade]
-Númenor Stonework
+Númenórean Stonework
 
 [CONTROLBAR:ConstructReinforcedGateUpgrade]
 Reinforced Gate
@@ -14720,26 +14735,26 @@ Reinforced Gate
 &Grand Harvest
 
 [CONTROLBAR:ConstructSiegeMaterialsUpgrade]
-Siege &Materials
+Siege Materials (&W)
 
 [CONTROLBAR:ConstructGondorSilverTreeBanner]
 White Tree Banner Carrier
 
 
 [CONTROLBAR:ConstructRohanRohirrimHorde]
-&Rohirrim Warriors
+Rohirrim Warriors (&E)
 
 
 [CONTROLBAR:ConstructRohanSnowbournRider]
-Riders of &Snowbourn
+Riders of Snowbourn (&T)
 
 
 [CONTROLBAR:ConstructRohanHorsemenHorde]
-Horsemen of the &Mark
+Horsemen of the Mark (&W)
 
 
 [CONTROLBAR:ConstructRohanKingsguardHorde]
-Mounted &Kingsguard
+Mounted Kingsguard (&S)
 
 
 [CONTROLBAR:ToolTipBuildGondorSilverTreeBanner]
@@ -14776,6 +14791,10 @@ Requires Level 2 Archery Range \n Strong vs. Infantry and Monsters \n\nWielding 
 
 [CONTROLBAR:ToolTipBuildGondorArcherHorde_Osgiliath]
 Strong vs. Infantry and Monsters \n\nWielding great bows of heartwood, Anórien archers played a vital role in the defense of the White City.
+
+
+[CONTROLBAR:ToolTipBuildGondorRangerSpearHorde]
+Requires Level 3 Archery Range and Faramir \n Strong vs. Infantry and Monsters \n Stealth near trees \n Can fire Longshot arrow volleys\n \n The Rangers are the descendants of the people who once dwelt in Ithilien, before it fell from Gondor's control.
 
 
 [CONTROLBAR:ToolTipBuildGondorRangerHorde]
@@ -14887,7 +14906,43 @@ Recruit the Captain of the Ithilien Rangers \n \n 'I do not love the bright swor
 Revive the fallen Hero, Faramir
 
 [CONTROLBAR:GondorFaramirHotkey]
-&Faramir
+Faramir (&T)
+
+[CONTROLBAR:CampaignLothrandirRecruit]
+Recruit the wayfaring Dúnadan ranger, Lothrandir \n \n A lonely soul and wanderer, Lothrandir chooses to spend his days wandering the northern reaches of Eriador. He is well-known amongst the Lossoth peoples, and has learned much of their ancient ways.
+
+[CONTROLBAR:CampaignLothrandirRevive]
+Revive the fallen Hero, Lothrandir
+
+[CONTROLBAR:CampaignLothrandirHotkey]
+Lothrandir (&F)
+
+[CONTROLBAR:CampaignAmdirRecruit]
+Recruit the noble guardian of the Small-folk, Amdir \n \n Amdir is a common sight for those that inhabit the borderlands between the Shire and the Bree-land. Maggot and Bombadil know him, and both would attest to his selfless, noble spirit.
+
+[CONTROLBAR:CampaignAmdirRevive]
+Revive the fallen Hero, Amdir
+
+[CONTROLBAR:CampaignAmdirHotkey]
+Amdir (&G)
+
+[CONTROLBAR:CampaignElegostRecruit]
+Recruit the keen-eyed Dúnadan hunter, Elegost \n \n Elegost is a skilled tracker and woodsman, even amongst his skilled kin. He has an uncanny ability to commune with crows and ravens, and is known for using them in pursuit of his quarry.
+
+[CONTROLBAR:CampaignElegostRevive]
+Revive the fallen Hero, Elegost
+
+[CONTROLBAR:CampaignElegostHotkey]
+Elegost (&C)
+
+[CONTROLBAR:CampaignToradanRecruit]
+Recruit the fierce Dúnadan warrior, Toradan \n \n A veteran of many skirmishes with the orcs of the Misty Mountains, Toradan is a stout warrior whose presence alone inspires fear into the black hearts of the enemy.
+
+[CONTROLBAR:CampaignToradanRevive]
+Revive the fallen Hero, Toradan
+
+[CONTROLBAR:CampaignToradanHotkey]
+Toradan (&V)
 
 [CONTROLBAR:ToolTipBuildDamrod]
 Hero Unit. Skilled with bow and sword
@@ -14911,7 +14966,7 @@ Recruit the Captain of the White Tower \n \n 'Let the armies of Mordor know this
 Revive the fallen Hero, Boromir
 
 [CONTROLBAR:GondorBoromirHotkey]
-Borom&ir
+Boromir (&D)
 
 
 [CONTROLBAR:ToolTipBuildBerethor]
@@ -14938,7 +14993,7 @@ Recruit the White Wizard \n \n 'I am Gandalf the White. And I come back to you n
 Revive the fallen Hero, Gandalf
 
 [CONTROLBAR:GandalfTheWhiteHotkey]
-&Gandalf
+Gandalf (&F)
 
 [CONTROLBAR:RohanPippinRecruit]
 Recruit a foolhardy Hobbit \n \n 'You need people of intelligence on this sort of mission... quest... thing!'
@@ -14947,10 +15002,10 @@ Recruit a foolhardy Hobbit \n \n 'You need people of intelligence on this sort o
 Revive the fallen Hero, Pippin
 
 [CONTROLBAR:RohanPippinHotkey]
-&Pippin
+Pippin (&W)
 
 [CONTROLBAR:ConstructTreebeard]
-&Treebeard
+Treebeard (&E)
 
 
 
@@ -14959,6 +15014,9 @@ Requires Level 2 Armory \n Upgrades unit: +1 Unit Level
 
 [CONTROLBAR:ToolTipBuildRohanArcherHorde]
 Strong vs. Cavalry, Monsters \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes.
+
+[CONTROLBAR:ToolTipBuildRohanSpearThrowerHorde]
+Strong vs. Heavily Armored units and Siege Machines \n \n The walls of the Hornburg were defended by men hailing from the surrounding valley. Valiantly they defended the keep during the War of the Ring.
 
 [CONTROLBAR:ToolTipBuildRohanRoyalGuardHorde]
 Build Rohan Royal Guards
@@ -56812,7 +56870,7 @@ Uruk-hai Man-Slayers
 
 
 [CONTROLBAR:ConstructIsengardManSlayerHorde]
-Uruk-hai &Man-Slayers
+Uruk-hai Man-slayers (&G)
 
 
 [CONTROLBAR:LW_Unit_IsengardManSlayerHorde]
