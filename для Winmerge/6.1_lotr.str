@@ -55513,8 +55513,16 @@ Coastal Raiders (&T)
 Modifier Type: Buff \n Corsairs temporarily gain experience 50% faster\n Left click to activate
 
 
+[CONTROLBAR:TooltipCorsairCharge]
+Modifier Type: Buff \n Corsairs temporarily gain experience 50% faster\n Left click to activate
+
+
+[CONTROLBAR:TooltipCorsairChargeHarad]
+Corsairs temporarily deal increased damage vs structures and regain health per hit against structures \n Can only be used with knives equipped \n Left click to activate
+
+
 [CONTROLBAR:FellPursuit]
-&Relentless Pursuit
+Relentless Pursuit (&V)
 
 
 [CONTROLBAR:TooltipFellPursuit]
@@ -55533,7 +55541,7 @@ Slaves of Nurn
 
 
 [CONTROLBAR:ToolTipIndustryMordor]
-Selected structure's resource output is temporarily raised to 300% \n Only effects Slaughter Houses \n Left click icon then left click on target resource structure
+Selected structure's resource output is temporarily raised to 275% \n Only effects Slaughter Houses \n Left click icon then left click on target resource structure
 
 
 [CONTROLBAR:PippinCourage]
@@ -55602,7 +55610,7 @@ Recruit Aragorn, the Chieftain of the Dúnedain. \n \n 'All that is gold does not
 Revive the fallen Hero, Aragorn
 
 [CONTROLBAR:RivendellAragornHotkey]
-&Aragorn
+Aragorn (&T)
 
 
 [CONTROLBAR:ToolTipBuildHalbarad]
@@ -55618,7 +55626,7 @@ Revive the fallen Hero, Halbarad
 
 
 [CONTROLBAR:GondorHalbaradHotkey]
-Halbara&d
+Halbarad (&R)
 
 
 [CONTROLBAR:HalbaradUnerringLoyalty]
@@ -55626,15 +55634,15 @@ Unerring Loyalty
 
 
 [CONTROLBAR:ToolTipHalbaradUnerringLoyalty]
-Modifier Type: Spell \n Aragorn gains Experience +15% faster when near Halbarad \n Stacks with Leadership, Buffs, and Spells \n Passive ability
+Modifier Type: Spell \n Aragorn and Dúnedain units gain Experience +15% faster when near Halbarad \n Stacks with Leadership, Buffs, and Spells \n Passive ability
 
 
 [CONTROLBAR:HalbaradPerseverance]
-&Perseverance
+Perseverance (&C)
 
 
 [CONTROLBAR:ToolTipHalbaradPerseverance]
-Requires Level 5 \n Nearby Dúnedain gain +30% Armor, +50% Resistance to Knockback, Fear and Terror Resistance for a short time \n At level 7 summons four single Grey Company Rangers around Halbarad \n Left click to activate
+Requires Level 5 \n Nearby Dúnedain gain +30% armor and +50% resistance to knockback for 30 seconds\n At level 7 summons four single Grey Company Rangers around Halbarad \n Left click to activate
 
 
 [CONTROLBAR:HalbaradCaptainoftheNorth]
@@ -55646,19 +55654,19 @@ Requires Level 4\n All nearby units gain immunity to fear and terror and gain an
 
 
 [CONTROLBAR:HalbaradMuster]
-&Muster the Dúnedain
+Muster the Dúnedain (&T)
 
 
 [CONTROLBAR:ToolTipHalbaradMuster]
-Requires Level 3 \n Modifier Type: Spell \n Targeted Dúnedain Gathering temporarily gains +75% unit production speed \n Stacks with Leadership and Spells \n Left click icon then left click on target building
+Requires Level 3 \n The recruit times of Dúnedain Rangers and Dúnedain Outriders are temporarily decreased by 150% for 45 seconds\n Left click to activate
 
 
 [CONTROLBAR:HalbaradBannerOfArwen]
-The Ba&nner of Arwen
+The Banner of Arwen (&V)
 
 
 [CONTROLBAR:TooltipHalbaradBannerOfArwen]
-Requires Level 10 \n Halbarad unfurls the Banner wrought by Arwen Undómiel.\n For 10 seconds, allied units and heroes in a large radius gain +50% damage and +200% experience\n Enemy units and heroes lose -33% damage, -50% experience gain, and have reduced fear resistance\n For the remaining duration, allied units and heroes in a large radius gain +200% experience, Enemy troops and heroes have reduced fear resistance and -50% experience gain\n The banner is on the field for 60 seconds. The banner can be destroyed by the enemy in this time\n Left click icon to activate
+Requires Level 10 \n Halbarad unfurls the Banner wrought by Arwen Undómiel\n For 60 seconds, allied units in a large radius gain +50% damage and are constantly replenished\nNearby allied heroes receive +75% experience faster\nThe banner can be destroyed by the enemy in this time\n Left click icon to activate
 
 
 [OBJECT:BannerofArwen]
@@ -55905,7 +55913,7 @@ Allows recruitment of Wyrms and Cold Drakes
 
 
 [CONTROLBAR:ConstructFireWyrmLair]
-Build Wyrm La&ir
+Build Wyrm Lair (&M)
 
 
 [CONTROLBAR:ToolTipConstructFireWyrmLair]
@@ -55929,7 +55937,7 @@ Wyrm Lair Level 3
 
 
 [CONTROLBAR:ToolTipBuildFireWyrmLairLevel2Upgrade]
-\n+10% Faster Build Speed
+Allows taming of Cold Drakes and researching Wyrm-armour\n+10% Faster Build Speed
 
 [CONTROLBAR:ToolTipBuildFireWyrmLairLevel3Upgrade]
 \n+25% Faster Build Speed
@@ -55976,12 +55984,20 @@ Sentinels of Cerin Amroth \n Unit Type: Elite Pikemen\nStrong vs. Cavalry\n
 Celemegil
 
 
+[OBJECT:LorienSilverTreeSentinelMelee]
+Celemegil
+
+
 [OBJECT:HordeLorienSilverTreeSentinel]
 Celemegiliath
 
 
+[OBJECT:HordeLorienSilverTreeSentinelMelee]
+Celemegiliath
+
+
 [CONTROLBAR:ConstructSilverTreeSentinelHorde]
-Celeme&giliath
+Celemegiliath (&R)
 
 
 [CONTROLBAR:ToolTipBuildSilverTreeSentinelHorde]
@@ -56021,7 +56037,7 @@ Tawar-na-Thirrad
 
 
 [CONTROLBAR:ConstructHordeLorienStalker]
-Ta&war-na-Thirrad
+Tawar-na-Thirrad (&T)
 
 
 [CONTROLBAR:LW_Unit_LorienStalkerHorde]
@@ -56041,7 +56057,7 @@ Sindar Pathstalkers \n Unit Type: Elite Stealth Infantry\nStrong vs. Infantry\n
 
 
 [CONTROLBAR:LorienShadowstrike]
-Shadowstr&ike
+Shadowstrike (&W)
 
 
 [CONTROLBAR:TooltipLorienShadowstrike]
@@ -56057,7 +56073,11 @@ Edrain-na-Maethyr
 
 
 [CONTROLBAR:ConstructGaladhrimWarriorHorde]
-Edrain-na-&Maethyr
+Edrain-na-Maethyr (&S)
+
+
+[CONTROLBAR:ConstructGaladhrimWarriorHordeRohanInn]
+Edrain-na-Maethyr (&W)
 
 
 [CONTROLBAR:LW_Unit_ElvenGaladhrimWarriorHorde]
@@ -56089,6 +56109,14 @@ Marchwardens \n Requires Level 2 Barracks\nStrong vs. Infantry \n \n Marchwarden
 Marchwardens \n Unit Type: Elite Infantry\nStrong vs. Infantry\n
 
 
+[OBJECT:AxeElf]
+Hatholdir
+
+
+[OBJECT:AxeElfHorde]
+Hatholdhrim
+
+
 [OBJECT:Nimrodel]
 Nimrodel-na-Lethril
 
@@ -56098,7 +56126,7 @@ Nimrodel-na-Lethril
 
 
 [CONTROLBAR:ConstructNimrodelHorde]
-&Nimrodel-na-Lethril
+Nimrodel-na-Lethril (&W)
 
 
 [CONTROLBAR:LW_Unit_NimrodelHorde]
@@ -56134,7 +56162,7 @@ Revive the fallen warrior, Rumil
 
 
 [CONTROLBAR:ElvenRumilHotkey]
-&Rumil
+Rumil (&W)
 
 
 [OBJECT:ElvenOrophin]
@@ -56154,7 +56182,7 @@ Revive the fallen warrior, Orophin
 
 
 [CONTROLBAR:ElvenOrophinHotkey]
-Oro&phin
+Orophin (&E)
 
 
 [OBJECT:MirkwoodWarrior]
@@ -56174,7 +56202,7 @@ Megilherdir-Theladagnyr Combo Horde
 
 
 [CONTROLBAR:ConstructMirkwoodWarriorHordeInn]
-&Megilherdir
+Megilherdir (&W)
 
 
 [CONTROLBAR:LW_Unit_MirkwoodWarriorHorde]
@@ -56244,7 +56272,7 @@ Linhir Spearmen
 
 
 [CONTROLBAR:ConstructGondorLinhirPikeHorde]
-&Linhir Spearmen
+Linhir Spearmen (&E)
 
 
 [CONTROLBAR:LW_Unit_GondorLinhirPikeHorde]
@@ -56300,7 +56328,7 @@ Lamedon Clansmen
 
 
 [CONTROLBAR:ConstructGondorLamedonFighterHorde]
-Lamedon &Clansmen
+Lamedon Clansmen (&W)
 
 
 [CONTROLBAR:LW_Unit_GondorLamedonFighterHorde]
@@ -56333,7 +56361,7 @@ Requires Forlong \n Strong vs. Pikemen and Buildings \n Come equipped with Armam
 
 
 [CONTROLBAR:ConstructLossarnachAxeMenHorde]
-Lossarnach &Axemen
+Lossarnach Axemen (&R)
 
 
 [OBJECT:GondorBlackrootArcher]
@@ -56345,7 +56373,7 @@ Blackroot Vale Archers
 
 
 [CONTROLBAR:ConstructGondorBlackrootArcherHorde]
-Blackroot &Vale Archers
+Blackroot Vale Archers (&W)
 
 
 [CONTROLBAR:LW_Unit_GondorBlackrootArcherHorde]
@@ -56401,7 +56429,7 @@ Dol Amroth Men at Arms
 
 
 [CONTROLBAR:ConstructGondorDolMAArmsHorde]
-Dol Amroth Men at &Arms
+Dol Amroth Men at Arms (&W)
 
 
 [CONTROLBAR:LW_Unit_GondorDolMAArmsHorde]
@@ -56429,7 +56457,7 @@ Pinnath Gelin Riders
 
 
 [CONTROLBAR:ConstructGondorPinnathGelinHorde]
-&Pinnath Gelin Riders
+Pinnath Gelin Riders (&W)
 
 
 [CONTROLBAR:LW_Unit_GondorPinnathGelinHorde]
@@ -56457,7 +56485,7 @@ Fountain Guard
 
 
 [CONTROLBAR:ConstructGondorFountainGuardHorde]
-Fountain &Guards
+Fountain Guards (&S)
 
 
 [CONTROLBAR:LW_Unit_GondorFountainGuardHorde]
@@ -56473,7 +56501,7 @@ Fountain Guard Battalion
 
 
 [CONTROLBAR:ToolTipBuildGondorFountainGuardHorde]
-Requires the Ivory Tower upgrade\n Hero Unit. Limited to 2. \nStrong vs. Cavalry \n Able to switch formation for improved defensive capabilities \n \n These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Númenor.
+Requires the Tower of Ecthelion upgrade\n Hero Unit. Limited to 2. \nStrong vs. Cavalry \n Able to switch formation for improved defensive capabilities \n \n These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Númenor.
 
 
 [CONTROLBAR:ToolTipBuildGondorFountainGuardHorde_WOTR]
@@ -56502,7 +56530,7 @@ Revive the fallen Hero, Imrahil
 
 
 [CONTROLBAR:GondorImrahilHotKey]
-Imrah&il
+Imrahil (&S)
 
 [CONTROLBAR:ImrahilLeadership]
 Fair Lord
@@ -56511,27 +56539,27 @@ Fair Lord
 Modifier Type: Leadership \n Fiefdom and Dol Amroth units near Imrahil gain +33% damage and +33% armour. \n Stacks with buffs and spells. \n Passive ability
 
 [CONTROLBAR:SpecialPowerImrahilUnscathed]
-&Unscathed
+Unscathed (&T)
 
 
 [CONTROLBAR:ToolTipSpecialPowerImrahilUnscathed]
-Required: Rank 3\n Imrahil temporarily becomes immune to ranged damage, gains +100% Damage, +10 Speed, and is resistant to knockback  \n Left click to activate
+Required: Rank 3\n Imrahil becomes immune to ranged damage, gains +100% Damage, +10 Speed, and is resistant to knockback for 20 seconds \n Left click to activate
 
 
 [CONTROLBAR:ImrahilCounsel]
-Inspi&ration
+Inspiration (&C)
 
 
 [CONTROLBAR:ToolTipImrahilCounsel]
-Required: Rank 7 \n All allied troops near Imrahil earn double experience for 1 minute \n left click then right click on target
+Required: Rank 5 \n All allied troops near Imrahil earn double experience for 1 minute \n left click then right click on target
 
 
 [CONTROLBAR:ImrahilAmroth]
-Amroth for Go&ndor!
+Amroth for Gondor! (&V)
 
 
 [CONTROLBAR:ToolTipImrahilAmroth]
-Required: Rank 5 \n Modifier Type: Spell \n Imrahil and nearby cavalry gain +50% armor, and -50% crush deceleration. \n Stacks with Leadership and Spells \n Imrahil must be mounted to use ability \n Left click to activate
+Required: Rank 7 \n Modifier Type: Spell \n Imrahil and nearby cavalry, including Swan Knights, gain +50% armor, and -50% crush deceleration for 20 seconds \n Stacks with Leadership and Spells \n Imrahil must be mounted to use ability \n Left click to activate
 
 
 
@@ -56568,6 +56596,10 @@ As more Nazgûl gather, their strength grows \n +10% Damage and +10% Armor per ev
 Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs \nPassive ability
 
 
+[CONTROLBAR:ToolTipBlackRiderDreadVisageSummoned]
+Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs \nPassive ability
+
+
 [CONTROLBAR:ToolTipBlackRiderDreadVisageKhamul]
 As more Nazgûl gather, their strength grows \n +10% Damage and +10% Armor per every Ringwraith nearby \n Passive ability \n\n Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n At rank 6, also causes damage-over-time to nearby enemies \n Does not stack with other Debuffs \nPassive ability
 
@@ -56582,11 +56614,11 @@ Gate of Azanulbizar
 
 
 [OBJECT:WildBodyGuard]
-Horror of Gram
+Bolg's Bodyguard
 
 
 [OBJECT:HordeWildBodyGuard]
-Horrors of Gram
+Bolg's Bodyguard
 
 
 [CONTROLBAR:ConstructWildBodyGuardHorde]
@@ -56594,7 +56626,7 @@ Horrors of Gra&m
 
 
 [CONTROLBAR:LW_Unit_WildBodyGuardHorde]
-Horror of Gram Horde
+Bolg's Bodyguard Horde
 
 
 [CONTROLBAR:LW_ToolTip_WildBodyGuardHorde]
@@ -56602,11 +56634,11 @@ Horror of Gram Horde
 
 
 [CONTROLBAR:ToolTipBuildWildBodyGuardHorde]
-Requires Level 3 Mountain-orc Lodge\nHero Unit. Limited to 1 \nStrong vs. All Unit Types \n \n Through years of torment and horrifying hardship, these deranged Gundabad Orcs are the greatest warriors the Mountain has to offer.
+Requires Level 3 Mountain-orc Lodge\nHero Unit. Limited to 1 \nStrong vs. All Unit Types \n \n Understanding that Azog's recklessness had gotten him killed, Bolg surrounded himself with the largest, cruelest Orcs that could be found to avoid repeating his father's mistake.
 
 
 [CONTROLBAR:ToolTipBuildWildBodyGuardHordeFortress]
-Requires Level 3 Mountain-orc Lodge\nHero Unit. Limit increased to 2. \nStrong vs. All Unit Types \n \n Through years of torment and horrifying hardship, these deranged Gundabad Orcs are the greatest warriors the Mountain has to offer.
+Requires Level 3 Mountain-orc Lodge\nHero Unit. Limit increased to 2. \nStrong vs. All Unit Types \n \n Understanding that Azog's recklessness had gotten him killed, Bolg surrounded himself with the largest, cruelest Orcs that could be found to avoid repeating his father's mistake.
 
 
 [CONTROLBAR:LW_ToolTipBuild_WildBodyGuardHorde]
