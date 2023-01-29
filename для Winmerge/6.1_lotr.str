@@ -15025,7 +15025,7 @@ Recruit the King of Rohan. \n \n 'Arise, arise, Riders of Théoden!\nFell deeds a
 Revive the fallen Hero, Théoden
 
 [CONTROLBAR:RohanTheodenHotkey]
-&Théoden
+Théoden (&F)
 
 
 [CONTROLBAR:ToolTipBuildEowyn]
@@ -15038,7 +15038,7 @@ Revive the fallen Hero, Eowyn
 Recruit the Shieldmaiden of Rohan. \n \n 'But no living man am I! You are looking upon a woman. Eowyn am I, Eomund's daughter. You stand between me and my lord and kin. Begone, if you be not deathless! For living or dark undead, I will smite you, if you touch him.'
 
 [CONTROLBAR:RohanEowynHotkey]
-Eow&yn
+Eowyn (&E)
 
 [CONTROLBAR:RohanMerryRecruit]
 Recruit the Squire of Rohan. \n \n 'I just want to help my friends. Frodo, Sam, Pippin. More than anything, I wish I could see them again.'
@@ -15047,7 +15047,7 @@ Recruit the Squire of Rohan. \n \n 'I just want to help my friends. Frodo, Sam, 
 Revive the fallen Hero, Merry
 
 [CONTROLBAR:RohanMerryHotkey]
-&Merry
+Merry (&W)
 
 [CONTROLBAR:ToolTipBuildGimli]
 Recruit the Dwarf of the Lonely Mountain
@@ -15059,7 +15059,7 @@ Recruit the Dwarf of the Lonely Mountain \n \n 'There is one Dwarf yet in Moria 
 Revive the fallen Hero, Gimli
 
 [CONTROLBAR:RohanGimliHotkey]
-&Gimli
+Gimli (&S)
 
 [CONTROLBAR:ToolTipBuildEomer]
 Recruit the Leader of the outlawed Rohirrim
@@ -15071,7 +15071,7 @@ Recruit the Third Marshal of the Riddermark. \n \n 'Now is the hour! Riders of R
 Revive the fallen Hero, Éomer
 
 [CONTROLBAR:RohanEomerHotkey]
-Éom&er
+Éomer (&D)
 
 [CONTROLBAR:ToolTipBuildLegolas]
 Recruit the Prince of the Woodland Realm
@@ -15083,24 +15083,27 @@ Recruit the Prince of the Woodland Realm \n \n 'Yet do not cast all hope away. T
 Revive the fallen Hero, Legolas
 
 [CONTROLBAR:RohanLegolasHotkey]
-&Legolas
+Legolas (&D)
 
 
 
 [CONTROLBAR:ConstructGoblinFighterHorde]
-Moria Orc &Screechers
+Moria Orc Screechers (&W)
+
+[CONTROLBAR:ConstructGoblinFighterHordeInn]
+Moria Orc Screechers (&W)
 
 [CONTROLBAR:ConstructGoblinArcherHorde]
-Moria Orc &Archers
+Moria Orc Archers (&E)
 
 [CONTROLBAR:ConstructGoblinCave]
 Build Moria Orc Cave
 
 [CONTROLBAR:ToolTipGoblinCave]
-Trains Goblin-townersm Moria Orc Screechers and Moria Orc Archers \n Increases command point limit by 25
+Trains Moria Orc Screechers and Moria Orc Archers \n Increases command point limit by 25
 
 [CONTROLBAR:ConstructGoblinCaveTroll]
-&Cave Troll
+Cave Troll (&W)
 
 [CONTROLBAR:ToolTipBuildGoblinCaveTroll]
 Strong vs. Swordsmen and Structures \n \n Pestered and tormented for years by its goblin captors, this small and relatively docile Troll has been blinded by rage and frustration.
@@ -15132,41 +15135,41 @@ Wall Hub Expansion
 
 
 [CONTROLBAR:ToggleSpiderRiderWeapons]
-Al&ternate Weapon
+Alternate Weapon (&W)
 
 [CONTROLBAR:ToolTipToggleSpiderRiderWeapons]
 Left click to switch weapons
 
 [CONTROLBAR:ConstructWildCaveLevel2Upgrade]
-&Upgrade Goblin Cave to Level 2
+Upgrade Goblin Cave to Level 2 (&A)
 
 
 [CONTROLBAR:ConstructWildCaveLevel3Upgrade]
-&Upgrade Goblin Cave to Level 3
+Upgrade Goblin Cave to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeWildLodgeLevel2]
-&Upgrade Mountain-orc Lodge to Level 2
+Upgrade Mountain-orc Lodge to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeWildLodgeLevel3]
-&Upgrade Mountain-orc Lodge to Level 3
+Upgrade Mountain-orc Lodge to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeWildFissureLevel2]
-&Upgrade Troll Lair to Level 2
+Upgrade Troll Lair to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeWildFissureLevel3]
-&Upgrade Troll Lair to Level 3
+Upgrade Troll Lair to Level 3 (&A)
 
 
 [CONTROLBAR:ConstructWildSpiderPitLevel2Upgrade]
-&Upgrade Warg Cage to Level 2
+Upgrade Wolf Cairn to Level 2 (&A)
 
 
 [CONTROLBAR:ConstructWildSpiderPitLevel3Upgrade]
-&Upgrade Warg Cage to Level 3
+Upgrade Wolf Cairn to Level 3 (&A)
 
 
 [CONTROLBAR:ConstructWildTreasureTroveLevel2Upgrade]
@@ -15190,7 +15193,7 @@ Requires Level 2 Spider Pit \n Can switch between Bow and Spear \n Strong vs. Ar
 
 
 [CONTROLBAR:ConstructWildMountainGiant]
-Mountain &Giant
+Mountain Giant (&S)
 
 
 [CONTROLBAR:ConstructWildMarauderHorde]
@@ -15203,10 +15206,10 @@ Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive
 
 
 [CONTROLBAR:ConstructMordorOrcFighterHorde]
-Orc &Warriors
+Orc Warriors (&W)
 
 [CONTROLBAR:ConstructMordorOrcArcherHorde]
-Orc &Archers
+Orc Archers (&R)
 
 [CONTROLBAR:ConstructMordorHaradrimHorde]
 H&aradrim Archers
@@ -15215,10 +15218,10 @@ H&aradrim Archers
 Haradrim &Spearmen
 
 [CONTROLBAR:ConstructMordorCorsairHorde]
-&Corsairs of Umbar
+Corsairs of Umbar (&W)
 
 [CONTROLBAR:ConstructMordorEasterlingHorde]
-&E)
+Easterling Phalanx (&E)
 
 [CONTROLBAR:ConstructMordorEasterlingHordeInn]
 Easterling Phalanx (&W)
@@ -15227,16 +15230,16 @@ Easterling Phalanx (&W)
 &Cave Troll
 
 [CONTROLBAR:ConstructMordorMountainTroll]
-&Mountain Troll
+Mountain Troll (&W)
 
 [CONTROLBAR:ConstructMordorSiegeTower]
 Siege &Tower
 
 [CONTROLBAR:ConstructMordorCatapult]
-&Catapult
+Catapult (&E)
 
 [CONTROLBAR:ConstructMordorGrond]
-&Grond
+Grond (&T)
 
 [CONTROLBAR:ConstructMordorBannerOrc]
 Banner Carrier
@@ -15263,7 +15266,7 @@ Strong vs. Cavalry \n Able to switch formation for improved defensive capabiliti
 
 
 [CONTROLBAR:ConstructMordorPorter]
-Bui&lder
+Builder (&W)
 
 
 [CONTROLBAR:ToolTipBuildMordorPorter]
@@ -15323,7 +15326,7 @@ Recruit the First of the Nine \n \n 'Send forth all legions. Do not stop the att
 Revive the fallen Hero, the Witch-king
 
 [CONTROLBAR:MordorWitchKingOnFellBeastHotkey]
-The &Witch-king
+The Witch-king (&G)
 
 
 
@@ -15341,7 +15344,7 @@ Revive the fallen Fellbeast"
 &Fellbeast"						
 
 [CONTROLBAR:MordorMouthofSauronHotkey]
-&Mouth of Sauron
+Mouth of Sauron (&D)
 
 [CONTROLBAR:MordorMouthofSauronRecruit]
 Recruit the Messenger of Sauron. \n \n 'Surety you crave! Sauron gives none. If you sue for his clemency then you must do his bidding.'
@@ -15356,7 +15359,7 @@ Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall an
 Revive the fallen Hero, Glorfindel
 
 [CONTROLBAR:ElvenGlorfindelHotkey]
-&Glorfindel
+Glorfindel (&S)
 
 
 [CONTROLBAR:ToolTipBuildThranduil]
@@ -15369,7 +15372,7 @@ Recruit the Elvenking \n \n 'Such is the nature of evil. Out there in the vast i
 Revive the fallen Hero, King Thranduil
 
 [CONTROLBAR:ElvenThranduilHotkey]
-King &Thranduil
+King Thranduil (&F)
 
 
 
@@ -15379,47 +15382,53 @@ King &Thranduil
 
 
 [CONTROLBAR:DwarvenGuardianChargeAttack]
-&Charge Attack
+Charge Attack (&W)
 
 
 [CONTROLBAR:ConstructIsengardUrukHai]
- Fighting U&ruk-hai
+ Fighting Uruk-hai (&E)
 
 [CONTROLBAR:ConstructIsengardCrossbowmen]
-Uruk-hai &Crossbowmen
+Uruk-hai Crossbowmen (&R)
 
 [CONTROLBAR:ConstructIsengardPikemen]
-Uruk-hai &Pikemen
+Uruk-hai Pikemen (&T)
+
+[CONTROLBAR:ConstructIsengardShieldbearers]
+Uruk-hai Shieldbearers (&S)
 
 [CONTROLBAR:ConstructIsengardWildmanHorde]
-&Wildmen of Dunland
+Wildmen of Dunland (&W)
 
 [CONTROLBAR:ConstructIsengardWargRider]
-&Warg Riders
+Warg Riders (&W)
 
 [CONTROLBAR:ConstructWildWargRider]
-&Gundabad Wolf-riders
+Gundabad Wolf-riders (&E)
 
 [CONTROLBAR:ConstructIsengardSiegeBallista]
-Siege Ba&llista
+Siege Ballista (&E)
 
 [CONTROLBAR:ConstructIsengardSiegeLadder]
 Siege Ladder
 
 [CONTROLBAR:ConstructIsengardBerserker]
-Uru&k-hai Berserker
+Uruk-hai Berserker (&D)
 
 [CONTROLBAR:ConstructIsengardBatteringRam]
-Batte&ring Ram
+Battering Ram (&W)
+
+[CONTROLBAR:ConstructArnorBatteringRam]
+Battering Ram (&T)
 
 [CONTROLBAR:ConstructIsengardExplosiveMine]
-Explosive &Mine
+Explosive Mine (&R)
 
 [CONTROLBAR:ConstructIsengardBannerCarrier]
 Banner Carrier
 
 [CONTROLBAR:ConstructIsengardPorter]
-Bui&lder
+Builder (&W)
 
 [CONTROLBAR:ConstructIsengardForgedBladesPorter]
 Forged Blades Porter
@@ -15442,11 +15451,14 @@ Requires Level 2 Uruk Pit \n Strong vs. Infantry \n\n Outfitting them with crude
 [CONTROLBAR:ToolTipBuildIsengardPikemen]
 Requires Level 2 Uruk Pit \n Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities \n \n Preparing to eradicate the Horse-lords of Rohan, Saruman outfitted great numbers of his Uruks with long pikes.
 
+[CONTROLBAR:ToolTipBuildIsengardShieldBearer]
+Requires Level 2 Uruk Pit \n Heavily armored support unit \n Able to switch formation for improved defensive capabilities \n \n 'This is no rabble of mindless orcs. These are Uruk-hai. Their armor is thick and their shields broad.'
+
 [CONTROLBAR:ToolTipBuildIsengardWargRider]
 Strong vs. Swordsmen and Archers \n \n For generations, Orcs have ridden Wargs - not as masters, but as equals - to track and ambush the Free Peoples.
 
 [CONTROLBAR:ToolTipBuildWildWargRider]
-Requires Level 2 Warg Cage and the Alliegance: Gundabad upgrade\n Strong vs. Swordsmen and Archers \n \n For generations, Orcs have ridden Wargs and Wolves - not as masters, but as equals - to track and ambush the Free Peoples.
+Requires Level 2 Wolf Cairn\n Strong vs. Swordsmen and Archers \n \n For generations, Orcs have ridden Wargs and Wolves - not as masters, but as equals - to track and ambush the Free Peoples.
 
 [CONTROLBAR:ToolTipBuildIsengardSiegeBallista]
 Requires Level 2 Siege Works \n Strong vs. Structures and Siege Equipment \n Only 6 allowed at any time \n Relatively simple to use and aim, Saruman's ballistae serve to wipe out clusters of enemy troops and weaken their structures.
@@ -15486,7 +15498,7 @@ Recruit the First Captain of the Uruk-hai \n \n 'Find the Halflings!'
 Revive the fallen Hero, Lurtz
 
 [CONTROLBAR:IsengardLurtzHotkey]
-&Lurtz
+Lurtz (&T)
 
 
 [CONTROLBAR:ToolTipBuildSaruman]
@@ -15499,11 +15511,11 @@ Recruit Saruman the Wise, Master of Isengard, and First of the Istari. \n \n 'A 
 Revive the fallen Hero, Saruman
 
 [CONTROLBAR:IsengardSarumanHotkey]
-&Saruman
+Saruman (&D)
 
 
 [CONTROLBAR:ConstructEnt]
-E&nt
+Ent (&W)
 
 [CONTROLBAR:ConstructEntFir]
 Fir Ent
@@ -15527,14 +15539,14 @@ Build Fir Ash
 Build Fir Birch
 
 [CONTROLBAR:KickAndPunch]
-&Close Range Attack
+Close Range Attack (&W)
 
 [CONTROLBAR:ToolTipKickAndPunch]
 Switch to melee combat
 
 
 [CONTROLBAR:ThrowRocks]
-Throw Ro&cks
+Throw Rocks (&W)
 
 
 [CONTROLBAR:ToolTipThrowRocks]
@@ -15576,15 +15588,19 @@ Recruits Hero to fight for your cause
 
 
 [CONTROLBAR:FireArrowUpgrade]
-Fire Arro&ws
+Fire Arrows (&C)
+
+
+[CONTROLBAR:GuldurFireArrowUpgrade]
+Fire Arrows (&C)
 
 
 [CONTROLBAR:BodkinArrowUpgrade]
-Bodkin Arro&ws
+Bodkin Arrows (&C)
 
 
 [CONTROLBAR:ArnorFireArrowUpgrade]
-Purchase Swan-Fea&thered Arrows
+Purchase Swan-Feathered Arrows (&C)
 
 
 [CONTROLBAR:TooltipFireArrowUpgrade]
@@ -15720,11 +15736,11 @@ Pick up a tree or rock to use as weapon
 
 
 [CONTROLBAR:ToolTipSpecialAbilityEntFindRock]
-Find a rock to use as a weapon
+Ents can pick-up rocks/Passive ability\n\nOrder the Ent to find a rock\nLeft click icon
 
 
 [CONTROLBAR:tooltipCommand_ToggleEntRockThrow]
-&Toggle Rock-Throw Mode
+Toggle Rock-Throw Mode (&W)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk]
@@ -16091,7 +16107,7 @@ Requires Level 7 \nGrants  Sindarin Armor to units in radius \n Sindarin Armor: 
 
 
 [CONTROLBAR:ToolTipThranduilFavor]
-Requires Level 3\n\nGrants Sindarin Armor to units in radius \n Sindarin Armor: grants an additional +20% armor to units \n Increased radius at levels 5, 7 and 10 \n Stacks with Leaderships, Buffs, and Spells \n \n Left click on icon then left click on target own units
+Requires Level 3\n\nGrants Sindarin Armor to units in radius \n Sindarin Armor: grants an additional +20% armor to units \n Decreased cooldown at levels 5, 7 and 10 \n Stacks with Leaderships, Buffs, and Spells \n \n Left click on icon then left click on target own units
 
 
 [CONTROLBAR:ThranduilFavor]
@@ -28786,26 +28802,8 @@ Strengthen the garrison army in %s by moving nearby units into %s.
 Strengthen %s by selecting nearby units to join %s.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [STRATEGICHUD:BuildBarracksChecklistItem]
 Build a barracks to generate new units.
-
 
 
 [STRATEGICHUD:BuildFortressChecklistItem]
@@ -45053,297 +45051,14 @@ Uses Miles Sound System. \n Copyright © 1991-2006 \n by RAD Game Tools, Inc.
 [SUBTITLE:CS55_02]
 *The Old Forest Road divides this great woodland and is key to the domination of the region.
 
-<<<<<<< HEAD
-CONTROLBAR:ConstructArnorFarm
-"Build Rivendell Orchard (&W)"
-END
-
-CONTROLBAR:ConstructArnorBarracks
-"Build Rivendell Dormitory (&N)"
-END
-=======
 
 [SUBTITLE:CS55_03]
 *The Wood Elves of this forest, led by King Thranduil, have long protected this road.
->>>>>>> 2ffbc54df955d0055388aa3d6036fc9d4b7fa08e
 
 
-<<<<<<< HEAD
-CONTROLBAR:ConstructArnorArcheryRange
-"Build Bree-land Encampment (&T)"
-END
-
-CONTROLBAR:ToolTipArnorArcheryRange
-"Trains Hobbits and Men from Bree \n Increases command point limit by 25"
-END
-
-CONTROLBAR:ConstructArnorStable
-"Build Dúnedain Gathering (&V)"
-END
-
-CONTROLBAR:ToolTipConstructArnorStable
-"Trains Dúnedain of the North \n Increases command point limit by 25"
-END
-
-CONTROLBAR:ConstructArnorWorkshop
-"Build Rivendell Sie&ge Works"
-END
-
-CONTROLBAR:ToolTipConstructArnorWorkshop
-"Constructs Rivendell's Siege Weapons"
-END
-
-CONTROLBAR:ConstructArnorSentryTower
-"Build Rivendell Battle Tower (&Y)"
-END
-
-CONTROLBAR:ToolTipConstructArnorSentryTower
-"Defensive tower, will fire at enemy units \n Can be garrisoned with archers for increased damage output"
-END
-
-CONTROLBAR:ToolTipConstructArnorWell
-"Units near well auto-heal if not under attack \n Detects stealth\n Increases command point limit by 10"
-END
-
-CONTROLBAR:ToolTipConstructArnorStatue
-"Leadership bonus to nearby troops \n Reduces cost of infantry \n Increases command point limit by 10"
-END
-
-CONTROLBAR:ConstructArnorWallHub
-"Rivendell Wall Hub (&A)"
-END
-
-CONTROLBAR:ConstructArnorFortress
-"Rivendell Conservatory (Fortress) (&I)"
-END
-
-CONTROLBAR:ToolTipConstructArnorWallHub
-"Wall Hubs can be used to build walls"
-END
-
-CONTROLBAR:ToolTipConstructArnorFortress
-"Recruits Builders and Heroes \n Can be upgraded with improvements and expansions"
-END
-
-CONTROLBAR:ConstructArnorWell
-"Build Well of Celebrian (&G)"
-END
-
-CONTROLBAR:ConstructArnorStatue
-"Build Statue of Gil-galad (&U)"
-END
-
-
-
-CONTROLBAR:ConstructArnorBlacksmith
-"Build Rivendell Forge (&R)"
-END
-
-CONTROLBAR:ToolTipConstructArnorBlacksmith
-"Provides worked metals as a resource based on available terrain\nUpgrades weapons and armor\n Reduces cost of upgrades \n Increases command point limit by 50"
-END
-
-CONTROLBAR:ConstructArnorMarketPlace
-"Build Rivendell Library (&M)"
-END
-
-CONTROLBAR:ToolTipConstructArnorMarketPlace
-"Library creates various upgrades \n Limited to 1 \n Increases command point limit by 25"
-END
-
-CONTROLBAR:ToolTipConstructArnorMarketPlace_Disabled
-"Library creates various upgrades \n Limited to 1 \n Increases command point limit by 25 \n \n The Library is already built"
-END
-
-OBJECT:ArnorMarketPlaceDescription
-"Creates various upgrades"
-END
-
-CONTROLBAR:ConstructArnorStoneMaker
-"Build Rivendell Stoneworker"
-END
-
-CONTROLBAR:ToolTipConstructArnorStoneMaker
-"Strengthens gates and towers"
-END
-
-CONTROLBAR:ConstructArnorForgeLevel2Upgrade
-"&Upgrade Forge to Level 2"
-End
-CONTROLBAR:ConstructArnorForgeLevel3Upgrade
-"&Upgrade Forge to Level 3"
-End
-CONTROLBAR:ToolTipBuildArnorForgeLevel2Upgrade
-"Allows research of Tengwar-Inscribed Blades"
-End
-CONTROLBAR:ToolTipBuildArnorForgeLevel3Upgrade
-"Allows research of Swan-Feathered Arrows"
-End
-CONTROLBAR:ConstructArnorArcheryRangeLevel2Upgrade
-"&Upgrade Bree-land Encampment to Level 2"
-END
-CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel2Upgrade
-"Level 2: +10% Faster Build Speed \n Allows recruitment of Battering Rams and Fatty Bolger"
-END
-CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel2Upgrade_WOTR
-"Level 2: +10% Faster Build Speed \n Allows recruitment of Battering Rams"
-END
-CONTROLBAR:ConstructArnorArcheryRangeLevel3Upgrade
-"&Upgrade Bree-land Encampment to Level 3"
-END
-CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel3Upgrade
-"Level 3: +25% Faster Build Speed \n Allows recruitment of Farmer Maggot"
-END
-CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel3Upgrade_WOTR
-"Level 3: +25% Faster Build Speed"
-END
-CONTROLBAR:ConstructArnorBarracks2Upgrade
-"&Upgrade Dormitory to Level 2"
-END
-CONTROLBAR:ToolTipBuildArnorBarracksLevel2Upgrade
-"Level 2: +10% Faster Build Speed  \n Allows recruitment of Quingar and Roquentari"
-END
-CONTROLBAR:ConstructArnorBarracksLevel3Upgrade
-"&Upgrade Dormitory to Level 3"
-END
-OBJECT:RivendellBlacksmith
-"Rivendell Forge"
-END
-OBJECT:RivendellBlacksmithDescription
-"Upgrades weapons and armor \n Generates resources based on available terrain \n Steel Bonus - Reduced cost of upgrades \n 2 Forges: 5% \n 3 Forges: 10% \n 4 Forges: 15% \n 5 Forges: 20% \n 6+ Forges: 25%"
-END
-
-CONTROLBAR:ConstructRivendellBlacksmith
-"Build R&ivendell Forge"
-END
-
-CONTROLBAR:ToolTipConstructRivendellBlacksmith
-"Upgrades weapons and armor \n Generates resources based on available terrain \n Increases command point limit by 50 \n Steel Bonus - Reduces cost of upgrades \n 2 Forges: 5% \n 3 Forges: 10% \n 4 Forges: 15% \n 5 Forges: 20% \n 6+ Forges: 25%"
-END
-
-CONTROLBAR:ToolTipBuildArnorBarracksLevel3Upgrade
-"Level 3: +25% Faster Build Speed \n Allows recruitment of Laurëthelyn"
-END
-CONTROLBAR:ToolTipBuildArnorBarracksLevel3Upgrade_WOTR
-"Level 3: +25% Faster Build Speed"
-END
-CONTROLBAR:ConstructArnorStable2Upgrade
-"&Upgrade Gathering to Level 2"
-END
-CONTROLBAR:ToolTipBuildArnorStableLevel2Upgrade
-"Level 2: +10% Faster Build Speed \n"
-END
-CONTROLBAR:ConstructArnorStableLevel3Upgrade
-"&Upgrade Gathering to Level 3"
-END
-CONTROLBAR:ToolTipBuildArnorStableLevel3Upgrade
-"Level 3: +25% Faster Build Speed"
-END
-CONTROLBAR:ConstructArnorWorkshop2Upgrade
-"&Upgrade Siege Works to Level 2"
-END
-CONTROLBAR:ToolTipBuildArnorWorkshopLevel2Upgrade
-"Level 2: +10% Faster Build Speed \n Allows research of the Fire Stones upgrade"
-END
-CONTROLBAR:ConstructArnorWorkshopLevel3Upgrade
-"&Upgrade Siege Works to Level 3"
-END
-CONTROLBAR:ToolTipBuildArnorWorkshopLevel3Upgrade
-"Level 3: +25% Faster Build Speed"
-END
-
-// ARNOR
-
-CONTROLBAR:ConstructRivendellHobbitShirrif
-//"Hobbits"
-"Bounder&s"
-End
-
-CONTROLBAR:ToolTipRivendellHobbitShirrif
-//"Recruits Hobbits to the battlefield"
-"Strong vs. Infantry \n Can stealth near trees \n\nThe Bounders are peace-keepers, patrolling the roads, paths, and borders of the Shire, settling disputes and keeping an eye out for wicked things and foreigners alike. During the last days of the Third Age, their numbers were greatly increased by Mayor Whitfoot, who could feel trouble brewing in the wild lands beyond."
-End
-
-CONTROLBAR:ConstructArnorArcherHorde
-"Rivendell Ar&chers"
-END
-
-CONTROLBAR:ConstructArnorRangerHorde
-"Dúnedain &Rangers"
-END
-
-CONTROLBAR:ConstructRivendellGreyCompanyHorde
-"Grey &Company"
-END
-
-CONTROLBAR:ConstructArnorFighterHorde
-"Bree-land Town&sguard"
-END
-
-CONTROLBAR:ConstructElvenImladrisWarriorHordeS
-"&Macari"
-END
-
-CONTROLBAR:ConstructElvenImladrisWarriorHorde
-"Quin&gar"
-END
-
-CONTROLBAR:ConstructArnorShieldGuardHorde
-"&Ehtyari"
-END
-
-CONTROLBAR:ConstructRivendellRevelerHorde
-"Quentaro&li"
-END
-
-CONTROLBAR:ConstructArnorKnightHorde
-"Roque&ntari"
-END
-
-CONTROLBAR:ConstructArnorTrebuchet
-"Rivendell T&rebuchet"
-END
-
-CONTROLBAR:ConstructArnorPorter
-"Rivendell Builder"
-END
-
-CONTROLBAR:ConstructArnorFireArrowPorter
-"Rivendell Fire Arrows Porter"
-END
-
-CONTROLBAR:ConstructArnorSwordsPorter
-"Rivendell Forged Blades Porter"
-END
-
-CONTROLBAR:ConstructArnorHeavyArmorPorter
-"Rivendell Heavy Armor Porter"
-END
-
-CONTROLBAR:ConstructArnorKnightShieldPorter
-"Rivendell Knight Shield Porter"
-END
-
-CONTROLBAR:ConstructFireStoneArnorPorter
-"Rivendell Fire Stones Porter"
-END
-
-CONTROLBAR:ToolTipBuildArnorSilverTreeBanner
-"Upgrades a battalion to Level 2 \n Can only be applied to a Level 1 battalion"
-END
-
-CONTROLBAR:ToolTipBuildArnorFireArrowPorter
-"Can upgrade 1 group of archers"
-END
-
-CONTROLBAR:ToolTipBuildArnorFighterHorde
-"Strong vs. Cavalry and Pikemen"
-END
-=======
 [SUBTITLE:CS55_04]
 *They will not give it up without a fight.
 
->>>>>>> 2ffbc54df955d0055388aa3d6036fc9d4b7fa08e
 
 [SUBTITLE:CS56_01]
 *The elves of Mirkwodd are now scattered and demoralised.
