@@ -54977,43 +54977,43 @@ Allows training of the Attack Troll \n +25% Faster Build Speed
 
 
 [OBJECT:GondorMarketPlaceDescription]
-Increases resources from farms by 15% \n Income bonus benefits all Gondor allies
+Increases resources from farms by 15%
 
 
 [CONTROLBAR:ToolTipConstructMenMarketPlace]
-Increases resources from farms by 15%\n Income bonus benefits all Gondor allies \n Increases command point limit by 25 \n Limited to 1
+Increases resources from farms by 15%\n Increases command point limit by 25 \n Limited to 1
 
 
 [CONTROLBAR:ToolTipConstructMenMarketPlace_Disabled]
-Increases resources from farms by 15%\n Income bonus benefits all Gondor allies \n Limited to 1 \n Increases command point limit by 25 \n \n The Marketplace is already built
+Increases resources from farms by 15%\n Limited to 1 \n Increases command point limit by 25 \n \n The Marketplace is already built
 
 
 [CONTROLBAR:ToolTipBuildGoblinFighterHorde]
-Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Moria Orc Screechers and Moria Orc Archers gain +50% damage when gathered in numbers of 150 or more \n Stacks with buffs, Leadership and other spells \n \n After the Dwarves abandoned Khazad-dum, these Orcish usurpers plundered and desecrated its emptied halls.
+Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Moria Orc Screechers, Moria Orc Archers and Goblin-town Warriors gain +50% damage when gathered in numbers of 150 or more \n Stacks with buffs, Leadership and other spells \n \n After the Dwarves abandoned Khazad-dum, these Orcish usurpers plundered and desecrated its emptied halls.
 
 
 [CONTROLBAR:ToolTipBuildGoblinArcherHorde]
-Strong vs. Infantry \n\n Horde Bonus \n Modifier Type: Spell \n All Moria Orc Screechers and Moria Orc Archers gain +50% damage when gathered in numbers of 150 or more \n Stacks with buffs, Leadership and other spells \n \n These Orcish archers sealed their deadly reputation upon slaying Balin, as he stood looking upon the Mirrormere outside of the East-gate.
+Strong vs. Infantry \n\n Horde Bonus \n Modifier Type: Spell \n All Moria Orc Screechers, Moria Orc Archers and Goblin-town Warriors gain +50% damage when gathered in numbers of 150 or more \n Stacks with buffs, Leadership and other spells \n \n These Orcish archers sealed their deadly reputation upon slaying Balin, as he stood looking upon the Mirrormere outside of the East-gate.
 
 
 [CONTROLBAR:ToolTipBuildMordorOrcFighterHorde]
-Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen, Orc Archers, Legions of Morgul, and Black Uruks gain +50% damage when gathered in numbers of 100 or more \n Stacks with buffs, Leadership and other spells\n\n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr.
+Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more \n Stacks with buffs, Leadership and other spells\n\n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr.
 
 
 [CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair]
-Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen, Orc Archers, Legions of Morgul, and Black Uruks gain +50% damage when gathered in numbers of 100 or more \n Stacks with Buffs, Leadership and other spells
+Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more \n Stacks with Buffs, Leadership and other spells
 
 
 [CONTROLBAR:ToolTipBuildMordorOrcArcherHorde]
-Strong vs. Infantry \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen, Orc Archers, Legions of Morgul, and Black Uruks gain +50% damage when gathered in numbers of 100 or more \n Stacks with buffs, Leadership and other spells\n\n Largely unskilled and ill-equipped, Mordor's archers are a prime example of strength in numbers.
+Strong vs. Infantry \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more \n Stacks with buffs, Leadership and other spells\n\n Largely unskilled and ill-equipped, Mordor's archers are a prime example of strength in numbers.
 
 
 [CONTROLBAR:ToolTipBuildMordorBlackOrcHorde]
-Requires Level 2 Orc Barracks \n Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen, Orc Archers, Legions of Morgul, and Black Uruks gain +50% damage when gathered in numbers of 100 or more \n Stacks with Buffs, Leadership and other spells\n\n The Black Uruks of Barad-dûr are the elite of Sauron's orc armies, first bred to devastate Ithilien.
+Requires Level 2 Orc Barracks \n Strong vs. Pikemen\n\n The Black Uruks of Barad-dûr are the elite of Sauron's orc armies, first bred to devastate Ithilien.
 
 
 [CONTROLBAR:ToolTipBuildMordorBlackOrcHordeInn]
-Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen, Orc Archers, Legions of Morgul, and Black Uruks gain +50% damage when gathered in numbers of 100 or more \n Stacks with Buffs, Leadership and other spells\n\n The Black Uruks of Barad-dûr are the elite of Sauron's orc armies, first bred to devastate Ithilien.
+Strong vs. Pikemen \n\n The Black Uruks of Barad-dûr are the elite of Sauron's orc armies, first bred to devastate Ithilien.
 
 
 [CONTROLBAR:TooltipThrallMasterUpgradeOrcWarriors]
@@ -55021,7 +55021,7 @@ Summon Gundabad Orcs to serve you \nStrong vs. Pikemen \n\n Horde Bonus \n Modif
 
 
 [CONTROLBAR:MordorWitchkingMorgulCorruption]
-Morgu&l Blade
+Morgul Blade (&T)
 
 
 [CONTROLBAR:ToolTipMordorWitchkingMorgulCorruption]
@@ -55033,7 +55033,11 @@ Summons a defensive tower garrisoned with archers \n Archers recieve fire arrows
 
 
 [CONTROLBAR:ToolTipCampaignLoneTower]
-Summons a ruined Outpost that can be garrisoned\nand shoots arrows \n Left click icon then left click on pathable location
+Resets targeted friendly heroes' ability timers \n Left click icon then left click on target area
+
+
+[CONTROLBAR:ToolTipCampaignRestoration]
+Resets targeted friendly heroes' ability timers \n Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipLoneTowerGondor]
@@ -55045,7 +55049,7 @@ Summons a defensive tower garrisoned with archers \n Benefits from the Fire Arro
 
 
 [OBJECT:HearthWellDescription]
-Heals nearby allies \n Detects stealth\n Clean Water Bonus - Reduced cost of infantry \n 1 Well: 5% \n 2 Wells: 10% \n 3 Wells: 15% \n 4 Wells: 20% \n 5+ Wells: 25%" ]
+Heals nearby allies \n Detects stealth" 
 
 
 [OBJECT:MirkwoodWellDescription]
@@ -55057,7 +55061,7 @@ Heals nearby allies \n Detects stealth\nReduced cost of infantry \n Increases co
 
 
 [CONTROLBAR:Trollfindunittothrow]
-&Pick up Goblin / Orc
+Pick up Goblin / Orc (&T)
 
 
 [CONTROLBAR:ToolTipTrollfindunittothrow]
@@ -55069,11 +55073,11 @@ Requires Level 5 \n Breathes fire over a selected area \n Left click icon then l
 
 
 [CONTROLBAR:ToolTipSlaughterHouse]
-Provides meat as a resource based on available terrain\n Allows allied orcs to be decommissioned for additional experience\n Reduced cost of Trolls and Mûmakil \n Increases command point limit by 50
+Provides meat as a resource based on available terrain\n Allows allied orcs to be decommissioned for additional experience\n Reduced cost of Trolls and Great Beasts of Gorgoroth \n Increases command point limit by 50
 
 
 [CONTROLBAR:MordorSlaughterHouseDescription]
-Provides food as a resource based on available terrain \n Allows allied orcs to be decommissioned for additional experience\n Food Bonus - Reduced cost of Trolls and Mûmakil \n 2 Slaughter Houses: 5% \n 3 Slaughter Houses: 10% \n 4 Slaughter Houses: 15% \n 5 Slaughter Houses: 20%
+Provides food as a resource based on available terrain \n Allows allied orcs to be decommissioned for additional experience\n Food Bonus - Reduced cost of Trolls and Great Beasts of Gorgoroth \n 2 Slaughter Houses: 5% \n 3 Slaughter Houses: 10% \n 4 Slaughter Houses: 15% \n 5 Slaughter Houses: 20%
 
 
 [CONTROLBAR:Dominate]
@@ -55085,15 +55089,15 @@ Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Bless
 
 
 [CONTROLBAR:TooltipCampaignCloudBreak]
-Stuns enemy units\n Slowly heals allied units across the map \n Left click to activate
+Enemy units temporarily receive -33% Armor, -33% Damage and -33% Speed\n Slowly heals allied units across the map \n Left click to activate
 
 
 [CONTROLBAR:ToolTipCloudBreakGondor]
-Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness\nStuns enemy units\n Grants +33% speed bonus to allied units across the map \n Left click to activate
+Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness\nStuns enemy units for 5 seconds\n Grants +33% speed bonus to allied units across the map for 15 seconds\n Left click to activate
 
 
 [CONTROLBAR:SpecialAbilityHumanHeads]
-Launch S&kulls
+Launch Skulls (&T)
 
 
 [CONTROLBAR:TooltipSpecialAbilityHumanHeads]
@@ -55129,7 +55133,7 @@ Demolisher \n Requires Level 3 Workshop \n Strong vs. Structures \n Limited to 2
 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenWorkshopLevel2]
-+10% Faster Build Speed \n Allows recruitment of Sulûn-abanul and Ibsênab-azghakakâ \nHeals nearby damaged siege machines
++10% Faster Build Speed \n Allows recruitment of Sulûn-abanul\nHeals nearby damaged siege machines
 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenWorkshopLevel3]
@@ -55141,7 +55145,7 @@ Strong vs. Swordsmen and Cavalry \n Can stealth near trees
 
 
 [CONTROLBAR:ToggleBrandWeapons]
-&Toggle Weapon
+Toggle Weapon (&W)
 
 
 [CONTROLBAR:ToolTipToggleBrandWeapons]
@@ -55157,7 +55161,7 @@ Requires Level 7 \nCauses extra damage to flying enemies and severe damage to mo
 
 
 [CONTROLBAR:BrandHuntersMark]
-&Mark of the Thrush
+Mark of the Thrush (&C)
 
 
 [CONTROLBAR:ToolTipBrandHuntersMark]
@@ -55165,7 +55169,7 @@ Requires Level 5 \n Enemies within the radius take increased damage from ranged 
 
 
 [CONTROLBAR:BrandLeadership]
-&King of the Bardings
+King of the Bardings (&R)
 
 
 [CONTROLBAR:ToolTipBrandLeadership]
@@ -55177,7 +55181,7 @@ Requires Level 5 \n Targeted Good archers gain moderate experience \n Left click
 
 
 [CONTROLBAR:BrandDragonSlayer]
-Descendant of the Dragonsla&yer
+Descendant of the Dragonslayer (&V)
 
 
 [CONTROLBAR:ToolTipBrandDeadEye]
@@ -55197,7 +55201,7 @@ Revive Bard the Bowman
 
 
 [CONTROLBAR:DwarvenCaptainofDaleHotkey]
-Bard the Bow&man
+Bard the Bowman (&D)
 
 
 [OBJECT:DwarvenCaptainofDale]
@@ -55218,7 +55222,7 @@ Revive King Brand, the King of Dale
 
 
 [CONTROLBAR:DwarvenCaptainofDaleHotkeyOld]
-King Brand, King of &Dale
+King Brand, King of Dale (&T)
 
 
 [OBJECT:DwarvenCaptainofDaleOld]
@@ -55250,7 +55254,7 @@ By GameReplays.org
 
 
 [Version:Format2]
-Age of the Ring Version 6.1
+Age of the Ring Version 7.3.1
 
 
 [Version:Format3]
@@ -55266,15 +55270,15 @@ Allies near Thranduil gain \n +33% Damage, +33% Armor, \n and earn experience 50
 
 
 [CONTROLBAR:WarCry]
-For Go&ndor!
+For Gondor! (&C)
 
 
 [CONTROLBAR:ToolTipWarCry]
-Requires Level 5\n Modifier Type: Spell \n Targeted friendly units gain\n+33% Damage, +20% Speed, and Fear Resistance\n Stacks With Buffs, Leadership and other Spells \nLeft click icon then left click on target units
+Requires Level 5\n Modifier Type: Spell \n Targeted friendly units gain\n+33% Damage, +20% Speed, and Fear Resistance for 30 seconds\n Stacks With Buffs, Leadership and other Spells \nLeft click icon then left click on target units
 
 
 [CONTROLBAR:ToolTipFellowshipWarCry]
-Requires Level 6\n Modifier Type: Leadership \n Nearby allies gain +33% Damage, +25% Armor and earn experience 50% faster\nPassive ability \n \n When activated, targeted friendly units gain\n+33% Damage, +20% Speed, and Fear Resistance\n Stacks With Buffs, Leadership and other Spells \nLeft click icon then left click on target units
+Requires Level 6\n Modifier Type: Leadership \n Nearby allies gain +33% Damage, +25% Armor and earn experience 50% faster\nPassive ability \n \n When activated, targeted friendly units gain\n+33% Damage, +20% Speed, and Fear Resistance for 30 seconds\n Stacks With Buffs, Leadership and other Spells \nLeft click icon then left click on target units
 
 
 [CONTROLBAR:GuardianStrike]
@@ -55302,11 +55306,11 @@ Requires Level 5\n Modifier Type: Spell \n Allies near Berethor gain Resistance 
 
 
 [CONTROLBAR:ShatteringStrike]
-Shattering St&rike
+Shattering Strike (&W)
 
 
 [CONTROLBAR:ToolTipShatteringStrike]
-Targeted enemy unit or hero is temporarily crippled and loses 25% armour\n Left click icon then left click on target
+Targeted enemy unit or hero takes heavy damage and deals -25% damage for 10 seconds\n Left click icon then left click on target
 
 
 [CONTROLBAR:StandFast]
@@ -55334,11 +55338,11 @@ Requires Level 6\n Modifier Type: Spell \n Berethor receives an increase in hitp
 
 
 [CONTROLBAR:ChallengeofGondor]
-&Challenge of Gondor
+Challenge of Gondor (&R)
 
 
 [CONTROLBAR:ToolTipChallengeofGondor]
-Modifier Type: Active Debuff \n Targeted enemy units suffer -25% Damage and -25% Armor\n Nullifies enemy leadership \n Does not stack with other Debuffs \n Left click icon then left click on target units
+Modifier Type: Active Debuff \n Targeted enemy units suffer -25% Damage and -25% Armor for 30 seconds \n Does not stack with other Debuffs \n Left click icon then left click on target units
 
 
 [OBJECT:DwarvenThror]
@@ -55389,7 +55393,7 @@ Recruit the young Prince of Erebor \n \n 'I will not hide behind a wall of stone
 Revive the fallen Prince, Kili
 
 [CONTROLBAR:DwarvenKiliHotkey]
-&Kili
+Kili (&R)
 
 
 [OBJECT:DwarvenFili]
@@ -55400,13 +55404,13 @@ Fili
 Recruit the young Crown Prince of Erebor
 
 [CONTROLBAR:DwarvenFiliRecruit]
-Recruit the Crown Prince of Erebor \n \n 'We’ll be right behind you! If you run into trouble, hoot twice like a barn owl, once like a brown owl.'
+Recruit the Crown Prince of Erebor \n \n 'We'll be right behind you! If you run into trouble, hoot twice like a barn owl, once like a brown owl.'
 
 [CONTROLBAR:DwarvenFiliRevive]
 Revive the fallen Prince, Fili
 
 [CONTROLBAR:DwarvenFiliHotkey]
-&Fili
+Fili (&T)
 
 
 [OBJECT:DwarvenThorin]
@@ -55423,7 +55427,7 @@ Recruit the King Under the Mountain \n \n 'Loyalty. Honor. A willing heart. I ca
 Revive the fallen King, Thorin
 
 [CONTROLBAR:DwarvenThorinHotkey]
-&Thorin Oakenshield
+Thorin Oakenshield (&C)
 
 
 [OBJECT:DwarvenBalin]
@@ -55443,7 +55447,7 @@ Recruit the King's chief adviser \n \n 'We are with you, laddie. We will see it 
 Revive the fallen hero, Balin
 
 [CONTROLBAR:DwarvenBalinHotkey]
-B&alin
+Balin (&S)
 
 [CONTROLBAR:DwarvenHeroArmor]
 Heroic Armor
@@ -55494,7 +55498,7 @@ Captain's Horn
 
 
 [CONTROLBAR:TooltipRallyingCallGondor]
-Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target units
+Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% Armor for 60 seconds \n Stacks with Leadership and Spells \n Left click icon then left click on target units
 
 
 [CONTROLBAR:ToolTipArmorofOld]
@@ -55502,7 +55506,7 @@ Heroes don their battle armor, gaining +75% armor, resistance to knockback, and 
 
 
 [CONTROLBAR:CorsairCharge]
-Coastal &Raiders
+Coastal Raiders (&T)
 
 
 [CONTROLBAR:TooltipCorsairCharge]
@@ -71270,6 +71274,16 @@ Rivendell
 
 [Map:MAPMPrivendell/Desc]
 Rivendell is the hidden sanctuary for the Elves of Eriador. The centerpiece of this city is the House of Elrond. \n Capturable: Signal Fire, Outpost, Inn \n Creeps: Warg \n Region: Eriador
+
+
+
+[Map:MAPMPriverisen]
+River Isen
+
+
+[Map:MAPMPriverisen/Desc]
+The river Isen passes between Isengard and Helm's Deep. Many travellers journeying to and from the Gap of Rohan cross the mighty river at this shallow point. \n Capturable: Inn \n Creeps: Cave Troll, Warg \n Region: Rohan
+
 
 
 
