@@ -56948,7 +56948,7 @@ Unit Type: Hero Unit\nStrong vs. All Unit Types\n
 
 
 [CONTROLBAR:FanaticDeathWish]
-&Twisted Frenzy
+Twisted Frenzy (&R)
 
 
 [CONTROLBAR:ToolTipFanaticDeathWish]
@@ -56960,22 +56960,22 @@ Bane of the Rohirrim
 
 
 [CONTROLBAR:ToolTipFanaticStoneWall]
-Man-Slayers are highly resistant to knockback\nPassive ability
+Man-slayers are highly resistant to knockback and deal high trample revenge damage\nPassive ability
 
 
 [CONTROLBAR:ScourgeofMan]
-Scent of Blood
+Scent of Blood (&T)
 
 
 [CONTROLBAR:ToolTipScourgeofMan]
-Requires Level 7 \n Man-Slayers regain health per hit \nPassive ability
+Requires Level 7 \n Man-slayers regain health per hit \nPassive ability \n When activated, Man-slayers temporarily gain +33% movement speed \n Left click to activate
 
 [OBJECT:IsengardMineBeserker]
 Isengard Sapper
 
 
 [CONTROLBAR:ConstructIsengardMineBerserker]
-Isengard Sapper
+Isengard Sapper (&F)
 
 
 [CONTROLBAR:ToolTipBuildIsengardMineBerserker]
@@ -57005,7 +57005,7 @@ Devastation
 
 
 [CONTROLBAR:ToolTipDevastation]
-Trees are instantly turned into resources\n Stuns every enemy unit in target area for short duration \n \n Left click icon then left click on target forest
+Trees are instantly turned into resources\n Halves the resource production of any resource structure within the area of effect \n \n Left click icon then left click on target forest
 
 
 [OBJECT:IsengardWildmenSpear]
@@ -57017,7 +57017,7 @@ Wildmen Spearmen
 
 
 [CONTROLBAR:ConstructIsengardWildmenSpearHorde]
-Wildmen &Spearmen
+Wildmen Spearmen (&E)
 
 
 [CONTROLBAR:LW_Unit_IsengardWildmenSpearHorde]
@@ -57050,27 +57050,27 @@ Revive the fallen Hero, Uglúk
 
 
 [CONTROLBAR:IsengardUglukHotKey]
-&Uglúk
+Uglúk (&R)
 
 
 [CONTROLBAR:IsengardUglukOrcMedicine]
-Orcish Med&icine
+Orcish Medicine (&W)
 
 
 [CONTROLBAR:TooltipIsengardUglukOrcMedicine]
-Heals nearby friendly infantry units and heroes \n Left click to activate
+Heals nearby friendly heroes and Uruk-hai units \n Left click to activate
 
 
 [CONTROLBAR:IsengardUglukHuntfortheRing]
-Hunt for the &Ring
+Hunt for the Ring (&R)
 
 
 [CONTROLBAR:TooltipIsengardUglukHuntfortheRing]
-Requires Level 3 \n Modifier Type: Spell \n Nearby infantry and heroes gain a 15% speed bonus and a 50% Experience bonus \n Stacks with Buffs, Leadership, and Spells \n Left click to activate
+Requires Level 3 \n Modifier Type: Spell \n Nearby infantry and heroes gain a 15% speed bonus, a 50% experience bonus and resistance to fear and terror\n Stacks with Buffs, Leadership, and Spells \n Left click to activate
 
 
 [CONTROLBAR:IsengardUglukHeadhunter]
-Headh&unter
+Headhunter (&T)
 
 
 [CONTROLBAR:ToolTipIsengardUglukHeadhunter]
@@ -57078,7 +57078,7 @@ Requires Level 5 \n Modifier Type: Spell \n Nearby Uruks temporarily gain +100% 
 
 
 [CONTROLBAR:IsengardUglukReinforcements]
-Reinforce&ments from Saruman
+Reinforcements from Saruman (&C)
 
 
 [CONTROLBAR:ToolTipIsengardUglukReinforcements]
@@ -57090,7 +57090,7 @@ Easterling Swordsman
 
 
 [CONTROLBAR:ConstructMordorEasterlingSwordsmanHorde]
-Easterling &Swordsmen
+Easterling Swordsmen (&D)
 
 
 [CONTROLBAR:ToolTipBuildMordorEasterlingSwordsmanHorde]
@@ -57098,7 +57098,7 @@ Requires Level 3 Encampment and He Is Gathering All Evil To Him upgrade\n Strong
 
 
 [OBJECT:HordeMordorEasterlingSwordsman]
-Easterling Swordsman
+Easterling Swordsmen
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingSwordsman]
@@ -57118,7 +57118,7 @@ Easterling Archers
 
 
 [CONTROLBAR:ConstructMordorEasterlingArcherHorde]
-Easterling &Archers
+Easterling Archers (&R)
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingArcherHorde]
@@ -57146,7 +57146,7 @@ Variags of Khand
 
 
 [CONTROLBAR:ConstructMordorVariagHorde]
-&Variags of Khand
+Variags of Khand (&W)
 
 
 [CONTROLBAR:LW_Unit_MordorVariagHorde]
@@ -57166,19 +57166,19 @@ Unit Type: Elite Infantry\nStrong vs. Pikemen\n
 
 
 [CONTROLBAR:TooltipDenethorPalantir]
-Requires Level 3 \n Can be cast to reveal shroud \n Can also be cast on allies and enemies, \n causing both to lose all leadership \n \n Modifier Type: Active Debuff \n Targeted units, both friend and foe, lose all leadership \n Does not stack with other Debuffs \n \n Left click on icon then left click on target area
+Can be cast to reveal shroud for 2 minutes\n \n Modifier Type: Active Debuff \n Targeted units, both friend and foe, lose all leadership \n Does not stack with other Debuffs \n \n Left click on icon then left click on target area
 
 
 [CONTROLBAR:DenethorPalantir]
-Stone of Anário&n
+Stone of Anárion (&R)
 
 
 [CONTROLBAR:DenethorSummon]
-In Servi&ce of the Steward
+In Service of the Steward (&C)
 
 
 [CONTROLBAR:ToolTipDenethorSummon]
-Requires Level 6 \n Summons a temporary battalion of Citadel Guards and Berethor \n Left click on icon to activate
+Requires Level 6 \n Summons a temporary battalion of Citadel Guards \n At level 10, also temporarily summons Berethor \n Left click on icon to activate
 
 
 [CONTROLBAR:ToolTipDenethorFailingRule]
@@ -57190,15 +57190,15 @@ His &Rule Is Failing
 
 
 [CONTROLBAR:ToolTipDenethorFavor]
-Grants forged blades and heavy armor to units in radius. \n Left click on icon then left click on target own units
+Requires Bulwark of the West upgrade \n Summons two battalions of Citadel Guards \n \n Left click icon then left click on target area
 
 
 [CONTROLBAR:DenethorFavor]
-Favor of the Ste&ward
+Stalwart Defence (&T)
 
 
 [CONTROLBAR:DenethorSteward]
-Ste&ward of Gondor
+Steward of Gondor
 
 
 [CONTROLBAR:ToolTipStewardLvl3]
@@ -57206,23 +57206,23 @@ Denethor is protected by his guards \n Allows Denethor to rank up \n Left click 
 
 
 [CONTROLBAR:ToolTipStewardLvl10]
-Denethor is protected by his guards \n\n Modifier Type: Leadership \n Rank 1: Allied units near Denethor gain +50% experience gain \n Faramir loses -15% armor and -15% experience gain \n Rank 3: Allied units near Denethor gain +33% armor \n Gandalf loses -15% armor and -15% experience gain \n Rank 6: Allied units near Denethor gain +33% damage \n Elessar loses -15% armor \n Stacks with Buffs and Spells \n Passive ability
+Denethor is protected by his guards \n\n Modifier Type: Leadership \n Rank 1: Allied units near Denethor gain +25% experience gain \n Faramir loses -15% armor and -15% experience gain \n Rank 3: Allied units near Denethor gain +33% armor \n Gandalf loses -15% armor and -15% experience gain \n Rank 6: Allied units near Denethor gain +33% damage \n Elessar loses -15% armor\nPassive ability
 
 
 [CONTROLBAR:DenethorHighAuthority]
-High Authorit&y
+High Authority (&T)
 
 
 [CONTROLBAR:ToolTipDenethorHighAuthority]
-Commands targeted enemy units to flee for their lives \n Left click on icon then left click on target units
+Requires Level 3 \n Commands targeted enemy units to flee for their lives \n Left click on icon then left click on target units
 
 
 [CONTROLBAR:DenethorContest]
-Contest of W&ills
+Contest of Wills (&V)
 
 
 [CONTROLBAR:ToolTipDenethorContest]
-Requires Level 10 \n When cast on a friendly hero, increases damage output at the cost of armor \n When cast on an enemy hero, causes the hero to temporarily be stunned and lose armor \n Left click on icon then left click on target hero
+Requires Level 10 \n When cast on a friendly hero, increases damage output by +100% at the cost of -50% armor \n When cast on an enemy hero, causes the hero to temporarily be stunned and lose -33% armor \n Left click on icon then left click on target hero
 
 
 [OBJECT:LossarnachAxeMan]
@@ -57246,7 +57246,7 @@ Revive the fallen Hero, Forlong
 
 
 [CONTROLBAR:GondorForlongHotkey]
-For&long
+Forlong (&E)
 
 
 [OBJECT:GondorGwaihir]
@@ -57259,6 +57259,10 @@ Dol Amroth Citadel
 
 [CONTROLBAR:SummonDolAmrothAllies]
 Dol Amroth Citadel
+
+
+[OBJECT:DolAmrothBarracks]
+Dol Amroth Barracks
 
 
 [CONTROLBAR:SummonEagleAlliesGondor]
@@ -57290,7 +57294,7 @@ Sworn Allegiance
 
 
 [CONTROLBAR:TooltipSwornAllegiance]
-Can be cast on a barracks or an archery range to temporarily decrease recruitment time for Fiefdom troops \n The troops come equipped with Armaments of the White City \n Left click on icon then left click on target building
+Can be cast on a barracks or an archery range to temporarily decrease recruitment time for Fiefdom troops by 10 seconds \n The troops come equipped with Armaments of the White City \n Effect lasts for 60 seconds \n Left click on icon then left click on target building
 
 
 [CONTROLBAR:TooltipSummonDolAmrothAllies]
@@ -57322,7 +57326,7 @@ Recruit the King of Goblin-town \n \n 'Abominations, disfigurations, mutilations
 
 
 [CONTROLBAR:WildGreatGoblinRevive]
-Revive the Great Goblin, the leader of Goblin Town
+Revive the Great Goblin, the leader of Goblin-town
 
 
 [CONTROLBAR:WildGreatGoblinHotkey]
