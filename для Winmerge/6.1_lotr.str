@@ -16220,6 +16220,10 @@ Mount / Dismount (&R)
 Mount / Dismount (&W)
 
 
+[CONTROLBAR:SuladanMountTooltip]
+Left click to toggle between mounted and dismounted \n\n Modifier Type: Leadership \n When mounted, Harondor Raiders and Guards of the Serpent near Sûladan gain +15% speed and -15% trample deceleration \n\n When dismounted, Harondor Spearmen and Archers gain +15% armour and damage \n Stacks with Buffs and Spells \n Passive ability
+
+
 [CONTROLBAR:LordDainMount]
 Mount / Dismount (&R)
 
@@ -65912,7 +65916,7 @@ Ringwraith
 
 
 [CONTROLBAR:NecromancerAbhorredDread]
-&The Abhorred Dread
+The Abhorred Dread (&T)
 
 
 [CONTROLBAR:ToolTipNecromancerAbhorredDread]
@@ -65924,7 +65928,7 @@ Requires Level 3\nThe Necromancer casts a necromantic spell on enemies\nwithin a
 
 
 [CONTROLBAR:NecromancerShapelessMalice]
-Sha&peless Malice
+Shapeless Malice (&C)
 
 
 [CONTROLBAR:TooltipNecromancerShapelessMalice]
@@ -66163,8 +66167,12 @@ Black Banners
 Research upgrade at Guldur Gaol to enable this equipment \n When equipped, increases this horde to Level 2
 
 
+[TOOLTIP:LackGuldurBasicTrainingArchers]
+Research upgrade at Guldur Gaol to enable this equipment \n When equipped, increases this horde to Level 2 and unlocks Bring It Down! ability
+
+
 [CONTROLBAR:PurchaseTechnologyGuldurBasicTraining]
-Research Black Ba&nners
+Research Black Banners (&F)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyGuldurBasicTraining]
@@ -66172,11 +66180,11 @@ Allows hordes to purchase the Black Banners upgrade \n Increases a horde to Leve
 
 
 [CONTROLBAR:PurchaseUpgradeGuldurBasicTraining]
-Purchase Black Ba&nners
+Purchase Black Banners (&V)
 
 
 [CONTROLBAR:PurchaseUpgradeGuldurBasicTraining_FellBrood]
-Purchase &Matriarch
+Purchase Matriarch (&V)
 
 
 [OBJECT:GuldurSorceryTower]
@@ -66191,12 +66199,16 @@ Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
 Increases horde to Level 2 \n Can only be equipped at Level 1
 
 
+[CONTROLBAR:ToolTipPurchaseUpgradeGuldurBasicTrainingArchers]
+Increases horde to Level 2 and unlocks Bring It Down! ability \n Can only be equipped at Level 1
+
+
 [CONTROLBAR:ConstructGuldurSorceryTowerLevel2Upgrade]
-&Upgrade Spire of Sorcery to Level 2
+Upgrade Spire of Sorcery to Level 2 (&A)
 
 
 [CONTROLBAR:ConstructGuldurSorceryTowerLevel3Upgrade]
-&Upgrade Spire of Sorcery to Level 3
+Upgrade Spire of Sorcery to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildGuldurSorceryTowerLevel2Upgrade]
@@ -66248,7 +66260,7 @@ Provides +25% armor to nearby allied structures \n Attacking enemy units are poi
 
 
 [CONTROLBAR:CastellanIncorporeal]
-&Incorporeal
+Incorporeal (&R)
 
 
 [CONTROLBAR:ToolTipCastellanIncorporeal]
@@ -66256,7 +66268,7 @@ Requires Level 3\nThe Armored Castellan becomes immune to damage\nfor 30 seconds
 
 
 [CONTROLBAR:NecromanticBlast]
-&Necromantic Blast
+Necromantic Blast (&T)
 
 
 [CONTROLBAR:ToolTipNecromanticBlast]
@@ -66284,7 +66296,7 @@ Tamastirnyr-Theladagnyr Combo Horde
 
 
 [CONTROLBAR:ConstructMirkwoodPalaceGuardHorde]
-Tamastirn&yr
+Tamastirnyr (&T)
 
 
 [CONTROLBAR:LW_Unit_MirkwoodPalaceGuardHorde]
@@ -66330,7 +66342,7 @@ Recruit Thorin III Stonehelm, Prince of Erebor \n \n When news of Sauron's defea
 Revive the fallen Hero, Thorin III Stonehelm
 
 [CONTROLBAR:DwarvenThorinHelmHotkey]
-Thorin III &Stonehelm
+Thorin III Stonehelm (&D)
 
 
 [OBJECT:DwarvenHadhod]
@@ -66347,7 +66359,7 @@ Recruit the proud warrior of the clan of Fundin \n \n Hadhod is a veteran of man
 Revive the fallen Hero, Hadhod the Dwarf
 
 [CONTROLBAR:DwarvenHadhodHotkey]
-Hadhod the &Dwarf
+Hadhod the Dwarf (&R)
 
 
 
@@ -66361,11 +66373,11 @@ Recruit the Master of the Men of the Lake \n \n 'All this talk of a change must 
 Revive the fallen Hero, Master of laketown
 
 [CONTROLBAR:LaketownMasterHotkey]
-Ma&ster of Laketown
+Master of Laketown (&E)
 
 
 [CONTROLBAR:PurchaseUpgradeDwarvenFortressHobbitEra]
-Reign of &Oakenshield
+Reign of Oakenshield (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressHobbitEra]
@@ -66373,7 +66385,7 @@ Choose to fight with Thorin Oakenshield and his loyal companions!
 
 
 [CONTROLBAR:PurchaseUpgradeDwarvenFortressLotREra]
-Reign of &Ironfoot
+Reign of Ironfoot (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressLotREra]
@@ -66433,7 +66445,7 @@ Revive the fallen Hero, Shagrat
 
 
 [CONTROLBAR:MordorShagratHotkey]
-&Shagrat
+Shagrat (&E)
 
 
 [CONTROLBAR:FierceRivalry]
@@ -66449,7 +66461,7 @@ When near Gorbag, Shagrat slowly takes damage over time \n Unlocks Brawl ability
 
 
 [CONTROLBAR:GorbagMorgulCunning]
-Morgul &Cunning
+Morgul Cunning (&R)
 
 
 [CONTROLBAR:ToolTipGorbagMorgulCunning]
@@ -66457,7 +66469,7 @@ Grows in power as Gorbag levels\nAt rank 1, Gorbag's ranged avoidance is increas
 
 
 [CONTROLBAR:GorbagDropkick]
-Dropkic&k
+Dropkick (&T)
 
 
 [CONTROLBAR:ToolTipGorbagDropkick]
@@ -66465,7 +66477,7 @@ Requires Level 3\nStuns and knocks down nearby units and heroes\nCan be used wit
 
 
 [CONTROLBAR:GorbagBleedWeapon]
-&I'll Bleed You
+I'll Bleed You (&C)
 
 
 [CONTROLBAR:ToolTipGorbagBleedWeapon]
@@ -66473,7 +66485,7 @@ Requires Level 5\nTargeted enemy hero takes heavy damage over time\nLeft click i
 
 
 [CONTROLBAR:GorbagLoyaltyWeapon]
-Loyalt&y to the Red Eye
+Loyalty to the Red Eye (&V)
 
 
 [CONTROLBAR:ToolTipGorbagLoyaltyWeapon]
@@ -66485,7 +66497,7 @@ Captain of the Tower
 
 
 [CONTROLBAR:ShagratTowersCaptainLevel3]
-Captain of the To&wer
+Captain of the Tower (&R)
 
 
 [CONTROLBAR:ToolTipShagratTowersCaptain]
@@ -66493,7 +66505,7 @@ Mordor Towers and Orc Archers near Shagrat gain +15% vision,\n+15% range, and +1
 
 
 [CONTROLBAR:ShagratLeadership]
-Loyalty to Lugbúrz
+Loyalty to Lugbúrz (&T)
 
 
 [CONTROLBAR:ToolTipShagratLeadership]
@@ -66509,7 +66521,11 @@ Requires Level 7\nShagrat and nearby Black Uruk Marauders steal resources\nfrom 
 
 
 [CONTROLBAR:GothmogOrcSummon]
-Form Ran&ks, Maggots!
+Form Ranks, Maggots! (&T)
+
+
+[CONTROLBAR:MorgulPikemenLeadership]
+Form Ranks, Maggots!
 
 
 [CONTROLBAR:ToolTipGothmogOrcSummon]
@@ -66545,27 +66561,27 @@ Orcish Tenacity
 
 
 [CONTROLBAR:ToolTipSpecialAbilityGrishnakhTenacity]
-Grishnákh is hard to kill\nRanged damage has a high chance of missing,\nand melee attacks have a chance of being negated\nPassive ability
+If Grishnákh reaches 30% health, he temporarily gains +100% armour for 20 seconds\nPassive ability
 
 
 [CONTROLBAR:GrishnakhWickedJab]
-Wicked &Jab
+Wicked Jab (&T)
 
 
 [CONTROLBAR:ToolTipGrishnakhWickedJab]
-Targeted enemy is stunned for 20 seconds, temporarily takes damage over time\nand shares vision with the player for the duration\nLeft click icon then left click on target
+Powerful attack that deals heavy damage over time to target hero for 20 seconds\nLeft click icon then left click on target
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressMorgulSpire]
-Mor&gul Spire
+Morgul Spire (&S)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSpire]
-Requires the Morgul Sorcery upgrade\nHis Deadliest Servants:\nPassively grants +33% Damage and 33% Armor\nto all Nazgul on the battlefield\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% Speed and 25% Armor\nfor a short time\nDuring this time all friendly resource structures are disabled
+Requires the Morgul Sorcery upgrade\n Allows recruitment of Morgul Vanguard \n His Deadliest Servants:\nPassively grants +33% Damage and 33% Armor\nto all Nazgul on the battlefield\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% Speed and 50% Armor\nfor 30 seconds\nDuring this time all friendly resource structures are disabled
 
 
 [ToolTip:LackMorgulSorcery]
-Requires the Morgul Sorcery upgrade\nHis Deadliest Servants:\nPassively grants +33% Damage and 33% Armor to all Nazgul on the battlefield\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% Speed and 25% Armor\nfor a short time\nDuring this time all friendly resource structures are disabled
+Requires the Morgul Sorcery upgrade\nHis Deadliest Servants:\nPassively grants +33% Damage and 33% Armor to all Nazgul on the battlefield\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% Speed and 50% Armor\nfor a short time\nDuring this time all friendly resource structures are disabled
 
 
 [CONTROLBAR:MordorFortressDeadliestServants]
@@ -66577,11 +66593,11 @@ Requires the Morgul Spire upgrade\nGrants +33% Damage and 33% Armor\nto all Nazg
 
 
 [CONTROLBAR:MordorFortressMorgulSpire]
-Beacon of Morg&ul
+Beacon of Morgul (&F)
 
 
 [CONTROLBAR:ToolTipMordorFortressMorgulSpire]
-Requires the Morgul Spire upgrade\nAll orcs on the battlefield gain 15% Speed and 25% Armor\nfor a short time\nDuring this time all friendly resource structures are disabled\nLeft click to activate
+Requires the Morgul Spire upgrade\nAll orcs on the battlefield gain 15% Speed and 50% Armor\nfor a short time\nDuring this time all friendly resource structures are disabled\nLeft click to activate
 
 
 [CONTROLBAR:GuldurSpireBlight]
@@ -66593,7 +66609,7 @@ Requires Level 2 Spire of Sorcery\nEnemy units surrounding the Spire take damage
 
 
 [CONTROLBAR:GreaterBlight]
-&Greater Blight
+Greater Blight (&T)
 
 
 [CONTROLBAR:ToolTipGreaterBlight]
@@ -66601,7 +66617,7 @@ Requires Level 3 Spire of Sorcery\nGreatly increases the radius of the Blight pa
 
 
 [CONTROLBAR:GwanthaurSoulTrap]
-Soul &Trap
+Soul Trap (&W)
 
 
 [CONTROLBAR:ToolTipGwanthaurSoulTrap]
@@ -66609,7 +66625,7 @@ Enemy units within the radius take damage\nIf a unit dies, the Gwanthaur receive
 
 
 [CONTROLBAR:GwanthaurReclamation]
-Dar&k Reclamation
+Dark Reclamation (&T)
 
 
 [CONTROLBAR:ToolTipGwanthaurReclamation]
@@ -66640,7 +66656,7 @@ Chittering Swarm
 
 
 [CONTROLBAR:ToolTipChitteringSwarm]
-Horde Bonus \n Modifier Type: Spell \n All Fell Brood gain +25% damage and +25% armor when gathered in numbers of 30 or more
+Horde Bonus \n Modifier Type: Spell \n All Fell Brood gain +25% damage and +25% armor when gathered in numbers of 40 or more
 
 
 [CONTROLBAR:BitingCold]
@@ -66660,7 +66676,7 @@ Requires Level 2 \n Attacks against living units restore health to the Unburied 
 
 
 [CONTROLBAR:BlackWinds]
-Black &Winds
+Black Winds (&T)
 
 
 [CONTROLBAR:ToolTipBlackWinds]
@@ -66675,7 +66691,7 @@ Ancestral Home
 Modifier Type: Spell \n Allies near the pillar become immune to Fear and Terror \n Stacks with Spells, Buffs, and Leaderships \nPassive ability
 
 [CONTROLBAR:PurchaseUpgradeFountofCorruptionLevel2]
-&Upgrade Fount of Corruption to Level 2
+Upgrade Fount of Corruption to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildFountofCorruptionLevel2]
@@ -66683,7 +66699,7 @@ Increases resource production \n Allows training of Blighted Trappers
 
 
 [CONTROLBAR:PurchaseUpgradeFountofCorruptionLevel3]
-&Upgrade Fount of Corruption to Level 3
+Upgrade Fount of Corruption to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildFountofCorruptionLevel3]
@@ -66723,7 +66739,7 @@ Dol Amroth's units slowly recover outside of combat\nPassive ability
 
 
 [CONTROLBAR:SallyForth]
-Sall&y Forth
+Sally Forth (&R)
 
 
 [CONTROLBAR:TooltipSallyForth]
