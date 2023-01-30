@@ -15989,6 +15989,11 @@ Revive the King of the Dead
 The King of the Dead
 
 
+[OBJECT:OathbreakerHuskarl]
+Oathbreaker Huskarl
+
+
+
 [CONTROLBAR:HawkStrike]
 Hawk St&rike
 
@@ -16214,6 +16219,10 @@ Mount / Dismount (&R)
 
 [CONTROLBAR:SuladanMount]
 Mount / Dismount (&W)
+
+
+[CONTROLBAR:SuladanMountTooltip]
+Left click to toggle between mounted and dismounted \n\n Modifier Type: Leadership \n When mounted, Harondor Raiders and Guards of the Serpent near Sûladan gain +15% speed and -15% trample deceleration \n\n When dismounted, Harondor Spearmen and Archers gain +15% armour and damage \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:LordDainMount]
