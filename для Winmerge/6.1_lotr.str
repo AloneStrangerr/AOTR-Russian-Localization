@@ -47427,10 +47427,6 @@ Tribal Axemen (&R)
 &Wolf Riders
 
 
-[CONTROLBAR:ThrallMasterUpgradeOrcWarriors]
-Tribal A&xemen
-
-
 [CONTROLBAR:ThrallMasterUpgradeRhudaurSpearmen]
 Tribal Spearmen (&C)
 
@@ -52584,10 +52580,6 @@ Requires Level 5 \n Heals nearby allies and fully refreshes\ntheir special abili
 Creates lush terrain \n Modifier Type: Buff \n All allied units gain +50% Damage, +50% Armor and become immune to fear and terror \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
 
 
-[CONTROLBAR:ToolTipCampaignElvenWood]
-Creates lush terrain \n Modifier Type: Buff \n All allied units gain +50% Damage, +50% Armor and become immune to fear and terror \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
-
-
 [CONTROLBAR:TooltipEnshroudingMist]
 Friendly units within the mist become stealthed \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
 
@@ -54835,7 +54827,7 @@ Heals nearby allies \n Detects stealth \n Increases command point limit by 10"
 
 
 [OBJECT:DwarvenWellDescription]
-Heals nearby allies \n Detects stealth\nReduced cost of infantry \n Increases command point limit by 10" 
+Heals nearby allies \n Detects stealth\nIncreases command point limit by 10
 
 
 [CONTROLBAR:Trollfindunittothrow]
@@ -55730,7 +55722,7 @@ Gwahaedhrim
 
 
 [CONTROLBAR:ConstructCerinAmrothSentinelHorde]
-&Gwahaedhrim
+Gwahaedhrim (&R)
 
 
 [CONTROLBAR:LW_Unit_CerinAmrothSentinelHorde]
@@ -56400,7 +56392,7 @@ Bolg's Bodyguard
 
 
 [CONTROLBAR:ConstructWildBodyGuardHorde]
-Horrors of Gra&m
+Bolg's Bodyguard (&M)
 
 
 [CONTROLBAR:LW_Unit_WildBodyGuardHorde]
@@ -56467,7 +56459,7 @@ Requires Level 5 \n Modifier Type: Leadership \n Nearby allied Trolls gain\n+33%
 
 
 [CONTROLBAR:ToolTipSpecialAbilityGondorChargeAttack]
-Requires Level 2 \n Order Soldiers to charge the enemy \n Modifier Type: Buff \n Soldiers gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Causes meta impact \n Left click icon then left click on target"END]
+Requires Level 2 \n Order Soldiers to charge the enemy \n Modifier Type: Buff \n Soldiers gain +50% Damage and +50% Armor for 20 seconds \n Stacks with Leadership and Spells \n Causes meta impact \n Left click icon then left click on target
 
 
 [CONTROLBAR:GondorArmaments]
@@ -56476,6 +56468,10 @@ Armaments of the White City
 
 [CONTROLBAR:ToolTipGondorArmaments]
 Requires Level 3\n Modifier Type: Level\n Units permanently gain 33% Armor\n Stacks with Leadership, Buffs, and Spells
+
+
+[CONTROLBAR:ToolTipGondorArmamentsNew]
+Requires Level 4\n Modifier Type: Level\n Units permanently gain 33% Armor\n Stacks with Leadership, Buffs, and Spells
 
 
 [CONTROLBAR:ToolTipGondorArmaments_SwornAllegiance]
@@ -58550,7 +58546,7 @@ Requires Level 6\nAffected enemy and ally units are frozen and cannot move, atta
 
 
 [CONTROLBAR:UrshakWellOfSouls]
-The Black &Pit
+The Black Pit (&C)
 
 
 [CONTROLBAR:ToolTipUrshakWellOfSouls]
@@ -58558,7 +58554,7 @@ Requires Level 8\nEnemy units in target area suffer medium damage over time \nHe
 
 
 [CONTROLBAR:GothmogToggleMounted]
-&Mount / Dismount
+Mount / Dismount (&W)
 
 
 [CONTROLBAR:ToolTipGothmogToggleMounted]
@@ -58566,15 +58562,15 @@ Left click to mount/dismount Gothmog's Warg
 
 
 [CONTROLBAR:GothmogSiegeMaster]
-Maste&r of Siege
+Master of Siege (&C)
 
 
 [CONTROLBAR:ToolTipGothmogSiegeMaster]
-Requires Level 6\n Modifier Type: Spell \nGrants a targeted Catapult a permanent increase in damage and reload speed\nLeft click icon then left click on target
+Requires Level 6\n Modifier Type: Spell \nPermanently grants a targeted Catapult +15% damage and +25% reload speed\nLeft click icon then left click on target
 
 
 [CONTROLBAR:GothmogIntoTheFray]
-Into the Fra&y
+Into the Fray (&V)
 
 
 [CONTROLBAR:ToolTipGothmogIntoTheFray]
@@ -66856,7 +66852,7 @@ Grimbeorn
 
 
 [CONTROLBAR:MirkwoodGrimbeornRecruit]
-Requires a rank 3 Beorning Lodge\nRecruit the son of Beorn\n\nGrimbeorn the Old, son of Beorn, was now the lord of many sturdy men, and to their land between the Mountains and Mirkwood neither orc nor wolf dared to go.
+Requires a Beorning Lodge to be built\nRecruit the son of Beorn\n\nGrimbeorn the Old, son of Beorn, was now the lord of many sturdy men, and to their land between the Mountains and Mirkwood neither orc nor wolf dared to go.
 
 
 [CONTROLBAR:MirkwoodGrimbeornRevive]
@@ -66864,19 +66860,19 @@ Revive the fallen hero, Grimbeorn
 
 
 [CONTROLBAR:MirkwoodGrimbeornHotkey]
-Gr&imbeorn
+Grimbeorn (&S)
 
 
 [CONTROLBAR:SonOfBeorn]
-Son of Beo&rn
+Son of Beorn (&W)
 
 
 [CONTROLBAR:ToolTipSonOfBeorn]
-Modifier Type: Leadership\nProvides +33% armor to nearby Beornings\nPassive ability\n\nWhen activated, Grimbeorn instills fear into the hearts of all Orc and Warg units for 15 seconds\nLeft click to activate
+Modifier Type: Leadership\nProvides +33% armor to nearby Beornings\nGrimbeorn deals +33% additional damage against Bolg\nPassive ability\n\nWhen activated, Grimbeorn instills fear into the hearts of all Orc and Warg units for 15 seconds\nLeft click to activate
 
 
 [CONTROLBAR:GrimbeornStrongman]
-Stron&gman
+Strongman (&R)
 
 
 [CONTROLBAR:ToolTipGrimbeornStrongman]
@@ -66884,7 +66880,7 @@ Grimbeorn powerfully swings his massive axe, dealing damage to everything around
 
 
 [CONTROLBAR:TollKeepers]
-Toll-&keepers
+Toll-keepers (&T)
 
 
 [CONTROLBAR:ToolTipTollKeepers]
@@ -66892,7 +66888,7 @@ Requires Level 3\nCan be cast on any resource structure to spawn a chest of 850 
 
 
 [CONTROLBAR:GrimbeornBodyguard]
-Beorning Bod&yguard
+Beorning Bodyguard (&C)
 
 
 [CONTROLBAR:ToolTipGrimbeornBodyguard]
@@ -66900,11 +66896,11 @@ Requires Level 6\n Grimbeorn summons three Beornings to guard an allied hero or 
 
 
 [CONTROLBAR:SpecialAbilityUrsineSoul]
-&Ursine Soul
+Ursine Soul (&V)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityUrsineSoul]
-Required: Rank 10\n Grimbeorn permanently deals knockback damage \n Passive ability\n\nWhen activated, Grimbeorn transforms into a bear for 90 seconds to wreak havoc among the enemy\ngaining additional +25% damage and +50% armor\nCauses nearby enemies to flee in terror\nLeft click to activate
+Required: Rank 10\n Grimbeorn permanently deals knockback damage \n Passive ability\n\nWhen activated, Grimbeorn transforms into a bear for 90 seconds to wreak havoc among the enemy\ngaining additional +25% damage and +50% armor\nCauses nearby enemies to flee in terror\n Whilst active, Grimbeorn deals +50% additional damage against Bolg\nLeft click to activate
 
 
 [OBJECT:MirkwoodRadagast]
