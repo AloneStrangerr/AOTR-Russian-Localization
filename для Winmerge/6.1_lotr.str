@@ -56494,6 +56494,30 @@ Requires Level 2 \n Modifier Type: Spell\n Rangers toggle weapons and gain +33% 
 Requires Level 3\nThe rangers bombard anywhere within a great radius with a volley of arrows \n Left click icon then left click on target area
 
 
+[CONTROLBAR:HobbitRockLure]
+Lure (&T)
+
+
+[CONTROLBAR:HobbitRockLureAmonHen]
+Lure (&V)
+
+
+[CONTROLBAR:ToolTipHobbitRockLure]
+The hobbit throws a rock to lure enemy units to target area \n Left click icon then left click on target area
+
+
+[CONTROLBAR:RangerLureIthilien]
+&Lure
+
+
+[CONTROLBAR:RangerLureIthilienforHordes]
+Lure
+
+
+[CONTROLBAR:ToolTipRangerLureIthilien]
+Lures nearby enemy units \n Left click to activate
+
+
 [CONTROLBAR:ToolTipFrodoLeadership]
 Modifier Type: Leadership \n Nearby allies in a large radius gain\n+50% Damage, +50% Armor, \n earn experience twice as fast \n reduces recharge time for unit and heroes and abilities by 25% \n Stacks with Leadership, Buffs, and Spells \n Passive ability
 
@@ -56503,7 +56527,7 @@ The Fate of Middle-earth
 
 
 [CONTROLBAR:SamwisetheBrave]
-The G&uide and the Gardener
+The Guide and the Gardener (&V)
 
 
 [CONTROLBAR:TooltipSamwisetheBrave]
@@ -56522,8 +56546,13 @@ Master's Guide
 Sméagol is passively stealthed unless he attacks and can detect other stealthed units \n Nearby heroes gain +33% speed \n Passive ability
 
 
+[CONTROLBAR:ToolTipSmeagolLeadershipCampaign]
+Sméagol is passively stealthed unless he attacks and can detect other stealthed units\n Passive ability
+
+
+
 [CONTROLBAR:SpecialAbilitySmeagolWring]
-Wring Its Filthy Little &Neck
+Wring Its Filthy Little Neck (&R)
 
 
 [CONTROLBAR:ToolTipSpecialAbilitySmeagolWring]
@@ -56547,7 +56576,7 @@ Modifier Type: Leadership \n Frodo gains +100% armor \n Passive ability
 
 
 [CONTROLBAR:SamwiseBladeMaster]
-That's For M&y Old Gaffer!
+That's For My Old Gaffer! (&T)
 
 
 [CONTROLBAR:TooltipSamwiseBladeMaster]
@@ -56563,11 +56592,11 @@ Anórien Sentries
 
 
 [CONTROLBAR:GondorBattleTowerGarrison]
-&Anórien Sentry
+Anórien Sentry (&W)
 
 
 [CONTROLBAR:RohanBattleTowerGarrison]
-Yeom&an Sentry
+Yeoman Sentry (&W)
 
 
 [CONTROLBAR:ToolTipGondorBattleTowerGarrison]
@@ -56579,11 +56608,19 @@ Sentinel of Nimrodel
 
 
 [CONTROLBAR:ToolTipRumilLeadership]
-Requires Level 6 \n Modifier Type: Leadership \n Nearby Lórien Wardens, Lórien Wardens and Marchwardens gain +50% vision range and archers gain +15% attack range \n Stacks with Buffs and Spells \n Modifier Type: Level \n\n Rúmil gains +50% armor \n Passive ability
+Requires Level 6 \n Modifier Type: Leadership \n Nearby Lórien Archers, Lórien Wardens and Marchwardens gain +50% vision range and archers gain +15% attack range \n Stacks with Buffs and Spells \n Modifier Type: Level \n\n Rúmil gains +50% armor \n Passive ability
+
+
+[CONTROLBAR:RumilSummon]
+Feigned Voices (&C)
+
+
+[CONTROLBAR:ToolTipRumilSummon]
+Requires Level 8 \nSummons an illusion of Lórien Archers at the target location \n Illusion archers deal no damage with their attacks and instead debuff enemy speed, armour and damage by -25%\n Left click icon then left click on pathable location
 
 
 [CONTROLBAR:OrophinLeadership]
-Warden of the Ce&lebrant
+Warden of the Celebrant (&T)
 
 
 [CONTROLBAR:ToolTipOrophinLeadership]
@@ -56607,7 +56644,7 @@ Modifier Type: Leadership \n Orophin and Rumil gain +10% damage and +5% experien
 
 
 [CONTROLBAR:RumilWoundingArrow]
-&Mallorn Shaft
+Mallorn Shaft (&R)
 
 
 [CONTROLBAR:ToolTipRumilWoundingArrow]
@@ -56615,11 +56652,19 @@ Requires Level 3 \n Single ranged attack\nCauses target monster to flee\nLeft cl
 
 
 [CONTROLBAR:OrophinBladeMaster]
-Sil&van Rage
+Silvan Rage (&R)
 
 
 [CONTROLBAR:TooltipOrophinBladeMaster]
 Requires Level 3 \n Modifier Type: Buff \n Orophin temporarily gains\n+50% Damage, +50% Armor \n Left click to activate
+
+
+[CONTROLBAR:OrophinBorderGuardsJudgement]
+Border Guard's Judgement (&C)
+
+
+[CONTROLBAR:TooltipOrophinBorderGuardsJudgement]
+Requires Level 8 \n Targeted enemy hero's ability timers are set to just used \n Left click icon then left click on target
 
 
 [CONTROLBAR:HaldirLeadership]
@@ -56627,11 +56672,11 @@ Captain of the Galadhrim
 
 
 [CONTROLBAR:ToolTipHaldirLeadership]
-Requires Level 6 \n Modifier Type: Leadership \n Nearby Lórien Wardens, Lórien Archers and Marchwardens gain +33% damage and +33% armor\n Stacks with Buffs and Spells \n Passive ability \n\n Modifier Type: Level \n Haldir dons his heavy armor and gains 50% armor increase\n Passive ability
+Requires Level 6 \n Modifier Type: Leadership \n Nearby Lórien Wardens, Lórien Archers, Sentinels of Cerin Amroth, Sindar Pathstalkers and Marchwardens gain +33% damage and +33% armor\n Stacks with Buffs and Spells \n Passive ability \n\n Modifier Type: Level \n Haldir dons his heavy armor and gains 50% armor increase\n Passive ability
 
 
 [CONTROLBAR:HaldirTeleport]
-Marchwarden of Lothlór&ien
+Marchwarden of Lothlórien (&T)
 
 
 [CONTROLBAR:TooltipHaldirTeleport]
@@ -56639,7 +56684,7 @@ Requires Level 3 \n Haldir guides allied units from one location on the battlefi
 
 
 [CONTROLBAR:HaldirLastStand]
-&Last Stand
+Last Stand (&V)
 
 
 [CONTROLBAR:TooltipHaldirLastStand]
@@ -56655,7 +56700,7 @@ Requires Level 6 \n Modifier Type: Level \n Haldir dons his heavy armor and gain
 
 
 [CONTROLBAR:WizardBlastRadagast]
-&Wizard Blast
+Wizard Blast (&R)
 
 
 [CONTROLBAR:ToolTipWizardBlastRadagast]
@@ -56707,7 +56752,7 @@ Required: Rank 6 \n Radagast continously heals nearby friendly heroes and units 
 
 
 [CONTROLBAR:RadagastSummonFamiliar]
-Watchf&ul Eye
+Watchful Eye (&T)
 
 
 [CONTROLBAR:TooltipRadagastSummonFamiliar]
@@ -56727,11 +56772,11 @@ Revive the fallen Hero, Galadriel
 
 
 [CONTROLBAR:ElvenGaladrielHotkey]
-&Galadriel
+Galadriel (&D)
 
 
 [CONTROLBAR:GaladrielForesight]
-Fores&ight
+Foresight (&W)
 
 
 [CONTROLBAR:TooltipGaladrielForesight]
@@ -56747,7 +56792,7 @@ Requires Level 3 \n Modifier Type: Leadership \n All nearby friendly Heroes gain
 
 
 [CONTROLBAR:SpecialPowerGaladrielNenya]
-Bearer of &Nenya
+Bearer of Nenya (&T)
 
 
 [CONTROLBAR:ToolTipSpecialPowerGaladrielNenya]
@@ -56755,7 +56800,7 @@ Requires Level 5 \n All Structures within the area of effect cannot produce, but
 
 
 [CONTROLBAR:GaladrielFear]
-Light of &Valinor
+Light of Valinor (&C)
 
 
 [CONTROLBAR:TooltipGaladrielFear]
@@ -56763,7 +56808,7 @@ Requires Level 7 \n For a brief time Galadriel is revealed in white light spread
 
 
 [CONTROLBAR:GaladrielStormQueen]
-The Storm Q&ueen
+The Storm Queen (&V)
 
 
 [CONTROLBAR:TooltipGaladrielStormQueen]
@@ -56783,15 +56828,15 @@ Revive the fallen Hero, Celeborn
 
 
 [CONTROLBAR:ElvenLorienCelebornHotKey]
-&Celeborn
+Celeborn (&S)
 
 
 [CONTROLBAR:CelebornLeadership]
-Lord of the Galadhri&m
+Lord of the Galadhrim (&W)
 
 
 [CONTROLBAR:ToolTipCelebornLeadership]
-Modifier Type: Leadership \n All nearby friendly units and heroes gain fear resistance as well as +10% speed \n Celeborn also causes fear to nearby enemies \n Stacks with Buffs and Spells \n Passive ability \n\n Requires Level 3\n Celeborn is accompanied by three Celemegiliath \n Passive ability \n\n Requires Level 7 \n Celeborn summons three Celemegiliath to guard an allied hero for a short time \n Left click icon then left click on target hero
+Modifier Type: Leadership \n All nearby friendly units and heroes gain fear resistance as well as +10% speed \n Celeborn also causes fear to nearby enemies \n Stacks with Buffs and Spells \n Passive ability \n\n Requires Level 3\n Celeborn is accompanied by three sword-wielding Celemegiliath \n Passive ability \n\n Requires Level 7 \n Celeborn summons three sword-wielding Celemegiliath to guard an allied hero for a short time \n Left click icon then left click on target hero
 
 
 [CONTROLBAR:CelebornAthelas]
@@ -56802,8 +56847,16 @@ Wo&rds of Healing
 Heals nearby friendly units \n Left click to activate
 
 
+[CONTROLBAR:SilverHost]
+The Silver Host (&R)
+
+
+[CONTROLBAR:ToolTipSilverHost]
+Requires Level 2 \n Summons a battalion of Celemegiliath \nAt rank 6, includes an additional battalion of sword-wielding Celemegiliath\nAt rank 10, two of both\nLeft click to activate
+
+
 [CONTROLBAR:SpecialPowerCelebornCunning]
-&Cunning Warrior
+Cunning Warrior (&T)
 
 
 [CONTROLBAR:ToolTipSpecialPowerCelebornCunning]
@@ -56819,7 +56872,7 @@ Requires Level 5 \n Celeborn wields his ancient armaments from Doriath gaining a
 
 
 [CONTROLBAR:CelebornWise]
-&Wise Beyond Measure
+Wise Beyond Measure (&V)
 
 
 [CONTROLBAR:ToolTipCelebornWise]
@@ -56827,7 +56880,7 @@ Requires Level Rank 7 \n Celeborn's words grant friendly units great experience 
 
 
 [CONTROLBAR:SpecialPowerRenownedWarrior]
-&Renowned Warrior
+Renowned Warrior (&C)
 
 
 [CONTROLBAR:ToolTipSpecialPowerRenownedWarrior]
@@ -56843,7 +56896,7 @@ Uruk-hai Scouts
 
 
 [CONTROLBAR:ConstructIsengardScoutHorde]
-Uruk-hai Scout&s
+Uruk-hai Scouts (&W)
 
 
 [CONTROLBAR:LW_Unit_IsengardScoutHorde]
