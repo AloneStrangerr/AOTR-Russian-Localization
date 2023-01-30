@@ -57433,7 +57433,7 @@ Summons two Wraiths on Wings to the battlefield \n Left click on icon then left 
 
 
 [CONTROLBAR:TooltipSummonHaradrimRaiders]
-Summon three battalions of Haradrim Raiders to the battlefield \n Once used, passively unlocks the Mûmakil Pen, Easterling Kataphrakts, and Easterling Swordsmen \n Left click on icon then left click on target area
+Summon three battalions of Haradrim Raiders to the battlefield \n Once used, passively unlocks Easterling Kataphrakts and Easterling Swordsmen \n Left click on icon then left click on target area
 
 
 [OBJECT:SummonedFellBeast]
@@ -57445,11 +57445,11 @@ Dol Guldur Dungeon
 
 
 [CONTROLBAR:WitchkingMount]
-&Mount / Dismount
+Mount / Dismount (&W)
 
 
 [CONTROLBAR:WitchkingDisMount]
-&Mount / Dismount
+Mount / Dismount (&W)
 
 
 [OBJECT:MordorUvatha]
