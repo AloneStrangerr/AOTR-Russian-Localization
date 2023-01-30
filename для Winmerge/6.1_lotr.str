@@ -13661,15 +13661,15 @@ Trains and upgrades Rohan's Archers \n Generates a small amount of resources bas
 
 
 [CONTROLBAR:ConstructMenStable]
-Build St&ables
+Build Stables (&V)
 
 
 [CONTROLBAR:ConstructMenWorkshop]
-Build Sie&ge Works
+Build Siege Works (&N)
 
 
 [CONTROLBAR:ConstructRohanWorkshop]
-Build Wor&kshop
+Build Workshop (&N)
 
 
 [CONTROLBAR:ToolTipConstructMenWorkshop]
@@ -13685,7 +13685,7 @@ Generates resources based on available terrain\nLevel 2: +10% Faster Build Speed
 
 
 [CONTROLBAR:ConstructMenSentryTower]
-Build Ba&ttle Tower
+Build Battle Tower (&Y)
 
 
 [CONTROLBAR:ToolTipConstructMenSentryTower]
@@ -13701,11 +13701,11 @@ Recruits Builders and Heroes \n Can be upgraded with improvements and expansions
 
 
 [CONTROLBAR:ConstructMenWell]
-Bui&ld Well
+Build Well (&G)
 
 
 [CONTROLBAR:ConstructRohanWell]
-Bui&ld Edoras Well
+Build Edoras Well (&G)
 
 
 [CONTROLBAR:ToolTipConstructMenWell]
@@ -13713,11 +13713,7 @@ Units near well auto-heal if not under attack\n Reduces cost of infantry \n Incr
 
 
 [CONTROLBAR:ConstructMenStatue]
-Build Hero&ic Statue
-
-
-[CONTROLBAR:ConstructRohanStatue]
-Bu&ild Heroic Statue
+Build Heroic Statue (&U)
 
 
 [CONTROLBAR:ToolTipConstructMenStatue]
@@ -13725,7 +13721,7 @@ Leadership bonus to nearby troops\n Reduces cost of heroes \n Increases command 
 
 
 [CONTROLBAR:ConstructMenBlacksmith]
-Build Blac&ksmith
+Build Blacksmith (&R)
 
 
 [CONTROLBAR:ToolTipConstructMenBlacksmith]
@@ -13733,11 +13729,11 @@ Provides worked metals as a resource based on available terrain\nUpgrades weapon
 
 
 [CONTROLBAR:ConstructMenMarketPlace]
-Build &Marketplace
+Build Marketplace (&M)
 
 
 [CONTROLBAR:ConstructMenStoneMaker]
-Build Sto&neworker
+Build Stoneworker (&F)
 
 
 [CONTROLBAR:ToolTipConstructMenStoneMaker]
@@ -13831,7 +13827,7 @@ Structures with Fire Arrows
 
 
 [OBJECT:GondorCastleUpgradeNumenorian]
-Numenorean Stonework
+Númenórean Stonework
 
 
 
@@ -13942,35 +13938,35 @@ Requires Level 2 Forbidden Pool \n Strong vs. Cavalry, Monsters
 Requires Level 3 Forbidden Pool \n Gondor's cavalry unit \n Strong vs Swordsmen
 
 [CONTROLBAR:ConstructGondorArcheryRangeLevel2Upgrade]
-&Upgrade Archery Range to Level 2
+Upgrade Archery Range to Level 2 (&A)
 
 [CONTROLBAR:ConstructGondorArcheryRangeLevel3Upgrade]
-&Upgrade Archery Range to Level 3
+Upgrade Archery Range to Level 3 (&A)
 
 [CONTROLBAR:ConstructGondorBarracks2Upgrade]
-&Upgrade Barracks to Level 2
+Upgrade Barracks to Level 2 (&A)
 
 [CONTROLBAR:ConstructGondorBarracksLevel3Upgrade]
-&Upgrade Barracks to Level 3
+Upgrade Barracks to Level 3 (&A)
 
 [CONTROLBAR:ConstructGondorStable2Upgrade]
-&Upgrade Stables to Level 2
+Upgrade Stables to Level 2 (&A)
 
 [CONTROLBAR:ConstructGondorStableLevel3Upgrade]
-&Upgrade Stables to Level 3
+Upgrade Stables to Level 3 (&A)
 
 [CONTROLBAR:ConstructGondorWorkshop2Upgrade]
-&Upgrade Siege Works to Level 2
+Upgrade Siege Works to Level 2 (&A)
 
 [CONTROLBAR:ConstructGondorWorkshopLevel3Upgrade]
-&Upgrade Siege Works to Level 3
+Upgrade Siege Works to Level 3 (&A)
 
 
 [CONTROLBAR:ConstructRohanWorkshop2Upgrade]
-&Upgrade Workshop to Level 2
+Upgrade Workshop to Level 2 (&A)
 
 [CONTROLBAR:ConstructRohanWorkshopLevel3Upgrade]
-&Upgrade Workshop to Level 3
+Upgrade Workshop to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipGondorBuildWhiteTower]
@@ -14033,7 +14029,7 @@ Build Rohan &Stable
 Build Rohan &Farm
 
 [CONTROLBAR:ConstructRohanStatue]
-Build Rohan Sta&tue
+Build Rohan Statue (&U)
 
 [CONTROLBAR:ConstructRohanGoldenHall]
 Build Rohan Golden Hall
@@ -14084,31 +14080,31 @@ Build a Mordor Base
 Build Base
 
 [CONTROLBAR:ConstructMordorOrcPit]
-Build Or&c Barracks
+Build Orc Barracks (&T)
 
 [CONTROLBAR:BuildMordorWorker]
-Orc &Laborer
+Orc Laborer (&W)
 
 [CONTROLBAR:ConstructMordorOrcFletcher]
 Build Fletcher
 
 [CONTROLBAR:ConstructMordorTrollCage]
-Build &Troll Cage
+Build Troll Cage (&V)
 
 [CONTROLBAR:ConstructMordorSiegeWorks]
-Build &Great Siege Works
+Build Great Siege Works (&N)
 
 [CONTROLBAR:ConstructMordorHaradrimPalace]
-Buil&d Easterling Encampment
+Build Easterling Encampment (&C)
 
 [CONTROLBAR:ConstructSlaughterHouse]
-Build Slaughte&r House
+Build Slaughter House (&W)
 
 [CONTROLBAR:ConstructLumberMill]
-Build L&umber Mill
+Build Lumber Mill (&D)
 
 [CONTROLBAR:ConstructFurnace]
-Build Fu&rnace
+Build Furnace (&W)
 
 [CONTROLBAR:ConstructMordorUmbarTavern]
 Build Ta&vern
@@ -14156,19 +14152,19 @@ Provides a discount on future purchases
 
 
 [CONTROLBAR:ConstructIsengardUrukPit]
-Build Uruk Pi&t
+Build Uruk Pit (&T)
 
 [CONTROLBAR:ConstructIsengardWargPit]
-Build Warg &Pit
+Build Warg Pit (&V)
 
 [CONTROLBAR:ConstructIsengardSiegeWorks]
-Build Sie&ge Works
+Build Siege Works (&N)
 
 [CONTROLBAR:ConstructIsengardArmory]
-Build &Armory
+Build Armory (&R)
 
 [CONTROLBAR:ConstructIsengardBattleTower]
-&Lookout Tower
+Lookout Tower (&Y)
 
 [CONTROLBAR:ToolTipBuildIsengardBattleTower]
 Defensive arrow tower \n Can be garrisoned with archers for greater damage output
@@ -14198,11 +14194,11 @@ To build a Farm, left click on button
 
 
 [CONTROLBAR:ConstructWildMineShaft]
-Build O&rc Tunnel
+Build Orc Tunnel (&W)
 
 
 [CONTROLBAR:ConstructWildLumberMill]
-Build L&umber Mill
+Build Lumber Mill (&D)
 
 
 [CONTROLBAR:ToolTipConstructWildLumberMill]
@@ -14210,15 +14206,15 @@ Harvests resources from nearby trees \n Reduces cost of buildings \n Increases c
 
 
 [CONTROLBAR:ConstructWildGoblinCave]
-Build Goblin &Cave
+Build Goblin Cave (&C)
 
 
 [CONTROLBAR:ToolTipConstructWildGoblinCave]
-Trains Goblin-towners, Moria Orc Screechers \n and Moria Orc Archers \n Increases command point limit by 25
+Trains Moria Orc Screechers and Moria Orc Archers \n Increases command point limit by 25
 
 
 [CONTROLBAR:ConstructWildMountainLodge]
-Build &Mountain-orc Lodge
+Build Mountain-orc Lodge (&T)
 
 
 [CONTROLBAR:ToolTipConstructWildMountainLodge]
@@ -14226,19 +14222,19 @@ Trains Mountain-orcs and Gundabad orcs \n Increases command point limit by 25
 
 
 [CONTROLBAR:ConstructWildGoblinFissure]
-Build &Troll Lair
+Build Troll Lair (&N)
 
 
 [CONTROLBAR:ConstructWildWildSpiderPit]
-Build &Warg Cage
+Build Wolf Cairn (&V)
 
 
 [CONTROLBAR:ConstructWildFortress]
-Build &Fortress
+Build Fortress (&I)
 
 
 [CONTROLBAR:ConstructGuldurFortress]
-Summon &Fortress
+Summon Fortress (&I)
 
 
 [CONTROLBAR:ToolTipConstructWildFortress]
@@ -14246,7 +14242,7 @@ Recruits Builders and Heroes \n Can be upgraded with improvements and expansions
 
 
 [CONTROLBAR:ConstructWildTreasureTrove]
-Build &Goblin Hoard
+Build Goblin Hoard (&R)
 
 
 [CONTROLBAR:ToolTipConstructWildTreasureTrove ]
@@ -14254,7 +14250,7 @@ Hoards armor and valuables as a resource based on available terrain \nResearches
 
 
 [CONTROLBAR:ConstructWildPorter]
-Goblin Bui&lder
+Goblin Builder (&W)
 
 
 [CONTROLBAR:ToolTipConstructWildPorter]
@@ -14262,7 +14258,7 @@ Builds structures
 
 
 [CONTROLBAR:ConstructEntMoot]
-Build Ent &Moot
+Build Ent Moot (&N)
 
 
 [CONTROLBAR:ToolTipEntMoot]
