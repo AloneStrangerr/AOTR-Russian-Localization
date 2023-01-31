@@ -57457,7 +57457,7 @@ Nazgûl
 
 
 [CONTROLBAR:UvathaRecruit]
-Recruit a Nazgûl, one of Sauron's deadliest servants \n \n 'They were once men; great kings of men. Then Sauron the Deceiver gave to them nine Rings of Power.'
+Recruit a Nazgûl, one of Sauron's deadliest servants \n \n 'Blinded by their greed, they took them without question, one by one falling into darkness.'
 
 	
 [CONTROLBAR:UvathaRevive	]
@@ -57465,7 +57465,7 @@ Revive the fallen Nazgûl
 
 
 [CONTROLBAR:UvathaHotkey]
-&Nazgûl
+Nazgûl (&T)
 
 
 
@@ -57473,7 +57473,7 @@ Revive the fallen Nazgûl
 Nazgûl
 
 [CONTROLBAR:AkhorahilRecruit]
-Recruit a Nazgûl, one of Sauron's deadliest servants \n \n 'Blinded by their greed, they took them without question, one by one falling into darkness.'
+Recruit a Nazgûl, one of Sauron's deadliest servants \n \n 'They were once men; great kings of men. Then Sauron the Deceiver gave to them nine Rings of Power.'
 
 	
 [CONTROLBAR:AkhorahilRevive]
@@ -57481,7 +57481,7 @@ Revive the fallen Nazgûl
 
 	
 [CONTROLBAR:AkhorahilHotkey]
-&Nazgûl
+Nazgûl (&R)
 
 
 [CONTROLBAR:DreadVisageKhamul]
@@ -57493,7 +57493,7 @@ Black Breath
 
 
 [CONTROLBAR:ToolTipKhamulStorm]
-Requires Level 8 \n Modifier Type: Spell \n Khamûl and nearby friendly units gain +50% damage and +20% speed but lose -50% armor and gain no experience for a short time\n Also summons four single Ancient Easterlings \n Stacks with Leadership and Spells \n Left click to activate
+Requires Level 8 \n Modifier Type: Spell \n Khamûl and nearby friendly units gain +75% damage and +20% speed but lose -25% armor and gain no experience for a short time\n Also summons four single Ancient Easterlings \n Stacks with Leadership and Spells \n Left click to activate
 
 
 [CONTROLBAR:KhamulLieutnant]
@@ -57501,7 +57501,7 @@ Lieutenant of Dol Guldur
 
 
 [CONTROLBAR:ToolTipKhamulLieutnant]
-Requires Level 3 \n Khamûl takes on his role as the Lieutenant of Dol Guldur \n Nearby Undead units gain +33% damage \n Passive ability \n\n At rank 5, Khamûl dons his armor, granting him +50% armor
+Requires Level 3 \n Khamûl takes on his role as the Lieutenant of Dol Guldur \n Nearby Risen Dead, Orc Ravagers, Tomb Guards, Unburied Wights and Harbingers of Shadow gain +33% damage \n Passive ability \n\n At rank 5, Khamûl dons his armor, granting him +50% armor
 
 
 [OBJECT:GuldurAncientEasterling]
@@ -57509,7 +57509,7 @@ Ancient Easterling
 
 
 [CONTROLBAR:ConstructMordorArmory]
-Build Gorgoroth &Armory
+Build Gorgoroth Armory (&R)
 
 
 [CONTROLBAR:ToolTipConstructMordorArmory]
@@ -57533,11 +57533,11 @@ Barbed Arrows
 
 
 [CONTROLBAR:BarbedArrowUpgrade]
-Ba&rbed Arrows
+Barbed Arrows (&C)
 
 
 [CONTROLBAR:PurchaseTechnologyMordorBarbedArrows]
-&Research Barbed Arrows
+Research Barbed Arrows (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows]
@@ -57673,11 +57673,11 @@ Orc Pikemen
 
 
 [CONTROLBAR:ConstructMordorPikeHorde]
-Orc &Pikemen
+Orc Pikemen (&E)
 
 
 [CONTROLBAR:ToolTipBuildMordorPikeHorde]
-Strong vs. Cavalry and Heroes \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen, Orc Archers, Legions of Morgul, and Black Uruks gain +50% damage when gathered in numbers of 150 or more \n Stacks With Buffs, Leadership and other Spells\n \n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr.
+Strong vs. Cavalry and Heroes \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 150 or more \n Stacks With Buffs, Leadership and other Spells\n \n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr.
 
 
 
@@ -57698,7 +57698,7 @@ Revive the Chieftain of Mount Gram
 
 
 [CONTROLBAR:WildGolfimbulHotkey]
-&Golfimbul
+Golfimbul (&E)
 
 
 [CONTROLBAR:GolfimbulLeadership]
@@ -57710,23 +57710,23 @@ Modifier Type: Leadership \nNearby Wargs and Cavalry gains\n +25% Damage, +15% S
 
 
 [CONTROLBAR:GolfimbulWargSummon]
-&White Wolves of Forochel
+White Wolves of Forochel (&R)
 
 
 [CONTROLBAR:ToolTipGolfimbulWargSummon]
-Requires Level 3 \n Golfimbul summons 10 White Wolves at the target area. \n Left click on icon then left click on target area
+Requires Level 3 \n Golfimbul summons 6 White Wolves at the target area. \n Left click on icon then left click on target area
 
 
 [CONTROLBAR:GolfimbulHatred]
-Hat&red of the Fair Folk
+Hatred of the Fair Folk (&T)
 
 
 [CONTROLBAR:TooltipGolfimbulHatred]
-Requires Level 8 \n Modifier Type: Spell \n Golfimbul seeks to exact his revenge upon the Fair-folk. \n Golfimbul and nearby Wolves, Wargs, and Wolf-Riders gain\n+100% Damage and +100% Armor \n Stacks with Leadership and Spells \n \n Left click to activate
+Requires Level 8 \n Modifier Type: Spell \n Golfimbul seeks to exact his revenge upon the Fair-folk. \n Golfimbul and nearby Wolves, Wargs, and Wolf-Riders gain\n+100% Damage, +100% Armor and -50% Trample Deceleration \n Stacks with Leadership and Spells \n \n Left click to activate
 
 
 [CONTROLBAR:AzogSpawnOfTheDefiler]
-Spa&wn of the Defiler
+Spawn of the Defiler (&V)
 
 
 [CONTROLBAR:ToolTipAzogSpawnOfTheDefiler]
@@ -57738,7 +57738,7 @@ Requires Level 10 \n Temporarily summons a battalion of Gundabad Bodyguards \n L
 
 
 [CONTROLBAR:AzogToggleMounted]
-Mount Warg &Matriarch
+Mount Warg Matriarch (&W)
 
 
 [CONTROLBAR:ToolTipAzogToggleMounted]
@@ -57750,7 +57750,7 @@ Wyrm-armor
 
 
 [CONTROLBAR:PurchaseTechnologyHardenedSkin]
-Research W&yrm-Armor
+Research Wyrm-Armor (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyHardenedSkin]
@@ -57762,7 +57762,7 @@ Requires Wyrm Lair level 2
 
 
 [CONTROLBAR:PurchaseUpgradeHardenedSkin]
-W&yrm-Armor
+Wyrm-Armor (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeHardenedSkin]
@@ -57774,31 +57774,31 @@ Research this upgrade at Wyrm Lair to enable this equipment \n When equipped inc
 
 
 [CONTROLBAR:PurchaseUpgradeWildFortressDrumsInTheDeep]
-&Drums in the Deep
+Drums in the Deep (&F)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDrumsInTheDeep]
-The fortress gains the ability to use the Drums in the Deep \nPermanently summons 5 hordes of Moria Orcs with Heavy Armor
+The fortress gains the ability to use the Drums in the Deep \nTemporarily summons 5 hordes of Moria-orc Screechers
 
 
 [CONTROLBAR:SpecialAbilityDrumsInTheDeep]
-&Drums in the Deep
+Drums in the Deep (&S)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityDrumsInTheDeep]
-Requires the Drums in the Deep upgrade \n Permanently summons 5 hordes of Moria Orcs with Heavy Armor\n Respects command limit \n \n\n Modifier Type: Active Debuff \n Targeted enemy units suffer -25% Damage and -20% Armor\n Does not stack with other Debuffs \n Left click on icon then left click on target area
+Requires the Drums in the Deep upgrade \n Temporarily summons 5 hordes of Moria-orc Screechers \n \n\n Modifier Type: Active Debuff \n Targeted enemy units suffer -25% Damage and -20% Armor\n Does not stack with other Debuffs \n Left click on icon then left click on target area
 
 
 [CONTROLBAR:SpecialAbilitySummonWyrm]
-Lesser Dra&gon
+Lesser Dragon (&D)
 
 
 [CONTROLBAR:ToolTipSpecialAbilitySummonWyrm]
-Requires the Allegiance: Northern Wastes upgrade \n Temporarily summons a Fire Wyrm \n Left click on icon then left click on target area
+Requires the Brood of the North upgrade \n Temporarily summons a Fire Wyrm \n Left click on icon then left click on target area
 
 
 [CONTROLBAR:PurchaseUpgradeDolFortressBanners]
-Dol Amroth Ba&nners
+Dol Amroth Banners (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDolFortressBanners]
@@ -57806,7 +57806,7 @@ Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% Arm
 
 
 [CONTROLBAR:PurchaseUpgradeDolFortressMoat]
-&Moat
+Moat (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDolFortressMoat]
@@ -57825,7 +57825,7 @@ Morgul Vanguard
 
 
 [CONTROLBAR:ConstructMordorVangaurdHorde]
-Morgul &Vanguard
+Morgul Vanguard (&D)
 
 
 [CONTROLBAR:LW_Unit_MordorVangaurdHorde]
@@ -57841,6 +57841,10 @@ Morgul Vanguard Battalion
 
 
 [CONTROLBAR:ToolTipBuildMordorVangaurdHorde]
+Requires the Morgul Spire upgrade\n Hero Unit. Limited to 1 \nStrong vs. Infantry and Heroes \n \n These soulless men have long served the Witch-king as his personal bodyguard and the vanguard of his legions.
+
+
+[CONTROLBAR:ToolTipBuildMordorVangaurdHordeFortress]
 Requires the Morgul Sorcery upgrade\n Hero Unit. Limited to 1 \nStrong vs. Infantry and Heroes \n \n These soulless men have long served the Witch-king as his personal bodyguard and the vanguard of his legions.
 
 
@@ -57857,7 +57861,7 @@ Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -
 
 
 [CONTROLBAR:VanguardMorgulBlade]
-Morgu&l Blade
+Morgul Blade (&R)
 
 
 [CONTROLBAR:ToolTipVanguardMorgulBlade]
@@ -57865,7 +57869,7 @@ Requires Level 4 \n Targeted enemy takes poison damage over \n time and becomes 
 
 
 [CONTROLBAR:ScreechVanguard]
-Morgul Sor&cery
+Morgul Sorcery (&T)
 
 
 [CONTROLBAR:TooltipScreechVanguard]
@@ -57881,7 +57885,7 @@ Legion of Morgul
 
 
 [CONTROLBAR:ConstructMordorMorgulOrcHorde]
-Legions of &Morgul
+Legions of Morgul (&S)
 
 
 [CONTROLBAR:LW_Unit_MordorMorgulOrcHorde]
@@ -57893,7 +57897,7 @@ Legion of Morgul Horde
 
 
 [CONTROLBAR:ToolTipBuildMordorMorgulOrcHorde]
-Requires the Morgul Sorcery upgrade\n Elite Infantry \nStrong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen, Orc Archers, Legions of Morgul, and Black Uruks gain +50% damage when gathered in numbers of 100 or more \n Stacks with Buffs, Leadership and other spells \n \n These orcs have been hardened by years of war with Gondor and are amongst the elite of Sauron's armies.
+Requires the Morgul Sorcery upgrade\n Elite Infantry \nStrong vs. Pikemen\n\nThese orcs have been hardened by years of war with Gondor and are amongst the elite of Sauron's armies.
 
 
 [CONTROLBAR:LW_ToolTipBuild_MordorMorgulOrcHorde]
