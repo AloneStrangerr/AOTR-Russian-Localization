@@ -56494,6 +56494,30 @@ Requires Level 2 \n Modifier Type: Spell\n Rangers toggle weapons and gain +33% 
 Requires Level 3\nThe rangers bombard anywhere within a great radius with a volley of arrows \n Left click icon then left click on target area
 
 
+[CONTROLBAR:HobbitRockLure]
+Lure (&T)
+
+
+[CONTROLBAR:HobbitRockLureAmonHen]
+Lure (&V)
+
+
+[CONTROLBAR:ToolTipHobbitRockLure]
+The hobbit throws a rock to lure enemy units to target area \n Left click icon then left click on target area
+
+
+[CONTROLBAR:RangerLureIthilien]
+&Lure
+
+
+[CONTROLBAR:RangerLureIthilienforHordes]
+Lure
+
+
+[CONTROLBAR:ToolTipRangerLureIthilien]
+Lures nearby enemy units \n Left click to activate
+
+
 [CONTROLBAR:ToolTipFrodoLeadership]
 Modifier Type: Leadership \n Nearby allies in a large radius gain\n+50% Damage, +50% Armor, \n earn experience twice as fast \n reduces recharge time for unit and heroes and abilities by 25% \n Stacks with Leadership, Buffs, and Spells \n Passive ability
 
@@ -56503,7 +56527,7 @@ The Fate of Middle-earth
 
 
 [CONTROLBAR:SamwisetheBrave]
-The G&uide and the Gardener
+The Guide and the Gardener (&V)
 
 
 [CONTROLBAR:TooltipSamwisetheBrave]
@@ -56522,8 +56546,13 @@ Master's Guide
 Sméagol is passively stealthed unless he attacks and can detect other stealthed units \n Nearby heroes gain +33% speed \n Passive ability
 
 
+[CONTROLBAR:ToolTipSmeagolLeadershipCampaign]
+Sméagol is passively stealthed unless he attacks and can detect other stealthed units\n Passive ability
+
+
+
 [CONTROLBAR:SpecialAbilitySmeagolWring]
-Wring Its Filthy Little &Neck
+Wring Its Filthy Little Neck (&R)
 
 
 [CONTROLBAR:ToolTipSpecialAbilitySmeagolWring]
@@ -56547,7 +56576,7 @@ Modifier Type: Leadership \n Frodo gains +100% armor \n Passive ability
 
 
 [CONTROLBAR:SamwiseBladeMaster]
-That's For M&y Old Gaffer!
+That's For My Old Gaffer! (&T)
 
 
 [CONTROLBAR:TooltipSamwiseBladeMaster]
@@ -56563,11 +56592,11 @@ Anórien Sentries
 
 
 [CONTROLBAR:GondorBattleTowerGarrison]
-&Anórien Sentry
+Anórien Sentry (&W)
 
 
 [CONTROLBAR:RohanBattleTowerGarrison]
-Yeom&an Sentry
+Yeoman Sentry (&W)
 
 
 [CONTROLBAR:ToolTipGondorBattleTowerGarrison]
@@ -56579,11 +56608,19 @@ Sentinel of Nimrodel
 
 
 [CONTROLBAR:ToolTipRumilLeadership]
-Requires Level 6 \n Modifier Type: Leadership \n Nearby Lórien Wardens, Lórien Wardens and Marchwardens gain +50% vision range and archers gain +15% attack range \n Stacks with Buffs and Spells \n Modifier Type: Level \n\n Rúmil gains +50% armor \n Passive ability
+Requires Level 6 \n Modifier Type: Leadership \n Nearby Lórien Archers, Lórien Wardens and Marchwardens gain +50% vision range and archers gain +15% attack range \n Stacks with Buffs and Spells \n Modifier Type: Level \n\n Rúmil gains +50% armor \n Passive ability
+
+
+[CONTROLBAR:RumilSummon]
+Feigned Voices (&C)
+
+
+[CONTROLBAR:ToolTipRumilSummon]
+Requires Level 8 \nSummons an illusion of Lórien Archers at the target location \n Illusion archers deal no damage with their attacks and instead debuff enemy speed, armour and damage by -25%\n Left click icon then left click on pathable location
 
 
 [CONTROLBAR:OrophinLeadership]
-Warden of the Ce&lebrant
+Warden of the Celebrant (&T)
 
 
 [CONTROLBAR:ToolTipOrophinLeadership]
@@ -56607,7 +56644,7 @@ Modifier Type: Leadership \n Orophin and Rumil gain +10% damage and +5% experien
 
 
 [CONTROLBAR:RumilWoundingArrow]
-&Mallorn Shaft
+Mallorn Shaft (&R)
 
 
 [CONTROLBAR:ToolTipRumilWoundingArrow]
@@ -56615,11 +56652,19 @@ Requires Level 3 \n Single ranged attack\nCauses target monster to flee\nLeft cl
 
 
 [CONTROLBAR:OrophinBladeMaster]
-Sil&van Rage
+Silvan Rage (&R)
 
 
 [CONTROLBAR:TooltipOrophinBladeMaster]
 Requires Level 3 \n Modifier Type: Buff \n Orophin temporarily gains\n+50% Damage, +50% Armor \n Left click to activate
+
+
+[CONTROLBAR:OrophinBorderGuardsJudgement]
+Border Guard's Judgement (&C)
+
+
+[CONTROLBAR:TooltipOrophinBorderGuardsJudgement]
+Requires Level 8 \n Targeted enemy hero's ability timers are set to just used \n Left click icon then left click on target
 
 
 [CONTROLBAR:HaldirLeadership]
@@ -56627,11 +56672,11 @@ Captain of the Galadhrim
 
 
 [CONTROLBAR:ToolTipHaldirLeadership]
-Requires Level 6 \n Modifier Type: Leadership \n Nearby Lórien Wardens, Lórien Archers and Marchwardens gain +33% damage and +33% armor\n Stacks with Buffs and Spells \n Passive ability \n\n Modifier Type: Level \n Haldir dons his heavy armor and gains 50% armor increase\n Passive ability
+Requires Level 6 \n Modifier Type: Leadership \n Nearby Lórien Wardens, Lórien Archers, Sentinels of Cerin Amroth, Sindar Pathstalkers and Marchwardens gain +33% damage and +33% armor\n Stacks with Buffs and Spells \n Passive ability \n\n Modifier Type: Level \n Haldir dons his heavy armor and gains 50% armor increase\n Passive ability
 
 
 [CONTROLBAR:HaldirTeleport]
-Marchwarden of Lothlór&ien
+Marchwarden of Lothlórien (&T)
 
 
 [CONTROLBAR:TooltipHaldirTeleport]
@@ -56639,7 +56684,7 @@ Requires Level 3 \n Haldir guides allied units from one location on the battlefi
 
 
 [CONTROLBAR:HaldirLastStand]
-&Last Stand
+Last Stand (&V)
 
 
 [CONTROLBAR:TooltipHaldirLastStand]
@@ -56655,7 +56700,7 @@ Requires Level 6 \n Modifier Type: Level \n Haldir dons his heavy armor and gain
 
 
 [CONTROLBAR:WizardBlastRadagast]
-&Wizard Blast
+Wizard Blast (&R)
 
 
 [CONTROLBAR:ToolTipWizardBlastRadagast]
@@ -56707,7 +56752,7 @@ Required: Rank 6 \n Radagast continously heals nearby friendly heroes and units 
 
 
 [CONTROLBAR:RadagastSummonFamiliar]
-Watchf&ul Eye
+Watchful Eye (&T)
 
 
 [CONTROLBAR:TooltipRadagastSummonFamiliar]
@@ -56727,11 +56772,11 @@ Revive the fallen Hero, Galadriel
 
 
 [CONTROLBAR:ElvenGaladrielHotkey]
-&Galadriel
+Galadriel (&D)
 
 
 [CONTROLBAR:GaladrielForesight]
-Fores&ight
+Foresight (&W)
 
 
 [CONTROLBAR:TooltipGaladrielForesight]
@@ -56747,7 +56792,7 @@ Requires Level 3 \n Modifier Type: Leadership \n All nearby friendly Heroes gain
 
 
 [CONTROLBAR:SpecialPowerGaladrielNenya]
-Bearer of &Nenya
+Bearer of Nenya (&T)
 
 
 [CONTROLBAR:ToolTipSpecialPowerGaladrielNenya]
@@ -56755,7 +56800,7 @@ Requires Level 5 \n All Structures within the area of effect cannot produce, but
 
 
 [CONTROLBAR:GaladrielFear]
-Light of &Valinor
+Light of Valinor (&C)
 
 
 [CONTROLBAR:TooltipGaladrielFear]
@@ -56763,7 +56808,7 @@ Requires Level 7 \n For a brief time Galadriel is revealed in white light spread
 
 
 [CONTROLBAR:GaladrielStormQueen]
-The Storm Q&ueen
+The Storm Queen (&V)
 
 
 [CONTROLBAR:TooltipGaladrielStormQueen]
@@ -56783,15 +56828,15 @@ Revive the fallen Hero, Celeborn
 
 
 [CONTROLBAR:ElvenLorienCelebornHotKey]
-&Celeborn
+Celeborn (&S)
 
 
 [CONTROLBAR:CelebornLeadership]
-Lord of the Galadhri&m
+Lord of the Galadhrim (&W)
 
 
 [CONTROLBAR:ToolTipCelebornLeadership]
-Modifier Type: Leadership \n All nearby friendly units and heroes gain fear resistance as well as +10% speed \n Celeborn also causes fear to nearby enemies \n Stacks with Buffs and Spells \n Passive ability \n\n Requires Level 3\n Celeborn is accompanied by three Celemegiliath \n Passive ability \n\n Requires Level 7 \n Celeborn summons three Celemegiliath to guard an allied hero for a short time \n Left click icon then left click on target hero
+Modifier Type: Leadership \n All nearby friendly units and heroes gain fear resistance as well as +10% speed \n Celeborn also causes fear to nearby enemies \n Stacks with Buffs and Spells \n Passive ability \n\n Requires Level 3\n Celeborn is accompanied by three sword-wielding Celemegiliath \n Passive ability \n\n Requires Level 7 \n Celeborn summons three sword-wielding Celemegiliath to guard an allied hero for a short time \n Left click icon then left click on target hero
 
 
 [CONTROLBAR:CelebornAthelas]
@@ -56802,8 +56847,16 @@ Wo&rds of Healing
 Heals nearby friendly units \n Left click to activate
 
 
+[CONTROLBAR:SilverHost]
+The Silver Host (&R)
+
+
+[CONTROLBAR:ToolTipSilverHost]
+Requires Level 2 \n Summons a battalion of Celemegiliath \nAt rank 6, includes an additional battalion of sword-wielding Celemegiliath\nAt rank 10, two of both\nLeft click to activate
+
+
 [CONTROLBAR:SpecialPowerCelebornCunning]
-&Cunning Warrior
+Cunning Warrior (&T)
 
 
 [CONTROLBAR:ToolTipSpecialPowerCelebornCunning]
@@ -56819,7 +56872,7 @@ Requires Level 5 \n Celeborn wields his ancient armaments from Doriath gaining a
 
 
 [CONTROLBAR:CelebornWise]
-&Wise Beyond Measure
+Wise Beyond Measure (&V)
 
 
 [CONTROLBAR:ToolTipCelebornWise]
@@ -56827,7 +56880,7 @@ Requires Level Rank 7 \n Celeborn's words grant friendly units great experience 
 
 
 [CONTROLBAR:SpecialPowerRenownedWarrior]
-&Renowned Warrior
+Renowned Warrior (&C)
 
 
 [CONTROLBAR:ToolTipSpecialPowerRenownedWarrior]
@@ -56843,7 +56896,7 @@ Uruk-hai Scouts
 
 
 [CONTROLBAR:ConstructIsengardScoutHorde]
-Uruk-hai Scout&s
+Uruk-hai Scouts (&W)
 
 
 [CONTROLBAR:LW_Unit_IsengardScoutHorde]
@@ -56895,7 +56948,7 @@ Unit Type: Hero Unit\nStrong vs. All Unit Types\n
 
 
 [CONTROLBAR:FanaticDeathWish]
-&Twisted Frenzy
+Twisted Frenzy (&R)
 
 
 [CONTROLBAR:ToolTipFanaticDeathWish]
@@ -56907,22 +56960,22 @@ Bane of the Rohirrim
 
 
 [CONTROLBAR:ToolTipFanaticStoneWall]
-Man-Slayers are highly resistant to knockback\nPassive ability
+Man-slayers are highly resistant to knockback and deal high trample revenge damage\nPassive ability
 
 
 [CONTROLBAR:ScourgeofMan]
-Scent of Blood
+Scent of Blood (&T)
 
 
 [CONTROLBAR:ToolTipScourgeofMan]
-Requires Level 7 \n Man-Slayers regain health per hit \nPassive ability
+Requires Level 7 \n Man-slayers regain health per hit \nPassive ability \n When activated, Man-slayers temporarily gain +33% movement speed \n Left click to activate
 
 [OBJECT:IsengardMineBeserker]
 Isengard Sapper
 
 
 [CONTROLBAR:ConstructIsengardMineBerserker]
-Isengard Sapper
+Isengard Sapper (&F)
 
 
 [CONTROLBAR:ToolTipBuildIsengardMineBerserker]
@@ -56952,7 +57005,7 @@ Devastation
 
 
 [CONTROLBAR:ToolTipDevastation]
-Trees are instantly turned into resources\n Stuns every enemy unit in target area for short duration \n \n Left click icon then left click on target forest
+Trees are instantly turned into resources\n Halves the resource production of any resource structure within the area of effect \n \n Left click icon then left click on target forest
 
 
 [OBJECT:IsengardWildmenSpear]
@@ -56964,7 +57017,7 @@ Wildmen Spearmen
 
 
 [CONTROLBAR:ConstructIsengardWildmenSpearHorde]
-Wildmen &Spearmen
+Wildmen Spearmen (&E)
 
 
 [CONTROLBAR:LW_Unit_IsengardWildmenSpearHorde]
@@ -56997,27 +57050,27 @@ Revive the fallen Hero, Uglúk
 
 
 [CONTROLBAR:IsengardUglukHotKey]
-&Uglúk
+Uglúk (&R)
 
 
 [CONTROLBAR:IsengardUglukOrcMedicine]
-Orcish Med&icine
+Orcish Medicine (&W)
 
 
 [CONTROLBAR:TooltipIsengardUglukOrcMedicine]
-Heals nearby friendly infantry units and heroes \n Left click to activate
+Heals nearby friendly heroes and Uruk-hai units \n Left click to activate
 
 
 [CONTROLBAR:IsengardUglukHuntfortheRing]
-Hunt for the &Ring
+Hunt for the Ring (&R)
 
 
 [CONTROLBAR:TooltipIsengardUglukHuntfortheRing]
-Requires Level 3 \n Modifier Type: Spell \n Nearby infantry and heroes gain a 15% speed bonus and a 50% Experience bonus \n Stacks with Buffs, Leadership, and Spells \n Left click to activate
+Requires Level 3 \n Modifier Type: Spell \n Nearby infantry and heroes gain a 15% speed bonus, a 50% experience bonus and resistance to fear and terror\n Stacks with Buffs, Leadership, and Spells \n Left click to activate
 
 
 [CONTROLBAR:IsengardUglukHeadhunter]
-Headh&unter
+Headhunter (&T)
 
 
 [CONTROLBAR:ToolTipIsengardUglukHeadhunter]
@@ -57025,7 +57078,7 @@ Requires Level 5 \n Modifier Type: Spell \n Nearby Uruks temporarily gain +100% 
 
 
 [CONTROLBAR:IsengardUglukReinforcements]
-Reinforce&ments from Saruman
+Reinforcements from Saruman (&C)
 
 
 [CONTROLBAR:ToolTipIsengardUglukReinforcements]
@@ -57037,7 +57090,7 @@ Easterling Swordsman
 
 
 [CONTROLBAR:ConstructMordorEasterlingSwordsmanHorde]
-Easterling &Swordsmen
+Easterling Swordsmen (&D)
 
 
 [CONTROLBAR:ToolTipBuildMordorEasterlingSwordsmanHorde]
@@ -57045,7 +57098,7 @@ Requires Level 3 Encampment and He Is Gathering All Evil To Him upgrade\n Strong
 
 
 [OBJECT:HordeMordorEasterlingSwordsman]
-Easterling Swordsman
+Easterling Swordsmen
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingSwordsman]
@@ -57065,7 +57118,7 @@ Easterling Archers
 
 
 [CONTROLBAR:ConstructMordorEasterlingArcherHorde]
-Easterling &Archers
+Easterling Archers (&R)
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingArcherHorde]
@@ -57093,7 +57146,7 @@ Variags of Khand
 
 
 [CONTROLBAR:ConstructMordorVariagHorde]
-&Variags of Khand
+Variags of Khand (&W)
 
 
 [CONTROLBAR:LW_Unit_MordorVariagHorde]
@@ -57113,19 +57166,19 @@ Unit Type: Elite Infantry\nStrong vs. Pikemen\n
 
 
 [CONTROLBAR:TooltipDenethorPalantir]
-Requires Level 3 \n Can be cast to reveal shroud \n Can also be cast on allies and enemies, \n causing both to lose all leadership \n \n Modifier Type: Active Debuff \n Targeted units, both friend and foe, lose all leadership \n Does not stack with other Debuffs \n \n Left click on icon then left click on target area
+Can be cast to reveal shroud for 2 minutes\n \n Modifier Type: Active Debuff \n Targeted units, both friend and foe, lose all leadership \n Does not stack with other Debuffs \n \n Left click on icon then left click on target area
 
 
 [CONTROLBAR:DenethorPalantir]
-Stone of Anário&n
+Stone of Anárion (&R)
 
 
 [CONTROLBAR:DenethorSummon]
-In Servi&ce of the Steward
+In Service of the Steward (&C)
 
 
 [CONTROLBAR:ToolTipDenethorSummon]
-Requires Level 6 \n Summons a temporary battalion of Citadel Guards and Berethor \n Left click on icon to activate
+Requires Level 6 \n Summons a temporary battalion of Citadel Guards \n At level 10, also temporarily summons Berethor \n Left click on icon to activate
 
 
 [CONTROLBAR:ToolTipDenethorFailingRule]
@@ -57137,15 +57190,15 @@ His &Rule Is Failing
 
 
 [CONTROLBAR:ToolTipDenethorFavor]
-Grants forged blades and heavy armor to units in radius. \n Left click on icon then left click on target own units
+Requires Bulwark of the West upgrade \n Summons two battalions of Citadel Guards \n \n Left click icon then left click on target area
 
 
 [CONTROLBAR:DenethorFavor]
-Favor of the Ste&ward
+Stalwart Defence (&T)
 
 
 [CONTROLBAR:DenethorSteward]
-Ste&ward of Gondor
+Steward of Gondor
 
 
 [CONTROLBAR:ToolTipStewardLvl3]
@@ -57153,23 +57206,23 @@ Denethor is protected by his guards \n Allows Denethor to rank up \n Left click 
 
 
 [CONTROLBAR:ToolTipStewardLvl10]
-Denethor is protected by his guards \n\n Modifier Type: Leadership \n Rank 1: Allied units near Denethor gain +50% experience gain \n Faramir loses -15% armor and -15% experience gain \n Rank 3: Allied units near Denethor gain +33% armor \n Gandalf loses -15% armor and -15% experience gain \n Rank 6: Allied units near Denethor gain +33% damage \n Elessar loses -15% armor \n Stacks with Buffs and Spells \n Passive ability
+Denethor is protected by his guards \n\n Modifier Type: Leadership \n Rank 1: Allied units near Denethor gain +25% experience gain \n Faramir loses -15% armor and -15% experience gain \n Rank 3: Allied units near Denethor gain +33% armor \n Gandalf loses -15% armor and -15% experience gain \n Rank 6: Allied units near Denethor gain +33% damage \n Elessar loses -15% armor\nPassive ability
 
 
 [CONTROLBAR:DenethorHighAuthority]
-High Authorit&y
+High Authority (&T)
 
 
 [CONTROLBAR:ToolTipDenethorHighAuthority]
-Commands targeted enemy units to flee for their lives \n Left click on icon then left click on target units
+Requires Level 3 \n Commands targeted enemy units to flee for their lives \n Left click on icon then left click on target units
 
 
 [CONTROLBAR:DenethorContest]
-Contest of W&ills
+Contest of Wills (&V)
 
 
 [CONTROLBAR:ToolTipDenethorContest]
-Requires Level 10 \n When cast on a friendly hero, increases damage output at the cost of armor \n When cast on an enemy hero, causes the hero to temporarily be stunned and lose armor \n Left click on icon then left click on target hero
+Requires Level 10 \n When cast on a friendly hero, increases damage output by +100% at the cost of -50% armor \n When cast on an enemy hero, causes the hero to temporarily be stunned and lose -33% armor \n Left click on icon then left click on target hero
 
 
 [OBJECT:LossarnachAxeMan]
@@ -57193,7 +57246,7 @@ Revive the fallen Hero, Forlong
 
 
 [CONTROLBAR:GondorForlongHotkey]
-For&long
+Forlong (&E)
 
 
 [OBJECT:GondorGwaihir]
@@ -57206,6 +57259,10 @@ Dol Amroth Citadel
 
 [CONTROLBAR:SummonDolAmrothAllies]
 Dol Amroth Citadel
+
+
+[OBJECT:DolAmrothBarracks]
+Dol Amroth Barracks
 
 
 [CONTROLBAR:SummonEagleAlliesGondor]
@@ -57237,7 +57294,7 @@ Sworn Allegiance
 
 
 [CONTROLBAR:TooltipSwornAllegiance]
-Can be cast on a barracks or an archery range to temporarily decrease recruitment time for Fiefdom troops \n The troops come equipped with Armaments of the White City \n Left click on icon then left click on target building
+Can be cast on a barracks or an archery range to temporarily decrease recruitment time for Fiefdom troops by 10 seconds \n The troops come equipped with Armaments of the White City \n Effect lasts for 60 seconds \n Left click on icon then left click on target building
 
 
 [CONTROLBAR:TooltipSummonDolAmrothAllies]
@@ -57269,7 +57326,7 @@ Recruit the King of Goblin-town \n \n 'Abominations, disfigurations, mutilations
 
 
 [CONTROLBAR:WildGreatGoblinRevive]
-Revive the Great Goblin, the leader of Goblin Town
+Revive the Great Goblin, the leader of Goblin-town
 
 
 [CONTROLBAR:WildGreatGoblinHotkey]
@@ -57376,7 +57433,7 @@ Summons two Wraiths on Wings to the battlefield \n Left click on icon then left 
 
 
 [CONTROLBAR:TooltipSummonHaradrimRaiders]
-Summon three battalions of Haradrim Raiders to the battlefield \n Once used, passively unlocks the Mûmakil Pen, Easterling Kataphrakts, and Easterling Swordsmen \n Left click on icon then left click on target area
+Summon three battalions of Haradrim Raiders to the battlefield \n Once used, passively unlocks Easterling Kataphrakts and Easterling Swordsmen \n Left click on icon then left click on target area
 
 
 [OBJECT:SummonedFellBeast]
@@ -57388,11 +57445,11 @@ Dol Guldur Dungeon
 
 
 [CONTROLBAR:WitchkingMount]
-&Mount / Dismount
+Mount / Dismount (&W)
 
 
 [CONTROLBAR:WitchkingDisMount]
-&Mount / Dismount
+Mount / Dismount (&W)
 
 
 [OBJECT:MordorUvatha]
