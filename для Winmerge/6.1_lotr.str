@@ -65340,7 +65340,7 @@ Level 2: +10% Faster Build Speed \n Level 3: +25% Faster Build Speed
 
 
 [CONTROLBAR:ConstructGuldurSpiderLair]
-Summon Spider &Lair
+Summon Spider Lair (&V)
 
 
 [CONTROLBAR:ToolTipConstructGuldurSpiderLair]
@@ -65356,7 +65356,7 @@ Matriarch
 
 
 [CONTROLBAR:ConstructGuldurFellBroodHorde]
-&Fell Brood
+Fell Brood (&W)
 
 
 [CONTROLBAR:ToolTipBuildGuldurFellBroodHorde]
@@ -65364,7 +65364,7 @@ Strong vs. Infantry\nMay trample enemy units \n\n A horde of large Mirkwood spid
 
 
 [CONTROLBAR:FellBroodShriek]
-Shrie&k
+Shriek (&T)
 
 
 [CONTROLBAR:TooltipFellBroodShriek]
@@ -65372,7 +65372,7 @@ Requires Level 2\nNearby enemy cavalry are terrified\nAlso passively decreases c
 
 
 [CONTROLBAR:ConstructGuldurGreatSpider]
-Saenath&ra's Sister
+Saenathra's Sister (&E)
 
 
 [CONTROLBAR:ToolTipBuildGuldurGreatSpider]
@@ -65384,7 +65384,7 @@ Saenathra's Sister
 
 
 [CONTROLBAR:SpecialAbilityGreatSpiderTunnel]
-Burro&w
+Burrow (&R)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityGreatSpiderTunnel]
@@ -65392,7 +65392,7 @@ Requires level 2 \n Allows the Spider to tunnel under the ground and emerge at a
 
 
 [CONTROLBAR:EncasingWebs]
-E&ncasing Webs
+Encasing Webs (&T)
 
 
 [CONTROLBAR:ToolTipEncasingWebs]
@@ -65400,11 +65400,11 @@ Requires Level 3\nDisables enemy structures and deals minor damage over time\n L
 
 
 [CONTROLBAR:ConstructGuldurSpiderLairLevel2Upgrade]
-&Upgrade Spider Lair to Level 2
+Upgrade Spider Lair to Level 2 (&A)
 
 
 [CONTROLBAR:ConstructGuldurSpiderLairLevel3Upgrade]
-&Upgrade Spider Lair to Level 3
+Upgrade Spider Lair to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildGuldurSpiderLairLevel2Upgrade]
@@ -65420,7 +65420,7 @@ Restless Barrow
 
 
 [CONTROLBAR:ConstructGuldurRestlessBarrow]
-Summon Restless Barro&w
+Summon Restless Barrow (&M)
 
 
 [CONTROLBAR:ToolTipConstructGuldurRestlessBarrow]
@@ -65432,7 +65432,7 @@ Restless Warrior
 
 
 [CONTROLBAR:ConstructGuldurSorceryTower]
-Summon Spire of Sorcer&y
+Summon Spire of Sorcery (&N)
 
 
 [CONTROLBAR:ToolTipConstructGuldurSorceryTower]
@@ -65444,7 +65444,7 @@ Trains specialist units\nDamage nearby enemies and turns them into wraiths upon 
 
 
 [CONTROLBAR:HarbingerDeepRot]
-Deep &Rot
+Deep Rot (&W)
 
 
 [CONTROLBAR:ToolTipHarbingerDeepRot]
@@ -65460,7 +65460,7 @@ Requires Level 2\nThe Harbingers' attacks passively decrease armor by 5%\nand mo
 
 
 [CONTROLBAR:HarbingerWitheringTouch]
-&Withering Touch
+Withering Touch (&T)
 
 
 [CONTROLBAR:ToolTipHarbingerWitheringTouch]
@@ -65480,7 +65480,7 @@ Orc Catapult Expansion
 
 
 [CONTROLBAR:ConstructGuldurBoneyardExpansion]
-Bone&yard Expansion
+Boneyard Expansion (&E)
 
 
 [CONTROLBAR:ToolTipConstructGuldurBoneyardExpansion]
@@ -65496,7 +65496,7 @@ Nearby enemies suffer -25% damage and -20% armor \n Causes enemy units to flee i
 
 
 [CONTROLBAR:ConstructGuldurStatueExpansion]
-&Forlorn Statue Expansion
+Forlorn Statue Expansion (&R)
 
 
 [CONTROLBAR:ToolTipConstructGuldurStatueExpansion]
@@ -65504,7 +65504,7 @@ Nearby enemies suffer -25% damage and -20% armor \n Causes enemy units to flee i
 
 
 [CONTROLBAR:PurchaseGuldurRestlessBones]
-Purchase &Restless Bones Upgrade
+Purchase Restless Bones Upgrade (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseGuldurRestlessBones]
@@ -65512,7 +65512,7 @@ Allows the Forlorn Statue to summon a horde\nof skeletal warriors
 
 
 [CONTROLBAR:GuldurRestlessBones]
-&Restless Bones
+Restless Bones (&W)
 
 
 [CONTROLBAR:ToolTipGuldurRestlessBones]
@@ -65524,7 +65524,7 @@ Restless Bones Upgrade
 
 
 [CONTROLBAR:ConstructGuldurBarricadeExpansion]
-&Unquiet Ruin Expansion
+Unquiet Ruin Expansion (&W)
 
 
 [CONTROLBAR:ToolTipConstructGuldurBarricadeExpansion]
@@ -65540,7 +65540,7 @@ Long range defensive weapon
 
 
 [CONTROLBAR:PurchaseUpgradeGuldurFortressBatCloud]
-Swa&rm of Bats
+Swarm of Bats (&W)
 
 
 [Upgrade:GuldurFortressBatCloud]
@@ -65548,7 +65548,7 @@ Swarm of Bats
 
 
 [CONTROLBAR:PurchaseUpgradeGuldurFortressFireArrows]
-Pale &Torches
+Pale Torches (&E)
 
 
 [Upgrade:GuldurFortressFireArrows]
@@ -65560,7 +65560,7 @@ Adds fire damage to Fortress and all attached Unquiet Ruins
 
 
 [CONTROLBAR:PurchaseUpgradeGuldurFortressBlight]
-B&light
+Blight (&S)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGuldurFortressBlight]
@@ -65572,7 +65572,7 @@ Blight
 
 
 [CONTROLBAR:PurchaseUpgradeGuldurFortressEncroachment]
-Dark &Encroachment
+Dark Encroachment (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGuldurFortressEncroachment]
@@ -65580,7 +65580,7 @@ Permanently reduces all structure costs by 33%
 
 
 [CONTROLBAR:GuldurFortressEncroachment]
-Dark &Encroachment
+Dark Encroachment (&T)
 
 
 [CONTROLBAR:ToolTipGuldurFortressEncroachment]
@@ -65592,7 +65592,7 @@ Dark Encroachment
 
 
 [CONTROLBAR:PurchaseUpgradeGuldurFortressPalantir]
-Guldur &Palantir
+Guldur Palantir (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGuldurFortressPalantir]
@@ -65604,7 +65604,7 @@ Guldur Palantir
 
 
 [CONTROLBAR:GuldurPalantir]
-Guldur &Palantir
+Guldur Palantir (&T)
 
 
 [CONTROLBAR:ToolTipGuldurPalantir]
@@ -65612,7 +65612,7 @@ Requires the Guldur Palantir upgrade\nCan be cast to reveal part of the map\nEne
 
 
 [CONTROLBAR:PurchaseUpgradeGuldurFortressSorcery]
-Hill of &Sorcery
+Hill of Sorcery (&D)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGuldurFortressSorcery]
@@ -65632,7 +65632,7 @@ Requires the Hill of Sorcery upgrade \n Castable, destructive spell that sunders
 
 
 [CONTROLBAR:GuldurEnsnare]
-Ens&nare
+Ensnare (&S)
 
 
 [CONTROLBAR:TooltipGuldurEnsnare]
@@ -65657,19 +65657,19 @@ Revive the fallen hero, Thráin
 
 
 [CONTROLBAR:GuldurThrainHotKey]
-&Thráin the Broken
+Thráin the Broken (&W)
 
 
 [CONTROLBAR:ThrainDiminished]
-Diminished
+Diminished (&W)
 
 
 [CONTROLBAR:TooltipThrainDiminished]
-Thráin is but a thin shadow of his former self, and is able to skulk about unnoticed\nPassive ability
+Thráin is but a thin shadow of his former self,\nand is able to skulk about unnoticed\nWhen activated, Thráin becomes stealthed and can neither attack nor be attacked for 30 seconds\nPassive ability
 
 
 [CONTROLBAR:ThrainLeadership]
-Dark Memories
+Dark Memories (&R)
 
 
 [CONTROLBAR:ToolTipThrainLeadership]
@@ -65698,11 +65698,15 @@ Revive the fallen hero, Krimpûl
 
 
 [CONTROLBAR:GuldurKrimpulHotKey]
-Krimpûl the Tort&urer
+Krimpûl the Torturer (&E)
 
 
 [CONTROLBAR:KrimpulOrcSummon]
-Or&cish Chief
+Orcish Chief (&W)
+
+
+[CONTROLBAR:KrimpulOrcSummonNoShortcut]
+Orcish Chief
 
 
 [CONTROLBAR:ToolTipKrimpulOrcSummon]
@@ -65718,7 +65722,7 @@ Krimpûl has been tasked with retrieving the Rings of Power\nDeals +33% additiona
 
 
 [CONTROLBAR:KrimpulGaol]
-Dungeon &Master
+Dungeon Master (&T)
 
 
 [CONTROLBAR:ToolTipKrimpulGaol]
@@ -65734,7 +65738,7 @@ Casts Dark Presence
 
 
 [CONTROLBAR:KrimpulCripple]
-&Imprison
+Imprison (&C)
 
 
 [CONTROLBAR:ToolTipKrimpulCripple]
@@ -65755,11 +65759,11 @@ Revive the fallen hero, Cargást
 
 
 [CONTROLBAR:GuldurCargastHotkey]
-Car&gást
+Cargást (&R)
 
 
 [CONTROLBAR:CargastBarrowLord]
-Barro&w-lord
+Barrow-lord (&W)
 
 
 [CONTROLBAR:ToolTipCargastBarrowLord]
@@ -65771,11 +65775,11 @@ March of the Dead
 
 
 [CONTROLBAR:ToolTipCargastLeadership]
-Requires Level 3\nNearby friendly Undead gain +15% movement speed and +33% experience gain\nPassive ability
+Requires Level 3\nCargást and nearby Risen Dead, Orc Ravagers, Tomb Guards, Unburied Wights and Harbingers of Shadow gain +15% movement speed\n Risen Dead, Orc Ravagers, Tomb Guards, Unburied Wights and Harbingers of Shadow gain +33% experience gain\nPassive ability
 
 
 [CONTROLBAR:CargastCursedTreasure]
-&Cursed Treasure
+Cursed Treasure (&T)
 
 
 [CONTROLBAR:ToolTipCargastCursedTreasure]
@@ -65783,7 +65787,7 @@ Requires Level 5\nTarget structure earns more resources but all nearby units\nha
 
 
 [CONTROLBAR:CargastSpell]
-S&pell of the Barrows
+Spell of the Barrows (&C)
 
 
 [CONTROLBAR:ToolTipCargastSpell]
@@ -65791,11 +65795,11 @@ Requires Level 7\nTarget enemies flee in terror\nAny Risen Dead in the target ar
 
 
 [CONTROLBAR:CargastDarkAwakening]
-Dar&k Awakening
+Dark Awakening (&V)
 
 
 [CONTROLBAR:ToolTipCargastDarkAwakening]
-Requires Level 10\nCargást slowly but continually summons temporary,\nsingle Restless Warriors from the earth\nbut can't move or attack\nLeft click to activate and desactivate
+Requires Level 10\nCargást slowly but continually summons temporary,\nsingle Restless Warriors from the earth\nbut can't move or attack\nLeft click to activate and deactivate
 
 
 [OBJECT:GuldurSaenathra]
@@ -65811,11 +65815,11 @@ Revive the fallen hero, Saenathra
 
 
 [CONTROLBAR:GuldurSaenathraHotKey]
-Queen &Saenathra
+Queen Saenathra (&T)
 
 
 [CONTROLBAR:SpecialAbilityGuldurSaenathraTunnel]
-B&urrow
+Burrow (&W)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityGuldurSaenathraTunnel]
@@ -65823,7 +65827,7 @@ Requires Level 2\nAllows Saenathra to tunnel under the ground and emerge at any 
 
 
 [CONTROLBAR:GuldurSaenathraFeast]
-Feas&t, My Children!
+Feast, My Children! (&R)
 
 
 [CONTROLBAR:ToolTipGuldurSaenathraFeast]
@@ -65831,7 +65835,7 @@ Requires Level 3\nEnemy units within the radius are slowed and take \n increased
 
 
 [CONTROLBAR:GuldurSaenathraWebOfLies]
-&Web of Lies
+Web of Lies (&T)
 
 
 [CONTROLBAR:ToolTipGuldurSaenathraWebOfLies]
@@ -65839,7 +65843,7 @@ Requires Level 5 \n Causes targeted units to become hostile towards each other \
 
 
 [CONTROLBAR:GuldurSaenathraEndlessHunger]
-E&ndless Hunger
+Endless Hunger (&C)
 
 
 [CONTROLBAR:TooltipGuldurSaenathraEndlessHunger]
@@ -65848,7 +65852,7 @@ Requires Level 8\nLike Ungoliant, Saenathra possesses an insatiable hunger\nfor 
 
 
 [CONTROLBAR:BlackEasterling]
-The Black &Easterling
+The Black Easterling (&V)
 
 
 [CONTROLBAR:ToolTipBlackEasterling]
@@ -65869,11 +65873,11 @@ Revive the fallen Necromancer
 
 
 [CONTROLBAR:NecromancerHotkey]
-The &Necromancer
+The Necromancer (&D)
 
 
 [CONTROLBAR:NecromancerWolvesSummon]
-Lo&rd of Wolves
+Lord of Wolves (&R)
 
 
 [CONTROLBAR:ToolTipNecromancerWolvesSummon]
@@ -65885,7 +65889,7 @@ Black Warg
 
 
 [CONTROLBAR:GuldurWargLunge]
-L&unge
+Lunge (&W)
 
 
 [CONTROLBAR:ToolTipGuldurWargLunge]
@@ -65893,7 +65897,7 @@ Deals strong damage to selected enemy and causes temporary bleeding \n The warg 
 
 
 [CONTROLBAR:NecromancerRingwraithSummon]
-Maste&r of the Nine
+Master of the Nine (&R)
 
 
 [CONTROLBAR:ToolTipNecromancerRingwraithSummon]
@@ -65901,7 +65905,7 @@ Summons a Ringwraith\nA maximum of three may be out at any time\nLeft click to a
 
 
 [CONTROLBAR:SauronRingwraithSummon]
-His Deadliest Ser&vants
+His Deadliest Servants (&V)
 
 
 [CONTROLBAR:ToolTipSauronRingwraithSummon]
@@ -65937,7 +65941,7 @@ Requires Level 5\nThe Necromancer becomes incorporeal, allowing him to move quic
 
 
 [CONTROLBAR:NecromancerWreathed]
-&Wreathed in Flame
+Wreathed in Flame (&V)
 
 
 [CONTROLBAR:ToolTipNecromancerWreathed]
@@ -65953,15 +65957,15 @@ Gwanthaur
 
 
 [CONTROLBAR:GwanthaurSacrifice]
-Sa&crifice
+Sacrifice (&R)
 
 
 [CONTROLBAR:ToolTipGwanthaurSacrifice]
-The Gwanthaur can target a friendly unit to devour them and regain some health\nLeft click icon then left click on target
+The Gwanthaur can target a friendly unit to devour them and regain 50% health\nLeft click icon then left click on target
 
 
 [CONTROLBAR:GwanthaurExpulsion]
-Ex&pulsion
+Expulsion (&C)
 
 
 [CONTROLBAR:ToolTipGwanthaurExpulsion]
@@ -66065,7 +66069,7 @@ Armor of nearby enemies is reduced by 15%\nPassive ability
 
 
 [CONTROLBAR:ToxicBile]
-&Toxic Bile
+Toxic Bile (&R)
 
 
 [CONTROLBAR:ToolTipToxicBile]
@@ -66073,7 +66077,7 @@ The Undead Monstrosity spews out a load of toxic bile\nwithin the selected radiu
 
 
 [CONTROLBAR:UndeadTrollHooked]
-Hoo&ked!
+Hooked! (&T)
 
 
 [CONTROLBAR:ToolTipUndeadTrollHooked]
@@ -66117,11 +66121,11 @@ Summons a corrupted, ancient spirit of the forest under your control \n Left cli
 
 
 [CONTROLBAR:RefreshSlaves]
-&Refresh Slaves
+Refresh Slaves (&E)
 
 
 [CONTROLBAR:ToolTipRefreshSlaves]
-Requires Level 2\nSpawns a horde of Broken Rabble at the cost of production\nfor 60 seconds
+Requires Level 2\nPermanently summons a horde of Broken Rabble\nRespects command point limit\nSlave Mill's resource production is paused for 60 seconds\nLeft click to activate
 
 
 [OBJECT:GuldurPorter]
@@ -66129,7 +66133,7 @@ Tethered Shade
 
 
 [CONTROLBAR:ConstructGuldurPorter]
-Tethered Sha&de
+Tethered Shade (&W)
 
 
 [CONTROLBAR:ToolTipConstructGuldurPorter]
@@ -66426,7 +66430,7 @@ Revive the fallen Hero, Gorbag
 
 
 [CONTROLBAR:MordorGorbagHotkey]
-Go&rbag
+Gorbag (&W)
 
 
 [OBJECT:MordorShagrat]
@@ -66720,7 +66724,7 @@ Builds a small Umbarian Ballista on the platform
 
 
 [CONTROLBAR:PurchaseUpgradeSentryTowerHiddenSentry]
-Hidden Sentr&y
+Hidden Sentry (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerHiddenSentry]
@@ -66744,7 +66748,7 @@ Requires Level 2 \n Men-at-Arms and nearby Fiefdom troops gain\n+25% damage and 
 
 
 [CONTROLBAR:BlackUrukDespoiler]
-Despo&iler
+Despoiler (&T)
 
 
 [CONTROLBAR:ToolTipBlackUrukDespoiler]
@@ -66752,7 +66756,7 @@ Requires Level 3\nBlack Uruk Marauders temporarily gain +25% damage against stru
 
 
 [CONTROLBAR:BlackUrukBrawl]
-Bra&wl
+Brawl (&W)
 
 
 [CONTROLBAR:ToolTipBlackUrukBrawl]
@@ -66760,11 +66764,11 @@ Requires Shagrat\nOrder this unit to kill friendly Orcs\nor Legions of Morgul to
 
 
 [CONTROLBAR:ToolTipBlackUrukBrawl_Inn]
-Order this unit to kill friendly Moria Orcs\nor Goblin Town Warriors to gain combat experience \nLeft click icon then left click on target
+Order this unit to kill friendly Moria Orcs\nor Goblin-town Warriors to gain combat experience \nLeft click icon then left click on target
 
 
 [CONTROLBAR:UrukScoutHuntingArrows]
-Hunt&ing Arrows
+Hunting Arrows (&T)
 
 
 [CONTROLBAR:ToolTipUrukScoutHuntingArrows]
@@ -66784,7 +66788,7 @@ Revive the fallen hero, Galion
 
 
 [CONTROLBAR:MirkwoodGalionHotkey]
-&Galion
+Galion (&E)
 
 
 [CONTROLBAR:MasterofWines]
@@ -66796,7 +66800,7 @@ When near Vineyards and Wells of Wine, Galion gains +33% Damage\nPassive ability
 
 
 [CONTROLBAR:GalionMiruvor]
-&Miruvor
+Miruvor (&R)
 
 
 [CONTROLBAR:ToolTipGalionMiruvor]
@@ -66804,7 +66808,7 @@ Moderately heals friendly units nearby Galion\n Heals by a larger amount at leve
 
 
 [CONTROLBAR:GalionDorwinionRed]
-Dor&winion Red
+Dorwinion Red (&T)
 
 
 [CONTROLBAR:ToolTipGalionDorwinionRed]
@@ -66812,11 +66816,11 @@ Requires Level 3 \n Friendly units within the radius temporarily gain +75% armor
 
 
 [CONTROLBAR:GalionBadBatch]
-Bad Ba&tch
+Bad Batch (&C)
 
 
 [CONTROLBAR:ToolTipGalionBadBatch]
-Requires Level 7 \n Causes targeted units to become hostile towards each other \n Left click icon then left click on target area
+Requires Level 7 \n Causes targeted units to become hostile towards each other for 15 seconds\n Left click icon then left click on target area
 
 
 [OBJECT:MirkwoodFeren]
@@ -66832,11 +66836,11 @@ Revive the fallen hero, Feren
 
 
 [CONTROLBAR:MirkwoodFerenHotkey]
-&Feren
+Feren (&R)
 
 
 [CONTROLBAR:FerenShieldBash]
-Sh&ield Bash
+Shield Bash (&W)
 
 
 [CONTROLBAR:ToolTipFerenShieldBash]
@@ -66844,15 +66848,15 @@ Powerful attack that knocks back enemy units\nAt rank 5, radius and damage are i
 
 
 [CONTROLBAR:FerenSoundAlarm]
-So&und the Alarm!
+Sound the Alarm! (&T)
 
 
 [CONTROLBAR:ToolTipFerenSoundAlarm]
-Requires Level 3\nFeren blows his horn\nCan be cast on a structure to temporarily decrease recruitment time,\n on friendly units to temporarily increase movement speed by 25%,\nor on enemy units to temporarily decrease movement speed by 25%\nLeft click icon then left click on target
+Requires Level 3\nFeren blows his horn\nCan be cast on a structure to temporarily decrease recruitment time,\n on friendly units to temporarily increase movement speed by 25%,\nor on enemy units to temporarily decrease movement speed by 25%\nCannot be cast on Beorning Lodge\nLeft click icon then left click on target
 
 
 [CONTROLBAR:FerenBanishment]
-Ba&nishment
+Banishment (&C)
 
 
 [CONTROLBAR:ToolTipFerenBanishment]
