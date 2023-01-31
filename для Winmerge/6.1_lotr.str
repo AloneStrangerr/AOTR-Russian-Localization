@@ -57945,11 +57945,11 @@ Requires Level 3 \n Passively deals +200% Damage against Nazgûl
 
 
 [CONTROLBAR:Trollbane]
-Troll-ba&ne
+Troll-bane (&V)
 
 
 [CONTROLBAR:TooltipTrollbane]
-Requires Level 10 \n Pippin briefly gains +150% armor and deals +250% damage against Monsters
+Requires Level 10 \n Pippin gains +150% armor and deals +250% damage against Monsters for 20 seconds
 
 
 [CONTROLBAR:Intimidation]
@@ -57997,11 +57997,11 @@ Revive the fallen Hero, Beregond
 
 
 [CONTROLBAR:GondorBeregondHotkey]
-Beregon&d
+Beregond (&R)
 
 
 [CONTROLBAR:ToggleBeregondWeapons]
-&Toggle Weapon
+Toggle Weapon (&W)
 
 
 [CONTROLBAR:ToolTipToggleBeregondWeapons]
@@ -58029,11 +58029,11 @@ Defender of the White C&ity
 
 
 [CONTROLBAR:DefenderoftheWhiteCityB]
-Defender of the &White City (Bow)
+Defender of the White City (Bow) (&R)
 
 
 [CONTROLBAR:DefenderoftheWhiteCityS]
-Defender of the &White City (Spear)
+Defender of the White City (Spear) (&R)
 
 
 [CONTROLBAR:ToolTipDefenderoftheWhiteCityB]
@@ -58045,11 +58045,11 @@ Requires Level 2 \n Heavy melee attack that causes severe damage and does knockb
 
 
 [CONTROLBAR:BeregondSacrifice]
-Sa&crifice
+Sacrifice (&V)
 
 
 [CONTROLBAR:ToolTipBeregondSacrifice]
-Requires Level 8 \n Modifier Type: Spell \n Beregond suffers heavy damage while targeted allied hero temporarily becomes immune to damage\n Left click icon then left click on target hero
+Requires Level 8 \n Modifier Type: Spell \n Beregond suffers heavy damage while targeted allied hero becomes immune to damage for 10 seconds\n Left click icon then left click on target hero
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingEasterlingHorde]
@@ -58089,7 +58089,7 @@ Easterling Archer - Easterling Swordsmen Hordes
 
 
 [CONTROLBAR:FuryofKhand]
-Fu&ry of Khand
+Fury of Khand (&W)
 
 
 [CONTROLBAR:ToolTipFuryofKhand]
@@ -58101,7 +58101,7 @@ Rabbit Stew
 
 
 [CONTROLBAR:StewPot]
-Rabbit Ste&w
+Rabbit Stew (&V)
 
 
 [CONTROLBAR:ToolTipStewPot]
@@ -58133,7 +58133,7 @@ Dead of Arnor
 
 
 [CONTROLBAR:ConstructWildRisenDeadHorde]
-Dead of &Arnor
+Dead of Arnor (&W)
 
 
 [CONTROLBAR:ToolTipBuildWildRisenDeadHorde]
@@ -58141,7 +58141,7 @@ Fell spirits have long haunted the ruined castles of ancient Angmar. When the Wi
 
 
 [CONTROLBAR:MOSLieutenant]
-&Lieutenant of Barad-dûr
+Lieutenant of Barad-dûr (&C)
 
 
 [CONTROLBAR:ToolTipMOSLieutenant]
@@ -58149,15 +58149,15 @@ Requires Level 8 \n Fully refreshes allied hero special ability timers \n Slight
 
 
 [CONTROLBAR:MOSAmbassador]
-Ambassado&r
+Ambassador (&T)
 
 
 [CONTROLBAR:ToolTipMOSAmbassador]
-Requires Level 5 \n The Mouth of Sauron temporarily becomes immune to damage and is resistant to knockback \n Left click to activate
+Requires Level 5 \n The Mouth of Sauron temporarily gains 300% armor and is resistant to knockback \n Left click to activate
 
 
 [CONTROLBAR:BodyguardBoom]
-Skull &Throw
+Skull Throw (&R)
 
 
 [CONTROLBAR:ToolTipBodyGuardBoom]
@@ -58165,18 +58165,18 @@ Requires Level 3 \nPowerful ranged attack with radius damage \n Left click icon 
 
 
 [CONTROLBAR:BodyguardDeathWish]
-Dark Resol&ve
+Dark Resolve (&T)
 
 
 [CONTROLBAR:ToolTipBodyguardDeathWish]
-Requires Level 7 \n Horrors of Gram temporarily gain\n+150% damage, -25% armor\n Left click to activate
+Requires Level 7 \n Bolg's Bodyguard temporarily gain\n+150% damage, -25% armor\n Left click to activate
 
 
 [CONTROLBAR:SarumanThunderBolt]
-Redhorn's Wra&th
+Redhorn's Wrath (&C)
 
 [CONTROLBAR:SarumanThunderBoltFort]
-Lightning S&trike
+Lightning Strike (&D)
 
 [CONTROLBAR:ToolTipSarumanThunderBolt]
 Requires Level 7 \n Strikes a powerful lightning bolt against targeted enemies\nLeft click icon then left click on target
@@ -58185,21 +58185,44 @@ Requires Level 7 \n Strikes a powerful lightning bolt against targeted enemies\n
 Requires the White Council Observatory upgrade\n\n Before his fall, Saruman the White employed his considerable skill at magic to the benefit of the Free Peoples of Middle-earth.\n\nStrikes a powerful lightning bolt against targeted enemies\nLeft click icon then left click on target
 
 [CONTROLBAR:PurchaseUpgradeRivendellFortEagle]
-&Aiwendil, Bird-Friend
+Aiwendil, Bird-Friend (&F)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRivendellFortEagle]
 Requires the White Council Observatory upgrade\n\nRadagast the Brown, also known as Aiwendil, 'lover of birds', maintained great friendship with Gwaihir's folk.\n\n Allows the Conservatory to summon a Giant Eagle
 
 [CONTROLBAR:SarumanDominate]
-Voice of Curu&nír
+Voice of Curunír (&V)
+
+[CONTROLBAR:SarumanDominateRing]
+The Ruling Ring (&V)
 
 [CONTROLBAR:SarumanWizardBlast]
-&Lord of Orthanc
+Lord of Orthanc (&W)
 
 [CONTROLBAR:ToolTipSarumanWizardBlast]
-Close range attack that blasts back enemies \n Left click icon then left click on target \n \n Modifier Type: Leadership \n Allies near Saruman gain immunity to magic and elemental damage, earn experience 100% faster and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Passive ability
+Close range attack that blasts back enemies \n Left click icon then left click on target \n \n Modifier Type: Leadership \n Allies near Saruman gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Passive ability
 
+[CONTROLBAR:SpecialAbilitySarumanImprovedBlast]
+Saruman of Many Colours (&W)
+
+[CONTROLBAR:ToolTipSpecialAbilitySarumanImprovedBlast]
+Allows Saruman to attack from great range \n Can be used to crush enemy units \nLeft click icon then left click on target area \n \n Modifier Type: Leadership Nearby units gain +50% damage, +50% armor, increased experience gain, and fear immunity. At rank 5, nearby furnaces gain +50% resources \n Nearby enemies are terrified \n Passive ability
+
+[CONTROLBAR:SarumanRuinousWrath]
+Ruinous Wrath (&R)
+
+[CONTROLBAR:ToolTipSarumanRuinousWrath]
+Requires Level 3\nFlame erupts from the ground beneath the targeted enemies\nLeft click icon then left click on target area
+
+[CONTROLBAR:SarumanStormofOrthanc]
+Storm of Orthanc (&C)
+
+[CONTROLBAR:ToolTipSarumanStormOfOrthanc]
+Requires Level 7\nSummons a moveable cloud that shoots lightning, enemies below are slowed\nLeft click icon then left click on target area
+
+[OBJECT:IsengardStormOfOrthanc]
+Storm of Orthanc
 
 
 
