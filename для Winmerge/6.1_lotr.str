@@ -67016,11 +67016,11 @@ Revive the fallen hero, Radagast
 
 
 [CONTROLBAR:MirkwoodRadagastHotkey]
-&Radagast
+Radagast (&T)
 
 
 [CONTROLBAR:RadagastUnseen]
-&Master of Hues and Shapes
+Master of Hues and Shapes (&W)
 
 
 [CONTROLBAR:ToolTipRadagastUnseen]
@@ -67028,7 +67028,7 @@ Radagast is invisible while standing still\nPassive ability\n\nAllows all target
 
 
 [CONTROLBAR:RadagastAiwendil]
-A&iwendil
+Aiwendil (&R)
 
 
 [CONTROLBAR:ToolTipRadagastAiwendil]
@@ -67036,7 +67036,7 @@ Nearby Woodmen and Beorning units gain +75% experience\nPassive ability\n\nTarge
 
 
 [CONTROLBAR:RadagastGuardian]
-Faithf&ul Guardian
+Faithful Guardian (&T)
 
 
 [CONTROLBAR:ToolTipRivendellRadagastGuardian]
@@ -67044,7 +67044,7 @@ Requires Level 3\nRadagast slams his staff into the soil,\nstunning enemies befo
 
 
 [CONTROLBAR:RadagastTransform]
-A Very Great &Wizard
+A Very Great Wizard (&V)
 
 
 [CONTROLBAR:ToolTipRadagastTransform]
@@ -67064,7 +67064,7 @@ Revive the fallen hero, Tauriel
 
 
 [CONTROLBAR:MirkwoodTaurielHotkey]
-T&auriel
+Tauriel (&W)
 
 
 [CONTROLBAR:TaurielLeadership]
@@ -67084,11 +67084,11 @@ Requires Level 3 \n Tauriel calls a group of stationary Taurdrim to defend targe
 
 
 [CONTROLBAR:TaurielDecisiveStrike]
-&Close Quarter Combat
+Close Quarter Combat (&C)
 
 
 [CONTROLBAR:TaurielEscape]
-Daugh&ter of the Forest
+Daughter of the Forest (&V)
 
 
 [CONTROLBAR:TooltipTaurielEscape]
@@ -67100,7 +67100,7 @@ Requires Level 5\nTauriel temporarily uses her twin daggers\nIncreases attack da
 
 
 [CONTROLBAR:TaurielFleetFooted]
-F&leet-footed
+Fleet-footed (&T)
 
 
 [CONTROLBAR:ToolTipTaurielFleetFooted]
@@ -67108,7 +67108,7 @@ Requires Level 4 \n Modifier Type: Spell \n Nearby infantry gains +20% movement 
 
 
 [CONTROLBAR:LegolasDwarfFriend]
-D&warf-friend
+Dwarf-friend (&V)
 
 
 [CONTROLBAR:TooltipLegolasDwarfFriend]
@@ -67116,7 +67116,7 @@ Requires Level 10\nSummons Gimli son of Glóin to the battlefield\nLeft click to 
 
 
 [CONTROLBAR:NoneMayEnter]
-None Ma&y Enter
+None May Enter (&T)
 
 
 [CONTROLBAR:ToolTipNoneMayEnter]
@@ -67124,7 +67124,7 @@ Requires Level 4\n Targeted terrain becomes hostile to enemy units\nWhen passed 
 
 
 [CONTROLBAR:MemoryOfMordor]
-&Memory Of Mordor
+Memory Of Mordor (&V)
 
 
 [CONTROLBAR:ToolTipMemoryOfMordor]
@@ -67155,15 +67155,15 @@ Modifier Type: Leadership\nAllies near Frumgar gain +33% damage, +33% armor, ear
 
 
 [CONTROLBAR:OrcWarVeteran]
-Orc &War Veteran
+Orc War Veteran (&R)
 
 
 [CONTROLBAR:ToolTipOrcWarVeteran]
-Frumgar tells of the day he slew Muzgash \n Targeted units gain experience \n Left click icon then left click on target units
+Frumgar tells of the day he slew Mûzgash \n Targeted units gain experience \n Left click icon then left click on target units
 
 
 [CONTROLBAR:FeatofLegends]
-Feat of &Legends
+Feat of Legends (&T)
 
 
 
@@ -67192,11 +67192,11 @@ A Sign of Good Fortune
 
 
 [CONTROLBAR:ToolTipSGoodFortune]
-Nearby friendly units gain +300% armor and resistance to fear and terror
+Modifier Type: Spell \n Nearby friendly units gain +300% armor and resistance to fear and terror \n Stacks with Leaderships and Buffs \n Passive ability
 
 
 [CONTROLBAR:FeyWisdom]
-Fey &Wisdom
+Fey Wisdom (&T)
 
 
 [CONTROLBAR:ToolTipFeyWisdom]
@@ -67205,7 +67205,7 @@ For 1 minute, nearby units and heroes gain 300% experience gain and immunity to 
 
 
 [CONTROLBAR:ConstructMirkwoodHuntingLodge]
-Build Hunting Sh&rine
+Build Hunting Shrine (&W)
 
 
 [CONTROLBAR:ToolTipMirkwoodHuntingLodge]
@@ -67221,7 +67221,7 @@ Generates game as a resource based on available terrain \n Allows training of Fe
 
 
 [CONTROLBAR:ConstructMirkwoodVineyard]
-Build Greenwood &Vineyard
+Build Greenwood Vineyard (&R)
 
 
 [OBJECT:MirkwoodVineyard]
@@ -67237,7 +67237,7 @@ Generates wine as a resource based on available terrain \n Reduces cost of Green
 
 
 [CONTROLBAR:ConstructMirkwoodTrainingGrounds]
-Build Silvan Clearin&g
+Build Silvan Clearing (&T)
 
 
 [CONTROLBAR:ToolTipConstructMirkwoodTrainingGrounds]
@@ -67253,23 +67253,23 @@ Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
 
 
 [CONTROLBAR:ConstructMirkwoodTrainingGrounds2Upgrade]
-&Upgrade Silvan Clearing to Level 2
+Upgrade Silvan Clearing to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodTrainingGroundsLevel2Upgrade]
-Allows training of Thelamaethyr\n+10% Faster Build Speed
+Allows training of Thelamaethyr and Gwairochyn\n+10% Faster Build Speed
 
 
 [CONTROLBAR:ConstructMirkwoodTrainingGroundsLevel3Upgrade]
-&Upgrade Silvan Clearing to Level 3
+Upgrade Silvan Clearing to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodTrainingGroundsLevel3Upgrade]
-Allows training of Gwairochyn\n +25% Faster Build Speed
++25% Faster Build Speed
 
 
 [CONTROLBAR:ConstructMirkwoodRoyalBarracks]
-Build Ro&yal Barracks
+Build Royal Barracks (&V)
 
 
 [CONTROLBAR:ToolTipConstructMirkwoodRoyalBarracks]
@@ -67285,7 +67285,7 @@ Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
 
 
 [CONTROLBAR:ConstructMirkwoodRoyalBarracks2Upgrade]
-&Upgrade Royal Barracks to Level 2
+Upgrade Royal Barracks to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodRoyalBarracksLevel2Upgrade]
@@ -67293,7 +67293,7 @@ Allows training of Cúmaethyr and Tamastirnyr \n +10% Faster Build Speed
 
 
 [CONTROLBAR:ConstructMirkwoodRoyalBarracksLevel3Upgrade]
-&Upgrade Royal Barracks to Level 3
+Upgrade Royal Barracks to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodRoyalBarracksLevel3Upgrade]
@@ -67301,7 +67301,7 @@ Allows training of Faenrochyn \n +25% Faster Build Speed
 
 
 [CONTROLBAR:ConstructMirkwoodTreasury]
-Build Thranduil's Treas&ury
+Build Thranduil's Treasury (&M)
 
 
 [CONTROLBAR:ToolTipMirkwoodTreasury]
@@ -67317,7 +67317,7 @@ Researches Woodland Realm unit upgrades
 
 
 [CONTROLBAR:ConstructMirkwoodBeorningCabin]
-Build Beorning &Lodge
+Build Beorning Lodge (&C)
 
 
 [CONTROLBAR:ToolTipMirkwoodBeorningCabin]
@@ -67333,7 +67333,7 @@ Trains Woodmen and Beornings\n Produces a large amount of resources based on ava
 
 
 [CONTROLBAR:ConstructMirkwoodBeorningCabinLevel2Upgrade]
-&Upgrade Beorning Cabin to Level 2
+Upgrade Beorning Cabin to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodBeorningCabinLevel2Upgrade]
@@ -67341,7 +67341,7 @@ Allows recruitment of Druid of the Oaken Order\n+10% Faster Build Speed
 
 
 [CONTROLBAR:ConstructMirkwoodBeorningCabinLevel3Upgrade]
-&Upgrade Beorning Cabin to Level 3
+Upgrade Beorning Cabin to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodBeorningCabinLevel3Upgrade]
@@ -67357,7 +67357,7 @@ Cellar Door
 
 
 [CONTROLBAR:ConstructMirkwoodCellarDoor]
-Build &Cellar Door
+Build Cellar Door (&F)
 
 
 [CONTROLBAR:ToolTipMirkwoodCellarDoor]
@@ -67369,7 +67369,7 @@ Generates a small amount of resources based on available terrain\n Grants access
 
 
 [CONTROLBAR:PurchasePrisonGuards]
-Purchase &Prison Guards
+Purchase Prison Guards (&W)
 
 
 [CONTROLBAR:ToolTipCellarDoorPurchasePrisonGuards]
@@ -67377,7 +67377,7 @@ Allows the Cellar Door to summon one battalion of Prison Guards
 
 
 [CONTROLBAR:PrisonGuards]
-&Prison Guards
+Prison Guards (&W)
 
 
 [CONTROLBAR:ToolTipCellarDoorPrisonGuards]
@@ -67385,7 +67385,7 @@ Summons one battalion of Prison Guards to defend the Cellar Door
 
 
 [CONTROLBAR:ConstructMirkwoodBattleTower]
-Build Woodland Lookou&t
+Build Woodland Lookout (&Y)
 
 
 [OBJECT:MirkwoodBattleTower]
@@ -67393,7 +67393,7 @@ Woodland Lookout
 
 
 [CONTROLBAR:ConstructMirkwoodWell]
-Build Well of &Wine
+Build Well of Wine (&G)
 
 
 [OBJECT:MirkwoodWell]
@@ -67401,11 +67401,11 @@ Well of Wine
 
 
 [CONTROLBAR:ConstructMirkwoodStatue]
-Build Statue of Oro&pher
+Build Statue of Oropher (&U)
 
 
 [CONTROLBAR:MirkwoodHeroicStatueBuild]
-Provides a leadership bonus to nearby units \n Stacks with Buffs and Spells \n Reduces cost of heroes \n Increases command point limit by 10
+Provides a leadership bonus to nearby units \n Stacks with Buffs and Spells\n Increases command point limit by 10
 
 
 [OBJECT:MirkwoodStatue]
@@ -67413,19 +67413,19 @@ Statue of Oropher
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodFortressBanners]
-Silva&n Heraldry
+Silvan Heraldry (&W)
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodFortressEnchantedRiver]
-&Enchanted River
+Enchanted River (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMirkwoodFortressBanners]
-Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +25% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n\nReduces Hero cost by 15% \n Reduces Hero recruit time by 15% \n Reduces the cost of builders by 20%
+Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +25% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces the cost of builders by 20%
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodFortressHouseOfHealing]
-Feast of Starli&ght
+Feast of Starlight (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMirkwoodFortressHouseOfHealing]
@@ -67433,7 +67433,7 @@ Heals nearby allies
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodFortressEmperorProtection]
-Emperor's &Protection
+Emperor's Protection (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEmperorProtection]
@@ -67441,7 +67441,7 @@ Unlocks the Emperor's Protection ability, which when activated causes structures
 
 
 [CONTROLBAR:EmperorProtection]
-Emperor's &Protection
+Emperor's Protection (&S)
 
 
 [CONTROLBAR:TooltipEmperorProtection]
@@ -67449,7 +67449,7 @@ Requires the Emperor's Protection upgrade\nStructures in a wide radius around th
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodFortressGarrison]
-&Silvan Garrison
+Silvan Garrison (&S)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressGarrison]
@@ -67457,7 +67457,7 @@ Prequisite to the Tribute to Oromë upgrade\nStations archers on the parapets
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodFortressOromeTribute]
-&Tribute to Oromë
+Tribute to Oromë (&D)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressOromeTribute]
@@ -67465,7 +67465,7 @@ Requires the Silvan Garrison upgrade\nNearby units gain +33% attack damage\nPass
 
 
 [CONTROLBAR:HornOfTauron]
-Horn of &Tauron
+Horn of Tauron (&D)
 
 
 [CONTROLBAR:TooltipHornOfTauron]
@@ -67473,7 +67473,7 @@ Requires the Tribute to Oromë upgrade\nCauses enemies near the fortress to lose 
 
 
 [CONTROLBAR:ConstructMirkwoodWatchtowerExpansion]
-&Watchtower
+Watchtower (&W)
 
 
 [CONTROLBAR:ToolTipConstructMirkwoodWatchtowerExpansion]
@@ -67501,7 +67501,7 @@ Allows access to the tunnel system \n Increases command point limit
 
 
 [CONTROLBAR:ConstructMirkwoodSilvanHunter]
-&Feredir
+Feredir (&W)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodSilvanHunter]
@@ -67513,7 +67513,7 @@ Feredir
 
 
 [CONTROLBAR:WoodlandAttire]
-&Woodland Attire
+Woodland Attire (&W)
 
 
 [CONTROLBAR:TooltipWoodlandAttire]
@@ -67521,7 +67521,7 @@ Silvan Hunters are fast scout units earning resources\nwhen killing foes\nPassiv
 
 
 [CONTROLBAR:HuntingSnare]
-Hu&nting Snare
+Hunting Snare (&R)
 
 
 [CONTROLBAR:ToolTipHuntingSnare]
@@ -67605,7 +67605,7 @@ Faenrochyn
 
 
 [CONTROLBAR:PurchaseUpgradeSindarNoblesShield]
-Purchase Sindar Sh&ields
+Purchase Sindar Shields (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeSindarNoblesShield]
@@ -67625,7 +67625,7 @@ Tawartirio
 
 
 [CONTROLBAR:ConstructGildedGuardHorde]
-Ta&wartirio
+Tawartirio (&T)
 
 
 [CONTROLBAR:ToolTipBuildGildedGuardHorde]
@@ -67637,7 +67637,7 @@ Gilded Guard of Lasgalen\nRequires the Tribute to Oromë upgrade\nLimited to 1\nS
 
 
 [CONTROLBAR:CallOfTheWild]
-Call of the &Wild
+Call of the Wild (&W)
 
 
 [CONTROLBAR:ToolTipCallOfTheWild]
@@ -67645,7 +67645,7 @@ All nearby heroes gain +15% attack damage,\n 15% movement speed and +15% armor\n
 
 
 [CONTROLBAR:WeepingBlades]
-Wee&ping Blades
+Weeping Blades (&R)
 
 
 [CONTROLBAR:ToolTipWeepingBlades]
@@ -67653,7 +67653,7 @@ Requires Level 3\nGilded Guard return a percentage of damage dealt to them\nPass
 
 
 [CONTROLBAR:FuryOfNahar]
-Fur&y of Nahar
+Fury of Nahar (&T)
 
 
 [CONTROLBAR:TooltipFuryOfNahar]
@@ -67685,7 +67685,7 @@ Beorning Berserkers
 
 
 [CONTROLBAR:ConstructWoodmenMarksmenHorde]
-&Woodmen Hunters
+Woodmen Hunters (&W)
 
 
 [CONTROLBAR:ToolTipBuildWoodmenMarksmenHorde]
@@ -67693,7 +67693,7 @@ Strong vs. Infantry and Structures \n \n The hunters amongst the Woodmen are vet
 
 
 [CONTROLBAR:ConstructWoodmenDruidsHorde]
-&Druid of the Oaken Order
+Druid of the Oaken Order (&E)
 
 
 [CONTROLBAR:ToolTipBuildWoodmenDruidsHorde]
@@ -67701,7 +67701,7 @@ Requires Level 2 Beorning Lodge \n Support Unit \n Limited to 5 \n \n Learned in
 
 
 [CONTROLBAR:ConstructBeorningBerserker]
-Beorning &Berserkers
+Beorning Berserkers (&R)
 
 
 [CONTROLBAR:ToolTipBuildBeorningBerserker]
@@ -67717,7 +67717,7 @@ Requires Level 3 Beorning Lodge \n Strong vs. Archers \n \n It was after the Bat
 
 
 [CONTROLBAR:ConstructMirkwoodRangerHorde]
-Taurd&rim
+Taurdrim (&W)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodRangerHorde]
@@ -67749,7 +67749,7 @@ Sigilmaethyr
 
 
 [CONTROLBAR:ConstructMirkwoodWardenHorde]
-Sigil&maethyr
+Sigilmaethyr (&E)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodWardenHorde]
@@ -67765,7 +67765,7 @@ Thelamaethyr
 
 
 [CONTROLBAR:ConstructMirkwoodSpearHorde]
-Thelamae&thyr
+Thelamaethyr (&R)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodSpearHorde]
@@ -67781,15 +67781,15 @@ Gwairochyn
 
 
 [CONTROLBAR:ConstructMirkwoodOutriderHorde]
-Gwa&irochyn
+Gwairochyn (&T)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodOutriderHorde]
-Requires Level 3 Silvan Clearing\nWild-riders\nStrong vs. Archers \n\n The Woodland Realm was vast, and Thranduil employed swift and nimble riders to carry messages and orders between its various Elven-homes.
+Requires Level 2 Silvan Clearing\nWild-riders\nStrong vs. Archers \n\n The Woodland Realm was vast, and Thranduil employed swift and nimble riders to carry messages and orders between its various Elven-homes.
 
 
 [CONTROLBAR:ConstructGreenwoodWarriorHorde]
-&Megilherdir
+Megilherdir (&W)
 
 
 [CONTROLBAR:ToolTipBuildGreenwoodWarriorHorde]
@@ -67797,7 +67797,7 @@ Sword-masters \n Strong vs. Pikemen \n \n After witnessing first-hand the terror
 
 
 [CONTROLBAR:ConstructGreenwoodArcherHorde]
-&Cúmaethyr
+Cúmaethyr (&R)
 
 
 [CONTROLBAR:ToolTipBuildGreenwoodArcherHorde]
@@ -67805,7 +67805,7 @@ Bow-warriors \n Requires Level 2 Royal Barracks \n Strong vs. Infantry \n \n Wie
 
 
 [CONTROLBAR:ConstructGreenwoodSlayerHorde]
-&Theladagnyr
+Theladagnyr (&E)
 
 
 [CONTROLBAR:ToolTipBuildGreenwoodSlayerHorde]
@@ -67813,7 +67813,7 @@ Spear-slayers \n Strong vs. Spam Infantry \n \n These warriors wielding dual-bla
 
 
 [CONTROLBAR:ConstructSindarNoblesHorde]
-&Faenrochyn
+Faenrochyn (&S)
 
 
 [CONTROLBAR:ToolTipBuildSindarNoblesHorde]
@@ -67821,11 +67821,11 @@ Radiant-riders \n Requires level 3 Royal Barracks \n Strong. vs Swordsmen and Ar
 
 
 [CONTROLBAR:SilvanEscape]
-E&vasion
+Evasion (&R)
 
 
 [CONTROLBAR:ToolTipSilvanEscape]
-Requires Level 2\nSilvan units temporarily gain 25% armor,\n 15% speed and knockback resistance\nLeft click to activate
+Requires Level 2\nSilvan units temporarily gain 25% armor,\n 10% speed and knockback resistance\nLeft click to activate
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodWarriorHorde]
@@ -67833,7 +67833,7 @@ Maethyr - Warriors \n Strong vs. Infantry \n Can toggle between bow and sword
 
 
 [CONTROLBAR:PurchaseUpgradeBeekeeping]
-Purchase Bee&keeping
+Purchase Beekeeping (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeBeekeeping]
@@ -67870,7 +67870,7 @@ Increases this battalion to Level 2 \n Can only be equipped at Level 1
 
 
 [CONTROLBAR:PurchaseTechnologyMirkwoodBasicTraining]
-Research Greenwood Ba&nners
+Research Greenwood Banners (&W)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodBasicTraining]
@@ -67882,7 +67882,7 @@ Allows battalions to purchase the Banner Carrier upgrade \n Increases a battalio
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodSilverthornArrows]
-Purchase S&ilvan Fletching
+Purchase Silvan Fletching (&C)
 
 
 [CONTROLBAR:TooltipPurchaseUpgradeMirkwoodSilverthornArrows]
@@ -67890,7 +67890,7 @@ Upgrades this battalion with Silvan Fletching \n Significantly increases the dam
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodSilverthornArrowsWoodmen]
-Purchase Druid-made Fletching
+Purchase Druid-made Fletching (&C)
 
 
 [CONTROLBAR:TooltipPurchaseUpgradeMirkwoodSilverthornArrowsWoodmen]
@@ -67898,7 +67898,7 @@ Upgrades this battalion with Druid-made Fletching \n Significantly increases the
 
 
 [CONTROLBAR:PurchaseTechnologyMirkwoodSilverthornArrows]
-Research S&ilvan Fletching
+Research Silvan Fletching (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyMirkwoodSilverthornArrows]
@@ -67906,11 +67906,11 @@ Allows battalions to purchase the Silvan Fletching upgrade \n When equipped, sig
 
 
 [CONTROLBAR:PurchaseTechnologyMirkwoodForgedBlades]
-Research Silvan Stee&l
+Research Silvan Steel (&E)
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodForgedBlades]
-Purchase Silvan Stee&l
+Purchase Silvan Steel (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMirkwoodForgedBlades]
@@ -67918,7 +67918,7 @@ Upgrades this battalion with Silvan Steel \n When equipped, increases the damage
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodForgedBladesWoodmen]
-Purchase We&ll-honed Axes
+Purchase Well-honed Axes (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMirkwoodForgedBladesWoodmen]
@@ -67991,7 +67991,7 @@ Can teleport targeted units to its location
 
 
 [CONTROLBAR:WaystoneTeleport]
-Elvenking's &Road
+Elvenking's Road (&W)
 
 
 [CONTROLBAR:ToolTipWaystoneTeleport]
@@ -68007,7 +68007,7 @@ Summons one of Thranduil's famous woodland feasts\nUnits near it gain +50% armor
 
 
 [CONTROLBAR:FeastReposition]
-Move Feast
+Move Feast (&W)
 
 
 [CONTROLBAR:ToolTipFeastReposition]
@@ -68047,7 +68047,7 @@ Lights Go Out
 
 
 [CONTROLBAR:ToolTipMirkwoodDarkness]
-Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness \n Enemy units temporarily suffer from -25% vision and attack range, -25% experience gain, and -25% attack damage\nLeft click to activate
+Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness \n Enemy units temporarily suffer from -25% vision and attack range, -25% experience gain, and -40% attack damage\nLeft click to activate
 
 
 [CONTROLBAR:MirkwoodArrowVolley]
@@ -68055,7 +68055,7 @@ Hail of Arrows
 
 
 [CONTROLBAR:TooltipMirkwoodArrowVolley]
-Enormous, instantaneous salvo of Silvan arrows\nLeft click icon the left click on target area
+Two swift volleys of Silvan arrows\nThe first salvo is instantaneous, the second follows afterwards\nLeft click icon the left click on target area
 
 
 [CONTROLBAR:HuntOfOrome]
@@ -68084,7 +68084,7 @@ Shelob continuously spawns tiny spiders that deal damage\nto nearby enemies and 
 
 
 [CONTROLBAR:ShelobDarkDeterrent]
-Dark De&terrent
+Dark Deterrent (&R)
 
 
 [CONTROLBAR:ToolTipShelobDarkDeterrent]
