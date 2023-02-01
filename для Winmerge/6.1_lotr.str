@@ -58715,7 +58715,7 @@ Revive the fallen Chieftain, Wulfgar
 
 
 [CONTROLBAR:IsengardWulfgarHotKey]
-&Wulfgar
+Wulfgar (&S)
 
 
 [CONTROLBAR:ShieldBash]
@@ -58735,11 +58735,13 @@ Requires Level 3 \n Modifier Type: Leadership \n Wildmen and Dunlending units ne
 
 
 [CONTROLBAR:CrowBanner]
-Cro&w Banner
+Crow Banner (&C)
 
 
 [CONTROLBAR:ToolTipCrowBanner]
 Requires Level 7 \n Causes enemy units to flee, and summons two battalions of Household Guards\n Left click to activate
+[OBJECT:BuildmeanArmyStructure]
+Isengard War Camp
 
 
 [OBJECT:CrowBanner]
@@ -58763,7 +58765,7 @@ Dunlending Longbowmen
 
 
 [CONTROLBAR:ConstructIsengardDunlandArcherHorde]
-Dunlending &Longbowmen
+Dunlending Longbowmen (&E)
 
 
 [CONTROLBAR:LW_Unit_IsengardDunlandArcherHorde]
@@ -58775,7 +58777,7 @@ Dunlending Longbowman Horde
 
 
 [CONTROLBAR:ToolTipBuildIsengardDunlandArcherHorde]
-Elite Archer \nStrong vs. Infantry \n \n 'The rocky hills of Dunland are difficult to farm, resulting in a sprawling culture of hunting based around the legend of the White Crow.'
+Requires Dunlending Longhouse level 2 \n Elite Archers \nStrong vs. Infantry \n \n 'The rocky hills of Dunland are difficult to farm, resulting in a sprawling culture of hunting based around the legend of the White Crow.'
 
 
 [CONTROLBAR:ToolTipBuildIsengardDunlandArcherHorde_WOTR]
@@ -58795,7 +58797,7 @@ Dunnish Outriders
 
 
 [CONTROLBAR:ConstructIsengardDunlandRiderHorde]
-&Dunnish Outriders
+Dunnish Outriders (&R)
 
 
 [CONTROLBAR:LW_Unit_IsengardDunlandRiderHorde]
@@ -58807,7 +58809,7 @@ Dunnish Outrider Horde
 
 
 [CONTROLBAR:ToolTipBuildIsengardDunlandRiderHorde]
-Elite Cavalry \nStrong vs. Archers \n \n 'The Men of Dunland do not take kindly to notions of Rohirric equestrian superiority, claiming their Outriders can match any Rider of Rohan.'
+Requires Dunlending Longhouse Level 2 \n Elite Cavalry \nStrong vs. Archers \n \n 'The Men of Dunland do not take kindly to notions of Rohirric equestrian superiority, claiming their Outriders can match any Rider of Rohan.'
 
 
 [CONTROLBAR:ToolTipBuildIsengardDunlandRiderHorde_WOTR]
@@ -58827,7 +58829,7 @@ Easterling Kataphrakts
 
 
 [CONTROLBAR:ConstructMordorEasterlingKataphractHorde]
-Easterling &Kataphrakts
+Easterling Kataphrakts (&S)
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingKataphractHorde]
@@ -58851,7 +58853,7 @@ Giant Bat
 
 
 [CONTROLBAR:ConstructWildGiantBat]
-&Giant Bat
+Giant Bat (&R)
 
 
 [CONTROLBAR:LW_Unit_WildGiantBat]
@@ -58863,7 +58865,7 @@ Giant Bat
 
 
 [CONTROLBAR:ToolTipBuildWildGiantBat]
-Requires Level 2 Troll Lair\n Strong vs. Infantry, Cavalry, and Buildings \n \n 'These bats are bred for one purpose... for waarrr!'
+Requires Level 2 Troll Lair\n Strong vs. Infantry, Cavalry, and Buildings \n \n 'These bats are bred for one purpose, for war!'
 
 
 [CONTROLBAR:LW_ToolTipBuild_WildGiantBat]
@@ -58878,7 +58880,7 @@ Vampirism
 Flying units lose -70% Speed for 30 seconds \n when hit by Giant Bats \n Passive ability \n \n Requires Level 3\n Giant Bats regain health per hit \n Passive ability
 
 [CONTROLBAR:BuildWildWorker]
-Goblin &Laborer
+Goblin Laborer (&W)
 
 [OBJECT:WildWorker]
 Goblin Laborer
@@ -58920,7 +58922,7 @@ Vantage Point Bonus\nArcher Range\nIncreased by 15%%
 
 
 [CONTROLBAR:SummonBigWarg]
-Summon Warg &Matriarch
+Summon Warg Matriarch (&C)
 
 
 [CONTROLBAR:TooltipSummonBigWarg]
@@ -58932,7 +58934,7 @@ Strong vs. Structures \n Only 6 allowed at any time \n A Trebuchet launches a hu
 
 
 [CONTROLBAR:HornoftheGate]
-Horns of the &Gate
+Horns of the Gate (&S)
 
 
 [CONTROLBAR:TooltipHornoftheGate]
@@ -58940,7 +58942,7 @@ Requires the Horns of the Gate upgrade \n Causes fear in nearby enemies \n Left 
 
 
 [CONTROLBAR:PurchaseTechnologyDwarvenFireArrows]
-Research Mithril-tipped Arro&ws Upgrade
+Research Mithril-tipped Arrows Upgrade (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyDwarvenFireArrows]
@@ -59101,7 +59103,7 @@ Modifier Type: Leadership \n Dwarves near Thorin gain 25% Armor, resistance to f
 
 
 [CONTROLBAR:ThorinOrcrist]
-Goblin-&Cleaver
+Goblin-Cleaver (&T)
 
 
 [CONTROLBAR:TooltipThorinOrcrist]
@@ -59117,7 +59119,7 @@ Thorin attains the armor of his grandfather, King Thrór, increasing his default 
 
 
 [CONTROLBAR:ThorinDuBekar]
-Du Be&kar!
+Du Bekar! (&V)
 
 
 [CONTROLBAR:ToolTipThorinDuBekar]
@@ -59125,7 +59127,7 @@ Requires Level 10 \n Modifier Type: Spell \n Thorin and nearby allies gain resis
 
 
 [CONTROLBAR:ThorinResentment]
-&Resentment
+Resentment (&R)
 
 
 [CONTROLBAR:ToolTipThorinResentment]
@@ -59133,7 +59135,7 @@ Requires Level 3 \n Modifier Type: Active Debuff \n Targeted enemy units suffer 
 
 
 [CONTROLBAR:ThorinRestoration]
-Driven By &Prophecy
+Driven By Prophecy (&C)
 
 
 [CONTROLBAR:ToolTipThorinRestoration]
@@ -59141,7 +59143,7 @@ Requires Level 7 \n Heals nearby allies and fully refreshes\ntheir special abili
 
 
 [CONTROLBAR:BardSlamArrow]
-Black A&rrow of Dale
+Black Arrow of Dale (&W)
 
 
 [CONTROLBAR:BardBeastSlayerArrow]
@@ -59157,7 +59159,7 @@ Requires Level 10 \nCauses extra damage to flying enemies and severe damage to m
 
 
 [CONTROLBAR:BardRabbleRouser]
-&Rabble-rouser
+Rabble-rouser (&T)
 
 
 [CONTROLBAR:ToolTipBardRabbleRouser]
@@ -59173,7 +59175,7 @@ Requires Level 8 \n Modifier Type: Leadership \n Archers near Bard gain +33% arm
 
 
 [CONTROLBAR:BrandSlamArrow]
-Black A&rrow of Dale
+Black Arrow of Dale (&T)
 
 
 [CONTROLBAR:ToolTipBrandSlamArrowNew]
@@ -59181,7 +59183,7 @@ Requires Level 2 \nA precise arrow shot that does increased damage \n At level 5
 
 
 [CONTROLBAR:BrandPommelStrike]
-&Pommel Strike
+Pommel Strike (&T)
 
 
 [CONTROLBAR:ToolTipBrandPommelStrike]
@@ -59189,7 +59191,7 @@ Requires Level 2\n A strike that deals increased damage \n At level 5, knocks ta
 
 
 [CONTROLBAR:BrandDeadEye]
-Dragonsla&yer
+Dragonslayer (&V)
 
 
 [CONTROLBAR:ToolTipBardDeadEye]
@@ -59205,7 +59207,7 @@ Modifier Type: Leadership \n Allies near Balin gain +15% movement speed \n Stack
 
 
 [CONTROLBAR:BalinLookout]
-Company's &Lookout
+Company's Lookout (&W)
 
 
 [CONTROLBAR:TooltipBalinLookout]
@@ -59213,7 +59215,7 @@ Modifier Type: Leadership \n Allies near Balin gain +15% Speed \n Stacks with Bu
 
 
 [CONTROLBAR:BalinDwarvenWisdom]
-Dwar&ven Wisdom
+Dwarven Wisdom (&R)
 
 
 [CONTROLBAR:ToolTipBalinDwarvenWisdom]
@@ -59221,7 +59223,7 @@ Requires Level 3 \n Selected structure's resource output is temporarily raised t
 
 
 [CONTROLBAR:BalinCounselorOfKings]
-Counselor of &Kings
+Counselor of Kings (&C)
 
 
 [CONTROLBAR:ToolTipBalinCounselorOfKings]
@@ -59229,7 +59231,7 @@ Requires Level 9 \n Modifier Type: Spell \n Balin temporarily empowers a friendl
 
 
 [CONTROLBAR:BalinFlag]
-Ba&lin's Expedition
+Balin's Expedition (&T)
 
 
 [CONTROLBAR:TooltipBalinFlag]
@@ -59241,7 +59243,7 @@ Banner of Durin
 
  
 [CONTROLBAR:FlashFlame]
-Flash Fla&me
+Flash Flame (&T)
 
 
 [CONTROLBAR:Unburnt]
@@ -59285,7 +59287,7 @@ Modifier Type: Leadership \n Allies near King Thorin gain +33% Damage, +33% Armo
 
 
 [CONTROLBAR:YoungThorinOakenshield]
-&Oakenshield
+Oakenshield (&R)
 
 
 [CONTROLBAR:TooltipYoungThorinOakenshield]
@@ -59293,7 +59295,7 @@ Requires Level 3 \n Thorin temporarily gains\n+75% magic damage and +100% armor 
 
 
 [CONTROLBAR:YoungThorinDuBekar]
-Du Be&kar!
+Du Bekar! (&T)
 
 
 [CONTROLBAR:ToolTipYoungThorinDuBekar]
@@ -59317,7 +59319,7 @@ Requires Level 5 \n Dwalin slams the ground, knocking back enemy units and deali
 
 
 [CONTROLBAR:YoungDwalinGloriousCharge]
-Bar&uk Khazâd!
+Baruk Khazâd! (&R)
 
 
 [CONTROLBAR:ToolTipYoungDwalinGloriousCharge]
@@ -59325,7 +59327,7 @@ Requires Level 3 \n Dwalin lets out a cry, causing enemy units to flee in terror
 
 
 [CONTROLBAR:YoungDainBarukKhazad]
-Baruk Khazâd!
+Baruk Khazâd! (&W)
 
 
 [CONTROLBAR:ToolTipYoungDainBarukKhazad]
@@ -59341,7 +59343,7 @@ Requires Level 3 \n Modifier Type: Spell and Active Debuff \n Targeted friendly 
 
 
 [CONTROLBAR:YoungBalinTactician]
-Tact&ician
+Tactician (&W)
 
 
 [CONTROLBAR:ToolTipYoungBalinTactician]
@@ -59349,7 +59351,7 @@ Requires Level 3 \n Give targeted friendly troops experience \n Left click icon 
 
 
 [CONTROLBAR:YoungBalinCounselorOfKings]
-&King's Advisor
+King's Advisor (&R)
 
 
 [CONTROLBAR:ToolTipYoungBalinCounselorOfKings]
@@ -59366,7 +59368,7 @@ Laketown Watchmen
 
 
 [CONTROLBAR:ConstructLaketownMilitaHorde]
-&Laketown Watchmen
+Laketown Watchmen (&E)
 
 
 [CONTROLBAR:LW_Unit_LaketownMilitaHorde]
@@ -59398,7 +59400,7 @@ Dorwinion Legionnaires
 
 
 [CONTROLBAR:ConstructDorwinionFighterHorde]
-&Dorwinion Legionnaires
+Dorwinion Legionnaires (&W)
 
 
 [CONTROLBAR:LW_Unit_DorwinionFighterHorde]
@@ -59426,7 +59428,7 @@ Barding Swordsmen
 
 
 [CONTROLBAR:ConstructMenofDaleSwordHorde]
-Barding &Swordsmen
+Barding Swordsmen (&R)
 
 
 [CONTROLBAR:LW_Unit_MenofDaleSwordHorde]
@@ -59478,7 +59480,7 @@ Laketown Bowmen
 
 
 [CONTROLBAR:ConstructDwarvenLaketownBowmenHorde]
-Laketown Bo&wmen
+Laketown Bowmen (&R)
 
 
 [CONTROLBAR:ToolTipBuildDwarvenLaketownBowmenHorde]
@@ -59491,13 +59493,13 @@ Guard of the Master
 Guards of the Master
 
 [CONTROLBAR:ConstructLaketownGuardHorde]
-Guard&s of the Master
+Guards of the Master (&T)
 
 [CONTROLBAR:ToolTipBuildLaketownGuardHorde]
 Requires Level 2 Erebor Assembly \n Strong vs. Pikemen \n \n Tasked with the special protection of the Master of Laketown, these privileged sentries are granted authority and luxury that few civilians can afford.
 
 [CONTROLBAR:SearchWarrant]
-Search War&rant
+Search Warrant (&R)
 
 [CONTROLBAR:ToolTipSearchWarrant]
 Requires Level 3\nDisables enemy structures and deals minor damage over time\n Left click icon then left click on target
@@ -59532,7 +59534,7 @@ Khazâd-uzbadul
 
 
 [CONTROLBAR:ConstructKhazadUzbadulHorde]
-Khazâd-uzbadu&l
+Khazâd-uzbadul (&R)
 
 
 [CONTROLBAR:ToolTipBuildKhazadUzbadulHorde]
@@ -59540,7 +59542,7 @@ Dwarves of the Lord \n Requires Level 3 Erebor Redoubt \n Limited to 3 \n Powerf
 
 
 [CONTROLBAR:ToolTipToggleKhazadUzbadulFormation]
-Khazâd-uzbadul form up into a schiltron formation \n +20% Attack Damage, +30% Armour, -40% Speed
+Khazâd-uzbadul form up into a schiltron formation \n +50% armour, -20% speed \nKhazâd-uzbadul do not deal splash damage when in formation
 
 
 [CONTROLBAR:RisingAnger]
@@ -59552,11 +59554,11 @@ Consecutive attacks temporarily increase attack damage by 5% up to a maximum of 
 
 
 [CONTROLBAR:SpecialAbilityStaunchDefender]
-Sta&unch Defenders
+Staunch Defenders (&T)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityStaunchDefender]
-Heroes nearby the Khazâd-uzbadul are granted +5% armour and damage \n Passive ability \n \n At level 3 can be activated to pull enemies nearby the Khazâd-uzbadul towards them \n Left click to activate
+Heroes nearby the Khazâd-uzbadul are granted +10% armour and damage \n Passive ability \n \n At level 3 can be activated to pull enemies nearby the Khazâd-uzbadul towards them \n Left click to activate
 
 
 [OBJECT:ArmedMiner]
@@ -59584,22 +59586,22 @@ Huruz-Khagal-zirak
 Huruz-Khagal-zirak
 
 [CONTROLBAR:ConstructEredLuinRangerHorde]
-Huruz-&Khagal-zirak
+Huruz-Khagal-zirak (&S)
 
 [CONTROLBAR:ToolTipBuildEredLuinRangerHorde]
 Ered Luin Rangers \n Requires Level 2 Erebor Assembly \n Fast Moving, Hard Hitting Infantry \nStrong vs. Archers\n Can Stealth Near Trees \n \n The sprawling forests that covered the long foothills of the Blue Mountains were kept safe by keen-eyed Dwarven rangers.
 
 [CONTROLBAR:SecretWays]
-Secret Ways
+Secret Ways (&R)
 
 [CONTROLBAR:TooltipSecretWays]
 Huruz-Khagal-zirak are stealthed near trees\n They deal double damage when flanking and attacking from behind \n Passive ability \n \n When activated, Rangers gain +10% speed and 50% armour against arrows\nLeft click icon to activate
 
 [CONTROLBAR:DwarvenWile]
-Dwar&ven Wile
+Dwarven Wile (&T)
 
 [CONTROLBAR:ToolTipDwarvenWile]
-Requires Level 5 \n Huruz-Khagal-zirak lay down an assortment of tripwires, caltrops and pitfalls.\n Enemies that walk across are temporarily stunned \n Does not affect creeps\n Does not work on water\n\n Left click then left click target location
+Requires Level 3 \n Huruz-Khagal-zirak lay down an assortment of tripwires, caltrops and pitfalls.\n Enemies that walk across are temporarily stunned \n Does not affect creeps\n Does not work on water\n\n Left click then left click target location
 
 [OBJECT:EredLuinTrader]
 Usjur-Khagal-zirak
@@ -59610,7 +59612,7 @@ Usjur-Khagal-zirak
 
 
 [CONTROLBAR:ConstructEredLuinTraderHorde]
-Us&jur-Khagal-zirak
+Usjur-Khagal-zirak (&W)
 
 
 [CONTROLBAR:LW_Unit_EredLuinTraderHorde]
