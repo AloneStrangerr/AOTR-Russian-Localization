@@ -58251,6 +58251,10 @@ You Can Go No Further
 Stuns every enemy unit in a small area for a short duration \n Left click icon then left click on target
 
 
+[CONTROLBAR:ToolTipCampaignTrap]
+Stuns enemy units in a small area for a short duration \n Does not stun enemy heroes \n Left click icon then left click on target
+
+
 [CONTROLBAR:AmrothKnights]
 Amroth's Knights
 
@@ -58280,7 +58284,7 @@ Garden of Ithilien
 
 
 [CONTROLBAR:TooltipIthilienGarden]
-Summons a lush garden onto the battlefield \n Modifier Type: Buff \n All allied units become stealthed \n Enemy units lose all leadership \n The Garden is inhabited by a number of Ithilien Rangers \n Left click icon then left click on target area
+Summons a lush garden onto the battlefield for 5 minutes \n Modifier Type: Buff \n All allied units gain +50% Damage, +33% Armor and become immune to fear and terror \n Stacks with Leadership and Spells \n  The Garden is inhabited by a number of Ithilien Rangers \n Left click icon then left click on target area
 
 
 [CONTROLBAR:SummonRadagast]
@@ -58288,10 +58292,14 @@ A Very Great Wizard
 
 
 [CONTROLBAR:SummonCampaignRadagast]
-The Brown Wizard
+You Can Go No Further
 
 
 [CONTROLBAR:TooltipSummonRadagast]
+Stuns every enemy unit in a small area for a short duration \n Left click icon then left click on target
+
+
+[CONTROLBAR:TooltipSummonRadagastLorien]
 Summons Radagast the Brown to your aid \n Left click icon then left click on pathable location
 
 
@@ -58344,7 +58352,7 @@ Amroth-na-Erphin
 
 
 [CONTROLBAR:ConstructElvenAmrothKnightHorde]
-Amroth-na-Er&phin
+Amroth-na-Erphin (&E)
 
 
 [CONTROLBAR:LW_Unit_ElvenAmrothKnightHorde]
@@ -58365,7 +58373,7 @@ Knights of Amroth \n Unit Type: Elite Cavalry\nStrong vs. Archers\n
 
 
 [CONTROLBAR:PurchaseUpgradeAngmarSpikedCollars]
-Purchase Sh&ields
+Purchase Shields (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarSpikedCollars]
@@ -58401,7 +58409,7 @@ Nandor Hîr-Hathol
 
 
 [CONTROLBAR:ConstructNandorBlademasterHorde]
-&Nandor Hîr-Hathol
+Nandor Hîr-Hathol (&D)
 
 
 [CONTROLBAR:LW_Unit_ElvenNandorBlademasterHorde]
@@ -58429,7 +58437,7 @@ Required: Rank 7\n The Blademasters temporarily become immune to damage and is r
 
 
 [CONTROLBAR:NandorUnscathed]
-For Lóri&nand!
+For Lórinand! (&T)
 
 
 [CONTROLBAR:ToolTipPalaceGUnscathed]
@@ -58437,7 +58445,7 @@ Required: Rank 2\n The Palace Guard temporarily gain +60% Armor and is resistant
 
 
 [CONTROLBAR:PalaceGUnscathed]
-Elven Endu&rance
+Elven Endurance (&R)
 
 
 [CONTROLBAR:ToolTipNandorTreasure]
@@ -58445,11 +58453,11 @@ Required: Rank 4\nGrants Forged Blades, Heavy Armor, and Mallorn Bows to units i
 
 
 [CONTROLBAR:ToggleNandorWeaponsAxe]
-Swi&tch to Axe
+Switch to Axe (&W)
 
 
 [CONTROLBAR:ToggleNandorWeaponsSword]
-Swi&tch to Sword
+Switch to Sword (&W)
 
 
 [CONTROLBAR:ToolTipToggleNandorWeapons]
@@ -58457,27 +58465,27 @@ Left click to switch weapons\n\n Swords strong vs. normal infantry and heroes \n
 
 
 [CONTROLBAR:NandorTreasure]
-T&reasures of Ossiriand
+Treasures of Ossiriand (&R)
 
 
 [CONTROLBAR:PurchaseUpgradeElvenFortressEarendilLorien]
-Eärend&il's Guidance
+Eärendil's Guidance (&F)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEarendilLorien]
-Provides Eärendil's Guidance Vision Power \n Increases Fortress vision range
+Unlocks Eärendil's Guidance Power \n Increases Fortress vision range
 
 
 [CONTROLBAR:EarendilVision]
-Eärend&il's Guidance
+Eärendil's Guidance (&S)
 
 
 [CONTROLBAR:TooltipEarendilVision]
-Requires Eärendil's Guidance upgrade \n Reveals the entire map for 30 seconds \n Detects stealthed units
+Requires Eärendil's Guidance upgrade \n Covers the area around the fortress in light, healing nearby friendly units and causing nearby enemy units to flee in fear \n Left click to activate
 
 
 [TOOLTIP:LackEarendil]
-Requires Mallorn Roots upgrade \n Provides Eärendil's Guidance Vision Power \n Increases Fortress vision range
+Requires Blessed Lanterns upgrade \n Provides Eärendil's Guidance Power \n Increases Fortress vision range
 
 
 [UPGRADE:NimrodelWaters]
@@ -58501,11 +58509,11 @@ Revive the fallen Hero, Idrial
 
 
 [CONTROLBAR:ElvenIdrialHotkey]
-&Idrial
+Idrial (&R)
 
 
 [CONTROLBAR:Fluidstrike]
-Fl&uid Strike
+Fluid Strike (&W)
 
 
 [CONTROLBAR:ToolTipFluidStrike]
@@ -58513,7 +58521,7 @@ Powerful attack that causes meta impact\n Damage increases as Idrial levels \n L
 
 
 [CONTROLBAR:CleanseShadow]
-Clea&nse Shadow
+Cleanse Shadow (&R)
 
 
 [CONTROLBAR:TooltipCleanseShadow]
@@ -58521,7 +58529,7 @@ Requires Level 3 \n Modifier Type: Leadership \n Nearby Sindar Pathstalkers gain
 
 
 [CONTROLBAR:GiftofGaladriel]
-Gift of Galadr&iel
+Gift of Galadriel (&T)
 
 
 [CONTROLBAR:TooltipGiftofGaladriel]
@@ -58537,24 +58545,21 @@ Requires Level 10 \n Modifier Type: Spell \n Idrial's power cooldowns are reduce
 
 
 [CONTROLBAR:PurchaseUpgradeElvenFortressFlamingMunitions]
-March&wardens
+Veteran Marchwardens (&S)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressFlamingMunitions]
-Places Tawar-na-Pengryn upgraded with Mallorn Bows onto Fortress
+Places Tawar-na-Pengryn upgraded with Mallorn Bows onto Fortress \n Unlocks ‘Border Patrol’, which allows the player to summon a trio of individual Marchwardens anywhere on the map to reveal the area, detect stealth, and fire on nearby enemies
 
 
 [CONTROLBAR:ConstructEregionForge]
-Build &Golden Wood Storehouse
+Build Golden Wood Storehouse (&R)
 
-
-[CONTROLBAR:ToolTipEregionForge]
-Generates resources based on available terrain\nResearches Lórien unit upgrades \n Increases command point limit by 25
 
 [UPGRADE:MarketplaceUpgradeGrandHarvestLorien]
 Things That Will Be
 
 [CONTROLBAR:ConstructGrandHarvestUpgradeLorien]
-&Things That Will Be
+Things That Will Be (&R)
 
 [CONTROLBAR:ToolTipBuildGrandHarvestUpgradeLorien]
 +15% resources from mallorn trees \n Player must maintain a Mirror to benefit from this upgrade
@@ -58569,7 +58574,7 @@ Researches special faction upgrades \n Detects stealth \n Limited to 1 \n Increa
 Things That Were
 
 [CONTROLBAR:ThingsthatWere]
-Things That &Were
+Things That Were (&E)
 
 [CONTROLBAR:ToolTipBuildThingsthatWere]
 Decreases cost of Amroth-na-Erphin and the Nandor Hîr-Hathol \n Player must maintain a Mirror to benefit from this upgrade
@@ -58578,13 +58583,13 @@ Decreases cost of Amroth-na-Erphin and the Nandor Hîr-Hathol \n Player must main
 Things That Are
 
 [CONTROLBAR:ThingsthatAre]
-Things That &Are
+Things That Are (&W)
 
 [CONTROLBAR:ToolTipBuildThingsthatAre]
 Increases production speed of Tawar-na-Pengryn, Tawar-na-Eithyr, Tawar-na-Thirrad, Gwahaedhrim, and Edrain-na-Maethyr for a short time
 
 [CONTROLBAR:CallofBelegaer]
-&Call of Belegaer
+Call of Belegaer (&S)
 
 [CONTROLBAR:ToolTipCallofBelegaer]
 Requires the White Council Observatory upgrade\n\nThe presence of Cirdan the Shipwright causes Elves to long for the Sea and their journey to the Undying Lands.\n\nIncreases production speed of Elven units for a short time
@@ -58602,19 +58607,19 @@ Revive the fallen Orcish Shaman.
 
 
 [CONTROLBAR:WildUrshakHotkey]
-&Urshak
+Urshak (&R)
 
 
 [CONTROLBAR:UrshakIntimidation]
-&Intimidation
+Intimidation (&W)
 
 
 [CONTROLBAR:ToolTipUrshakIntimidation]
-Modifier Type: Leadership \n Trolls, Bats and Giants near Urshak gain\n+15% speed, vision and shroud clearing\nPassive ability \n\n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and Armour and -20% Speed \n Does not stack with other Debuffs \nPassive ability \n\n At level 5, bewitches targeted units, causing them to become hostile towards each other \n Left click icon then left click on target area
+Modifier Type: Leadership \n Trolls, Bats and Giants near Urshak gain\n+15% speed, vision and shroud clearing\nPassive ability \n\n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and Armour and -20% Speed \n Does not stack with other Debuffs \nPassive ability \n\n At level 8, bewitches targeted units, causing them to become hostile towards each other \n Left click icon then left click on target area
 
 
 [CONTROLBAR:UrshakShakeFoundation]
-Ca&ve In
+Cave In (&R)
 
 
 [CONTROLBAR:ToolTipUrshakShakeFoundation]
@@ -58622,7 +58627,7 @@ Requires Level 3\nTarget enemy building takes heavy damage\nand is temporarily d
 
 
 [CONTROLBAR:UrshakSoulFreeze]
-Fe&ll Winter
+Fell Winter (&T)
 
 
 [CONTROLBAR:ToolTipUrshakSoulFreeze]
@@ -58661,8 +58666,28 @@ Into the Fray (&V)
 Requires Level 10\nAllied units in a wide radius gain +15% movement speed and +33% damage\nLeft click to activate
 
 
-[OBJECT:IsengardLonghouse]
-Dunlending Longhouse
+[CONTROLBAR:Buildmeanarmy]
+Build Me An Army
+
+
+[CONTROLBAR:TooltipBuildmeanarmy]
+Temporarily summons an Isengard War Camp. Every 45 seconds, a horde of Fighting Uruk-hai is spawned. Respects command point limit \n Limited to 1 \n Left click on icon then left click on target position
+
+
+[CONTROLBAR:BuildmeanarmyActivate]
+Activate Build Me An Army (&W)
+
+
+[CONTROLBAR:TooltipBuildmeanarmyActivate]
+Activate Isengard War Camp \n Every 45 seconds, a horde of Fighting Uruk-hai is spawned \n Respects command point limit
+
+
+[CONTROLBAR:BuildmeanarmyDeactivate]
+Deactivate Build Me An Army (&W)
+
+
+[CONTROLBAR:TooltipBuildmeanarmyDeactivate]
+Deactivate Isengard War Camp \n Fighting Uruk-hai summoning is interrupted
 
 
 [CONTROLBAR:Longhouse]
