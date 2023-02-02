@@ -64756,11 +64756,19 @@ Mountain-orc Slashers
 
 
 [CONTROLBAR:ConstructWildMountainOrcSwordHorde]
-Mountain-or&c Slashers
+Mountain-orc Slashers (&W)
 
 
 [CONTROLBAR:ToolTipBuildWildMountainOrcSwordHorde]
-Strong vs. Pikemen \n \n Hardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Azog the Defiler.
+Strong vs. Pikemen \n \n Hardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Bolg of the North.
+
+
+[CONTROLBAR:WildMountainOrcTerror]
+Terror of the Mountain
+
+
+[CONTROLBAR:ToolTipWildMountainOrcTerror]
+Requires Level 2 \n Consecutive attacks temporarily increase attack damage by 5% up to a maximum of 25% \n Passive Ability
 
 
 [OBJECT:WildMountainOrcBrute]
@@ -64772,7 +64780,7 @@ Mountain-orc Brutes
 
 
 [CONTROLBAR:ConstructWildMountainOrcBruteHorde]
-Mountain-orc Bru&tes
+Mountain-orc Brutes (&E)
 
 
 [CONTROLBAR:ToolTipBuildWildMountainOrcBruteHorde]
@@ -64788,7 +64796,7 @@ Mountain-orc Scouts
 
 
 [CONTROLBAR:ConstructWildMountainOrcScoutHorde]
-Mountain-orc &Scouts
+Mountain-orc Scouts (&R)
 
 
 [CONTROLBAR:ToolTipBuildWildMountainOrcScoutHorde]
@@ -64816,7 +64824,7 @@ This Day We Fight!
 
 
 [CONTROLBAR:TooltipCampaignGloriousCharge]
-Modifier Type: Buff \n Heroes and cavalry gain +100% Damage and +300% Armor \n No force can slow this charge \n Stacks with Leadership and Spells \n Left click icon then left click on target units
+Modifier Type: Buff \n Heroes and cavalry gain +50% Damage and +150% Armor \n No force can slow this charge \n Stacks with Leadership and Spells \n Left click icon then left click on target units
 
 
 [TOOLTIP:Mansblood]
@@ -64828,11 +64836,11 @@ Mansblood
 
 
 [CONTROLBAR:PurchaseUpgradeMansblood]
-Purchase &Mansblood
+Purchase Mansblood (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMansblood]
-Drenches this Berserker in the blood of his enemies \n Each consecutive attack slightly raises the Berserker's damage by 10%
+Modifier type: Spell \n Drenches this Berserker in the blood of his enemies \n Each consecutive attack slightly raises the Berserker's damage by 10% for 5 seconds
 
 
 [TOOLTIP:ThickSkin]
@@ -64844,7 +64852,7 @@ Thick Skin
 
 
 [CONTROLBAR:PurchaseUpgradeThickSkin]
-Purchase Thic&k Skin
+Purchase Thick Skin (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeThickSkin]
@@ -64860,11 +64868,11 @@ Iron Fist
 
 
 [CONTROLBAR:PurchaseUpgradeIronFist]
-Purchase &Iron Fist
+Purchase Iron Fist (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIronFist]
-Grants this Berserker the rank of Captain \n Nearby Uruks gain +15% attack damage and +15% movement speed
+Modifier Type: Leadership \n Grants this Berserker the rank of Captain \n Nearby Uruks gain +15% attack damage and +15% movement speed
 
 
 [CONTROLBAR:LW_Unit_MordorGreatBeast]
@@ -64983,7 +64991,7 @@ Gundabad Berserkers (&T)
 
 
 [CONTROLBAR:ToolTipBuildWildGundabadBerserkerHorde]
-Requires Level 2 Mountain-orc Lodge \n and the Allegiance: Gundabad upgrade \n Strong vs. Pikemen and Cavalry\n \n Mount Gundabad has long been occupied by large, fierce orcs under the command of Azog and his spawn.
+Requires Level 3 Mountain-orc Lodge \n Strong vs. Pikemen and Cavalry\n \n Mount Gundabad has long been occupied by large, fierce orcs under the command of Bolg of the North.
 
 
 [OBJECT:WildGundabadBerserkerHorde]
@@ -65067,11 +65075,11 @@ Unit Type: Siege\nStrong vs. Structures\n
 
 
 [CONTROLBAR:FellDetermination]
-Fell Dete&rmination
+Fell Determination (&R)
 
 
 [CONTROLBAR:ToolTipFellDetermination]
-Requires Level 2 \n Gundabad Berserkers briefly gain \n +100% resistance to knockback \n +33% armor \nLeft click to activate
+Requires Level 2 \n Gundabad Berserkers briefly gain \n +100% resistance to knockback \n +33% damage \nLeft click to activate
 
 
 [CONTROLBAR:ConstructGuldurLumberMill]
@@ -65087,7 +65095,7 @@ Provides misery as a resource based on available terrain \n Can spawn hordes of 
 
 
 [CONTROLBAR:ConstructGuldurSlaveMill]
-Summon Slave Mill (&R)
+Summon Slave Mill (&W)
 
 
 [CONTROLBAR:TooltipConstructGuldurSlaveMill]
@@ -65103,7 +65111,7 @@ Provides corruption as a resource based on available terrain \n Trains Blighted 
 
 
 [CONTROLBAR:ConstructGuldurFountOfCorruption]
-Summon Fount of Corru&ption
+Summon Fount of Corruption (&R)
 
 
 [CONTROLBAR:ToolTipConstructGuldurFountOfCorruption]
@@ -65119,7 +65127,7 @@ Blighted Trappers
 
 
 [CONTROLBAR:ConstructGuldurWoodsmenHorde]
-Blighted &Trappers
+Blighted Trappers (&E)
 
 
 [CONTROLBAR:ToolTipBuildGuldurWoodsmenHorde]
@@ -65127,7 +65135,7 @@ Requires Level 2 Fount of Corruption \n Strong vs. Archers and Monsters \n\nPara
 
 
 [CONTROLBAR:GuldurNoxiousDarts]
-Nox&ious Darts
+Noxious Darts (&R)
 
 
 [CONTROLBAR:ToolTipGuldurNoxiousDarts]
@@ -65135,7 +65143,7 @@ Requires Level 2\nBlighted Trappers temporarily deal poison damage\nDeals additi
 
 
 [CONTROLBAR:GuldurParasiticEmbrace]
-&Parasitic Embrace
+Parasitic Embrace (&T)
 
 
 [CONTROLBAR:ToolTipGuldurParasiticEmbrace]
@@ -65155,7 +65163,7 @@ Broken Rabble
 
 
 [CONTROLBAR:ConstructGuldurBrokenRabbleHorde]
-Bro&ken Rabble
+Broken Rabble (&E)
 
 
 [CONTROLBAR:ToolTipBuildGuldurBrokenRabbleHorde]
@@ -65175,7 +65183,7 @@ Orc Gaolers - Orc Hunters
 
 
 [CONTROLBAR:ConstructGuldurOrcArcherHorde]
-Orc Hun&ters
+Orc Hunters (&T)
 
 
 [CONTROLBAR:ToolTipBuildGuldurOrcArcherHorde]
@@ -65183,11 +65191,11 @@ Strong vs. Infantry \n Can stealth near trees \n\n When evil stirs, orcs are gat
 
 
 [CONTROLBAR:BringItDown]
-Br&ing It Down!
+Bring It Down! (&V)
 
 
 [CONTROLBAR:ToolTipBringItDown]
-Requires Level 2 and Fire Arrows\nTemporarily increases damage to Flying units\nLeft click to activate
+Requires Level 2\nTemporarily increases damage to Flying units\nLeft click to activate
 
 
 [OBJECT:GuldurOrcPikeman]
@@ -65199,7 +65207,7 @@ Orc Gaolers
 
 
 [CONTROLBAR:ConstructGuldurOrcPikemanHorde]
-Orc &Gaolers
+Orc Gaolers (&G)
 
 
 [CONTROLBAR:ToolTipBuildGuldurOrcPikemanHorde]
@@ -65215,7 +65223,7 @@ Orc Ravagers
 
 
 [CONTROLBAR:ConstructGuldurOrcRavagerHorde]
-Orc &Ravagers
+Orc Ravagers (&S)
 
 
 [CONTROLBAR:ToolTipBuildGuldurOrcRavagerHorde]
@@ -65223,11 +65231,11 @@ Requires Level 2 Guldur Gaol \nStrong vs. Structures and Infantry \n\n The Necro
 
 
 [CONTROLBAR:AppetiteForDestruction]
-A&ppetite for Destruction
+Appetite for Destruction (&W)
 
 
 [CONTROLBAR:ToolTipAppetiteForDestruction]
-Requires Level 2\nOrc Ravagers temporarily do knockback damage and regain health per hit against structures\nLeft click to activate
+Requires Level 3\nOrc Ravagers temporarily do knockback damage and regain health per hit against structures\nLeft click to activate
 
 
 [OBJECT:GuldurTombGuard]
@@ -65239,7 +65247,7 @@ Tomb Guard
 
 
 [CONTROLBAR:ConstructGuldurTombGuardHorde]
-To&mb Guard
+Tomb Guard (&D)
 
 
 [CONTROLBAR:ToolTipBuildGuldurTombGuardHorde]
@@ -65271,7 +65279,7 @@ Unburied Wights
 
 
 [CONTROLBAR:ConstructUnburiedWight]
-Unburied &Wights
+Unburied Wights (&W)
 
 
 [CONTROLBAR:ToolTipBuildGuldurUnburiedWight]
@@ -65291,7 +65299,7 @@ Strong vs. Pikemen\n\nThe Necromancer is in command of a great number of phantom
 
 
 [CONTROLBAR:ConstructGuldurHarbingerHorde]
-Harbingers of Shado&w
+Harbingers of Shadow (&E)
 
 
 [CONTROLBAR:ToolTipBuildGuldurHarbingerHorde]
@@ -65359,7 +65367,7 @@ Orc Hunters and Gaolers may be turned into Risen Dead,\nfast-moving shock troops
 
 
 [CONTROLBAR:NecromancySummon]
-Necromanc&y
+Necromancy (&T)
 
 
 [CONTROLBAR:ToolTipNecromancySummon]
@@ -65371,7 +65379,7 @@ Corrupted Entwife
 
 
 [CONTROLBAR:ConstructEntwife]
-Corrupted E&ntwife
+Corrupted Entwife (&R)
 
 
 [CONTROLBAR:ToolTipBuildEntwife]
@@ -65383,11 +65391,11 @@ Twisted Botany
 
 
 [CONTROLBAR:ToolTipTwistedBotany]
-Entwives can enter the Fount to grant it\n+10% resource production\nPassive ability
+Entwives can enter the Fount to grant it\n+30% resource production\nPassive ability
 
 
 [CONTROLBAR:ToolTipTwistedBotanyExit]
-Entwives can enter the Fount to grant it\n+10% resources production\nOrder the Entwife to leave the Fount of Corruption
+Entwives can enter the Fount to grant it\n+30% resources production\nOrder the Entwife to leave the Fount of Corruption
 
 
 [OBJECT:GuldurTumorousAcorn]
@@ -65419,7 +65427,7 @@ Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed\nIncreases c
 
 
 [CONTROLBAR:ConstructGuldurGaol]
-Summon Guldur &Gaol
+Summon Guldur Gaol (&T)
 
 
 [CONTROLBAR:ToolTipConstructGuldurGaol]
@@ -65427,11 +65435,11 @@ Trains Broken Rabble and Orc units \n Increases command point limit by 25
 
 
 [CONTROLBAR:ConstructGuldurGaol2Upgrade]
-&Upgrade Guldur Gaol to Level 2
+Upgrade Guldur Gaol to Level 2 (&A)
 
 
 [CONTROLBAR:ConstructGuldurGaol3Upgrade]
-&Upgrade Guldur Gaol to Level 3
+Upgrade Guldur Gaol to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildGuldurGaol2Upgrade]

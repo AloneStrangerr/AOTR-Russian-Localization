@@ -66119,7 +66119,7 @@ Orc Gaolers
 
 
 [CONTROLBAR:ConstructGuldurOrcPikemanHorde]
-Orc Gaolers (&R)
+Orc Gaolers (&G)
 
 
 [CONTROLBAR:ToolTipBuildGuldurOrcPikemanHorde]
@@ -66231,7 +66231,7 @@ Empowers nearby Dol Guldur units\nCounters Slow Decay and buffs armour and damag
 
 
 [CONTROLBAR:GuldurInfestation]
-Infestation (&W)
+Infestation (&I)
 
 
 [CONTROLBAR:ToolTipGuldurInfestation]
