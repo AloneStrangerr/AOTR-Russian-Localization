@@ -68119,7 +68119,7 @@ Enemies within the radius are stunned for 5 seconds and receive poison damage\nL
 
 
 [CONTROLBAR:ShelobFellStinger]
-Fell St&inger
+Fell Stinger (&T)
 
 
 [CONTROLBAR:ToolTipShelobFellStinger]
@@ -68143,7 +68143,7 @@ Requires Level 2\nMountain Orc Scouts temporarily slow Monsters and Flyers by 50
 
 
 [CONTROLBAR:SpecialAbilityTouchofRuin]
-Touch of &Ruin
+Touch of Ruin (&R)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityTouchofRuin]
@@ -68187,7 +68187,7 @@ Warriors of the Kinn-lai
 
 
 [CONTROLBAR:ConstructKinnLaiHorde]
-Warriors of the &Kinn-lai
+Warriors of the Kinn-lai (&W)
 
 
 [CONTROLBAR:ToolTipBuildKinnLaiHordeForInn]
@@ -68195,7 +68195,7 @@ Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive
 
 
 [CONTROLBAR:ArtOfWar]
-Ar&t of War
+Art of War (&R)
 
 
 [CONTROLBAR:ToolTipArtOfWar]
@@ -68211,7 +68211,7 @@ Requires Level 2\nElven units regain health while outside of combat\nPassive abi
 
 
 [CONTROLBAR:ThornedBarbs]
-&Thorned Barbs
+Thorned Barbs (&T)
 
 
 [CONTROLBAR:ToolTipThornedBarbs]
@@ -68219,11 +68219,11 @@ Requires Level 3\nBriefly stuns enemy units \n Left click icon then left click o
 
 
 [CONTROLBAR:MirkwoodHorseMastery]
-Horse &Mastery
+Horse Mastery (&R)
 
 
 [CONTROLBAR:ToolTipMirkwoodHorseMastery]
-Requires Level 2\n Outriders temporarily gain +50% Armor and +50% Speed \n Left click to activate
+Requires Level 2\n Outriders temporarily gain +50% Armor and +20% Speed \n Left click to activate
 
 
 [CONTROLBAR:UrsineBlood]
@@ -68235,18 +68235,22 @@ Allows Beorning Berserkers to quickly recover outside of combat\nPassive ability
 
 
 [CONTROLBAR:ElvenPrecision]
-Elven &Precision
+Elven Precision (&R)
 
 
 [CONTROLBAR:ToolTipElvenPrecision]
 Requires Level 3 \n Temporarily increases attack range and damage by 25% at the cost of 50% movement speed \n Left click to activate
 
 [CONTROLBAR:FerenCommander]
-&Commander of Eryn Lasgalen
+Commander of Eryn Lasgalen (&R)
+
+
+[CONTROLBAR:FerenCommanderNoShortcut]
+Commander of Eryn Lasgalen
 
 
 [CONTROLBAR:ToolTipFerenCommander]
-Summons a battalion of Taurdrim \nAt rank 3, includes an additional battalion of Greenwood Spearmen\nAt rank 6, two of both\nAt rank 10, includes an additional battalion of Tamastirnyr\nLeft click to activate
+Summons a battalion of Taurdrim \nAt rank 5, includes an additional battalion of Greenwood Spearmen\nAt rank 10, two of both\nLeft click to activate
 
 
 [CONTROLBAR:SolemnDuty]
@@ -68262,11 +68266,11 @@ Requires level 2 \n Palace Guards grant Legolas and Thranduil +10% armour, up to
 
 
 [CONTROLBAR:ToggleMirkwoodWarriorsBlockFormation]
-Block For&mation
+Block Formation (&W)
 
 
 [CONTROLBAR:ToolTipToggleMirkwoodWarriorsBlockFormation]
-+33% Armor\n-40% Speed \n Reduces arrow damage by 33%
++33% Armor\n-40% Speed
 
 
 [CONTROLBAR:ToolTipToggleSindarNoblesLineFormation]
@@ -68282,7 +68286,7 @@ Loyal Companions
 
 
 [CONTROLBAR:PurchaseUpgradeLoyalCompanions]
-Purchase Loyal &Companions
+Purchase Loyal Companions (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeLoyalCompanions]
@@ -68294,15 +68298,15 @@ Dark Premonitions
 
 
 [CONTROLBAR:ToolTipFaithfulPremonitions]
-Druids can target units to decrease their speed by 5% up to 25%\nand buildings to decrease their armor by 5% up to 25%\n Passive ability
+Druids can target units to decrease their damage by 15% \nand buildings to decrease their armor by 15%\n\n Nearby Woodmen Hunters gain +33% crush armour and resistance to fear and terror \n Passive ability
 
 
 [CONTROLBAR:BlessingofAldaron]
-B&lessing of Aldaron
+Blessing of Aldaron (&R)
 
 
 [CONTROLBAR:ToolTipBlessingofAldaron]
-Can be cast on friendly units to restore\na medium amount of health \n Left click icon then left click on target area
+Can be cast on friendly units to replenish fallen units \n Left click icon then left click on target area
 
 
 [UPGRADE:BlessingofAldaron]
@@ -68314,11 +68318,11 @@ Blessing of Aldaron
 
 
 [CONTROLBAR:PurchaseUpgradeBlessingofAldaron]
-Purchase B&lessing of Aldaron
+Purchase Blessing of Aldaron (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeBlessingofAldaron]
-Allows Druid to use the Blessing of Aldaron ability \n Can be cast on friendly units to restore\na medium amount of health
+Allows Druid to use the Blessing of Aldaron ability \n Can be cast on friendly units to replenish fallen units
 
 
 [OBJECT:WardingStones]
@@ -68330,7 +68334,7 @@ Friendly units within the circle receive +33% armor
 
 
 [CONTROLBAR:WardingStones]
-&Warding Stones
+Warding Stones (&T)
 
 
 [CONTROLBAR:TooltipWardingStones]
@@ -68346,7 +68350,7 @@ Warding Stones
 
 
 [CONTROLBAR:PurchaseUpgradeWardingStones]
-Purchase &Warding Stones
+Purchase Warding Stones (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWardingStones]
@@ -68354,7 +68358,7 @@ Allows Druid to use the Warding Stones ability \n Places a temporary circle of W
 
 
 [CONTROLBAR:RitualofOak]
-&Ritual of Oak
+Ritual of Oak (&C)
 
 
 [CONTROLBAR:ToolTipRitualofOak]
@@ -68370,7 +68374,7 @@ Ritual of Oak
 
 
 [CONTROLBAR:PurchaseUpgradeRitualofOak]
-Purchase &Ritual of Oak
+Purchase Ritual of Oak (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRitualofOak]
@@ -68378,11 +68382,11 @@ Allows Druid to use the Ritual of Oak ability \n Summons a sacred Oak tree that 
 
 
 [CONTROLBAR:PotionofPotency]
-&Potion of Potency
+Potion of Potency (&V)
 
 
 [CONTROLBAR:ToolTipPotionofPotency]
-Modifier Type: Spell \n Targeted hero temporarily gains +75% armor\nand +25% damage\n Stacks with Leadership and Spells \n Left click icon then left click on target hero
+Modifier Type: Spell \n Targeted hero is partially healed\nand gains +25% armor for 30 seconds\n Stacks with Leadership and Spells \n Left click icon then left click on target hero
 
 
 [UPGRADE:PotionofPotency]
@@ -68394,11 +68398,11 @@ Potion of Potency
 
 
 [CONTROLBAR:PurchaseUpgradePotionofPotency]
-Purchase &Potion of Potency
+Purchase Potion of Potency (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradePotionofPotency]
-Allows Druid to use the Potion of Potency ability \n Targeted hero temporarily gains +75% armor\nand +25% damage \n Stacks with Leadership and Spells
+Allows Druid to use the Potion of Potency ability \n Targeted hero is partially healed\nand gains +25% armor for 30 seconds \n Stacks with Leadership and Spells
 
 
 [OBJECT:SacredOak]
@@ -68410,7 +68414,7 @@ Generates a small amount of resources
 
 
 [CONTROLBAR:RighteousIndignation]
-&Righteous Indignation
+Righteous Indignation (&R)
 
 
 [CONTROLBAR:TooltipRighteousIndignation]
@@ -68418,7 +68422,7 @@ Requires Level 2 \n Nearby enemy units are terrified and Sindar Nobles temporari
 
 
 [CONTROLBAR:Feast]
-&Feast!
+Feast! (&W)
 
 
 [CONTROLBAR:ToolTipFeast]
@@ -68430,11 +68434,11 @@ Awakened Tree
 
 
 [CONTROLBAR:MarkofBema]
-&Mark of Béma
+Mark of Béma (&R)
 
 
 [CONTROLBAR:ToolTipMarkofBema]
-For 30 seconds, target unit or hero is marked by the Woodmen Hunters \n The target takes 50% more damage from Woodmen attacks \n Left click then left click on target
+For 30 seconds, target unit or hero is marked by the Woodmen Hunters \n Marked enemies suffer 20 additional damage from Woodsmen attacks for 30 seconds \n Left click then left click on target
 
 
 [CONTROLBAR:ToggleWoodmenWeaponsAxe]
@@ -68446,7 +68450,7 @@ Swi&tch to Bow
 
 
 [CONTROLBAR:ToggleWoodmenWeapons]
-Swi&tch Weapon
+Switch Weapon (&W)
 
 
 [CONTROLBAR:ToolTipToggleWoodmenWeapons]
@@ -68454,7 +68458,7 @@ Left click to switch weapons\n\n Bows strong vs. normal infantry and monsters \n
 
 
 [CONTROLBAR:ElvenAffinity]
-E&lven Affinity
+Elven Affinity (&R)
 
 
 [CONTROLBAR:ToolTipElvenAffinity]
@@ -68462,7 +68466,7 @@ Requires level 2 \n All nearby allied Mirkwood Elves gain +10% armour up to a ma
 
 
 [CONTROLBAR:RoughExterior]
-&Rough Exterior
+Rough Exterior (&R)
 
 
 [CONTROLBAR:ToolTipRoughExterior]
@@ -68470,7 +68474,7 @@ Requires Level 3 \n Temporarily increases resistance to ranged damage by +50%
 
 
 [CONTROLBAR:BeorningRage]
-&Wild Rage
+Wild Rage (&T)
 
 
 [CONTROLBAR:ToolTipBeorningRage]
@@ -68482,7 +68486,7 @@ Woodmen's Hound
 
 
 [CONTROLBAR:ConstructMirkwoodBatteringRam]
-Beorning Battering &Ram
+Beorning Battering Ram (&W)
 
 
 [OBJECT:MirkwoodBatteringRam]
@@ -68498,7 +68502,7 @@ Breaks down castle gates and enemy structures \n \n Strong as bears, the Beornin
 
 
 [CONTROLBAR:ConstructMirkwoodBallista]
-H&aehadron
+Haehadron (&E)
 
 
 [OBJECT:MirkwoodBallista]
@@ -68518,17 +68522,17 @@ Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
 
 
 [CONTROLBAR:ConstructMirkwoodSiegeGrounds]
-Build S&iege Grounds
+Build Siege Grounds (&N)
 
 
 [CONTROLBAR:ToolTipConstructMirkwoodSiegeGrounds]
 Constructs and upgrades siege engines\n At rank 2, repairs nearby siege engines \n Increases command point limit by 25
 
 [CONTROLBAR:ConstructMirkwoodSiegeGroundsLevel2Upgrade]
-&Upgrade Siege Grounds to Level 2
+Upgrade Siege Grounds to Level 2 (&A)
 
 [CONTROLBAR:ConstructMirkwoodSiegeGroundsLevel3Upgrade]
-&Upgrade Siege Grounds to Level 3
+Upgrade Siege Grounds to Level 3 (&A)
 
 [CONTROLBAR:ToolTipBuildMirkwoodSiegeGroundsLevel2Upgrade]
 Allows training of Haehadron \n Heals nearby damaged siege machines \n +10% Faster Build Speed
@@ -68537,7 +68541,10 @@ Allows training of Haehadron \n Heals nearby damaged siege machines \n +10% Fast
 +25% Faster Build Speed \n Increased healing to nearby damaged siege machines
 
 [CONTROLBAR:StopRightThere]
-Stop &Right There!
+Stop Right There! (&W)
+
+[CONTROLBAR:StopRightThereMirkwood]
+Stop Right There! (&T)
 
 [CONTROLBAR:ToolTipStopRightThere]
 Requires Level 2 \n Enemy units within the radius temporarily deal -33% damage and are slowed by 33% \n Left click on icon then left click on target battalion
@@ -68574,7 +68581,7 @@ Summons a Sentry Tower, providing strong line of sight \n \n Left click icon the
 Forth, Men of Darkness
 
 [CONTROLBAR:TooltipForthMenDarkness]
-Summons 2 battalions of Easterling Phalanx led by a Khân of Rhûn \n \n Left click icon then left click on target area
+Summons two battalions of heavy-armored Easterling Phalanx led by a Khân of Rhûn \n \n Left click icon then left click on target area
 
 [CONTROLBAR:CurseWindDemon]
 Curse of the Wind Demon
@@ -68604,7 +68611,7 @@ Summons three Khandish Chariots
 Unrelenting Sun
 
 [CONTROLBAR:TooltipUnrelentingSun]
-STILL A PLACEHOLDER
+Modifier Type: Spell \n Enemy units across the map are slowed by -33% and take damage over time - DAMAGE NOT IN YET \n Modifier Type: Buff \n Haradwaith units gain +33% movement speed \n Left click to activate
 
 [OBJECT:HaradOasis]
 Oasis
@@ -68613,7 +68620,15 @@ Oasis
 Oasis
 
 [CONTROLBAR:TooltipHaradOasis]
-Summons a palm tree surrounded by a natural moat of clear water. Nearby units are fortified and receive healing \n \n Left click icon then left click on target area
+Summons a palm tree surrounded by a natural moat of clear water \n Nearby units are passively healed and can be fortified by the Oasis' cleansing waters \n \n Left click icon then left click on target area
+
+
+[CONTROLBAR:CleansingWaters]
+Cleansing Waters (&W)
+
+
+[CONTROLBAR:ToolTipCleansingWaters]
+Instantly heals units for a moderate amount \n Affected units gain +50% armour and resistance to fear and terror for 60 seconds\n Left click icon then left click on target area
 
 [CONTROLBAR:BurningSands]
 Burning Sands
