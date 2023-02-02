@@ -58718,12 +58718,48 @@ Revive the fallen Chieftain, Wulfgar
 Wulfgar (&S)
 
 
+[CONTROLBAR:WulfgarSubjugation]
+Dunlending Subjugation
+
+
+[CONTROLBAR:ToolTipWulfgarSubjugation]
+Modifier type: Leadership \n Nearby Dunlendings and Wildmen units gain +50% damage\nStacks with buffs and spells\nPassive ability
+
+
 [CONTROLBAR:ShieldBash]
 Sh&ield Bash
 
 
 [CONTROLBAR:ToolTipShieldBash]
 Powerful attack that causes meta impact \n Left click icon then left click on target
+
+
+[CONTROLBAR:KingoftheHills]
+King of the Hills (&V)
+
+
+[CONTROLBAR:ToolTipKingoftheHills]
+Requires Level 8\nRallies nearby Dunlendings and Wildmen, temporarily increasing their armor by 200% \n Left click to activate
+
+
+[CONTROLBAR:WulfgarCrebainSummon]
+Dark Wings, Dark Words (&T)
+
+
+[CONTROLBAR:TooltipWulfgarCrebainSummon]
+Requires Level 3\nSummons two Crebain birds, Huginn and Muninn\nThey can scout and deal strong damage vs. heroes and monsters\nLeft click to activate
+
+
+[OBJECT:IsengardWulfgarCrebain]
+Crebain
+
+
+[OBJECT:IsengardWulfgarHuginn]
+Huginn
+
+
+[OBJECT:IsengardWulfgarMuginn]
+Muninn
 
 
 [CONTROLBAR:RagnarKingoftheHills]
@@ -58739,7 +58775,9 @@ Crow Banner (&C)
 
 
 [CONTROLBAR:ToolTipCrowBanner]
-Requires Level 7 \n Causes enemy units to flee, and summons two battalions of Household Guards\n Left click to activate
+Requires Level 5 \n Wulfgar summons a Crow Banner and one battalion of Dunlending Huskarls\n Enemies nearby the Crow Banner lose -20% armour and -25% damage \n Left click to activate
+
+
 [OBJECT:BuildmeanArmyStructure]
 Isengard War Camp
 
@@ -58755,6 +58793,29 @@ Wulfgar's Guard
 [OBJECT:HordeIsengardHouseHoldGuards]
 Wulfgar's Guards
 
+
+[CONTROLBAR:WulfgarMount]
+Mount Svadilfari / Dismount (&W)
+
+
+[CONTROLBAR:WulfgarMountTooltip]
+Left click to switch between \n mounted on Svadilfari and on foot
+
+
+[CONTROLBAR:BroadShields]
+&Broad Shields
+
+
+[CONTROLBAR:ToolTipBroadShields]
+Modifier Type: Spell \n Nearby friendly units in a small radius gain +33% armor \n Left click to activate
+
+
+[CONTROLBAR:DunlendingRallyingCry]
+Rallying Cry (&W)
+
+
+[CONTROLBAR:ToolTipDunlendingRallyingCry]
+Modifier Type: Spell \n Requires Rank 4 \n Nearby Wildmen and Dunlendings gain trample resistance and +15% movement speed \n Left click to activate
 
 [OBJECT:IsengardDunlandArcher]
 Dunlending Longbowman
@@ -58820,6 +58881,108 @@ Requires Clan Standing Level 2 and Dunlending Longhouse \n Elite Cavalry \nStron
 Unit Type: Elite Cavalry\nStrong vs. Archers\n
 
 
+[OBJECT:IsengardDunlandHuskarl]
+Dunlending Huskarl
+
+
+[OBJECT:DunlandHuskarlHorde]
+Dunlending Huskarls
+
+
+[CONTROLBAR:ConstructIsengardDunlandHuskarlHorde]
+Dunlending Huskarls (&T)
+
+
+[CONTROLBAR:ToolTipBuildIsengardDunlandHuskarlHorde]
+Requires Dunlending Longhouse Level 3\nElite Infantry \nStrong vs. Pikemen \n Limited to 3 \n \n The Huskarls of Frecalund are fierce fighters, gathered from respectable houses to serve as the king's personal guard.
+
+
+[CONTROLBAR:LW_Unit_IsengardDunlandHuskarl]
+Dunlending Huskarl
+
+
+[CONTROLBAR:LW_Unit_IsengardDunlandHuskarlHorde]
+Dunlending Huskarls Battalion
+
+
+[CONTROLBAR:LW_ToolTip_IsengardDunlandHuskarlHorde]
+\nUnit Type: Elite Infantry\nStrong vs. Pikemen
+
+
+[CONTROLBAR:LW_ToolTipBuild_IsengardDunlandHuskarlHorde]
+Unit Type: Elite Infantry\nStrong vs. Pikemen\n
+
+
+[CONTROLBAR:DunlandMordhauGrip]
+Mordhau Grip (&W)
+
+
+[CONTROLBAR:ToolTipDunlandMordhauGrip]
+Dunlending Huskarls temporarily use Mordhau grip \n Whilst active, Huskarls ignore unit armour and deal bonus damage vs heroes but do not deal splash damage \n Weak vs structures and spam units \n Left click to activate
+
+
+[CONTROLBAR:DunlandNobleLineage]
+Noble Lineage
+
+
+[CONTROLBAR:ToolTipDunlandNobleLineage]
+Modifier Type: Leadership\nNearby Wildmen and Dunlendings receive\n+50% experience gain and fear resistance\nPassive ability
+
+
+[CONTROLBAR:RecklessSwings]
+Reckless Swings
+
+
+[CONTROLBAR:ToolTipRecklessSwings]
+Requires Level 3 \n Consecutive attacks temporarily increase attack damage by 5% but reduce armour by 5% \n Passive ability
+
+
+[CONTROLBAR:LW_Unit_DunlandHuskarl]
+Dunlending Huskarl
+
+
+[CONTROLBAR:LW_Unit_DunlandHuskarlHorde]
+Dunlending Huskarl Battalion
+
+
+[CONTROLBAR:LW_ToolTip_DunlandHuskarlHorde]
+\nUnit Type: Elite Infantry\nStrong vs. Pikemen
+
+
+[CONTROLBAR:LW_ToolTipBuild_DunlandHuskarlHorde]
+Unit Type: Elite Infantry\nStrong vs. Pikemen
+
+[OBJECT:IsengardDunlandAxeman]
+Dunlending Axeman
+
+
+[OBJECT:DunlandAxemenHorde]
+Dunlending Axemen
+
+
+[CONTROLBAR:ConstructIsengardDunlandAxemenHorde]
+Dunlending Axemen (&W)
+
+
+[CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde]
+Elite Infantry \nStrong vs. Pikemen \n \n An axe, a shield, and a helmet. These are the most valuable possessions of any Dunnish warrior.
+
+
+[CONTROLBAR:LW_Unit_IsengardDunlandAxemen]
+Dunlending Axeman
+
+
+[CONTROLBAR:LW_Unit_IsengardDunlandAxemenHorde]
+Dunlending Axemen Battalion
+
+
+[CONTROLBAR:LW_ToolTip_IsengardDunlandAxemenHorde]
+\nUnit Type: Elite Infantry\nStrong vs. Pikemen
+
+
+[CONTROLBAR:LW_ToolTipBuild_IsengardDunlandAxemenHorde]
+Unit Type: Elite Infantry\nStrong vs. Pikemen
+
 [OBJECT:MordorEasterlingKataphract]
 Easterling Kataphrakt
 
@@ -58847,6 +59010,30 @@ Requires Level 3 Encampment and He Is Gathering All Evil To Him upgrade \nElite 
 [CONTROLBAR:LW_ToolTipBuild_MordorEasterlingKataphractHorde]
 Unit Type: Elite Cavalry\nStrong vs. Archers\n
 
+
+
+[OBJECT:ColdDrake]
+Cold Drake
+
+
+[CONTROLBAR:ColdDrakeScreech]
+Heart-freezing Roar (&W)
+
+
+[CONTROLBAR:TooltipColdDrakeScreech]
+Requires level 3 \n Stuns enemies in terror \n Left click to activate
+
+
+[CONTROLBAR:LW_Unit_WildColdDrake]
+Cold Drake
+
+
+[CONTROLBAR:LW_ToolTipBuild_WildColdDrake]
+Unit Type: Monster\nStrong vs. Infantry
+
+
+[CONTROLBAR:LW_ToolTip_WildColdDrake]
+\nUnit Type: Monster\nStrong vs. Infantry
 
 [OBJECT:WildGiantBat]
 Giant Bat
@@ -59083,7 +59270,7 @@ Blessing of Ulmo
 
 
 [CONTROLBAR:ToolTipBlessingofUlmo]
-Temporarily covers the map in rain\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness\n All friendly units gain immunity to fear and terror and are slowly healed\n Orchards generate +30% more resources and gain +25% Armor\n Benefits all Rivendell allies \n\n Left click to activate
+Temporarily covers the map in rain\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness\n All friendly units are slowly healed for 30 seconds\n Orchards gain +25% Armor for 3 minutes\n Extinguishes all fires \n\n Left click to activate
 
 
 [CONTROLBAR:Relics]
@@ -59339,7 +59526,7 @@ Reckless Assault
 
 
 [CONTROLBAR:ToolTipYoungDainRecklessAssault]
-Requires Level 3 \n Modifier Type: Spell and Active Debuff \n Targeted friendly units gain +33% Damage and +33% Armor\n Targeted enemy units suffer -25% Damage and -20% Armor \nNullifies enemy Leadership \n Stacks With Buffs, Leadership and other Spells \n Does not stack with other Debuffs \nLeft click icon then left click on target units
+Requires Level 5 \n Modifier Type: Spell\n Targeted friendly units gain +33% Damage \n Enemy leadership is nullified \n Stacks With Buffs, Leadership and other Spells
 
 
 [CONTROLBAR:YoungBalinTactician]
@@ -59578,6 +59765,9 @@ Prospectors
 
 [CONTROLBAR:ToolTipDwarvenProspectors]
 Requires Level 2 \n Nearby Dwarven Mines generate +3% resources \n Passive ability
+
+[OBJECT:TubDwarf]
+Rowdy Tub-dwarf
 
 [OBJECT:EredLuinRanger]
 Huruz-Khagal-zirak
