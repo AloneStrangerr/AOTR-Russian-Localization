@@ -59830,7 +59830,7 @@ The Rangers passively heal outside of combat \n Passive ability
 
 
 [CONTROLBAR:TraderMerchantsLeadership]
-Mercha&nts
+Merchants (&R)
 
 
 [CONTROLBAR:ToolTipTraderMerchantsActive]
@@ -59846,15 +59846,15 @@ Requires Level 2 \n Nearby allies collect resources per kill \n Passive ability
 
 
 [CONTROLBAR:ToolTipTraderTinkersLeadership]
-Requires Level 3 \n Passive Ability \n Modifier Type: Leadership \n All nearby siege units gain +15% Damage, +15% Speed, and an increased firing rate
+Requires Level 3 \n Passive Ability \n Modifier Type: Leadership \n All nearby siege units gain +15% Damage and +15% Speed
 
 
 [CONTROLBAR:TraderToymakers1]
-Toy&makers
+Toymakers (&C)
 
 
 [CONTROLBAR:TraderToymakers2]
-Set the&m off!
+Set them off! (&C)
 
 
 [CONTROLBAR:ToolTipTraderToymakers1]
@@ -59910,7 +59910,7 @@ Sulûn-abanul
 
 
 [CONTROLBAR:ConstructDwarfMangonel]
-&Sulûn-abanul
+Sulûn-abanul (&R)
 
 
 [CONTROLBAR:ToolTipBuildDwarfMangonel]
@@ -59918,7 +59918,7 @@ Mangonel \n Requires Level 2 Workshop \n Strong vs. Structures\n Only 6 allowed 
 
 
 [CONTROLBAR:DwarfToggleMangonelWeapons]
-S&witch Ammunition
+Switch Ammunition (&C)
 
 
 [CONTROLBAR:ToolTipDwarfToggleMangonelWeapons]
@@ -59982,7 +59982,7 @@ Revive the fallen Hero, Bilbo \n \n The Road goes ever on and on...
 
 
 [CONTROLBAR:ElvenBilboHotkey]
-B&ilbo
+Bilbo (&A)
 
 
 [OBJECT:Bilbo]
@@ -59990,7 +59990,7 @@ Bilbo
 
 
 [CONTROLBAR:BilboRiddleMaker]
-&Riddle Maker
+Riddle Maker (&T)
 
 
 [CONTROLBAR:TooltipBilboRiddleMaker]
@@ -60006,7 +60006,7 @@ Modifier Type: Spell \n Nearby allies in a large radius gain\n+50% Damage, +50% 
 
 
 [CONTROLBAR:BilboOldFriends]
-Old F&riends
+Old Friends (&V)
 
 
 [CONTROLBAR:TooltipBilboOldFriends]
@@ -60026,7 +60026,7 @@ Wraiths of Mordor
 
 
 [CONTROLBAR:ToolTipSummonGenericMordorSpy]
-Summons a small horde of wraiths\nWraiths are fast-moving units that reveal a lot of shroud, debuff nearby enemy units, and detect stealth \n Left click icon then left click on pathable location
+Summons a small horde of wraiths\nWraiths are fast-moving units that reveal a lot of shroud and detect stealth \n Nearby enemy units suffer -25% Damage and -20% Armor\n Left click icon then left click on pathable location
 
 
 [CONTROLBAR:SummonedWightDebuff]
@@ -60034,7 +60034,7 @@ Black Dread
 
 
 [CONTROLBAR:ToolTipSummonedWightDebuff]
-Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage, -30% Speed, and -20% Armor \n Does not stack with other Debuffs \n Passive ability
+Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs \n Passive ability
 
 
 [OBJECT:FishBarrel]
@@ -60042,7 +60042,7 @@ Fish Barrel
 
 
 [CONTROLBAR:FishBarrel]
-Honest Barge&man
+Honest Bargeman (&R)
 
 
 [CONTROLBAR:ToolTipFishBarrel]
@@ -60050,7 +60050,7 @@ Requires Level 3 \n Bard delivers several barrels of fish that heals nearby unit
 
 
 [CONTROLBAR:DalishSupremacy]
-Dalish Supremacy
+Dalish Supremacy (&W)
 
 
 [CONTROLBAR:InTheNameOf]
@@ -60082,7 +60082,7 @@ Ravens of Erebor
 
 
 [CONTROLBAR:ToolTipSummonRavens]
-Summons an unkindness of Ravens \n Reveals the shroud and detects stealthed units \n Modifier Type: Leadership \n Nearby friendly units gain +25% Damage and +5% Speed \n Stacks with Buffs and Spells  \n Left click icon then left click on target area
+Summons an unkindness of Ravens \n Reveals the shroud and detects stealthed units \n Modifier Type: Leadership \n Nearby friendly units gain +10% Speed \n Nearby enemy units lose -25% speed\n Stacks with Buffs and Spells\n Left click icon then left click on target area
 
 
 [CONTROLBAR:DeepDelving]
@@ -60090,7 +60090,7 @@ Deep Delving
 
 
 [CONTROLBAR:TooltipDeepDelving]
-+25% resources from Dwarven Mines \n Benefits all Dwarven allies \n Passive power
++15% resources from Dwarven Mines \n Passive power
 
 
 [CONTROLBAR:EreborCalltheHorde]
@@ -60148,7 +60148,7 @@ Recruit the mighty Dwarf warrior, Dwalin. \n \n ''The wild is no place for gentl
 Revive the fallen warrior, Dwalin
 
 [CONTROLBAR:DwalinHotkey]
-D&walin
+Dwalin (&G)
 
 
 [CONTROLBAR:DwalinLeadership]
@@ -60159,8 +60159,32 @@ Brother-in-Arms
 Modifier Type: Spell \n When near Thorin, Dwalin gains\n+15% Damage, +15% Armor, and +15% Attack Speed \n Stacks with Leadership, Buffs, and Spells \n Passive ability
 
 
+[CONTROLBAR:OldDwalinLeadership]
+Veteran
+
+
+[CONTROLBAR:ToolTipOldDwalinLeadership]
+Modifier Type: Leadership \n Nearby Dwarven units gain +15% damage and armour \n Stacks with Buffs and Spells \n Passive ability
+
+
+[CONTROLBAR:OldDwalinGloriousCharge]
+Baruk Khazâd! (&R)
+
+
+[CONTROLBAR:ToolTipOldDwalinGloriousCharge]
+Requires Level 3 \n Modifier type: Spell \n Nearby Dwarven units gain a 15% speed bonus and a 50% experience bonus and resistance to fear and terror \n Stacks with buffs, leadership and spells \n Left click to activate
+
+
+[CONTROLBAR:LonglivedWarrior]
+Long-lived Warrior (&T)
+
+
+[CONTROLBAR:ToolTipLonglivedWarrior]
+Dwalin temporarily gains +50% armor and regains health per hit \n Left click to activate
+
+
 [CONTROLBAR:DwalinJuggernaut]
-Dwarven &Juggernaut
+Dwarven Juggernaut (&C)
 
 
 [CONTROLBAR:ToolTipDwalinJuggernaut]
@@ -60168,7 +60192,7 @@ Requires Level 8 \n Modifier Type: Buff \n Dwalin temporarily gains\n+200% Armor
 
 
 [CONTROLBAR:DwalinSmash]
-Fu&rious Blow
+Furious Blow (&T)
 
 
 [CONTROLBAR:ToolTipDwalinSmash]
@@ -60176,7 +60200,7 @@ Requires Level 5 \n Dwalin slams the ground, knocking back enemy units and deali
 
 
 [CONTROLBAR:DwalinGloriousCharge]
-Bar&uk Khazâd!
+Baruk Khazâd! (&R)
 
 
 [CONTROLBAR:ToolTipDwalinGloriousCharge]
@@ -60229,39 +60253,39 @@ Allows training of Jungle Trolls
 
 
 [CONTROLBAR:ConstructAOTRSnowTroll]
-Snow Trol&l
+Snow Troll (&W)
 
 
 [CONTROLBAR:ToolTipBuildAOTRSnowTrollLair]
-Strong vs. Swordsmen and Structures
+Strong vs. Swordsmen and Structures \n\nSnow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty
 
 
 [CONTROLBAR:ConstructAOTRJungleTroll]
-Jungle Trol&l
+Jungle Troll (&W)
 
 
 [CONTROLBAR:ToolTipBuildAOTRJungleTrollLair]
-Strong vs. Swordsmen and Structures
+Strong vs. Swordsmen and Structures \n\n Under the far-stretching canopy of the jungles of Far Harad, there lived a unique breed of Trolls: their skin turned green and stony over the course of sunny generations, and their arms lengthened to accomodate the climbing of enormous trees. It took several centuries before these Jungle-trolls reentered the stories of Men - which they did fearsomely, destroying several Númenórean expeditions and their camps
 
 
 [CONTROLBAR:ConstructAOTRStoneTroll]
-Stone Trol&l
+Stone Troll (&W)
 
 
 [CONTROLBAR:ToolTipBuildAOTRStoneTrollLair]
-Strong vs. Swordsmen and Structures
+Strong vs. Swordsmen and Structures\n\n These Stone-trolls originate from the darkest, most hostile environments in the Misty Mountains. Their hides are tough, their grasping limbs long and powerful, and their cruelty is second to none
 
 
 [CONTROLBAR:ConstructAOTRHillTroll]
-Hill Trol&l
+Hill Troll (&W)
 
 
 [CONTROLBAR:ToolTipBuildAOTRHillTrollLair]
-Strong vs. Swordsmen and Structures
+Strong vs. Swordsmen and Structures \n\n Hill-trolls were commonly seen throughout Middle-earth, particularly in areas of hills and moorland. Greater in stature than men and covered in hard scales, these creatures are fearsome foes: Arabor, grandfather of Aragorn, was slain when ambushed by a company of Hill-trolls
 
 
 [CONTROLBAR:ConstructAOTRLossoth]
-Corrupted &Lossoth
+Corrupted Lossoth (&W)
 
 
 [CONTROLBAR:ToolTipBuildAOTRLossothHorde]
@@ -60291,7 +60315,7 @@ Gandalf's Cart
 
 
 [CONTROLBAR:GandalfGloriousCharge]
-Let's Risk A Little More &Light
+Let's Risk A Little More Light (&R)
 
 
 [CONTROLBAR:ToolTipGandalfGloriousCharge]
@@ -60307,7 +60331,7 @@ Drastically increases vision range and shroud reveal \n for a short time \n Left
 
 
 [CONTROLBAR:GandalfHalflingLeaf]
-Gandalf's &Cart
+Gandalf's Cart (&W)
 
 
 [CONTROLBAR:ToolTipGandalfHalflingLeaf]
@@ -60319,7 +60343,7 @@ Summons Gandalf's Travelling Cart\n Heals nearby allies \n Left click icon then 
 
 
 [CONTROLBAR:GandalfDisturber]
-Disturber of the &Peace
+Disturber of the Peace (&T)
 
 
 [CONTROLBAR:ToolTipGandalfDisturber]
@@ -60327,7 +60351,7 @@ Gandalf shoots off a peculiar firework at the selected target \n Left click icon
 
 
 [CONTROLBAR:GandalfFoeHammer]
-The Foe-Ha&mmer
+The Foe-Hammer (&C)
 
 
 [CONTROLBAR:ToolTipGandalfFoeHammer]
@@ -60335,7 +60359,11 @@ Requires Level 2 \n Shoots out lightning bolts from Glamdring \n Left click icon
 
 
 [CONTROLBAR:GandalfYouShallNotPass]
-You Shall &Not Pass
+You Shall Not Pass (&V)
+
+
+[CONTROLBAR:GandalfYouShallNotPassCampaign]
+You Shall Not Pass
 
 
 [CONTROLBAR:ToolTipGandalfYouShallNotPass]
@@ -60355,35 +60383,31 @@ Prince of Erebor
 
 
 [CONTROLBAR:ToolTipPrinceOfErebor]
-Whenever Thorin attacks, nearby troops gain +5% stackable damage for 5 seconds\nPassive ability
-
-
-[CONTROLBAR:DwarvenGrudge]
-Dwarven &Grudge
+Modifier Type: Leadership\nWhenever Thorin attacks, nearby troops gain +33% damage for 8 seconds\nPassive ability \n\n At level 5, Thorin is accompanied by three Khazâd-uzbadul
 
 
 [CONTROLBAR:ToolTipDwarvenGrudge]
-Thorin knocks back enemy units and gains +50% attack speed for 15 seconds\nLeft click icon then left click on target\n\nAt rank 3, Thorin passively returns a percentage of damage dealt to him\nPassive ability
+Thorin knocks back enemy units and gains +50% attack speed for 15 seconds\nPrince of Erebor's bonus is increased to 50% damage during that time\nLeft click icon then left click on target\n\nAt rank 3, Thorin passively returns a percentage of damage dealt to him\nPassive ability
 
 
 [CONTROLBAR:DurinsChosen]
-D&urin's Chosen
+Durin's Chosen (&T)
 
 
 [CONTROLBAR:ToolTipDurinsChosen]
-Requires Level 5 \n Thorin and nearby Dwarven units briefly gain resistance to knockback and +50% damage\nThorin can crush enemies\n Left click to activate
+Requires Level 5 \n Thorin and nearby Dwarven units gain resistance to knockback and +75% damage for 30 seconds\nThorin can crush enemies for the duration\n Left click to activate
 
 
 [CONTROLBAR:Stonehelm]
-S&tonehelm
+Stonehelm (&C)
 
 
 [CONTROLBAR:ToolTipStonehelm]
-Requires Level 8 \n Thorin exchanges his steel helmet for the Stonehelm and utters a terrifying shout. Enemies in his vicinity flee. Thorin's armor is temporarily increased by 50% \n Left click to activate
+Requires Level 8 \n Thorin dons the Stonehelm and permanently gains +50% armour\nPassive ability\n\nWhen activated, Thorin utters a terrifying shout, stunning enemies in his vicinity in terror for 15 seconds\nThorin and nearby friendly heroes gain +50% damage for 30 seconds\n Left click to activate
 
 
 [CONTROLBAR:KeenEye]
-&Keen Eye
+Keen Eye (&W)
 
 
 [CONTROLBAR:ToolTipKeenEye]
@@ -60391,7 +60415,7 @@ Nearby structures receive +25% armor \n Nearby Mangonels gain +10% range \n Pass
 
 
 [CONTROLBAR:HadhodSabotage]
-Sabo&tage
+Sabotage (&R)
 
 
 [CONTROLBAR:ToolTipHadhodSabotage]
@@ -60399,7 +60423,7 @@ Requires Level 3\nTarget enemy building takes heavy damage\nand is temporarily d
 
 
 [CONTROLBAR:HadhodStoneHewer]
-Stone He&wer
+Stone Hewer (&T)
 
 
 [CONTROLBAR:ToolTipHadhodStoneHewer]
@@ -60407,7 +60431,7 @@ Requires Level 6\nNearby Dwarven units deal +25% damage against structures\nPass
 
 
 [CONTROLBAR:BondsofFriendship]
-Bo&nds of Friendship
+Bonds of Friendship (&C)
 
 
 [CONTROLBAR:TooltipBondsofFriendship]
@@ -60415,7 +60439,7 @@ Requires Level 10\nSummons Elegost the Dúnadan to the battlefield\nLeft click to
 
 
 [CONTROLBAR:ElegostTrueShot]
-&True Shot
+True Shot (&W)
 
 
 [CONTROLBAR:ToolTipElegostTrueShot]
@@ -60423,7 +60447,7 @@ A high damage attack that stuns enemy units\nLeft click icon then left click on 
 
 
 [CONTROLBAR:ElegostHeal]
-Grace of &Kingsfoil
+Grace of Kingsfoil (&R)
 
 
 [CONTROLBAR:ToolTipElegostHeal]
@@ -60431,7 +60455,7 @@ For 15 seconds, Elegost heals nearby units and heroes over time\nLeft click to a
 
 
 [CONTROLBAR:ElegostRangerCraft]
-&Ranger Craft
+Ranger Craft (&T)
 
 
 [CONTROLBAR:ToolTipElegostRangerCraft]
@@ -60463,7 +60487,7 @@ Modifier Type: Leadership \n Units near Dáin gain +33% Damage, +33% Armor, and e
 
 
 [CONTROLBAR:EreborDainBarukKhazad]
-Bar&uk Khazâd!
+Baruk Khazâd! (&T)
 
 
 [CONTROLBAR:ToolTipEreborDainBarukKhazad]
@@ -60471,15 +60495,15 @@ Requires Level 3 \nPowerful attack that causes meta impact \n Can only be used w
 
 
 [CONTROLBAR:EreborDainRecklessAssault]
-&Reckless Assault
+Reckless Assault (&C)
 
 
 [CONTROLBAR:ToolTipEreborDainRecklessAssault]
-Requires Level 5 \n Modifier Type: Spell and Active Debuff \n Targeted friendly units gain +33% Damage and +33% Armor\n Targeted enemy units suffer -25% Damage and -20% Armor \nNullifies enemy Leadership \n Stacks With Buffs, Leadership and other Spells \n Does not stack with other Debuffs \nLeft click icon then left click on target units
+Requires Level 5 \n Modifier Type: Spell\n Targeted friendly units gain +33% Damage \n Nullifies enemy leadership \n Stacks With Buffs, Leadership and other Spells
 
 
 [CONTROLBAR:EreborDainToTheKing]
-To the &King!
+To the King! (&V)
 
 
 [CONTROLBAR:ToolTipEreborDainToTheKing]
@@ -60506,15 +60530,15 @@ Modifier Type: Leadership \n Fili gains +20% damage when near Kili\n Passive abi
 
 
 [CONTROLBAR:FiliAxeThrow]
-H&idden Blade
+Hidden Blade (&R)
 
 
 [CONTROLBAR:ToolTipFiliAxeThrow]
-Requires Level 3 \nFili deals heavy damage to a single target,\n temporarily crippling it \n Left click icon then left click on target
+Requires Level 3 \nFili deals heavy damage to a single target,\n temporarily crippling it for 10 seconds \n Left click icon then left click on target
 
 
 [CONTROLBAR:FiliSlayer]
-Dwarven Dexterit&y
+Dwarven Dexterity (&T)
 
 
 [CONTROLBAR:ToolTipFiliSlayer]
@@ -60530,7 +60554,7 @@ Requires Level 8 \nModifier Type: Leadership \n Basic Erebor Dwarves and Ered Lu
 
 
 [CONTROLBAR:KiliQuickshot]
-Qu&ick Shot
+Quick Shot (&C)
 
 
 [CONTROLBAR:ToolTipKiliQuickshot]
@@ -60538,11 +60562,11 @@ Requires Level 3 \n Kili gains increased damage and attack speed for a short per
 
 
 [CONTROLBAR:ToolTipToggleVWLineFormation]
-Default Line For&mation
+Default Line Formation (&W)
 
 
 [CONTROLBAR:ToggleVWPorcupineFormation]
-Stone-Wall For&mation
+Stone-Wall Formation (&W)
 
 
 [CONTROLBAR:ToolTipToggleVWPorcupineToLineFormation]
@@ -60550,7 +60574,7 @@ The units return to standard line formation
 
 
 [CONTROLBAR:ToolTipToggleVWLineToPorcupineFormation]
-Drastically increases armor at the cost of movement speed\nAlso makes Azaghâr-gundu immune to knockback and trample effects
+Increases armor by +50% at the cost of -50% movement speed\nAlso makes Azaghâr-gundu immune to knockback and trample effects
 
 
 [CONTROLBAR:VWLeadership]
@@ -60570,7 +60594,7 @@ Azaghâr-gundu
 
 
 [CONTROLBAR:ConstructEreborVWHorde]
-Aza&ghâr-gundu
+Azaghâr-gundu (&W)
 
 
 [CONTROLBAR:LW_Unit_EreborVWHorde]
