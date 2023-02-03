@@ -63999,6 +63999,11 @@ Esquire of Rohan
 Requires Level 5 \n Modifier Type: Leadership \n Merry gains +25 armor and +25% damage when near Eowyn \n Nearby heroes gain experience +50% faster \n Stacks with Buffs and Spells \n Merry's health is increased \n Passive ability
 
 
+
+[CONTROLBAR:FellowshipAthelasElladan]
+Athelas
+
+
 [CONTROLBAR:FellowshipAthelas]
 &Kingsfoil
 
@@ -64012,31 +64017,31 @@ Púkel-man Statue
 
 
 [OBJECT:RohanPukelStatueDescription]
-A Púkel-man statue harboring strange magic
+A Púkel-man statue harboring strange magic \n\n Nearby enemies lose -25% damage and -25% crush armour
 
 
 [CONTROLBAR:PukelMoveUnseen]
-&Secret Paths
+Secret Paths (&W)
 
 
 [CONTROLBAR:ToolTipPukelMoveUnseen]
-The Drúedain know of paths that others have long forgotten \n Allows all targeted allies to become temporarily stealthed \n Left click icon then left click on target units
+The Drúedain know of paths that others have long forgotten \n Allows all targeted allies to become stealthed for 30 seconds \n Left click icon then left click on target units
 
 
 [CONTROLBAR:PukelStoneSkin]
-Stone-S&kin
+Stone-Skin (&E)
 
 
 [CONTROLBAR:ToolTipPukelStoneSkin]
-The Púkel-men statues were said to harbor benign spirits, capable of shielding friends and warding off foes \n Units within the radius are temporarily frozen and cannot attack or be attacked \n Left click icon then left click on target units
+The Púkel-men statues were said to harbor benign spirits, capable of shielding friends and warding off foes \n Units within the radius are frozen and cannot attack or be attacked for 15 seconds \n Left click icon then left click on target units
 
 
 [CONTROLBAR:PukelFaithfulStone]
-&Faithful Stone
+Faithful Stone (&R)
 
 
 [CONTROLBAR:ToolTipPukelFaithfulStone]
-A long-forgotten tale tells of a faithful stone guardian coming alive to guard the house of a friend \n When cast on a structure, said structure is temporarily defended by a mysterious Drúedain warrior \n Left click icon then left click on target building
+A long-forgotten tale tells of a faithful stone guardian coming alive to guard the house of a friend \n When cast on a structure, said structure is defended by a mysterious Drúedain warrior for 60 seconds \n Left click icon then left click on target building
 
 
 [OBJECT:DruedainWarrior]
@@ -64044,7 +64049,7 @@ Drúedain Warrior
 
 
 [CONTROLBAR:ConstructRohanBatteringRam]
-Horse-head &Ram
+Horse-head Ram (&W)
 
 
 [OBJECT:RohanBatteringRam]
@@ -64056,7 +64061,7 @@ Breaks down castle gates and enemy structures \n \n The Rohirrim associated hors
 
 
 [CONTROLBAR:ConstructRohanMangonel]
-Rohirric Ona&ger
+Rohirric Onager (&E)
 
 
 [OBJECT:RohanMangonel]
@@ -64064,7 +64069,7 @@ Rohirric Onager
 
 
 [CONTROLBAR:SpecialAbilityHayBale]
-Launch Ha&y Bale
+Launch Hay Bale (&T)
 
 
 [CONTROLBAR:TooltipSpecialAbilityHayBale]
@@ -64084,7 +64089,7 @@ Requires Level 2\nTemporarily allows the unit to fire while moving
 
 
 [CONTROLBAR:ImladrisDunedainGarrison]
-&Dúnedain Sentries
+Dúnedain Sentries (&T)
 
 
 [CONTROLBAR:ToolTipImladrisDunedainGarrison]
@@ -64096,7 +64101,7 @@ Requires Level 2 Encampment \nBreaks down castle gates and enemy structures \n \
 
 
 [CONTROLBAR:ConstructRohanHelmingasWardenHorde]
-Helmingas &Warriors
+Helmingas Warriors (&T)
 
 
 [CONTROLBAR:ToolTipBuildRohanHelmingasWardenHorde]
@@ -64120,7 +64125,7 @@ Nearby enemies lose 10% armour and damage and have reduced fear resistance\nEach
 
 
 [CONTROLBAR:GreyCompanySilentDefenders]
-Silent D&efenders
+Silent Defenders (&T)
 
 
 [CONTROLBAR:ToolTipGreyCompanySilentDefenders]
@@ -64128,7 +64133,7 @@ Requires Level 3\nAragorn, Halbarad and the Sons of Elrond passively gain +25% D
 
 
 [CONTROLBAR:GreyCompanyHunt]
-S&killed Hunters
+Skilled Hunters (&C)
 
 
 [CONTROLBAR:ToolTipGreyCompanyHunt]
@@ -64152,7 +64157,7 @@ Unexpected Party
 
 
 [CONTROLBAR:FattyBolgerSpeed]
-&Run, Fatty, Run!
+Run, Fatty, Run! (&W)
 
 
 [CONTROLBAR:TooltipFattyBolgerSpeed]
@@ -64217,19 +64222,19 @@ Modifier Type: Leadership \n Fiefdom troops near Forlong earn experience 33% fas
 
 
 [CONTROLBAR:ForlongVitality]
-Vitalit&y
+Vitality (&R)
 
 
 [CONTROLBAR:TooltipForlongVitality]
-Requires Level 3 \n Forlong temporarily deals knockback and gains\n+50% Damage and +25% Speed\n Left click to activate
+Requires Level 3 \n Forlong deals knockback and gains\n+50% Damage and +25% Speed for 30 seconds\n Left click to activate
 
 
 [CONTROLBAR:ForlongTrueHeartTrueFriend]
-Tr&ue Heart, True Friend
+True Heart, True Friend (&T)
 
 
 [CONTROLBAR:ToolTipForlongTrueHeartTrueFriend]
-Requires Level 7 \n Modifier Type: Spell \n Forlong temporarily empowers a friendly hero, granting them 50% armor, 50% faster experience gain, and 75% faster power recharge times \n Stacks with Leadership and Spells \n Left click icon then left click on target hero
+Requires Level 7 \n Modifier Type: Spell \n Forlong temporarily empowers a friendly hero, granting them 50% armor, 50% faster experience gain, and 75% faster power recharge times for 30 seconds\n Stacks with Leadership and Spells \n Left click icon then left click on target hero
 
 
 [UPGRADE:DreadHelmet]
@@ -64241,7 +64246,7 @@ Dread Helmet
 
 
 [CONTROLBAR:PurchaseUpgradeDreadHelmet]
-Purchase Dread Helme&t
+Purchase Dread Helmet (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDreadHelmet]
@@ -64257,7 +64262,7 @@ Serrated Armor
 
 
 [CONTROLBAR:PurchaseUpgradeSerratedArmor]
-Purchase Serrated A&rmor
+Purchase Serrated Armor (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeSerratedArmor]
@@ -64273,7 +64278,7 @@ Scythe Gauntlets
 
 
 [CONTROLBAR:PurchaseUpgradeScytheGauntlets]
-Purchase Scythe Gaunt&lets
+Purchase Scythe Gauntlets (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeScytheGauntlets]
@@ -64665,7 +64670,7 @@ The Doors of Durin
 
 
 [CONTROLBAR:RohanFarmProduction]
-Farm P&roduction
+Farm Production (&W)
 
 
 [CONTROLBAR:ToolTipRohanFarmProduction]
@@ -64673,7 +64678,7 @@ Switch to resource production
 
 
 [CONTROLBAR:RohanPeasantry]
-Peasant&ry of the Mark
+Peasantry of the Mark (&W)
 
 
 [CONTROLBAR:ToolTipRohanPeasantry]
@@ -64697,7 +64702,7 @@ Modifier Type: Leadership \n The Sentinels gain +15% armor near structures \n an
 
 
 [CONTROLBAR:PurchaseTunnelCollapse]
-Purchase Tunnel Colla&pse Upgrade
+Purchase Tunnel Collapse Upgrade (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseTunnelCollapse]
@@ -64705,7 +64710,7 @@ Allows the Dwarven Mine to damage and stun nearby units\n but reduces resource p
 
 
 [CONTROLBAR:TunnelCollaspe]
-Tunnel Colla&pse
+Tunnel Collapse (&W)
 
 
 [CONTROLBAR:ToolTipTunnelCollaspe]
@@ -64717,7 +64722,7 @@ Tunnel Collapse Upgrade
 
 
 [CONTROLBAR:SongForVictory]
-So&ng of Finwë
+Song of Finwë (&R)
 
 
 [CONTROLBAR:ToolTipSongForVictoryGuards]
@@ -64737,7 +64742,7 @@ The seasoned warriors sing a song of past victories \nRoquentari temporarily gai
 
 
 [CONTROLBAR:EyesoftheCrow]
-Eyes of the &Crow
+Eyes of the Crow (&R)
 
 
 [CONTROLBAR:ToolTipEyesoftheCrow]
@@ -64745,7 +64750,7 @@ Requires Level 2 \n The Longbowmen temporarily gain +25% Range and \n +25% Damag
 
 
 [CONTROLBAR:WildCharge]
-&Wild Charge
+Wild Charge (&W)
 
 
 [CONTROLBAR:ToolTipWildCharge]
@@ -64753,7 +64758,7 @@ Requires Level 2 \n The Outriders temporarily gain increased +25% Speed and Tram
 
 
 [CONTROLBAR:ThickSkull]
-Thic&k Skull
+Thick Skull (&W)
 
 
 [CONTROLBAR:ToolTipThickSkull]
@@ -64781,7 +64786,7 @@ Level 2: +10% Faster Build Speed \nLevel 3: +25% Faster Build Speed
 
 
 [CONTROLBAR:ToolTipBuildWildMountainLodgeLevel3Upgrade]
-Allows training of Horrors of Gram \n+25% Faster Build Speed
+Allows training of Bolg's Bodyguard \n+25% Faster Build Speed
 
 
 [CONTROLBAR:AngmarCitadel]
@@ -64805,7 +64810,7 @@ Nearby enemy units are slowed and lose all leadership \n Passive Ability
 
 
 [CONTROLBAR:HelmingasShieldCrush]
-Fo&r the Hornburg!
+For the Hornburg! (&R)
 
 
 [CONTROLBAR:ToolTipHelmingasShieldCrush]
@@ -64813,7 +64818,7 @@ The Helmingas can crush enemies and are immune to arrows for a short duration
 
 
 [CONTROLBAR:MarkOfHelm]
-Mar&k of Helm
+Mark of Helm (&T)
 
 
 [CONTROLBAR:ToolTipMarkOfHelm]
@@ -64821,7 +64826,7 @@ Requires Level 3 \n The Helmingas grant the Mark of Helm to an allied unit, \n c
 
 
 [CONTROLBAR:MarkOfFreca]
-Mark of Fre&ca
+Mark of Freca (&C)
 
 
 [CONTROLBAR:ToolTipMarkOfFreca]
@@ -64829,7 +64834,7 @@ Requires Level 6 \n The Helmingas grant the Mark of Freca to an enemy unit, \n c
 
 
 [CONTROLBAR:SurrenderArms]
-Surrender A&rms
+Surrender Arms (&T)
 
 
 [CONTROLBAR:ToolTipSurrenderArms]
@@ -64845,7 +64850,7 @@ Increases resources from farms by 15% \n Passive Ability
 
 
 [CONTROLBAR:GreatBeastChargeAttack]
-Stam&pede
+Stampede (&W)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityGreatBeastChargeAttack]
@@ -64861,7 +64866,7 @@ Requires Level 2 \n Spawns a carriage with orcish archers on the Great Beast's b
 
 
 [CONTROLBAR:GreatBeastGrog]
-G&ive 'Em Some Grog!
+Give 'Em Some Grog! (&T)
 
 
 [CONTROLBAR:TooltipSpecialAbilityGreatBeastGrog]
@@ -64869,7 +64874,7 @@ Requires Level 3 \n Allows the orcs to toss a barrel of highly volatile grog \n 
 
 
 [CONTROLBAR:GreatBeastFear]
-Beast of &War
+Beast of War (&C)
 
 
 [CONTROLBAR:TooltipSpecialAbilityGreatBeastFear]
@@ -64877,7 +64882,7 @@ Requires Level 5 \n Causes enemy units to cower in fear \n Left click on icon
 
 
 [CONTROLBAR:UpgradeArnorFireArrowsBattleTower]
-S&wan-Feathered Arrows
+Swan-Feathered Arrows (&W)
 
 
 [CONTROLBAR:TooltipPurchaseUpgradeArnorFireArrowsBattleTower]
@@ -64885,39 +64890,39 @@ Upgrade this Battle Tower's Archer with Swan-Feathered Arrows \n Increases damag
 
 
 [CONTROLBAR:SpecialAbilityIsengardFocusInfantry]
-Focus: Fighting &Uruk-hai
+Focus: Fighting Uruk-hai (&W)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusInfantry]
-Select to activate \n Provides bonuses to Fighting Uruk-hai and Uruk-hai Pikemen \n +30% Damage, +70% Combat Experience \n Decreases price by 20%
+Select to activate \n Provides bonuses to Fighting Uruk-hai, Uruk-hai Pikemen and Uruk-hai Shieldbearers \n +30% Damage, +70% Combat Experience \n Decreases price by 20%
 
 
 [CONTROLBAR:SpecialAbilityIsengardFocusDunland]
-Focus: Fury of &Frecalund
+Focus: Fury of Frecalund (&E)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusDunland]
-Select to activate \n Provides bonuses to Wildmen and Dunlendings \n +30% Damage, +70% Combat Experience \n Decreases price by 20%
+Select to activate \n Provides bonuses to Wildmen and Dunlendings \n +15% Damage, +70% Combat Experience \n Decreases price by 10%
 
 
 [CONTROLBAR:SpecialAbilityIsengardFocusArcher]
-Focus: Wic&ked Marksmen
+Focus: Wicked Marksmen (&R)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusArcher]
-Select to activate \n Provides bonuses to Uruk-hai Scouts and Crossbowmen \n +20% Damage, +80% Combat Experience \n Decreases price by 20%
+Select to activate \n Provides bonuses to Uruk-hai Scouts and Crossbowmen \n +20% Damage, +10% Range, +80% Combat Experience \n Decreases price by 20%
 
 
 [CONTROLBAR:SpecialAbilityIsengardFocusWarg]
-Focus: &Wolves of Isengard
+Focus: Wolves of Isengard (&T)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusWarg]
-Select to activate \n Provides bonuses to Warg Riders \n +30% Damage, +100% Combat Experience \n Decreases price by 25%
+Select to activate \n Provides bonuses to Warg Riders \n +30% Damage, +20% Armor, +100% Combat Experience \n Decreases price by 25%
 
 
 [CONTROLBAR:SpecialAbilityIsengardFocusSiege]
-Focus: &Metal and Wheels
+Focus: Metal and Wheels (&S)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusSiege]
@@ -64925,7 +64930,7 @@ Select to activate \n Provides bonuses to Siege Equipment \n +30% Damage, +5% Sp
 
 
 [CONTROLBAR:SpecialAbilityIsengardFocusForge]
-Focus: B&lack Steel
+Focus: Black Steel (&D)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusForge]
@@ -64933,7 +64938,7 @@ Select to activate \n Decreases the cost of upgrades \n Also increases global Ar
 
 
 [CONTROLBAR:ConstructRohanMangonelExpansion]
-O&nager Expansion
+Onager Expansion (&R)
 
 
 [CONTROLBAR:ToolTipConstructRohanMangonelExpansion]
@@ -64941,7 +64946,7 @@ Long range defensive weapon
 
 
 [CONTROLBAR:TrollishRage]
-Trollish &Rage
+Trollish Rage (&W)
 
 
 [CONTROLBAR:ToolTipTrollishRage]
@@ -64949,11 +64954,11 @@ The Snow-trolls temporarily gain +33% Speed and +33% Damage \n Requires level 2 
 
 
 [CONTROLBAR:MerryBlade]
-Ha&lfling Courage
+Halfling Courage (&V)
 
 
 [CONTROLBAR:ToolTipMerryBlade]
-Requires Level 10 \n Merry plunges his Blade of Westernesse into an enemy hero,\n dealing strong damage and temporarily decreasing armor \n Can only use when sword is equipped \n Left click icon then left click on target
+Requires Level 10 \n Merry plunges his Blade of Westernesse into an enemy hero,\n dealing strong damage and decreasing armor by -50% for 10 seconds \n Can only use when sword is equipped \n Left click icon then left click on target
 
 
 
