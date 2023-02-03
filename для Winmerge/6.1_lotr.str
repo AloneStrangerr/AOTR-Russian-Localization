@@ -63771,12 +63771,20 @@ To &Whatever End
 Modifier Type: Buff \n Target hero temporarily gains +25% Armor \n Can only be used on Théoden, Éomer, Eowyn or Théodred \n Stacks with Leadership and Spells \n Left click icon then left click on target hero
 
 
+[CONTROLBAR:ToolTipGamlingWhateverEndCampaign]
+Modifier Type: Buff \n Target hero temporarily gains +25% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target hero
+
+
 [CONTROLBAR:StrengthRemembered]
-Stre&ngth Remembered
+Strength Remembered (&T)
 
 
 [CONTROLBAR:ToolTipStrengthRemembered]
 Requires Level 3 \n Heal nearby units \n\n Requires Level 5 \n Also summons two battalions of Kingsguard accompanied by Háma and Gamling \n\n Left click to activate
+
+
+[CONTROLBAR:ToolTipStrengthRememberedCampaign]
+Requires Level 3 \n Heal nearby units \n Left click to activate
 
 
 [CONTROLBAR:RohanPeasantHasDraft]
@@ -63784,11 +63792,19 @@ Drafted
 
 
 [CONTROLBAR:ToolTipRohanPeasantHasDraft]
-Requires Draft power\n Peasants have received swords and shields
+Requires Draft power\n Peasants have received swords and shields, gaining +5 damage and +40 health \n Peasants can now be upgraded with Forged Blades and Heavy Armour
+
+
+[CONTROLBAR:PurchaseUpgradeRohanDraft]
+Purchase Draf&t
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeRohanDraft]
+Allows peasants to receive swords and shields,\ngaining +5 damage and +40 health \n Peasants can be upgraded with Forged Blades and Heavy Armour
 
 
 [CONTROLBAR:ErkenbrandHorn]
-G&ilded Horn
+Gilded Horn (&W)
 
 
 [CONTROLBAR:ToolTipErkenbrandHorn]
@@ -63796,7 +63812,7 @@ Nearby infantry temporarily gain +20% bonus speed and resistance to fear, knockb
 
 
 [CONTROLBAR:ErkenbrandShieldCrush]
-&Valour of Hammerhand
+Valour of Hammerhand (&R)
 
 
 [CONTROLBAR:ToolTipErkenbrandShieldCrush]
@@ -63812,7 +63828,7 @@ Requires Level 5 \n Modifier Type: Leadership \n Westfolders near Erkenbrand gai
 
 
 [CONTROLBAR:ErkenbrandReinforcements]
-&Reinforcements
+Reinforcements (&C)
 
 
 [CONTROLBAR:ToolTipErkenbrandReinforcements]
@@ -63828,7 +63844,7 @@ Requires Level 5 \n Modifier Type: Leadership \n Nearby infantry units gain +33%
 
 
 [CONTROLBAR:GrimboldProtection]
-&Protection of Grimslade
+Protection of Grimslade (&R)
 
 
 [CONTROLBAR:ToolTipGrimboldProtection]
@@ -63836,7 +63852,7 @@ Requires Level 5 \n Targeted allied units gain +50% Armor for 30 seconds\nLeft c
 
 
 [CONTROLBAR:GrimboldHeal]
-Rohirric Triag&e
+Rohirric Triage (&T)
 
 
 [CONTROLBAR:ToolTipGrimboldHeal]
@@ -63844,7 +63860,7 @@ Requires Level 6 \n Heal nearby units in a small radius\n Left click to activate
 
 
 [CONTROLBAR:EomerBlademaster]
-Thirst of G&uthwine
+Thirst of Guthwine (&C)
 
 
 [CONTROLBAR:TooltipEomerBlademaster]
@@ -63852,7 +63868,7 @@ Requires Level 5 \n Éomer temporarily gains\n+100% Damage \n Left click to activ
 
 
 [CONTROLBAR:EomerStandGround]
-Stand &Your Ground
+Stand Your Ground (&V)
 
 
 [CONTROLBAR:ToolTipEomerStandGround]
@@ -63868,11 +63884,15 @@ When Théodred dies, Grimbold temporarily appears to guard the fallen prince\n Pa
 
 
 [CONTROLBAR:TheodredLuck]
-&Luck of Battle
+Luck of Battle (&T)
 
 
 [CONTROLBAR:ToolTipTheodredLuck]
-Requires Level 3 \n Théodred equips his helmet, gaining +33% armor \n When activated, Théodred temporarily avoids all ranged damage \n\n Requires Level 7 \n When activated, the above effect is coupled with temporarily invulnerability \n Left click to activate
+Requires Level 3 \n Théodred equips his helmet, gaining +33% armor \n When activated, Théodred temporarily avoids all ranged damage for 30 seconds \n\n Requires Level 7 \n When activated, the above effect is coupled with temporary invulnerability \n Left click to activate
+
+
+[CONTROLBAR:ToolTipTheodredLuckCampaign]
+Requires Level 3 \n Théodred equips his helmet, gaining +33% armor \n When activated, Théodred temporarily avoids all ranged damage for 30 seconds \n Left click to activate
 
 
 [CONTROLBAR:TheodredPrinceRiddermark]
@@ -63884,11 +63904,11 @@ Requires Level 5 \n Théodred equips his royal cloak \n Modifier Type: Leadership
 
 
 [CONTROLBAR:TheodredDetermination]
-De&termination
+Determination (&V)
 
 
 [CONTROLBAR:TooltipTheodredDetermination]
-Requires Level 9 \n Théodred regains 50% of his maximum health and gains +20% movement speed \n Left click to activate
+Requires Level 9 \n Théodred regains 50% of his maximum health and gains +20% movement speed for 30 seconds \n Left click to activate
 
 
 [TOOLTIP:ElfhelmPromotion]
@@ -63896,19 +63916,19 @@ Elfhelm's Promotion
 
 
 [CONTROLBAR:GandalfFirstLight]
-First Light of the Fifth Day
+First Light of the Fifth Day (&R)
 
 
 [CONTROLBAR:ToolTipGandalfFirstLight]
-Flash of light that stuns nearby enemy units and deals minor damage \n Left click to activate
+Flash of light that stuns nearby enemy units for 15 seconds and deals minor damage \n Left click to activate
 
 
 [CONTROLBAR:AragornLeaderofMen]
-Leader of &Men
+Leader of Men (&R)
 
 
 [CONTROLBAR:ToolTipAragornLeaderofMen]
-Modifier Type: Spell \n Nearby frendly units gain +33% armor \n \n When activated, units near Aragorn temporarily gain +50% damage and immunity to terror \n Left click to activate
+Modifier Type: Spell \n Nearby frendly units gain +33% armor \n \n When activated, units near Aragorn temporarily gain +50% damage and immunity to terror for 20 seconds \n Left click to activate
 
 
 [CONTROLBAR:ToolTipFellowshipAragornLeaderofMen]
@@ -63928,7 +63948,7 @@ Modifier Type: Leadership \n Peasants near Eowyn gain +25% Armor, and earn exper
 
 
 [CONTROLBAR:EowynReadiness]
-&Readiness
+Readiness (&R)
 
 
 [CONTROLBAR:ToolTipEowynReadiness]
@@ -63936,7 +63956,7 @@ Requires Level 3 \n Target farm or windmill temporarily produces peasants that a
 
 
 [CONTROLBAR:ToggleEowynDernhelm]
-Dernhe&lm
+Dernhelm (&T)
 
 
 [CONTROLBAR:ToolTipToggleEowynDernhelm]
@@ -63944,7 +63964,7 @@ Requires Level 5 \n Eowyn dons Dernhelm's armor \n Toggle between White Lady and
 
 
 [CONTROLBAR:ToggleEowynLady]
-White &Lady
+White Lady (&W)
 
 
 [CONTROLBAR:ToolTipToggleEowynLady]
@@ -63952,31 +63972,31 @@ Requires Level 5 \n Eowyn dons her gown \n Toggle between White Lady and Dernhel
 
 
 [CONTROLBAR:EowynIthilienGarden]
-Lady of &Ithilien
+Lady of Ithilien (&C)
 
 
 [CONTROLBAR:ToolTipEowynIthilienGarden]
-Requires Level 8 \n Summons a garden that heals nearby units and detects stealth \n Left click on icon then left click on target position
+Requires Level 8 \n Summons a garden for 5 minutes that heals nearby units and detects stealth \n Left click on icon then left click on target position
 
 
 [CONTROLBAR:EowynCourage]
-&Courage for our Friends
+Courage for our Friends (&T)
 
 
 [CONTROLBAR:ToolTipEowynCourage]
-Requires Level 5 \n Eowyn inspires a target hero to perform great deeds. \n\n Target hero temporarily gains +25% damage and double experience gain \n Merry gains +50% damage and double experience gain \n\n Left click on icon then left click on target hero
+Requires Level 5 \n Modifier Type: Spell \n Eowyn gains +50% damage and armor while nearby allies gain resistance to fear and terror for 30 seconds \n Left click to activate
 
 
 [CONTROLBAR:ElfhelmQuickRescue]
-Quick &Rescue
+Quick Rescue (&T)
 
 
 [CONTROLBAR:ToolTipElfhelmQuickRescue]
-Requires Level 3 \n Modifier Type: Spell \n Nearby cavalry gains +15% speed while nearby infantry gains +15% armor \n Both cavalry and infantry gain bonus damage against machines \n Stacks with Leadership and Spells \n Left click to activate
+Requires Level 3 \n Modifier Type: Spell \n Nearby cavalry gains +15% speed while nearby infantry gains +15% armor for 30 seconds \n Both cavalry and infantry gain bonus damage against machines for the duration \n Stacks with Leadership and Spells \n Left click to activate
 
 
 [CONTROLBAR:ElfhelmPromotion]
-&Promotion
+Promotion (&C)
 
 
 [CONTROLBAR:ToolTipElfhelmPromotion]
@@ -63988,7 +64008,7 @@ Marshall of the East-mark
 
 
 [CONTROLBAR:ToolTipElfhelmLeadership]
-Requires Level 9 \n Modifier Type: Leadership \n Riders of Snowbourn, Halifirien Wardens, Yeoman Archers and Rohirrim Archers near Elfhelm gain +15% attack range and +50% armor \n Stacks with Buffs and Spells \n Passive ability
+Requires Level 9 \n Modifier Type: Leadership \n Halifirien Wardens, Yeoman Archers and Rohirrim Archers near Elfhelm gain +15% attack range and +33% damage\nRiders of Snowbourn near Elfhelm gain +33% armour\n Passive ability
 
 
 [CONTROLBAR:MerryLeadership]
