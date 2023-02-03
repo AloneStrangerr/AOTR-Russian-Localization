@@ -60622,7 +60622,7 @@ Pillar of Moria
 
 
 [CONTROLBAR:DwarvenTenacity]
-Dwarven Tenacity
+Dwarven Tenacity (&W)
 
 
 [CONTROLBAR:ToolTipDwarvenTenacity]
@@ -60642,7 +60642,7 @@ Revive the fallen raven, Roäc
 
 
 [CONTROLBAR:EreborRoacHotkey]
-&Roäc
+Roäc (&W)
 
 
 [OBJECT:EreborArcah]
@@ -60658,11 +60658,11 @@ Revive the fallen raven, Arcah
 
 
 [CONTROLBAR:EreborArcahHotkey]
-A&rcah
+Arcah (&W)
 
 
 [CONTROLBAR:PromoteRoacToLevel3]
-&Lord of Ravens
+Lord of Ravens (&W)
 
 
 [CONTROLBAR:ToolTipPromoteRoacToLevel3]
@@ -60670,7 +60670,7 @@ Allows Roäc to grow in strength \n Left click to purchase upgrade \n\n Modifier 
 
 
 [CONTROLBAR:PromoteRoacToLevel5]
-&Lord of Ravens
+Lord of Ravens (&W)
 
 [CONTROLBAR:ToolTipPromoteRoacToLevel5]
 Allows Roäc to grow in strength \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Allied units near Roäc gain +5% Speed. \n Rank 3: Allied heroes near Roäc gain +10% experience gain.\n Rank 5: Allied units near Roäc gain +10% Speed. \n Stacks with Buffs and Spells \n Passive ability
@@ -60685,7 +60685,7 @@ Modifier Type: Leadership \n Rank 1: Allied units near Roäc gain +5% Speed. \n R
 
 
 [CONTROLBAR:PromoteArcahToLevel3]
-&Lady of Ravens
+Lady of Ravens (&W)
 
 
 [CONTROLBAR:ToolTipPromoteArcahToLevel3]
@@ -60693,7 +60693,7 @@ Allows Arcah to grow in strength \n Left click to purchase upgrade \n\n Modifier
 
 
 [CONTROLBAR:PromoteArcahToLevel5]
-&Lady of Ravens
+Lady of Ravens (&W)
 
 
 [CONTROLBAR:ToolTipPromoteArcahToLevel5]
@@ -60733,7 +60733,7 @@ Requires Level 3 \n Modifier Type: Passive Debuff\n Enemies under Arcah lose -15
 
 
 [CONTROLBAR:RoacWisdom]
-Wisdom of Yo&re
+Wisdom of Yore (&C)
 
 
 [CONTROLBAR:ToolTipRoacWisdom]
@@ -60741,7 +60741,7 @@ Requires Level 3 \n Targeted units gain moderate experience \n Left click icon t
 
 
 [CONTROLBAR:RoacMessenger]
-Messenger of the &King
+Messenger of the King (&V)
 
 
 [CONTROLBAR:ToolTipRoacMessenger]
@@ -60781,7 +60781,7 @@ Revive the fallen Hero, Elladan
 
 
 [CONTROLBAR:ElladanHotkey]
-El&ladan
+Elladan (&S)
 
 
 [OBJECT:Elrohir]
@@ -60797,7 +60797,7 @@ Revive the fallen Hero, Elrohir
 
 
 [CONTROLBAR:ElrohirHotkey]
-E&lrohir
+Elrohir (&D)
 
 
 [CONTROLBAR:ElladanLeadership]
@@ -60809,15 +60809,15 @@ Modifier Type: Leadership \n When near his brother, Elladan gains +100% Damage a
 
 
 [CONTROLBAR:ElladanLeadership2]
-Hatred of Or&cs
+Hatred of Orcs (&T)
 
 
 [CONTROLBAR:ToolTipElladanLeadership2]
-Elladan deals +33% extra damage to all Orcs \nPassive ability \n \n When activated, nearby orcs lose -25% speed
+Elladan deals +33% extra damage to all Orcs \nPassive ability \n \n When activated, nearby orcs lose -15% speed for 30 seconds\nLeft click to activate
 
 
 [CONTROLBAR:ElladanBrightBlade]
-Brigh&t Blade
+Bright Blade (&C)
 
 
 [CONTROLBAR:ToolTipElladanBrightBlade]
@@ -60833,15 +60833,15 @@ Modifier Type: Leadership \n When near his brother, Elrohir gains +100% Damage a
 
 
 [CONTROLBAR:ElrohirLeadership2]
-Hatred of Or&cs
+Hatred of Orcs (&T)
 
 
 [CONTROLBAR:ToolTipElrohirLeadership2]
-Elrohir deals +33% extra damage to all Orcs \nPassive ability \n \n When activated, nearby orcs lose -50% armor
+Elrohir deals +33% extra damage to all Orcs \nPassive ability \n \n When activated, nearby orcs lose -25% armor for 30 seconds\nLeft click to activate
 
 
 [CONTROLBAR:ElrohirSwiftStrikes]
-Swif&t Strikes
+Swift Strikes (&C)
 
 
 [CONTROLBAR:ToolTipElrohirSwiftStrikes]
@@ -60853,15 +60853,15 @@ Representatives of Elves and Men
 
 
 [CONTROLBAR:ToolTipTwinsHeroesLeadershipElladan]
-Modifier Type: Leadership \n Grants 33% experience gain and 25% armour to nearby Bree-landers, Dúnedain and Elves \n At level 5, reduces recharge time for nearby heroes abilities by 25% and \n increases auto-heal of nearby heroes by 25%\n Does not affect his brother \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Grants +25% armour to nearby Bree-landers, Dúnedain and Elves \n At level 5, reduces recharge time for nearby heroes abilities by 25% and \n increases auto-heal of nearby heroes by 25%\n Does not affect his brother \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:ToolTipTwinsHeroesLeadershipElrohir]
-Modifier Type: Leadership \n Grants 33% experience gain and 25% damage to nearby Bree-landers, Dúnedain and Elves \n At level 5, reduces recharge time for nearby heroes abilities by 25% and \n increases auto-heal of nearby heroes by 25%\n Does not affect his brother \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Grants +25% damage to nearby Bree-landers, Dúnedain and Elves \n At level 5, reduces recharge time for nearby heroes abilities by 25% and \n increases auto-heal of nearby heroes by 25%\n Does not affect his brother \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:PurchaseUpgradeRivendellFortressObservatory]
-White Council Obser&vatory
+White Council Observatory (&S)
 
 
 [TOOLTIP:LackObservatoy]
@@ -60869,11 +60869,11 @@ Requires the Girdle of Imladris upgrade \n Unlocks three spells that can be cast
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRivendellFortressObservatory]
-Unlocks three spells that can be cast from the Fortress \n Lightning Strike: Saruman's magic deals damage and stuns units within its radius \n Call of Belegaer: Cirdan's wisdom temporarily decreases cost and build time of Elf units \n Aiwendil, Bird-Friend: Radagast's friendship with Gwaihir's folk allows the fortress to temporarily summon a Giant Eagle.
+Unlocks three spells that can be cast from the Fortress \n Lightning Strike: Saruman's magic deals damage and stuns units within its radius \n Call of Belegaer: Cirdan's wisdom temporarily decreases build time of Elf units \n Aiwendil, Bird-Friend: Radagast's friendship with Gwaihir's folk allows the fortress to temporarily summon a Giant Eagle.
 
 
 [CONTROLBAR:PurchaseUpgradeRivendellFortressFlamingMunitions]
-&Wardens of Imladris
+Wardens of Imladris (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRivendellFortressFlamingMunitions]
@@ -60881,15 +60881,15 @@ Adds magic damage to the fortress and to all attached towers
 
 
 [CONTROLBAR:PurchaseUpgradeRivendellFortressBanners]
-Ba&nners of Gil-galad
+Banners of Gil-galad (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRivendellFortressBanners]
-Provides additional experience to nearby troops \n Reduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces cost of builders by 20% \n \n Only applies to heroes recruited at the Conservatory
+Provides additional experience to nearby troops \n Reduces Hero cost by 10% \n Reduces cost of builders by 20% \n Only applies to heroes recruited at the Conservatory
 
 
 [CONTROLBAR:PurchaseUpgradeRivendellFortressMoat]
-Girdle of I&mladris
+Girdle of Imladris (&T)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRivendellFortressMoat]
 Increases Conservatory's armor and hitpoints
@@ -60903,7 +60903,7 @@ Reduces research cost for Rivendell unit upgrades: \n 1 fortress with Anvil = 10
 
 
 [CONTROLBAR:PurchaseUpgradeRivendellFortressMerriment]
-Song &and Merriment
+Song and Merriment (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRivendellFortressMerriment]
@@ -60915,7 +60915,7 @@ Elvish Medicine
 
 
 [CONTROLBAR:PurchaseTechnologyRivendellMedicine]
-Elvish Medi&cine: A Compendium
+Elvish Medicine: A Compendium (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellMedicine]
@@ -60927,7 +60927,7 @@ The Lay of Leithian
 
 
 [CONTROLBAR:PurchaseTechnologyRivendellLeithian]
-The Lay of &Leithian
+The Lay of Leithian (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellLeithian]
@@ -60939,11 +60939,11 @@ Yavanna's Wisdom
 
 
 [CONTROLBAR:PurchaseTechnologyRivendellYavanna]
-Reverence of &Yavanna
+Reverence of Yavanna (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellYavanna]
-Documentation of various rites and songs concerning the Vala Yavanna, collected and edited by the lady Celebrian.\n\n Increases Orchard production by 30%
+Documentation of various rites and songs concerning the Vala Yavanna, collected and edited by the lady Celebrian.\n\n Increases Orchard production by 15%
 
 
 [CONTROLBAR:ConstructNoldorVeteransGilGaladHorde]
@@ -60955,7 +60955,7 @@ Practical Application of Fëanorian Smithing
 
 
 [CONTROLBAR:PurchaseTechnologyRivendellFeanorSmithing]
-Pract&ical Application of Fëanorian Smithing
+Practical Application of Fëanorian Smithing (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellFeanorSmithing]
@@ -60963,7 +60963,7 @@ This exhaustive treatise on Noldorin smithing techniques was authored by Celebri
 
 
 [CONTROLBAR:PurchaseTechnologyRivendellMalice]
-A Sleepless Malice:\nReflections on the &Nature of Evil
+A Sleepless Malice:\nReflections on the Nature of Evil (&D)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellMalice]
