@@ -60967,11 +60967,11 @@ A Sleepless Malice:\nReflections on the Nature of Evil (&D)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellMalice]
-A passionate appeal to watchfulness and warning against inertia in times of apparent peace, written by King Thranduil. \n\n Permanently stations Laurëthalion at Orchards and Forges
+A passionate appeal to watchfulness and warning against inertia in times of apparent peace, written by King Thranduil. \n\n Permanently Stations Laurëthalion at structures
 
 
 [CONTROLBAR:PurchaseTechnologyRivendellDagorlad]
-Reflections Upon the Battle of Dagorlad (&S)
+Re&flections Upon the Battle of Dagorlad
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellDagorlad]
@@ -60983,7 +60983,7 @@ Andúril
 
 
 [CONTROLBAR:PurchaseTechnologyRivendellAnduril]
-Andúril, the Flame of the West (&S)
+&Andúril, the Flame of the West
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellAnduril]
@@ -61018,7 +61018,7 @@ Revive the fallen warrior, Gildor
 
 
 [CONTROLBAR:GildorHotkey]
-Gildor (&E)
+Gi&ldor
 
 
 [CONTROLBAR:GildorLeadership]
@@ -61026,11 +61026,11 @@ Companion
 
 
 [CONTROLBAR:ToolTipGildorLeadership]
-Modifier Type: Leadership \n Hobbits near Gildor gain +33% damage, +33% armor and experience\n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Hobbits near Gildor gain +33% Damage and +33% Armor \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:GildorExiles]
-The Wandering Companies (&R)
+The Wandering Compa&nies
 
 
 [CONTROLBAR:TooltipGildorExiles]
@@ -61042,7 +61042,7 @@ Gildor summons a single group of Noldor Exiles to his side \n Left click icon to
 
 
 [CONTROLBAR:GildorTelperion]
-Light of Telperion (&T)
+Light of Te&lperion
 
 
 [CONTROLBAR:ToolTipGildorTelperion]
@@ -61071,7 +61071,7 @@ Strong vs. Cavalry, Siege and Heroes
 
 
 [CONTROLBAR:SongToElbereth]
-Song to Elbereth (&W)
+Song to E&lbereth
 
 
 [CONTROLBAR:ToolTipSongToElbereth]
@@ -61080,7 +61080,7 @@ Friendly units temporarily become immune to fear\nLeft click to activate
 
 
 [CONTROLBAR:PurchaseUpgradeDunedainSpears]
-Equip Spears (&T)
+Eq&uip Spears
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDunedainSpears]
 Permanently equips rangers with spears \n Increases the damage done towards cavalry and heroes\n Only one upgrade may be purchased at a time\n Left click to upgrade this unit
@@ -61102,7 +61102,7 @@ Increases the damage done towards cavalry and heroes\n Passive Ability
 
 
 [CONTROLBAR:PurchaseUpgradeDunedainSwords]
-Equip Swords (&R)
+Equip S&words
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDunedainSwords]
 Permanently equips rangers with swords \n Increases damage towards infantry and slightly increases armor\n Only one upgrade may be purchased at a time\n Left click to upgrade this unit
@@ -61135,19 +61135,12 @@ Research upgrade at Forge to enable this equipment \nPermanently equips rangers 
 Research Fire Arrows upgrade at Archery Range\nto enable this equipment \nPermanently equips rangers with bows\n Increases base damage and adds Magic damage to arrows\n Only one upgrade may be purchased at a time
 
 
-[TOOLTIP:LackArnorFireArrowsDunedain_GC]
-Research Fire Arrows upgrade at Blacksmith\nto enable this equipment \nPermanently equips rangers with bows\n Increases base damage and adds Magic damage to arrows\n Only one upgrade may be purchased at a time
-
 
 [CONTROLBAR:PurchaseUpgradeDunedainCaptain]
-Dúnedain Captain Upgrade (&V)
+Dú&nedain Captain Upgrade
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDunedainCaptainforDunedain]
-Increases unit to Level 2 and unlocks Woodscraft special power \n Can only be equipped at Level 1
-
-
-[CONTROLBAR:ToolTipPurchaseUpgradeDunedainCaptainforDunedainProtectors]
 Increases unit to Level 2 and unlocks Woodscraft special power \n Can only be equipped at Level 1
 
 
@@ -61155,16 +61148,12 @@ Increases unit to Level 2 and unlocks Woodscraft special power \n Can only be eq
 Research upgrade at Forge to enable this equipment \n When equipped, increases this battalion to Level 2 and unlocks Woodscraft special power
 
 
-[Tooltip:LackDunedainCaptainBasicTrainingProtectors]
-Research upgrade at Forge to enable this equipment \n When equipped, increases this battalion to Level 2 and unlocks Protectors of the Small-folk special power
-
-
 [Tooltip:LackDunedainCaptainBasicTraining_Inn]
 Research Banner Carrier upgrade at Blacksmith\nto enable this equipment \n When equipped, increases this battalion to Level 2 and unlocks Woodscraft special power
 
 
 [CONTROLBAR:PurchaseUpgradeDunedainCaptainforBree]
-Dúnedain Captain Upgrade (&V)
+Dúnedain &Captain Upgrade
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDunedainCaptainforBree]
@@ -61172,18 +61161,10 @@ Increases a unit to Level 2 \n Can only be equipped at Level 1
 
 
 [CONTROLBAR:ElvenRangerCloak]
-Woodscraft (&V)
-
-
-[CONTROLBAR:ElvenRangerCloakProtectors]
-Woodscraft (&V)
+Woods&craft
 
 
 [CONTROLBAR:ToolTipElvenRangerCloak]
-Requires Level 2 \n The battalion becomes invisible when standing still \n Left click to activate
-
-
-[CONTROLBAR:ToolTipElvenRangerCloakOutriders]
 Requires Level 2 \nBecomes invisible when standing still \n Left click to activate
 
 
@@ -61202,7 +61183,7 @@ Took Archers
 
 
 [CONTROLBAR:ConstructTookArcherHorde]
-Took Archers (&E)
+Too&k Archers
 
 
 [CONTROLBAR:ToolTipBuildTookArcherHorde]
@@ -61219,7 +61200,7 @@ Dúnedain Outriders
 
 
 [CONTROLBAR:ConstructDunedainOutriderHorde]
-Dúnedain Outriders (&E)
+Dúnedai&n Outriders
 
 
 [CONTROLBAR:ToolTipBuildDunedainOutriderHorde]
@@ -61271,7 +61252,7 @@ Bree-land Townsguard
 
 
 [CONTROLBAR:ConstructBreeTownsguardHorde]
-Bree-land Townsguard (&R)
+Br&ee-land Townsguard
 
 
 [CONTROLBAR:LW_Unit_BreeTownsguardHorde]
@@ -63376,7 +63357,152 @@ Recruit the marshal of Riddermark. \n \n A gifted swordsman and archer, Elfhelm'
 Revive the fallen Hero, Elfhelm
 
 [CONTROLBAR:RohanElfhelmHotkey]
-El&fhelm
+Elfhelm (&R)
+
+
+[OBJECT:RohanDunhere]
+Dunhere
+
+
+[CONTROLBAR:DunhereHoldLine]
+Hold the Line! (&W)
+
+
+[CONTROLBAR:ToolTipDunhereHoldLine]
+Dunhere enters a defensive stance, providing damage reduction and crush resistance to all nearby troops but reducing their movement speed\nLeft click to activate
+
+
+[CONTROLBAR:DunhereCaptain]
+Captain of Upbourn (&R)
+
+
+[CONTROLBAR:ToolTipDunhereCaptain]
+Nearby units gain +50% experience\nPassive ability\n\nCan be activated to temporarily grant Dunhere +50% damage\nLeft click to activate
+
+
+[CONTROLBAR:MadrilLeadership]
+Ranger Veteran
+
+
+[CONTROLBAR:TooltipMadrilLeadership]
+Modifier Type: Leadership \n Rangers near Madril earn experience 150% faster \n Stacks with Buffs and Spells \n Passive ability
+
+
+[CONTROLBAR:MadrilSnare]
+&Master of Ambush
+
+
+[CONTROLBAR:ToolTipMadrilSnare]
+An experienced Ranger, Madril knows how best to execute a successful ambush upon his foes \n Madril stuns nearby enemies for 5 seconds\n Left click then left click target location
+
+
+[CONTROLBAR:MablungKeenEyed]
+&Keen Eyed
+
+
+[CONTROLBAR:TooltipMablungKeenEyed]
+Mablung temporarily gains +150% vision range \n Left click to activate
+
+
+[CONTROLBAR:MablungLethalAim]
+&Lethal Aim
+
+
+[CONTROLBAR:ToolTipMablungLethalAim]
+Enemies within the radius take increased damage from ranged attacks \n Left click then left click on target area
+
+
+[CONTROLBAR:DamrodSkilledHunter]
+S&killed Hunter
+
+[CONTROLBAR:ToolTipDamrodSkilledHunter]
+Can be cast on enemy units to permanently track their movements \n Can only use with bow equipped \n Left click, then left click on target
+
+
+[CONTROLBAR:DamrodQuickDispatch]
+Q&uick Dispatch
+
+[CONTROLBAR:ToolTipDamrodQuickDispatch]
+Damrod temporarily receives +25% attack and movement speed \n Left click to activate
+
+
+[CONTROLBAR:ToradanWideSweep]
+Wide Sweep (&W)
+
+[CONTROLBAR:ToolTipToradanWideSweep]
+Toradan swings his sword hard, dealing damage to and knocking back everything around him \n Left click to activate
+
+[CONTROLBAR:ToradanGrizzledWarrior]
+Grizzled Warrior (&R)
+
+
+[CONTROLBAR:ToolTipToradanGrizzledWarrior]
+For 20 seconds, Toradan reflects a portion of the damage dealt to him\nLeft click to activate
+
+
+[CONTROLBAR:LothrandirQuickDispatch]
+Quick Dispatch (&W)
+
+[CONTROLBAR:ToolTipLothrandirQuickDispatch]
+Lothrandir temporarily receives +25% attack and movement speed \n Left click to activate
+
+
+[CONTROLBAR:LothrandirSubtleWays]
+Subtle Ways (&R)
+
+
+[CONTROLBAR:ToolTipLothrandirSubtleWays]
+Lothrandir and targeted allies become stealthed and deal increased damage for 30 seconds\n Left click icon then left click on target units
+
+
+[CONTROLBAR:AmdirBanishingStrike]
+Banishing Strike (&W)
+
+[CONTROLBAR:ToolTipAmdirBanishingStrike]
+Amdir drives his spear forward fearlessly, dealing powerful damage to a single unit \n Left click then left click on target
+
+[CONTROLBAR:AmdirNobleHeart]
+Noble Heart (&R)
+
+[CONTROLBAR:TooltipAmdirNobleHeart]
+Amdir's bravery in the face of evil causes his enemies to briefly be stunned in terror \n Left click to activate
+
+
+[CONTROLBAR:AnbornMasterScout]
+&Master Scout
+
+
+[CONTROLBAR:TooltipAnbornMasterScout]
+Nearby friendly units are camouflaged \n Left click to activate
+
+
+[CONTROLBAR:AnbornPoisonArrows]
+Poison A&rrows
+
+
+[CONTROLBAR:AnbornBarbedArrows]
+Barbed Arrows (&R)
+
+
+[CONTROLBAR:TooltipAnbornPoisonArrows]
+Left click to switch to Poison Arrows \n Inflicts damage over time
+
+
+[CONTROLBAR:TooltipAnbornBarbedArrows]
+Left click to switch to Barbed Arrows \n Targeted enemies are slowed by 50% for 5 seconds
+
+
+[CONTROLBAR:RangeIncrease]
+Range Increase P
+
+
+[CONTROLBAR:OropherWordofPower]
+Elvenking's Lament (&W)
+
+
+[CONTROLBAR:ToolTipOropherWordofPower]
+Blasts back and stuns surrounding units for 10 seconds\n Left click to activate
+
 
 [OBJECT:RohanHama]
 Háma
@@ -63400,10 +63526,10 @@ Requires the Horn of the Westfold power to be used \n Recruit the Lord of the We
 Revive the fallen Hero, Erkenbrand
 
 [CONTROLBAR:RohanErkenbrandHotkey]
-Er&kenbrand
+Erkenbrand (&T)
 
 [CONTROLBAR:RohanErkenbrandFakeSlot]
-Recruit Er&kenbrand
+Recruit Erkenbrand (&T)
 
 [OBJECT:RohanTheodred]
 Théodred
@@ -63415,7 +63541,7 @@ Recruit the Prince of Riddermark. \n \n 'Bealocwealm hafað fréone frecan forth o
 Revive the fallen Hero, Théodred
 
 [CONTROLBAR:RohanTheodredHotkey]
-Théodre&d
+Théodred (&S)
 
 
 [OBJECT:RohanWestfolder]
@@ -63427,7 +63553,7 @@ Westfolders
 
 
 [CONTROLBAR:ConstructRohanWestfolderHorde]
-&Westfolders
+Westfolders (&E)
 
 
 [CONTROLBAR:ToolTipBuildRohanWestfolderHorde]
@@ -63435,11 +63561,11 @@ Requires Level 2 Barracks\nand the Horn of the Westfold power to be used\n Stron
 
 
 [CONTROLBAR:ToolTipToggleWestfolderBlockToLineFormationElite]
-Requires Level 2 \n The units return to standard line formation
+The units return to standard line formation
 
 
 [CONTROLBAR:ToolTipToggleWestfolderLineToBlockFormationElite]
-Requires Level 2 \n +33% Armor\n-40% Speed \n Reduces arrow damage by 33%
++33% Armor\n-40% Speed
 
 
 [CONTROLBAR:ToolTipToggleWestfolderBlockToLineFormationElite_Summoned]
@@ -63447,11 +63573,11 @@ The units return to standard line formation
 
 
 [CONTROLBAR:ToolTipToggleWestfolderLineToBlockFormationElite_Summoned]
-+33% Armor\n-40% Speed \n Reduces arrow damage by 33%
++33% Armor\n-40% Speed
 
 
 [CONTROLBAR:ForthEorlingas]
-For&th Eorlingas!
+Forth Eorlingas! (&R)
 
 
 [CONTROLBAR:ToolTipForthEorlingas]
@@ -63467,7 +63593,7 @@ Halifirien Wardens
 
 
 [CONTROLBAR:ConstructFirienholtWardenHorde]
-Hali&firien Wardens
+Halifirien Wardens (&E)
 
 
 [CONTROLBAR:ToolTipBuildFirienholtWardenHorde]
@@ -63475,7 +63601,7 @@ Requires Level 2 Archery Range \n Strong vs. Infantry and Monsters \n Can fire L
 
 
 [CONTROLBAR:HalifirienGuards]
-Hal&ifirien Guards
+Halifirien Guards (&R)
 
 
 [OBJECT:RohanDoorWarden]
@@ -63487,7 +63613,7 @@ Edoras Kingsguard
 
 
 [CONTROLBAR:ConstructRohanDoorWardenHorde]
-Edoras Kingsguar&d
+Edoras Kingsguard (&R)
 
 
 [CONTROLBAR:ToolTipBuildRohanDoorWardenHorde]
@@ -63495,11 +63621,11 @@ Requires Level 3 Barracks \n Strong vs. Pikemen \n \n Alternatively named the Do
 
 
 [CONTROLBAR:ToolTipConstructRohanFarm]
-Provides field as a resource based on available terrain \nReduced cost of cavalry\n Grants nearby Peasants +15% damage and armour \n Increases command point limit by 50
+Provides field as a resource based on available terrain \nReduced cost of cavalry\n Grants nearby Peasants +35% speed \n Increases command point limit by 50
 
 
 [CONTROLBAR:ToolTipDescriptionRohanFarm]
-Generates resources based on available terrain\n Field Bonus - Reduced cost of cavalry \n 2 Farms: 5% \n 3 Farms: 10% \n 4 Farms: 15% \n 5 Farms: 20% \n 6+ Farms: 25% \n \n Nearby Peasants gain 15% armour and damage
+Generates resources based on available terrain\n Field Bonus - Reduced cost of cavalry \n 2 Farms: 5% \n 3 Farms: 10% \n 4 Farms: 15% \n 5 Farms: 20% \n 6+ Farms: 25% \n \n Nearby Peasants gain +35% speed
 
 
 [OBJECT:RohanWindmill]
@@ -63507,15 +63633,15 @@ Windmill
 
 
 [CONTROLBAR:ConstructRohanWindmill]
-Build Wind&mill
+Build Windmill (&R)
 
 
 [CONTROLBAR:ToolTipConstructRohanWindmill]
-Provides bread as a resource based on available terrain \nReduced cost of infantry \n Grants nearby Peasants +15% damage and armour\n Increases command point limit by 50
+Provides bread as a resource based on available terrain \nReduced cost of infantry \n Grants nearby Peasants +35% speed\n Increases command point limit by 50
 
 
 [CONTROLBAR:ToolTipDescriptionRohanWindmill]
-Generates resources based on available terrain\n Bread Bonus - Reduced cost of infantry \n 2 Windmills: 5% \n 3 Windmills: 10% \n 4 Windmills: 15% \n 5 Windmills: 20% \n 6+ Windmills: 25% \n \n Nearby Peasants gain 15% armour and damage
+Generates resources based on available terrain\n Bread Bonus - Reduced cost of infantry \n 2 Windmills: 5% \n 3 Windmills: 10% \n 4 Windmills: 15% \n 5 Windmills: 20% \n 6+ Windmills: 25% \n \n Nearby Peasants gain +35% speed
 
 
 [OBJECT:RohanStablesDescription]
@@ -63555,11 +63681,11 @@ Horn of the Westfold
 
 
 [CONTROLBAR:TooltipWestfoldHorn]
-Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Once used, passively unlocks Erkenbrand and Westfolders \n Left click icon then left click on target units 
+Modifier Type: Buff \n Targeted allies gain +60% Damage and +60% Armor for 60 seconds\n Stacks with Leadership and Spells \n Once used, passively unlocks Erkenbrand and Westfolders \n Left click icon then left click on target units 
 
 
 [CONTROLBAR:TooltipWestfoldHorn_WOTR]
-Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Once used, passively unlocks Westfolders \n Left click icon then left click on target units 
+Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% Armor for 60 seconds \n Stacks with Leadership and Spells \n Once used, passively unlocks Westfolders \n Left click icon then left click on target units 
 
 
 [CONTROLBAR:PukelStatue]
@@ -63567,7 +63693,7 @@ Skill of the Woses
 
 
 [CONTROLBAR:TooltipPukelStatue]
-Summons a Púkel-man statue harboring strange magic \n Limited to 3 \n Left click icon then left click on pathable location
+Summons a Púkel-man statue harboring strange magic \n Nearby enemies lose -25% damage and -25% crush armour \n Limited to 2 \n Left click icon then left click on pathable location
 
 
 [CONTROLBAR:MusterRohirrim]
@@ -63591,7 +63717,7 @@ Ere the Sun Rises
 
 
 [CONTROLBAR:ToolTipRohanCloudBreak]
-Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness\nStuns enemy units\n Slowly heals allied units across the map \n Left click to activate
+Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness\nStuns enemy units for 5 seconds\n Slowly heals allied units across the map for 15 seconds\n Left click to activate
 
 
 [CONTROLBAR:EverholtBoar]
@@ -63615,7 +63741,7 @@ Stormcrow
 
 
 [CONTROLBAR:ToolTipSummonStormcrow]
-Summons Gandalf the White and the three Hunters \n Left click icon then left click on pathable location
+Summons Gandalf the White and the Three Hunters \n Allied units are moderately healed \n Left click icon then left click on pathable location
 
 
 [CONTROLBAR:ToolTipBuildRohanBarracksLevel2Upgrade]
@@ -63651,7 +63777,7 @@ Boar of Everholt
 
 
 [CONTROLBAR:ConstructRohanDraftTower]
-Build &Draft Tower
+Build Draft Tower (&M)
 
 
 [CONTROLBAR:ToolTipConstructRohanDraftTower]
@@ -63667,19 +63793,19 @@ Can summon battalions to protect the area
 
 
 [UPGRADE:DraftTowerWestfold]
-Oath: &Westfold
+Oath: Westfold (&W)
 
 
 [UPGRADE:DraftTowerFirienholt]
-Oath: &Firienholt
+Oath: Firienholt (&W)
 
 
 [UPGRADE:DraftTowerEored]
-Oath: Éor&ed
+Oath: Éored (&W)
 
 
 [CONTROLBAR:DraftTowerOath]
-Oaths You Have &Taken...
+Oaths You Have Taken... (&W)
 
 
 [CONTROLBAR:ToolTipDraftTowerOathPeasant]
@@ -63687,7 +63813,7 @@ Summons two battalions of drafted peasants to defend the tower
 
 
 [CONTROLBAR:PurchaseDraftTowerWestfolder]
-Oath: &Westfold
+Oath: Westfold (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseDraftTowerWestfolder]
@@ -63699,7 +63825,7 @@ Summons one battalion of Westfolders to defend the tower
 
 
 [CONTROLBAR:PurchaseDraftTowerFirienholt]
-Oath: &Firienholt
+Oath: Firienholt (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseDraftTowerFirienholt]
@@ -63711,7 +63837,7 @@ Summons one battalion of Halifirien Wardens to defend the tower
 
 
 [CONTROLBAR:PurchaseDraftTowerRohirrim]
-Oath: Éor&ed
+Oath: Éored (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseDraftTowerRohirrim]
@@ -63763,7 +63889,7 @@ Royal Escort
 
 
 [CONTROLBAR:TooltipKingsguardLeadership]
-Modifier Type: Leadership \n The Kingsguards grant nearby heroes +15% armor and +10% speed \n Stacks with Buffs and Spells \n \n Passive ability
+Modifier Type: Leadership \n The Kingsguards grant nearby heroes +15% armor \n Stacks with Buffs and Spells \n \n Passive ability
 
 
 [OBJECT:RohanHorsemen]
@@ -63971,7 +64097,7 @@ Readiness (&R)
 
 
 [CONTROLBAR:ToolTipEowynReadiness]
-Requires Level 3 \n Target farm or windmill temporarily produces peasants that are drafted \n Left click icon then left click on target
+Requires Level 3 \n Summons a permanent battalion of drafted Peasants\nRespects command point limit\n Left click to activate
 
 
 [CONTROLBAR:ToggleEowynDernhelm]
