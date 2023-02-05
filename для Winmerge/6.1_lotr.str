@@ -62222,10 +62222,10 @@ Secret Gate
 Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% Armor, and earn experience 50% faster. \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces the cost of builders by 20%
 
 [CONTROLBAR:PurchaseUpgradeRohanFortressBanners]
-Ro&yal Banners
+Royal Banners (&W)
 
 [CONTROLBAR:HornofHammerhand]
-Hor&ns of Hammerhand
+Horns of Hammerhand (&T)
 
 
 [CONTROLBAR:TooltipHornofHammerhand]
@@ -62233,7 +62233,7 @@ Requires the Horns of Hammerhand upgrade \n Causes nearby enemy troops to be stu
 
 
 [CONTROLBAR:PurchaseUpgradeDesperateGarrison]
-Desperate &Garrison
+Desperate Garrison (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDesperateGarrison]
@@ -62241,7 +62241,7 @@ Stations Spear-throwers in the Fortress
 
 
 [CONTROLBAR:PurchaseUpgradeHornofHammerhand]
-Horns of Hammerha&nd
+Horns of Hammerhand (&S)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeHornofHammerhand]
@@ -62257,7 +62257,7 @@ Allows recruitment of Helmingas Warriors
 
 
 [CONTROLBAR:PurchaseUpgradeRohanFortressFortifications]
-Has&ty Fortifications
+Hasty Fortifications (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressFortifications]
@@ -62265,7 +62265,7 @@ Increases Fortress armor \n Damages units adjacent to fortress
 
 
 [CONTROLBAR:PurchaseUpgradeRohanFortressMeadHall]
-&Mead Hall
+Mead Hall (&D)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressMeadHall]
@@ -62273,27 +62273,31 @@ Heals allies nearby the Fortress
 
 
 [TOOLTIP:LackRohanFortressMeadHall]
-Requires the Mead Hall upgrade \n Allows the Summoning of three fully-upgraded Rohirrim battalions
+Requires the Mead Hall upgrade \n Allows the Summoning of two fully-upgraded Rohirrim battalions
 
 
 [CONTROLBAR:PurchaseUpgradeRohanFortressRideofRohirrim]
-R&ide of the Rohirrim
+Ride of the Rohirrim (&F)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressRideofRohirrim]
-Temporarily summons three fully-upgraded Rohirrim battalions
+Temporarily summons two fully-upgraded Rohirrim battalions
 
 
 [CONTROLBAR:RohanFortressRideofRohirrim]
-R&ide of the Rohirrim
+Ride of the Rohirrim (&S)
 
 
 [CONTROLBAR:ToolTipRohanFortressRideofRohirrim]
-Requires Ride of the Rohirrim upgrade \n Summons three fully-upgraded Rohirrim battalions \n Left click icon then left click on target area
+Requires Ride of the Rohirrim upgrade \n Summons two fully-upgraded Rohirrim battalions \n Left click icon then left click on target area
 
 
 [OBJECT:NoldorSpecter]
 Noldor Specter
+
+
+[OBJECT:SindaSpecter]
+Sinda Specter
 
 
 [OBJECT:RisenDead]
@@ -62337,7 +62341,7 @@ Revive the fallen hobbit, Fatty Bolger
 
 
 [CONTROLBAR:HornofBuckland]
-Fear! F&ire! Foes!
+Fear! Fire! Foes! (&R)
 
 
 [CONTROLBAR:ToolTipHornofBuckland]
@@ -62352,8 +62356,12 @@ Farmer Maggot
 Maggot's Hound
 
 
+[OBJECT:ArnorMaggotsHoundHorde]
+Maggot's Hounds Horde
+
+
 [CONTROLBAR:ArnorFarmerMaggotHotkey]
-Farmer &Maggot
+Farmer Maggot (&D)
 
 
 [CONTROLBAR:ArnorFarmerMaggotRecruit]
@@ -62381,7 +62389,7 @@ Grip, Fang, and Wolf passively guard Farmer Maggot\nPassive ability
 
 
 [CONTROLBAR:MaggotsFarm]
-Ba&mfurlong
+Bamfurlong (&R)
 
 
 [OBJECT:MaggotsFarm]
@@ -62405,7 +62413,7 @@ Take a seat near the hearth and listen to the tales of old. \n\nModifier Type: L
 
 
 [CONTROLBAR:HallOfFireSpawnGilGalad]
-The Last High &King
+The Last High King (&W)
 
 
 [CONTROLBAR:TooltipHallOfFireSpawnGilGalad]
@@ -62413,7 +62421,7 @@ The Last High &King
 
 
 [CONTROLBAR:HallOfFireSpawnTurin]
-The &Son of Doom
+The Son of Doom (&E)
 
 
 [CONTROLBAR:TooltipHallOfFireSpawnTurin]
@@ -62421,7 +62429,7 @@ The &Son of Doom
 
 
 [CONTROLBAR:HallOfFireSpawnFingolfin]
-The &Challenger of Morgoth
+The Challenger of Morgoth (&R)
 
 
 [CONTROLBAR:TooltipHallOfFireSpawnFingolfin]
@@ -62429,7 +62437,7 @@ The &Challenger of Morgoth
 
 
 [CONTROLBAR:HallOfFireSpawnCelebrimbor]
-The S&mith of Eregion
+The Smith of Eregion (&T)
 
 
 [CONTROLBAR:TooltipHallOfFireSpawnCelebrimbor]
@@ -62909,15 +62917,15 @@ Gundabad Archers
 
 
 [CONTROLBAR:LW_Unit_WildBodyGuardHordePlural]
-Horror of Gram Hordes
+Bolg's Bodyguard Hordes
 
 
 [BANNERUI:WildBodyGuard]
-Horror of Gram
+Bolg's Bodyguard
 
 
 [BANNERUI:WildBodyGuards]
-Horrors of Gram
+Bolg's Bodyguard
 
 
 [CONTROLBAR:LW_Unit_WildFireDrake]
@@ -63109,11 +63117,11 @@ Linhir Spearmen
 
 
 [BANNERUI:GoblinTownWarrior]
-Goblin Town Warrior
+Goblin-town Warrior
 
 
 [BANNERUI:GoblinTownWarriors]
-Goblin Town Warriors
+Goblin-town Warriors
 
 
 [LWScenario:WOTRWarInTheNorth]
@@ -63313,15 +63321,15 @@ Laketown Watchman Battalions
 
 
 [CONTROLBAR:HeraldOfGilGalad]
-Skill of the E&lves
+Herald of Gil-galad (&R)
 
 
 [CONTROLBAR:ToolTipHeraldOfGilGalad]
-Requires Level 3\nElrond's attacks temporarily deal splash and knockback damage\n Left click to activate
+Elrond gains 50% damage while his attacks deal splash and knockback damage for 30 seconds\n At level 5, attack radius is further increased \n Left click to activate
 
 
 [CONTROLBAR:ElrondHeavyArmor]
-Herald of Gil-Galad
+Armaments of Ost-in-Edhil
 
 
 [CONTROLBAR:ToolTipElrondHeavyArmor]
@@ -63329,11 +63337,11 @@ Requires Level 6 \n Elrond equips his heavy armor \n Modifier Type: Spell \n Elr
 
 
 [CONTROLBAR:ElrondRingOfAir]
-Ring of A&ir
+Ring of Air (&C)
 
 
 [CONTROLBAR:TooltipElrondRingOfAir]
-Requires Level 8\n Modifier Type: Buff \n Creates a circular sanctuary in which all allied units gain +150% Armor, become stealthed, and become immune to fear and terror while in the area\n Stacks with Leadership and Spells \n\n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor\nNullifies enemy Leadership \n Does not stack with other Debuffs \nLeft click icon then left click on target area
+Requires Level 3\n Modifier Type: Buff\nCreates a circular sanctuary around Elrond\nAllied units gain +100% armor while in the area\nRank 5: Nearby enemy units suffer -25% damage, -20% armor and lose all leadership while nearby allies are immune to fear and terror\nRank 8: The sanctuary's radius increases and enemy units are knocked back periodically \nLeft click icon to activate
 
 
 [CONTROLBAR:ElrondMountTooltip]
@@ -63341,7 +63349,7 @@ Requires Level 5\nLeft click to switch between \n mounted and on foot
 
 
 [CONTROLBAR:ElrondEarendilion]
-The Last Homely Ho&use
+The Last Homely House (&V)
 
 
 [CONTROLBAR:ToolTipElrondEarendilion]
