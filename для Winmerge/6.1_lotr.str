@@ -60967,11 +60967,11 @@ A Sleepless Malice:\nReflections on the Nature of Evil (&D)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellMalice]
-A passionate appeal to watchfulness and warning against inertia in times of apparent peace, written by King Thranduil. \n\n Permanently Stations Laurëthalion at structures
+A passionate appeal to watchfulness and warning against inertia in times of apparent peace, written by King Thranduil. \n\n Permanently stations Laurëthalion at Orchards and Forges
 
 
 [CONTROLBAR:PurchaseTechnologyRivendellDagorlad]
-Re&flections Upon the Battle of Dagorlad
+Reflections Upon the Battle of Dagorlad (&S)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellDagorlad]
@@ -60983,7 +60983,7 @@ Andúril
 
 
 [CONTROLBAR:PurchaseTechnologyRivendellAnduril]
-&Andúril, the Flame of the West
+Andúril, the Flame of the West (&S)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellAnduril]
@@ -61018,7 +61018,7 @@ Revive the fallen warrior, Gildor
 
 
 [CONTROLBAR:GildorHotkey]
-Gi&ldor
+Gildor (&E)
 
 
 [CONTROLBAR:GildorLeadership]
@@ -61026,11 +61026,11 @@ Companion
 
 
 [CONTROLBAR:ToolTipGildorLeadership]
-Modifier Type: Leadership \n Hobbits near Gildor gain +33% Damage and +33% Armor \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Hobbits near Gildor gain +33% damage, +33% armor and experience\n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:GildorExiles]
-The Wandering Compa&nies
+The Wandering Companies (&R)
 
 
 [CONTROLBAR:TooltipGildorExiles]
@@ -61042,7 +61042,7 @@ Gildor summons a single group of Noldor Exiles to his side \n Left click icon to
 
 
 [CONTROLBAR:GildorTelperion]
-Light of Te&lperion
+Light of Telperion (&T)
 
 
 [CONTROLBAR:ToolTipGildorTelperion]
@@ -61071,7 +61071,7 @@ Strong vs. Cavalry, Siege and Heroes
 
 
 [CONTROLBAR:SongToElbereth]
-Song to E&lbereth
+Song to Elbereth (&W)
 
 
 [CONTROLBAR:ToolTipSongToElbereth]
@@ -61080,7 +61080,7 @@ Friendly units temporarily become immune to fear\nLeft click to activate
 
 
 [CONTROLBAR:PurchaseUpgradeDunedainSpears]
-Eq&uip Spears
+Equip Spears (&T)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDunedainSpears]
 Permanently equips rangers with spears \n Increases the damage done towards cavalry and heroes\n Only one upgrade may be purchased at a time\n Left click to upgrade this unit
@@ -61102,7 +61102,7 @@ Increases the damage done towards cavalry and heroes\n Passive Ability
 
 
 [CONTROLBAR:PurchaseUpgradeDunedainSwords]
-Equip S&words
+Equip Swords (&R)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDunedainSwords]
 Permanently equips rangers with swords \n Increases damage towards infantry and slightly increases armor\n Only one upgrade may be purchased at a time\n Left click to upgrade this unit
@@ -61135,12 +61135,19 @@ Research upgrade at Forge to enable this equipment \nPermanently equips rangers 
 Research Fire Arrows upgrade at Archery Range\nto enable this equipment \nPermanently equips rangers with bows\n Increases base damage and adds Magic damage to arrows\n Only one upgrade may be purchased at a time
 
 
+[TOOLTIP:LackArnorFireArrowsDunedain_GC]
+Research Fire Arrows upgrade at Blacksmith\nto enable this equipment \nPermanently equips rangers with bows\n Increases base damage and adds Magic damage to arrows\n Only one upgrade may be purchased at a time
+
 
 [CONTROLBAR:PurchaseUpgradeDunedainCaptain]
-Dú&nedain Captain Upgrade
+Dúnedain Captain Upgrade (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDunedainCaptainforDunedain]
+Increases unit to Level 2 and unlocks Woodscraft special power \n Can only be equipped at Level 1
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeDunedainCaptainforDunedainProtectors]
 Increases unit to Level 2 and unlocks Woodscraft special power \n Can only be equipped at Level 1
 
 
@@ -61148,12 +61155,16 @@ Increases unit to Level 2 and unlocks Woodscraft special power \n Can only be eq
 Research upgrade at Forge to enable this equipment \n When equipped, increases this battalion to Level 2 and unlocks Woodscraft special power
 
 
+[Tooltip:LackDunedainCaptainBasicTrainingProtectors]
+Research upgrade at Forge to enable this equipment \n When equipped, increases this battalion to Level 2 and unlocks Protectors of the Small-folk special power
+
+
 [Tooltip:LackDunedainCaptainBasicTraining_Inn]
 Research Banner Carrier upgrade at Blacksmith\nto enable this equipment \n When equipped, increases this battalion to Level 2 and unlocks Woodscraft special power
 
 
 [CONTROLBAR:PurchaseUpgradeDunedainCaptainforBree]
-Dúnedain &Captain Upgrade
+Dúnedain Captain Upgrade (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDunedainCaptainforBree]
@@ -61161,10 +61172,18 @@ Increases a unit to Level 2 \n Can only be equipped at Level 1
 
 
 [CONTROLBAR:ElvenRangerCloak]
-Woods&craft
+Woodscraft (&V)
+
+
+[CONTROLBAR:ElvenRangerCloakProtectors]
+Woodscraft (&V)
 
 
 [CONTROLBAR:ToolTipElvenRangerCloak]
+Requires Level 2 \n The battalion becomes invisible when standing still \n Left click to activate
+
+
+[CONTROLBAR:ToolTipElvenRangerCloakOutriders]
 Requires Level 2 \nBecomes invisible when standing still \n Left click to activate
 
 
@@ -61183,7 +61202,7 @@ Took Archers
 
 
 [CONTROLBAR:ConstructTookArcherHorde]
-Too&k Archers
+Took Archers (&E)
 
 
 [CONTROLBAR:ToolTipBuildTookArcherHorde]
@@ -61200,7 +61219,7 @@ Dúnedain Outriders
 
 
 [CONTROLBAR:ConstructDunedainOutriderHorde]
-Dúnedai&n Outriders
+Dúnedain Outriders (&E)
 
 
 [CONTROLBAR:ToolTipBuildDunedainOutriderHorde]
@@ -61252,7 +61271,7 @@ Bree-land Townsguard
 
 
 [CONTROLBAR:ConstructBreeTownsguardHorde]
-Br&ee-land Townsguard
+Bree-land Townsguard (&R)
 
 
 [CONTROLBAR:LW_Unit_BreeTownsguardHorde]
@@ -61296,7 +61315,7 @@ The Veterans have fought many battles and witnessed great triumphs and tragic de
 
 
 [CONTROLBAR:LAVeteranEregion]
-Siege of E&region
+Siege of Eregion (&T)
 
 
 [CONTROLBAR:ToolTipLAVeteranEregion]
@@ -61304,7 +61323,7 @@ The Veterans were there during Sauron's attack on the Noldorin realm of Eregion.
 
 
 [CONTROLBAR:LAVeteranLastAlliance]
-&War of the Last Alliance
+War of the Last Alliance (&C)
 
 
 [CONTROLBAR:ToolTipLAVeteranLastAlliance]
@@ -61312,7 +61331,7 @@ Requires Level 3\nThe Veterans were there during the Battle of Dagorlad and the 
 
 
 [CONTROLBAR:LAVeteranFallOfAngmar]
-Fal&l of Angmar
+Fall of Angmar (&V)
 
 
 [CONTROLBAR:ToolTipLAVeteranFallOfAngmar]
@@ -61320,7 +61339,7 @@ Requires Level 5\nThe Veterans fought alongside Glorfindel in the decisive battl
 
 
 [CONTROLBAR:ConstructNoldorVeteransHorde]
-&Laurëthelyn
+Laurëthelyn (&S)
 
 
 [CONTROLBAR:ConstructNoldorVeteransGilGaladHorde]
@@ -61361,7 +61380,7 @@ Passively decreases the speed and attack damage of enemy units in a wide radius 
 
 
 [CONTROLBAR:SongOfSpring]
-Ain&ulindalë
+Ainulindalë (&T)
 
 
 [CONTROLBAR:ToolTipSongOfSpring]
@@ -61369,11 +61388,11 @@ When cast on an Orchard, temporarily increases its resource production by 50%\n 
 
 
 [CONTROLBAR:RevelersAkallabeth]
-A&kallabêth
+Akallabêth (&C)
 
 
 [CONTROLBAR:ToolTipRevelersAkallabeth]
-Quentaroli can target units to decrease their speed by 5% up to 25% and buildings to decrease their armor by 5% up to 25% \n Passive ability \n Deals significant damage over time to structures \n Can be cast from a large distance \n Left click icon then left click on target
+Quentaroli can target units to decrease their speed by 10% and buildings to decrease their armor by 33% \n Passive ability \n Deals significant damage over time to structures \n Can be cast from a large distance \n Left click icon then left click on target
 
 
 [CONTROLBAR:UndomielLeadership]
@@ -61385,11 +61404,11 @@ Modifier Type: Leadership \n Units near Arwen gain +33% Armor \n Stacks with Buf
 
 
 [CONTROLBAR:SpecialPowerUndomiel]
-&Undómiel
+Undómiel (&R)
 
 
 [CONTROLBAR:ToolTipSpecialPowerUndomiel]
-Allows Arwen to rank up.\n Becomes more expensive the higher Arwen ranks up. \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Allied heroes near Arwen gain +33% Armor. \n Rank 3: Allied heroes near Arwen gain +33% experience gain.\n Rank 6: Allied heroes near Arwen gain +66% Armor. \n Rank 10: The radius of Arwen's leadership is greatly increased. \n Also passively grants Arwen a high percentage of ranged damage avoidance and increased armor per level. \n Stacks with Buffs and Spells \n Passive ability
+Allows Arwen to rank up.\n Becomes more expensive the higher Arwen ranks up. \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Allied heroes near Arwen gain +33% experience gain. \n Rank 3: The radius of Arwen's leadership is greatly increased. \n Rank 10: Allied heroes near Arwen gain +33% armor for 40 seconds. \n Also passively grants Arwen a high percentage of ranged damage avoidance and increased armor per level. \nPassive ability
 
 
 [CONTROLBAR:SpecialPowerUndomielFinal]
@@ -61397,7 +61416,7 @@ Undómiel
 
 
 [CONTROLBAR:ToolTipSpecialPowerUndomielFinal]
-Modifier Type: Leadership \n Rank 1: Allied heroes near Arwen gain +33% Armor. \n Rank 3: Allied heroes near Arwen gain +33% experience gain.\n Rank 6: Allied heroes near Arwen gain +66% Armor. \n Rank 10: The radius of Arwen's leadership is greatly increased. \n Also passively grants Arwen a high percentage of ranged damage avoidance and increased armor per level. \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Rank 1: Allied heroes near Arwen gain +33% experience gain. \n Rank 3: The radius of Arwen's leadership is greatly increased. \n Rank 10: Allied heroes near Arwen gain +33% armor for 40 seconds. \n Also passively grants Arwen a high percentage of ranged damage avoidance and increased armor per level. \n Left-click to activate 
 
 
 [CONTROLBAR:ArwenNoroLim]
@@ -61409,11 +61428,11 @@ Requires Level 3\n Arwen gains\n+40% Speed, +100% Armor, \n and glides past enem
 
 
 [CONTROLBAR:ArwenEvenstar]
-Power of the &Evenstar
+Power of the Evenstar (&V)
 
 
 [CONTROLBAR:ToolTipArwenEvenstar]
-Requires Level 10 \n Allied units within the radius temporarily gain fear immunity and get healed when they deal damage \n Does not affect heroes, Grey Company or Laurëthelyn \n Enemy units within the radius lose all leadership\n Left click icon then left click on target
+Requires Level 10 \n Allied units within the radius gain fear immunity and get healed when they deal damage for 60 seconds\n Does not affect heroes, Grey Company or Laurëthelyn \n Enemy units within the radius lose all leadership for 60 seconds\n Left click icon then left click on target
 
 
 [CONTROLBAR:ArwenFlood]
@@ -61429,19 +61448,19 @@ Requires Level 4\n Summons a flood that will damage enemies\nand put out fires \
 
 
 [CONTROLBAR:TinuvielBlessing]
-Blessing of &Tinuviel
+Blessing of Tinuviel (&C)
 
 
 [CONTROLBAR:ToolTipTinuvielBlessing]
-Requires Level 6 \n Enemy units within the radius are stunned\n Left click icon then left click on target
+Requires Level 6 \n Enemy units within the radius are slowed and lose -20% damage and armour for 30 seconds\n Left click icon then left click on target
 
 
 [CONTROLBAR:ArwenImage]
-Image of &Lúthien
+Image of Lúthien (&T)
 
 
 [CONTROLBAR:ToolTipArwenImage]
-Requires Level 3\n Targeted units and heroes temporarily become invisible and receive +25% movement speed \n Left click icon then left click on target
+Requires Level 3\n Targeted units and heroes temporarily become invisible and receive +10% movement speed \n Left click icon then left click on target
 
 
 [CONTROLBAR:DaughterElrond]
@@ -61449,11 +61468,11 @@ Daughter of Elrond
 
 
 [CONTROLBAR:ToolTipDaughterElrond]
-Arwen can target units to decrease their speed by 5% up to 25%\nand buildings to decrease their armor by 5% up to 25%\n Passive ability
+Arwen can target enemy units\nAllies around the target gain 33% armor\n Passive ability
 
 
 [CONTROLBAR:GlorfindelWrath]
-&Revealed in Wrath
+Revealed in Wrath (&R)
 
 
 [CONTROLBAR:ToolTipGlorfindelWrath]
@@ -61461,7 +61480,7 @@ Requires Level 3\nGlorfindel temporarily gains +100% damage \n Left click to act
 
 
 [CONTROLBAR:GlorfindelLight]
-&Light of Aman
+Light of Aman (&C)
 
 
 [CONTROLBAR:ToolTipGlorfindelLight]
@@ -61469,11 +61488,11 @@ Requires Level 7\n Targeted units gain experience \n Left click icon then left c
 
 
 [CONTROLBAR:GlorfindelSlayer]
-Slayer of Demo&ns
+Slayer of Demons (&V)
 
 
 [CONTROLBAR:ToolTipGlorfindelSlayer]
-Requires Level 10\n Blasts back units in a wide radius surrounding Glorfindel \nGlorfindel’s melee attacks pin enemy heroes for a short time\n Left click to activate
+Requires Level 10\n Blasts back units in a wide radius surrounding Glorfindel and stuns them for 15 seconds \nGlorfindel’s melee attacks pin enemy heroes for 30 seconds\n Left click to activate
 
 
 [CONTROLBAR:ToolTipBuildDain]
@@ -61486,7 +61505,7 @@ Recruit Dáin Ironfoot, Lord of the Iron Hills \n \n 'If he chooses to stand betw
 Revive the fallen Hero, Dáin Ironfoot
 
 [CONTROLBAR:DwarvenDainHotkey]
-Lord &Dáin Ironfoot
+Lord Dáin Ironfoot (&F)
 
 
 [CONTROLBAR:DwarvenKingDainRecruit]
@@ -61498,7 +61517,7 @@ Revive the fallen Hero, King Dáin
 
 
 [CONTROLBAR:DwarvenKingDainHotkey]
-King Dáin
+King Dáin (&F)
 
 
 
@@ -61544,7 +61563,7 @@ Baruk-sharâhul
 
 
 [CONTROLBAR:ConstructIronHillsWarriorHorde]
-Baru&k-sharâhul
+Baruk-sharâhul (&D)
 
 
 [CONTROLBAR:ToolTipBuildIronHillsWarriorHorde]
@@ -61560,7 +61579,7 @@ Azaghâr-sharâhul
 
 
 [CONTROLBAR:ConstructIronHillsCrossbowHorde]
-&Azaghâr-sharâhul
+Azaghâr-sharâhul (&F)
 
 
 
@@ -61574,7 +61593,7 @@ Durin's Banner
 
 
 [CONTROLBAR:BTDurinBanner]
-Durin's Banner
+Durin's Banner (&W)
 
 
 [CONTROLBAR:BTDurinBannerUpgraded]
@@ -61594,7 +61613,7 @@ Khazad-dûm Banner
 
 
 [CONTROLBAR:BTKhazadBanner]
-Khazad-dûm Banner
+Khazad-dûm Banner (&E)
 
 
 [CONTROLBAR:BTKhazadBannerUpgraded]
@@ -61614,7 +61633,7 @@ Ered Mithrim Banner
 
 
 [CONTROLBAR:BTEredMithrimBanner]
-Ered Mithrim Banner
+Ered Mithrim Banner (&R)
 
 
 [CONTROLBAR:BTEredMithrimBannerUpgraded]
@@ -61634,7 +61653,7 @@ Iron Hills Banner
 
 
 [CONTROLBAR:BTIronHillsBanner]
-Iron Hills Banner
+Iron Hills Banner (&T)
 
 
 [CONTROLBAR:BTIronHillsBannerUpgraded]
@@ -61654,7 +61673,7 @@ Ered Luin Banner
 
 
 [CONTROLBAR:BTEredLuinBanner]
-Ered Luin Banner
+Ered Luin Banner (&S)
 
 
 [CONTROLBAR:BTEredLuinBannerUpgraded]
@@ -63960,7 +63979,7 @@ Modifier Type: Spell \n For every allied building in Háma's vicinity,\n he gains
 
 
 [CONTROLBAR:GamlingWhateverEnd]
-To &Whatever End
+To Whatever End (&W)
 
 
 [CONTROLBAR:ToolTipGamlingWhateverEnd]
