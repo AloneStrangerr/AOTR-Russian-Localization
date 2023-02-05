@@ -61673,7 +61673,7 @@ Modifier Type: Spell \n Allies near the Tower gain resources per kill \n Stacks 
 Urkhas-felak
 
 [CONTROLBAR:ConstructDwarfBatteringRam]
-Urkhas-&felak
+Urkhas-felak (&W)
 
 [CONTROLBAR:ToolTipBuildDwarfBatteringRam]
 Battering Ram \n Breaks down castle gates and enemy structures \n \n Capable of carrying great weight across large distances, the Dwarves of Erebor forge and refine their battering rams within their halls, rather than use felled trees from the battleground.
@@ -61686,15 +61686,15 @@ Rohan Siege Crewer
 
 
 [CONTROLBAR:WannaBoroMiKnife]
-&Knife Throw
+Knife Throw (&W)
 
 
 [CONTROLBAR:TooltipWannaBoroMiKnife]
-Requires Level 3\n Boromir throws his knife at an enemy unit, knocking them back and reducing their armor \n Left click icon then left click on target
+Requires Level 2\n Boromir throws his knife at an enemy unit, knocking them back and reducing their armor for 10 seconds \n Left click icon then left click on target
 
 
 [CONTROLBAR:TooltipFellowshipWannaBoroMiKnife]
-Boromir throws his knife at an enemy unit, knocking them back and reducing their armor \n Left click icon then left click on target
+Boromir throws his knife at an enemy unit, knocking them back and reducing their armor for 10 seconds \n Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipSongOfDurin]
@@ -61702,7 +61702,7 @@ The Khazad-dúm Veterans sound an intimidating chant,\nreducing armor of nearby e
 
 
 [CONTROLBAR:SongOfDurin]
-H&ymn of Durin
+Hymn of Durin (&R)
 
 
 [CONTROLBAR:ToolTipKiliHighSpirits]
@@ -61710,15 +61710,15 @@ Requires Level 8\n Grants experience to nearby troops.\nOnly effects dwarven uni
 
 
 [CONTROLBAR:KiliHighSpirits]
-High S&pirits
+High Spirits (&V)
 
 
 [CONTROLBAR:KnottedStrings]
-&Knotted Strings
+Knotted Strings (&R)
 
 
 [CONTROLBAR:ToolTipKnottedStrings]
-Requires Level 3\n Azaghâr-sharâhul temporarily ignore enemy armour\n Left click to activate
+Requires Level 2\n Azaghâr-sharâhul temporarily ignore enemy armour\n Left click to activate
 
 
 [CONTROLBAR:SunderingStrikes]
@@ -61730,11 +61730,11 @@ Each consecutive melee attack decreases enemy armor by 10%\nStacks five times\nP
 
 
 [CONTROLBAR:PunchThrough]
-&Punch Through!
+Punch Through! (&R)
 
 
 [CONTROLBAR:ToolTipPunchThrough]
-Requires Level 4\nRakhâs-abzâg temporarily knock back enemy units.\n Left click to activate
+Requires Level 3\nRakhâs-abzâg temporarily knock back enemy units.\n Left click to activate
 
 
 [CONTROLBAR:ToolTipKiliArrowDodge]
@@ -61744,6 +61744,10 @@ Kili permanently gains a boost in evasion to ranged attacks.\n At level 5, Kili 
 [CONTROLBAR:KiliArrowDodge]
 Luck of Battle
 
+
+
+[OBJECT:ElvenOropher]
+Sinda Spirit
 
 
 [OBJECT:SecondAgeElendil]
@@ -61783,7 +61787,7 @@ Allies near Elendur gain \n +33% Damage, +33% Armor, \n and earn experience 50% 
 
 
 [CONTROLBAR:ElendilRestoration]
-Hands of the K&ing
+Hands of the King (&W)
 
 
 [CONTROLBAR:ToolTipElendilRestoration]
@@ -61799,7 +61803,7 @@ Heals nearby allies \n Left click icon then left click on target area
 
 
 [CONTROLBAR:ElendurRestoration]
-Hands of the Pr&ince
+Hands of the Prince (&W)
 
 
 [CONTROLBAR:ToolTipElendurRestoration]
@@ -61823,7 +61827,7 @@ Anárion, Elendil's firstborn heir, fell early in the War of the Last Alliance. S
 
 
 [CONTROLBAR:IsildurBladeMaster]
-Sha&rd of Narsil
+Shard of Narsil (&R)
 
 
 [CONTROLBAR:TooltipIsildurBladeMaster]
@@ -61839,7 +61843,7 @@ After the destruction of Beleriand at the end of the First Age, Ereinion Gil-gal
 
 
 [CONTROLBAR:GilGaladAeglosLance]
-His &Lance Was Keen
+His Lance Was Keen (&R)
 
 
 [CONTROLBAR:ToolTipGilGaladAeglosLance]
@@ -61851,11 +61855,11 @@ Herald of Gil-Galad
 
 
 [CONTROLBAR:ToolTipElrondLALeadership]
-When Gil-galad and Elendil joined forces, the Lord of Rivendell opened his sanctuary for the Kings to formulate their battleplans and assemble and their forces. Scores of mighty arms and armor were wrought in Imladris during this time. Elrond would be Gil-galad's herald in the war to come. \n\n  Allies near Elrond gain \n +33% Damage, +33% Armor, \n and earn experience 50% faster\nPassive ability
+When Gil-galad and Elendil joined forces, the Lord of Rivendell opened his sanctuary for the Kings to formulate their battleplans and assemble their forces. Scores of mighty arms and armor were wrought in Imladris during this time. Elrond would be Gil-galad's herald in the war to come. \n\n  Allies near Elrond gain \n +33% Damage, +33% Armor, \n and earn experience 50% faster\nPassive ability
 
 
 [CONTROLBAR:ElrondArrowVolleyAbility]
-&Leithio I Philinn!
+Leithio I Philinn! (&W)
 
 
 [CONTROLBAR:ToolTipElrondArrowVolleyAbility]
@@ -61957,6 +61961,39 @@ Noldor Tent
 
 [OBJECT:LAElvenTentDescription]
 Recruits Noldor troops
+
+
+[CONTROLBAR:ConstructRohanTent]
+Build a Rohan Troop Tent (&W)
+
+
+[CONTROLBAR:ToolTipConstructRohanTent]
+Recruits Rohirric troops
+
+
+[OBJECT:CampaignRohanTent]
+Rohan Troop Tent
+
+
+[OBJECT:CampaignRohanTentDescription]
+Recruits Rohirric troops
+
+
+[OBJECT:CampaignIthilienTent]
+Ithilien Troop Tent
+
+
+[OBJECT:CampaignIthilienTentDescription]
+Recruits Ithilien Ranger troops
+
+
+[CONTROLBAR:ConstructCampaignIthilienTent]
+Build an Ithilien Troop Tent
+
+
+[CONTROLBAR:ConstructCampaignIthilienTentTooltip]
+Recruits Ithilien Ranger troops
+
 
 
 [CONTROLBAR:VWMineLeadership]
@@ -62092,7 +62129,7 @@ Sulkhâ-bekhâz
 
 
 [CONTROLBAR:ConstructGrimHammerHorde]
-Sulkhâ-be&khâz
+Sulkhâ-bekhâz (&T)
 
 
 [CONTROLBAR:ToolTipBuildGrimHammerHorde]
@@ -62125,7 +62162,7 @@ Unfurl Ironfoot's Banners!
 
 
 [CONTROLBAR:TooltipDwarvenWagonButtonBC]
-Research Banner Carrier upgrade at Grand Forge\nIncreases the Battle Wagon's rank to Level 2\nNearby allies gain\n+33% Damage, +33% Armor,\nand earn experience twice as fast
+Requires Level 2\nNearby Dwarves gain +33% damage, +33% armor, and 50% experience gain\n Passive ability
 
 
 [CONTROLBAR:DwarvenWagonButon1]
@@ -62157,7 +62194,7 @@ Armored Castellan
 
 
 [CONTROLBAR:ConstructGuldurCastellan]
-Armored Caste&llan
+Armored Castellan (&R)
 
 
 [CONTROLBAR:ToolTipBuildGuldurCastellan]
@@ -62198,6 +62235,12 @@ Dwarf Fortified Gatehouse
 
 [OBJECT:DwarfCastleGate]
 Dwarf Reinforced Gate
+
+[OBJECT:DwarfEreborGate]
+Main Gate
+
+[OBJECT:DwarfEreborBridge]
+Bridge
 
 [OBJECT:DwarfCastleStairs]
 Dwarf Stairway
@@ -62321,7 +62364,7 @@ Fatty Bolger
 
 
 [CONTROLBAR:ArnorFattyBolgerHotkey]
-&Fatty Bolger
+Fatty Bolger (&S)
 
 
 [CONTROLBAR:ArnorFattyBolgerRecruit]
@@ -62465,7 +62508,7 @@ Celebrimbor
 
 
 [CONTROLBAR:LW_Hero_Muzgash]
-Muzgash
+Mûzgash
 
 
 [CONTROLBAR:LW_Hero_Urshak]
@@ -62493,11 +62536,11 @@ Linhir Spearman Battalions
 
 
 [CONTROLBAR:LW_Unit_GoblinTownFighterHorde]
-Goblin Town Warrior Horde
+Goblin-town Warrior Horde
 
 
 [CONTROLBAR:LW_Unit_GoblinTownFighterHordePlural]
-Goblin Town Warrior Hordes
+Goblin-town Warrior Hordes
 
 
 [CONTROLBAR:LW_ToolTipBuild_GoblinTownFighterHorde]
