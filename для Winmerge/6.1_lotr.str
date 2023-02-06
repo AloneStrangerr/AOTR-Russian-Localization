@@ -13537,6 +13537,464 @@ Use Frodo's powers and hide amongst trees to avoid detection
 
 
 
+[SCRIPT:Objective01_Fords]
+Repel the wildman assault
+
+
+[SCRIPT:Objective02_Fords]
+Build a base with at least five buildings to reinforce your troops.
+
+
+[SCRIPT:Objective03_Fords]
+Survive the second assault
+
+
+[SCRIPT:Objective04_Fords]
+Send Theodred to the gates of Isengard
+
+
+[SCRIPT:Objective05_Fords]
+Retreat to the fords
+
+
+[SCRIPT:Objective06_Fords]
+Hold the Fords of Isen
+
+
+[SCRIPT:Objective07_Fords]
+Kill Mog
+
+
+[SCRIPT:BonusObjective01_Fords]
+Destroy all Wildman camps
+
+
+[SCRIPT:BonusObjective02_Fords]
+Destroy all Lumber Camps
+
+
+[SCRIPT:BonusObjective03_Fords]
+Find secret allies
+
+
+[SCRIPT:BonusObjective04_Fords]
+Muster reinforcements from the nearby village
+
+
+[OBJECT:Fords_RiverFolk]
+Isen Riverfolk
+
+
+
+[SCRIPT:Objective01_Taming]
+Find a path through Emyn Muil
+
+
+[SCRIPT:Objective02_Taming]
+Defeat Gollum
+
+
+[SCRIPT:Objective03_Taming]
+Find a way out of Emyn Muil
+
+
+[SCRIPT:Objective04_Taming]
+Cross the Dead Marshes
+
+
+[SCRIPT:Objective05_Taming]
+Collect six bundles of firewood to make a camp
+
+
+[SCRIPT:Objective06_Taming]
+Collect six bundles of firewood to burn the great barrow
+
+
+
+[SCRIPT:Objective01_Eaves]
+Track the Uruk party across Rohan
+
+
+[SCRIPT:Objective02_Eaves]
+Rescue the village from Dunland and Wildmen raiders
+
+
+[SCRIPT:Objective03_Eaves]
+Find and liberate all villages across the Eastfold
+
+
+[SCRIPT:Objective04_Eaves]
+Find the Uruk and Orc party
+
+
+[SCRIPT:Objective05_Eaves]
+Report back to Eomer
+
+
+[SCRIPT:Objective06_Eaves]
+Destroy the Uruk and Orc party
+
+
+[SCRIPT:Objective07_Eaves]
+Use Aragorn to find clues of the Hobbits fate
+
+
+[SCRIPT:Objective08_Eaves]
+Find a way to cross the Entwash
+
+
+[SCRIPT:Objective09_Eaves]
+Find Merry and Pippin
+
+
+[SCRIPT:BonusObjective01_Eaves]
+Find all clues of the Uruk party
+
+
+[SCRIPT:BonusObjective02_Eaves]
+Rescue all refugees
+
+
+[SCRIPT:BonusObjective03_Eaves]
+Destroy all raiding parties across the Eastfold
+
+
+[SCRIPT:BonusObjective04_Eaves]
+Avoid detection in Fangorn Forest
+
+
+[SCRIPT:BonusObjective05_Eaves]
+Find a new shield for Boromir
+
+
+
+[SCRIPT:Objective01_DurinsTower]
+Defeat the Balrog
+
+
+
+[SCRIPT:Objective01_Ithilien]
+Eliminate all Mordor patrols before they discover the Forbidden Pool
+
+
+[SCRIPT:Objective02/3_Ithilien_PROMPT]
+Make contact with Anborn and Mablung's rangers hiding in Ithilien
+
+
+[SCRIPT:Objective02_Ithilien]
+Make contact with Anborn's rangers
+
+
+[SCRIPT:Objective03_Ithilien]
+Make contact with Mablung's rangers
+
+
+[SCRIPT:Objective04_Ithilien]
+Destroy all the lumber camps to preserve tree cover
+
+
+[SCRIPT:Objective05_Ithilien]
+Destroy the orc camp in the North-East and reduce Mordor's foothold in Ithilien
+
+
+[SCRIPT:Objective06_Ithilien]
+Ambush and destroy the Haradrim caravan
+
+
+[SCRIPT:BonusObjective01_Ithilien]
+Destroy all orc scout teams without any escaping
+
+
+[SCRIPT:BonusObjective02_Ithilien]
+Find at least 12 teams of Rangers
+
+
+[SCRIPT:BonusObjective03_Ithilien]
+Use Anborn to track and capture Gollum
+
+
+[SCRIPT:BonusObjective04_Ithilien]
+Cover all positions along the southern pass before the convoy arrives
+
+
+
+[SCRIPT:Objective01_Westfold]
+Defeat the attackers before Upbourn's southern gate is destroyed.
+
+
+[SCRIPT:Objective02_Westfold]
+Make contact with the captain of the guard at the town centre.
+
+
+[SCRIPT:Objective03_Westfold]
+Liberate the Eastern side of Upbourn
+
+
+[SCRIPT:Objective04_Westfold]
+Keep the Gatehouse clear from Isengard's forces.
+
+
+[SCRIPT:Objective05_Westfold]
+Destroy Isengard's forward base.
+
+
+[SCRIPT:Objective06_Westfold]
+Defend Upbourn from Sharku's warband.
+
+
+[SCRIPT:BonusObjective01_Westfold]
+Rescue all trapped villagers.
+
+
+[SCRIPT:BonusObjective02_Westfold]
+Destroy all Isengard forces in the lowlands and woods.
+
+
+[SCRIPT:BonusObjective03_Westfold]
+Survive Sharku's attack and destroy the forward base without calling for reinforcements.
+
+
+
+[SCRIPT:Objective_GC_Annuminas_01]
+Reach captain Halbarad.
+
+
+[SCRIPT:Objective_GC_Annuminas_02]
+Travel to all regions across Eriador and gather Dunedain rangers.
+
+
+[SCRIPT:Objective_GC_Annuminas_03]
+Travel to the Ettenmoors and destroy the orc stronghold in Eriador.
+
+
+[SCRIPT:BonusObjective_GC_Annuminas_01]
+Explore the ruins of Annuminas and its surroundings.
+
+
+[SCRIPT:Objective_GC_Barrows_01]
+Find Athelas to revive Amdir.
+
+
+[SCRIPT:Objective_GC_Barrows_02]
+Search the surrounding area for a trail of Amdir's rangers.
+
+
+[SCRIPT:Objective_GC_Barrows_03]
+Discover the fate of Amdir's rangers inside the great barrow.
+
+
+[SCRIPT:Objective_GC_Barrows_04]
+Kill Cargást to release Amdir's men.
+
+
+[SCRIPT:BonusObjective_GC_Barrows_01]
+Destroy all spell stones throughout the barrow.
+
+
+[SCRIPT:Objective_GC_Shire_01]
+Defend Farmer Maggot's farmstead from ruffians.
+
+
+[SCRIPT:Objective_GC_Shire_02]
+Extinguish all fires in Farmer Maggot's fields.
+
+
+[SCRIPT:Objective_GC_Shire_03]
+Farmer Maggot's farmstead must be defended.
+
+
+[SCRIPT:Objective_GC_Shire_04]
+Destroy the ruffian camps.
+
+
+[SCRIPT:BonusObjective_GC_Shire_01]
+Keep Grip, Fang and Wolf alive.
+
+
+[SCRIPT:Objective_GC_Fornost_01]
+Defeat the white wolves.
+
+
+[SCRIPT:Objective_GC_Fornost_02]
+Make contact with captain Toradan inside Fornost.
+
+
+[SCRIPT:Objective_GC_Fornost_03]
+Rescue all ranger groups in Fornost before they are overrun.
+
+
+[SCRIPT:Objective_GC_Fornost_04]
+Defend Fornost from the Goblin assault.
+
+
+[SCRIPT:BonusObjective_GC_Fornost_01]
+Keep all ranger groups alive.
+
+
+[SCRIPT:Objective_GC_Trollshaws_01]
+Find Elegost.
+
+
+[SCRIPT:Objective_GC_Trollshaws_02]
+Follow Gorg's trail and discover the fate of the rangers.
+
+
+[SCRIPT:Objective_GC_Trollshaws_03]
+Kill Gorg.
+
+
+[SCRIPT:BonusObjective_GC_Trollshaws_01]
+Kill all trolls throughout the region.
+
+
+[SCRIPT:BonusObjective_GC_Trollshaws_02]
+Destroy the troll lair.
+
+
+[SCRIPT:BonusObjective_GC_Trollshaws_03]
+Retrieve valuables from the troll hoard.
+
+
+[SCRIPT:Objective_GC_Ettenmoors_01]
+Destroy the Goblin camp.
+
+
+[SCRIPT:Objective_GC_Ettenmoors_02]
+Infiltrate the Ettenmoors and reach Golfimbul's cave.
+
+
+[SCRIPT:Objective_GC_Ettenmoors_03]
+Kill Golfimbul.
+
+
+[SCRIPT:Objective_GC_Ettenmoors_04]
+Kill the fleeing Goblins.
+
+
+[SCRIPT:BonusObjective_GC_Ettenmoors_01]
+Kill all Goblin lookouts without sounding the alarm.
+
+
+[SCRIPT:BonusObjective_GC_Ettenmoors_02]
+Destroy the drum.
+
+
+[SCRIPT:BonusObjective_GC_Ettenmoors_03]
+Free the cave troll.
+
+
+
+[SCRIPT:Objective01_Osgiliath]
+Fight your way to the Great Bridge
+
+
+[SCRIPT:Objective02_Osgiliath]
+Rally back to Meneldil's Square
+
+
+[SCRIPT:Objective03_Osgiliath]
+Hide from the Nazgul in the Court of Isildur
+
+
+[SCRIPT:Objective04_Osgiliath]
+Reunite with the Hobbits
+
+
+[SCRIPT:Objective05_Osgiliath]
+Defeat the Nazgul to disrupt Mordor's forces
+
+
+[SCRIPT:Objective06_Osgiliath]
+Escape through the sewers in the city outskirts
+
+
+[SCRIPT:BonusObjective01_Osgiliath]
+Have at least ten soldiers alive when you reach Meneldil's Square
+
+
+[SCRIPT:BonusObjective02_Osgiliath]
+Find all upgrades hidden throughout the city
+
+
+[SCRIPT:BonusObjective03_Osgiliath]
+Find a way to stop the trolls from reaching Faramir's men
+
+
+
+[SCRIPT:Objective01_HelmsDeep]
+Speak to all heroes in Helm's Deep.
+
+
+[SCRIPT:Objective02_HelmsDeep]
+Build an army to defend the Hornburg.
+
+
+[SCRIPT:Objective03_HelmsDeep]
+Upgrade at least three battalions in the armoury.
+
+
+[SCRIPT:Objective04_HelmsDeep]
+Defend the Deeping Wall and main gate.
+
+
+[SCRIPT:Objective05_HelmsDeep]
+Defend the Deeping-coomb.
+
+
+[SCRIPT:Objective06_HelmsDeep]
+Rescue Haldir.
+
+
+[SCRIPT:Objective07_HelmsDeep]
+Retreat all troops to the Hornburg.
+
+
+[SCRIPT:Objective08_HelmsDeep]
+Hold the main gate for as long as possible.
+
+
+[SCRIPT:Objective09_HelmsDeep]
+Retreat all heroes to the great hall.
+
+
+[SCRIPT:Objective10_HelmsDeep]
+Defeat the Uruk-hai.
+
+
+[SCRIPT:BonusObjective01_HelmsDeep]
+Gather all standing troops from around Helm's Deep.
+
+
+[SCRIPT:BonusObjective02_HelmsDeep]
+Stop Isengard placing any mines in the Culvert.
+
+
+[SCRIPT:BonusObjective03_HelmsDeep]
+Keep at least four hordes of Galadhrim alive.
+
+
+[SCRIPT:BonusObjective04_HelmsDeep]
+Decide the fate of the Dunlending forces.
+
+
+
+[SCRIPT:Objective01_Isengard]
+Destroy the lumber mills surrounding Isengard.
+
+
+[SCRIPT:Objective02_Isengard]
+Destroy all buildings inside of Isengard.
+
+
+[SCRIPT:Objective03_Isengard]
+Break the Dam
+
+
+[SCRIPT:BonusObjective01_Isengard]
+Keep all Ents alive.
+
+
+
 
 
 
