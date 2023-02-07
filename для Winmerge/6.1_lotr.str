@@ -70053,7 +70053,25 @@ Tales of Middle-earth: Balin's Expedition*
 
 
 [Map:MAPSPbalinsexpedition/Desc]
-In T.A. 2989, Balin set out to reclaim the great ancestral halls of Khazad-dûm... \n Singleplayer Mission \n Player Start: Bottom-right \n Play on High settings or above, save your progress often
+In T.A. 2989 after the Kingdom of the Lonely Mountain had been restored, Balin and his company set out to reclaim the great ancestral halls of the Dwarves, Khazad-dûm. \n Singleplayer Mission \n Player Faction: Erebor \n Recommended on High settings or above. \n save your progress often.
+
+
+
+[Map:MAPMPadventureblackrootvale]
+Adventure: Blackroot Vale*
+
+
+[Map:MAPMPadventureblackrootvale/Desc]
+Emerging from the Paths of the Dead, Aragorn and the Grey Company hastened through the southern lands of Gondor towards Minas Tirith, arriving first at the river Morthond and the Blackroot Vale. \n Singleplayer Adventure Map \n Human Player: Left starting position, Gondor \n AI: Right starting position, Mordor
+
+
+
+[Map:MAPMPadventurenorthundeep]
+Adventure: North Undeep*
+
+
+[Map:MAPMPadventurenorthundeep/Desc]
+Earlier in the Third Age, a clan of fierce Easterlings under the sway of Dol Guldur, known as the Balchoth, occupied and raided the lands of Rhovanion. \n Singleplayer Adventure Map \n Human Player: Left starting position, FACTION \n AI: Right starting position, FACTION
 
 
 
@@ -70121,6 +70139,15 @@ The icy region and kingdom founded during the Third Age in the far north of the 
 
 
 
+[Map:MAPMPannuminas]
+Annúminas*
+
+
+[Map:MAPMPannuminas/Desc]
+On the southern shores of Lake Evendim stand the ancient ruins of Annúminas, once seat of the Kings of Arnor. Its fair ruins and surrounding foothills are inhabited by the Dúnedain, led by Halbarad their captain. \n Capturable: Signal Fire \n Creeps: Warg \n Region: Arnor
+
+
+
 [Map:MAPMPannunlos]
 Annúnlos*
 
@@ -70184,6 +70211,15 @@ This coastal region in southern Gondor stretches from the mouth of the Anduin to
 
 
 
+[Map:MAPMPberennyn]
+Berennyn
+
+
+[Map:MAPMPberennyn/Desc]
+Part of the Old Brown Lands, this area was once home of the Entwives until they were driven away when Sauron desolated the land in defence of Mordor, during the War of the Last Alliance. \n Capturable: Outpost \n Creeps: Goblin, Barrow Wight \n Region: Rhovanion
+
+
+
 [Map:MAPMPbesiegedolguldur]
 Besiege: Dol Guldur*
 
@@ -70202,12 +70238,30 @@ Edoras is the capital of Rohan, built upon a great mound, and home to the Golden
 
 
 
+[Map:MAPMPbesiegeesgaroth]
+Besiege: Esgaroth*
+
+
+[Map:MAPMPbesiegeesgaroth/Desc]
+Esgaroth, or Lake-town, lies south of Erebor and east of Mirkwood, built upon wooden stilts sunk deep into the Long Lake. Its hardy people have a long history of trade with the Woodland Realm, and the Kingdoms of Erebor and Dale. \n Capturable: Signal Fire, Inn, Dock \n Region: Rhovanion
+
+
+
 [Map:MAPMPbesiegehelmsdeep]
 Besiege: Helm's Deep*
 
 
 [Map:MAPMPbesiegehelmsdeep/Desc]
 This aged stronghold is the site of one of the key battles in the War of the Ring. No enemy has ever defeated the defenders of the walls of the fortress, or entered its keep, the Hornburg. \n Capturable: Outpost \n Region: Rohan
+
+
+
+[Map:MAPMPbesiegehornburg]
+Besiege: Hornburg*
+
+
+[Map:MAPMPbesiegehornburg/Desc]
+The Hornburg, located at the mouth of the gorge called Helm's Deep, is a great stronghold of Rohan and sanctuary in times of war. Its vast Deeping Wall spans the width of the valley, and behind the staunch fortress lie the Glittering Caves.\n Capturable: Inn\n Region: Rohan
 
 
 
@@ -70244,6 +70298,15 @@ Besiege: Pelargir*
 
 [Map:MAPMPbesiegepelargir/Desc]
 An ancient port city of Gondor that lies at the mouth of the rivers Anduin and Sirith. Frequent raids by Corsairs of Umbar have made it necessary for heavy fortifications to protect Gondor's maritime interests. \n Capturable: Signal Fire, Outpost, Dock \n Creeps: Warg, Goblin, Corsair \n Region: Gondor
+
+
+
+[Map:MAPMPbesiegewulfborg]
+Besiege: Wulfborg*
+
+
+[Map:MAPMPbesiegewulfborg/Desc]
+Wulfborg is the capital of Frecalund, a Dunlending realm under the banner of King Wulfgar. Saruman the White is known to visit, stirring its folk with speeches of injustice and retribution against their foes. \n Capturable: Outpost \n Creeps: Warg \n Region: Eriador
 
 
 
