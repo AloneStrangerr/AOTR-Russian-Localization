@@ -73852,3 +73852,281 @@ The Wold
 The Wold is the northernmost and least populated part of Rohan, a grassy upland plain lying between Fangorn and the Anduin. Its hardy and nomadic inhabitants use the land to graze cattle.
 
 
+
+[SCRIPT:1Newintro0]
+In T.A. 2989. Óin and a company of Dwarves lay siege to the Dimrill Dale ...
+
+
+[SCRIPT:1Newintro1]
+... They were the precedents to a great expedition, led by Balin, who had set out with a Dwarf-host from Erebor ...
+
+
+[SCRIPT:1Newintro2]
+... To reclaim Khazad-dûm, the ancient halls of their ancestors ...
+
+
+[SCRIPT:1Newintro3]
+... Ere Durin's Bane had been unleashed from its deep slumber ...
+
+
+[SCRIPT:1Newintro4]
+Balin: Óin is in need of a hand! we must make haste and clear them out from the dale!
+
+
+[SCRIPT:1Newintro5]
+Balin: Onwards, Dwarves! To victory, in Thorin's name! For Dáin! For Erebor!
+
+
+[SCRIPT:1OBJECTIVE0]
+Slay Muzgash.
+
+
+[SCRIPT:1OBJECTIVE2]
+Reclaim the East Gate
+
+
+[SCRIPT:1OBJECTIVE3]
+Reclaim The Kingdom of Khazad-dûm
+
+
+[SCRIPT:1OBJECTIVE6]
+Defend Khazad-dûm
+
+
+[SCRIPT:1OBJECTIVE5]
+Scavenge and Relcaim the Western Mines
+
+
+[SCRIPT:1OBJECTIVE4]
+Find the Key to the Gate
+
+
+[SCRIPT:1OBJECTIVEBONUS1]
+Capture the Beacon
+
+
+[SCRIPT:1OBJECTIVE_INTERFACE2]
+Orcish structures remaining:
+
+
+[SCRIPT:1OBJECTIVE_INTERFACE3]
+Keys Found:
+
+
+[SCRIPT:1OBJECTIVE_INTERFACE4]
+Relics Found:
+
+
+[SCRIPT:RELICFOUND1]
+There in the rubble, a truesilver helmet was found!
+
+
+[SCRIPT:RELICFOUND2]
+Within these barrels of weapons, the mighty axe of Durin was found!
+
+
+[SCRIPT:1OBJREMINDERVET]
+All Heroes must survive the reclamation of the Dwarrowdelf, or all will be lost.
+
+
+[SCRIPT:SAVEPLYR]
+We recommend saving often to avoid losing progress during this long mission which contains several acts and cinematic sequences. You may experience memory crashes due to its length.
+
+
+[SCRIPT:1nNOACCESS]
+We must first clear the rest of the enemy forces from the dale before we aid Óin, or our flank will be unprotected!
+
+
+[SCRIPT:1nACCESS]
+An opening in the skirmish, aid Óin before he is overwhelmed!
+
+
+[SCRIPT:1nOINRESCUE]
+Óin: Come on cousin! Let us remove this fiend from the Gate of Durin!
+
+
+[SCRIPT:1BALININTROEND]
+Balin: That should be the last of them! The Dimrill Gate has been reclaimed! This is but the first of many victories that await us.
+
+
+[SCRIPT:1INTROVER1]
+Balin has reclaimed the Dimrill Gate for Erebor! But his story has just begun ...
+
+
+[SCRIPT:1INTROVER2]
+... Into the black pit of Moria we must go to rekindle the great braziers of our folk, and reclaim what was lost.
+
+
+[SCRIPT:1ACT2OIN1]
+Óin: We have secured the First Hall! Now we will take back our ancient Kingdom and slay the foul enemy within!
+
+
+[SCRIPT:1MORIADIAL2]
+Balin: Stay alert. These dark halls might be home to more than just orcs...
+
+
+[SCRIPT:1MORIADIAL3]
+Óin: Let's settle down here for now and gather strength. We will send word to Dáin once we have secured a point of defence.
+
+
+[SCRIPT:1MORIADIAL4]
+Balin: The gate is locked tight. We must find a Key to open it and continue onwards.
+
+
+[SCRIPT:1MORIAKEY1]
+Balin: The Chamber of Records is locked. There should be a key to enter within.
+
+
+[SCRIPT:1MORIACHAMBERUNSURE]
+Óin: The Chamber smells foul, there must be goblins inside.
+
+
+[SCRIPT:1MORIAKEY2]
+Balin: This key does not fit the keyhole of this gate. We must find another.
+
+
+[SCRIPT:1MORIADIAL5]
+Balin: Keep your blades to hand! \n Do you hear it?
+
+
+[SCRIPT:1MORIADIAL6]
+Balin: Goblins! They mean to ambush us!
+
+
+[SCRIPT:1MORIADIAL7]
+Dwarf: By my dear mother's beard! \n What do we do!?
+
+
+[SCRIPT:1MORIADIAL8]
+Balin: Steady! We will not be driven out so easily!
+
+
+[SCRIPT:1MORIADIAL9]
+Balin: Drums! If it is to be war, then let us be ferocious! Teach them who the true masters of these hills are!
+
+
+[SCRIPT:1MORIADIAL10]
+Dwarf: That will teach them! None may stand before the Longbeards of Erebor, the Heirs of Oakenshield!
+
+
+[SCRIPT:1MORIAMINESDIAL2]
+Dwarf: Whatever lurks beneath these waters, we must keep going!
+
+
+[SCRIPT:1MORIAMINESE2DIAL0]
+Óin: We cannot go on much further, cousin. Many are wounded. \n We must etablish a foothold now, so that in time we may venture further.
+
+
+[SCRIPT:1MORIAMINESE2DIAL1]
+Balin: Agreed. We will fortify ourselves within the Twenty-first Hall. You, Óin, are in charge of treating the wounded. \n Send word to King Dáin. He will be expecting a report.
+
+
+[SCRIPT:1MORIAMINESE2DIAL2]
+Colony: All hail Balin, son of Fundin! Lord of Khazad-dûm! \n Hurrah! Hurrah for Balin!
+
+
+[SCRIPT:1PART3INTRO1]
+Soon afterwards The Dwarves recovered their strength and settled the Twenty-first Hall. \n Balin mustered his kin to begin clear out the western mines and halls of the vile orcish usurpers ...
+
+
+[SCRIPT:1PART3INTRO2]
+Many wondrous artifacts were recovered. The Dwarves of Balin's Colony donned the armor of their forebears, hard and tough like a dragon's hide. \n Scores of orcs were killed, cut down relentlessly by the fury of the Dwarves ...
+
+
+[SCRIPT:1PART3INTRO3]
+Balin's Colony grew. The Dwarves began to venture deep within their ancient halls, driving the orcs before them wherever they were found... \n Until at last they reached the West-gate, known as the Doors of Durin ...
+
+
+[SCRIPT:1PART3INTRO4]
+The Lord of Moria discovered ancient treasures: Durin's Axe, and a truesilver helmet of untold age ...
+
+
+[SCRIPT:1PART3INTRO5]
+Every find was catalogued in the Book of Mazarbul. For five years they fought and ventured, slowly gaining ground... \n Until, during the fifth year, their luck had run out.
+
+
+[SCRIPT:1PART3INTRO6]
+Lord Balin wrote a stack of letters, to be sent to Longbeard strongholds across Middle-earth:\n Khazad-dûm had been reclaimed, and would remain secure if more settlers were to arrive.
+
+
+[SCRIPT:1PART3INTROEND]
+Ere he sent out this request, Balin traveled to the Mirrormere to quietly reflect upon his quest.
+
+
+[SCRIPT:BALINMIRRORMERE]
+Balin: Ah ... the sun still shines in gold and silver upon the stones of the Dimrill Dale, as it did in the days of Durin...
+
+
+[SCRIPT:1THEFALL0]
+He looked into the waters, saw Durin's Crown above ... \n And then he saw no more.
+
+
+[SCRIPT:1THEFALL01]
+A lone goblin scout killed Balin with a single arrow. Balin, son of Fundin, was slain.
+
+
+[SCRIPT:1THEFALL02]
+Nothing could be done. \n 'Leaderless!', the goblin scout reported. 'The Dwarves are leaderless!'
+
+
+[SCRIPT:1THEFALL03]
+Soon an army of orcs appeared at the Dimrill Gate. There were many Trolls amongst their numbers. The assault upon Balin's Colony soon began ...
+
+
+[SCRIPT:1THEFALL04]
+The Dwarves, armed with steel and furious grief, resolved to avenge their lord \n Each Dwarf fought with the strength of three, and stopped the orcs in their tracks. But the orcs kept coming ...
+
+
+[SCRIPT:1THEFALL05]
+The orcish horde breached the barricade and stormed the First Hall. Many Dwarves lay dead in their wake. \n Balin's corpse was recovered, and was set into a tomb in the Chamber of Mazarbul.
+
+
+[SCRIPT:1OINFALLBE1]
+Dwarf Officer: Óin, you have arrived in time! \n They have breached our defences! They are coming for us in great number!
+
+
+[SCRIPT:1OINFALLBE2]
+Óin: This colony must not be lost! Khazâd ai-mênu!
+
+
+[SCRIPT:1OINFALLBE3]
+Óin: We cannot hold them here! \n Fall back to the Chamber of Mazarbul!
+
+
+[SCRIPT:1OINFALLBE4]
+Ori: We will fortify the Chamber of Mazarbul and wait. Go swiftly Lord Óin!
+
+
+[SCRIPT:BALROGNOTICE]
+Dwarf: It is Durin's Bane! It comes for us! Flee for your lives!
+
+
+[SCRIPT:1OINFALLOBJ1]
+Escape to the Chamber of Mazarbul
+
+
+[SCRIPT:1OINFALLDE1]
+Óin: The water... it has risen high in our absence...
+
+
+[SCRIPT:1OINFALLDE2]
+Dwarf Officer: Óin! There is movement in the water! Watch out!
+
+
+[SCRIPT:1OINFALLDE3]
+Óin: Grasping arms! Death lies inside the waters! We cannot flee! We must slay this beast and find a way forward!
+
+
+[SCRIPT:1OINFALLDE4]
+Dwarf: No! It has slain Óin! we must flee back to the Chamber of Mazarbul! The end of days is upon us!
+
+
+[SCRIPT:1ORICHAMBERFAL2]
+Dwarf: My lord Ori, the hammer of our doom has struck! Óin is dead!
+
+
+[SCRIPT:THEENDCREDITS]
+In T.A. 2994, Balin's Colony was destroyed. No word reached Dáin Ironfoot.\n It would be yet another 30 years before the Company of the Ring passed through and discovered their fate...
+
+
+
