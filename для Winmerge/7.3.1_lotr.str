@@ -3071,12 +3071,12 @@ END
 
 TOOLTIP:MeleeDamage
 // Used to display a unit's melee damage in the in-game help text
-"Melee Damage: %d"
+"Melee damage: %d"
 END
 
 TOOLTIP:RangedDamage
 // Used to display a unit's ranged damage in the in-game help text
-"Ranged Damage: %d"
+"Ranged damage: %d"
 END
 
 TOOLTIP:BattlesFought
@@ -6501,7 +6501,7 @@ TOOLTIP:GameOptions
 END
 
 TOOLTIP:Crates
-// context: Help text . Bonus crates are left behind when some units are destroyed. They provide extra resources, armor, or fire power to the player who captures it.
+// context: Help text . Bonus crates are left behind when some units are destroyed. They provide extra resources, armour, or fire power to the player who captures it.
 "Bonus crates"
 END
 
@@ -7215,7 +7215,7 @@ END
 
 GUI:GoToRadarEventDescription
 // context: Help text for the 'Go to Radar Event' command. 
-"Center the tactical view on the last radar event."
+"Centre the tactical view on the last radar event."
 END
 
 // comment: Command. Player can assign Bookmarks for camera positions over the map
@@ -7378,12 +7378,12 @@ END
 
 GUI:CenterBase
 // context: It centers view over the player's base
-"Center Base"
+"Centre Base"
 END
 
 GUI:CenterBaseDescription
 // context: help text for 'Center Base' command
-"Center the view about the player's base."
+"Centre the view about the player's base."
 END
 
 GUI:SelectNone
@@ -7686,102 +7686,102 @@ END
 
 GUI:ViewTeam0
 // context: Command to Select Team X
-"Center Team 0"
+"Centre Team 0"
 END
 
 GUI:ViewTeam0Description
 // context: Help text for 'Select Team X' command
-"Select and center view about team 0."
+"Select and centre view about team 0."
 END
 
 GUI:ViewTeam1
 // context: Command to Select and Center the View over Team X
-"Center Team 1"
+"Centre Team 1"
 END
 
 GUI:ViewTeam1Description
 // context: Help text for 'Center Team X' command
-"Select and center view about team 1."
+"Select and centre view about team 1."
 END
 
 GUI:ViewTeam2
 // context: Command to Select and Center the View over Team X
-"Center Team 2"
+"Centre Team 2"
 END
 
 GUI:ViewTeam2Description
 // context: Help text for 'Center Team X' command
-"Select and center view about team 2."
+"Select and centre view about team 2."
 END
 
 GUI:ViewTeam3
 // context: Command to Select and Center the View over Team X
-"Center Team 3"
+"Centre Team 3"
 END
 
 GUI:ViewTeam3Description
 // context: Help text for 'Center Team X' command
-"Select and center view about team 3."
+"Select and centre view about team 3."
 END
 
 GUI:ViewTeam4
 // context: Command to Select and Center the View over Team X
-"Center Team 4"
+"Centre Team 4"
 END
 
 GUI:ViewTeam4Description
 // context: Help text for 'Center Team X' command
-"Select and center view about team 4."
+"Select and centre view about team 4."
 END
 
 GUI:ViewTeam5
 // context: Command to Select and Center the View over Team X
-"Center Team 5"
+"Centre Team 5"
 END
 
 GUI:ViewTeam5Description
 // context: Help text for 'Center Team X' command
-"Select and center view about team 5."
+"Select and centre view about team 5."
 END
 
 GUI:ViewTeam6
 // context: Command to Select and Center the View over Team X
-"Center Team 6"
+"Centre Team 6"
 END
 
 GUI:ViewTeam6Description
 // context: Help text for 'Center Team X' command
-"Select and center view about team 6."
+"Select and centre view about team 6."
 END
 
 GUI:ViewTeam7
 // context: Command to Select and Center the View over Team X
-"Center Team 7"
+"Centre Team 7"
 END
 
 GUI:ViewTeam7Description
 // context: Help text for 'Center Team X' command
-"Select and center view about team 7."
+"Select and centre view about team 7."
 END
 
 GUI:ViewTeam8
 // context: Command to Select and Center the View over Team X
-"Center Team 8"
+"Centre Team 8"
 END
 
 GUI:ViewTeam8Description
 // context: Help text for 'Center Team X' command
-"Select and center view about team 8."
+"Select and centre view about team 8."
 END
 
 GUI:ViewTeam9
 // context: Command to Select and Center the View over Team X
-"Center Team 9"
+"Centre Team 9"
 END
 
 GUI:ViewTeam9Description
-// context: Help text for 'Center Team X' command
-"Select and center view about team 9."
+// context: Help text for 'Centre Team X' command
+"Select and centre view about team 9."
 END
 // comment:
 
@@ -7979,7 +7979,7 @@ End
 // End of Science Strings
 //--------------------------------------------------------------------------------
 CONTROLBAR:ToolTipToggleWargSkirmishToLineFormation
-"+25% Armor, -50% Damage"
+"+25% armour, -50% damage"
 END
 
 CONTROLBAR:ToolTipToggleWargLineToSkirmishFormation
@@ -7987,7 +7987,7 @@ CONTROLBAR:ToolTipToggleWargLineToSkirmishFormation
 END
 
 CONTROLBAR:ToolTipTogglePikemanLineToPorcupineFormation
-"+25% Armor, -40% Speed\n Bonus damage to cavalry"
+"+25% armour, -40% speed\n Bonus damage to cavalry"
 END
 
 CONTROLBAR:ToolTipTogglePikemanPorcupineToLineFormation
@@ -7995,7 +7995,7 @@ CONTROLBAR:ToolTipTogglePikemanPorcupineToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleCrossbowmanLineToWedgeFormation
-"+25% Damage, -50% Armor"
+"+25% damage, -50% armour"
 END
 
 CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLineFormation
@@ -8003,12 +8003,12 @@ CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleIFighterLineToBlockFormation
-"+25% Armor, -40% Speed"
+"+25% armour, -40% speed"
 END
 
 
 CONTROLBAR:ToolTipToggleRangerLineToSkirmishFormation
-"+25% Damage, -50% Armor"
+"+25% damage, -50% armour"
 END
 
 CONTROLBAR:ToolTipToggleRangerSkirmishToLineFormation
@@ -8016,7 +8016,7 @@ CONTROLBAR:ToolTipToggleRangerSkirmishToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleGArcherLineToWedgeFormation
-"+25% Damage, -50% Armor"
+"+25% damage, -50% armour"
 END
 
 CONTROLBAR:ToolTipToggleGArcherWedgeToLineFormation
@@ -8024,7 +8024,7 @@ CONTROLBAR:ToolTipToggleGArcherWedgeToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleHaradrimLineToWedgeFormation
-"+25% Damage, -25% Armor"
+"+25% damage, -25% armour, and -25% crush decelerate"
 END
 
 CONTROLBAR:ToolTipToggleHaradrimWedgeToLineFormation
@@ -8032,7 +8032,7 @@ CONTROLBAR:ToolTipToggleHaradrimWedgeToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleEasterlingLineToPorcupineFormation
-"+25% Armor, -40% Speed\n Bonus damage to cavalry"
+"The units form a Spear Wall\n Units lose 40% speed, gain resistance to knockback, decelerate crush, and gain +33% armour"
 END
 
 CONTROLBAR:ToolTipToggleEasterlingPorcupineToLineFormation
@@ -8040,7 +8040,7 @@ CONTROLBAR:ToolTipToggleEasterlingPorcupineToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleGKnightLineToWedgeFormation
-"+25% Damage, -25% Armor, and -50 Crush Decelerate"
+"+25% damage, -25% armour, and -50% crush decelerate"
 END
 
 CONTROLBAR:ToolTipToggleGKnightWedgeToLineFormation
@@ -8048,7 +8048,7 @@ CONTROLBAR:ToolTipToggleGKnightWedgeToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleRohirrimLineToWedgeFormation
-"+25% Damage, -25% Armor"
+"+25% damage, -25% armour"
 END
 
 CONTROLBAR:ToolTipToggleRohirrimWedgeToLineFormation
@@ -8056,7 +8056,7 @@ CONTROLBAR:ToolTipToggleRohirrimWedgeToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleRohirrimArcherLineToWedgeFormation
-"+25% Damage, -25% Armor"
+"+25% damage, -25% armour"
 END
 
 CONTROLBAR:ToolTipToggleRohirrimArcherWedgeToLineFormation
@@ -8064,7 +8064,15 @@ CONTROLBAR:ToolTipToggleRohirrimArcherWedgeToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleRArcherLineToSkirmishFormation
-"Requires level 2 \n +25% Damage, +15% Speed, -50% Armor"
+"Requires level 2 \n +25% damage, +15% speed, -50% armour"
+END
+
+CONTROLBAR:ToolTipToggleRestlessArcherLineToSkirmishFormation
+"+25% damage, +15% speed, -50% armour"
+END
+
+CONTROLBAR:ToolTipToggleHarondorArcherVolley
+"+15% damage, +20% range, -15% armour, -33% speed"
 END
 
 CONTROLBAR:ToolTipToggleRArcherSkirmishToLineFormation
@@ -8072,7 +8080,7 @@ CONTROLBAR:ToolTipToggleRArcherSkirmishToLineFormation
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToShieldWallFormation
-"+80% Armor, -75% Speed"
+"+80% armour, -75% speed"
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardShieldWallToLineFormation
@@ -8099,7 +8107,7 @@ CONTROLBAR:SpecialAbilityRangerAmbush
 "Ambush For&mation"
 END
 CONTROLBAR:ToolTipSpecialAbilityRangerAmbush
-"+50% Damage \n -75% Armor"
+"+50% damage \n -75% armour"
 END
 
 CONTROLBAR:SpecialAbilityOsgiliathVeterans
@@ -8163,7 +8171,7 @@ END
 
 
 CONTROLBAR:OrRequirement
-// context: For the command button of building a strategy center.  Inserted into the building requirements list in the tooltip
+// context: For the command button of building a strategy centre.  Inserted into the building requirements list in the tooltip
 "or"
 END
 
@@ -8319,6 +8327,11 @@ End
 
 CONTROLBAR:ChargeAttack
 "Charge Attack (&W)"
+END
+
+CONTROLBAR:ChargeAttackHaradwaith
+//"Charge Attack (&W)"
+"Warbeast of the South (&W)"
 END
 
 CONTROLBAR:Guard
@@ -8619,11 +8632,11 @@ UPGRADE:RohanHornsOfTheRohirrim
 END
 
 UPGRADE:HeavyArmor
-"Heavy Armor"
+"Heavy Armour"
 END
 
 TOOLTIP:HeavyArmor
-"Heavy Armor"
+"Heavy Armour"
 END
 
 UPGRADE:ForgedBlades
@@ -8655,11 +8668,11 @@ UPGRADE:GondorFireStones
 END
 
 UPGRADE:IsengardForgedBlades
-"Forged Blades"
+"Cruel Blades"
 END
 
 UPGRADE:IsengardHeavyArmor
-"Heavy Armor"
+"Blackened Plate"
 END
 
 UPGRADE:SwordsUpgrade
@@ -8671,7 +8684,7 @@ TOOLTIP:SwordsUpgrade
 END
 
 UPGRADE:HeavyArmorUpgrade
-"Heavy Armor"
+"Heavy Armour"
 END
 
 UPGRADE:StoneworkerUpgradeReinforcedGate
@@ -8810,7 +8823,7 @@ OBJECT:RohanForgedBladesPorter
 END
 
 TOOLTIP:RohanForgedBlades
-"Forged Blades"
+"Mundburg Steel Blades"
 END
 
 
@@ -8827,7 +8840,7 @@ OBJECT:RohanFlamingArrowPorter
 END
 
 OBJECT:RohanHeavyArmorPorter
-"Rohan Heavy Armor Porter"
+"Rohan Heavy Armour Porter"
 END
 
 OBJECT:RohanPeasant
@@ -8870,6 +8883,10 @@ OBJECT:RohanTreeBeard
 "Treebeard"
 END
 
+OBJECT:ElvenHuorn
+"Huorn"
+END
+
 OBJECT:RohanElvenWarrior
 "Elven Warriors"
 END
@@ -8905,7 +8922,7 @@ OBJECT:RohanEomerCavalry
 END
 
 OBJECT:RohanEowyn
-"Eowyn"
+"Éowyn"
 END
 
 OBJECT:RohanPorter
@@ -8924,6 +8941,30 @@ END
 
 OBJECT:ElvenRivendellLancer
 "Roquentar"
+END
+
+OBJECT:EregionKnights
+"Eregion Knights"
+END
+
+OBJECT:EregionKnight
+"Eregion Knight"
+END
+
+OBJECT:EregionSpearman
+"Eregion Spear-elf"
+END
+
+OBJECT:EregionSpearmen
+"Eregion Spears"
+END
+
+OBJECT:EregionWarrior
+"Eregion Warrior"
+END
+
+OBJECT:EregionWarriors
+"Eregion Warriors"
 END
 
 OBJECT:ElvenBanner
@@ -8981,7 +9022,7 @@ CONTROLBAR:MundburgMasonry
 End
 
 CONTROLBAR:ToolTipMundburgMasonry
-"Structures gain a 50% boost in armor\n Player must maintain a Workshop to benefit from this upgrade"
+"Requires level 2 Workshop\nStructures gain a 33% boost in armour\nDoes not affect Fortress\nPlayer must maintain a Workshop to benefit from this upgrade"
 End
 
 OBJECT:GondorTownsman
@@ -9001,7 +9042,7 @@ OBJECT:GondorPorterSwords
 END
 
 OBJECT:GondorPorterHeavyArmor
-"Gondor Heavy Armor Porter"
+"Gondor Heavy Armour Porter"
 END
 
 OBJECT:GondorPorterShield
