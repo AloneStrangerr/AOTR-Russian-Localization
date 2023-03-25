@@ -9058,8 +9058,48 @@ OBJECT:GondorPorterFireArrow
 END
 
 OBJECT:GondorTowerShieldGuard
-"Gondor Citadel Guard"
+"Guard of the Citadel"
 END
+
+OBJECT:VeteranofOsgiliath
+"Veteran of Osgiliath"
+END
+
+OBJECT:VeteranofOsgiliathHorde
+"Veterans of Osgiliath"
+END
+
+CONTROLBAR:ConstructVeteransOsgiliathHorde
+"Veterans of Osgiliath (&W)"
+END
+CONTROLBAR:ToolTipBuildVeteransOsgiliathHorde
+"Strong vs. Pikemen\n \n Long has Gondor kept the forces of Mordor at bay. By the blood of these warriors are the lands of the West kept safe."
+END
+
+CONTROLBAR:VeteransLoyal
+"Loyal"
+END
+
+CONTROLBAR:ToolTipVeteransLoyal
+"Modifier Type: Leadership\nVeterans of Osgiliath gain +10% armour and resistance to fear and terror when nearby Boromir or Faramir\nPassive ability"
+END
+
+CONTROLBAR:OnsetofDoom
+"Onset of Doom"
+END
+
+CONTROLBAR:ToolTipOnsetofDoom
+"Requires Level 3\nNearby enemies lose -15% armour and damage and have reduced fear resistance\n When a Veteran dies, nearby Veterans temporarily gain +15% armour and +15% damage\n Passive ability"
+END
+
+CONTROLBAR:VetsForGondor
+"Sally Forth (&R)"
+END
+
+CONTROLBAR:TooltipVetsForGondor
+"Requires Level 2 \n Veterans and nearby allied units gain\n+25% damage and resistance to knockback for 15 seconds\nLeft click to activate"
+END
+
 
 OBJECT:GondorRanger
 "Ithilien Ranger"
@@ -9177,12 +9217,12 @@ OBJECT:ElvenElrond
 "Lord Elrond"
 END
 
-OBJECT:GondorIsildur
-"Isildur"
+OBJECT:ElvenCirdan
+"Círdan"
 END
 
-OBJECT:GondorEarnur
-"Earnur"
+OBJECT:GondorIsildur
+"Isildur"
 END
 
 OBJECT:ElvenGaladriel
@@ -9234,11 +9274,11 @@ OBJECT:RohanLegolas
 END
 
 OBJECT:GondorArcher
-"Anórien Archer"
+"Archer of Minas Tirith"
 END
 
 OBJECT:GondorCavalry
-"Anórien Rider"
+"Knight of Minas Tirith"
 END
 
 OBJECT:GondorCavalryRiderless
@@ -9246,7 +9286,7 @@ OBJECT:GondorCavalryRiderless
 END
 
 OBJECT:GondorCavalryCINE
-"Anórien Rider"
+"Knight of Minas Tirith"
 END
 
 OBJECT:GondorTrebuchet
@@ -9277,6 +9317,10 @@ END
 
 OBJECT:DwarvenBanner
 "Erebor Banner Carrier"
+END
+
+OBJECT:EredLuinBanner
+"Ered Luin Venturer"
 END
 
 OBJECT:DwarvenDain
@@ -9321,6 +9365,66 @@ END
 OBJECT:HordeRuffian
 "Ruffians"
 End
+
+CONTROLBAR:ConstructRuffian
+"Ruffians (&W)"
+END
+
+CONTROLBAR:ToolTipBuildRuffianHorde
+"Strong vs. Pikemen \n\n Rejects and vagabonds, cheats and liars: Saruman welcomed all in his bid to conquer and control the Shire."
+END
+
+CONTROLBAR:PutTheminChains
+"Put 'em in Chains!"
+END
+
+CONTROLBAR:ToolTipPutTheminChains
+"Requires Level 3 \n Melee attacks decrease enemy armour by 15% for 5 seconds\nDebuff does not stack with itself\nPassive ability"
+END
+
+CONTROLBAR:Pickpockets
+"Pickpockets"
+END
+
+CONTROLBAR:ToolTipPickpockets
+"Requires Level 2 \n Ruffians steal resources from slain enemies\nPassive ability"
+END
+
+CONTROLBAR:LightEmUp
+"Light 'em Up! (&T)"
+END
+
+CONTROLBAR:ToolTipLightEmUp
+"Requires Level 2 \n The Ruffians throw flaming bottles at the target \n Left click icon then left click on target"
+END
+
+CONTROLBAR:SharkeysRuffians
+"Sharkey's Ruffians"
+END
+
+CONTROLBAR:ToolTipSharkeysRuffians
+"Modifier Type: Leadership\nRuffians gain +25% damage when near Saruman\nPassive ability"
+END
+
+
+//------------ Ruffian Bows ---------------
+OBJECT:RuffianBows
+"Ruffian Bow"
+END
+
+OBJECT:RuffianBowsHorde
+"Ruffian Bows"
+END
+
+CONTROLBAR:ConstructRuffianBows
+"Ruffian Bows (&W)"
+END
+
+CONTROLBAR:ToolTipBuildRuffianBowsHorde
+"Strong vs. Infantry \n\n Rejects and vagabonds, cheats and liars: Saruman welcomed all in his bid to conquer and control the Shire."
+END
+
+//-----------
 
 OBJECT:IsengardWildmanGuard
 "Guard of Orthanc"
@@ -9395,7 +9499,7 @@ OBJECT:IsengardPorterForgedBlades
 END
 
 OBJECT:IsengardPorterHeavyArmor
-"Isengard Heavy Armor Porter"
+"Isengard Heavy Armour Porter"
 END
 
 
@@ -9405,7 +9509,7 @@ OBJECT:MordorBatteringRam
 END
 
 OBJECT:MordorWitchKing
-"The Witch-king"
+"The Witch-king of Angmar"
 END
 
 OBJECT:MordorHaradrimArcher
@@ -9832,6 +9936,10 @@ OBJECT:WargLair
 "Warg Lair"
 END
 
+OBJECT:JungleWargLair
+"Jungle Warg Lair"
+END
+
 OBJECT:WARG
 "Warg"
 END
@@ -9932,7 +10040,7 @@ CONTROLBAR:ToolTipBuildBarrowWight
 END
 
 CONTROLBAR:NimrodelWaters
-"Blessed Waters (&W)"
+"Blessed Waters (&E)"
 END
 
 CONTROLBAR:ToolTipNimrodelWaters
@@ -9940,7 +10048,7 @@ CONTROLBAR:ToolTipNimrodelWaters
 END
 
 CONTROLBAR:MallornRoots
-"Mallorn Roots (&E)"
+"Mallorn Roots (&R)"
 END
 
 CONTROLBAR:ToolTipMallornRoots
