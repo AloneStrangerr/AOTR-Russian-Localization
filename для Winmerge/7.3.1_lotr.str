@@ -10992,7 +10992,7 @@ OBJECT:WildLumberMill
 END
 
 OBJECT:MordorSlaughterHouse
-"Slaughter House"
+"Slave Farm"
 END
 
 OBJECT:Furnace
@@ -11052,7 +11052,7 @@ OBJECT:WeaponRack
 END
 
 OBJECT:GondorArmorRack
-"Armor Rack"
+"Armour Rack"
 END
 
 OBJECT:Flag
@@ -11223,11 +11223,11 @@ CONTROLBAR:SpecialAbilityGamlingFLAL
 "For Lord and Land"
 END
 CONTROLBAR:ToolTipSpecialAbilityGamlingFLAL
-"+50% Damage, +50% Experience Gain, -20% Recharge Time\n Replensishes nearby hordes \n Passive ability"
+"+50% damage, +50% experience Gain, -20% recharge time\n Replensishes nearby hordes \n Passive ability"
 END
 
 CONTROLBAR:BFMEBuildNoldorExileHorde
-"Strong vs. Cavalry and Siege \n\nExiles of Noldor carry long spears to defend themselves on their journey back to Valinor."
+"strong vs. cavalry and siege \n\nExiles of Noldor carry long spears to defend themselves on their journey back to Valinor."
 END
 
 OBJECT:CampaignStrider
@@ -11236,6 +11236,10 @@ END
 
 OBJECT:CampaignRingwraith
 "Ringwraith"
+END
+
+OBJECT:CampaignBlackRider
+"Black Rider"
 END
 
 OBJECT:CampaignBreeBuilding
@@ -11259,7 +11263,7 @@ OBJECT:FireWood
 END
 
 OBJECT:DunedainSword
-"Dunedain Sword"
+"Dúnedain Sword"
 END
 
 OBJECT:CampaignBrooch
@@ -11335,7 +11339,7 @@ CampaignName:Council
 END
 
 CampaignName:Redhorn
-"Howls on the Redhorn"
+"The Ring Goes South"
 END
 
 CampaignName:Moria
@@ -12206,19 +12210,23 @@ SCRIPT:Objective_G01_05
 END
 
 SCRIPT:Objective_G01_06
-"Train a battalion of Lorien Warriors from your barracks."
+"Train a battalion of Rivendell Guardsmen from the Dormitory."
 END
 
 SCRIPT:Complete_G01_06a
-"Lorien Warriors have been trained at the barracks."
+"Rivendell Guardsmen have been trained at the Dormitory."
 END
 
 SCRIPT:Objective_G01_07
-"Gloin must reach Level 2."
+"Glóin must reach Level 2."
 END
 
 SCRIPT:Complete_G01_07a
-"Gloin has reached Level 2."
+"Glóin has reached Level 2."
+END
+
+SCRIPT:Announcement_G01_00
+"You can recruit Revelers from the Hall of Fire to lay waste to the enemy's camp."
 END
 
 SCRIPT:Announcement_G01_01
@@ -12238,11 +12246,11 @@ SCRIPT:Announcement_G01_04
 END
 
 SCRIPT:Announcement_G01_05
-"Build a Lorien Warrior battalion from your barracks."
+"Build a Rivendell Guardsmen battalion from your barracks."
 END
 
 SCRIPT:Announcement_G01_06
-"You can build more units from this Elven Barracks."
+"You can build more units from this Dormitory."
 END
 
 SCRIPT:Announcement_G01_07
@@ -12250,15 +12258,15 @@ SCRIPT:Announcement_G01_07
 END
 
 SCRIPT:Announcement_G01_08
-"Arwen has returned with the Rivendell Lancers." 
+"Arwen has returned with the Rivendell Knights." 
 END
 
 SCRIPT:Announcement_G01_09
-"The eagles have joined the fight." 
+"The Great Eagles have joined the fight." 
 END
 
 SCRIPT:Announcement_G01_10
-"Use the eagles to slay the Wyrm." 
+"Use the Great Eagles to slay the Were-worm." 
 END
 
 
@@ -12267,19 +12275,19 @@ SCRIPT:Hint_G01_01
 END
 
 SCRIPT:Hint_G01_02
-"You can build more fighter battalions from your barracks."
+"You can build more units from the Dormitory."
 END
 
 SCRIPT:Hint_G01_03
-"The Mallorn Tree produces resources that you can use to buy units."
+"The Orchard produces resources that you can use to buy units."
 END
 
 SCRIPT:Hint_G01_04
-"Some Lorien Archers have arrived to the west."
+"Some Rivendell Archers have arrived to the west."
 END
 
 SCRIPT:Hint_G01_05
-"These Lorien Archers will aid us greatly."
+"These Rivendell Archers will aid us greatly."
 END
 
 SCRIPT:Hint_G01_06
@@ -12299,11 +12307,11 @@ SCRIPT:Hint_G01_09
 END
 
 SCRIPT:Hint_G01_10
-"You can now build Lorien Archers from the Elven Barracks." 
+"You can now build Rivendell Archers from the Dormitory." 
 END
 
 SCRIPT:Hint_G01_11
-"ELF OFFICER: A Wyrm! We must destroy it!" 
+"ELF OFFICER: A Worm! We must destroy it!" 
 END
 
 SCRIPT:Dialog_G01_01
@@ -12346,6 +12354,7 @@ END
 ///////////////////////// GOOD HIGH PASS MISSION TEXT //////////////////////////
 ///////// A single line of text should be no longer than this one. /////////////
 
+
 SCRIPT:OBJECTIVE_G02_01
 "Establish a base at the High Pass."
 End
@@ -12359,27 +12368,27 @@ SCRIPT:COMPLETED_G02_01
 End
 
 SCRIPT:OBJECTIVE_G02_01A
-"Build a Mallorn Tree."
+"Build an Orchard."
 End
 
 SCRIPT:ANNOUNCEMENT_G02_01A
-"Build a Mallorn Tree to bolster our economy."
+"Build an Orchard to bolster our economy."
 End
 
 SCRIPT:COMPLETED_G02_01A
-"Mallorn Tree has been built." 
+"An Orchard has been built." 
 End
 
 SCRIPT:OBJECTIVE_G02_01B
-"Build an Elven Barracks." 
+"Build a Dormitory." 
 End
 
 SCRIPT:ANNOUNCEMENT_G02_01B
-"Build a barracks to train more warriors and archers."
+"Build a Dormitory to train more warriors."
 End
 
 SCRIPT:COMPLETED_G02_01B
-"Barracks have been built." 
+"Dormitory has been built." 
 End
 
 SCRIPT:OBJECTIVE_G02_01C
@@ -12423,47 +12432,47 @@ SCRIPT:OBJECTIVE_G02_01F
 End
 
 SCRIPT:ANNOUNCEMENT_G02_01F
-"Train Lorien Archers from the barracks and Rivendell Lancers from the Pasture and we can venture into the pass." 
+"Train Archers and Knights from the Dormitory so we can venture into the pass." 
 End
 
 SCRIPT:COMPLETED_G02_01F
-"Archers and Rivendell Lancers trained." 
+"Archers and Knights trained." 
 End
 
 SCRIPT:OBJECTIVE_G02_02
-"Rescue Haldir." 
+"Rescue the Sons of Elrond." 
 End
 
 SCRIPT:COMPLETED_G02_02
-"Haldir rescued." 
+"The Sons of Elrond have been rescued." 
 End
 
 SCRIPT:ANNOUNCEMENT_G02_02
-"Haldir is trapped on a bluff to the north. Rescue him."
+"The Sons of Elrond are fighting an overwhelming force of orcs on a crag to the north. Rescue them."
 END
 
 SCRIPT:OBJECTIVE_G02_03
-"Destroy the Goblin Camp." 
+"Destroy the Goblin camp." 
 End
 
 SCRIPT:ANNOUNCEMENT_G02_03
-"Destroy the Goblin Camp and drive them from the pass." 
+"Destroy the Goblin camp and drive them from the High Pass." 
 End
 
 SCRIPT:COMPLETED_G02_03
-"Goblin Camp Destroyed." 
+"Goblin camp destroyed." 
 End
 
 SCRIPT:OBJECTIVE_G02_04
-"Kill the Watcher in the Water."
+"Kill the Dragon."
 END
 
 SCRIPT:ANNOUNCEMENT_G02_04
-"Kill the Watcher in the Water, lest it lay waste to our forces."
+"Kill the Dragon, lest it lay waste to our forces."
 END
 
 SCRIPT:COMPLETED_G02_04
-"The Watcher in the Water has been killed."
+"The Dragon has been killed."
 END
 
 SCRIPT:OBJECTIVE_G02_B01
@@ -12475,11 +12484,11 @@ SCRIPT:COMPLETED_G02_B01
 END
 
 SCRIPT:OBJECTIVE_G02_B02
-"Destroy all Giant Fissures."
+"Destroy all Troll Lairs."
 END
 
 SCRIPT:COMPLETED_G02_B02
-"All Giant Fissures have been destroyed."
+"All Troll Lairs have been destroyed."
 END
 
 SCRIPT:OBJECTIVE_G02_B03
@@ -12491,15 +12500,15 @@ SCRIPT:COMPLETED_G02_B03
 END
 
 SCRIPT:MGHighPass_HaldirScout01
-"ELF SCOUT: Haldir is trapped by the Goblins. Save him!"
+"ELF SCOUT: The Sons of Elrond are trapped by the orcs. Save them!"
 END
 
 SCRIPT:MGHighPass_HaldirHint01
-"ELF SCOUT: Haldir is facing imminent defeat. Save him now!"
+"ELF SCOUT: Elladan and Elrohir are facing imminent defeat. Save them now!"
 END
 
 SCRIPT:MGHighPass_CampHint01
-"The Watcher is defeated, but the goblin camp still stands. Destroy the camp."
+"The Dragon is defeated, but the goblin camp still stands. Destroy the camp."
 END
 
 SCRIPT:MGHighPass_Haldir01
@@ -12526,11 +12535,11 @@ SCRIPT:COMPLETION_G03_01
 END
 
 SCRIPT:OBJECTIVE_G03_02
-"Drive the goblins from the elven settlement"
+"Drive the goblins from the elven settlement."
 END
 
 SCRIPT:ANNOUNCEMENT_G03_02
-"Drive the Goblins from the settlement and save the elves."
+"Drive the goblins from the settlement and save the elves."
 END
 
 SCRIPT:HINT_G03_02
@@ -12542,19 +12551,18 @@ SCRIPT:COMPLETION_G03_02
 END
 
 SCRIPT:OBJECTIVE_G03_03
-"Free the dormant Entmoot."
+"Reach the Dúnedain camp and enquire their help in fighting goblins."
 END
 
 SCRIPT:ANNOUNCEMENT_G03_03
-"Free the dormant Entmoot and use Ents to crush the goblins."
+"Reach the Dúnedain camp and enquire their help in fighting goblins."
 END
 
 SCRIPT:HINT_G03_03
-"Free the dormant Entmoot and use Ents to crush the goblins."
+"Reach the Dúnedain camp and enlist their aid in the fight against the orcs."
 END
-
 SCRIPT:COMPLETION_G03_03
-"Entmoot freed."
+"The Dúnedain will help us slay the Goblin King."
 END
 
 SCRIPT:OBJECTIVE_G03_04
@@ -12598,11 +12606,11 @@ SCRIPT:COMPLETION_G03_B01
 END
 
 SCRIPT:OBJECTIVE_G03_B02
-"Destroy the Mountain Troll and Giant Drum."
+"Destroy the giant drum."
 END
 
 SCRIPT:ANNOUNCEMENT_G03_B02A
-"That drum summons Mountain Giants. Kill the troll before he reaches it."
+"That drum summons more Trolls. Kill the troll before he reaches it."
 END
 
 SCRIPT:ANNOUNCEMENT_G03_B02B
@@ -12626,15 +12634,23 @@ SCRIPT:COMPLETION_G03_B03
 END
 
 SCRIPT:MGEttenmoors_Haldir01
-"Reach the elven encampment. Haldir will rejoin you later."
+"Reach the elven encampment. The Sons of Elrond will rejoin you later."
+END
+
+SCRIPT:MGEttenmoors_Haldir02
+"Elladan: Go forth and save our kin. We will join you upon finding allies located in these hills."
+END
+
+SCRIPT:MGEttenmoors_Haldir03
+"Elrohir: Help has arrived, let us put these foul beasts to the sword."
 END
 
 SCRIPT:MGEttenmoors_Archers01
-"Lorien Archers have joined your party."
+"Rivendell Archers have joined your troops."
 END
 
 SCRIPT:MGEttenmoors_Archers02
-"Lorien Archers have joined your party."
+"Rivendell Archers have joined your troops."
 END
 
 SCRIPT:MGEttenmoors_Warriors01
@@ -12646,11 +12662,11 @@ SCRIPT:MGEttenmoors_Dozer01
 END
 
 SCRIPT:MGEttenmoors_Captain01
-"ELF CAPTAIN: If the troll reaches that drum they'll bring the giants down upon us!"
+"ELF CAPTAIN: If the troll reaches that drum it'll bring more trolls down upon us!"
 END
 
 SCRIPT:MGEttenmoors_Captain02
-"ELF CAPTAIN: Kill the Troll and free the dormant Entmoot."
+"ELEGOST: It appears that the Eldar could use a few rangers. Our bows will prove useful to you."
 END
 
 SCRIPT:MGEttenmoors_GoblinKing01
@@ -12662,7 +12678,7 @@ SCRIPT:MGEttenmoors_GoblinKing02
 END
 
 SCRIPT:MGEttenmoors_Hint01
-"Use Ents or Gloin's Slam to bring down this wall much faster."
+"We must use our Revelers to reach the inside of this fortress."
 END
 
 
@@ -12710,11 +12726,11 @@ SCRIPT:ANNOUNCEMENT_G04_B01
 END
 
 SCRIPT:HINT_G04_B01
-"Eliminate the Spider Lairs that infest this cave."
+"Eliminate the Spiders Lairs that infest this cave."
 END
 
 SCRIPT:COMPLETION_G04_B01
-"All Spider lairs have been eliminated."
+"All Spider Lairs have been eliminated."
 END
 
 SCRIPT:OBJECTIVE_G04_B02a
@@ -12802,11 +12818,11 @@ SCRIPT:MGBlueMountain_MissionHint07RallyCall
 End
 
 SCRIPT:MGBlueMountain_MissionHint11Demolisher
-"Construct a Demolisher to break down the door."
+"Construct a Battering Ram or a Demolisher to break down the door."
 End
 
 SCRIPT:MGBlueMountain_MissionHint12DemolisherB
-"Use your demolisher to knock down the citadel gates."
+"Use battering rams or demolishers to knock down the citadel gates."
 End
 
 //////////////////////// GOOD GREY HAVENS MISSION TEXT /////////////////////////
@@ -12845,7 +12861,7 @@ SCRIPT:GOODGreyHavensTextHint-BuildBattleshipsComplete
 END
 
 SCRIPT:GOODGreyHavensTextHint-UpgradeShips
-"Select your Battleship, then click the flashing button to upgrade the armor and endurance of your naval vessels."
+"Select your Battleship, then click the flashing button to upgrade the armour and endurance of your naval vessels."
 END
 
 SCRIPT:GOODGreyHavensTextHint-BuildStormShip
@@ -13076,15 +13092,15 @@ SCRIPT:COMPLETION_G06_01
 END
 
 SCRIPT:OBJECTIVE_G06_02
-"Repel the Mûmakil assault."
+"Repel the Great Beasts' assault."
 END
 
 SCRIPT:ANNOUNCEMENT_G06_02
-"Repel the Mûmakil assault from the shallows."
+"Repel the Great Beasts' assault from the shallows."
 END
 
 SCRIPT:COMPLETION_G06_02
-" The Mûmakil assault has been repelled."
+" The Great Beasts' assault has been repelled."
 END
 
 SCRIPT:OBJECTIVE_G06_03
@@ -13092,7 +13108,7 @@ SCRIPT:OBJECTIVE_G06_03
 END
 
 SCRIPT:ANNOUNCEMENT_G06_03
-"Cross the shallows and take the fight to Mordor's encampment."
+"Cross the shallows and take the fight to Easterlings' encampment."
 END
 
 SCRIPT:COMPLETION_G06_03
@@ -13100,15 +13116,15 @@ SCRIPT:COMPLETION_G06_03
 END
 
 SCRIPT:OBJECTIVE_G06_04
-"Destroy the Mordor Fortress."
+"Destroy the Easterling Fortress."
 END
 
 SCRIPT:ANNOUNCEMENT_G06_04
-"Destroy Mordor's Fortress and drive them from this land."
+"Destroy Easterling's Fortress and drive them from this land."
 END
 
 SCRIPT:COMPLETION_G06_04
-"The Mordor Fortress has been destroyed."
+"The Easterling Fortress has been destroyed."
 END
 
 SCRIPT:OBJECTIVE_G06_B01
@@ -13116,23 +13132,23 @@ SCRIPT:OBJECTIVE_G06_B01
 END
 
 SCRIPT:ANNOUNCEMENT_G06_B01
-"Collect all of Dáin's scattered forces and return them to the dwarven base at the docks."
+"Collect all of Dáin's scattered forces and return them to the base at the docks."
 END
 
 SCRIPT:HINT_G06_B01
-"Collect all of Dáin's scattered forces and return them to the dwarven base at the docks."
+"Collect all of Dáin's scattered forces and return them to the base at the docks."
 END
 
 SCRIPT:COMPLETION_G06_B01
-"The scattered forces have been returned to the dwarven base."
+"The scattered forces have been returned to the base."
 END
 
 SCRIPT:OBJECTIVE_G06_B02
-"Capture all Inns and Outposts."
+"Capture all Auxillary Camps and Outposts."
 END
 
 SCRIPT:COMPLETION_G06_B02
-"All of the Inns and Outposts have been captured."
+"All of the Auxilary Camps and Outposts have been captured."
 END
 
 SCRIPT:OBJECTIVE_G06_B03
@@ -13144,15 +13160,15 @@ SCRIPT:COMPLETION_G06_B03
 END
 
 SCRIPT:OBJECTIVE_G06_B04
-"Destroy all Mordor Catapults."
+"Destroy all Catapults."
 END
 
 SCRIPT:COMPLETION_G06_B04
-"All Mordor Catapults have been destroyed."
+"All Catapults have been destroyed."
 END
 
 SCRIPT:G06_Hint01
-"Use your Siege Hammers to shatter this Fortress."
+"Use Grim-hammers to shatter this Fortress."
 END
 
 SCRIPT:G06_Hint02
@@ -13160,7 +13176,7 @@ SCRIPT:G06_Hint02
 END
 
 SCRIPT:MGCeludin_ObjectiveBonusA
-"Rescue the Men of Dale and they shall fight alongside you."
+"Rescue the Bardings and they shall fight alongside you."
 End
 
 SCRIPT:INTRO_GO6_01
@@ -13168,11 +13184,11 @@ SCRIPT:INTRO_GO6_01
 END
 
 SCRIPT:INTRO_GO6_02
-"The Celduin settlement has been overrun by Mordor forces, the Dwarven armies scattered."
+"The Celduin settlement has been overrun by Easterlings forces, the Dwarven armies scattered."
 END
 
 SCRIPT:INTRO_GO6_03
-"Still, Dáin fights bravely, gathering his forces for one last ditch assault on the Mordor camp."
+"Still, Dáin fights bravely, gathering his forces for one last ditch assault on the Easterling camp."
 END
 
 
@@ -13192,7 +13208,7 @@ SCRIPT:Objective_G07_02
 END
 
 SCRIPT:Objective_G07_03
-"Destroy all Mordor forces."
+"Destroy all Easterling forces."
 END
 
 SCRIPT:Objective_G07_04
@@ -13220,35 +13236,35 @@ SCRIPT:Complete_G07_07
 END
 
 SCRIPT:Objective_G07_08
-"Defeat the first wave of Mordor attackers."
+"Defeat the first wave of Easterling attackers."
 END
 
 SCRIPT:Complete_G07_08
-"The first wave of Mordor attackers has been defeated."
+"The first wave of Easterling attackers has been defeated."
 END
 
 SCRIPT:Objective_G07_09
-"Defeat the second wave of Mordor attackers."
+"Defeat the second wave of Easterling attackers."
 END
 
 SCRIPT:Complete_G07_09
-"The second wave of Mordor attackers has been defeated."
+"The second wave of Easterling attackers has been defeated."
 END
 
 SCRIPT:Objective_G07_10
-"Defeat the third wave of Mordor attackers."
+"Defeat the third wave of Easterling attackers."
 END
 
 SCRIPT:Complete_G07_10
-"The third wave of Mordor attackers has been defeated."
+"The third wave of Easterling attackers has been defeated."
 END
 
 SCRIPT:Objective_G07_11
-"Defeat the fourth wave of Mordor attackers."
+"Defeat the fourth wave of Easterling attackers."
 END
 
 SCRIPT:Complete_G07_11
-"The fourth wave of Mordor attackers has been defeated."
+"The fourth wave of Easterling attackers has been defeated."
 END
 
 SCRIPT:Objective_G07_12
@@ -13260,11 +13276,11 @@ SCRIPT:Complete_G07_12
 END
 
 SCRIPT:Objective_G07_13
-"Destroy the Mordor encampment."
+"Destroy the Easterling encampment."
 END
 
 SCRIPT:Complete_G07_13
-"The Mordor encampment has been destroyed."
+"The Easterling encampment has been destroyed."
 END
 
 SCRIPT:Objective_G07_14
@@ -13565,7 +13581,7 @@ END
 ///////// A single line of text should be no longer than this one. /////////////
 
 SCRIPT:EvilLorienOpenText
-"Build up your base and raise an army to destroy Lothlorien."
+"Build up your base and raise an army to destroy Lothlórien."
 END
 
 SCRIPT:EvilLorienHintText_BuildCave
@@ -13741,7 +13757,7 @@ SCRIPT:EvilLorienHintText_GaladrielFlees
 END
 
 SCRIPT:EvilLorienHintText_DestroyStronghold
-"Destroy the heart of Lothlorien, Caras Galadhon, found in the northwest\n corner of the map."
+"Destroy the heart of Lothlorien, Caras Galadhon, found in the northwest."
 END
 
 SCRIPT:EvilLorienHintText_DestroyStrongholdComplete
@@ -13998,11 +14014,11 @@ SCRIPT:EvilGreyHavensHintText_InfoFireship01
 END
 
 SCRIPT:EvilGreyHavensHintText_CapOutpost
-"We're running low on supplies. Capturing that outpost will supply us with more resources."
+"We're running low on supplies. Move inland and try to find more resources."
 END
 
 SCRIPT:EvilGreyHavensHintText_CapOutpostComplete
-"We've captured the outpost and plundered some booty."
+"We've captured an outpost."
 END
 
 SCRIPT:EvilGreyHavensHintText_ElvishConvoy01
@@ -14067,7 +14083,7 @@ SCRIPT:FAILURE_SPEGH_01
 END
 
 SCRIPT:EVILGreyHavensHintText_LastFort
-"There is one last Elven fortress by the water. We should deploy ships to destroy it."
+"There is one last Elven fortress by the water. We can deploy ships to destroy it faster."
 END
 
 
@@ -14141,19 +14157,19 @@ SCRIPT:COMPLETION_E03_03
 END
 
 SCRIPT:OBJECTIVE_E03_04
-"Defeat all Dunedain."
+"Defeat all Dúnedain."
 END
 
 SCRIPT:ANNOUNCEMENT_E03_04
-"The Dunedain are attacking our forces. Kill them all."
+"The Dúnedain are attacking our forces. Kill them all."
 END
 
 SCRIPT:HINT_E03_04
-"The Dunedain are attacking our forces. Kill them all."
+"The Dúnedain are attacking our forces. Kill them all."
 END
 
 SCRIPT:COMPLETION_E03_04
-"The Dunedain have been destroyed."
+"The Dúnedain have been destroyed."
 END
 
 SCRIPT:OBJECTIVE_E03_05
@@ -14233,22 +14249,22 @@ SCRIPT:MEShire_Prompt07
 End
 
 SCRIPT:MEShire_Prompt08
-"These Mountain Giants come to our aid. Use them well."
+"These Cave Trolls come to our aid. Use them well."
 End
 
 SCRIPT:MEShire_Prompt09
-"The Wild Men of Dunland come to our aid. You can use your powers to summon more of them."
+"These Ruffians will help us pillage the Shire!"
 END
 
 ////////////////////////// EVIL FORNOST MISSION TEXT ///////////////////////////
 ///////// A single line of text should be no longer than this one. /////////////
 
 SCRIPT:EvilFornostOpenText
-"The Dwarves and Dunedain make one final stand here. \n Clear the city of their kind so they never rise again."
+"The Dwarves and Dúnedain make one final stand here. \n Clear the city of their kind so they never rise again."
 END
 
 SCRIPT:Announcement_E04_01
-"Destroy all Dwarves and Dunedain defending the city."
+"Destroy all Dwarves and Dúnedain defending the city."
 END
 
 SCRIPT:Announcement_E04_02
