@@ -10052,7 +10052,8 @@ CONTROLBAR:MallornRoots
 END
 
 CONTROLBAR:ToolTipMallornRoots
-"Requires Level 2 Mallorn Tree \n Nearby enemies are slowed"
+//"Requires Level 2 Mallorn Tree \n Nearby enemies are slowed"
+"Modifier Type: Debuff\nNearby enemies are slowed and suffer minor damage over time\n Mallorn Tree receives +33% armour"
 END
 
 OBJECT:Obsolete
@@ -10124,7 +10125,7 @@ OBJECT:MordorWorker
 END
 
 OBJECT:Balrog
-"Balrog"
+"Durin's Bane"
 END
 
 OBJECT:Oathbreaker
@@ -10195,6 +10196,10 @@ OBJECT:MordorDrummerTroll
 "Drummer Troll"
 END
 
+CONTROLBAR:DrumsofWar
+"Drums of War"
+END
+
 OBJECT:MordorPike
 "Orc Warrior"
 END
@@ -10221,7 +10226,7 @@ OBJECT:MordorFellBeast
 END
 
 OBJECT:MordorWitchKingOnFellBeast
-"The Witch-king"
+"The Witch-king of Angmar"
 END
 
 OBJECT:Crebain
@@ -10389,6 +10394,10 @@ END
 OBJECT:GondorCampKeep
 //"Click here to build/revive Heroes"  //This is seen by all players.
 "Citadel"
+END
+
+OBJECT:WotROutpost
+"Outpost"
 END
 
 OBJECT:GondorCastleBaseKeep
@@ -10678,7 +10687,7 @@ OBJECT:MordorTent
 END
 
 OBJECT:MordorOrcPit
-"Orc Barracks"
+"Orcish Stronghold"
 END
 
 OBJECT:MordorOrcFletcher
@@ -10694,15 +10703,63 @@ OBJECT:MordorSiegeWorks
 END
 
 OBJECT:MordorHaradrimPalace
-"Easterling Encampment"
+"Easterling Garrison"
 END
+
+CONTROLBAR:TooltipUpgradeMordorHaradrimPalaceLevel2Rhun
+"Allows training of Great Khân's Swordsmen and Great Khân's Phalanx\n +10% faster build speed"
+End
+
+CONTROLBAR:TooltipUpgradeMordorHaradrimPalaceLevel3Rhun
+"Allows training of Golden Axemen and Dragon Knights\nAdds defensive arrow tower \n +25% faster build speed"
+End
+
+//------------ Rhûn Archery Range ---------------
+OBJECT:MordorRhunArcherRange
+"Rhûn Archery Range"
+END
+
+CONTROLBAR:ConstructRhunArcheryRange
+"Build Rhûn Archery Range (&C)"
+END
+
+CONTROLBAR:ToolTipRhunArcheryRange
+"Trains archers of Rhûn"
+END
+
+CONTROLBAR:ConstructRhunArcheryRangeLevel2Upgrade
+"Upgrade Rhûn Archery Range to Level 2 (&A)"
+END
+CONTROLBAR:ConstructRhunArcheryRangeLevel3Upgrade
+"Upgrade Rhûn Archery Range to Level 3 (&A)"
+END
+
+CONTROLBAR:ToolTipBuildRhunArcheryRangeLevel2Upgrade
+//"Level 2: +10% faster build speed \n Allows training of Ithilien Rangers"
+"Allows training of Great Khân's Archers\n+10% faster build speed"
+END
+CONTROLBAR:ToolTipBuildRhunArcheryRangeLevel3Upgrade
+//"Level 3: +25% faster build speed \n Allows purchase of the Fire Arrow Upgrade"
+"+25% faster build speed\nAdds defensive arrow tower"
+END
+
+
+CONTROLBAR:ToolTipBuildRhunStableLevel2Upgrade
+//"Level 2: +10% faster build speed \n Allows training of Knights of Dol Amroth"
+"Allows training of Golden Cataphracts\n+10% faster build speed"
+END
+CONTROLBAR:ToolTipBuildRhunStableLevel3Upgrade
+//"Level 3: +25% faster build speed \nAdds defensive arrow tower"
+"Allows training of Golden Chariots\n+25% faster build speed\nAdds defensive arrow tower"
+END
+//----------------------------------------------
 
 OBJECT:MordorTavern
 "Tavern"
 END
 
 OBJECT:MordorBarracks
-"Rhun Barracks"
+"Rhûn Barracks"
 END
 
 
@@ -10774,7 +10831,7 @@ OBJECT:IsengardSiegeWorks
 END
 
 OBJECT:IsengardArmory
-"Armory"
+"Armoury"
 END
 
 /////////////////////
@@ -10803,7 +10860,7 @@ OBJECT:ElvenOrchard
 END
 
 OBJECT:ElvenBarracks
-"Golden Wood Garrison"
+"Galadhrim Garrison"
 END
 
 OBJECT:ElvenMallornTree
@@ -10818,6 +10875,13 @@ OBJECT:ElvenBattleTower
 "Battle Tower"
 END
 
+OBJECT:HiddenSanctum
+"Hidden Sanctum"
+END
+
+OBJECT:HiddenSanctumDescription
+"Level 2: +10% faster build speed\n Level 3: +25% faster build speed"
+END
 
 
 /////////////////////
@@ -10853,6 +10917,10 @@ END
 
 OBJECT:DwarvenForgeWorks
 "Erebor Redoubt"
+END
+
+OBJECT:IronHillsRedoubt
+"Iron Hills Redoubt"
 END
 
 OBJECT:DwarvenHearth
