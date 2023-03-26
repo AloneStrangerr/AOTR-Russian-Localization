@@ -14640,7 +14640,7 @@ SCRIPT:Announcement_E07_08
 END
 
 SCRIPT:Announcement_E07_09
-"That fool Gloin is attacking our base!"
+"That fool Glóin is attacking our base!"
 END
 
 SCRIPT:Announcement_E07_10
@@ -14751,7 +14751,7 @@ SCRIPT:Hint_E08_06
 END
 
 SCRIPT:Hint_E08_07
-"The last of the Dunedain have joined the fight. Destroy the Dunedain."
+"The last of the Dúnedain have joined the fight. Destroy the Dúnedain."
 END
 
 SCRIPT:Hint_E08_08
@@ -14810,7 +14810,7 @@ SCRIPT:LAObjective06
 END
 
 SCRIPT:LAObjective07
-"Nazgul are approaching"
+"Nazgûl are approaching"
 END
 
 SCRIPT:LAObjective08
@@ -14818,7 +14818,7 @@ SCRIPT:LAObjective08
 END
 
 SCRIPT:LAObjective09
-"Nazgul are attacking the camp"
+"Nazgûl are attacking the camp"
 END
 
 SCRIPT:LAObjective10
@@ -14830,7 +14830,7 @@ SCRIPT:LAObjective11
 END
 
 SCRIPT:LAObjective12
-"Rescue the Dunedain scouts"
+"Rescue the Dúnedain scouts"
 END
 
 SCRIPT:LAIntro01
@@ -14842,7 +14842,7 @@ SCRIPT:LAIntro02
 END
 
 SCRIPT:LAIntro03
-"In response, Elendil, King of the Dunedain and Gil-galad, High King of the Noldor, forged a great alliance."
+"In response, Elendil, King of the Dúnedain and Gil-galad, High King of the Noldor, forged a great alliance."
 END
 
 SCRIPT:LAIntro04
@@ -14903,7 +14903,7 @@ SCRIPT:Objective01_Shadow
 END
 
 SCRIPT:Objective02_Shadow
-"Defend Gildor's Camp from the Risen Dunedain"
+"Defend Gildor's Camp from the Risen Dúnedain"
 END
 
 SCRIPT:Objective03_Shadow
@@ -14935,7 +14935,7 @@ SCRIPT:ObjectiveHint02B_Shadow
 END
 
 SCRIPT:ObjectiveHint03_Shadow
-"Capture farms to earn resources and increase commandpoints"
+"Capture farms to earn resources and increase command points"
 END
 
 SCRIPT:ObjectiveHint03B_Shadow
@@ -14943,17 +14943,17 @@ SCRIPT:ObjectiveHint03B_Shadow
 END
 
 SCRIPT:ObjectiveHint03C_Shadow
-"Use heroes to capture inns & taverns"
+"Use heroes to capture inns & farms around Bree"
 END
 
 ///////////////////WEATHERTOP///////////////////
 
 SCRIPT:Objective01_Weathertop
-"Find tracks of Dunedain presence near Weathertop."
+"Search for signs of Dúnedain presence around Weathertop."
 END
 
 SCRIPT:Objective02_Weathertop
-"Survive the attack by the Risen Dunedain."
+"Survive the attack by the Risen Dúnedain."
 END
 
 SCRIPT:Objective03_Weathertop
@@ -14964,8 +14964,8 @@ SCRIPT:Objective04_Weathertop
 "Frodo is poisoned and will slowly lose health. Escape Weathertop and find medicine."
 END
 
-SCRIPT:Objective04-update_Weathertop
-"Find at least 5 bushels of Kingsfoil to slow Frodo's poisoning!"
+SCRIPT:Objective05_Weathertop
+"Find at least 5 bushels of Kingsfoil to slow Frodo's poisoning"
 END
 
 SCRIPT:Objective04-update2_Weathertop
@@ -14973,10 +14973,10 @@ SCRIPT:Objective04-update2_Weathertop
 END
 
 SCRIPT:Objective04counter_Weathertop
-"Athelas Bushels Found:"
+"Kingsfoil Bushels Found:"
 END
 
-SCRIPT:Objective05_Weathertop
+SCRIPT:Objective06_Weathertop
 "Defend the Ford of Bruinen"
 END
 
@@ -15037,11 +15037,11 @@ SCRIPT:Objective03_Council
 END
 
 SCRIPT:Objective04_Council
-"Defeat the orc ambush"
+"Survive the orc ambush"
 END
 
 SCRIPT:Objective05_Council
-"Stop orcs from advancing into the forest and finding Isildur"
+"Hold ground and stop orcs from advancing into the forest and finding Isildur"
 END
 
 SCRIPT:Objective06_Council
@@ -15053,7 +15053,7 @@ SCRIPT:OsgiliathObjective01_Council
 End
 
 SCRIPT:OsgiliathObjective02_Council
-"Defended the bridges from enemy attacks"
+"Defend the bridges from enemy attacks"
 End
 
 SCRIPT:OsgiliathObjective03_Council
@@ -15061,7 +15061,7 @@ SCRIPT:OsgiliathObjective03_Council
 End
 
 SCRIPT:OsgiliathBonus_Council
-"Kill the Nazgul commander"
+"Kill the Nazgûl commander"
 End
 
 ////////////////////REDHORN//////////////////////
@@ -15133,7 +15133,7 @@ SCRIPT:Objective04_Moria
 END
 
 SCRIPT:Objective05_Moria
-"Survive until Oin Arrives"
+"Survive until Óin Arrives"
 END
 
 SCRIPT:Objective06_Moria
@@ -15477,7 +15477,7 @@ SCRIPT:Objective_GC_Annuminas_01
 END
 
 SCRIPT:Objective_GC_Annuminas_02
-"Travel to all regions across Eriador and gather Dunedain rangers."
+"Travel to all regions across Eriador and gather Dúnedain rangers."
 END
 
 SCRIPT:Objective_GC_Annuminas_03
@@ -15776,6 +15776,10 @@ CONTROLBAR:ConstructMenFortress
 "Fortress (&I)"
 END
 
+CONTROLBAR:ConstructMenFortressWOTR
+"Outpost (&I)"
+END
+
 CONTROLBAR:ConstructEconomyPlot
 "Settlement"
 END
@@ -15812,8 +15816,16 @@ CONTROLBAR:ConstructMenPorter
 "Builder (&W)"
 END
 
+CONTROLBAR:ConstructMenPorterAIFake
+"Builder"
+END
+
 CONTROLBAR:ToolTipConstructMenPorter
 "Train a Builder \n Builds structures"
+END
+
+CONTROLBAR:ToolTipConstructMenPorterWotR
+"Train a Builder \n Builds structures\nLimited to 1"
 END
 
 CONTROLBAR:ConstructMenFarm
@@ -15824,12 +15836,20 @@ CONTROLBAR:ConstructMenBarracks
 "Build Barracks (&T)"
 END
 
+CONTROLBAR:ConstructMenBarracksWotR
+"Build Barracks (&W)"
+END
+
+CONTROLBAR:ConstructMenBarracksWotRRealTime
+"Build Barracks (&W)"
+END
+
 CONTROLBAR:ConstructDolAmrothBarracks
-"Build Dol Amr&oth Barracks"
+"Build Dol Amroth Barracks (&C)"
 END
 
 CONTROLBAR:ToolTipConstructDolAmrothBarracks
-"Trains the units of Dol Amroth princedom \n Increases command point limit by 25 \n Requires Prince Imrahil"
+"Trains the units of Dol Amroth princedom"
 END
 
 CONTROLBAR:ConstructMenArcheryRange
@@ -15837,35 +15857,59 @@ CONTROLBAR:ConstructMenArcheryRange
 END
 
 CONTROLBAR:ToolTipMenArcheryRange
-"Trains and upgrades Gondor's Archers \n Increases command point limit by 25"
+"Trains and upgrades Gondor's Archers"
 END
 
 CONTROLBAR:ToolTipRohanArcheryRange
-"Trains and upgrades Rohan's Archers \n Generates a small amount of resources based on avaliable terrain \n Increases command point limit by 25"
+"Trains and upgrades Rohan's Archers \n Generates a small amount of resources based on avaliable terrain"
 END
 
 CONTROLBAR:ConstructMenStable
 "Build Stables (&V)"
 END
 
+CONTROLBAR:ConstructMenStableWotR
+"Build Stables (&R)"
+END
+
+CONTROLBAR:ConstructMenStableWotRRealTime
+"Build Stables (&R)"
+END
+
 CONTROLBAR:ConstructMenWorkshop
 "Build Siege Works (&N)"
+END
+
+CONTROLBAR:ConstructMenWorkshopWotRRealTime
+"Build Siege Works (&T)"
 END
 
 CONTROLBAR:ConstructRohanWorkshop
 "Build Workshop (&N)"
 END
 
+CONTROLBAR:ConstructRohanWorkshopWotR
+"Build Workshop (&T)"
+END
+
 CONTROLBAR:ToolTipConstructMenWorkshop
-"Constructs and upgrades Trebuchets\n At rank 2, repairs nearby siege engines \n Increases command point limit by 25"
+"Constructs and upgrades Trebuchets\n At rank 2, repairs nearby siege engines"
+END
+
+CONTROLBAR:ToolTipConstructMenWorkshopWotRRealTime
+"Tertiary Barracks \n Constructs Trebuchets \n Limited to 1"
 END
 
 CONTROLBAR:ToolTipConstructRohanWorkshop
-"Constructs and upgrades siege engines\n At rank 2, repairs nearby siege engines \n Generates a small amount of resources based on avaliable terrain \n Reduces cost of upgrades \n Increases command point limit by 25"
+"Constructs and upgrades siege engines\n At rank 2, repairs nearby siege engines \n Generates a small amount of resources based on avaliable terrain \n Reduces cost of upgrades"
+END
+
+CONTROLBAR:ToolTipConstructRohanWorkshopWotR
+"Tertiary Barracks \n Constructs Rohirric Onagers \n Limited to 1"
 END
 
 OBJECT:RohanWorkshopDescription
-"Generates resources based on available terrain\nLevel 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed\nArtisan Bonus - Reduced cost of upgrades \n 1 Workshop: 5% \n 2 Workshops: 10% \n 3 Workshops: 15% \n 4+ Workshops: 20%"
+"Generates resources based on available terrain\nLevel 2: +10% faster build speed\n Level 3: +25% faster build speed\nArtisan Bonus - Reduced cost of upgrades \n 1 Workshop: 5% \n 2 Workshops: 10% \n 3 Workshops: 15% \n 4+ Workshops: 20%"
 END
 
 CONTROLBAR:ConstructMenSentryTower
@@ -15884,6 +15928,10 @@ CONTROLBAR:ToolTipConstructMenFortress
 "Recruits Builders and Heroes \n Can be upgraded with improvements and expansions \n Increases command point limit by 100"
 END
 
+CONTROLBAR:ToolTipConstructMenFortressWOTR
+"Recruits Builders and revives Heroes \n Generates 100 resources per tick \n Increases command point limit by 900"
+END
+
 CONTROLBAR:ConstructMenWell
 "Build Well (&G)"
 END
@@ -15893,7 +15941,7 @@ CONTROLBAR:ConstructRohanWell
 END
 
 CONTROLBAR:ToolTipConstructMenWell
-"Units near well auto-heal if not under attack\n Reduces cost of infantry \n Increases command point limit by 10"
+"Units near well auto-heal if not under attack\n Reduces cost of infantry"
 END
 
 CONTROLBAR:ConstructMenStatue
@@ -15901,7 +15949,7 @@ CONTROLBAR:ConstructMenStatue
 END
 
 CONTROLBAR:ToolTipConstructMenStatue
-"Leadership bonus to nearby troops\n Reduces cost of heroes \n Increases command point limit by 10"
+"Leadership bonus to nearby troops\n Reduces cost of heroes"
 END
 
 CONTROLBAR:ConstructMenBlacksmith
@@ -15909,7 +15957,7 @@ CONTROLBAR:ConstructMenBlacksmith
 END
 
 CONTROLBAR:ToolTipConstructMenBlacksmith
-"Provides worked metals as a resource based on available terrain\nUpgrades weapons and armor\n Reduces cost of upgrades \n Increases command point limit by 50"
+"Provides worked metals as a resource based on available terrain\nResearches weapons and armour upgrades\n Reduces cost of upgrades \n Increases command point limit by 50"
 END
 
 CONTROLBAR:ConstructMenMarketPlace
@@ -15921,7 +15969,7 @@ CONTROLBAR:ConstructMenStoneMaker
 END
 
 CONTROLBAR:ToolTipConstructMenStoneMaker
-"Generates resources based on available terrain \n Strengthens nearby Structures \n Reduces cost of buildings\n Limited to 5 \n Increases command point limit by 10"
+"Generates resources based on available terrain \n Strengthens nearby structures \n Reduces cost of buildings\n Limited to 5 \n Increases command point limit by 10"
 END
 
 CONTROLBAR:ConstructGoodPort
@@ -16101,7 +16149,7 @@ CONTROLBAR:FlagsUpgrade
 "Build W&all Banner Upgrade"
 END
 CONTROLBAR:ToolTipFlagsUpgrade
-"Grants a bonus to nearby troops \n +50% Armor +125% Damage"
+"Grants a bonus to nearby troops \n +50% armour +125% damage"
 END
 CONTROLBAR:ToolTipGondorBuildStable
 "Builds and upgrades Knights"
@@ -16112,7 +16160,7 @@ CONTROLBAR:ToolTipGondorKeep
 END
 
 CONTROLBAR:ToolTipGondorBuildStatue
-"Leadership bonus to nearby troops \n +50% Armor, +200% Combat Experience"
+"Leadership bonus to nearby troops \n +50% armour, +200% combat experience"
 END
 CONTROLBAR:ToolTipGondorBuildStoneMaker
 "Strengthens gates and towers"
@@ -16188,7 +16236,7 @@ CONTROLBAR:ToolTipGondorBuildHseHeal
 "To build a House of Healing, left click on button"
 END
 CONTROLBAR:ToolTipGondorBuildBlackSmith
-"Upgrades weapons and armor"
+"Researches weapons and armour upgrades"
 END
 CONTROLBAR:ToolTipBattleTowerUpgrade
 "Defensive structure"
@@ -16210,7 +16258,7 @@ OBJECT:LBTREEHOUSE
 "Lothlorien Tree House"
 END
 CONTROLBAR:ConstructRohanArmory
-"Build Rohan Armor&y"
+"Build Rohan Armour&y"
 END
 CONTROLBAR:ConstructRohanBarracks
 "Build Rohan Barra&cks"
@@ -16238,7 +16286,7 @@ CONTROLBAR:ConstructRohanWall
 END
 
 CONTROLBAR:ToolTipRohanArmory
-"Weapon and armor upgrades"
+"Weapon and armour upgrades"
 END
 CONTROLBAR:ToolTipRohanBarracks
 "To build a barracks, left click on button"
@@ -16259,16 +16307,16 @@ CONTROLBAR:ToolTipRohanFarm
 "Provides food as a resource \n Creates peasants \n Reduces cost of Cavalry \n Increases command point limit by 50"
 END
 CONTROLBAR:ToolTipRohanStatue
-"Leadership bonus to nearby troops \n Price of Heroes is reduced \n +50% Armor, +200% Combat Experience \n Increases command point limit by 10"
+"Leadership bonus to nearby troops \n Price of Heroes is reduced \n +50% armour, +200% combat experience"
 END
 CONTROLBAR:ToolTipRohanGoldenHall
 "Defensive structure. Revives fallen Heroes"
 END
 CONTROLBAR:DescriptionRohanFlagTower
-"Grants a bonus to nearby troops \n +50% Armor +125% Damage"
+"Grants a bonus to nearby troops \n +50% armour +125% damage"
 END
 OBJECT:RohanFlagTowerDescription
-"Grants a bonus to nearby troops \n +50% Armor +125% Damage"
+"Grants a bonus to nearby troops \n +50% armour +125% damage"
 END
 
 // Mordor Buildings
@@ -16281,7 +16329,10 @@ CONTROLBAR:ConstructMordorBase
 "Build Base"
 END
 CONTROLBAR:ConstructMordorOrcPit
-"Build Orc Barracks (&T)"
+"Build Orcish Stronghold (&T)"
+END
+CONTROLBAR:ConstructMordorOrcPitWotR
+"Build Orcish Stronghold (&W)"
 END
 CONTROLBAR:BuildMordorWorker
 "Orc Laborer (&W)"
@@ -16292,14 +16343,23 @@ END
 CONTROLBAR:ConstructMordorTrollCage
 "Build Troll Cage (&V)"
 END
+CONTROLBAR:ConstructMordorTrollCageWotR
+"Build Troll Cage (&R)"
+END
 CONTROLBAR:ConstructMordorSiegeWorks
 "Build Great Siege Works (&N)"
 END
+CONTROLBAR:ConstructMordorSiegeWorksWotR
+"Build Great Siege Works (&T)"
+END
 CONTROLBAR:ConstructMordorHaradrimPalace
-"Build Easterling Encampment (&C)"
+"Build Easterling Garrison (&C)"
+END
+CONTROLBAR:ConstructRhunAuxiliaryBarracks
+"Build Easterling Garrison (&T)"
 END
 CONTROLBAR:ConstructSlaughterHouse
-"Build Slaughter House (&W)"
+"Build Slave Farm (&W)"
 END
 CONTROLBAR:ConstructLumberMill
 "Build Lumber Mill (&D)"
@@ -16315,30 +16375,43 @@ CONTROLBAR:ToolTipMordorOrcFletcher
 "To build a Fletcher, left click on button"
 END
 CONTROLBAR:ToolTipMordorTrollCage
-"Trains Mountain, Drummer, and Attack Trolls \n Increases command point limit by 25"
+"Trains Mountain, Drummer, and Attack Trolls"
+END
+CONTROLBAR:ToolTipMordorTrollCageWotR
+"Secondary Barracks \n Trains Mountain-trolls \n Limited to 1"
 END
 CONTROLBAR:ToolTipordorSiegeWorks
-"Builds siege weapons \n At rank 2, repairs nearby siege engines \n Increases command point limit by 25"
+"Builds siege weapons \n At rank 2, repairs nearby siege engines"
+END
+CONTROLBAR:ToolTipordorSiegeWorksWotR
+"Tertiary Barracks \n Constructs Catapults \n Limited to 1"
 END
 CONTROLBAR:ToolTipMordorHaradrimPalace
-"Trains Variag and Easterling units \n Increases command point limit by 25"
+"Trains Variag and Easterling units\n\nThe fearsome legions from the East were numerous, both pouring into Rhovanion to the north and into Mordor, where they set up great war camps, awaiting the Dark Lord's signal for war."
 END
 CONTROLBAR:DescriptionToolTipMordorHaradrimPalace
 "Trains Variags and Easterlings"
 END
 CONTROLBAR:ToolTipMordorMumakilPen
-"Requires the He Is Gathering All Evil To Him upgrade\n Trains Haradrim Archers and Mûmakil \n Increases command point limit by 25"
+"Requires the He Is Gathering All Evil To Him upgrade\n Trains Haradrim Archers and Mûmakil"
 END
 CONTROLBAR:ToolTipMordorMumakilPenPlot
-"Trains Haradrim Archers and Mûmakil \n Increases command point limit by 25"
+"Trains Haradrim Archers and Mûmakil"
 END
 
 CONTROLBAR:ToolTipConstructLumberMill
 "Harvests resources from nearby trees \n Reduces cost of structures \n Increases command point limit by 25"
 END
 
+CONTROLBAR:ToolTipConstructGuldurLumberMill
+"Harvests resources from nearby trees \n Increases command point limit by 25"
+END
+
 CONTROLBAR:ToolTipLumberMill
 "Harvests resources from nearby trees \n Wood Bonus - Reduced cost of structures \n 2 Lumbermills: 5% \n 3 Lumbermills: 10% \n 4 Lumbermills: 15%"
+END
+CONTROLBAR:ToolTipGuldurLumberMill
+"Harvests resources from nearby trees"
 END
 CONTROLBAR:ToolTipMordorUmbarTavern
 "To build a Tavern, left click on button"
@@ -16359,11 +16432,17 @@ END
 CONTROLBAR:ConstructIsengardWargPit
 "Build Warg Pit (&V)"
 END
+CONTROLBAR:ConstructIsengardWargPitWotRRealTime
+"Build Warg Pit (&R)"
+END
 CONTROLBAR:ConstructIsengardSiegeWorks
 "Build Siege Works (&N)"
 END
+CONTROLBAR:ConstructIsengardSiegeWorksWotRRealTime
+"Build Siege Works (&T)"
+END
 CONTROLBAR:ConstructIsengardArmory
-"Build Armory (&R)"
+"Build Armoury (&R)"
 END
 CONTROLBAR:ConstructIsengardBattleTower
 "Lookout Tower (&Y)"
@@ -16378,13 +16457,19 @@ CONTROLBAR:ToolTipIsengardUrukPit_EvilAmonHen
 "Trains Isengard infantry units"
 END
 CONTROLBAR:ToolTipIsengardWargPit
-"Trains Warg Riders \n Increases command point limit by 25"
+"Trains Warg Riders"
+END
+CONTROLBAR:ToolTipIsengardWargPitWotR
+"Secondary Barracks \n Trains Warg Riders \n Limited to 1"
 END
 CONTROLBAR:ToolTipIsengardSiegeWorks
-"Builds Isengard's Siege Weapons\n At rank 2, repairs nearby siege engines \n Increases command point limit by 25"
+"Builds Isengard's Siege Weapons\n At rank 2, repairs nearby siege engines"
+END
+CONTROLBAR:ToolTipIsengardSiegeWorksWotR
+"Tertiary Barracks \n Builds Ballistas \nLimited to 1"
 END
 CONTROLBAR:ToolTipIsengardArmory
-"Manufactures thick armor and broad shields as a resource based on available terrain\nResearches weapon and armor upgrades\n Reduces cost of upgrades \n Increases command point limit by 50"
+"Manufactures thick armour and broad shields as a resource based on available terrain\nResearches weapon and armour upgrades\n Reduces cost of upgrades \n Increases command point limit by 50"
 END
 
 
