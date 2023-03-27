@@ -14978,11 +14978,19 @@ Harvests resources from nearby trees \n Reduces cost of buildings \n Increases c
 
 
 [CONTROLBAR:ConstructWildGoblinCave]
-Build Goblin Cave (&C)
+Build Moria-orc Cave (&C)
+
+
+[CONTROLBAR:ConstructWildGoblinCaveWotRRealTime]
+Build Moria-orc Cave (&W)
 
 
 [CONTROLBAR:ToolTipConstructWildGoblinCave]
-Trains Moria Orc Screechers and Moria Orc Archers \n Increases command point limit by 25
+Trains Moria-orc Screechers and Moria-orc Archers
+
+
+[CONTROLBAR:ToolTipConstructWildGoblinCaveWotR]
+Primary Barracks \n Trains basic Moria-orcs \n Limited to 3
 
 
 [CONTROLBAR:ConstructWildMountainLodge]
@@ -14990,27 +14998,47 @@ Build Mountain-orc Lodge (&T)
 
 
 [CONTROLBAR:ToolTipConstructWildMountainLodge]
-Trains Mountain-orcs and Gundabad orcs \n Increases command point limit by 25
+Trains Mountain-orcs and Gundabad orcs
 
 
 [CONTROLBAR:ConstructWildGoblinFissure]
 Build Troll Lair (&N)
 
 
+[CONTROLBAR:ConstructWildGoblinFissureWotRRealTime]
+Build Troll Lair (&T)
+
+
 [CONTROLBAR:ConstructWildWildSpiderPit]
 Build Wolf Cairn (&V)
+
+
+[CONTROLBAR:ConstructWildWildSpiderPitWotRRealTime]
+Build Wolf Cairn (&R)
 
 
 [CONTROLBAR:ConstructWildFortress]
 Build Fortress (&I)
 
 
+[CONTROLBAR:ConstructWildFortressWOTR]
+Build Outpost (&I)
+
+
 [CONTROLBAR:ConstructGuldurFortress]
 Summon Fortress (&I)
 
 
+[CONTROLBAR:ConstructGuldurFortressWOTR]
+Summon Outpost (&I)
+
+
 [CONTROLBAR:ToolTipConstructWildFortress]
 Recruits Builders and Heroes \n Can be upgraded with improvements and expansions \n Increases command point limit by 100
+
+
+[CONTROLBAR:ToolTipConstructWildFortressWOTR]
+Recruits Builders and revives Heroes \n Generates 100 resources per tick \n Increases command point limit by 900
 
 
 [CONTROLBAR:ConstructWildTreasureTrove]
@@ -15018,7 +15046,7 @@ Build Goblin Hoard (&R)
 
 
 [CONTROLBAR:ToolTipConstructWildTreasureTrove]
-Hoards armor and valuables as a resource based on available terrain \nResearches weapon and armor upgrades \nReduces cost of upgrades \n Increases command point limit by 50
+Hoards armour and valuables as a resource based on available terrain \nResearches weapon and armour upgrades \nReduces cost of upgrades \n Increases command point limit by 50
 
 
 [CONTROLBAR:ConstructWildPorter]
@@ -15029,6 +15057,10 @@ Goblin Builder (&W)
 Builds structures
 
 
+[CONTROLBAR:ToolTipConstructWildPorterWotR]
+Train a Builder \n Builds structures\nLimited to 1
+
+
 [CONTROLBAR:ConstructEntMoot]
 Build Ent Moot (&N)
 
@@ -15037,12 +15069,20 @@ Build Ent Moot (&N)
 Recruits Ents
 
 
+[CONTROLBAR:ConstructEntMootWotRRealTime]
+Build Ent Moot (&T)
+
+
+[CONTROLBAR:ToolTipEntMootWotRRealTime]
+Tertiary Barracks \n Recruits Ents \n Limited to 1
+
+
 [CONTROLBAR:WarChant]
 War Chant
 
 
 [CONTROLBAR:TooltipPalantirVision]
-Spy on the enemy forces \n Modifier Type: Buff \n Gives a temporary +15% speed bonus to \n units at its target area\n Always stacks \n\nLeft click icon then left click on target area
+Spy on the enemy forces for 60 seconds\n Modifier Type: Buff \n Gives a temporary +15% speed bonus to \n units at its target area for 35 seconds\n Always stacks \n\nLeft click icon then left click on target area
 
 
 [CONTROLBAR:TooltipFarSeeing]
@@ -15105,7 +15145,7 @@ All kills earn extra resources \n Passive power
 
 
 [CONTROLBAR:ToolTipAOTRScavenger]
-For 120 seconds, all kills earn extra resources \n Left click to activate
+For 150 seconds, all kills earn extra resources \n Units upgrades are discounted by 20% for the duration \n Left click to activate
 
 
 [CONTROLBAR:FreezingRain]
@@ -15153,7 +15193,7 @@ Call the Horde
 
 
 [CONTROLBAR:ToolTipMordorCalltheHorde]
-Temporarily increase Orc and Uruk Production Speed \n Left click to activate
+Increases Orc and Uruk Production Speed for 30 seconds\n Left click to activate
 
 
 [CONTROLBAR:MordorCalltheHordeWild]
@@ -15161,7 +15201,7 @@ They Are Coming
 
 
 [CONTROLBAR:ToolTipMordorCalltheHordeWild]
-Temporarily increases Moria Orc Production Speed \n Left click to activate
+Increases Moria-orc Production Speed for 30 seconds\n Left click to activate
 
 
 [CONTROLBAR:CalltheHorde]
@@ -15173,7 +15213,7 @@ White Winter
 
 
 [CONTROLBAR:ToolTipCalltheHorde]
-Temporarily increase Orc and Uruk Production Speed \n Left click to activate
+Increases Orc and Uruk Production Speed for 30 seconds\n Left click to activate
 
 
 [CONTROLBAR:ToolTipHaradCalltheHorde]
@@ -15238,7 +15278,7 @@ Draft
 
 
 [CONTROLBAR:ToolTipDraft]
-All peasants become armed, permanently gaining +5 damage and +40 health\n Left click to activate
+All peasants become armed, permanently gaining +5 damage and +40 health \n Spell has shorter cooldown \n Left click to activate
 
 
 [CONTROLBAR:ElvenGifts]
@@ -15266,7 +15306,7 @@ Power of the Istari
 
 
 [CONTROLBAR:ToolTipGandalftheWhite]
-Gandalf gains +200% Damage \n Gandalf's powers recharge twice as quickly \n Passive power
+Gandalf gains +200% damage \n Gandalf's powers recharge twice as quickly \n Passive power
 
 
 [CONTROLBAR:SummonRohanAllies]
@@ -15314,7 +15354,7 @@ Anduril
 
 
 [CONTROLBAR:ToolTipAnduril]
-Aragorn gains +100% Damage \n Passive power
+Aragorn gains +100% damage \n Passive power
 
 
 [CONTROLBAR:SummonArmyoftheDead]
@@ -15346,7 +15386,7 @@ Summon the Grey Company
 
 
 [CONTROLBAR:ToolTipSummonDunedainAllies]
-Summons a group of 4 Dúnedain Rangers \n Left click icon then left click on pathable location
+Summons a group of 4 Rangers of the North \n Left click icon then left click on pathable location
 
 
 [CONTROLBAR:MenOfDaleAllies]
@@ -15446,25 +15486,28 @@ Clansmen of &Lamedon
 Blackroot Vale &Archers
 
 [CONTROLBAR:ConstructGondorArcherHorde]
-Anórien Archers (&E)
+Archers of Minas Tirith (&E)
 
 [CONTROLBAR:ConstructGondorRangerSpearHorde]
-Ithilien &Sentinels
+Ithilien Sentinels (&W)
+
+[CONTROLBAR:ConstructGondorRangerSpearHordeAdventure]
+Ithilien Sentinels (&E)
 
 [CONTROLBAR:ConstructGondorRangerHorde]
 Ithilien Rangers (&R)
 
 [CONTROLBAR:ConstructGondorFighterHorde]
-Anórien Soldiers (&T)
+Soldiers of Minas Tirith (&T)
 
 [CONTROLBAR:ConstructGondorShieldGuardHorde]
-Minas Tirith &Citadel Guards
+Guards of the &Citadel
 
 [CONTROLBAR:ConstructGondorKnightHorde]
-Anórien Knights (&E)
+Knights of Minas Tirith (&E)
 
 [CONTROLBAR:ConstructGondorLancerHorde]
-Anórien Knights (&E)
+Knights of Minas Tirith (&E)
 
 [CONTROLBAR:ConstructGondorTrebuchet]
 Trebuchet (&W)
@@ -15479,7 +15522,7 @@ Gondor Fire Arrows Porter
 Gondor Forged Blades Porter
 
 [CONTROLBAR:ConstructGondorHeavyArmorPorter]
-Gondor Heavy Armor Porter
+Gondor Heavy Armour Porter
 
 [CONTROLBAR:ConstructGondorKnightShieldPorter]
 Gondor Knight Shield Porter
@@ -15562,7 +15605,7 @@ Strong vs. Infantry and Monsters \n\nWielding great bows of heartwood, Anórien a
 
 
 [CONTROLBAR:ToolTipBuildGondorRangerSpearHorde]
-Requires Level 3 Archery Range and Faramir \n Strong vs. Infantry and Monsters \n Stealth near trees \n Can fire Longshot arrow volleys\n \n The Rangers are the descendants of the people who once dwelt in Ithilien, before it fell from Gondor's control.
+Strong vs. Cavalry and Heroes \n Stealth near trees\n \n Many were the secret camps and stores of the Rangers of Ithilien, well-guarded by staunch warriors.
 
 
 [CONTROLBAR:ToolTipBuildGondorRangerHorde]
