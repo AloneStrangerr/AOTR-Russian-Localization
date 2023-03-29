@@ -15972,16 +15972,32 @@ Legolas (&N)
 Moria-orc Screechers (&W)
 
 [CONTROLBAR:ConstructGoblinFighterHordeInn]
-Moria Orc Screechers (&W)
+Moria-orc Screechers (&W)
+
+[OBJECT:MoriaPikeman]
+Moria-orc Spearman
+
+[OBJECT:MoriaSpearmanHorde]
+Moria-orc Spearmen
+
+[CONTROLBAR:ConstructMoriaSpearmanHorde]
+Moria-orc Spearmen (&W)
+
+[CONTROLBAR:ConstructMoriaSpearmanHordeWotRRealTime]
+Moria-orc Spearmen (&R)
+
+[CONTROLBAR:ToolTipBuildMoriaSpearmanHorde]
+Strong vs. Cavalry and Heroes\n Able to switch formation for improved defensive capabilities \n\n Horde Bonus \n Modifier Type: Spell \n All Moria-orc Screechers, Moria-orc Archers, Moria-orc Spearmen and Goblin-town Warriors gain +50% damage when gathered in numbers of 150 or more\n \n These quaffing, bleating goblins carry spears forged from Dwarf-weapons pried from Khazad-dûm's fallen reclaimers.
+
 
 [CONTROLBAR:ConstructGoblinArcherHorde]
-Moria Orc Archers (&E)
+Moria-orc Archers (&E)
 
 [CONTROLBAR:ConstructGoblinCave]
-Build Moria Orc Cave
+Build Mori-orc Cave
 
 [CONTROLBAR:ToolTipGoblinCave]
-Trains Moria Orc Screechers and Moria Orc Archers \n Increases command point limit by 25
+Trains Moria-orc Screechers and Moria-orc Archers
 
 [CONTROLBAR:ConstructGoblinCaveTroll]
 Cave Troll (&W)
