@@ -15334,11 +15334,11 @@ Take Refuge!
 
 
 [CONTROLBAR:ToolTipElvenWoodCampaign]
-Summons a circle of warding \n Modifier Type: Buff \n All allied units gain +50% Damage, +50% Armor and become immune to fear and terror \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
+Summons a circle of warding for 5 minutes \n Modifier Type: Buff \n All allied units gain +50% damage, +50% armour and become immune to fear and terror\nLeft click icon then left click on target area
 
 
 [CONTROLBAR:ToolTipCampaignElvenWood]
-Summons a circle of warding \n Modifier Type: Buff \n All allied units gain +50% Damage, +50% Armor and become immune to fear and terror \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
+Summons a circle of warding for 5 minutes \n Modifier Type: Buff \n All allied units gain +50% damage, +50% armour and become immune to fear and terror\nLeft click icon then left click on target area
 
 
 [CONTROLBAR:SummonEntAllies]
@@ -15657,7 +15657,7 @@ Peasant
 
 
 [CONTROLBAR:ToolTipBuildNumenorStoneworkUpgrade]
-Increased armor to walls and towers
+Increased armour to walls and towers
 
 
 [CONTROLBAR:ToolTipBuildReinforcedGateUpgrade]
@@ -15665,7 +15665,7 @@ Increased armor to walls and towers
 
 
 [CONTROLBAR:ToolTipBuildIronOreUpgrade]
-Reduces cost of Forged Blades and Heavy Armor upgrades by 25%
+Reduces cost of Forged Blades and Heavy Armour upgrades by 25%
 
 
 [CONTROLBAR:ToolTipBuildSiegeMaterialsUpgrade]
@@ -15681,7 +15681,7 @@ Requires Level 2 Blacksmith \n +100% hit points to Knights, Soldiers, Tower Guar
 
 
 [CONTROLBAR:ToolTipBuildGondorKnightShieldsPorter]
-Requires Level 2 Stable \n +80% armor for knights vs. arrows and pikes
+Requires Level 2 Stable \n +80% armour for knights vs. arrows and pikes
 
 
 
@@ -15707,6 +15707,9 @@ Revive the fallen Hero, Aragorn
 [CONTROLBAR:GondorAragornHotkey]
 &Aragorn
 
+[CONTROLBAR:FellowshipAragornHotkey]
+Aragorn (&D)
+
 [CONTROLBAR:ToolTipBuildFaramir]
 Recruit the versatile Captain of Gondor
 
@@ -15717,7 +15720,7 @@ Recruit the Captain of the Ithilien Rangers \n \n 'I do not love the bright swor
 Revive the fallen Hero, Faramir
 
 [CONTROLBAR:GondorFaramirHotkey]
-Faramir (&T)
+Faramir (&S)
 
 [CONTROLBAR:CampaignLothrandirRecruit]
 Recruit the wayfaring Dúnadan ranger, Lothrandir \n \n A lonely soul and wanderer, Lothrandir chooses to spend his days wandering the northern reaches of Eriador. He is well-known amongst the Lossoth peoples, and has learned much of their ancient ways.
@@ -15726,7 +15729,7 @@ Recruit the wayfaring Dúnadan ranger, Lothrandir \n \n A lonely soul and wandere
 Revive the fallen Hero, Lothrandir
 
 [CONTROLBAR:CampaignLothrandirHotkey]
-Lothrandir (&F)
+Lothrandir (&S)
 
 [CONTROLBAR:CampaignAmdirRecruit]
 Recruit the noble guardian of the Small-folk, Amdir \n \n Amdir is a common sight for those that inhabit the borderlands between the Shire and the Bree-land. Maggot and Bombadil know him, and both would attest to his selfless, noble spirit.
@@ -15735,7 +15738,7 @@ Recruit the noble guardian of the Small-folk, Amdir \n \n Amdir is a common sigh
 Revive the fallen Hero, Amdir
 
 [CONTROLBAR:CampaignAmdirHotkey]
-Amdir (&G)
+Amdir (&D)
 
 [CONTROLBAR:CampaignElegostRecruit]
 Recruit the keen-eyed Dúnadan hunter, Elegost \n \n Elegost is a skilled tracker and woodsman, even amongst his skilled kin. He has an uncanny ability to commune with crows and ravens, and is known for using them in pursuit of his quarry.
@@ -15744,7 +15747,7 @@ Recruit the keen-eyed Dúnadan hunter, Elegost \n \n Elegost is a skilled tracker
 Revive the fallen Hero, Elegost
 
 [CONTROLBAR:CampaignElegostHotkey]
-Elegost (&C)
+Elegost (&F)
 
 [CONTROLBAR:CampaignToradanRecruit]
 Recruit the fierce Dúnadan warrior, Toradan \n \n A veteran of many skirmishes with the orcs of the Misty Mountains, Toradan is a stout warrior whose presence alone inspires fear into the black hearts of the enemy.
@@ -15753,7 +15756,7 @@ Recruit the fierce Dúnadan warrior, Toradan \n \n A veteran of many skirmishes w
 Revive the fallen Hero, Toradan
 
 [CONTROLBAR:CampaignToradanHotkey]
-Toradan (&V)
+Toradan (&G)
 
 [CONTROLBAR:ToolTipBuildDamrod]
 Hero Unit. Skilled with bow and sword
@@ -15798,7 +15801,7 @@ Beretho&r
 Recruit the Wizard armed with an arsenal of mighty magical powers
 
 [CONTROLBAR:GandalfTheWhiteRecruit]
-Recruit the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.'
+Mithrandir, the White Rider \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.'
 
 [CONTROLBAR:GandalfTheWhiteRevive]
 Revive the fallen Hero, Gandalf
@@ -15821,31 +15824,31 @@ Treebeard (&E)
 
 
 [CONTROLBAR:ToolTipConstructRohanBannerUnits]
-Requires Level 2 Armory \n Upgrades unit: +1 Unit Level
+Requires Level 2 Armoury \n Upgrades unit: +1 Unit Level
 
 [CONTROLBAR:ToolTipBuildRohanArcherHorde]
-Strong vs. Cavalry, Monsters \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes.
+Strong vs. Infantry \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes.
 
 [CONTROLBAR:ToolTipBuildRohanSpearThrowerHorde]
-Strong vs. Heavily Armored units and Siege Machines \n \n The walls of the Hornburg were defended by men hailing from the surrounding valley. Valiantly they defended the keep during the War of the Ring.
+Strong vs. Heavily Armoured units and Siege Machines \n \n The walls of the Hornburg were defended by men hailing from the surrounding valley. Valiantly they defended the keep during the War of the Ring.
 
 [CONTROLBAR:ToolTipBuildRohanRoyalGuardHorde]
 Build Rohan Royal Guards
 
 [CONTROLBAR:ToolTipBuildRohanRohirrimHorde]
-Requires Level 2 Stables \n Strong vs. Swordsmen and Archers \n \n During wartime, the King of Rohan would muster the Rohirrim, providing additional arms and armor to his subjects and organizing them into Éored's under command of a lord or marshal.
+Requires Level 2 Stables \n Strong vs. Swordsmen and Archers \n \n During wartime, the King of Rohan would muster the Rohirrim, providing additional arms and armour to his subjects and organizing them into Éored's under command of a lord or marshal.
 
 [CONTROLBAR:ToolTipBuildRohanKingsguardHorde]
 Requires Level 3 Stables \n Strong vs. Swordsmen and Archers \n \n These mounted elites formed the personal bodyguard of the King and his heirs, performing great deeds at arms to keep safe their charge. \n Limited to 3
 
 [CONTROLBAR:ToolTipBuildRohanSnowbournRiderHorde]
-Requires Level 2 Stables \n Strong vs. Swordsmen and Archers \n \n The Riders of Snowbourn were a heavy cavalry unit, capable of breaking the fiercest of enemy ranks and opening them up for the remainder of the army.
+Requires Level 2 Stables \n Strong vs. Cavalry and Structures \n \n The Riders of Snowbourn were a heavy cavalry unit, capable of breaking the fiercest of enemy ranks and opening them up for the remainder of the army.
 
 [CONTROLBAR:ToolTipBuildRohanHorsemenHorde]
 Strong vs. Swordsmen and Archers \n \n Yeoman or peasant, in Rohan every man owned a horse, and had learned to defend themselves from horseback. When the need arose, these men would ride out to battle to defend their homes.
 
 [CONTROLBAR:ToolTipBuildRohanRohirrimArcherHorde]
-Requires Level 2 Stables \n Strong vs. Swordsmen \n \n Rohirrim most adept at equestrian archery would form up into specialist regiments to repeatedly flanked the enemy with arrow fire before retreating out of range.
+Requires Level 2 Stables \n Strong vs. Swordsmen \n \n Rohirrim most adept at equestrian archery would form up into specialist regiments to repeatedly flank the enemy with arrow fire before retreating out of range.
 
 [CONTROLBAR:ToolTipBuildRohanHeavyArmorPorter]
 +100% hit points to Rohirrim and Infantry
@@ -15857,7 +15860,7 @@ Requires Level 2 Stables \n Strong vs. Swordsmen \n \n Rohirrim most adept at eq
 +50 damage by Rohirrim, Elven Warriors and Peasants
 
 [CONTROLBAR:ToolTipBuildRohanBannerUnit]
-Requires Level 2 Armory \n Gives Leadership bonus, increases Level and revives fallen troops
+Requires Level 2 Armoury \n Gives Leadership bonus, increases Level and revives fallen troops
 
 [CONTROLBAR:ToolTipBuildRohanHornsOfTheRohirrimPorter]
 Build Rohan RohanHorns Of The Rohirrim Porter
@@ -15869,10 +15872,10 @@ Build Rohan Horse Lance Porter
 Ugprades Rohirrim with bows
 
 [CONTROLBAR:ToolTipBuildRohanHorseShieldPorter]
-Requires Level 2 Stables \n +80% armor for Rohirrim \n against arrows and pikes
+Requires Level 2 Stables \n +80% armour for Rohirrim \n against arrows and pikes
 
 [TOOLTIP:RohanHeavyArmor]
-Heavy Armor
+Mundburg Steel Armour
 
 [TOOLTIP:RohanHorseShields]
 Horse Shields
@@ -15901,13 +15904,13 @@ Théoden (&F)
 Recruit the Shield Maiden of Rohan
 
 [CONTROLBAR:RohanEowynRevive]
-Revive the fallen Hero, Eowyn
+Revive the fallen Hero, Éowyn
 
 [CONTROLBAR:RohanEowynRecruit]
-Recruit the Shieldmaiden of Rohan. \n \n 'But no living man am I! You are looking upon a woman. Eowyn am I, Eomund's daughter. You stand between me and my lord and kin. Begone, if you be not deathless! For living or dark undead, I will smite you, if you touch him.'
+Recruit the Shieldmaiden of Rohan. \n \n 'But no living man am I! You are looking upon a woman. Éowyn am I, Éomund's daughter. You stand between me and my lord and kin. Begone, if you be not deathless! For living or dark undead, I will smite you, if you touch him.'
 
 [CONTROLBAR:RohanEowynHotkey]
-Eowyn (&E)
+Éowyn (&E)
 
 [CONTROLBAR:RohanMerryRecruit]
 Recruit the Squire of Rohan. \n \n 'I just want to help my friends. Frodo, Sam, Pippin. More than anything, I wish I could see them again.'
@@ -15929,6 +15932,9 @@ Revive the fallen Hero, Gimli
 
 [CONTROLBAR:RohanGimliHotkey]
 Gimli (&S)
+
+[CONTROLBAR:FellowshipGimliHotkey]
+Gimli (&T)
 
 [CONTROLBAR:ToolTipBuildEomer]
 Recruit the Leader of the outlawed Rohirrim
@@ -15954,10 +15960,16 @@ Revive the fallen Hero, Legolas
 [CONTROLBAR:RohanLegolasHotkey]
 Legolas (&D)
 
+[CONTROLBAR:FellowshipLegolasHotkey]
+Legolas (&S)
+
+[CONTROLBAR:BotFALegolasHotkey]
+Legolas (&N)
+
 
 
 [CONTROLBAR:ConstructGoblinFighterHorde]
-Moria Orc Screechers (&W)
+Moria-orc Screechers (&W)
 
 [CONTROLBAR:ConstructGoblinFighterHordeInn]
 Moria Orc Screechers (&W)
@@ -15993,7 +16005,7 @@ Trains Gundabad Orcs and Attack Trolls
 Troll Lair
 
 [OBJECT:GoblinFissureDescription]
-Level 2: +10% Faster Build Speed \n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed \n Level 3: +25% faster build speed
 
 [OBJECT:WildPorter]
 Goblin Builder
@@ -16050,7 +16062,7 @@ Upgrade Wolf Cairn to Level 3 (&A)
 
 
 [CONTROLBAR:ConstructWildSpiderlingHorde]
-Spider&lings
+Spiderlings (&W)
 
 
 [CONTROLBAR:ConstructWildSpiderRiderHorde]
@@ -16090,10 +16102,13 @@ Haradrim &Spearmen
 Corsairs of Umbar (&W)
 
 [CONTROLBAR:ConstructMordorEasterlingHorde]
-Easterling Phalanx (&E)
+Khân-pâlainax (&E)
 
 [CONTROLBAR:ConstructMordorEasterlingHordeInn]
-Easterling Phalanx (&W)
+Khân-pâlainax (&W)
+
+[CONTROLBAR:ConstructMordorEasterlingHorde_Rhun]
+Khân-pâlainax (&T)
 
 [CONTROLBAR:ConstructMordorCaveTroll]
 &Cave Troll
@@ -16106,6 +16121,9 @@ Siege &Tower
 
 [CONTROLBAR:ConstructMordorCatapult]
 Catapult (&E)
+
+[CONTROLBAR:ConstructMordorCatapultWotR]
+Catapult (&W)
 
 [CONTROLBAR:ConstructMordorGrond]
 Grond (&T)
@@ -16123,11 +16141,15 @@ Strong vs. Pikemen \n \n Fueled by old hatred of Gondor, the corsairs of Umbar h
 
 
 [CONTROLBAR:ToolTipBuildMordorEasterlingHorde]
-Requires Level 2 Easterling Encampment \n Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities\n \n The Men of Rhûn have a long history of Morgoth-worship. During the late Third Age, they joined with Sauron to make up the core of his armies.
+Great Khân's Phalanx\n Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities\n \n The Khân-pâlainax made up the brunt of the expedition forces sent to Mordor. They advanced upon their enemies in fearsome formation, shields locked and pikes forward.
+
+
+[CONTROLBAR:ToolTipBuildMordorEasterlingHorde_Rhun]
+Great Khân's Phalanx \nRequires Level 2 Easterling Garrison \n Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities\n \n The Khân-pâlainax made up the brunt of the expedition forces sent to Mordor. They advanced upon their enemies in fearsome formation, shields locked and pikes forward.
 
 
 [CONTROLBAR:ToolTipBuildMordorEasterlingHordeForInn]
-Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities\n \n The Men of Rhûn have a long history of Morgoth-worship. During the late Third Age, they joined with Sauron to make up the core of his armies.
+Great Khân's Phalanx\nStrong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities\n \n The Khân-pâlainax made up the brunt of the expedition forces sent to Mordor. They advanced upon their enemies in fearsome formation, shields locked and pikes forward.
 
 
 [CONTROLBAR:ToolTipBuildMordorHaradrimSpearHorde]
@@ -53392,7 +53414,7 @@ Requires Level 5 \n Heals nearby allies and fully refreshes\ntheir special abili
 
 
 [CONTROLBAR:ToolTipElvenWood]
-Creates lush terrain \n Modifier Type: Buff \n All allied units gain +50% Damage, +50% Armor and become immune to fear and terror \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
+Creates lush terrain \n Modifier Type: Buff \n All allied units gain +50% damage, +50% armour and become immune to fear and terror \nLeft click icon then left click on target area
 
 
 [CONTROLBAR:TooltipEnshroudingMist]
