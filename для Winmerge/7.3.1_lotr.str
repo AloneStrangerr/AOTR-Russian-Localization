@@ -16038,11 +16038,11 @@ Alternate Weapon (&W)
 Left click to switch weapons
 
 [CONTROLBAR:ConstructWildCaveLevel2Upgrade]
-Upgrade Goblin Cave to Level 2 (&A)
+Upgrade Moria-orc Cave to Level 2 (&A)
 
 
 [CONTROLBAR:ConstructWildCaveLevel3Upgrade]
-Upgrade Goblin Cave to Level 3 (&A)
+Upgrade Moria-orc Cave to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeWildLodgeLevel2]
@@ -16214,13 +16214,16 @@ Requires Level 3 Great Siege Works \n Strong vs. Structures and Cavalry \n\n The
 Requires Level 2 Great Siege Works \n Allows infantry units to scale castle walls \n \n Constructed by Mordor’s slaves using wood, iron and stone, Siege towers advance steadily toward enemy fortifications, looking to overwhelm their defenders.
 
 [CONTROLBAR:ToolTipBuildMordorCatapult]
-Requires Level 2 Great Siege Works \n Strong vs. Structures \n Only 6 allowed at any time \n These vile contraptions rain down death and terror upon the Dark Lord's enemies.
+Requires Level 2 Great Siege Works \n Strong vs. Structures \n\n These vile contraptions rain down death and terror upon the Dark Lord's enemies.
+
+[CONTROLBAR:ToolTipBuildMordorCatapultWotR]
+Strong vs. Structures \n\n These vile contraptions rain down death and terror upon the Dark Lord's enemies.
 
 [CONTROLBAR:ToolTipBuildMordorGrond]
 Requires Level 3 Siege Works and Gothmog\n Extremely Strong vs. Structures \n Can't cross bridges \n \n This giant battering ram was named after the Hammer of the Underworld - Morgoth's weapon of choice. No gate can hope to stand against it.
 
 [CONTROLBAR:ToolTipBuildMordorBannerOrc]
-Requires Level 2 Orc Barracks \n Upgrades a horde to Level 2
+Requires Level 2 Orcish Stronghold \n Upgrades a horde to Level 2
 
 
 [CONTROLBAR:ToolTipBuildWitchKing]
@@ -16230,10 +16233,14 @@ Recruit the First of the Nine \n \n 'Send forth all legions. Do not stop the att
 Recruit the First of the Nine \n \n 'Send forth all legions. Do not stop the attack until the city is taken. Slay them all.'
 
 [CONTROLBAR:MordorWitchKingOnFellBeastRevive]
-Revive the fallen Hero, the Witch-king
+Revive the fallen Hero, the Witch-king of Angmar
 
 [CONTROLBAR:MordorWitchKingOnFellBeastHotkey]
-The Witch-king (&G)
+The Witch-king of Angmar (&G)
+
+
+[CONTROLBAR:AdvAngmarWitchKingHotkey]
+The Witch-king of Angmar (&S)
 
 
 
@@ -16281,6 +16288,9 @@ Revive the fallen Hero, King Thranduil
 [CONTROLBAR:ElvenThranduilHotkey]
 King Thranduil (&F)
 
+[CONTROLBAR:BotFAThranduilHotkey]
+King Thranduil (&M)
+
 
 
 
@@ -16316,6 +16326,9 @@ Gundabad Wolf-riders (&E)
 [CONTROLBAR:ConstructIsengardSiegeBallista]
 Siege Ballista (&E)
 
+[CONTROLBAR:ConstructIsengardSiegeBallistaWotR]
+Siege Ballista (&W)
+
 [CONTROLBAR:ConstructIsengardSiegeLadder]
 Siege Ladder
 
@@ -16341,7 +16354,7 @@ Builder (&W)
 Forged Blades Porter
 
 [CONTROLBAR:ConstructIsengardHeavyArmorPorter]
-Heavy Armor &Porter
+Heavy Armour &Porter
 
 [CONTROLBAR:ConstructIsengardFireArrowPorter]
 Fire Arro&ws Porter
@@ -16359,7 +16372,7 @@ Requires Level 2 Uruk Pit \n Strong vs. Infantry \n\n Outfitting them with crude
 Requires Level 2 Uruk Pit \n Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities \n \n Preparing to eradicate the Horse-lords of Rohan, Saruman outfitted great numbers of his Uruks with long pikes.
 
 [CONTROLBAR:ToolTipBuildIsengardShieldBearer]
-Requires Level 2 Uruk Pit \n Heavily armored support unit \n Able to switch formation for improved defensive capabilities \n \n 'This is no rabble of mindless orcs. These are Uruk-hai. Their armor is thick and their shields broad.'
+Requires Level 2 Uruk Pit \n Heavily armoured support unit \n Able to switch formation for improved defensive capabilities \n \n 'This is no rabble of mindless orcs. These are Uruk-hai. Their armour is thick and their shields broad.'
 
 [CONTROLBAR:ToolTipBuildIsengardWargRider]
 Strong vs. Swordsmen and Archers \n \n For generations, Orcs have ridden Wargs - not as masters, but as equals - to track and ambush the Free Peoples.
@@ -16368,7 +16381,10 @@ Strong vs. Swordsmen and Archers \n \n For generations, Orcs have ridden Wargs -
 Requires Level 2 Wolf Cairn\n Strong vs. Swordsmen and Archers \n \n For generations, Orcs have ridden Wargs and Wolves - not as masters, but as equals - to track and ambush the Free Peoples.
 
 [CONTROLBAR:ToolTipBuildIsengardSiegeBallista]
-Requires Level 2 Siege Works \n Strong vs. Structures and Siege Equipment \n Only 6 allowed at any time \n Relatively simple to use and aim, Saruman's ballistae serve to wipe out clusters of enemy troops and weaken their structures.
+Requires Level 2 Siege Works \n Strong vs. Structures and Siege Equipment \n\nRelatively simple to use and aim, Saruman's ballistae serve to wipe out clusters of enemy troops and weaken their structures.
+
+[CONTROLBAR:ToolTipBuildIsengardSiegeBallistaWotR]
+Strong vs. Structures and Siege Equipment \n\nRelatively simple to use and aim, Saruman's ballistae serve to wipe out clusters of enemy troops and weaken their structures.
 
 [CONTROLBAR:ToolTipBuildIsengardSiegeLadder]
 Requires Level 2 Siege Works \n \n Attached to besieged walls using iron claws, Saruman's many ladders gave his Uruks access to the walls of the Hornburg
@@ -16377,13 +16393,13 @@ Requires Level 2 Siege Works \n \n Attached to besieged walls using iron claws, 
 Requires Level 2 Uruk Pit \n Strong vs. Swordsmen and Pikemen \n \n Rather than dispose of early, less-refined specimens of Uruk, Saruman used these crazed creatures as deadly shock troops.
 
 [CONTROLBAR:ToolTipBuildIsengardBatteringRam]
-Breaks down castle gates and enemy structures \n \n Heavily armored, Saruman's rams make quick work of enemy gates, lending his Uruks access to the keep beyond.
+Breaks down castle gates and enemy structures \n \n Heavily armoured, Saruman's rams make quick work of enemy gates, lending his Uruks access to the keep beyond.
 
 [CONTROLBAR:ToolTipBuildIsengardExplosiveMine]
 Requires Level 3 Siege Works \n Blast structures, castle walls, and gates \n \n Requiring a method of breaching the Deeping Wall, Saruman produced mass quantities of highly destructive explosive powder.
 
 [CONTROLBAR:ToolTipBuildIsengardBannerCarrier]
-Requires Level 2 Armory \n Increases a horde to Level 2
+Requires Level 2 Armoury \n Increases a horde to Level 2
 
 [CONTROLBAR:ToolTipBuildIsengardForgedBladesPorter]
 Increases damage
@@ -16460,6 +16476,18 @@ Throw Rocks (&W)
 Switch to rock throwing mode
 
 
+[CONTROLBAR:ThrowSpears]
+Throw Spears (&R)
+
+
+[CONTROLBAR:ToolTipThrowSpears]
+Switch to spear throwing mode
+
+
+[CONTROLBAR:KickAndPunchSnow]
+Close Range Attack (&R)
+
+
 [CONTROLBAR:ToolTipThrowRocksRank3]
 Requires Rank 3 \n Switch to rock throwing mode
 
@@ -16470,7 +16498,7 @@ Requires Level 2 Archery Range \n Skilled with Bow and Sword
 
 
 [CONTROLBAR:ToolTipToggleEMirkwoodArcherLineToAmbushFormation]
-Stealth, -50% Armor
+Stealth, -50% armour
 
 
 [CONTROLBAR:ToolTipToggleEMirkwoodArcherAmbushToLineFormation]
@@ -16579,15 +16607,15 @@ Allow the Citadel to repair itself automatically
 
 
 [CONTROLBAR:ConstructGondorArcher]
-Anórien Archer
+Archer of Minas Tirith
 
 
 [CONTROLBAR:ConstructGondorCavalry]
-Anórien Knights
+Knights of Minas Tirith
 
 
 [CONTROLBAR:ConstructGondorManAtArms]
-Anórien Fighter
+Soldier of Minas Tirith
 
 
 [CONTROLBAR:ToolTipGondorWell]
@@ -16599,19 +16627,19 @@ Defensive structure
 
 
 [CONTROLBAR:ToolTipBuildGondorArcher]
-Build Anórien Archers
+Build Archers of Minas Tirith
 
 
 [CONTROLBAR:ConstructGondorGondorFighterHorde]
-Unit of Anórien Fighters
+Unit of Soldiers of Minas Tirith
 
 
 [CONTROLBAR:ToolTipBuildGondorCavalry]
-Create a Anórien Mounted Fighter
+Create a Knight of Minas Tirith
 
 
 [CONTROLBAR:ToolTipBuildGondorManAtArms]
-Build Anórien Soldiers
+Build Soldiers of Minas Tirith
 
 
 [CONTROLBAR:ToolTipFireMordorOliphantKnockbackAttack]
@@ -16667,7 +16695,7 @@ Attacks with flaming whip \n Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipSpecialAbilityBalrogScream]
-Screams and stuns nearby enemy units \n Left click to activate
+Screams and stuns nearby enemy units in fear for 15 seconds\n Left click to activate
 
 
 [CONTROLBAR:ToolTipSpecialAbilityBalrogBreath]
@@ -16694,6 +16722,10 @@ Drummer Troll (&E)
 Battering Ram (&W)
 
 
+[CONTROLBAR:LW_Build_MordorBatteringRam]
+Battering Ram
+
+
 [CONTROLBAR:ToolTipBuildMordorBatteringRam]
 Breaks down castle gates and enemy structures \n \n Once its gate falls, few strongholds can withstand the swarms of Mordor.
 
@@ -16714,12 +16746,24 @@ Screech (&W)
 Screech (&R)
 
 
+[CONTROLBAR:SpectersJauntKhamul]
+Spectre's Jaunt (&R)
+
+
 [CONTROLBAR:Screech]
 Screech (&C)
 
 
+[CONTROLBAR:ScreechFellbeast]
+Screech (&T)
+
+
 [CONTROLBAR:TooltipScreech]
 Causes enemy units to flee in terror \n Left click to activate
+
+
+[CONTROLBAR:TooltipSpectersJaunt]
+Khamûl teleports to targeted area and causes enemy units to flee in terror \n Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipScreechWitchKing]
@@ -16735,7 +16779,7 @@ Flame of the &West
 
 
 [CONTROLBAR:ElessarBladeMaster]
-Andúril, Flame of the West (&R)
+Andúril, Flame of the West (&T)
 
 
 [CONTROLBAR:NarsilAttack]
@@ -16758,14 +16802,6 @@ Use to defeat Sauron \n left click to activate
 Howl (&W)
 
 
-[CONTROLBAR:WildWargRiderHowl]
-Howl (&R)
-
-
-[CONTROLBAR:WildWhiteWolfHowl]
-Howl (&R)
-
-
 [CONTROLBAR:ToggleGateOpenClose]
 Toggle Gate (&W)
 
@@ -16786,12 +16822,16 @@ Kingsfoil (&R)
 Heals nearby friendly Heroes \n Left click to activate
 
 
+[CONTROLBAR:ElessarToggleMount]
+Mount Roheryn / Dismount (&W)
+
+
 [CONTROLBAR:ElessarAthelas]
-Hands of the King (&W)
+Hands of the King (&R)
 
 
 [CONTROLBAR:TooltipElessarAthelas]
-Heals nearby friendly Heroes and strengthens them by granting them \n +33% armor for 30 seconds\n Left click to activate
+Heals nearby friendly Heroes and strengthens them by granting them \n +33% armour for 30 seconds\n Left click to activate
 
 
 [CONTROLBAR:ToolTipElendil]
@@ -16811,7 +16851,7 @@ Estel
 
 
 [CONTROLBAR:ElessarOathbreaker]
-Fulfill Your Oath! (&C)
+Fulfill Your Oath! (&V)
 
 
 [CONTROLBAR:ToolTipElessarOathbreaker]
@@ -16826,20 +16866,12 @@ Fulfil&l Your Oath
 Requires Level 10 \n Summons the Army of the Dead \n Left click icon then left click on pathable location
 
 
-[OBJECT:KotD]
-The King of the Dead
+[CONTROLBAR:KotDLeadership]
+March of the Dead
 
 
-[CONTROLBAR:KotDRecruit]
-Recruit the King of the Dead \n \n An ancient ruler of the men of Dunharrow, now cursed in undeath by his treachery to Isildur, the King of the Dead must now fulfill his oath to the true king of Gondor.
-
-
-[CONTROLBAR:KotDRevive]
-Revive the King of the Dead
-
-
-[CONTROLBAR:KotDHotkey]
-The King of the Dead
+[CONTROLBAR:ToolTipKotDLeadership]
+Requires Level 3\nThe King of the Dead permanently gains +15% movement speed\n\nModifier Type: Leadership\nNearby friendly units and heroes gain +15% movement speed and +50% experience gain\nPassive ability
 
 
 [OBJECT:OathbreakerHuskarl]
@@ -16868,11 +16900,11 @@ Elven Skill (&R)
 
 
 [CONTROLBAR:ArrowWind]
-Arro&w Wind
+Arrow Wind (&T)
 
 
 [CONTROLBAR:ToolTipArrowWind]
-Requires Level 7 \n Launch a continuous volley of arrows \n Left click icon then left click on target area
+Launch a continuous volley of arrows \n Can only use dismounted \n Left click icon then left click on target area
 
 
 [CONTROLBAR:TrainArchers]
@@ -16921,7 +16953,7 @@ Shield Wall formation
 
 
 [CONTROLBAR:ToolTipDamrodLeadership]
-Allies near Damrod gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n \n Passive ability       Does not stack
+Allies near Damrod gain \n +50% damage, +50% armour, \n and earn experience twice as fast \n \n Passive ability       Does not stack
 
 
 [CONTROLBAR:HorseLordLeadership]
@@ -16929,13 +16961,13 @@ Horse Lord
 
 
 [CONTROLBAR:ToolTipGandalfLeadership]
-Requires Level 4 \n Allies near Gandalf gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n \n Passive ability       Does not stack
+Requires Level 4 \n Allies near Gandalf gain \n +50% damage, +50% armour, \n and earn experience twice as fast \n \n Passive ability       Does not stack
 
 
 
 
 [CONTROLBAR:ToolTipInspiringPresence]
-Allies near Tom Bombadil gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n \n Passive ability       Does not stack
+Allies near Tom Bombadil gain \n +50% damage, +50% armour, \n and earn experience twice as fast \n \n Passive ability       Does not stack
 
 
 [CONTROLBAR:DwarvenGrudge]
@@ -16963,11 +16995,11 @@ For Gondor
 
 
 [CONTROLBAR:ToolTipForGondor]
-Requires Level 4 \n Allies near Boromir gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n \n Passive ability       Does not stack
+Requires Level 4 \n Allies near Boromir gain \n +50% damage, +50% armour, \n and earn experience twice as fast \n \n Passive ability       Does not stack
 
 
 [CONTROLBAR:ToolTipWarSpeech]
-Allies near Théoden gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n \n Passive ability       Does not stack
+Allies near Théoden gain \n +50% damage, +50% armour, \n and earn experience twice as fast \n \n Passive ability       Does not stack
 
 
 [CONTROLBAR:LastStand]
@@ -17011,15 +17043,15 @@ Elvenking (&W)
 
 
 [CONTROLBAR:ThranduilNewMountTooltip]
-Modifier Type: Leadership \n Allies near Thranduil gain +50% Armor \n Stacks with Buffs and Spells\n\nLeft click to switch between \n mounted on Great Elk and on foot
+Modifier Type: Leadership \n Allies near Thranduil gain +50% armour\n\nModifier Type: Level\nAt Level 7, Thranduil dons his armour,\npermanently gaining +25% armour\n\nLeft click to switch between \n mounted on Great Elk and on foot
 
 
 [CONTROLBAR:ToolTipThranduilFavor_Campaign]
-Requires Level 7 \nGrants  Sindarin Armor to units in radius \n Sindarin Armor: grants an additional +20% armor to units \n Stacks with Leaderships, Buffs, and Spells \n \n Left click on icon then left click on target own units
+Requires Level 7 \nGrants  Sindarin Armour to units in radius \n Sindarin Armour: grants an additional +20% armour to units\n \n Left click on icon then left click on target own units
 
 
 [CONTROLBAR:ToolTipThranduilFavor]
-Requires Level 3\n\nGrants Sindarin Armor to units in radius \n Sindarin Armor: grants an additional +20% armor to units \n Decreased cooldown at levels 5, 7 and 10 \n Stacks with Leaderships, Buffs, and Spells \n \n Left click on icon then left click on target own units
+Requires Level 3\n\nGrants Sindarin Armour to units in radius \n Sindarin Armour: grants an additional +20% armour to units \n Decreased cooldown at levels 5, 7 and 10 \n \n Left click on icon then left click on target own units
 
 
 [CONTROLBAR:ThranduilFavor]
@@ -17059,7 +17091,7 @@ Left click to switch between \n mounted on Brego and on foot
 
 
 [CONTROLBAR:ToolTipTheodenMount]
-Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen
+Left click to mount horse \n +25% armour vs. Footmen and Cavalry \n -50% armour vs. Archers and Pikes \n 100% more damage from archers and spearmen
 
 
 [CONTROLBAR:EowynMount]
@@ -17071,11 +17103,11 @@ Mount / Dismount (&R)
 
 
 [CONTROLBAR:SuladanMount]
-Mount / Dismount (&W)
+The Black Serpent (&W)
 
 
 [CONTROLBAR:SuladanMountTooltip]
-Left click to toggle between mounted and dismounted \n\n Modifier Type: Leadership \n When mounted, Harondor Raiders and Guards of the Serpent near Sûladan gain +15% speed and -15% trample deceleration \n\n When dismounted, Harondor Spearmen and Archers gain +15% armour and damage \n Stacks with Buffs and Spells \n Passive ability
+Left click to toggle between mounted and dismounted \n\n Modifier Type: Leadership \n When mounted, Harondor Raiders near Sûladan gain +15% armour and -15% trample deceleration \n\n When dismounted, Harondor infantry gain +33% armour and damage and +50% experience\nPassive ability
 
 
 [CONTROLBAR:LordDainMount]
@@ -17092,6 +17124,10 @@ Requires Level 2 \n Gimli jumps to a location causing area-effect damage \n Left
 
 [CONTROLBAR:FellowshipLeap]
 Nobody Tosses A Dwarf (&T)
+
+
+[CONTROLBAR:FellowshipLeap_GC]
+Nobody Tosses A Dwarf (&R)
 
 
 [CONTROLBAR:ToolTipFellowshipLeap]
@@ -17119,7 +17155,7 @@ Axemaster (&R)
 
 
 [CONTROLBAR:ToolTipToggleGimliWeapons]
-Left click to toggle between Balin's Axe (double-headed) and Gloin's Axe (walking axe)\nBalin's Axe grants additional armor and splash damage\nGloin's Axe grants movement speed and attack speed
+Left click to toggle between Balin's Axe (double-headed) and Glóin's Axe (walking axe)\nBalin's Axe grants +33% armour and splash damage\nGlóin's Axe grants +20% movement speed and +50% attack speed
 
 
 [CONTROLBAR:GimliElfFriend]
@@ -17215,7 +17251,7 @@ Uruk Chief
 
 
 [CONTROLBAR:ToolTipUrukChief]
-Requires Level 10 \n Lurtz is clad in thick armor \n Permanently gains +50% Armor\nPassive ability
+Requires Level 10 \n Lurtz is clad in thick armour \n Permanently gains +50% armour\nPassive ability
 
 
 [CONTROLBAR:ToggleHorseBow]
@@ -17239,7 +17275,7 @@ Skirmish Formation (&R)
 
 
 [CONTROLBAR:ToolTipToggleSkirmishFormation]
-+300% Damage \n -75% Armor
++300% damage \n -75% armour
 
 
 [CONTROLBAR:ToggleHaradrimLineFormation]
