@@ -17294,8 +17294,20 @@ Ambush For&mation
 Wedge Formation (&W)
 
 
+[CONTROLBAR:ToggleHarondorWedgeFormation]
+Serpent's Lunge Formation (&W)
+
+
 [CONTROLBAR:ToggleLineFormation]
 Line Formation (&W)
+
+
+[CONTROLBAR:ToggleCombatFormation]
+Combat Formation (&W)
+
+
+[CONTROLBAR:ToggleTombGuardLineFormation]
+Line Formation (&R)
 
 
 [CONTROLBAR:ToggleAnorienLineFormation]
