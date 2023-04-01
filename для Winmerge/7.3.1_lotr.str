@@ -17540,7 +17540,7 @@ Mount / Dismount (&W)
 
 
 [CONTROLBAR:ToolTipMount]
-Left click to mount horse \n When mounted +25% armour vs. Footmen and Cavalry \n When mounted -50% Armor vs. Archers and Pikemen \n When mounted 100% more damage from archers and pikemen
+Left click to mount horse \n When mounted +25% armour vs. Footmen and Cavalry \n When mounted -50% armour vs. Archers and Pikemen \n When mounted 100% more damage from archers and pikemen
 
 
 [CONTROLBAR:UseSword]
@@ -17645,7 +17645,7 @@ Mount / Dismount (&W)
 
 
 [CONTROLBAR:ToolTipEomerMount]
-Left click to mount horse \n+25% Armor vs. Footmen and Cavalry \n-50% Armor vs. Archers and Pikes\n100% more damage from archers and spearmen
+Left click to mount horse \n+25% armour vs. Footmen and Cavalry \n-50% armour vs. Archers and Pikes\n100% more damage from archers and spearmen
 
 
 [CONTROLBAR:IstariLight]
@@ -17709,11 +17709,11 @@ Captain of Ithilien (&C)
 
 
 [CONTROLBAR:ToolTipFaramirSummonLeadership]
-Requires Level 3 \n Faramir calls a group of Rangers and one of their captains to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches\n At rank 7, summons a larger battalion of Rangers\nLeft click icon then left click on pathable location \n\n Modifier Type: Leadership \n Ithilien Rangers near Faramir gain +15% armor, +15% range and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Requires Level 3 \n Faramir calls a group of Rangers and one of their captains to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches\n At rank 7, summons a larger battalion of Rangers\nLeft click icon then left click on pathable location \n\n Modifier Type: Leadership \n Ithilien Rangers near Faramir gain +15% armour, +15% range and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:ToolTipCampaignFaramirSummonLeadership]
-Requires Level 3 \n Faramir calls a group of Rangers to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches. \n Left click icon then left click on pathable location \n\n Modifier Type: Leadership \n Ithilien Rangers near Faramir gain +15% armor, +15% range and earn experience 50% faster\n Stacks with Buffs and Spells \n Passive ability
+Requires Level 3 \n Faramir calls a group of Rangers to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches. \n Left click icon then left click on pathable location \n\n Modifier Type: Leadership \n Ithilien Rangers near Faramir gain +15% armour, +15% range and earn experience 50% faster\n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:FaramirAmbushAbility]
@@ -17785,7 +17785,7 @@ Shield Wall Formation (&W)
 
 
 [CONTROLBAR:ToolTipToggleShieldWallFormation]
-+50% Armor \n -75% Speed
++50% armour \n -75% Speed
 
 
 [CONTROLBAR:ToggleLooseFormation]
@@ -17796,19 +17796,19 @@ Loose Formation (&W)
 Default Formation
 
 [CONTROLBAR:ToolTipToggleCrossbowmanLooseToWedgeFormation]
-+25% Damage \n -25% Armor
++25% Damage \n -25% armour
 
 [CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLooseFormation]
 Default Formation
 
 [CONTROLBAR:ToolTipToggleFighterLooseToBlockFormation]
--40% Speed \n +25% Armor
+-40% Speed \n +25% armour
 
 [CONTROLBAR:ToolTipToggleFighterBlockToLooseFormation]
 Default Formation
 
 [CONTROLBAR:ToolTipTogglePikemanLooseToPorcupineFormation]
--40% Speed \n +25% Armor \n Bonus damage vs cavalry
+-40% Speed \n +25% armour \n Bonus damage vs cavalry
 
 [CONTROLBAR:ToolTipTogglePikemanPorcupineToLooseFormation]
 Default Formation
@@ -17873,7 +17873,7 @@ Peasants (&E)
 
 
 [CONTROLBAR:ToolTipBuildRohanPeasant]
-Can be drafted \n\n Horde Bonus \n Modifier Type: Spell \n All Peasants gain +25% damage and +25% armor when gathered in numbers of 60 or more \n Stacks with buffs, Leadership and other spells\n\n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle.
+Can be drafted \n\n Horde Bonus \n Modifier Type: Spell \n All Peasants gain +25% damage and +25% armour when gathered in numbers of 60 or more \n Stacks with buffs, Leadership and other spells\n\n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle.
 
 
 [CONTROLBAR:ToolTipBuildRohanPeasantDrafted]
@@ -23045,7 +23045,7 @@ Replenishes health and units in nearby battalions\n Reduces the cost of infantry
 
 
 [OBJECT:RohanStatueDescription]
-Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack
+Allies near the statue gain \n +50% Damage, +50% armour, \n and earn experience twice as fast \n Does not stack
 
 
 [OBJECT:RohanBattleTowerDescription]
@@ -23089,11 +23089,11 @@ Recruits the elite troops of Erebor
 
 
 [OBJECT:DwarvenHearthDescription]
-Allies near the hearth gain \n +50% Damage and +50% Armor \n Does not stack \n Reduces cost of machines\n 3 Hearths: 10%\n 5 Hearths: 20%\n 7 Hearths: 30%\n10 Hearths: 40%
+Allies near the hearth gain \n +50% Damage and +50% armour \n Does not stack \n Reduces cost of machines\n 3 Hearths: 10%\n 5 Hearths: 20%\n 7 Hearths: 30%\n10 Hearths: 40%
 
 
 [OBJECT:DwarvenStatueDescription]
-Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack
+Allies near the statue gain \n +50% Damage, +50% armour, \n and earn experience twice as fast \n Does not stack
 
 
 [OBJECT:DwarvenMineShaftDescription]
@@ -23133,7 +23133,7 @@ Generates resources based on available terrain \n Reduces cost of buildings \n 1
 
 
 [OBJECT:GondorStatueDescription]
-Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack\n Reduces cost of heroes
+Allies near the statue gain \n +50% Damage, +50% armour, \n and earn experience twice as fast \n Does not stack\n Reduces cost of heroes
 
 
 [OBJECT:GondorWellDescription]
@@ -25967,7 +25967,7 @@ Build He&arth
 
 
 [CONTROLBAR:ToolTipConstructDwarvenHearth]
-Allies near the hearth gain \n +50% Damage and +50% Armor \n Does not stack \n Provides nearby stealth detection \n Reduces cost of machine units \n Increases command point limit by 10
+Allies near the hearth gain \n +50% Damage and +50% armour \n Does not stack \n Provides nearby stealth detection \n Reduces cost of machine units \n Increases command point limit by 10
 
 
 [CONTROLBAR:ConstructDwarvenForgeWorks]
@@ -26934,7 +26934,7 @@ Build Statue of Amroth Amdírion (&U)
 
 
 [CONTROLBAR:ToolTipElvenStatue]
-Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack
+Allies near the statue gain \n +50% Damage, +50% armour, \n and earn experience twice as fast \n Does not stack
 
 
 [CONTROLBAR:ConstructElvenBattleTower]
@@ -27061,7 +27061,7 @@ Statue of Amroth Amdírion
 
 
 [OBJECT:ElvenStatueDescription]
-Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack
+Allies near the statue gain \n +50% Damage, +50% armour, \n and earn experience twice as fast \n Does not stack
 
 
 [OBJECT:RivendellStatue]
@@ -29354,11 +29354,11 @@ Shortcut: F \n This is the default unit stance \n No bonus \n Units will auto-ac
 
 
 [CONTROLBAR:ToolTipToggleStanceAggressive]
-Shortcut: D \n Swordsmen: +25% Damage, -15% Armor \n Archers: +20% Damage, -20% Armor \n Pikemen: +25% Damage, -15% Armor \n Cavalry: +25% Damage, -15% Armor \n Siege: +15% Range, -20% Armor \n Heroes and Monsters: +10% Damage, +10% Speed, -20% Armor\n\nUnits will auto-acquire enemies when sighted
+Shortcut: D \n Swordsmen: +25% Damage, -15% armour \n Archers: +20% Damage, -20% armour \n Pikemen: +25% Damage, -15% armour \n Cavalry: +25% Damage, -15% armour \n Siege: +15% Range, -20% armour \n Heroes and Monsters: +10% Damage, +10% Speed, -20% armour\n\nUnits will auto-acquire enemies when sighted
 
 
 [CONTROLBAR:ToolTipToggleStanceHoldGround]
-Shortcut: G \n Swordsmen: +25% Armor, -15% Damage \n Archers: +20% Armor, -10% Damage \n Pikemen: +25% Armor, -15% Damage \n Cavalry: +25% Armor, -15% Damage, -15% Speed \n Siege: +10% Armor, -15% Range \n Heroes and Monsters: +10% Armor, -20% Damage, -10% Speed\n\nUnits will not auto-acquire enemies
+Shortcut: G \n Swordsmen: +25% armour, -15% Damage \n Archers: +20% armour, -10% Damage \n Pikemen: +25% armour, -15% Damage \n Cavalry: +25% armour, -15% Damage, -15% Speed \n Siege: +10% armour, -15% Range \n Heroes and Monsters: +10% armour, -20% Damage, -10% Speed\n\nUnits will not auto-acquire enemies
 
 
 
@@ -31292,7 +31292,7 @@ Prince of Erebor
 
 
 [CONTROLBAR:ToolTipStonehelmLeadership]
-Modifier Type: Leadership \n Allies near Thorin III Stonehelm gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Allies near Thorin III Stonehelm gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:GloinHeal]
@@ -31300,7 +31300,7 @@ Herb Lore (&W)
 
 
 [CONTROLBAR:ToolTipGloinHeal]
-Heals nearby units\n Left click to activate \n\n Requires Level 3 \n Modifier Type: Leadership \n Allies near Glóin gain +15% Damage and +15% Armor \n Stacks with Buffs and Spells \n Passive ability
+Heals nearby units\n Left click to activate \n\n Requires Level 3 \n Modifier Type: Leadership \n Allies near Glóin gain +15% Damage and +15% armour \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:ProudFather]
@@ -31308,7 +31308,7 @@ Proud Father
 
 
 [CONTROLBAR:ToolTipProudFather]
-Glóin gains +33% armor and damage while near Gimli\nPassive ability
+Glóin gains +33% armour and damage while near Gimli\nPassive ability
 
 
 [CONTROLBAR:GloinGloriousCharge]
@@ -31543,7 +31543,7 @@ Adds several Axe Throwers to the Battlewagon
 
 
 [CONTROLBAR:ToolTipBattleWagonUpgradeHearth]
-Allies near the Battlewagon gain +50% Damage and +50% Armor \n Detects stealth \n Does not stack
+Allies near the Battlewagon gain +50% Damage and +50% armour \n Detects stealth \n Does not stack
 
 
 [CONTROLBAR:ToolTipBattleWagonUpgradeMenOfDale]
@@ -43009,15 +43009,15 @@ Melee attack that does excellent damage to structures
 
 
 [CONTROLBAR:ToolTipCAH_DwarfCharge_L1]
-Hero can crush enemies for a short duration \n Gains +100% Armor and +50% Damage
+Hero can crush enemies for a short duration \n Gains +100% armour and +50% Damage
 
 
 [CONTROLBAR:ToolTipCAH_DwarfCharge_L2]
-Hero can crush enemies for a medium duration \n Gains +100% Armor and +100% Damage
+Hero can crush enemies for a medium duration \n Gains +100% armour and +100% Damage
 
 
 [CONTROLBAR:ToolTipCAH_DwarfCharge_L3]
-Hero can crush enemies and is immune to arrows for a long duration \n Gains +100% Armor and +100% Damage
+Hero can crush enemies and is immune to arrows for a long duration \n Gains +100% armour and +100% Damage
 
 
 [CONTROLBAR:ToolTipCAH_AxeThrow_Level1]
@@ -47025,7 +47025,7 @@ Reduces the Cost of Defenses\n 1 Stoneworker: 20%\n 2 Stoneworkers: 40%
 
 
 [OBJECT:ArnorStatueDescription]
-Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack
+Allies near the statue gain \n +50% Damage, +50% armour, \n and earn experience twice as fast \n Does not stack
 
 
 [OBJECT:ArnorWellDescription]
@@ -47571,7 +47571,7 @@ Chieftain of the Dúnedain
 
 
 [CONTROLBAR:ToolTipDunedainChieftain]
-Nearby Dúnedain gain +33% attack damage \n and become immune to fear\n Passive power \n \n Isildur's Heir \n Requires Level 9 and Andúril Upgrade \n Nearby Dúnedain gain +33% attack damage \n and become immune to fear \n When activated, all nearby units gain +33% Damage, +50% Armor and become immune to fear
+Nearby Dúnedain gain +33% attack damage \n and become immune to fear\n Passive power \n \n Isildur's Heir \n Requires Level 9 and Andúril Upgrade \n Nearby Dúnedain gain +33% attack damage \n and become immune to fear \n When activated, all nearby units gain +33% Damage, +50% armour and become immune to fear
 
 
 [CONTROLBAR:AragornIsildurHeir]
@@ -47579,7 +47579,7 @@ Isildur's Heir (&T)
 
 
 [CONTROLBAR:ToolTipFellowshipAragornIsildurHeir]
-Nearby Dúnedain gain +33% attack damage and become immune to fear\n Passive power \n\n Active ability: Requires Level 9 and Andúril \n When activated, all nearby units gain +33% Damage, \n +50% Armor and become immune to fear
+Nearby Dúnedain gain +33% attack damage and become immune to fear\n Passive power \n\n Active ability: Requires Level 9 and Andúril \n When activated, all nearby units gain +33% Damage, \n +50% armour and become immune to fear
 
 
 [CONTROLBAR:ArnorAragornBlademaster]
@@ -47587,7 +47587,7 @@ A Fire Shall Be Woken (&V)
 
 
 [CONTROLBAR:TooltipArnorAragornBlademaster]
-Requires Level 6 \n Aragorn temporarily gains\n+75% Damage, +25% Armor, and wields a torch \n While the ability is active, nearby heroes gain +15% armor \n Can only use with sword equipped \n Left click to activate
+Requires Level 6 \n Aragorn temporarily gains\n+75% Damage, +25% armour, and wields a torch \n While the ability is active, nearby heroes gain +15% armour \n Can only use with sword equipped \n Left click to activate
 
 
 [CONTROLBAR:FellowshipAragornBlademaster]
@@ -47595,11 +47595,11 @@ Fa&ithful Protector
 
 
 [CONTROLBAR:TooltipFellowshipAragornBlademaster]
-Requires Level 5 \n Aragorn temporarily gains\n+100% Damage, +100% Armor, and deals fire damage \n Left click to activate
+Requires Level 5 \n Aragorn temporarily gains\n+100% Damage, +100% armour, and deals fire damage \n Left click to activate
 
 
 [CONTROLBAR:TooltipFellowshipStriderBlademaster]
-Requires Level 5 \n Strider temporarily gains\n+100% Damage, +100% Armor, and wields a torch \n Left click to activate
+Requires Level 5 \n Strider temporarily gains\n+100% Damage, +100% armour, and wields a torch \n Left click to activate
 
 
 [CONTROLBAR:ToolTipMasterTrackerAbility]
@@ -48653,7 +48653,7 @@ Trollish Stew
 
 
 [CONTROLBAR:TooltipTrollishStew]
-Temporarily summons a kettle of Trollish Stew, guarded by Tom, Bert, and William \n The Trollish Stew provides healing and grants +15% armor and damage to nearby units and detects stealth \n Left click icon then left click on pathable location
+Temporarily summons a kettle of Trollish Stew, guarded by Tom, Bert, and William \n The Trollish Stew provides healing and grants +15% armour and damage to nearby units and detects stealth \n Left click icon then left click on pathable location
 
 
 [OBJECT:WildTrollBert]
@@ -48673,7 +48673,7 @@ Trollish Stew
 
 
 [OBJECT:TrollishStewDescription]
-The Trollish Stew provides healing and grants +15% armor and damage to nearby units and detects stealth
+The Trollish Stew provides healing and grants +15% armour and damage to nearby units and detects stealth
 
 
 [CONTROLBAR:SummonOrcs]
@@ -49452,7 +49452,7 @@ White Wolves
 
 
 [CONTROLBAR:ToolTipCaptDaleLeadership]
-Requires Level 6 \n Allies near the Captain gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n \n Passive ability       Does not stack
+Requires Level 6 \n Allies near the Captain gain \n +50% Damage, +50% armour, \n and earn experience twice as fast \n \n Passive ability       Does not stack
 
 
 [CONTROLBAR:ZerkSlayer]
@@ -49512,7 +49512,7 @@ Quingar
 
 
 [CONTROLBAR:TooltipEarnurBladeMaster]
-Requires Level 2 \n Earnur gains +100% Damage and +100% Armor \n Left click to activate
+Requires Level 2 \n Earnur gains +100% Damage and +100% armour \n Left click to activate
 
 
 [OBJECT:GondorSpearmen]
@@ -52936,7 +52936,7 @@ Adâruf-sulûkh throw bottles of Dwarven flash flame, damaging enemy units \n Left
 
 
 [CONTROLBAR:ToolTipWitchKingLeadership]
-Requires Level 4 \n Allies near the Witch-King gain \n +33% Damage, +33% Armor, \n and earn experience 50% faster\n Passive ability
+Requires Level 4 \n Allies near the Witch-King gain \n +33% Damage, +33% armour, \n and earn experience 50% faster\n Passive ability
 
 
 
@@ -53009,19 +53009,19 @@ Provides a leadership bonus to nearby units \n Stacks with Buffs and Spells \n I
 
 
 [OBJECT:HeroicStatueDescription]
-Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Culture Bonus - Reduced cost of infantry \n 1 Statue: 4% \n 2 Statues: 8% \n 3 Statues: 12% \n 4 Statues: 16% \n 5+ Statues: 20%
+Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% armour, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Culture Bonus - Reduced cost of infantry \n 1 Statue: 4% \n 2 Statues: 8% \n 3 Statues: 12% \n 4 Statues: 16% \n 5+ Statues: 20%
 
 
 [OBJECT:RohanHeroicStatueDescription]
-Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells
+Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% armour, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells
 
 
 [OBJECT:ElvenHeroicStatueDescription]
-Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Culture Bonus - Reduced cost of infantry \n 1 Statue: 4% \n 2 Statues: 8% \n 3 Statues: 12% \n 4 Statues: 16% \n 5+ Statues: 20%
+Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% armour, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Culture Bonus - Reduced cost of infantry \n 1 Statue: 4% \n 2 Statues: 8% \n 3 Statues: 12% \n 4 Statues: 16% \n 5+ Statues: 20%
 
 
 [OBJECT:MirkwoodHeroicStatueDescription]
-Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells
+Modifier Type: Leadership \n Allies near the Statue gain +33% Damage, +33% armour, earn experience 50% faster, and become immune to Fear and Terror \n Stacks with Buffs and Spells
 
 
 [CONTROLBAR:ToolTipBuildEvilBombardShip]
@@ -53032,7 +53032,7 @@ Elven ship equipped with a long range ballista\nStrong vs. Structures
 
 
 [CONTROLBAR:ToolTipEarnurLeadership]
-Requires Level 4 \n Allies near Earnur gain \n +33% Damage, +33% Armor, \n and earn experience 50% faster\nPassive ability
+Requires Level 4 \n Allies near Earnur gain \n +33% Damage, +33% armour, \n and earn experience 50% faster\nPassive ability
 
 
 [CONTROLBAR:ToolTipToggleTowerGuardPorcupineToLineFormation]
@@ -53040,13 +53040,13 @@ The units return to standard line formation
 
 
 [CONTROLBAR:ToolTipToggleTowerGuardLineToSpearWallFormation]
-The units form a Spear Wall\n Units lose 40% speed, gain resistance to knockback, decelerate crush, and gain +33% armor
+The units form a Spear Wall\n Units lose 40% speed, gain resistance to knockback, decelerate crush, and gain +33% armour
 
 
 
 
 [CONTROLBAR:TooltipRallyingCall]
-Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target units
+Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% armour \n Stacks with Leadership and Spells \n Left click icon then left click on target units
 
 
 [CONTROLBAR:GondorHeal]
@@ -53074,11 +53074,11 @@ Bombard target area with devastating artillery\nLeft click icon then left click 
 
 
 [CONTROLBAR:ToolTipWarChant]
-Modifier Type: Buff \n Target allies gain +50% Damage, +50% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target units
+Modifier Type: Buff \n Target allies gain +50% Damage, +50% armour \n Stacks with Leadership and Spells \n Left click icon then left click on target units
 
 
 [CONTROLBAR:ToolTipTaint]
-Taints an area of terrain \n Modifier Type: Buff \n All allied units gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target area
+Taints an area of terrain \n Modifier Type: Buff \n All allied units gain +50% Damage and +50% armour \n Stacks with Leadership and Spells \n Left click icon then left click on target area
 
 
 [CONTROLBAR:ToolTipIndustry]
@@ -53094,11 +53094,11 @@ Requires the Wild Allegiance upgrade \n Cast on a Lair to gain control of the La
 
 
 [CONTROLBAR:ToolTipWhiteWinter]
-Temporarily blankets the map in a raging snowstorm\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness \n Modifier Type: Active Debuff \n Enemy units suffer -25% Damage, -20% Armor, and -30% Vision Range \nNullifies enemy Leadership \n Does not stack with other Debuffs \n Extinguishes all fires \n\n Left click to activate
+Temporarily blankets the map in a raging snowstorm\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness \n Modifier Type: Active Debuff \n Enemy units suffer -25% Damage, -20% armour, and -30% Vision Range \nNullifies enemy Leadership \n Does not stack with other Debuffs \n Extinguishes all fires \n\n Left click to activate
 
 
 [CONTROLBAR:ToolTipFreezingRain]
-Temporarily covers the map in rain\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness \n Modifier Type: Active Debuff \n Enemy units suffer -25% Damage and -20% Armor\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Extinguishes all fires \n\n Left click to activate
+Temporarily covers the map in rain\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness \n Modifier Type: Active Debuff \n Enemy units suffer -25% Damage and -20% armour\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Extinguishes all fires \n\n Left click to activate
 
 
 [CONTROLBAR:TooltipSummonWatcher]
@@ -53110,7 +53110,7 @@ Reposition (&W)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityIgnite]
-The Balrog gains\n+50% Damage, +50% Armor \n Reduced the recharge time of special powers \n Causes enemy units to flee in terror \n Left click to activate
+The Balrog gains\n+50% Damage, +50% armour \n Reduced the recharge time of special powers \n Causes enemy units to flee in terror \n Left click to activate
 
 
 
@@ -53135,18 +53135,18 @@ Anórien Soldier
 The units return to standard line formation
 
 [CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation]
-+33% Armor\n-20% Damage\n-40% Speed
++33% armour\n-20% Damage\n-40% Speed
 
 
 [CONTROLBAR:ToolTipToggleIHFighterLineToBlockFormation]
-Baruk-sharâhul form a Shield Wall \n They gain +33% Armor, -20% Damage, -40% Speed and bonus damage to cavalry
+Baruk-sharâhul form a Shield Wall \n They gain +33% armour, -20% Damage, -40% Speed and bonus damage to cavalry
 
 
 [CONTROLBAR:ToolTipToggleGFighterBlockToLineFormationElite]
 The units return to standard line formation
 
 [CONTROLBAR:ToolTipToggleGFighterLineToBlockFormationElite]
-+33% Armor\n-40% Speed
++33% armour\n-40% Speed
 
 
 [OBJECT:HordeGondorRangerSpear]
@@ -53177,7 +53177,7 @@ Toggle Weapon (&R)
 
 
 [CONTROLBAR:ToolTipToggleIthilienWeapons]
-Allows the rangers to switch between bow and sword\n +50% Armor and deal +50% Damage against siege machines\n Left click to toggle
+Allows the rangers to switch between bow and sword\n +50% armour and deal +50% Damage against siege machines\n Left click to toggle
 
 
 
@@ -53263,7 +53263,7 @@ Adds defensive Arrow Tower
 Garrisonable defensive structure \n Increases decommission value of units\nGarrisoned units gain +20% experience \n Increases command point limit by 25
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners]
-Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% Armor, and earn experience 50% faster. \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces the cost of builders by 20%
+Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% armour, and earn experience 50% faster. \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces the cost of builders by 20%
 
 
 
@@ -53277,7 +53277,7 @@ Strong vs. Infantry, Archers \n Limited to 3\n \n The Swan Knights of Dol Amroth
 Requires Level 2 Stables and Dol Amroth Citadel \n Strong vs. Infantry, Archers\n Limited to 3\n \n The Swan Knights of Dol Amroth were renowned as one of the greatest cavalry regiments in Middle-earth.
 
 [CONTROLBAR:TooltipKnightsofDolInspiration]
-Requires Level 2 \n Nearby Gondor Cavalry gain\n+33% Damage, +33% Armor\nand earn experience 50% faster\nPassive ability
+Requires Level 2 \n Nearby Gondor Cavalry gain\n+33% Damage, +33% armour\nand earn experience 50% faster\nPassive ability
 
 
 [CONTROLBAR:ToolTipSmite]
@@ -53297,7 +53297,7 @@ King of Rohan
 
 
 [CONTROLBAR:ToolTipTheodenLeadership]
-Modifier Type: Leadership \n Allies near Théoden gain +50% Armor, and earn experience 100% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Allies near Théoden gain +50% armour, and earn experience 100% faster \n Stacks with Buffs and Spells \n Passive ability
 
 [CONTROLBAR:ToolTipKingsFavor]
 Requires Level 7 \n Targeted units gain large experience \n Left click icon then left click on target units
@@ -53306,7 +53306,7 @@ Requires Level 7 \n Targeted units gain large experience \n Left click icon then
 Requires Level 6 \n Targeted units gain large experience \n Left click icon then left click on target units
 
 [CONTROLBAR:ToolTipGloriousCharge]
-Requires Level 5 \n Théoden must be mounted to use ability \n Modifier Type: Spell \n Théoden and nearby cavalry gain +100% Armor \n The more riders near Théoden, the larger the bonus \n(+10% armor by battalion) \n No force can slow this charge \n Stacks with Leadership and Spells \n Left click to activate
+Requires Level 5 \n Théoden must be mounted to use ability \n Modifier Type: Spell \n Théoden and nearby cavalry gain +100% armour \n The more riders near Théoden, the larger the bonus \n(+10% armour by battalion) \n No force can slow this charge \n Stacks with Leadership and Spells \n Left click to activate
 
 
 [CONTROLBAR:ToolTipFaramirLeadership]
@@ -53325,19 +53325,19 @@ Requires Level 3 \n Stun enemies with terror for 15 seconds \n Left click to act
 
 
 [CONTROLBAR:ToolTipBoromirLeadership]
-Requires Level 5 \n Boromir dons his Gondorian Armor \n Modifier Type: Leadership \n Allies near Boromir gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Requires Level 5 \n Boromir dons his Gondorian Armor \n Modifier Type: Leadership \n Allies near Boromir gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:ToolTipBoromirNewLeadership]
-Requires Level 5 \n Boromir dons his Gondorian Armor \n Modifier Type: Leadership \n Anórien Soldiers, Spearmen, and Archers near Boromir gain +33% Damage, +25% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Requires Level 5 \n Boromir dons his Gondorian Armor \n Modifier Type: Leadership \n Anórien Soldiers, Spearmen, and Archers near Boromir gain +33% Damage, +25% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:ToolTipCaptainofGondorBoromir]
-Requires Level 7 \nGive targeted units superior experience\n Left click icon then left click on target units \n \n Modifier Type: Spell \n When Boromir reaches 25% health, \n he gains +200% armor for a short time \n Passive ability
+Requires Level 7 \nGive targeted units superior experience\n Left click icon then left click on target units \n \n Modifier Type: Spell \n When Boromir reaches 25% health, \n he gains +200% armour for a short time \n Passive ability
 
 
 [CONTROLBAR:TooltipBladeMaster]
-Requires Level 2 \n Aragorn temporarily gains\n+100% Damage, +100% Armor \n Left click to activate
+Requires Level 2 \n Aragorn temporarily gains\n+100% Damage, +100% armour \n Left click to activate
 
 
 [CONTROLBAR:TooltipElessarBladeMaster]
@@ -53345,11 +53345,11 @@ Aragorn deals magic damage and splash damage \n When activated, grants +50% extr
 
 
 [CONTROLBAR:ToolTipAragornLeadership]
-Requires Level 4 \n Modifier Type: Leadership \n Allies near Aragorn gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Requires Level 4 \n Modifier Type: Leadership \n Allies near Aragorn gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:ToolTipElessarLeadership]
-Modifier Type: Leadership \n Allies near Elessar gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Allies near Elessar gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:GandalfNewMount]
@@ -53451,7 +53451,7 @@ Mallorn Bows (&W)
 Reduced cost of Elven unit upgrades: \n 1 fortress with Anvil = 17% cheaper \n 2 fortresses with Anvil = 21% cheaper \n 3 fortresses with Anvil = 25% cheaper \n 4 fortresses with Anvil = 29% cheaper \n 5 fortresses with Anvil = 33% cheaper
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressBlessedMist]
-Nearby allies become camouflaged \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs
+Nearby allies become camouflaged \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Does not stack with other Debuffs
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains]
@@ -53482,10 +53482,10 @@ Requires Level 10 \n A high damage attack that stuns enemy units \nCan only use 
 
 
 [CONTROLBAR:ToolTipGlorfindelBladeOfPurity]
-Requires Level 3 \n Glorfindel gains\n+100% Damage, +100% Armor \n Left click to activate
+Requires Level 3 \n Glorfindel gains\n+100% Damage, +100% armour \n Left click to activate
 
 [CONTROLBAR:ToolTipGlorfindelWindRider]
-Requires Level 5 \n Glorfindel gains +20% Speed, +100% Armor, \n and glides past enemies like the wind \n Can only be used mounted \n Left click to activate
+Requires Level 5 \n Glorfindel gains +20% Speed, +100% armour, \n and glides past enemies like the wind \n Can only be used mounted \n Left click to activate
 
 
 [CONTROLBAR:ToolTipLegolasTrainArchers]
@@ -53501,7 +53501,7 @@ Requires Level 3 \n Targeted Good archers gain good experience \n Left click ico
 
 
 [CONTROLBAR:ToolTipKnifeFighter]
-Requires Level 4 \n Alternate melee attack \n +50% Armor \n Left click to activate
+Requires Level 4 \n Alternate melee attack \n +50% armour \n Left click to activate
 
 
 [CONTROLBAR:ElvenCloakThranduil]
@@ -53537,11 +53537,11 @@ Creates lush terrain \n Modifier Type: Buff \n All allied units gain +50% damage
 
 
 [CONTROLBAR:TooltipEnshroudingMist]
-Friendly units within the mist become stealthed \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
+Friendly units within the mist become stealthed \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% armour\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipEnshroudingMistCampaign]
-Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
+Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% armour\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
 
 
 
@@ -53549,7 +53549,7 @@ Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% A
 Âzagh-baruk
 
 [CONTROLBAR:ToolTipSpecialAbilityDwarvenGuardianChargeAttack]
-Requires Level 4 \n Order Warriors to charge the enemy \n Modifier Type: Buff \n Guardians gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Causes meta impact \n Left click icon then left click on target
+Requires Level 4 \n Order Warriors to charge the enemy \n Modifier Type: Buff \n Guardians gain +50% Damage and +50% armour \n Stacks with Leadership and Spells \n Causes meta impact \n Left click icon then left click on target
 
 
 [CONTROLBAR:PurchaseUpgradeDwarvenSiegeHammer]
@@ -53581,7 +53581,7 @@ Oil Barrels (&W)
 
 
 [CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier]
-Modifier Type: Leadership \n Nearby allies gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Adds several Phalanxes to the Battlewagon
+Modifier Type: Leadership \n Nearby allies gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Adds several Phalanxes to the Battlewagon
 
 
 [CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot]
@@ -53638,7 +53638,7 @@ Mithril-tipped Arrows (&D)
 Garrisonable defensive structure \n Increases decommission value of units \n Heals garrisoned units \n Garrisoned units gain +20% experience \n Increases command point limit by 25
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners]
-Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% Armor, and earn experience 50% faster. \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduced cost of builders by 20%
+Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% armour, and earn experience 50% faster. \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduced cost of builders by 20%
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions]
 Adds Mithril arrowheads to all attached towers and fire damage to all attached catapults
@@ -53659,7 +53659,7 @@ Requires Level 4\nTarget enemy building takes heavy damage\nand is temporarily d
 
 
 [CONTROLBAR:ToolTipDainLeadership]
-Modifier Type: Leadership\nAllies near King Dáin gain +75% armor and resistance to fear and terror\n King Dáin gains +33% attack damage when near King Brand\nPassive ability
+Modifier Type: Leadership\nAllies near King Dáin gain +75% armour and resistance to fear and terror\n King Dáin gains +33% attack damage when near King Brand\nPassive ability
 
 
 [CONTROLBAR:DainRestoration]
@@ -53692,14 +53692,14 @@ Adds forged blades to all attached towers and fire damage to all attached catapu
 
 
 [CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation]
-+33% Armor\n-20% Damage\n-40% Speed
++33% armour\n-20% Damage\n-40% Speed
 
 [CONTROLBAR:ToolTipToggleIFighterBlockToLineFormation]
 The units return to standard line formation
 
 
 [CONTROLBAR:ToolTipToggleIPikemanPhalanxFormation]
-+33% Armor and bonus +60% Armor against Cavalry\nResistance to knockback\nDecelrates Crush\n-40% Speed
++33% armour and bonus +60% armour against Cavalry\nResistance to knockback\nDecelrates Crush\n-40% Speed
 
 [CONTROLBAR:ToolTipToggleIPikemanLineFormation]
 The units return to standard line formation
@@ -53722,7 +53722,7 @@ Wildmen Axe Throwers
 
 
 [CONTROLBAR:TooltipWargRiderHowl]
-Modifier Type: Buff \n Wargs gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Left click to activate
+Modifier Type: Buff \n Wargs gain +50% Damage and +50% armour \n Stacks with Leadership and Spells \n Left click to activate
 
 
 [CONTROLBAR:TooltipIsengardWargRiderHowl]
@@ -53769,7 +53769,7 @@ Allows research of Fire Arrows\nAdds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations]
-Nearby structures gain +25% Armor
+Nearby structures gain +25% armour
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges]
 Reduces cost of Isengard unit Upgrades \n 1  Fortress with forges = 33% cheaper \n 2 Fortresses with forges = 41% cheaper \n 3 Fortresses with forges = 49% cheaper \n 4 Fortresses with forges = 58% cheaper \n 5 Fortresses with forges = 67% cheaper
@@ -53788,7 +53788,7 @@ Strong vs. All Normal Troops\nRequires Level 3 Uruk Pit\nOnly 3 hordes of Deathb
 
 
 [CONTROLBAR:ToolTipVenomousWords]
-Requires Level 3 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -25% Damage and -20% Armor \nNullifies enemy leadership \n Does not stack with other Debuffs \n Left click icon then left click on target units
+Requires Level 3 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -25% Damage and -20% armour \nNullifies enemy leadership \n Does not stack with other Debuffs \n Left click icon then left click on target units
 
 [CONTROLBAR:ToolTipBackstab]
 Requires Level 5 \n High damage melee attack that also poisons targeted enemy \n At rank 10, targeted enemy hero cannot gain experience,\n has its damage output reduced by 50%, and loses 25% movement speed for 30 seconds \n Left click icon then left click on target
@@ -53804,17 +53804,17 @@ Requires Level 4 \n Pins enemy Hero in place for 15 seconds \n At rank 8, instil
 Leader of the Hunt (&R)
 
 [CONTROLBAR:ToolTipLurtzLeadership]
-Modifier Type: Leadership \n Uruk-hai near Lurtz gain +33% Damage and +33% Armor \n Stacks with Buffs and Spells \n Passive ability \n\n Can be cast on enemy heroes to track their movements for 60 seconds
+Modifier Type: Leadership \n Uruk-hai near Lurtz gain +33% Damage and +33% armour \n Stacks with Buffs and Spells \n Passive ability \n\n Can be cast on enemy heroes to track their movements for 60 seconds
 
 [CONTROLBAR:ToolTipLurtzPillage]
 Requires Level 8 \n Lurtz and nearby allies loot enemy kills for resources \n Passive ability
 
 
 [CONTROLBAR:ToolTipGBloodHunt]
-Modifier Type: Leadership \n Allied Warg Riders near Sharku gain +33% Damage, +33% Armor and earn experience 50% faster \n Stacks with Buffs and Spells \nPassive ability\n\nAt rank 4, targeted Warg Riders battalion permanently gain\n+20% health and +20% armor\nLeft click icon then left click on target battalion
+Modifier Type: Leadership \n Allied Warg Riders near Sharku gain +33% Damage, +33% armour and earn experience 50% faster \n Stacks with Buffs and Spells \nPassive ability\n\nAt rank 4, targeted Warg Riders battalion permanently gain\n+20% health and +20% armour\nLeft click icon then left click on target battalion
 
 [CONTROLBAR:ToolTipSharkuManEater]
-Requires Level 5 \n Kill target enemy which restores 50% of Sharku's health and temporarily grants\n+50% Damage, +100% Armor \n Left click icon then left click on target enemy
+Requires Level 5 \n Kill target enemy which restores 50% of Sharku's health and temporarily grants\n+50% Damage, +100% armour \n Left click icon then left click on target enemy
 
 
 [CONTROLBAR:ToolTipSpeechCraft]
@@ -53837,11 +53837,11 @@ Requires Level 10 \n Permanently gain control of targeted enemies \n Left click 
 
 
 [CONTROLBAR:TooltipCrebain]
-Reveals the shroud and detects stealthed units \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor\n Nullifies enemy leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
+Reveals the shroud and detects stealthed units \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% armour\n Nullifies enemy leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
 
 
 [CONTROLBAR:ToolTipTaintIsengard]
-Taints an area of terrain \n Modifier Type: Buff \n All allied units gain +50% Damage and +50% Armor, and earn resources for kills \n Stacks with Leadership and Spells \n Left click icon then left click on target area
+Taints an area of terrain \n Modifier Type: Buff \n All allied units gain +50% Damage and +50% armour, and earn resources for kills \n Stacks with Leadership and Spells \n Left click icon then left click on target area
 
 
 
@@ -53874,7 +53874,7 @@ Requires Level 2\nCauses meta impact and increased damage
 
 
 [CONTROLBAR:DescriptionConstructMordorDrummerTrolls]
-Modifier Type: Leadership \n Allies near the Drummer Troll gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Allies near the Drummer Troll gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBar:ToolTipDominateTroll]
@@ -53926,10 +53926,10 @@ Mûmak Pen
 
 
 [CONTROLBAR:ToolTipConstructMordorGateWatchersExpansion]
-Causes enemy units to flee in terror\n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs
+Causes enemy units to flee in terror\n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Does not stack with other Debuffs
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres]
-Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% Armor, and earn experience 50% faster. \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces cost of builders by 20%
+Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% armour, and earn experience 50% faster. \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces cost of builders by 20%
 
 
 
@@ -53945,7 +53945,7 @@ Requires the Morgul Sorcery upgrade\nStrong vs. All except Pikemen \nLimited to 
 
 
 [CONTROLBAR:ToolTipMouthOfSauronDoubt]
-Requires Level 4 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -20% Damage and -20% Armor\n Nullifies enemy leadership \n Does not stack with other Debuffs \n \n Modifier Type: Active Buff \n Targeted allied units gain +33% Damage and +33% Armor \n Left click icon then left click on target units
+Requires Level 4 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -20% Damage and -20% armour\n Nullifies enemy leadership \n Does not stack with other Debuffs \n \n Modifier Type: Active Buff \n Targeted allied units gain +33% Damage and +33% armour \n Left click icon then left click on target units
 
 [CONTROLBAR:ToolTipSpecialAbilityMouthOfSauronEvilEye]
 Requires Level 7 \n A powerful ray of light that damages targeted units \n Left click icon then left click on target
@@ -53957,7 +53957,7 @@ Requires Level 10 \n Causes targeted units to become hostile towards each other 
 
 
 [CONTROLBAR:ToolTipEyeofSauron]
-Summons the Eye of Sauron \n Reveals stealthed enemies \n Paralyzes all enemies on the map briefly upon summoning\n and constanly paralyzes all units caught in it's gaze \nModifier Type: Leadership \n Allies gain +33% Damage, +50% Armor, gain immunity to fear and terror, and earn experience 50% faster \n Stacks with Buffs and Spells \n Left click icon then left click on target area
+Summons the Eye of Sauron \n Reveals stealthed enemies \n Paralyzes all enemies on the map briefly upon summoning\n and constanly paralyzes all units caught in it's gaze \nModifier Type: Leadership \n Allies gain +33% Damage, +50% armour, gain immunity to fear and terror, and earn experience 50% faster \n Stacks with Buffs and Spells \n Left click icon then left click on target area
 
 
 
@@ -54127,7 +54127,7 @@ Requires Level 2\n Modifier Type: Leadership \nNearby allies gain\n+50% damage a
 Sworn Vengeance (&C)
 
 [CONTROLBAR:ToolTipAzogFury]
-Requires Level 6 \n Azog temporarily gains +100% Damage and +40% Armor\nLeft click to activate
+Requires Level 6 \n Azog temporarily gains +100% Damage and +40% armour\nLeft click to activate
 
 [CONTROLBAR:ToolTipAzogCracktheWhip]
 Requires Level 6 \n Gives targeted units excellent experience \n Left click icon then left click on target units
@@ -54136,7 +54136,7 @@ Requires Level 6 \n Gives targeted units excellent experience \n Left click icon
 The Defiler (&T)
 
 [CONTROLBAR:ToolTipAzogDefiler]
-Requires Level 4 \n Modifier Type: Leadership \n Gundabad Berserkers near Azog gain\n+50% Armor and immunity to fear and terror\nPassive ability \n\n Taints an area around Azog \n Nearby allies near this area earn extra resources on kills \n Enemy units near this area suffer -25% Damage and -20% Armor\n Nullifies enemy leadership \n Does not stack with other Debuffs \n Left click icon
+Requires Level 4 \n Modifier Type: Leadership \n Gundabad Berserkers near Azog gain\n+50% armour and immunity to fear and terror\nPassive ability \n\n Taints an area around Azog \n Nearby allies near this area earn extra resources on kills \n Enemy units near this area suffer -25% Damage and -20% armour\n Nullifies enemy leadership \n Does not stack with other Debuffs \n Left click icon
 
 [CONTROLBAR:AzogHeadhunter]
 Head Hunter (&R)
@@ -54146,10 +54146,10 @@ Requires Level 2 \n Puts a price on an enemy hero's head, reducing their armor a
 
 
 [CONTROLBAR:TooltipGoblinKingSkullTotem]
-Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Nearby allies gain\n+50% damage, +50% armor\n Left click icon then left click on target area
+Requires Level 2 \n Places a skull totem which will remain on the map until destroyed \n Nearby allies gain\n+50% damage, +50% armour\n Left click icon then left click on target area
 
 [CONTROLBAR:ToolTipGoblinKingBattleFrenzy]
-Requires Level 4 \n Modifier Type: Leadership \n Allies near the Golfimbul gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Requires Level 4 \n Modifier Type: Leadership \n Allies near the Golfimbul gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 [CONTROLBAR:ToolTipGoblinKingPoisonedStinger]
 Requires Level 6\nCan only use when mounted\nTargeted enemy takes heavy initial damage, then becomes poisoned for a short while\nLeft click icon then lick click on target
@@ -54158,7 +54158,7 @@ Requires Level 6\nCan only use when mounted\nTargeted enemy takes heavy initial 
 
 
 [CONTROLBAR:TooltipCaveBats]
-Reveals the shroud and detects stealthed units\n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor\n Nullifies enemy leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
+Reveals the shroud and detects stealthed units\n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% armour\n Nullifies enemy leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
 
 
 [CONTROLBAR:SummonSpiderlingAllies]
@@ -54208,7 +54208,7 @@ Black Númenórean
 Requires Level 2 Umbarian Citadel \nStrong vs. Pikemen
 
 [CONTROLBAR:ToolTipSpecialAbilityAngmarChargeAttack]
-Requires Level 2 \n Order Black Numenoreans to charge the enemy \n Type: Buff \n Black Numenoreans gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Causes meta impact \n Left click icon then left click on target
+Requires Level 2 \n Order Black Numenoreans to charge the enemy \n Type: Buff \n Black Numenoreans gain +50% Damage and +50% armour \n Stacks with Leadership and Spells \n Causes meta impact \n Left click icon then left click on target
 
 [OBJECT:AngmarRanger]
 Dark Ranger
@@ -54227,7 +54227,7 @@ A nearby Caravan is needed to enable this equipment \n When equipped, significan
 
 
 [CONTROLBAR:TooltipNecromancerDeathMask]
-Requires Level 4 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs \n Passive ability
+Requires Level 4 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Does not stack with other Debuffs \n Passive ability
 
 
 [CONTROLBAR:ToolTipBuildWildSnowTrollHorde]
@@ -54238,7 +54238,7 @@ Requires Level 2 Troll Lair \n Limited to 6 \n \nStrong vs. Buildings and Resist
 Requires Level 2 Troll and Wolf Den \nStrong vs. Swordsmen and Archers
 
 [CONTROLBAR:ToolTipSpecialAbilityAngmarTrollChargeAttack]
-Requires Level 2 \n Order Warriors to charge the enemy \n Modifier Type: Buff \n Warriors gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Causes meta impact \n Left click icon then left click on target
+Requires Level 2 \n Order Warriors to charge the enemy \n Modifier Type: Buff \n Warriors gain +50% Damage and +50% armour \n Stacks with Leadership and Spells \n Causes meta impact \n Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipBuildAngmarHillTrollHorde]
@@ -54360,10 +54360,10 @@ Ice Arro&ws
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarFortressBanners]
-Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% Armor, and earn experience 50% faster. \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces cost of builders by 20%
+Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% armour, and earn experience 50% faster. \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces cost of builders by 20%
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarFortressHouseOfLamentation]
-Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs
+Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Does not stack with other Debuffs
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarFortressSanctum]
 Constructs the Witch-king's Sanctum, which launches chunks of ice
@@ -54375,7 +54375,7 @@ Constructs the Witch-king's Sanctum, which launches chunks of ice
 
 
 [CONTROLBAR:ToolTipHwaldarLeadership]
-Modifier Type: Leadership \n Allied Rhudaur Spearmen, Axe Throwers and Hillmen near Hwaldar gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Allied Rhudaur Spearmen, Axe Throwers and Hillmen near Hwaldar gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 [CONTROLBAR:ToolTipHwaldarBrigandage]
 Requires Level 3\nNearby Rhudaur Spearmen, Axe Throwers and Hillmen gain resources for kills\nPassive ability
@@ -54385,7 +54385,7 @@ Requires Level 5 \n Summons Rhudaur Spearmen to fight for you \n Left click icon
 
 
 [CONTROLBAR:ToolTipMorgomirDreadVisage]
-Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs \n Passive ability
+Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Does not stack with other Debuffs \n Passive ability
 
 [CONTROLBAR:ToolTipMorgomirMorgulBlade]
 Requires Level 5 \n Targeted enemy takes poison damage over \n time and becomes a wight upon death \n Left click icon then left click on target
@@ -54415,7 +54415,7 @@ The &Witch-king
 
 
 [CONTROLBAR:TooltipFrozenLand]
-Freezes an area of terrain \n Modifier Type: Leadership and Spell \n All allied units gain +33% Damage, +33% Armor and earn experience 50% faster \n Stacks with Buffs and Spells \n Extinguishes all fires\nLeft click icon then left click on target area
+Freezes an area of terrain \n Modifier Type: Leadership and Spell \n All allied units gain +33% Damage, +33% armour and earn experience 50% faster \n Stacks with Buffs and Spells \n Extinguishes all fires\nLeft click icon then left click on target area
 
 
 [CONTROLBAR:TooltipBlight]
@@ -54423,7 +54423,7 @@ Enemy units in the affected area receive damage over time and, upon death, brief
 
 
 [CONTROLBAR:ToolTipShadeChomp]
-Kill target enemy infantry which restores health and temporarily grants\n+50% Damage, +100% Armor\nLeft click icon then left click on target enemy
+Kill target enemy infantry which restores health and temporarily grants\n+50% Damage, +100% armour\nLeft click icon then left click on target enemy
 
 
 [CONTROLBAR:TooltipAvalanche]
@@ -54461,10 +54461,10 @@ Hero gains a superior boost to to Armor and Damage \n Left click to activate
 
 
 [CONTROLBAR:ToolTipCAH_HeroicCharge]
-Hero and nearby cavalry gain +100% Damage and +300% Armor \n No force can slow this charge
+Hero and nearby cavalry gain +100% Damage and +300% armour \n No force can slow this charge
 
 [CONTROLBAR:ToolTipCAH_HeroicCharge_Palantir]
-Hero and nearby cavalry take gain +100% damage and +300% Armor \n Left click icon then left click on target
+Hero and nearby cavalry take gain +100% damage and +300% armour \n Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipCAH_BattleRage_Level1]
@@ -54590,10 +54590,10 @@ Hero can convert the allegiance of enemy units in a large radius
 
 
 [CONTROLBAR:ToolTipCAH_BladeMaster]
-Hero temporarily gains +200% Damage and +100% Armor
+Hero temporarily gains +200% Damage and +100% armour
 
 [CONTROLBAR:ToolTipCAH_BladeMaster_Palantir]
-Hero temporarily gains +200% Damage and +100% Armor \n Left click to activate
+Hero temporarily gains +200% Damage and +100% armour \n Left click to activate
 
 
 [OBJECT:CreateAHeroFamiliar]
@@ -54615,10 +54615,10 @@ Hero summons a flock of birds that reveal the shroud and detect stealth \n Left 
 
 
 [CONTROLBAR:TooltipCAH_SummonFamiliar_Level3]
-Hero summons a flock of birds that reveal the shroud and detects stealth \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Nullifies enemy Leadership \n Does not stack with other Debuffs
+Hero summons a flock of birds that reveal the shroud and detects stealth \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Nullifies enemy Leadership \n Does not stack with other Debuffs
 
 [CONTROLBAR:TooltipCAH_SummonFamiliar_Level3_Palantir]
-Hero summons a flock of birds that reveal the shroud and detects stealth \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Nullifies enemy Leadership \n Does not stack with other Debuffs
+Hero summons a flock of birds that reveal the shroud and detects stealth \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Nullifies enemy Leadership \n Does not stack with other Debuffs
 
 
 [CONTROLBAR:ToolTipCAH_A_TrueSight]
@@ -54626,10 +54626,10 @@ Reveals an area of the map
 
 
 [CONTROLBAR:ToolTipCreateAHeroLeadership]
-Modifier Type: Leadership \n Allies near the Hero gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Allies near the Hero gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 [CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir]
-Modifier Type: Leadership \n Allies near the Hero gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Allies near the Hero gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 
@@ -55331,16 +55331,16 @@ Unit Type: Siege\nStrong vs. Structures and Archers\n
 
 
 [CONTROLBAR:ToolTipCAH_Starlight]
-Modifier Type: Spell \n Nearby allies become healed and gain +33% Damage, +33% Armor \n Stacks With Buffs, Leadership and other Spells \n Stuns enemy units
+Modifier Type: Spell \n Nearby allies become healed and gain +33% Damage, +33% armour \n Stacks With Buffs, Leadership and other Spells \n Stuns enemy units
 
 [CONTROLBAR:ToolTipCAH_Starlight_Palantir]
-Modifier Type: Spell \n Nearby allies become healed and gain +33% Damage, +33% Armor \n Stacks With Buffs, Leadership and other Spells \n Stuns enemy units\n Left click to activate
+Modifier Type: Spell \n Nearby allies become healed and gain +33% Damage, +33% armour \n Stacks With Buffs, Leadership and other Spells \n Stuns enemy units\n Left click to activate
 
 [CONTROLBAR:ToolTipDarkGlory]
-Requires Level 7 \n Modifier Type: Spell \n Morgomir and nearby Dark Dunedain gain +33% Damage and +33% Armor \n Stacks With Buffs, Leadership and other Spells \n Left click icon to activate
+Requires Level 7 \n Modifier Type: Spell \n Morgomir and nearby Dark Dunedain gain +33% Damage and +33% armour \n Stacks With Buffs, Leadership and other Spells \n Left click icon to activate
 
 [CONTROLBAR:ToolTipDarkness]
-Temporarily covers the entire map in darkness\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness \n Modifier Type: Spell \n All allied units gain +33% Damage and +33% Armor \n Stacks With Buffs, Leadership and other Spells \n Left click to activate
+Temporarily covers the entire map in darkness\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness \n Modifier Type: Spell \n All allied units gain +33% Damage and +33% armour \n Stacks With Buffs, Leadership and other Spells \n Left click to activate
 
 
 [CONTROLBAR:ToolTipWitchkingMorgulCorruption]
@@ -55360,7 +55360,7 @@ Heals nearby friendly units \n Left click to activate
 Requires Level 6 \n Single ranged attack\nCauses target monster to flee\n Decreases target's speed and damage by 25% for 10 seconds\nCan only use with bow equipped\nLeft click icon then left click on target
 
 [CONTROLBAR:TooltipNecroFellStrength]
-Drains enemy units of strength \n Modifier Type: Spell and Active Debuff \n Targeted enemy units take slight damage \n Nearby friendly units gain\n+33% Damage and +33% Armor \n Stacks With Buffs, Leadership and other Spells \n Does not stack with other Debuffs \n Left click icon then left click on target area
+Drains enemy units of strength \n Modifier Type: Spell and Active Debuff \n Targeted enemy units take slight damage \n Nearby friendly units gain\n+33% Damage and +33% armour \n Stacks With Buffs, Leadership and other Spells \n Does not stack with other Debuffs \n Left click icon then left click on target area
 
 [CONTROLBAR:ToolTipHourOfTheWitchKing]
 Requires Level 8 \n Target enemies' special ability timers are reset to just used \n Units near the Witch-king suffer uncontrollable fear \n Left click icon then left click on target area
@@ -55369,7 +55369,7 @@ Requires Level 8 \n Target enemies' special ability timers are reset to just use
 
 
 [CONTROLBAR:ToolTipGlorfindelStarlight]
-Requires Level 10 \n Modifier Type: Spell \n Nearby allies become healed and gain +33% Damage and +33% Armor \n Stacks With Buffs, Leadership and other Spells \n Stuns enemy units \n Left click to activate
+Requires Level 10 \n Modifier Type: Spell \n Nearby allies become healed and gain +33% Damage and +33% armour \n Stacks With Buffs, Leadership and other Spells \n Stuns enemy units \n Left click to activate
 
 
 
@@ -55378,7 +55378,7 @@ Bloodlust
 
 
 [CONTROLBAR:ToolTipRageoftheNorth]
-Requires Level 7 \n Rogash gains \n+100% Damage, +100% Armor \n Left click icon to activate
+Requires Level 7 \n Rogash gains \n+100% Damage, +100% armour \n Left click icon to activate
 
 
 [CONTROLBAR:BloodthirstyMordor]
@@ -55398,7 +55398,7 @@ Requires Level 4\n The Mark of the Red Eye grants\n+25% Damage\nPassive ability
 
 
 [CONTROLBAR:ToolTipLightTorch]
-Light a torch that can detonate explosive mines\n Berserker gains +20% Speed but suffers -15% Armor against arrow fire \nLeft click to activate
+Light a torch that can detonate explosive mines\n Berserker gains +20% Speed but suffers -15% armour against arrow fire \nLeft click to activate
 
 
 [CONTROLBAR:ToolTipExtinguishTorch]
@@ -55416,7 +55416,7 @@ Requires Level 5 \n Gimli gains +100% Damage and\nincreased attack and movement 
 
 
 [CONTROLBAR:ToolTipDainSlayer]
-Requires Level 10 \nKing Dáin gains +75% armor and deals splash damage for 30 seconds\nTemporarily summons two battalions of Ashâmar-sharâhul\nLeft click to activate
+Requires Level 10 \nKing Dáin gains +75% armour and deals splash damage for 30 seconds\nTemporarily summons two battalions of Ashâmar-sharâhul\nLeft click to activate
 
 
 [CONTROLBAR:DainStand]
@@ -55429,7 +55429,7 @@ Stubborn Pride (&C)
 
 
 [CONTROLBAR:ToolTipFellowshipSlayer]
-Requires Level 6 \n Gimli gains +50% Armor and +33% speed \n Left click to activate
+Requires Level 6 \n Gimli gains +50% armour and +33% speed \n Left click to activate
 
 
 [CONTROLBAR:FellowshipLegolasSlayer]
@@ -55449,7 +55449,7 @@ Requires Level 5 \n Modifier Type: Spell\n Targeted friendly units gain +33% Dam
 
 
 [CONTROLBAR:ToolTipDainOldRedAxe]
-Requires Level 3 \n Modifier Type: Spell and Active Debuff \n Targeted friendly units gain +33% damage and armor for 30 seconds\n Targeted enemy units suffer -25% damage and -20% armor for 30 seconds\n\nAt Level 6, targeted friendly units gain +50% damage and armor for 30 seconds\nLeft click icon then left click on target units
+Requires Level 3 \n Modifier Type: Spell and Active Debuff \n Targeted friendly units gain +33% damage and armor for 30 seconds\n Targeted enemy units suffer -25% damage and -20% armour for 30 seconds\n\nAt Level 6, targeted friendly units gain +50% damage and armor for 30 seconds\nLeft click icon then left click on target units
 
 
 [CONTROLBAR:DainEmissary]
@@ -55504,16 +55504,16 @@ Order Mumak to trample the enemy \n Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipGothmogIronHand]
-Orcs near Gothmog gain \n +33% Damage, +33% Armor,\nimmunity to Fear and Terror \nand earn experience 50% faster\nPassive ability\n\nAt rank 5, can be activated to call down a barrage of severed heads into a targeted area, dealing poison damage\nLeft click icon then click on target area
+Orcs near Gothmog gain \n +33% Damage, +33% armour,\nimmunity to Fear and Terror \nand earn experience 50% faster\nPassive ability\n\nAt rank 5, can be activated to call down a barrage of severed heads into a targeted area, dealing poison damage\nLeft click icon then click on target area
 
 
 [CONTROLBAR:ToolTipGothmogDayoftheOrc]
-Requires Level 5 \n Orcs near Gothmog gain \n +33% Damage, +33% Armor,\nand earn experience 50% faster\nPassive ability
+Requires Level 5 \n Orcs near Gothmog gain \n +33% Damage, +33% armour,\nand earn experience 50% faster\nPassive ability
 
 
 
 [CONTROLBAR:ToolTipSpecialAbilityGothmogCarnage]
-Requires Level 2 \n Gothmog gains\n+200% Damage, +25% Armor \n Left click to activate
+Requires Level 2 \n Gothmog gains\n+200% Damage, +25% armour \n Left click to activate
 
 
 [CONTROLBAR:ToolTipBuildWildTreasureTroveLevel2Upgrade]
@@ -55543,7 +55543,7 @@ Allows the recruitment of a Fire Drake Units\nSlowly heals nearby Smaug
 
 
 [CONTROLBAR:TooltipSpecialAbilityDwarvenDemolisherDeploy]
-Demolisher becomes immobile but gains +200% armor
+Demolisher becomes immobile but gains +200% armour
 
 
 [CONTROLBAR:ToolTipFueltheFires]
@@ -55560,15 +55560,15 @@ Allows Shelob to tunnel under the ground and emerge at any unshrouded location \
 
 
 [CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation]
-The units form a circle with pikes extended\n+100% Armor
+The units form a circle with pikes extended\n+100% armour
 
 
 [CONTROLBAR:ToolTipToggleLineToSchiltronFormation]
-The Edoras Kingsguard form up into a schiltron formation\n-33% movement speed, +10% armor, bonus damage to cavalry
+The Edoras Kingsguard form up into a schiltron formation\n-33% movement speed, +10% armour, bonus damage to cavalry
 
 
 [CONTROLBAR:ToolTipToggleLorienSentryLineToPorcupineFormation]
-The units form a circle with pikes extended\n Battalion cannot move\n+50% Armor
+The units form a circle with pikes extended\n Battalion cannot move\n+50% armour
 
 
 [CONTROLBAR:ToolTipEowynMount]
@@ -55580,11 +55580,11 @@ Mount Windfola / Dismount (&R)
 
 
 [CONTROLBAR:ToolTipNewEowynMount]
-Requires Level 5 \n Left click to switch between mounted on Windfola and on foot \n When mounted on Windfola, Eowyn gains +25% armor near Rohirrim units
+Requires Level 5 \n Left click to switch between mounted on Windfola and on foot \n When mounted on Windfola, Eowyn gains +25% armour near Rohirrim units
 
 
 [CONTROLBAR:ToolTipShieldMaiden]
-Requires Level 4 \n Eowyn gains +100% Armor \n Left click to activate
+Requires Level 4 \n Eowyn gains +100% armour \n Left click to activate
 
 
 [CONTROLBAR:ToolTipDainStubbornPride]
@@ -55624,7 +55624,7 @@ Increased healing to nearby damaged siege machines, allows recruitment of Great 
 
 
 [CONTROLBAR:ToolTipGothmogDayoftheOrc]
-Requires Level 5 \n Orcs near Gothmog gain \n +33% Damage, +33% Armor,\nand earn experience 50% faster\nPassive ability
+Requires Level 5 \n Orcs near Gothmog gain \n +33% Damage, +33% armour,\nand earn experience 50% faster\nPassive ability
 
 
 [CONTROLBAR:SpecialAbilityVenomSacSpider]
@@ -55666,11 +55666,11 @@ Allows training of Hasharin Blades and Watchers of Kârna \n +25% Build Speed
 
 
 [CONTROLBAR:TooltipKnightsofDolChargeofGlory]
-Requires Level 5 \n Swan Knights gain\n+33% Damage, +33% Armor, and -50% Crush Decelerate \n No force can slow this charge \n Left click to Activate
+Requires Level 5 \n Swan Knights gain\n+33% Damage, +33% armour, and -50% Crush Decelerate \n No force can slow this charge \n Left click to Activate
 
 
 [CONTROLBAR:ToolTipNoldorWeaponSong]
-Requires Level 5 \n Noldor Warriors gain\n50% Damage, +100% Armor \n Left click to activate
+Requires Level 5 \n Noldor Warriors gain\n50% Damage, +100% armour \n Left click to activate
 
 
 
@@ -55687,7 +55687,7 @@ Calls a fiery beam of sunlight to scorch the battlefield \n Stuns light-sensitiv
 
 
 [CONTROLBAR:TooltipFrozenLandAotR]
-Freezes an area of terrain \n Modifier Type: Leadership and Spell \n All allied units gain +25% Damage, +25% Armor and earn experience 50% faster \n Stacks with Buffs and Spells \nEnemy units suffer -25% Speed \n Extinguishes all fires\nLeft click icon then left click on target area
+Freezes an area of terrain \n Modifier Type: Leadership and Spell \n All allied units gain +25% Damage, +25% armour and earn experience 50% faster \n Stacks with Buffs and Spells \nEnemy units suffer -25% Speed \n Extinguishes all fires\nLeft click icon then left click on target area
 
 
 [CONTROLBAR:TooltipNecroBlackIce]
@@ -55767,7 +55767,7 @@ Resets targeted friendly heroes' ability timers \n Left click icon then left cli
 
 
 [CONTROLBAR:TooltipLoneTowerGondor]
-Summons a defensive tower garrisoned with archers \n Archers recieve fire arrows once the upgrade is bought at the archery range \n \n All nearby allied units gain +10% Armor \n Stacks with Buffs and Spells \n Left click icon then left click on pathable location
+Summons a defensive tower garrisoned with archers \n Archers recieve fire arrows once the upgrade is bought at the archery range \n \n All nearby allied units gain +10% armour \n Stacks with Buffs and Spells \n Left click icon then left click on pathable location
 
 
 [CONTROLBAR:TooltipBarricade]
@@ -55815,7 +55815,7 @@ Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Bless
 
 
 [CONTROLBAR:TooltipCampaignCloudBreak]
-Enemy units temporarily receive -33% Armor, -33% Damage and -33% Speed\n Slowly heals allied units across the map \n Left click to activate
+Enemy units temporarily receive -33% armour, -33% Damage and -33% Speed\n Slowly heals allied units across the map \n Left click to activate
 
 
 [CONTROLBAR:ToolTipCloudBreakGondor]
@@ -55843,7 +55843,7 @@ Requires Level 5 \n Shoots a shockwave of force below the Eagle, causing meta da
 
 
 [CONTROLBAR:TooltipUndermine]
-Places a Mine Shaft anywhere on the map that damages units\nand stuns them for a short time when it appears\nNearby enemy structures lose -25% armor for 30 seconds\nMine Shaft becomes immediately connected to tunnel network\nLeft click icon then left click on visible location
+Places a Mine Shaft anywhere on the map that damages units\nand stuns them for a short time when it appears\nNearby enemy structures lose -25% armour for 30 seconds\nMine Shaft becomes immediately connected to tunnel network\nLeft click icon then left click on visible location
 
 
 [CONTROLBAR:ToolTipBuildDwarvenDemolisher]
@@ -55899,7 +55899,7 @@ King of the Bardings (&R)
 
 
 [CONTROLBAR:ToolTipBrandLeadership]
-Modifier Type: Leadership \n Nearby Mannish allies gain +33% damage and +33% armor\n King Brand gains +33% armor when near King Dáin \n Stacks with Buffs and Spells \n Passive ability \n\n At level 8, Brand can summon a battalion of Barding Outriders \n Left click to activate
+Modifier Type: Leadership \n Nearby Mannish allies gain +33% damage and +33% armour\n King Brand gains +33% armour when near King Dáin \n Stacks with Buffs and Spells \n Passive ability \n\n At level 8, Brand can summon a battalion of Barding Outriders \n Left click to activate
 
 
 [CONTROLBAR:ToolTipBrandTrainArchers]
@@ -55992,7 +55992,7 @@ Age of the Ring Version 7.3.1
 
 
 [CONTROLBAR:ToolTipThranduilLeadership]
-Allies near Thranduil gain \n +33% Damage, +33% Armor, \n and earn experience 50% faster\nPassive ability
+Allies near Thranduil gain \n +33% Damage, +33% armour, \n and earn experience 50% faster\nPassive ability
 
 
 [CONTROLBAR:WarCry]
@@ -56004,7 +56004,7 @@ Requires Level 5\n Modifier Type: Spell \n Targeted friendly units gain\n+33% Da
 
 
 [CONTROLBAR:ToolTipFellowshipWarCry]
-Requires Level 6\n Modifier Type: Leadership \n Nearby allies gain +33% Damage, +25% Armor and earn experience 50% faster\nPassive ability \n \n When activated, targeted friendly units gain\n+33% Damage, +20% Speed, and Fear Resistance for 30 seconds\n Stacks With Buffs, Leadership and other Spells \nLeft click icon then left click on target units
+Requires Level 6\n Modifier Type: Leadership \n Nearby allies gain +33% Damage, +25% armour and earn experience 50% faster\nPassive ability \n \n When activated, targeted friendly units gain\n+33% Damage, +20% Speed, and Fear Resistance for 30 seconds\n Stacks With Buffs, Leadership and other Spells \nLeft click icon then left click on target units
 
 
 [CONTROLBAR:GuardianStrike]
@@ -56068,7 +56068,7 @@ Challenge of Gondor (&R)
 
 
 [CONTROLBAR:ToolTipChallengeofGondor]
-Modifier Type: Active Debuff \n Targeted enemy units suffer -25% Damage and -25% Armor for 30 seconds \n Does not stack with other Debuffs \n Left click icon then left click on target units
+Modifier Type: Active Debuff \n Targeted enemy units suffer -25% Damage and -25% armour for 30 seconds \n Does not stack with other Debuffs \n Left click icon then left click on target units
 
 
 [OBJECT:DwarvenThror]
@@ -56224,11 +56224,11 @@ Captain's Horn
 
 
 [CONTROLBAR:TooltipRallyingCallGondor]
-Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% Armor for 60 seconds \n Stacks with Leadership and Spells \n Left click icon then left click on target units
+Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% armour for 60 seconds \n Stacks with Leadership and Spells \n Left click icon then left click on target units
 
 
 [CONTROLBAR:ToolTipArmorofOld]
-Heroes don their battle armor, gaining +75% armor, resistance to knockback, and faster power recharge times \n Passive power
+Heroes don their battle armor, gaining +75% armour, resistance to knockback, and faster power recharge times \n Passive power
 
 
 [CONTROLBAR:CorsairCharge]
@@ -56259,7 +56259,7 @@ Requires Level 6\n Nazgûl gain +20% movement speed and +25% Damage\n Can only be
 Orc Horn
 
 [CONTROLBAR:ToolTipWarChantMordor]
-Modifier Type: Buff \n Target allies gain +50% Damage, +50% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target units
+Modifier Type: Buff \n Target allies gain +50% Damage, +50% armour \n Stacks with Leadership and Spells \n Left click icon then left click on target units
 
 
 [CONTROLBAR:IndustryMordor]
@@ -56368,7 +56368,7 @@ Perseverance (&C)
 
 
 [CONTROLBAR:ToolTipHalbaradPerseverance]
-Requires Level 5 \n Nearby Dúnedain gain +30% armor and +50% resistance to knockback for 30 seconds\n At level 7 summons four single Grey Company Rangers around Halbarad \n Left click to activate
+Requires Level 5 \n Nearby Dúnedain gain +30% armour and +50% resistance to knockback for 30 seconds\n At level 7 summons four single Grey Company Rangers around Halbarad \n Left click to activate
 
 
 [CONTROLBAR:HalbaradCaptainoftheNorth]
@@ -56536,7 +56536,7 @@ Castellan of Mount Gundabad
 
 
 [CONTROLBAR:ToolTipBolgCastellan]
-Requires Level 7 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs \nPassive ability
+Requires Level 7 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Does not stack with other Debuffs \nPassive ability
 
 
 [CONTROLBAR:SpecialAbilityBolgCripple]
@@ -56548,7 +56548,7 @@ Orcish Fury (&R)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityBolgCarnage]
-Bolg gains +200% Damage and +25% Armor\nCan only use with sword equipped \n Left click to activate
+Bolg gains +200% Damage and +25% armour\nCan only use with sword equipped \n Left click to activate
 
 
 [CONTROLBAR:ToolTipSpecialAbilityBolgCripple]
@@ -56982,7 +56982,7 @@ Building Inspections
 
 
 [CONTROLBAR:TooltipStoneWorkerLeadership]
-Modifier Type: Leadership \n Nearby Structures gain +25% Armor \n Stacks with Buffs and Spells \nPassive ability \nMust maintain Stoneworker for upgrade
+Modifier Type: Leadership \n Nearby Structures gain +25% armour \n Stacks with Buffs and Spells \nPassive ability \nMust maintain Stoneworker for upgrade
 
 
 [GUI:STONEWORKER_DISCOUNT]
@@ -57285,7 +57285,7 @@ Amroth for Gondor! (&V)
 
 
 [CONTROLBAR:ToolTipImrahilAmroth]
-Required: Rank 7 \n Modifier Type: Spell \n Imrahil and nearby cavalry, including Swan Knights, gain +50% armor, and -50% crush deceleration for 20 seconds \n Stacks with Leadership and Spells \n Imrahil must be mounted to use ability \n Left click to activate
+Required: Rank 7 \n Modifier Type: Spell \n Imrahil and nearby cavalry, including Swan Knights, gain +50% armour, and -50% crush deceleration for 20 seconds \n Stacks with Leadership and Spells \n Imrahil must be mounted to use ability \n Left click to activate
 
 
 
@@ -57295,7 +57295,7 @@ Lord of the Nazgûl
 
 
 [CONTROLBAR:ToolTipWitchKingLeadership]
-Modifier Type: Leadership \nAllies near the Witch King gain \n +33% Damage, +33% Armor, \n and earn experience 50% faster\n Passive ability
+Modifier Type: Leadership \nAllies near the Witch King gain \n +33% Damage, +33% armour, \n and earn experience 50% faster\n Passive ability
 
 
 [CONTROLBAR:KhamulLeadership]
@@ -57303,7 +57303,7 @@ Shadow of the East
 
 
 [CONTROLBAR:ToolTipKhamulLeadership]
-Requires Level 5 \n Easterlings and Variags near Khamul gain \n +33% Damage, +33% Armor, \n and earn experience 50% faster\n Stacks with Buffs and Spells \n Passive ability
+Requires Level 5 \n Easterlings and Variags near Khamul gain \n +33% Damage, +33% armour, \n and earn experience 50% faster\n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:SpecialAbilityNazgulNineServantsOfSauron]
@@ -57311,27 +57311,27 @@ The Nine are Abroad
 
 
 [CONTROLBAR:ToolTipSpecialAbilityNazgulNineServantsOfSauron]
-As more Nazgûl gather, their strength grows \n +10% Damage and +10% Armor per every Nazgûl nearby \n Passive ability
+As more Nazgûl gather, their strength grows \n +10% Damage and +10% armour per every Nazgûl nearby \n Passive ability
 
 
 [CONTROLBAR:ToolTipSpecialAbilityRingwraithServantsOfSauron]
-As more Nazgûl gather, their strength grows \n +10% Damage and +10% Armor per every Nazgûl nearby \n Passive ability
+As more Nazgûl gather, their strength grows \n +10% Damage and +10% armour per every Nazgûl nearby \n Passive ability
 
 
 [CONTROLBAR:ToolTipBlackRiderDreadVisage]
-Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs \nPassive ability
+Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Does not stack with other Debuffs \nPassive ability
 
 
 [CONTROLBAR:ToolTipBlackRiderDreadVisageSummoned]
-Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs \nPassive ability
+Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Does not stack with other Debuffs \nPassive ability
 
 
 [CONTROLBAR:ToolTipBlackRiderDreadVisageKhamul]
-As more Nazgûl gather, their strength grows \n +10% Damage and +10% Armor per every Ringwraith nearby \n Passive ability \n\n Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n At rank 6, also causes damage-over-time to nearby enemies \n Does not stack with other Debuffs \nPassive ability
+As more Nazgûl gather, their strength grows \n +10% Damage and +10% armour per every Ringwraith nearby \n Passive ability \n\n Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n At rank 6, also causes damage-over-time to nearby enemies \n Does not stack with other Debuffs \nPassive ability
 
 
 [CONTROLBAR:ToolTipWitchKingDreadWrath]
-As more Nazgûl gather, their strength grows \n +10% Damage and +10% Armor per every Nazgûl nearby \n Passive ability \n\n When dismounted, The Witch-king reflects 10% of all damage dealt to him to nearby enemies \n Passive ability \n\n Requires Level 2 \n Modifier Type: Passive Nullifier Debuff \n Nearby enemy units suffer -33% Damage and -25% Armor \nNullifies enemy Leadership \n Takes precedence over other Debuffs \n Passive ability \n\n Requires Level 8 \n Target enemies' special ability timers are reset to just used \n Units near the Witch-king suffer uncontrollable fear \n Left click icon then left click on target area
+As more Nazgûl gather, their strength grows \n +10% Damage and +10% armour per every Nazgûl nearby \n Passive ability \n\n When dismounted, The Witch-king reflects 10% of all damage dealt to him to nearby enemies \n Passive ability \n\n Requires Level 2 \n Modifier Type: Passive Nullifier Debuff \n Nearby enemy units suffer -33% Damage and -25% armour \nNullifies enemy Leadership \n Takes precedence over other Debuffs \n Passive ability \n\n Requires Level 8 \n Target enemies' special ability timers are reset to just used \n Units near the Witch-king suffer uncontrollable fear \n Left click icon then left click on target area
 
 
 
@@ -57403,7 +57403,7 @@ Reaping Slash (&C)
 
 
 [CONTROLBAR:ToolTipMordorMollokReapingSlash]
-Requires Level 8 \n Mollok gains +200% Damage and +25% Armor and regains health per hit\n Left click icon to activate
+Requires Level 8 \n Mollok gains +200% Damage and +25% armour and regains health per hit\n Left click icon to activate
 
 
 [CONTROLBAR:MollokLeadership]
@@ -57411,11 +57411,11 @@ Lord of the Olog-Hai
 
 
 [CONTROLBAR:ToolTipMollokLeadership]
-Requires Level 5 \n Modifier Type: Leadership \n Nearby allied Trolls gain\n+33% Damage, +33% Armor\nand earn experience 50% faster\n Stacks with Buffs and Spells \nPassive ability
+Requires Level 5 \n Modifier Type: Leadership \n Nearby allied Trolls gain\n+33% Damage, +33% armour\nand earn experience 50% faster\n Stacks with Buffs and Spells \nPassive ability
 
 
 [CONTROLBAR:ToolTipSpecialAbilityGondorChargeAttack]
-Requires Level 2 \n Order Soldiers to charge the enemy \n Modifier Type: Buff \n Soldiers gain +50% Damage and +50% Armor for 20 seconds \n Stacks with Leadership and Spells \n Causes meta impact \n Left click icon then left click on target
+Requires Level 2 \n Order Soldiers to charge the enemy \n Modifier Type: Buff \n Soldiers gain +50% Damage and +50% armour for 20 seconds \n Stacks with Leadership and Spells \n Causes meta impact \n Left click icon then left click on target
 
 
 [CONTROLBAR:GondorArmaments]
@@ -57423,15 +57423,15 @@ Armaments of the White City
 
 
 [CONTROLBAR:ToolTipGondorArmaments]
-Requires Level 3\n Modifier Type: Level\n Units permanently gain 33% Armor\n Stacks with Leadership, Buffs, and Spells
+Requires Level 3\n Modifier Type: Level\n Units permanently gain 33% armour\n Stacks with Leadership, Buffs, and Spells
 
 
 [CONTROLBAR:ToolTipGondorArmamentsNew]
-Requires Level 4\n Modifier Type: Level\n Units permanently gain 33% Armor\n Stacks with Leadership, Buffs, and Spells
+Requires Level 4\n Modifier Type: Level\n Units permanently gain 33% armour\n Stacks with Leadership, Buffs, and Spells
 
 
 [CONTROLBAR:ToolTipGondorArmaments_SwornAllegiance]
-Modifier Type: Level\n Units permanently gain 33% Armor\n Stacks with Leadership, Buffs, and Spells
+Modifier Type: Level\n Units permanently gain 33% armour\n Stacks with Leadership, Buffs, and Spells
 
 
 [CONTROLBAR:RohanArmaments]
@@ -57475,7 +57475,7 @@ Lures nearby enemy units \n Left click to activate
 
 
 [CONTROLBAR:ToolTipFrodoLeadership]
-Modifier Type: Leadership \n Nearby allies in a large radius gain\n+50% Damage, +50% Armor, \n earn experience twice as fast \n reduces recharge time for unit and heroes and abilities by 25% \n Stacks with Leadership, Buffs, and Spells \n Passive ability
+Modifier Type: Leadership \n Nearby allies in a large radius gain\n+50% Damage, +50% armour, \n earn experience twice as fast \n reduces recharge time for unit and heroes and abilities by 25% \n Stacks with Leadership, Buffs, and Spells \n Passive ability
 
 
 [CONTROLBAR:FrodoLeadership]
@@ -57520,7 +57520,7 @@ Tenacious Creature
 
 
 [CONTROLBAR:TooltipSmeagolTenacious]
-When Sméagol reaches low health, he temporarily gains +33% attack and +100% armor \n Passive ability
+When Sméagol reaches low health, he temporarily gains +33% attack and +100% armour \n Passive ability
 
 
 [CONTROLBAR:SamwiseFrodoLeadership]
@@ -57528,7 +57528,7 @@ Don't You Lose Him
 
 
 [CONTROLBAR:ToolTipSamwiseFrodoLeadership]
-Modifier Type: Leadership \n Frodo gains +100% armor \n Passive ability
+Modifier Type: Leadership \n Frodo gains +100% armour \n Passive ability
 
 
 [CONTROLBAR:SamwiseBladeMaster]
@@ -57536,11 +57536,11 @@ That's For My Old Gaffer! (&T)
 
 
 [CONTROLBAR:TooltipSamwiseBladeMaster]
-Modifier Type: Buff \n Sam temporarily gains\n+100% Damage, +50% Armor \n Left click to activate
+Modifier Type: Buff \n Sam temporarily gains\n+100% Damage, +50% armour \n Left click to activate
 
 
 [CONTROLBAR:TooltipSamwiseBladeMaster_Campaign]
-Requires Level 3 \n Modifier Type: Buff \n Sam temporarily gains\n+100% Damage, +100% Armor \n Left click to activate
+Requires Level 3 \n Modifier Type: Buff \n Sam temporarily gains\n+100% Damage, +100% armour \n Left click to activate
 
 
 [UPGRADE:GondorBattleTowerGarrison]
@@ -57564,7 +57564,7 @@ Sentinel of Nimrodel
 
 
 [CONTROLBAR:ToolTipRumilLeadership]
-Requires Level 6 \n Modifier Type: Leadership \n Nearby Lórien Archers, Lórien Wardens and Marchwardens gain +50% vision range and archers gain +15% attack range \n Stacks with Buffs and Spells \n Modifier Type: Level \n\n Rúmil gains +50% armor \n Passive ability
+Requires Level 6 \n Modifier Type: Leadership \n Nearby Lórien Archers, Lórien Wardens and Marchwardens gain +50% vision range and archers gain +15% attack range \n Stacks with Buffs and Spells \n Modifier Type: Level \n\n Rúmil gains +50% armour \n Passive ability
 
 
 [CONTROLBAR:RumilSummon]
@@ -57580,7 +57580,7 @@ Warden of the Celebrant (&T)
 
 
 [CONTROLBAR:ToolTipOrophinLeadership]
-Requires Level 6 \n Modifier Type: Spell \n Orophin and nearby units gain resistance to knockback and +50% Armor \n Stacks with Leadership and Spells \n Left click to activate
+Requires Level 6 \n Modifier Type: Spell \n Orophin and nearby units gain resistance to knockback and +50% armour \n Stacks with Leadership and Spells \n Left click to activate
 
 
 [CONTROLBAR:GwedhanarLeadership]
@@ -57612,7 +57612,7 @@ Silvan Rage (&R)
 
 
 [CONTROLBAR:TooltipOrophinBladeMaster]
-Requires Level 3 \n Modifier Type: Buff \n Orophin temporarily gains\n+50% Damage, +50% Armor \n Left click to activate
+Requires Level 3 \n Modifier Type: Buff \n Orophin temporarily gains\n+50% Damage, +50% armour \n Left click to activate
 
 
 [CONTROLBAR:OrophinBorderGuardsJudgement]
@@ -57628,7 +57628,7 @@ Captain of the Galadhrim
 
 
 [CONTROLBAR:ToolTipHaldirLeadership]
-Requires Level 6 \n Modifier Type: Leadership \n Nearby Lórien Wardens, Lórien Archers, Sentinels of Cerin Amroth, Sindar Pathstalkers and Marchwardens gain +33% damage and +33% armor\n Stacks with Buffs and Spells \n Passive ability \n\n Modifier Type: Level \n Haldir dons his heavy armor and gains 50% armor increase\n Passive ability
+Requires Level 6 \n Modifier Type: Leadership \n Nearby Lórien Wardens, Lórien Archers, Sentinels of Cerin Amroth, Sindar Pathstalkers and Marchwardens gain +33% damage and +33% armour\n Stacks with Buffs and Spells \n Passive ability \n\n Modifier Type: Level \n Haldir dons his heavy armor and gains 50% armour increase\n Passive ability
 
 
 [CONTROLBAR:HaldirTeleport]
@@ -57644,7 +57644,7 @@ Last Stand (&V)
 
 
 [CONTROLBAR:TooltipHaldirLastStand]
-Requires Level 10 \n Haldir regains half of his health and gains +33% damage but loses 50% armor \n Left click to activate
+Requires Level 10 \n Haldir regains half of his health and gains +33% damage but loses 50% armour \n Left click to activate
 
 
 [CONTROLBAR:HaldirArmor]
@@ -57652,7 +57652,7 @@ Captain of the Galadhrim
 
 
 [CONTROLBAR:ToolTipHaldirArmor]
-Requires Level 6 \n Modifier Type: Level \n Haldir dons his heavy armor and gains +50% armor \n Passive ability
+Requires Level 6 \n Modifier Type: Level \n Haldir dons his heavy armor and gains +50% armour \n Passive ability
 
 
 [CONTROLBAR:WizardBlastRadagast]
@@ -57712,7 +57712,7 @@ Watchful Eye (&T)
 
 
 [CONTROLBAR:TooltipRadagastSummonFamiliar]
-Radagast summons a flock of birds that reveal the shroud and detects stealth \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Nullifies enemy Leadership \n Does not stack with other Debuffs
+Radagast summons a flock of birds that reveal the shroud and detects stealth \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Nullifies enemy Leadership \n Does not stack with other Debuffs
 
 
 [OBJECT:RadagastFamiliar]
@@ -57752,7 +57752,7 @@ Bearer of Nenya (&T)
 
 
 [CONTROLBAR:ToolTipSpecialPowerGaladrielNenya]
-Requires Level 5 \n All Structures within the area of effect cannot produce, but are immune to damage \n Left click icon then left click on target area \n\n Modifier Type: Leadership \n All nearby friendly structures gain +150% Armor \n Stacks with Buffs and Spells \n Passive ability
+Requires Level 5 \n All Structures within the area of effect cannot produce, but are immune to damage \n Left click icon then left click on target area \n\n Modifier Type: Leadership \n All nearby friendly structures gain +150% armour \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:GaladrielFear]
@@ -57768,7 +57768,7 @@ The Storm Queen (&V)
 
 
 [CONTROLBAR:TooltipGaladrielStormQueen]
-Requires Level 10 \n Galadriel takes on the form of the Storm Queen and temporarily gains\n+100% Base Damage, +100% Armor, +300% Damage to Structures, and her attacks become ranged attacks \n Left click to activate
+Requires Level 10 \n Galadriel takes on the form of the Storm Queen and temporarily gains\n+100% Base Damage, +100% armour, +300% Damage to Structures, and her attacks become ranged attacks \n Left click to activate
 
 
 [OBJECT:ElvenLorienCeleborn]
@@ -57816,7 +57816,7 @@ Cunning Warrior (&T)
 
 
 [CONTROLBAR:ToolTipSpecialPowerCelebornCunning]
-Requires Level 4 \n Celeborn briefly absorbs all damage towards him \n and enemies around him lose 25% Damage and 25% Armor \n Left click to activate
+Requires Level 4 \n Celeborn briefly absorbs all damage towards him \n and enemies around him lose 25% Damage and 25% armour \n Left click to activate
 
 
 [CONTROLBAR:CelebornArmor]
@@ -57824,7 +57824,7 @@ Armaments of Doriath
 
 
 [CONTROLBAR:ToolTipCelebornArmor]
-Requires Level 5 \n Celeborn wields his ancient armaments from Doriath gaining a 50% armor increase\n Celeborn's attacks now deal magic damage \n Passive ability
+Requires Level 5 \n Celeborn wields his ancient armaments from Doriath gaining a 50% armour increase\n Celeborn's attacks now deal magic damage \n Passive ability
 
 
 [CONTROLBAR:CelebornWise]
@@ -57840,7 +57840,7 @@ Renowned Warrior (&C)
 
 
 [CONTROLBAR:ToolTipSpecialPowerRenownedWarrior]
-Requires Level 5 \n Thranduil briefly gains +15% speed and +50% armor \nRank 6: +15% speed, +50% armor, +15% damage\nRank 7: Thranduil permanently gains +25% armor \n +15% speed, +50% armor, +25% damage\nRank 8: +15% speed, +50% armor, +50% damage\nRank 9: +15% speed, +50% armor, +50% damage, -75% crush deceleration\nRank 10: +15% speed, +50% damage, -75% crush deceleration\nand absorbs all damage towards him\nLeft click to activate
+Requires Level 5 \n Thranduil briefly gains +15% speed and +50% armour \nRank 6: +15% speed, +50% armour, +15% damage\nRank 7: Thranduil permanently gains +25% armour \n +15% speed, +50% armour, +25% damage\nRank 8: +15% speed, +50% armour, +50% damage\nRank 9: +15% speed, +50% armour, +50% damage, -75% crush deceleration\nRank 10: +15% speed, +50% damage, -75% crush deceleration\nand absorbs all damage towards him\nLeft click to activate
 
 
 [OBJECT:IsengardScout]
@@ -57908,7 +57908,7 @@ Twisted Frenzy (&R)
 
 
 [CONTROLBAR:ToolTipFanaticDeathWish]
-Requires Level 4 \n Man-slayers temporarily gain\n+150% damage, -33% armor\n Left click to activate
+Requires Level 4 \n Man-slayers temporarily gain\n+150% damage, -33% armour\n Left click to activate
 
 
 [CONTROLBAR:FanaticStoneWall]
@@ -58158,11 +58158,11 @@ Steward of Gondor
 
 
 [CONTROLBAR:ToolTipStewardLvl3]
-Denethor is protected by his guards \n Allows Denethor to rank up \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Allied units near Denethor gain +50% experience gain \n Faramir loses -15% armor and -15% experience gain \n Rank 3: Allied units near Denethor gain +33% armor \n Gandalf loses -15% armor and -15% experience gain \n Rank 6: Allied units near Denethor gain +33% damage \n Elessar loses -15% armor \n Stacks with Buffs and Spells \n Passive ability
+Denethor is protected by his guards \n Allows Denethor to rank up \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Allied units near Denethor gain +50% experience gain \n Faramir loses -15% armour and -15% experience gain \n Rank 3: Allied units near Denethor gain +33% armour \n Gandalf loses -15% armour and -15% experience gain \n Rank 6: Allied units near Denethor gain +33% damage \n Elessar loses -15% armour \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:ToolTipStewardLvl10]
-Denethor is protected by his guards \n\n Modifier Type: Leadership \n Rank 1: Allied units near Denethor gain +25% experience gain \n Faramir loses -15% armor and -15% experience gain \n Rank 3: Allied units near Denethor gain +33% armor \n Gandalf loses -15% armor and -15% experience gain \n Rank 6: Allied units near Denethor gain +33% damage \n Elessar loses -15% armor\nPassive ability
+Denethor is protected by his guards \n\n Modifier Type: Leadership \n Rank 1: Allied units near Denethor gain +25% experience gain \n Faramir loses -15% armour and -15% experience gain \n Rank 3: Allied units near Denethor gain +33% armour \n Gandalf loses -15% armour and -15% experience gain \n Rank 6: Allied units near Denethor gain +33% damage \n Elessar loses -15% armour\nPassive ability
 
 
 [CONTROLBAR:DenethorHighAuthority]
@@ -58178,7 +58178,7 @@ Contest of Wills (&V)
 
 
 [CONTROLBAR:ToolTipDenethorContest]
-Requires Level 10 \n When cast on a friendly hero, increases damage output by +100% at the cost of -50% armor \n When cast on an enemy hero, causes the hero to temporarily be stunned and lose -33% armor \n Left click on icon then left click on target hero
+Requires Level 10 \n When cast on a friendly hero, increases damage output by +100% at the cost of -50% armour \n When cast on an enemy hero, causes the hero to temporarily be stunned and lose -33% armour \n Left click on icon then left click on target hero
 
 
 [OBJECT:LossarnachAxeMan]
@@ -58230,7 +58230,7 @@ The Return of the King
 
 
 [CONTROLBAR:TooltipSummonElessar]
-Summons King Elessar accompanied by his Royal Guards \n His guards are temporary, but the King lasts until killed \n Modifier Type: Buff \n Nearby units gain +50% Armor, immunity to fear \n and knockback and trample resistance for a brief time \nLeft click on icon then left click on target area
+Summons King Elessar accompanied by his Royal Guards \n His guards are temporary, but the King lasts until killed \n Modifier Type: Buff \n Nearby units gain +50% armour, immunity to fear \n and knockback and trample resistance for a brief time \nLeft click on icon then left click on target area
 
 
 [CONTROLBAR:SummonSpawnDenethor]
@@ -58330,7 +58330,7 @@ The Goblin King (&R)
 
 
 [CONTROLBAR:ToolTipGreatGoblinLeadership]
-Modifier Type: Leadership \n Nearby Moria Orcs and Goblin-towners gain +33% Damage and +33% Armor and resistance to fear and terror\n Stacks with Buffs and Spells \n Passive ability \n\n At Level 7 \n Gives targeted units excellent experience \n Left click icon then left click on target units
+Modifier Type: Leadership \n Nearby Moria Orcs and Goblin-towners gain +33% Damage and +33% armour and resistance to fear and terror\n Stacks with Buffs and Spells \n Passive ability \n\n At Level 7 \n Gives targeted units excellent experience \n Left click icon then left click on target units
 
 
 [CONTROLBAR:GreatGoblinDemand]
@@ -58353,7 +58353,7 @@ Abominable Song (&V)
 
 
 [CONTROLBAR:TooltipGreatGoblinAbominableSong]
-Requires Level 9 \nModifier Type: Spell and Active Debuff \n Nearby friendly units gain +33% Damage and +33% Armor\n Nearby enemy units suffer -25% Damage and -20% Armor \nNullifies enemy Leadership \n Stacks With Buffs, Leadership and other Spells \n Does not stack with other Debuffs \nLeft click icon to activate
+Requires Level 9 \nModifier Type: Spell and Active Debuff \n Nearby friendly units gain +33% Damage and +33% armour\n Nearby enemy units suffer -25% Damage and -20% armour \nNullifies enemy Leadership \n Stacks With Buffs, Leadership and other Spells \n Does not stack with other Debuffs \nLeft click icon to activate
 
 
 [OBJECT:Antequaries]
@@ -58449,7 +58449,7 @@ Black Breath
 
 
 [CONTROLBAR:ToolTipKhamulStorm]
-Requires Level 8 \n Modifier Type: Spell \n Khamûl and nearby friendly units gain +75% damage and +20% speed but lose -25% armor and gain no experience for a short time\n Also summons four single Ancient Easterlings \n Stacks with Leadership and Spells \n Left click to activate
+Requires Level 8 \n Modifier Type: Spell \n Khamûl and nearby friendly units gain +75% damage and +20% speed but lose -25% armour and gain no experience for a short time\n Also summons four single Ancient Easterlings \n Stacks with Leadership and Spells \n Left click to activate
 
 
 [CONTROLBAR:KhamulLieutnant]
@@ -58457,7 +58457,7 @@ Lieutenant of Dol Guldur
 
 
 [CONTROLBAR:ToolTipKhamulLieutnant]
-Requires Level 3 \n Khamûl takes on his role as the Lieutenant of Dol Guldur \n Nearby Risen Dead, Orc Ravagers, Tomb Guards, Unburied Wights and Harbingers of Shadow gain +33% damage \n Passive ability \n\n At rank 5, Khamûl dons his armor, granting him +50% armor
+Requires Level 3 \n Khamûl takes on his role as the Lieutenant of Dol Guldur \n Nearby Risen Dead, Orc Ravagers, Tomb Guards, Unburied Wights and Harbingers of Shadow gain +33% damage \n Passive ability \n\n At rank 5, Khamûl dons his armor, granting him +50% armour
 
 
 [OBJECT:GuldurAncientEasterling]
@@ -58577,7 +58577,7 @@ Faithful Guardian
 
 
 [CONTROLBAR:TooltipFaithfulGuardianLeadership]
-Modifier Type: Leadership \n The Fountain Guards grant nearby structures +50% armor. \n Stacks with Buffs and Spells \n \n Passive ability
+Modifier Type: Leadership \n The Fountain Guards grant nearby structures +50% armour. \n Stacks with Buffs and Spells \n \n Passive ability
 
 
 [CONTROLBAR:UndyingHopeLeadership]
@@ -58678,7 +58678,7 @@ Hatred of the Fair Folk (&T)
 
 
 [CONTROLBAR:TooltipGolfimbulHatred]
-Requires Level 8 \n Modifier Type: Spell \n Golfimbul seeks to exact his revenge upon the Fair-folk. \n Golfimbul and nearby Wolves, Wargs, and Wolf-Riders gain\n+100% Damage, +100% Armor and -50% Trample Deceleration \n Stacks with Leadership and Spells \n \n Left click to activate
+Requires Level 8 \n Modifier Type: Spell \n Golfimbul seeks to exact his revenge upon the Fair-folk. \n Golfimbul and nearby Wolves, Wargs, and Wolf-Riders gain\n+100% Damage, +100% armour and -50% Trample Deceleration \n Stacks with Leadership and Spells \n \n Left click to activate
 
 
 [CONTROLBAR:AzogSpawnOfTheDefiler]
@@ -58742,7 +58742,7 @@ Drums in the Deep (&S)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityDrumsInTheDeep]
-Requires the Drums in the Deep upgrade \n Temporarily summons 5 hordes of Moria-orc Screechers \n \n\n Modifier Type: Active Debuff \n Targeted enemy units suffer -25% Damage and -20% Armor\n Does not stack with other Debuffs \n Left click on icon then left click on target area
+Requires the Drums in the Deep upgrade \n Temporarily summons 5 hordes of Moria-orc Screechers \n \n\n Modifier Type: Active Debuff \n Targeted enemy units suffer -25% Damage and -20% armour\n Does not stack with other Debuffs \n Left click on icon then left click on target area
 
 
 [CONTROLBAR:SpecialAbilitySummonWyrm]
@@ -58758,7 +58758,7 @@ Dol Amroth Banners (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDolFortressBanners]
-Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% Armor, and earn experience 50% faster. \n Stacks with Buffs and Spells
+Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% armour, and earn experience 50% faster. \n Stacks with Buffs and Spells
 
 
 [CONTROLBAR:PurchaseUpgradeDolFortressMoat]
@@ -58813,7 +58813,7 @@ Morgul Influence
 
 
 [CONTROLBAR:ToolTipDreadVisageVanguard]
-Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs \nPassive ability
+Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Does not stack with other Debuffs \nPassive ability
 
 
 [CONTROLBAR:VanguardMorgulBlade]
@@ -58889,7 +58889,7 @@ Shield B&ubble
 
 
 [CONTROLBAR:TooltipSpecialAbilityShieldBubble]
-Creates a magical shield around Gandalf\n Temporarily grants +300% Armor and resistance to knockback attacks
+Creates a magical shield around Gandalf\n Temporarily grants +300% armour and resistance to knockback attacks
 
 
 [CONTROLBAR:BladeofWesternesse]
@@ -58905,7 +58905,7 @@ Troll-bane (&V)
 
 
 [CONTROLBAR:TooltipTrollbane]
-Requires Level 10 \n Pippin gains +150% armor and deals +250% damage against Monsters for 20 seconds
+Requires Level 10 \n Pippin gains +150% armour and deals +250% damage against Monsters for 20 seconds
 
 
 [CONTROLBAR:Intimidation]
@@ -58913,7 +58913,7 @@ Intimidation
 
 
 [CONTROLBAR:ToolTipIntimidation]
-Modifier Type: Passive Debuff \n Nearby enemy heroes and hero units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs \nPassive ability
+Modifier Type: Passive Debuff \n Nearby enemy heroes and hero units suffer -25% Damage and -20% armour \n Does not stack with other Debuffs \nPassive ability
 
 
 [CONTROLBAR:GreyHost]
@@ -58969,7 +58969,7 @@ Fierce Loyalty
 
 
 [CONTROLBAR:ToolTipBeregondFierceLoyalty]
-Requires Level 7 \n Modifier Type: Spell \n Faramir, Boromir, and Pippin gain +33% Armor and +33% Damage when near Beregond \n Stacks with Leadership, Buffs, and Spells \n Passive ability
+Requires Level 7 \n Modifier Type: Spell \n Faramir, Boromir, and Pippin gain +33% armour and +33% Damage when near Beregond \n Stacks with Leadership, Buffs, and Spells \n Passive ability
 
 
 [CONTROLBAR:BeregondGuardoftheCitadel]
@@ -58977,7 +58977,7 @@ Guard of the Citadel
 
 
 [CONTROLBAR:ToolTipBeregondGuardoftheCitadel]
-Requires Level 5 \n Modifier Type: Spell \n Nearby structures gain +30% Armor \n Stacks with Leadership, Buffs, and Spells \n Passive ability
+Requires Level 5 \n Modifier Type: Spell \n Nearby structures gain +30% armour \n Stacks with Leadership, Buffs, and Spells \n Passive ability
 
 
 [CONTROLBAR:DefenderoftheWhiteCity]
@@ -59049,7 +59049,7 @@ Fury of Khand (&W)
 
 
 [CONTROLBAR:ToolTipFuryofKhand]
-Requires Level 3 \n Variags gain\n 35% Damage at the cost of 20% Armor \n Left click to activate
+Requires Level 3 \n Variags gain\n 35% Damage at the cost of 20% armour \n Left click to activate
 
 
 [OBJECT:StewPot]
@@ -59109,7 +59109,7 @@ Ambassador (&T)
 
 
 [CONTROLBAR:ToolTipMOSAmbassador]
-Requires Level 5 \n The Mouth of Sauron temporarily gains 300% armor and is resistant to knockback \n Left click to activate
+Requires Level 5 \n The Mouth of Sauron temporarily gains 300% armour and is resistant to knockback \n Left click to activate
 
 
 [CONTROLBAR:BodyguardBoom]
@@ -59125,7 +59125,7 @@ Dark Resolve (&T)
 
 
 [CONTROLBAR:ToolTipBodyguardDeathWish]
-Requires Level 7 \n Bolg's Bodyguard temporarily gain\n+150% damage, -25% armor\n Left click to activate
+Requires Level 7 \n Bolg's Bodyguard temporarily gain\n+150% damage, -25% armour\n Left click to activate
 
 
 [CONTROLBAR:SarumanThunderBolt]
@@ -59163,7 +59163,7 @@ Close range attack that blasts back enemies \n Left click icon then left click o
 Saruman of Many Colours (&W)
 
 [CONTROLBAR:ToolTipSpecialAbilitySarumanImprovedBlast]
-Allows Saruman to attack from great range \n Can be used to crush enemy units \nLeft click icon then left click on target area \n \n Modifier Type: Leadership Nearby units gain +50% damage, +50% armor, increased experience gain, and fear immunity. At rank 5, nearby furnaces gain +50% resources \n Nearby enemies are terrified \n Passive ability
+Allows Saruman to attack from great range \n Can be used to crush enemy units \nLeft click icon then left click on target area \n \n Modifier Type: Leadership Nearby units gain +50% damage, +50% armour, increased experience gain, and fear immunity. At rank 5, nearby furnaces gain +50% resources \n Nearby enemies are terrified \n Passive ability
 
 [CONTROLBAR:SarumanRuinousWrath]
 Ruinous Wrath (&R)
@@ -59188,7 +59188,7 @@ Elven Horn
 
 
 [CONTROLBAR:TooltipRallyingCallElves]
-Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target units
+Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% armour \n Stacks with Leadership and Spells \n Left click icon then left click on target units
 
 
 [CONTROLBAR:ArrowVolleyLorien]
@@ -59232,7 +59232,7 @@ Glade of Mellyrn
 
 
 [CONTROLBAR:ToolTipElvenWoodLorien]
-Creates a grove of Mallorn Trees \n Modifier Type: Buff \n All allied units gain +50% Damage, +50% Armor and become immune to fear and terror \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
+Creates a grove of Mallorn Trees \n Modifier Type: Buff \n All allied units gain +50% Damage, +50% armour and become immune to fear and terror \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
 
 
 [CONTROLBAR:IthilienGarden]
@@ -59240,7 +59240,7 @@ Garden of Ithilien
 
 
 [CONTROLBAR:TooltipIthilienGarden]
-Summons a lush garden onto the battlefield for 5 minutes \n Modifier Type: Buff \n All allied units gain +50% Damage, +33% Armor and become immune to fear and terror \n Stacks with Leadership and Spells \n  The Garden is inhabited by a number of Ithilien Rangers \n Left click icon then left click on target area
+Summons a lush garden onto the battlefield for 5 minutes \n Modifier Type: Buff \n All allied units gain +50% Damage, +33% armour and become immune to fear and terror \n Stacks with Leadership and Spells \n  The Garden is inhabited by a number of Ithilien Rangers \n Left click icon then left click on target area
 
 
 [CONTROLBAR:SummonRadagast]
@@ -59288,7 +59288,7 @@ Mists of Lothlorien
 
 
 [CONTROLBAR:TooltipEnshroudingMistLorien]
-Friendly units within the mist become stealthed, enemy units caught within the mist take damage over time \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage, -50% Speed, and -20% Armor\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
+Friendly units within the mist become stealthed, enemy units caught within the mist take damage over time \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage, -50% Speed, and -20% armour\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
 
 
 [CONTROLBAR:ElvenWoodAdamant]
@@ -59296,7 +59296,7 @@ The Ring of Adamant
 
 
 [CONTROLBAR:ToolTipElvenWoodAdamant]
-Creates an area of magical terrain through the power of Nenya \n Modifier Type: Spell \n All allied units are slowly healed, gain +300% Armor, and become immune to fear and terror \n All structures gain +100% Armor and are repaired over time \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
+Creates an area of magical terrain through the power of Nenya \n Modifier Type: Spell \n All allied units are slowly healed, gain +300% armour, and become immune to fear and terror \n All structures gain +100% armour and are repaired over time \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
 
 
 [OBJECT:ElvenAmrothKnight]
@@ -59397,7 +59397,7 @@ For Lórinand! (&T)
 
 
 [CONTROLBAR:ToolTipPalaceGUnscathed]
-Required: Rank 2\n The Palace Guard temporarily gain +60% Armor and is resistant to knockback but lose 40% speed \n Left click to activate
+Required: Rank 2\n The Palace Guard temporarily gain +60% armour and is resistant to knockback but lose 40% speed \n Left click to activate
 
 
 [CONTROLBAR:PalaceGUnscathed]
@@ -59481,7 +59481,7 @@ Cleanse Shadow (&R)
 
 
 [CONTROLBAR:TooltipCleanseShadow]
-Requires Level 3 \n Modifier Type: Leadership \n Nearby Sindar Pathstalkers gain +33% damage and +33% armor\n Stacks with Buffs and Spells \n Passive ability \n\n Left click to moderately heal and temporarily grant allied units immunity to fear and terror \n Stacks with Leadership and Spells
+Requires Level 3 \n Modifier Type: Leadership \n Nearby Sindar Pathstalkers gain +33% damage and +33% armour\n Stacks with Buffs and Spells \n Passive ability \n\n Left click to moderately heal and temporarily grant allied units immunity to fear and terror \n Stacks with Leadership and Spells
 
 
 [CONTROLBAR:GiftofGaladriel]
@@ -59489,7 +59489,7 @@ Gift of Galadriel (&T)
 
 
 [CONTROLBAR:TooltipGiftofGaladriel]
-Requires Level 7 \n Summons a golden tree that is surrounded by Elven mists onto the battlefield \n Friendly units within the mist become stealthed \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
+Requires Level 7 \n Summons a golden tree that is surrounded by Elven mists onto the battlefield \n Friendly units within the mist become stealthed \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% Damage and -20% armour\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
 
 
 [CONTROLBAR:HasteoftheElves]
@@ -59763,7 +59763,7 @@ Left click to switch between \n mounted on Svadilfari and on foot
 
 
 [CONTROLBAR:ToolTipBroadShields]
-Modifier Type: Spell \n Nearby friendly units in a small radius gain +33% armor \n Left click to activate
+Modifier Type: Spell \n Nearby friendly units in a small radius gain +33% armour \n Left click to activate
 
 
 [CONTROLBAR:DunlendingRallyingCry]
@@ -60178,7 +60178,7 @@ Tangado Haid!
 
 
 [CONTROLBAR:TooltipRallyingCallRivendell]
-Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target units
+Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% armour \n Stacks with Leadership and Spells \n Left click icon then left click on target units
 
 
 [CONTROLBAR:OldKingdom]
@@ -60186,7 +60186,7 @@ Remnant of the Old Kingdom
 
 
 [CONTROLBAR:ToolTipOldKingdom]
-Summons a ruined Arnorian outpost \n Modifier Type: Buff \n All allied units gain +50% Damage, +50% Armor and become immune to fear and terror \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
+Summons a ruined Arnorian outpost \n Modifier Type: Buff \n All allied units gain +50% Damage, +50% armour and become immune to fear and terror \n Stacks with Leadership and Spells \nLeft click icon then left click on target area
 
 
 [CONTROLBAR:SummonHallOfFire]
@@ -60194,7 +60194,7 @@ Hall of Fire
 
 
 [CONTROLBAR:TooltipSummonHallOfFire]
-Summons the Hall of Fire \nModifier Type: Leadership \n Allies near the Hall of Fire heal and gain +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Nearby Quentaroli's power recharge timers are decreased \n Stacks with Buffs and Spells \n The Hall of Fire may call forth vivid images of the past that inspire fear and deal damage to enemy units \n Limited to 3 \n Left click on icon then left click on target area
+Summons the Hall of Fire \nModifier Type: Leadership \n Allies near the Hall of Fire heal and gain +33% armour, earn experience 50% faster, and become immune to Fear and Terror \n Nearby Quentaroli's power recharge timers are decreased \n Stacks with Buffs and Spells \n The Hall of Fire may call forth vivid images of the past that inspire fear and deal damage to enemy units \n Limited to 3 \n Left click on icon then left click on target area
 
 
 [CONTROLBAR:SonsOfElrond]
@@ -60226,7 +60226,7 @@ Blessing of Ulmo
 
 
 [CONTROLBAR:ToolTipBlessingofUlmo]
-Temporarily covers the map in rain\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness\n All friendly units are slowly healed for 30 seconds\n Orchards gain +25% Armor for 3 minutes\n Extinguishes all fires \n\n Left click to activate
+Temporarily covers the map in rain\n Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness\n All friendly units are slowly healed for 30 seconds\n Orchards gain +25% armour for 3 minutes\n Extinguishes all fires \n\n Left click to activate
 
 
 [CONTROLBAR:Relics]
@@ -60242,7 +60242,7 @@ King Under the Mountain
 
 
 [CONTROLBAR:ToolTipThorinLeadership]
-Modifier Type: Leadership \n Dwarves near Thorin gain 25% Armor, resistance to fear and terror and earn experience 75% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Dwarves near Thorin gain 25% armour, resistance to fear and terror and earn experience 75% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:ThorinOrcrist]
@@ -60250,7 +60250,7 @@ Goblin-Cleaver (&T)
 
 
 [CONTROLBAR:TooltipThorinOrcrist]
-Requires Level 5 \n Thorin temporarily gains\n+75% magic damage and +100% armor \n Left click to activate
+Requires Level 5 \n Thorin temporarily gains\n+75% magic damage and +100% armour \n Left click to activate
 
 
 [CONTROLBAR:ThorinLeadership2]
@@ -60266,7 +60266,7 @@ Du Bekar! (&V)
 
 
 [CONTROLBAR:ToolTipThorinDuBekar]
-Requires Level 10 \n Modifier Type: Spell \n Thorin and nearby allies gain resistance to knockback, +75% Armor and +20% Speed for a short time\nThorin can crush enemies\n Stacks with Leadership and Spells \n Left click to activate
+Requires Level 10 \n Modifier Type: Spell \n Thorin and nearby allies gain resistance to knockback, +75% armour and +20% Speed for a short time\nThorin can crush enemies\n Stacks with Leadership and Spells \n Left click to activate
 
 
 [CONTROLBAR:ThorinResentment]
@@ -60274,7 +60274,7 @@ Resentment (&R)
 
 
 [CONTROLBAR:ToolTipThorinResentment]
-Requires Level 3 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -20% Speed and -30% Armor\n Nullifies enemy leadership \n Left click icon then left click on target units
+Requires Level 3 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -20% Speed and -30% armour\n Nullifies enemy leadership \n Left click icon then left click on target units
 
 
 [CONTROLBAR:ThorinRestoration]
@@ -60322,7 +60322,7 @@ Black Arrow of Dale (&T)
 
 
 [CONTROLBAR:ToolTipBrandSlamArrowNew]
-Requires Level 2 \nA precise arrow shot that does increased damage \n At level 5, knocks targeted units back \n At level 8, targeted units and heroes lose -33% Armor \n Left click icon then left click on target unit
+Requires Level 2 \nA precise arrow shot that does increased damage \n At level 5, knocks targeted units back \n At level 8, targeted units and heroes lose -33% armour \n Left click icon then left click on target unit
 
 
 [CONTROLBAR:BrandPommelStrike]
@@ -60370,7 +60370,7 @@ Counselor of Kings (&C)
 
 
 [CONTROLBAR:ToolTipBalinCounselorOfKings]
-Requires Level 9 \n Modifier Type: Spell \n Balin temporarily empowers a friendly hero, granting them 50% armor, 50% faster experience gain, and 75% faster power recharge times \n Stacks with Leadership and Spells \n Left click icon then left click on target hero
+Requires Level 9 \n Modifier Type: Spell \n Balin temporarily empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times \n Stacks with Leadership and Spells \n Left click icon then left click on target hero
 
 
 [CONTROLBAR:BalinFlag]
@@ -60378,7 +60378,7 @@ Balin's Expedition (&T)
 
 
 [CONTROLBAR:TooltipBalinFlag]
-Requires Level 5 \n Balin plants a banner of Durin. \n Nearby troops gain +50% experience gain, +25% armor, +33% damage and are partially healed. \n At level 10, affected units are immune to knockback and are healed by a larger amount.
+Requires Level 5 \n Balin plants a banner of Durin. \n Nearby troops gain +50% experience gain, +25% armour, +33% damage and are partially healed. \n At level 10, affected units are immune to knockback and are healed by a larger amount.
 
 
 [OBJECT:BalinBanner]
@@ -60418,7 +60418,7 @@ King of Durin's Folk
 
 
 [CONTROLBAR:ToolTipThrorLeadership]
-Modifier Type: Leadership \n Allies near King Thrór gain +50% Damage, +75% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Allies near King Thrór gain +50% Damage, +75% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:YoungThorinLeadership]
@@ -60426,7 +60426,7 @@ Prince of Erebor
 
 
 [CONTROLBAR:ToolTipYoungThorinLeadership]
-Modifier Type: Leadership \n Allies near King Thorin gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Allies near King Thorin gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:YoungThorinOakenshield]
@@ -60434,7 +60434,7 @@ Oakenshield (&R)
 
 
 [CONTROLBAR:TooltipYoungThorinOakenshield]
-Requires Level 3 \n Thorin temporarily gains\n+75% magic damage and +100% armor \n Left click to activate
+Requires Level 3 \n Thorin temporarily gains\n+75% magic damage and +100% armour \n Left click to activate
 
 
 [CONTROLBAR:YoungThorinDuBekar]
@@ -60442,7 +60442,7 @@ Du Bekar! (&T)
 
 
 [CONTROLBAR:ToolTipYoungThorinDuBekar]
-Requires Level 5 \n Modifier Type: Spell \n Thorin and nearby allies gain resistance to knockback, +75% Armor, +20% Speed, and crush enemies for a short time \n Stacks with Leadership and Spells \n Left click to activate
+Requires Level 5 \n Modifier Type: Spell \n Thorin and nearby allies gain resistance to knockback, +75% armour, +20% Speed, and crush enemies for a short time \n Stacks with Leadership and Spells \n Left click to activate
 
 
 [CONTROLBAR:YoungDwalinLeadership]
@@ -60450,7 +60450,7 @@ Brother-in-Arms
 
 
 [CONTROLBAR:ToolTipYoungDwalinLeadership]
-Modifier Type: Spell \n When near Thorin, Dwalin gains\n+15% Damage, +15% Armor, and +15% Attack Speed \n Stacks with Leadership, Buffs, and Spells \n Passive ability
+Modifier Type: Spell \n When near Thorin, Dwalin gains\n+15% Damage, +15% armour, and +15% Attack Speed \n Stacks with Leadership, Buffs, and Spells \n Passive ability
 
 
 [CONTROLBAR:YoungDwalinSmash]
@@ -60498,7 +60498,7 @@ King's Advisor (&R)
 
 
 [CONTROLBAR:ToolTipYoungBalinCounselorOfKings]
-Requires Level 3 \n Modifier Type: Spell \n Balin temporarily empowers a friendly hero, granting them 50% armor, 50% faster experience gain, and 75% faster power recharge times \n Stacks with Leadership and Spells \n Left click icon then left click on target hero
+Requires Level 3 \n Modifier Type: Spell \n Balin temporarily empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times \n Stacks with Leadership and Spells \n Left click icon then left click on target hero
 
 
 
@@ -60714,7 +60714,7 @@ Uthâk
 U&thâk
 
 [CONTROLBAR:ToolTipBuildDwarvenMiner]
-Armed Miners \n\n Horde Bonus \n Modifier Type: Spell \n All Miners gain +25% damage and +25% armor when gathered in numbers of 30 or more \n Stacks with buffs, Leadership and other spells\n\n NEEDS LORE ENTRY
+Armed Miners \n\n Horde Bonus \n Modifier Type: Spell \n All Miners gain +25% damage and +25% armour when gathered in numbers of 30 or more \n Stacks with buffs, Leadership and other spells\n\n NEEDS LORE ENTRY
 
 [CONTROLBAR:DwarvenProspectors]
 Prospectors
@@ -60894,7 +60894,7 @@ Lord of Moria
 
 
 [CONTROLBAR:ToolTipMoriaLord]
-Âzugh-Khazad-dûm gain +25% armor while near Balin\nPassive ability
+Âzugh-Khazad-dûm gain +25% armour while near Balin\nPassive ability
 
 
 [CONTROLBAR:KhazadAllies]
@@ -60958,7 +60958,7 @@ Bilbo's Courage
 
 
 [CONTROLBAR:ToolTipBilboLeadership]
-Modifier Type: Spell \n Nearby allies in a large radius gain\n+50% Damage, +50% Armor, \n earn experience twice as fast \n reduces recharge time for unit and heroes and abilities by 25% \n Stacks with Leadership, Buffs, and Spells \n Passive ability
+Modifier Type: Spell \n Nearby allies in a large radius gain\n+50% Damage, +50% armour, \n earn experience twice as fast \n reduces recharge time for unit and heroes and abilities by 25% \n Stacks with Leadership, Buffs, and Spells \n Passive ability
 
 
 [CONTROLBAR:BilboOldFriends]
@@ -60982,7 +60982,7 @@ Wraiths of Mordor
 
 
 [CONTROLBAR:ToolTipSummonGenericMordorSpy]
-Summons a small horde of wraiths\nWraiths are fast-moving units that reveal a lot of shroud and detect stealth \n Nearby enemy units suffer -25% Damage and -20% Armor\n Left click icon then left click on pathable location
+Summons a small horde of wraiths\nWraiths are fast-moving units that reveal a lot of shroud and detect stealth \n Nearby enemy units suffer -25% Damage and -20% armour\n Left click icon then left click on pathable location
 
 
 [CONTROLBAR:SummonedWightDebuff]
@@ -60990,7 +60990,7 @@ Black Dread
 
 
 [CONTROLBAR:ToolTipSummonedWightDebuff]
-Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs \n Passive ability
+Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Damage and -20% armour \n Does not stack with other Debuffs \n Passive ability
 
 
 [OBJECT:FishBarrel]
@@ -61014,7 +61014,7 @@ In The Name of The &King
 
 
 [CONTROLBAR:TooltipDalishSupremacy]
-Requires Level 4 \n Modifier Type: Passive Debuff \n Nearby enemy Easterling and Variag units suffer -25% Damage and -20% Armor \n Does not stack with other Debuffs \n Passive ability
+Requires Level 4 \n Modifier Type: Passive Debuff \n Nearby enemy Easterling and Variag units suffer -25% Damage and -20% armour \n Does not stack with other Debuffs \n Passive ability
 
 
 [CONTROLBAR:RallyingCallErebor]
@@ -61022,7 +61022,7 @@ Horn of Erebor
 
 
 [CONTROLBAR:TooltipRallyingCallErebor]
-Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target units
+Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% armour \n Stacks with Leadership and Spells \n Left click icon then left click on target units
 
 
 [CONTROLBAR:RebuildErebor]
@@ -61112,7 +61112,7 @@ Brother-in-Arms
 
 
 [CONTROLBAR:ToolTipDwalinLeadership]
-Modifier Type: Spell \n When near Thorin, Dwalin gains\n+15% Damage, +15% Armor, and +15% Attack Speed \n Stacks with Leadership, Buffs, and Spells \n Passive ability
+Modifier Type: Spell \n When near Thorin, Dwalin gains\n+15% Damage, +15% armour, and +15% Attack Speed \n Stacks with Leadership, Buffs, and Spells \n Passive ability
 
 
 [CONTROLBAR:OldDwalinLeadership]
@@ -61136,7 +61136,7 @@ Long-lived Warrior (&T)
 
 
 [CONTROLBAR:ToolTipLonglivedWarrior]
-Dwalin temporarily gains +50% armor and regains health per hit \n Left click to activate
+Dwalin temporarily gains +50% armour and regains health per hit \n Left click to activate
 
 
 [CONTROLBAR:DwalinJuggernaut]
@@ -61144,7 +61144,7 @@ Dwarven Juggernaut (&C)
 
 
 [CONTROLBAR:ToolTipDwalinJuggernaut]
-Requires Level 8 \n Modifier Type: Buff \n Dwalin temporarily gains\n+200% Armor, Resistance to knockback, and deals knockback damage for a short time \n Left click to activate
+Requires Level 8 \n Modifier Type: Buff \n Dwalin temporarily gains\n+200% armour, Resistance to knockback, and deals knockback damage for a short time \n Left click to activate
 
 
 [CONTROLBAR:DwalinSmash]
@@ -61367,7 +61367,7 @@ Keen Eye (&W)
 
 
 [CONTROLBAR:ToolTipKeenEye]
-Nearby structures receive +25% armor \n Nearby Mangonels gain +10% range \n Passive Ability \n At rank 3, can be cast on enemy structures to temporarily reduce their armor by 33% \n Left click icon then left click on target
+Nearby structures receive +25% armour \n Nearby Mangonels gain +10% range \n Passive Ability \n At rank 3, can be cast on enemy structures to temporarily reduce their armor by 33% \n Left click icon then left click on target
 
 
 [CONTROLBAR:HadhodSabotage]
@@ -61431,7 +61431,7 @@ Lord of the Iron Hills
 
 
 [CONTROLBAR:ToolTipEreborDainLeadership]
-Modifier Type: Leadership \n Iron Hills units near Dáin gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Iron Hills units near Dáin gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:EreborOldDainLeadership]
@@ -61439,7 +61439,7 @@ King Under the Mountain
 
 
 [CONTROLBAR:ToolTipEreborOldDainLeadership]
-Modifier Type: Leadership \n Units near Dáin gain +33% Damage, +33% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Units near Dáin gain +33% Damage, +33% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:EreborDainBarukKhazad]
@@ -61506,7 +61506,7 @@ Heir to the Throne
 
 
 [CONTROLBAR:ToolTipFiliLeadership]
-Requires Level 8 \nModifier Type: Leadership \n Basic Erebor Dwarves and Ered Luin Dwarves near Fili gain +33% Damage and +25% Armor\n Stacks with Buffs and Spells \n Passive ability
+Requires Level 8 \nModifier Type: Leadership \n Basic Erebor Dwarves and Ered Luin Dwarves near Fili gain +33% Damage and +25% armour\n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:KiliQuickshot]
@@ -61538,7 +61538,7 @@ Hold Your Ground!
 
 
 [CONTROLBAR:ToolTipVWLeadership]
-As the unit levels the power improves\n Rank 1: Nearby allied units gain 10% armor \n Rank 2: Nearby enemy units lose 10% speed \n Rank 4: Nearby allied units gain 15% armor \n Buff Modifier Type: Spell \n Stacks with Leadership, Buffs, and other Spells \n Debuff Modifier Type: Passive Debuff \n Does not stack with other Debuffs \n Passive ability
+As the unit levels the power improves\n Rank 1: Nearby allied units gain 10% armour \n Rank 2: Nearby enemy units lose 10% speed \n Rank 4: Nearby allied units gain 15% armour \n Buff Modifier Type: Spell \n Stacks with Leadership, Buffs, and other Spells \n Debuff Modifier Type: Passive Debuff \n Does not stack with other Debuffs \n Passive ability
 
 
 [OBJECT:EreborVW]
@@ -61582,7 +61582,7 @@ Dwarven Tenacity (&W)
 
 
 [CONTROLBAR:ToolTipDwarvenTenacity]
-Requires Level 4 \n For 15 seconds, Âzagh-baruk gain +10% armor per hit\nCan stack five times\nLeft click to activate
+Requires Level 4 \n For 15 seconds, Âzagh-baruk gain +10% armour per hit\nCan stack five times\nLeft click to activate
 
 
 [OBJECT:EreborRoac]
@@ -61761,7 +61761,7 @@ Gwenyn
 
 
 [CONTROLBAR:ToolTipElladanLeadership]
-Modifier Type: Leadership \n When near his brother, Elladan gains +100% Damage and +100% Armor \n Stacks with Buffs and Spells \n If Elrohir dies while Elladan is on the field,\n Elladan gains a temporary +200% damage increase but also loses -150% of his armor \n Passive ability
+Modifier Type: Leadership \n When near his brother, Elladan gains +100% Damage and +100% armour \n Stacks with Buffs and Spells \n If Elrohir dies while Elladan is on the field,\n Elladan gains a temporary +200% damage increase but also loses -150% of his armor \n Passive ability
 
 
 [CONTROLBAR:ElladanLeadership2]
@@ -61785,7 +61785,7 @@ Gwenyn
 
 
 [CONTROLBAR:ToolTipElrohirLeadership]
-Modifier Type: Leadership \n When near his brother, Elrohir gains +100% Damage and +100% Armor \n Stacks with Buffs and Spells \n If Elladan dies while Elrohir is on the field,\n Elrohir gains a temporary +200% damage increase but also loses -150% of his armor \n Passive ability
+Modifier Type: Leadership \n When near his brother, Elrohir gains +100% Damage and +100% armour \n Stacks with Buffs and Spells \n If Elladan dies while Elrohir is on the field,\n Elrohir gains a temporary +200% damage increase but also loses -150% of his armor \n Passive ability
 
 
 [CONTROLBAR:ElrohirLeadership2]
@@ -61793,7 +61793,7 @@ Hatred of Orcs (&T)
 
 
 [CONTROLBAR:ToolTipElrohirLeadership2]
-Elrohir deals +33% extra damage to all Orcs \nPassive ability \n \n When activated, nearby orcs lose -25% armor for 30 seconds\nLeft click to activate
+Elrohir deals +33% extra damage to all Orcs \nPassive ability \n \n When activated, nearby orcs lose -25% armour for 30 seconds\nLeft click to activate
 
 
 [CONTROLBAR:ElrohirSwiftStrikes]
@@ -61801,7 +61801,7 @@ Swift Strikes (&C)
 
 
 [CONTROLBAR:ToolTipElrohirSwiftStrikes]
-Requires Level 3 \n Elrohir gains +33% Attack Speed, but loses -33% Armor \n Left click to activate
+Requires Level 3 \n Elrohir gains +33% Attack Speed, but loses -33% armour \n Left click to activate
 
 
 [CONTROLBAR:TwinsHeroesLeadership]
@@ -61982,7 +61982,7 @@ Companion
 
 
 [CONTROLBAR:ToolTipGildorLeadership]
-Modifier Type: Leadership \n Hobbits near Gildor gain +33% damage, +33% armor and experience\n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Hobbits near Gildor gain +33% damage, +33% armour and experience\n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:GildorExiles]
@@ -62251,7 +62251,7 @@ Armor from the Barrows
 
 
 [CONTROLBAR:ToolTipBreeArmor]
-Requires Level 3\n Modifier Type: Level\n Units permanently gain 33% Armor\n Stacks with Leadership, Buffs, and Spells
+Requires Level 3\n Modifier Type: Level\n Units permanently gain 33% armour\n Stacks with Leadership, Buffs, and Spells
 
 
 [OBJECT:NoldorVeterans]
@@ -62283,7 +62283,7 @@ War of the Last Alliance (&C)
 
 
 [CONTROLBAR:ToolTipLAVeteranLastAlliance]
-Requires Level 3\nThe Veterans were there during the Battle of Dagorlad and the final siege of Barad-dûr.\n\nNearby Dúnedain and Bree-landers temporarily gain +33% Armor for a short time\nwhile nearby Elven units gain +33% Damage for a short time\nLeft click to activate.\n\nOnly one ability may be active at a time.
+Requires Level 3\nThe Veterans were there during the Battle of Dagorlad and the final siege of Barad-dûr.\n\nNearby Dúnedain and Bree-landers temporarily gain +33% armour for a short time\nwhile nearby Elven units gain +33% Damage for a short time\nLeft click to activate.\n\nOnly one ability may be active at a time.
 
 
 [CONTROLBAR:LAVeteranFallOfAngmar]
@@ -62356,7 +62356,7 @@ Undómiel
 
 
 [CONTROLBAR:TooltipUndomielLeadership]
-Modifier Type: Leadership \n Units near Arwen gain +33% Armor \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Units near Arwen gain +33% armour \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:SpecialPowerUndomiel]
@@ -62364,7 +62364,7 @@ Undómiel (&R)
 
 
 [CONTROLBAR:ToolTipSpecialPowerUndomiel]
-Allows Arwen to rank up.\n Becomes more expensive the higher Arwen ranks up. \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Allied heroes near Arwen gain +33% experience gain. \n Rank 3: The radius of Arwen's leadership is greatly increased. \n Rank 10: Allied heroes near Arwen gain +33% armor for 40 seconds. \n Also passively grants Arwen a high percentage of ranged damage avoidance and increased armor per level. \nPassive ability
+Allows Arwen to rank up.\n Becomes more expensive the higher Arwen ranks up. \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Allied heroes near Arwen gain +33% experience gain. \n Rank 3: The radius of Arwen's leadership is greatly increased. \n Rank 10: Allied heroes near Arwen gain +33% armour for 40 seconds. \n Also passively grants Arwen a high percentage of ranged damage avoidance and increased armor per level. \nPassive ability
 
 
 [CONTROLBAR:SpecialPowerUndomielFinal]
@@ -62372,7 +62372,7 @@ Undómiel
 
 
 [CONTROLBAR:ToolTipSpecialPowerUndomielFinal]
-Modifier Type: Leadership \n Rank 1: Allied heroes near Arwen gain +33% experience gain. \n Rank 3: The radius of Arwen's leadership is greatly increased. \n Rank 10: Allied heroes near Arwen gain +33% armor for 40 seconds. \n Also passively grants Arwen a high percentage of ranged damage avoidance and increased armor per level. \n Left-click to activate 
+Modifier Type: Leadership \n Rank 1: Allied heroes near Arwen gain +33% experience gain. \n Rank 3: The radius of Arwen's leadership is greatly increased. \n Rank 10: Allied heroes near Arwen gain +33% armour for 40 seconds. \n Also passively grants Arwen a high percentage of ranged damage avoidance and increased armor per level. \n Left-click to activate 
 
 
 [CONTROLBAR:ArwenNoroLim]
@@ -62380,7 +62380,7 @@ Noro Lim!
 
 
 [CONTROLBAR:ToolTipArwenNoroLim]
-Requires Level 3\n Arwen gains\n+40% Speed, +100% Armor, \n and glides past enemies when mounted \n Left click to activate
+Requires Level 3\n Arwen gains\n+40% Speed, +100% armour, \n and glides past enemies when mounted \n Left click to activate
 
 
 [CONTROLBAR:ArwenEvenstar]
@@ -62424,7 +62424,7 @@ Daughter of Elrond
 
 
 [CONTROLBAR:ToolTipDaughterElrond]
-Arwen can target enemy units\nAllies around the target gain 33% armor\n Passive ability
+Arwen can target enemy units\nAllies around the target gain 33% armour\n Passive ability
 
 
 [CONTROLBAR:GlorfindelWrath]
@@ -62495,11 +62495,11 @@ Shortcut: F \n This is Dáin's default stance \n No bonus \n Dáin will equip his 
 
 
 [CONTROLBAR:ToolTipToggleStanceAggressiveDain]
-Shortcut: D \n +10% Damage, +10% Speed, -20% Armor \n Dáin will equip his Red Axe\nDeals splash damage
+Shortcut: D \n +10% Damage, +10% Speed, -20% armour \n Dáin will equip his Red Axe\nDeals splash damage
 
 
 [CONTROLBAR:ToolTipToggleStanceHoldGroundDain]
-Shortcut: G \n +10% Armor, -20% Damage, -10% Speed \n Dáin will equip his Warhammer\nDeals knockback damage
+Shortcut: G \n +10% armour, -20% Damage, -10% Speed \n Dáin will equip his Warhammer\nDeals knockback damage
 
 
 [OBJECT:HordeIronHillsGuard]
@@ -62750,7 +62750,7 @@ High King of the Dúnedain
 
 
 [CONTROLBAR:ToolTipElendilLeadership]
-Elendil, son of Amandil, was the leader of the Faithful Númenoreans, before Eru Ilúvatar drowned the island nation as punishment for the arrogance of Ar-Pharazôn, its last king. Elendil escaped with his two sons and founded Númenorean kingdoms in Middle-earth. His seat was in Annúminas, in Arnor, while his sons ruled in his name from Minas Anor and Minas Ithil, in Gondor. \n\n Allies near Elendil gain \n +33% Damage, +33% Armor, \n and earn experience 50% faster\nPassive ability
+Elendil, son of Amandil, was the leader of the Faithful Númenoreans, before Eru Ilúvatar drowned the island nation as punishment for the arrogance of Ar-Pharazôn, its last king. Elendil escaped with his two sons and founded Númenorean kingdoms in Middle-earth. His seat was in Annúminas, in Arnor, while his sons ruled in his name from Minas Anor and Minas Ithil, in Gondor. \n\n Allies near Elendil gain \n +33% Damage, +33% armour, \n and earn experience 50% faster\nPassive ability
 
 
 [CONTROLBAR:ElendurLeadership]
@@ -62758,7 +62758,7 @@ Isildur's Heir
 
 
 [CONTROLBAR:ToolTipElendurLeadership]
-Requires Level 4\nAllies near Elendur gain \n +33% Damage, +33% Armor, \n and earn experience 50% faster\nPassive ability
+Requires Level 4\nAllies near Elendur gain \n +33% Damage, +33% armour, \n and earn experience 50% faster\nPassive ability
 
 
 [CONTROLBAR:ElendilRestoration]
@@ -62798,7 +62798,7 @@ Heir of Númenor
 
 
 [CONTROLBAR:ToolTipIsildurLeadership]
-Anárion, Elendil's firstborn heir, fell early in the War of the Last Alliance. So it was that Isildur, his younger brother, took over his command. Isildur was a mighty warrior and had previously proven his skill and endurance during the final days of Númenor. \n\n  Allies near Isildur gain \n +33% Damage, +33% Armor, \n and earn experience 50% faster\nPassive ability
+Anárion, Elendil's firstborn heir, fell early in the War of the Last Alliance. So it was that Isildur, his younger brother, took over his command. Isildur was a mighty warrior and had previously proven his skill and endurance during the final days of Númenor. \n\n  Allies near Isildur gain \n +33% Damage, +33% armour, \n and earn experience 50% faster\nPassive ability
 
 
 [CONTROLBAR:IsildurBladeMaster]
@@ -62806,7 +62806,7 @@ Shard of Narsil (&R)
 
 
 [CONTROLBAR:TooltipIsildurBladeMaster]
-Requires Level 2 \n Isildur gains +100% Damage and +100% Armor as he takes up the shards of his father's sword \n Left click to activate
+Requires Level 2 \n Isildur gains +100% Damage and +100% armour as he takes up the shards of his father's sword \n Left click to activate
 
 
 [CONTROLBAR:GilGaladLeadership]
@@ -62814,7 +62814,7 @@ Last High King of the Noldor
 
 
 [CONTROLBAR:ToolTipGilGaladLeadership]
-After the destruction of Beleriand at the end of the First Age, Ereinion Gil-galad went east across the Ered Luin and founded a Noldorin kingdom in Lindon. Many elves joined him there, and for much of the second age, his realm was a place of beauty and wisdom, firmly arrayed against Sauron's slow encroachment. \n\n Allies near Gil-galad gain \n +33% Damage, +33% Armor, \n and earn experience 50% faster\nPassive ability
+After the destruction of Beleriand at the end of the First Age, Ereinion Gil-galad went east across the Ered Luin and founded a Noldorin kingdom in Lindon. Many elves joined him there, and for much of the second age, his realm was a place of beauty and wisdom, firmly arrayed against Sauron's slow encroachment. \n\n Allies near Gil-galad gain \n +33% Damage, +33% armour, \n and earn experience 50% faster\nPassive ability
 
 
 [CONTROLBAR:GilGaladAeglosLance]
@@ -62830,7 +62830,7 @@ Herald of Gil-Galad
 
 
 [CONTROLBAR:ToolTipElrondLALeadership]
-When Gil-galad and Elendil joined forces, the Lord of Rivendell opened his sanctuary for the Kings to formulate their battleplans and assemble their forces. Scores of mighty arms and armor were wrought in Imladris during this time. Elrond would be Gil-galad's herald in the war to come. \n\n  Allies near Elrond gain \n +33% Damage, +33% Armor, \n and earn experience 50% faster\nPassive ability
+When Gil-galad and Elendil joined forces, the Lord of Rivendell opened his sanctuary for the Kings to formulate their battleplans and assemble their forces. Scores of mighty arms and armor were wrought in Imladris during this time. Elrond would be Gil-galad's herald in the war to come. \n\n  Allies near Elrond gain \n +33% Damage, +33% armour, \n and earn experience 50% faster\nPassive ability
 
 
 [CONTROLBAR:ElrondArrowVolleyAbility]
@@ -62976,7 +62976,7 @@ Close Quarters Specialists
 
 
 [CONTROLBAR:ToolTipVWMineLeadership]
-Modifier Type: Leadership \n Azaghâr-gundu gain +25% Damage and +50% Armor when near Allied Dwarven Mines\n and earn experience 50% faster \n Stacks with Buffs and Spells \nPassive ability
+Modifier Type: Leadership \n Azaghâr-gundu gain +25% Damage and +50% armour when near Allied Dwarven Mines\n and earn experience 50% faster \n Stacks with Buffs and Spells \nPassive ability
 
 
 [OBJECT:HordeDwarvenArcherDwarvenPhalanxCombo]
@@ -63129,7 +63129,7 @@ Increases the Battle Wagon's rank to Level 2 \n Can only be equipped at Level 1
 
 
 [TOOLTIP:LackDwarvenBasicTrainingForBattleWagon]
-Research Banner Carrier upgrade at Grand Forge to enable this upgrade\nIncreases the Battle Wagon's rank to Level 2\nOn Level 2, nearby allies gain\n+33% Damage, +33% Armor,\nand earn experience twice as fast\n
+Research Banner Carrier upgrade at Grand Forge to enable this upgrade\nIncreases the Battle Wagon's rank to Level 2\nOn Level 2, nearby allies gain\n+33% Damage, +33% armour,\nand earn experience twice as fast\n
 
 
 [CONTROLBAR:DwarvenWagonButtonBC]
@@ -63137,7 +63137,7 @@ Unfurl Ironfoot's Banners!
 
 
 [CONTROLBAR:TooltipDwarvenWagonButtonBC]
-Requires Level 2\nNearby Dwarves gain +33% damage, +33% armor, and 50% experience gain\n Passive ability
+Requires Level 2\nNearby Dwarves gain +33% damage, +33% armour, and 50% experience gain\n Passive ability
 
 
 [CONTROLBAR:DwarvenWagonButon1]
@@ -63237,7 +63237,7 @@ Secret Gate
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressBanners]
-Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% Armor, and earn experience 50% faster. \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces the cost of builders by 20%
+Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +33% armour, and earn experience 50% faster. \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces the cost of builders by 20%
 
 [CONTROLBAR:PurchaseUpgradeRohanFortressBanners]
 Royal Banners (&W)
@@ -63427,7 +63427,7 @@ Hall of Fire
 
 
 [OBJECT:HallOfFireDescription]
-Take a seat near the hearth and listen to the tales of old. \n\nModifier Type: Leadership \n Allies near the Hall of Fire gain +33% Armor, earn experience 50% faster, and become immune to Fear and Terror \n Nearby Quentaroli's power recharge timers are decreased \n Stacks with Buffs and Spells \n Replenishes health and units in nearby battalions\n The Hall of Fire may call forth vivid images of the past that inspire fear and deal damage to enemy units \n Limited to 3
+Take a seat near the hearth and listen to the tales of old. \n\nModifier Type: Leadership \n Allies near the Hall of Fire gain +33% armour, earn experience 50% faster, and become immune to Fear and Terror \n Nearby Quentaroli's power recharge timers are decreased \n Stacks with Buffs and Spells \n Replenishes health and units in nearby battalions\n The Hall of Fire may call forth vivid images of the past that inspire fear and deal damage to enemy units \n Limited to 3
 
 
 [CONTROLBAR:HallOfFireSpawnGilGalad]
@@ -64351,7 +64351,7 @@ Armaments of Ost-in-Edhil
 
 
 [CONTROLBAR:ToolTipElrondHeavyArmor]
-Requires Level 6 \n Elrond equips his heavy armor \n Modifier Type: Spell \n Elrond gains +50% Armor and +50% resistance to knockback \n Stacks with Buffs and Spells \n Passive ability
+Requires Level 6 \n Elrond equips his heavy armor \n Modifier Type: Spell \n Elrond gains +50% armour and +50% resistance to knockback \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:ElrondRingOfAir]
@@ -64359,7 +64359,7 @@ Ring of Air (&C)
 
 
 [CONTROLBAR:TooltipElrondRingOfAir]
-Requires Level 3\n Modifier Type: Buff\nCreates a circular sanctuary around Elrond\nAllied units gain +100% armor while in the area\nRank 5: Nearby enemy units suffer -25% damage, -20% armor and lose all leadership while nearby allies are immune to fear and terror\nRank 8: The sanctuary's radius increases and enemy units are knocked back periodically \nLeft click icon to activate
+Requires Level 3\n Modifier Type: Buff\nCreates a circular sanctuary around Elrond\nAllied units gain +100% armour while in the area\nRank 5: Nearby enemy units suffer -25% damage, -20% armour and lose all leadership while nearby allies are immune to fear and terror\nRank 8: The sanctuary's radius increases and enemy units are knocked back periodically \nLeft click icon to activate
 
 
 [CONTROLBAR:ElrondMountTooltip]
@@ -64591,7 +64591,7 @@ The units return to standard line formation
 
 
 [CONTROLBAR:ToolTipToggleWestfolderLineToBlockFormationElite]
-+33% Armor\n-40% Speed
++33% armour\n-40% Speed
 
 
 [CONTROLBAR:ToolTipToggleWestfolderBlockToLineFormationElite_Summoned]
@@ -64599,7 +64599,7 @@ The units return to standard line formation
 
 
 [CONTROLBAR:ToolTipToggleWestfolderLineToBlockFormationElite_Summoned]
-+33% Armor\n-40% Speed
++33% armour\n-40% Speed
 
 
 [CONTROLBAR:ForthEorlingas]
@@ -64671,7 +64671,7 @@ Generates resources based on available terrain\n Bread Bonus - Reduced cost of i
 
 
 [OBJECT:RohanStablesDescription]
-Generates resources based on available terrain\nLevel 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed \n\n Horsemaster Bonus\n Modifier Type: Buff \n Grants additional +5% armor to all cavalry units on the map \n Stacks with Leadership and Spells \n 1 Stables: 5% \n 2 Stables: 10% \n 3 Stables: 15% \n 4 Stables: 20% \n 5 Stables: 25% \n 6 Stables: 30% \n 7 Stables: 35% \n 8+ Stables: 40%
+Generates resources based on available terrain\nLevel 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed \n\n Horsemaster Bonus\n Modifier Type: Buff \n Grants additional +5% armour to all cavalry units on the map \n Stacks with Leadership and Spells \n 1 Stables: 5% \n 2 Stables: 10% \n 3 Stables: 15% \n 4 Stables: 20% \n 5 Stables: 25% \n 6 Stables: 30% \n 7 Stables: 35% \n 8+ Stables: 40%
 
 
 [GUI:FIELD_DISCOUNT]
@@ -64691,7 +64691,7 @@ Lone Scout
 
 
 [CONTROLBAR:ToolTipSummonLoneScout]
-Summons a temporary, Rohirrim scout which grants +15% Speed, +25% Armor and +25% Damage to nearby allied units\n Left click icon then left click on pathable location
+Summons a temporary, Rohirrim scout which grants +15% Speed, +25% armour and +25% Damage to nearby allied units\n Left click icon then left click on pathable location
 
 
 [CONTROLBAR:SummonCirionOath]
@@ -64707,11 +64707,11 @@ Horn of the Westfold
 
 
 [CONTROLBAR:TooltipWestfoldHorn]
-Modifier Type: Buff \n Targeted allies gain +60% Damage and +60% Armor for 60 seconds\n Stacks with Leadership and Spells \n Once used, passively unlocks Erkenbrand and Westfolders \n Left click icon then left click on target units 
+Modifier Type: Buff \n Targeted allies gain +60% Damage and +60% armour for 60 seconds\n Stacks with Leadership and Spells \n Once used, passively unlocks Erkenbrand and Westfolders \n Left click icon then left click on target units 
 
 
 [CONTROLBAR:TooltipWestfoldHorn_WOTR]
-Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% Armor for 60 seconds \n Stacks with Leadership and Spells \n Once used, passively unlocks Westfolders \n Left click icon then left click on target units 
+Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% armour for 60 seconds \n Stacks with Leadership and Spells \n Once used, passively unlocks Westfolders \n Left click icon then left click on target units 
 
 
 [CONTROLBAR:PukelStatue]
@@ -64883,15 +64883,15 @@ The Three Hunters
 
 
 [CONTROLBAR:ToolTipHuntersLeadershipAragorn]
-Modifier Type: Leadership \n When near Legolas or Gimli, Aragorn gains +25% armor and speed\n Passive ability
+Modifier Type: Leadership \n When near Legolas or Gimli, Aragorn gains +25% armour and speed\n Passive ability
 
 
 [CONTROLBAR:ToolTipHuntersLeadershipLegolas]
-Modifier Type: Leadership \n When near Aragorn or Gimli, Legolas gains +25% armor and speed\n Passive ability
+Modifier Type: Leadership \n When near Aragorn or Gimli, Legolas gains +25% armour and speed\n Passive ability
 
 
 [CONTROLBAR:ToolTipHuntersLeadershipGimli]
-Modifier Type: Leadership \n When near Aragorn or Legolas, Gimli gains +25% armor and speed\n Passive ability
+Modifier Type: Leadership \n When near Aragorn or Legolas, Gimli gains +25% armour and speed\n Passive ability
 
 
 [CONTROLBAR:HarkenToMeLeadership]
@@ -64907,7 +64907,7 @@ Door-wardens
 
 
 [CONTROLBAR:TooltipDoorWardenKingsguardLeadership]
-Modifier Type: Leadership \n The Kingsguard grants nearby structures +33% armor. \n Stacks with Buffs and Spells \n \n Passive ability
+Modifier Type: Leadership \n The Kingsguard grants nearby structures +33% armour. \n Stacks with Buffs and Spells \n \n Passive ability
 
 
 [CONTROLBAR:KingsguardLeadership]
@@ -64915,7 +64915,7 @@ Royal Escort
 
 
 [CONTROLBAR:TooltipKingsguardLeadership]
-Modifier Type: Leadership \n The Kingsguards grant nearby heroes +15% armor \n Stacks with Buffs and Spells \n \n Passive ability
+Modifier Type: Leadership \n The Kingsguards grant nearby heroes +15% armour \n Stacks with Buffs and Spells \n \n Passive ability
 
 
 [OBJECT:RohanHorsemen]
@@ -64931,7 +64931,7 @@ Doorwarden of Meduseld
 
 
 [CONTROLBAR:ToolTipHamaLeadership]
-Modifier Type: Spell \n For every allied building in Háma's vicinity,\n he gains +15% Armor \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Spell \n For every allied building in Háma's vicinity,\n he gains +15% armour \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:GamlingWhateverEnd]
@@ -64939,11 +64939,11 @@ To Whatever End (&W)
 
 
 [CONTROLBAR:ToolTipGamlingWhateverEnd]
-Modifier Type: Buff \n Target hero temporarily gains +25% Armor \n Can only be used on Théoden, Éomer, Eowyn or Théodred \n Stacks with Leadership and Spells \n Left click icon then left click on target hero
+Modifier Type: Buff \n Target hero temporarily gains +25% armour \n Can only be used on Théoden, Éomer, Eowyn or Théodred \n Stacks with Leadership and Spells \n Left click icon then left click on target hero
 
 
 [CONTROLBAR:ToolTipGamlingWhateverEndCampaign]
-Modifier Type: Buff \n Target hero temporarily gains +25% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target hero
+Modifier Type: Buff \n Target hero temporarily gains +25% armour \n Stacks with Leadership and Spells \n Left click icon then left click on target hero
 
 
 [CONTROLBAR:StrengthRemembered]
@@ -64995,7 +64995,7 @@ Marshall of the West-mark
 
 
 [CONTROLBAR:ToolTipErkenbrandLeadership]
-Requires Level 5 \n Modifier Type: Leadership \n Westfolders near Erkenbrand gain +33% Armor \n Stacks with Buffs and Spells \n Passive ability
+Requires Level 5 \n Modifier Type: Leadership \n Westfolders near Erkenbrand gain +33% armour \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:ErkenbrandReinforcements]
@@ -65011,7 +65011,7 @@ Valiant Captain
 
 
 [CONTROLBAR:ToolTipGrimboldLeadership]
-Requires Level 5 \n Modifier Type: Leadership \n Nearby infantry units gain +33% Armor and +33% Damage\n Stacks with Buffs and Spells \n Passive ability
+Requires Level 5 \n Modifier Type: Leadership \n Nearby infantry units gain +33% armour and +33% Damage\n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:GrimboldProtection]
@@ -65019,7 +65019,7 @@ Protection of Grimslade (&R)
 
 
 [CONTROLBAR:ToolTipGrimboldProtection]
-Requires Level 5 \n Targeted allied units gain +50% Armor for 30 seconds\nLeft click on icon then left click on target units
+Requires Level 5 \n Targeted allied units gain +50% armour for 30 seconds\nLeft click on icon then left click on target units
 
 
 [CONTROLBAR:GrimboldHeal]
@@ -65043,7 +65043,7 @@ Stand Your Ground (&V)
 
 
 [CONTROLBAR:ToolTipEomerStandGround]
-Required: Rank 8 \n Creates a ring which gives +30% Armor and resistance to \n knockback and fear immunity to units within it \n Lasts 60 seconds \n Left click to activate
+Required: Rank 8 \n Creates a ring which gives +30% armour and resistance to \n knockback and fear immunity to units within it \n Lasts 60 seconds \n Left click to activate
 
 
 [CONTROLBAR:TheodredIllFated]
@@ -65059,11 +65059,11 @@ Luck of Battle (&T)
 
 
 [CONTROLBAR:ToolTipTheodredLuck]
-Requires Level 3 \n Théodred equips his helmet, gaining +33% armor \n When activated, Théodred temporarily avoids all ranged damage for 30 seconds \n\n Requires Level 7 \n When activated, the above effect is coupled with temporary invulnerability \n Left click to activate
+Requires Level 3 \n Théodred equips his helmet, gaining +33% armour \n When activated, Théodred temporarily avoids all ranged damage for 30 seconds \n\n Requires Level 7 \n When activated, the above effect is coupled with temporary invulnerability \n Left click to activate
 
 
 [CONTROLBAR:ToolTipTheodredLuckCampaign]
-Requires Level 3 \n Théodred equips his helmet, gaining +33% armor \n When activated, Théodred temporarily avoids all ranged damage for 30 seconds \n Left click to activate
+Requires Level 3 \n Théodred equips his helmet, gaining +33% armour \n When activated, Théodred temporarily avoids all ranged damage for 30 seconds \n Left click to activate
 
 
 [CONTROLBAR:TheodredPrinceRiddermark]
@@ -65099,15 +65099,15 @@ Leader of Men (&R)
 
 
 [CONTROLBAR:ToolTipAragornLeaderofMen]
-Modifier Type: Spell \n Nearby frendly units gain +33% armor \n \n When activated, units near Aragorn temporarily gain +50% damage and immunity to terror for 20 seconds \n Left click to activate
+Modifier Type: Spell \n Nearby frendly units gain +33% armour \n \n When activated, units near Aragorn temporarily gain +50% damage and immunity to terror for 20 seconds \n Left click to activate
 
 
 [CONTROLBAR:ToolTipFellowshipAragornLeaderofMen]
-Requires Level 8 \n Modifier Type: Spell \n Nearby frendly units gain +33% armor \n \n When activated, units near Aragorn temporarily gain +50% damage and immunity to terror \n Left click to activate
+Requires Level 8 \n Modifier Type: Spell \n Nearby frendly units gain +33% armour \n \n When activated, units near Aragorn temporarily gain +50% damage and immunity to terror \n Left click to activate
 
 
 [CONTROLBAR:ToolTipFellowshipStriderLeaderofMen]
-Requires Level 8 \n Modifier Type: Spell \n Nearby frendly units gain +33% armor \n \n When activated, units near Strider temporarily gain +50% damage and immunity to terror \n Left click to activate
+Requires Level 8 \n Modifier Type: Spell \n Nearby frendly units gain +33% armour \n \n When activated, units near Strider temporarily gain +50% damage and immunity to terror \n Left click to activate
 
 
 [CONTROLBAR:EowynLeadership]
@@ -65115,7 +65115,7 @@ Lady of Rohan
 
 
 [CONTROLBAR:ToolTipEowynLeadership]
-Modifier Type: Leadership \n Peasants near Eowyn gain +25% Armor, and earn experience 100% faster \n Stacks with Buffs and Spells \n Passive ability
+Modifier Type: Leadership \n Peasants near Eowyn gain +25% armour, and earn experience 100% faster \n Stacks with Buffs and Spells \n Passive ability
 
 
 [CONTROLBAR:EowynReadiness]
@@ -65163,7 +65163,7 @@ Quick Rescue (&T)
 
 
 [CONTROLBAR:ToolTipElfhelmQuickRescue]
-Requires Level 3 \n Modifier Type: Spell \n Nearby cavalry gains +15% speed while nearby infantry gains +15% armor for 30 seconds \n Both cavalry and infantry gain bonus damage against machines for the duration \n Stacks with Leadership and Spells \n Left click to activate
+Requires Level 3 \n Modifier Type: Spell \n Nearby cavalry gains +15% speed while nearby infantry gains +15% armour for 30 seconds \n Both cavalry and infantry gain bonus damage against machines for the duration \n Stacks with Leadership and Spells \n Left click to activate
 
 
 [CONTROLBAR:ElfhelmPromotion]
@@ -65320,7 +65320,7 @@ Silent Defenders (&T)
 
 
 [CONTROLBAR:ToolTipGreyCompanySilentDefenders]
-Requires Level 3\nAragorn, Halbarad and the Sons of Elrond passively gain +25% Damage when around the Grey Company\n When activated, nearby Hobbits, Bree-landers and Hobbit heroes recruited from the Encampment gain +25% Armor while Dúnedain units gain +25% damage for a short time
+Requires Level 3\nAragorn, Halbarad and the Sons of Elrond passively gain +25% Damage when around the Grey Company\n When activated, nearby Hobbits, Bree-landers and Hobbit heroes recruited from the Encampment gain +25% armour while Dúnedain units gain +25% damage for a short time
 
 
 [CONTROLBAR:GreyCompanyHunt]
@@ -65425,7 +65425,7 @@ True Heart, True Friend (&T)
 
 
 [CONTROLBAR:ToolTipForlongTrueHeartTrueFriend]
-Requires Level 7 \n Modifier Type: Spell \n Forlong temporarily empowers a friendly hero, granting them 50% armor, 50% faster experience gain, and 75% faster power recharge times for 30 seconds\n Stacks with Leadership and Spells \n Left click icon then left click on target hero
+Requires Level 7 \n Modifier Type: Spell \n Forlong temporarily empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times for 30 seconds\n Stacks with Leadership and Spells \n Left click icon then left click on target hero
 
 
 [UPGRADE:DreadHelmet]
@@ -65889,7 +65889,7 @@ Guardians of Caras Galadhon
 
 
 [CONTROLBAR:TooltipCarasGaladhonLeadership]
-Modifier Type: Leadership \n The Sentinels gain +15% armor near structures \n and grant nearby structures +50% armor \n Stacks with Buffs and Spells \n \n Passive ability
+Modifier Type: Leadership \n The Sentinels gain +15% armour near structures \n and grant nearby structures +50% armour \n Stacks with Buffs and Spells \n \n Passive ability
 
 
 [CONTROLBAR:PurchaseTunnelCollapse]
@@ -65921,7 +65921,7 @@ The seasoned warriors sing a song of past victories \nMacari temporarily gain +3
 
 
 [CONTROLBAR:ToolTipSongForVictoryGlaivesmen]
-The seasoned warriors sing a song of past victories  \nEhtyari temporarily gain +33% Armor\nLeft click to activate
+The seasoned warriors sing a song of past victories  \nEhtyari temporarily gain +33% armour\nLeft click to activate
 
 
 [CONTROLBAR:ToolTipSongForVictoryArchers]
@@ -65945,7 +65945,7 @@ Wild Charge (&W)
 
 
 [CONTROLBAR:ToolTipWildCharge]
-Requires Level 2 \n The Outriders temporarily gain increased +25% Speed and Trample at the cost of -25% Armor
+Requires Level 2 \n The Outriders temporarily gain increased +25% Speed and Trample at the cost of -25% armour
 
 
 [CONTROLBAR:ThickSkull]
@@ -65953,7 +65953,7 @@ Thick Skull (&W)
 
 
 [CONTROLBAR:ToolTipThickSkull]
-Requires Level 2\nFor 15 seconds, the Troll gains +100 damage against structures\nbut loses -15% armor \n Left click to activate
+Requires Level 2\nFor 15 seconds, the Troll gains +100 damage against structures\nbut loses -15% armour \n Left click to activate
 
 
 [OBJECT:WildLodge]
@@ -66021,7 +66021,7 @@ Mark of Freca (&C)
 
 
 [CONTROLBAR:ToolTipMarkOfFreca]
-Requires Level 6 \n The Helmingas grant the Mark of Freca to an enemy unit, \n causing them to flee in fear and lose -33% armor \n Left click on icon then left click on target battalion
+Requires Level 6 \n The Helmingas grant the Mark of Freca to an enemy unit, \n causing them to flee in fear and lose -33% armour \n Left click on icon then left click on target battalion
 
 
 [CONTROLBAR:SurrenderArms]
@@ -66109,7 +66109,7 @@ Focus: Wolves of Isengard (&T)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusWarg]
-Select to activate \n Provides bonuses to Warg Riders \n +30% Damage, +20% Armor, +100% Combat Experience \n Decreases price by 25%
+Select to activate \n Provides bonuses to Warg Riders \n +30% Damage, +20% armour, +100% Combat Experience \n Decreases price by 25%
 
 
 [CONTROLBAR:SpecialAbilityIsengardFocusSiege]
@@ -66234,7 +66234,7 @@ This Day We Fight!
 
 
 [CONTROLBAR:TooltipCampaignGloriousCharge]
-Modifier Type: Buff \n Heroes and cavalry gain +50% Damage and +150% Armor \n No force can slow this charge \n Stacks with Leadership and Spells \n Left click icon then left click on target units
+Modifier Type: Buff \n Heroes and cavalry gain +50% Damage and +150% armour \n No force can slow this charge \n Stacks with Leadership and Spells \n Left click icon then left click on target units
 
 
 [TOOLTIP:Mansblood]
@@ -66266,7 +66266,7 @@ Purchase Thick Skin (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeThickSkin]
-Long exposure to punishment results in thick skin \n Grants +33% armor
+Long exposure to punishment results in thick skin \n Grants +33% armour
 
 
 [TOOLTIP:IronFist]
@@ -66381,7 +66381,7 @@ Lone Scout
 
 
 [CONTROLBAR:TooltipLoneScoutLeadership]
-Modifier Type: Buff \n The Outrider grants nearby units +15% Speed, +25% Armor and +25% Damage \n Stacks with Leaderships and Spells \n \n Passive ability
+Modifier Type: Buff \n The Outrider grants nearby units +15% Speed, +25% armour and +25% Damage \n Stacks with Leaderships and Spells \n \n Passive ability
 
 
 [CONTROLBAR:FrodoMithrilShirt]
@@ -66389,7 +66389,7 @@ Mithril Shirt
 
 
 [CONTROLBAR:TooltipFrodoMithrilShirt]
-Requires Level 3 \n Frodo receives his shirt of mithril mail \n granting him +50% armor \n \n Passive ability
+Requires Level 3 \n Frodo receives his shirt of mithril mail \n granting him +50% armour \n \n Passive ability
 
 
 [OBJECT:Lindir]
@@ -66669,7 +66669,7 @@ Heavy Duty
 
 
 [CONTROLBAR:ToolTipGuldurHeavyDuty]
-Requires Level 2\nWhen a Tomb Guard dies, nearby Tomb Guard temporarily gain +15% Armor \n Stackable\n Passive ability
+Requires Level 2\nWhen a Tomb Guard dies, nearby Tomb Guard temporarily gain +15% armour \n Stackable\n Passive ability
 
 
 [OBJECT:GuldurHarbinger]
@@ -67021,7 +67021,7 @@ Forlorn Statue
 
 
 [OBJECT:GuldurStatueExpansionDescription]
-Nearby enemies suffer -25% damage and -20% armor \n Causes enemy units to flee in terror \n Can summon a horde of skeletal warriors onto enemy battalions and siege engines
+Nearby enemies suffer -25% damage and -20% armour \n Causes enemy units to flee in terror \n Can summon a horde of skeletal warriors onto enemy battalions and siege engines
 
 
 [CONTROLBAR:ConstructGuldurStatueExpansion]
@@ -67029,7 +67029,7 @@ Forlorn Statue Expansion (&R)
 
 
 [CONTROLBAR:ToolTipConstructGuldurStatueExpansion]
-Nearby enemies suffer -25% damage and -20% armor \n Causes enemy units to flee in terror \n May purchase Restless Bones upgrade, which allows the Forlorn Statue to summon a horde of skeletal warriors onto enemy battalions and siege engines
+Nearby enemies suffer -25% damage and -20% armour \n Causes enemy units to flee in terror \n May purchase Restless Bones upgrade, which allows the Forlorn Statue to summon a horde of skeletal warriors onto enemy battalions and siege engines
 
 
 [CONTROLBAR:PurchaseGuldurRestlessBones]
@@ -67202,7 +67202,7 @@ Dark Memories (&R)
 
 
 [CONTROLBAR:ToolTipThrainLeadership]
-Requires Level 2\nBroken Rabble near Thráin gain \n+50% experience and +50% armor\nPassive ability \n\n At level 7, targeted Broken Rabble gain large experience \n Left click then left click on target units
+Requires Level 2\nBroken Rabble near Thráin gain \n+50% experience and +50% armour\nPassive ability \n\n At level 7, targeted Broken Rabble gain large experience \n Left click then left click on target units
 
 
 [CONTROLBAR:ThrainNoEscape]
@@ -67506,7 +67506,7 @@ Carnage
 
 
 [CONTROLBAR:ToolTipGuldurCarnage]
-Modifier Type: Buff \n Target allies gain +75% Damage, at the cost of -25% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target units
+Modifier Type: Buff \n Target allies gain +75% Damage, at the cost of -25% armour \n Stacks with Leadership and Spells \n Left click icon then left click on target units
 
 
 [CONTROLBAR:GuldurMarsh]
@@ -67546,7 +67546,7 @@ Spell of Concealment
 
 
 [CONTROLBAR:TooltipGuldurConcealment]
-Friendly units and structures within the area become stealthed \n Modifier Type: Active Debuff \n Nearby enemy units suffer -33% Damage and -33% Armor\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
+Friendly units and structures within the area become stealthed \n Modifier Type: Active Debuff \n Nearby enemy units suffer -33% Damage and -33% armour\nNullifies enemy Leadership \n Does not stack with other Debuffs \n Left click icon then left click on target area
 
 
 [CONTROLBAR:GuldurDarkHysteria]
@@ -67674,7 +67674,7 @@ Withering Presence
 
 
 [CONTROLBAR:ToolTipGuldurShade]
-The Shade will vanish after summoning a structure \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -15% Speed and -10% Armor \n Does not stack with other Debuffs \n Passive ability
+The Shade will vanish after summoning a structure \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -15% Speed and -10% armour \n Does not stack with other Debuffs \n Passive ability
 
 
 [CONTROLBAR:GuldurShadeDecoy]
@@ -67682,7 +67682,7 @@ Don't Follow the Lights
 
 
 [CONTROLBAR:ToolTipGuldurShadeDecoy1]
-Modifier Type: Passive Debuff \n Nearby enemy units suffer -15% Speed and -10% Armor \n Does not stack with other Debuffs \n Passive ability
+Modifier Type: Passive Debuff \n Nearby enemy units suffer -15% Speed and -10% armour \n Does not stack with other Debuffs \n Passive ability
 
 
 [CONTROLBAR:ToolTipGuldurShadeDecoy2]
@@ -67786,7 +67786,7 @@ Castellan of Dol Guldur
 
 
 [CONTROLBAR:ToolTipCastellanLeadership]
-Provides +25% armor to nearby allied structures \n Attacking enemy units are poisoned and have reduced armor \n Passive ability
+Provides +25% armour to nearby allied structures \n Attacking enemy units are poisoned and have reduced armor \n Passive ability
 
 
 [CONTROLBAR:CastellanIncorporeal]
@@ -67995,7 +67995,7 @@ Morgul Cunning (&R)
 
 
 [CONTROLBAR:ToolTipGorbagMorgulCunning]
-Grows in power as Gorbag levels\nAt rank 1, Gorbag's ranged avoidance is increased\nAt rank 3, Gorbag is able to stealth for a short time - Gorbag loses stealth if he attacks\nAt rank 5, +25% damage for a short time plus prior effects\nAt rank 7, passively gains +25% damage\nAt rank 10, passively gains +25% armor\nLeft click to activate
+Grows in power as Gorbag levels\nAt rank 1, Gorbag's ranged avoidance is increased\nAt rank 3, Gorbag is able to stealth for a short time - Gorbag loses stealth if he attacks\nAt rank 5, +25% damage for a short time plus prior effects\nAt rank 7, passively gains +25% damage\nAt rank 10, passively gains +25% armour\nLeft click to activate
 
 
 [CONTROLBAR:GorbagDropkick]
@@ -68019,7 +68019,7 @@ Loyalty to the Red Eye (&V)
 
 
 [CONTROLBAR:ToolTipGorbagLoyaltyWeapon]
-Requires Level 7\nGorbag passively gains +15% speed\nPassive ability\n\nTargeted enemy hero loses -50% armor for a short time\nLeft click icon then left click on target" ;\nwhile Gorbag gains +50% armor for the duration
+Requires Level 7\nGorbag passively gains +15% speed\nPassive ability\n\nTargeted enemy hero loses -50% armour for a short time\nLeft click icon then left click on target" ;\nwhile Gorbag gains +50% armour for the duration
 
 
 [CONTROLBAR:ShagratTowersCaptain]
@@ -68039,7 +68039,7 @@ Loyalty to Lugbúrz (&T)
 
 
 [CONTROLBAR:ToolTipShagratLeadership]
-Requires Level 5\nNearby Black Uruk Marauders gain +25% armor\nPassive ability\n\nCan be activated to temporarily grant +25% damage to nearby Orc Warriors and Black Uruk Marauders\nas well as knockback damage to Shagrat\nLeft click to activate
+Requires Level 5\nNearby Black Uruk Marauders gain +25% armour\nPassive ability\n\nCan be activated to temporarily grant +25% damage to nearby Orc Warriors and Black Uruk Marauders\nas well as knockback damage to Shagrat\nLeft click to activate
 
 
 [CONTROLBAR:ShagratCovetousUruk]
@@ -68107,11 +68107,11 @@ Morgul Spire (&S)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSpire]
-Requires the Morgul Sorcery upgrade\n Allows recruitment of Morgul Vanguard \n His Deadliest Servants:\nPassively grants +33% Damage and 33% Armor\nto all Nazgul on the battlefield\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% Speed and 50% Armor\nfor 30 seconds\nDuring this time all friendly resource structures are disabled
+Requires the Morgul Sorcery upgrade\n Allows recruitment of Morgul Vanguard \n His Deadliest Servants:\nPassively grants +33% Damage and 33% armour\nto all Nazgul on the battlefield\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% Speed and 50% armour\nfor 30 seconds\nDuring this time all friendly resource structures are disabled
 
 
 [ToolTip:LackMorgulSorcery]
-Requires the Morgul Sorcery upgrade\nHis Deadliest Servants:\nPassively grants +33% Damage and 33% Armor to all Nazgul on the battlefield\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% Speed and 50% Armor\nfor a short time\nDuring this time all friendly resource structures are disabled
+Requires the Morgul Sorcery upgrade\nHis Deadliest Servants:\nPassively grants +33% Damage and 33% armour to all Nazgul on the battlefield\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% Speed and 50% armour\nfor a short time\nDuring this time all friendly resource structures are disabled
 
 
 [CONTROLBAR:MordorFortressDeadliestServants]
@@ -68119,7 +68119,7 @@ His Deadliest Servants
 
 
 [CONTROLBAR:ToolTipMordorFortressDeadliestServants]
-Requires the Morgul Spire upgrade\nGrants +33% Damage and 33% Armor\nto all Nazgul on the battlefield\nPassive ability
+Requires the Morgul Spire upgrade\nGrants +33% Damage and 33% armour\nto all Nazgul on the battlefield\nPassive ability
 
 
 [CONTROLBAR:MordorFortressMorgulSpire]
@@ -68127,7 +68127,7 @@ Beacon of Morgul (&F)
 
 
 [CONTROLBAR:ToolTipMordorFortressMorgulSpire]
-Requires the Morgul Spire upgrade\nAll orcs on the battlefield gain 15% Speed and 50% Armor\nfor a short time\nDuring this time all friendly resource structures are disabled\nLeft click to activate
+Requires the Morgul Spire upgrade\nAll orcs on the battlefield gain 15% Speed and 50% armour\nfor a short time\nDuring this time all friendly resource structures are disabled\nLeft click to activate
 
 
 [CONTROLBAR:GuldurSpireBlight]
@@ -68151,7 +68151,7 @@ Soul Trap (&W)
 
 
 [CONTROLBAR:ToolTipGwanthaurSoulTrap]
-Enemy units within the radius take damage\nIf a unit dies, the Gwanthaur receives +5% armor and damage for a limited time\nLeft click icon then left click on target area
+Enemy units within the radius take damage\nIf a unit dies, the Gwanthaur receives +5% armour and damage for a limited time\nLeft click icon then left click on target area
 
 
 [CONTROLBAR:GwanthaurReclamation]
@@ -68186,7 +68186,7 @@ Chittering Swarm
 
 
 [CONTROLBAR:ToolTipChitteringSwarm]
-Horde Bonus \n Modifier Type: Spell \n All Fell Brood gain +25% damage and +25% armor when gathered in numbers of 40 or more
+Horde Bonus \n Modifier Type: Spell \n All Fell Brood gain +25% damage and +25% armour when gathered in numbers of 40 or more
 
 
 [CONTROLBAR:BitingCold]
@@ -68194,7 +68194,7 @@ Biting Cold
 
 
 [CONTROLBAR:ToolTipBitingCold]
-Nearby enemy units suffer -10% armor and damage\n Debuff increases by 10% with every time Unburied Wights gain a level\nPassive ability
+Nearby enemy units suffer -10% armour and damage\n Debuff increases by 10% with every time Unburied Wights gain a level\nPassive ability
 
 
 [CONTROLBAR:RavenousHunger]
@@ -68210,7 +68210,7 @@ Black Winds (&T)
 
 
 [CONTROLBAR:ToolTipBlackWinds]
-Requires Level 3\nFor 10 seconds, the Unburied Wights gain\n+300% armor, +200% damage, +50% speed and fear immunity\nAfter 10 seconds, the Unburied Wights battalion\nis destroyed\nNearby enemies take damage\nand temporarily lose -15% damage and armour\nLeft click to activate
+Requires Level 3\nFor 10 seconds, the Unburied Wights gain\n+300% armour, +200% damage, +50% speed and fear immunity\nAfter 10 seconds, the Unburied Wights battalion\nis destroyed\nNearby enemies take damage\nand temporarily lose -15% damage and armour\nLeft click to activate
 
 
 [CONTROLBAR:BTKhazadBannerUpgradedPillar]
@@ -68341,7 +68341,7 @@ Dorwinion Red (&T)
 
 
 [CONTROLBAR:ToolTipGalionDorwinionRed]
-Requires Level 3 \n Friendly units within the radius temporarily gain +75% armor but lose -25% attack damage\n Increased radius at levels 5 and 7 \n Left click on icon then left click on target battalion
+Requires Level 3 \n Friendly units within the radius temporarily gain +75% armour but lose -25% attack damage\n Increased radius at levels 5 and 7 \n Left click on icon then left click on target battalion
 
 
 [CONTROLBAR:GalionBadBatch]
@@ -68413,7 +68413,7 @@ Son of Beorn (&W)
 
 
 [CONTROLBAR:ToolTipSonOfBeorn]
-Modifier Type: Leadership\nProvides +33% armor to nearby Beornings\nGrimbeorn deals +33% additional damage against Bolg\nPassive ability\n\nWhen activated, Grimbeorn instills fear into the hearts of all Orc and Warg units for 15 seconds\nLeft click to activate
+Modifier Type: Leadership\nProvides +33% armour to nearby Beornings\nGrimbeorn deals +33% additional damage against Bolg\nPassive ability\n\nWhen activated, Grimbeorn instills fear into the hearts of all Orc and Warg units for 15 seconds\nLeft click to activate
 
 
 [CONTROLBAR:GrimbeornStrongman]
@@ -68445,7 +68445,7 @@ Ursine Soul (&V)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityUrsineSoul]
-Required: Rank 10\n Grimbeorn permanently deals knockback damage \n Passive ability\n\nWhen activated, Grimbeorn transforms into a bear for 90 seconds to wreak havoc among the enemy\ngaining additional +25% damage and +50% armor\nCauses nearby enemies to flee in terror\n Whilst active, Grimbeorn deals +50% additional damage against Bolg\nLeft click to activate
+Required: Rank 10\n Grimbeorn permanently deals knockback damage \n Passive ability\n\nWhen activated, Grimbeorn transforms into a bear for 90 seconds to wreak havoc among the enemy\ngaining additional +25% damage and +50% armour\nCauses nearby enemies to flee in terror\n Whilst active, Grimbeorn deals +50% additional damage against Bolg\nLeft click to activate
 
 
 [OBJECT:MirkwoodRadagast]
@@ -68596,7 +68596,7 @@ Wrath of the Dragon Slayer
 
 
 [CONTROLBAR:ToolTipWrathoftheDragonSlayer]
-Modifier Type: Leadership\nAllies near Frumgar gain +33% damage, +33% armor, earn experience +50% faster and are immune to fear, terror and fire\nStacks with buffs and spells\nPassive ability
+Modifier Type: Leadership\nAllies near Frumgar gain +33% damage, +33% armour, earn experience +50% faster and are immune to fear, terror and fire\nStacks with buffs and spells\nPassive ability
 
 
 [CONTROLBAR:OrcWarVeteran]
@@ -68637,7 +68637,7 @@ A Sign of Good Fortune
 
 
 [CONTROLBAR:ToolTipSGoodFortune]
-Modifier Type: Spell \n Nearby friendly units gain +300% armor and resistance to fear and terror \n Stacks with Leaderships and Buffs \n Passive ability
+Modifier Type: Spell \n Nearby friendly units gain +300% armour and resistance to fear and terror \n Stacks with Leaderships and Buffs \n Passive ability
 
 
 [CONTROLBAR:FeyWisdom]
@@ -68866,7 +68866,7 @@ Enchanted River (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMirkwoodFortressBanners]
-Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +25% Armor, and earn experience 50% faster \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces the cost of builders by 20%
+Modifier Type: Leadership \n Allies near the Fortress gain +33% Damage, +25% armour, and earn experience 50% faster \n Stacks with Buffs and Spells \n\nReduces Hero cost by 10% \n Reduces Hero recruit time by 10% \n Reduces the cost of builders by 20%
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodFortressHouseOfHealing]
@@ -68882,7 +68882,7 @@ Emperor's Protection (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEmperorProtection]
-Unlocks the Emperor's Protection ability, which when activated causes structures in a wide radius around the fortress to temporarily gain +150% armor against siege, fire and magic damage\nDoesn't affect summoned structures
+Unlocks the Emperor's Protection ability, which when activated causes structures in a wide radius around the fortress to temporarily gain +150% armour against siege, fire and magic damage\nDoesn't affect summoned structures
 
 
 [CONTROLBAR:EmperorProtection]
@@ -68890,7 +68890,7 @@ Emperor's Protection (&S)
 
 
 [CONTROLBAR:TooltipEmperorProtection]
-Requires the Emperor's Protection upgrade\nStructures in a wide radius around the fortress temporarily gain +150% armor against siege, fire and magic damage\nLeft click to activate
+Requires the Emperor's Protection upgrade\nStructures in a wide radius around the fortress temporarily gain +150% armour against siege, fire and magic damage\nLeft click to activate
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodFortressGarrison]
@@ -68906,7 +68906,7 @@ Tribute to Oromë (&D)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressOromeTribute]
-Requires the Silvan Garrison upgrade\nNearby units gain +33% attack damage\nPassive ability\nUnlocks recruitment of Gilded Guard\nUnlocks the Horn of Tauron ability, which when activated causes enemies near the fortress to lose 50% armor and flee in terror
+Requires the Silvan Garrison upgrade\nNearby units gain +33% attack damage\nPassive ability\nUnlocks recruitment of Gilded Guard\nUnlocks the Horn of Tauron ability, which when activated causes enemies near the fortress to lose 50% armour and flee in terror
 
 
 [CONTROLBAR:HornOfTauron]
@@ -68914,7 +68914,7 @@ Horn of Tauron (&D)
 
 
 [CONTROLBAR:TooltipHornOfTauron]
-Requires the Tribute to Oromë upgrade\nCauses enemies near the fortress to lose 50% armor\nand flee in terror\nLeft click to activate
+Requires the Tribute to Oromë upgrade\nCauses enemies near the fortress to lose 50% armour\nand flee in terror\nLeft click to activate
 
 
 [CONTROLBAR:ConstructMirkwoodWatchtowerExpansion]
@@ -69086,7 +69086,7 @@ Call of the Wild (&W)
 
 
 [CONTROLBAR:ToolTipCallOfTheWild]
-All nearby heroes gain +15% attack damage,\n 15% movement speed and +15% armor\nPassive ability\n\nWhen activated, the Gilded Guard sound their horns,\ncausing friendly kills to generate resources for a limited time\nLeft click to activate
+All nearby heroes gain +15% attack damage,\n 15% movement speed and +15% armour\nPassive ability\n\nWhen activated, the Gilded Guard sound their horns,\ncausing friendly kills to generate resources for a limited time\nLeft click to activate
 
 
 [CONTROLBAR:WeepingBlades]
@@ -69102,7 +69102,7 @@ Fury of Nahar (&T)
 
 
 [CONTROLBAR:TooltipFuryOfNahar]
-Requires Level 6\n The Gilded Guard commence a great charge and gain\n+40% Speed, +50% Armor and glide past enemies like the wind \n Left click to activate
+Requires Level 6\n The Gilded Guard commence a great charge and gain\n+40% Speed, +50% armour and glide past enemies like the wind \n Left click to activate
 
 
 [OBJECT:WoodmenMarksmen]
@@ -69270,7 +69270,7 @@ Evasion (&R)
 
 
 [CONTROLBAR:ToolTipSilvanEscape]
-Requires Level 2\nSilvan units temporarily gain 25% armor,\n 10% speed and knockback resistance\nLeft click to activate
+Requires Level 2\nSilvan units temporarily gain 25% armour,\n 10% speed and knockback resistance\nLeft click to activate
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodWarriorHorde]
@@ -69306,7 +69306,7 @@ Woodland Feast
 
 
 [OBJECT:WoodlandFeastDescription]
-Heals nearby units and grants them +50% armor
+Heals nearby units and grants them +50% armour
 
 
 
@@ -69400,7 +69400,7 @@ Horn of the Gate
 
 
 [CONTROLBAR:TooltipRallyingCallMirkwood]
-Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% Armor \n Stacks with Leadership and Spells \n Left click icon then left click on target units
+Modifier Type: Buff \n Targeted allies gain +50% Damage and +50% armour \n Stacks with Leadership and Spells \n Left click icon then left click on target units
 
 
 [CONTROLBAR:FarsightMirkwood]
@@ -69448,7 +69448,7 @@ Elvenking's Feast
 
 
 [CONTROLBAR:TooltipElvenkingFeast]
-Summons one of Thranduil's famous woodland feasts\nUnits near it gain +50% armor and heal\nLeft click icon then left click on target location
+Summons one of Thranduil's famous woodland feasts\nUnits near it gain +50% armour and heal\nLeft click icon then left click on target location
 
 
 [CONTROLBAR:FeastReposition]
@@ -69508,7 +69508,7 @@ Great Hunt of Oromë
 
 
 [CONTROLBAR:ToolTipHuntOfOrome]
-Enemy units within the radius lose -50% armor\nand -50% damage\nHeroes within the radius have their cooldown timers recharged and are moderately healed\nAll friendly units on the battlefield may temporarily\ntrample enemies\nAll cavalry units on the battlefield gains +50% armor\nagainst spearmen\nLeft click icon then left click on target units
+Enemy units within the radius lose -50% armour\nand -50% damage\nHeroes within the radius have their cooldown timers recharged and are moderately healed\nAll friendly units on the battlefield may temporarily\ntrample enemies\nAll cavalry units on the battlefield gains +50% armour\nagainst spearmen\nLeft click icon then left click on target units
 
 
 [CONTROLBAR:SummonWhiteStag]
@@ -69617,7 +69617,7 @@ Art of War (&R)
 
 
 [CONTROLBAR:ToolTipArtOfWar]
-For 20 seconds, Kinn-lai Warriors gain +15% Armor\nand reflect a portion of damage dealt to them\nLeft click to activate
+For 20 seconds, Kinn-lai Warriors gain +15% armour\nand reflect a portion of damage dealt to them\nLeft click to activate
 
 
 [CONTROLBAR:ElvenHealGreenwood]
@@ -69641,7 +69641,7 @@ Horse Mastery (&R)
 
 
 [CONTROLBAR:ToolTipMirkwoodHorseMastery]
-Requires Level 2\n Outriders temporarily gain +50% Armor and +20% Speed \n Left click to activate
+Requires Level 2\n Outriders temporarily gain +50% armour and +20% Speed \n Left click to activate
 
 
 [CONTROLBAR:UrsineBlood]
@@ -69680,7 +69680,7 @@ Requires level 2 \n Palace Guards grant Legolas and Thranduil +10% armour, up to
 
 
 [CONTROLBAR:ToolTipToggleMirkwoodSlayersLooseFormation]
-+50% Attack Speed\n-25% Armor
++50% Attack Speed\n-25% armour
 
 
 [CONTROLBAR:ToggleMirkwoodWarriorsBlockFormation]
@@ -69688,11 +69688,11 @@ Block Formation (&W)
 
 
 [CONTROLBAR:ToolTipToggleMirkwoodWarriorsBlockFormation]
-+33% Armor\n-40% Speed
++33% armour\n-40% Speed
 
 
 [CONTROLBAR:ToolTipToggleSindarNoblesLineFormation]
-+15% Speed \n +15% Damage \n -15% Armor
++15% Speed \n +15% Damage \n -15% armour
 
 
 [UPGRADE:LoyalCompanions]
@@ -69748,7 +69748,7 @@ Warding Stones
 
 
 [OBJECT:WardingStonesDescription]
-Friendly units within the circle receive +33% armor
+Friendly units within the circle receive +33% armour
 
 
 [CONTROLBAR:WardingStones]
@@ -69756,7 +69756,7 @@ Warding Stones (&T)
 
 
 [CONTROLBAR:TooltipWardingStones]
-Places a temporary circle of Warding Stones \n Friendly units within the circle receive +33% armor \n Left click icon then left click on target area
+Places a temporary circle of Warding Stones \n Friendly units within the circle receive +33% armour \n Left click icon then left click on target area
 
 
 [UPGRADE:WardingStones]
@@ -69772,7 +69772,7 @@ Purchase Warding Stones (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWardingStones]
-Allows Druid to use the Warding Stones ability \n Places a temporary circle of Warding Stones \n Friendly units within the circle receive +33% armor
+Allows Druid to use the Warding Stones ability \n Places a temporary circle of Warding Stones \n Friendly units within the circle receive +33% armour
 
 
 [CONTROLBAR:RitualofOak]
@@ -69804,7 +69804,7 @@ Potion of Potency (&V)
 
 
 [CONTROLBAR:ToolTipPotionofPotency]
-Modifier Type: Spell \n Targeted hero is partially healed\nand gains +25% armor for 30 seconds\n Stacks with Leadership and Spells \n Left click icon then left click on target hero
+Modifier Type: Spell \n Targeted hero is partially healed\nand gains +25% armour for 30 seconds\n Stacks with Leadership and Spells \n Left click icon then left click on target hero
 
 
 [UPGRADE:PotionofPotency]
@@ -69820,7 +69820,7 @@ Purchase Potion of Potency (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradePotionofPotency]
-Allows Druid to use the Potion of Potency ability \n Targeted hero is partially healed\nand gains +25% armor for 30 seconds \n Stacks with Leadership and Spells
+Allows Druid to use the Potion of Potency ability \n Targeted hero is partially healed\nand gains +25% armour for 30 seconds \n Stacks with Leadership and Spells
 
 
 [OBJECT:SacredOak]
@@ -70192,13 +70192,13 @@ Modifier Type: Leadership \n Haradrim beneath the shadow of the Aicanaroc get SO
 High Priest of Morgoth
 
 [CONTROLBAR:ToolTipHighPriest]
-Modifier Type: Nullifier \n Nearby enemy units lose -50% armor and -15% movement speed \nPassive ability
+Modifier Type: Nullifier \n Nearby enemy units lose -50% armour and -15% movement speed \nPassive ability
 
 [CONTROLBAR:SacrificialRites]
 Sacrificial &Rites
 
 [CONTROLBAR:ToolTipSacrificialRites]
-Enemy units within the radius take damage\nIf a unit dies, Zigur receives +5% armor and damage for a limited time\nLeft click icon then left click on target area
+Enemy units within the radius take damage\nIf a unit dies, Zigur receives +5% armour and damage for a limited time\nLeft click icon then left click on target area
 
 [CONTROLBAR:FellWhispers]
 Fe&ll Whispers
@@ -70225,7 +70225,7 @@ Pillar of Flames
 Lord of Waves
 
 [CONTROLBAR:ToolTipLordofWaves]
-Modifier Type: Leadership \n Nearby Corsairs gain +15% Armor and Damage and +50% Experience\n At level 5, Burôdapân and nearby Corsairs earn resources per kill \n Passive ability
+Modifier Type: Leadership \n Nearby Corsairs gain +15% armour and Damage and +50% Experience\n At level 5, Burôdapân and nearby Corsairs earn resources per kill \n Passive ability
 
 [CONTROLBAR:TakeAllYouCan]
 Take All You Can (&R)
@@ -70261,7 +70261,7 @@ Sound the Horn of Kârna (&W)
 Lord of Stones
 
 [CONTROLBAR:ToolTipLordofStones]
-Modifier Type: Leadership \n Nearby Black Númenórean units gain +15% Armor and Damage and +50% Experience
+Modifier Type: Leadership \n Nearby Black Númenórean units gain +15% armour and Damage and +50% Experience
 
 [CONTROLBAR:RuleoftheKingsMen]
 Rule of the King's Men (&T)
@@ -70300,7 +70300,7 @@ Requires Level 3 \n Modifier Type: Debuff \n Nearby enemy units suffer -15% Spee
 Onslaught (&V)
 
 [CONTROLBAR:ToolTipOnslaught]
-Requires Level 8 \n Requires Sûladan to be mounted \n Modifier Type: Spell \n Sûladan and nearby cavalry gain +50% Armor and -100% trample deceleration \n Stacks with Leadership and Spells \n Left click to activate
+Requires Level 8 \n Requires Sûladan to be mounted \n Modifier Type: Spell \n Sûladan and nearby cavalry gain +50% armour and -100% trample deceleration \n Stacks with Leadership and Spells \n Left click to activate
 
 [CONTROLBAR:BeruthielCat]
 Eyes and Ears (&W)
@@ -70318,7 +70318,7 @@ Requires Level 3 \n Modifier Type: Debuff \n Enemy units near the Black Queen ar
 Feigned Hysteria (&T)
 
 [CONTROLBAR:ToolTipFeignedHysteria]
-Requires Level 5 \n Modifier Type: Debuff \n Nearby enemy units temporarily lose all leadership and -25% armor. Berúthiel becomes invisible, allowing her to escape
+Requires Level 5 \n Modifier Type: Debuff \n Nearby enemy units temporarily lose all leadership and -25% armour. Berúthiel becomes invisible, allowing her to escape
 
 [CONTROLBAR:BeruthielEscort]
 Queen's Escort (&C)
@@ -70330,7 +70330,7 @@ Requires Level 8 \n The Black Queen summons two fully armed battalions of Black 
 Mad Chieftain
 
 [CONTROLBAR:ToolTipMadcheiftain]
-Modifier Type: Leadership \n Nearby units do +33% damage at the cost of -33% armor \n At rank 5, damage is increased to 50% \n Stacks with Buffs and Spells
+Modifier Type: Leadership \n Nearby units do +33% damage at the cost of -33% armour \n At rank 5, damage is increased to 50% \n Stacks with Buffs and Spells
 
 [CONTROLBAR:BreakerofStone]
 Breaker of Stone (&R)
@@ -70354,13 +70354,13 @@ Requires Level 8 \n Once Caran-Lambar's health reaches less than 20% he goes int
 Personal Guard (&R)
 
 [CONTROLBAR:ToolTipPersonalGuard]
-The Golden King is always accompanied by three fierce warriors \n Passive ability \n When activated, the guards temporarily gain +200% Damage at the cost of 50% Armor \n Left click to activate
+The Golden King is always accompanied by three fierce warriors \n Passive ability \n When activated, the guards temporarily gain +200% Damage at the cost of 50% armour \n Left click to activate
 
 [CONTROLBAR:TheGoldenKingLeadership]
 The Golden King
 
 [CONTROLBAR:ToolTipTheGoldenKingLeadership]
-Modifier Type: Leadership Nearby units gain +33% armor and +200% experience gain \n Passive ability \n Stacks with Buffs and Spells \n when near the Black Vizier, the Golden King gains +25% experience and attack damage \n Passive ability
+Modifier Type: Leadership Nearby units gain +33% armour and +200% experience gain \n Passive ability \n Stacks with Buffs and Spells \n when near the Black Vizier, the Golden King gains +25% experience and attack damage \n Passive ability
 
 [CONTROLBAR:LordofAbrakhan]
 Lord of Abrakhân (&T)
@@ -70378,13 +70378,13 @@ Requires Level 7 \n Causes enemy units to flee in terror \n Left click to activa
 The King Unmasked (&V)
 
 [CONTROLBAR:ToolTipTheKingUnmasked]
-Requires Level 10 and The Black Tower of Abrakhân Fortress upgrade \n Modifier Type: Debuff \n The Golden King of Harad reveals himself to be Hoarmurath, Third of the Nine. Nearby enemies lose -33% Armor and -33% Damage. Hoarmurath gains +50% Damage \n Does not stack with other Debuffs \nPassive ability  \n When activated, a dark mist surrounds the Golden King. Enemies caught within the mist are slowed by 33%,  lose -33% Armor and -33% Damage and their leaderships are removed \n Modifier Type: Spell \n Left click to activate \n MIST DEBUFF AND DARK TOWER REQUISITE NOT IMPLEMENTED
+Requires Level 10 and The Black Tower of Abrakhân Fortress upgrade \n Modifier Type: Debuff \n The Golden King of Harad reveals himself to be Hoarmurath, Third of the Nine. Nearby enemies lose -33% armour and -33% Damage. Hoarmurath gains +50% Damage \n Does not stack with other Debuffs \nPassive ability  \n When activated, a dark mist surrounds the Golden King. Enemies caught within the mist are slowed by 33%,  lose -33% armour and -33% Damage and their leaderships are removed \n Modifier Type: Spell \n Left click to activate \n MIST DEBUFF AND DARK TOWER REQUISITE NOT IMPLEMENTED
 
 [CONTROLBAR:GoldenKingVizierLeadership]
 Golden King's Vizier
 
 [CONTROLBAR:ToolTipGoldenKingVizierLeadership]
-Modifier Type: Leadership \n Units recruited from the Golden King's Pavillion gain +50% Experience, +25% Armor and +33% Damage \n Rank 3: leadership expands to include Mahûd units \n  Rank 6: leadership expands to include Harondor units \n Rank 10: Leadership expands to include Black Númenorean units and Watchers of Kârna \n\n When near the Golden King, the Black Vizier gains +100% armor \nPassive ability
+Modifier Type: Leadership \n Units recruited from the Golden King's Pavillion gain +50% Experience, +25% armour and +33% Damage \n Rank 3: leadership expands to include Mahûd units \n  Rank 6: leadership expands to include Harondor units \n Rank 10: Leadership expands to include Black Númenorean units and Watchers of Kârna \n\n When near the Golden King, the Black Vizier gains +100% armour \nPassive ability
 
 [CONTROLBAR:VizierEnforcer]
 Enforcer (&R)
@@ -70447,7 +70447,7 @@ Requires Level 2\n Modifier Type: Weapon \n Mahûd Warriors gain +50% damage and 
 Chieftain's Banner
 
 [CONTROLBAR:ToolTipMahudChiefLeadership]
-The presence of Mahûd Chieftains decreases the cost of Mûmakil by 5% for each Mahûd on the field, up to a maximum of 20% \n Mahûd Chieftains can garrison War Mûmaks for +20% Speed THIS PART NOT IN YET \n Modifier Type: Spell \nNearby Mahûd troops receive +10% armor every time the Chieftain deals damage, up to a maximum of 40% \nAt rank 3, also receive +10% damage per swing.\nPassive ability
+The presence of Mahûd Chieftains decreases the cost of Mûmakil by 5% for each Mahûd on the field, up to a maximum of 20% \n Mahûd Chieftains can garrison War Mûmaks for +20% Speed THIS PART NOT IN YET \n Modifier Type: Spell \nNearby Mahûd troops receive +10% armour every time the Chieftain deals damage, up to a maximum of 40% \nAt rank 3, also receive +10% damage per swing.\nPassive ability
 
 [CONTROLBAR:PurchaseChiefTametheBeast]
 Purchase &Tame the Beast
@@ -70959,7 +70959,7 @@ Stern Gaze
 
 
 [CONTROLBAR:TooltipDreadMask]
-Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% Armor \n Does not stack with other Debuffs \n Passive ability
+Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% armour \n Does not stack with other Debuffs \n Passive ability
 
 
 [CONTROLBAR:RisenCarrionDebuff]
@@ -71015,7 +71015,7 @@ Accursed Bastion (&R)
 
 
 [CONTROLBAR:ToolTipAccursedBastion]
-Requires Rank 4 \n For 15 seconds, Nafârati Marauders gain +50% Armor and +50% Damage, but lose -33% Speed. When Accursed Bastion ends, all nearby enemies are moderately knocked back\n Left click to activate
+Requires Rank 4 \n For 15 seconds, Nafârati Marauders gain +50% armour and +50% Damage, but lose -33% Speed. When Accursed Bastion ends, all nearby enemies are moderately knocked back\n Left click to activate
 
 
 [CONTROLBAR:ToolTipToggleWatchersofKarnaWeapons]
@@ -71035,7 +71035,7 @@ Predictable (&T)
 
 
 [CONTROLBAR:ToolTipPredictable]
-Requires Level 5 \n The calm nature of the Watchers allows them to predict and counter enemy strikes \n For 20 seconds, they gain +50% Armor, +50% Speed\nand reflect a portion of damage dealt to them\nLeft click to activate
+Requires Level 5 \n The calm nature of the Watchers allows them to predict and counter enemy strikes \n For 20 seconds, they gain +50% armour, +50% Speed\nand reflect a portion of damage dealt to them\nLeft click to activate
 
 
 [CONTROLBAR:Submit]
@@ -71111,7 +71111,7 @@ Sauron's Reward (&T)
 
 
 [CONTROLBAR:ToolTipSauronsReward]
-Requires the Hegemony upgrade\nPermanently empowers targeted hero with +33% Armor and +33% Damage \n Does not work on the Golden King\nLeft click on icon, then left click on target hero
+Requires the Hegemony upgrade\nPermanently empowers targeted hero with +33% armour and +33% Damage \n Does not work on the Golden King\nLeft click on icon, then left click on target hero
 
 
 [CONTROLBAR:ConstructSanctumofZigur]
@@ -71178,7 +71178,7 @@ Zealotry (&R)
 
 
 [CONTROLBAR:TooltipCultistsZealotry]
-Modifier Type: Spell\n Targeted friendly units temporarily gain +50% attack and lose -75% armor \n Stacks With Buffs, Leadership and other Spells\n Left click icon then left click on target area
+Modifier Type: Spell\n Targeted friendly units temporarily gain +50% attack and lose -75% armour \n Stacks With Buffs, Leadership and other Spells\n Left click icon then left click on target area
 
 
 [CONTROLBAR:CultistsHeartsofFire]
