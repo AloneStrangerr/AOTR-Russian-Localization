@@ -17323,7 +17323,7 @@ Default Formation (&W)
 
 
 [CONTROLBAR:ToolTipToggleSnowbourneLineFormation]
-+15% Speed \n +15% Armor \n -15% Crush velocity
++20% damage, +20% armour and +20% speed \n +50% trample deceleration
 
 
 [CONTROLBAR:ToolTipToggleSnowbourneDefualtFormation]
@@ -17331,7 +17331,7 @@ The units return to standard formation
 
 
 [CONTROLBAR:ToolTipToggleWedgeFormation]
-+25% Damage \n -25% Armor
++25% damage \n -25% armour
 
 
 [CONTROLBAR:ToolTipToggleLineFormation]
@@ -17342,8 +17342,24 @@ Default Line Formation (&W)
 Porcupine Formation (&W)
 
 
+[CONTROLBAR:ToggleTribalPorcupineFormation]
+Porcupine Formation (&T)
+
+
+[CONTROLBAR:ToggleTribalLineFormation]
+Default Line Formation (&T)
+
+
+[CONTROLBAR:ToggleTombGuardPorcupineFormation]
+Porcupine Formation (&R)
+
+
 [CONTROLBAR:TogglePhalanxFormation]
 Phalanx Formation (&W)
+
+
+[CONTROLBAR:ToggleMorgulPikeFormation]
+Pikes in Front! (&W)
 
 
 [CONTROLBAR:ToggleSchiltronFormation]
@@ -17355,15 +17371,21 @@ Square Formation (&W)
 
 
 [CONTROLBAR:ToolTipTogglePorcupineFormation]
--40% Speed \n +25% Armor \n Bonus damage vs cavalry
+-40% speed \n +25% armour \n Bonus damage vs cavalry
 
 
 [CONTROLBAR:ToggleSpearWallFormation]
 Spear Wall Formation (&W)
 
 
+[CONTROLBAR:ToggleFountainGuardFormation]
+Spear Wall Formation (&W)
 [CONTROLBAR:ToolTipToggleSpearWallFormation]
--35% Speed \n +33% Armor \n Resistance to Trample \n Bonus damage vs cavalry
+-35% speed \n +33% armour \n Resistance to Trample \n Bonus damage vs cavalry
+
+
+[CONTROLBAR:ToolTipToggleGundabadFormation]
+-35% speed \n -20% damage \n +33% armour \n Resistance to Trample \n Bonus damage vs cavalry
 
 
 [CONTROLBAR:ToggleBroadShieldsFormation]
@@ -17374,8 +17396,20 @@ Broad Shields Formation (&W)
 Shield Wall Formation (&W)
 
 
+[CONTROLBAR:ToggleBlockFormationOathsworn]
+Shield Wall Formation (&R)
+
+
+[CONTROLBAR:ToggleHarondorLineFormation]
+Line Formation (&W)
+
+
+[CONTROLBAR:ToggleCrescentFormation]
+Crescent Formation (&W)
+
+
 [CONTROLBAR:ToolTipToggleBlockFormation]
--40% Speed \n +25% Armor
+-40% speed \n +25% armour
 
 
 [CONTROLBAR:ToggleElvenWarriorWeapons]
@@ -17414,6 +17448,10 @@ Alterna&te Weapon
 Left click to switch weapons
 
 
+[CONTROLBAR:ToolTipToggleGaladhrimnWarriorWeapons]
+Left click to switch weapons \n Significantly increases armour against swordsmen and pikemen when wielding swords
+
+
 [CONTROLBAR:ToolTipToggleRohirrimWeapons]
 Left click to switch weapons
 
@@ -17422,8 +17460,20 @@ Left click to switch weapons
 Requires Level 3 \n Left click to switch weapons
 
 
+[CONTROLBAR:PurchaseUpgradeNimrodelBow]
+Equip Bows (&W)
+
+
+[CONTROLBAR:UpgradeNimrodelBow]
+Bows Equipped
+
+
+[CONTROLBAR:ToolTipUpgradeNimrodelBow]
+Bows are permanently equipped\nPassive ability
+
+
 [CONTROLBAR:ToolTipToggleNimrodelWeapons]
-Requires Level 2 \n Left click to switch weapons
+Permanently equips Riders of the Naith with bows
 
 
 [CONTROLBAR:ToolTipToggleGondorRangerWeapons]
@@ -17443,7 +17493,7 @@ Give Forged Blades upgrade to target battalion\nLeft click icon then left click 
 
 
 [CONTROLBAR:ToolTipPorterGiveRohanHA]
-Give Heavy Armor upgrade to target battalion\nLeft click icon then left click on target
+Give Heavy Armour upgrade to target battalion\nLeft click icon then left click on target
 
 
 [CONTROLBAR:ToolTipPorterGiveRohanFA]
@@ -17466,11 +17516,11 @@ Chief of the Istari (&W)
 
 
 [CONTROLBAR:ToolTipWizardBlast]
-Dismounted: Close range attack that blasts back enemies\n Left click icon then left click on target \n\n Mounted: Targeted enemy hero is stunned for 10 seconds and takes damage\n Left click icon then left click on target \n\n Modifier Type: Leadership \n Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Passive ability \n \n Shield Bubble \n Gandalf occasionally gains +300% armor and resistance to knockback when attacked \n Passive ability but can be manually activated using the shortcut (U)
+Dismounted: Close range attack that blasts back enemies\n Left click icon then left click on target \n\n Mounted: Targeted enemy hero is stunned for 10 seconds and takes damage\n Left click icon then left click on target \n\n Modifier Type: Leadership \n Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to fear and terror\n Passive ability \n \n Shield Bubble \n Gandalf occasionally gains +75% armour and resistance to knockback when attacked\nBubble lasts for 20 seconds and cannot be activated again for 90 seconds\n Passive ability but can be manually activated using the shortcut (U)
 
 
 [CONTROLBAR:ToolTipWizardBlastCampaign]
-Close range attack that blasts back enemies\n Left click icon then left click on target \n\n Modifier Type: Leadership \n Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to Fear and Terror \n Stacks with Buffs and Spells \n Passive ability \n\n Shield Bubble \n Gandalf occasionally gains +300% armor and resistance to knockback when attacked \n Passive ability but can be manually activated using the shortcut (U)
+Close range attack that blasts back enemies\n Left click icon then left click on target \n\n Modifier Type: Leadership \n Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to fear and terror\nPassive ability \n\n Shield Bubble \n Gandalf occasionally gains +300% armour and resistance to knockback when attacked\nBubble lasts for 20 seconds and cannot be activated again for 60 seconds\n Passive ability but can be manually activated using the shortcut (U)
 
 
 [CONTROLBAR:WordofPower]
@@ -17478,7 +17528,7 @@ You Shall Not Pass (&V)
 
 
 [CONTROLBAR:ToolTipWordofPower]
-Requires Level 10 \n Blasts back and stuns units in a wide radius surrounding Gandalf for 10 seconds\n Left click to activate
+Requires Level 10 \n Blasts back and damages units and heroes in a wide radius surrounding Gandalf \n Left click to activate
 
 
 [CONTROLBAR:Shadowfax]
@@ -17490,7 +17540,7 @@ Mount / Dismount (&W)
 
 
 [CONTROLBAR:ToolTipMount]
-Left click to mount horse \n When mounted +25% Armor vs. Footmen and Cavalry \n When mounted -50% Armor vs. Archers and Pikemen \n When mounted 100% more damage from archers and pikemen
+Left click to mount horse \n When mounted +25% armour vs. Footmen and Cavalry \n When mounted -50% Armor vs. Archers and Pikemen \n When mounted 100% more damage from archers and pikemen
 
 
 [CONTROLBAR:UseSword]
@@ -17523,6 +17573,11 @@ Causes enemy units to flee \n Left click to activate
 
 [CONTROLBAR:PalantirVision]
 Vision of the Palantir
+
+
+[CONTROLBAR:DarkDivination]
+Dark Divination
+
 
 
 [CONTROLBAR:FarSeeing]
@@ -17578,7 +17633,7 @@ Becomes invisible when standing still \n Left click to activate
 
 
 [CONTROLBAR:ToolTipElvenCloakCampaign]
-Becomes invisible when standing still \n Also passively grants +10% armor to all nearby hobbit heroes \n Left click to activate
+Becomes invisible when standing still \n Also passively grants +10% armour to all nearby hobbit heroes \n Left click to activate
 
 
 [CONTROLBAR:ToolTipElvenCloakBasicUnit]
