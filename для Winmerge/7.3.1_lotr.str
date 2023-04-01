@@ -23065,11 +23065,11 @@ Golden Wood Pasture
 
 
 [OBJECT:ElvenGreenPastureDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:ElvenBarracksDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:ElvenOrchardDescription]
@@ -23077,11 +23077,11 @@ Reduces cost of cavalry\n 2 Orchards: 10%\n 3 Orchards: 15% \n 4 Orchards: 20%\n
 
 
 [OBJECT:DwarvenBarracksDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:DwarvenArcheryRangeDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:DwarvenForgeWorksDescription]
@@ -23105,27 +23105,27 @@ Reduces cost of cavalry\n 2 Farms: 10%\n 3 Farms: 15% \n 4 Farms: 20%\n 5 Farms:
 
 
 [OBJECT:GondorBarracksDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:RohanBarracksDescription]
-Generates resources based on available terrain\nLevel 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Generates resources based on available terrain\nLevel 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:GondorArcheryRangeDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:RohanArcheryRangeDescription]
-Generates resources based on available terrain\nLevel 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Generates resources based on available terrain\nLevel 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:GondorStablesDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:GondorWorkshopDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:GondorStoneworkerDescription]
@@ -23145,23 +23145,23 @@ Defensive tower that fires arrows at nearby enemies
 
 
 [OBJECT:MordorOrcPitDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:MordorTrollCageDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:MordorGreatSiegeWorksDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:MordorHaradrimPalaceDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:MordorMumakilPenDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:LumberMillDescription]
@@ -23169,19 +23169,19 @@ Harvests resources from nearby trees \n Reduces cost of buildings\n 2 Lumber Mil
 
 
 [OBJECT:IsengardUrukPitDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:IsengardSiegeWorksDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:IsengardWargPitDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:GoblinCaveDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [APT:BirthDateTitle]
@@ -26011,7 +26011,7 @@ Erebor Workshop
 
 
 [OBJECT:DwarvenWorkshopDescription]
-Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed
+Rank 2: +25% faster build speed \n Rank 3: +50% faster build speed
 
 
 [CONTROLBAR:ConstructDwarvenMineShaft]
@@ -26215,7 +26215,7 @@ Raven Banners (&S)
 
 
 [CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToBanners]
-Raven Banners \n Grants +33% Range and +50% experience gain to nearby infantry and siege machines
+Raven Banners \n Grants +33% range and +50% experience gain to nearby infantry and siege machines
 
 
 [CONTROLBAR:DwarvenWallBannersButton]
@@ -26223,7 +26223,7 @@ Raven Banners \n Grants +33% Range and +50% experience gain to nearby infantry a
 
 
 [CONTROLBAR:TooltipDwarvenWallBannersButton]
-Raven Banners \n Grants +33% Range and +50% experience gain to nearby infantry and siege machines
+Raven Banners \n Grants +33% range and +50% experience gain to nearby infantry and siege machines
 
 
 [CONTROLBAR:Command_DwarvenWallUpgradeToRegularGate]
@@ -26405,11 +26405,11 @@ Upgrade Hall of Warriors to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel3]
-+25% Faster Build Speed \n Adds Defensive Guard Tower
++25% faster build speed \n Adds Defensive Guard Tower
 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel3_WOTR]
-+25% Faster Build Speed \n Adds Defensive Guard Tower
++25% faster build speed \n Adds Defensive Guard Tower
 
 
 [CONTROLBAR:ConstructDwarvenMenOfDale]
@@ -26641,7 +26641,7 @@ Wolf Cairn
 
 
 [OBJECT:WildSpiderPitDescription]
-Level 2: +10% Faster Build Speed \n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed \n Level 3: +25% faster build speed
 
 
 [OBJECT:WildSentryTower]
@@ -26909,7 +26909,7 @@ Upgrade Golden Wood Garrison to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildElvenBarracksLevel2]
-Allows training of Gwahaedhrim, Tawar-na-Thirrad and Edrain-na-Maethyr\n +10% Faster Build Speed
+Allows training of Gwahaedhrim, Tawar-na-Thirrad and Edrain-na-Maethyr\n +10% faster build speed
 
 
 [CONTROLBAR:ConstructElvenStable]
@@ -26922,7 +26922,7 @@ Upgrade Golden Wood Pasture to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildElvenGreenPastureLevel2Upgrade]
-+10% Faster Build Speed
++10% faster build speed
 
 
 [CONTROLBAR:ConstructElvenGreenPastureLevel3Upgrade]
@@ -29354,11 +29354,11 @@ Shortcut: F \n This is the default unit stance \n No bonus \n Units will auto-ac
 
 
 [CONTROLBAR:ToolTipToggleStanceAggressive]
-Shortcut: D \n Swordsmen: +25% damage, -15% armour \n Archers: +20% damage, -20% armour \n Pikemen: +25% damage, -15% armour \n Cavalry: +25% damage, -15% armour \n Siege: +15% Range, -20% armour \n Heroes and Monsters: +10% damage, +10% speed, -20% armour\n\nUnits will auto-acquire enemies when sighted
+Shortcut: D \n Swordsmen: +25% damage, -15% armour \n Archers: +20% damage, -20% armour \n Pikemen: +25% damage, -15% armour \n Cavalry: +25% damage, -15% armour \n Siege: +15% range, -20% armour \n Heroes and Monsters: +10% damage, +10% speed, -20% armour\n\nUnits will auto-acquire enemies when sighted
 
 
 [CONTROLBAR:ToolTipToggleStanceHoldGround]
-Shortcut: G \n Swordsmen: +25% armour, -15% damage \n Archers: +20% armour, -10% damage \n Pikemen: +25% armour, -15% damage \n Cavalry: +25% armour, -15% damage, -15% speed \n Siege: +10% armour, -15% Range \n Heroes and Monsters: +10% armour, -20% damage, -10% speed\n\nUnits will not auto-acquire enemies
+Shortcut: G \n Swordsmen: +25% armour, -15% damage \n Archers: +20% armour, -10% damage \n Pikemen: +25% armour, -15% damage \n Cavalry: +25% armour, -15% damage, -15% speed \n Siege: +10% armour, -15% range \n Heroes and Monsters: +10% armour, -20% damage, -10% speed\n\nUnits will not auto-acquire enemies
 
 
 
@@ -31782,35 +31782,35 @@ Summons several hordes of Wildmen to fight for your side \n Left click icon then
 
 
 [CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel2]
-Allows training of the Armoured Uruk-hai and Uruk Berserker units \n +10% Faster Build Speed
+Allows training of the Armoured Uruk-hai and Uruk Berserker units \n +10% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeIsengardWargPitLevel2]
-+10% Faster Build Speed
++10% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeIsengardWargPitLevel3]
-+25% Faster Build Speed\nGrants an additional Warg to all Warg Sentries\nDoes not stack
++25% faster build speed\nGrants an additional Warg to all Warg Sentries\nDoes not stack
 
 
 [CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel2]
-+10% Faster Build Speed
++10% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3]
-+25% Faster Build Speed
++25% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeMordorSiegeWorksLevel2]
-Allows construction of the Catapults \nHeals nearby damaged siege machines \n +10% Faster Build Speed
+Allows construction of the Catapults \nHeals nearby damaged siege machines \n +10% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeMordorTavernLevel2]
-Allows research of the Forged Blades and Flaming Arrows upgrade \n +10% Faster Build Speed
+Allows research of the Forged Blades and Flaming Arrows upgrade \n +10% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeMordorTavernLevel3]
-Allows research of the Heavy Armor upgrade \n +25% Faster Build Speed
+Allows research of the Heavy Armor upgrade \n +25% faster build speed
 
 
 [CONTROLBAR:TrainAllies]
@@ -46775,25 +46775,25 @@ Allows research of Swan-Feathered Arrows
 Upgrade Bree-land Encampment to Level 2 (&A)
 
 [CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel2Upgrade]
-Level 2: +10% Faster Build Speed \n Allows recruitment of Fatty Bolger and Battering Rams
+Level 2: +10% faster build speed \n Allows recruitment of Fatty Bolger and Battering Rams
 
 [CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel2Upgrade_WOTR]
-Level 2: +10% Faster Build Speed \n Allows recruitment of Battering Rams
+Level 2: +10% faster build speed \n Allows recruitment of Battering Rams
 
 [CONTROLBAR:ConstructArnorArcheryRangeLevel3Upgrade]
 Upgrade Bree-land Encampment to Level 3 (&A)
 
 [CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel3Upgrade]
-Level 3: +25% Faster Build Speed \n Allows recruitment of Farmer Maggot\n Heals nearby damaged siege engines
+Level 3: +25% faster build speed \n Allows recruitment of Farmer Maggot\n Heals nearby damaged siege engines
 
 [CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel3Upgrade_WOTR]
-Level 3: +25% Faster Build Speed \n Heals nearby damaged siege engines
+Level 3: +25% faster build speed \n Heals nearby damaged siege engines
 
 [CONTROLBAR:ConstructArnorBarracks2Upgrade]
 Upgrade Dormitory to Level 2 (&A)
 
 [CONTROLBAR:ToolTipBuildArnorBarracksLevel2Upgrade]
-Level 2: +10% Faster Build Speed  \n Allows recruitment of Quingar
+Level 2: +10% faster build speed  \n Allows recruitment of Quingar
 
 [CONTROLBAR:ConstructArnorBarracksLevel3Upgrade]
 Upgrade Dormitory to Level 3 (&A)
@@ -46814,34 +46814,34 @@ Upgrades weapons and armor \n Generates resources based on available terrain \n 
 
 
 [CONTROLBAR:ToolTipBuildArnorBarracksLevel3Upgrade]
-Level 3: +25% Faster Build Speed \n Allows recruitment of Roquentari and Laurëthelyn
+Level 3: +25% faster build speed \n Allows recruitment of Roquentari and Laurëthelyn
 
 [CONTROLBAR:ToolTipBuildArnorBarracksLevel3Upgrade_WOTR]
-Level 3: +25% Faster Build Speed \n Allows recruitment of Roquentari
+Level 3: +25% faster build speed \n Allows recruitment of Roquentari
 
 [CONTROLBAR:ConstructArnorStable2Upgrade]
 &Upgrade Gathering to Level 2
 
 [CONTROLBAR:ToolTipBuildArnorStableLevel2Upgrade]
-Level 2: +10% Faster Build Speed \n
+Level 2: +10% faster build speed \n
 
 [CONTROLBAR:ConstructArnorStableLevel3Upgrade]
 &Upgrade Gathering to Level 3
 
 [CONTROLBAR:ToolTipBuildArnorStableLevel3Upgrade]
-Level 3: +25% Faster Build Speed
+Level 3: +25% faster build speed
 
 [CONTROLBAR:ConstructArnorWorkshop2Upgrade]
 &Upgrade Siege Works to Level 2
 
 [CONTROLBAR:ToolTipBuildArnorWorkshopLevel2Upgrade]
-Level 2: +10% Faster Build Speed \n Allows research of the Fire Stones upgrade
+Level 2: +10% faster build speed \n Allows research of the Fire Stones upgrade
 
 [CONTROLBAR:ConstructArnorWorkshopLevel3Upgrade]
 &Upgrade Siege Works to Level 3
 
 [CONTROLBAR:ToolTipBuildArnorWorkshopLevel3Upgrade]
-Level 3: +25% Faster Build Speed
+Level 3: +25% faster build speed
 
 
 
@@ -47001,11 +47001,11 @@ Reduces the Cost of Cavalry\n 2 Farms: 10%\n 3 Farms: 15% \n 4 Farms: 20%\n 5 Fa
 
 
 [OBJECT:ArnorBarracksDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:ArnorArcheryRangeDescription]
-Trains Hobbits and Men from Bree \n Level 2: +10% Faster Build Speed \n Level 3: +25% Faster Build Speed
+Trains Hobbits and Men from Bree \n Level 2: +10% faster build speed \n Level 3: +25% faster build speed
 
 
 [OBJECT:ArnorStablesDescription]
@@ -47013,7 +47013,7 @@ Trains Rangers of the Dúnedain
 
 
 [OBJECT:ArnorWorkshopDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:ArnorBlacksmithDescription]
@@ -47754,7 +47754,7 @@ Build Mahûd Outpost (&C)
 
 
 [OBJECT:AngmarDenDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:UpgradeAngmarDenLevel2]
@@ -47806,7 +47806,7 @@ Build &Temple of Twilight
 
 
 [OBJECT:AngmarHallofTwilightDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ToolTipAngmarHallofTwilight]
@@ -47814,11 +47814,11 @@ Trains Sorcerers
 
 
 [CONTROLBAR:TooltipUpgradeAngmarHallofTwilightLevel2]
-Allows Sorcerer Spell Research\n +10% Faster Build Speed
+Allows Sorcerer Spell Research\n +10% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeAngmarHallofTwilightLevel3]
-Allows Advanced Sorcerer Spell Research\n +25% Faster Build Speed
+Allows Advanced Sorcerer Spell Research\n +25% faster build speed
 
 
 [CONTROLBAR:UpgradeAngmarHallofTwilightLevel2]
@@ -47850,7 +47850,7 @@ Build Pavillion of the Golden King (&M)
 
 
 [OBJECT:AngmarForgeWorksDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ToolTipForgeWorks]
@@ -47898,7 +47898,7 @@ Thrall Masters
 
 
 [OBJECT:AngmarMillDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ToolTipMill]
@@ -48054,11 +48054,11 @@ Sentry Tower
 
 
 [OBJECT:AngmarBarracksDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:AngmarHallofTwilightDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 
@@ -49305,7 +49305,7 @@ Requires Level 2 Guldur Gaol
 
 
 [CONTROLBAR:TooltipUpgradeMordorHaradrimPalaceLevel2]
-Allows training of Easterling Phalanxes and Easterling Archers\n +10% Faster Build Speed
+Allows training of Easterling Phalanxes and Easterling Archers\n +10% faster build speed
 
 
 [CONTROLBAR:FellBeastMountTooltip]
@@ -49319,7 +49319,7 @@ Clan Steading
 
 
 [OBJECT:IsengardTavernDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:UpgradeIsengardTavernLevel2]
@@ -49331,7 +49331,7 @@ Upgrade Clan Steading to Level 3 (&A)
 
 
 [CONTROLBAR:TooltipUpgradeIsengardTavernLevel2]
-Allows training of Wildmen Axe-throwers \n +10% Faster Build Speed
+Allows training of Wildmen Axe-throwers \n +10% faster build speed
 
 
 [CONTROLBAR:TooltipIsengardTavern]
@@ -49347,7 +49347,7 @@ Dunlending Longhouse
 
 
 [OBJECT:IsengardLonghouseDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ConstructIsengardLonghouse]
@@ -49363,7 +49363,7 @@ Upgrade Dunlending Longhouse to Level 2 (&A)
 
 
 [CONTROLBAR:TooltipUpgradeDunlendingLonghouseLevel2]
-Allows training of Dunlending Longbowmen and Dunnish Outriders \n +10% Faster Build Speed
+Allows training of Dunlending Longbowmen and Dunnish Outriders \n +10% faster build speed
 
 
 [CONTROLBAR:UpgradeDunlendingLonghouseLevel3]
@@ -49371,7 +49371,7 @@ Upgrade Dunlending Longhouse to Level 3 (&A)
 
 
 [CONTROLBAR:TooltipUpgradeDunlendingLonghouseLevel3]
-Allows training of Dunlending Huskarls \n Adds defensive arrow tower \n +25% Faster Build Speed
+Allows training of Dunlending Huskarls \n Adds defensive arrow tower \n +25% faster build speed
 
 
 [CONTROLBAR:ConstructIsengardBerserkerHorde]
@@ -53199,29 +53199,29 @@ Trains the melee infantry of Rohan \n Upgrades weapons and armor \n Generates a 
 
 
 [CONTROLBAR:ToolTipBuildGondorBarracksLevel2Upgrade]
-Allows training of Anórien Soldiers and Spearmen \n+10% Faster Build Speed
+Allows training of Anórien Soldiers and Spearmen \n+10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildGondorBarracksLevel2Upgrade_Osgiliath]
-Allows training of Anórien Spearmen \n+10% Faster Build Speed
+Allows training of Anórien Spearmen \n+10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildGondorBarracksLevel3Upgrade]
-+25% Faster Build Speed\nAdds defensive Arrow Tower
++25% faster build speed\nAdds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipBuildGondorArcheryRangeLevel2Upgrade]
-Allows training of Anórien Archers\n+10% Faster Build Speed
+Allows training of Anórien Archers\n+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildGondorArcheryRangeLevel3Upgrade]
-Allows training of Ithilien Rangers\n Allows purchase of the Fire Arrow Upgrade\n+25% Faster Build Speed\nAdds defensive Arrow Tower
+Allows training of Ithilien Rangers\n Allows purchase of the Fire Arrow Upgrade\n+25% faster build speed\nAdds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipBuildGondorArcheryRangeLevel2Upgrade_Osgiliath]
-Allows training of Ithilien Rangers\n+10% Faster Build Speed
+Allows training of Ithilien Rangers\n+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildGondorArcheryRangeLevel3Upgrade_Osgiliath]
-Allows purchase of the Fire Arrow Upgrade\n+25% Faster Build Speed\nAdds defensive Arrow Tower
+Allows purchase of the Fire Arrow Upgrade\n+25% faster build speed\nAdds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipConstructMenStable]
@@ -53233,22 +53233,22 @@ Trains Rohan's cavalry \n Generates a small amount of resources based on avaliab
 
 
 [CONTROLBAR:ToolTipBuildGondorStableLevel2Upgrade]
-Allows training of Anorien Knights\n+10% Faster Build Speed
+Allows training of Anorien Knights\n+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildGondorStableLevel3Upgrade]
-+25% Faster Build Speed\nAdds defensive Arrow Tower
++25% faster build speed\nAdds defensive Arrow Tower
 
 [CONTROLBAR:ToolTipBuildGondorWorkshopLevel2Upgrade]
-Allows research of the Fire Stones upgrade\nHeals nearby damaged siege machines \n+10% Faster Build Speed
+Allows research of the Fire Stones upgrade\nHeals nearby damaged siege machines \n+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildGondorWorkshopLevel3Upgrade]
-+25% Faster Build Speed\nIncreased healing to nearby damaged siege machines \nAdds defensive Arrow Tower
++25% faster build speed\nIncreased healing to nearby damaged siege machines \nAdds defensive Arrow Tower
 
 [CONTROLBAR:ToolTipBuildRohanWorkshopLevel2Upgrade]
-Allows training of Rohirric Onager \n Heals nearby damaged siege machines \n +10% Faster Build Speed
+Allows training of Rohirric Onager \n Heals nearby damaged siege machines \n +10% faster build speed
 
 [CONTROLBAR:ToolTipBuildRohanWorkshopLevel3Upgrade]
-+25% Faster Build Speed \n Increased healing to nearby damaged siege machines
++25% faster build speed \n Increased healing to nearby damaged siege machines
 
 [OBJECT:GondorBlacksmithDescription]
 Upgrades weapons and armor \n Provides worked metals as a resource based on available terrain \n Steel Bonus - Reduced cost of upgrades \n 2 Blacksmiths: 5% \n 3 Blacksmiths: 10% \n 4 Blacksmiths: 15% \n 5 Blacksmiths: 20% \n 6+ Blacksmiths: 25%
@@ -53426,15 +53426,15 @@ Generates resources based on available terrain\n Can be upgraded with Blessed Wa
 Upgrade Golden Wood Garrison to Level 3 (&A)
 
 [CONTROLBAR:ToolTipBuildElvenBarracksLevel3]
-Allows training of Nandor Hîr-Hathol\n+25% Faster Build Speed \n Adds defensive Arrow Tower
+Allows training of Nandor Hîr-Hathol\n+25% faster build speed \n Adds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipBuildElvenBarracksLevel3_WOTR]
-+25% Faster Build Speed \n Adds defensive Arrow Tower
++25% faster build speed \n Adds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipBuildElvenGreenPastureLevel3Upgrade]
-+25% Faster Build Speed \n Adds defensive Arrow Tower
++25% faster build speed \n Adds defensive Arrow Tower
 
 [OBJECT:ErgionForgeDescription]
 Generates resources based on available terrain\n Stock Bonus - Reduced cost of upgrades \n 2 Storehouses: 5% \n 3 Storehouses: 10% \n 4 Storehouses: 15% \n 5 Storehouses: 20% \n 6+ Storehouses: 25%
@@ -53602,22 +53602,22 @@ Requires Level 3 Hall of Warriors
 
 
 [CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade]
-+10% Faster Build Speed \n Allows training of Barding Longbowmen
++10% faster build speed \n Allows training of Barding Longbowmen
 
 [CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel3Upgrade]
-+25% Faster Build Speed \n Adds defensive Arrow Tower
++25% faster build speed \n Adds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel2Upgrade]
-+10% Faster Build Speed \n Allows training of Guards of the Master and Huruz-Khagal-zirak
++10% faster build speed \n Allows training of Guards of the Master and Huruz-Khagal-zirak
 
 
 [CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel2UpgradeLotR]
-+10% Faster Build Speed \n Allows training of Barding Longbowmen and Huruz-Khagal-zirak
++10% faster build speed \n Allows training of Barding Longbowmen and Huruz-Khagal-zirak
 
 
 [CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel3Upgrade]
-+25% Faster Build Speed \n Allows training of Baruk-sharâhul and Azaghâr-sharâhul\n Adds defensive Arrow Tower
++25% faster build speed \n Allows training of Baruk-sharâhul and Azaghâr-sharâhul\n Adds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyDwarvenSiegeHammer]
@@ -53751,14 +53751,14 @@ Requires Level 2 and Fuel the Fires\n Knocks back nearby enemy units and sets th
 
 
 [CONTROLBAR:TooltipUpgradeIsengardTavernLevel3]
-Adds defensive Arrow Tower\n+25% Faster Build Speed
+Adds defensive Arrow Tower\n+25% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeIsengardSiegeWorksLevel2]
-Allows the construction of Siege Ballistae\n Heals nearby damaged siege machines \n+10% Faster Build Speed
+Allows the construction of Siege Ballistae\n Heals nearby damaged siege machines \n+10% faster build speed
 
 [CONTROLBAR:TooltipUpgradeIsengardSiegeWorksLevel3]
-Allows the construction of the Explosive Mine\nIncreased healing to nearby damaged siege machines \n+25% Faster Build Speed\nAdds defensive Arrow Tower
+Allows the construction of the Explosive Mine\nIncreased healing to nearby damaged siege machines \n+25% faster build speed\nAdds defensive Arrow Tower
 
 
 [OBJECT:IsengardArmoryDescription]
@@ -53908,11 +53908,11 @@ Great Beast of Gorgoroth (&R)
 Trains Mordor Orc Units and Black Uruks \n Increases command point limit by 25
 
 [CONTROLBAR:TooltipUpgradeMordorOrcPitLevel2]
-Allows training of Black Uruks\n +10% Faster Build Speed
+Allows training of Black Uruks\n +10% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeMordorHaradrimPalaceLevel3]
-Unlocks Barbed Arrows \n +25% Faster Build Speed \n Adds defensive Arrow Tower
+Unlocks Barbed Arrows \n +25% faster build speed \n Adds defensive Arrow Tower
 
 
 [OBJECT:MordorMumakilPen]
@@ -54033,10 +54033,10 @@ Provides access to the tunnel network
 
 
 [CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade]
- +10% Faster Build Speed\nAdds two garrisoned Moria Orc Archers
+ +10% faster build speed\nAdds two garrisoned Moria Orc Archers
 
 [CONTROLBAR:ToolTipBuildWildCaveLevel3Upgrade]
-+25% Faster Build Speed
++25% faster build speed
 
 
 [CONTROLBAR:ToolTipConstructWildGoblinFissure]
@@ -54044,36 +54044,36 @@ Trains Trolls, Giant Bats and Mountain Giants \n Increases command point limit b
 
 
 [CONTROLBAR:ToolTipBuildWildLodgeLevel2Upgrade]
-Allows training of Mountain-orc Scouts\n+10% Faster Build Speed
+Allows training of Mountain-orc Scouts\n+10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildWildLodgeLevel3Upgrade]
-Allows training of Gundabad Berserkers and Bolg's Bodyguard\n+25% Faster Build Speed
+Allows training of Gundabad Berserkers and Bolg's Bodyguard\n+25% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildWildLodgeLevel3Upgrade_WOTR]
-Allows training of Gundabad Berserkers\n+25% Faster Build Speed
+Allows training of Gundabad Berserkers\n+25% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade]
-Allows training of Snow-trolls and Bats\n+10% Faster Build Speed
+Allows training of Snow-trolls and Bats\n+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade]
-Allows training of Gundabad Stone-trolls and Mountain Giants\n+25% Faster Build Speed
+Allows training of Gundabad Stone-trolls and Mountain Giants\n+25% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade_WOTR]
-Allows training of Attack Trolls and Mountain Giants\n+25% Faster Build Speed
+Allows training of Attack Trolls and Mountain Giants\n+25% faster build speed
 
 
 [CONTROLBAR:ToolTipConstructWildWildSpiderPit]
 Trains Gundabad Warg Packs and Gundabad Wolf-riders \n Increases command point limit by 25
 
 [CONTROLBAR:ToolTipBuildWildSpiderPitLevel2Upgrade]
-Allows training of Gundabad Wolf-riders\n+10% Faster Build Speed
+Allows training of Gundabad Wolf-riders\n+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade]
-+25% Faster Build Speed
++25% faster build speed
 
 
 [OBJECT:WildTreasureTroveDescription]
@@ -54282,7 +54282,7 @@ Trains units from Harondor and Near Harad \n Increases command point limit by 25
 
 
 [CONTROLBAR:ToolTipBuildAngmarBarracksLevel2Upgrade]
-Allows training of Harondor Raiders, Harondor Spearmen and Harondor Archers \n+10% Faster Build Speed
+Allows training of Harondor Raiders, Harondor Spearmen and Harondor Archers \n+10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildAngmarBarracksLevel3Upgrade]
@@ -54293,10 +54293,10 @@ Allows training of Guards of the Serpent and the research of the Lies and Threat
 Trains Mahûd units and Mûmakil \n Increases command point limit by 25
 
 [CONTROLBAR:TooltipUpgradeAngmarDenLevel2]
-Allows training of War Mûmakil \n +10% Faster Build Speed
+Allows training of War Mûmakil \n +10% faster build speed
 
 [CONTROLBAR:TooltipUpgradeAngmarDenLevel3]
-Allows training of Siege Mûmakil \n +25% Faster Build Speed
+Allows training of Siege Mûmakil \n +25% faster build speed
 
 [TOOLTIP:LackLevel2Den]
 Requires Level 2 Troll and Wolf Den
@@ -54322,10 +54322,10 @@ Allows Sorcerers to specialize in the Corpse Rain power \n This calls down a bar
 Trains specialist and siege units \n Increases command point limit by 25
 
 [CONTROLBAR:TooltipUpgradeAngmarForgeWorksLevel2]
-Allows training of Risen Carrion \n +10% Faster Build Speed
+Allows training of Risen Carrion \n +10% faster build speed
 
 [CONTROLBAR:TooltipUpgradeAngmarForgeWorksLevel3]
-Allows training of Nafârati Marauders \n +25% Faster Build Speed
+Allows training of Nafârati Marauders \n +25% faster build speed
 
 [CONTROLBAR:PurchaseTechnologyAngmarIceShot]
 Research &Ice Shot
@@ -55488,7 +55488,7 @@ The Lord of the Rings, The Rise of the Witch-king servers have been permanently 
 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel2]
-+10% Faster Build Speed\n Allows training of Sulkhâ-bekhâz
++10% faster build speed\n Allows training of Sulkhâ-bekhâz
 
 
 [CONTROLBAR:ToolTipTameTheBeast]
@@ -55592,11 +55592,11 @@ Requires Level 2 \n Grants all nearby allies resistance to fear and terror\n Pas
 
 
 [CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel3]
-Allows training of Uruk-hai Man-slayers \n +25% Faster Build Speed
+Allows training of Uruk-hai Man-slayers \n +25% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel3_WOTR]
-+25% Faster Build Speed
++25% faster build speed
 
 
 [CONTROLBAR:ToolTipBloodthirstyMordorFighter]
@@ -55612,15 +55612,15 @@ Requires Level 2 Troll Cage \n Provides Leadership to nearby allies \n \n Trolls
 
 
 [CONTROLBAR:TooltipUpgradeMordorOrcPitLevel3]
-+25% Faster Build Speed
++25% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeMordorTrollCageLevel2]
-+10% Faster Build Speed
++10% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeMordorSiegeWorksLevel3]
-Increased healing to nearby damaged siege machines, allows recruitment of Great Beasts \n+25% Faster Build Speed
+Increased healing to nearby damaged siege machines, allows recruitment of Great Beasts \n+25% faster build speed
 
 
 [CONTROLBAR:ToolTipGothmogDayoftheOrc]
@@ -55659,7 +55659,7 @@ Rhudaur Hillmen Rebels
 
 
 [CONTROLBAR:ToolTipBuildAngmarHallofTwilightLevel2Upgrade]
-Allows training of Black Númenórean units\n +10% Faster Build Speed
+Allows training of Black Númenórean units\n +10% faster build speed
 
 [CONTROLBAR:TooltipBuildAngmarHallofTwilightLevel3Upgrade]
 Allows training of Hasharin Blades and Watchers of Kârna \n +25% Build Speed
@@ -55695,7 +55695,7 @@ Modifier Type: Spell \n Targeted enemy units suffer -33% speed \n Stacks with Bu
 
 
 [CONTROLBAR:TooltipUpgradeMordorTrollCageLevel3]
-Allows training of the Attack Troll \n +25% Faster Build Speed
+Allows training of the Attack Troll \n +25% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildGrandHarvestUpgrade]
@@ -55851,19 +55851,19 @@ Demolisher \n Requires Level 3 Workshop \n Strong vs. Structures \n Limited to 2
 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2]
-+10% Faster Build Speed \n Allows training of Adâruf-sulûkh
++10% faster build speed \n Allows training of Adâruf-sulûkh
 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3]
-+25% Faster Build Speed \n Allows training of Khazâd-uzbadul
++25% faster build speed \n Allows training of Khazâd-uzbadul
 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenWorkshopLevel2]
-+10% Faster Build Speed \n Allows recruitment of Sulûn-abanul\nHeals nearby damaged siege machines
++10% faster build speed \n Allows recruitment of Sulûn-abanul\nHeals nearby damaged siege machines
 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenWorkshopLevel3]
-+25% Faster Build Speed \n Allows recruitment of Zirinmazn \n Increased healing to nearby damaged siege machines \n Adds Defensive Guard Tower
++25% faster build speed \n Allows recruitment of Zirinmazn \n Increased healing to nearby damaged siege machines \n Adds Defensive Guard Tower
 
 
 [CONTROLBAR:ToolTipBuildWildSpiderlingHorde]
@@ -56283,7 +56283,7 @@ Bows of Yew
 
 
 [CONTROLBAR:ToolTipGondorArcherBonus]
-Requires Level 5\n Modifier Type: Spell \n Anórien Archers gain +15% Range and +20% Vision \n Stacks with Leadership, Buffs, and Spells \n Passive ability
+Requires Level 5\n Modifier Type: Spell \n Anórien Archers gain +15% range and +20% Vision \n Stacks with Leadership, Buffs, and Spells \n Passive ability
 
 
 [CONTROLBAR:ChangeAngle0]
@@ -56663,10 +56663,10 @@ Wyrm Lair Level 3
 
 
 [CONTROLBAR:ToolTipBuildFireWyrmLairLevel2Upgrade]
-Allows taming of Cold Drakes and researching Wyrm-armour\n+10% Faster Build Speed
+Allows taming of Cold Drakes and researching Wyrm-armour\n+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildFireWyrmLairLevel3Upgrade]
-\n+25% Faster Build Speed
+\n+25% faster build speed
 
 
 [OBJECT:CerinAmrothSentinel]
@@ -64671,7 +64671,7 @@ Generates resources based on available terrain\n Bread Bonus - Reduced cost of i
 
 
 [OBJECT:RohanStablesDescription]
-Generates resources based on available terrain\nLevel 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed \n\n Horsemaster Bonus\n Modifier Type: Buff \n Grants additional +5% armour to all cavalry units on the map \n Stacks with Leadership and Spells \n 1 Stables: 5% \n 2 Stables: 10% \n 3 Stables: 15% \n 4 Stables: 20% \n 5 Stables: 25% \n 6 Stables: 30% \n 7 Stables: 35% \n 8+ Stables: 40%
+Generates resources based on available terrain\nLevel 2: +10% faster build speed\n Level 3: +25% faster build speed \n\n Horsemaster Bonus\n Modifier Type: Buff \n Grants additional +5% armour to all cavalry units on the map \n Stacks with Leadership and Spells \n 1 Stables: 5% \n 2 Stables: 10% \n 3 Stables: 15% \n 4 Stables: 20% \n 5 Stables: 25% \n 6 Stables: 30% \n 7 Stables: 35% \n 8+ Stables: 40%
 
 
 [GUI:FIELD_DISCOUNT]
@@ -64771,31 +64771,31 @@ Summons Gandalf the White and the Three Hunters \n Allied units are moderately h
 
 
 [CONTROLBAR:ToolTipBuildRohanBarracksLevel2Upgrade]
-Allows training of Westfolders and research of the Forged Blades upgrade\n+10% Faster Build Speed
+Allows training of Westfolders and research of the Forged Blades upgrade\n+10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildRohanBarracksLevel3Upgrade]
-Allows training of Edoras Kingsguard, Helmingas Warriors \n and research of the Heavy Armor upgrade\n+25% Faster Build Speed\nAdds defensive Arrow Tower
+Allows training of Edoras Kingsguard, Helmingas Warriors \n and research of the Heavy Armor upgrade\n+25% faster build speed\nAdds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipBuildRohanBarracksLevel3Upgrade_WOTR]
-Allows training of Edoras Kingsguard and research of the Heavy Armor upgrade\n+25% Faster Build Speed\nAdds defensive Arrow Tower
+Allows training of Edoras Kingsguard and research of the Heavy Armor upgrade\n+25% faster build speed\nAdds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipBuildRohanArcherRangeLevel2Upgrade]
-Allows training of Halifirien Wardens and research of the Fire Arrows upgrade\n+10% Faster Build Speed
+Allows training of Halifirien Wardens and research of the Fire Arrows upgrade\n+10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildRohanArcherRangeLevel3Upgrade]
-+25% Faster Build Speed\nAdds defensive Arrow Tower
++25% faster build speed\nAdds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipBuildRohanStablesLevel2Upgrade]
-Allows training of Rohirrim Warriors, Rohirrim Archers and Riders of Snowbourn and research of the Horseman Shield upgrade\n+10% Faster Build Speed
+Allows training of Rohirrim Warriors, Rohirrim Archers and Riders of Snowbourn and research of the Horseman Shield upgrade\n+10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildRohanStablesLevel3Upgrade]
-Allows training of the Mounted Kingsguard\n+25% Faster Build Speed\nAdds defensive Arrow Tower
+Allows training of the Mounted Kingsguard\n+25% faster build speed\nAdds defensive Arrow Tower
 
 
 [OBJECT:EverholtBoar]
@@ -65937,7 +65937,7 @@ Eyes of the Crow (&R)
 
 
 [CONTROLBAR:ToolTipEyesoftheCrow]
-Requires Level 2 \n The Longbowmen temporarily gain +25% Range and \n +25% damage, at the cost of -25% Attack Speed
+Requires Level 2 \n The Longbowmen temporarily gain +25% range and \n +25% damage, at the cost of -25% Attack Speed
 
 
 [CONTROLBAR:WildCharge]
@@ -65961,7 +65961,7 @@ Mountain-orc Lodge
 
 
 [OBJECT:WildLodgeDescription]
-Level 2: +10% Faster Build Speed \nLevel 3: +25% Faster Build Speed
+Level 2: +10% faster build speed \nLevel 3: +25% faster build speed
 
 
 [CONTROLBAR:ConstructWildMountainLodgeLevel2Upgrade]
@@ -65969,7 +65969,7 @@ Level 2: +10% Faster Build Speed \nLevel 3: +25% Faster Build Speed
 
 
 [CONTROLBAR:ToolTipBuildWildMountainLodgeLevel2Upgrade]
-+10% Faster Build Speed
++10% faster build speed
 
 
 [CONTROLBAR:ConstructWildMountainLodgeLevel3Upgrade]
@@ -65977,7 +65977,7 @@ Level 2: +10% Faster Build Speed \nLevel 3: +25% Faster Build Speed
 
 
 [CONTROLBAR:ToolTipBuildWildMountainLodgeLevel3Upgrade]
-Allows training of Bolg's Bodyguard \n+25% Faster Build Speed
+Allows training of Bolg's Bodyguard \n+25% faster build speed
 
 
 [CONTROLBAR:AngmarCitadel]
@@ -66101,7 +66101,7 @@ Focus: Wicked Marksmen (&R)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusArcher]
-Select to activate \n Provides bonuses to Uruk-hai Scouts and Crossbowmen \n +20% damage, +10% Range, +80% Combat Experience \n Decreases price by 20%
+Select to activate \n Provides bonuses to Uruk-hai Scouts and Crossbowmen \n +20% damage, +10% range, +80% Combat Experience \n Decreases price by 20%
 
 
 [CONTROLBAR:SpecialAbilityIsengardFocusWarg]
@@ -66557,7 +66557,7 @@ Parasitic Embrace (&T)
 
 
 [CONTROLBAR:ToolTipGuldurParasiticEmbrace]
-Requires Level 3\nArchers in the targeted area become infected and lose\n-50% Vision, -25% Ranged Damage, -25% Reload Speed for a short time\nLeft click icon then left click on target archers
+Requires Level 3\nArchers in the targeted area become infected and lose\n-50% Vision, -25% ranged Damage, -25% Reload Speed for a short time\nLeft click icon then left click on target archers
 
 
 [OBJECT:GuldurRisenDead]
@@ -66833,7 +66833,7 @@ Guldur Gaol
 
 
 [OBJECT:GuldurGaolDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed\nIncreases command point limit by 25
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed\nIncreases command point limit by 25
 
 
 [CONTROLBAR:ConstructGuldurGaol]
@@ -66853,7 +66853,7 @@ Upgrade Guldur Gaol to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildGuldurGaol2Upgrade]
-Allows training of Orc Ravagers\n+10% Faster Build Speed
+Allows training of Orc Ravagers\n+10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildGuldurGaol3Upgrade]
@@ -66865,7 +66865,7 @@ Spider Lair
 
 
 [OBJECT:GuldurSpiderLairDescription]
-Level 2: +10% Faster Build Speed \n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed \n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ConstructGuldurSpiderLair]
@@ -66937,11 +66937,11 @@ Upgrade Spider Lair to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildGuldurSpiderLairLevel2Upgrade]
-+10% Faster Build Speed
++10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildGuldurSpiderLairLevel3Upgrade]
-Allows training of Saenathra's Sisters\n+25% Faster Build Speed
+Allows training of Saenathra's Sisters\n+25% faster build speed
 
 
 [OBJECT:GuldurRestlessBarrow]
@@ -67722,7 +67722,7 @@ Spire of Sorcery
 
 
 [OBJECT:GuldurSorceryTowerDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGuldurBasicTraining]
@@ -67742,7 +67742,7 @@ Upgrade Spire of Sorcery to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildGuldurSorceryTowerLevel2Upgrade]
-Allows use of Blight and training of Harbingers of Shadow \n +10% Faster Build Speed
+Allows use of Blight and training of Harbingers of Shadow \n +10% faster build speed
 
 
 [CONTROLBAR:TooltipBuildGuldurSorceryTowerLevel3Upgrade]
@@ -68694,7 +68694,7 @@ Silvan Clearing
 
 
 [OBJECT:MirkwoodTrainingGroundsDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ConstructMirkwoodTrainingGrounds2Upgrade]
@@ -68702,7 +68702,7 @@ Upgrade Silvan Clearing to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodTrainingGroundsLevel2Upgrade]
-Allows training of Thelamaethyr and Gwairochyn\n+10% Faster Build Speed
+Allows training of Thelamaethyr and Gwairochyn\n+10% faster build speed
 
 
 [CONTROLBAR:ConstructMirkwoodTrainingGroundsLevel3Upgrade]
@@ -68710,7 +68710,7 @@ Upgrade Silvan Clearing to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodTrainingGroundsLevel3Upgrade]
-+25% Faster Build Speed
++25% faster build speed
 
 
 [CONTROLBAR:ConstructMirkwoodRoyalBarracks]
@@ -68726,7 +68726,7 @@ Royal Barracks
 
 
 [OBJECT:MirkwoodRoyalBarracksDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ConstructMirkwoodRoyalBarracks2Upgrade]
@@ -68734,7 +68734,7 @@ Upgrade Royal Barracks to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodRoyalBarracksLevel2Upgrade]
-Allows training of Cúmaethyr and Tamastirnyr \n +10% Faster Build Speed
+Allows training of Cúmaethyr and Tamastirnyr \n +10% faster build speed
 
 
 [CONTROLBAR:ConstructMirkwoodRoyalBarracksLevel3Upgrade]
@@ -68742,7 +68742,7 @@ Upgrade Royal Barracks to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodRoyalBarracksLevel3Upgrade]
-Allows training of Faenrochyn \n +25% Faster Build Speed
+Allows training of Faenrochyn \n +25% faster build speed
 
 
 [CONTROLBAR:ConstructMirkwoodTreasury]
@@ -68774,7 +68774,7 @@ Beorning Lodge
 
 
 [OBJECT:MirkwoodBeorningCabinDescription]
-Trains Woodmen and Beornings\n Produces a large amount of resources based on available terrain \n Level 2: +10% Faster Build Speed \n Level 3: +25% Faster Build Speed
+Trains Woodmen and Beornings\n Produces a large amount of resources based on available terrain \n Level 2: +10% faster build speed \n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ConstructMirkwoodBeorningCabinLevel2Upgrade]
@@ -68782,7 +68782,7 @@ Upgrade Beorning Cabin to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodBeorningCabinLevel2Upgrade]
-Allows recruitment of Druid of the Oaken Order\n+10% Faster Build Speed
+Allows recruitment of Druid of the Oaken Order\n+10% faster build speed
 
 
 [CONTROLBAR:ConstructMirkwoodBeorningCabinLevel3Upgrade]
@@ -68790,11 +68790,11 @@ Upgrade Beorning Cabin to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodBeorningCabinLevel3Upgrade]
-Allows recruitment of Beorning Berserkers\n+25% Faster Build Speed
+Allows recruitment of Beorning Berserkers\n+25% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodBeorningCabinLevel3Upgrade_WOTR]
-Allows recruitment of Éotheod Warriors and Beorning Berserkers\n+25% Faster Build Speed
+Allows recruitment of Éotheod Warriors and Beorning Berserkers\n+25% faster build speed
 
 
 [OBJECT:MirkwoodCellarDoor]
@@ -69936,7 +69936,7 @@ Siege Grounds
 
 
 [OBJECT:MirkwoodSiegeGroundsDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ConstructMirkwoodSiegeGrounds]
@@ -69953,10 +69953,10 @@ Upgrade Siege Grounds to Level 2 (&A)
 Upgrade Siege Grounds to Level 3 (&A)
 
 [CONTROLBAR:ToolTipBuildMirkwoodSiegeGroundsLevel2Upgrade]
-Allows training of Haehadron \n Heals nearby damaged siege machines \n +10% Faster Build Speed
+Allows training of Haehadron \n Heals nearby damaged siege machines \n +10% faster build speed
 
 [CONTROLBAR:ToolTipBuildMirkwoodSiegeGroundsLevel3Upgrade]
-+25% Faster Build Speed \n Increased healing to nearby damaged siege machines
++25% faster build speed \n Increased healing to nearby damaged siege machines
 
 [CONTROLBAR:StopRightThere]
 Stop Right There! (&W)
@@ -70727,7 +70727,7 @@ Mahûd Gathering
 
 
 [OBJECT:MahudOutpostDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ConstructHaradMumakil]
@@ -70743,7 +70743,7 @@ Pavillion of the Golden King
 
 
 [OBJECT:GoldenKingPavillionDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [OBJECT:HaradwaithNafaratiMarauder]
@@ -70804,7 +70804,7 @@ Umbarian Citadel
 
 
 [OBJECT:UmbarianCitadelDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ConstructUmbarianCitadel2Upgrade]
@@ -70816,7 +70816,7 @@ Upgrade Umbarian Citadel to Level 3 (A)
 
 
 [CONTROLBAR:ToolTipBuildUmbarianCitadelLevel2Upgrade]
-Allows training of Black Númenórean units\n +10% Faster Build Speed
+Allows training of Black Númenórean units\n +10% faster build speed
 
 [CONTROLBAR:TooltipBuildUmbarianCitadelLevel3Upgrade]
 Allows training of Watchers of Kârna \n +25% Build Speed
@@ -71127,11 +71127,11 @@ Sanctum of Zigûr
 
 
 [OBJECT:SanctumofZigurDescription]
-Level 2: +10% Faster Build Speed\n Level 3: +25% Faster Build Speed
+Level 2: +10% faster build speed\n Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildSanctumofZigurLevel2Upgrade]
-Unlocks ETC spells \n +10% Faster Build Speed
+Unlocks ETC spells \n +10% faster build speed
 
 [CONTROLBAR:TooltipBuildAngmarHallofTwilightLevel3Upgrade]
 Allows training of Hasharin Blades and unlocks ETC spells \n Adds a defensive arrow tower???   \n +25% Build Speed
