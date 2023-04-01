@@ -17637,7 +17637,7 @@ Becomes invisible when standing still \n Also passively grants +10% armour to al
 
 
 [CONTROLBAR:ToolTipElvenCloakBasicUnit]
-Requires Level 2 \n Becomes invisible when standing still \n Left click to activate
+Requires Level 2 \n Becomes stealthed for 20 seconds \n Left click to activate
 
 
 [CONTROLBAR:EomerMount]
@@ -17656,12 +17656,20 @@ Flame of Anor (&C)
 Requires Level 7 \n Beam of light that damages enemies \n Bonus vs. Balrogs and Nazgûl \n Left click icon then left click on target
 
 
+[CONTROLBAR:ToolTipIstariLightTiered]
+Requires Level 5 \n Beam of light that damages enemies \n Bonus vs. Balrogs and Nazgûl \nDeals increased damage at Level 7\nDeals damage in an increased radius and knocks back enemy units at Level 9\n Left click icon then left click on target
+
+
 [CONTROLBAR:GandalfPrepareForBattle]
-Prepare for Battle! (&R)
+Rekindled Hearts (&T)
 
 
 [CONTROLBAR:ToolTipGandalfPrepareForBattle]
-Requires Level 3 \n Modifier Type: Spell \n Target structure gains +75% unit production speed for 90 seconds \nTarget units gain resistance to knockback and +25% speed for 15 seconds\n Stacks with Leadership and Spells \n Left click icon then left click on target
+Requires Level 3 \n Modifier Type: Spell \n Gandalf gains +25% damage and +50% armour for 30 seconds\nNearby allied units become immune to debuffs and knockback for 30 seconds\nNearby Gondor structures recruit units 50% faster for 60 seconds\nLeft click to activate
+
+
+[CONTROLBAR:ToolTipGandalfPrepareForBattleCampaign]
+Requires Level 4 \n Modifier Type: Spell \n Gandalf gains +25% damage and +50% armour for 30 seconds\nNearby allied units become immune to debuffs and knockback for 30 seconds\nNearby structures recruit units 50% faster for 60 seconds\nLeft click to activate
 
 
 [CONTROLBAR:LightningSword]
@@ -17670,6 +17678,10 @@ Ligh&tning Sword
 
 [CONTROLBAR:ToolTipLightningSword]
 Requires Level 2 \n Shoots out lightning bolts from Gandalf's sword \n Left click icon then left click on target
+
+
+[CONTROLBAR:ToolTipLightningSwordBotFA]
+Requires Level 3 \n Shoots out lightning bolts from Gandalf's sword \n Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipRivendellLightningSword]
@@ -17685,7 +17697,11 @@ Spear Throw (&R)
 
 
 [CONTROLBAR:SuladanSpearThrow]
-Spear Throw (&R)
+Severing Strike (&R)
+
+
+[CONTROLBAR:ToolTipSeveringStrike]
+A single sword strike that deals strong damage to unit or hero\nIf a targeted enemy dies from Severing Strike, nearby Harondor units gain +33% damage for 30 seconds\nAt rank 3, target enemy takes damage over time and is slowed by -33% for 30 seconds\nAt rank 6, damage of initial strike is increased\nLeft click then left click target
 
 
 [CONTROLBAR:HornofGondor]
@@ -17709,11 +17725,11 @@ Captain of Ithilien (&C)
 
 
 [CONTROLBAR:ToolTipFaramirSummonLeadership]
-Requires Level 3 \n Faramir calls a group of Rangers and one of their captains to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches\n At rank 7, summons a larger battalion of Rangers\nLeft click icon then left click on pathable location \n\n Modifier Type: Leadership \n Ithilien Rangers near Faramir gain +15% armour, +15% range and earn experience 50% faster \n Stacks with Buffs and Spells \n Passive ability
+Requires Level 3 \n Faramir calls a group of Rangers and one of their lieutenants to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches.\n At level 7, summons a larger group of Rangers\n Left click icon then left click on pathable location \n\n Modifier Type: Leadership \n Ithilien Rangers near Faramir gain +15% armour, damage and range and earn experience 33% faster\n Passive ability
 
 
 [CONTROLBAR:ToolTipCampaignFaramirSummonLeadership]
-Requires Level 3 \n Faramir calls a group of Rangers to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches. \n Left click icon then left click on pathable location \n\n Modifier Type: Leadership \n Ithilien Rangers near Faramir gain +15% armour, +15% range and earn experience 50% faster\n Stacks with Buffs and Spells \n Passive ability
+Requires Level 3 \n Faramir calls a group of Rangers to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches. \n Left click icon then left click on pathable location \n\n Modifier Type: Leadership \n Ithilien Rangers near Faramir gain +15% armour, damage and range and earn experience 33% faster\nPassive ability
 
 
 [CONTROLBAR:FaramirAmbushAbility]
@@ -17753,7 +17769,7 @@ Requires Level 3 \n Switch between Knight and Ranger modes \n left click to acti
 
 
 [CONTROLBAR:AragornToggleMount]
-Mount/Dismount (&T)
+Mount/Dismount (&C)
 
 
 [CONTROLBAR:BoromirToggleMount]
@@ -17761,7 +17777,7 @@ Mount/Dismount (&C)
 
 
 [CONTROLBAR:LegolasToggleMount]
-Mount/Dismount (&T)
+Mount/Dismount (&C)
 
 
 [CONTROLBAR:DamrodWarSpeech]
@@ -17847,6 +17863,10 @@ Shie&ld Maiden
 Bombard (&R)
 
 
+[CONTROLBAR:ToggleRhunWeapon]
+Bombard (&T)
+
+
 [CONTROLBAR:ToolTipToggleTrebWeapon]
 Left click to automatically fire at enemies
 
@@ -17855,12 +17875,20 @@ Left click to automatically fire at enemies
 Halt Auto Acquire (&W)
 
 
+[CONTROLBAR:NoAutoAcquireRhun]
+Halt Auto Acquire (&R)
+
+
 [CONTROLBAR:ToolTipNoAutoAcquire]
 Left click to not fire automatically
 
 
 [CONTROLBAR:AutoAcquire]
 Auto Acquire (&W)
+
+
+[CONTROLBAR:AutoAcquireRhun]
+Auto Acquire (&R)
 
 
 [CONTROLBAR:ToolTipAutoAcquire]
@@ -17873,11 +17901,11 @@ Peasants (&E)
 
 
 [CONTROLBAR:ToolTipBuildRohanPeasant]
-Can be drafted \n\n Horde Bonus \n Modifier Type: Spell \n All Peasants gain +25% damage and +25% armour when gathered in numbers of 60 or more \n Stacks with buffs, Leadership and other spells\n\n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle.
+Can be drafted \n\n Horde Bonus \n Modifier Type: Spell \n All Peasants gain +25% damage and +25% armour when gathered in numbers of 60 or more\n\n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle.
 
 
 [CONTROLBAR:ToolTipBuildRohanPeasantDrafted]
-Drafted \n \n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle.
+Strong vs. Pikemen\n\nHorde Bonus \n Modifier Type: Spell \n All Peasants gain +25% damage and +25% armour when gathered in numbers of 60 or more\n \n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle.
 
 
 [CONTROLBAR:ToolTipSpecialAbilityDwarfToss]
@@ -18098,6 +18126,30 @@ Head to Head
 [GUI:TooltipNoMoreCommandPoints]
 Command Point Limit has Been Reached
 
+
+
+[CREDITS:ModTitle1]
+Age of the Ring
+
+
+[CREDITS:ModTeam1]
+Mod Team
+
+
+[CREDITS:TestingTeam1]
+Testers
+
+
+[CREDITS:VoiceActors1]
+Voice Actors
+
+
+[CREDITS:AdditionalMaps1]
+Additional Map Credits
+
+
+[CREDITS:SpecialThanks1]
+Special Thanks
 
 
 [CREDITS:DevelopmentTitle1]
@@ -19004,6 +19056,10 @@ Food Bonus -%d%%
 Steel Bonus -%d%%
 
 
+[GUI:CARAVAN_DISCOUNT]
+Capitalist Bonus -%d%%
+
+
 [GUI:ARKENSTONE_DISCOUNT]
 Arkenstone Bonus -%d%%
 
@@ -19509,7 +19565,7 @@ Farms Built
 
 
 [STAT:STRATEGIC_ARMORIES_BUILT]
-Armories Built
+Armouries Built
 
 
 [STAT:STRATEGIC_BARRACKS_BUILT]
@@ -20958,11 +21014,11 @@ Your enemy, %ls, has been eliminated from the game.\n\nAny remaining armies and 
 
 
 [LW:UnifiedRegionTitle]
-REGION UNIFIED!
+REGION/SUBREGION UNIFIED!
 
 
 [LW:UnifiedRegionText]
-You have claimed all the territories of the region of %ls.\n\nUniting this region grants you the following:\n     %ls
+You have claimed all the territories of %ls.\n\nUniting this area grants you the following:\n     %ls
 
 
 [LW:HeroCutOffTitle]
@@ -21022,7 +21078,7 @@ Discount when Building Structures
 
 
 [LW:RegionFreeInnUnitsBonus]
-Free Inn Unit in Battles
+Free Special Unit in Battles
 
 
 [LW:RegionSeigeDiscountBonus]
@@ -21073,10 +21129,6 @@ Rhûn
 Arnor
 
 
-[LW:TerritoryEriador]
-Eriador
-
-
 [LW:TerritoryLindon]
 Lindon
 
@@ -21101,16 +21153,236 @@ Gondor
 Rohan
 
 
+[LW:TerritoryEnedwaith]
+Enedwaith
+
+
 [LW:TerritoryErebor]
 Erebor
 
 
-[LW:TerritoryHarad]
+[LW:TerritoryEriador]
+Eriador
+
+
+[LW:TerritoryEregionAlliance]
+Plundered Eregion
+
+
+[LW:TerritoryForodwaith]
+Forodwaith
+
+
+[LW:TerritoryHaradwaith]
 Haradwaith
 
 
 [LW:ClickToBegin]
 Click mouse button to begin.
+
+
+[LW:SubRegionAbrakhan]
+the subregion of Abrakhân
+
+
+[LW:SubRegionAnduin]
+the subregion of Anduin
+
+
+[LW:SubRegionAngmar]
+the subregion of Angmar
+
+
+[LW:SubRegionArthedain]
+the subregion of Arthedain
+
+
+[LW:SubRegionBreeland]
+the subregion of Bree-land
+
+
+[LW:SubRegionBrownLands]
+the subregion of The Brown Lands
+
+
+[LW:SubRegionCardolan]
+the subregion of Cardolan
+
+
+[LW:SubRegionDagorlad]
+the subregion of Dagorlad
+
+
+[LW:SubRegionDolGuldur]
+the subregion of Dol Guldur
+
+
+[LW:SubRegionDorwinion]
+the subregion of Dorwinion
+
+
+[LW:SubRegionDunland]
+the subregion of Dunland
+
+
+[LW:SubRegionEastMark]
+the subregion of East-mark
+
+
+[LW:SubRegionEnedwaith]
+the subregion of Enedwaith
+
+
+[LW:SubRegionEphelDuath]
+the subregion of Ephel Dúath
+
+
+[LW:SubRegionEreborDale]
+the subregion of the Kingdom of Erebor and Dale
+
+
+[LW:SubRegionEregion]
+the subregion of Eregion
+
+
+[LW:SubRegionFarHarad]
+the subregion of Far Harad
+
+
+[LW:SubRegionForlindon]
+the subregion of Forlindon
+
+
+[LW:SubRegionForochel]
+the subregion of Forochel
+
+
+[LW:SubRegionGorgoroth]
+the subregion of Gorgoroth
+
+
+[LW:SubRegionGundabad]
+the subregion of Gundabad
+
+
+[LW:SubRegionHarlindon]
+the subregion of Harlindon
+
+
+[LW:SubRegionHarondor]
+the subregion of Harondor
+
+
+[LW:SubRegionHighPass]
+the subregion of High Pass
+
+
+[LW:SubRegionIronHills]
+the subregion of the Iron Hills
+
+
+[LW:SubRegionIsengard]
+the subregion of Isengard
+
+
+[LW:SubRegionKingsLands]
+the subregion of The King's Lands
+
+
+[LW:SubRegionKhand]
+the subregion of Khand
+
+
+[LW:SubRegionLothlorien]
+the subregion of Lothlórien
+
+
+[LW:SubRegionLothlorien_LAS]
+Lórinand
+
+
+[LW:SubRegionMardruak]
+the subregion of Mardrûak
+
+
+[LW:SubRegionMoria]
+the subregion of Moria
+
+
+[LW:SubRegionMoria_LAS]
+Khazad-dûm
+
+
+[LW:SubRegionNearHarad]
+the subregion of Near Harad
+
+
+[LW:SubRegionNorthernWastes]
+the subregion of the Northern Wastes
+
+
+[LW:SubRegionNorthGondor]
+the subregion of Northern Gondor
+
+
+[LW:SubRegionNorthGondor_LAS]
+Domain of Isildur
+
+
+[LW:SubRegionSouthGondor]
+the subregion of Southern Gondor
+
+
+[LW:SubRegionSouthGondor_LAS]
+Domain of Anárion
+
+
+[LW:SubRegionSouthRhun]
+the subregion of South Rhûn
+
+
+[LW:SubRegionNurn]
+the subregion of Núrn
+
+
+[LW:SubRegionRhudaur]
+the subregion of Rhudaur
+
+
+[LW:SubRegionRivendell]
+the subregion of Rivendell
+
+
+[LW:SubRegionRiverlands]
+the subregion of the Riverlands
+
+
+[LW:SubRegionRhun]
+the subregion of Rhûn
+
+
+[LW:SubRegionTheShire]
+the subregion of The Shire
+
+
+[LW:SubRegionUmbar]
+the subregion of Umbar
+
+
+[LW:SubRegionWeatherHills]
+the subregion of the Weather Hills
+
+
+[LW:SubRegionWestMark]
+the subregion of West-mark
+
+
+[LW:SubRegionWoodlandRealm]
+the subregion of the Woodland Realm
+
+
+[LW:SubRegionWoodlandRealm_LAS]
+the Greenwood
 
 
 [LW:DisplayNameAmonHen]
@@ -21129,6 +21401,10 @@ Anórien
 Arnor
 
 
+[LW:DisplayNameAzkaharDesert]
+Desert of Azkâhar
+
+
 [LW:DisplayNameBelfalas]
 Belfalas
 
@@ -21139,14 +21415,6 @@ Black Gate
 
 [LW:DisplayNameBlueMountains]
 Ered Luin
-
-
-[LW:DisplayNameBree]
-Bree
-
-
-[LW:DisplayNameBuckland]
-Buckland
 
 
 [LW:DisplayNameCairAndros]
@@ -21378,7 +21646,7 @@ Rivendell
 
 
 [LW:DisplayNameRhun]
-Rhun
+Rhûn
 
 
 [LW:DisplayNameRohan]
