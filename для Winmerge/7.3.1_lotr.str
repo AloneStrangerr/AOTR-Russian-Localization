@@ -21445,6 +21445,10 @@ Dead Marshes
 Dol Guldur
 
 
+[LW:DisplayNameDurthang]
+Durthang
+
+
 [LW:DisplayNameCarasGaladhon]
 Caras Galadhon
 
@@ -21455,10 +21459,6 @@ Druadan Forest
 
 [LW:DisplayNameDunharrow]
 Dunharrow
-
-
-[LW:DisplayNameDunland]
-Dunland
 
 
 [LW:DisplayNameEastEmnet]
@@ -21489,16 +21489,12 @@ Emyn Arnen
 Emyn Muil
 
 
-[LW:DisplayNameEnedwaith]
-Enedwaith
-
-
 [LW:DisplayNameErebor]
 Erebor
 
 
-[LW:DisplayNameEttenmoors]
-Ettenmoors
+[LW:DisplayNameEredLithui]
+Ered Lithui
 
 
 [LW:DisplayNameFangorn]
@@ -21509,10 +21505,6 @@ Fangorn
 Fords of Isen
 
 
-[LW:DisplayNameForlindon]
-Forlindon
-
-
 [LW:DisplayNameGapofRohan]
 Gap of Rohan
 
@@ -21521,8 +21513,8 @@ Gap of Rohan
 Gondor
 
 
-[LW:DisplayNameGreyHavens]
-Grey Havens
+[LW:DisplayNameGorgoroth]
+Plains of Gorgoroth
 
 
 [LW:DisplayNameHalifirien]
@@ -21533,24 +21525,16 @@ Halifirien
 Harad
 
 
-[LW:DisplayNameHarlindon]
-Harlindon
-
-
 [LW:DisplayNameHarlond]
 Harlond
 
 
-[LW:DisplayNameHarondor]
-Harondor
+[LW:DisplayNameHarrowdale]
+Harrowdale
 
 
 [LW:DisplayNameHelmsDeep]
 Helm's Deep
-
-
-[LW:DisplayNameHighPass]
-High Pass
 
 
 [LW:DisplayNameIronHills]
@@ -21565,12 +21549,24 @@ Isengard
 Ithilien
 
 
+[LW:DisplayNameHaradJungles]
+Jungles of Harad
+
+
 [LW:DisplayNameCelduin]
 Celduin
 
 
+[LW:DisplayNameKhandBorders]
+Borders of Khand
+
+
 [LW:DisplayNameLebennin]
 Lebennin
+
+
+[LW:DisplayNameLossarnach]
+Lossarnach
 
 
 [LW:DisplayNameLothlorien]
@@ -21583,10 +21579,6 @@ Minas Morgul
 
 [LW:DisplayNameMinasTirith]
 Minas Tirith
-
-
-[LW:DisplayNameMinhiriath]
-Minhiriath
 
 
 [LW:DisplayNameMirkwood]
@@ -21613,20 +21605,12 @@ Mouths of the Entwash
 Mt Doom
 
 
-[LW:DisplayNameNearHarad]
-Near Harad
-
-
 [LW:DisplayNameBrownlands]
 Old Brown Lands
 
 
 [LW:DisplayNameNorthernIthilien]
 Northern Ithilien
-
-
-[LW:DisplayNameNurn]
-Nurn
 
 
 [LW:DisplayNameOsgiliath]
@@ -21641,8 +21625,8 @@ Pelargir
 Redhorn Pass
 
 
-[LW:DisplayNameRivendell]
-Rivendell
+[LW:DisplayNameRingloVale]
+Ringló Vale
 
 
 [LW:DisplayNameRhun]
@@ -21653,24 +21637,44 @@ Rhûn
 Rohan
 
 
+[LW:DisplayNameSeaOfNurnen]
+Sea of Núrnen
+
+
 [LW:DisplayNameShelobsLair]
 Cirith Ungol
+
+
+[LW:DisplayNameSlavefieldsOfNurn]
+Slavefields of Núrn
+
+
+[LW:DisplayNameSnowbourn]
+Snowbourn
 
 
 [LW:DisplayNameSouthernIthilien]
 Southern Ithilien
 
 
-[LW:DisplayNameTheShire]
-The Shire
+[LW:DisplayNameTaurEnUngolath]
+Taur-en-Ungolath
 
 
-[LW:DisplayNameTowerHills]
-Tower Hills
+[LW:DisplayNameTaurEnMorvith]
+Taur-en-Morvith
 
 
-[LW:DisplayNameWeathertop]
-Weathertop
+[LW:DisplayNameTaurNaFaroth]
+Taur-na-Faroth
+
+
+[LW:DisplayNameTheFolde]
+The Folde
+
+
+[LW:DisplayNameValeAnduin]
+Vale of Anduin
 
 
 [LW:DisplayNameWestEmnet]
@@ -21681,13 +21685,76 @@ West Emnet
 Westfold
 
 
-[LW:DisplayNameWitheredHeath]
-Withered Heath
-
-
 [LW:DisplayNameWold]
-Wold
+The Wold
 
+
+[LW:DisplayNameGoodCampaign1]
+Mission I: Rivendell
+
+
+[LW:DisplayNameGoodCampaign2]
+Mission II: High Pass
+
+
+[LW:DisplayNameGoodCampaign3]
+Mission III: Ettenmoors
+
+
+[LW:DisplayNameGoodCampaign4]
+Mission IV: Blue Mountains
+
+
+[LW:DisplayNameGoodCampaign5]
+Mission V: Grey Havens
+
+
+[LW:DisplayNameGoodCampaign6]
+Mission VI: Celduin
+
+
+[LW:DisplayNameGoodCampaign7]
+Mission VII: Erebor
+
+
+[LW:DisplayNameGoodCampaign8]
+Mission VIII: Dol Guldur
+
+
+[LW:DisplayNameEvilCampaign1]
+Mission I: Lothlórien
+
+
+[LW:DisplayNameEvilCampaign1]
+Mission I: Lothlórien
+
+
+[LW:DisplayNameEvilCampaign2]
+Mission II: Grey Havens
+
+
+[LW:DisplayNameEvilCampaign3]
+Mission III: The Shire
+
+
+[LW:DisplayNameEvilCampaign4]
+Mission IV: Fornost
+
+
+[LW:DisplayNameEvilCampaign5]
+Mission V: Mirkwood
+
+
+[LW:DisplayNameEvilCampaign6]
+Mission VI: Withered Heath
+
+
+[LW:DisplayNameEvilCampaign7]
+Mission VII: Erebor
+
+
+[LW:DisplayNameEvilCampaign8]
+Mission VIII: Rivendell
 
 
 [LWScenario:WOTRGameType001]
@@ -21698,6 +21765,10 @@ Capital Assault
 Elimination
 
 
+[LWScenario:WOTRGameTypeLastAlliance]
+Historical Scenario
+
+
 [LWScenario:WOTRGameType003]
 World Domination
 
@@ -21706,12 +21777,20 @@ World Domination
 Conquest
 
 
+[LWScenario:WOTRGameTypeCampaign]
+Complete all missions
+
+
 [LWScenario:WOTRObjectives001]
 Eliminate enemy players by conquering their capital territory.
 
 
 [LWScenario:WOTRObjectives002]
 Eliminate enemy players by conquering all of their territories.
+
+
+[LWScenario:WOTRObjectivesLastAlliance]
+Defeat Sauron.
 
 
 [LWScenario:WOTRObjectives003]
@@ -21727,7 +21806,11 @@ Rule the lands of Middle-earth by conquering all territories.
 
 
 [LWScenario:WOTRObjectives006]
-Take control of all the strongholds present on game map (possible strongholds include Carn Dum, Dol Guldur, Erebor, Fornost, Helm's Deep, Isengard, Minas Morgul, Minas Tirith, and Rivendell).
+Take control of all the strongholds present on game map (possible strongholds include Dol Guldur, Erebor, Halls of the Elvenking, Helm's Deep, Isengard, Minas Morgul, Minas Tirith, Rivendell and Umbar).
+
+
+[LWScenario:WOTRObjectivesCampaign]
+Beat this scenario by completing every mission.
 
 
 [LWScenario:WOTRScenarioFiction001]
@@ -21746,6 +21829,10 @@ Each player has a preset starting location.
 Each player has a preset starting location and a number of claimed territories.
 
 
+[LWScenario:WOTRScenarioFictionLastAlliance]
+Player has to choose Rivendell faction
+
+
 [LWScenario:WOTRScenarioFiction005]
 This game has no preset starting locations or claimed territories for each player. A team must have control of all territories listed in the objectives at the same time to win this scenario.
 
@@ -21762,12 +21849,80 @@ This is a freeform game with no preset starting locations or claimed territories
 War of the Ring
 
 
+[LWScenario:WOTRScenarioBFME2Good]
+Campaign: War in the North
+
+
+[LWScenario:WOTRScenarioBFME2GoodDescription]
+# Of Players: 1\nThis is a story campaign in which you play through missions to defend the northern regions of Middle-earth from Sauron's armies.\n\nChoose Rivendell and beat this scenario by completing every mission.\nLosing any hero in each mission will result in failure.
+
+
+[LWScenario:WOTRScenarioBFME2Evil]
+Campaign: Dominion of Sauron
+
+
+[LWScenario:WOTRScenarioBFME2EvilDescription]
+# Of Players: 1\nThis is a story campaign in which you play through missions to overwhelm the northern regions of Middle-earth with Sauron's armies.\n\nChoose Mordor and beat this scenario by completing every mission.\nLosing any hero in each mission will result in failure.
+
+
+[LWScenario:AOTRScenarioWarNorth]
+Northern Conquest
+
+
+[LWScenario:AOTRScenarioWarDwarfOrc]
+War of the Dwarves and Orcs
+
+
+[LWScenario:AOTRScenarioWarNorthDescription]
+# Of Players: 6\nObjective: Fight the War in the North from the historical start positions. The northern theatre of the War of the Ring saw the Free Peoples of Eriador and Rhovanion defend against the Orcish tribes of the Misty Mountains, Sauron's hordes from Dol Guldur and the legions of Rhûn.
+
+
+[LWScenario:AOTRScenarioWarDwarfOrcDescription]
+# Of Players: 6\nObjective: Fight the War of the Dwarves and Orcs from the historical start positions. After the brutal slaying of King Thrór at the hands of Azog, Durin's Folk swore vengeance against the Orcs of the Misty Mountains and fought a bloody campaign across northern Middle-earth.
+
+
+[LWScenario:AOTRScenarioWarNorthOpen]
+Northern Conquest: Open Game
+
+
+[LWScenario:AOTRScenarioWarSouth]
+Southern Conquest
+
+
+[LWScenario:AOTRScenarioWarSouthOpen]
+Southern Conquest: Open Game
+
+
+[LWScenario:AOTRScenarioLastAlliance]
+War of the Last Alliance
+
+
+[LWScenario:AOTRScenarioLastAllianceDescription]
+# Of Players: 6\nObjective: Lead the armies of Gil-galad and Elendil as they seek to free Middle-earth from Sauron's darkness.\n\nChoose Rivendell and beat this scenario by capturing Mount Doom.
+
+
+[LWScenario:AOTRScenarioWarSouthDescription]
+# Of Players: 6\nObjective: Fight the War in the South from the historical start positions. Sauron presses his assault on the world of Men: Gondor must repel the relentless legions of Mordor and Haradwaith whilst Rohan withstands the forces of Isengard.
+
+
 [LWScenario:WOTRScenario001]
 Open Game
 
 
 [LWScenario:WOTRScenario001Description]
 # Of Players: 2-6\nThis is a freeform game with no preset starting locations or claimed territories.
+
+
+[LWScenario:WOTRScenarioPaperOpenDescription]
+# Of Players: 2-6\nThis is a freeform game with no preset starting locations or claimed territories.\nThis is intended as a singleplayer experience - playing in multiplayer may result in game crashes.
+
+
+[LWScenario:WOTRScenarioTest001]
+Test Game
+
+
+[LWScenario:WOTRScenarioTest001Description]
+# Of Players: 2\nThis is a test game with preset starting locations.
 
 
 [LWScenario:WOTRScenario002]
@@ -22174,6 +22329,14 @@ You have successfully conquered the capital territory of all players on the oppo
 You have failed to defend your capital territory from the players on the opposing team.
 
 
+[LWScenario:WOTRCapitalAssaultWinLastAlliance]
+Sauron has been defeated!
+
+
+[LWScenario:WOTRCapitalAssaultLoseLastAlliance]
+The Last Alliance of Elves and Men has failed!
+
+
 [LWScenario:WOTREliminationWin001]
 You have successfully eliminated all players on the opposing team.
 
@@ -22346,7 +22509,7 @@ You can construct new buildings on any open build plot in a territory you contro
 
 
 [WOTRTutorial:LW_InstructionText08]
-There are four basic structure classes to choose from, Fortress, Barracks, Armory, and Farm.
+There are four basic structure classes to choose from, Fortress, Barracks, Armoury, and Farm.
 
 
 [WOTRTutorial:LW_InstructionText09]
@@ -22463,7 +22626,7 @@ First, you will focus on structure construction in the tactical phase of this tu
 
 
 [WOTRSCRIPT:WOTR_Tutorial021subtitle]
-There are four basic structure classes to choose from, Fortress, Barracks, Armory, and Farm. Each structure class provides a necessary function to a growing empire.
+There are four basic structure classes to choose from, Fortress, Barracks, Armoury, and Farm. Each structure class provides a necessary function to a growing empire.
 
 
 [WOTRSCRIPT:WOTR_Tutorial024subtitle]
@@ -22920,19 +23083,19 @@ Blackroot Vale Archers
 
 
 [BANNERUI:GondorFighter]
-Anórien Soldier
+Soldier of Minas Tirith
 
 
 [BANNERUI:GondorFighters]
-Anórien Soldiers
+Soldiers of Minas Tirith
 
 
 [BANNERUI:GondorArcher]
-Anórien Archer
+Archer of Minas Tirith
 
 
 [BANNERUI:GondorArchers]
-Anórien Archers
+Archers of Minas Tirith
 
 
 [BANNERUI:GondorRanger]
@@ -22944,19 +23107,19 @@ Ithilien Rangers
 
 
 [BANNERUI:GondorKnight]
-Anórien Knight
+Knight of Minas Tirith
 
 
 [BANNERUI:GondorKnights]
-Anórien Knights
+Knights of Minas Tirith
 
 
 [BANNERUI:GondorLancer]
-Anórien Lancers
+Knight of Minas Tirith
 
 
 [BANNERUI:GondorLancers]
-Anórien Lancers
+Knights of Minas Tirith
 
 
 [BANNERUI:Rohirrim]
@@ -22968,11 +23131,11 @@ Rohirrim Warriors
 
 
 [BANNERUI:GondorTowerGuard]
-Minas Tirith Citadel Guard
+Guards of the Citadel
 
 
 [BANNERUI:GondorTowerGuards]
-Minas Tirith Citadel Guards
+Guards of the Citadel
 
 
 
@@ -22987,7 +23150,7 @@ Barding Longbowman
 
 
 [BANNERUI:PluralDwarvenMenOfDale]
-Men Of Dale
+Barding Longbowmen
 
 
 
@@ -23035,11 +23198,11 @@ Drummer Trolls
 
 
 [BANNERUI:MordorAttackTroll]
-Olog-Hai
+Olog-hai
 
 
 [BANNERUI:MordorAttackTrolls]
-Olog-Hai
+Olog-hai
 
 
 [BANNERUI:WildAttackTroll]
