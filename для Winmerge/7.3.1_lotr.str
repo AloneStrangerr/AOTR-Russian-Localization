@@ -23214,7 +23214,7 @@ Gundabad Stone-trolls
 
 
 [BANNERUI:PluralMordorMumakil]
-Mûmakil
+War Mûmakil
 
 
 [BANNERUI:MordorEasterling]
@@ -58477,47 +58477,67 @@ Easterling Swordsman
 
 
 [CONTROLBAR:ConstructMordorEasterlingSwordsmanHorde]
-Easterling Swordsmen (&D)
+Khân-xâtainax (&W)
+
+
+[CONTROLBAR:ConstructMordorEasterlingSwordsmanHordeWotrInn]
+Khân-xâtainax (&E)
 
 
 [CONTROLBAR:ToolTipBuildMordorEasterlingSwordsmanHorde]
-Requires Level 3 Encampment and He Is Gathering All Evil To Him upgrade\n Strong vs. Pikemen \n \n These warriors are amongst the most elite in all the lands of Rhûn, carrying with them fell blades and well-honed cruelty.
+Great Khân's Swordsmen\nStrong vs. Pikemen \n \n The Khân-xâtainax traditionally remained at the back of the Rhûnic legions, only entering the fray as reserves to relieve a tired front line of phalanx and smash the remaining enemy.
+
+
+[CONTROLBAR:ConstructMordorEasterlingSwordsmanHorde_Rhun]
+Khân-xâtainax (&R)
+
+
+[CONTROLBAR:ToolTipBuildMordorEasterlingSwordsmanHorde_Rhun]
+Great Khân's Swordsmen\nRequires Level 2 Easterling Garrison \n Strong vs. Pikemen \n \n The Khân-xâtainax traditionally remained at the back of the Rhûnic legions, only entering the fray as reserves to relieve a tired front line of phalanx and smash the remaining enemy.
 
 
 [OBJECT:HordeMordorEasterlingSwordsman]
-Easterling Swordsmen
+Khân-xâtainax
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingSwordsman]
-Easterling Swordsman Battalion
+Khân-xâtainax Battalion
 
 
 [CONTROLBAR:LW_ToolTip_MordorEasterlingSwordsman]
-\nUnit Type: Elite Infantry\nStrong vs. Pikemen
+Great Khân's Swordsmen\nUnit Type: Elite Infantry\nStrong vs. Pikemen
 
 
 [OBJECT:MordorEasterlingArcher]
-Easterling Archer
+Khân-yû-âkhax
 
 
 [OBJECT:HordeMordorEasterlingArcher]
-Easterling Archers
+Khân-yûn-âkhax
 
 
 [CONTROLBAR:ConstructMordorEasterlingArcherHorde]
-Easterling Archers (&R)
+Khân-yûn-âkhax (&R)
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingArcherHorde]
-Easterling Archer Battalion
+Khân-yûn-âkhax Battalion
 
 
 [CONTROLBAR:LW_ToolTip_MordorEasterlingArcherHorde]
-\nUnit Type: Elite Archers\nStrong vs. Archers
+Great Khân's Archers\nUnit Type: Elite Archers\nStrong vs. Archers
 
 
 [CONTROLBAR:ToolTipBuildMordorEasterlingArcherHorde]
-Requires Level 2 Easterling Encampment \n Strong vs. Archers \n \n In Rhûn, archery is considered high art. In consequence, Easterling archers rank amongst the most elite in Middle-earth.
+Great Khân's Archers\nRequires Level 2 Easterling Garrison \n Strong vs. Archers \n \n Khân-yûn-âkhax were highly trained marksmen that carried heavy warbows and quivers full of twisted barbed arrows, raining death upon the enemy even as the phalanx advanced.
+
+
+[CONTROLBAR:ConstructMordorEasterlingArcherHorde_Rhun]
+Khân-yûn-âkhax (&E)
+
+
+[CONTROLBAR:ToolTipBuildMordorEasterlingArcherHorde_Rhun]
+Great Khân's Archers\nRequires Level 2 Archery Range \n Strong vs. Archers \n \n Khân-yûn-âkhax were highly trained marksmen that carried heavy warbows and quivers full of twisted barbed arrows, raining death upon the enemy even as the phalanx advanced.
 
 
 [CONTROLBAR:LW_ToolTipBuild_MordorEasterlingArcherHorde]
@@ -75163,7 +75183,7 @@ In T.A. 2989. Óin and a company of Dwarves lay siege to the Dimrill Dale ...
 
 
 [SCRIPT:1Newintro4]
-Balin: Óin is in need of a hand! we must make haste and clear them out from the dale!
+Balin: Óin is in need of a hand! We must make haste and clear them out from the dale!
 
 
 [SCRIPT:1Newintro5]
@@ -75187,11 +75207,15 @@ Defend Khazad-dûm
 
 
 [SCRIPT:1OBJECTIVE5]
-Scavenge and Relcaim the Western Mines
+Scavenge and Reclaim the Western Mines
 
 
 [SCRIPT:1OBJECTIVE4]
-Find the Key to the Gate
+Find the two Keys to open the Gate
+
+
+[SCRIPT:1OBJECTIVE45]
+Defend the Dwarven base against the Orcish counterattack
 
 
 [SCRIPT:1OBJECTIVEBONUS1]
@@ -75323,7 +75347,7 @@ Soon afterwards The Dwarves recovered their strength and settled the Twenty-firs
 
 
 [SCRIPT:1PART3INTRO2]
-Many wondrous artifacts were recovered. The Dwarves of Balin's Colony donned the armor of their forebears, hard and tough like a dragon's hide. \n Scores of orcs were killed, cut down relentlessly by the fury of the Dwarves ...
+Many wondrous artifacts were recovered. The Dwarves of Balin's Colony donned the armour of their forebears, hard and tough like a dragon's hide. \n Scores of orcs were killed, cut down relentlessly by the fury of the Dwarves ...
 
 
 [SCRIPT:1PART3INTRO3]
