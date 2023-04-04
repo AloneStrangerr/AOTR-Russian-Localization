@@ -24157,11 +24157,11 @@ War Mûmakil
 
 
 [BANNERUI:MordorEasterling]
-Easterling Phalanx
+Khân-pâlainax
 
 
 [BANNERUI:MordorEasterlings]
-Easterlings Phalanx
+Khân-pâlainax
 
 
 
@@ -24214,11 +24214,11 @@ Gundabad Wolf-riders
 
 
 [BANNERUI:IsengardPikeman]
-Uruk Pikeman
+Uruk-hai Pikeman
 
 
 [BANNERUI:IsengardPikemen]
-Uruk Pikemen
+Uruk-hai Pikemen
 
 
 
@@ -24410,14 +24410,13 @@ Valueline2= 6+ Farms: 30%
 
 
 [OBJECT:RohanArmoryDescription]
-Weapons and armor upgrades
+Weapons and armour upgrades
 
 
 [OBJECT:RohanWellDescription]
 Heals nearby allies 
 Valueline2= Detects stealth
-Valueline2= Increases resource gain of nearby farms and windmills 
-Valueline2= Increases command point limit by 10
+Valueline2= Increases resource gain of nearby farms and windmills
 
 
 [OBJECT:GondorWellDescription]
@@ -24428,12 +24427,11 @@ Valueline2= Reduces the cost of infantry
 [OBJECT:RohanStatueDescription]
 Allies near the statue gain 
 Valueline2= +50% damage, +50% armour, 
-Valueline2= and earn experience twice as fast 
-Valueline2= Does not stack
+Valueline2= and earn experience twice as fast
 
 
 [OBJECT:RohanBattleTowerDescription]
-Strong Defensive Building. Shoots arrows at enemies.
+Strong defensive building. Shoots arrows at enemies.
 
 
 [OBJECT:RohanEntMootDescription]
@@ -24445,7 +24443,7 @@ Mallorn Tree
 
 
 [OBJECT:ElvenGreenPasture]
-Golden Wood Pasture
+Green Pasture
 
 
 [OBJECT:ElvenGreenPastureDescription]
@@ -24484,7 +24482,6 @@ Recruits the elite troops of Erebor
 [OBJECT:DwarvenHearthDescription]
 Allies near the hearth gain 
 Valueline2= +50% damage and +50% armour 
-Valueline2= Does not stack 
 Valueline2= Reduces cost of machines
 Valueline2= 3 Hearths: 10%
 Valueline2= 5 Hearths: 20%
@@ -24495,8 +24492,7 @@ Valueline2=10 Hearths: 40%
 [OBJECT:DwarvenStatueDescription]
 Allies near the statue gain 
 Valueline2= +50% damage, +50% armour, 
-Valueline2= and earn experience twice as fast 
-Valueline2= Does not stack
+Valueline2= and earn experience twice as fast
 
 
 [OBJECT:DwarvenMineShaftDescription]
@@ -24557,8 +24553,7 @@ Valueline2= 5 Stoneworkers: 25%
 [OBJECT:GondorStatueDescription]
 Allies near the statue gain 
 Valueline2= +50% damage, +50% armour, 
-Valueline2= and earn experience twice as fast 
-Valueline2= Does not stack
+Valueline2= and earn experience twice as fast
 Valueline2= Reduces cost of heroes
 
 
@@ -24587,6 +24582,11 @@ Valueline2= Level 3: +25% faster build speed
 
 
 [OBJECT:MordorHaradrimPalaceDescription]
+Level 2: +10% faster build speed
+Valueline2= Level 3: +25% faster build speed
+
+
+[OBJECT:MordorRhunArcherRangeDescription]
 Level 2: +10% faster build speed
 Valueline2= Level 3: +25% faster build speed
 
@@ -24772,7 +24772,7 @@ Woodland Realm
 
 
 [LWA:CorruptedWild]
-Gundabad
+Misty Mountains
 
 
 [LWA:MenOfTheWestGarrison]
@@ -24800,7 +24800,7 @@ Erebor Army
 
 
 [LWA:WildArmy]
-Gundabad Army
+Misty Mountains Army
 
 
 [LWA:MenHeroArmy]
@@ -24833,6 +24833,10 @@ Isengard Hero Army
 
 [LWA:GuldurHeroArmy]
 Dol Guldur Hero Army
+
+
+[LWA:HaradwaithHeroArmy]
+Haradwaith Hero Army
 
 
 [LWA:WildHeroArmy]
@@ -24868,11 +24872,11 @@ Isengard Garrison Army
 
 
 [LWA:WildGarrison]
-Gundabad Garrison Army
+Misty Mountains Garrison Army
 
 
 [LWA:CorruptedWildGarrison]
-Gundabad Garrison Army
+Misty Mountains Garrison Army
 
 
 [LWA:GuldurGarrison]
@@ -24903,27 +24907,27 @@ Blackroot Vale Archers
 
 
 [OBJECT:HordeGondorSoldier]
-Anórien Soldiers
+Soldiers of Minas Tirith
 
 
 [OBJECT:HordeGondorTowerGuard]
-Minas Tirith Citadel Guards
+Guards of the Citadel
 
 
 [OBJECT:HordeGondorArcher]
-Anórien Archers
+Archers of Minas Tirith
 
 
 [OBJECT:HordeGondorSoldierCombo]
-Anórien Soldiers
+Soldiers of Minas Tirith
 
 
 [CONTROLBAR:LW_Unit_GondorFighterHordeCombo]
-Anórien Soldiers Combo Batallion
+Soldiers of Minas Tirith Combo Batallion
 
 
 [CONTROLBAR:LW_Unit_GondorFighterHordeComboPlural]
-Anórien Soldiers Combo Batallions
+Soldiers of Minas Tirith Combo Batallions
 
 
 [CONTROLBAR:LW_ToolTip_GondorFighterHordeCombo]
@@ -24933,15 +24937,15 @@ Valueline2=
 
 
 [OBJECT:HordeGondorSpearmenCombo]
-Anórien Pikemen
+Spearmen of Minas Tirith
 
 
 [CONTROLBAR:LW_Unit_GondorSpearmenHordeCombo]
-Anórien Pikemen Combo Batallion
+Spearmen of Minas Tirith Combo Batallion
 
 
 [CONTROLBAR:LW_Unit_GondorSpearmenHordeComboPlural]
-Anórien Pikemen Combo Batallions
+Spearmen of Minas Tirith Combo Batallions
 
 
 [CONTROLBAR:LW_ToolTip_GondorSpearmenHordeCombo]
@@ -24951,15 +24955,15 @@ Valueline2=
 
 
 [OBJECT:HordeGondorArcherCombo]
-Anórien Archers
+Archers of Minas Tirith
 
 
 [CONTROLBAR:LW_Unit_GondorArcherHordeCombo]
-Anórien Archers Combo Batallion
+Archers of Minas Tirith Combo Batallion
 
 
 [CONTROLBAR:LW_Unit_GondorArcherHordeComboPlural]
-Anórien Archers Combo Batallions
+Archers of Minas Tirith Combo Batallions
 
 
 [CONTROLBAR:LW_ToolTip_GondorArcherHordeCombo]
@@ -24969,15 +24973,15 @@ Valueline2=
 
 
 [OBJECT:HordeGondorSoldierArcherCombo]
-Anórien Soldiers - Anórien Archers
+Soldiers of Minas Tirith - Archers of Minas Tirith
 
 
 [CONTROLBAR:LW_Unit_GondorFighterArcherHorde]
-Anórien Soldiers - Anórien Archers Batallion
+Soldiers of Minas Tirith - Archers of Minas Tirith Batallion
 
 
 [CONTROLBAR:LW_Unit_GondorFighterArcherHordePlural]
-Anórien Soldiers - Anórien Archers Batallions
+Soldiers of Minas Tirith - Archers of Minas Tirith Batallions
 
 
 [CONTROLBAR:LW_ToolTip_GondorFighterArcherHorde]
@@ -24987,15 +24991,15 @@ Valueline2=
 
 
 [OBJECT:HordeGondorSpearmenArcherCombo]
-Anórien Pikemen - Anórien Archers
+Spearmen of Minas Tirith - Archers of Minas Tirith
 
 
 [CONTROLBAR:LW_Unit_GondorFighterSpearmenHorde]
-Anórien Pikemen - Anórien Archers Batallion
+Spearmen of Minas Tirith - Archers of Minas Tirith Batallion
 
 
 [CONTROLBAR:LW_Unit_GondorFighterSpearmenHordePlural]
-Anórien Pikemen - Anórien Archers Batallions
+Spearmen of Minas Tirith - Archers of Minas Tirith Batallions
 
 
 [CONTROLBAR:LW_ToolTip_GondorFighterSpearmenHorde]
@@ -25005,19 +25009,19 @@ Valueline2=
 
 
 [OBJECT:HordeGondorSpearmenRangerCombo]
-Anórien Pikemen - Ithilien Ranger Horde
+Spearmen of Minas Tirith - Ithilien Ranger Horde
 
 
 [OBJECT:HordeGondorFighterDoubleCombo]
-Anórien Soldiers - Anórien Pikemen
+Soldiers of Minas Tirith - Spearmen of Minas Tirith
 
 
 [CONTROLBAR:LW_Unit_GondorFighterDoubleCombo]
-Anórien Soldiers - Anórien Pikemen Bataillon
+Soldiers of Minas Tirith - Spearmen of Minas Tirith Bataillon
 
 
 [CONTROLBAR:LW_Unit_GondorFighterDoubleComboPlural]
-Anórien Soldiers - Anórien Pikemen Bataillons
+Soldiers of Minas Tirith - Spearmen of Minas Tirith Bataillons
 
 
 [CONTROLBAR:LW_ToolTip_GondorFighterDoubleCombo]
@@ -25027,43 +25031,43 @@ Valueline2=
 
 
 [OBJECT:HordeGondorSoldierPikemenCombo]
-Anórien Soldiers - Anórien Pikemen
+Soldiers of Minas Tirith - Spearmen of Minas Tirith
 
 
 [OBJECT:HordeGondorSoldierRangerCombo]
-Anórien Soldier - Ithilien Ranger Horde
+Soldiers of Minas Tirith - Ithilien Ranger Horde
 
 
 [OBJECT:HordeGondorSoldierTrebuchetCombo]
-Anórien Soldier - Trebuchet Horde
+Soldiers of Minas Tirith - Trebuchet Horde
 
 
 [OBJECT:HordeGondorTowerGuardTrebuchetCombo]
-Minas Tirith Citadel Guard - Trebuchet Horde
+Guards of the Citadel - Trebuchet Horde
 
 
 [OBJECT:HordeGondorKnight]
-Anórien Knights
+Knights of Minas Tirith
 
 
 [OBJECT:HordeGondorLancer]
-Anórien Lancers
+Knights of Minas Tirith
 
 
 [OBJECT:HordeGondorSoldierKnightCombo]
-Anórien Soldier - Anórien Knight Horde
+Soldiers of Minas Tirith - Knights of Minas Tirith Horde
 
 
 [OBJECT:HordeGondorTowerGuardKnightCombo]
-Minas Tirith Citadel Guard - Anórien Knight Horde
+Guards of the Citadel - Knights of Minas Tirith Horde
 
 
 [OBJECT:HordeGondorTowerGuardArcherCombo]
-Minas Tirith Citadel Guard - Anórien Archer Horde
+Guards of the Citadel - Archers of Minas Tirith Horde
 
 
 [OBJECT:HordeGondorTowerGuardRangerCombo]
-Minas Tirith Citadel Guard - Ithilien Ranger Horde
+Guards of the Citadel - Ithilien Ranger Horde
 
 
 [OBJECT:HordeRohanRohirrim]
@@ -25094,6 +25098,26 @@ Barding Phalanx
 Barding Phalanx
 
 
+[OBJECT:DaleRoyalGuard]
+Royal Guard of Dale
+
+
+[OBJECT:DaleRoyalGuardHorde]
+Royal Guard of Dale
+
+
+[CONTROLBAR:ConstructDaleRoyalGuard]
+Royal Guard of Dale (&S)
+
+
+[CONTROLBAR:ToolTipBuildDaleRoyalGuard]
+Hero Unit 
+Valueline2=Strong vs. Cavalry 
+Valueline2= Able to switch formation for improved defensive capabilities 
+Valueline2= 
+Valueline2= The retinue of Dalish royal guards was founded soon after Bard restored the great city of Dale. Its members have served as the personal guard of the Barding kings ever since.
+
+
 [OBJECT:HordeRohanPeasantArcherCombo]
 Peasant - Men of Dale
 
@@ -25112,6 +25136,35 @@ Lorien Warrior Battle Line
 
 [OBJECT:HordeOathBreakers]
 Oathbreakers
+
+
+
+[OBJECT:IsengardUrukAxes]
+Uruk-hai Axes
+
+
+[OBJECT:HordeIsengardUrukAxes]
+Uruk-hai Axes
+
+
+[CONTROLBAR:ConstructIsengardUrukAxes]
+Uruk-hai Axes (&W)
+
+
+[CONTROLBAR:ToolTipBuildIsengardUrukAxes]
+Strong vs. Pikemen
+Valueline2=
+Valueline2= These Uruk-hai carry large, cruel axes, and are utterly without mercy or reprieve. Their foes would be wise to make sure their scent is not caught.
+
+
+[CONTROLBAR:HuntThemDown]
+Hunt Them Down (&W)
+
+[CONTROLBAR:TooltipHuntThemDown]
+Requires Level 2
+Valueline2= Modifier Type: Weapon 
+Valueline2= Uruk-hai Axes gain +25% damage and +15% speed for 20 seconds
+Valueline2=Left click to activate
 
 
 [OBJECT:HordeIsengardFighter]
@@ -25139,7 +25192,7 @@ Uruk-hai - Ladder
 
 
 [OBJECT:HordeIsengardPikemen]
-Uruk Pikemen
+Uruk-hai Pikemen
 
 
 [OBJECT:HordeIsengardFighterCrossbowCombo]
@@ -25171,7 +25224,7 @@ Orc Warriors
 
 
 [OBJECT:HordeMordorEasterlings]
-Easterling Phalanx
+Khân-pâlainax
 
 
 [OBJECT:HordeMordorArchers]
@@ -25203,19 +25256,19 @@ Haradrim Spearmen - Haradrim Archers
 
 
 [OBJECT:HordeMordorEasterlingHaradrimCombo]
-Easterling Phalanx - Haradrim Archers
+Khân-pâlainax - Haradrim Archers
 
 
 [OBJECT:HordeMordorEasterlingEasterlingCombo]
-Easterling Phalanx - Easterling Archers
+Khân-pâlainax - Khân-yûn-âkhax
 
 
 [OBJECT:HordeMordorEasterlingEasterlingCombo3]
-Easterling Phalanx - Easterling Swordsmen
+Khân-pâlainax - Khân-xâtainax
 
 
 [OBJECT:HordeMordorEasterlingEasterlingCombo2]
-Easterling Swordsmen - Easterling Archers
+Khân-pâlainax - Khân-yûn-âkhax
 
 
 [OBJECT:HordeMordorHaradrim]
@@ -25488,7 +25541,7 @@ Bonus: Increase all Heroes to Level 3.
 Bonus: Defeat Uruk-hai reinforcement army.
 
 [BONUSROUND:SPSGOODEASTFOLDHEAVY]
-Bonus: Purchase heavy armor for 3 battalions.
+Bonus: Purchase heavy armour for 3 battalions.
 
 [BONUSROUND:SPSGOODEASTFOLDLEVELUP]
 Bonus: Level up 3 battalions.
@@ -25515,14 +25568,14 @@ Bonus: Destroy all Warg Riders that patrol this area.
 Bonus: Level up Eomer one level.
 
 [BONUSROUND:SPSGOODEASTEMNETHEAVY]
-Bonus: Purchase heavy armor for 3 battalions.
+Bonus: Purchase heavy armour for 3 battalions.
 
 
 [BONUSROUND:SPSGOODWESTEMNETEOMER]
 Bonus: Level up Eomer one level.
 
 [BONUSROUND:SPSGOODWESTEMNETHEAVY]
-Bonus: Purchase heavy armor for 3 battalions.
+Bonus: Purchase heavy armour for 3 battalions.
 
 
 
@@ -25635,7 +25688,7 @@ Note: Cavalry cannot be built.
 
 
 [BONUSROUND:SPSGOODANDROSNUMENOREAN]
-Bonus: Reinforce your castle walls with Numenorean Stonework.
+Bonus: Reinforce your castle walls with Númenórean Stonework.
 
 [BONUSROUND:SPSGOODANDROSBANNERS]
 Bonus: Purchase banners for 3 battalions.
@@ -25765,7 +25818,7 @@ Bonus: Command a horde of Uruk Warriors to use their bloodthirsty power on anoth
 Bonus: Destroy the reinforcing Rohan army.
 
 [BONUSROUND:SPSEVILROHANHEAVY]
-Bonus: Upgrade 5 hordes with heavy armor.
+Bonus: Upgrade 5 hordes with heavy armour.
 
 [BONUSROUND:SPSEVILROHANGARRISON]
 Bonus: Garrison a ruined tower with an Uruk Crossbow Horde.
@@ -25788,7 +25841,7 @@ Bonus: Build a Battering Ram.
 Bonus: Destroy all patrolling Rohirrim.
 
 [BONUSROUND:SPSEVILEASTEMNETUPGRADE]
-Bonus: Upgrade 5 hordes with heavy armor.
+Bonus: Upgrade 5 hordes with heavy armour.
 
 [BONUSROUND:SPSEVILEASTEMNETSOLDIERS]
 Bonus: Put Easterlings in Porcupine Formation.
@@ -25802,7 +25855,7 @@ Bonus: Put Uruk Pikemen in Porcupine Formation.
 Bonus: Recruit all the wild wargs in this region.
 
 [BONUSROUND:SPSEVILWESTEMNETUPGRADE]
-Bonus: Upgrade 5 hordes with heavy armor.
+Bonus: Upgrade 5 hordes with heavy armour.
 
 [BONUSROUND:SPSEVILWESTEMNETSOLDIERS]
 Bonus: Put Easterlings in Porcupine Formation.
@@ -25861,7 +25914,7 @@ Bonus: Upgrade 5 hordes with forged blades.
 Bonus: Destroy the Elves that dwell in this region.
 
 [BONUSROUND:SPSEVILMIRKWOODUPGRADE]
-Bonus: Upgrade 5 hordes with heavy armor.
+Bonus: Upgrade 5 hordes with heavy armour.
 
 
 [BONUSROUND:SPSEVILMOUTHSOFTHEENTWASHDESTROY]
@@ -26132,25 +26185,28 @@ Left click to upgrade this unit
 
 
 [CONTROLBAR:PurchaseTechnologyRohanForgedBlades]
-Forged Blade Upgrade (&D)
+Mundburg Steel Blades (&D)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades]
-Purchase Forged Blade Upgrade 
-Valueline2= Select a battalion to upgrade
+Purchase Mundburg Steel Blades Upgrade 
+Valueline2= When equipped, increases the damage done by melee weapons
+Valueline2= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRohanForgedBlades]
-Left click to upgrade this unit
+Upgrades this battalion with Mundburg Steel Blades 
+Valueline2= Increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseTechnologyRohanHeavyArmor]
-Hea&vy Armor
+Mundburg Steel Armour (&F)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRohanHeavyArmor]
-Purchase Heavy Armor Upgrade 
-Valueline2= Select a battalion to upgrade
+Purchase Mundburg Steel Armour Upgrade 
+Valueline2= When equipped, significantly reduces the amount of damage taken
+Valueline2= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:PurchaseUpgradeRohanHeavyArmor]
@@ -36140,7 +36196,7 @@ Hermits can be found living in solitude in the remote places of the world, where
 
 
 [CreateAHero:SubClassDesc_Taskmaster]
-A hardy, stubborn dwarf, the Ironbreaker specializes in heavy armor and broad shields.
+A hardy, stubborn dwarf, the Ironbreaker specializes in heavy armour and broad shields.
 
 
 [CreateAHero:SubClassDesc_Sage]
@@ -36153,7 +36209,7 @@ An old, twisted and violent race that is at home on the battlefield.
 
 
 [CreateAHero:SubClassDesc_Uruk]
-Uruk are strong and hardy, but even more so when thrown into the thick of battle with heavy armor and broad shields.
+Uruk are strong and hardy, but even more so when thrown into the thick of battle with heavy armour and broad shields.
 
 
 [CreateAHero:SubClassDesc_Haradrim]
@@ -62536,7 +62592,7 @@ Valueline2= Stacks with Buffs and Spells
 Valueline2= Passive ability 
 Valueline2=
 Valueline2= Modifier Type: Level 
-Valueline2= Haldir dons his heavy armor and gains 50% armour increase
+Valueline2= Haldir dons his heavy armour and gains 50% armour increase
 Valueline2= Passive ability
 
 
@@ -62569,7 +62625,7 @@ Captain of the Galadhrim
 [CONTROLBAR:ToolTipHaldirArmor]
 Requires Level 6 
 Valueline2= Modifier Type: Level 
-Valueline2= Haldir dons his heavy armor and gains +50% armour 
+Valueline2= Haldir dons his heavy armour and gains +50% armour 
 Valueline2= Passive ability
 
 
@@ -67034,7 +67090,7 @@ Valueline2= Left click to activate
 
 
 [CONTROLBAR:ToolTipFullyArmed]
-Grants heavy armor to units in radius 
+Grants heavy armour to units in radius 
 Valueline2= Only affects units that can receive Dwarven Plates 
 Valueline2= Left click on icon then left click on target own units
 
@@ -71078,7 +71134,7 @@ Armaments of Ost-in-Edhil
 
 [CONTROLBAR:ToolTipElrondHeavyArmor]
 Requires Level 6 
-Valueline2= Elrond equips his heavy armor 
+Valueline2= Elrond equips his heavy armour 
 Valueline2= Modifier Type: Spell 
 Valueline2= Elrond gains +50% armour and +50% resistance to knockback 
 Valueline2= Stacks with Buffs and Spells 
