@@ -26210,23 +26210,16 @@ Valueline2= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:PurchaseUpgradeRohanHeavyArmor]
-Heavy Armor (&T)
+Mundburg Steel Armour (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRohanHeavyArmor]
-Left click to upgrade this unit
+Upgrades this battalion with Mundburg Steel Armour 
+Valueline2= Significantly reduces the amount of damage taken
 
 
 
 
-
-[CONTROLBAR:ToolTipPurchaseTechnologyRohanBasicTraining]
-Increases a unit to Level 2 
-Valueline2= Can only be equipped at Level 1
-
-
-[CONTROLBAR:PurchaseUpgradeRohanBasicTraining]
-Banner Carrier Upgrade (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRohanBasicTraining]
@@ -26237,29 +26230,29 @@ Valueline2= Can only be equipped at Level 1
 
 
 [UPGRADE:RohanBasicTraining]
-Banner Carrier
+Heraldry of the Riddermark
 
 
 [UPGRADE:GondorBasicTraining]
-Banner Carrier
+Banners of the White Tree
 
 
 [UPGRADE:IsengardBasicTraining]
-Banner Carrier
+Banners of the White Hand
 
 
 [UPGRADE:MordorBasicTraining]
-Banner Carrier
+Banners of the Red Eye
 
 
 
 
 [UPGRADE:RohanHeavyArmor]
-Heavy Armor
+Mundburg Steel Armour
 
 
 [UPGRADE:RohanForgedBlades]
-Forged Blades
+Mundburg Steel Blades
 
 
 [UPGRADE:RohanFireArrowUpgrade]
@@ -26267,11 +26260,11 @@ Fire Arrows
 
 
 [UPGRADE:GondorHeavyArmor]
-Heavy Armor
+Steel Cuirasses
 
 
 [UPGRADE:GondorForgedBlades]
-Forged Blades
+Tempered Blades
 
 
 [UPGRADE:GondorFireArrowUpgrade]
@@ -26995,11 +26988,11 @@ Warning: Setting 'Command Point Factor' above 1X may result in the game playing 
 
 
 [CAH:ArmorMenuLabel]
-Armor
+Armour
 
 
 [CAH:ArmorMenuDesc]
-Armor more resistant damage
+Armour more resistant damage
 
 
 [CAH:PowerMenuLabel]
@@ -27311,12 +27304,16 @@ Númenórean Stonework (&S)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework]
-Increases Fortress and Wall armor 
+Increases Fortress and Wall armour by 65% 
 Valueline2= Prerequisite for Tower of Ecthelion
 
 
 [CONTROLBAR:PurchaseUpgradeMenFortressFlamingMunitions]
 Flaming Munitions (&T)
+
+
+[CONTROLBAR:PurchaseUpgradeRohanFortressFlamingMunitions]
+Flaming Munitions (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMenFortressFlamingMunitions]
