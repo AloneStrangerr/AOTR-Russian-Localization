@@ -27581,7 +27581,7 @@ Recruits specialist units of Erebor
 
 [CONTROLBAR:ToolTipConstructDwarvenHusbandryWotRRealTime]
 Secondary Barracks 
-Valueline2= Increases Ibsênab-azghakakâ 
+Valueline2= Trains Ibsênab-azghakakâ 
 Valueline2= Limited to 1
 
 
@@ -27604,7 +27604,7 @@ Valueline2= At rank 2, repairs nearby siege engines and battlewagons
 
 [CONTROLBAR:ToolTipConstructDwarvenWorkshopWotRRealTime]
 Tertiary Barracks 
-
+Valueline2= Constructs Sulûn-abanul 
 Valueline2= Limited to 1
 
 
@@ -28116,6 +28116,19 @@ Valueline2=
 Valueline2= The Dwarves of Iron Hills have developed a chariot that can cross even the roughest of terrain and ride down the toughest of foes.
 
 
+[CONTROLBAR:ConstructDwarvenBattleWagonWotR]
+Ibsênab-azghakakâ (&W)
+
+
+[CONTROLBAR:ToolTipBuildDwarvenBattleWagonWotR]
+Battlewagon 
+Valueline2= Strong vs. Swordsmen and Archers 
+Valueline2= Can be upgraded with various improvements 
+Valueline2= Limited to 3. 
+Valueline2= 
+Valueline2= The Dwarves of Iron Hills have developed a chariot that can cross even the roughest of terrain and ride down the toughest of foes.
+
+
 [CONTROLBAR:ConstructDwarvenCatapult]
 &Catapult
 
@@ -28193,6 +28206,14 @@ Upgrade Erebor Redoubt to Level 2 (&A)
 
 [CONTROLBAR:UpgradeDwarvenForgeWorksLevel3]
 Upgrade Erebor Redoubt to Level 3 (&A)
+
+
+[CONTROLBAR:UpgradeDwarvenForgeWorksLevel2BotFA]
+Upgrade Iron Hills Redoubt to Level 2 (&A)
+
+
+[CONTROLBAR:UpgradeDwarvenForgeWorksLevel3BotFA]
+Upgrade Iron Hills Redoubt to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeDwarvenWorkshopLevel2]
@@ -28312,7 +28333,7 @@ Valueline2= Strong vs. infantry, cavalry and structures
 Valueline2= 
 Valueline2= They were very great beside the Men of those days - cold as in the nature of snakes and serpents, 
 Valueline2=and of them a many having wings go with the uttermost noise and speed... 
-Valueline2= Only 1 Cold Drake is allowed at any time.
+Valueline2= Only 1 Cold-drake is allowed at any time.
 
 
 
@@ -28321,7 +28342,7 @@ Significantly increases the damage done by the ship's primary weapon
 
 
 [CONTROLBAR:PurchaseUpgradePirateFlag]
-&Pirate Flags
+Pirate Flags (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradePirateFlag]
@@ -28449,6 +28470,10 @@ Wolf Den Expansion
 Smaug
 
 
+[OBJECT:DrogothBFME2]
+Drogoth
+
+
 [OBJECT:WildGoblinKing]
 Golfimbul
 
@@ -28463,7 +28488,7 @@ Requires Level 2 Goblin Hoard
 
 
 [CONTROLBAR:PurchaseUpgradeCirdansCraftwork]
-&Cirdan's Craftwork
+Cirdan's Craft (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeCirdansCraftwork]
@@ -28485,10 +28510,20 @@ Love of the Sea
 Build Fortress (&I)
 
 
+[CONTROLBAR:ConstructElvenFortressWOTR]
+Build Outpost (&I)
+
+
 [CONTROLBAR:ToolTipConstructElvenFortress]
 Recruits Builders and Heroes 
 Valueline2= Can be upgraded with expansions and improvements 
 Valueline2= Increases command point limit by 100
+
+
+[CONTROLBAR:ToolTipConstructElvenFortressWOTR]
+Recruits Builders and revives Heroes 
+Valueline2= Generates 100 resources per tick 
+Valueline2= Increases command point limit by 900
 
 
 [CONTROLBAR:ConstructElvenWatchtowerExpansion]
