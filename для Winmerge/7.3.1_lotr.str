@@ -27351,6 +27351,16 @@ Provides Palantir Vision Power and allows recruitment of Fountain Guard
 Valueline2= Increases Fortress vision range
 
 
+[CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower_GC]
+Provides Palantir Vision Power and allows recruitment of Grey Company 
+Valueline2= Increases Fortress vision range
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTowerFortressMap]
+Allows recruitment of Fountain Guard 
+Valueline2= Increases Fortress vision range
+
+
 [CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower_WOTR]
 Provides Palantir Vision Power 
 Valueline2= Increases Fortress vision range
@@ -27362,7 +27372,7 @@ Bulwark of the West (&R)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil]
 Unlocks the Stalwart Defense ability 
-Valueline2= Can be used to summon two battalions of Citadel Guards to defend the fortress
+Valueline2= Can be used to summon two battalions of Guards of the Citadel to defend the fortress
 
 
 
@@ -27462,10 +27472,32 @@ Trebuchet Tower
 Build Fortress (&I)
 
 
+[CONTROLBAR:ConstructDwarvenFortressWOTR]
+Build Outpost (&I)
+
+
 [CONTROLBAR:ToolTipConstructDwarvenFortress]
 Recruits Builders and Heroes 
 Valueline2= Can be upgraded with improvements and expansions 
 Valueline2= Increases command point limit by 100
+
+
+[CONTROLBAR:ToolTipConstructDwarvenFortressWOTR]
+Recruits Builders and revives Heroes 
+Valueline2= Generates 100 resources per tick 
+Valueline2= Increases command point limit by 900
+
+
+[CONTROLBAR:ToolTipConstructHaradFortress]
+Recruits Builders and Heroes 
+Valueline2= Can be upgraded with improvements and expansions 
+Valueline2= Increases command point limit by 100
+
+
+[CONTROLBAR:ToolTipConstructHaradFortressWOTR]
+Recruits Builders and revives Heroes 
+Valueline2= Generates 100 resources per tick 
+Valueline2= Increases command point limit by 900
 
 
 [CONTROLBAR:ConstructDwarvenSentryTower]
@@ -27481,9 +27513,18 @@ Valueline2= Can be garrisoned with ranged units for increased damage output
 Build Hall of Warriors (&T)
 
 
+[CONTROLBAR:ConstructDwarvenBarracksWotRRealTime]
+Build Hall of Warriors (&W)
+
+
+[CONTROLBAR:ToolTipConstructDwarvenBarracksWotR]
+Primary Barracks 
+Valueline2= Trains basic infantry of the Dwarves 
+Valueline2= Limited to 2
+
+
 [CONTROLBAR:ToolTipConstructDwarvenBarracks]
-Trains the Infantry of the Dwarves 
-Valueline2= Increases command point limit by 25
+Trains basic infantry of the Dwarves
 
 
 [CONTROLBAR:ConstructDwarvenWell]
@@ -27496,11 +27537,9 @@ Build He&arth
 
 [CONTROLBAR:ToolTipConstructDwarvenHearth]
 Allies near the hearth gain 
-Valueline2= +50% damage and +50% armour 
-Valueline2= Does not stack 
+Valueline2= +50% damage and +50% armour
 Valueline2= Provides nearby stealth detection 
-Valueline2= Reduces cost of machine units 
-Valueline2= Increases command point limit by 10
+Valueline2= Reduces cost of machine units
 
 
 [CONTROLBAR:ConstructDwarvenForgeWorks]
@@ -27509,8 +27548,14 @@ Build Grand Forge (&R)
 
 [CONTROLBAR:ToolTipConstructDwarvenForgeWorks]
 Provides worked metals as a resource based on available terrain
-Valueline2=Upgrades weapons and armor
+Valueline2=Researches weapons and armour upgrades
 Valueline2= Reduces cost of upgrades 
+Valueline2= Increases command point limit by 50
+
+
+[CONTROLBAR:ToolTipConstructDwarvenForgeWorksBotFA]
+Provides worked metals as a resource based on available terrain
+Valueline2=Can cast Ignite to blast back nearby enemy units 
 Valueline2= Increases command point limit by 50
 
 
@@ -27518,24 +27563,49 @@ Valueline2= Increases command point limit by 50
 Build Erebor Redoubt (&V)
 
 
+[CONTROLBAR:ConstructDwarvenHusbandryWotRRealTime]
+Build Erebor Redoubt (&R)
+
+
+[CONTROLBAR:ConstructDwarvenHusbandryBotFA]
+Build Iron Hills Redoubt (&C)
+
+
+[CONTROLBAR:ToolTipConstructDwarvenHusbandryBotFA]
+Recruits Dwarves of the Iron Hills
+
+
 [CONTROLBAR:ToolTipConstructDwarvenHusbandry]
-Recruits specialist units of Erebor 
-Valueline2= Increases command point limit by 25
+Recruits specialist units of Erebor
+
+
+[CONTROLBAR:ToolTipConstructDwarvenHusbandryWotRRealTime]
+Secondary Barracks 
+Valueline2= Increases Ibsênab-azghakakâ 
+Valueline2= Limited to 1
 
 
 [CONTROLBAR:ToolTipConstructDwarvenHusbandryBlueMountains]
-Recruits Iron Hills Troops and War Machines 
-Valueline2= Increases command point limit by 25
+Recruits Iron Hills Troops and War Machines
 
 
 [CONTROLBAR:ConstructDwarvenWorkshop]
 Build Erebor Workshop (&N)
 
 
+[CONTROLBAR:ConstructDwarvenWorkshopWotRRealTime]
+Build Erebor Workshop (&T)
+
+
 [CONTROLBAR:ToolTipConstructDwarvenWorkshop]
 Constructs Dwarven Siege Equipment 
-Valueline2= At rank 2, repairs nearby siege engines and battlewagons 
-Valueline2= Increases command point limit by 25
+Valueline2= At rank 2, repairs nearby siege engines and battlewagons
+
+
+[CONTROLBAR:ToolTipConstructDwarvenWorkshopWotRRealTime]
+Tertiary Barracks 
+
+Valueline2= Limited to 1
 
 
 [OBJECT:EreborForge]
@@ -27544,13 +27614,17 @@ Erebor Grand Forge
 
 [OBJECT:EreborForgeDescription]
 Provides worked metals as a resource based on available terrain
-Valueline2=Researches Dwarven unit upgrades
+Valueline2=Researches weapons and armour upgrades
 Valueline2= Steel Bonus - Reduces cost of upgrades 
 Valueline2= 2 Forges: 5% 
 Valueline2= 3 Forges: 10% 
 Valueline2= 4 Forges: 15% 
 Valueline2= 5 Forges: 20% 
 Valueline2= 6+ Forges: 25% 
+
+
+[OBJECT:EreborForgeDescriptionBotFA]
+Provides worked metals as a resource based on available terrain
 
 
 [OBJECT:DwarvenWorkshop]
@@ -27568,7 +27642,7 @@ Build Dwarven Mine (&W)
 
 [CONTROLBAR:ConstructEreborForge]
 Provides worked metals as a resource based on available terrain
-Valueline2=Upgrades weapons and armor
+Valueline2=Researches weapons and armour upgrades
 Valueline2= Reduces cost of upgrades 
 Valueline2= Increases command point limit by 50
 
@@ -27579,17 +27653,32 @@ Build Heroic Statue (&U)
 
 [CONTROLBAR:TooltipConstructDwarvenStatue]
 Leadership bonus to nearby allies 
-Valueline2= Reduces cost of heroes 
-Valueline2= Increases command point limit by 10
+Valueline2= Reduces cost of heroes
 
 
 [CONTROLBAR:ConstructDwarvenArcheryRange]
 Build Dale &Garrison
 
 
+[CONTROLBAR:ConstructDaleAuxillaryCamp]
+Build Dalish Ruin (&T)
+
+
+[CONTROLBAR:TooltipConstructDaleAuxillaryCamp]
+Trains Men of Lake-town
+
+
+[OBJECT:BotFADalishRuin]
+Dalish Ruin
+
+
+[OBJECT:BotFADalishRuinDescription]
+Trains Men of Lake-town
+
+
+
 [CONTROLBAR:TooltipConstructDwarvenArcheryRange]
-Trains Laketowners and Bardings 
-Valueline2= Increases command point limit by 25
+Trains Laketowners and Bardings
 
 
 [CONTROLBAR:ConstructDwarvenAssembly]
@@ -27597,8 +27686,7 @@ Build Erebor Assembly (&C)
 
 
 [CONTROLBAR:TooltipConstructDwarvenAssembly]
-Recruits allies from the world of Men, Blue Mountains, and the Iron Hills 
-Valueline2= Increases command point limit by 25
+Recruits allies from the world of Men, Blue Mountains, and the Iron Hills
 
 
 [CONTROLBAR:ConstructDwarvenWallHub]
@@ -27656,9 +27744,13 @@ Construct Wall Hub Expansion
 Fortifications (&S)
 
 
+[CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStoneworkBotFA]
+Fortifications (&D)
+
+
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework]
 Allows the Fortress to launch explosive oil casks
-Valueline2=Provides additional armor to the Fortress and walls
+Valueline2=Increases Fortress and Wall armour by 65%
 Valueline2=Prerequisite to the Arkenstone upgrade
 
 
