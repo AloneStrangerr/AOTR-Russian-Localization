@@ -27758,6 +27758,14 @@ Valueline2=Prerequisite to the Arkenstone upgrade
 Erebor Braziers (&T)
 
 
+[CONTROLBAR:PurchaseUpgradeDwarvenFortressThrorArmouries]
+Armouries of Thrór (&S)
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressThrorArmouries]
+Allows the Fortress to summon armour and weapon racks to upgrade friendly units
+
+
 [CONTROLBAR:PurchaseUpgradeDwarvenFortressBanners]
 Raven Banners (&W)
 
@@ -27768,31 +27776,35 @@ Moat (&R)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs]
 Heals allies nearby the Fortress 
-Valueline2= Adds additional hit points to the Fortress
+Valueline2= Adds 1000 additional hit points to the Fortress
 
 
 [CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapult]
 Arkenstone (&D)
 
 
+[CONTROLBAR:PurchaseUpgradeDwarvenFortressMightyCatapultBotFA]
+Arkenstone (&F)
+
+
 [TOOLTIP:LackMightyCatapultDwarvenStonework]
 Requires the Fortifications upgrade \Decreases recruitment time for all Dwarven units by 20%
 Valueline2=Increases movement for all Dwarven units by 10%
-Valueline2=Decreases cost of unit upgrades by 10%
+Valueline2=Decreases cost of unit upgrades by 20%
 Valueline2=Stacks with Steel Bonus discount
 
 
 [TOOLTIP:LackMightyCatapultDwarvenStonework_WOTR]
 Requires the Fortifications upgrade \Decreases recruitment time for all Dwarven units by 20%
 Valueline2=Increases movement for all Dwarven units by 10%
-Valueline2=Decreases cost of unit upgrades by 10%
+Valueline2=Decreases cost of unit upgrades by 20%
 Valueline2=Stacks with Steel Bonus discount
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressMightyCatapult]
 Decreases recruitment time for all Dwarven units by 20%
 Valueline2=Increases movement for all Dwarven units by 10%
-Valueline2=Decreases cost of unit upgrades by 10%
+Valueline2=Decreases cost of unit upgrades by 20%
 Valueline2=Stacks with Steel Bonus discount
 
 
@@ -27800,14 +27812,14 @@ Valueline2=Stacks with Steel Bonus discount
 Requires the Fortifications upgrade
 Valueline2=Decreases recruitment time for all Dwarven units by 20%
 Valueline2=Increases movement for all Dwarven units by 10%
-Valueline2=Decreases cost of unit upgrades by 10%
+Valueline2=Decreases cost of unit upgrades by 20%
 Valueline2=Stacks with Steel Bonus discount
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressArkenstoneHobbitEra_Monument]
 Decreases recruitment time for all Dwarven units by 20%
 Valueline2=Increases movement for all Dwarven units by 10%
-Valueline2=Decreases cost of unit upgrades by 10%
+Valueline2=Decreases cost of unit upgrades by 20%
 Valueline2=Stacks with Steel Bonus discount
 
 
@@ -27815,21 +27827,21 @@ Valueline2=Stacks with Steel Bonus discount
 Requires the Fortifications upgrade
 Valueline2=Decreases recruitment time for all Dwarven units by 20%
 Valueline2=Increases movement for all Dwarven units by 10%
-Valueline2=Decreases cost of unit upgrades by 10%
+Valueline2=Decreases cost of unit upgrades by 20%
 Valueline2=Stacks with Steel Bonus discount
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressArkenstoneLotREra_Monument]
 Decreases recruitment time for all Dwarven units by 20%
 Valueline2=Increases movement for all Dwarven units by 10%
-Valueline2=Decreases cost of unit upgrades by 10%
+Valueline2=Decreases cost of unit upgrades by 20%
 Valueline2=Stacks with Steel Bonus discount
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressMightyCatapult_WOTR]
 Decreases recruitment time for all Dwarven units by 20%
 Valueline2=Increases movement for all Dwarven units by 10%
-Valueline2=Decreases cost of unit upgrades by 10%
+Valueline2=Decreases cost of unit upgrades by 20%
 Valueline2=Stacks with Steel Bonus discount
 
 
@@ -27856,7 +27868,7 @@ Horns of the Gate (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenHornsoftheGate]
-When activated, causes nearby enemies to cower in fear.
+When activated, causes nearby enemies to cower in fear for 15 seconds
 
 
 [CONTROLBAR:ConstructDwarvenPorter]
@@ -27865,6 +27877,11 @@ Recruit Builder (&W)
 
 [CONTROLBAR:ToolTipConstructDwarvenPorter]
 Builds structures
+
+
+[CONTROLBAR:ToolTipConstructDwarvenPorterWotR]
+Builds structures
+Valueline2=Limited to 1
 
 
 [TOOLTIP:Lacksprerequisiteupgradedefault]
@@ -27917,6 +27934,10 @@ This primary defensive gate can be opened and closed
 
 [CONTROLBAR:Command_DwarvenWallUpgradeToPosternGate]
 Postern Gate (&R)
+
+
+[CONTROLBAR:Command_LorienWallUpgradeToPosternGate]
+Postern Gate (&W)
 
 
 [CONTROLBAR:TooltipCommand_DwarvenWallUpgradeToPosternGate]
@@ -28028,6 +28049,10 @@ Axe Throwers
 Âzagh-baruk (&W)
 
 
+[CONTROLBAR:ConstructDwarvenGuardianHorde_Adventure]
+Âzagh-baruk (&T)
+
+
 [CONTROLBAR:ToolTipBuildDwarvenGuardianHorde]
 Erebor Warriors 
 Valueline2= Strong vs. Pikemen
@@ -28056,6 +28081,10 @@ Strong vs. Pikemen and Archers
 
 [CONTROLBAR:ConstructDwarvenArcherHorde]
 Rakhâs-abzâg (&R)
+
+
+[CONTROLBAR:ConstructDwarvenArcherHorde_Adventure]
+Rakhâs-abzâg (&S)
 
 
 [CONTROLBAR:ToolTipBuildDwarvenArcherHorde]
