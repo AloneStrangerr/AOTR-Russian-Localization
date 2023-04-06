@@ -28527,11 +28527,11 @@ Valueline2= Increases command point limit by 900
 
 
 [CONTROLBAR:ConstructElvenWatchtowerExpansion]
-Flet Expansion (&W)
+Talan Expansion (&W)
 
 
 [CONTROLBAR:ToolTipConstructElvenWatchtowerExpansion]
-Defensive flet that fires at nearby enemy units
+Defensive Talan that fires at nearby enemy units
 
 
 [CONTROLBAR:ConstructRivendellWatchtowerExpansion]
@@ -28641,7 +28641,7 @@ Valueline2= Prerequisite to Eärendil's Guidance
 
 
 [CONTROLBAR:PurchaseUpgradeElvenFortressMysticFountains]
-Waters of the Celebrant (&T)
+Waters of the Celebrant (&R)
 
 
 [CONTROLBAR:PurchaseUpgradeElvenFortressEnchantedAnvil]
@@ -28653,16 +28653,15 @@ Mists of the Anduin (&E)
 
 
 [CONTROLBAR:PurchaseUpgradeElvenFortressCrystalMoat]
-Protection of Nenya (&R)
+Protection of Nenya (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressCrystalMoat]
-Decreases the melee vulnerability of the Fortress
+Increases Fortress armour by 65%
 
 
 [CONTROLBAR:ToolTipElvenEntMoot]
-Recruits Ents 
-Valueline2= Increases command point limit by 25
+Recruits Ents
 
 
 [CONTROLBAR:ConstructEregionForge]
@@ -28677,33 +28676,37 @@ Valueline2= Increases command point limit by 50
 
 
 [CONTROLBAR:PurchaseUpgradeEregionForgeLevel2]
-&Upgrade Golden Wood Storehouse to Level 2
+Upgrade Golden Wood Storehouse to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildEregionForgeLevel2]
-Allows research of the Forged Blades Upgrade
+Allows research of Elven Armour and Tempered Blades Upgrades
 
 
 [CONTROLBAR:PurchaseUpgradeEregionForgeLevel3]
-&Upgrade Golden Wood Storehouse to Level 3
-
-
-[CONTROLBAR:ToolTipGreenPasture]
-Trains Lothlórien Cavalry 
-Valueline2= Increases command point limit by 25
+Upgrade Golden Wood Storehouse to Level 3 (&A)
 
 
 [CONTROLBAR:ConstructElvenBarracks]
-Build Golden Wood Garrison (&T)
+Build Galadhrim Garrison (&T)
 
 
 [CONTROLBAR:ToolTipElvenBarracks]
-Trains Melee and Archer Infantry of Lothlórien 
-Valueline2= Increases command point limit by 25
+Trains Melee and Archer Infantry of Lothlórien
+
+
+[CONTROLBAR:ConstructElvenBarracksWotRRealTime]
+Build Galadhrim Garrison (&W)
+
+
+[CONTROLBAR:ToolTipElvenBarracksWotRRealTime]
+Primary Barracks 
+Valueline2= Trains basic Infantry of Lothlórien 
+Valueline2= Limited to 2
 
 
 [CONTROLBAR:PurchaseUpgradeElvenBarracksLevel2]
-Upgrade Golden Wood Garrison to Level 2 (&A)
+Upgrade Galadhrim Garrison to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildElvenBarracksLevel2]
