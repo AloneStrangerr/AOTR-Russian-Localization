@@ -28710,17 +28710,31 @@ Upgrade Galadhrim Garrison to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildElvenBarracksLevel2]
-Allows training of Gwahaedhrim, Tawar-na-Thirrad and Edrain-na-Maethyr
+Allows training of Sentinels of Cerin Amroth and Sindar Pathstalkers
 Valueline2= +10% faster build speed
 
 
 [CONTROLBAR:ConstructElvenStable]
-Build Golden Wood Pasture (&V)
+Build Green Pasture (&V)
+
+
+[CONTROLBAR:ToolTipGreenPasture]
+Trains Lothlórien Cavalry
+
+
+[CONTROLBAR:ConstructElvenStableWotRRealTime]
+Build Green Pasture (&R)
+
+
+[CONTROLBAR:ToolTipGreenPastureWotRRealTime]
+Secondary Barracks 
+Valueline2= Trains Naith-na-Lethril 
+Valueline2= Limited to 1
 
 
 
 [CONTROLBAR:ConstructElvenGreenPastureLevel2Upgrade]
-Upgrade Golden Wood Pasture to Level 2 (&A)
+Upgrade Green Pasture to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildElvenGreenPastureLevel2Upgrade]
@@ -28728,7 +28742,7 @@ Upgrade Golden Wood Pasture to Level 2 (&A)
 
 
 [CONTROLBAR:ConstructElvenGreenPastureLevel3Upgrade]
-Upgrade Golden Wood Pasture to Level 3 (&A)
+Upgrade Green Pasture to Level 3 (&A)
 
 
 [CONTROLBAR:ConstructElvenStatue]
@@ -28738,12 +28752,15 @@ Build Statue of Amroth Amdírion (&U)
 [CONTROLBAR:ToolTipElvenStatue]
 Allies near the statue gain 
 Valueline2= +50% damage, +50% armour, 
-Valueline2= and earn experience twice as fast 
-Valueline2= Does not stack
+Valueline2= and earn experience twice as fast
+
+
+[CONTROLBAR:ConstructElvenHiddenSanctum]
+Build Hidden Sanctum (&R)
 
 
 [CONTROLBAR:ConstructElvenBattleTower]
-Build Tree Flet (&Y)
+Build Lórien Talan (&Y)
 
 
 [CONTROLBAR:ToolTipBattleTower]
@@ -28807,7 +28824,6 @@ Upgrade Mallorn Tree to Level 2 (&A)
 
 [CONTROLBAR:ToolTipBuildMallornTreeLevel2]
 Increases resource production 
-Valueline2= Allows research of the Mallorn Roots Upgrade
 Valueline2= Gains the ability to fire at enemies at great range
 
 
@@ -28816,8 +28832,7 @@ Upgrade Mallorn Tree to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMallornTreeLevel3]
-Increases resource production 
-Valueline2= Allows training of Celemegiliath
+Increases resource production
 
 
 [CONTROLBAR:ConstructElvenLindonWarriorHorde]
@@ -28830,11 +28845,19 @@ Strong vs. Pikemen
 
 
 [CONTROLBAR:ToolTipBuildElvenLorienWarriorHordeWithNoPrerequisites]
-Lórien Wardens 
-Valueline2= Strong vs. Cavalry, Pikemen and Heroes 
+Silvan Sentries 
+Valueline2= Strong vs. Cavalry and Heroes 
 Valueline2= Can stealth near trees 
 Valueline2= 
 Valueline2= Should their Marchwardens be unable to contain a threat, the Galadhrim willingly take up arms and march forth to defend their homes.
+
+
+[CONTROLBAR:ToolTipBuildElvenAxeWarriorHorde]
+Silvan Levy 
+Valueline2= Strong vs. Pikemen 
+Valueline2= Can stealth near trees 
+Valueline2= 
+Valueline2= Though Lothlórien does not maintain a standing army, every Elf within its borders, warrior or artisan, will gladly take up arms to defend their forest-homes.
 
 
 [CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde]
