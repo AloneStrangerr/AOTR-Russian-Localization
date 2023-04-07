@@ -28888,6 +28888,11 @@ Builder (&W)
 Constructs buildings
 
 
+[CONTROLBAR:TooltipconstructelvenporterWotR]
+Constructs buildings
+Valueline2=Limited to 1
+
+
 [CONTROLBAR:ToolTipBuildElvenLorienArcherHordeWithNoPrerequisites]
 Lórien Archers 
 Valueline2= Strong vs. Infantry 
@@ -28900,6 +28905,42 @@ Valueline2= Wielding great longbows and armed with centuries of experience, thes
 
 [OBJECT:ElvenBattleship]
 Elven Warship
+
+
+[CONTROLBAR:ShipRamming]
+Naval Ram
+
+
+[CONTROLBAR:TooltipShipRamming]
+Warships can ram into enemy ships, dealing strong damage
+Valueline2=Passive ability
+
+
+[CONTROLBAR:ShipVolley]
+Volley! (&R)
+
+
+[CONTROLBAR:TooltipShipVolley]
+Warship's firing rate is tripled for 10 seconds
+Valueline2=Left click to activate
+
+
+[CONTROLBAR:ShipFullAhead]
+Brace for Impact! (&T)
+
+
+[CONTROLBAR:TooltipShipFullAhead]
+For 10 seconds, Warship's ramming damage are increased by 50%
+Valueline2=Left click to activate
+
+
+[CONTROLBAR:BlackDreadLeadership]
+Lord of Waves
+
+[CONTROLBAR:ToolTipBlackDreadLeadership]
+Modifier Type: Leadership 
+Valueline2= Nearby Ships gain +25% armour and damage
+Valueline2=Passive ability
 
 
 [OBJECT:ElvenEntsMoot]
@@ -28917,8 +28958,29 @@ Statue of Amroth Amdírion
 [OBJECT:ElvenStatueDescription]
 Allies near the statue gain 
 Valueline2= +50% damage, +50% armour, 
-Valueline2= and earn experience twice as fast 
-Valueline2= Does not stack
+Valueline2= and earn experience twice as fast
+
+
+[OBJECT:NimrodelStatue]
+Statue of Nimrodel
+
+
+[OBJECT:NimrodelStatueDescription]
+Valueline2= Nearby Mallorn Trees gain +25% faster resource production 
+Valueline2= Possesses ability to repair selected structure
+
+
+[CONTROLBAR:NimrodelRebuild]
+Blessing of Nimrodel (&W)
+
+
+[CONTROLBAR:BlessingofNimrodel]
+Waters of Nimrodel
+
+
+[CONTROLBAR:ToolTipBlessingofNimrodel]
+Valueline2= Nearby Mallorn Trees gain +25% faster resource production 
+Valueline2= Passive ability
 
 
 [OBJECT:RivendellStatue]
@@ -29029,19 +29091,35 @@ Valueline2=Treasury Bonus: +%d per turn
 Fortress
 
 
+[CONTROLBAR:LW_Structure_DefaultFarm]
+Farm
+
+
+[CONTROLBAR:LW_Structure_BasicBarracks]
+Basic Barracks
+
+
+[CONTROLBAR:LW_Structure_EliteBarracks]
+Elite Barracks
+
+
 [CONTROLBAR:LW_ToolTipBuild_MenFortress]
-Structure Type: Fortress
+Battle Bonus: +100% armour to allied citadels 
+Valueline2=
+Valueline2= Structure Type: Fortress
 Valueline2=Defends territory
-Valueline2=Recruits heroes and heroic units
+Valueline2=Recruits heroes
 Valueline2=Grants all upgrades to units
 Valueline2=Increases treasury
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_MenFortress]
-Structure Type: Fortress
+Battle Bonus: +100% armour to allied citadels 
+Valueline2=
+Valueline2= Structure Type: Fortress
 Valueline2=Defends territory
-Valueline2=Recruits heroes and heroic units
+Valueline2=Recruits heroes
 Valueline2=Grants all upgrades to units
 Valueline2=Increases treasury
 Valueline2=
@@ -29052,7 +29130,15 @@ Gondor Barracks
 
 
 [CONTROLBAR:LW_ToolTipBuild_GondorBarracks]
-Battle Template: Gondor Barracks
+Battle Bonus: unit replenishment around the citadel 
+Valueline2=
+Valueline2=Structure Type: Basic Barracks
+Valueline2=Trains Gondor basic units
+Valueline2=
+
+
+[CONTROLBAR:LW_ToolTip_GondorBarracks]
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Gondor basic units
@@ -29064,25 +29150,19 @@ Mustering Field
 
 
 [CONTROLBAR:LW_ToolTipBuild_RohanBarracks]
-Battle Template: Rohan Barracks
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Rohan basic units
 Valueline2=
-
-
-[CONTROLBAR:LW_ToolTip_GondorBarracks]
-Battle Template: Gondor Barracks
-Valueline2=
-Valueline2=Structure Type: Basic Barracks
-Valueline2=Trains Gondor basic units
 
 
 [CONTROLBAR:LW_ToolTip_RohanBarracks]
-Battle Template: Rohan Barracks
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Rohan basic units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_GondorBlackSmith]
@@ -29094,7 +29174,7 @@ Mead Hall
 
 
 [CONTROLBAR:LW_ToolTipBuild_GondorBlackSmith]
-Battle Template: Gondor Stables
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Gondor elite units
@@ -29102,14 +29182,15 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_GondorBlackSmith]
-Battle Template: Gondor Stables
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Gondor elite units
+Valueline2=
 
 
 [CONTROLBAR:LW_ToolTipBuild_RohanStables]
-Battle Template: Rohan Stables
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Rohan elite units
@@ -29117,10 +29198,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_RohanStables]
-Battle Template: Rohan Stables
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Rohan elite units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_GondorFarm]
@@ -29128,13 +29210,17 @@ Farm
 
 
 [CONTROLBAR:LW_ToolTipBuild_GondorFarm]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_GondorFarm]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
@@ -29146,7 +29232,7 @@ Clansmen of Lamedon Battalion
 
 
 [CONTROLBAR:LW_Unit_LamedonClansmenHordePlural]
-Anórien Soldier Battalions
+Soldiers of Minas Tirith Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_LamedonClansmenHorde]
@@ -29182,11 +29268,11 @@ Valueline2=Strong at Range
 
 
 [CONTROLBAR:LW_Unit_GondorFighterHorde]
-Anórien Soldier Battalion
+Soldiers of Minas Tirith Battalion
 
 
 [CONTROLBAR:LW_Unit_GondorFighterHordePlural]
-Anórien Soldier Battalions
+Soldiers of Minas Tirith Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_GondorFighterHorde]
@@ -29202,11 +29288,11 @@ Valueline2=Strong vs. Pikemen
 
 
 [CONTROLBAR:LW_Unit_GondorFighterDoubleHorde]
-Anórien Soldiers Spearmen Battalion
+Soldiers of Minas Tirith - Spearmen of Minas Tirith Battalion
 
 
 [CONTROLBAR:LW_Unit_GondorFighterDoubleHordePlural]
-Anórien Soldiers Spearmen Battalions
+Soldiers of Minas Tirith - Spearmen of Minas Tirith Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_GondorFighterDoubleHorde]
@@ -29259,11 +29345,11 @@ Valueline2=Strong vs. Infantry and Cavalry
 
 
 [CONTROLBAR:LW_Unit_GondorArcherHorde]
-Anórien Archer Battalion
+Archers of Minas Tirith Battalion
 
 
 [CONTROLBAR:LW_Unit_GondorArcherHordePlural]
-Anórien Archer Battalions
+Archers of Minas Tirith Battalions
 
 
 [CONTROLBAR:LW_Unit_GondorRangerHorde]
