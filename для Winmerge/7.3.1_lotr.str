@@ -28771,6 +28771,15 @@ Valueline2= and earn experience twice as fast
 Build Hidden Sanctum (&R)
 
 
+[CONTROLBAR:ToolTipElvenHiddenSanctum]
+Trains Radiant-maidens, Knights of Amroth Amdírion and Nandor Hîr-Hathol 
+Valueline2= Limited to 1
+
+
+[CONTROLBAR:ToolTipElvenHiddenSanctumFoundation]
+Trains Radiant-maidens, Knights of Amroth Amdírion and Nandor Hîr-Hathol
+
+
 [CONTROLBAR:ConstructElvenBattleTower]
 Build Lórien Talan (&Y)
 
@@ -28906,7 +28915,7 @@ Valueline2=Limited to 1
 
 
 [CONTROLBAR:ToolTipBuildElvenLorienArcherHordeWithNoPrerequisites]
-Lórien Archers 
+Silvan Scouts 
 Valueline2= Strong vs. Infantry 
 Valueline2= Can stealth near trees 
 Valueline2= 
@@ -29373,11 +29382,11 @@ Ithilien Ranger Battalions
 
 
 [CONTROLBAR:LW_Unit_GondorTowerGuardHorde]
-Minas Tirith Citadel Guard Battalion
+Guards of the Citadel Battalion
 
 
 [CONTROLBAR:LW_Unit_GondorTowerGuardHordePlural]
-Minas Tirith Citadel Guard Battalions
+Guards of the Citadel Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_GondorTowerGuardHorde]
@@ -29393,11 +29402,11 @@ Valueline2=Strong vs. Cavalry
 
 
 [CONTROLBAR:LW_Unit_GondorKnightHorde]
-Anórien Knight Battalion
+Knights of Minas Tirith Battalion
 
 
 [CONTROLBAR:LW_Unit_GondorKnightHordePlural]
-Anórien Knight Battalions
+Knights of Minas Tirith Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_GondorKnightHorde]
@@ -29413,11 +29422,11 @@ Valueline2=Strong vs. Archers
 
 
 [CONTROLBAR:LW_Unit_GondorLancerHorde]
-Anórien Lancer Battalion
+Knights of Minas Tirith Battalion
 
 
 [CONTROLBAR:LW_Unit_GondorLancerHordePlural]
-Anórien Lancer Battalions
+Knights of Minas Tirith Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_GondorLancerHorde]
@@ -29442,14 +29451,14 @@ Rohirrim Warrior Battalions
 
 [CONTROLBAR:LW_ToolTipBuild_RohanRohirrimHorde]
 Unit Type: Elite Cavalry
-Valueline2=Strong vs. Archers
+Valueline2=Strong vs. Swordsmen and Archers
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_RohanRohirrimHorde]
 
 Valueline2=Unit Type: Elite Cavalry
-Valueline2=Strong vs. Archers
+Valueline2=Strong vs. Swordsmen and Archers
 
 
 [CONTROLBAR:LW_Unit_RohanRohirrimArcherHorde]
@@ -29470,14 +29479,14 @@ Rohirrim Archers
 
 [CONTROLBAR:LW_ToolTipBuild_RohanRohirrimArcherHorde]
 Unit Type: Elite Cavalry
-Valueline2=Strong vs. Archers
+Valueline2=Strong vs. Swordsmen
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_RohanRohirrimArcherHorde]
 
 Valueline2=Unit Type: Elite Cavalry
-Valueline2=Strong vs. Archers
+Valueline2=Strong vs. Swordsmen
 
 
 [CONTROLBAR:LW_Unit_GondorTrebuchet]
@@ -29579,7 +29588,7 @@ Unit Type: Hero Army Leader
 
 
 [CONTROLBAR:LW_Hero_Eomer]
-Eomer
+Éomer
 
 
 [CONTROLBAR:LW_ToolTipBuild_Eomer]
@@ -29604,7 +29613,7 @@ Théodred
 
 
 [CONTROLBAR:LW_Hero_Eowyn]
-Eowyn
+Éowyn
 
 
 [CONTROLBAR:LW_ToolTipBuild_Eowyn]
@@ -29693,7 +29702,7 @@ Golden Wood Talan
 
 
 [CONTROLBAR:LW_ToolTipBuild_ElvenBarracks]
-Battle Template: Golden Wood Garrison
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains basic Lothlórien units
@@ -29701,10 +29710,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_ElvenBarracks]
-Battle Template: Golden Wood Garrison
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains basic Lothlórien units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_ElvenEregionForge]
@@ -29712,7 +29722,7 @@ Hidden Sanctum
 
 
 [CONTROLBAR:LW_ToolTipBuild_ElvenEregionForge]
-Battle Template: Golden Wood Pasture
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains elite Lothlórien units
@@ -29720,10 +29730,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_ElvenEregionForge]
-Battle Template: Golden Wood Pasture
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains elite Lothlórien units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_ElvenMallornTree]
@@ -29731,13 +29742,17 @@ Mallorn Tree
 
 
 [CONTROLBAR:LW_ToolTipBuild_ElvenMallornTree]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_ElvenMallornTree]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
@@ -58973,13 +58988,13 @@ Tawar-na-Pengron
 Tawar-na-Pengryn
 
 [CONTROLBAR:LW_ToolTipBuild_ElvenLorienArcherHorde]
-Lórien Archers 
+Silvan Scouts 
 Valueline2=Unit Type: Basic Archer
 Valueline2=Strong vs. Swordsmen
 Valueline2=
 
 [CONTROLBAR:LW_ToolTip_ElvenLorienArcherHorde]
-Lórien Archers 
+Silvan Scouts 
 Valueline2= Unit Type: Basic Archer
 Valueline2=Strong vs. Swordsmen
 
@@ -59056,13 +59071,13 @@ Valueline2=Strong vs. Swordsmen, Archers, and Cavalry
 
 [CONTROLBAR:LW_ToolTipBuild_ElvenEnt]
 Unit Type: Siege
-Valueline2=Strong vs. Swordsmen, Archers, Cavalry, and Structures
+Valueline2=Strong vs. Swordsmen, Archers and Structures
 Valueline2=
 
 [CONTROLBAR:LW_ToolTip_ElvenEnt]
 
 Valueline2=Unit Type: Siege
-Valueline2=Strong vs. Swordsmen, Archers, Cavalry, and Structures
+Valueline2=Strong vs. Swordsmen, Archers and Structures
 
 
 [CONTROLBAR:LW_ToolTip_Treebeard]
@@ -59542,7 +59557,7 @@ Mumakil
 Mûmak
 
 [BANNERUI:MordorMumakil]
-Mûmak
+War Mûmak
 
 [CONTROLBAR:LW_ToolTipBuild_MordorMumakil]
 Unit Type: Elite Cavalry
@@ -59755,30 +59770,26 @@ Valueline2=Strong vs. Structures and Archers
 [CONTROLBAR:ToolTipCAH_Starlight]
 Modifier Type: Spell 
 Valueline2= Nearby allies become healed and gain +33% damage, +33% armour 
-Valueline2= Stacks With Buffs, Leadership and other Spells 
-Valueline2= Stuns enemy units
+Valueline2=Stuns enemy units
 
 [CONTROLBAR:ToolTipCAH_Starlight_Palantir]
 Modifier Type: Spell 
-Valueline2= Nearby allies become healed and gain +33% damage, +33% armour 
-Valueline2= Stacks With Buffs, Leadership and other Spells 
+Valueline2= Nearby allies become healed and gain +33% damage, +33% armour
 Valueline2= Stuns enemy units
 Valueline2= Left click to activate
 
 [CONTROLBAR:ToolTipDarkGlory]
 Requires Level 7 
 Valueline2= Modifier Type: Spell 
-Valueline2= Morgomir and nearby Dark Dunedain gain +33% damage and +33% armour 
-Valueline2= Stacks With Buffs, Leadership and other Spells 
-Valueline2= Left click icon to activate
+Valueline2= Morgomir and nearby Dark Dúnedain gain +33% damage and +33% armour 
+Valueline2=Left click icon to activate
 
 [CONTROLBAR:ToolTipDarkness]
-Temporarily covers the entire map in darkness
-Valueline2= Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness 
+Covers the entire map in darkness for 3 minutes
+Valueline2=Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness 
 Valueline2= Modifier Type: Spell 
 Valueline2= All allied units gain +33% damage and +33% armour 
-Valueline2= Stacks With Buffs, Leadership and other Spells 
-Valueline2= Left click to activate
+Valueline2=Left click to activate
 
 
 [CONTROLBAR:ToolTipWitchkingMorgulCorruption]
@@ -59804,7 +59815,6 @@ Valueline2= Left click to activate
 Requires Level 6 
 Valueline2= Single ranged attack
 Valueline2=Causes target monster to flee
-Valueline2= Decreases target's speed and damage by 25% for 10 seconds
 Valueline2=Can only use with bow equipped
 Valueline2=Left click icon then left click on target
 
@@ -59814,8 +59824,6 @@ Valueline2= Modifier Type: Spell and Active Debuff
 Valueline2= Targeted enemy units take slight damage 
 Valueline2= Nearby friendly units gain
 Valueline2=+33% damage and +33% armour 
-Valueline2= Stacks With Buffs, Leadership and other Spells 
-Valueline2= Does not stack with other Debuffs 
 Valueline2= Left click icon then left click on target area
 
 [CONTROLBAR:ToolTipHourOfTheWitchKing]
@@ -59831,8 +59839,7 @@ Valueline2= Left click icon then left click on target area
 Requires Level 10 
 Valueline2= Modifier Type: Spell 
 Valueline2= Nearby allies become healed and gain +33% damage and +33% armour 
-Valueline2= Stacks With Buffs, Leadership and other Spells 
-Valueline2= Stuns enemy units 
+Valueline2=Stuns enemy units 
 Valueline2= Left click to activate
 
 
@@ -59857,6 +59864,10 @@ Requires Level 4
 Valueline2= The Mark of the Red Eye grants Orc Warriors
 Valueline2=+25% damage
 Valueline2=Passive ability
+
+
+[CONTROLBAR:BloodthirstyIsengard]
+Mark of the White Hand
 
 
 [CONTROLBAR:ToolTipIsengardBloodthirsty]
@@ -59903,7 +59914,7 @@ Valueline2= Left click to activate
 [CONTROLBAR:ToolTipDainSlayer]
 Requires Level 10 
 Valueline2=King Dáin gains +75% armour and deals splash damage for 30 seconds
-Valueline2=Temporarily summons two battalions of Ashâmar-sharâhul
+Valueline2=Temporarily summons two battalions of Iron Hills Guards
 Valueline2=Left click to activate
 
 
@@ -59911,14 +59922,27 @@ Valueline2=Left click to activate
 Final Stand (&V)
 
 
+[CONTROLBAR:DainStandDummy]
+Final Stand
+
 
 [CONTROLBAR:FellowshipSlayer]
 Stubborn Pride (&C)
 
 
+[CONTROLBAR:FellowshipSlayer_GC]
+Stubborn Pride (&T)
+
+
 [CONTROLBAR:ToolTipFellowshipSlayer]
 Requires Level 6 
-Valueline2= Gimli gains +50% armour and +33% speed 
+Valueline2= Gimli gains +50% armour and +33% speed for 30 seconds
+Valueline2= Left click to activate
+
+
+[CONTROLBAR:ToolTipEreborSlayer]
+Requires Level 6 
+Valueline2= Gimli gains +50% damage and +33% speed for 30 seconds
 Valueline2= Left click to activate
 
 
@@ -59928,7 +59952,7 @@ Piercing Shots (&C)
 
 [CONTROLBAR:ToolTipFellowshipLegolasSlayer]
 Requires Level 6 
-Valueline2= Legolas temporarily ignores enemy armor and slows down his targets by 40%
+Valueline2= For 15 seconds, Legolas ignores enemy armour and slows down his targets by 40%
 Valueline2= Left click to activate
 
 
@@ -59942,17 +59966,16 @@ Valueline2= Passive power
 Requires Level 5 
 Valueline2= Modifier Type: Spell
 Valueline2= Targeted friendly units gain +33% damage 
-Valueline2= Nullifies enemy leadership 
-Valueline2= Stacks With Buffs, Leadership and other Spells
+Valueline2= Nullifies enemy leadership
 
 
 [CONTROLBAR:ToolTipDainOldRedAxe]
 Requires Level 3 
 Valueline2= Modifier Type: Spell and Active Debuff 
-Valueline2= Targeted friendly units gain +33% damage and armor for 30 seconds
+Valueline2= Targeted friendly units gain +33% damage and armour for 30 seconds
 Valueline2= Targeted enemy units suffer -25% damage and -20% armour for 30 seconds
 Valueline2=
-Valueline2=At Level 6, targeted friendly units gain +50% damage and armor for 30 seconds
+Valueline2=At Level 6, targeted friendly units gain +50% damage and armour for 30 seconds
 Valueline2=Left click icon then left click on target units
 
 
@@ -59961,10 +59984,10 @@ King's Messenger (&C)
 
 
 [CONTROLBAR:ToolTipDainEmissary]
-Requires Level 7 
-Valueline2= Target hero is temporarily immune to damage but is unable to attack 
-Valueline2= Can be cast on allied or enemy heroes 
-Valueline2= Left click on icon then left click on target hero
+Requires Level 7
+Valueline2=Target hero is immune to damage but is unable to attack for 15 seconds
+Valueline2=Can be cast on allied or enemy heroes
+Valueline2=Left click on icon then left click on target hero
 
 
 [CONTROLBAR:ToolTipSummonRoyalGuard]
@@ -60003,7 +60026,7 @@ The Lord of the Rings, The Rise of the Witch-king servers have been permanently 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel2]
 +10% faster build speed
-Valueline2= Allows training of Sulkhâ-bekhâz
+Valueline2= Allows training of Grim Hammers
 
 
 [CONTROLBAR:ToolTipTameTheBeast]
@@ -60026,7 +60049,7 @@ Valueline2= Left click icon then left click on target
 [CONTROLBAR:ToolTipGothmogIronHand]
 Orcs near Gothmog gain 
 Valueline2= +33% damage, +33% armour,
-Valueline2=immunity to Fear and Terror 
+Valueline2= Immunity to fear and terror 
 Valueline2=and earn experience 50% faster
 Valueline2=Passive ability
 Valueline2=
