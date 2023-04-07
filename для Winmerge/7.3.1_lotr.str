@@ -15704,6 +15704,18 @@ Summons the Men of Dale
 Valueline2= Left click icon then left click on pathable location
 
 
+[CONTROLBAR:MannishAllies]
+Mannish Allies
+
+
+[CONTROLBAR:TooltipMannishAllies]
+Reign of Oakenshield: Summons Bard the Bowman and Laketown Archers 
+Valueline2= 
+Valueline3=Reign of Ironfoot: Summons King Brand and Dalish Archers 
+Valueline4= 
+Valueline5= Left click icon then left click on pathable location
+
+
 [CONTROLBAR:SummonSpiderlings]
 Summon Spiderlings
 
