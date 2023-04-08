@@ -29768,16 +29768,45 @@ Tawar-na-Eithyr Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_ElvenLorienWarriorHorde]
-Lórien Wardens 
+Silvan Sentries 
 Valueline2= Unit Type: Basic Pikemen
 Valueline2=Strong vs. Cavalry
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_ElvenLorienWarriorHorde]
-Lórien Wardens 
+Silvan Sentries 
 Valueline2= Unit Type: Basic Pikemen
 Valueline2=Strong vs. Cavalry
+
+
+[CONTROLBAR:LW_ToolTipBuild_ElvenAxeWarriorHorde]
+Silvan Levy 
+Valueline2= Unit Type: Basic Swordsmen
+Valueline2= Strong vs. Pikemen
+Valueline2=
+
+
+[CONTROLBAR:LW_ToolTip_ElvenAxeWarriorHorde]
+Silvan Levy 
+Valueline2= Unit Type: Basic Swordsmen
+Valueline2= Strong vs. Pikemen
+
+
+[CONTROLBAR:LW_Unit_ElvenAxeWarriorHorde]
+Tawarwaith Battalion
+
+
+[CONTROLBAR:LW_Unit_ElvenAxeWarriorHordePlural]
+Tawarwaith Battalions
+
+
+[BANNERUI:ElvenAxeWarrior]
+Tawarwaith
+
+
+[BANNERUI:ElvenAxeWarriors]
+Tawarwaith
 
 
 [CONTROLBAR:LW_Unit_ElvenLorienArcherHorde]
@@ -29969,6 +29998,30 @@ Valueline2=
 Unit Type: Hero Army Leader
 
 
+[CONTROLBAR:LW_ToolTip_WotrGoodArmy1]
+
+
+
+[CONTROLBAR:LW_ToolTip_WotrEvilArmy1]
+
+
+
+[LWA:WotrGoodArmy1]
+Forces of the Free Peoples of Middle-earth
+
+
+[LWA:WotrEvilArmy1]
+Forces of Sauron
+
+
+[OBJECT:WotrGoodArmy1]
+Player
+
+
+[OBJECT:WotrEvilArmy1]
+Player
+
+
 [CONTROLBAR:LW_Hero_Bolger]
 Fatty Bolger
 
@@ -29998,7 +30051,7 @@ Dúnedain Encampment
 
 
 [CONTROLBAR:LW_ToolTipBuild_RivendellBarracks]
-Battle Template: Bree-land Encampment
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Rivendell basic units
@@ -30006,10 +30059,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_RivendellBarracks]
-Battle Template: Bree-land Encampment
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Rivendell basic units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_RivendellForge]
@@ -30017,7 +30071,7 @@ Rivendell Dormitory
 
 
 [CONTROLBAR:LW_ToolTipBuild_RivendellForge]
-Battle Template: Rivendell Dormitory
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Rivendell elite units
@@ -30025,10 +30079,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_RivendellForge]
-Battle Template: Rivendell Dormitory
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Rivendell elite units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_RivendellOrchard]
@@ -30036,13 +30091,17 @@ Orchard
 
 
 [CONTROLBAR:LW_ToolTipBuild_RivendellOrchard]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_RivendellOrchard]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
@@ -30066,7 +30125,7 @@ Valueline2=Increases treasury
 
 
 [CONTROLBAR:LW_ToolTipBuild_DwarvenHallOfWarriors]
-Battle Template: Hall of Warriors
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Erebor basic units
@@ -30074,10 +30133,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_DwarvenHallOfWarriors]
-Battle Template: Hall of Warriors
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Erebor basic units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_DwarvenForgeWorks]
@@ -30085,14 +30145,19 @@ Forge Works
 
 
 [CONTROLBAR:LW_ToolTipBuild_DwarvenForgeWorks]
-Structure Type: Elite Barracks
-Valueline2=Trains Erebor elite units and siege
+Battle Bonus: +20% faster unit production
+Valueline2=
+Valueline2=Structure Type: Elite Barracks
+Valueline2=Trains Erebor elite units
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_DwarvenForgeWorks]
-Structure Type: Elite Barracks
-Valueline2=Trains Erebor elite units and siege
+Battle Bonus: +20% faster unit production
+Valueline2=
+Valueline2=Structure Type: Elite Barracks
+Valueline2=Trains Erebor elite units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_DwarvenMineShaft]
@@ -30100,13 +30165,17 @@ Dwarven Mine
 
 
 [CONTROLBAR:LW_ToolTipBuild_DwarvenMineShaft]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_DwarvenMineShaft]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
@@ -30227,7 +30296,7 @@ Silvan Glade
 
 
 [CONTROLBAR:LW_ToolTipBuild_MirkwoodSilvanClearing]
-Battle Template: Silvan Clearing
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Barracks
 Valueline2=Trains Woodland Realm basic units
@@ -30235,10 +30304,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_MirkwoodSilvanClearing]
-Battle Template: Silvan Clearing
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Barracks
 Valueline2=Trains Woodland Realm basic units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_MirkwoodRoyalBarracks]
@@ -30246,7 +30316,7 @@ Elvenking's Hall
 
 
 [CONTROLBAR:LW_ToolTipBuild_MirkwoodRoyalBarracks]
-Battle Template: Royal Barracks
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Woodland Realm elite units
@@ -30254,10 +30324,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_MirkwoodRoyalBarracks]
-Battle Template: Royal Barracks
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Woodland Realm elite units
+Valueline2=
 
 
 
@@ -30281,16 +30352,24 @@ Frumgar
 Radagast
 
 
+[CONTROLBAR:LW_ToolTip_Radagast]
+Unit Type: Hero
+
+
 [CONTROLBAR:LW_Hero_Grimbeorn]
 Grimbeorn
 
 
+[CONTROLBAR:LW_ToolTip_Grimbeorn]
+Unit Type: Hero
+
+
 [CONTROLBAR:LW_Unit_MirkwoodRangerHorde]
-Taurdron Battalion
+Taurdrim Battalion
 
 
 [CONTROLBAR:LW_Unit_MirkwoodRangerHordePlural]
-Taurdron Battalions
+Taurdrim Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_MirkwoodRangerHorde]
@@ -30308,11 +30387,11 @@ Valueline2=Strong vs. Infantry
 
 
 [CONTROLBAR:LW_Unit_MirkwoodWardenHorde]
-Sigilmaethor Battalion
+Sigilmaethyr Battalion
 
 
 [CONTROLBAR:LW_Unit_MirkwoodWardenHordePlural]
-Sigilmaethor Battalions
+Sigilmaethyr Battalions
 
 
 [OBJECT:MirkwoodWardens]
@@ -30334,11 +30413,11 @@ Valueline2=Strong vs. Pikeman
 
 
 [CONTROLBAR:LW_Unit_MirkwoodSpearHorde]
-Thelamaethor Battalion
+Thelamaethyr Battalion
 
 
 [CONTROLBAR:LW_Unit_MirkwoodSpearHordePlural]
-Thelamaethor Battalions
+Thelamaethyr Battalions
 
 
 [OBJECT:MirkwoodSpears]
