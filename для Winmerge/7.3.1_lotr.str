@@ -32013,12 +32013,65 @@ Valueline2=
 Valueline2=Units will not auto-acquire enemies
 
 
+[CONTROLBAR:ToggleStanceMarch]
+March
+
+[CONTROLBAR:ToggleStanceRunning]
+Run
+
+[CONTROLBAR:ToolTipToggleStanceRunning]
+Shortcut: D 
+Valueline2= +35% movement speed, -33% armour 
+Valueline2= They will auto-acquire enemies when sighted
+
+[CONTROLBAR:ToggleStancePhalanxFormation]
+Phalanx Formation
+
+[CONTROLBAR:ToolTipToggleStancePhalanxFormation]
+Shortcut: G 
+Valueline2= +33% armour, -35% movement speed 
+Valueline2= They will not auto-acquire enemies
+
+
+[CONTROLBAR:ToggleStanceFullSail]
+Full Sail
+
+
+[CONTROLBAR:ToggleStanceHardRowing]
+Hard Rowing
+
+
+[CONTROLBAR:ToggleStanceHalfSail]
+Half Sail
+
+
+[CONTROLBAR:ToolTipToggleStanceFullSail]
+Shortcut: F 
+Valueline2= This is the default ship stance 
+Valueline2= No bonus 
+Valueline2= Ships will auto-acquire enemies within a medium range
+
+
+[CONTROLBAR:ToolTipToggleStanceHardRowing]
+Shortcut: D 
+Valueline2= +25% speed, -25% armour
+Valueline2=
+Valueline2= Ships will not auto-acquire enemies
+
+
+[CONTROLBAR:ToolTipToggleStanceHalfSail]
+Shortcut: G 
+Valueline2= -50% speed, +50% ranged damage
+Valueline2=
+Valueline2= Ships will auto-acquire enemies when sighted
+
+
 
 
 
 
 [APT:RegionUnified]
-Region Unified
+Region/Subregion Unified
 
 
 [APT:PhaseLabelText]
@@ -32482,7 +32535,7 @@ Build a fortress in an unprotected territory to strengthen its defenses.
 
 
 [STRATEGICHUD:BuildArmoryChecklistItem]
-Build an armory to upgrade units.
+Build an armoury to upgrade units.
 
 
 [STRATEGICHUD:BuildFarmChecklistItem]
@@ -32672,7 +32725,7 @@ Defense Bonus
 
 
 [STRATEGICHUD:StatsDefenseBonusHelp]
-Bonus to the armor value for units
+Bonus to the armour value for units
 
 
 [STRATEGICHUD:StatsExperienceBonusTitle]
@@ -32769,7 +32822,7 @@ Current number of build plots used/Total number of build plots available
 
 
 [STRATEGICHUD:RegionArmoryPointsTitle]
-Territory Armory Capacity
+Territory Armoury Capacity
 
 
 [STRATEGICHUD:RegionArmoryPointsHelp]
@@ -33004,7 +33057,9 @@ Valueline2= Reduces cost of builders by 20%
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWildFortressGoblinTownForMap]
-Allows training of Goblin-towners and The Great Goblin
+Unlocks Wild Allegiance 
+Valueline2= Can be cast on any Creep Lair to take control of the lair and start producing units 
+Valueline2= Captured lairs produce resources
 
 
 [CONTROLBAR:PurchaseUpgradeWildFortressWebCocoon]
@@ -33012,7 +33067,7 @@ Gundabad Spires (&D)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWebCocoon]
-Increases Fortress armor 
+Increases Fortress armour by 65% 
 Valueline2= Allows training of a second battalion of Bolg's Bodyguard
 
 
@@ -33034,7 +33089,7 @@ Unlocks Wyrm Lair
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWebCocoon_WOTR]
-Increases Fortress armor 
+Increases Fortress armour by 65% 
 Valueline2= Unlocks Gundabad Olog-hai and Giant Bats
 
 
@@ -33051,18 +33106,18 @@ Fire Arrows (&W)
 
 
 [CONTROLBAR:PurchaseUpgradeSentryTowerFireArrowsRuinousTower]
-Fire Arrows (&R)
+Fire Arrows (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerFireArrows]
 Upgrades this Tower with Fire Arrows 
-Valueline2= Increases damage done by Arrows
+Valueline2= Increases damage done by arrows
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGuldurSentryTowerFireArrows]
 Requires the Hidden Sentry upgrade
-Valueline2=Upgrades this Tower with Fire Arrows 
-Valueline2= Increases damage done by Arrows
+Valueline2=Upgrades this Tower with Corpse-fire Arrows 
+Valueline2= Increases damage done by arrows
 
 
 [CONTROLBAR:ConstructWildBurrowsExpansion]
@@ -33125,7 +33180,7 @@ Iron Plating (&S)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressIronPlating]
-Increases Fortress and Wall armor 
+Increases Fortress and Wall armour by 65% 
 Valueline2= Prerequisite to Wisdom of Curunír
 
 
@@ -33178,7 +33233,7 @@ Build Wall (&W)
 
 
 [CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan]
-Build Wall (&W)
+Left click and drag to construct a Wall
 
 
 [CONTROLBAR:Command_ConstructIsengardCastleWallHub]
@@ -33203,7 +33258,8 @@ Cunning of Curunír (&T)
 
 [CONTROLBAR:ToolTipCommandSelectFocusIsengardFortress]
 Requires the Wisdom of Curunir upgrade 
-Valueline2= Allows Saruman to direct his cunning towards specific elements of Isengard's army
+Valueline2= Allows Saruman to direct his cunning towards specific elements of Isengard's army 
+Valueline2= Only one Focus can be active at the same time
 
 
 [CONTROLBAR:SelectRevivablesIsengardFortress]
