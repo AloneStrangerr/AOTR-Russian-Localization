@@ -30439,11 +30439,11 @@ Valueline2=Strong vs. Cavalry
 
 
 [CONTROLBAR:LW_Unit_MirkwoodOutriderHorde]
-Gwairochir Battalion
+Gwairochyn Battalion
 
 
 [CONTROLBAR:LW_Unit_MirkwoodOutriderHordePlural]
-Gwairochir Battalions
+Gwairochyn Battalions
 
 
 [OBJECT:MirkwoodOutriders]
@@ -30485,11 +30485,11 @@ Valueline2=Strong vs. Infantry
 
 
 [CONTROLBAR:LW_Unit_GreenwoodSlayerHorde]
-Theladagnor Battalion
+Theladagnyr Battalion
 
 
 [CONTROLBAR:LW_Unit_GreenwoodSlayerHordePlural]
-Theladagnor Battalions
+Theladagnyr Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_GreenwoodSlayerHorde]
@@ -30506,11 +30506,11 @@ Valueline2= Strong vs. Spam Infantry
 
 
 [CONTROLBAR:LW_Unit_GreenwoodArcherHorde]
-Cúmaethor Battalion
+Cúmaethyr Battalion
 
 
 [CONTROLBAR:LW_Unit_GreenwoodArcherHordePlural]
-Cúmaethor Battalions
+Cúmaethyr Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_GreenwoodArcherHorde]
@@ -30527,11 +30527,11 @@ Valueline2= Strong vs. Infantry
 
 
 [CONTROLBAR:LW_Unit_SindarNobleHorde]
-Faenrochir Battalion
+Faenrochyn Battalion
 
 
 [CONTROLBAR:LW_Unit_SindarNobleHordePlural]
-Faenrochir Battalions
+Faenrochyn Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_SindarNobleHorde]
@@ -30574,14 +30574,14 @@ Haehadron
 [CONTROLBAR:LW_ToolTipBuild_MirkwoodBallista]
 Distant Thrower
 Valueline2=Unit Type: Siege 
-Valueline2= Strong vs. Structures
+Valueline2= Strong vs. Structures and Archers
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_MirkwoodBallista]
 Distant Thrower
 Valueline2=Unit Type: Siege 
-Valueline2= Strong vs. Structures
+Valueline2= Strong vs. Structures and Archers
 
 
 [CONTROLBAR:LW_Unit_SilvanHunter]
@@ -30677,7 +30677,7 @@ Slave Quarters
 
 
 [CONTROLBAR:LW_ToolTipBuild_GuldurGaol]
-Battle Template: Guldur Gaol
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Dol Guldur basic units
@@ -30685,10 +30685,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_GuldurGaol]
-Battle Template: Guldur Gaol
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Dol Guldur basic units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_GuldurSpire]
@@ -30696,7 +30697,7 @@ Unquiet Undercroft
 
 
 [CONTROLBAR:LW_ToolTipBuild_GuldurSpire]
-Battle Template: Spire of Sorcery
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Dol Guldur elite units
@@ -30704,10 +30705,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_GuldurSpire]
-Battle Template: Spire of Sorcery
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Dol Guldur elite units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_GuldurMill]
@@ -30715,13 +30717,17 @@ Slave Mill
 
 
 [CONTROLBAR:LW_ToolTipBuild_GuldurMill]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_GuldurMill]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
@@ -31026,14 +31032,14 @@ Corrupted Entwives
 
 [CONTROLBAR:LW_ToolTipBuild_GuldurEntwife]
 Unit Type: Siege
-Valueline2=Strong vs. Swordsmen, Archers, Cavalry, and Structures
+Valueline2=Strong vs. Swordsmen, Archers and Structures
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_GuldurEntwife]
 
 Valueline2=Unit Type: Siege
-Valueline2=Strong vs. Swordsmen, Archers, Cavalry, and Structures
+Valueline2=Strong vs. Swordsmen, Archers and Structures
 
 
 [CONTROLBAR:LW_Unit_GuldurGreatSpider]
@@ -31046,13 +31052,13 @@ Saenathra's Sisters
 
 [CONTROLBAR:LW_ToolTip_GuldurGreatSpider]
 
-Valueline2=Unit Type: Siege
-Valueline2=Strong vs. Swordsmen, Archers, Cavalry, and Structures
+Valueline2=Unit Type: Cavalry
+Valueline2=Strong vs. Infantry and Structures
 
 
 [CONTROLBAR:LW_ToolTipBuild_GuldurGreatSpider]
-Unit Type: Siege
-Valueline2=Strong vs. Swordsmen, Archers, Cavalry, and Structures
+Unit Type: Cavalry
+Valueline2=Strong vs. Infantry and Structures
 Valueline2=
 
 
@@ -31089,11 +31095,11 @@ Valueline2=Increases treasury
 
 
 [CONTROLBAR:LW_Structure_MordorOrcPit]
-Orc Camp
+Orcish Stronghold
 
 
 [CONTROLBAR:LW_ToolTipBuild_MordorOrcPit]
-Battle Template: Orc Barracks
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Mordor basic units
@@ -31101,10 +31107,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_MordorOrcPit]
-Battle Template: Orc Barracks
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Mordor basic units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_MordorTrollCage]
@@ -31112,7 +31119,7 @@ Black Tower
 
 
 [CONTROLBAR:LW_ToolTipBuild_MordorTrollCage]
-Battle Template: Easterling Encampment
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Mordor elite units
@@ -31120,10 +31127,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_MordorTrollCage]
-Battle Template: Easterling Encampment
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Mordor elite units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_MordorTavern]
@@ -31131,14 +31139,14 @@ Tavern
 
 
 [CONTROLBAR:LW_ToolTipBuild_MordorTavern]
-Structure Type: Armory
+Structure Type: Armoury
 Valueline2=Grants all upgrades to units
 Valueline2=Trains Mordor siege units and engines
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_MordorTavern]
-Structure Type: Armory
+Structure Type: Armoury
 Valueline2=Grants all upgrades to units
 Valueline2=Trains Mordor siege units and engines
 
@@ -31148,13 +31156,17 @@ Slaughterhouse
 
 
 [CONTROLBAR:LW_ToolTipBuild_MordorSlaughterhouse]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_MordorSlaughterhouse]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
@@ -31263,21 +31275,22 @@ Haradrim Spearmen Hordes
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingHorde]
-Easterling Phalanx Battalion
+Khân-pâlainax Battalion
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingHordePlural]
-Easterling Phalanx Battalions
+Khân-pâlainax Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_MordorEasterlingHorde]
-Unit Type: Elite Pikemen
+Great Khân's Phalanx
+Valueline2=Unit Type: Elite Pikemen
 Valueline2=Strong vs. Cavalry
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_MordorEasterlingHorde]
-
+Great Khân's Phalanx
 Valueline2=Unit Type: Elite Pikemen
 Valueline2=Strong vs. Cavalry
 
@@ -31312,11 +31325,15 @@ Drummer Trolls
 
 
 [CONTROLBAR:LW_Unit_MordorAttackTroll]
-Olog-Hai
+Olog-hai
+
+
+[CONTROLBAR:LW_Unit_WildAttackTroll]
+Gundadbad Stone-troll
 
 
 [CONTROLBAR:LW_Unit_MordorAttackTrollPlural]
-Olog-Hai
+Olog-hai
 
 
 [CONTROLBAR:LW_Unit_MordorCatapult]
@@ -31330,7 +31347,7 @@ Catapults
 
 
 [CONTROLBAR:LW_Hero_WitchKing]
-The Witch-king
+The Witch-king of Angmar
 
 
 [CONTROLBAR:LW_ToolTipBuild_WitchKing]
@@ -31457,7 +31474,7 @@ Dunland Roundhouse
 
 
 [CONTROLBAR:LW_ToolTipBuild_IsengardUrukPit]
-Battle Template: Clan Steading
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Isengard basic units
@@ -31465,10 +31482,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_IsengardUrukPit]
-Battle Template: Clan Steading
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Isengard basic units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_IsengardArmory]
@@ -31476,7 +31494,7 @@ Uruk-hai Pit
 
 
 [CONTROLBAR:LW_ToolTipBuild_IsengardArmory]
-Battle Template: Uruk-hai Pit
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Isengard elite units
@@ -31484,10 +31502,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_IsengardArmory]
-Battle Template: Uruk-hai Pit
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Isengard elite units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_IsengardFurnace]
@@ -31495,13 +31514,17 @@ Furnace
 
 
 [CONTROLBAR:LW_ToolTipBuild_IsengardFurnace]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_IsengardFurnace]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
@@ -31583,13 +31606,13 @@ Uruk-hai Shieldbearer Hordes
 [CONTROLBAR:LW_ToolTip_IsengardUrukShieldbearer]
 
 Valueline2=Unit Type: Support
-Valueline2=Heavily armored support unit
+Valueline2=Heavily armoured support unit
 Valueline2=Able to switch formation for improved defensive capabilities
 
 
 [CONTROLBAR:LW_Unit_ToolTipBuild_IsengardUrukShieldbearer]
 Unit Type: Support
-Valueline2=Heavily armored support unit
+Valueline2=Heavily armoured support unit
 Valueline2=Able to switch formation for improved defensive capabilities
 
 
@@ -31717,7 +31740,7 @@ Orc Warrens
 
 
 [CONTROLBAR:LW_ToolTipBuild_WildCave]
-Battle Template: Moria Orc Cave
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Misty Mountains basic units
@@ -31725,10 +31748,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_WildCave]
-Battle Template: Moria Orc Cave
+Battle Bonus: unit replenishment around the citadel 
 Valueline2=
 Valueline2=Structure Type: Basic Barracks
 Valueline2=Trains Misty Mountains basic units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_WildTreasureTrove]
@@ -31736,7 +31760,7 @@ Black Hollow
 
 
 [CONTROLBAR:LW_ToolTipBuild_WildTreasureTrove]
-Battle Template: Troll Lair
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Misty Mountains elite units
@@ -31744,10 +31768,11 @@ Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_WildTreasureTrove]
-Battle Template: Troll Lair
+Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline2=Structure Type: Elite Barracks
 Valueline2=Trains Misty Mountains elite units
+Valueline2=
 
 
 [CONTROLBAR:LW_Structure_WildDefiledMineShaft]
@@ -31755,13 +31780,17 @@ Orc Tunnel
 
 
 [CONTROLBAR:LW_ToolTipBuild_WildDefiledMineShaft]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
 
 [CONTROLBAR:LW_ToolTip_WildDefiledMineShaft]
-Structure Type: Farm
+Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline2=Structure Type: Farm
 Valueline2=Increases treasury
 Valueline2=
 
@@ -31878,6 +31907,10 @@ Mountain Giant
 Mountain Giants
 
 
+[CONTROLBAR:LW_Unit_WildMountainGiant]
+Mountain Giant
+
+
 
 
 
@@ -31918,6 +31951,10 @@ Unit Type: Hero Army Leader
 
 [CONTROLBAR:LW_Hero_Azog]
 Azog
+
+
+[CONTROLBAR:LW_Hero_Bolg]
+Bolg of the North
 
 
 [CONTROLBAR:LW_ToolTipBuild_Azog]
