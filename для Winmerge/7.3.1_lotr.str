@@ -33270,6 +33270,90 @@ Heroes (&E)
 Recruit and Revive Heroes
 
 
+[CONTROLBAR:SpecialAbilityFlameBurst]
+Flame Burst (&T)
+
+[CONTROLBAR:ToolTipSpecialAbilityFlameBurst]
+Requires Guardian Statues
+Valueline2=Knocks back nearby enemy units and sets the surrounding area on fire
+Valueline2=Nearby enemy units flee in terror
+Valueline2=Left click to activate
+
+[CONTROLBAR:SpecialAbilityVoidseekerInvocation]
+Voidseekers' Invocation (&S)
+
+[CONTROLBAR:ToolTipSpecialAbilityVoidseekerInvocation]
+Requires Voidseekers' Spire
+Valueline2=Bombard target area with devastating artillery
+Valueline2=Left click icon then left click on target area
+
+[CONTROLBAR:SpecialAbilityWayChargingBoar]
+Way of the Charging Boar (&D)
+
+[CONTROLBAR:ToolTipSpecialAbilityWayChargingBoar]
+Requires Ways of War
+Valueline2=All friendly Rhûn Swordsmen and Pikemen gain +25% armour, resistance to fear and terror and can trample enemy units for 120 seconds
+Valueline2=Only one War Tactic may be active at a time
+Valueline2=Left click to activate
+
+[CONTROLBAR:SpecialAbilityWayStrikingSerpent]
+Way of the Striking Serpent (&F)
+
+[CONTROLBAR:ToolTipSpecialAbilityWayStrikingSerpent]
+Requires Ways of War
+Valueline2=All friendly Rhûn units gain +15% movement speed for 120 seconds
+Valueline2=Great Khân's Archers, Serf Bowmen and Variag Outriders gain +25% vision 
+Valueline2= Only one War Tactic may be active at a time
+Valueline2=Left click to activate
+
+[CONTROLBAR:SpecialAbilityWayRagingDragon]
+Way of the Raging Dragon (&G)
+
+[CONTROLBAR:ToolTipSpecialAbilityWayRagingDragon]
+Requires Ways of War
+Valueline2=All friendly Golden Cataphracts and Golden Chariots units gain +50% armour and -25% crush deceleration for 120 seconds
+Valueline2=Golden Cataphracts and Golden Chariots' recruitment cost and time are reduced by 25% for 120 seconds
+Valueline2=Only one War Tactic may be active at a time
+Valueline2=Left click to activate
+
+[CONTROLBAR:PurchaseUpgradeRhunFortressBanners]
+Great Khân's Heraldry (&W)
+
+[CONTROLBAR:PurchaseUpgradeRhunFortressGuardianStatues]
+Guardian Statues (&E)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeRhunFortressGuardianStatues]
+Allows the fortress to cast Flame Burst, which knocks back nearby enemy units and sets the surrounding area on fire
+Valueline2=Nearby enemy units flee in terror when activated
+Valueline2=Grants fire arrows to Fortress and Tower Expansions
+
+[CONTROLBAR:PurchaseUpgradeRhunFortressVoidseekerSpire]
+Voidseekers' Spire (&R)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeRhunFortressVoidseekerSpire]
+Permanently increases Fortress vision range and detects stealthed units
+Valueline2=Allows the fortress to cast Voidseekers' Invocation, which bombards target area with devastating artillery
+
+[CONTROLBAR:PurchaseUpgradeRhunFortressWaysOfWar]
+Ways of War (&T)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeRhunFortressWaysOfWar]
+Permanently increases Fortress armour by 65%
+Valueline2=Allows Fortress to activate War Tactics to buff specialised areas of the faction temporarily
+Valueline2=Only one War Tactic may be active at a time
+
+[CONTROLBAR:ConstructRhunTowerExpansion]
+Guard Tower Expansion (&W)
+
+[OBJECT:RhunTowerExpansion]
+Guard Tower Expansion
+
+[OBJECT:RhunGuardTower]
+Guard Tower
+
+[CONTROLBAR:ConstructRhunGuardTower]
+Build Guard Tower (&Y)
+
 
 
 [CONTROLBAR:SelectUpgradesMordorFortress]
