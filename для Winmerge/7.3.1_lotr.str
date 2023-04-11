@@ -33393,37 +33393,50 @@ Gate Watchers Expansion (&R)
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressFireArrows]
-&Flaming Munitions
+Breeding Grounds (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressFireArrows]
-Equips Barricades with Fire Arrows
+Unlocks Flight of the Hell-hawks for Nazgûl
+Valueline2=Unlocks First of the Nine ability
+Valueline2=Can be cast to replace the Witch-king's horse with his Fellbeast
+
+
+[CONTROLBAR:SpecialAbilityMountFellbeast]
+First of the Nine (&S)
+
+
+[CONTROLBAR:ToolTipSpecialAbilityMountFellbeast]
+Requires the Breeding Grounds upgrade
+Valueline2=Mounts the Witch-king of Angmar on his Fellbeast instead of his horse 
+Valueline2= The Witch-king must be present in order to cast 
+Valueline2=Left click to activate
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressMorgulSorcery]
-Morgul Sorcery (&T)
+Morgul Sorcery (&S)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSorcery]
-Increases Fortress armor 
-Valueline2= Unlocks Gothmog, Legions of Morgul and Olog-hai 
+Increases Fortress armour by 65% 
+Valueline2= Unlocks Gothmog and Legions of Morgul
 Valueline2= Prerequisite to Morgul Spire
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSorceryForMaps]
-Unlocks Unlocks Gothmog, Morgul Vanguard, Legions of Morgul and Olog-hai
+Unlocks Unlocks Gothmog, Morgul Vanguard and Legions of Morgul
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressDoomPyres]
-Doom Pyres (&W)
+Heraldry of the Dark Lord (&W)
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressMagmaCauldrons]
-Magma Cauldrons (&R)
+Scorching Spires (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMagmaCauldrons]
-Allows the Fortress to pour burning lava on nearby enemy units
+Allows the Fortress to emit noxious fumes to poison enemy units
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressLavaMoat]
@@ -33431,7 +33444,7 @@ Flames of Sammath Naur (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat]
-Decreases melee vulnerability of the Fortress
+Damages enemy units adjacent to the Fortress
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressGorgorothSpire]
@@ -33443,12 +33456,13 @@ Allows the Fortress to launch a giant fireball
 
 
 [CONTROLBAR:FireWeaponMordorFortressMagmaCauldrons]
-Magma Cauldrons (&T)
+Noxious Fumes (&T)
 
 
 [CONTROLBAR:ToolTipFireWeaponMordorFortressMagmaCauldrons]
-Requires the Magma Cauldrons upgrade 
-Valueline2= Pours burning lava on nearby enemy units 
+Requires the Scorching Spires upgrade 
+Valueline2= The Fortress emits poisonous smoke
+Valueline2=Enemies caught in the smoke suffer damage over time for 15 seconds
 Valueline2= Left click to activate
 
 
@@ -33469,6 +33483,16 @@ Build Fortress (&I)
 Recruits Builders and Heroes 
 Valueline2= Can be upgraded with various improvements and expansions 
 Valueline2= Increases command point limit by 100
+
+
+[CONTROLBAR:ConstructMordorFortressWOTR]
+Build Outpost (&I)
+
+
+[CONTROLBAR:ToolTipConstructMordorFortressWOTR]
+Recruits Builders and revives Heroes 
+Valueline2= Generates 100 resources per tick 
+Valueline2= Increases command point limit by 900
 
 
 
@@ -33501,8 +33525,7 @@ Build Warg Sentry (&F)
 
 
 [CONTROLBAR:ToolTipConstructIsengardWargSentry]
-Defensive wargs that will attack nearby enemies 
-Valueline2= Increases command point limit by 25
+Defensive wargs that will attack nearby enemies
 
 
 [CONTROLBAR:ConstructIsengardFortress]
@@ -33513,6 +33536,16 @@ Build Fortress (&I)
 Recruits Builders and Heroes 
 Valueline2= Can be upgraded with various upgrades and expansions 
 Valueline2= Increases command point limit by 100
+
+
+[CONTROLBAR:ConstructIsengardFortressWOTR]
+Build Outpost (&I)
+
+
+[CONTROLBAR:ToolTipConstructIsengardFortressWOTR]
+Recruits Builders and revives Heroes 
+Valueline2= Generates 100 resources per tick 
+Valueline2= Increases command point limit by 900
 
 
 [CONTROLBAR:ConstructMordorTavern]
@@ -33545,7 +33578,27 @@ Valueline2=Strong vs. Pikemen
 
 
 [CONTROLBAR:ToolTipBuildCorsairsOfUmbarHorde]
-Strong vs. Pikemen
+Strong vs. Pikemen and Structures 
+Valueline2=
+Valueline2=Plunderer Bonus
+Valueline2=Modifier Type: Spell
+Valueline2=Corsairs of Umbar gain +5% damage for every nearby Corsair horde, up to a maximum of +35% damage
+Valueline2= 
+Valueline2= "There is a great fleet drawing near to the mouths of Anduin, manned by the corsairs of Umbar in the South. They have long ceased to fear the might of Gondor, and they have allied them with the Enemy, and now make a heavy stroke in his cause...
+
+
+[CONTROLBAR:LW_Unit_HaradCorsairsofUmbarHorde]
+Corsairs of Umbar Horde
+
+
+[CONTROLBAR:LW_ToolTipBuild_HaradCorsairsofUmbarHorde]
+Strong vs. Pikemen and Structures 
+Valueline2=
+Valueline2=Plunderer Bonus
+Valueline2=Modifier Type: Spell
+Valueline2=Corsairs of Umbar gain +5% damage for every nearby Corsair horde, up to a maximum of +35% damage
+Valueline2= 
+Valueline2= "There is a great fleet drawing near to the mouths of Anduin, manned by the corsairs of Umbar in the South. They have long ceased to fear the might of Gondor, and they have allied them with the Enemy, and now make a heavy stroke in his cause...
 
 
 [CONTROLBAR:ToolTipBuildMordorCorsairsOfUmbarInnHorde]
@@ -33553,7 +33606,7 @@ Strong vs. Pikemen
 
 
 [CONTROLBAR:TooltipCommand_ElvenCastleWallHub_BeginWallSpan]
-Build Wall (&W)
+Left click and drag to construct a Wall
 
 
 [CONTROLBAR:ConstructDwarvenHallExpansion]
@@ -33588,7 +33641,7 @@ Incorruptible (&R)
 
 [CONTROLBAR:SpecialPowerToolTipIncorruptable]
 Nothing may harm the Master of wood, water and hill
-Valueline2=Bombadil temporarily becomes immune to damage, and is resistant to knockback  
+Valueline2=Bombadil becomes immune to damage, and is resistant to knockback for 20 seconds
 Valueline2= Left click to activate
 
 
@@ -33602,12 +33655,14 @@ Old Man Willow
 
 [OBJECT:OldManWillowDescription]
 Old Man Willow whispers an old and enchanting song
-Valueline2=Enemy units around him are put to sleep
+Valueline2=Enemy units around him are put to sleep 
+Valueline2=Does not affect heroic units
 
 
 [CONTROLBAR:ToolTipWillowSleep]
 Old Man Willow whispers an old and enchanting song
-Valueline2=Enemy units around him are put to sleep
+Valueline2=Enemy units around him are put to sleep 
+Valueline2=Does not affect heroic units
 
 
 [CONTROLBAR:WillowSleep]
@@ -33615,8 +33670,9 @@ Ancient song
 
 
 [CONTROLBAR:ToolTipSummonWillow]
-Summons Old Man Willow
-Valueline2=Enemy units around him are put to sleep 
+Summons Old Man Willow for 30 seconds
+Valueline2=Enemy units around him are put to sleep
+Valueline2= Does not affect heroic units
 Valueline2= Left click icon then left click on pathable location
 
 
