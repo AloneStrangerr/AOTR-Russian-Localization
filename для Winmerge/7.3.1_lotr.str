@@ -33692,6 +33692,10 @@ Dark Sorcery (&R)
 Faithless and Accursed (&V)
 
 
+[CONTROLBAR:MouthOfSauronHerald]
+Dark Lord's Authority
+
+
 [CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye]
 Evil E&ye
 
@@ -33717,7 +33721,7 @@ Escape (&W)
 
 
 [CONTROLBAR:TooltipEscape]
-Wormtongue becomes stealthed and can neither be attacked nor make an attack 
+Wormtongue becomes stealthed and can neither be attacked nor make an attack for 30 seconds
 Valueline2= Left click icon to activate
 
 
@@ -33752,11 +33756,11 @@ Valueline2= Left click icon then left click on target
 
 
 [CONTROLBAR:BloodHunt]
-Blood Hunt (&W)
+Blood Hunt
 
 
 [CONTROLBAR:SharkuManEater]
-Man Eater (&T)
+Man Eater (&C)
 
 
 [CONTROLBAR:ElrondFarsight]
@@ -33919,8 +33923,8 @@ Left click to take flight
 
 
 [CONTROLBAR:ToolTipSmaugDissent]
-Requires Level 10 
-Valueline2= Causes targeted units to become hostile towards each other 
+Requires Level 10
+Valueline2=Causes targeted units and monsters to become hostile towards each other for 45 seconds
 Valueline2= Left click icon then left click on target area
 
 
@@ -33930,8 +33934,8 @@ Dread Gaze (&R)
 
 [CONTROLBAR:ToolTipSpecialAbilitySmaugStun]
 Requires Level 6 
-Valueline2= Pins enemy hero in place for a short time 
-Valueline2= Left click icon then left click on target
+Valueline2= Pins enemy hero in place for 30 seconds
+Valueline2=Left click icon then left click on target
 
 
 [CONTROLBAR:SpecialAbilityDrogothFireball]
@@ -33981,14 +33985,17 @@ Valueline2= Left click icon then left click on target
 This Is My Hour! (&W)
 
 
+[CONTROLBAR:BlackDart]
+Black Dart (&T)
+
+
 [CONTROLBAR:WKWordofPower]
-This is my Hour! (&V)
+This is My Hour! (&V)
 
 
 [CONTROLBAR:ToolTipWKWordofPower]
 Requires Level 10 
-Valueline2= Blasts back and damages units in a wide radius surrounding the Witch-King 
-Valueline2= Can only use when dismounted 
+Valueline2= Blasts back and damages units in a wide radius surrounding the Witch-king
 Valueline2= Left click to activate
 
 
@@ -34148,19 +34155,27 @@ Lorien Warriors
 
 
 [CONTROLBAR:ConstructEvilBombardShip]
-Co&rsair Bombardment Ship
+Corsair Bombardment Ship (&S)
 
 
 [CONTROLBAR:ConstructEvilFireShip]
-Mordor &Doom Ship
+Mordor Doom Ship (&T)
 
 
 [CONTROLBAR:ConstructEvilShip]
-&Corsair Black Ship
+Corsair Black Ship (&R)
+
+
+[CONTROLBAR:ConstructEvilShipBurodapan]
+The Black Dread (&D)
 
 
 [CONTROLBAR:ConstructEvilTransportShip]
-Umbar &Transport
+Umbar Transport (&E)
+
+
+[CONTROLBAR:ConstructEvilFishingShip]
+Umbar Fishing Ship (&W)
 
 
 [CONTROLBAR:ConstructGondorForgeLevel2Upgrade]
@@ -34172,31 +34187,35 @@ Umbar &Transport
 
 
 [CONTROLBAR:ConstructGoodBombardShip]
-Elven Bomba&rdment Ship
+Elven Bombardment Ship (&S)
 
 
 [CONTROLBAR:ConstructGoodFireShip]
-Elven &Storm Ship
+Elven Storm Ship (&T)
 
 
 [CONTROLBAR:ConstructGoodShip]
-Elven &Warship
+Elven Warship (&R)
 
 
 [CONTROLBAR:ConstructGoodTransportShip]
-Elven &Transport
+Elven Transport (&E)
+
+
+[CONTROLBAR:ConstructGoodFishingShip]
+Elven Fishing Boat (&W)
 
 
 [CONTROLBAR:ConstructIsengardArmoryLevel2]
-&Upgrade Armory to Level 2
+&Upgrade Armoury to Level 2
 
 
 [CONTROLBAR:ConstructIsengardArmoryLevel3]
-&Upgrade Armory to Level 3
+&Upgrade Armoury to Level 3
 
 
 [CONTROLBAR:ConstructMordorAttackTroll]
-Olog-Hai (&R)
+Olog-hai (&R)
 
 
 [CONTROLBAR:ConstructWildAttackTroll]
@@ -34204,7 +34223,7 @@ Gundabad Stone-troll (&T)
 
 
 [CONTROLBAR:ConstructMordorBattleTower]
-Build Battle Tower (&Y)
+Build Tower of Mordor (&Y)
 
 
 [CONTROLBAR:ConstructGuldurRuinousTower]
@@ -34217,6 +34236,10 @@ H&aradrim Archers
 
 [CONTROLBAR:ConstructRohanArcherHorde]
 Yeomen Archers (&W)
+
+
+[CONTROLBAR:ConstructRohanArcherHordeWotR]
+Yeomen Archers (&R)
 
 
 [CONTROLBAR:ConstructRohanSpearThrowerHorde]
@@ -34238,8 +34261,7 @@ Prince of Erebor
 [CONTROLBAR:ToolTipStonehelmLeadership]
 Modifier Type: Leadership 
 Valueline2= Allies near Thorin III Stonehelm gain +33% damage, +33% armour, and earn experience 50% faster 
-Valueline2= Stacks with Buffs and Spells 
-Valueline2= Passive ability
+Valueline2=Passive ability
 
 
 [CONTROLBAR:GloinHeal]
@@ -34253,8 +34275,7 @@ Valueline2=
 Valueline2= Requires Level 3 
 Valueline2= Modifier Type: Leadership 
 Valueline2= Allies near Glóin gain +15% damage and +15% armour 
-Valueline2= Stacks with Buffs and Spells 
-Valueline2= Passive ability
+Valueline2=Passive ability
 
 
 [CONTROLBAR:ProudFather]
@@ -34273,9 +34294,15 @@ Baruk Khazâd! (&T)
 [CONTROLBAR:ToolTipGloinGloriousCharge]
 Requires Level 3
 Valueline2= Modifier type: Spell
-Valueline2= Nearby Dwarven units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror 
-Valueline2= Stacks with buffs, leadership and spells
-Valueline2= Left click to activate
+Valueline2= Nearby Dwarven units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror for 20 seconds
+Valueline2=Left click to activate
+
+
+[CONTROLBAR:ToolTipGloinGloriousChargeCampaign]
+Requires Level 3
+Valueline2= Modifier type: Spell
+Valueline2= Nearby friendly units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror for 20 seconds
+Valueline2=Left click to activate
 
 
 [CONTROLBAR:VentureCapitalism]
