@@ -17990,6 +17990,10 @@ Line Formation (&R)
 Line Formation (&R)
 
 
+[CONTROLBAR:ToggleVolleyFormation]
+Serpent's Bite Formation (&R)
+
+
 [CONTROLBAR:ToggleDefaultFormation]
 Default Formation (&W)
 
@@ -28925,6 +28929,22 @@ Valueline2=When the lands beyond the Valley are in danger, these Knights will ri
 Builder (&W)
 
 
+[CONTROLBAR:ConstructLorilinde]
+Lórilinde (&W)
+
+
+[CONTROLBAR:TooltipconstructLorilinde]
+Tree-singer
+Valueline2=Constructs buildings
+
+
+[CONTROLBAR:TooltipconstructLorilindeWotR]
+Tree-singer
+Valueline2=Constructs buildings
+Valueline2=Limited to 1
+
+
+
 [CONTROLBAR:Tooltipconstructelvenporter]
 Constructs buildings
 
@@ -34989,11 +35009,11 @@ Upgrade Easterling Garrison to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeMordorOrcPitLevel2]
-Upgrade Orc Barracks to Level 2 (&A)
+Upgrade Orcish Stronghold to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeMordorOrcPitLevel3]
-Upgrade Orc Barracks to Level 3 (&A)
+Upgrade Orcish Stronghold to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeMordorSiegeWorksLevel2]
@@ -35005,11 +35025,11 @@ Upgrade Siege Works to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeMordorTavernLevel2]
-&Upgrade Gorgoroth Armory to Level 2
+&Upgrade Gorgoroth Foundry to Level 2
 
 
 [CONTROLBAR:UpgradeMordorTavernLevel3]
-&Upgrade Gorgoroth Armory to Level 3
+&Upgrade Gorgoroth Foundry to Level 3
 
 
 [CONTROLBAR:UpgradeMordorTrollCageLevel2]
@@ -35045,7 +35065,7 @@ Dismount Fellbeast (&W)
 
 
 [CONTROLBAR:WitchKingMount]
-Mount Fellbeast (&W)
+Mount Fellbeast
 
 
 [OBJECT:Bagend]
@@ -35169,7 +35189,7 @@ Fountain
 
 
 [ThingTemplate:SlaughterHouse]
-Slaughter House
+Slave Farm
 
 
 [OBJECT:DoGoldurWallCatapultSmall]
@@ -35402,7 +35422,7 @@ Easterling House
 
 
 [OBJECT:Easterling_House_02]
-Easternling House
+Easterling House
 
 
 [OBJECT:Easterling_Rack1]
@@ -35434,8 +35454,7 @@ Wall
 
 
 [OBJECT:ElvenEntMootDescription]
-Recruits Ents 
-Valueline2= Increases command point limit by 25
+Recruits Ents
 
 
 [OBJECT:ElvenFloodgateExpansion]
@@ -35452,6 +35471,10 @@ Mithlond Sentry
 
 [OBJECT:ElvenPorter]
 Builder
+
+
+[OBJECT:Lorilinde]
+Lórilinde
 
 
 [OBJECT:ElvenSentryTower]
@@ -35489,7 +35512,7 @@ Vigilant Ent Expansion
 
 
 [OBJECT:ElvenWatchtowerExpansion]
-Flet Expansion
+Talan Expansion
 
 
 [OBJECT:ElvenWorker]
@@ -35526,6 +35549,14 @@ Goblin Leader's Fortress
 
 [OBJECT:EvilMenTransportShip]
 Umbar Transport Ship
+
+
+[OBJECT:EvilFishingShip]
+Umbar Fishing Ship
+
+
+[OBJECT:GoodFishingShip]
+Elven Fishing Boat
 
 
 [OBJECT:EvilPort]
@@ -35867,8 +35898,12 @@ Bounders
 Inn
 
 
+[OBJECT:AuxiliaryCamp]
+Auxiliary Camp
+
+
 [OBJECT:InnTavernDescription]
-Capture to recruit special faction units
+Capture to recruit special regional reinforcements
 
 
 [OBJECT:IronHillsBridge01]
@@ -36175,7 +36210,83 @@ Battering Ram
 
 
 [OBJECT:MordorBattleTower]
-Battle Tower
+Tower of Mordor
+
+
+[CONTROLBAR:BTBaradDur]
+Banner of Barad-dûr (&E)
+
+
+[CONTROLBAR:BTBaradDurUpgraded]
+Banner of Barad-dûr
+
+
+[CONTROLBAR:ToolTipBTBaradDur]
+Modifier Type: Spell 
+Valueline2= Allies near the Tower gain +10% damage
+Valueline2=Left click to purchase
+
+
+[CONTROLBAR:ToolTipBTBaradDurUpgraded]
+Modifier Type: Spell 
+Valueline2= Allies near the Tower gain +10% damage
+Valueline2=Passive ability
+
+
+[CONTROLBAR:BTCirithUngol]
+Banner of Cirith Ungol (&R)
+
+
+[CONTROLBAR:BTCirithUngolUpgraded]
+Banner of Cirith Ungol
+
+
+[CONTROLBAR:ToolTipBTCirithUngol]
+Modifier Type: Spell 
+Valueline2= Increases Tower's vision range by 50%
+Valueline2=Left click to purchase
+
+
+[CONTROLBAR:ToolTipBTCirithUngolUpgraded]
+Modifier Type: Spell 
+Valueline2= Increases Tower's vision range by 50%
+Valueline2=Passive ability
+
+
+[CONTROLBAR:BTMinasMorgul]
+Banner of Minas Morgul (&T)
+
+
+[CONTROLBAR:BTMinasMorgulUpgraded]
+Banner of Minas Morgul
+
+
+[CONTROLBAR:ToolTipBTMinasMorgul]
+Enemy units nearby the Tower take minor damage over time
+Valueline2=Left click to purchase
+
+
+[CONTROLBAR:ToolTipBTMinasMorgulUpgraded]
+Enemy units nearby the Tower take minor damage over time
+Valueline2=Passive ability
+
+
+[CONTROLBAR:BTRhun]
+Banner of Rhûn (&S)
+
+
+[CONTROLBAR:BTRhunUpgraded]
+Banner of Rhûn
+
+
+[CONTROLBAR:ToolTipBTRhun]
+Orc Archers manning the Tower are replaced by Great Khân's Archers
+Valueline2=Left click to purchase
+
+
+[CONTROLBAR:ToolTipBTRhunUpgraded]
+Orc Archers manning the Tower are replaced by Great Khân's Archers
+Valueline2=Passive ability
 
 
 [OBJECT:MordorCastleWallGate]
@@ -36530,7 +36641,7 @@ Hobbit Work Pit
 
 
 [OBJECT:SignalFireDescription]
-Capture to decrease power recharge times
+Capute to grant vision in surrounding area
 
 
 [OBJECT:SkullTotem]
@@ -36755,7 +36866,7 @@ Wheel
 
 
 [OBJECT:GondorKnights]
-Anórien Knight
+Knight of Minas Tirith
 
 
 [OBJECT:GondorLancer]
@@ -36764,7 +36875,7 @@ Gondor Lancer
 
 
 [CreateAHero:ClassName_HeroesOfTheWest]
-Leaders of the West
+Captains of the Free Peoples
 
 
 [CreateAHero:SubClassName_CaptainOfGondor]
@@ -36776,19 +36887,27 @@ Shield Maiden of Rohan
 
 
 [CreateAHero:ClassName_Archer]
-Elves
+Wanderers of the Wild
 
 
 [CreateAHero:SubClassName_ElvenArcher]
-Male Elven Archer
+Noldorin Warrior
 
 
 [CreateAHero:SubClassName_FemaleElvenArcher]
-Female Elven Archer
+Marchwarden
+
+
+[CreateAHero:SubClassName_Dunedain]
+Ranger of the North
 
 
 [CreateAHero:ClassName_IstariWizard]
-Wizards
+Istari
+
+
+[CreateAHero:ClassName_WightLord]
+Wight-lord
 
 
 [CreateAHero:SubClassName_Wanderer]
