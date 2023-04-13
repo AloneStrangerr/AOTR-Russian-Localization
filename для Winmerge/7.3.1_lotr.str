@@ -9505,6 +9505,22 @@ Valueline2=+10% faster build speed
 +25% faster build speed
 Valueline2=Adds defensive arrow tower
 
+[OBJECT:MordorRhunStable]
+Horsemaster's Campground
+
+
+[CONTROLBAR:ConstructRhunStable]
+Build Horsemaster's Campground (&V)
+
+[CONTROLBAR:ToolTipConstructRhunStable]
+Trains Rhûnic cavalry
+
+
+[CONTROLBAR:ConstructRhunStable2Upgrade]
+Upgrade Horsemaster's Campground to Level 2 (&A)
+
+[CONTROLBAR:ConstructRhunStableLevel3Upgrade]
+Upgrade Horsemaster's Campground to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildRhunStableLevel2Upgrade]
@@ -17077,7 +17093,7 @@ Fire Arrows (&C)
 
 
 [CONTROLBAR:GuldurFireArrowUpgrade]
-Fire Arrows (&C)
+Corpse-fire Arrows (&C)
 
 
 [CONTROLBAR:BodkinArrowUpgrade]
@@ -26299,6 +26315,10 @@ Fire Arrows
 Fire Arrows
 
 
+[UPGRADE:GuldurFireArrowUpgrade]
+Corpse-fire Arrows
+
+
 [UPGRADE:WildFireArrowUpgrade]
 Fire Arrows
 
@@ -33106,7 +33126,7 @@ Fire Arrows (&W)
 
 
 [CONTROLBAR:PurchaseUpgradeSentryTowerFireArrowsRuinousTower]
-Fire Arrows (&E)
+Corpse-fire Arrows (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerFireArrows]
@@ -34311,7 +34331,13 @@ Venture Capitalism (&C)
 
 [CONTROLBAR:ToolTipVentureCapitalism]
 Requires Level 5
-Valueline2=Targeted Mine or Grand Forge has +200% increased production
+Valueline2=Targeted Mine or Grand Forge has +200% increased production for 30 seconds
+Valueline2=Left click icon then left click on target
+
+
+[CONTROLBAR:ToolTipVentureCapitalismCampaign]
+Requires Level 5
+Valueline2=Targeted Mine, Grand Forge or Rivendell Orchard has +200% increased production for 30 seconds
 Valueline2=Left click icon then left click on target
 
 
@@ -34342,7 +34368,8 @@ Valueline2=Passive ability
  Subtle Subterfuge (&R)
 
 [CONTROLBAR:ToolTipMasterSpy]
-Place a Master's Spy on the map. The Master's Spy is stealthed and cannot move, and reveals a large amount of shroud 
+Place a Master's Spy on the map
+Valueline2=The Master's Spy is stealthed and cannot move, and reveals a large amount of shroud 
 Valueline2= Left click icon then left click on pathable location
 
 
@@ -34351,7 +34378,8 @@ Underhanded Strike (&T)
 
 
 [CONTROLBAR:ToolTipUnderhandedStrike]
-Targeted enemy unit or hero is temporarily crippled and loses 25% armour
+Deals heavy melee damage to enemy unit
+Valueline2=Targeted enemy unit or hero is crippled and loses 25% armour for 10 seconds
 Valueline2=Left click icon then left click on target
 
 
@@ -34362,7 +34390,7 @@ Call the Guard! (&C)
 Requires Level 3
 Valueline2=Temporarily summons a battalion of Guards of the Master 
 Valueline2= At rank 6, summons two battalions 
-Valueline2= Left click icon then left click on target area
+Valueline2= Left click to activate
 
 
 [CONTROLBAR:AncientStatute]
@@ -34375,7 +34403,7 @@ Valueline2= The Master of Laketown and nearby Laketown units steal resources whe
 Valueline2= Passive ability
 Valueline2=
 Valueline2=Can be cast on any resource structure to spawn a chest of 850 resources
-Valueline2=Temporarily pauses resource production as a result
+Valueline2=Resource production is paused for 30 seconds
 Valueline2=Left click icon then left click on target structure
 
 
@@ -34469,7 +34497,7 @@ Build &Warg Sentries
 
 
 [CONTROLBAR:Roar]
-Roar (&W)
+Roar (&R)
 
 
 [CONTROLBAR:RohanGamlingRecruit]
@@ -34517,6 +34545,10 @@ Deplo&y
 Poisoned Blades (&W)
 
 
+[CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBladesSpearmen]
+Poisoned Blades (&R)
+
+
 
 
 
@@ -34552,8 +34584,7 @@ Adds several Axe Throwers to the Battlewagon
 
 [CONTROLBAR:ToolTipBattleWagonUpgradeHearth]
 Allies near the Battlewagon gain +50% damage and +50% armour 
-Valueline2= Detects stealth 
-Valueline2= Does not stack
+Valueline2= Detects stealth
 
 
 [CONTROLBAR:ToolTipBattleWagonUpgradeMenOfDale]
@@ -34566,12 +34597,12 @@ Mount and unmount the Nazgûl
 
 [CONTROLBAR:ToolTipBuildCorsairShip]
 Corsair ship garrisoned with archers 
-Valueline2= Strong at Range and vs. Ships
+Valueline2= Strong at range and vs. Ships
 
 
 [CONTROLBAR:ToolTipBuildDwarvenBatteringRam]
 Powerful battering ram 
-Valueline2= Can be deployed for additional armor
+Valueline2= Can be deployed for additional armour
 
 
 [CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade]
@@ -34588,12 +34619,24 @@ Mordor ship that causes a devastating explosion
 
 [CONTROLBAR:ToolTipBuildEvilShip]
 Corsair ship garrisoned with archers 
-Valueline2= Strong at Range and vs. Ships
+Valueline2= Strong at range and vs. Ships
+
+
+[CONTROLBAR:ToolTipBuildBurodapanShip]
+Recruit Burôdapân's Flagship, the Black Dread 
+Valueline2= Requires Burôdapân 
+Valueline2= Strong at range and vs. Ships 
+Valueline2= Limited to 1
 
 
 [CONTROLBAR:ToolTipBuildEvilTransportShip]
-Can transport units across water 
-Valueline2= Generates resources
+Can transport multiple units across the water
+
+
+[CONTROLBAR:ToolTipBuildEvilFishingShip]
+Can be deployed to generate resources 
+Valueline2= Increases command point limit by 50 
+Valueline2= Can transport one unit across water
 
 
 [CONTROLBAR:ToolTipBuildGoodFireShip]
@@ -34602,23 +34645,28 @@ Elven ship that causes a destructive whirlpool
 
 [CONTROLBAR:ToolTipBuildGoodShip]
 Elven ship garrisoned with archers 
-Valueline2= Strong at Range and vs. Ships
+Valueline2= Strong at range and vs. Ships
 
 
 [CONTROLBAR:ToolTipBuildGoodTransportShip]
-Can transport units across the water 
-Valueline2= Generates resources
+Can transport multiple units across the water
+
+
+[CONTROLBAR:ToolTipBuildGoodFishingShip]
+Can be deployed to generate resources 
+Valueline2= Increases command point limit by 50 
+Valueline2= Can transport one unit across water
 
 
 [CONTROLBAR:ToolTipBuildIsengardArmoryLevel2]
-Allows research of Forged Blades and Heavy Armor
+Allows research of Forged Blades and Heavy Armour
 
 
 [CONTROLBAR:ToolTipBuildMordorAttackTroll]
-Requires Level 3 Troll Cage and Morgul Sorcery Upgrade 
+Requires Level 3 Troll Cage 
 Valueline2= Strong vs. Swordsmen, Cavalry, and Structures 
 Valueline2= 
-Valueline2= The cruelest, most intelligent of the Olog-hai were clad in jagged black armor and sent to the front line to serve as some of Sauron's most feared warriors.
+Valueline2= The cruelest, most intelligent of the Olog-hai were clad in jagged black armour and sent to the front line to serve as some of Sauron's most feared warriors.
 
 
 [CONTROLBAR:ToolTipBuildWildAttackTroll]
@@ -34644,13 +34692,20 @@ Allows the construction of walls
 Constructs buildings
 
 
+[CONTROLBAR:ToolTipConstructIsengardPorterWotR]
+Train a Builder 
+Valueline2= Builds structures
+Valueline2=Limited to 1
+
+
 [CONTROLBAR:ToolTipConstructIsengardUrukPit]
-Trains Uruk-hai units 
-Valueline2= Increases command point limit by 25
+Breeds the Fighting Uruk-hai
 
 
 [CONTROLBAR:ToolTipConstructMordorBattleTower]
 Defensive tower that fires arrows at nearby enemies
+Valueline2=
+Valueline2=When Sauron returned to Mordor, he ordered the construction of massive, terrible towers, meant to keep a watchful eye upon the bordering lands of Gondor.
 
 
 [CONTROLBAR:ToolTipConstructGuldurRuinousTower]
@@ -34680,6 +34735,12 @@ Valueline2= 6+ Towers: 50%
 Constructs buildings
 
 
+[CONTROLBAR:ToolTipConstructMordorPorterWotR]
+Train a Builder 
+Valueline2= Builds structures
+Valueline2=Limited to 1
+
+
 [CONTROLBAR:ToolTipCurse]
 Causes enemy Hero abilities longer to recharge
 
@@ -34696,6 +34757,11 @@ Evacute building
 
 [CONTROLBAR:ToolTipFireBombs]
 Short range thrown explosives
+
+
+[CONTROLBAR:ToolTipKnifeHarad]
+Powerful melee attack
+Valueline2=Steals resources from enemy structures per hit
 
 
 [CONTROLBAR:ToolTipFireWeaponMenFortressBoilingOil]
@@ -34737,14 +34803,13 @@ This shouldn't be in the game
 
 
 [CONTROLBAR:ToolTipPoisonArrows]
-Poison tipped arrows that cause damage over time
+Poison tipped arrows that cause damage over time for 15 seconds 
 Valueline2=Poison arrows deal +50% additional damage against monsters
 Valueline2=Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipPurchaseIsengardWargSentry]
-Short range defensive wargs 
-Valueline2= Increases command point limit by 25
+Short range defensive wargs
 
 
 [CONTROLBAR:ToolTipSharkuWargMount]
@@ -34760,7 +34825,7 @@ Deals small amounts of damage and detects stealth
 
 
 [CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades]
-Poisons targeted enemies causing damage over time 
+Poisons targeted enemies causing damage over time for 15 seconds 
 Valueline2= Left click to activate
 
 
@@ -34821,7 +34886,7 @@ Valueline2= Detects stealthed units
 
 
 [CONTROLBAR:TooltipRoar]
-Causes fear on enemy units 
+Causes enemy units to flee in terror 
 Valueline2= Left click to activate
 
 
@@ -34864,13 +34929,18 @@ Valueline2=Heals nearby damaged siege machines
 Valueline2= +10% faster build speed
 
 
+[CONTROLBAR:TooltipUpgradeMordorSiegeWorksLevel2Rhun]
+Valueline2=Heals nearby damaged siege machines 
+Valueline2= +10% faster build speed
+
+
 [CONTROLBAR:TooltipUpgradeMordorTavernLevel2]
 Allows research of the Forged Blades and Flaming Arrows upgrade 
 Valueline2= +10% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeMordorTavernLevel3]
-Allows research of the Heavy Armor upgrade 
+Allows research of the Heavy Armour upgrade 
 Valueline2= +25% faster build speed
 
 
@@ -34911,11 +34981,11 @@ Upgrade Warg Pit to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeMordorHaradrimPalaceLevel2]
-Upgrade Easterling Encampment to Level 2 (&A)
+Upgrade Easterling Garrison to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeMordorHaradrimPalaceLevel3]
-Upgrade Easterling Encampment to Level 3 (&A)
+Upgrade Easterling Garrison to Level 3 (&A)
 
 
 [CONTROLBAR:UpgradeMordorOrcPitLevel2]
@@ -35649,7 +35719,7 @@ Revive the fallen Steward of Gondor
 
 
 [CONTROLBAR:GondorDenethorHotkey]
-Denethor II, Son of Ecthelion (&S)
+Denethor II, Son of Ecthelion (&T)
 
 
 [OBJECT:GondorForbiddenPool]
@@ -36084,7 +36154,7 @@ Isengard Troll
 
 
 [OBJECT:MordorAttackTroll]
-Olog-Hai
+Olog-hai
 
 
 [OBJECT:WildAttackTroll]
@@ -36308,7 +36378,7 @@ Archery Range
 
 
 [OBJECT:RohanArmory]
-Rohan Armory
+Rohan Armoury
 
 
 [OBJECT:RohanBaseDefenseFoundation]
@@ -36785,7 +36855,7 @@ Masters of powers from across Middle-earth, not all sorcerers are of the noble I
 
 
 [CreateAHero:ClassDesc_Dwarf]
-The hardiest of all races, dwarves craft lasting weapons and armor from valuable mithril.
+The hardiest of all races, dwarves craft lasting weapons and armour from valuable mithril.
 
 
 [CreateAHero:ClassDesc_ServantsOfSauron]
@@ -37779,7 +37849,7 @@ Destroys the wall and refunds resources
 
 [CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades]
 Upgrade this Battle Tower with Mithril-tipped Arrows 
-Valueline2= Increases damage done by Arrows
+Valueline2= Increases damage done by arrows
 
 
 [CONTROLBAR:Trollfindgoblintothrow]
@@ -38046,7 +38116,7 @@ Elrond (&D)
 
 
 [CONTROLBAR:FrodoRecruit]
-Recruit the noble hobbit from the Shire
+Recruit the noble Hobbit from the Shire
 
 
 [CONTROLBAR:FrodoRevive]
@@ -38066,7 +38136,7 @@ Sharku (&E)
 
 
 [CONTROLBAR:IsengardSharkuRecruit]
-Recruit the leader of the warg riders 
+Recruit the leader of the Warg Riders 
 Valueline2= 
 Valueline2= 'He's dead. Took a little tumble off the cliff.'
 
@@ -38428,7 +38498,7 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MGBlueM_OffD001subtitle]
-*Gloin from the East! A great surprise indeed! And well timed!
+*Glóin from the East! A great surprise indeed! And well timed!
 
 
 [DIALOGEVENT:MGBlueM_OffD002subtitle]
@@ -39296,7 +39366,7 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MEShire_GobK003subtitle]
-*Dunedain... here? Hmph! They can't save these little scrubs!
+*Dúnedain... here? Hmph! They can't save these little scrubs!
 
 
 [DIALOGEVENT:MEShire_Hobb004subtitle]
@@ -39360,7 +39430,7 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MEShire_Worm001subtitle]
-*I want extend my gratitude, oh great king, for clearing the Shire of the meddlesome Dunedain.
+*I want extend my gratitude, oh great king, for clearing the Shire of the meddlesome Dúnedain.
 
 
 [DIALOGEVENT:MEShire_Worm002subtitle]
@@ -39420,7 +39490,7 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MEForno_GobK001subtitle]
-*The Dwarves have joined the Dunedain in their last attempt to save Eriador.
+*The Dwarves have joined the Dúnedain in their last attempt to save Eriador.
 
 
 [DIALOGEVENT:MEForno_GobK002subtitle]
@@ -40248,7 +40318,7 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MESkirm_OffM012subtitle]
-*The Dunedain have held these lands for many years. We must put an end to their reign in this region. 
+*The Dúnedain have held these lands for many years. We must put an end to their reign in this region. 
 
 
 [DIALOGEVENT:MGRiven_OffE014subtitle]
@@ -40272,7 +40342,7 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MGRiven_OffE019subtitle]
-*The Elven Wood Power provides an armor bonus for any allied units, as well as providing camouflage for elves.
+*The Elven Wood Power provides an armour bonus for any allied units, as well as providing camouflage for elves.
 
 
 [DIALOGEVENT:MGRiven_OffE020subtitle]
@@ -40708,7 +40778,7 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MGGreyH_OffE021subtitle]
-*The lore of the Shipwrights of Mithlond is unparalleled, but remember to upgrade the armor and endurance of our naval craft!
+*The lore of the Shipwrights of Mithlond is unparalleled, but remember to upgrade the armour and endurance of our naval craft!
 
 
 [DIALOGEVENT:MGGreyH_OffE022subtitle]
@@ -41364,7 +41434,7 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MEGreyH_Cors014subtitle]
-*Upgrade the ships with additional armor, it'll help us in the battle!
+*Upgrade the ships with additional armour, it'll help us in the battle!
 
 
 [DIALOGEVENT:MEGreyH_Cors015subtitle]
@@ -41456,11 +41526,11 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MEShire_OffG008subtitle]
-*We must eliminate ALL the Dunedain
+*We must eliminate ALL the Dúnedain
 
 
 [DIALOGEVENT:MEShire_OffG009subtitle]
-*The Dunedain still roam these lands. They must ALL DIE!
+*The Dúnedain still roam these lands. They must ALL DIE!
 
 
 [DIALOGEVENT:MEShire_OffG010subtitle]
@@ -41504,19 +41574,19 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MEShire_OffG020subtitle]
-*The Dunedain are attacking our base. Drive 'em out!
+*The Dúnedain are attacking our base. Drive 'em out!
 
 
 [DIALOGEVENT:MEShire_OffG021subtitle]
-*So, the Dunedain have set up camp here.
+*So, the Dúnedain have set up camp here.
 
 
 [DIALOGEVENT:MEShire_OffG022subtitle]
-*Looks like a Dunedain camp. Be wary.
+*Looks like a Dúnedain camp. Be wary.
 
 
 [DIALOGEVENT:MEShire_OffG023subtitle]
-*Dunedain tents…watch your backs.
+*Dúnedain tents…watch your backs.
 
 
 [DIALOGEVENT:MEShire_OffG024subtitle]
@@ -41716,11 +41786,11 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MEErebo_OffM033subtitle]
-*It's the fool Gloin! He's rallied the dwarves of the Iron Hills!
+*It's the fool Glóin! He's rallied the dwarves of the Iron Hills!
 
 
 [DIALOGEVENT:MEErebo_OffM034subtitle]
-*Gloin has rallied the Blue Mountain dwarves…the genocide will be complete!
+*Glóin has rallied the Blue Mountain dwarves…the genocide will be complete!
 
 
 [DIALOGEVENT:MEErebo_OffM035subtitle]
@@ -41728,7 +41798,7 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MERiven_OffG013subtitle]
-*Oh look, the last of the Dunedain have joined the fight. Kill them.
+*Oh look, the last of the Dúnedain have joined the fight. Kill them.
 
 
 [DIALOGEVENT:MERiven_OffG014subtitle]
@@ -41740,7 +41810,7 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:MERiven_OffG016subtitle]
-*The Witch King has brought some Nazgûl to deal with the Eagles.
+*The Witch-king has brought some Nazgûl to deal with the Eagles.
 
 
 [DIALOGEVENT:MERiven_OffG017subtitle]
@@ -42448,11 +42518,11 @@ Revive the fallen Nazgûl
 
 
 [DIALOGEVENT:WOTR_Tutorial021subtitle]
-*There are four basic structure classes to choose from, Fortress, Barracks, Armory, and Farm. Each structure class provides a necessary function to a growing empire.
+*There are four basic structure classes to choose from, Fortress, Barracks, Armoury, and Farm. Each structure class provides a necessary function to a growing empire.
 
 
 [DIALOGEVENT:WOTR_Tutorial022subtitle]
-*Build fortresses to strengthen the defenses in your territories. Build barracks to train new units for your armies. Build armories to improve your armies attack and defensive capabilities. And build farms to support the population growth of your empire.
+*Build fortresses to strengthen the defenses in your territories. Build barracks to train new units for your armies. Build armouries to improve your armies attack and defensive capabilities. And build farms to support the population growth of your empire.
 
 
 [DIALOGEVENT:WOTR_Tutorial023subtitle]
@@ -42804,12 +42874,15 @@ Statue of Sauron
 Corsair Bombardment Ship
 
 
-[OBJECT:EvilFireShip]
-Mordor Doom Ship
+
 
 
 [OBJECT:EvilArrowShip]
 Corsair Black Ship
+
+
+[OBJECT:BlackDread]
+The Black Dread
 
 
 [OBJECT:ElvenCastleWallHubExpansion]
@@ -42897,6 +42970,12 @@ Valueline2= Provides Palantir Vision Power and Allows the recruitment of Fountai
 Valueline2= Increases Fortress vision range
 
 
+[TOOLTIP:LackIvoryTower_GC]
+Requires the Númenórean Stonework upgrade 
+Valueline2= Provides Palantir Vision Power and Allows the recruitment of Grey Company 
+Valueline2= Increases Fortress vision range
+
+
 [TOOLTIP:LackIvoryTower_WOTR]
 Requires the Númenórean Stonework upgrade 
 Valueline2= Provides Palantir Vision Power 
@@ -42931,6 +43010,10 @@ Allows summoning of Wights
 Allows training of Spiderlings
 
 
+[OBJECT:ScorpionDenDescription]
+Allows training of Scorpions
+
+
 [OBJECT:CaveTrollLairDescription]
 Allows training of Cave Trolls
 
@@ -42952,15 +43035,15 @@ Throne of Erebor
 
 
 [TOOLTIP:LackIsengardFireArrowsTech]
-Requires Level 2 Armory
+Requires Level 2 Armoury
 
 
 [TOOLTIP:LackIsengardForgedBladesTech]
-Requires Level 2 Armory
+Requires Level 2 Armoury
 
 
 [TOOLTIP:LackIsengardHeavyArmorTech]
-Requires Level 2 Armory
+Requires Level 2 Armoury
 
 
 [OBJECT:ElvenWarShip]
@@ -43009,7 +43092,7 @@ Rebuilds the trebuchet on the platform
 
 
 [CONTROLBAR:BuildPlotTrebuchet]
-Build &Trebuchet
+Build Trebuchet (&W)
 
 
 [CONTROLBAR:ToolTipBuildPlotTrebuchet]
@@ -43017,11 +43100,11 @@ Builds a trebuchet on the platform
 
 
 [CONTROLBAR:BuildPlotLargeTrebuchet]
-Build Numenorean &Trebuchet
+Build Númenórean Trebuchet (&W)
 
 
 [CONTROLBAR:ToolTipBuildPlotLargeTrebuchet]
-Builds a Numenorean Trebuchet on the platform
+Builds a Númenórean Trebuchet on the platform
 
 
 [CONTROLBAR:GoblinGiantSentryUpgrade]
@@ -43039,8 +43122,12 @@ Replaces the giant inside the platform
 Research Thrór’s Banners (&W)
 
 
+[CONTROLBAR:PurchaseTechnologyDwarvenBasicTrainingBotFA]
+Research Thrór’s Banners (&T)
+
+
 [CONTROLBAR:ToolTipPurchaseTechnologyDwarvenBasicTraining]
-Allows battalions to purchase the Banner Carrier upgrade 
+Allows battalions to purchase the Thrór’s Banners upgrade 
 Valueline2= Increases a battalion to Level 2
 
 
@@ -43088,8 +43175,7 @@ Purchase Master's Blades (&C)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeLaketownForgedBlades]
 Upgrades this battalion with Master's Blades 
-Valueline2= Increases the damage done by Melee Weapons
-
+Valueline2= Increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseUpgradeDaleForgedBlades]
@@ -43098,7 +43184,7 @@ Purchase Barding Blades (&C)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDaleForgedBlades]
 Upgrades this battalion with Barding Blades 
-Valueline2= Increases the damage done by Melee Weapons
+Valueline2= Increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseTechnologyDwarvenHeavyArmor]
@@ -43119,16 +43205,16 @@ Upgrades this battalion with Dwarven Plate
 Valueline2= Significantly reduces the amount of damage taken
 
 
-[CONTROLBAR:PurchaseTechnologyRohanFireArrows]
-Research Fire Arro&ws
-
-
 [CONTROLBAR:PurchaseTechnologyGondorFireArrows]
 Research Fire Arrows (&T)
 
 
+[CONTROLBAR:PurchaseTechnologyGondorFireArrows_GC]
+Research Fire Arrows (&R)
+
+
 [CONTROLBAR:PurchaseTechnologyGondorFireArrows_Ithilien]
-Research Bodkin Arro&ws
+Research Bodkin Arrows (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows]
@@ -43136,14 +43222,14 @@ Allows battalions to purchase the Fire Arrows upgrade
 Valueline2= When equipped, significantly increases the damage 
 Valueline2=
 Valueline2= Allows Ithilien Rangers to purchase the Bodkin Arrows upgrade 
-Valueline2= When equipped, reduces enemy armor by 25% when hit 
+Valueline2= When equipped, reduces enemy armour against pierce by 25% when hit 
 Valueline2=
 Valueline2= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows_Ithilien]
 Allows Ithilien Rangers to purchase the Bodkin Arrows upgrade 
-Valueline2= When equipped, reduces enemy armor by 25% when hit 
+Valueline2= When equipped, significantly increases the damage 
 Valueline2=
 Valueline2= Will upgrade all patrols instantly once upgrade is purchased
 
@@ -43157,12 +43243,12 @@ Valueline2= Will upgrade all patrols instantly once upgrade is purchased
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGondorFireArrows]
 Upgrades this battalion with Fire Arrows 
-Valueline2= Significantly increases the damage done by Arrows
+Valueline2= Significantly increases the damage done by arrows
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGondorBodkinArrows]
 Upgrades this battalion with Bodkin Arrows 
-Valueline2= Reduces enemy armor by 25% when hit 
+Valueline2= Reduces enemy armour against pierce by 25% when hit 
 Valueline2= Does not stack
 
 
@@ -43178,18 +43264,18 @@ Valueline2= Will upgrade all patrols instantly once upgrade is purchased
 
 [CONTROLBAR:ToolTipPurchaseTechnologyElvenForgedBlades]
 Allows battalions to purchase the Tempered Blades upgrade 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 Valueline2= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyMirkwoodForgedBlades]
 Allows battalions to purchase the Silvan Steel upgrade 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 Valueline2= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:PurchaseUpgradeGondorForgedBlades]
-Purchase Forged Blades (&C)
+Purchase Tempered Blades (&C)
 
 
 [CONTROLBAR:PurchaseUpgradeRohanForgedBlades]
@@ -43201,34 +43287,26 @@ Purchase Forged Blades (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGondorForgedBlades]
-Upgrades this battalion with Forged Blades 
-Valueline2= Increases the damage done by Melee Weapons
-
-
-[CONTROLBAR:PurchaseTechnologyRohanHeavyArmor]
-Research Heavy Armor (&F)
-
-
-[CONTROLBAR:PurchaseUpgradeRohanHeavyArmor]
-Purchase Hea&vy Armor
+Upgrades this battalion with Tempered Blades 
+Valueline2= Increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseTechnologyGondorHeavyArmor]
-Research Heavy Armor (&R)
+Research Steel Cuirasses (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyGondorHeavyArmor]
-Allows battalions to purchase the Heavy Armor upgrade 
+Allows battalions to purchase the Steel Cuirasses upgrade 
 Valueline2= When equipped, significantly reduces the amount of damage taken
 Valueline2= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:PurchaseUpgradeGondorHeavyArmor]
-Purchase Heavy Armor (&T)
+Purchase Steel Cuirasses (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGondorHeavyArmor]
-Upgrades this battalion with Heavy Armor 
+Upgrades this battalion with Steel Cuirasses 
 Valueline2= Significantly reduces the amount of damage taken
 
 
@@ -43346,7 +43424,7 @@ Valueline2= Significantly reduces the amount of damage taken
 
 
 [CONTROLBAR:PurchaseTechnologyGuldurFireArrows]
-Research Fire Arrows (&G)
+Research Corpse-fire Arrows (&G)
 
 
 [CONTROLBAR:PurchaseTechnologyMordorFireArrows]
@@ -43365,13 +43443,13 @@ Valueline2= Significantly increases the damage done by Arrows
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyGuldurFireArrows]
-Allows hordes to purchase the Fire Arrows upgrade 
+Allows hordes to purchase the Corpse-fire Arrows upgrade 
 Valueline2=When equipped, significantly increases the damage done by Arrows
 Valueline2= Will upgrade all patrols and tower archers instantly once upgrade is purchased
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGuldurFireArrows]
-Upgrades this horde with Fire Arrows 
+Upgrades this horde with Corpse-fire Arrows 
 Valueline2= Significantly increases the damage done by Arrows
 
 
@@ -44263,6 +44341,10 @@ Banner Carrier
 
 [TOOLTIP:MordorFireArrows]
 Fire Arrows
+
+
+[TOOLTIP:GuldurFireArrow]
+Corpse-fire Arrows
 
 
 [TOOLTIP:MordorForgedBlades]
