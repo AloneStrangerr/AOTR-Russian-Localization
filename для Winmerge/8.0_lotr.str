@@ -18223,7 +18223,7 @@ Valueline3=
 Valueline4= Mounted: Targeted enemy hero is stunned for 10 seconds and takes damage
 Valueline5= Left click icon then left click on target 
 Valueline6=
-Valueline7= Modifier Type: Leadership 
+Valueline7= Modifier Type: Spell 
 Valueline8= Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to fear and terror
 Valueline9= Passive ability 
 Valueline10= 
@@ -18237,7 +18237,7 @@ Valueline14= Passive ability but can be manually activated using the shortcut (U
 Value=Close range attack that blasts back enemies
 Valueline2= Left click icon then left click on target 
 Valueline3=
-Valueline4= Modifier Type: Leadership 
+Valueline4= Modifier Type: Spell 
 Valueline5= Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to fear and terror
 Valueline6=Passive ability 
 Valueline7=
@@ -28289,7 +28289,81 @@ Value=Requires Level 3 Archery Range
 [CONTROLBAR:SummonWatcher]
 Value=Summon Watcher
 
+/////////////////////////////////
+// Durin's Folk Custom Strings //
+/////////////////////////////////
 
+[CONTROLBAR:ToolTipBuildDwarvenGuardianHordeCustom]
+Value=Erebor Guardians 
+ValueLine2= Requires Level 2 Hall of Warriors 
+ValueLine3= Strong vs. Pikemen
+ValueLine4=
+ValueLine5= These stout, well-trained warriors make up the brunt of Erebor's standing army.
+
+
+[CONTROLBAR:ToolTipBuildDwarvenArcherHordeCustom]
+Value=Erebor Archers 
+ValueLine2= Requires Level 2 Hall of Warriors
+ValueLine3= Strong vs. Infantry
+ValueLine4=
+ValueLine5= Carrying compound shortbows and thick arrows, these Dwarven archers pack a punch across short distances.
+
+
+[CONTROLBAR:ToolTipBuildDwarvenArcherHordeCustom]
+Value=Erebor Archers 
+ValueLine2= Requires Level 2 Hall of Warriors 
+ValueLine3= Strong vs. Infantry
+ValueLine4=
+ValueLine5= Carrying compound shortbows and thick arrows, these Dwarven archers pack a punch across short distances.
+
+
+[CONTROLBAR:BTKhazadBannerAncestralFury]
+Value=Ancestral Fury
+
+
+[CONTROLBAR:ToolTipBTKhazadBannerAncestralFury]
+Value=Modifier Type: Spell 
+ValueLine2= Requires Level 3 
+ValueLine3= Allies near the Khazad Guard become immune to fear and terror 
+ValueLine4=Passive ability
+
+
+[CONTROLBAR:TooltipConstructDwarvenAssemblyCustom]
+Value=Recruits allies from the Blue Mountains, the Iron Hills, and the lost realm of Khazad-dûm
+
+
+[CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel2UpgradeCustom]
+Value=+10% faster build speed 
+ValueLine2= Allows training of Ered Luin Rangers
+
+
+[CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel3UpgradeCustom]
+Value=+25% faster build speed 
+ValueLine2= Allows training of Iron Hills Warriors, Iron Hills Crossbowmen, Iron Hills Goat Riders, and Khazad Guard
+ValueLine3= Adds defensive arrow tower
+
+
+[CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel2Custom]
+Value=+10% faster build speed
+ValueLine2= Allows training of Grim Hammers, Erebor Guardians, and Erebor Archers
+
+
+[CONTROLBAR:ToolTipMinersBombDurin]
+Value=Requires Siege Tools 
+ValueLine2=Place a pile of explosive powder barrels that knock back all surrounding units and damage structures
+ValueLine3=The barrels detonate after 10 seconds 
+ValueLine4= Very effective against structures 
+ValueLine5= Left click to activate
+
+
+[CONTROLBAR:ToolTipBuildKhazadUzbadulHordeDurinsFolk]
+Value=Dwarves of the Lord 
+ValueLine2= Requires Level 3 Erebor Redoubt 
+ValueLine3= Limited to 2 
+ValueLine4= Powerful slow-moving elite infantry 
+ValueLine5=Strong vs. Infantry 
+ValueLine6= 
+ValueLine7= Battle-hardened and unyielding, the Khazad Guard are royal wardens of the Throne of Erebor, tasked with keeping safe the Dwarf-lords under the Mountain.
 
 [CONTROLBAR:ConstructWildSpiderHolesExpansion]
 Value=Wolf Den Expansion (&E)
@@ -59053,9 +59127,10 @@ Valueline3=Left click to activate
 
 
 [CONTROLBAR:TooltipWhiteWolvesHowl]
-Value=The White Wolves let out a bone-chilling howl,
-Valueline2= terrifying nearby enemy units for 10 seconds 
-Valueline3= Left click to activate
+Value=Requires Level 2
+Valueline2=The White Wolves let out a bone-chilling howl,
+Valueline3=terrifying nearby enemy units for 10 seconds 
+Valueline4=Left click to activate
 
 
 
@@ -59964,10 +60039,9 @@ Valueline3= When equipped, significantly increases the Stone Thrower's damage
 
 [CONTROLBAR:ToolTipConstructAngmarMill]
 Value=May recruit Trade Caravans and Âmazhir Caravans to support friendly units and provide unit upgrades 
-Valueline2= Heals nearby undeployed caravans 
-Valueline3= Increases command point limit by 50 
-Valueline4= 
-Valueline5= Bustling Bazaars are a common sight in all settlements in the vast South-lands of Middle-earth.
+Valueline2=Increases command point limit by 50 
+Valueline3= 
+Valueline4= Bustling Bazaars are a common sight in all settlements in the vast South-lands of Middle-earth.
 
 
 [CONTROLBAR:ToolTipConstructAngmarBarracks]
@@ -62415,7 +62489,7 @@ Value=By GameReplays.org
 
 
 [Version:Format2]
-Value=Age of the Ring Version 8.0
+Value=Age of the Ring Version 8.1
 
 
 [Version:Format3]
@@ -67921,7 +67995,7 @@ Value=Lord of Orthanc (&W)
 Value=Close range attack that blasts back enemies 
 Valueline2= Left click icon then left click on target 
 Valueline3= 
-Valueline4= Modifier Type: Leadership 
+Valueline4= Modifier Type: Spell
 Valueline5= Allies near Saruman gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to fear and terror 
 Valueline6=Passive ability
 
@@ -67933,7 +68007,7 @@ Value=Allows Saruman to attack from great range
 Valueline2= Can be used to crush enemy units 
 Valueline3=Left click icon then left click on target area 
 Valueline4= 
-Valueline5= Modifier Type: Leadership
+Valueline5= Modifier Type: Spell
 Valueline6= Nearby units gain +50% damage, +50% armour, increased experience gain, and fear immunity. At rank 5, nearby furnaces gain +50% resources 
 Valueline7= Nearby enemies are terrified 
 Valueline8= Passive ability
@@ -71799,7 +71873,7 @@ Value=Natural Sprinters (&T)
 
 
 [CONTROLBAR:ToolTipDwarvenTenacity]
-Value=Requires Level 2 
+Value=Requires Level 3
 Valueline2= Order Erebor Warriors to charge the enemy 
 Valueline3= Modifier Type: Buff 
 Valueline4= Warriors gain +25% damage and +25% armour for 10 seconds 
@@ -71827,7 +71901,7 @@ Valueline6= Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipDwarvenTenacityPhalanx]
-Value=Requires Level 2 
+Value=Requires Level 3 
 Valueline2= Order Erebor Pikemen to charge the enemy 
 Valueline3= Modifier Type: Buff 
 Valueline4= Pikemen gain +25% damage and +25% armour for 10 seconds 
@@ -76414,6 +76488,8 @@ Valueline3=Adds defensive arrow tower
 Value=Allows training of Halifirien Wardens and research of the Fire Arrows upgrade
 Valueline2=+10% faster build speed
 
+[CONTROLBAR:ToolTipBuildRohanArcherRangeLevel2UpgradeFoI]
+Value=+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildRohanArcherRangeLevel3Upgrade]
 Value=+25% faster build speed
@@ -76424,12 +76500,18 @@ Valueline2=Adds defensive arrow tower
 Value=Allows training of Rohirrim Warriors, Rohirrim Archers and Riders of Snowbourn and research of the Horseman Shield upgrade
 Valueline2=+10% faster build speed
 
+[CONTROLBAR:ToolTipBuildRohanStablesLevel2UpgradeFoI]
+Value=Allows training of Rohirrim Warriors and Rohirrim Archers and research of the Horseman Shield upgrade
+Valueline2=+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildRohanStablesLevel3Upgrade]
 Value=Allows training of the Mounted Kingsguard
 Valueline2=+25% faster build speed
 Valueline3=Adds defensive arrow tower
 
+[CONTROLBAR:ToolTipBuildRohanStablesLevel3UpgradeFoI]
+Value=+25% faster build speed
+Valueline2=Adds defensive arrow tower
 
 [OBJECT:EverholtBoar]
 Value=Boar of Everholt
@@ -78111,8 +78193,7 @@ Value=Focus: Wicked Marksmen (&R)
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusArcher]
 Value=Select to activate 
 Valueline2= Provides bonuses to Uruk-hai Scouts and Crossbowmen 
-Valueline3= +20% damage, +10% range, +80% combat experience 
-Valueline4= Decreases price by 20%
+Valueline3= +35% damage, +25% range, +80% combat experience 
 
 
 [CONTROLBAR:SpecialAbilityIsengardFocusWarg]
@@ -80990,7 +81071,7 @@ Value=Requires the Morgul Sorcery upgrade
 Valueline2= Allows recruitment of Morgul Vanguard
 Valueline3=
 Valueline4= His Deadliest Servants:
-Valueline5=Passively grants +33% damage and 33% armour
+Valueline5=Passively grants +20% damage and 20% armour
 Valueline6=to all Nazgûl on the battlefield
 Valueline7=Does not affect Fellbeasts
 Valueline8=
@@ -81001,7 +81082,7 @@ Valueline10=All orcs on the battlefield gain 15% speed and +50% damage and armou
 [ToolTip:LackMorgulSorcery]
 Value=Requires the Morgul Sorcery upgrade
 Valueline2=His Deadliest Servants:
-Valueline3=Passively grants +33% damage and 33% armour to all Nazgûl on the battlefield
+Valueline3=Passively grants +20% damage and 20% armour to all Nazgûl on the battlefield
 Valueline4=Does not affect Fellbeasts
 Valueline5=
 Valueline6=Allows the Fortress to use the Beacon of Morgul:
@@ -81014,7 +81095,7 @@ Value=His Deadliest Servants
 
 [CONTROLBAR:ToolTipMordorFortressDeadliestServants]
 Value=Requires the Morgul Spire upgrade
-Valueline2=Grants +33% damage and 33% armour
+Valueline2=Grants +20% damage and +30% armour
 Valueline3=to all Nazgûl on the battlefield
 Valueline4=Does not affect Fellbeasts
 Valueline5=Passive ability
@@ -81598,7 +81679,7 @@ Valueline2= Woodmen additionally gain +33% damage and armour
 Valueline3=Passive ability
 Valueline4=
 Valueline5=Targeted enemy units are beset by a flock of birds,
-Valueline6=causing them to lose 50% vision and 33% armour
+Valueline6=causing them to lose 50% vision and 25% armour
 Valueline7=and take damage over time for 15 seconds
 Valueline8=Left click icon then left click on target
 
@@ -82257,6 +82338,8 @@ Valueline2= Increases command point limit
 [CONTROLBAR:ConstructMirkwoodSilvanHunter]
 Value=Feredir (&W)
 
+[CONTROLBAR:ConstructMirkwoodSilvanHunterAI]
+Value=Feredir
 
 [CONTROLBAR:ToolTipBuildMirkwoodSilvanHunter]
 Value=Hunter 
@@ -84795,10 +84878,8 @@ Value=Fierce Competition
 
 
 [CONTROLBAR:ToolTipCaravanDebuff]
-Value=When nearby Haradwaith structures and allied Trade Caravans 
-Valueline2= Caravans lose -75% resource production 
-Valueline3= Summoned structures are excluded 
-Valueline4= Passive ability
+Value=Trade Caravans heal over time when near Bazaars
+Valueline2= Passive ability
 
 
 [OBJECT:TradeCaravan]
@@ -87013,7 +87094,7 @@ Valueline6=Left click then left click target area
 Value=Cobalt Shard (&C)
 
 [CONTROLBAR:ToolTipCobaltShard]
-Value=Places down a Cobalt Shard, which can be be manually detonated, stunning enemy units for 5 seconds and causing damage over time for 20 seconds
+Value=Places down a Cobalt Shard, which can be manually detonated, stunning enemy units for 5 seconds and causing damage over time for 20 seconds
 Valueline2=Cobalt Shards also detonate if destroyed by enemy units
 Valueline3=A maximum of 3 Cobalt Shards may exist at a time
 Valueline4=Left click to activate
@@ -88886,7 +88967,7 @@ Value=Cardolan Agriculture (&R)
 Value=Documentation of various agricultural techniques, collected before the fall of Cardolan.
 Valueline2=
 Valueline3= Increases Arnorian Mill production by 15%
-Valueline4=Friendly units nearby Arnorian Mills gain +35% movement speed
+Valueline4=Friendly units nearby Arnorian Mills gain +15% movement speed
 
 [CONTROLBAR:PurchaseTechnologyVisionofSeeingStone]
 Value=Vision of the Seeing-stone (&T)
@@ -89272,6 +89353,31 @@ Value=Breathe Fire (&V)
 Value=Requires Level 10
 Valueline2=Durin's Bane breathes fire to incinerate enemy units and structures
 Valueline3= Left click icon then left click on target area
+
+[CONTROLBAR:ToolTipConstructWildGoblinFissure_Moria]
+Value=Trains Trolls of Moria and Giant Bats
+
+
+[CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_Moria]
+Value=Allows training of Moria-orc Spearmen
+ValueLine2=+10% faster build speed
+ValueLine3=Adds two garrisoned Moria Orc Archers
+
+
+[CONTROLBAR:ToolTipBuildWildCaveLevel3Upgrade_Moria]
+Value=Allows training of Black Uruk Marauders and Hobgoblin Plunderers
+ValueLine2=+25% faster build speed
+
+
+[CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade_Moria]
+Value=Allows training of Cave-troll Destroyers and Bats
+ValueLine2=+10% faster build speed
+
+
+[CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade_Moria]
+Value=Allows training of Catapult Trolls
+ValueLine2=+25% faster build speed
+
 
 
 [OBJECT:AltarofFire]
@@ -89818,7 +89924,7 @@ Value=Requires Level 5
 Valueline2=Heavy melee attack that causes severe damage and does knockback
 Valueline3=Increased radius and damage at level 7
 Valueline4=Target enemy hero suffers -50% armour for 10 seconds at level 10
-Valueline5=Can only use with bow equipped
+Valueline5=Can only use with spear equipped
 Valueline6=Left click icon then left click on target unit
 
 [CONTROLBAR:GondorAnbornRecruit]
@@ -91412,14 +91518,14 @@ Valueline4= Region: Rhovanion
 
 
 [Map:MAPMPdoramarth]
-Value=Dor Amarth
+Value=Dor Amarth*
 
 
 [Map:MAPMPdoramarth/Desc]
-Value=Dor Amarth is an area within the Plateau of Gorgoroth. It lies between Orodruin, Mount Doom, to the south and the Ered Lithui, the Ash Mountains, to the north. 
-Valueline2= Capturable: Signal Fire, Outpost 
-Valueline3= Creeps: Cave Troll 
-Valueline4= Region: Mordor
+Value=What was once a vast battlefield and mustering plain under Sauron's control has now become a dangerous field of volcanic jets, crevasses and sinkholes
+Valueline2=Capturable: Inn 
+Valueline3=Creeps: Goblin, Warg
+Valueline4=Region: Mordor
 
 
 
@@ -92507,7 +92613,14 @@ Valueline2= Capturable: Inn
 Valueline3= Creeps: Cave Troll 
 Valueline4= Region: Rhûn
 
+Map:MAPMPgrorsvalley
+Value=Grór's Valley*
 
+Map:MAPMPgrorsvalley/Desc
+Value=Named after their founder, Grór's Valley serves as a trade route leading into the Dwarf kingdom of the Iron Hills. 
+Valueline2=Capturable: Inn 
+Valueline3=Creeps: Warg, Troll 
+Valueline4=Region: Erebor
 
 [Map:MAPMPhalifirien]
 Value=Halifirien*
@@ -92763,6 +92876,15 @@ Valueline2= Capturable: Inn
 Valueline3= Creeps: Cave Troll, Goblin 
 Valueline4= Region: Gondor
 
+[Map:MAPMPindela]
+Value=Indela*
+
+
+[Map:MAPMPindela/Desc]
+Value=These baobab trees, locally known as 'mothers of the forest' are the remnants of a great tropical forest that once covered this ancient land.
+Valueline2=Capturable: Inn
+Valueline3=Creeps: Wargs
+Valueline4=Region: Haradwaith
 
 
 [Map:MAPMPironfoothills]
@@ -92836,6 +92958,15 @@ Valueline2= Capturable: Signal Fire, Inn
 Valueline3= Creeps: Stone Troll, Warg 
 Valueline4= Region: Gondor
 
+[Map:MAPMPizuhara]
+Izuhara*
+
+
+[Map:MAPMPizuhara/Desc]
+Value=A small village, where members of the ancient Kinn-lai tribe dwell amidst red and perpetually flowering trees
+Valueline2=Creeps: Wargs
+Valueline3=Capturable: Inn
+Valueline4= Region: Rhûn
 
 
 
@@ -93663,7 +93794,7 @@ Value=Sarn Ford*
 
 [Map:MAPMPsarnford/Desc]
 Value=This stone ford on the Brandywine marks the entrance to the southfarthing of the Shire, guarded by the watchful eyes of the Dúnedain that protect the Smallfolk from any harm. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg 
 Valueline4= Region: Arnor
 
