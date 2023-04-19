@@ -18060,6 +18060,12 @@ Value=Spear Wall Formation (&W)
 
 [CONTROLBAR:ToggleFountainGuardFormation]
 Value=Spear Wall Formation (&W)
+
+
+[CONTROLBAR:ToggleSerpentBiteFormation]
+Value=Serpent's Coil Formation (&W)
+
+
 [CONTROLBAR:ToolTipToggleSpearWallFormation]
 Value=-35% speed 
 Valueline2= +33% armour 
@@ -26328,7 +26334,7 @@ Value=Fire Arrows
 
 
 [UPGRADE:WildForgedBlades]
-Value=Forged Blades
+Value=Scavenged Blades
 
 
 [TOOLTIP:LackLevel2Blacksmith]
@@ -28283,6 +28289,16 @@ Value=Requires Level 3 Archery Range
 [CONTROLBAR:SummonWatcher]
 Value=Summon Watcher
 
+/////////////////////////////////
+// Durin's Folk Custom Strings //
+/////////////////////////////////
+
+[CONTROLBAR:ToolTipBuildDwarvenGuardianHordeCustom]
+Value=Erebor Guardians 
+ValueLine2= Requires Level 2 Hall of Warriors 
+ValueLine3= Strong vs. Pikemen
+ValueLine4=
+ValueLine5= These stout, well-trained warriors make up the brunt of Erebor's standing army.
 
 
 [CONTROLBAR:ConstructWildSpiderHolesExpansion]
@@ -81260,7 +81276,7 @@ Value=Cape of Forlond*
 
 
 [Map:MAPMPcapeofforlond/Desc]
-Value=Forlond was a harbour that lay on the northern shore of the Gulf of Lune, in the Elvish land of Forlindon. 
+Value=Forlond is a harbour that lay on the northern shore of the Gulf of Lune, in the Elvish land of Forlindon. 
 Valueline2= Capturable: Signal Fire, Outpost, Dock 
 Valueline3= Creeps: Hill Troll, Warg, Goblin 
 Valueline4= Region: Lindon
@@ -81309,9 +81325,8 @@ Value=Carrock*
 
 [Map:MAPMPcarrock/Desc]
 Value=Narrow steps were carved by Beorn into the very cliff face of the Carrock, a stony eyot and ford of stones in the upper reaches of the Anduin. 
-Valueline2= Capturable: Carrock 
-Valueline3= Creeps: Warg 
-Valueline4= Region: Rhovanion
+Valueline2= Creeps: Warg 
+Valueline3= Region: Rhovanion
 
 
 
@@ -81407,7 +81422,7 @@ Value=Dagorlad
 Value=A dusty plain northwest of Mordor and the site of Sauron's defeat in the Second Age, and the Battle of the Morannon during the Third Age. 
 Valueline2= Capturable: Signal Fire, Outpost, Inn 
 Valueline3= Creeps: Stone Troll, Goblin 
-Valueline4= Region: Rhûn
+Valueline4= Region: Mordor
 
 
 
@@ -81473,7 +81488,7 @@ Valueline4= Region: Rhovanion
 
 
 [Map:MAPMPdoramarth]
-Value=Dor Amarth
+Value=Dor Amarth*
 
 
 [Map:MAPMPdoramarth/Desc]
@@ -81550,7 +81565,7 @@ Value=Dwarrowdelf*
 
 [Map:MAPMPdwarrowdelf/Desc]
 Value=Greatest of all the mansions of the Dwarves was Khazad-dûm, the Dwarrowdelf, Hadhodrond in the Elvish tongue, that was afterwards in the days of its darkness called Moria. 
-Valueline2= Creeps: Goblin, Durin's Bane 
+Valueline2= Creeps: Goblin 
 Valueline3= Region: Misty Mountains
 
 
@@ -81924,7 +81939,7 @@ Value=Forest Gate*
 
 
 [Map:MAPMPforestgate/Desc]
-Value=The Forest Gate was the western entrance to the Elf-path that led across Mirkwood to the Elvenking's Halls. Here Thorin's Company entered Mirkwood in their quest to reclaim Erebor. 
+Value=The Forest Gate is the western entrance to the Elf-path that led across Mirkwood to the Elvenking's Halls. Here Thorin's Company entered Mirkwood in their quest to reclaim Erebor. 
 Valueline2= Creeps: Warg, Spider 
 Valueline3= Region: Rhovanion
 
@@ -82012,15 +82027,6 @@ Value=Carn Dûm was the capital and chief fortress of the Witch-king's realm of A
 Valueline2= Capturable: Outpost 
 Valueline3= Region: Misty Mountains
 
-
-
-[Map:MAPMPfortresscerinamroth]
-Value=Fortress: Cerin Amroth*
-
-
-[Map:MAPMPfortresscerinamroth/Desc]
-Value=This was once the home of Amroth Amdirion, the last King of Lórien. It is now a revered place of sublime woodland beauty. 
-Valueline2= Region: Rhovanion
 
 
 
@@ -82185,17 +82191,6 @@ Value=The Lonely Mountain, or Erebor, is a mountain in the north-east of Rhovani
 Valueline2= Capturable: Outpost, Inn 
 Valueline3= Region: Erebor
 
-
-
-[Map:MAPMPfortresslamedonhighlands]
-Value=Fortress: Lamedon Highlands*
-
-
-[Map:MAPMPfortresslamedonhighlands/Desc]
-Value=The valleys and moors of Lamedon are filled with small towns. The people are under Angbor, Lord of Lamedon. 
-Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Fire Drake, Barrow Wight, Noldor Spectre 
-Valueline4= Region: Gondor
 
 
 
@@ -82686,8 +82681,6 @@ Valueline4= Region: Gondor
 
 
 
-[Map:MAPMPjunglesofharad]
-Value=Jungles of Harad*
 
 
 [Map:MAPMPjunglesofharad/Desc]
@@ -83163,8 +83156,8 @@ Valueline4= Region: Mordor
 
 
 
-[Map:MAPMPreddesertofkhand]
-Value=Red Desert of Khand*
+[Map:MAPMPreddesertofkahir]
+Value=Red Desert of Kâhir*
 
 
 [Map:MAPMPreddesertofkhand/Desc]
@@ -83381,7 +83374,7 @@ Valueline4= Region: Misty Mountains
 
 
 [Map:MAPMPshire]
-Value=Shire
+Value=The Shire
 
 
 [Map:MAPMPshire/Desc]
@@ -83857,12 +83850,8 @@ Valueline4= Region: Rhovanion
 
 
 
-[LW:DisplayNameAmonHen]
-Value=Amon Hen
 
 
-[Map:MAPWORamonhen/Desc]
-Value=The Hill of Sight, Amon Hen, lies on the western bank of Nen Hithoel. The remnants of an ancient path winds through the surrounding woodland to the Seat of Seeing at its summit.
 
 
 
