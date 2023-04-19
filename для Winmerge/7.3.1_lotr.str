@@ -18217,7 +18217,7 @@ Valueline3=
 Valueline4= Mounted: Targeted enemy hero is stunned for 10 seconds and takes damage
 Valueline5= Left click icon then left click on target 
 Valueline6=
-Valueline7= Modifier Type: Leadership 
+Valueline7= Modifier Type: Spell 
 Valueline8= Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to fear and terror
 Valueline9= Passive ability 
 Valueline10= 
@@ -18231,7 +18231,7 @@ Valueline14= Passive ability but can be manually activated using the shortcut (U
 Value=Close range attack that blasts back enemies
 Valueline2= Left click icon then left click on target 
 Valueline3=
-Valueline4= Modifier Type: Leadership 
+Valueline4= Modifier Type: Spell 
 Valueline5= Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to fear and terror
 Valueline6=Passive ability 
 Valueline7=
@@ -77752,8 +77752,13 @@ Value=Build Royal Barracks (&V)
 
 
 [CONTROLBAR:ToolTipConstructMirkwoodRoyalBarracks]
-Value=Trains the elite units of Greenwood 
-Valueline2= Increases command point limit by 25
+Value=Trains the elite units of Greenwood
+
+
+[CONTROLBAR:ToolTipConstructMirkwoodRoyalBarracksWotRRealTime]
+Value=Secondary Barracks 
+Valueline2= Trains Gwairochyn 
+Valueline3= Limited to 1
 
 
 [OBJECT:MirkwoodRoyalBarracks]
@@ -77788,8 +77793,7 @@ Value=Build Thranduil's Treasury (&M)
 
 
 [CONTROLBAR:ToolTipMirkwoodTreasury]
-Value=Researches Greenwood unit upgrades 
-Valueline2= Increases command point limit by 25
+Value=Researches Woodland Realm unit upgrades
 
 
 [OBJECT:MirkwoodTreasury]
@@ -77806,8 +77810,8 @@ Value=Build Beorning Lodge (&C)
 
 [CONTROLBAR:ToolTipMirkwoodBeorningCabin]
 Value=Trains Woodmen and Beornings
-Valueline2=Generates a large amount of resources based on available terrain
-Valueline3=Increases command point limit by 25
+Valueline2=Generates a large amount of resources based on available terrain 
+Valueline3= Limited to 3
 
 
 [OBJECT:MirkwoodBeorningCabin]
@@ -77856,17 +77860,12 @@ Value=Build Cellar Door (&F)
 Value=An entryway into Thranduil's Halls 
 Valueline2= Generates a small amount of resources based on available terrain 
 Valueline3= Grants access to the tunnel system 
-Valueline4= Stealthed near trees 
-Valueline5= Increases command point limit by 25 
-Valueline6= Limited to 4
+Valueline4= Limited to 4
 
 
 [OBJECT:MirkwoodCellarDoorDescription]
 Value=Generates a small amount of resources based on available terrain
-Valueline2= Grants access to the tunnel system 
-Valueline3= 
-Valueline4= Stealthed near trees 
-Valueline5= Increases command point limit by 25
+Valueline2= Grants access to the tunnel system
 
 
 [CONTROLBAR:PurchasePrisonGuards]
@@ -77882,7 +77881,8 @@ Value=Prison Guards (&W)
 
 
 [CONTROLBAR:ToolTipCellarDoorPrisonGuards]
-Value=Summons one battalion of Prison Guards to defend the Cellar Door
+Value=Summons one battalion of Prison Guards to defend the Cellar Door 
+Valueline2= Left click to activate
 
 
 [CONTROLBAR:ConstructMirkwoodBattleTower]
@@ -77906,9 +77906,11 @@ Value=Build Statue of Oropher (&U)
 
 
 [CONTROLBAR:MirkwoodHeroicStatueBuild]
-Value=Provides a leadership bonus to nearby units 
-Valueline2= Stacks with Buffs and Spells
-Valueline3= Increases command point limit by 10
+Value=Provides a leadership bonus to nearby units
+
+
+[CONTROLBAR:HeroicStatueBuildRohan]
+Value=Provides a leadership bonus to nearby units
 
 
 [OBJECT:MirkwoodStatue]
@@ -77920,7 +77922,7 @@ Value=Silvan Heraldry (&W)
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodFortressEnchantedRiver]
-Value=Enchanted River (&R)
+Value=Enchanted River (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMirkwoodFortressBanners]
@@ -78029,7 +78031,7 @@ Value=Feredir (&W)
 [CONTROLBAR:ToolTipBuildMirkwoodSilvanHunter]
 Value=Hunter 
 Valueline2= Can move while stealthed 
-Valueline3= Limited to 5. 
+Valueline3= Limited to 5
 Valueline4=
 Valueline5= The Elves of the Greenwood were highly adept hunters that could stalk their quarry at close distance without ever alerting their prey. Few could enter the Greenwood without their movements going unnoticed, for the Feredir were numerous and kept a close watch on the Elvenking's Road.
 
@@ -78330,6 +78332,10 @@ Value=Sigilmaethyr
 Value=Sigilmaethyr (&E)
 
 
+[CONTROLBAR:ConstructMirkwoodWardenHorde_NCS]
+Value=Sigilmaethyr (&S)
+
+
 [CONTROLBAR:ToolTipBuildMirkwoodWardenHorde]
 Value=Dagger-warriors 
 Valueline2= Strong vs. Pikemen 
@@ -78350,13 +78356,25 @@ Value=Thelamaethyr
 Value=Thelamaethyr (&R)
 
 
+[CONTROLBAR:ConstructMirkwoodSpearHorde_NCS]
+Value=Thelamaethyr (&D)
+
+
 [CONTROLBAR:ToolTipBuildMirkwoodSpearHorde]
-Value=Requires Level 2 Silvan Clearing
-Valueline2=Spear-warriors
-Valueline3=Strong vs. Cavalry & Monsters 
+Value=Spear-warriors
+Valueline2=Requires Level 2 Silvan Clearing
+Valueline3=Strong vs. Cavalry and Heroes 
 Valueline4= Can stealth near trees 
 Valueline5=
 Valueline6= While many Elves hunted their quarry from afar, some preferred to stalk and skewer them from a closer range.
+
+
+[CONTROLBAR:ToolTipBuildMirkwoodSpearHordeWOTR]
+Value=Spear-warriors
+Valueline2=Strong vs. Cavalry and Heroes 
+Valueline3= Can stealth near trees 
+Valueline4=
+Valueline5= While many Elves hunted their quarry from afar, some preferred to stalk and skewer them from a closer range.
 
 
 [OBJECT:MirkwoodOutrider]
@@ -78372,11 +78390,26 @@ Value=Gwairochyn (&T)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodOutriderHorde]
-Value=Requires Level 2 Silvan Clearing
-Valueline2=Wild-riders
+Value=Wild-riders
+Valueline2=Requires Level 2 Silvan Clearing
 Valueline3=Strong vs. Archers 
 Valueline4=
 Valueline5= The Woodland Realm was vast, and Thranduil employed swift and nimble riders to carry messages and orders between its various Elven-homes.
+
+
+[CONTROLBAR:ConstructMirkwoodOutriderHordeWotR]
+Value=Gwairochyn (&W)
+
+
+[CONTROLBAR:ConstructMirkwoodOutriderHordeWotR_NCS]
+Value=Gwairochyn (&E)
+
+
+[CONTROLBAR:ToolTipBuildMirkwoodOutriderHordeWotR]
+Value=Wild-riders
+Valueline2=Strong vs. Archers 
+Valueline3=
+Valueline4= The Woodland Realm was vast, and Thranduil employed swift and nimble riders to carry messages and orders between its various Elven-homes.
 
 
 [CONTROLBAR:ConstructGreenwoodWarriorHorde]
@@ -78400,6 +78433,15 @@ Valueline2= Requires Level 2 Royal Barracks
 Valueline3= Strong vs. Infantry 
 Valueline4= 
 Valueline5= Wielding powerful longbows and a quiver full of viciously barbed arrows, the archers of Thranduil's army are drilled to deadly perfection.
+
+
+[CONTROLBAR:ToolTipBuildGreenwoodArcherHordeBotFA]
+Value=Bow-warriors 
+Valueline2= Requires Level 2 Elvenking's Barracks 
+Valueline3= Strong vs. Infantry 
+Valueline4= 
+Valueline5= Wielding powerful longbows and a quiver full of viciously barbed arrows, the archers of Thranduil's army are drilled to deadly perfection.
+
 
 
 [CONTROLBAR:ConstructGreenwoodSlayerHorde]
@@ -78502,7 +78544,7 @@ Value=Purchase Silvan Fletching (&C)
 
 [CONTROLBAR:TooltipPurchaseUpgradeMirkwoodSilverthornArrows]
 Value=Upgrades this battalion with Silvan Fletching 
-Valueline2= Significantly increases the damage done by Arrows
+Valueline2= Significantly increases the damage done by arrows
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodSilverthornArrowsWoodmen]
@@ -78511,7 +78553,7 @@ Value=Purchase Druid-made Fletching (&C)
 
 [CONTROLBAR:TooltipPurchaseUpgradeMirkwoodSilverthornArrowsWoodmen]
 Value=Upgrades this battalion with Druid-made Fletching 
-Valueline2= Significantly increases the damage done by Arrows
+Valueline2= Significantly increases the damage done by arrows
 
 
 [CONTROLBAR:PurchaseTechnologyMirkwoodSilverthornArrows]
@@ -78520,7 +78562,7 @@ Value=Research Silvan Fletching (&R)
 
 [CONTROLBAR:ToolTipPurchaseTechnologyMirkwoodSilverthornArrows]
 Value=Allows battalions to purchase the Silvan Fletching upgrade 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [CONTROLBAR:PurchaseTechnologyMirkwoodForgedBlades]
@@ -78819,6 +78861,11 @@ Valueline2=Elven units regain health while outside of combat
 Valueline3=Passive ability
 
 
+[CONTROLBAR:ToolTipElvenHealRivendellRevelers]
+Value=Elven units regain health while outside of combat
+Valueline2=Passive ability
+
+
 [OBJECT:KinnLaiWarrior]
 Value=Warrior of the Kinn-lai
 
@@ -78923,7 +78970,7 @@ Valueline4= Passive ability
 
 
 [CONTROLBAR:ToolTipToggleMirkwoodSlayersLooseFormation]
-Value=+50% Attack Speed
+Value=+50% attack speed
 Valueline2=-25% armour
 
 
@@ -78964,7 +79011,7 @@ Value=Dark Premonitions
 
 [CONTROLBAR:ToolTipFaithfulPremonitions]
 Value=Druids can target units to decrease their damage by 15% 
-Valueline2=and buildings to decrease their armor by 15%
+Valueline2=and buildings to decrease their armour by 15% 
 Valueline3=
 Valueline4= Nearby Woodmen Hunters gain +33% crush armour and resistance to fear and terror 
 Valueline5= Passive ability
@@ -79210,6 +79257,10 @@ Valueline3= Strong as bears, the Beornings of the Anduin Vale are quite capable 
 Value=Haehadron (&E)
 
 
+[CONTROLBAR:ConstructMirkwoodBallistaWotR]
+Value=Haehadron (&W)
+
+
 [OBJECT:MirkwoodBallista]
 Value=Haehadron
 
@@ -79234,6 +79285,10 @@ Valueline2= Level 3: +25% faster build speed
 
 [CONTROLBAR:ConstructMirkwoodSiegeGrounds]
 Value=Build Siege Grounds (&N)
+
+
+[CONTROLBAR:ConstructMirkwoodSiegeGroundsWotRRealTime]
+Value=Build Siege Grounds (&T)
 
 
 [CONTROLBAR:ToolTipConstructMirkwoodSiegeGrounds]
@@ -79420,13 +79475,6 @@ Value=Syâr-Rhul
 [OBJECT:HaradGoldenKing]
 Value=The Golden King
 
-[CONTROLBAR:ToolTipBuildSuladan]
-Value=Recruit the Serpent Lord
-
-[CONTROLBAR:HaradSuladanRecruit]
-Value=Recruit the Serpent Lord 
-Valueline2= 
-Valueline3= A powerful warlord from the wartorn lands of Harondor, Sûladan has won renown throughout his many skirmishes with the Gondorian oppressors, clearing them out of Harondor to claim it for his own people.
 
 [CONTROLBAR:HaradSuladanRevive]
 Value=Revive the fallen Hero, Sûladan
@@ -79434,13 +79482,6 @@ Value=Revive the fallen Hero, Sûladan
 [CONTROLBAR:HaradSuladanHotkey]
 Value=Sûladan (&R)
 
-[CONTROLBAR:ToolTipBuildCassimir]
-Value=Recruit the leader of the Black Númenóreans of Umbar
-
-[CONTROLBAR:HaradCassimirRecruit]
-Value=Recruit the leader of the Black Númenóreans of Umbar 
-Valueline2= 
-Valueline3= One of the two rivaling sons of Kathuphazgân, the last Black Lord of Umbar. Câssimir is a harsh, cruel man that commands the loyalty of the Black Númenorean nobility that still live in Umbar.
 
 [CONTROLBAR:HaradCassimirRevive]
 Value=Revive the fallen Hero, Câssimir
@@ -79448,13 +79489,8 @@ Value=Revive the fallen Hero, Câssimir
 [CONTROLBAR:HaradCassimirHotkey]
 Value=Câssimir (&S)
 
-[CONTROLBAR:ToolTipBuildBurodapan]
-Value=Recruit the Corsair-lord of Umbar
-
-[CONTROLBAR:HaradBurodapanRecruit]
-Value=Recruit the Corsair-lord of Umbar 
-Valueline2= 
-Valueline3= One of the two rivaling sons of Kathuphazgân, the last Black Lord of Umbar. Burôdapân is a fierce corsair-lord, demanding tribute and taxes from a vast majority of Umbar's raiding fleet.
+[CONTROLBAR:LW_Hero_Cassimir]
+Value=Câssimir
 
 [CONTROLBAR:HaradBurodapanRevive]
 Value=Revive the fallen Hero, Burôdapân
@@ -79462,13 +79498,6 @@ Value=Revive the fallen Hero, Burôdapân
 [CONTROLBAR:HaradBurodapanHotkey]
 Value=Burôdapân (&T)
 
-[CONTROLBAR:ToolTipBuildBeruthiel]
-Value=Recruit the Black Queen of Umbar
-
-[CONTROLBAR:HaradBeruthielRecruit]
-Value=Recruit the Black Queen of Umbar 
-Valueline2= 
-Valueline3= Concubine to both Câssimir and Burôdapân, the Black Queen stole her name from an ancient Black Númenórean Queen. Berúthiel's spies are many, and her influence runs deep.
 
 [CONTROLBAR:HaradBeruthielRevive]
 Value=Revive the fallen Hero, Berúthiel
@@ -79476,13 +79505,6 @@ Value=Revive the fallen Hero, Berúthiel
 [CONTROLBAR:HaradBeruthielHotkey]
 Value=Berúthiel (&W)
 
-[CONTROLBAR:ToolTipBuildCaranLambar]
-Value=Recruit the Chieftain of the Nâfarati
-
-[CONTROLBAR:HaradCaranLambarRecruit]
-Value=Recruit the Chieftain of the Nâfarati 
-Valueline2= 
-Valueline3= Once a respected chief of a prominent Nâfarati tribe, Caran-Lambar was ensnared by the Golden King, and through dark magic has been transformed into a brutal champion to his cause.
 
 [CONTROLBAR:HaradCaranLambarRevive]
 Value=Revive the fallen Hero, Caran-Lambar
@@ -79490,13 +79512,6 @@ Value=Revive the fallen Hero, Caran-Lambar
 [CONTROLBAR:HaradCaranLambarHotkey]
 Value=Caran-Lambar (&D)
 
-[CONTROLBAR:ToolTipBuildSyarRhul]
-Value=Recruit the Black Vizier
-
-[CONTROLBAR:HaradSyarRhulRecruit]
-Value=Recruit the Black Vizier 
-Valueline2= 
-Valueline3= The chief advisor to the Golden King in all matters, but particularly those related to the subjugation of the Haradrim and their enslavement to Sauron's will.
 
 [CONTROLBAR:HaradSyarRhulRevive]
 Value=Revive the fallen Hero, Syâr-Rhul
@@ -79504,19 +79519,7 @@ Value=Revive the fallen Hero, Syâr-Rhul
 [CONTROLBAR:HaradSyarRhulHotkey]
 Value=Syâr-Rhul (&E)
 
-[CONTROLBAR:ToolTipBuildGoldenKing]
-Value=Recruit the mysterious Sorcerer-king
 
-[CONTROLBAR:HaradGoldenKingRecruit]
-Value=Recruit the mysterious Sorcerer-king 
-Valueline2= 
-Valueline3= The ancient, immensely cruel king of legendary Abrakhân. Recently returned, he has rebuilt his former might and seeks to subjugate all of Haradwaith beneath his black banner.
-
-[CONTROLBAR:HaradGoldenKingRevive]
-Value=Revive the fallen Hero, the Golden King of Abrakhân
-
-[CONTROLBAR:HaradGoldenKingHotkey]
-Value=The Golden King of Abrakhân (&F)
 
 
 
@@ -79848,21 +79851,27 @@ Value=Architect
 
 
 [CONTROLBAR:PurchaseUpgradeArmoredTusks]
-Value=Purchase Armored Tusks (&T)
+Value=Purchase Armoured Tusks (&C)
+
+[CONTROLBAR:PurchaseUpgradeArmoredTusksSiege]
+Value=Purchase Armoured Tusks (&C)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArmoredTusks]
 Value=Upgrades this Mûmak with Armored Tusks 
 Valueline2= Significantly increases resistance to specialist damage
 
 [CONTROLBAR:PurchaseUpgradeWarPaint]
-Value=Purchase War Paint (&R)
+Value=Purchase War Paint (&T)
+
+[CONTROLBAR:PurchaseUpgradeWarPaintSiege]
+Value=Purchase War Paint (&T)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWarPaint]
 Value=Upgrades this Mûmak with War Paint 
 Valueline2= Significantly increases resistance to ranged damage
 
 [CONTROLBAR:MahudHeadhuntersRedSerpentsVenom]
-Value=Red Serpent's Venom (&R)
+Value=Red Serpent's Venom (&T)
 
 [CONTROLBAR:ToolTipMahudHeadhuntersRedSerpentsVenom]
 Value=Requires Level 3
@@ -80044,10 +80053,6 @@ Value=Harondor Warlord
 Value=Harondor Warlord (&W)
 
 
-[CONTROLBAR:ToolTipBuildHaradWarlord]
-Value=Capable of summoning a variety of Tribesmen units to serve him 
-Valueline2= 
-Valueline3= Messengers from Mordor stirred up great unrest in the vast tribal lands of Haradwaith. Those chiefs that bowed the deepest were elevated to powerful warlords, subjugating tribes and driving them to their doom in the northern wars.
 
 
 [OBJECT:TribalSpearmen]
@@ -80095,16 +80100,7 @@ Valueline5=
 Valueline6= NEEDS LORE STRING.
 
 
-[OBJECT:HarondorArcher]
-Value=Harondor Archer
 
-
-[OBJECT:HarondorArcherHorde]
-Value=Harondor Archers
-
-
-[CONTROLBAR:ConstructHarondorArcherHorde]
-Value=Harondor Archers (&C)
 
 
 [CONTROLBAR:ToolTipBuildHarondorArcherHorde]
@@ -80115,23 +80111,6 @@ Valueline4=
 Valueline5= The archers in Sûladan's ranks were known for their use of poison-tipped arrows, which they extracted themselves at great risk from Haradwaith's many venomous species such as snakes and scorpions.
 
 
-[OBJECT:HaradHarondorSpearmen]
-Value=Harondor Spearman
-
-
-[OBJECT:HaradHarondorSpearmenHorde]
-Value=Harondor Spearmen
-
-
-[CONTROLBAR:ConstructHaradHarondorSpearmenHorde]
-Value=Harondor Spearmen (&T)
-
-
-[CONTROLBAR:ToolTipBuildaradHaradrimSpearmenHorde]
-Value=Requires Level 2 Harondor Outpost 
-Valueline2= Strong vs. Cavalry and Heroes 
-Valueline3= 
-Valueline4= The brunt of Sûladan's forces was made up of spear-warriors capable of marching across vast distances at great speed.
 
 
 [OBJECT:HaradwaithHarondorRaider]
@@ -80160,8 +80139,7 @@ Value=Mahûd Headhunter
 Value=Mahûd Headhunters
 
 
-[CONTROLBAR:ConstructHaradwaithMahudHeadhunterHorde]
-Value=Mahûd Headhunters (&E)
+
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithMahudHeadhunterHorde]
@@ -80215,17 +80193,7 @@ Valueline3=
 Valueline4= NEEDS LORE STRING
 
 
-[OBJECT:MahudMangonel]
-Value=Mahûd Mangonel
 
-
-[OBJECT:MahudOutpost]
-Value=Mahûd Gathering
-
-
-[OBJECT:MahudOutpostDescription]
-Value=Level 2: +10% faster build speed
-Valueline2= Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ConstructHaradMumakil]
@@ -80482,30 +80450,19 @@ Valueline2= The Great Scorpion's carapace has hardened after many battles
 Valueline3=Armor is permanently increased by 50%
 
 
-[CONTROLBAR:DreadMask]
-Value=Stern Gaze
+
 
 
 [CONTROLBAR:TooltipDreadMask]
 Value=Modifier Type: Passive Debuff 
-Valueline2= Nearby enemy units suffer -25% armour 
-Valueline3= Does not stack with other Debuffs 
-Valueline4= Passive ability
+Valueline2= Nearby enemy units suffer -10% armour 
+Valueline3=Passive ability
 
 
-[CONTROLBAR:RisenCarrionDebuff]
-Value=TBD
 
 
-TooltipRisenCarrionDebuff
-Modifier Type: Passive Debuff 
-Valueline2= Nearby enemy units suffer -25% damage and Speed 
-Valueline2= Does not stack with other Debuffs 
-Valueline2= Passive ability
 
 
-[CONTROLBAR:SpecialAbilityWarriorsReach]
-Value=Quaking Hearts (&R)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityWarriorsReach]
@@ -80529,106 +80486,7 @@ Valueline3=Left click to activate
 Value=Serpent's Sting (&W)
 
 
-[CONTROLBAR:ToolTipSerpentsSting]
-Value=Requires Level 3 
-Valueline2= Poisons targeted enemies causing damage over time 
-Valueline3= Left click to activate
 
-
-[CONTROLBAR:BlackSerpentBanner]
-Value=Black Serpent Banner (&R)
-
-
-[CONTROLBAR:ToolTipBlackSerpentBanner]
-Value=Requires Level 5 
-Valueline2=  The Guard of the Serpent raise the Black Serpent Banner 
-Valueline3=Nearby Haradrim Raiders, Black Numenorean Vanguard, and Sûladan (when mounted) all gain heavily increased specialist damage resistance
-Valueline4= Left click to activate
-
-
-[CONTROLBAR:BlackenedBlood]
-Value=Blackened Blood (&W)
-
-
-[CONTROLBAR:ToolTipBlackenedBlood]
-Value=Marauders heal quickly once out of combat
-Valueline2= Passive ability 
-Valueline3= At rank 3, can be activated to temporarily cause attacks to return a percentage of health
-Valueline4=Left click to activate
-
-
-[CONTROLBAR:AccursedBastion]
-Value=Accursed Bastion (&R)
-
-
-[CONTROLBAR:ToolTipAccursedBastion]
-Value=Requires Rank 4 
-Valueline2= For 15 seconds, Nafârati Marauders gain +50% armour and +50% damage, but lose -33% speed. When Accursed Bastion ends, all nearby enemies are moderately knocked back
-Valueline3= Left click to activate
-
-
-[CONTROLBAR:ToolTipToggleWatchersofKarnaWeapons]
-Value=Left click to toggle between bow and staff 
-Valueline2= Modifier Type: Debuff 
-Valueline3=  Melee attacks slow enemy units by 10% 
-Valueline4= Passive ability
-
-
-[CONTROLBAR:BitterCold]
-Value=Bitter Cold (&R)
-
-
-[CONTROLBAR:ToolTipBitterCold]
-Value=Requires Level 3 
-Valueline2= The Watchers wield some of the power of their mysterious home 
-Valueline3= Their attacks temporarily deal frost damage
-Valueline4=Left click to activate
-
-
-[CONTROLBAR:Predictable]
-Value=Predictable (&T)
-
-
-[CONTROLBAR:ToolTipPredictable]
-Value=Requires Level 5 
-Valueline2= The calm nature of the Watchers allows them to predict and counter enemy strikes 
-Valueline3= For 20 seconds, they gain +50% armour, +50% speed
-Valueline4=and reflect a portion of damage dealt to them
-Valueline5=Left click to activate
-
-
-[CONTROLBAR:Submit]
-Value=Submit! (&R)
-
-
-[CONTROLBAR:ToolTipSubmit]
-Value=Requires Lies and Threats upgrade 
-Valueline2= Harondor Warlords can sacrifice members of their hordes for +10% speed and +10% damage 
-Valueline3= Lasts 30 seconds 
-Valueline4=Left click to activate
-
-
-[CONTROLBAR:PurchaseHaradLiesandThreats]
-Value=Research Lies and Threats (&E)
-
-
-[CONTROLBAR:ToolTipPurchaseHaradLiesandThreats]
-Value=Increases Harondor Warlords' armour
-Valueline2= Unlocks the "Submit!" ability for tribal hordes
-
-
-[TOOLTIP:LackLevel3HaradLiesandThreats]
-Value=Requires Level 1 Harondor Outpost
-
-
-[CONTROLBAR:LiesandThreatsFake]
-Value=Lies and Threats
-
-
-[CONTROLBAR:ToolTipLiesandThreatsFake]
-Value=Requires Lies and Threats upgrade 
-Valueline2= Harondor Warlords have increased armour 
-Valueline3= Passive ability
 
 
 [CONTROLBAR:PurchaseUpgradeHaradFortressBanners]
@@ -80653,8 +80511,7 @@ Value=Permanently decreases build time of Haradrim units by 20%
 Value=Subjugation: Nâfarat (&R)
 
 
-[CONTROLBAR:ToolTipPurchaseUpgradeHaradFortressNafarat]
-Value=Provides healing to nearby troops
+
 
 
 [CONTROLBAR:PurchaseUpgradeHaradFortressMahud]
@@ -81031,19 +80888,7 @@ Value=Amon Hen*
 Value=The Hill of Sight, Amon Hen, lies on the western bank of Nen Hithoel. The remnants of an ancient path winds through the surrounding woodland to the Seat of Seeing at its summit. 
 Valueline2= Capturable: Seat of Seeing 
 Valueline3= Creeps: Warg 
-Valueline4= Region: Rohan
- 
-
-
-[Map:MAPMPamonlhaw]
-Value=Amon Lhaw*
-
-
-[Map:MAPMPamonlhaw/Desc]
-Value=The ruins of Amon Lhaw lie on the east side of the river Anduin on the border of the lands of Rohan. 
-Valueline2= Capturable: 
-Valueline3= Creeps: Cave Troll 
-Valueline4= Region: Rohan
+Valueline4= Region: Rhovanion
  
 
 
@@ -81173,9 +81018,9 @@ Value=Barrow Downs
 [Map:MAPMPbarrowdowns/Desc]
 Value=Ancient burial grounds of Arnor lie southwest of Bree. After the fall of Rhudaur the Witch-king sent barrow-wights to haunt the hills. 
 Valueline2= Capturable: Inn 
-Valueline3= Creeps: Barrow Wights 
-Valueline4= Hazards: Fog 
-Valueline5= Region: Arnor
+Valueline3= Creeps: Barrow Wight 
+Valueline4= Region: Arnor
+
 
 
 
@@ -81264,7 +81109,7 @@ Value=Besiege: Isengard*
 
 
 [Map:MAPMPbesiegeisengard/Desc]
-Value=Isengard is a great fortress located within a valley at the southern end of the Misty Mountains, near the Gap of Rohan. In the centre of the Ring of Isengard stood the stone tower of Orthanc, entrusted to Saruman the White.
+Value=Isengard is a great fortress located at the southern end of the Misty Mountains, near the Gap of Rohan. In the centre of the Ring of Isengard stands the stone tower of Orthanc, entrusted to Saruman the White. 
 Valueline2= Creeps: Warg 
 Valueline3= Region: Rohan
 
