@@ -28301,6 +28301,70 @@ ValueLine4=
 ValueLine5= These stout, well-trained warriors make up the brunt of Erebor's standing army.
 
 
+[CONTROLBAR:ToolTipBuildDwarvenArcherHordeCustom]
+Value=Erebor Archers 
+ValueLine2= Requires Level 2 Hall of Warriors
+ValueLine3= Strong vs. Infantry
+ValueLine4=
+ValueLine5= Carrying compound shortbows and thick arrows, these Dwarven archers pack a punch across short distances.
+
+
+[CONTROLBAR:ToolTipBuildDwarvenArcherHordeCustom]
+Value=Erebor Archers 
+ValueLine2= Requires Level 2 Hall of Warriors 
+ValueLine3= Strong vs. Infantry
+ValueLine4=
+ValueLine5= Carrying compound shortbows and thick arrows, these Dwarven archers pack a punch across short distances.
+
+
+[CONTROLBAR:BTKhazadBannerAncestralFury]
+Value=Ancestral Fury
+
+
+[CONTROLBAR:ToolTipBTKhazadBannerAncestralFury]
+Value=Modifier Type: Spell 
+ValueLine2= Requires Level 3 
+ValueLine3= Allies near the Khazad Guard become immune to fear and terror 
+ValueLine4=Passive ability
+
+
+[CONTROLBAR:TooltipConstructDwarvenAssemblyCustom]
+Value=Recruits allies from the Blue Mountains, the Iron Hills, and the lost realm of Khazad-dûm
+
+
+[CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel2UpgradeCustom]
+Value=+10% faster build speed 
+ValueLine2= Allows training of Ered Luin Rangers
+
+
+[CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel3UpgradeCustom]
+Value=+25% faster build speed 
+ValueLine2= Allows training of Iron Hills Warriors, Iron Hills Crossbowmen, Iron Hills Goat Riders, and Khazad Guard
+ValueLine3= Adds defensive arrow tower
+
+
+[CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel2Custom]
+Value=+10% faster build speed
+ValueLine2= Allows training of Grim Hammers, Erebor Guardians, and Erebor Archers
+
+
+[CONTROLBAR:ToolTipMinersBombDurin]
+Value=Requires Siege Tools 
+ValueLine2=Place a pile of explosive powder barrels that knock back all surrounding units and damage structures
+ValueLine3=The barrels detonate after 10 seconds 
+ValueLine4= Very effective against structures 
+ValueLine5= Left click to activate
+
+
+[CONTROLBAR:ToolTipBuildKhazadUzbadulHordeDurinsFolk]
+Value=Dwarves of the Lord 
+ValueLine2= Requires Level 3 Erebor Redoubt 
+ValueLine3= Limited to 2 
+ValueLine4= Powerful slow-moving elite infantry 
+ValueLine5=Strong vs. Infantry 
+ValueLine6= 
+ValueLine7= Battle-hardened and unyielding, the Khazad Guard are royal wardens of the Throne of Erebor, tasked with keeping safe the Dwarf-lords under the Mountain.
+
 [CONTROLBAR:ConstructWildSpiderHolesExpansion]
 Value=Wolf Den Expansion (&E)
 
@@ -29043,7 +29107,7 @@ Value=Statue of Nimrodel
 
 
 [OBJECT:NimrodelStatueDescription]
-Value=Nearby Mallorn Trees gain +25% faster resource production 
+Value=Friendly units within the pool are immune to debuffs 
 Valueline2= Nearby Mallorn Trees gain +25% faster resource production 
 Valueline3= Possesses ability to repair selected structure
 
@@ -29057,7 +29121,7 @@ Value=Waters of Nimrodel
 
 
 [CONTROLBAR:ToolTipBlessingofNimrodel]
-Value=
+Value=Friendly units within the pool are immune to debuffs 
 Valueline2= Nearby Mallorn Trees gain +25% faster resource production 
 Valueline3= Passive ability
 
@@ -33412,6 +33476,17 @@ Value=Guard Tower
 [CONTROLBAR:ConstructRhunGuardTower]
 Value=Build Guard Tower (&Y)
 
+[CONTROLBAR:ConstructRhunCannonExpansion]
+Value=Cannon Expansion (&E)
+
+[OBJECT:RhunCannonExpansion]
+Value=Cannon Expansion
+
+[OBJECT:RhunCannonTower]
+Value=Cannon Tower
+
+[CONTROLBAR:ConstructRhunCannonTower]
+Value=Build Cannon Tower (&Y)
 
 
 [CONTROLBAR:SelectUpgradesMordorFortress]
@@ -34968,7 +35043,7 @@ Valueline3= +10% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeMordorSiegeWorksLevel2Rhun]
-Value=
+Value=Allows construction of Dragonfire Cannons 
 Valueline2=Heals nearby damaged siege machines 
 Valueline3= +10% faster build speed
 
@@ -36421,6 +36496,62 @@ Value=Particle 2
 
 [OBJECT:Particle03]
 Value=Particle 3
+
+
+[OBJECT:RestoreMan]
+Value=Restore Man
+
+
+[CONTROLBAR:Sertraline]
+Value=Restore, Man (&W)
+
+
+[CONTROLBAR:Shagger]
+Value=Shagger (&R)
+
+
+[CONTROLBAR:ToolTipShagger]
+Value=Modifier Type: Spell 
+Valueline2= Restore Man fawks
+Valueline3=Target hero instantly levels up by one rank
+Valueline4=Left click icon then left click on target hero
+
+
+[CONTROLBAR:RestoremanRing]
+Value=One Ring, Motherfucker (&C)
+
+
+[CONTROLBAR:ToolTipRestoremanRing]
+Value=Restore Man spawns the Ring of Power and a testing object to increase all production speed
+Valueline2=Left click to activate
+
+
+[CONTROLBAR:RestoreManSpeechCraft]
+Value=Age of the Ring's Maverick (&T)
+
+
+[CONTROLBAR:MorginTime]
+Value=It's Morgin' Time (&V)
+
+
+[CONTROLBAR:ToolTipMorginTime]
+Value=Restore Man morgs all over the place, summoning Morgomir and his merry band of pranksters
+Valueline2=Left click then left click target area
+
+
+[CONTROLBAR:MagicMan]
+Value=Magic Man 
+
+
+[CONTROLBAR:ToolTipMagicMan]
+Value=Mr Magic Man does his thing
+Valueline2=Left click then left click target area
+
+
+[CONTROLBAR:ToolTipRestoreManSpeechCraft]
+Value=Restore Man bedazzles units and structures with his icon status
+Valueline2=Give targeted units and structures excellent experience 
+Valueline3= Left click icon then left click on target area
 
 
 [OBJECT:PelennorFieldsBattleDebris01]
@@ -38264,6 +38395,43 @@ Valueline3= 'As they came to the gates Círdan the Shipwright came forth to greet
 
 [CONTROLBAR:ElrondRevive]
 Value=Revive the fallen Hero, Elrond
+
+
+[CONTROLBAR:CirdanRevive]
+Value=Revive the fallen Hero, Círdan
+
+
+[CONTROLBAR:CirdanNowe]
+Value=Nówë (&W)
+
+
+[CONTROLBAR:ToolTipCirdanNowe]
+Value=Modifier Type: Spell 
+Valueline2= Círdan provides counsel to targeted friendly hero
+Valueline3=Target hero instantly levels up by one rank
+Valueline4=Left click icon then left click on target hero
+
+
+[CONTROLBAR:CirdanRebuild]
+Value=Ancient Craftsman (&R)
+
+
+[CONTROLBAR:CirdanMessenger]
+Value=Messenger of Ulmo (&T)
+
+
+[CONTROLBAR:ToolTipCirdanMessenger]
+Value=Can be cast on a Rivendell Well to permanently increase its healing rate and range by +50%
+Valueline2= Left click icon then left click on target Rivendell Well
+
+
+[CONTROLBAR:CirdanCallofBelegaer]
+Value=Call of Belegaer (&C)
+
+
+[CONTROLBAR:ToolTipCirdanCallofBelegaer]
+Value=Can be cast on a Rivendell Dormitory to halve the recruitment time of Elven infantry for 60 seconds
+Valueline2= Left click then left click on target Rivendell Dormitory
 
 
 [CONTROLBAR:ArwenRecruit]
@@ -43051,7 +43219,8 @@ Value=Statue of Sauron
 Value=Corsair Bombardment Ship
 
 
-
+[OBJECT:EvilFireShip]
+Value=Mordor Doom Ship
 
 
 [OBJECT:EvilArrowShip]
@@ -43105,7 +43274,7 @@ Value=Conflagration (&R)
 
 [CONTROLBAR:ToolTipSauronConflagaration]
 Value=Destroys targeted enemy hero 
-Valueline2= (only deals 25% of total damage to Gandalf, Elessar, Saruman, Witch-king, Bolg, Galadriel, Elrond, Glorfindel, Thranduil, Théoden, Thorin, Necromancer, King Dáin, Golden King) 
+Valueline2= (only deals 50% of total damage to Gandalf, Elessar, Saruman, Witch-king, Bolg, Galadriel, Elrond, Glorfindel, Thranduil, Théoden, Thorin, Necromancer, King Dáin, Golden King) 
 Valueline3= Left click then left click target hero
 
 
@@ -64191,6 +64360,14 @@ Value=Unit Type: Elite Archers
 Valueline2=Strong vs. Archers
 Valueline3=
 
+[OBJECT:RhunCannon]
+Value=Khârtan-gâsh
+
+[CONTROLBAR:ConstructRhunCannon]
+Value=Khârtan-gâsh (&E)
+
+[CONTROLBAR:ConstructRhunCannon_Serf]
+Value=Khârtan-gâsh (&E)
 
 [OBJECT:MordorVariag]
 Value=Variag of Khand
