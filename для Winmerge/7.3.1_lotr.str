@@ -44065,6 +44065,14 @@ Value=Purchase Banner Carrier (&C)
 Value=Purchase Banners of the Golden Wood (&V)
 
 
+[CONTROLBAR:PurchaseUpgradeMirkwoodBasicTraining]
+Value=Purchase Greenwood Banners (&V)
+
+
+[CONTROLBAR:PurchaseUpgradeKinnLaiBasicTraining]
+Value=Purchase Banners of the Avari (&V)
+
+
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenBasicTraining]
 Value=Increases this battalion to Level 2 
 Valueline2= Can only be equipped at Level 1
@@ -44088,12 +44096,12 @@ Value=Research War Barding
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyElderRacesWarBarding]
-Value=Allows battalions to purchase the Heavy Armor upgrade 
+Value=Allows battalions to purchase the Heavy Armour upgrade 
 Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyElvenBasicTraining]
-Value=Allows battalions to purchase the Banner Carrier the Golden Wood upgrade 
+Value=Allows battalions to purchase the Banners of the Golden Wood upgrade 
 Valueline2= Increases a battalion to Level 2
 
 
@@ -44103,7 +44111,7 @@ Value=Purchase Mallorn Bows (&C)
 
 [CONTROLBAR:TooltipPurchaseUpgradeElvenSilverthornArrows]
 Value=Upgrades this battalion with Mallorn Bows 
-Valueline2= Significantly increases the damage done by Arrows
+Valueline2= Significantly increases the damage done by arrows
 
 
 [CONTROLBAR:PurchaseTechnologyElvenForgedBlades]
@@ -44116,24 +44124,24 @@ Value=Purchase Tempered Blades (&C)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenForgedBlades]
 Value=Upgrades this battalion with Tempered Blades 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseTechnologyElvenHeavyArmor]
-Value=Research Elven Armor (&E)
+Value=Research Elven Armour (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyElvenHeavyArmor]
-Value=Allows battalions to purchase the Elven Armor upgrade 
+Value=Allows battalions to purchase the Elven Armour upgrade 
 Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
 [CONTROLBAR:PurchaseUpgradeElvenHeavyArmor]
-Value=Purchase Heavy Armor (&T)
+Value=Purchase Elven Armour (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenHeavyArmor]
-Value=Upgrades this battalion with Heavy Armor 
+Value=Upgrades this battalion with Elven Armour 
 Valueline2= Significantly reduces the amount of damage taken
 
 
@@ -44277,7 +44285,7 @@ Valueline2= Significantly increases the damage done by Arrows
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElderRacesWarBarding]
-Value=Upgrades this battalion with Elven Armor 
+Value=Upgrades this battalion with Elven Armour 
 Valueline2= Significantly reduces the amount of damage taken
 
 
@@ -44691,13 +44699,13 @@ Value=Banner Carrier
 Value=Tempered Blades
 
 [TOOLTIP:ElvenHeavyArmor]
-Value=Elven Armor
+Value=Elven Armour
 
 [TOOLTIP:SindarinHeavyArmor]
 Value=Sindarin Armor
 
 [TOOLTIP:ElderRacesWarBarding]
-Value=Elven Armor
+Value=Elven Armour
 
 [TOOLTIP:ElderRacesMagicArrows]
 Value=Mallorn Bows
@@ -45273,11 +45281,11 @@ Value=Elven Cloaks
 
 
 [UPGRADE:ElvenHeavyArmor]
-Value=Elven Armor
+Value=Elven Armour
 
 
 [UPGRADE:ElderRacesWarBarding]
-Value=Elven Armor
+Value=Elven Armour
 
 
 [UPGRADE:Upgrade_ElvenWallHub]
@@ -66136,8 +66144,8 @@ Value=Elven Endurance (&R)
 [CONTROLBAR:PalaceGuardUnscathed]
 Value=Elven Endurance (&T)
 [CONTROLBAR:ToolTipNandorTreasure]
-Value=Required: Rank 4
-Valueline2=Grants Forged Blades, Heavy Armor, and Mallorn Bows to units in radius. 
+Value=Required: Rank 6
+Valueline2=Grants Tempered Blades, Elven Armour, and Mallorn Bows to units in radius
 Valueline3= Left click on icon then left click on target units
 
 
