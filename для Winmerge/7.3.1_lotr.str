@@ -44151,17 +44151,21 @@ Value=Research Mallorn Longbows (&T)
 
 [CONTROLBAR:ToolTipPurchaseTechnologyElvenSilverthornArrows]
 Value=Allows battalions to purchase the Mallorn Longbows upgrade 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [CONTROLBAR:PurchaseTechnologyMordorForgedBlades]
-Value=Research Forged Blades (&E)
+Value=Research Cruel Blades (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyMordorForgedBlades]
-Value=Allows hordes to purchase the Forged Blades upgrade 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Value=Allows hordes to purchase the Cruel Blades upgrade 
+Valueline2= When equipped, increases the damage done by melee weapons
 Valueline3= Will upgrade all patrols instantly once upgrade is purchased
+
+
+[CONTROLBAR:PurchaseUpgradeMordorForgedBlades]
+Value=Purchase Cruel Blades (&C)
 
 
 [CONTROLBAR:ForgedBladesUpgrade]
@@ -44169,14 +44173,14 @@ Value=Purchase Forged Blades
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorForgedBlades]
-Value=Upgrades this horde with Forged Blades 
-Valueline2= Increases the damage done by Melee Weapons
+Value=Upgrades this horde with Cruel Blades 
+Valueline2= Increases the damage done by melee weapons
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorForgedBlades_DGInn]
 Value=Requires Guldur Gaol to enable this equipment
 Valueline2=Upgrades this horde with Forged Blades 
-Valueline3= Increases the damage done by Melee Weapons
+Valueline3= Increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseTechnologyMordorHeavyArmor]
@@ -44622,10 +44626,10 @@ Valueline2= When equipped, inflicts poison to enemies causing damage over time
 
 
 [TOOLTIP:IsengardForgedBlades]
-Value=Forged Blades
+Value=Cruel Blades
 
 [TOOLTIP:IsengardHeavyArmor]
-Value=Heavy Armor
+Value=Blackened Plate
 
 [TOOLTIP:IsengardFireArrows]
 Value=Fire Arrows
@@ -44744,7 +44748,7 @@ Value=Corpse-fire Arrows
 
 
 [TOOLTIP:MordorForgedBlades]
-Value=Forged Blades
+Value=Cruel Blades
 
 
 [TOOLTIP:MordorHeavyArmor]
@@ -44812,7 +44816,7 @@ Value=Heavy Armor
 
 
 [Upgrade:MordorForgedBladesUpgrade]
-Value=Forged Blades
+Value=Cruel Blades
 
 
 [UPGRADE:FortressMorgulSorcery]
