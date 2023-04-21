@@ -43294,11 +43294,10 @@ Value=Gorthaur (&W)
 [CONTROLBAR:ToolTipSauronLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= All nearby units cower in fear whether friend or foe 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability 
-Valueline5=
-Valueline6= When activated, nearby enemy units and heroes are paralysed for 10 seconds 
-Valueline7= Left click to activate
+Valueline3=Passive ability 
+Valueline4=
+Valueline5= When activated, nearby enemy units and heroes are paralysed for 10 seconds 
+Valueline6= Left click to activate
 
 
 [CONTROLBAR:SpecialPowerSauronLordoftheRings]
@@ -43306,7 +43305,7 @@ Value=The Lord of the Rings (&C)
 
 
 [CONTROLBAR:ToolTipSpecialPowerSauronLordoftheRings]
-Value=Sauron temporarily becomes immune to damage  
+Value=Sauron becomes immune to damage for 20 seconds
 Valueline2= Left click to activate
 
 
@@ -43329,7 +43328,9 @@ Valueline3= Increases Fortress vision range
 
 
 [OBJECT:MordorBarricadeDescription]
-Value=Defensive tower garrisoned with archers
+Value=Defensive tower garrisoned with archers 
+Valueline2= 
+Valueline3= All nearby allied units gain +25% armour
 
 
 [OBJECT:DwarvenWallHub]
@@ -43430,11 +43431,19 @@ Value=Rebuilds the catapult on the platform
 
 
 [CONTROLBAR:TrebuchetUpgrade]
-Value=&Replace Trebuchet
+Value=Replace Trebuchet (&W)
+
+
+[CONTROLBAR:OnagerUpgrade]
+Value=Replace Onager (&W)
 
 
 [CONTROLBAR:ToolTipTrebuchetUpgrade]
 Value=Rebuilds the trebuchet on the platform
+
+
+[CONTROLBAR:ToolTipOnagerUpgrade]
+Value=Rebuilds the onager on the platform
 
 
 [CONTROLBAR:BuildPlotTrebuchet]
@@ -43481,6 +43490,14 @@ Valueline2= Increases a battalion to Level 2
 Value=Purchase Thrór's Banners (&V)
 
 
+[CONTROLBAR:PurchaseUpgradeDwarvenBasicTrainingEredLuin]
+Value=Purchase Ered Luin Chief (&V)
+
+
+[CONTROLBAR:PurchaseUpgradeDorwinionBasicTraining]
+Value=Purchase Gwinion Legate (&V)
+
+
 [CONTROLBAR:PurchaseUpgradeLaketownBasicTraining]
 Value=Purchase Esgaroth Banners (&V)
 
@@ -43510,9 +43527,13 @@ Value=Research Khûzdul Runes (&T)
 Value=Purchase Khûzdul Runes (&C)
 
 
+[CONTROLBAR:PurchaseUpgradeDorwinionForgedBlades]
+Value=Purchase Avarin Steel (&C)
+
+
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenForgedBlades]
-Value=Upgrades this battalion with Forged Blades 
-Valueline2= Increases the damage done by Melee Weapons
+Value=Upgrades this battalion with Khûzdul Runes 
+Valueline2= Increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseUpgradeLaketownForgedBlades]
@@ -43599,12 +43620,12 @@ Valueline3= Does not stack
 
 
 [CONTROLBAR:PurchaseTechnologyGondorForgedBlades]
-Value=Research Forged Blades (&E)
+Value=Research Tempered Blades (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyGondorForgedBlades]
-Value=Allows battalions to purchase the Forged Blades upgrade 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Value=Allows battalions to purchase the Tempered Blades upgrade 
+Valueline2= When equipped, increases the damage done by melee weapons
 Valueline3= Will upgrade all patrols instantly once upgrade is purchased
 
 
@@ -43625,7 +43646,7 @@ Value=Purchase Tempered Blades (&C)
 
 
 [CONTROLBAR:PurchaseUpgradeRohanForgedBlades]
-Value=Purchase Forged Blades (&C)
+Value=Purchase Mundburg Steel Blades (&C)
 
 
 [CONTROLBAR:PurchaseUpgradeRohanElvenWarriorForgedBlades]
@@ -43716,50 +43737,50 @@ Value=Research Fire Arrows (&T)
 
 [CONTROLBAR:ToolTipPurchaseTechnologyIsengardFireArrows]
 Value=Allows hordes to purchase the Fire Arrows upgrade 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 Valueline3= Will upgrade all patrols and tower archers instantly once upgrade is purchased
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardFireArrows]
 Value=Upgrades this horde with Fire Arrows 
-Valueline2= Significantly increases the damage done by Arrows
+Valueline2= Significantly increases the damage done by arrows
 
 
 [CONTROLBAR:PurchaseTechnologyIsengardForgedBlades]
-Value=Research Forged Blades (&R)
+Value=Research Cruel Blades (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyIsengardForgedBlades]
-Value=Allows hordes to purchase the Forged Blades upgrade 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Value=Allows hordes to purchase the Cruel Blades upgrade 
+Valueline2= When equipped, increases the damage done by melee weapons
 Valueline3= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:PurchaseUpgradeIsengardForgedBlades]
-Value=Purchase Forged Blades (&C)
+Value=Purchase Cruel Blades (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardForgedBlades]
-Value=Upgrades this horde with Forged Blades 
-Valueline2= Increases the damage done by Melee Weapons
+Value=Upgrades this horde with Cruel Blades 
+Valueline2= Increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseTechnologyIsengardHeavyArmor]
-Value=Research Heavy Armor (&E)
+Value=Research Blackened Plate (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyIsengardHeavyArmor]
-Value=Allows hordes to purchase the Heavy Armor upgrade 
+Value=Allows hordes to purchase the Blackened Plate upgrade 
 Valueline2= When equipped, significantly reduces the amount of damage taken
 Valueline3= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:PurchaseUpgradeIsengardHeavyArmor]
-Value=Purchase Heavy Armor (&T)
+Value=Purchase Blackened Plate (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor]
-Value=Upgrades this horde with Heavy Armor 
+Value=Upgrades this horde with Blackened Plate 
 Valueline2= Significantly reduces the amount of damage taken
 
 
@@ -43773,13 +43794,13 @@ Value=Research Fire Arrows (&R)
 
 [CONTROLBAR:ToolTipPurchaseTechnologyMordorFireArrows]
 Value=Allows hordes to purchase the Fire Arrows upgrade 
-Valueline2=When equipped, significantly increases the damage done by Arrows 
+Valueline2=When equipped, significantly increases the damage done by arrows 
 Valueline3= Will upgrade all patrols and tower archers instantly once upgrade is purchased
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFireArrows]
 Value=Upgrades this horde with Fire Arrows 
-Valueline2= Significantly increases the damage done by Arrows
+Valueline2= Significantly increases the damage done by arrows
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyGuldurFireArrows]
@@ -43794,24 +43815,42 @@ Valueline2= Significantly increases the damage done by Arrows
 
 
 [CONTROLBAR:PurchaseTechnologyRohanBasicTraining]
-Value=Research Banner Carriers (&S)
+Value=Research Heraldry of the Riddermark (&S)
 
 
 [CONTROLBAR:PurchaseUpgradeRohanBasicTraining]
-Value=Purchase Banner Carrier (&V)
+Value=Purchase Heraldry of the Riddermark (&V)
 
 
 [CONTROLBAR:PurchaseTechnologyGondorBasicTraining]
-Value=Research Banner Carriers (&W)
+Value=Research Banners of the White Tree (&W)
+
+
+[CONTROLBAR:ToolTipPurchaseTechnologyRohanBasicTraining]
+Value=Allows battalions to purchase the Heraldry of the Riddermark upgrade 
+Valueline2= Increases a battalion to Level 2
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining]
-Value=Allows battalions to purchase the Banner Carrier upgrade 
+Value=Allows battalions to purchase the Banners of the White Tree upgrade 
+Valueline2= Increases a battalion to Level 2
+
+
+[CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTrainingArnor]
+Value=Allows battalions to purchase the Banners of the Seven Stars upgrade 
 Valueline2= Increases a battalion to Level 2
 
 
 [CONTROLBAR:PurchaseUpgradeGondorBasicTraining]
-Value=Purchase Banner Carrier (&V)
+Value=Purchase Banners of the White Tree (&V)
+
+
+[CONTROLBAR:PurchaseUpgradeGondorBasicTraining_Ithilien]
+Value=Purchase Ranger Captain (&V)
+
+
+[CONTROLBAR:PurchaseUpgradeArthedainBasicTraining]
+Value=Purchase Banners of the Seven Stars (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGondorBasicTraining]
@@ -43820,20 +43859,24 @@ Valueline2= Can only be equipped at Level 1
 
 
 [CONTROLBAR:PurchaseTechnologyIsengardBasicTraining]
-Value=Research Banner Carriers (&W)
+Value=Research Banners of the White Hand (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyIsengardBasicTraining]
-Value=Allows hordes to purchase the Banner Carrier upgrade 
+Value=Allows hordes to purchase the Banners of the White Hand upgrade 
 Valueline2= Increases a horde to Level 2
 
 
 [CONTROLBAR:PurchaseUpgradeIsengardBasicTraining]
-Value=Purchase Banner Carrier (&V)
+Value=Purchase Banners of the White Hand (&V)
 
 
 [CONTROLBAR:PurchaseUpgradeIsengardBasicTrainingDunland]
 Value=Purchase Crow Banners (&V)
+
+
+[CONTROLBAR:PurchaseUpgradeIsengardBasicTrainingRuffian]
+Value=Purchase Sharkey's Enforcer (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardBasicTraining]
@@ -43842,16 +43885,20 @@ Valueline2= Can only be equipped at Level 1
 
 
 [CONTROLBAR:PurchaseTechnologyMordorBasicTraining]
-Value=Research Banner Carriers (&W)
+Value=Research Banners of the Red Eye (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyMordorBasicTraining]
-Value=Allows hordes to purchase the Banner Carrier upgrade 
+Value=Allows hordes to purchase the Banners of the Red Eye upgrade 
 Valueline2= Increases a horde to Level 2
 
 
 [CONTROLBAR:PurchaseUpgradeMordorBasicTraining]
-Value=Purchase Banner Carrier (&V)
+Value=Purchase Banners of the Red Eye (&V)
+
+
+[CONTROLBAR:PurchaseUpgradeMordorBasicTrainingWardog]
+Value=Purchase Pack Alpha (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorBasicTraining]
@@ -43900,7 +43947,7 @@ Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
 [CONTROLBAR:PurchaseUpgradeWildBasicTraining]
-Value=Purchase Banner Carrier (&V)
+Value=Purchase Banners of Bolg (&V)
 
 
 [CONTROLBAR:PurchaseUpgradeWildBasicTrainingWarg]
@@ -43917,11 +43964,11 @@ Valueline2= Can only be equipped at Level 1
 
 
 [CONTROLBAR:PurchaseTechnologyWildBasicTraining]
-Value=Research Banner Carriers (&W)
+Value=Research Banners of Bolg (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining]
-Value=Allows hordes to purchase the Banner Carrier upgrade 
+Value=Allows hordes to purchase the Banners of Bolg upgrade 
 Valueline2= Increases a horde to Level 2
 
 
@@ -43931,7 +43978,7 @@ Value=Purchase Fire Arrows (&C)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWildFireArrows]
 Value=Upgrades this horde with Fire Arrows 
-Valueline2= Significantly increases the damage done by Arrows
+Valueline2= Significantly increases the damage done by arrows
 
 
 [CONTROLBAR:PurchaseTechnologyWildFireArrows]
@@ -43940,17 +43987,17 @@ Value=Research Fire Arrows (&E)
 
 [CONTROLBAR:ToolTipPurchaseTechnologyWildFireArrows]
 Value=Allows hordes to purchase the Fire Arrows upgrade 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 Valueline3= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:PurchaseUpgradeWildForgedBlade]
-Value=Purchase Forged Blades (&C)
+Value=Purchase Scavenged Blades (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWildForgedBlade]
-Value=Upgrades this horde with Forged Blades 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Value=Upgrades this horde with Scavenged Blades 
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseUpgradeWildPoisonGundaBlade]
@@ -43959,34 +44006,34 @@ Value=Purchase Permanent Poison B&lades
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWildPoisonGundaBlade]
 Value=Upgrades this horde with Permanent Poison Blades 
-Valueline2= When equipped, adds poison damage to Melee Weapon
+Valueline2= When equipped, adds poison damage to melee weapon
 
 
 [CONTROLBAR:PurchaseTechnologyWildForgedBlades]
-Value=Research Forged Blades (&R)
+Value=Research Scavenged Blades (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyWildForgedBlades]
-Value=Allows hordes to purchase the Forged Blades upgrade 
-Valueline2= Increases the damage done by Melee Weapons
+Value=Allows hordes to purchase the Scavenged Blades upgrade 
+Valueline2= Increases the damage done by melee weapons
 Valueline3= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:PurchaseUpgradeWildHeavyArmor]
-Value=Purchase Scavenged Armor (&T)
+Value=Purchase Scavenged Armour (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeWildHeavyArmor]
-Value=Upgrades this horde with Scavenged Armor 
+Value=Upgrades this horde with Scavenged Armour 
 Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
 [CONTROLBAR:PurchaseTechnologyWildHeavyArmor]
-Value=Research Scavenged Armor (&T)
+Value=Research Scavenged Armour (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseechnologyWildHeavyArmor]
-Value=Allows hordes to purchase Scavenged Armor 
+Value=Allows hordes to purchase Scavenged Armour 
 Valueline2= Significantly reduces the amount of damage taken
 Valueline3= Will upgrade all patrols instantly once upgrade is purchased
 
@@ -44006,7 +44053,8 @@ Value=Purchase Venom Sacs (&C)
 
 [CONTROLBAR:ToolTipPurchaseSpiderVenomSacks]
 Value=Upgrades this horde with Venom Sacs 
-Valueline2= Inflicts poison to enemies causing damage over time
+Valueline2= Increases Fellbrood's damage by 25% 
+Valueline3= Inflicts poison to enemies causing damage over time
 
 
 [CONTROLBAR:PurchaseUpgradeElvenBasicTraining]
@@ -44014,7 +44062,7 @@ Value=Purchase Banner Carrier (&C)
 
 
 [CONTROLBAR:PurchaseUpgradeElderRacesBasicTraining]
-Value=Purchase Banner Carrier (&V)
+Value=Purchase Banners of the Golden Wood (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenBasicTraining]
@@ -44027,7 +44075,7 @@ Value=Purchase Woodman Captain (&V)
 
 
 [CONTROLBAR:PurchaseTechnologyElvenBasicTraining]
-Value=Research Banner Carriers (&W)
+Value=Research Banners of the Golden Wood (&W)
 
 
 [CONTROLBAR:ToolTipBuildElvenBasicTraining]
@@ -44045,7 +44093,7 @@ Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyElvenBasicTraining]
-Value=Allows battalions to purchase the Banner Carrier upgrade 
+Value=Allows battalions to purchase the Banner Carrier the Golden Wood upgrade 
 Valueline2= Increases a battalion to Level 2
 
 
@@ -44660,11 +44708,11 @@ Value=Fire Arrows
 
 
 [TOOLTIP:WildForgedBlades]
-Value=Forged Blades
+Value=Scavenged Blades
 
 
 [TOOLTIP:WildHeavyArmor]
-Value=Scavenged Armor
+Value=Scavenged Armour
 
 
 [TOOLTIP:WildVenomSacs]
@@ -44935,7 +44983,7 @@ Value=Razor Spines
 
 
 [Upgrade:WildBasicTraining]
-Value=Banner Carrier
+Value=Banners of Bolg
 
 
 [Upgrade:FortressFireDrake]
@@ -44943,7 +44991,7 @@ Value=Fire Wyrm
 
 
 [UPGRADE:WildHeavyArmor]
-Value=Scavenged Armor
+Value=Scavenged Armour
 
 
 
@@ -45213,7 +45261,7 @@ Value=Mallorn Bows
 
 
 [UPGRADE:ElvenBasicTraining]
-Value=Banner Carrier
+Value=Banners of the Golden Wood
 
 
 [UPGRADE:ElvenForgedBlades]
@@ -60862,8 +60910,8 @@ Valueline4= Left click to activate
 Value=Allows research of the Forged Blades upgrade
 
 [CONTROLBAR:ToolTipBuildWildTreasureTroveLevel3Upgrade]
-Value=Allows research of the Scavenged Armor upgrade 
-Valueline2=Adds defensive Arrow Tower
+Value=Allows research of the Scavenged Armour upgrade 
+Valueline2=Adds defensive arrow tower
 
 
 
