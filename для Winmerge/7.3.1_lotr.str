@@ -44184,17 +44184,17 @@ Valueline3= Increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseTechnologyMordorHeavyArmor]
-Value=Research Heavy Armor (&T)
+Value=Research Jagged Steel Armour (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyMordorHeavyArmor]
-Value=Allows hordes to purchase the Heavy Armor upgrade 
+Value=Allows hordes to purchase the Jagged Steel Armour upgrade 
 Valueline2= When equipped, significantly reduces the amount of damage taken
 Valueline3= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:HeavyArmorUpgrade]
-Value=Purchase Hea&vy Armor
+Value=Purchase Hea&vy Armour
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorHeavyArmor]
@@ -44207,8 +44207,8 @@ Value=Research Flaming Sho&t (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyDwarvenFlamingShot]
-Value=Allows Sulûn-abanul to purchase the Flaming Shot upgrade 
-Valueline2= When equipped, significantly increases the damage done by Sulûn-abanul
+Value=Allows Mangonels to purchase the Flaming Shot upgrade 
+Valueline2= When equipped, significantly increases the damage done by Mangonels
 
 
 [CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer]
@@ -44232,11 +44232,11 @@ Value=Upgrade with Mallorn Longbows
 
 
 [CONTROLBAR:PurchaseUpgradeElderRacesWarBarding]
-Value=Upgrade with Heavy Armor
+Value=Upgrade with Heavy Armour
 
 
 [CONTROLBAR:PurchaseUpgradeShipArmor]
-Value=Upgrade Ar&mor
+Value=Upgrade Armour (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyElvenCloak]
@@ -44244,7 +44244,7 @@ Value=Allows units to become stealthed
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyIsengardTorches]
-Value=When equipped, increases the damage done by Melee attacks
+Value=When equipped, increases the damage done by melee attacks
 
 
 [CONTROLBAR:PurchaseUpgradeDwarvenFireArrows]
@@ -44256,21 +44256,21 @@ Value=Purchase Fire Arrows (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFireArrows]
-Value=Increases the damage done by Pierce and adds addition Slash damage
+Value=Increases the damage done by pierce and adds additional slash damage
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeLaketownFireArrows]
 Value=Upgrades this horde with Fire Arrows 
-Valueline2= Significantly increases the damage done by Arrows
+Valueline2= Significantly increases the damage done by arrows
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFlamingShot]
-Value=Significantly increases the Sulûn-abanul's damage
+Value=Significantly increases the Mangonel's damage
 
 
 [TOOLTIP:ToolTipPurchaseUpgradeDwarvenFlamingShot]
 Value=Research Flaming Shot upgrade at Workshop to enable this equipment
-Valueline2=Significantly increases the Sulûn-abanul's damage
+Valueline2=Significantly increases the Mangonel's damage
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenTraining]
@@ -44285,7 +44285,7 @@ Valueline2= Can only be equipped at Level 1
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElderRacesMagicArrows]
 Value=Upgrades this battalion with Silverthrone Arrows 
-Valueline2= Significantly increases the damage done by Arrows
+Valueline2= Significantly increases the damage done by arrows
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElderRacesWarBarding]
@@ -44295,22 +44295,22 @@ Valueline2= Significantly reduces the amount of damage taken
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardTorches]
 Value=Upgrades this horde with Torches 
-Valueline2= Increases the damage done by Melee attacks
+Valueline2= Increases the damage done by melee attacks
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeShipArmor]
-Value=Upgrades this ship with additional armor 
+Value=Upgrades this ship with additional armour 
 Valueline2= Significantly reduces the amount of damage taken
 
 
 [CONTROLBAR:TooltipPurchaseUpgradeElvenSilverthornArrowsBattleTower]
 Value=Upgrade this Battle Tower's Archer with a Mallorn Bow 
-Valueline2= Increases damage done by Arrows
+Valueline2= Increases damage done by arrows
 
 
 [CONTROLBAR:TooltipPurchaseUpgradeMirkwoodSilverthornArrowsBattleTower]
 Value=Upgrade this Woodland Lookout's Archer with Silvan Fletching 
-Valueline2= Increases damage done by Arrows
+Valueline2= Increases damage done by arrows
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodSilverthornArrowsForBattleTower]
@@ -44319,18 +44319,18 @@ Value=Silvan Fletching (&W)
 
 [TOOLTIP:LackArnorFireArrows]
 Value=Research upgrade at Forge to enable this equipment 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LackArnorForgedBlades]
 Value=Research upgrade at Forge to enable this equipment 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [TOOLTIP:LackArnorForgedBlades_Inn]
-Value=Research Forged Blades upgrade at Blacksmith
+Value=Research Tempered Blades upgrade at Blacksmith
 Valueline2=to enable this equipment 
-Valueline3= When equipped, increases the damage done by Melee Weapons
+Valueline3= When equipped, increases the damage done by melee weapons
 
 
 [TOOLTIP:LackArnorHeavyArmor]
@@ -44345,12 +44345,12 @@ Valueline2= When equipped, significantly increases the Trebuchet's damage
 
 [TOOLTIP:LackGondorFireArrows]
 Value=Research upgrade at Archery Range to enable this equipment 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LackGreyCompanyFireArrows]
 Value=Research upgrade at Blacksmith to enable this equipment 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LackGondorForgedBlades]
@@ -44437,7 +44437,7 @@ Valueline2= When equipped, increases this horde to Level 2
 
 [TOOLTIP:LackIsengardFireArrows]
 Value=Research upgrade at Armory to enable this equipment 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LackIsengardForgedBlades]
@@ -44452,12 +44452,12 @@ Valueline2= When equipped, significantly reduces the amount of damage taken
 
 [TOOLTIP:LackMordorFireArrow]
 Value=Research upgrade at Gorgoroth Armory to enable this equipment 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LackGuldurFireArrow]
 Value=Research upgrade at Guldur Gaol to enable this equipment 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LackMordorBasicTraining]
@@ -44523,18 +44523,18 @@ Valueline2= When equipped, increases the damage done by Melee Weapons
 
 [TOOLTIP:LacksTechnologyMirkwoodSilverthornArrows]
 Value=Research upgrade at Thranduil's Treasury to enable this equipment 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LacksTechnologyElvenSilverthornArrows]
 Value=Research upgrade at Golden Wood Storehouse to enable this equipment 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LacksTechnologyElvenSilverthornArrows_RohanInn]
 Value=Research Fire Arrows upgrade at Archery Range
 Valueline2=to enable this equipment 
-Valueline3= When equipped, significantly increases the damage done by Arrows
+Valueline3= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LackElvenHeavyArmor]
@@ -44604,14 +44604,14 @@ Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
 [TOOLTIP:LackWildHeavyArmor_Inn]
-Value=Research Heavy Armor upgrade at Armory
+Value=Research Heavy Armour upgrade at Armoury
 Valueline2=to enable this equipment
 Valueline3=When equipped, significantly reduces the amount of damage taken
 
 
 [TOOLTIP:LackWildFireArrows]
 Value=Research at Goblin Hoard to enable this equipment 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LackWildForgedBlades]
@@ -44642,10 +44642,10 @@ Value=Torches
 
 
 [TOOLTIP:GondorForgedBlades]
-Value=Forged Blades
+Value=Tempered Blades
 
 [TOOLTIP:GondorHeavyArmor]
-Value=Heavy Armor
+Value=Heavy Armour
 
 [TOOLTIP:GondorKnightShields]
 Value=Horseman Shields
@@ -44752,7 +44752,7 @@ Value=Cruel Blades
 
 
 [TOOLTIP:MordorHeavyArmor]
-Value=Heavy Armor
+Value=Jagged Steel Armour
 
 
 
@@ -44812,7 +44812,7 @@ Value=Easterling Encampment Level 3
 
 
 [Upgrade:MordorHeavyArmorUpgrade]
-Value=Heavy Armor
+Value=Jagged Steel Armour
 
 
 [Upgrade:MordorForgedBladesUpgrade]
@@ -51076,7 +51076,7 @@ Value=Research Noldorin Armors (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyArnorHeavyArmor]
-Value=Purchase Heavy Armor Upgrade 
+Value=Purchase Heavy Armour Upgrade 
 Valueline2= Select a battalion to upgrade
 
 
@@ -52539,12 +52539,12 @@ Value=Ice Arrows
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarIceArrows]
 Value=Upgrades this horde with Ice Arrows 
-Valueline2= Significantly increases the damage done by Arrows
+Valueline2= Significantly increases the damage done by arrows
 
 
 [CONTROLBAR:ToolTipPurchaseTowerUpgradeAngmarIceArrows]
 Value=Upgrades this Tower with Ice Arrows 
-Valueline2= Significantly increases the damage done by Arrows
+Valueline2= Significantly increases the damage done by arrows
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarIceShot]
@@ -52606,7 +52606,7 @@ Value=Strong vs. Pikemen
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarDarkIronMail]
-Value=Allows hordes to purchase the Heavy Armor upgrade 
+Value=Allows hordes to purchase the Heavy Armour upgrade 
 Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
@@ -52725,13 +52725,13 @@ Value=&Whisper of Death
 
 
 [TOOLTIP:PurchaseUpgradeAngmarDarkIronMail]
-Value=Allows hordes to purchase the Heavy Armor upgrade 
+Value=Allows hordes to purchase the Heavy Armour upgrade 
 Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
 [TOOLTIP:PurchaseUpgradeAngmarDarkIronBlades]
 Value=Allows hordes to purchase the Dark Iron Blades upgrade 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [CONTROLBAR:NecroBlackIce]
@@ -57746,7 +57746,7 @@ Valueline7= 5 Blacksmiths: 20%
 Valueline8= 6+ Blacksmiths: 25%
 
 [CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade]
-Value=Allows research of Heavy Armor and Forged Blades
+Value=Allows research of Heavy Armour and Forged Blades
 
 [CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade]
 Value=Adds defensive Arrow Tower
@@ -58667,8 +58667,12 @@ Valueline5= Left click icon then left click on target area
 
 
 [CONTROLBAR:PurchaseUpgradeMorderHeavyArmor]
-Value=Purchase Heavy Armor (&T)
+Value=Purchase Jagged Steel Armour (&T)
 
+
+[CONTROLBAR:ToolTipPurchaseUpgradeMordorHeavyArmor]
+Value=Upgrades this horde with Jagged Steel Armour 
+Valueline2= Significantly reduces the amount of damage taken
 
 [OBJECT:MordorBlackOrc]
 Value=Black Uruk Marauder
@@ -59122,7 +59126,7 @@ Valueline2= When equipped, increases the damage done by Melee Weapons
 
 
 [CONTROLBAR:PurchaseUpgradeAngmarDarkIronMail]
-Value=Purchase Heavy Armor (&T)
+Value=Purchase Heavy Armour (&T)
 
 [TOOLTIP:LackAngmarDarkIronMail]
 Value=A nearby Caravan is needed to enable this equipment 
@@ -59178,7 +59182,7 @@ Value=Purchase Fire Arrows (&C)
 
 [TOOLTIP:LackAngmarIceArrows]
 Value=A nearby Caravan is needed to enable this equipment 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [CONTROLBAR:TooltipNecromancerDeathMask]
@@ -59346,7 +59350,7 @@ Value=Research Ice Arro&ws
 
 [CONTROLBAR:TooltipPurchaseTechnologyAngmarIceArrows]
 Value=Allows hordes to purchase the Ice Arrows upgrade 
-Valueline2= When equipped, significantly increases the damage done by Arrows
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [OBJECT:AngmarSentryTowerDescription]
@@ -62825,7 +62829,7 @@ Valueline3=Strong vs. Infantry
 [CONTROLBAR:ToolTipBuildMirkwoodWarriorHordeInn]
 Value=Sword-masters 
 Valueline2= Strong vs. Infantry 
-Valueline3= Purchased with Heavy Armor 
+Valueline3= Purchased with Heavy Armour 
 Valueline4= 
 Valueline5= During the War of the Ring, the Galadhrim joined forces with Thranduil's Elves in driving out the Enemy from Mirkwood, which was afterwards known as Eryn Lasgalen.
 
@@ -73016,13 +73020,13 @@ Valueline2=+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildRohanBarracksLevel3Upgrade]
 Value=Allows training of Edoras Kingsguard, Helmingas Warriors 
-Valueline2= and research of the Heavy Armor upgrade
+Valueline2= and research of the Heavy Armour upgrade
 Valueline3=+25% faster build speed
 Valueline4=Adds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipBuildRohanBarracksLevel3Upgrade_WOTR]
-Value=Allows training of Edoras Kingsguard and research of the Heavy Armor upgrade
+Value=Allows training of Edoras Kingsguard and research of the Heavy Armour upgrade
 Valueline2=+25% faster build speed
 Valueline3=Adds defensive Arrow Tower
 
@@ -74637,7 +74641,7 @@ Value=Swan-Feathered Arrows (&W)
 
 [CONTROLBAR:TooltipPurchaseUpgradeArnorFireArrowsBattleTower]
 Value=Upgrade this Battle Tower's Archer with Swan-Feathered Arrows 
-Valueline2= Increases damage done by Arrows
+Valueline2= Increases damage done by arrows
 
 
 [CONTROLBAR:SpecialAbilityIsengardFocusInfantry]
@@ -80277,13 +80281,13 @@ Valueline2= Passive ability
 
 
 [CONTROLBAR:CaravanArmor]
-Value=Trade: Heavy Armor
+Value=Trade: Heavy Armour
 
 
 [CONTROLBAR:ToolTipCaravanArmor]
 Value=Requires Level 2 
-Valueline2= The Caravan trades with Rhûn for Heavy Armor. 
-Valueline3= Units nearby the Caravan can be upgraded with Heavy Armor 
+Valueline2= The Caravan trades with Rhûn for Heavy Armour. 
+Valueline3= Units nearby the Caravan can be upgraded with Heavy Armour 
 Valueline4= Passive ability
 
 
@@ -80294,7 +80298,7 @@ Value=Trade: Fire Arrows
 [CONTROLBAR:ToolTipCaravanArrows]
 Value=Requires Level 3 
 Valueline2= The Caravan trades with Umbar for Fire Arrows. 
-Valueline3= Units nearby the Caravan can be upgraded with Heavy Armor 
+Valueline3= Units nearby the Caravan can be upgraded with Heavy Armour 
 Valueline4= Passive ability
 
 
