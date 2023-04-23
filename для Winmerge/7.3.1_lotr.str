@@ -44338,13 +44338,18 @@ Value=Research upgrade at Forge to enable this equipment
 Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
-[TOOLTIP:LackArnorFireStones]
-Value=Research Upgrade at Siege Works to enable this equipment 
-Valueline2= When equipped, significantly increases the Trebuchet's damage
+[TOOLTIP:LackArnorHeavyArmorMirkwood]
+Value=Cast Love of Silver and Jewels on the battalion to enable this equipment 
+Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
 [TOOLTIP:LackGondorFireArrows]
 Value=Research upgrade at Archery Range to enable this equipment 
+Valueline2= When equipped, significantly increases the damage done by arrows
+
+
+[TOOLTIP:LackGondorFireArrowsIthilien]
+Value=Research upgrade at Ithilien Storehouse to enable this equipment 
 Valueline2= When equipped, significantly increases the damage done by arrows
 
 
@@ -44355,7 +44360,7 @@ Valueline2= When equipped, significantly increases the damage done by arrows
 
 [TOOLTIP:LackGondorForgedBlades]
 Value=Research upgrade at Blacksmith to enable this equipment 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [TOOLTIP:LackGondorHeavyArmor]
@@ -44365,7 +44370,7 @@ Valueline2= When equipped, significantly reduces the amount of damage taken
 
 [TOOLTIP:LackGondorKnightShield]
 Value=Research upgrade at Stables to enable this equipment 
-Valueline2= When equipped, significantly reduces the amount of damage taken from Arrows and Pikemen
+Valueline2= When equipped, significantly reduces the amount of damage taken from Archers and Pikemen
 
 
 [TOOLTIP:LackGondorFireStones]
@@ -44395,12 +44400,12 @@ Valueline2= When equipped, significantly reduces the amount of damage taken
 
 [TOOLTIP:LackRohanForgedBlades]
 Value=Research Upgrade at Barracks to enable this equipment 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [TOOLTIP:LackRohanForgedBladesHD]
 Value=Go to the armoury to research this equipment 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [TOOLTIP:LackRohanHeavyArmor]
@@ -44416,7 +44421,7 @@ Valueline2= When equipped, significantly reduces the amount of damage taken
 [TOOLTIP:LackRohanForgedBladesP]
 Value=Requires Peasants to be Drafted 
 Valueline2= Research Upgrade at Barracks to enable this equipment 
-Valueline3= When equipped, increases the damage done by Melee Weapons
+Valueline3= When equipped, increases the damage done by melee weapons
 
 
 [TOOLTIP:LackRohanHeavyArmorP]
@@ -44427,41 +44432,46 @@ Valueline3= When equipped, significantly reduces the amount of damage taken
 
 [TOOLTIP:LackRohanHorseShield]
 Value=Research upgrade at Stables to enable this equipment 
-Valueline2= When equipped, significantly reduces the amount of damage taken from Arrows and Pikemen
+Valueline2= When equipped, significantly reduces the amount of damage taken from Archers and Pikemen
 
 
 [TOOLTIP:LackIsengardBasicTraining]
-Value=Purchase Upgrade at Armory to enable this equipment 
+Value=Purchase Upgrade at Armoury to enable this equipment 
 Valueline2= When equipped, increases this horde to Level 2
 
 
 [TOOLTIP:LackIsengardFireArrows]
-Value=Research upgrade at Armory to enable this equipment 
+Value=Research upgrade at Armoury to enable this equipment 
 Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LackIsengardForgedBlades]
-Value=Research upgrade at Armory to enable this equipment 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Value=Research upgrade at Armoury to enable this equipment 
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [TOOLTIP:LackIsengardHeavyArmor]
-Value=Research upgrade at Armory to enable this equipment 
+Value=Research upgrade at Armoury to enable this equipment 
 Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
 [TOOLTIP:LackMordorFireArrow]
-Value=Research upgrade at Gorgoroth Armory to enable this equipment 
+Value=Research upgrade at Gorgoroth Foundry to enable this equipment 
 Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LackGuldurFireArrow]
 Value=Research upgrade at Guldur Gaol to enable this equipment 
-Valueline2= When equipped, significantly increases the damage done by arrows
+Valueline2= When equipped, significantly increases the damage done by Arrows
+
+
+[TOOLTIP:LackGuldurFireArrowAngmar]
+Value=Research upgrade at Spire of Angmar to enable this equipment 
+Valueline2= When equipped, significantly increases the damage done by Arrows
 
 
 [TOOLTIP:LackMordorBasicTraining]
-Value=Research upgrade at Gorgoroth Armory to enable this equipment 
+Value=Research upgrade at Gorgoroth Foundry to enable this equipment 
 Valueline2= When equipped, increases this horde to Level 2
 
 
@@ -44487,14 +44497,14 @@ Value=Requires Level 2 Stables
 
 
 [TOOLTIP:LackLevel2OrcPit]
-Value=Requires Level 2 Orc Barracks
+Value=Requires Level 2 Orcish Stronghold
 
 
 [TOOLTIP:LackLevel2OrcPitFireArrows]
-Value=Requires Level 2 Orc Barracks
+Value=Requires Level 2 Orcish Stronghold
 
 [TOOLTIP:LackLevel2OrcPitBanner]
-Value=Requires Level 3 Orc Barracks
+Value=Requires Level 3 Orcish Stronghold
 
 
 [TOOLTIP:LackLevel2Workshop]
@@ -44507,22 +44517,33 @@ Value=Requires Level 2 Workshop
 
 [ToolTip:LackElvenForgedBlades]
 Value=Research upgrade at Golden Wood Storehouse to enable this equipment 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [ToolTip:LackElvenForgedBladesRohanInn]
 Value=Research Forged Blades upgrade at Barracks
 Valueline2=to enable this equipment 
-Valueline3= When equipped, increases the damage done by Melee Weapons
+Valueline3= When equipped, increases the damage done by melee weapons
 
 
 [ToolTip:LackMirkwoodForgedBlades]
 Value=Research upgrade at Thranduil's Treasury to enable this equipment 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
+
+
+[ToolTip:LackMirkwoodForgedBladesBotFA]
+Value=Research the Armouries of Thrór fortress upgrade and cast its ability to grant units Silvan Steel
+Valueline2= When equipped, increases the damage done by melee weapons
+
 
 
 [TOOLTIP:LacksTechnologyMirkwoodSilverthornArrows]
 Value=Research upgrade at Thranduil's Treasury to enable this equipment 
+Valueline2= When equipped, significantly increases the damage done by arrows
+
+
+[ToolTip:LacksTechnologyMirkwoodSilverthornArrowsBotFA]
+Value=Research the Armouries of Thrór fortress upgrade and cast its ability to grant units Silvan Fletching
 Valueline2= When equipped, significantly increases the damage done by arrows
 
 
@@ -44563,13 +44584,18 @@ Value=Research upgrade at Thranduil's Treasury to enable this equipment
 Valueline2= When equipped, increases this battalion to Level 2
 
 
+[TOOLTIP:LackMirkwoodBasicTrainingBotFA]
+Value=Research upgrade at Dalish Ruin to enable this equipment 
+Valueline2= When equipped, increases this battalion to Level 2
+
+
 [TOOLTIP:LackElderRacesBasicTraining]
 Value=Research upgrade at Eregion Forge to enable this equipment 
 Valueline2= When equipped, increases this battalion to Level 2
 
 
 [ToolTip:LackMordorHeavyArmor]
-Value=Research upgrade at Gorgoroth Armory to enable this equipment 
+Value=Research upgrade at Gorgoroth Foundry to enable this equipment 
 Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
@@ -44579,18 +44605,18 @@ Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
 [ToolTip:LackIsengardTorches]
-Value=Research upgrade at Armory to enable this equipment 
-Valueline2= When equipped, increases the damage done by Melee attacks
+Value=Research upgrade at Armoury to enable this equipment 
+Valueline2= When equipped, increases the damage done by melee attacks
 
 
 [ToolTip:LackMordorForgedBlades]
-Value=Research upgrade at Gorgoroth Armory to enable this equipment 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Value=Research upgrade at Gorgoroth Foundry to enable this equipment 
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [ToolTip:LackMordorForgedBlades_DGInn]
 Value=Requires rank 3 Guldur Gaol to enable this equipment 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [ToolTip:LackDwarvenFlamingShot]
@@ -44616,7 +44642,7 @@ Valueline2= When equipped, significantly increases the damage done by arrows
 
 [TOOLTIP:LackWildForgedBlades]
 Value=Research at Goblin Hoard to enable this equipment 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [TOOLTIP:LackVenomSacksTechnology]
@@ -44645,7 +44671,7 @@ Value=Torches
 Value=Tempered Blades
 
 [TOOLTIP:GondorHeavyArmor]
-Value=Heavy Armour
+Value=Steel Cuirasses
 
 [TOOLTIP:GondorKnightShields]
 Value=Horseman Shields
@@ -44663,13 +44689,13 @@ Value=Bodkin Arrows
 Value=Swan-Feathered Arrows
 
 [TOOLTIP:ArnorHeavyArmor]
-Value=Noldorin Armor
+Value=Noldorin Armour
 
 [TOOLTIP:ArnorForgedBlades]
 Value=Tengwar-Inscribed Blades
 
 [TOOLTIP:DwarvenBasicTraining]
-Value=Banner Carrier
+Value=Thrór’s Banners
 
 
 [TOOLTIP:DwarvenSiegeHammer]
@@ -44706,7 +44732,7 @@ Value=Tempered Blades
 Value=Elven Armour
 
 [TOOLTIP:SindarinHeavyArmor]
-Value=Sindarin Armor
+Value=Sindarin Armour
 
 [TOOLTIP:ElderRacesWarBarding]
 Value=Elven Armour
@@ -44764,11 +44790,11 @@ Value=Jagged Steel Armour
 
 
 [Upgrade:MordorTavernLevel2]
-Value=Gorgoroth Armory Level 2
+Value=Gorgoroth Foundry Level 2
 
 
 [Upgrade:MordorTavernLevel3]
-Value=Gorgoroth Armory Level 3
+Value=Gorgoroth Foundry Level 3
 
 
 [Upgrade:MordorTrollCageLevel2]
@@ -44796,19 +44822,19 @@ Value=Mûmakil Pen Level 3
 
 
 [Upgrade:MordorOrcPitLevel2]
-Value=Orc Barracks Level 2
+Value=Orcish Stronghold Level 2
 
 
 [Upgrade:MordorOrcPitLevel3]
-Value=Orc Barracks Level 3
+Value=Orcish Stronghold Level 3
 
 
 [Upgrade:MordorHaradrimPalaceLevel2]
-Value=Easterling Encampment Level 2
+Value=Easterling Garrison Level 2
 
 
 [Upgrade:MordorHaradrimPalaceLevel3]
-Value=Easterling Encampment Level 3
+Value=Easterling Garrison Level 3
 
 
 [Upgrade:MordorHeavyArmorUpgrade]
@@ -44876,11 +44902,11 @@ Value=Warg Pit Level 3
 
 
 [Upgrade:IsengardArmoryLevel2]
-Value=Armory Level 2
+Value=Armoury Level 2
 
 
 [Upgrade:IsengardArmoryLevel3]
-Value=Armory Level 3
+Value=Armoury Level 3
 
 
 [Upgrade:IsengardTorchesUpgrade]
@@ -45213,11 +45239,11 @@ Value=Hearth
 
 
 [UPGRADE:ElvenBarracksLevel2]
-Value=Golden Wood Garrison Level 2
+Value=Galadhrim Garrison Level 2
 
 
 [UPGRADE:ElvenBarracksLevel3]
-Value=Golden Wood Garrison Level 3
+Value=Galadhrim Garrison Level 3
 
 
 [UPGRADE:EregionForgeLevel2]
@@ -45229,11 +45255,11 @@ Value=Golden Wood Storehouse Level 3
 
 
 [UPGRADE:ElvenGreenPastureLevel2]
-Value=Golden Wood Pasture Level 2
+Value=Green Pasture Level 2
 
 
 [UPGRADE:ElvenGreenPastureLevel3]
-Value=Golden Wood Pasture Level 3
+Value=Green Pasture Level 3
 
 
 [UPGRADE:ElvenMallornTreeLevel2]
@@ -51057,7 +51083,7 @@ Value=Research Tengwar-Inscribed Blades (&E)
 
 [CONTROLBAR:ToolTipPurchaseTechnologyArnorForgedBlades]
 Value=Purchase Forged Blade Upgrade 
-Valueline2= Increases damage done by Melee Weapons 
+Valueline2= Increases damage done by melee weapons 
 Valueline3= Select a battalion to upgrade
 
 
@@ -51067,17 +51093,18 @@ Value=Purchase Tengwar-Inscribed Blades (&C)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorForgedBlades]
 Value=
-Valueline2= Increases damage done by Melee Weapons 
+Valueline2= Increases damage done by melee weapons 
 Valueline3= Left click to upgrade this unit
 
 
 [CONTROLBAR:PurchaseTechnologyArnorHeavyArmor]
-Value=Research Noldorin Armors (&R)
+Value=Research Noldorin Armour (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyArnorHeavyArmor]
-Value=Purchase Heavy Armour Upgrade 
-Valueline2= Select a battalion to upgrade
+Value=Purchase Noldorin Armour Upgrade 
+Valueline2= When equipped, significantly reduces the amount of damage taken
+Valueline3= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:PurchaseUpgradeArnorHeavyArmor]
@@ -51089,7 +51116,14 @@ Value=Noldorin Armour
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorHeavyArmor]
-Value=Left click to upgrade this unit
+Value=Upgrades this battalion with Noldorin Armour 
+Valueline2= Significantly reduces the amount of damage taken
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeArnorHeavyArmorMirkwood]
+Value=Requires Love of Silver and Jewels to be cast on this battalion 
+Valueline2= Upgrades this battalion with Noldorin Armour 
+Valueline3= Significantly reduces the amount of damage taken
 
 
 [CONTROLBAR:PurchaseTechnologyArnorBasicTraining]
@@ -51121,7 +51155,7 @@ Valueline3= Can only be equipped at Level 1
 
 
 [UPGRADE:ArnorHeavyArmor]
-Value=Noldorin Armor
+Value=Noldorin Armour
 
 
 [UPGRADE:ArnorForgedBlades]
@@ -51371,13 +51405,13 @@ Value=Blacksmith
 
 
 [CONTROLBAR:LW_ToolTipBuild_ArnorBlackSmith]
-Value=Structure Type: Armory
+Value=Structure Type: Armoury
 Valueline2=Grants all upgrades to units
 Valueline3=
 
 
 [CONTROLBAR:LW_ToolTip_ArnorBlackSmith]
-Value=Structure Type: Armory
+Value=Structure Type: Armoury
 Valueline2=Grants all upgrades to units
 
 
@@ -52051,13 +52085,13 @@ Value=Dark Iron Forge
 
 
 [CONTROLBAR:LW_ToolTipBuild_AngmarBlackSmith]
-Value=Structure Type: Armory
+Value=Structure Type: Armoury
 Valueline2=Grants all upgrades to units
 Valueline3=
 
 
 [CONTROLBAR:LW_ToolTip_AngmarBlackSmith]
-Value=Structure Type: Armory
+Value=Structure Type: Armoury
 Valueline2=Grants all upgrades to units
 
 
@@ -52612,7 +52646,7 @@ Valueline2= When equipped, significantly reduces the amount of damage taken
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarDarkIronBlades]
 Value=Allows hordes to purchase the Dark Iron Blades upgrade 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [CONTROLBAR:ToolTipLackAngmarDarkIronMail]
@@ -58006,20 +58040,20 @@ Value=Hobbi&ts
 
 [CONTROLBAR:ToolTipMallornTree]
 Value=Provides Mallorn Wood as a resource based on available terrain 
-Valueline2= Nearby archers have increased range 
-Valueline3= Increases command point limit by 50
+Valueline2= Can be specialised to become a Galadhrim Garrison,
+Valueline3= Green Pasture or Storehouse
 
 [OBJECT:MallornTreeDescription]
 Value=Generates resources based on available terrain
-Valueline2= Can be upgraded with Blessed Waters to heal nearby troops 
-Valueline3= and Mallorn Roots to slow nearby enemies 
+Valueline2= Can be specialised to become a Galadhrim Garrison,
+Valueline3= Green Pasture or Storehouse
 Valueline4= Can train Celemegiliath 
 Valueline5=
 Valueline6= Vantage Point Bonus - Increases range of nearby ranged units and heroes
 
 
 [CONTROLBAR:PurchaseUpgradeElvenBarracksLevel3]
-Value=Upgrade Golden Wood Garrison to Level 3 (&A)
+Value=Upgrade Galadhrim Garrison to Level 3 (&A)
 
 [CONTROLBAR:ToolTipBuildElvenBarracksLevel3]
 Value=Allows training of Nandor Hîr-Hathol
@@ -58237,7 +58271,7 @@ Value=Purchase Siege Hammers (&R)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenSiegeHammer]
 Value=Upgrades this battalion with Siege Hammers 
-Valueline2= Significantly increases the damage done by Melee Weapons to Structures
+Valueline2= Significantly increases the damage done by melee weapons to Structures
 Valueline3= Negates the effects of Forged Blades
 
 
@@ -58318,11 +58352,11 @@ Valueline3= Adds defensive Arrow Tower
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyDwarvenSiegeHammer]
-Value=When equipped, significantly increases the damage done by Melee Weapons to Structures
+Value=When equipped, significantly increases the damage done by melee weapons to Structures
 
 [CONTROLBAR:ToolTipPurchaseTechnologyDwarvenForgedBlades]
 Value=Allows battalions to purchase the Forged Blades upgrade 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [OBJECT:DwarvenSentryTowerDescription]
@@ -58739,8 +58773,10 @@ Value=Great Beast of Gorgoroth (&R)
 
 
 [CONTROLBAR:ToolTipMordorOrcPit]
-Value=Trains Mordor Orc Units and Black Uruks 
-Valueline2= Increases command point limit by 25
+Value=Trains Mordor Orc Units and Black Uruks
+Valueline2=
+Valueline3=Throughout the Ash Mountains and the barren plains of Mordor were located many orcish strongholds, from where the Dark Tower's captains controlled the surrounding lands, keeping invaders out and subduing the orcs living near.
+
 
 [CONTROLBAR:TooltipUpgradeMordorOrcPitLevel2]
 Value=Allows training of Black Uruks
@@ -59122,7 +59158,7 @@ Value=Purchase Forged Blades (&C)
 
 [TOOLTIP:LackAngmarDarkIronBlades]
 Value=A nearby Caravan is needed to enable this equipment 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseUpgradeAngmarDarkIronMail]
@@ -59336,7 +59372,7 @@ Value=Research Dark Iron B&lades
 
 [CONTROLBAR:TooltipPurchaseTechnologyAngmarDarkIronBlades]
 Value=Allows hordes to purchase the Dark Iron Blades upgrade
-Valueline2=When equipped, significantly increases the damage done by Melee Weapons
+Valueline2=When equipped, significantly increases the damage done by melee weapons
 
 [CONTROLBAR:PurchaseTechnologyAngmarDarkIronMail]
 Value=Research Dark Iron &Mail
@@ -61246,7 +61282,7 @@ Valueline8= Largely unskilled and ill-equipped, Mordor's archers are a prime exa
 
 
 [CONTROLBAR:ToolTipBuildMordorBlackOrcHorde]
-Value=Requires Level 2 Orc Barracks 
+Value=Requires Level 2 Orcish Stronghold 
 Valueline2= Strong vs. Pikemen
 Valueline3=
 Valueline4= The Black Uruks of Barad-dûr are the elite of Sauron's orc armies, first bred to devastate Ithilien.
@@ -62528,7 +62564,7 @@ Valueline3=Strong vs. Cavalry
 
 [CONTROLBAR:ToolTipBuildCerinAmrothSentinelHorde]
 Value=Sentinels of Cerin Amroth 
-Valueline2= Requires Level 2 Barracks
+Valueline2= Requires Level 2 Galadhrim Garrison
 Valueline3=Strong vs. Cavalry and Heroes 
 Valueline4= 
 Valueline5= These warriors are tasked with safeguarding the revered hill of Amroth, once the home of Amroth Amdirion, the last king of Lórien.
@@ -62623,7 +62659,7 @@ Valueline3=Strong vs. Infantry
 
 [CONTROLBAR:ToolTipBuildLorienStalkerHorde]
 Value=Sindar Pathstalkers 
-Valueline2= Requires Level 2 Barracks
+Valueline2= Requires Level 2 Galadhrim Garrison
 Valueline3=Strong vs. Infantry 
 Valueline4= 
 Valueline5= Trained in woodscraft and assassination, these Elves are some of Galadriel's most trusted warriors.
@@ -62691,7 +62727,7 @@ Valueline4= Marchwardens are the only true military unit within Lothlórien, and 
 
 [CONTROLBAR:ToolTipBuildGaladhrimWarriorHorde]
 Value=Marchwardens 
-Valueline2= Requires Level 2 Barracks
+Valueline2= Requires Level 3 Galadhrim Garrison
 Valueline3=Strong vs. Infantry 
 Valueline4= 
 Valueline5= Marchwardens are the only true military unit within Lothlórien, and only the finest Elven warriors may count themselves amongst their ranks. They are tasked with guarding the borders of Lórien and report to Lord Celeborn himself.
@@ -64424,6 +64460,9 @@ Value=Unit Type: Elite Archers
 Valueline2=Strong vs. Archers
 Valueline3=
 
+Valueline2=Requires Level 3 Easterling Garrison and He Is Gathering All Evil To Him upgrade
+Valueline2=Requires Level 3 Easterling Garrison
+Valueline2= Requires Level 3 Easterling Garrison
 [OBJECT:RhunCannon]
 Value=Khârtan-gâsh
 
@@ -64939,7 +64978,7 @@ Value=Ancient Easterling
 
 
 [CONTROLBAR:ConstructMordorArmory]
-Value=Build Gorgoroth Armory (&R)
+Value=Build Gorgoroth Foundry (&R)
 
 
 [CONTROLBAR:ToolTipConstructMordorArmory]
@@ -64950,7 +64989,7 @@ Valueline4= Increases command point limit by 50
 
 
 [OBJECT:MordorArmory]
-Value=Gorgoroth Armory
+Value=Gorgoroth Foundry
 
 
 [OBJECT:MordorArmoryDescription]
@@ -64993,7 +65032,12 @@ Valueline2= increases the damage done by arrows, adds slash damage
 
 
 [TOOLTIP:LackMordorBarbedArrow]
-Value=Research upgrade at Easterling Encampment to enable this equipment 
+Value=Research upgrade at Easterling Garrison to enable this equipment 
+Valueline2= When equipped, increases the damage done by arrows, adds slash damage
+
+
+[TOOLTIP:LackMordorBarbedArrowRhun]
+Value=Research upgrade at Gorgoroth Foundry to enable this equipment 
 Valueline2= When equipped, increases the damage done by arrows, adds slash damage
 
 
@@ -65005,7 +65049,11 @@ Valueline4= Using compound bows and barbed arrows, Southron archers were deadly 
 
 
 [TOOLTIP:LackLevel2HaradBarbedArrows]
-Value=Requires Level 3 Easterling Encampment
+Value=Requires Level 3 Easterling Garrison
+
+
+[TOOLTIP:LackLevel2RhunBarbedArrows]
+Value=Requires Level 2 Gorgoroth Foundry
 
 
 [UPGRADE:MordorPoisonArrowUpgrade]
@@ -66872,6 +66920,7 @@ Valueline3=Strong vs. Archers
 
 [CONTROLBAR:ToolTipBuildMordorEasterlingKataphractHorde]
 Value=Requires Level 3 Encampment and He Is Gathering All Evil To Him upgrade 
+Valueline2=Requires Level 3 Easterling Garrison and He Is Gathering All Evil To Him upgrade 
 Valueline2=Elite Cavalry 
 Valueline3=Strong vs. Archers 
 Valueline4= 
@@ -67070,12 +67119,12 @@ Valueline2= When equipped, increases this battalion to Level 2
 
 [TOOLTIP:LackDwarvenForgedBlades]
 Value=Research upgrade at the Grand Forge to enable this equipment 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [TOOLTIP:LackDwarvenSiegeHammer]
 Value=Research upgrade at the Grand Forge to enable this equipment 
-Valueline2= When equipped, significantly increases the damage done by Melee Weapons to Structures
+Valueline2= When equipped, significantly increases the damage done by melee weapons to Structures
 
 
 [TOOLTIP:LackDwarvenHeavyArmor]
@@ -71100,7 +71149,7 @@ Valueline2= Can only be equipped at Level 1
 
 
 [TOOLTIP:LackDwarvenBasicTrainingForBattleWagon]
-Value=Research Banner Carrier upgrade at Grand Forge to enable this upgrade
+Value=Research Thrór’s Banners upgrade at Grand Forge to enable this upgrade
 Valueline2=Increases the Battle Wagon's rank to Level 2
 Valueline3=On Level 2, nearby allies gain
 Valueline4=+33% damage, +33% armour,
@@ -78057,6 +78106,12 @@ Value=Researches Woodland Realm unit upgrades
 Value=Thranduil's Treasury
 
 
+[CONTROLBAR:ToolTipBuildMirkwoodTreasuryLevel2]
+Value=Allows research of Silvan Steel Upgrade
+[CONTROLBAR:ToolTipBuildMirkwoodTreasuryLevel3]
+Value=Allows research of Silvan Fletching Upgrade
+
+
 [OBJECT:MirkwoodTreasuryDescription]
 Value=Researches Woodland Realm unit upgrades
 
@@ -78832,7 +78887,7 @@ Value=Purchase Silvan Steel (&C)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMirkwoodForgedBlades]
 Value=Upgrades this battalion with Silvan Steel 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodForgedBladesWoodmen]
@@ -78841,7 +78896,7 @@ Value=Purchase Well-honed Axes (&C)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMirkwoodForgedBladesWoodmen]
 Value=Upgrades this battalion with Well-honed Axes 
-Valueline2= When equipped, increases the damage done by Melee Weapons
+Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [UPGRADE:MirkwoodBasicTraining]
@@ -80935,9 +80990,50 @@ Value=Research Marchwarden Garrison (&C)
 
 [CONTROLBAR:ToolTipUpgradeTalanMarchwardenGarrison]
 Value=Marchwardens will patrol around the Talan
+[CONTROLBAR:UpgradeMallornGaladhrimGarrisonFake]
+Value=Primary Upgrade: Galadhrim Garrison
+[CONTROLBAR:UpgradeMallornGaladhrimGarrison]
+Value=Primary Upgrade: Galadhrim Garrison (&E)
 
 
+[CONTROLBAR:ToolTipUpgradeMallornGaladhrimGarrison]
+Value=Turns the Mallorn Tree into a Galadhrim Garrison 
+[CONTROLBAR:UpgradeMallornGreenPasture]
+Value=Primary Upgrade: Green Pasture (&R)
 
+
+[CONTROLBAR:ToolTipUpgradeMallornGreenPasture]
+Value=Turns the Mallorn Tree into a Green Pasture 
+[CONTROLBAR:UpgradeMallornGreenPastureFake]
+Value=Primary Upgrade: Green Pasture
+[CONTROLBAR:PurchaseTechnologyMirkwoodSilverthornArrows_Dorwinion]
+Value=Research Silvan Fletching (&T)
+
+
+[OBJECT:AngmarBastion]
+Value=Spire of Angmar
+
+[CONTROLBAR:ConstructAngmarBastion]
+Value=Summon Spire of Angmar (&T)
+Value=Requires Level 2 Spire of Angmar
+Value=Requires Level 3 Spire of Angmar 
+[CONTROLBAR:ConstructAngmarBastion2Upgrade]
+Value=Upgrade Spire of Angmar to Level 2 (&A)
+
+[CONTROLBAR:ConstructAngmarBastion3Upgrade]
+Value=Upgrade Spire of Angmar to Level 3 (&A)
+Value=Requires Level 3 Spire of Angmar
+Value=Requires a Level 3 Spire of Angmar
+Value=Requires Level 2 Spire of Angmar
+Value=Requires a Level 3 Spire of Angmar
+[CONTROLBAR:PurchaseUpgradeGondorHeavyArmorLongbowman]
+Value=Purchase Steel Cuirasses (&C)
+Valueline2= Only affects units that can receive Steel Cuirasses 
+[OBJECT:IthilienStorehouse]
+Value=Ithilien Storehouse
+
+[CONTROLBAR:ConstructIthilienStorehouse]
+Value=Build Ithilien Storehouse (&E)
 
 
 [Map:MAPSPevillorien]
