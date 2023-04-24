@@ -45346,7 +45346,7 @@ Value=Capture Building
 
 
 [UPGRADE:ShipArmor]
-Value=Ship Armor
+Value=Ship Armour
 
 
 [UPGRADE:PirateFlags]
@@ -45354,7 +45354,7 @@ Value=Pirate Flags
 
 
 [UPGRADE:CirdansCraftswork]
-Value=Cirdan's Craftswork
+Value=Cirdan's Craft
 
 
 [Upgrade:ReplacementWeapon]
@@ -45460,7 +45460,7 @@ Value=Eomers Defeated
 
 
 [Stat:Killed_Eowyn_Count_Name]
-Value=Eowyns Defeated
+Value=Éowyns Defeated
 
 
 [Stat:Killed_Faramir_Count_Name]
@@ -45488,7 +45488,7 @@ Value=Gimlis Defeated
 
 
 [Stat:Killed_Gloin_Count_Name]
-Value=Gloins Defeated
+Value=Glóins Defeated
 
 
 [Stat:Killed_Glorfindel_Count_Name]
@@ -46937,15 +46937,15 @@ Value=Hero can spill oil on the ground for a long duration and then light a fire
 
 
 [CONTROLBAR:TooltipCAH_HowlOfRage_Level1]
-Value=Nearby allies gain a boost to Damage and Armor for a short duration
+Value=Nearby allies gain a boost to damage and armour for a short duration
 
 
 [CONTROLBAR:TooltipCAH_HowlOfRage_Level2]
-Value=Nearby allies gain a boost to Damage and Armor for a medium duration
+Value=Nearby allies gain a boost to damage and armour for a medium duration
 
 
 [CONTROLBAR:TooltipCAH_HowlOfRage_Level3]
-Value=Nearby allies gain a boost to Damage and Armor for a long duration
+Value=Nearby allies gain a boost to damage and armour for a long duration
 
 
 [CONTROLBAR:ToolTipCAH_UntamedAllegiance]
@@ -47498,17 +47498,17 @@ Valueline2= Left click to begin spilling oil, then click the Light Fire icon
 
 
 [CONTROLBAR:TooltipCAH_HowlOfRage_Level1_Palantir]
-Value=Nearby allies gain a boost to Damage and Armor for a short duration 
+Value=Nearby allies gain a boost to damage and armour for a short duration 
 Valueline2= Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipCAH_HowlOfRage_Level2_Palantir]
-Value=Nearby allies gain a boost to Damage and Armor for a medium duration 
+Value=Nearby allies gain a boost to damage and armour for a medium duration 
 Valueline2= Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipCAH_HowlOfRage_Level3_Palantir]
-Value=Nearby allies gain a boost to Damage and Armor for a long duration 
+Value=Nearby allies gain a boost to damage and armour for a long duration 
 Valueline2= Left click icon then left click on target area
 
 
@@ -48510,7 +48510,7 @@ Value=Now listen up...the Hobbits have four Seats of Power. Destroy these buildi
 
 
 [SCRIPT:Fornost_ExtraCampaignText]
-Value=The remaining Dunedain of this region have rallied the help of the Blue Mountain Dwarves. It is in the old fortress of Fornost where they will see their last moments. Once our work here is done, all of the lands West of the Misty Mountains will be ours!
+Value=The remaining Dúnedain of this region have rallied the help of the Blue Mountain Dwarves. It is in the old fortress of Fornost where they will see their last moments. Once our work here is done, all of the lands West of the Misty Mountains will be ours!
 
 
 [SCRIPT:Mirkwood_ExtraCampaignText]
@@ -48671,7 +48671,7 @@ Value=*The lore of our Shipwrights is unparalleled, but remember to upgrade our 
 
 
 [DIALOGEVENT:MGCeldu_OffD015subtitle]
-Value=*By the Hammer of Gloin, we're cut off.
+Value=*By the Hammer of Glóin, we're cut off.
 
 
 [DIALOGEVENT:MGCeldu_OffD016subtitle]
@@ -48991,7 +48991,7 @@ Value=*Let's get to it!
 
 
 [DIALOGEVENT:MEForno_OffG017subtitle]
-Value=*The remaining Dunedain of this region have rallied the help of the Blue Mountain Dwarves. It is in this abandoned fortress of Fornost where they will see their last moments. Once our work is done, all of the lands West of the Misty Mountains will be ours!
+Value=*The remaining Dúnedain of this region have rallied the help of the Blue Mountain Dwarves. It is in this abandoned fortress of Fornost where they will see their last moments. Once our work is done, all of the lands West of the Misty Mountains will be ours!
 
 
 [DIALOGEVENT:MEOldFo_OffM018subtitle]
@@ -49743,7 +49743,7 @@ Value=*As time is now running out, Elrond forms a plan to unite the Elves and Dw
 
 
 [SUBTITLE:CS12_03]
-Value=*His most powerful warrior, Glorfindel will join forces with the dwarf leader Gloin, to make war on the goblins and forge this alliance.
+Value=*His most powerful warrior, Glorfindel will join forces with the dwarf leader Glóin, to make war on the goblins and forge this alliance.
 
 
 [SUBTITLE:CS15_01]
@@ -49775,7 +49775,7 @@ Value=*The Goblins have overtaken High Pass Road, blocking the vital connection 
 
 
 [SUBTITLE:CS21_02]
-Value=*Here Glorfindel and Gloin now face their first challenge as they battle to retake the pass.
+Value=*Here Glorfindel and Glóin now face their first challenge as they battle to retake the pass.
 
 
 [SUBTITLE:CS22_01]
@@ -49835,7 +49835,7 @@ Value=*Once this sinister overlord is vanquished, the Goblins will be scattered 
 
 
 [SUBTITLE:CS32_01]
-Value=*In the battle’s aftermath, a lone dwarven prisoner is freed and desperately begs for Glorfindel and Gloin’s help.
+Value=*In the battle’s aftermath, a lone dwarven prisoner is freed and desperately begs for Glorfindel and Glóin’s help.
 
 
 [SUBTITLE:CS32_02]
@@ -49907,7 +49907,7 @@ Value=*Sauron’s dragon has been defeated and the Dwarven ring reclaimed.
 
 
 [SUBTITLE:CS42_02]
-Value=*However, Glorfindel and Gloin are in disbelief when their new allies refuse to join in the war against Sauron, choosing instead to return to mining the riches of their mountains.
+Value=*However, Glorfindel and Glóin are in disbelief when their new allies refuse to join in the war against Sauron, choosing instead to return to mining the riches of their mountains.
 
 
 [SUBTITLE:CS42_03]
@@ -50099,7 +50099,7 @@ Value=*Frodo makes his way into Mordor.
 
 
 [SUBTITLE:CS71_05]
-Value=*Glorfindel and Gloin arrive at Mirkwood to meet with King Thranduil of the Wood-Elves to further the alliance between Elf and Dwarf.
+Value=*Glorfindel and Glóin arrive at Mirkwood to meet with King Thranduil of the Wood-Elves to further the alliance between Elf and Dwarf.
 
 
 [SUBTITLE:CS71_06]
@@ -50275,8 +50275,32 @@ Value=Ranger
 
 
 [OBJECT:ArnorGreyCompany]
-Value=Grey Company
+Value=Grey Company Ranger
 
+
+[OBJECT:GreyCompanyOutrider]
+Value=Grey Company Outrider
+
+[OBJECT:HordeGreyCompanyOutrider]
+Value=Grey Company Outriders
+
+[CONTROLBAR:LW_Unit_GreyCompanyOutriderHorde]
+Value=Grey Company Outriders Battalion
+
+[CONTROLBAR:LW_ToolTip_GreyCompanyOutriderHorde]
+Value=
+Valueline2=Unit Type: Hero Unit
+Valueline3=Strong vs. Infantry and Archers
+
+[CONTROLBAR:ConstructGreyCompanyOutriderHorde]
+Value=Grey Company Outriders (&W)
+
+[CONTROLBAR:ToolTipBuildGreyCompanyOutriderHorde]
+Value=Hero Unit
+Valueline2=Limited to 1
+Valueline3=Strong vs. Infantry and Archers
+Valueline4=
+Valueline5=Gathered by Halbarad, captain of the Dúnedain, these grim-faced warriors rode South to aid Aragorn, their chieftain.
 
 [OBJECT:ArnorArveleg]
 Value=Arveleg
@@ -50314,23 +50338,6 @@ Value=Revive the fallen Hero, Argeleb
 
 [CONTROLBAR:ArnorArgelebHotkey]
 Value=Ar&geleb
-
-
-[OBJECT:ArnorArvedui]
-Value=Arvedui
-
-
-[CONTROLBAR:ToolTipBuildArvedui]
-Value=Recruit the last King of Arnor
-
-[CONTROLBAR:ArnorArveduiRecruit]
-Value=Recruit the last King of Arnor
-
-[CONTROLBAR:ArnorArveduiRevive]
-Value=Revive the fallen Hero, Arvedui
-
-[CONTROLBAR:ArnorArveduiHotkey]
-Value=Arve&dui
 
 
 [OBJECT:ArnorArcher]
@@ -50451,7 +50458,7 @@ Value=Rivendell Trebuchet Rampart
 
 
 [OBJECT:ArnorBuildingFoundation]
-Value=Rivendell Building Foundation
+Value=Building Foundation
 
 
 [OBJECT:ArnorCastleWallUpgrade]
@@ -50491,7 +50498,7 @@ Value=Rivendell Forge
 
 
 [OBJECT:ArnorMarket]
-Value=Rivendell Library
+Value=Elrond's Library
 
 
 [OBJECT:ArnorHeroStatue]
@@ -50583,12 +50590,11 @@ Value=Build Rivendell Orchard (&W)
 
 
 [CONTROLBAR:ConstructArnorBarracks]
-Value=Build Rivendell Dormitory (&N)
+Value=Build Rivendell Dormitory (&V)
 
 
 [CONTROLBAR:ToolTipConstructArnorBarracks]
-Value=Trains the Elves of Rivendell 
-Valueline2= Increases command point limit by 25
+Value=Gathers the Elves of Rivendell
 
 
 [CONTROLBAR:ConstructArnorArcheryRange]
@@ -50601,8 +50607,13 @@ Value=Build Bree-land Encampment (&W)
 
 
 [CONTROLBAR:ToolTipArnorArcheryRange]
-Value=Trains Hobbits and Men from Bree 
-Valueline2= Increases command point limit by 25
+Value=Recruits Bree-landers and Halflings from Eriador
+
+
+[CONTROLBAR:ToolTipArnorArcheryRangeWotR]
+Value=Primary Barracks 
+Valueline2= Recruits Bree-landers and Halflings from Eriador 
+Valueline3= Limited to 2
 
 
 [CONTROLBAR:ConstructArnorStable]
@@ -50638,13 +50649,11 @@ Valueline2= Can be garrisoned with archers for increased damage output
 [CONTROLBAR:ToolTipConstructArnorWell]
 Value=Units near well auto-heal if not under attack 
 Valueline2= Detects stealth
-Valueline3= Increases command point limit by 10
 
 
 [CONTROLBAR:ToolTipConstructArnorStatue]
 Value=Leadership bonus to nearby troops 
-Valueline2= Reduces cost of infantry 
-Valueline3= Increases command point limit by 10
+Valueline2= Reduces cost of infantry
 
 
 [CONTROLBAR:ConstructArnorWallHub]
@@ -50653,6 +50662,10 @@ Value=Rivendell Wall Hub (&A)
 
 [CONTROLBAR:ConstructArnorFortress]
 Value=Rivendell Conservatory (Fortress) (&I)
+
+
+[CONTROLBAR:ConstructArnorFortressWOTR]
+Value=Outpost (&I)
 
 
 [CONTROLBAR:ToolTipConstructArnorWallHub]
@@ -50664,6 +50677,12 @@ Value=Recruits Builders and Heroes
 Valueline2= Can be upgraded with improvements and expansions
 
 
+[CONTROLBAR:ToolTipConstructArnorFortressWOTR]
+Value=Recruits Builders and revives Heroes 
+Valueline2= Generates 100 resources per tick 
+Valueline3= Increases command point limit by 900
+
+
 [CONTROLBAR:ConstructArnorWell]
 Value=Build Well of Celebrian (&G)
 
@@ -50673,25 +50692,23 @@ Value=Build Statue of Gil-galad (&U)
 
 
 [CONTROLBAR:ConstructArnorMarketPlace]
-Value=Build Rivendell Library (&M)
+Value=Build Elrond's Library (&M)
 
 
 [CONTROLBAR:ToolTipConstructArnorMarketPlace]
-Value=Library creates various upgrades 
-Valueline2= Limited to 1 
-Valueline3= Increases command point limit by 25
+Value=Elrond's Library holds many ancient books that can be accessed for unique upgrades and effects 
+Valueline2= Limited to 1
 
 
 [CONTROLBAR:ToolTipConstructArnorMarketPlace_Disabled]
-Value=Library creates various upgrades 
-Valueline2= Limited to 1 
-Valueline3= Increases command point limit by 25 
-Valueline4= 
-Valueline5= The Library is already built
+Value=Elrond's Library holds many ancient books that can be accessed for unique upgrades and effects 
+Valueline2= Limited to 1
+Valueline3= 
+Valueline4= The Library is already built
 
 
 [OBJECT:ArnorMarketPlaceDescription]
-Value=Creates various upgrades
+Value=Holds many ancient tomes that can be accessed for unique upgrades and effects
 
 
 [CONTROLBAR:ConstructArnorStoneMaker]
@@ -69451,7 +69468,7 @@ Value=Representatives of Elves and Men
 
 [CONTROLBAR:ToolTipTwinsHeroesLeadershipElladan]
 Value=Modifier Type: Leadership 
-Valueline2= Grants +25% armour to nearby Bree-landers, Dúnedain and Elves 
+Valueline2= Grants 25% armour to nearby Bree-landers, Dúnedain and Elves 
 Valueline3= At level 5, reduces recharge time for nearby heroes abilities by 25% and 
 Valueline4= increases auto-heal of nearby heroes by 25%
 Valueline5= Does not affect his brother 
@@ -69461,7 +69478,7 @@ Valueline7= Passive ability
 
 [CONTROLBAR:ToolTipTwinsHeroesLeadershipElrohir]
 Value=Modifier Type: Leadership 
-Valueline2= Grants +25% damage to nearby Bree-landers, Dúnedain and Elves 
+Valueline2= Grants 25% damage to nearby Bree-landers, Dúnedain and Elves 
 Valueline3= At level 5, reduces recharge time for nearby heroes abilities by 25% and 
 Valueline4= increases auto-heal of nearby heroes by 25%
 Valueline5= Does not affect his brother 
@@ -70016,6 +70033,7 @@ Value=Requires Level 3
 Valueline2= Modifier Type: Level
 Valueline3= Units permanently gain 33% armour
 Valueline4= Stacks with Leadership, Buffs, and Spells
+Valueline4= The Chetwood was a large stretch of woodland near Bree. Bree-landers often ventured there to hunt for rabbits and deer.
 
 
 [OBJECT:NoldorVeterans]
@@ -81026,6 +81044,20 @@ Value=Requires Level 3 Spire of Angmar
 Value=Requires a Level 3 Spire of Angmar
 Value=Requires Level 2 Spire of Angmar
 Value=Requires a Level 3 Spire of Angmar
+[OBJECT:ArnorArvedui]
+Value=Arvedui
+
+[CONTROLBAR:ArnorArveduiRecruit]
+Value=Recruit the last King of Arthedain
+Valueline2=
+[CONTROLBAR:ArnorArveduiRevive]
+Value=Revive the fallen Hero, Arvedui
+
+[CONTROLBAR:ArnorArveduiHotkey]
+Value=Arvedui, King of Arthedain (&R)
+
+[CONTROLBAR:ArveduiLastKing]
+Value=Last King (&W)
 [CONTROLBAR:PurchaseUpgradeGondorHeavyArmorLongbowman]
 Value=Purchase Steel Cuirasses (&C)
 Valueline2= Only affects units that can receive Steel Cuirasses 
