@@ -50846,7 +50846,7 @@ Value=Rivendell Archers (&E)
 
 
 [CONTROLBAR:ConstructArnorRangerHorde]
-Value=Dúnedain Rangers (&W)
+Value=Rangers of the North (&W)
 
 
 [CONTROLBAR:ConstructRivendellGreyCompanyHorde]
@@ -59827,16 +59827,16 @@ Valueline3=Strong vs. Swordsmen
 
 
 [BANNERUI:DunedainRanger]
-Value=Dúnedain Ranger
+Value=Ranger
 
 [BANNERUI:DunedainRangers]
-Value=Dúnedain Rangers
+Value=Rangers of the North
 
 [CONTROLBAR:LW_Unit_GondorRangerHordeDunedain]
-Value=Dúnedain Ranger Battalion
+Value=Rangers of the North Battalion
 
 [CONTROLBAR:LW_Unit_GondorRangerHordeDunedainPlural]
-Value=Dúnedain Ranger Battalions
+Value=Rangers of the North Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_GondorTrebuchet]
@@ -62169,7 +62169,7 @@ Value=Muster the Dúnedain (&T)
 
 [CONTROLBAR:ToolTipHalbaradMuster]
 Value=Requires Level 3 
-Valueline2= The recruit times of Dúnedain Rangers and Dúnedain Outriders are temporarily decreased by 150% for 45 seconds
+Valueline2= The recruit times of Rangers of the North and Dúnedain Outriders are decreased by 150% for 45 seconds
 Valueline3= Left click to activate
 
 
@@ -69890,9 +69890,13 @@ Value=Woodscraft (&V)
 
 
 [CONTROLBAR:ToolTipElvenRangerCloak]
-Value=Requires Level 2 
-Valueline2= The battalion becomes invisible when standing still 
-Valueline3= Left click to activate
+Value=Requires Level 2
+Valueline2=Modifier Type: Leadership
+Valueline3=Rangers of the North grant nearby Hobbits +15% armour
+Valueline4= Passive ability
+Valueline5=
+Valueline6=The battalion becomes invisible when standing still
+Valueline7= Left click to activate
 
 
 [CONTROLBAR:ToolTipElvenRangerCloakOutriders]
@@ -74100,11 +74104,11 @@ Value=Bree-land Townsguards
 
 
 [CONTROLBAR:LW_Unit_ArnorRangerHorde]
-Value=Dúnedain Ranger Battalion
+Value=Rangers of the North Battalion
 
 
 [CONTROLBAR:LW_Unit_ArnorRangerHordePlural]
-Value=Dúnedain Ranger Battalions
+Value=Rangers of the North Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_ArnorRangerHorde]
@@ -74122,19 +74126,19 @@ Valueline4=Can toggle weapon
 
 
 [BANNERUI:RivendellRanger]
-Value=Dúnedain Ranger
+Value=Ranger
 
 
 [BANNERUI:RivendellRangers]
-Value=Dúnedain Rangers
+Value=Rangers of the North
 
 
 [CONTROLBAR:LW_Unit_ArnorRangerHorde]
-Value=Dúnedain Ranger Battalion
+Value=Rangers of the North Battalion
 
 
 [CONTROLBAR:LW_Unit_ArnorRangerHordePlural]
-Value=Dúnedain Ranger Battalions
+Value=Rangers of the North Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_ArnorRangerHorde]
@@ -74152,11 +74156,11 @@ Valueline4=Can toggle weapon
 
 
 [BANNERUI:RivendellRanger]
-Value=Dúnedain Ranger
+Value=Ranger
 
 
 [BANNERUI:RivendellRangers]
-Value=Dúnedain Rangers
+Value=Rangers of the North
 
 
 [CONTROLBAR:LW_Unit_DunedainOutriderHorde]
