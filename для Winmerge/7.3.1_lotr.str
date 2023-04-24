@@ -50751,7 +50751,7 @@ Valueline2= Allows recruitment of Farmer Maggot
 Valueline3= Heals nearby damaged siege engines
 
 [CONTROLBAR:ToolTipBuildArnorArcheryRangeLevel3Upgrade_WOTR]
-Value=Level 3: +25% faster build speed 
+Value=Level 3: +25% faster build speed
 Valueline2= Heals nearby damaged siege engines
 
 [CONTROLBAR:ConstructArnorBarracks2Upgrade]
@@ -50759,7 +50759,7 @@ Value=Upgrade Dormitory to Level 2 (&A)
 
 [CONTROLBAR:ToolTipBuildArnorBarracksLevel2Upgrade]
 Value=Level 2: +10% faster build speed  
-Valueline2= Allows recruitment of Quingar
+Valueline2= Allows recruitment of Rivendell Archers
 
 [CONTROLBAR:ConstructArnorBarracksLevel3Upgrade]
 Value=Upgrade Dormitory to Level 3 (&A)
@@ -50768,7 +50768,7 @@ Value=Upgrade Dormitory to Level 3 (&A)
 Value=Rivendell Forge
 
 [OBJECT:RivendellBlacksmithDescription]
-Value=Upgrades weapons and armor 
+Value=Researches weapons and armour upgrades 
 Valueline2= Generates resources based on available terrain 
 Valueline3= Steel Bonus - Reduced cost of upgrades 
 Valueline4= 2 Forges: 5% 
@@ -50783,7 +50783,7 @@ Value=Build Rivendell Forge (&R)
 
 
 [CONTROLBAR:ToolTipConstructRivendellBlacksmith]
-Value=Upgrades weapons and armor 
+Value=Researches weapons and armour upgrades 
 Valueline2= Generates resources based on available terrain 
 Valueline3= Increases command point limit by 50 
 Valueline4= Steel Bonus - Reduces cost of upgrades 
@@ -57706,7 +57706,7 @@ Valueline2= Increases command point limit by 25
 
 [CONTROLBAR:ToolTipConstructRohanBarracks]
 Value=Trains the melee infantry of Rohan 
-Valueline2= Upgrades weapons and armor 
+Valueline2= Researches weapons and armour upgrades 
 Valueline3= Generates a small amount of resources based on avaliable terrain 
 Valueline4= Increases command point limit by 25
 
@@ -57787,7 +57787,7 @@ Value=+25% faster build speed
 Valueline2= Increased healing to nearby damaged siege machines
 
 [OBJECT:GondorBlacksmithDescription]
-Value=Upgrades weapons and armor 
+Value=Researches weapons and armour upgrades 
 Valueline2= Provides worked metals as a resource based on available terrain 
 Valueline3= Steel Bonus - Reduced cost of upgrades 
 Valueline4= 2 Blacksmiths: 5% 
@@ -81024,6 +81024,8 @@ Value=Primary Upgrade: Green Pasture (&R)
 Value=Turns the Mallorn Tree into a Green Pasture 
 [CONTROLBAR:UpgradeMallornGreenPastureFake]
 Value=Primary Upgrade: Green Pasture
+Valueline2=Researches weapons and armour upgrades
+Value=Researches weapons and armour upgrades 
 [CONTROLBAR:PurchaseTechnologyMirkwoodSilverthornArrows_Dorwinion]
 Value=Research Silvan Fletching (&T)
 
@@ -81060,6 +81062,7 @@ Value=Arvedui, King of Arthedain (&R)
 Value=Last King (&W)
 [CONTROLBAR:PurchaseUpgradeGondorHeavyArmorLongbowman]
 Value=Purchase Steel Cuirasses (&C)
+Valueline2=Researches weapons and armour upgrades
 Valueline2= Only affects units that can receive Steel Cuirasses 
 [OBJECT:IthilienStorehouse]
 Value=Ithilien Storehouse
