@@ -61368,8 +61368,7 @@ Valueline2=Strong vs. Pikemen
 Valueline3=
 Valueline4= Horde Bonus 
 Valueline5= Modifier Type: Spell 
-Valueline6= All Gundabad Orcs gain +50% damage when gathered in numbers of 100 or more 
-Valueline7= Stacks with buffs, Leadership and other spells
+Valueline6= All Gundabad Orcs gain +50% damage when gathered in numbers of 100 or more
 
 
 [CONTROLBAR:MordorWitchkingMorgulCorruption]
@@ -61379,14 +61378,14 @@ Value=Morgul Blade (&T)
 [CONTROLBAR:ToolTipMordorWitchkingMorgulCorruption]
 Value=Requires Level 4 
 Valueline2= Targeted enemy takes poison damage
-Valueline3=over time, and becomes a wight upon death 
-Valueline4= Can only use when dismounted 
+Valueline3=over time for 10 seconds, and becomes a wight upon death 
+Valueline4= Target enemy hero is stunned for 10 seconds and their ability timers are set to just used 
 Valueline5= Left click icon then left click on target
 
 
 [CONTROLBAR:TooltipLoneTower]
 Value=Summons a defensive tower garrisoned with archers 
-Valueline2= Archers recieve fire arrows once the upgrade is bought at the blacksmith 
+Valueline2= Archers receive fire arrows once the upgrade is bought at the blacksmith 
 Valueline3= Left click icon then left click on pathable location
 
 
@@ -61402,17 +61401,41 @@ Valueline2= Left click icon then left click on target area
 
 [CONTROLBAR:TooltipLoneTowerGondor]
 Value=Summons a defensive tower garrisoned with archers 
-Valueline2= Archers recieve fire arrows once the upgrade is bought at the archery range 
+Valueline2= Archers receive fire arrows once the upgrade is bought at the archery range 
 Valueline3= 
-Valueline4= All nearby allied units gain +10% armour 
-Valueline5= Stacks with Buffs and Spells 
-Valueline6= Left click icon then left click on pathable location
+Valueline4= All nearby allied units gain +25% armour 
+Valueline5= Left click icon then left click on pathable location
+
+
+[CONTROLBAR:TooltipLoneTowerGondorGC]
+Value=Summons a defensive tower garrisoned with archers 
+Valueline2= Archers receive fire arrows once the upgrade is bought at the forge 
+Valueline3= 
+Valueline4= All nearby allied units gain +25% armour 
+Valueline5= Left click icon then left click on pathable location
+
+
+[CONTROLBAR:TooltipLoneTowerIthilien]
+Value=Summons a defensive tower which can be garrisoned with archers 
+Valueline2= Tower is defended by Ithilien Skirmishers and Sentinels 
+Valueline3= Left click icon then left click on pathable location
+
+
+[CONTROLBAR:LoneTowerWotR]
+Value=Ruin of the Past
+
+
+[CONTROLBAR:TooltipLoneTowerWotR]
+Value=Summons a defensive tower which can be garrisoned with archers 
+Valueline2= Left click icon then left click on pathable location
 
 
 [CONTROLBAR:TooltipBarricade]
 Value=Summons a defensive tower garrisoned with archers 
 Valueline2= Benefits from the Fire Arrows upgrade 
-Valueline3= Left click icon then left click on pathable location
+Valueline3= 
+Valueline4= All nearby allied units gain +25% armour 
+Valueline5= Left click icon then left click on pathable location
 
 
 [OBJECT:HearthWellDescription]
@@ -61422,14 +61445,12 @@ Valueline2= Detects stealth
 
 [OBJECT:MirkwoodWellDescription]
 Value=Heals nearby allies 
-Valueline2= Detects stealth 
-Valueline3= Increases command point limit by 10
+Valueline2= Detects stealth
 
 
 [OBJECT:DwarvenWellDescription]
 Value=Heals nearby allies 
 Valueline2= Detects stealth
-Valueline3=Increases command point limit by 10
 
 
 [CONTROLBAR:Trollfindunittothrow]
@@ -78859,9 +78880,26 @@ Value=Evasion (&R)
 
 [CONTROLBAR:ToolTipSilvanEscape]
 Value=Requires Level 2
-Valueline2=Silvan units temporarily gain 25% armour,
-Valueline3= 10% speed and knockback resistance
+Valueline2=Silvan units gain 25% armour,
+Valueline3= 10% speed and knockback resistance for 20 seconds
 Valueline4=Left click to activate
+
+
+[CONTROLBAR:ToolTipIthilienEscape]
+Value=Requires Level 2
+Valueline2=Ithilien Sentinels gain 25% armour,
+Valueline3= 10% speed and knockback resistance for 20 seconds
+Valueline4=Left click to activate
+
+
+[CONTROLBAR:DeathToTheForgoil]
+Value=Death to the Forgoil! (&R)
+
+
+[CONTROLBAR:ToolTipDeathToTheForgoil]
+Value=Requires Level 2
+Valueline2=Dunlending Spearmen gain 15% armour and immunity to fear and terror for 30 seconds
+Valueline3=Left click to activate
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodWarriorHorde]
