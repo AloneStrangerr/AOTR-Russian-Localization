@@ -50627,6 +50627,10 @@ Value=Build Dúnedain Gathering (&R)
 [CONTROLBAR:ToolTipConstructArnorStable]
 Value=Trains Dúnedain of the North 
 Valueline2= Increases command point limit by 25
+[CONTROLBAR:ToolTipConstructHallOfFire]
+Value=Tertiary Barracks 
+Valueline2= Recruits Rivendell Revelers 
+Valueline3= Limited to 1
 
 
 [CONTROLBAR:ConstructArnorWorkshop]
@@ -50932,26 +50936,29 @@ Value=Strong at Range
 Value=Strong vs. All Normal Troops and Heroes 
 Valueline2=Requires the Lay of Leithian from the Library
 Valueline3=Can stealth near trees
-Valueline4=Only 1 unit of Grey Company are allowed at any time.
-Valueline5=
-Valueline6= Gathered by Halbarad, captain of the Dúnedain, these grim-faced warriors rode South to aid Aragorn, their chieftain.
+Valueline4=Hero Unit
+Valueline5=Only 1 unit of Grey Company are allowed at any time.
+Valueline6=
+Valueline7= Gathered by Halbarad, captain of the Dúnedain, these grim-faced warriors rode South to aid Aragorn, their chieftain.
 
 
 [CONTROLBAR:ToolTipBuildRivendellGreyCompanyHorde_GC]
-Value=Strong vs. All Normal Troops and Heroes 
-Valueline2=Requires the Lay of Leithian
+Value=Strong vs. All Normal Troops and Heroes
+Valueline2=Requires the Tower of Ecthelion fortress upgrade
 Valueline3=Can stealth near trees
-Valueline4=Limited to 2
-Valueline5=
-Valueline6= Gathered by Halbarad, captain of the Dúnedain, these grim-faced warriors rode South to aid Aragorn, their chieftain.
+Valueline4=Hero Unit
+Valueline5=Limited to 2
+Valueline6=
+Valueline7= Gathered by Halbarad, captain of the Dúnedain, these grim-faced warriors rode South to aid Aragorn, their chieftain.
 
 
 [CONTROLBAR:ToolTipBuildArnorRangerHorde]
 Value=Versatile unit able to be upgraded for different situations
 Valueline2=Initially start with bows 
 Valueline3= Strong at Range
-Valueline4=
-Valueline5= These dour, silent men thanklessly guard the borders of the Shire and the Breeland against those that would see it burn.
+Valueline4=Can stealth near trees
+Valueline5=
+Valueline6= These dour, silent men thanklessly guard the borders of the Shire and the Breeland against those that would see it burn.
 
 
 [CONTROLBAR:ToolTipBuildElvenImladrisWarriorHordeWithNoPrerequisitesS]
@@ -50987,6 +50994,22 @@ Valueline3= A party of Elven Revelers
 Valueline4= Limited to 5
 Valueline5=
 Valueline6=The long history of the Elves is oft related through song and music, both sad and joyous.
+
+
+[CONTROLBAR:ToolTipBuildRivendellRevelerHordeWotR]
+Value=Rivendell Revelers
+Valueline2= A party of Elven Revelers 
+Valueline3=Limited to 5
+Valueline4=
+Valueline5=The long history of the Elves is oft related through song and music, both sad and joyous.
+
+
+[CONTROLBAR:ToolTipBuildRivendellRevelerHordeNoRequirements]
+Value=Rivendell Revelers 
+Valueline2= A party of Elven Revelers 
+Valueline3= Limited to 5
+Valueline4=
+Valueline5=The long history of the Elves is oft related through song and music, both sad and joyous.
 
 
 [CONTROLBAR:ToolTipBuildArnorShieldGuardHordeCav]
@@ -71522,6 +71545,9 @@ Valueline6= Stacks with Buffs and Spells
 Valueline7= Replenishes health and units in nearby battalions
 Valueline8= The Hall of Fire may call forth vivid images of the past that inspire fear and deal damage to enemy units 
 Valueline9= Limited to 3
+Valueline2=
+Valueline3=Recruits Rivendell Revelers
+Valueline4=Limited to 1
 
 
 [CONTROLBAR:HallOfFireSpawnGilGalad]
