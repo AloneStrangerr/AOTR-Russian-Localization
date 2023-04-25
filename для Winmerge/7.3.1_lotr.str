@@ -51110,7 +51110,7 @@ Valueline3= Select a battalion to upgrade
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorFireArrows]
-Value=Increases base damage and adds Magic damage to arrows 
+Value=Increases base damage and adds magic damage to arrows 
 Valueline2= Left click to upgrade this unit
 
 
@@ -51169,12 +51169,12 @@ Valueline3= Significantly reduces the amount of damage taken
 
 
 [CONTROLBAR:PurchaseTechnologyArnorBasicTraining]
-Value=Research Banner Carriers (&W)
+Value=Research Banners of the Noldorin (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyArnorBasicTraining]
-Value=Increases a unit to Level 2 
-Valueline2= Can only be equipped at Level 1
+Value=Allows hordes to purchase the Banners of the Noldorin upgrade 
+Valueline2= Increases a battalion to Level 2
 
 
 [CONTROLBAR:PurchaseUpgradeArnorBasicTrainingEredLuin]
@@ -51182,7 +51182,7 @@ Value=Purchase Ered Luin Venturer (&V)
 
 
 [CONTROLBAR:PurchaseUpgradeArnorBasicTraining]
-Value=Purchase Banner Carrier (&V)
+Value=Purchase Banners of the Noldorin (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorBasicTraining]
@@ -51213,7 +51213,7 @@ Value=Horseman Shields
 
 
 [UPGRADE:ArnorBasicTraining]
-Value=Banner Carrier
+Value=Banners of the Noldorin
 
 
 
@@ -51242,8 +51242,7 @@ Value=Trebuchet Expansion (&W)
 
 
 [CONTROLBAR:ToolTipConstructArnorTrebuchetExpansion]
-Value=Long range defensive weapon 
-Valueline2= Benefits from the Flaming Munitions upgrade
+Value=Long range defensive weapon
 
 
 [CONTROLBAR:ConstructArnorArrowTowerExpansion]
@@ -51264,8 +51263,7 @@ Valueline2= Increases decommission value of units
 
 
 [CONTROLBAR:ToolTipConstructArnorArrowTowerExpansion]
-Value=Short range defensive tower 
-Valueline2= Benefits from the Flaming Munitions upgrade
+Value=Short range defensive tower
 
 
 [CONTROLBAR:Command_ConstructArnorWallHubExpansion]
@@ -51281,7 +51279,7 @@ Value=Númenor S&tonework
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorFortressNumenorStonework]
-Value=Increases Fortress and Wall armor 
+Value=Increases Fortress and Wall armour by 65% 
 Valueline2= Prerequisite for Tower of Ecthelion
 
 
@@ -51309,7 +51307,7 @@ Value=&Girdle of Imladris
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorFortressHouseOfHealing]
-Value=Drastically increases armor of fortress
+Value=Drastically increases armour of fortress
 
 
 [CONTROLBAR:PurchaseUpgradeArnorFortressIvoryTower]
@@ -51707,14 +51705,14 @@ Value=Chieftain of the Dúnedain
 
 [CONTROLBAR:ToolTipDunedainChieftain]
 Value=Nearby Dúnedain gain +33% attack damage 
-Valueline2= and become immune to fear
+Valueline2= and become immune to fear and terror
 Valueline3= Passive power 
 Valueline4= 
 Valueline5= Isildur's Heir 
 Valueline6= Requires Level 9 and Andúril Upgrade 
 Valueline7= Nearby Dúnedain gain +33% attack damage 
-Valueline8= and become immune to fear 
-Valueline9= When activated, all nearby units gain +33% damage, +50% armour and become immune to fear
+Valueline8= and become immune to fear and terror
+Valueline9= When activated, all nearby units gain +33% damage and +50% armour for 20 seconds
 
 
 [CONTROLBAR:AragornIsildurHeir]
@@ -51722,12 +51720,13 @@ Value=Isildur's Heir (&T)
 
 
 [CONTROLBAR:ToolTipFellowshipAragornIsildurHeir]
-Value=Nearby Dúnedain gain +33% attack damage and become immune to fear
+Value=Nearby Dúnedain gain +33% attack damage and become immune to fear and terror
 Valueline2= Passive power 
 Valueline3=
 Valueline4= Active ability: Requires Level 9 and Andúril 
-Valueline5= When activated, all nearby units gain +33% damage, 
-Valueline6= +50% armour and become immune to fear
+Valueline5= When activated, all nearby units gain +33% damage and +50% armour for 20 seconds
+
+
 
 
 [CONTROLBAR:ArnorAragornBlademaster]
