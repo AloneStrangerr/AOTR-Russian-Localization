@@ -60972,6 +60972,16 @@ Value=Order Mumak to trample the enemy
 Valueline2= Left click icon then left click on target
 
 
+[CONTROLBAR:ToolTipSpecialAbilityChargeAttackHarad]
+Value=Modifier Type: Leadership 
+Valueline2= Nearby friendly units gain +15% armour against ranged attacks 
+Valueline3= Nearby structures gain +15% armour 
+Valueline4=Passive ability 
+Valueline5=
+Valueline6= Can be cast to order Mûmak to trample the enemy 
+Valueline7= Left click icon then left click on target
+
+
 [CONTROLBAR:ToolTipGothmogIronHand]
 Value=Orcs near Gothmog gain 
 Valueline2= +33% damage, +33% armour,
@@ -60979,7 +60989,7 @@ Valueline3= Immunity to fear and terror
 Valueline4=and earn experience 50% faster
 Valueline5=Passive ability
 Valueline6=
-Valueline7=At rank 5, can be activated to call down a barrage of severed heads into a targeted area, dealing poison damage
+Valueline7=At rank 5, can be activated to call down a barrage of severed heads into a targeted area, causing fear in enemy units and dealing poison damage for 20 seconds
 Valueline8=Left click icon then click on target area
 
 
@@ -61056,7 +61066,8 @@ Valueline2= Left click icon then left click on target location
 
 [CONTROLBAR:ToolTipToggleTowerGuardLineToPorcupineFormation]
 Value=The units form a circle with pikes extended
-Valueline2=+100% armour
+Valueline2=Battalion cannot move
+Valueline3=+75% armour
 
 
 [CONTROLBAR:ToolTipToggleLineToSchiltronFormation]
@@ -61066,8 +61077,8 @@ Valueline2=-33% movement speed, +10% armour, bonus damage to cavalry
 
 [CONTROLBAR:ToolTipToggleLorienSentryLineToPorcupineFormation]
 Value=The units form a circle with pikes extended
-Valueline2= Battalion cannot move
-Valueline3=+50% armour
+Valueline2=Battalion cannot move
+Valueline3=+75% armour
 
 
 [CONTROLBAR:ToolTipEowynMount]
@@ -61086,7 +61097,7 @@ Valueline3= When mounted on Windfola, Eowyn gains +25% armour near Rohirrim unit
 
 [CONTROLBAR:ToolTipShieldMaiden]
 Value=Requires Level 4 
-Valueline2= Eowyn gains +100% armour 
+Valueline2= Éowyn gains +100% armour 
 Valueline3= Left click to activate
 
 
@@ -61146,6 +61157,11 @@ Valueline4=and earn experience 50% faster
 Valueline5=Passive ability
 
 
+[CONTROLBAR:TooltipUpgradeMordorSiegeWorksLevel3Rhun]
+Value=Increased healing to nearby damaged siege machines
+Valueline2=+25% faster build speed
+
+
 [CONTROLBAR:SpecialAbilityVenomSacSpider]
 Value=&Venom Sacs
 
@@ -61180,20 +61196,19 @@ Value=Rhudaur Hillmen Rebels
 
 
 [CONTROLBAR:ToolTipBuildAngmarHallofTwilightLevel2Upgrade]
-Value=Allows training of Black Númenórean units
+Value=Allows training of Black Númenórean Warriors
 Valueline2= +10% faster build speed
 
 [CONTROLBAR:TooltipBuildAngmarHallofTwilightLevel3Upgrade]
-Value=Allows training of Hasharin Blades and Watchers of Kârna 
-Valueline2= +25% Build Speed
+Value=Unlocks the Blessing of Belegûr ability 
+Valueline2= +25% faster build speed
 
 
 [CONTROLBAR:TooltipKnightsofDolChargeofGlory]
 Value=Requires Level 5 
-Valueline2= Swan Knights gain
-Valueline3=+33% damage, +33% armour, and -50% Crush Decelerate 
-Valueline4= No force can slow this charge 
-Valueline5= Left click to Activate
+Valueline2= Swan Knights gain +33% damage, +33% armour, and -50% Crush Deceleration for 20 seconds 
+Valueline3= No force can slow this charge 
+Valueline4= Left click to Activate
 
 
 [CONTROLBAR:ToolTipNoldorWeaponSong]
@@ -61206,7 +61221,7 @@ Valueline4= Left click to activate
 
 [CONTROLBAR:ToolTipZerkSlayer]
 Value=Requires Level 3 
-Valueline2= Adâruf-sulûkh deal fire damage per attack, gain +15% movement speed and can trample enemies for 20 seconds
+Valueline2= Wyrm-slayers deal fire damage per attack, gain +15% movement speed and can trample enemies for 20 seconds
 Valueline3=Left click to activate
 
 
@@ -61224,21 +61239,19 @@ Valueline3= Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipFrozenLandAotR]
-Value=Freezes an area of terrain 
+Value=Freezes an area of terrain for 3 minutes 
 Valueline2= Modifier Type: Leadership and Spell 
 Valueline3= All allied units gain +25% damage, +25% armour and earn experience 50% faster 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5=Enemy units suffer -25% speed 
-Valueline6= Extinguishes all fires
-Valueline7=Left click icon then left click on target area
+Valueline4=Enemy units suffer -15% speed 
+Valueline5= Extinguishes all fires
+Valueline6=Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipNecroBlackIce]
 Value=Modifier Type: Spell 
-Valueline2= Targeted enemy units suffer -33% speed 
-Valueline3= Stacks with Buffs, Leadership and other Spells 
-Valueline4= Extinguishes fires 
-Valueline5= Left click icon then left click on target area
+Valueline2= Targeted enemy units suffer -33% speed
+Valueline3= Extinguishes fires 
+Valueline4= Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipUpgradeMordorTrollCageLevel3]
@@ -61252,21 +61265,19 @@ Valueline2= Player must maintain a Marketplace to benefit from this upgrade
 
 
 [OBJECT:GondorMarketPlaceDescription]
-Value=Increases resources from farms by 15%
+Value=Increases resources from farms by 12%
 
 
 [CONTROLBAR:ToolTipConstructMenMarketPlace]
-Value=Increases resources from farms by 15%
-Valueline2= Increases command point limit by 25 
-Valueline3= Limited to 1
+Value=Increases resources from farms by 12%
+Valueline2= Limited to 1
 
 
 [CONTROLBAR:ToolTipConstructMenMarketPlace_Disabled]
-Value=Increases resources from farms by 15%
-Valueline2= Limited to 1 
-Valueline3= Increases command point limit by 25 
-Valueline4= 
-Valueline5= The Marketplace is already built
+Value=Increases resources from farms by 12%
+Valueline2= Limited to 1
+Valueline3=
+Valueline4= The Marketplace is already built
 
 
 [CONTROLBAR:ToolTipBuildGoblinFighterHorde]
@@ -61274,10 +61285,9 @@ Value=Strong vs. Pikemen
 Valueline2=
 Valueline3= Horde Bonus 
 Valueline4= Modifier Type: Spell 
-Valueline5= All Moria Orc Screechers, Moria Orc Archers and Goblin-town Warriors gain +50% damage when gathered in numbers of 150 or more 
-Valueline6= Stacks with buffs, Leadership and other spells 
-Valueline7= 
-Valueline8= After the Dwarves abandoned Khazad-dum, these Orcish usurpers plundered and desecrated its emptied halls.
+Valueline5= All Moria-orc Screechers, Moria-orc Archers and Moria-orc Spearmen gain +50% damage when gathered in numbers of 150 or more
+Valueline6= 
+Valueline7= After the Dwarves abandoned Khazad-dum, these Orcish usurpers plundered and desecrated its emptied halls.
 
 
 [CONTROLBAR:ToolTipBuildGoblinArcherHorde]
@@ -61285,10 +61295,9 @@ Value=Strong vs. Infantry
 Valueline2=
 Valueline3= Horde Bonus 
 Valueline4= Modifier Type: Spell 
-Valueline5= All Moria Orc Screechers, Moria Orc Archers and Goblin-town Warriors gain +50% damage when gathered in numbers of 150 or more 
-Valueline6= Stacks with buffs, Leadership and other spells 
-Valueline7= 
-Valueline8= These Orcish archers sealed their deadly reputation upon slaying Balin, as he stood looking upon the Mirrormere outside of the East-gate.
+Valueline5= All Moria-orc Screechers, Moria-orc Archers and Moria-orc Spearmen gain +50% damage when gathered in numbers of 150 or more
+Valueline6= 
+Valueline7= These Orcish archers sealed their deadly reputation upon slaying Balin, as he stood looking upon the Mirrormere outside of the East-gate.
 
 
 [CONTROLBAR:ToolTipBuildMordorOrcFighterHorde]
@@ -61296,10 +61305,19 @@ Value=Strong vs. Pikemen
 Valueline2=
 Valueline3= Horde Bonus 
 Valueline4= Modifier Type: Spell 
-Valueline5= All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more 
-Valueline6= Stacks with buffs, Leadership and other spells
-Valueline7=
-Valueline8= Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr.
+Valueline5= All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more
+Valueline6=
+Valueline7= Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr.
+
+
+[CONTROLBAR:ToolTipBuildIsengardOrcFighterHorde]
+Value=Strong vs. Pikemen 
+Valueline2=
+Valueline3= Horde Bonus 
+Valueline4= Modifier Type: Spell 
+Valueline5= All Orc Warriors and Orc Archers gain +50% damage when gathered in numbers of 100 or more
+Valueline6=
+Valueline7= Saruman used hordes of Orcish snaga to whittle his enemy's forces before sending in the elite Uruk-hai
 
 
 [CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair]
@@ -61307,8 +61325,7 @@ Value=Strong vs. Pikemen
 Valueline2=
 Valueline3= Horde Bonus 
 Valueline4= Modifier Type: Spell 
-Valueline5= All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more 
-Valueline6= Stacks with Buffs, Leadership and other spells
+Valueline5= All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more
 
 
 [CONTROLBAR:ToolTipBuildMordorOrcArcherHorde]
@@ -61316,10 +61333,19 @@ Value=Strong vs. Infantry
 Valueline2=
 Valueline3= Horde Bonus 
 Valueline4= Modifier Type: Spell 
-Valueline5= All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more 
-Valueline6= Stacks with buffs, Leadership and other spells
-Valueline7=
-Valueline8= Largely unskilled and ill-equipped, Mordor's archers are a prime example of strength in numbers.
+Valueline5= Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more
+Valueline6=
+Valueline7= Largely unskilled and ill-equipped, Mordor's archers are a prime example of strength in numbers.
+
+
+[CONTROLBAR:ToolTipBuildIsengardOrcArcherHorde]
+Value=Strong vs. Infantry 
+Valueline2=
+Valueline3= Horde Bonus 
+Valueline4= Modifier Type: Spell 
+Valueline5= Orc Warriors and Orc Archers gain +50% damage when gathered in numbers of 100 or more
+Valueline6=
+Valueline7= Largely unskilled and ill-equipped, Isengard's archers are a prime example of strength in numbers.
 
 
 [CONTROLBAR:ToolTipBuildMordorBlackOrcHorde]
@@ -61330,9 +61356,10 @@ Valueline4= The Black Uruks of Barad-dûr are the elite of Sauron's orc armies, f
 
 
 [CONTROLBAR:ToolTipBuildMordorBlackOrcHordeInn]
-Value=Strong vs. Pikemen 
-Valueline2=
-Valueline3= The Black Uruks of Barad-dûr are the elite of Sauron's orc armies, first bred to devastate Ithilien.
+Value=Requires Level 3 Moria-orc Cave
+Valueline2=Strong vs. Pikemen 
+Valueline3=
+Valueline4= In order to bring some order to the wild Orcs of Moria, Sauron sent a contingent of Black Uruks, tasked with ensuring the loyalty of the mine-dwellers.
 
 
 [CONTROLBAR:TooltipThrallMasterUpgradeOrcWarriors]
