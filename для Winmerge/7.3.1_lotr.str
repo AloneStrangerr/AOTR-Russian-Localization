@@ -50796,11 +50796,13 @@ Valueline9= 6+ Forges: 25%
 
 [CONTROLBAR:ToolTipBuildArnorBarracksLevel3Upgrade]
 Value=Level 3: +25% faster build speed 
-Valueline2= Allows recruitment of Roquentari and Laurëthelyn
+Valueline2= Allows recruitment of Veterans of the Last Alliance and Knights of Rivendell
+Valueline3=Stations a defensive Rivendell Archer
 
 [CONTROLBAR:ToolTipBuildArnorBarracksLevel3Upgrade_WOTR]
-Value=Level 3: +25% faster build speed 
-Valueline2= Allows recruitment of Roquentari
+Value=Level 3: +25% faster build speed
+Valueline2=Allows recruitment of Knights of Rivendell
+Valueline3=Stations a defensive Rivendell Archer
 
 [CONTROLBAR:ConstructArnorStable2Upgrade]
 Value=&Upgrade Gathering to Level 2
@@ -69627,9 +69629,7 @@ Value=Reflections Upon the Battle of Dagorlad (&S)
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellDagorlad]
 Value=A collection of writings on the Battle of Dagorlad. Timelines, battleplans and poetry, gathered by Valandil, son of Isildur.
 Valueline2=
-Valueline3= Allows for an additional battallion of Laurëthelyn to be recruited from the Dormitory 
-Valueline4=
-Valueline5= Sauron's fall came at great cost. With Gil-galad slain, many Elven veterans chose to linger in Rivendell, house of their late King's herald.
+Valueline3= Allows for an additional battalion of Veterans of the Last Alliance to be recruited from the Dormitory
 
 
 [UPGRADE:RivendellAnduril]
@@ -70244,8 +70244,8 @@ Value=Power of the Evenstar (&V)
 
 [CONTROLBAR:ToolTipArwenEvenstar]
 Value=Requires Level 10 
-Valueline2= Allied units within the radius gain fear immunity and get healed when they deal damage for 60 seconds
-Valueline3= Does not affect heroes, Grey Company or Laurëthelyn 
+Valueline2= Rivendell units within the radius gain fear immunity and get healed when they deal damage for 60 seconds
+Valueline3= Does not affect heroes, Grey Company or Veterans of the Last Alliance
 Valueline4= Enemy units within the radius lose all leadership for 60 seconds
 Valueline5= Left click icon then left click on target
 
@@ -74388,14 +74388,14 @@ Value=Roquentari Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_RivendellKnightHorde]
-Value=Rivendell Knights 
+Value=Knights of Rivendell 
 Valueline2= Unit Type: Elite Cavalry
 Valueline3=Strong vs. Infantry
 Valueline4=
 
 
 [CONTROLBAR:LW_ToolTip_RivendellKnightHorde]
-Value=Rivendell Knights 
+Value=Knights of Rivendell 
 Valueline2= Unit Type: Elite Cavalry
 Valueline3=Strong vs. Infantry
 
@@ -74531,8 +74531,8 @@ Valueline3=Left click to activate
 
 
 [CONTROLBAR:ToolTipSongForVictoryKnights]
-Value=The seasoned warriors sing a song of past victories 
-Valueline2=Roquentari temporarily gain reduced trample deceleration
+Value=The seasoned warriors sing a song of past victories
+Valueline2=Knights of Rivendell gain -50% reduced trample deceleration for 15 seconds
 Valueline3=Left click to activate
 
 
@@ -81064,6 +81064,11 @@ Value=Arvedui, King of Arthedain (&R)
 
 [CONTROLBAR:ArveduiLastKing]
 Value=Last King (&W)
+Valueline5=Passive ability
+Valueline6=
+Valueline7=At Level 7, permanently summons a battalion of Veterans of the Last Alliance
+Valueline8=Limited to 1
+Valueline9=Left click to activate
 [CONTROLBAR:PurchaseUpgradeGondorHeavyArmorLongbowman]
 Value=Purchase Steel Cuirasses (&C)
 Valueline2=Researches weapons and armour upgrades
@@ -81115,9 +81120,10 @@ Valueline2= Recommended Faction: Misty Mountains
 Value=Campaign: Evil V - Mirkwood
 
 
-[Map:MAPSPevilMirkwood/Desc]
-Value=Mission V - The Mouth of Sauron commands the forces of Dol Guldur in an attempt to take control of the Old Forest road, a key strategic point for elves of Mirkwood.
-Valueline2= Recommended Faction: Dol Guldur
+[CONTROLBAR:TooltipWotRHeroicWarriorsRivendell]
+Value=Permanently summons a battalion of Laurëthelyn
+Valueline2=Limited to 1
+Valueline3=Left click on icon then left click on target area
 
 
 [Map:MAPSPevilwitheredheath]
