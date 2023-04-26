@@ -46556,6 +46556,205 @@ Value=Disguise
 
 
 
+[CONTROLBAR:DreadPlague_Level1]
+Value=Dread Plague
+
+
+[CONTROLBAR:TooltipDreadPlague_Level1]
+Value=Summons a small controllable, swirling green mist 
+Valueline2= All units, friend and foe, take minor damage and are turned into Wraiths upon death
+Valueline3=Left click icon then left click on pathable location
+
+
+[CAH:Command_SpecialAbilityDreadPlagueLevel1_Name]
+Value=Dread Plague
+
+
+[CONTROLBAR:DreadPlague_Level2]
+Value=Improved Dread Plague
+
+
+[CONTROLBAR:TooltipDreadPlague_Level2]
+Value=Summons a controllable, swirling green mist 
+Valueline2= All units, friend and foe, take damage and are turned into Wraiths upon death
+Valueline3=Left click icon then left click on pathable location
+
+
+[CAH:Command_SpecialAbilityDreadPlagueLevel2_Name]
+Value=Improved Dread Plague
+
+
+[CONTROLBAR:DreadPlague_Level3]
+Value=Mighty Dread Plague
+
+
+[CONTROLBAR:TooltipDreadPlague_Level3]
+Value=Summons a large controllable, swirling green mist 
+Valueline2= All units, friend and foe, take major damage and are turned into Wraiths upon death
+Valueline3=Left click icon then left click on pathable location
+
+
+[CAH:Command_SpecialAbilityDreadPlagueLevel3_Name]
+Value=Mighty Dread Plague
+
+
+[CAH:Command_SpecialAbilityCaHNecromanticBlast_Name]
+Value=Necromantic Blast
+
+
+[CONTROLBAR:CaHNecromanticBlast]
+Value=Necromantic Blast
+
+
+[CONTROLBAR:TooltipCaHNecromanticBlast]
+Value=Enemy units are blasted back and take damage
+Valueline2=Killed units become wraiths
+Valueline3=Left click to activate
+
+
+[CAH:Command_SpecialAbilityAbhorredDread1_Name]
+Value=Abhorred Dread
+
+
+[CONTROLBAR:AbhorredDread_Level1]
+Value=Abhorred Dread
+
+
+[CONTROLBAR:TooltipAbhorredDread_Level1]
+Value=The Wight-lord casts a necromantic spell on nearby enemies, dealing a medium amount of damage and resurrecting the dead as Risen Dead under the player’s control
+Valueline2=Left click to activate
+
+
+[CAH:Command_SpecialAbilityAbhorredDread2_Name]
+Value=Improved Abhorred Dread
+
+
+[CONTROLBAR:AbhorredDread_Level2]
+Value=Improved Abhorred Dread
+
+
+[CONTROLBAR:TooltipAbhorredDread_Level2]
+Value=The Wight-lord casts a necromantic spell on nearby enemies, dealing a large amount of damage and resurrecting the dead as Risen Dead under the player’s control
+Valueline2=Left click to activate
+
+
+[CAH:Command_SpecialAbilityMarchOfTheDamned1_Name]
+Value=March of the Damned
+
+
+[CONTROLBAR:MarchOfTheDamned_Level1]
+Value=March of the Damned
+
+
+[CONTROLBAR:TooltipMarchOfTheDamned_Level1]
+Value=Beckons many hordes of the skeletal dead from the earth
+Valueline2=Left click to activate
+
+
+[CAH:Command_SpecialAbilityMarchOfTheDamned2_Name]
+Value=Improved March of the Damned
+
+
+[CONTROLBAR:MarchOfTheDamned_Level2]
+Value=Improved March of the Damned
+
+
+[CONTROLBAR:TooltipMarchOfTheDamned_Level2]
+Value=Beckons a formidable host of the skeletal dead from the earth
+Valueline2=Left click to activate
+
+
+[CAH:Command_SpecialAbilityIncorporeal_Name]
+Value=Incorporeal
+
+
+[CONTROLBAR:Incorporeal_Level1]
+Value=Incorporeal
+
+
+[CONTROLBAR:TooltipIncorporeal_Level1]
+Value=The Wight-lord becomes incorporeal, allowing him to move quickly across the map while terrifying nearby enemy units 
+Valueline2= Incorporeal does not allow him to attack
+Valueline3=Left click to shift shape
+
+
+[CAH:Command_CreateAHero_SpecialAbilityDeepRot1_Name]
+Value=Deep Rot
+
+
+[CONTROLBAR:DeepRot_Level1]
+Value=Deep Rot
+
+
+[CONTROLBAR:TooltipDeepRot_Level1]
+Value=Can be cast on a structure to deal moderate damage over time
+Valueline2=Left click icon then left click on target building
+
+
+[CAH:Command_CreateAHero_SpecialAbilityDeepRot2_Name]
+Value=Improved Deep Rot
+
+
+[CONTROLBAR:DeepRot_Level2]
+Value=Improved Deep Rot
+
+
+[CONTROLBAR:TooltipDeepRot_Level2]
+Value=Can be cast on a structure to deal strong damage over time
+Valueline2=Left click icon then left click on target building
+
+
+[CAH:Command_CreateAHero_SpecialAbilityDeepRot3_Name]
+Value=Great Deep Rot
+
+
+[CONTROLBAR:DeepRot_Level3]
+Value=Great Deep Rot
+
+
+[CONTROLBAR:TooltipDeepRot_Level3]
+Value=Can be cast on a structure to deal superior damage over time, spawns several uncontrollable Wraiths around the targeted structure
+Valueline2=These Wraiths last a short time but can turn enemy units into Wraiths
+Valueline3=Left click icon then left click on target building
+
+
+[CAH:Command_CreateAHero_SpecialAbilityWitheringTouch1_Name]
+Value=Withering Touch
+
+
+[CONTROLBAR:WitheringTouch_Level1]
+Value=Withering Touch
+
+
+[CONTROLBAR:TooltipWitheringTouch_Level1]
+Value=Nearby units take moderate damage over time, affects both enemies and allies
+Valueline2=Left click to activate
+
+
+[CAH:Command_CreateAHero_SpecialAbilityWitheringTouch2_Name]
+Value=Improved Withering Touch
+
+
+[CONTROLBAR:WitheringTouch_Level2]
+Value=Improved Withering Touch
+
+
+[CONTROLBAR:TooltipWitheringTouch_Level2]
+Value=Nearby units take strong damage over time, affects both enemies and allies
+Valueline2=Left click to activate
+
+
+[CAH:Command_CreateAHero_SpecialAbilityWitheringTouch3_Name]
+Value=Great Withering Touch
+
+
+[CONTROLBAR:WitheringTouch_Level3]
+Value=Great Withering Touch
+
+
+[CONTROLBAR:TooltipWitheringTouch_Level3]
+Value=Nearby units take superior damage over time, affects both enemies and allies
+Valueline2=Left click to activate
 
 
 [CONTROLBAR:TooltipHotWSummonAllies_Level1]
