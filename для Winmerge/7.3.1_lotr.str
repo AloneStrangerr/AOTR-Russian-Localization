@@ -50824,8 +50824,19 @@ Value=Build Dúnedain Gathering (&R)
 
 
 [CONTROLBAR:ToolTipConstructArnorStable]
-Value=Trains Dúnedain of the North 
-Valueline2= Increases command point limit by 25
+Value=Calls upon the Dúnedain of the North
+
+
+[CONTROLBAR:ToolTipConstructArnorStableWotR]
+Value=Secondary Barracks 
+Valueline2= Recruits Dúnedain Outriders 
+Valueline3= Limited to 1
+
+
+[CONTROLBAR:ConstructHallOfFire]
+Value=Build Hall of Fire (&T)
+
+
 [CONTROLBAR:ToolTipConstructHallOfFire]
 Value=Tertiary Barracks 
 Valueline2= Recruits Rivendell Revelers 
@@ -51231,7 +51242,26 @@ Valueline2= Trebuchets do +200 damage
 Value=Build Rivendell Counterweight Porter
 
 
+[OBJECT:NoldorKnight]
+Value=Noldor Knight
 
+
+[OBJECT:NoldorKnightHorde]
+Value=Noldor Knights
+
+
+[CONTROLBAR:ConstructNoldorKnight]
+Value=Noldor Knights (&W)
+
+
+[CONTROLBAR:ToggleNoldorKnightFormation]
+Value=Dírnaith (&W)
+
+
+[CONTROLBAR:ToolTipToggleNoldorKnightFormation]
+Value=Noldor Knights form up into a wedge formation 
+Valueline2= +20% damage, +15% speed, -15% armour 
+Valueline3=Noldor Knights do not deal splash damage when in formation
 
 [CONTROLBAR:ToolTipBuildArnorPeasant]
 Value=Arnor Peasant 
@@ -74787,6 +74817,7 @@ Value=Song of Finwë (&R)
 [CONTROLBAR:ToolTipSongForVictoryGuards]
 Value=The seasoned warriors sing a song of past victories 
 Valueline2=Macari temporarily gain +33% damage
+Valueline2=Noldor Knights gain +33% armour for 15 seconds
 Valueline3=Left click to activate
 
 
@@ -81361,6 +81392,12 @@ Valueline9=Left click to activate
 [CONTROLBAR:PurchaseUpgradeGondorHeavyArmorLongbowman]
 Value=Purchase Steel Cuirasses (&C)
 Valueline2=Researches weapons and armour upgrades
+[CONTROLBAR:ToolTipPurchaseAidFromRivendell]
+Value=Allows the Embassy to temporarily summon a battalion of Noldor Knights
+
+[CONTROLBAR:ToolTipAidFromRivendell]
+Value=Temporarily summons a battalion of Noldor Knights
+Valueline2=Left click to activate
 Valueline2= Only affects units that can receive Steel Cuirasses 
 [OBJECT:IthilienStorehouse]
 Value=Ithilien Storehouse
