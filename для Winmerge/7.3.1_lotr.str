@@ -51254,6 +51254,12 @@ Value=Noldor Knights
 Value=Noldor Knights (&W)
 
 
+[CONTROLBAR:ToolTipBuildNoldorKnight]
+Value=Strong vs. Pikemen 
+Valueline2=
+Valueline3=Though its population had diminished by the end of the Third Age, Imladris remained the dwelling-place of noble Elf-lords unblemished by the growing Shadow.
+
+
 [CONTROLBAR:ToggleNoldorKnightFormation]
 Value=Dírnaith (&W)
 
@@ -51262,6 +51268,17 @@ Value=Dírnaith (&W)
 Value=Noldor Knights form up into a wedge formation 
 Valueline2= +20% damage, +15% speed, -15% armour 
 Valueline3=Noldor Knights do not deal splash damage when in formation
+
+
+[CONTROLBAR:ToggleAmrothKnightFormation]
+Value=Defensive Formation (&W)
+
+
+[CONTROLBAR:ToolTipToggleAmrothKnightFormation]
+Value=Amroth Knights form up into a defensive formation 
+Valueline2= +33% armour and -25% speed 
+Valueline3=Amroth Knights do not deal splash damage when in formation
+
 
 [CONTROLBAR:ToolTipBuildArnorPeasant]
 Value=Arnor Peasant 
@@ -51334,8 +51351,9 @@ Value=Research Swan-Feathered Arrows (&T)
 
 [CONTROLBAR:ToolTipPurchaseTechnologyArnorFireArrows]
 Value=Purchase Swan-Feathered Arrows Upgrade 
-Valueline2= Increases base damage and adds Magic damage to arrows 
-Valueline3= Select a battalion to upgrade
+Valueline2= Increases base damage and adds magic damage to arrows
+Valueline3=
+Valueline4= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorFireArrows]
