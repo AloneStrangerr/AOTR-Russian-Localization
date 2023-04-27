@@ -61726,10 +61726,19 @@ Valueline4= Increases command point limit by 50
 Value=Provides food as a resource based on available terrain 
 Valueline2= Allows allied orcs to be decommissioned for additional experience
 Valueline3= Food Bonus - Reduced cost of Trolls and Great Beasts of Gorgoroth 
-Valueline4= 2 Slaughter Houses: 5% 
-Valueline5= 3 Slaughter Houses: 10% 
-Valueline6= 4 Slaughter Houses: 15% 
-Valueline7= 5 Slaughter Houses: 20%
+Valueline4= 2 Slave Farms: 5% 
+Valueline5= 3 Slave Farms: 10% 
+Valueline6= 4 Slave Farms: 15% 
+Valueline7= 5 Slave Farms: 20%
+
+
+[CONTROLBAR:RhunSlaughterHouseDescription]
+Value=Provides food as a resource based on available terrain 
+Valueline2=Food Bonus - Reduced cost of cavalry and chariots 
+Valueline3= 2 Slave Farms: 5% 
+Valueline4= 3 Slave Farms: 10% 
+Valueline5= 4 Slave Farms: 15% 
+Valueline6= 5 Slave Farms: 20%
 
 
 [CONTROLBAR:Dominate]
@@ -61737,21 +61746,21 @@ Value=Domi&nate
 
 
 [CONTROLBAR:ToolTipCloudBreak]
-Value=Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness
+Value=Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness
 Valueline2=Stuns enemy units
 Valueline3= Slowly heals allied units across the map 
 Valueline4= Left click to activate
 
 
 [CONTROLBAR:TooltipCampaignCloudBreak]
-Value=Enemy units temporarily receive -33% armour, -33% damage and -33% speed
+Value=Enemy units receive -33% armour, -33% damage and -33% speed for 30 seconds
 Valueline2= Slowly heals allied units across the map 
 Valueline3= Left click to activate
 
 
 [CONTROLBAR:ToolTipCloudBreakGondor]
-Value=Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness
-Valueline2=Stuns enemy units for 5 seconds
+Value=Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness
+Valueline2=Stuns enemy units for 15 seconds
 Valueline3= Grants +33% speed bonus to allied units across the map for 15 seconds
 Valueline4= Left click to activate
 
@@ -61761,8 +61770,20 @@ Value=Launch Skulls (&T)
 
 
 [CONTROLBAR:TooltipSpecialAbilityHumanHeads]
-Value=Launches skulls as ammunition 
-Valueline2= Causes fear to enemy units nearby the impact
+Value=Requires Release the Prisoners!
+Valueline2=Launches skulls as ammunition 
+Valueline3= Causes terror to enemy units nearby the impact 
+Valueline4= Left click icon then left click on target
+
+
+[CONTROLBAR:PurchaseUpgradeMordorHumanHeads]
+Value=Release the Prisoners! (&C)
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeMordorHumanHeads]
+Value=Allows Catapult to cast Launch Skulls ability
+Valueline2=Launches skulls as ammunition 
+Valueline3= Causes terror to enemy units nearby the impact
 
 
 [CONTROLBAR:SpecialAbilityDwarvenVigilance]
