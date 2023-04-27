@@ -61797,13 +61797,13 @@ Valueline2= Passive ability
 
 [CONTROLBAR:ToolTipSpecialAbilityWingBlastGwaihir]
 Value=Requires Level 5 
-Valueline2= Shoots a shockwave of force below the Eagle, causing meta damage to enemies 
+Valueline2= Shoots a shockwave of force below the Eagle for 20 seconds, causing meta damage to enemies 
 Valueline3= Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipUndermine]
 Value=Places a Mine Shaft anywhere on the map that damages units
-Valueline2=and stuns them for a short time when it appears
+Valueline2=and stuns them for 6 seconds when it appears
 Valueline3=Nearby enemy structures lose -25% armour for 30 seconds
 Valueline4=Mine Shaft becomes immediately connected to tunnel network
 Valueline5=Left click icon then left click on visible location
@@ -61815,7 +61815,7 @@ Valueline2= Requires Level 3 Workshop
 Valueline3= Strong vs. Structures 
 Valueline4= Limited to 2. 
 Valueline5= 
-Valueline6= An ironwrought ram's head is the centerpiece of this fearsome Dwarven siege engine.
+Valueline6= An ironwrought ram's head is the centrepiece of this fearsome Dwarven siege engine.
 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2]
