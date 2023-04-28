@@ -62003,7 +62003,12 @@ Valueline6= An ironwrought ram's head is the centrepiece of this fearsome Dwarve
 
 [CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2]
 Value=+10% faster build speed 
-Valueline2= Allows training of Adâruf-sulûkh
+Valueline2= Allows training of Wyrm-slayers
+
+
+[CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2BotFA]
+Value=+10% faster build speed 
+Valueline2= Allows training of Iron Hills Phalanx and Iron Hills Crossbowmen
 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3]
@@ -62011,15 +62016,20 @@ Value=+25% faster build speed
 Valueline2= Allows training of Khazâd-uzbadul
 
 
+[CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3BotFA]
+Value=+25% faster build speed 
+Valueline2= Allows training of Iron Hills Riders and Iron Hills Guards
+
+
 [CONTROLBAR:ToolTipUpgradeDwarvenWorkshopLevel2]
 Value=+10% faster build speed 
-Valueline2= Allows recruitment of Sulûn-abanul
+Valueline2= Allows recruitment of Mangonels
 Valueline3=Heals nearby damaged siege machines
 
 
 [CONTROLBAR:ToolTipUpgradeDwarvenWorkshopLevel3]
 Value=+25% faster build speed 
-Valueline2= Allows recruitment of Zirinmazn 
+Valueline2= Allows recruitment of Demolishers 
 Valueline3= Increased healing to nearby damaged siege machines 
 Valueline4= Adds Defensive Guard Tower
 
@@ -62057,23 +62067,22 @@ Value=Mark of the Thrush (&C)
 
 [CONTROLBAR:ToolTipBrandHuntersMark]
 Value=Requires Level 5 
-Valueline2= Enemies within the radius take increased damage from ranged attacks 
+Valueline2= Enemies within the radius take +33% damage from ranged attacks for 30 seconds
 Valueline3= Left click then left click on target areas
 
 
 [CONTROLBAR:BrandLeadership]
-Value=King of the Bardings (&R)
+Value=King of the Bardings (&T)
 
 
 [CONTROLBAR:ToolTipBrandLeadership]
-Value=Modifier Type: Leadership 
-Valueline2= Nearby Mannish allies gain +33% damage and +33% armour
-Valueline3= King Brand gains +33% armour when near King Dáin 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability 
-Valueline6=
-Valueline7= At level 8, Brand can summon a battalion of Barding Outriders 
-Valueline8= Left click to activate
+Value=Modifier Type: Leadership
+Valueline2=King Brand gains +33% armour when near King Dáin
+Valueline3=At Level 3, nearby Mannish allies gain +33% damage and +33% armour
+Valueline4= Passive ability 
+Valueline5=
+Valueline6= At Level 8, Brand can summon a battalion of Barding Outriders 
+Valueline7= Left click to activate
 
 
 [CONTROLBAR:ToolTipBrandTrainArchers]
@@ -62089,9 +62098,10 @@ Value=Descendant of the Dragonslayer (&V)
 [CONTROLBAR:ToolTipBrandDeadEye]
 Value=Requires Level 10 
 Valueline2= Bow must be equipped 
-Valueline3= Brand temporarily gains increased attack speed, damage, and range
-Valueline4= Brand does bonus damage against monsters and flying units 
-Valueline5= Left click to activate
+Valueline3= Brand gains increased +15% attack speed, +100% damage, and +33% range
+Valueline4= Brand does bonus damage against monsters and flying units
+Valueline5=Lasts for 20 seconds
+Valueline6=Left click to activate
 
 
 [CONTROLBAR:DwarvenCaptainofDale]
