@@ -52537,49 +52537,61 @@ Value=&Banners of the Eye
 
 
 [CONTROLBAR:LW_Structure_AngmarBarracks]
-Value=Hall of the King's Men
+Value=Haradrim Wartent
 
 
 [CONTROLBAR:LW_ToolTipBuild_AngmarBarracks]
-Value=Structure Type: Barracks
-Valueline2=Trains Angmar units
-Valueline3=
+Value=Battle Bonus: unit replenishment around the citadel 
+Valueline2=
+Valueline3=Structure Type: Basic Barracks
+Valueline4=Trains Haradwaith basic units
+Valueline5=
 
 
 [CONTROLBAR:LW_ToolTip_AngmarBarracks]
-Value=Structure Type: Barracks
-Valueline2=Trains Angmar units
+Value=Battle Bonus: unit replenishment around the citadel 
+Valueline2=
+Valueline3=Structure Type: Basic Barracks
+Valueline4=Trains Haradwaith basic units
+Valueline5=
 
 
 [CONTROLBAR:LW_Structure_AngmarBlackSmith]
-Value=Dark Iron Forge
+Value=Golden King's Encampment
 
 
 [CONTROLBAR:LW_ToolTipBuild_AngmarBlackSmith]
-Value=Structure Type: Armoury
-Valueline2=Grants all upgrades to units
-Valueline3=
+Value=Battle Bonus: +20% faster unit production
+Valueline2=
+Valueline3=Structure Type: Elite Barracks
+Valueline4=Trains Haradwaith elite units
 
 
 [CONTROLBAR:LW_ToolTip_AngmarBlackSmith]
-Value=Structure Type: Armoury
-Valueline2=Grants all upgrades to units
+Value=Battle Bonus: +20% faster unit production
+Valueline2=
+Valueline3=Structure Type: Elite Barracks
+Valueline4=Trains Haradwaith elite units
 
 
 [CONTROLBAR:LW_Structure_AngmarFarm]
-Value=Mill
+Value=Bazaar
 
 
 [CONTROLBAR:LW_ToolTipBuild_AngmarFarm]
-Value=Structure Type: Farm
-Valueline2=Increases treasury
-Valueline3=
+Value=Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline3=Structure Type: Farm
+Valueline4=Increases treasury
+Valueline5=
 
 
 [CONTROLBAR:LW_ToolTip_AngmarFarm]
-Value=Structure Type: Farm
-Valueline2=Increases treasury
-Valueline3=
+Value=Battle Bonus: +20% faster resource production
+Valueline2=
+Valueline3=Structure Type: Farm
+Valueline4=Increases treasury
+Valueline5=
 
 
 
@@ -52621,7 +52633,7 @@ Value=Ice &Walls
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarFortressIceWalls]
-Value=Provides additional armor to the Fortress and Walls 
+Value=Increases Fortress and Wall armour by 65% 
 Valueline2= Prerequisite for the Witch-king's Sanctum
 
 
@@ -52664,6 +52676,10 @@ Value=Harondor Outpost
 
 [CONTROLBAR:ConstructHaradwaithSentryTower]
 Value=Build Desert Lookout (&Y)
+
+
+[CONTROLBAR:PurchaseUpgradeHaradSentryTowerFireArrows]
+Value=Fire Arrows (&E)
 
 
 [OBJECT:AngmarHallofTwilight]
