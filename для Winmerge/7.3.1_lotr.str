@@ -46757,6 +46757,167 @@ Value=Nearby units take superior damage over time, affects both enemies and alli
 Valueline2=Left click to activate
 
 
+[CAH:Command_SpecialAbilityRestlessDead1_Name]
+Value=The Restless Dead
+
+
+[CONTROLBAR:RestlessDead]
+Value=The Restless Dead
+
+
+[CONTROLBAR:TooltipRestlessDead]
+Value=Summons a Restless Barrow. The Restless Barrow may recruit Skeletal Warriors
+Valueline2=Left click icon then left click on pathable location
+
+
+[CAH:Command_SpecialAbilityFrigidHands1_Name]
+Value=Frigid Hands
+
+
+[CONTROLBAR:FrigidHands_Level1]
+Value=Frigid Hands
+
+
+[CONTROLBAR:TooltipFrigidHands_Level1]
+Value=Freezes targeted units for a medium duration
+Valueline2=Left click icon then left click on target location
+
+
+[CAH:Command_SpecialAbilityFrigidHands2_Name]
+Value=Improved Frigid Hands
+
+
+[CONTROLBAR:FrigidHands_Level2]
+Value=Improved Frigid Hands
+
+
+[CONTROLBAR:TooltipFrigidHands_Level2]
+Value=Freezes targeted units for a long duration
+Valueline2=Left click icon then left click on target location
+
+
+[CAH:Command_SpecialAbilityFrigidHands3_Name]
+Value=Mighty Frigid Hands
+
+
+[CONTROLBAR:FrigidHands_Level3]
+Value=Mighty Frigid Hands
+
+
+[CONTROLBAR:TooltipFrigidHands_Level3]
+Value=Freezes targeted units for a superior duration
+Valueline2=Left click icon then left click on target location
+
+
+[CAH:Command_SpecialAbilityLeechblade1_Name]
+Value=Leechblade
+
+
+[CONTROLBAR:Leechblade_Level1]
+Value=Leechblade
+
+
+[CONTROLBAR:TooltipLeechblade_Level1]
+Value=When activated, allied units are slightly healed by each of the Wight-lord’s strikes
+Valueline2=Left click to activate
+
+
+[CAH:Command_SpecialAbilityLeechblade2_Name]
+Value=Improved Leechblade
+
+
+[CONTROLBAR:Leechblade_Level2]
+Value=Improved Leechblade
+
+
+[CONTROLBAR:TooltipLeechblade_Level2]
+Value=When activated, allied units are moderately healed by each of the Wight-lord’s strikes
+Valueline2=Left click to activate
+
+
+[CAH:Command_SpecialAbilityLeechblade3_Name]
+Value=Mighty Leechblade
+
+
+[CONTROLBAR:Leechblade_Level3]
+Value=Mighty Leechblade
+
+
+[CONTROLBAR:TooltipLeechblade_Level3]
+Value=When activated, the Wight-lord's damage increases by 25%, and allied units are moderately healed by each of his strikes
+Valueline2=Left click to activate
+
+
+[CAH:Command_SpecialAbilityHarrowingStrike1_Name]
+Value=Harrowing Strike
+
+
+[CONTROLBAR:HarrowingStrike_Level1]
+Value=Harrowing Strike
+[CAH:Command_SpecialAbilityHarrowingStrike2_Name]
+Value=Improved Harrowing Strike
+
+
+[CONTROLBAR:HarrowingStrike_Level2]
+Value=Improved Harrowing Strike
+
+[CAH:Command_SpecialAbilityHarrowingStrike3_Name]
+Value=Mighty Harrowing Strike
+
+
+[CONTROLBAR:HarrowingStrike_Level3]
+Value=Mighty Harrowing Strike
+[CAH:Command_CreateAHeroLeadershipWraith_Name]
+Value=Dark Authority
+
+
+[CONTROLBAR:_DarkAuthorityLevel1]
+Value=Dark Authority
+
+
+[CAH:Command_CreateAHeroBarrowLordWraith_Level_1_Name]
+Value=Barrow Lord
+
+
+[CONTROLBAR:BarrowLord_Level1]
+Value=Barrow Lord
+
+
+[CONTROLBAR:TooltipBarrowLord_Level1]
+Value=Nearby enemy units are slowed passively in a small radius
+Valueline2=Passive ability
+
+
+[CAH:Command_CreateAHeroBarrowLordWraith_Level_2_Name]
+Value=Improved Barrow Lord
+
+
+[CONTROLBAR:BarrowLord_Level2]
+Value=Improved Barrow Lord
+
+
+[CONTROLBAR:TooltipBarrowLord_Level2]
+Value=Nearby enemy units are slowed passively in a medium radius
+Valueline2=Passive ability
+
+
+[CAH:Command_CreateAHeroBarrowLordWraith_Level_3_Name]
+Value=Mighty Barrow Lord
+
+
+[CONTROLBAR:BarrowLord_Level3]
+Value=Mighty Barrow Lord
+
+
+[CONTROLBAR:TooltipBarrowLord_Level3]
+Value=Nearby enemy units are slowed passively in a large radius
+Valueline2=Passive ability
+
+
+
+
+
+
 [CONTROLBAR:TooltipHotWSummonAllies_Level1]
 Value=Summons a single battalion of units
 
@@ -51371,9 +51532,10 @@ Value=Research Tengwar-Inscribed Blades (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyArnorForgedBlades]
-Value=Purchase Forged Blade Upgrade 
+Value=Purchase Tengwar-Inscribed Blade Upgrade 
 Valueline2= Increases damage done by melee weapons 
-Valueline3= Select a battalion to upgrade
+Valueline3= When equipped, increases the damage done by melee weapons
+Valueline4= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:PurchaseUpgradeArnorForgedBlades]
@@ -51381,9 +51543,8 @@ Value=Purchase Tengwar-Inscribed Blades (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorForgedBlades]
-Value=
-Valueline2= Increases damage done by melee weapons 
-Valueline3= Left click to upgrade this unit
+Value=Increases damage done by melee weapons 
+Valueline2= Left click to upgrade this unit
 
 
 [CONTROLBAR:PurchaseTechnologyArnorHeavyArmor]
@@ -51562,10 +51723,10 @@ Value=White Council Obser&vatory
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArnorFortressIvoryTower]
-Value=Unlocks three spells that can be cast from the Fortress 
-Valueline2= Lightning Strike: Saruman's magic deals damage and stuns units within its radius 
-Valueline3= Call of Belegaer: Cirdan's wisdom temporarily decreases build time of Elf units 
-Valueline4= Aiwendil, Bird-Friend: Radagast's friendship with Gwaihir's folk allows the fortress to temporarily summon a Giant Eagle.
+Value=Unlocks three spells that can be cast from the Conservatory 
+Valueline2=Lord of the Havens: Permanently summons Círdan the Shipwright to patrol the Conservatory
+Valueline3= Lightning Strike: Saruman's magic deals high damage to units within its radius
+Valueline4= Aiwendil, Bird-Friend: Radagast's friendship with Gwaihir's folk allows the fortress to temporarily summon a Giant Eagle
 
 
 [CONTROLBAR:PurchaseUpgradeArnorFortressBoilingOil]
@@ -51974,6 +52135,14 @@ Valueline4= Active ability: Requires Level 9 and Andúril
 Valueline5= When activated, all nearby units gain +33% damage and +50% armour for 20 seconds
 
 
+[CONTROLBAR:IsildurHeir_LAS]
+Value=Heir of Númenor (&W)
+
+
+[CONTROLBAR:ToolTipIsildurHeir_LAS]
+Value=Requires Level 3
+Valueline2=Modifier Type: Spell
+Valueline3= When activated, all nearby units gain +33% damage and and immunity to fear and terror for 20 seconds
 
 
 [CONTROLBAR:ArnorAragornBlademaster]
@@ -51982,46 +52151,45 @@ Value=A Fire Shall Be Woken (&V)
 
 [CONTROLBAR:TooltipArnorAragornBlademaster]
 Value=Requires Level 6 
-Valueline2= Aragorn temporarily gains
-Valueline3=+75% damage, +25% armour, and wields a torch 
+Valueline2= Aragorn wields a torch and deals knockback damage 
+Valueline3= Aragorn gains +75% damage and +25% armour for 30 seconds
 Valueline4= While the ability is active, nearby heroes gain +15% armour 
 Valueline5= Can only use with sword equipped 
 Valueline6= Left click to activate
 
 
 [CONTROLBAR:FellowshipAragornBlademaster]
-Value=Fa&ithful Protector
+Value=Faithful Protector (&T)
 
 
 [CONTROLBAR:TooltipFellowshipAragornBlademaster]
 Value=Requires Level 5 
-Valueline2= Aragorn temporarily gains
-Valueline3=+100% damage, +100% armour, and deals fire damage 
+Valueline2= Aragorn gains +100% damage, +100% armour, and deals fire damage for 30 seconds
+Valueline3=Can only use with sword equipped
 Valueline4= Left click to activate
 
 
 [CONTROLBAR:TooltipFellowshipStriderBlademaster]
 Value=Requires Level 5 
-Valueline2= Strider temporarily gains
-Valueline3=+100% damage, +100% armour, and wields a torch 
-Valueline4= Left click to activate
+Valueline2= Strider gains +100% damage, +100% armour, and wields a torch for 30 seconds
+Valueline3=Can only use with sword equipped
+Valueline4=Left click to activate
 
 
 [CONTROLBAR:ToolTipMasterTrackerAbility]
 Value=Requires Level 3 
-Valueline2= Aragorn gains +150% vision range, +25% range and +15% speed while nearby allies gain +15% movement speed for 25 seconds
-Valueline3=Left click to activate
+Valueline2=Modifier Type: Spell
+Valueline3=Aragorn gains +150% vision range, +25% range and +15% speed while nearby allies gain +15% movement speed for 25 seconds
+Valueline4=Left click to activate
 
 
 [CONTROLBAR:ToolTipMasterTrackerLeadership]
 Value=Requires Level 3 
-Valueline2=Modifier Type: Spell
-Valueline3=Aragorn and nearby allies gain
-Valueline4=+15% movement speed 
-Valueline5=
-Valueline6= When using his bow 
-Valueline7= Aragorn temporarily gains +150% vision range and +25% range 
-Valueline8=Passive ability
+Valueline2= Aragorn and nearby allies gain +15% movement speed 
+Valueline3=
+Valueline4= When using his bow 
+Valueline5= Aragorn gains +150% vision range and +25% range for 25 seconds
+Valueline6=Passive ability
 
 
 [CONTROLBAR:ToolTipAragornIsildurLeadership]
@@ -52056,7 +52224,9 @@ Value=Dark Rangers
 
 
 [CONTROLBAR:AngmarWitchKingRecruit]
-Value=Recruit the Ruler of Angmar
+Value=Recruit the Lord of Angmar
+Valueline2=
+Valueline3='In rode the Lord of the Nazgûl. A great black shape against the fires beyond he loomed up, grown to a vast menace of despair. In rode the Lord of the Nazgûl, under the archway that no enemy ever yet had passed, and all fled before his face.'
 
 [CONTROLBAR:AngmarWitchKingRevive]
 Value=Revive the fallen Hero, The Witch-king
@@ -52139,12 +52309,25 @@ Value=Angmar Garrison Army
 
 
 
+[LWA:HaradwaithGarrison]
+Value=Haradwaith Garrison Army
+
+
+[LWA:HaradwaithHeroArmy]
+Value=Haradwaith Hero Army
+
+
+[LWA:Haradwaith]
+Value=Haradwaith
+
+
+
 [CONTROLBAR:LW_Unit_AngmarDarkDunedainHorde]
-Value=Black Númenórean Horde
+Value=Black Númenórean Warrior Horde
 
 
 [CONTROLBAR:LW_Unit_AngmarDarkDunedainHordePlural]
-Value=Black Númenórean Hordes
+Value=Black Númenórean Warrior Hordes
 
 
 [CONTROLBAR:LW_ToolTipBuild_AngmarDarkDunedainHorde]
@@ -52289,11 +52472,11 @@ Value=Trains Troll Stone Throwers and Researches Tech Upgrades
 
 
 [CONTROLBAR:UpgradeAngmarForgeWorksLevel2]
-Value=Upgrade Pavillion of the Golden King to Level 2 (&A)
+Value=Upgrade Pavilion of the Golden King to Level 2 (&A)
 
 
 [CONTROLBAR:UpgradeAngmarForgeWorksLevel3]
-Value=Upgrade Pavillion of the Golden King to Level 3 (&A)
+Value=Upgrade Pavilion of the Golden King to Level 3 (&A)
 
 
 [Upgrade:AngmarForgeWorksLevel2]
@@ -66744,9 +66927,9 @@ Value=Call of Belegaer (&S)
 [CONTROLBAR:ToolTipCallofBelegaer]
 Value=Requires the White Council Observatory upgrade
 Valueline2=
-Valueline3=The presence of Cirdan the Shipwright causes Elves to long for the Sea and their journey to the Undying Lands.
-Valueline4=
-Valueline5=Increases production speed of Elven units for a short time
+Valueline3=Permanently summons Círdan the Shipwright
+Valueline4= Círdan is unable to attack and will remain nearby the Conservatory unless ordered otherwise
+Valueline5=Left click to activate
 
 [OBJECT:WildUrshak]
 Value=Urshak
@@ -69832,17 +70015,17 @@ Value=White Council Observatory (&S)
 
 [TOOLTIP:LackObservatoy]
 Value=Requires the Girdle of Imladris upgrade 
-Valueline2= Unlocks three spells that can be cast from the Fortress 
-Valueline3= Lightning Strike: Saruman's magic deals damage and stuns units within its radius 
-Valueline4= Call of Belegaer: Cirdan's wisdom temporarily decreases build time of Elf units 
-Valueline5= Aiwendil, Bird-Friend: Radagast's friendship with Gwaihir's folk allows the fortress to temporarily summon a Giant Eagle.
+Valueline2=Unlocks three spells that can be cast from the Conservatory 
+Valueline3=Lord of the Havens: Permanently summons Círdan the Shipwright to patrol the Conservatory
+Valueline4=Lightning Strike: Saruman's magic deals high damage to units within its radius
+Valueline5= Aiwendil, Bird-Friend: Radagast's friendship with Gwaihir's folk allows the fortress to temporarily summon a Giant Eagle
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRivendellFortressObservatory]
-Value=Unlocks three spells that can be cast from the Fortress 
-Valueline2= Lightning Strike: Saruman's magic deals damage and stuns units within its radius 
-Valueline3= Call of Belegaer: Cirdan's wisdom temporarily decreases build time of Elf units 
-Valueline4= Aiwendil, Bird-Friend: Radagast's friendship with Gwaihir's folk allows the fortress to temporarily summon a Giant Eagle.
+Value=Unlocks three spells that can be cast from the Conservatory 
+Valueline2=Lord of the Havens: Permanently summons Círdan the Shipwright to patrol the Conservatory
+Valueline3=Lightning Strike: Saruman's magic deals high damage to units within its radius
+Valueline4= Aiwendil, Bird-Friend: Radagast's friendship with Gwaihir's folk allows the fortress to temporarily summon a Giant Eagle
 
 
 [CONTROLBAR:PurchaseUpgradeRivendellFortressFlamingMunitions]
@@ -69858,17 +70041,21 @@ Value=Banners of Gil-galad (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRivendellFortressBanners]
-Value=Provides additional experience to nearby troops 
-Valueline2= Reduces Hero cost by 10% 
-Valueline3= Reduces cost of builders by 20% 
-Valueline4= Only applies to heroes recruited at the Conservatory
+Value=Modifier Type: Leadership 
+Valueline2= Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster
+Valueline3=
+Valueline4= Reduces Hero cost by 10% 
+Valueline5= Reduces Hero recruit time by 10% 
+Valueline6= Reduces cost of builders by 20% 
+Valueline7= Only applies to heroes recruited at the Conservatory
 
 
 [CONTROLBAR:PurchaseUpgradeRivendellFortressMoat]
 Value=Girdle of Imladris (&T)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRivendellFortressMoat]
-Value=Increases Conservatory's armor and hitpoints
+Value=Increases Conservatory's armour by 65% 
+Valueline2= Nearby units are healed and fallen units are replenished
 
 
 [CONTROLBAR:PurchaseUpgradeRivendellFortressForge]
@@ -69885,7 +70072,7 @@ Value=Song and Merriment (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRivendellFortressMerriment]
-Value=Enables the recruitment of Quentaroli from the Conservatory
+Value=Enables the recruitment of Revelers from the Conservatory
 
 
 [UPGRADE:RivendellMedicine]
@@ -75762,6 +75949,12 @@ Valueline2=Orc Ravagers temporarily do knockback damage and regain health per hi
 Valueline3=Left click to activate
 
 
+[CONTROLBAR:ToolTipBuildWightLordsHorde]
+Value=Strong vs. Infantry 
+Valueline2=
+Valueline3= Beneath the great barrows of desolate Rhudaur dwell the restless dead, reanimated by wicked spirits sent forth by he who of old was the Lord of Angmar.
+
+
 [OBJECT:GuldurTombGuard]
 Value=Tomb Guard
 
@@ -81408,6 +81601,23 @@ Value=Upgrade Spire of Angmar to Level 3 (&A)
 Value=Requires Level 3 Spire of Angmar
 Value=Requires a Level 3 Spire of Angmar
 Value=Requires Level 2 Spire of Angmar
+[CONTROLBAR:ConstructArnorianBarrow]
+Value=Summon Arnorian Barrow (&M)
+[OBJECT:ArnorianBarrow]
+Value=Arnorian Barrow
+
+[CONTROLBAR:UpgradeArnorianBarrowLevel2]
+Value=Upgrade Arnorian Barrow to Level 2 (&A)
+[CONTROLBAR:UpgradeArnorianBarrowLevel3]
+Value=Upgrade Arnorian Barrow to Level 3 (&A)
+[CONTROLBAR:ToolTipBuildAngmarWightLord]
+Value=Requires Level 2 Arnorian Barrow
+Valueline2=Strong vs. Infantry 
+Valueline3=
+Valueline4= Beneath the great barrows of desolate Rhudaur dwell the restless dead, reanimated by wicked spirits sent forth by he who of old was the Lord of Angmar.
+
+[CONTROLBAR:ToolTipBuildAngmarUnburiedWight]
+Value=Requires Level 3 Arnorian Barrow 
 Value=Requires a Level 3 Spire of Angmar
 [OBJECT:ArnorArvedui]
 Value=Arvedui
