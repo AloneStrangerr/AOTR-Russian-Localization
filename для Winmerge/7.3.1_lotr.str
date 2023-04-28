@@ -62127,6 +62127,27 @@ Value=Bard the Bowman (&D)
 Value=Bard the Bowman
 
 
+[CONTROLBAR:ToolTipSummonBardLeadership]
+Value=Modifier Type: Leadership 
+Valueline2= Archers near Bard gain +33% damage, +33% vision and +15% attack range 
+Valueline3=Passive ability
+
+
+[CONTROLBAR:ToolTipSummonFishBarrel]
+Value=Bard delivers several barrels of fish that heals nearby units
+Valueline2= Left click on icon then left click on target position
+
+
+[CONTROLBAR:ToolTipSummonBrandLeadership]
+Value=Modifier Type: Leadership
+Valueline2=Archers near King Brand gain +33% damage, +33% vision and +15% attack range 
+Valueline3=Passive ability
+
+[CONTROLBAR:ToolTipSummonBrandHuntersMark]
+Value=Enemies within the radius take +33% damage from ranged attacks for 30 seconds
+Valueline2= Left click then left click on target areas
+
+
 
 [CONTROLBAR:DwarvenCaptainofDaleOld]
 Value=King Brand
@@ -62162,7 +62183,7 @@ Valueline3= mounted and on foot
 
 [CONTROLBAR:ToolTipDisguise]
 Value=Disguise as a normal Rohirrim 
-Valueline2= Eowyn becomes immune to Cripple Strike and Corrode Allegiance 
+Valueline2= Éowyn becomes immune to Cripple Strike and Corrode Allegiance 
 Valueline3= Left click to activate
 
 
@@ -62183,7 +62204,7 @@ Value=By GameReplays.org
 
 
 [Version:Format2]
-Value=Age of the Ring Version 7.3.1
+Value=Age of the Ring Version 8.1
 
 
 [Version:Format3]
@@ -62209,9 +62230,20 @@ Value=For Gondor! (&C)
 Value=Requires Level 5
 Valueline2= Modifier Type: Spell 
 Valueline3= Targeted friendly units gain
-Valueline4=+33% damage, +20% speed, and Fear Resistance for 30 seconds
-Valueline5= Stacks With Buffs, Leadership and other Spells 
-Valueline6=Left click icon then left click on target units
+Valueline4=+33% damage, +20% speed, and resistance to fear and terror for 30 seconds
+Valueline5=Left click icon then left click on target units
+
+
+[CONTROLBAR:AnarionForGondor_LAS]
+Value=For Gondor! (&W)
+
+
+[CONTROLBAR:ToolTipAnarionForGondor_LAS]
+Value=Requires Level 3
+Valueline2= Modifier Type: Spell 
+Valueline3= Targeted friendly units gain
+Valueline4=+33% armour and resistance to knockback for 30 seconds
+Valueline5=Left click icon then left click on target units
 
 
 [CONTROLBAR:ToolTipFellowshipWarCry]
@@ -62221,9 +62253,8 @@ Valueline3= Nearby allies gain +33% damage, +25% armour and earn experience 50% 
 Valueline4=Passive ability 
 Valueline5= 
 Valueline6= When activated, targeted friendly units gain
-Valueline7=+33% damage, +20% speed, and Fear Resistance for 30 seconds
-Valueline8= Stacks With Buffs, Leadership and other Spells 
-Valueline9=Left click icon then left click on target units
+Valueline7=+33% damage, +20% speed, and resistance to fear and terror for 30 seconds
+Valueline8=Left click icon then left click on target units
 
 
 [CONTROLBAR:GuardianStrike]
