@@ -52698,6 +52698,10 @@ Value=Harondor Outpost
 Value=Build Desert Lookout (&Y)
 
 
+[CONTROLBAR:HaradBattleTowerGarrison]
+Value=Sentry (&W)
+
+
 [CONTROLBAR:PurchaseUpgradeHaradSentryTowerFireArrows]
 Value=Fire Arrows (&E)
 
@@ -52988,6 +52992,15 @@ Value=Build Bazaar (&W)
 Value=Build Battle &Tower
 
 
+[CONTROLBAR:ConstructHaradTribalCampWotR]
+Value=Build Tribal Camp (&W)
+
+
+[CONTROLBAR:ToolTipConstructHaradTribalCampWotR]
+Value=Primary Barracks 
+Valueline2= Trains Harondor Warlords 
+Valueline3= Limited to 2
+
 
 [CONTROLBAR:ConstructAngmarBarracks]
 Value=Build Harondor Outpost (&T)
@@ -53112,7 +53125,7 @@ Valueline2= Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipChillWind]
-Value=Moves enemy units closer to the center of the area of effect 
+Value=Disperses enemy units from the centre of the area of effect 
 Valueline2= Does minimal damage 
 Valueline3= Does not affect cavalry units 
 Valueline4= Left click icon then left click on target area
@@ -53120,6 +53133,11 @@ Valueline4= Left click icon then left click on target area
 
 [CONTROLBAR:ToolTipConstructAngmarPorter]
 Value=Constructs Buildings
+
+
+[CONTROLBAR:ToolTipConstructAngmarPorterWotR]
+Value=Constructs Buildings
+Valueline2= Limited to 1
 
 
 [CONTROLBAR:ToolTipHwaldarSummonHillmen2]
@@ -53147,12 +53165,12 @@ Value=Strong vs. Pikemen
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarDarkIronMail]
-Value=Allows hordes to purchase the Heavy Armour upgrade 
+Value=Allows hordes to purchase the Bronze Cuirasses upgrade 
 Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarDarkIronBlades]
-Value=Allows hordes to purchase the Dark Iron Blades upgrade 
+Value=Allows hordes to purchase the Steel-forged Blades upgrade 
 Valueline2= When equipped, increases the damage done by melee weapons
 
 
@@ -53405,11 +53423,11 @@ Valueline2= Left click icon then left click on pathable location
 
 
 [TOOLTIP:AngmarDarkIronBlades]
-Value=Dark Iron Blades
+Value=Steel-forged Blades
 
 
 [TOOLTIP:AngmarDarkIronArmor]
-Value=Dark Iron Mail
+Value=Bronze Cuirasses
 
 
 [TOOLTIP:AngmarIceShot]
@@ -53429,11 +53447,11 @@ Value=Soul Freeze
 
 
 [UPGRADE:AngmarDarkIronArmor]
-Value=Dark Iron Mail
+Value=Bronze Cuirasses
 
 
 [UPGRADE:AngmarDarkIronBlades]
-Value=Dark Iron Blades
+Value=Steel-forged Blades
 
 
 [UPGRADE:AngmarBarracksLevel2]
@@ -57431,7 +57449,7 @@ Value=its ruins dark and silent in the mountains.
 
 
 [SUBTITLE:BAM1O_04]
-Value=Rebuilding this bastion will secure the Iron Crown’s dominion over the Black Numenoreans and the northern troll tribes...
+Value=Rebuilding this bastion will secure the Iron Crown’s dominion over the Black Númenóreans and the northern troll tribes...
 
 
 [SUBTITLE:BAM30_03]
@@ -57647,7 +57665,7 @@ Value=But the Witch-king will not be satisfied until Arnor lay buried in the bod
 
 
 [SUBTITLE:BAM8O_01]
-Value=The Dunedain of Arnor believe the Elven strike will provide them a chance to recover.
+Value=The Dúnedain of Arnor believe the Elven strike will provide them a chance to recover.
 
 
 [SUBTITLE:BAM8O_02]
@@ -57699,7 +57717,7 @@ Value=With its beautiful spires and unyielding walls, it alone stands between th
 
 
 [SUBTITLE:BAM9O_04]
-Value=But the Dunedain will not fall easily.
+Value=But the Dúnedain will not fall easily.
 
 
 [SUBTITLE:BAM9O_05]
@@ -57818,7 +57836,7 @@ Valueline2= Left click icon then left click on target
 
 [CONTROLBAR:ToolTipWitchKingLeadership]
 Value=Requires Level 4 
-Valueline2= Allies near the Witch-King gain 
+Valueline2= Allies near the Witch-king gain 
 Valueline3= +33% damage, +33% armour, 
 Valueline4= and earn experience 50% faster
 Valueline5= Passive ability
@@ -58253,7 +58271,7 @@ Valueline2=+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildGondorStableLevel3Upgrade]
 Value=+25% faster build speed
-Valueline2=Adds defensive Arrow Tower
+Valueline2=Adds defensive arrow tower
 
 [CONTROLBAR:ToolTipBuildGondorWorkshopLevel2Upgrade]
 Value=Allows research of the Fire Stones upgrade
@@ -58263,7 +58281,7 @@ Valueline3=+10% faster build speed
 [CONTROLBAR:ToolTipBuildGondorWorkshopLevel3Upgrade]
 Value=+25% faster build speed
 Valueline2=Increased healing to nearby damaged siege machines 
-Valueline3=Adds defensive Arrow Tower
+Valueline3=Adds defensive arrow tower
 
 [CONTROLBAR:ToolTipBuildRohanWorkshopLevel2Upgrade]
 Value=Allows training of Rohirric Onager 
@@ -58288,7 +58306,7 @@ Valueline8= 6+ Blacksmiths: 25%
 Value=Allows research of Heavy Armour and Forged Blades
 
 [CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade]
-Value=Adds defensive Arrow Tower
+Value=Adds defensive arrow tower
 
 [CONTROLBAR:ToolTipConstructMenDormitory]
 Value=Garrisonable defensive structure 
@@ -58311,16 +58329,16 @@ Valueline7= Reduces the cost of builders by 20%
 Value=Swan Knights of Dol Amroth
 
 [CONTROLBAR:ToolTipBuildGondorKnightsofDolHorde]
-Value=Strong vs. Infantry, Archers 
-Valueline2= Limited to 3
-Valueline3= 
+Value=Strong vs. Infantry, Archers
+Valueline2=Limited to 3
+Valueline3=
 Valueline4= The Swan Knights of Dol Amroth were renowned as one of the greatest cavalry regiments in Middle-earth.
 
 [CONTROLBAR:ToolTipBuildGondorKnightsofDolHorde_WOTR]
-Value=Requires Level 2 Stables and Dol Amroth Citadel 
-Valueline2= Strong vs. Infantry, Archers
-Valueline3= Limited to 3
-Valueline4= 
+Value=Requires Level 2 Stables and Dol Amroth Citadel
+Valueline2=Strong vs. Infantry, Archers
+Valueline3=Limited to 3
+Valueline4=
 Valueline5= The Swan Knights of Dol Amroth were renowned as one of the greatest cavalry regiments in Middle-earth.
 
 [CONTROLBAR:TooltipKnightsofDolInspiration]
@@ -58332,10 +58350,10 @@ Valueline5=Passive ability
 
 
 [CONTROLBAR:ToolTipSmite]
-Value=Requires Level 8 
+Value=Requires Level 8
 Valueline2= Powerful ranged attack against a single target
 Valueline3= Deals great damage to flying units
-Valueline4=Deals 200% extra damage to the Witch-king of Angmar
+Valueline4= Deals 200% extra damage to the Witch-king of Angmar
 Valueline5= Left click icon then left click on target
 
 
@@ -58414,7 +58432,7 @@ Valueline3= Left click to activate
 
 [CONTROLBAR:ToolTipBoromirLeadership]
 Value=Requires Level 5 
-Valueline2= Boromir dons his Gondorian Armor 
+Valueline2= Boromir dons his Gondorian Armour 
 Valueline3= Modifier Type: Leadership 
 Valueline4= Allies near Boromir gain +33% damage, +33% armour, and earn experience 50% faster 
 Valueline5= Stacks with Buffs and Spells 
@@ -58423,7 +58441,7 @@ Valueline6= Passive ability
 
 [CONTROLBAR:ToolTipBoromirNewLeadership]
 Value=Requires Level 5 
-Valueline2= Boromir dons his Gondorian Armor 
+Valueline2= Boromir dons his Gondorian Armour 
 Valueline3= Modifier Type: Leadership 
 Valueline4= Anórien Soldiers, Spearmen, and Archers near Boromir gain +33% damage, +25% armour, and earn experience 50% faster 
 Valueline5= Stacks with Buffs and Spells 
@@ -59659,7 +59677,7 @@ Value=Spider
 
 
 [CONTROLBAR:PurchaseUpgradeAngmarDarkIronBlades]
-Value=Purchase Forged Blades (&C)
+Value=Purchase Steel-forged Blades (&C)
 
 [TOOLTIP:LackAngmarDarkIronBlades]
 Value=A nearby Caravan is needed to enable this equipment 
@@ -59667,7 +59685,7 @@ Valueline2= When equipped, increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseUpgradeAngmarDarkIronMail]
-Value=Purchase Heavy Armour (&T)
+Value=Purchase Bronze Cuirasses (&T)
 
 [TOOLTIP:LackAngmarDarkIronMail]
 Value=A nearby Caravan is needed to enable this equipment 
@@ -80308,6 +80326,8 @@ Value=Dry Spell
 [CONTROLBAR:TooltipDrySpell]
 Value=Halves the resource production of any resource structure within the area of effect 
 Valueline2= Left click icon then left click on target area
+[OBJECT:TribalCamp]
+Value=Tribal Camp
 
 [CONTROLBAR:HaradSentry]
 Value=Southron Sentry
@@ -80343,9 +80363,12 @@ Value=STILL A PLACEHOLDER - SPEEDS UP RECRUITMENT, DOESN'T REDUCE COST. SHOULD I
 Value=Tribes of Harad
 
 [CONTROLBAR:TooltipTribesofHarad]
-Value=Summons a Tribal Camp. The Tribal Camp may recruit Tribal Axemen, Javelineers, and Spearmen 
-Valueline2= 
-Valueline3= Left click icon then left click on target area
+Value=Summons a Tribal Camp 
+Valueline2= Limited to 2 
+Valueline3=  The Tribal Camp may temporarily summon Tribal Axemen, Bowmen, and Spearmen 
+Valueline4= When Subjugation: Near Harad is researched, the Tribal Camp may temporarily summon Harondor Spearmen, Archers and Raiders 
+Valueline5=
+Valueline6= Left click icon then left click on target area
 
 [CONTROLBAR:KhandishCharioteers]
 Value=Khandish Charioteers
@@ -80992,14 +81015,16 @@ Valueline3= Limited to 3
 
 
 [CONTROLBAR:CaravanBlades]
-Value=Trade: Forged Blades
+Value=Trade: Steel-forged Blades
 
 
 [CONTROLBAR:ToolTipCaravanBlades]
 Value=Requires Level 2 
-Valueline2= The Caravan trades with Khand for Forged Blades. 
-Valueline3= Units nearby the Caravan can be upgraded with Forged Blades 
-Valueline4= Passive ability
+Valueline2= The Caravan trades with Khand for Steel-forged Blades. 
+Valueline3= Units nearby the Caravan can be upgraded with Steel-forged Blades 
+Valueline4= Once unlocked, all other caravans may trade this upgrade. 
+Valueline5= Also upgrades building patrols 
+Valueline6= Passive ability
 
 
 [CONTROLBAR:PurchaseUpgradeAngmarBasicTraining]
@@ -81012,23 +81037,25 @@ Valueline2= Can only be equipped at Level 1
 
 
 [CONTROLBAR:CaravanBanners]
-Value=Banner Carrier
+Value=Trade: Silken Banners
 
 
 [CONTROLBAR:ToolTipCaravanBanners]
-Value=Units nearby the Caravan can be upgraded with Banners Carrier 
-Valueline2= Passive ability
+Value=Units nearby the Caravan can be upgraded with Silken Banners
+Valueline2=Passive ability
 
 
 [CONTROLBAR:CaravanArmor]
-Value=Trade: Heavy Armour
+Value=Trade: Bronze Cuirasses
 
 
 [CONTROLBAR:ToolTipCaravanArmor]
 Value=Requires Level 2 
-Valueline2= The Caravan trades with Rhûn for Heavy Armour. 
-Valueline3= Units nearby the Caravan can be upgraded with Heavy Armour 
-Valueline4= Passive ability
+Valueline2= The Caravan trades with Rhûn for Bronze Cuirasses. 
+Valueline3= Units nearby the Caravan can be upgraded with Bronze Cuirasses 
+Valueline4= Once unlocked, all other caravans may trade this upgrade. 
+Valueline5= Also upgrades building patrols 
+Valueline6= Passive ability
 
 
 [CONTROLBAR:CaravanArrows]
@@ -81037,9 +81064,11 @@ Value=Trade: Oil-tipped Arrows
 
 [CONTROLBAR:ToolTipCaravanArrows]
 Value=Requires Level 3 
-Valueline2= The Caravan trades with Umbar for Fire Arrows. 
-Valueline3= Units nearby the Caravan can be upgraded with Heavy Armour 
-Valueline4= Passive ability
+Valueline2= The Caravan trades with Umbar for Oil-tipped Arrows. 
+Valueline3= Units nearby the Caravan can be upgraded with Oil-tipped Arrows 
+Valueline4= Once unlocked, all other caravans may trade this upgrade. 
+Valueline5= Also upgrades building patrols 
+Valueline6= Passive ability
 
 
 [OBJECT:HaradWarlord]
@@ -81050,6 +81079,20 @@ Value=Harondor Warlord
 Value=Harondor Warlord (&W)
 
 
+[CONTROLBAR:LW_Unit_HaradWarlord]
+Value=Harondor Warlord
+
+
+[CONTROLBAR:LW_Unit_HaradWarlordPlural]
+Value=Harondor Warlords
+
+
+[BANNERUI:HaradWarlord]
+Value=Harondor Warlord
+
+
+[BANNERUI:HaradWarlords]
+Value=Harondor Warlords
 
 
 [OBJECT:TribalSpearmen]
@@ -81487,6 +81530,15 @@ Value=Serpent's Sting (&W)
 
 
 
+Valueline2= Harondor Warlords can sacrifice members of their hordes for +10% speed and +15% damage 
+Valueline3= Lasts 30 seconds 
+Valueline4=Left click to activate
+
+[CONTROLBAR:ToolTipPurchaseHaradLiesandThreats]
+Value=Increases Harondor Warlords' armour
+Valueline2= Harondor Warlords have increased armour 
+Valueline3= Passive ability
+
 
 [CONTROLBAR:PurchaseUpgradeHaradFortressBanners]
 Value=Threat of Mordor (&W)
@@ -81504,6 +81556,7 @@ Value=Subjugation: Near Harad (&E)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeHaradFortressHarondor]
 Value=Permanently decreases build time of Haradrim units by 20%
+Valueline2= Allows Tribal Camps to summon Harondor units 
 
 
 [CONTROLBAR:PurchaseUpgradeHaradFortressNafarat]
