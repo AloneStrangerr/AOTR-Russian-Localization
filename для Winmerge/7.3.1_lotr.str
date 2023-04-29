@@ -67724,9 +67724,14 @@ Value=Research Mithril-tipped Arrows Upgrade (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyDwarvenFireArrows]
-Value=Purchase Mithril-tipped Arrows Upgrade 
-Valueline2= Adds additional Slash damage to Arrows 
-Valueline3= Select a battalion to upgrade
+Value=Allows battalions to purchase the Mithril-tipped Arrows upgrade 
+Valueline2= When equipped, adds additional Slash damage to Arrows 
+Valueline3=
+Valueline4= Allows Laketown Archers to purchase the Fire Arrows upgrade 
+Valueline5=  
+Valueline6= When equipped, significantly increases the damage done by arrows 
+Valueline7=
+Valueline8= Will upgrade all patrols instantly once upgrade is purchased
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFireArrows]
@@ -81748,6 +81753,11 @@ Value=Turns the Mallorn Tree into a Green Pasture
 Value=Primary Upgrade: Green Pasture
 Valueline2=Researches weapons and armour upgrades
 Value=Researches weapons and armour upgrades 
+[CONTROLBAR:ToolTipPurchaseTechnologyMirkwoodForgedBlades_Dorwinion]
+Value=Allows battalions to purchase the Avarin Steel upgrade 
+Valueline2= When equipped, increases the damage done by melee weapons
+Valueline3= Will upgrade all patrols instantly once upgrade is purchased
+
 [CONTROLBAR:PurchaseTechnologyMirkwoodSilverthornArrows_Dorwinion]
 Value=Research Silvan Fletching (&T)
 
