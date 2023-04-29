@@ -46854,6 +46854,13 @@ Value=Harrowing Strike
 
 [CONTROLBAR:HarrowingStrike_Level1]
 Value=Harrowing Strike
+
+
+[CONTROLBAR:TooltipHarrowingStrike_Level1]
+Value=Targeted enemy unit takes damage and is knocked back. Damage dealt is drained, healing the caster for a small amount
+Valueline2=Left click icon then left click on target
+
+
 [CAH:Command_SpecialAbilityHarrowingStrike2_Name]
 Value=Improved Harrowing Strike
 
@@ -46861,12 +46868,25 @@ Value=Improved Harrowing Strike
 [CONTROLBAR:HarrowingStrike_Level2]
 Value=Improved Harrowing Strike
 
+
+[CONTROLBAR:TooltipHarrowingStrike_Level2]
+Value=Targeted enemy unit takes damage and is knocked back. Damage dealt is drained, healing the caster for a moderate amount
+Valueline2=Left click icon then left click on target
+
+
 [CAH:Command_SpecialAbilityHarrowingStrike3_Name]
 Value=Mighty Harrowing Strike
 
 
 [CONTROLBAR:HarrowingStrike_Level3]
 Value=Mighty Harrowing Strike
+
+
+[CONTROLBAR:TooltipHarrowingStrike_Level3]
+Value=Targeted enemy unit takes damage and is knocked back. Damage dealt is drained, healing the caster for a great amount
+Valueline2=Left click icon then left click on target
+
+
 [CAH:Command_CreateAHeroLeadershipWraith_Name]
 Value=Dark Authority
 
@@ -59780,7 +59800,10 @@ Valueline3= When equipped, significantly increases the Stone Thrower's damage
 
 
 [CONTROLBAR:ToolTipConstructAngmarMill]
-Value=May recruit Trade Caravans that make resources and provide nearby friendly units with the ability to purchase upgrades
+Value=May recruit Trade Caravans and Âmazhir Caravans to support friendly units and provide unit upgrades 
+Valueline2=Increases command point limit by 50 
+Valueline3= 
+Valueline4= Bustling Bazaars are a common sight in all settlements in the vast South-lands of Middle-earth.
 
 
 [CONTROLBAR:ToolTipConstructAngmarBarracks]
@@ -80919,8 +80942,32 @@ Value=Bazaar
 Value=Deploy Caravan (&W)
 
 
+[CONTROLBAR:TooltipSpecialAbilityHaradNomadDeploy]
+Value=Âmazhir Caravan deploys to become Âmazhir Camp 
+Valueline2= Âmazhir Camp passively grants various buffs and can replenish units with Blackest of Teas 
+Valueline3= Left click to activate
+
+
+[CONTROLBAR:TooltipSpecialAbilityHaradNomadUnDeploy]
+Value=Âmazhir Caravan may move again but doesn't provide any buffs 
+Valueline2= Left click to activate
+
+
+[OBJECT:HaradNomad]
+Value=Âmazhir Caravan
+
+
+[OBJECT:HaradNomadDeployed]
+Value=Âmazhir Camp
+
+
+[CONTROLBAR:SpecialAbilityNomadHeal]
+Value=Blackest of Teas (&R)
 [CONTROLBAR:TooltipSpecialAbilityHaradCaravanDeploy]
 Value=Caravan becomes immobile but gains +200% production
+[CONTROLBAR:ToolTipCaravanDebuff]
+Value=Trade Caravans heal over time when near Bazaars
+Valueline2= Passive ability
 
 
 [OBJECT:TradeCaravan]
@@ -80929,6 +80976,15 @@ Value=Southron Trade Caravan
 
 [CONTROLBAR:ConstructTradeCaravan]
 Value=Southron Trade Caravan (&W)
+
+
+[OBJECT:HaradAmazhirNomad]
+Value=Âmazhir Nomad
+
+
+[CONTROLBAR:ConstructHaradNomad]
+Value=Âmazhir Caravan (&E)
+Valueline4= The Âmazhir are an ancient tribe of nomads. None are more intimately familiar with the vast South-lands of Middle-earth, or more privy to its many secrets.
 
 
 [CONTROLBAR:ToolTipBuildTradeCaravan]
