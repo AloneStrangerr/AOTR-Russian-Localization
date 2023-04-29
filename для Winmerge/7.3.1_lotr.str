@@ -53063,7 +53063,7 @@ Value=Tribal Spearmen (&C)
 
 
 [CONTROLBAR:ThrallMasterUpgradeRhudaurSlingers]
-Value=Tribal Javelineers (&T)
+Value=Tribal Bowmen (&T)
 
 
 [CONTROLBAR:NecromancerDeathMask]
@@ -53075,11 +53075,11 @@ Value=Troll &Stone Thrower
 
 
 [CONTROLBAR:IceArrowUpgrade]
-Value=Ice Arrows
+Value=Oil-tipped Arrows
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarIceArrows]
-Value=Upgrades this horde with Ice Arrows 
+Value=Upgrades this horde with Oil-tipped Arrows 
 Valueline2= Significantly increases the damage done by arrows
 
 
@@ -53167,19 +53167,17 @@ Value=Requires Level 2 Dark Iron Forge
 [CONTROLBAR:TooltipThrallMasterUpgradeHaradAxemen]
 Value=Cost: FREE 
 Valueline2= Summon Tribal Axemen to serve you 
-Valueline3=Strong vs. Cavalry
+Valueline3=Strong vs. Pikemen
 
 
 [CONTROLBAR:TooltipThrallMasterUpgradeRhudaurSpearmen]
-Value=Cost: FREE 
-Valueline2= Summon Tribal Spearmen to serve you 
-Valueline3=Strong vs. Cavalry
+Value=Summon Tribal Spearmen to serve you 
+Valueline2=Strong vs. Cavalry
 
 
 [CONTROLBAR:TooltipThrallMasterUpgradeRhudaurSlingers]
-Value=Cost: FREE 
-Valueline2= Summon Tribal Javelineers to serve you 
-Valueline3=Strong at Range
+Value=Summon Tribal Bowmen to serve you 
+Valueline2=Strong vs. Archers and Swordsmen
 
 
 [CONTROLBAR:TooltipConstuctAngmarForgeWorks]
@@ -53451,7 +53449,7 @@ Value=Banner Carrier
 
 
 [UPGRADE:AngmarIceArrowUpgrade]
-Value=Ice Arrows
+Value=Oil-tipped Arrows
 
 
 [UPGRADE:AngmarIceShot]
@@ -54856,7 +54854,7 @@ Value=This Mallorn Tree controls the Elven Wood Power.
 
 
 [TOOLTIP:AngmarIceArrows]
-Value=Ice Arrows
+Value=Oil-tipped Arrows
 
 
 [LAN:TooFewPlayers]
@@ -57305,7 +57303,7 @@ Value=Earnur struck out to chase him down, But I then realized his power.
 
 
 [SUBTITLE:BABME_07]
-Value=We thought him but a powerful Black Númenorean, but he is Nazgûl, First of the Nine, most fell servant of the Dark Lord Sauron.
+Value=We thought him but a powerful Black Númenórean, but he is Nazgûl, First of the Nine, most fell servant of the Dark Lord Sauron.
 
 
 [SUBTITLE:BABME_08]
@@ -57361,7 +57359,7 @@ Value=It was during the reign of the eighth King of Arthedain that evil began to
 
 
 [SUBTITLE:BACO_013]
-Value=a twisted, frozen land that lay North beyond the Ettenmoors, and home of the Black Númenoreans.
+Value=a twisted, frozen land that lay North beyond the Ettenmoors, and home of the Black Númenóreans.
 
 
 [SUBTITLE:BACO_014]
@@ -57533,7 +57531,7 @@ Value=The shards of the Palantir still contain great power.
 
 
 [SUBTITLE:BAM5E_02]
-Value=For many centuries the Black Númenoreans have dabbled in the dark arts.
+Value=For many centuries the Black Númenóreans have dabbled in the dark arts.
 
 
 [SUBTITLE:BAM5E_03]
@@ -59721,7 +59719,7 @@ Valueline2=Strong at Range
 Value=Strong at Range
 
 [CONTROLBAR:PurchaseUpgradeAngmarIceArrows]
-Value=Purchase Fire Arrows (&C)
+Value=Purchase Oil-tipped Arrows (&C)
 
 [TOOLTIP:LackAngmarIceArrows]
 Value=A nearby Caravan is needed to enable this equipment 
@@ -65295,7 +65293,7 @@ Value=The Steward of Gondor
 
 
 [CONTROLBAR:SummonSpawnTrebuchet]
-Value=Númenorean Engineering
+Value=Númenórean Engineering
 
 
 [CONTROLBAR:SummonLossarnachAllies]
@@ -71322,7 +71320,7 @@ Value=High King of the Dúnedain
 
 
 [CONTROLBAR:ToolTipElendilLeadership]
-Value=Elendil, son of Amandil, was the leader of the Faithful Númenoreans, before Eru Ilúvatar drowned the island nation as punishment for the arrogance of Ar-Pharazôn, its last king. Elendil escaped with his two sons and founded Númenorean kingdoms in Middle-earth. His seat was in Annúminas, in Arnor, while his sons ruled in his name from Minas Anor and Minas Ithil, in Gondor. 
+Value=Elendil, son of Amandil, was the leader of the Faithful Númenóreans, before Eru Ilúvatar drowned the island nation as punishment for the arrogance of Ar-Pharazôn, its last king. Elendil escaped with his two sons and founded Númenórean kingdoms in Middle-earth. His seat was in Annúminas, in Arnor, while his sons ruled in his name from Minas Anor and Minas Ithil, in Gondor. 
 Valueline2=
 Valueline3= Allies near Elendil gain 
 Valueline4= +33% damage, +33% armour, 
@@ -80775,7 +80773,7 @@ Value=Modifier Type: Leadership
 Valueline2= Units recruited from the Golden King's Pavillion gain +50% Experience, +25% armour and +33% damage 
 Valueline3= Rank 3: leadership expands to include Mahûd units 
 Valueline4=  Rank 6: leadership expands to include Harondor units 
-Valueline5= Rank 10: Leadership expands to include Black Númenorean units and Watchers of Kârna 
+Valueline5= Rank 10: Leadership expands to include Black Númenórean units and Watchers of Kârna 
 Valueline6=
 Valueline7= When near the Golden King, the Black Vizier gains +100% armour 
 Valueline8=Passive ability
@@ -81034,7 +81032,7 @@ Valueline4= Passive ability
 
 
 [CONTROLBAR:CaravanArrows]
-Value=Trade: Fire Arrows
+Value=Trade: Oil-tipped Arrows
 
 
 [CONTROLBAR:ToolTipCaravanArrows]
@@ -81063,11 +81061,11 @@ Value=Tribal Spearmen
 
 
 [OBJECT:TribalJavelineers]
-Value=Tribal Javelineer
+Value=Tribal Bowman
 
 
 [OBJECT:TribalJavelineersHorde]
-Value=Tribal Javelineers
+Value=Tribal Bowmen
 
 
 [OBJECT:TribalAxeman]
@@ -81347,12 +81345,14 @@ Valueline3= The Hasharin are an order of assassins founded by the wicked Syâr-Rh
 
 
 [CONTROLBAR:ConstructHaradwaithTribalJavelineersHordeCamp]
-Value=Summon Tribal Javelineers (&E)
+Value=Summon Tribal Bowmen (&E)
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithTribalJavelineersHordeCamp]
-Value=Strong vs. Infantry 
-Valueline2= NEEDS LORE STRING.
+Value=Summons two battalions of Tribal Bowmen
+Valueline2=Strong vs. Archers and Swordsmen 
+Valueline3= 
+Valueline4= These archers carry tough bows of bone that require great strength and discipline to shoot.
 
 
 [CONTROLBAR:ConstructHaradwaithTribalSpearmenHordeCamp]
@@ -82762,7 +82762,7 @@ Value=Enedwaith*
 
 
 [Map:MAPMPenedwaith/Desc]
-Value=Enedwaith was once deeply forested until the arrival of the timber-seeking Númenoreans during the Second Age left the landscape devastated and barren. 
+Value=Enedwaith was once deeply forested until the arrival of the timber-seeking Númenóreans during the Second Age left the landscape devastated and barren. 
 Valueline2= Creeps: Hill Troll, Goblin 
 Valueline3= Region: Eriador
 
@@ -85271,7 +85271,7 @@ Value=Enedwaith
 
 
 [Map:MAPWORenedwaith/Desc]
-Value=Enedwaith was once deeply forested until the arrival of the timber-seeking Númenoreans during the Second Age left the landscape devastated and barren.
+Value=Enedwaith was once deeply forested until the arrival of the timber-seeking Númenóreans during the Second Age left the landscape devastated and barren.
 
 
 
