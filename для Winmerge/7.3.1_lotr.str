@@ -53263,7 +53263,10 @@ Value=Requires Level 2 Temple of Twilight
 
 
 [TOOLTIP:LackLevel3HallOfTwilight]
-Value=Requires Level 3 Temple of Twilight
+Value=Requires Level 2 Sanctum of Zigûr 
+Valueline2= 
+Valueline3= Allows Cultists to specialize in the Spirit of Zigûr power
+Valueline4= 
 
 
 [CONTROLBAR:TooltipBuildAngmarTrollSling]
@@ -53338,6 +53341,12 @@ Value=Well of Souls
 Value=&Corpse Rain
 
 
+[CONTROLBAR:ToolTipSanctumMelkorRuin]
+Value=Requires Level 3 Sanctum of Zigûr and four full battalions of Zigûr Cultists 
+Valueline2= Sacrifice all cultists on the battlefield to summon the wrath of Melkor
+Valueline3= Left click icon and then left click on target location
+
+
 [CONTROLBAR:PurchaseUpgradeCorpseRain]
 Value=&Corpse Rain
 
@@ -53349,7 +53358,7 @@ Valueline3= The Sorcerer can specialize in one power only.
 
 
 [TOOLTIP:AngmarCorpseRain]
-Value=Corpse Rain
+Value=Spirit of Zigûr
 
 
 [CONTROLBAR:Avalanche]
@@ -53439,7 +53448,7 @@ Value=Well of Souls
 
 
 [UPGRADE:AngmarCorpseRain]
-Value=Corpse Rain
+Value=Spirit of Zigûr
 
 
 [UPGRADE:AngmarSoulFreeze]
@@ -62652,8 +62661,8 @@ Value=Slaves of Nurn
 
 
 [CONTROLBAR:ToolTipIndustryMordor]
-Value=Selected structure's resource output is temporarily raised to 275% 
-Valueline2= Only effects Slaughter Houses 
+Value=Selected structure's resource output is raised to 275% for 5 minutes
+Valueline2= Only effects Slave Farms 
 Valueline3= Left click icon then left click on target resource structure
 
 
@@ -75947,11 +75956,21 @@ Valueline8= 6+ Founts: 25%
 Value=Summon Fount of Corruption (&R)
 
 
+[CONTROLBAR:ConstructGuldurFountOfCorruptionWotRRealTime]
+Value=Summon Fount of Corruption (&T)
+
+
 [CONTROLBAR:ToolTipConstructGuldurFountOfCorruption]
 Value=Provides corruption as a resource based on available terrain 
 Valueline2= Trains Blighted Trappers and Corrupted Entwives 
 Valueline3= Reduces cost of spiders 
 Valueline4= Increases command point limit by 50
+
+
+[CONTROLBAR:ToolTipConstructGuldurFountOfCorruptionWotR]
+Value=Tertiary Barracks 
+Valueline2= Trains Corrupted Entwives 
+Valueline3= Limited to 1
 
 
 [OBJECT:GuldurWoodsmen]
@@ -76313,6 +76332,13 @@ Valueline4=
 Valueline5= During the War of the Last Alliance, Sauron set fire to the Brown Lands, which had long been the home of the Entwives. Most perished in the inferno, but some were captured by the Dark Forces and subsequently corrupted.
 
 
+[CONTROLBAR:ToolTipBuildEntwifeWOTR]
+Value=Strong vs. Structures, Swordsmen and Archers
+Valueline2= Limited to 8 
+Valueline3=
+Valueline4= During the War of the Last Alliance, Sauron set fire to the Brown Lands, which had long been the home of the Entwives. Most perished in the inferno, but some were captured by the Dark Forces and subsequently corrupted.
+
+
 [CONTROLBAR:TwistedBotany]
 Value=Twisted Botany
 
@@ -76322,9 +76348,12 @@ Value=Twisted Botany (&T)
 
 
 [CONTROLBAR:ToolTipTwistedBotany]
-Value=Entwives can enter the Fount to grant it
-Valueline2=+30% resource production
-Valueline3=Passive ability
+Value=Entwives regain health while outside of combat
+Valueline2=Passive ability 
+Valueline3= 
+Valueline4= Entwives can enter the Fount to grant it
+Valueline5=+30% resource production
+Valueline6=Passive ability
 
 
 [CONTROLBAR:ToolTipTwistedBotanyExit]
@@ -81440,7 +81469,7 @@ Value=Abrakhân Warriors
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithHasharinBlade]
-Value=Requires Level 3 Umbarian Citadel 
+Value=Requires Level 2 Sanctum of Zigûr 
 Valueline2= Strong vs. ??? 
 Valueline3= The Hasharin are an order of assassins founded by the wicked Syâr-Rhul in order to silence and intimidate the Golden King's adversaries amongst the Haradrim tribes
 
@@ -81660,8 +81689,9 @@ Value=Build Sanctum of Zigûr (&V)
 
 
 [CONTROLBAR:ToolTipConstructSanctumofZigur]
-Value=Trains Zigûr Cultists and Hasharin Blades 
-Valueline2= Increases command point limit by 25
+Value=Trains Zigûr Cultists and Hasharin Blades
+Valueline2=Limited to 1
+Valueline3=
 
 
 [OBJECT:SanctumofZigur]
@@ -81674,13 +81704,8 @@ Valueline2= Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildSanctumofZigurLevel2Upgrade]
-Value=Unlocks ETC spells 
-Valueline2= +10% faster build speed
-
-[CONTROLBAR:TooltipBuildAngmarHallofTwilightLevel3Upgrade]
-Value=Allows training of Hasharin Blades and unlocks ETC spells 
-Valueline2= Adds a defensive arrow tower???   
-Valueline3= +25% Build Speed
+Value=Allows training of Hasharin Blades and researching Spirit of Zigûr
+Valueline2=+10% faster build speed
 
 
 [CONTROLBAR:ConstructSanctumofZigur2Upgrade]
@@ -81711,6 +81736,22 @@ Value=Acolyte
 Value=Zigûr Cultist
 
 
+[CONTROLBAR:LW_Unit_ZigurCultistsHorde]
+Value=Zigûr Cultist Horde
+
+
+[CONTROLBAR:LW_Unit_ZigurCultistsHordePlural]
+Value=Zigûr Cultist Hordes
+
+
+[BANNERUI:ZigurCultist]
+Value=Zigûr Cultist
+
+
+[BANNERUI:ZigurCultists]
+Value=Zigûr Cultists
+[CONTROLBAR:ArbitersSpiritOfZigur]
+Value=Spirit of Zigûr (&T)
 [CONTROLBAR:CultistsDesolation]
 Value=Desolation (&W)
 
@@ -81732,6 +81773,9 @@ Valueline3= Stacks With Buffs, Leadership and other Spells
 Valueline4= Left click icon then left click on target area
 
 
+Value=Allows Specialization in the Zealotry power 
+Valueline5=The Cultists can specialize in one power only
+Value=Allows Cultists to specialize in the Zealotry power
 [CONTROLBAR:CultistsHeartsofFire]
 Value=Hearts of Fire (&T)
 
@@ -81751,6 +81795,43 @@ Value=Allows Specialization in the Hearts of Fire power
 Valueline2= Targeted friendly units permanently deal added fire damage 
 Valueline3= Can only be used in non heroic, non monstrous melee infantry 
 Valueline4= The Cultists can specialize in one power only
+Valueline6= The Cultists can specialize in one power only
+Value=Allows Cultists to specialize in the Hearts of Fire power
+[CONTROLBAR:CultistsSpiritOfZigur]
+Value=Spirit of Zigûr (&T)
+
+
+[CONTROLBAR:ToolTipCultistsSpiritOfZigur]
+Value=Summons the flames of Zigûr which burn everything in their wake 
+Valueline2= Left click and then left click on target enemy
+
+
+[CONTROLBAR:ToolTipArbiterSpiritOfZigur]
+Value=Requires Level 5
+Valueline2=Summons the flames of Zigûr which burn everything in their wake 
+Valueline3= Left click and then left click on target enemy
+
+
+[CONTROLBAR:PurchaseUpgradeSpiritOfZigur]
+Value=Specialization: Spirit of Zigûr (&V)
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeSpiritOfZigur]
+Value=Allows Specialization in the Spirit of Zigûr power 
+Valueline2= Zigûr Cultists summon the flames of Zigûr which burn everything in their wake
+Valueline3= The Cultists can specialize in one power only
+
+
+[CONTROLBAR:PurchaseTechnologyCultistsSpiritOfZigur]
+Value=Dark Worship: Spirit of Zigûr (&T)
+
+
+[CONTROLBAR:ToolTipPurchaseTechnologyCultistsSpiritOfZigur]
+Value=Requires Level 2 Sanctum of Zigûr 
+Valueline2=
+Valueline3= Allows Cultists to specialize in the Spirit of Zigûr power
+Valueline4= 
+Valueline5= Zigûr Cultists summon the flames of Zigûr which burn everything in their wake
 
 
 [TOOLTIP:LackHaradHeartsofFire]
