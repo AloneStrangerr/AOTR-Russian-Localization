@@ -81947,6 +81947,7 @@ Valueline4=Left click then left click target hero
 
 [CONTROLBAR:SpecialAbilityDurinsBaneIgnite]
 Value=Ignite (&R)
+Valueline2=Produces resources
 Valueline3=Increases command point limit by 100
 
 [OBJECT:IthilienStorehouse]
@@ -81955,10 +81956,13 @@ Value=Ithilien Storehouse
 [CONTROLBAR:ConstructIthilienStorehouse]
 Value=Build Ithilien Storehouse (&E)
 
+Valueline3=Produces resources
 Valueline4=Increases command point limit by 100
 
+Valueline2=Produces resources
 Valueline3=Increases command point limit by 100
 
+Valueline2=Produces resources
 Valueline3=Increases command point limit by 100
 
 
