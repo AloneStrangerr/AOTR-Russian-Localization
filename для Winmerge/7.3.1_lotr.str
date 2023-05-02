@@ -58213,7 +58213,7 @@ Valueline2= Increases command point limit by 25
 [CONTROLBAR:ToolTipConstructRohanBarracks]
 Value=Trains the melee infantry of Rohan 
 Valueline2= Researches weapons and armour upgrades 
-Valueline3= Generates a small amount of resources based on avaliable terrain 
+Valueline3= Generates a small amount of resources based on avaliable terrain
 Valueline4= Increases command point limit by 25
 
 
@@ -58260,7 +58260,7 @@ Valueline2= Increases command point limit by 25
 
 [CONTROLBAR:ToolTipConstructRohanStable]
 Value=Trains Rohan's cavalry 
-Valueline2= Generates a small amount of resources based on avaliable terrain 
+Valueline2= Generates a small amount of resources based on avaliable terrain
 Valueline3= Increases command point limit by 25 
 Valueline4= Increases the armor of cavalry units
 
@@ -58570,9 +58570,10 @@ Valueline3= Green Pasture or Storehouse
 Value=Generates resources based on available terrain
 Valueline2= Can be specialised to become a Galadhrim Garrison,
 Valueline3= Green Pasture or Storehouse
-Valueline4= Can train Celemegiliath 
-Valueline5=
-Valueline6= Vantage Point Bonus - Increases range of nearby ranged units and heroes
+
+
+[OBJECT:NiphredilMallornTreeDescription]
+Value=Generates resources based on available terrain
 
 
 [CONTROLBAR:PurchaseUpgradeElvenBarracksLevel3]
@@ -65628,8 +65629,8 @@ Value=Build Gorgoroth Foundry (&R)
 
 
 [CONTROLBAR:ToolTipConstructMordorArmory]
-Value=Manufactures and trades armor as a resource based on available terrain
-Valueline2=Researches weapon and armor upgrades
+Value=Manufactures and trades armour as a resource based on available terrain
+Valueline2=Researches weapon and armour upgrades
 Valueline3= Reduced cost of upgrades 
 Valueline4= Increases command point limit by 50
 
@@ -66984,6 +66985,11 @@ Valueline2= Unlocks ‘Border Patrol’, which allows the player to summon a trio of
 Value=Build Golden Wood Storehouse (&R)
 
 
+[CONTROLBAR:ToolTipEregionForge]
+Value=Generates resources based on available terrain
+Valueline2=Researches Lórien unit upgrades 
+Valueline3= Increases command point limit by 25
+
 [UPGRADE:MarketplaceUpgradeGrandHarvestLorien]
 Value=Things That Will Be
 
@@ -67729,6 +67735,12 @@ Valueline2= Causes fear in nearby enemies
 Valueline3= Left click to activate
 
 
+[CONTROLBAR:ThrorArmouries]
+Value=Armouries of Thrór (&D)
+
+
+[CONTROLBAR:ToolTipThrorArmouries]
+Value=Requires the Armouries of Thrór upgrade 
 [CONTROLBAR:PurchaseTechnologyDwarvenFireArrows]
 Value=Research Mithril-tipped Arrows Upgrade (&R)
 
@@ -67756,10 +67768,17 @@ Valueline2= Adds additional Slash damage to Arrows
 [ToolTip:LackDwarvenFireArrows]
 Value=Research upgrade at the Grand Forge to enable this equipment 
 Valueline2= When equipped, adds additional Slash or Fire damage to Arrows
+[ToolTip:LackDwarvenFireArrowsBotFA]
+Value=Research upgrade at the Armouries of Thrór fortress upgrade and cast its ability to grant units Fire Arrows 
 
 
 [TOOLTIP:LackDwarvenMithrilMail]
 Value=Research upgrade at the Grand Forge to enable this equipment 
+Valueline2= When equipped, significantly reduces the amount of damage taken
+
+
+[TOOLTIP:LackDwarvenMithrilMailBotFA]
+Value=Research upgrade at the Armouries of Thrór fortress upgrade and cast its ability to grant units Master's Armour
 Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
@@ -67770,6 +67789,16 @@ Valueline2= When equipped, increases this battalion to Level 2
 
 [TOOLTIP:LackDwarvenForgedBlades]
 Value=Research upgrade at the Grand Forge to enable this equipment 
+Valueline2= When equipped, increases the damage done by melee weapons
+
+
+[TOOLTIP:LackDwarvenForgedBladesBotFA]
+Value=Research the Armouries of Thrór fortress upgrade and cast its ability to grant units Khûzdul Runes 
+Valueline2= When equipped, increases the damage done by melee weapons
+
+
+[TOOLTIP:LackDwarvenForgedBladesLaketownBotFA]
+Value=Research the Armouries of Thrór fortress upgrade and cast its ability to grant units Master's Blades 
 Valueline2= When equipped, increases the damage done by melee weapons
 
 
@@ -72145,7 +72174,7 @@ Value=Bamfurlong
 [CONTROLBAR:ToolTipMaggotsFarmSummon]
 Value=Requires Level 2
 Valueline2=Summons Farmer Maggot's farm for a short time 
-Valueline3= Generates a large amount of resources
+Valueline3= Generates a large amount of resources 
 
 
 [OBJECT:MaggotsFarmDescription]
@@ -75880,6 +75909,7 @@ Valueline5= 3 Slave Mills: 10%
 Valueline6= 4 Slave Mills: 15% 
 Valueline7= 5 Slave Mills: 20% 
 Valueline8= 6+ Slave Mills: 25%
+Value=Provides misery as a resource based on available terrain 
 
 
 [CONTROLBAR:ConstructGuldurSlaveMill]
@@ -75890,6 +75920,11 @@ Value=Summon Slave Mill (&W)
 Value=Provides misery as a resource based on available terrain 
 Valueline2= Can spawn hordes of Broken Rabble 
 Valueline3= Reduces cost of basic orcs 
+Valueline4= Increases command point limit by 50
+
+
+[CONTROLBAR:TooltipConstructAngmarSlaveMill]
+Value=Provides misery as a resource based on available terrain 
 Valueline4= Increases command point limit by 50
 
 
@@ -81753,24 +81788,74 @@ Value=Research Marchwarden Garrison (&C)
 
 [CONTROLBAR:ToolTipUpgradeTalanMarchwardenGarrison]
 Value=Marchwardens will patrol around the Talan
+Valueline2= Increases command point limit by 50
+
+
 [CONTROLBAR:UpgradeMallornGaladhrimGarrisonFake]
 Value=Primary Upgrade: Galadhrim Garrison
+Valueline2= Increases command point limit by 25
+
+
 [CONTROLBAR:UpgradeMallornGaladhrimGarrison]
 Value=Primary Upgrade: Galadhrim Garrison (&E)
 
 
 [CONTROLBAR:ToolTipUpgradeMallornGaladhrimGarrison]
 Value=Turns the Mallorn Tree into a Galadhrim Garrison 
+Valueline3= Increases command point limit by 25
+
+
 [CONTROLBAR:UpgradeMallornGreenPasture]
 Value=Primary Upgrade: Green Pasture (&R)
 
 
 [CONTROLBAR:ToolTipUpgradeMallornGreenPasture]
 Value=Turns the Mallorn Tree into a Green Pasture 
+Valueline3= Increases command point limit by 25
+
+
 [CONTROLBAR:UpgradeMallornGreenPastureFake]
 Value=Primary Upgrade: Green Pasture
+Valueline2= Increases command point limit by 25
+
+
+Valueline4= Increases command point limit by 25
+
+
+Valueline2= Increases command point limit by 25
+
+
+[CONTROLBAR:FishingNets]
+Value=Commence Fishing (&W)
+
+
+[CONTROLBAR:ToolTipFishingNets]
+Value=Left click to commence fishing
+Valueline2=Ship generates income but suffers -90% speed
+
+
+[CONTROLBAR:HideFishingNets]
+Value=Cease Fishing (&W)
+
+
+[CONTROLBAR:ToolTipHideFishingNets]
+Value=Left click to cease fishing
+[CONTROLBAR:ToolTipDorwinionVineyard]
+Value=Generates wine as a resource based on available terrain 
+Valueline2= Increases command point limit by 50
+
+[OBJECT:DorwinionVineyardDescription]
+Value=Generates wine as a resource based on available terrain
+
+
+[CONTROLBAR:ToolTipConstructDorwinionMarket]
+Value=Provides traded goods as a resource based on available terrain
 Valueline2=Researches weapons and armour upgrades
+Valueline4= Increases command point limit by 50
+
+
 Value=Researches weapons and armour upgrades 
+Valueline2= Provides traded goods as a resource based on available terrain 
 [CONTROLBAR:ToolTipPurchaseTechnologyMirkwoodForgedBlades_Dorwinion]
 Value=Allows battalions to purchase the Avarin Steel upgrade 
 Valueline2= When equipped, increases the damage done by melee weapons
@@ -81834,7 +81919,19 @@ Valueline8=Limited to 1
 Valueline9=Left click to activate
 [CONTROLBAR:PurchaseUpgradeGondorHeavyArmorLongbowman]
 Value=Purchase Steel Cuirasses (&C)
+[CONTROLBAR:ToolTipConstructArnorMill]
+Value=Generates resources based on available terrain 
+Valueline2= Increases command point limit by 50
+
+[CONTROLBAR:ToolTipDescriptionArnorMill]
+Value=Generates resources based on available terrain
+[CONTROLBAR:ToolTipConstructArnorBlacksmith]
+Value=Provides worked metals as a resource based on available terrain
 Valueline2=Researches weapons and armour upgrades
+Valueline4= Increases command point limit by 50
+
+[OBJECT:ArnorianArmouryDescription]
+Value=Generates resources based on available terrain
 [CONTROLBAR:ToolTipPurchaseAidFromRivendell]
 Value=Allows the Embassy to temporarily summon a battalion of Noldor Knights
 
@@ -81850,11 +81947,19 @@ Valueline4=Left click then left click target hero
 
 [CONTROLBAR:SpecialAbilityDurinsBaneIgnite]
 Value=Ignite (&R)
+Valueline3=Increases command point limit by 100
+
 [OBJECT:IthilienStorehouse]
 Value=Ithilien Storehouse
 
 [CONTROLBAR:ConstructIthilienStorehouse]
 Value=Build Ithilien Storehouse (&E)
+
+Valueline4=Increases command point limit by 100
+
+Valueline3=Increases command point limit by 100
+
+Valueline3=Increases command point limit by 100
 
 
 [Map:MAPSPevillorien]
