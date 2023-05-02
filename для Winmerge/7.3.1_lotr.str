@@ -62412,12 +62412,11 @@ Value=Challenge of Gondor (&R)
 [CONTROLBAR:ToolTipChallengeofGondor]
 Value=Modifier Type: Active Debuff 
 Valueline2= Targeted enemy units suffer -25% damage and -25% armour for 30 seconds 
-Valueline3= Does not stack with other Debuffs 
-Valueline4= Left click icon then left click on target units
+Valueline3= Left click icon then left click on target units
 
 
 [OBJECT:DwarvenThror]
-Value=Thror
+Value=King Thrór
 
 
 [CONTROLBAR:ToolTipBuildThror]
@@ -62427,10 +62426,10 @@ Value=Recruit the King of Erebor
 Value=Recruit the King of Erebor
 
 [CONTROLBAR:DwarvenThrorRevive]
-Value=Revive the fallen king, Thror
+Value=Revive the fallen king, Thrór
 
 [CONTROLBAR:DwarvenThrorHotkey]
-Value=&Thror
+Value=&Thrór
 
 
 [OBJECT:DwarvenThrain]
@@ -62657,14 +62656,25 @@ Valueline3= Can only be used when mounted
 Valueline4=Left click to activate
 
 
+[CONTROLBAR:FellBeastUpgrade]
+Value=Flight of the Hell-hawks (&V)
+
+
+[CONTROLBAR:TooltipFellBeastUpgrade]
+Value=Allows Nazgûl to mount Fellbeast instead of horse
+
+
+[CONTROLBAR:LackFellBeastUpgrade]
+Value=Requires Breeding Grounds upgrade
+
+
 [CONTROLBAR:WarChantMordor]
 Value=Orc Horn
 
 [CONTROLBAR:ToolTipWarChantMordor]
 Value=Modifier Type: Buff 
-Valueline2= Target allies gain +50% damage, +50% armour 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Left click icon then left click on target units
+Valueline2= Target allies gain +25% damage, +25% armour for 60 seconds
+Valueline3= Left click icon then left click on target units
 
 
 [CONTROLBAR:IndustryMordor]
@@ -62683,11 +62693,10 @@ Value=Halfling Courage
 
 [CONTROLBAR:ToolTipPippinCourage]
 Value=Requires Level 5
-Valueline2= Modifier Type: Spell 
+Valueline2= Modifier Type: Leadership 
 Valueline3= Nearby heroes earn experience 60% faster 
-Valueline4= Stacks with Leadership, Buffs, and Spells 
-Valueline5= Pippin's health is increased 
-Valueline6= Passive ability
+Valueline4= Pippin's health is increased 
+Valueline5= Passive ability
 
 
 [CONTROLBAR:GondorArcherBonus]
@@ -62697,9 +62706,8 @@ Value=Bows of Yew
 [CONTROLBAR:ToolTipGondorArcherBonus]
 Value=Requires Level 5
 Valueline2= Modifier Type: Spell 
-Valueline3= Anórien Archers gain +15% range and +20% Vision 
-Valueline4= Stacks with Leadership, Buffs, and Spells 
-Valueline5= Passive ability
+Valueline3= Archers of Minas Tirith gain +15% range and +20% vision 
+Valueline4= Passive ability
 
 
 [CONTROLBAR:ChangeAngle0]
@@ -62787,9 +62795,8 @@ Value=Unerring Loyalty
 
 [CONTROLBAR:ToolTipHalbaradUnerringLoyalty]
 Value=Modifier Type: Spell 
-Valueline2= Aragorn and Dúnedain units gain Experience +15% faster when near Halbarad 
-Valueline3= Stacks with Leadership, Buffs, and Spells 
-Valueline4= Passive ability
+Valueline2= Aragorn, Dúnedain and Grey Company units gain Experience +15% faster when near Halbarad 
+Valueline3= Passive ability
 
 
 [CONTROLBAR:HalbaradPerseverance]
@@ -62809,7 +62816,7 @@ Value=Captain of the North
 
 [CONTROLBAR:ToolTipHalbaradCaptainoftheNorth]
 Value=Requires Level 4
-Valueline2= All nearby units gain immunity to fear and terror and gain an armor bonus 
+Valueline2= All nearby units gain immunity to fear and terror and gain an armour bonus 
 Valueline3=Left click icon to activate
 
 
@@ -62829,9 +62836,9 @@ Value=The Banner of Arwen (&V)
 
 [CONTROLBAR:TooltipHalbaradBannerOfArwen]
 Value=Requires Level 10 
-Valueline2= Halbarad unfurls the Banner wrought by Arwen Undómiel
+Valueline2=Halbarad unfurls the Banner wrought by Arwen Undómiel
 Valueline3= For 60 seconds, allied units in a large radius gain +50% damage and are constantly replenished
-Valueline4=Nearby allied heroes receive +75% experience faster
+Valueline4=Nearby allied heroes receive +50% experience faster
 Valueline5=The banner can be destroyed by the enemy in this time
 Valueline6= Left click icon to activate
 
@@ -62907,7 +62914,7 @@ Value=Goin' Down Swinging (&T)
 
 [CONTROLBAR:ToolTipGoingDownSwinging]
 Value=Requires Level 3 
-Valueline2= Lug harms himself to temporarily gain +50% armour, +50% damage and +20% speed 
+Valueline2= Lug harms himself to gain +50% armour, +50% damage and +20% speed for 30 seconds
 Valueline3= Can only use with sword equipped 
 Valueline4= Left click to activate
 
@@ -62963,9 +62970,8 @@ Value=Wild Overlord
 
 [CONTROLBAR:ToolTipBolgLeadership]
 Value=Modifier Type: Leadership
-Valueline2=Nearby Orcs, Wargs and Giant Bats receive +50% armour and resistance to fear and terror
-Valueline3=Stacks with Buffs and Spells
-Valueline4=Passive ability
+Valueline2=Nearby Orcs, Wargs and Giant Bats receive +50% armour, experience and resistance to fear and terror
+Valueline3=Passive ability
 
 [CONTROLBAR:BolgGrowingHatred]
 Value=Growing Hatred (&R)
@@ -62975,7 +62981,7 @@ Value=Requires Level 3
 Valueline2= Bolg deals increased damage against Dwarves 
 Valueline3= Passive ability 
 Valueline4=
-Valueline5= When activated, Bolg deals knockback damage with a greater attack radius 
+Valueline5= When activated, Bolg deals knockback damage with a greater attack radius for 30 seconds
 Valueline6= Consecutive attacks temporarily increase attack damage by 10% up to a maximum of 50% 
 Valueline7= Left click to activate
 
@@ -62985,11 +62991,9 @@ Value=Ruled By Fear (&T)
 [CONTROLBAR:ToolTipBolgRuledByFear]
 Value=Requires Level 5
 Valueline2= Modifier Type: Spell
-Valueline3=Nearby allied units temporarily deal +125% damage, but lose -50% armour and do not gain experience whilst effect lasts
-Valueline4=Stacks with Buffs, Leadership and other Spells
-Valueline5=
-Valueline6= Nearby enemies units flee in terror
-Valueline7=Left click to activate
+Valueline3=Nearby allied units deal +125% damage, but lose -50% armour and do not gain experience for 20 seconds
+Valueline4= Nearby enemies units flee in terror
+Valueline5=Left click to activate
 
 [CONTROLBAR:BolgUnpierceableRanks]
 Value=Unpierceable Ranks (&C)
@@ -62999,7 +63003,7 @@ Value=Requires Level 7
 Valueline2=Bolg is protected by four Bodyguards 
 Valueline3= Passive ability 
 Valueline4=
-Valueline5= When activated, Bolg gains +50% armour 
+Valueline5= When activated, Bolg gains +50% armour for 30 seconds
 Valueline6= Left click to activate
 
 [CONTROLBAR:BolgTerrorOfNorth]
@@ -63026,9 +63030,8 @@ Value=Castellan of Mount Gundabad
 [CONTROLBAR:ToolTipBolgCastellan]
 Value=Requires Level 7 
 Valueline2= Modifier Type: Passive Debuff 
-Valueline3= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline4= Does not stack with other Debuffs 
-Valueline5=Passive ability
+Valueline3= Nearby enemy units suffer -25% damage and -20% armour
+Valueline4=Passive ability
 
 
 [CONTROLBAR:SpecialAbilityBolgCripple]
@@ -63078,14 +63081,13 @@ Value=Legendary Veteran
 [CONTROLBAR:ToolTipMuzgashLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= Moria and Mountain-orcs near Mûzgash gain
-Valueline3= +15% damage and Armor 
-Valueline4= Stacks with Buffs and Spells
-Valueline5=
-Valueline6= At rank 8, Moria and Mountain-orcs near Mûzgash gain
-Valueline7= +33% damage and Armor
-Valueline8= Nearby allies earn resources per kill
-Valueline9=
-Valueline10=Passive ability
+Valueline3= +15% damage and armour
+Valueline4=
+Valueline5= At rank 8, Moria and Mountain-orcs near Mûzgash gain
+Valueline6= +33% damage and armour
+Valueline7= Nearby allies earn resources per kill
+Valueline8=
+Valueline9=Passive ability
 
 
 [CONTROLBAR:MuzgashLeadership2]
@@ -63104,8 +63106,8 @@ Value=Putrid Blade (&R)
 
 [CONTROLBAR:ToolTipMuzgashPutridBlade]
 Value=Requires Level 3 
-Valueline2= Mûzgash dips his blade in orcish poison, 
-Valueline3= temporarily dealing strong poison damage and knockback 
+Valueline2= Mûzgash dips his blade in orcish poison,
+Valueline3= dealing strong poison damage and knockback for 20 seconds
 Valueline4= Left click to activate
 
 
