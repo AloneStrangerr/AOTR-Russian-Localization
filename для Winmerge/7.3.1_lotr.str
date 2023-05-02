@@ -62350,8 +62350,7 @@ Value=Royal Grace
 Value=Requires Level 3
 Valueline2= Modifier Type: Leadership 
 Valueline3= Allies near Berethor gain +33% damage
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability
+Valueline4=Passive ability
 
 
 [CONTROLBAR:ShieldofCourage]
@@ -62362,8 +62361,7 @@ Value=Shield of Courage
 Value=Requires Level 5
 Valueline2= Modifier Type: Spell 
 Valueline3= Allies near Berethor gain Resistance to fear and terror
-Valueline4= Stacks with Leaderships, Buffs, and Spells 
-Valueline5= Passive ability
+Valueline4= Passive ability
 
 
 [CONTROLBAR:ShatteringStrike]
@@ -62381,7 +62379,7 @@ Value=Stand Fast
 
 [CONTROLBAR:ToolTipStandFast]
 Value=Requires Level 7
-Valueline2= All nearby units gain immunity to fear and terror and gain an armor bonus 
+Valueline2= All nearby units gain immunity to fear and terror and gain an armour bonus 
 Valueline3=Left click icon to activate
 
 
@@ -62393,8 +62391,7 @@ Value=Strength of the Citadel
 Value=Requires Level 5 
 Valueline2= Modifier Type: Spell 
 Valueline3= Berethor recives an increase in hitpoints and attack speed
-Valueline4= Stacks With Buffs, Leadership and other Spells 
-Valueline5= Passive ability
+Valueline4= Passive ability
 
 
 [CONTROLBAR:CitadelMight]
@@ -62405,8 +62402,7 @@ Value=Citadel Might
 Value=Requires Level 6
 Valueline2= Modifier Type: Spell 
 Valueline3= Berethor receives an increase in hitpoints and attack speed
-Valueline4= Stacks With Buffs, Leadership and other Spells 
-Valueline5= Passive ability
+Valueline4= Passive ability
 
 
 [CONTROLBAR:ChallengeofGondor]
@@ -62563,6 +62559,20 @@ Valueline5=Left click icon then left click on target
 [OBJECT:GondorFountainGuard]
 Value=Gondor Fountain Guard
 
+[OBJECT:GondorFountainSword]
+Value=Sword of the Fountain
+
+[OBJECT:HordeGondorFountainSword]
+Value=Swords of the Fountain
+
+[CONTROLBAR:ConstructGondorFountainSwordHorde]
+Value=Swords of the Fountain
+
+[CONTROLBAR:ToolTipBuildGondorFountainSwordHorde]
+Value=Elite Infantry 
+Valueline2=Strong vs. Pikemen 
+Valueline3= 
+Valueline4= The silent guardians of the Fountain Court were deadly warriors, capable of great deeds in battle with both sword and lance.
 
 [OBJECT:GondorKingsGuard]
 Value=Gondor Royal Guard
@@ -62599,13 +62609,12 @@ Value=Captain's Horn
 
 [CONTROLBAR:TooltipRallyingCallGondor]
 Value=Modifier Type: Buff 
-Valueline2= Targeted allies gain +50% damage and +50% armour for 60 seconds 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Left click icon then left click on target units
+Valueline2= Targeted allies gain +25% damage and +25% armour for 60 seconds 
+Valueline3= Left click icon then left click on target units
 
 
 [CONTROLBAR:ToolTipArmorofOld]
-Value=Heroes don their battle armor, gaining +75% armour, resistance to knockback, and faster power recharge times 
+Value=Heroes don their battle armour, gaining +75% armour, resistance to knockback, and faster power recharge times 
 Valueline2= Passive power
 
 
@@ -62630,9 +62639,11 @@ Valueline3= Left click to activate
 
 
 [CONTROLBAR:TooltipCorsairChargeHarad]
-Value=Corsairs temporarily deal increased damage vs structures and regain health per hit against structures 
-Valueline2= Can only be used with knives equipped 
-Valueline3= Left click to activate
+Value=Modifier Type: Spell
+Valueline2=Corsairs of Umbar gain +5% damage for every nearby Corsair horde, up to a maximum of +35% damage
+Valueline3=
+Valueline4=Corsairs steal resources from enemy structures with knives equipped
+Valueline5=Passive ability
 
 
 [CONTROLBAR:FellPursuit]
@@ -62641,7 +62652,7 @@ Value=Relentless Pursuit (&T)
 
 [CONTROLBAR:TooltipFellPursuit]
 Value=Requires Level 6
-Valueline2= Nazgûl gain +20% movement speed and +25% damage
+Valueline2= Nazgûl gain +20% movement speed and +33% armour for 30 seconds
 Valueline3= Can only be used when mounted 
 Valueline4=Left click to activate
 
