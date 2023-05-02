@@ -55349,11 +55349,11 @@ Value=We've defeated these Black Numenoreans, but they were able to destroy the 
 
 
 [SCRIPT:ANGAngmarHintText_10]
-Value=These Black Numenoreans have a Dark Iron Forge. Slay them and we can seize it!
+Value=These Black Númenóreans have a Dark Iron Forge. Slay them and we can seize it!
 
 
 [SCRIPT:ANGAngmarHintText_11]
-Value=We've taken control of this Dark Iron Forge! We can use it to build Stone Throwers and upgrade our troops with Dark Iron weapons and armor.
+Value=We've taken control of this Dark Iron Forge! We can use it to build Stone Throwers and upgrade our troops with Dark Iron weapons and armour.
 
 
 [SCRIPT:ANGAngmarHintText_12]
@@ -59047,6 +59047,16 @@ Value=Heat Blast (&W)
 
 [CONTROLBAR:ToolTipHeatBlast]
 Value=Requires Level 2 and Fuel the Fires
+Valueline2= Knocks back nearby enemy units and sets the surrounding area on fire 
+Valueline3= Left click to activate
+
+
+[CONTROLBAR:HeatBlastBotFA]
+Value=Ignite (&W)
+
+
+[CONTROLBAR:ToolTipHeatBlastBotFA]
+Value=Requires Hearths Rekindled
 Valueline2= Knocks back nearby enemy units and sets the surrounding area on fire 
 Valueline3= Left click to activate
 
@@ -69039,6 +69049,14 @@ Value=+15% resources from Dwarven Mines
 Valueline2= Passive power
 
 
+[CONTROLBAR:RekindledHearths]
+Value=Hearths Rekindled
+
+
+[CONTROLBAR:TooltipRekindledHearths]
+Value=+15% resources from Grand Forges
+Valueline2=Unlocks Ignite for Grand Forges
+Valueline3=Passive power
 [CONTROLBAR:EreborCalltheHorde]
 Value=Muster the Dwarves
 
@@ -81824,6 +81842,14 @@ Value=Allows the Embassy to temporarily summon a battalion of Noldor Knights
 Value=Temporarily summons a battalion of Noldor Knights
 Valueline2=Left click to activate
 Valueline2= Only affects units that can receive Steel Cuirasses 
+[CONTROLBAR:ToolTipDurinsBaneRing]
+Value=Durin's Bane is permanently ignited and nearby enemy units suffer fire damage
+Valueline2=Passive ability
+Valueline3=When activated, destroys targeted enemy hero
+Valueline4=Left click then left click target hero
+
+[CONTROLBAR:SpecialAbilityDurinsBaneIgnite]
+Value=Ignite (&R)
 [OBJECT:IthilienStorehouse]
 Value=Ithilien Storehouse
 
