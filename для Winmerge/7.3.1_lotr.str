@@ -58022,13 +58022,21 @@ Value=Fountain Guards form a Spear Wall
 Valueline2= They gain +25% armour, immunity to knockback, fear, terror and all debuffs at the cost of -40% speed
 
 
+[CONTROLBAR:ToolTipToggleKarnaLineToCrescentFormation]
+Value=The units form a Crescent
+Valueline2= Level 1: Watchers of Kârna gain +25% damage but lose 25% speed
+Valueline3=Level 3: +25% damage, resistance to knockback and decelerate crush, -25% speed
+Valueline4=Level 5: +25% damage, +25% armour, resistance to knockback and decelerate crush, -25% speed
+Valueline5=Level 7: +25% damage, +50% armour, resistance to knockback and decelerate crush, -25% speed
+Valueline6=Level 10: +50% damage, +50% armour, resistance to knockback and decelerate crush, -25% speed
+
+
 
 
 [CONTROLBAR:TooltipRallyingCall]
 Value=Modifier Type: Buff 
-Valueline2= Targeted allies gain +50% damage and +50% armour 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Left click icon then left click on target units
+Valueline2= Targeted allies gain +25% damage and +25% armour 
+Valueline3=Left click icon then left click on target units
 
 
 [CONTROLBAR:GondorHeal]
@@ -58062,22 +58070,27 @@ Valueline2=Left click icon then left click on target area
 
 [CONTROLBAR:ToolTipWarChant]
 Value=Modifier Type: Buff 
-Valueline2= Target allies gain +50% damage, +50% armour 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Left click icon then left click on target units
+Valueline2= Target allies gain +25% damage, +25% armour for 60 seconds
+Valueline3=Left click icon then left click on target units
 
 
 [CONTROLBAR:ToolTipTaint]
 Value=Taints an area of terrain 
 Valueline2= Modifier Type: Buff 
 Valueline3= All allied units gain +50% damage and +50% armour 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Left click icon then left click on target area
+Valueline4=Left click icon then left click on target area
+
+
+[CONTROLBAR:ToolTipTaintWotR]
+Value=Taints an area of terrain for 5 minutes
+Valueline2= Modifier Type: Buff 
+Valueline3= All allied units gain +50% damage, +50% armour and become immune to fear and terror
+Valueline4=Left click icon then left click on target area
 
 
 [CONTROLBAR:ToolTipIndustry]
-Value=Selected structure's resource output is temporarily raised to 300% 
-Valueline2= Affects Furnaces and Armories 
+Value=Selected structure's resource output is raised to 300% for 5 minutes
+Valueline2= Affects Furnaces and Armouries 
 Valueline3= Left click icon then left click on target resource structure
 
 
@@ -58096,27 +58109,25 @@ Valueline5=Left click icon then left click on target Lair
 
 
 [CONTROLBAR:ToolTipWhiteWinter]
-Value=Temporarily blankets the map in a raging snowstorm
-Valueline2= Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness 
+Value=Blankets the map in a raging snowstorm for 3 minutes
+Valueline2=Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness 
 Valueline3= Modifier Type: Active Debuff 
-Valueline4= Enemy units suffer -25% damage, -20% armour, and -30% Vision Range 
-Valueline5=Nullifies enemy Leadership 
-Valueline6= Does not stack with other Debuffs 
-Valueline7= Extinguishes all fires 
-Valueline8=
-Valueline9= Left click to activate
+Valueline4= Enemy units suffer -25% damage, -20% armour, and -30% vision 
+Valueline5=Nullifies enemy leadership
+Valueline6= Extinguishes all fires 
+Valueline7=
+Valueline8= Left click to activate
 
 
 [CONTROLBAR:ToolTipFreezingRain]
-Value=Temporarily covers the map in rain
-Valueline2= Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness 
+Value=Covers the map in rain for 3 minutes
+Valueline2=Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness 
 Valueline3= Modifier Type: Active Debuff 
 Valueline4= Enemy units suffer -25% damage and -20% armour
-Valueline5=Nullifies enemy Leadership 
-Valueline6= Does not stack with other Debuffs 
-Valueline7= Extinguishes all fires 
-Valueline8=
-Valueline9= Left click to activate
+Valueline5=Nullifies enemy leadership
+Valueline6= Extinguishes all fires 
+Valueline7=
+Valueline8= Left click to activate
 
 
 [CONTROLBAR:TooltipSummonWatcher]
@@ -58130,11 +58141,10 @@ Value=Reposition (&W)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityIgnite]
-Value=The Balrog gains
-Valueline2=+50% damage, +50% armour 
-Valueline3= Reduced the recharge time of special powers 
-Valueline4= Causes enemy units to flee in terror 
-Valueline5= Left click to activate
+Value=The Balrog gains +50% damage, +50% armour for 30 seconds
+Valueline2=Reduced the recharge time of special powers 
+Valueline3= Causes enemy units to flee in terror 
+Valueline4= Left click to activate
 
 
 
@@ -58154,7 +58164,7 @@ Value=Blackroot Vale Archer
 
 
 [OBJECT:GondorFighter]
-Value=Anórien Soldier
+Value=Soldier of Minas Tirith
 
 [CONTROLBAR:ToolTipToggleGFighterBlockToLineFormation]
 Value=The units return to standard line formation
@@ -58166,7 +58176,7 @@ Valueline3=-40% speed
 
 
 [CONTROLBAR:ToolTipToggleIHFighterLineToBlockFormation]
-Value=Baruk-sharâhul form a Shield Wall 
+Value=Iron Hills Warriors form a Shield Wall 
 Valueline2= They gain +33% armour, -20% damage, -40% speed and bonus damage to cavalry
 
 
@@ -58908,8 +58918,8 @@ Valueline2= Allows training of Barding Longbowmen and Huruz-Khagal-zirak
 
 [CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel3Upgrade]
 Value=+25% faster build speed 
-Valueline2= Allows training of Baruk-sharâhul and Azaghâr-sharâhul
-Valueline3= Adds defensive Arrow Tower
+Valueline2= Allows training of Iron Hills Warriors and Iron Hills Crossbowmen
+Valueline3= Adds defensive arrow tower
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyDwarvenSiegeHammer]
@@ -69718,8 +69728,8 @@ Value=To the &King!
 
 [CONTROLBAR:ToolTipEreborDainToTheKingMounted]
 Value=Requires Level 10 
-Valueline2= On Foot: Summons three battalions of Baruk-sharâhul to Dáin's side 
-Valueline3= On Boar: Summons three battalions of Ukhrub-sharâhul to Dáin's side 
+Valueline2= On Foot: Summons three battalions of Iron Hills Warriors to Dáin's side 
+Valueline3= On Boar: Summons three battalions of Iron Hills Riders to Dáin's side 
 Valueline4= Left click icon then left click on pathable location
 
 
@@ -81518,8 +81528,8 @@ Value=Allows training of Black Númenórean Warriors
 Valueline2= +10% faster build speed
 
 [CONTROLBAR:TooltipBuildUmbarianCitadelLevel3Upgrade]
-Value=Allows training of Watchers of Kârna 
-Valueline2= +25% Build Speed
+Value=Allows training of Watchers of Kârna and Black Númenórean Vanguard 
+Valueline2= +25% faster build speed
 
 
 [OBJECT:HordeHaradBlackNumenoreans]
@@ -81546,6 +81556,20 @@ Value=Black Númenórean Vanguard (&R)
 Value=Requires Level 2 Umbarian Citadel 
 Valueline2=  Strong vs. Infantry 
 Valueline3= NEEDS LORE STRING.
+[CONTROLBAR:LW_Unit_HaradwaithNumenoreanVanguard]
+Value=Black Númenórean Vanguard Horde
+
+
+[CONTROLBAR:LW_Unit_HaradwaithNumenoreanVanguardPlural]
+Value=Black Númenórean Vanguard Hordes
+
+
+[BANNERUI:BlackNumenoreanVanguard]
+Value=Black Númenórean Vanguard
+
+
+[BANNERUI:BlackNumenoreanVanguardPlural]
+Value=Black Númenórean Vanguard
 
 
 [OBJECT:HaradwaithHasharinBlade]
@@ -81703,7 +81727,7 @@ Value=Armoured Charge (&R)
 
 [CONTROLBAR:ToolTipArmouredCharge]
 Value=Requires Level 3 
-Valueline2= For a short time, the Vanguard deals -25% melee damage but has a -50% reduction in crush deceleration
+Valueline2= For 15 seconds, the Vanguard deals -25% melee damage but has a -50% reduction in crush deceleration
 Valueline3=Left click to activate
 
 
@@ -82256,8 +82280,10 @@ Valueline2= Recommended Faction: Misty Mountains
 
 
 
-[Map:MAPSPgoodbluemountains]
-Value=Campaign: Good IV - Blue Mountains
+[CONTROLBAR:TooltipWotRDarkLordChosenMordor]
+Value=Permanently summons a horde of Morgul Vanguard
+Valueline2=Limited to 1
+Valueline3=Left click on icon then left click on target area
 
 
 [Map:MAPSPgoodbluemountains/Desc]
