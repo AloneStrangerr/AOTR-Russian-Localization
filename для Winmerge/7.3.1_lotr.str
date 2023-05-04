@@ -53322,7 +53322,7 @@ Valueline2= Left click icon then left click on target area
 
 
 [TOOLTIP:AngmarSoulFreeze]
-Value=Soul Freeze
+Value=Hearts of Fire
 
 
 [CONTROLBAR:NecroWellOfSouls]
@@ -53334,11 +53334,15 @@ Value=&Well of Souls
 
 
 [TOOLTIP:AngmarWellOfSouls]
-Value=Well of Souls
+Value=Zealotry
 
 
 [CONTROLBAR:NecroCorpseRain]
 Value=&Corpse Rain
+
+
+[CONTROLBAR:SanctumMelkorRuin]
+Value=Blessing of Belegûr (&D)
 
 
 [CONTROLBAR:ToolTipSanctumMelkorRuin]
@@ -53389,7 +53393,7 @@ Value=Trollish Stew
 
 [CONTROLBAR:TooltipTrollishStew]
 Value=Temporarily summons a kettle of Trollish Stew, guarded by Tom, Bert, and William 
-Valueline2= The Trollish Stew provides healing and grants +15% armour and damage to nearby units and detects stealth 
+Valueline2= The Trollish Stew provides healing, grants +15% armour and damage to nearby units and detects stealth 
 Valueline3= Left click icon then left click on pathable location
 
 
@@ -53410,7 +53414,7 @@ Value=Trollish Stew
 
 
 [OBJECT:TrollishStewDescription]
-Value=The Trollish Stew provides healing and grants +15% armour and damage to nearby units and detects stealth
+Value=The Trollish Stew provides healing, grants +15% armour and damage to nearby units and detects stealth
 
 
 [CONTROLBAR:SummonOrcs]
@@ -53444,7 +53448,7 @@ Value=Ice Shot
 
 
 [UPGRADE:AngmarWellOfSouls]
-Value=Well of Souls
+Value=Zealotry
 
 
 [UPGRADE:AngmarCorpseRain]
@@ -53452,7 +53456,7 @@ Value=Spirit of Zigûr
 
 
 [UPGRADE:AngmarSoulFreeze]
-Value=Soul Freeze
+Value=Hearts of Fire
 
 
 [UPGRADE:AngmarDarkIronArmor]
@@ -53884,7 +53888,7 @@ Value=Unit Type: Siege Unit
 
 
 [CONTROLBAR:LW_Hero_Khamul]
-Value=Khamûl
+Value=Khamûl the Easterling
 
 
 [CONTROLBAR:LW_ToolTipBuild_Khamul]
@@ -54082,13 +54086,21 @@ Value=Requires Level 2 Guldur Gaol
 
 
 [CONTROLBAR:TooltipUpgradeMordorHaradrimPalaceLevel2]
-Value=Allows training of Easterling Phalanxes and Easterling Archers
+Value=Allows training of Great Khân's Archers
 Valueline2= +10% faster build speed
 
 
 [CONTROLBAR:FellBeastMountTooltip]
-Value=Click the Mount/Dismount button 
-Valueline2= then left click on pathable location.
+Value=As more Nazgûl gather, their strength grows 
+Valueline2= +10% damage and +10% armour per every Nazgûl nearby 
+Valueline3= Passive ability
+Valueline4=
+Valueline5=Requires Level 2 
+Valueline6= Modifier Type: Passive Debuff 
+Valueline7= Nearby enemy units suffer -25% damage and -20% armour
+Valueline8=Passive ability
+Valueline9=
+Valueline10=Left click then left click on pathable location.
 
 
 
@@ -54116,8 +54128,13 @@ Valueline2= +10% faster build speed
 
 
 [CONTROLBAR:TooltipIsengardTavern]
-Value=Trains Wildmen units 
-Valueline2= Increases command point limit by 25
+Value=Trains Wildmen units
+
+
+[CONTROLBAR:TooltipIsengardTavernWotR]
+Value=Primary Barracks 
+Valueline2= Trains basic Isengard Orcs and Wildmen
+Valueline3= Limited to 2
 
 
 [CONTROLBAR:ConstructIsengardTavern]
@@ -54143,8 +54160,7 @@ Value=Build Dunlending Longhouse (&M)
 
 [CONTROLBAR:ToolTipIsengardLonghouse]
 Value=Requires Wulfgar
-Valueline2=Trains Dunlending units 
-Valueline3= Increases command point limit by 25
+Valueline2=Trains Dunlending units
 
 
 [CONTROLBAR:UpgradeDunlendingLonghouseLevel2]
@@ -54152,7 +54168,7 @@ Value=Upgrade Dunlending Longhouse to Level 2 (&A)
 
 
 [CONTROLBAR:TooltipUpgradeDunlendingLonghouseLevel2]
-Value=Allows training of Dunlending Longbowmen and Dunnish Outriders 
+Value=Allows training of Dunlending Longbowmen
 Valueline2= +10% faster build speed
 
 
@@ -54161,7 +54177,7 @@ Value=Upgrade Dunlending Longhouse to Level 3 (&A)
 
 
 [CONTROLBAR:TooltipUpgradeDunlendingLonghouseLevel3]
-Value=Allows training of Dunlending Huskarls 
+Value=Allows training of Dunnish Outriders and Dunlending Huskarls 
 Valueline2= Adds defensive arrow tower 
 Valueline3= +25% faster build speed
 
@@ -54344,15 +54360,15 @@ Valueline3= Left click to activate
 
 
 [OBJECT:GondorSpearmen]
-Value=Anórien Spearmen
+Value=Spearman of Minas Tirith
 
 
 [OBJECT:HordeGondorSpearmen]
-Value=Anórien Spearmen
+Value=Spearmen of Minas Tirith
 
 
 [CONTROLBAR:ConstructGondorSpearmenHorde]
-Value=Anórien Spearmen (&S)
+Value=Spearmen of Minas Tirith (&S)
 
 
 [CONTROLBAR:ToolTipBuildGondorSpearmenHorde]
@@ -54492,11 +54508,11 @@ Value=Catapults
 
 
 [BANNERUI:AngmarDarkDunedain]
-Value=Black Númenórean
+Value=Black Númenórean Warrior
 
 
 [BANNERUI:AngmarDarkDunedains]
-Value=Black Númenóreans
+Value=Black Númenóreans Warriors
 
 
 [BANNERUI:AngmarDarkRanger]
@@ -54977,7 +54993,7 @@ Value=Destroy the Mallorn Tree in the northwest swamp, whose power allows the Pa
 
 
 [SCRIPT:ANGAmonSulBonusObjectiveText_06]
-Value=Destroy the Mallorn Tree that sits in the shadow of the Tower of Amon Sul, which allows the fortress to call its Dunedain allies for aid.
+Value=Destroy the Mallorn Tree that sits in the shadow of the Tower of Amon Sul, which allows the fortress to call its Dúnedain allies for aid.
 
 
 [SCRIPT:ANGAmonSulBonusObjectiveText_07]
@@ -55032,7 +55048,7 @@ Value=The tree that raises Elven forests to protect the enemy is no more!
 
 
 [SCRIPT:ANGAmonSulObjectiveComplete_10]
-Value=They will call no longer for their Dunedain allies -- that tree is gone!
+Value=They will call no longer for their Dúnedain allies -- that tree is gone!
 
 
 
@@ -55095,7 +55111,7 @@ Valueline2=creating lush Elven forests to protect the forces of light.
 
 
 [SCRIPT:ANGAmonSulDunedainTreeVO]
-Value=ANGMAR OFFICER: The fortress's defenders can use this Mallorn Tree to call to their Dunedain allies for aid.
+Value=ANGMAR OFFICER: The fortress's defenders can use this Mallorn Tree to call to their Dúnedain allies for aid.
 
 
 [SCRIPT:ANGAmonSulRebuildTreeVO]
@@ -55116,7 +55132,7 @@ Value=This Mallorn Tree grants the Elven Wood power to the defenders of Amon Sul
 
 
 [SCRIPT:ANGAmonSulDunedainTreeTooltip]
-Value=This Mallorn Tree grants the Summon Dunedain power to the defenders of Amon Sul
+Value=This Mallorn Tree grants the Summon Dúnedain power to the defenders of Amon Sul
 
 
 [SCRIPT:ANGAmonSulRebuildTreeTooltip]
@@ -55144,7 +55160,7 @@ Valueline2=This tree parts the clouds and stuns our troops.
 
 [SCRIPT:ANGAmonSulDunedainIntroText]
 Value=
-Valueline2=This tree summons Dunedain ranger reinforcements.
+Valueline2=This tree summons Dúnedain ranger reinforcements.
 
 
 [SCRIPT:ANGAmonSulElvenWoodIntroText]
@@ -55164,7 +55180,7 @@ Value=WITCH-KING: Here, among these dark peaks, we will build a stronghold to br
 
 
 [SCRIPT:ANGAngmarIntroText_02]
-Value=WITCH-KING: There is great evil in this place... especially the Black Numenoreans,
+Value=WITCH-KING: There is great evil in this place... especially the Black Númenóreans,
 Valueline2= Men whose dark loyalties and fire for dominion we must rekindle.
 
 
@@ -55193,11 +55209,11 @@ Value=Bring Rogash to the plateau of the Snow Trolls.
 
 
 [SCRIPT:ANGAngmarObjectiveText_06]
-Value=Slay the Black Numenoreans who stand watch on the Snow Trolls' plateau.
+Value=Slay the Black Númenóreans who stand watch on the Snow Trolls' plateau.
 
 
 [SCRIPT:ANGAngmarObjectiveText_07]
-Value=Subjugate the Black Numenoreans in the mountains, and bring the remaining Trolls and Wolves to our banner.
+Value=Subjugate the Black Númenóreans in the mountains, and bring the remaining Trolls and Wolves to our banner.
 
 
 [SCRIPT:ANGAngmarObjectiveText_08]
@@ -55205,7 +55221,7 @@ Value=Find and clear three fortress sites.
 
 
 [SCRIPT:ANGAngmarObjectiveText_09]
-Value=Prevent the Black Numenorean counterattack from destroying any of your fortresses.
+Value=Prevent the Black Númenórean counterattack from destroying any of your fortresses.
 
 
 [SCRIPT:ANGAngmarNewObjectiveText_01]
@@ -55237,7 +55253,7 @@ Value=Rogash must reach Level 4.
 
 
 [SCRIPT:ANGAngmarObjectiveComplete_01]
-Value=The Black Numenoreans are coming to destroy our fortresses - if any fortresses fall, all is lost! Use your resources to upgrade the fortresses and recruit new troops to stand against the attack!
+Value=The Black Númenóreans are coming to destroy our fortresses - if any fortresses fall, all is lost! Use your resources to upgrade the fortresses and recruit new troops to stand against the attack!
 
 
 [SCRIPT:ANGAngmarObjectiveComplete_02]
@@ -55245,7 +55261,7 @@ Value=We have 'persuaded' all the Trolls in the valley to march with us. We can 
 
 
 [SCRIPT:ANGAngmarObjectiveComplete_03]
-Value=We have fended off the Black Numenorean attacks, and they now bow to our will! This is but the first victory of many!
+Value=We have fended off the Black Númenórean attacks, and they now bow to our will! This is but the first victory of many!
 
 
 [SCRIPT:ANGAngmarBonusObjectiveComplete_01]
@@ -55310,7 +55326,7 @@ Value=We have finished building one of our Fortresses!
 
 
 [SCRIPT:ANGAngmarVOText_11]
-Value=The Black Numenoreans have summoned a dragon to aid them!
+Value=The Black Númenóreans have summoned a dragon to aid them!
 
 
 [SCRIPT:ANGAngmarVOText_12]
@@ -55318,15 +55334,15 @@ Value=ROGASH: Dark King, look out! Giants nearby, with Troll slaves!
 
 
 [SCRIPT:ANGAngmarVOText_13]
-Value=The Black Numenoreans have come! If they destroy any of the fortresses, all is lost!
+Value=The Black Númenóreans have come! If they destroy any of the fortresses, all is lost!
 
 
 [SCRIPT:ANGAngmarHintText_01]
-Value=The Black Numenoreans are still strong in these mountains - upgrade your fortresses to protect them from counterattack!
+Value=The Black Númenóreans are still strong in these mountains - upgrade your fortresses to protect them from counterattack!
 
 
 [SCRIPT:ANGAngmarHintText_02]
-Value=Some Black Numenoreans have arrived in advance of the main force - finish them before their brethren arrive!
+Value=Some Black Númenóreans have arrived in advance of the main force - finish them before their brethren arrive!
 
 
 [SCRIPT:ANGAngmarHintText_03]
@@ -55334,7 +55350,7 @@ Value=The captive Snow Trolls here have joined us!
 
 
 [SCRIPT:ANGAngmarHintText_04]
-Value=It's a Black Numenorean camp! Kill them and seize the Mill!
+Value=It's a Black Númenórean camp! Kill them and seize the Mill!
 
 
 [SCRIPT:ANGAngmarHintText_05]
@@ -55350,11 +55366,11 @@ Value=We've taken the Mill for ourselves! It will grind out more resources for u
 
 
 [SCRIPT:ANGAngmarHintText_08]
-Value=We've defeated these Black Numenoreans, and this Den is ours! We can use it to recruit new Trolls and Wolves!
+Value=We've defeated these Black Númenóreans, and this Den is ours! We can use it to recruit new Trolls and Wolves!
 
 
 [SCRIPT:ANGAngmarHintText_09]
-Value=We've defeated these Black Numenoreans, but they were able to destroy the Den!
+Value=We've defeated these Black Númenóreans, but they were able to destroy the Den!
 
 
 [SCRIPT:ANGAngmarHintText_10]
@@ -55422,7 +55438,7 @@ Value=Counterattack arrives in:
 
 
 [SCRIPT:ANGAngmarPlayerLostFortress]
-Value=The Black Numenoreans have destroyed one of our fortresses! We must flee, for all is lost!
+Value=The Black Númenóreans have destroyed one of our fortresses! We must flee, for all is lost!
 
 
 [SCRIPT:ANGAngmarWKDead]
@@ -55777,7 +55793,7 @@ Value=Peace, lost son of Arnor. Our steel will ease your disquiet spirit.
 
 
 [SCRIPT:ANGBonusMissionScene2Text_03]
-Value=He suffered long, and now goes to his rest as a true Captain of Numenor.
+Value=He suffered long, and now goes to his rest as a true Captain of Númenor.
 Valueline2=We have done a great thing this day.
 
 
@@ -56373,7 +56389,7 @@ Value=ANGMAR OFFICER: Cavalry! Guard the flanks!
 
 
 [SCRIPT:FORNOST_BLACKSMITH_HINT]
-Value=Those Blacksmiths are providing the enemy with upgraded armor and weapons. Destroy them to keep the enemy weaker.
+Value=Those Blacksmiths are providing the enemy with upgraded armour and weapons. Destroy them to keep the enemy weaker.
 
 
 [SCRIPT:FORNOST_BLACKSMITH_DESTROYED]
@@ -56635,12 +56651,12 @@ Valueline2=they may become aware of us before we are ready!
 
 
 [SCRIPT:ANGRhudaurHintText_18]
-Value=Hwaldar Hillchief is free! Death to the Dunedain!
+Value=Hwaldar Hillchief is free! Death to the Dúnedain!
 
 
 [SCRIPT:ANGRhudaurHintText_19]
 Value=KING ARGELEB: Men of the North Kingdom! This day we shatter the upstart of Angmar 
-Valueline2= and restore the glory of the Dunedain! To battle, and victory!
+Valueline2= and restore the glory of the Dúnedain! To battle, and victory!
 
 
 [SCRIPT:ANGRhudaurHintText_20]
@@ -56668,55 +56684,55 @@ Value=NEW FEATURES
 
 
 [APT:NewWOTRIntroText]
-Value=Welcome to the updated War of the Ring mode. The strategy game of conquest and confrontation across Middle-earth now contains the following new features:
+Value=Age of the Ring's updated WotR now contains the following new features:
 
 
 [APT:NewWOTRFeature1]
-Value=Two Historical Scenarios
+Value=New World Map
 
 
 [APT:NewWOTRFeature1Desc]
-Value=Wage campaigns from the Lord of the Rings trilogy.
+Value=Wage campaigns on a new overworld, featuring many more territories to conquer!
 
 
 [APT:NewWOTRFeature2]
-Value=Persistent Units
+Value=Paradigm Shift
 
 
 [APT:NewWOTRFeature2Desc]
-Value=Build units in an RTS battle and carry them with you across Middle-earth.
+Value=Enjoy a greater focus on strategic use of the overworld, as it has become much more important in your conquest!
 
 
 [APT:NewWOTRFeature3]
-Value=Revised Living World Map
+Value=New Bonus System
 
 
 [APT:NewWOTRFeature3Desc]
-Value=Visit 14 new territories and battle maps.
+Value=Make use of new Region and Battle Bonuses as you claim regions and build up your overworld structures!
 
 
 [APT:NewWOTRFeature4]
-Value=Strategic Treasury
+Value=New Scenarios
 
 
 [APT:NewWOTRFeature4Desc]
-Value=Accumulate Treasury from farms and fortresses to recruit units and construct buildings on the strategic map.
+Value=Enjoy new historical scenarios as well as updated BFME2 campaign missions!
 
 
 [APT:NewWOTRFeature5]
-Value=New Units
+Value=Special Units
 
 
 [APT:NewWOTRFeature5Desc]
-Value=Include siege units, support units, and an additional army leader on the map.
+Value=Look out for special units, available through auxiliary camps and certain map bonuses!
 
 
 [APT:NewWOTRFeature6]
-Value=Faster Army Movement
+Value=Unique War of the Ring factions
 
 
 [APT:NewWOTRFeature6Desc]
-Value=Relive the charge of Théoden! Move your hero armies up to two spaces across friendly territory.
+Value=Each faction has been changed drastically in War of the Ring, resulting in faster, more action-packed realtime battles!
 
 
 [APT:NewWOTRFeature7]
@@ -56724,15 +56740,15 @@ Value=Improved AI
 
 
 [APT:NewWOTRFeature7Desc]
-Value=Face off against smarter computer players that withdraw from unwinnable battles.
+Value=The AI can now build elite barracks and fortresses on the overworld, as well as put up a better fight in realtime battles!
 
 
 [APT:NewWOTRFeature8]
-Value=Flexible Scenarios
+Value=New Spellbooks
 
 
 [APT:NewWOTRFeature8Desc]
-Value=Play any scenario with any win condition with the new Victory Type rule.
+Value=Every faction has received a totally new spellbook to support their War of the Ring rework!
 
 
 [APT:DoNotShowAgain]
@@ -56752,7 +56768,7 @@ Value=New Gear
 
 
 [APT:NewCAHFeature1Desc]
-Value=Choose from dozens of new clothing, armor, and weapon options.
+Value=Choose from dozens of new clothing, armour, and weapon options.
 
 
 [APT:NewCAHFeature2]
@@ -56850,15 +56866,15 @@ Value=Beas&t Slayer Arrow
 
 
 [CONTROLBAR:LW_Unit_GondorSpearmenHorde]
-Value=Anórien Spearman Battalion
+Value=Spearman of Minas Tirith Battalion
 
 
 [CONTROLBAR:LW_Unit_GondorSpearmenHordePlural]
-Value=Anórien Spearman Battalions
+Value=Spearman of Minas Tirith Battalions
 
 
 [BANNERUI:PluralGondorSpearmen]
-Value=Anórien Pikemen
+Value=Spearmen of Minas Tirith
 
 
 [CONTROLBAR:LW_Unit_RohanPeasantHorde]
@@ -58227,12 +58243,13 @@ Valueline4= Increases command point limit by 25
 
 
 [CONTROLBAR:ToolTipBuildGondorBarracksLevel2Upgrade]
-Value=Allows training of Anórien Soldiers and Spearmen 
+Value=Allows training of Soldiers and Spearmen of Minas Tirith 
+Valueline2=+10% faster build speed
 Valueline2=+10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildGondorBarracksLevel2Upgrade_Osgiliath]
-Value=Allows training of Anórien Spearmen 
+Value=Allows training of Spearmen of Minas Tirith 
 Valueline2=+10% faster build speed
 
 
@@ -59739,7 +59756,7 @@ Valueline2=Strong vs. Pikemen
 
 [CONTROLBAR:ToolTipSpecialAbilityAngmarChargeAttack]
 Value=Requires Level 2 
-Valueline2= Order Black Numenoreans to charge the enemy 
+Valueline2= Order Black Númenóreans to charge the enemy 
 Valueline3= Type: Buff 
 Valueline4= Black Numenoreans gain +50% damage and +50% armour 
 Valueline5= Stacks with Leadership and Spells 
@@ -60306,7 +60323,7 @@ Valueline4= Passive ability
 
 
 [BANNERUI:GondorSpearmen]
-Value=Anórien Pikemen
+Value=Spearmen of Minas Tirith
 
 [CONTROLBAR:LW_ToolTipBuild_GondorSpearmenHorde]
 Value=Unit Type: Elite Pikemen
@@ -64017,11 +64034,10 @@ Value=Shadow of the East
 
 [CONTROLBAR:ToolTipKhamulLeadership]
 Value=Requires Level 5 
-Valueline2= Easterlings and Variags near Khamul gain 
+Valueline2= Easterlings and Variags near Khamûl gain 
 Valueline3= +33% damage, +33% armour, 
 Valueline4= and earn experience 50% faster
-Valueline5= Stacks with Buffs and Spells 
-Valueline6= Passive ability
+Valueline5= Passive ability
 
 
 [CONTROLBAR:SpecialAbilityNazgulNineServantsOfSauron]
@@ -65623,10 +65639,9 @@ Value=&Malice of Rhûn
 [CONTROLBAR:ToolTipKhamulStorm]
 Value=Requires Level 8 
 Valueline2= Modifier Type: Spell 
-Valueline3= Khamûl and nearby friendly units gain +75% damage and +20% speed but lose -25% armour and gain no experience for a short time
+Valueline3= Khamûl and nearby friendly units gain +75% damage and +20% speed but lose -25% armour and gain no experience for 20 seconds
 Valueline4= Also summons four single Ancient Easterlings 
-Valueline5= Stacks with Leadership and Spells 
-Valueline6= Left click to activate
+Valueline5=Left click to activate
 
 
 [CONTROLBAR:KhamulLieutnant]
@@ -65635,11 +65650,20 @@ Value=Lieutenant of Dol Guldur
 
 [CONTROLBAR:ToolTipKhamulLieutnant]
 Value=Requires Level 3 
-Valueline2= Khamûl takes on his role as the Lieutenant of Dol Guldur 
-Valueline3= Nearby Risen Dead, Orc Ravagers, Tomb Guards, Unburied Wights and Harbingers of Shadow gain +33% damage 
-Valueline4= Passive ability 
+Valueline2= Khamûl takes on his role as the Lieutenant of Dol Guldur
+Valueline3=Modifier Type: Leadership
+Valueline4=Nearby friendly units gain +33% damage
+Valueline5=Passive ability
+Valueline6=
+Valueline7= At rank 5, Khamûl dons his armour, granting him +25% armour
+[CONTROLBAR:ToolTipKhamulLieutnantRhunActive]
+Value=Requires Level 3
+Valueline2=Modifier Type: Leadership
+Valueline3=Nearby friendly units gain +33% damage
+Valueline4=Passive ability 
 Valueline5=
-Valueline6= At rank 5, Khamûl dons his armor, granting him +50% armour
+Valueline6= When activated, Khamûl slams his war mace into the ground, damaging and knocking back all enemies in a line 
+Valueline7= Left click then left click on target
 
 
 [OBJECT:GuldurAncientEasterling]
@@ -72355,11 +72379,11 @@ Value=Rivendell Hero Army
 
 
 [BANNERUI:GondorSpearman]
-Value=Anórien Spearman
+Value=Spearman of Minas Tirith
 
 
 [BANNERUI:GondorSpearmen]
-Value=Anórien Spearmen
+Value=Spearmen of Minas Tirith
 
 
 [BANNERUI:GondorDolFighter]
@@ -73689,7 +73713,7 @@ Value=Oath of Cirion
 
 
 [CONTROLBAR:TooltipSummonCirionOath]
-Value=Summons two battalions of Anórien spearmen and archers.  
+Value=Summons two battalions of Spearmen of Minas Tirith and Hirgon
 Valueline2= Left click on icon then left click on target area
 
 
@@ -73823,6 +73847,20 @@ Valueline3=Adds defensive Arrow Tower
 
 [OBJECT:EverholtBoar]
 Value=Boar of Everholt
+
+
+[OBJECT:RohanHirgon]
+Value=Hirgon
+
+
+
+
+[CONTROLBAR:RohanHirgonRevive]
+Value=Revive the fallen hero, Hirgon
+
+
+[CONTROLBAR:RohanHirgonHotkey]
+Value=Hirgon (&W)
 
 
 [CONTROLBAR:ConstructRohanDraftTower]
@@ -77095,6 +77133,20 @@ Value=The Black Easterling (&V)
 [CONTROLBAR:ToolTipBlackEasterling]
 Value=Requires Level 5 
 Valueline2= Summons two hordes of rank 2 Easterling Swordsmen
+
+
+[CONTROLBAR:WordsofDeath]
+Value=Fell Ward (&C)
+
+
+[CONTROLBAR:ToolTipWordsofDeath]
+Value=Requires Level 5 
+Valueline2= Enemy units nearby Khamûl suffer damage over time
+Valueline3= Passive ability 
+Valueline4=
+Valueline5= When activated, places a Rune Circle around Khamûl
+Valueline6=Friendly units within the Rune Circle gain +75% armour to Ranged, Fire, Frost and Magic damage for 60 seconds
+Valueline7= Left click icon then left click on pathable location
 
 
 
@@ -81435,7 +81487,7 @@ Value=Upgrade Umbarian Citadel to Level 3 (A)
 
 
 [CONTROLBAR:ToolTipBuildUmbarianCitadelLevel2Upgrade]
-Value=Allows training of Black Númenórean units
+Value=Allows training of Black Númenórean Warriors
 Valueline2= +10% faster build speed
 
 [CONTROLBAR:TooltipBuildUmbarianCitadelLevel3Upgrade]
@@ -81449,6 +81501,10 @@ Value=Black Númenórean Warriors
 
 [OBJECT:HordeHaradBlackNumenorean]
 Value=Black Númenórean Warrior
+
+
+[CONTROLBAR:LW_Unit_HaradBlackNumenoreans]
+Value=Black Númenórean Warriors
 
 
 [OBJECT:HaradwaithNumenoreanVanguard]
@@ -81765,6 +81821,12 @@ Value=Zigûr Cultist
 Value=Zigûr Cultists
 [CONTROLBAR:ArbitersSpiritOfZigur]
 Value=Spirit of Zigûr (&T)
+
+
+[CONTROLBAR:ArbitersZealotry]
+Value=Zealotry (&R)
+
+
 [CONTROLBAR:CultistsDesolation]
 Value=Desolation (&W)
 
@@ -81776,7 +81838,11 @@ Valueline3= Left click icon then left click on target area
 
 
 [CONTROLBAR:CultistsZealotry]
-Value=Zealotry (&R)
+Value=Zealotry (&T)
+
+
+[CONTROLBAR:PurchaseUpgradeCultistsZealotry]
+Value=Specialization: Zealotry (&T)
 
 
 [CONTROLBAR:TooltipCultistsZealotry]
@@ -81788,6 +81854,13 @@ Valueline4= Left click icon then left click on target area
 
 Value=Allows Specialization in the Zealotry power 
 Valueline5=The Cultists can specialize in one power only
+
+
+[CONTROLBAR:PurchaseTechnologyCultistsZealotry]
+Value=Dark Worship: Zealotry (&E)
+
+
+[CONTROLBAR:ToolTipPurchaseTechnologyCultistsZealotry]
 Value=Allows Cultists to specialize in the Zealotry power
 [CONTROLBAR:CultistsHeartsofFire]
 Value=Hearts of Fire (&T)
@@ -81800,7 +81873,7 @@ Valueline3= Left click icon then left click on target units
 
 
 [CONTROLBAR:PurchaseUpgradeHeartsofFire]
-Value=Hearts of Fire (&T)
+Value=Specialization: Hearts of Fire (&C)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeHeartsofFire]
@@ -81809,6 +81882,13 @@ Valueline2= Targeted friendly units permanently deal added fire damage
 Valueline3= Can only be used in non heroic, non monstrous melee infantry 
 Valueline4= The Cultists can specialize in one power only
 Valueline6= The Cultists can specialize in one power only
+
+
+[CONTROLBAR:PurchaseTechnologyCultistsHeartsofFire]
+Value=Dark Worship: Hearts of Fire (&R)
+
+
+[CONTROLBAR:ToolTipPurchaseTechnologyCultistsHeartsofFire]
 Value=Allows Cultists to specialize in the Hearts of Fire power
 [CONTROLBAR:CultistsSpiritOfZigur]
 Value=Spirit of Zigûr (&T)
