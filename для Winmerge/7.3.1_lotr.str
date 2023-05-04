@@ -59906,8 +59906,8 @@ Value=Requires Level 3 Troll and Wolf Den
 
 
 [CONTROLBAR:ToolTipConstructAngmarHallofTwilight]
-Value=Trains Black Númenórean and heroic units 
-Valueline2= Increases command point limit by 25
+Value=Trains Black Númenórean units and Watchers of Kârna
+Valueline2= 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyAngmarSoulFreeze]
 Value=Allows Sorcerers to specialize in the Soul Freeze power 
@@ -81713,6 +81713,16 @@ Value=Serpent's Sting (&W)
 
 
 
+[CONTROLBAR:ToolTipRitualofSacrifice]
+Value=Modifier Type: Spell
+Valueline2=Watchers of Kârna can select enemy battalion or hero for a sacrifice to appease the ancient evil that lies within the temples of Nâfarat
+Valueline3= For 30 seconds Watchers of Kârna gain +100% experience and +33% damage when near chosen enemy
+Valueline4=
+Valueline5= Left click then left click target enemy unit
+[CONTROLBAR:TooltipAncientGuardians]
+Value=Requires Level 4
+Valueline2=Watchers of Kârna grant nearby friendly structures +50% armour
+Valueline3=Passive ability
 Valueline2= Harondor Warlords can sacrifice members of their hordes for +10% speed and +15% damage 
 Valueline3= Lasts 30 seconds 
 Valueline4=Left click to activate
