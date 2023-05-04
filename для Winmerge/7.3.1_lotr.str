@@ -53267,6 +53267,7 @@ Value=Requires Level 2 Sanctum of Zigûr
 Valueline2= 
 Valueline3= Allows Cultists to specialize in the Spirit of Zigûr power
 Valueline4= 
+Valueline5= Zigûr Cultists are consumed by a sudden burst of expanding flame
 
 
 [CONTROLBAR:TooltipBuildAngmarTrollSling]
@@ -57007,14 +57008,14 @@ Value=Westfolders Combo Battalions
 
 [CONTROLBAR:LW_ToolTipBuild_RohanWestfolderHorde]
 Value=Unit Type: Elite Infantry 
-Valueline2=Strong vs. Archers
+Valueline2=Strong vs. Pikemen
 Valueline3=
 
 
 [CONTROLBAR:LW_ToolTip_RohanWestfolderHorde]
 Value=
 Valueline2=Unit Type: Elite Infantry 
-Valueline3=Strong vs. Archers
+Valueline3=Strong vs. Pikemen
 
 
 [BANNERUI:RohanFirienholtWarden]
@@ -57036,12 +57037,12 @@ Value=Halifirien Warden Battalions
 [CONTROLBAR:LW_ToolTip_RohanFirienholtWardenHorde]
 Value=
 Valueline2=Unit Type: Elite Archer
-Valueline3=Strong vs. Infantry
+Valueline3=Strong vs. Infantry and Monsters
 
 
 [CONTROLBAR:LW_ToolTipBuild_RohanFirienholtWardenHorde]
 Value=Unit Type: Elite Archer
-Valueline2=Strong vs. Infantry
+Valueline2=Strong vs. Infantry and Monsters
 Valueline3=
 
 
@@ -57063,14 +57064,14 @@ Value=Edoras Kingsguard Battalions
 
 [CONTROLBAR:LW_ToolTipBuild_RohanDoorWardenHorde]
 Value=Unit Type: Elite Infantry 
-Valueline2=Strong vs. Archers
+Valueline2=Strong vs. Pikemen
 Valueline3=
 
 
 [CONTROLBAR:LW_ToolTip_RohanDoorWardenHorde]
 Value=
 Valueline2=Unit Type: Elite Infantry 
-Valueline3=Strong vs. Archers
+Valueline3=Strong vs. Pikemen
 
 
 [BANNERUI:RohanHorseman]
@@ -57119,14 +57120,14 @@ Value=Rider of Snowbourn Battalions
 
 [CONTROLBAR:LW_ToolTipBuild_RohanSnowbournRiderHorde]
 Value=Unit Type: Elite Cavalry
-Valueline2=Strong vs. Archers
+Valueline2=Strong vs. Cavalry and Structures
 Valueline3=
 
 
 [CONTROLBAR:LW_ToolTip_RohanSnowbournRiderHorde]
 Value=
 Valueline2=Unit Type: Elite Cavalry
-Valueline3=Strong vs. Archers
+Valueline3=Strong vs. Cavalry and Structures
 
 
 [BANNERUI:RohanRoyalGuardMounted]
@@ -57853,7 +57854,7 @@ Value=Requires Level 2 Barracks
 
 
 [CONTROLBAR:ToolTipZealotAxeThrow]
-Value=Adâruf-sulûkh throw bottles of Dwarven flash flame, damaging enemy units 
+Value=Wyrm-slayers throw bottles of Dwarven flash flame, damaging enemy units 
 Valueline2= Left click icon then left click on target
 
 
@@ -57951,38 +57952,34 @@ Valueline2=Reduces cost of infantry
 
 [OBJECT:HeroicStatueDescription]
 Value=Modifier Type: Leadership 
-Valueline2= Allies near the Statue gain +33% damage, +33% armour, earn experience 50% faster, and become immune to Fear and Terror 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Culture Bonus - Reduced cost of infantry 
-Valueline5= 1 Statue: 4% 
-Valueline6= 2 Statues: 8% 
-Valueline7= 3 Statues: 12% 
-Valueline8= 4 Statues: 16% 
-Valueline9= 5+ Statues: 20%
+Valueline2= Allies near the Statue gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror 
+Valueline3=Culture Bonus - Reduced cost of infantry 
+Valueline4= 1 Statue: 4% 
+Valueline5= 2 Statues: 8% 
+Valueline6= 3 Statues: 12% 
+Valueline7= 4 Statues: 16% 
+Valueline8= 5+ Statues: 20%
 
 
 [OBJECT:RohanHeroicStatueDescription]
 Value=Modifier Type: Leadership 
-Valueline2= Allies near the Statue gain +33% damage, +33% armour, earn experience 50% faster, and become immune to Fear and Terror 
-Valueline3= Stacks with Buffs and Spells
+Valueline2= Allies near the Statue gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror
 
 
 [OBJECT:ElvenHeroicStatueDescription]
 Value=Modifier Type: Leadership 
-Valueline2= Allies near the Statue gain +33% damage, +33% armour, earn experience 50% faster, and become immune to Fear and Terror 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Culture Bonus - Reduced cost of infantry 
-Valueline5= 1 Statue: 4% 
-Valueline6= 2 Statues: 8% 
-Valueline7= 3 Statues: 12% 
-Valueline8= 4 Statues: 16% 
-Valueline9= 5+ Statues: 20%
+Valueline2= Allies near the Statue gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror 
+Valueline3=Culture Bonus - Reduced cost of infantry 
+Valueline4= 1 Statue: 4% 
+Valueline5= 2 Statues: 8% 
+Valueline6= 3 Statues: 12% 
+Valueline7= 4 Statues: 16% 
+Valueline8= 5+ Statues: 20%
 
 
 [OBJECT:MirkwoodHeroicStatueDescription]
 Value=Modifier Type: Leadership 
-Valueline2= Allies near the Statue gain +33% damage, +33% armour, earn experience 50% faster, and become immune to Fear and Terror 
-Valueline3= Stacks with Buffs and Spells
+Valueline2= Allies near the Statue gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror
 
 
 [CONTROLBAR:ToolTipBuildEvilBombardShip]
@@ -58006,9 +58003,23 @@ Valueline5=Passive ability
 Value=The units return to standard line formation
 
 
+[CONTROLBAR:ToggleIthilienFormation]
+Value=Wide Formation (&W)
+
+
+[CONTROLBAR:ToolTipToggleIthilienWideFormation]
+Value=+15% damage 
+Valueline2= -15% armour
+
+
 [CONTROLBAR:ToolTipToggleTowerGuardLineToSpearWallFormation]
 Value=The units form a Spear Wall
 Valueline2= Units lose 40% speed, gain resistance to knockback, decelerate crush, and gain +33% armour
+
+
+[CONTROLBAR:ToolTipToggleFountainGuardLineToSpearWallFormation]
+Value=Fountain Guards form a Spear Wall
+Valueline2= They gain +25% armour, immunity to knockback, fear, terror and all debuffs at the cost of -40% speed
 
 
 
@@ -65823,10 +65834,26 @@ Value=Faithful Guardian
 
 [CONTROLBAR:TooltipFaithfulGuardianLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= The Fountain Guards grant nearby structures +50% armour. 
-Valueline3= Stacks with Buffs and Spells 
+Valueline2= Fountain Guards grant nearby structures +50% armour
+Valueline3= Passive ability
 Valueline4= 
 Valueline5= Passive ability
+[CONTROLBAR:TooltipFaithfulGuardianSlayer]
+Value=Requires Level 3 
+Valueline2= Fountain Guards deal +33% damage and knockback enemy units for 30 seconds 
+Valueline3= Left click to activate
+
+
+
+
+[CONTROLBAR:TooltipFountainGuardTwo]
+Value=Requires Level 7 
+Valueline2= The Fountain Guards are surrounded by an aura that weakens enemies and enforces allies for 30 seconds
+Valueline3= Enemy units suffer -25% damage and armour 
+Valueline4= Allied structures gain +100% armour 
+Valueline5= Allied heroes gain +50% faster power recharge times 
+Valueline6= Nearby friendly battalions are replenished over time
+Valueline7= Left click to activate 
 
 
 [CONTROLBAR:UndyingHopeLeadership]
@@ -65834,10 +65861,10 @@ Value=Undying Hope
 
 
 [CONTROLBAR:TooltipUndyingHopeLeadership]
-Value=Modifier Type: Leadership 
-Valueline2=The Fountain Guards grant nearby Heroes +10% to all stats. 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= 
+Value=Modifier Type: Spell 
+Valueline2=Fountain Guards gain +10% armour for every nearby battalion of Minas Tirith, up to +50% armour
+Valueline3=
+Valueline4= When a Fountain Guard dies, nearby allies are healed by small amount
 Valueline5= Passive ability
 
 
@@ -68222,7 +68249,7 @@ Value=Unburnt
 
 
 [CONTROLBAR:ToolTipUnburnt]
-Value=Adâruf-sulûkh are completely immune to flame damage 
+Value=Wyrm-slayers are completely immune to flame damage 
 Valueline2= Passive Ability
 
 
@@ -82175,6 +82202,11 @@ Value=Campaign: Evil IV - Fornost
 Value=Mission IV - To weaken the defences in the North and strengthen Sauron's grip over Eriador, the Goblins plan an attack on the ancient Arnorian capital of Fornost.
 Valueline2= Recommended Faction: Misty Mountains
 
+
+[CONTROLBAR:TooltipWotRHeroicWarriorsGondor]
+Value=Permanently summons a battalion of Fountain Guard
+Valueline2=Limited to 2
+Valueline3=Left click on icon then left click on target area
 
 [Map:MAPSPevilmirkwood]
 Value=Campaign: Evil V - Mirkwood
