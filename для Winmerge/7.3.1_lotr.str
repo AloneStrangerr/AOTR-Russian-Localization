@@ -58718,8 +58718,7 @@ Valueline6= 5 fortresses with Anvil = 33% cheaper
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressBlessedMist]
 Value=Nearby allies become camouflaged 
 Valueline2= Modifier Type: Passive Debuff 
-Valueline3= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline4= Does not stack with other Debuffs
+Valueline3= Nearby enemy units suffer -25% damage and -20% armour
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressMysticFountains]
@@ -58742,9 +58741,16 @@ Value=March of the Ents
 
 [CONTROLBAR:ToolTipTreeBeardLeadership]
 Value=Modifier Type: Spell 
-Valueline2= Allied Ents near Treebeard gain +50% armour, +25% vision & attack range, and +25% movement speed 
-Valueline3= Stacks With Buffs, Leadership and other Spells 
-Valueline4=Passive ability
+Valueline2= Allied Ents and Huorns near Treebeard gain +50% armour, +25% vision and attack range 
+Valueline3=Passive ability
+
+
+[CONTROLBAR:TreebeardRoar]
+Value=Roar (&C)
+
+
+[CONTROLBAR:ToolTipTreebeardRoar]
+Value=Treebeard sounds a mighty Roar 
 
 
 [CONTROLBAR:ToolTipPersonalFlood]
@@ -66754,6 +66760,7 @@ Value=Amroth's Knights
 [CONTROLBAR:ToolTipAmrothKnights]
 Value=Enables the recruitment of Amroth-na-Erphin from the Pasture
 Valueline2= Passive power
+Valueline8= Treebeard: Roar causes nearby enemies to flee in terror
 
 
 [CONTROLBAR:SilvanAllies]
@@ -66770,11 +66777,10 @@ Value=Glade of Mellyrn
 
 
 [CONTROLBAR:ToolTipElvenWoodLorien]
-Value=Creates a grove of Mallorn Trees 
-Valueline2= Modifier Type: Buff 
-Valueline3= All allied units gain +50% damage, +50% armour and become immune to fear and terror 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5=Left click icon then left click on target area
+Value=Permanently summons a Huorn to the battlefield
+Valueline2=  Respects command point limit 
+Valueline3= Requires 50 command points to be summoned 
+Valueline4= Left click icon then left click on pathable location
 
 
 [CONTROLBAR:IthilienGarden]
