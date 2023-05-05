@@ -58676,10 +58676,18 @@ Valueline2= Adds defensive arrow tower
 [CONTROLBAR:PurchaseUpgradeHiddenSenctumLevel2]
 Value=Upgrade Hidden Sanctum to Level 2 (&A)
 
+[CONTROLBAR:ToolTipBuildHiddenSenctumLevel2]
+Value=Allows training of Knights of Amroth Amdírion
+Valueline2=Unlocks Armour of Doriath ability
+Valueline3=+10% faster build speed
 
 [CONTROLBAR:PurchaseUpgradeHiddenSenctumLevel3]
 Value=Upgrade Hidden Sanctum to Level 3 (&A)
 
+[CONTROLBAR:ToolTipBuildHiddenSenctumLevel3]
+Value=Allows training of Nandor Hîr-Hathol
+Valueline2=+25% faster build speed 
+Valueline3= Adds defensive arrow tower
 
 [OBJECT:ErgionForgeDescription]
 Value=Generates resources based on available terrain
@@ -58691,8 +58699,8 @@ Valueline6= 5 Storehouses: 20%
 Valueline7= 6+ Storehouses: 25%
 
 [CONTROLBAR:ToolTipBuildEregionForgeLevel3]
-Value=Allows research of Mallorn Bows
-Valueline2=Adds defensive Arrow Tower
+Value=Allows research of Mallorn Longbows
+Valueline2=Adds defensive arrow tower
 
 
 [CONTROLBAR:PurchaseUpgradeElvenSilverthornArrowsForBattleTower]
@@ -64832,7 +64840,7 @@ Value=Armaments of Doriath
 
 [CONTROLBAR:ToolTipCelebornArmor]
 Value=Requires Level 5 
-Valueline2= Celeborn wields his ancient armaments from Doriath gaining a 50% armour increase
+Valueline2= Celeborn wields his ancient armaments from Doriath gaining a 33% armour increase
 Valueline3= Celeborn's attacks now deal magic damage 
 Valueline4= Passive ability
 
@@ -66864,7 +66872,7 @@ Value=Amroth-na-Erphin
 
 
 [CONTROLBAR:ConstructElvenAmrothKnightHorde]
-Value=Amroth-na-Erphin (&E)
+Value=Amroth-na-Erphin (&T)
 
 
 [CONTROLBAR:LW_Unit_ElvenAmrothKnightHorde]
@@ -66872,13 +66880,13 @@ Value=Amroth-na-Erphin Battalion
 
 
 [CONTROLBAR:LW_ToolTip_ElvenAmrothKnightHorde]
-Value=Knights of Amroth 
+Value=Knights of Amroth Amdírion
 Valueline2= Unit Type: Elite Cavalry
 Valueline3=Strong vs. Archers
 
 
 [CONTROLBAR:ToolTipBuildElvenAmrothKnightHorde]
-Value=Knights of Amroth 
+Value=Knights of Amroth Amdírion
 Valueline2= Requires Level 2 Hidden Sanctum 
 Valueline3=Elite Cavalry 
 Valueline4=Strong vs. Archers 
@@ -66887,7 +66895,7 @@ Valueline6= Though their King has long disappeared, these Sindarin nobles contin
 
 
 [CONTROLBAR:LW_ToolTipBuild_ElvenAmrothKnightHorde]
-Value=Knights of Amroth 
+Value=Knights of Amroth Amdírion
 Valueline2= Unit Type: Elite Cavalry
 Valueline3=Strong vs. Archers
 Valueline4=
@@ -66931,7 +66939,7 @@ Value=Nandor Hîr-Hathol
 
 
 [CONTROLBAR:ConstructNandorBlademasterHorde]
-Value=Nandor Hîr-Hathol (&D)
+Value=Nandor Hîr-Hathol (&S)
 
 
 [CONTROLBAR:LW_Unit_ElvenNandorBlademasterHorde]
@@ -66941,20 +66949,20 @@ Value=Nandor Hîr-Hathol Battalion
 [CONTROLBAR:LW_ToolTip_ElvenNandorBlademasterHorde]
 Value=
 Valueline2=Unit Type: Hero Unit 
-Valueline3=Strong vs. Pikemen and Infantry
+Valueline3=Strong vs. All Units
 
 
 [CONTROLBAR:LW_ToolTip_ElvenNandorBlademasterHorde_WOTR]
 Value=12 Nandor Hîr-Hathol
 Valueline2=
 Valueline3=Unit Type: Hero Unit 
-Valueline4=Strong vs. Pikemen and Infantry
+Valueline4=Strong vs. All Units
 
 
 [CONTROLBAR:ToolTipBuildNandorBlademasterHorde]
 Value=Requires Level 3 Hidden Sanctum 
 Valueline2=Hero Unit. Limited to 2 
-Valueline3=Strong vs. Pikemen and Infantry 
+Valueline3=Strong vs. All Units 
 Valueline4= 
 Valueline5= Before the Galadhrim arrived, these Telerin elves had already lived in Lórien for millenia. They carry with them great wisdom and strength, and are counted amongst the greatest warriors in all of Elvendom.
 
@@ -66962,13 +66970,23 @@ Valueline5= Before the Galadhrim arrived, these Telerin elves had already lived 
 [CONTROLBAR:LW_ToolTipBuild_ElvenNandorBlademasterHorde]
 Value=Unit Type: Hero Unit
 Valueline2=Limited to 1
-Valueline3=Strong vs. Pikemen and Infantry
+Valueline3=Strong vs. All Units
 Valueline4=
 
 
+[CONTROLBAR:ToolTipNandorPassive]
+Value=Modifier Type: Spell
+Valueline2= Nandor Hîr-Hathol are immune to fear, terror and knockback
+Valueline3= Passive ability
+
+
+[CONTROLBAR:NandorPassive]
+Value=Laegrim
+
+
 [CONTROLBAR:ToolTipNandorUnscathed]
-Value=Required: Rank 7
-Valueline2= The Blademasters temporarily become immune to damage and is resistant to knockback  
+Value=Required: Rank 3
+Valueline2= Nandor Hîr-Hathol temporarily deal additional magic damage and will reflect damage to attacking enemies for 30 seconds 
 Valueline3= Left click to activate
 
 
@@ -67163,7 +67181,7 @@ Value=Things That Were
 Value=Things That Were (&E)
 
 [CONTROLBAR:ToolTipBuildThingsthatWere]
-Value=Decreases cost of Amroth-na-Erphin and the Nandor Hîr-Hathol 
+Value=Decreases cost of Knights of Amroth Amdírion and the Nandor Hîr-Hathol by 20% 
 Valueline2= Player must maintain a Mirror to benefit from this upgrade
 
 [UPGRADE:ThingsthatAre]
@@ -72374,7 +72392,8 @@ Value=The Son of Doom (&E)
 Value=
 Valueline2=Summons a vivid retelling of the Fate of Túrin Turambar
 Valueline3=
-Valueline4=The tale of Túrin Turambar is one of heroism, sorrow, and tragedy. Túrin did great service to both Doriath and Nargothrond, and is famed for slaying Glaurung, Father of Dragons, but the curse of Morgoth was on him, and evil followed him always. In the Forest of Brethil he came upon his own sister, but through the spells of Glaurung they did not know each other, and wed. After Niënor discovered the truth, she threw herself to her death, and in despair Túrin fell upon his own sword.
+Valueline4=The tale of Túrin Turambar is one of heroism, sorrow, and tragedy. Túrin did great service to both Doriath and Nargothrond, and is famed for slaying Glaurung, Father of Dragons, but the curse of Morgoth was on him, and evil followed him always. In the Forest of Brethil he came upon his own sister, but through the spells of Glaurung they did not know each other, and wed. After Niënor discovered the truth, she threw herself to her death, and in despair Túrin fell upon his own sword. 
+Valueline5= Left click icon then left click on target area
 
 
 [CONTROLBAR:HallOfFireSpawnFingolfin]
@@ -72385,7 +72404,8 @@ Value=The Challenger of Morgoth (&R)
 Value=
 Valueline2=Summons a vivid retelling of Fingolfin's Challenge
 Valueline3=
-Valueline4=After Morgoth laid waste to the Elves of Beleriand during the Dagor Bragollach, Fingolfin rode to the gates of Angband and challenged the Dark Lord to single combat. Morgoth tried to smite him down, but the High King dodged his blows and wounded him seven times before fatigue caused him to stumble. Morgoth killed him, but not before Fingolfin cut through his heel, resulting in a scar that Morgoth would always bear.
+Valueline4=After Morgoth laid waste to the Elves of Beleriand during the Dagor Bragollach, Fingolfin rode to the gates of Angband and challenged the Dark Lord to single combat. Morgoth tried to smite him down, but the High King dodged his blows and wounded him seven times before fatigue caused him to stumble. Morgoth killed him, but not before Fingolfin cut through his heel, resulting in a scar that Morgoth would always bear. 
+Valueline5= Left click icon then left click on target area
 
 
 [CONTROLBAR:HallOfFireSpawnCelebrimbor]
@@ -72417,6 +72437,10 @@ Value=Fingolfin
 
 [OBJECT:Celebrimbor]
 Value=Celebrimbor
+
+
+[OBJECT:Amroth]
+Value=Amroth Amdírion
 
 
 [CONTROLBAR:LW_Hero_Muzgash]
@@ -82170,6 +82194,13 @@ Valueline4= Increases command point limit by 25
 Valueline2= Increases command point limit by 25
 
 
+
+
+[CONTROLBAR:ArmorofDoriath]
+Value=Armour of Doriath (&E)
+
+
+[CONTROLBAR:ToolTipArmorofDoriath]
 Value=Requires Level 2 Hidden Sanctum
 [CONTROLBAR:FishingNets]
 Value=Commence Fishing (&W)
@@ -82361,9 +82392,15 @@ Value=Permanently summons a battalion of Fountain Guard
 Valueline2=Limited to 2
 Valueline3=Left click on icon then left click on target area
 
-[Map:MAPSPevilmirkwood]
-Value=Campaign: Evil V - Mirkwood
+[CONTROLBAR:TooltipWotRHeroicWarriorsRohan]
+Value=Permanently summons a battalion of Helmingas Warriors
+Valueline2=Limited to 1
+Valueline3=Left click on icon then left click on target area
 
+[CONTROLBAR:TooltipWotRHeroicWarriorsLorien]
+Value=Permanently summons a battalion of Nandor Hîr-Hathol
+Valueline2=Limited to 2
+Valueline3=Left click on icon then left click on target area
 
 [CONTROLBAR:TooltipWotRHeroicWarriorsRivendell]
 Value=Permanently summons a battalion of Laurëthelyn
