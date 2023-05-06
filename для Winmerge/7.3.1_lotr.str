@@ -58751,6 +58751,11 @@ Value=Roar (&C)
 
 [CONTROLBAR:ToolTipTreebeardRoar]
 Value=Treebeard sounds a mighty Roar 
+Valueline2= Treebeard, nearby Ents and Huorns become enraged and gain +50% speed for 30 seconds 
+Valueline3=
+Valueline4= Gifts of Lorien effect: 
+Valueline5= Causes nearby enemies to flee in terror 
+Valueline6= Left click to activate
 
 
 [CONTROLBAR:ToolTipPersonalFlood]
@@ -58776,7 +58781,7 @@ Valueline4= Left click to activate
 [CONTROLBAR:ToolTipGlorfindelWindRider]
 Value=Requires Level 5 
 Valueline2= Glorfindel gains +20% speed, +100% armour, 
-Valueline3= and glides past enemies like the wind 
+Valueline3= and glides past enemies like the wind for 30 seconds
 Valueline4= Can only be used mounted 
 Valueline5= Left click to activate
 
@@ -58797,7 +58802,7 @@ Valueline2= Targeted Good archers gain good experience
 Valueline3= Left click icon then left click on target archers 
 Valueline4= 
 Valueline5= Requires Level 6 
-Valueline6= Nearby friendly units gain fear immunity and +25% vision range 
+Valueline6= Nearby friendly units gain +33% damage, fear and terror immunity and +25% vision range 
 Valueline7= Passive ability
 
 
@@ -58839,10 +58844,9 @@ Valueline3= Left click icon then left click on target area
 
 [CONTROLBAR:TooltipElrondLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= Allies near Elrond gain +33% damage +33% armour and earn experience twice as fast
-Valueline3=Stacks with Buffs and Spells
-Valueline4=While Elrond is on the field, his Library may be constructed for free
-Valueline5=Passive ability
+Valueline2= Allies near Elrond gain +25% damage +25% armour and earn experience twice as fast
+Valueline3= While Elrond is on the field, his Library may be constructed for free 
+Valueline4=Passive ability
 
 
 [CONTROLBAR:ToolTipElrondRestoration]
@@ -58864,17 +58868,15 @@ Valueline4=Left click icon then left click on target area
 Value=Friendly units within the mist become stealthed 
 Valueline2= Modifier Type: Active Debuff 
 Valueline3= Nearby enemy units suffer -25% damage and -20% armour
-Valueline4=Nullifies enemy Leadership 
-Valueline5= Does not stack with other Debuffs 
-Valueline6= Left click icon then left click on target area
+Valueline4=Nullifies enemy leadership
+Valueline5= Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipEnshroudingMistCampaign]
 Value=Modifier Type: Active Debuff 
 Valueline2= Nearby enemy units suffer -25% damage and -20% armour
-Valueline3=Nullifies enemy Leadership 
-Valueline4= Does not stack with other Debuffs 
-Valueline5= Left click icon then left click on target area
+Valueline3=Nullifies enemy leadership
+Valueline4= Left click icon then left click on target area
 
 
 
@@ -58886,9 +58888,8 @@ Value=Requires Level 4
 Valueline2= Order Warriors to charge the enemy 
 Valueline3= Modifier Type: Buff 
 Valueline4= Guardians gain +50% damage and +50% armour 
-Valueline5= Stacks with Leadership and Spells 
-Valueline6= Causes meta impact 
-Valueline7= Left click icon then left click on target
+Valueline5=Causes meta impact 
+Valueline6= Left click icon then left click on target
 
 
 [CONTROLBAR:PurchaseUpgradeDwarvenSiegeHammer]
@@ -58927,8 +58928,7 @@ Value=Oil Barrels (&W)
 [CONTROLBAR:ToolTipBattleWagonUpgradeBannerCarrier]
 Value=Modifier Type: Leadership 
 Valueline2= Nearby allies gain +33% damage, +33% armour, and earn experience 50% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Adds several Phalanxes to the Battlewagon
+Valueline3= Adds several Phalanxes to the Battlewagon
 
 
 [CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot]
@@ -58940,7 +58940,7 @@ Value=Purchase Flaming Shot (&T)
 [CONTROLBAR:TooltipConstructDwarvenMineShaft]
 Value=Generates resources based on available terrain
 Valueline2=Provides access to the tunnel network 
-Valueline3= Provides leadership to nearby Azaghâr-gundu 
+Valueline3= Provides leadership to nearby Vault-wardens 
 Valueline4= Increases command point limit by 50
 
 
@@ -58957,17 +58957,17 @@ Valueline2= Allows training of Barding Longbowmen
 
 [CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel3Upgrade]
 Value=+25% faster build speed 
-Valueline2= Adds defensive Arrow Tower
+Valueline2= Adds defensive arrow tower
 
 
 [CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel2Upgrade]
 Value=+10% faster build speed 
-Valueline2= Allows training of Guards of the Master and Huruz-Khagal-zirak
+Valueline2= Allows training of Guards of the Master and Ered Luin Rangers
 
 
 [CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel2UpgradeLotR]
 Value=+10% faster build speed 
-Valueline2= Allows training of Barding Longbowmen and Huruz-Khagal-zirak
+Valueline2= Allows training of Barding Longbowmen and Ered Luin Rangers
 
 
 [CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel3Upgrade]
@@ -58980,8 +58980,17 @@ Valueline3= Adds defensive arrow tower
 Value=When equipped, significantly increases the damage done by melee weapons to Structures
 
 [CONTROLBAR:ToolTipPurchaseTechnologyDwarvenForgedBlades]
-Value=Allows battalions to purchase the Forged Blades upgrade 
+Value=Allows battalions to purchase the Khûzdul Blades upgrade 
 Valueline2= When equipped, increases the damage done by melee weapons
+
+
+[CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammerDurin]
+Value=Research Siege Tools (&E)
+
+
+[CONTROLBAR:ToolTipPurchaseTechnologyDwarvenSiegeHammerDurin]
+Value=Allows Guardians to equip siege hammers, and unlocks powder bombs for Armed Miners 
+Valueline2= When siege hammers are equipped, significantly increases the damage done by Guardians' melee weapons to Structures
 
 
 [OBJECT:DwarvenSentryTowerDescription]
@@ -59000,12 +59009,11 @@ Valueline5= Increases command point limit by 25
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners]
 Value=Modifier Type: Leadership 
-Valueline2= Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster. 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4=
-Valueline5=Reduces Hero cost by 10% 
-Valueline6= Reduces Hero recruit time by 10% 
-Valueline7= Reduced cost of builders by 20%
+Valueline2= Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster
+Valueline3=
+Valueline4=Reduces Hero cost by 10% 
+Valueline5= Reduces Hero recruit time by 10% 
+Valueline6= Reduced cost of builders by 20%
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions]
 Value=Adds Mithril arrowheads to all attached towers and fire damage to all attached catapults
@@ -59055,14 +59063,14 @@ Valueline2= Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipDwarvenGimliAxeThrow]
-Value=Powerful ranged attack with radius damage 
-Valueline2= Target enemy hero is pinned for 10 seconds 
-Valueline3= Left click icon then left click on target
+Value=Powerful ranged attack with radius damage
+Valueline2=Target enemy hero is pinned for 10 seconds
+Valueline3=Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipMirkwoodGimliAxeThrow]
 Value=Powerful ranged attack with radius damage
-Valueline2= Left click icon then left click on target
+Valueline2=Left click icon then left click on target
 
 
 
@@ -59083,10 +59091,8 @@ Value=The units return to standard line formation
 
 
 [CONTROLBAR:ToolTipToggleIPikemanPhalanxFormation]
-Value=+33% armour and bonus +60% armour against Cavalry
-Valueline2=Resistance to knockback
-Valueline3=Decelrates Crush
-Valueline4=-40% speed
+Value=The units form a Spear Wall
+Valueline2= Units lose 40% speed, gain resistance to knockback, decelerate crush, and gain +33% armour
 
 [CONTROLBAR:ToolTipToggleIPikemanLineFormation]
 Value=The units return to standard line formation
@@ -59110,21 +59116,21 @@ Value=Wildmen Axe Throwers
 
 [CONTROLBAR:TooltipWargRiderHowl]
 Value=Modifier Type: Buff 
-Valueline2= Wargs gain +50% damage and +50% armour 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Left click to activate
+Valueline2= Wargs gain +25% damage and +25% armour for 45 seconds
+Valueline3=Left click to activate
 
 
 [CONTROLBAR:TooltipIsengardWargRiderHowl]
 Value=Modifier Type: Buff 
-Valueline2= Wargs gain +50% damage and +20% speed 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Left click to activate
+Valueline2= Wargs gain +50% damage and +20% speed for 20 seconds
+Valueline3=Left click to activate
 
 
 [CONTROLBAR:TooltipWhiteWolvesHowl]
-Value=White Wolves temporarily terrify enemy units 
-Valueline2= Left click to activate
+Value=Requires Level 2
+Valueline2=The White Wolves let out a bone-chilling howl,
+Valueline3=terrifying nearby enemy units for 10 seconds 
+Valueline4=Left click to activate
 
 
 
@@ -59136,7 +59142,7 @@ Valueline3= Increases command point limit by 50
 
 [OBJECT:FurnaceDescription]
 Value=Generates resources based on available terrain
-Valueline2= Steel Bonus - Reduced cost of uruks 
+Valueline2= Steel Bonus - Reduced cost of Uruk-hai 
 Valueline3= 2 Furnaces: 5% 
 Valueline4= 3 Furnaces: 10% 
 Valueline5= 4 Furnaces: 15% 
@@ -59164,7 +59170,7 @@ Valueline3= Left click to activate
 
 
 [CONTROLBAR:TooltipUpgradeIsengardTavernLevel3]
-Value=Adds defensive Arrow Tower
+Value=Adds defensive arrow tower
 Valueline2=+25% faster build speed
 
 
@@ -59177,20 +59183,20 @@ Valueline3=+10% faster build speed
 Value=Allows the construction of the Explosive Mine
 Valueline2=Increased healing to nearby damaged siege machines 
 Valueline3=+25% faster build speed
-Valueline4=Adds defensive Arrow Tower
+Valueline4=Adds defensive arrow tower
 
 
 [OBJECT:IsengardArmoryDescription]
 Value=Generates resources based on available terrain
 Valueline2= Surplus Bonus - Reduced cost of upgrades 
-Valueline3= 2 Armories: 5% 
-Valueline4= 3 Armories: 10% 
-Valueline5= 4 Armories: 15% 
-Valueline6= 5+ Armories: 20%
+Valueline3= 2 Armouries: 5% 
+Valueline4= 3 Armouries: 10% 
+Valueline5= 4 Armouries: 15% 
+Valueline6= 5+ Armouries: 20%
 
 [CONTROLBAR:ToolTipBuildIsengardArmoryLevel3]
 Value=Allows research of Fire Arrows
-Valueline2=Adds defensive Arrow Tower
+Valueline2=Adds defensive arrow tower
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations]
@@ -59198,11 +59204,11 @@ Value=Nearby structures gain +25% armour
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges]
 Value=Reduces cost of Isengard unit Upgrades 
-Valueline2= 1  Fortress with forges = 33% cheaper 
-Valueline3= 2 Fortresses with forges = 41% cheaper 
-Valueline4= 3 Fortresses with forges = 49% cheaper 
-Valueline5= 4 Fortresses with forges = 58% cheaper 
-Valueline6= 5 Fortresses with forges = 67% cheaper
+Valueline2= 1  Fortress with forges = 25% cheaper 
+Valueline3= 2 Fortresses with forges = 35% cheaper 
+Valueline4= 3 Fortresses with forges = 40% cheaper 
+Valueline5= 4 Fortresses with forges = 45% cheaper 
+Valueline6= 5 Fortresses with forges = 50% cheaper
 
 [CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressWizardsTower]
 Value=Requires the Iron Plating upgrade 
@@ -59224,10 +59230,9 @@ Valueline3=Only 3 hordes of Deathbringers are allowed at any time
 [CONTROLBAR:ToolTipVenomousWords]
 Value=Requires Level 3 
 Valueline2= Modifier Type: Active Debuff 
-Valueline3= Targeted enemy units suffer -25% damage and -20% armour 
-Valueline4=Nullifies enemy leadership 
-Valueline5= Does not stack with other Debuffs 
-Valueline6= Left click icon then left click on target units
+Valueline3= Targeted enemy units suffer -25% damage and -20% armour for 30 seconds
+Valueline4=Nullifies enemy leadership
+Valueline5= Left click icon then left click on target units
 
 [CONTROLBAR:ToolTipBackstab]
 Value=Requires Level 5 
@@ -59239,14 +59244,14 @@ Valueline5= Left click icon then left click on target
 
 [CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage]
 Value=Requires Level 3 
-Valueline2= Lurtz briefly gains +75% damage
+Valueline2= Lurtz gains +75% damage, +25% armour and deals splash damage for 20 seconds
 Valueline3=Can only use with sword equipped 
 Valueline4= With each level gained, damage is increased by 25% up to a maximum of +200% at level 8 
 Valueline5= Left click to activate
 
 [CONTROLBAR:ToolTipSpecialAbilityLurtzCripple]
 Value=Requires Level 4 
-Valueline2= Pins enemy Hero in place for 15 seconds 
+Valueline2= Pins enemy hero in place for 15 seconds
 Valueline3= At rank 8, instills fear into nearby enemies 
 Valueline4= Can only use with bow equipped 
 Valueline5= Left click icon then left click on target
@@ -59256,11 +59261,9 @@ Value=Leader of the Hunt (&R)
 
 [CONTROLBAR:ToolTipLurtzLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= Uruk-hai near Lurtz gain +33% damage and +33% armour 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability 
-Valueline5=
-Valueline6= Can be cast on enemy heroes to track their movements for 60 seconds
+Valueline2= Uruk-hai near Lurtz gain +33% damage and +33% armour
+Valueline3=
+Valueline4= Can be cast on enemy heroes to track their movements for 60 seconds
 
 [CONTROLBAR:ToolTipLurtzPillage]
 Value=Requires Level 8 
@@ -59271,17 +59274,24 @@ Valueline3= Passive ability
 [CONTROLBAR:ToolTipGBloodHunt]
 Value=Modifier Type: Leadership 
 Valueline2= Allied Warg Riders near Sharku gain +33% damage, +33% armour and earn experience 50% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4=Passive ability
-Valueline5=
-Valueline6=At rank 4, targeted Warg Riders battalion permanently gain
-Valueline7=+20% health and +20% armour
-Valueline8=Left click icon then left click on target battalion
+Valueline3=Passive ability
+
+
+[CONTROLBAR:SharkuArmouredWolves]
+Value=Armoured Wolves (&T)
+
+[CONTROLBAR:ToolTipSharkuArmouredWolves]
+Value=Requires Level 4
+Valueline2= Targeted Warg-riders battalion permanently gain
+Valueline3=+20% health and heavy armour
+Valueline4=At rank 8, active ability's cooldown is reduced and area of effect is increased
+Valueline5=Left click icon then left click on target battalion
+
 
 [CONTROLBAR:ToolTipSharkuManEater]
 Value=Requires Level 5 
-Valueline2= Kill target enemy which restores 50% of Sharku's health and temporarily grants
-Valueline3=+50% damage, +100% armour 
+Valueline2= Kill target enemy which restores 50% of Sharku's health and grants
+Valueline3=+50% damage, +100% armour for 20 seconds
 Valueline4= Left click icon then left click on target enemy
 
 
@@ -59304,7 +59314,7 @@ Valueline3=Left click icon then left click on target
 
 [CONTROLBAR:ToolTipDominate]
 Value=Requires Level 10 
-Valueline2= Temporarily gain control of targeted enemies 
+Valueline2= Gain control of targeted enemies for 30 seconds
 Valueline3= Left click icon then left click on target enemies
 
 
@@ -59319,17 +59329,14 @@ Valueline3= Left click icon then left click on target enemies
 Value=Reveals the shroud and detects stealthed units 
 Valueline2= Modifier Type: Active Debuff 
 Valueline3= Nearby enemy units suffer -25% damage and -20% armour
-Valueline4= Nullifies enemy leadership 
-Valueline5= Does not stack with other Debuffs 
-Valueline6= Left click icon then left click on target area
+Valueline4= Left click icon then left click on target area
 
 
 [CONTROLBAR:ToolTipTaintIsengard]
-Value=Taints an area of terrain 
+Value=Taints an area of terrain for 5 minutes 
 Valueline2= Modifier Type: Buff 
 Valueline3= All allied units gain +50% damage and +50% armour, and earn resources for kills 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Left click icon then left click on target area
+Valueline4=Left click icon then left click on target area
 
 
 
@@ -59343,12 +59350,19 @@ Value=Purchase Jagged Steel Armour (&T)
 Value=Upgrades this horde with Jagged Steel Armour 
 Valueline2= Significantly reduces the amount of damage taken
 
+
+[CONTROLBAR:ToolTipPurchaseUpgradeMordorHeavyArmor_DGInn]
+Value=Requires Guldur Gaol to enable this equipment
+Valueline2=Upgrades this horde with Jagged Steel Armour 
+Valueline3= Significantly reduces the amount of damage taken
+
+
 [OBJECT:MordorBlackOrc]
 Value=Black Uruk Marauder
 
 
 [OBJECT:MordorEasterling]
-Value=Easterling
+Value=Khân-pâlanax
 
 
 [CONTROLBAR:ToolTipBuildMordorHaradrimRiderHorde]
@@ -59374,8 +59388,7 @@ Valueline2=Causes meta impact and increased damage
 [CONTROLBAR:DescriptionConstructMordorDrummerTrolls]
 Value=Modifier Type: Leadership 
 Valueline2= Allies near the Drummer Troll gain +33% damage, +33% armour, and earn experience 50% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline3= Passive ability
 
 
 [CONTROLBar:ToolTipDominateTroll]
@@ -59412,6 +59425,10 @@ Value=Trains Mordor Orc Units and Black Uruks
 Valueline2=
 Valueline3=Throughout the Ash Mountains and the barren plains of Mordor were located many orcish strongholds, from where the Dark Tower's captains controlled the surrounding lands, keeping invaders out and subduing the orcs living near.
 
+[CONTROLBAR:ToolTipMordorOrcPitWotR]
+Value=Primary Barracks
+Valueline2=Trains basic infantry of Mordor
+Valueline3=Limited to 3
 
 [CONTROLBAR:TooltipUpgradeMordorOrcPitLevel2]
 Value=Allows training of Black Uruks
@@ -59421,7 +59438,7 @@ Valueline2= +10% faster build speed
 [CONTROLBAR:TooltipUpgradeMordorHaradrimPalaceLevel3]
 Value=Unlocks Barbed Arrows 
 Valueline2= +25% faster build speed 
-Valueline3= Adds defensive Arrow Tower
+Valueline3= Adds defensive arrow tower
 
 
 [OBJECT:MordorMumakilPen]
@@ -59437,17 +59454,15 @@ Value=&Upgrade Mûmak Pen to Level 3
 [CONTROLBAR:ToolTipConstructMordorGateWatchersExpansion]
 Value=Causes enemy units to flee in terror
 Valueline2= Modifier Type: Passive Debuff 
-Valueline3= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline4= Does not stack with other Debuffs
+Valueline3= Nearby enemy units suffer -25% damage and -20% armour
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres]
 Value=Modifier Type: Leadership 
-Valueline2= Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster. 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4=
-Valueline5=Reduces Hero cost by 10% 
-Valueline6= Reduces Hero recruit time by 10% 
-Valueline7= Reduces cost of builders by 20%
+Valueline2= Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster
+Valueline3=
+Valueline4=Reduces Hero cost by 10% 
+Valueline5= Reduces Hero recruit time by 10% 
+Valueline6= Reduces cost of builders by 20%
 
 
 
@@ -59467,13 +59482,31 @@ Valueline3=Limited to 1 Horde
 [CONTROLBAR:ToolTipMouthOfSauronDoubt]
 Value=Requires Level 4 
 Valueline2= Modifier Type: Active Debuff 
-Valueline3= Targeted enemy units suffer -20% damage and -20% armour
-Valueline4= Nullifies enemy leadership 
-Valueline5= Does not stack with other Debuffs 
-Valueline6= 
-Valueline7= Modifier Type: Active Buff 
-Valueline8= Targeted allied units gain +33% damage and +33% armour 
-Valueline9= Left click icon then left click on target units
+Valueline3= Targeted enemy units suffer -20% damage and -20% armour for 30 seconds
+Valueline4= Nullifies enemy leadership
+Valueline5=
+Valueline6= Modifier Type: Active Buff 
+Valueline7= Targeted allied units gain +33% damage and +33% armour for 30 seconds
+Valueline8= Left click icon then left click on target units
+
+[CONTROLBAR:ToolTipMouthOfSauronDoubtCampaign]
+Value=Requires Level 3 
+Valueline2= Modifier Type: Active Debuff 
+Valueline3= Targeted enemy units suffer -20% damage and -20% armour for 30 seconds
+Valueline4= Nullifies enemy leadership
+Valueline5=
+Valueline6= Modifier Type: Active Buff 
+Valueline7= Targeted allied units gain +33% damage and +33% armour for 30 seconds
+Valueline8= Left click icon then left click on target units
+
+[CONTROLBAR:ToolTipMouthOfSauronDoubtSummoned]
+Value=Modifier Type: Active Debuff 
+Valueline2= Targeted enemy units suffer -20% damage and -20% armour for 30 seconds
+Valueline3= Nullifies enemy leadership
+Valueline4=
+Valueline5= Modifier Type: Active Buff 
+Valueline6= Targeted allied units gain +33% damage and +33% armour for 30 seconds
+Valueline7= Left click icon then left click on target units
 
 [CONTROLBAR:ToolTipSpecialAbilityMouthOfSauronEvilEye]
 Value=Requires Level 7 
@@ -59482,8 +59515,14 @@ Valueline3= Left click icon then left click on target
 
 [CONTROLBAR:ToolTipMouthOfSauronDissent]
 Value=Requires Level 10 
-Valueline2= Causes targeted units to become hostile towards each other 
-Valueline3= Left click icon then left click on target area
+Valueline2= Causes targeted units to become hostile towards each other for 45 seconds
+Valueline3=Affects enemy and allied units
+Valueline4=Left click icon then left click on target area
+
+[CONTROLBAR:ToolTipMouthOfSauronHerald]
+Value=Modifier Type: Passive Debuff 
+Valueline2= Nearby enemy units suffer -25% damage and -20% armour
+Valueline3= Passive ability
 
 
 
@@ -59491,19 +59530,51 @@ Valueline3= Left click icon then left click on target area
 [CONTROLBAR:ToolTipEyeofSauron]
 Value=Summons the Eye of Sauron 
 Valueline2= Reveals stealthed enemies 
-Valueline3= Paralyzes all enemies on the map briefly upon summoning
-Valueline4= and constanly paralyzes all units caught in it's gaze 
+Valueline3= Paralyzes all enemies on the map for 10 seconds upon summoning
+Valueline4= All units caught in its gaze suffer constant damage and are slowed by 33% 
 Valueline5=Modifier Type: Leadership 
 Valueline6= Allies gain +33% damage, +50% armour, gain immunity to fear and terror, and earn experience 50% faster 
-Valueline7= Stacks with Buffs and Spells 
-Valueline8= Left click icon then left click on target area
+Valueline7=Left click icon then left click on target area
 
 
 
 
 
 [OBJECT:GoblinShaman]
-Value=Moria Orc Shaman
+Value=Moria-orc Shaman
+
+
+[OBJECT:GoblinTownAcolyte]
+Value=Goblin-town Acolyte
+
+
+[CONTROLBAR:ConstructConstructMoriaShamanHorde]
+Value=Moria-orc Shaman (&W)
+
+
+[CONTROLBAR:LW_Unit_MoriaShamanHorde]
+Value=Moria-orc Shaman Horde
+
+[CONTROLBAR:LW_Unit_MoriaShamanHordePlural]
+Value=Moria-orc Shaman Hordes
+
+[BANNERUI:MoriaShaman]
+Value=Moria-orc Shaman
+
+[BANNERUI:MoriaShamans]
+Value=Moria-orc Shamans
+
+
+[CONTROLBAR:TooltipBuildConstructMoriaShamanHorde]
+Value=Battlefield Support Unit 
+Valueline2= 
+Valueline3= Enraptured by the ancient mysteries of the Shadow and the Flame, these orcs have gathered a band of hapless followers, who will gladly sacrifice themselves in order to fuel the dark sorcery that Durin's Bane bestows upon their masters.
+
+
+[CONTROLBAR:ServantsoftheFlame]
+Value=Servants of the Flame (&W)
+
+
 
 
 [OBJECT:GoblinFighter]
@@ -67052,7 +67123,7 @@ Value=Eärendil's Guidance (&S)
 
 [CONTROLBAR:TooltipEarendilVision]
 Value=Requires Eärendil's Guidance upgrade 
-Valueline2= Covers the area around the fortress in light, healing nearby friendly units and causing nearby enemy units to flee in fear 
+Valueline2= Covers the area around the fortress in light for 30 seconds, healing nearby friendly units and causing nearby enemy units to flee in fear 
 Valueline3= Left click to activate
 
 
@@ -67762,7 +67833,7 @@ Value=Heart-freezing Roar (&W)
 
 [CONTROLBAR:TooltipColdDrakeScreech]
 Value=Requires level 3 
-Valueline2= Stuns enemies in terror 
+Valueline2= Stuns enemies in fear for 15 seconds 
 Valueline3= Left click to activate
 
 
@@ -68166,10 +68237,10 @@ Value=Du Bekar! (&V)
 [CONTROLBAR:ToolTipThorinDuBekar]
 Value=Requires Level 10 
 Valueline2= Modifier Type: Spell 
-Valueline3= Thorin and nearby allies gain resistance to knockback, +75% armour and +20% speed for a short time
+Valueline3= Thorin and nearby allies gain resistance to knockback, +75% damage and +20% speed for 30 seconds
 Valueline4=Thorin can crush enemies
-Valueline5= Stacks with Leadership and Spells 
-Valueline6= Left click to activate
+Valueline5= Enemies in wide radius around Thorin are stunned in fear for 15 seconds
+Valueline6=Left click to activate
 
 
 [CONTROLBAR:ThorinResentment]
@@ -68782,7 +68853,7 @@ Value=Uthâk
 Value=Uthâk
 
 [CONTROLBAR:ConstructDwarvenMinerHorde]
-Value=U&thâk
+Value=Uthâk (&W)
 
 [CONTROLBAR:ToolTipBuildDwarvenMiner]
 Value=Armed Miners 
@@ -68794,6 +68865,10 @@ Valueline6= Stacks with buffs, Leadership and other spells
 Valueline7=
 Valueline8= NEEDS LORE ENTRY
 
+[CONTROLBAR:ToolTipMithrilTippedPickaxes]
+Value=Armed Miners' attacks decrease structure armour by 5% and steal resources from structures
+Valueline2=Passive ability
+
 [CONTROLBAR:DwarvenProspectors]
 Value=Prospectors
 
@@ -68801,6 +68876,12 @@ Value=Prospectors
 Value=Requires Level 2 
 Valueline2= Nearby Dwarven Mines generate +3% resources 
 Valueline3= Passive ability
+
+[CONTROLBAR:TooltipMinersTeleport]
+Value=Requires Level 4
+Valueline2=Armed Miners teleport to target location
+Valueline3=Left click then left click target area
+
 
 [OBJECT:TubDwarf]
 Value=Rowdy Tub-dwarf
@@ -68820,34 +68901,64 @@ Value=Huruz-Khagal-zirak (&R)
 [CONTROLBAR:ToolTipBuildEredLuinRangerHorde]
 Value=Ered Luin Rangers 
 Valueline2= Requires Level 2 Erebor Assembly 
-Valueline3= Fast Moving, Hard Hitting Infantry 
+Valueline3= Fast moving, hard hitting Infantry 
 Valueline4=Strong vs. Archers
 Valueline5= Can Stealth Near Trees 
 Valueline6= 
 Valueline7= The sprawling forests that covered the long foothills of the Blue Mountains were kept safe by keen-eyed Dwarven rangers.
 
+[CONTROLBAR:ConstructEredLuinRangerHordeWotr]
+Value=Huruz-Khagal-zirak (&E)
+
+[CONTROLBAR:ToolTipBuildEredLuinRangerHordeWotr]
+Value=Ered Luin Rangers 
+Valueline2= Fast moving, hard hitting Infantry 
+Valueline3=Strong vs. Archers
+Valueline4= Can Stealth Near Trees 
+Valueline5= 
+Valueline6= The sprawling forests that covered the long foothills of the Blue Mountains were kept safe by keen-eyed Dwarven rangers.
+
 [CONTROLBAR:SecretWays]
 Value=Secret Ways (&R)
 
 [CONTROLBAR:TooltipSecretWays]
-Value=Huruz-Khagal-zirak are stealthed near trees
-Valueline2= They deal double damage when flanking and attacking from behind 
-Valueline3= Passive ability 
-Valueline4= 
-Valueline5= When activated, Rangers gain +10% speed and 50% armour against arrows
-Valueline6=Left click icon to activate
+Value=Ered Luin Rangers are stealthed near trees
+Valueline2=They deal double damage when flanking and attacking from behind
+Valueline3=Passive ability
+Valueline4=
+Valueline5=When activated, Ered Luin Rangers teleport to target location
+Valueline6=Left click icon then left click on pathable location
 
 [CONTROLBAR:DwarvenWile]
 Value=Dwarven Wile (&T)
 
 [CONTROLBAR:ToolTipDwarvenWile]
 Value=Requires Level 3 
-Valueline2= Huruz-Khagal-zirak lay down an assortment of tripwires, caltrops and pitfalls.
-Valueline3= Enemies that walk across are temporarily stunned 
+Valueline2= Ered Luin Rangers lay down an assortment of tripwires, caltrops and pitfalls.
+Valueline3= Enemies that walk across are stunned for 5 seconds
 Valueline4= Does not affect creeps
-Valueline5= Does not work on water
-Valueline6=
-Valueline7= Left click then left click target location
+Valueline5=
+Valueline6= Left click then left click target location
+
+[OBJECT:EredLuinGuard]
+Value=Ushmur-Khagal-zirak
+
+[OBJECT:EredLuinGuardHorde]
+Value=Ushmur-Khagal-zirak
+
+[CONTROLBAR:ConstructEredLuinGuardHorde]
+Value=Ushmur-Khagal-zirak (&W)
+
+[CONTROLBAR:ConstructEredLuinGuardHorde_Adventure]
+Value=Ushmur-Khagal-zirak (&E)
+
+[CONTROLBAR:ToolTipBuildEredLuinGuardHorde]
+Value=Ered Luin Guards 
+Valueline2=Strong vs. Infantry
+Valueline3= Can Stealth Near Trees 
+Valueline4= 
+Valueline5= Stout shortbows and a quiver full of steel darts work wonders for safeguarding Dwarven caravans traversing the wild lands of Eriador and beyond.
+
 
 [OBJECT:EredLuinTrader]
 Value=Usjur-Khagal-zirak
@@ -68894,6 +69005,23 @@ Valueline2= Passive ability
 [CONTROLBAR:ToolTipTraderEredLuinRangerCram]
 Value=The Rangers passively heal outside of combat 
 Valueline2= Passive ability
+
+
+
+
+[CONTROLBAR:ToolTipEredLuinBodyguard]
+Value=Requires Level 5 
+Valueline2= Modifier Type: Spell 
+Valueline3= Ered Luin Guards empower a friendly hero, granting them 20% armour, 50% faster experience gain, and 75% faster power recharge times for 30 seconds
+Valueline4=Left click icon then left click on target hero
+
+
+
+
+[CONTROLBAR:ToolTipEredLuinCrossfire]
+Value=For 30 seconds, target unit or hero is marked by the Ered Luin Guard 
+Valueline2= The target takes 20 more damage from Ered Luin Guard and Ered Luin Ranger attacks 
+Valueline3= Left click then left click on target
 
 
 [CONTROLBAR:TraderMerchantsLeadership]
@@ -69889,8 +70017,8 @@ Value=The units return to standard line formation
 
 
 [CONTROLBAR:ToolTipToggleVWLineToPorcupineFormation]
-Value=Increases armor by +50% at the cost of -50% movement speed
-Valueline2=Also makes Azaghâr-gundu immune to knockback and trample effects
+Value=Increases armour by +50% at the cost of -50% movement speed
+Valueline2=Also makes Vault-wardens immune to knockback
 
 
 [CONTROLBAR:VWLeadership]
@@ -71826,10 +71954,9 @@ Value=Close Quarters Specialists
 
 [CONTROLBAR:ToolTipVWMineLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= Azaghâr-gundu gain +25% damage and +50% armour when near Allied Dwarven Mines
+Valueline2= Vault-wardens gain +25% damage and +50% armour when near Allied Dwarven Mines
 Valueline3= and earn experience 50% faster 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5=Passive ability
+Valueline4=Passive ability
 
 
 [OBJECT:HordeDwarvenArcherDwarvenPhalanxCombo]
@@ -72150,7 +72277,7 @@ Value=Horns of Hammerhand (&T)
 
 [CONTROLBAR:TooltipHornofHammerhand]
 Value=Requires the Horns of Hammerhand upgrade 
-Valueline2= Causes nearby enemy troops to be stunned in fear
+Valueline2= Causes nearby enemy troops to be stunned in fear for 15 seconds
 Valueline3= Left click to activate
 
 
@@ -75506,7 +75633,7 @@ Value=Mark of Freca (&C)
 [CONTROLBAR:ToolTipMarkOfFreca]
 Value=Requires Level 6 
 Valueline2= The Helmingas grant the Mark of Freca to an enemy unit, 
-Valueline3= causing them to flee in fear and lose -33% armour 
+Valueline3= causing them to flee in fear and lose -33% armour for 60 seconds
 Valueline4= Left click on icon then left click on target battalion
 
 
@@ -75564,9 +75691,12 @@ Value=Beast of War (&C)
 
 
 [CONTROLBAR:TooltipSpecialAbilityGreatBeastFear]
-Value=Requires Level 5 
-Valueline2= Causes enemy units to cower in fear 
-Valueline3= Left click on icon
+Value=Causes enemy units to flee in terror
+Valueline2= Left click on icon
+
+
+[CONTROLBAR:TooltipPurchaseUpgradeGreatBeastFear]
+Value=Upgrade this Great Beast with the ability to cause enemy units to cower in fear
 
 
 [CONTROLBAR:UpgradeArnorFireArrowsBattleTower]
@@ -80637,6 +80767,11 @@ Value=Khandish Chariot
 [OBJECT:HaradAicanaroc]
 Value=Aicanaroc
 
+
+[CONTROLBAR:ToolTipHaradMumakilMatriarchDeafeningTrumpet]
+Value=The Black Matriarch sounds an ear-splitting trumpeting, stunning surrounding enemies in fear for 15 seconds
+Valueline2=Left click to activate
+
 [CONTROLBAR:HaradWarChant]
 Value=Horn of the Serpent Lord
 
@@ -80865,8 +81000,8 @@ Valueline2= Left click icon then left click on target area
 Value=Dread &Tyrant
 
 [CONTROLBAR:ToolTipDreadTyrant]
-Value=Temporarily cancels all leadership effects across the map
-Valueline2= Nearby allied and enemy units are frozen in fear.
+Value=Cancels all leadership effects across the map for 30 seconds
+Valueline2= Nearby allied and enemy units are frozen in fear for 5 seconds
 Valueline3=Left click to activate
 
 [CONTROLBAR:FirePillar]
@@ -82163,6 +82298,19 @@ Value=Summons Marchwardens to patrol the Talan for 60 seconds
 Valueline2=Left click to activate
 
 
+
+
+[CONTROLBAR:ToolTipUpgradeStarLitLanterns]
+Value=Causes enemy units to cower in fear for 5 seconds 
+Valueline2= Left click to activate
+
+
+
+
+[CONTROLBAR:ToolTipAbilityStarLitLanterns]
+Value=Causes enemy units to cower in fear for 5 seconds
+
+
 Valueline2= Increases command point limit by 50
 
 
@@ -82239,6 +82387,8 @@ Valueline4= Increases command point limit by 50
 
 Value=Researches weapons and armour upgrades 
 Valueline2= Provides traded goods as a resource based on available terrain 
+Valueline2=When activated, causes nearby enemies to cower in fear for 15 seconds
+
 [CONTROLBAR:ToolTipPurchaseTechnologyMirkwoodForgedBlades_Dorwinion]
 Value=Allows battalions to purchase the Avarin Steel upgrade 
 Valueline2= When equipped, increases the damage done by melee weapons
@@ -82338,6 +82488,14 @@ Valueline4=Left click then left click target hero
 
 [CONTROLBAR:SpecialAbilityDurinsBaneIgnite]
 Value=Ignite (&R)
+Valueline4= Stuns nearby enemy units in fear for 15 seconds
+Valueline4= Stuns nearby enemy units in fear for 15 seconds
+
+[CONTROLBAR:ToolTipConstructAltarofFire]
+Value=Recruits Moria-orc Shamans
+
+[CONTROLBAR:ToolTipSpecialAbilityFlameofUdun]
+Value=Requires four full battalions of Moria-orc Shamans 
 Valueline2=Produces resources
 Valueline3=Increases command point limit by 100
 
