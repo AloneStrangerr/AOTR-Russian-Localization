@@ -59575,6 +59575,24 @@ Valueline3= Enraptured by the ancient mysteries of the Shadow and the Flame, the
 Value=Servants of the Flame (&W)
 
 
+[CONTROLBAR:ToolTipServantsoftheFlame]
+Value=Targeted friendly units permanently deal added fire damage 
+Valueline2= with their attacks and to enemies that attack them 
+Valueline3= Grants 50% armour against fire as well 
+Valueline4=Can only be used on Misty Mountains melee infantry
+Valueline5=Does not affect heroic units or monsters
+Valueline6=Left click icon then left click on target units
+
+
+[CONTROLBAR:ValaraukarWrath]
+Value=Valaraukar's Wrath (&R)
+
+
+[CONTROLBAR:TooltipValaraukarWrath]
+Value=Durin's Bane was capable of casting powerful spells, and could be persuaded by his servants to use them to their advantage
+Valueline2=Summons Valaraukar's Wrath from the ground
+Valueline3= Enemies in targeted area are knocked back and suffer moderate damage
+Valueline4=Left click icon then left click on target area
 
 
 [OBJECT:GoblinFighter]
@@ -59617,6 +59635,12 @@ Valueline2= Limited to 5
 Valueline3= Strong vs. Structures and Swordsmen 
 Valueline4= 
 Valueline5= 'There they were sheltering under a hanging rock for the night, and Bilbo lay beneath a blanket and shook from head to toe. When he peeped out in the lightning-flashes, he saw that across the valley the stone-giants were out, and were hurling rocks at one another for a game, and catching them, and tossing them down into the darkness where they smashed among the trees far below, or splintered into little bits with a bang.'
+
+
+[CONTROLBAR:LW_ToolTipBuild_WildMountainGiant]
+Value=Unit Type: Siege
+Valueline2=Strong vs. Structures and Swordsmen
+
 
 [CONTROLBAR:ToolTipWildMountainGiantStomp]
 Value=Powerful attack that causes additional damage and meta impact
@@ -59663,8 +59687,13 @@ Value=+25% faster build speed
 
 
 [CONTROLBAR:ToolTipConstructWildGoblinFissure]
-Value=Trains Trolls, Giant Bats and Mountain Giants 
-Valueline2= Increases command point limit by 25
+Value=Trains Trolls, Giant Bats and Mountain Giants
+
+
+[CONTROLBAR:ToolTipConstructWildGoblinFissureWotR]
+Value=Tertiary Barracks 
+Valueline2= Trains Cave Trolls 
+Valueline3= Limited to 1
 
 
 [CONTROLBAR:ToolTipBuildWildLodgeLevel2Upgrade]
@@ -59697,8 +59726,14 @@ Valueline2=+25% faster build speed
 
 
 [CONTROLBAR:ToolTipConstructWildWildSpiderPit]
-Value=Trains Gundabad Warg Packs and Gundabad Wolf-riders 
-Valueline2= Increases command point limit by 25
+Value=Trains Gundabad Warg Packs and Gundabad Wolf-riders
+
+
+[CONTROLBAR:ToolTipConstructWildWildSpiderPitWotR]
+Value=Secondary Barracks 
+Valueline2= Trains Gundabad Warg Packs 
+Valueline3= Limited to 1
+
 
 [CONTROLBAR:ToolTipBuildWildSpiderPitLevel2Upgrade]
 Value=Allows training of Gundabad Wolf-riders
@@ -59754,10 +59789,11 @@ Valueline3=Only 2 packs of Drake Broods are allowed at any time
 
 
 [CONTROLBAR:ToolTipWildDrake]
-Value=Tame a wild fire-breathing Wyrm. Strong vs. infantry and structures 
-Valueline2= 
-Valueline3= Though flightless and smaller than Dragons, Fire Wyrms are considered some of the most dangerous creatures in Middle-earth.
-Valueline4= Only 4 Wyrms are allowed at any time.
+Value=Tame a wild fire-breathing Wyrm
+Valueline2=Strong vs. infantry and structures 
+Valueline3= 
+Valueline4= Though flightless and smaller than Dragons, Fire Wyrms are considered some of the most dangerous creatures in Middle-earth.
+Valueline5= Only 4 Wyrms are allowed at any time.
 
 
 [CONTROLBAR:ToolTipSpecialAbilityFireDrakeInferno]
@@ -59771,8 +59807,7 @@ Value=Requires Level 2
 Valueline2= Modifier Type: Leadership 
 Valueline3=Nearby allies gain
 Valueline4=+50% damage and fear resistance
-Valueline5= Stacks with Buffs and Spells 
-Valueline6= Passive ability
+Valueline5=Passive ability
 
 [CONTROLBAR:AzogFury]
 Value=Sworn Vengeance (&C)
@@ -59800,16 +59835,15 @@ Valueline6=
 Valueline7= Taints an area around Azog 
 Valueline8= Nearby allies near this area earn extra resources on kills 
 Valueline9= Enemy units near this area suffer -25% damage and -20% armour
-Valueline10= Nullifies enemy leadership 
-Valueline11= Does not stack with other Debuffs 
-Valueline12= Left click icon
+Valueline10= Nullifies enemy leadership
+Valueline11= Left click icon
 
 [CONTROLBAR:AzogHeadhunter]
 Value=Head Hunter (&R)
 
 [CONTROLBAR:ToolTipAzogHeadhunter]
 Value=Requires Level 2 
-Valueline2= Puts a price on an enemy hero's head, reducing their armor and speed by 50% 
+Valueline2= Puts a price on an enemy hero's head, reducing their armour and speed by 50% 
 Valueline3=Left click icon then left click on target
 
 
@@ -59824,8 +59858,7 @@ Valueline5= Left click icon then left click on target area
 Value=Requires Level 4 
 Valueline2= Modifier Type: Leadership 
 Valueline3= Allies near the Golfimbul gain +33% damage, +33% armour, and earn experience 50% faster 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability
+Valueline4=Passive ability
 
 [CONTROLBAR:ToolTipGoblinKingPoisonedStinger]
 Value=Requires Level 6
@@ -59840,9 +59873,7 @@ Valueline4=Left click icon then lick click on target
 Value=Reveals the shroud and detects stealthed units
 Valueline2= Modifier Type: Active Debuff 
 Valueline3= Nearby enemy units suffer -25% damage and -20% armour
-Valueline4= Nullifies enemy leadership 
-Valueline5= Does not stack with other Debuffs 
-Valueline6= Left click icon then left click on target area
+Valueline4= Left click icon then left click on target area
 
 
 [CONTROLBAR:SummonSpiderlingAllies]
@@ -59875,6 +59906,16 @@ Value=A nearby Caravan is needed to enable this equipment
 Valueline2= When equipped, significantly reduces the amount of damage taken
 
 
+[TOOLTIP:LackMumakWarPaint]
+Value=Requires Level 3 Mahûd Gathering
+Valueline2= When equipped, significantly increases resistance to ranged damage
+
+
+[TOOLTIP:LackMumakArmoredTusks]
+Value=Requires Level 3 Mahûd Gathering
+Valueline2= When equipped, significantly increases resistance to damage from pikemen
+
+
 [OBJECT:AngmarWolfRider]
 Value=Wolf Rider
 
@@ -59898,16 +59939,17 @@ Value=Black Númenórean
 
 [CONTROLBAR:ToolTipBuildAngmarDarkDunedainHorde]
 Value=Requires Level 2 Umbarian Citadel 
-Valueline2=Strong vs. Pikemen
+Valueline2=Strong vs. Pikemen 
+Valueline3= 
+Valueline4= Those few Umbarians that still claim to be of noble Númenórean heritage come to battle armed with pride and the best arms and armour that gold can buy.
 
 [CONTROLBAR:ToolTipSpecialAbilityAngmarChargeAttack]
 Value=Requires Level 2 
 Valueline2= Order Black Númenóreans to charge the enemy 
 Valueline3= Type: Buff 
-Valueline4= Black Numenoreans gain +50% damage and +50% armour 
-Valueline5= Stacks with Leadership and Spells 
-Valueline6= Causes meta impact 
-Valueline7= Left click icon then left click on target
+Valueline4= Black Númenóreans gain +50% damage and +50% armour 
+Valueline5=Causes meta impact 
+Valueline6= Left click icon then left click on target
 
 [OBJECT:AngmarRanger]
 Value=Dark Ranger
@@ -59930,18 +59972,16 @@ Valueline2= When equipped, significantly increases the damage done by arrows
 [CONTROLBAR:TooltipNecromancerDeathMask]
 Value=Requires Level 4 
 Valueline2= Modifier Type: Passive Debuff 
-Valueline3= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline4= Does not stack with other Debuffs 
-Valueline5= Passive ability
+Valueline3= Nearby enemy units suffer -25% damage and -20% armour
+Valueline4= Passive ability
 
 
 [CONTROLBAR:ToolTipBuildWildSnowTrollHorde]
 Value=Requires Level 2 Troll Lair 
-Valueline2= Limited to 6 
-Valueline3= 
-Valueline4=Strong vs. Buildings and Resistant to Archers 
-Valueline5=
-Valueline6= Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty
+Valueline2= 
+Valueline3=Strong vs. Infantry and Monsters 
+Valueline4=
+Valueline5= Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty
 
 
 [CONTROLBAR:ToolTipBuildAngmarSnowTrollHorde]
@@ -59953,9 +59993,8 @@ Value=Requires Level 2
 Valueline2= Order Warriors to charge the enemy 
 Valueline3= Modifier Type: Buff 
 Valueline4= Warriors gain +50% damage and +50% armour 
-Valueline5= Stacks with Leadership and Spells 
-Valueline6= Causes meta impact 
-Valueline7= Left click icon then left click on target
+Valueline5=Causes meta impact 
+Valueline6= Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipBuildAngmarHillTrollHorde]
@@ -60007,11 +60046,18 @@ Valueline4= Bustling Bazaars are a common sight in all settlements in the vast S
 
 [CONTROLBAR:ToolTipConstructAngmarBarracks]
 Value=Trains units from Harondor and Near Harad 
-Valueline2= Increases command point limit by 25
+Valueline2= 
+Valueline3= Stoney desert outposts dot the dry, war-torn lands of Harondor, built by Sûladan's warriors and used to ward off Gondorian invaders.
+
+
+[CONTROLBAR:ToolTipConstructAngmarBarracksWotRRealTime]
+Value=Secondary Barracks 
+Valueline2= Trains Harondor Raiders 
+Valueline3= Limited to 1
 
 
 [CONTROLBAR:ToolTipBuildAngmarBarracksLevel2Upgrade]
-Value=Allows training of Harondor Raiders, Harondor Spearmen and Harondor Archers 
+Value=Allows training of Harondor Raiders and Harondor Spearmen 
 Valueline2=+10% faster build speed
 
 
@@ -65720,6 +65766,11 @@ Valueline2= Left click on icon then left click on target area
 Value=Summon three battalions of Haradrim Raiders to the battlefield 
 Valueline2= Once used, passively unlocks Easterling Kataphrakts and Easterling Swordsmen 
 Valueline3= Left click on icon then left click on target area
+
+
+[CONTROLBAR:TooltipSummonHarondorRaiders]
+Value=Summon three battalions of Harondor Raiders to the battlefield, commanded by Sûladan 
+Valueline2= Left click on icon then left click on target area
 
 
 [OBJECT:SummonedFellBeast]
@@ -81616,14 +81667,50 @@ Value=Harondor Raider
 Value=Harondor Raiders
 
 
+[CONTROLBAR:LW_Unit_HarondorRaiderHorde]
+Value=Harondor Raiders Horde
+
+
+[CONTROLBAR:LW_Unit_HarondorRaiderHordePlural]
+Value=Harondor Raiders Hordes
+
+
+[BANNERUI:HarondorRaider]
+Value=Harondor Raider
+
+
+[BANNERUI:HarondorRaiders]
+Value=Harondor Raiders
+
+
+[CONTROLBAR:LW_ToolTip_HarondorRaiderHorde]
+Value=Unit Type: Basic Cavalry
+Valueline2=Strong vs. Archers
+
+
 [CONTROLBAR:ConstructHaradwaithHarondorRaidersHorde]
 Value=Harondor Raiders (&R)
+
+
+[CONTROLBAR:ConstructHaradwaithHarondorRaidersHordeWotR]
+Value=Harondor Raiders (&W)
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithHarondorRaidersHorde]
 Value=Requires Level 2 Harondor Outpost 
 Valueline2= Strong vs. Infantry 
 Valueline3= These raiders were known in Gondor for striking hard and fast, then retreating ere any retaliation could be organised.
+
+
+[CONTROLBAR:LW_Unit_HaradwaithHarondorRaidersHorde]
+Value=Harondor Raiders
+
+
+[CONTROLBAR:LW_ToolTipBuild_HaradwaithHarondorRaidersHorde]
+Value=Unit Type: Basic Cavalry
+Valueline2=Strong vs. Archers
+Valueline3=
+
 
 
 [OBJECT:HaradwaithMahudHeadhunter]
@@ -81682,11 +81769,17 @@ Value=Siege Mûmak (&S)
 
 
 [CONTROLBAR:ToolTipBuildHaradSiegeMumakil]
-Value=Requires Level 3 Mahûd Gathering and Subjugation: Mahûd fortress upgrade 
+Value=Requires Level 3 Mahûd Gathering 
 Valueline2= Strong vs. Structures and Cavalry 
 Valueline3= 
 Valueline4= NEEDS LORE STRING
 
+
+
+
+
+[OBJECT:MahudOutpost]
+Value=Mahûd Gathering
 
 
 
@@ -81891,6 +81984,13 @@ Value=Strong vs. Pikemen
 Valueline2= NEEDS LORE STRING.
 
 
+[CONTROLBAR:ConstructHaradwaithHarondorRaiderHordeCamp]
+Value=Summon Harondor Raiders (&D)
+
+
+Valueline2= Summons a battalion of Harondor Raiders
+
+
 [OBJECT:HaradScorpionExpansion]
 Value=Scorpion Pit Expansion
 
@@ -82003,6 +82103,7 @@ Valueline3=Left click to activate
 Value=Serpent's Sting (&W)
 
 
+Valueline2= Nearby Harondor Raiders, Black Númenórean Vanguard, and Sûladan all gain +100% armour against specialist damage for 20 seconds
 
 
 [CONTROLBAR:ToolTipRitualofSacrifice]
