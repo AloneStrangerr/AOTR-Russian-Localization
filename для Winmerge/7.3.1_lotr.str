@@ -60069,15 +60069,18 @@ Valueline3= Adds defensive arrow tower
 
 [CONTROLBAR:ToolTipAngmarDen]
 Value=Trains Mahûd units and Mûmakil 
-Valueline2= Increases command point limit by 25
+Valueline2= 
+Valueline3= Mahûddin settlements are erected amongst the bones of their fallen animals, signifying the great bond shared between them.
 
 [CONTROLBAR:TooltipUpgradeAngmarDenLevel2]
-Value=Allows training of War Mûmakil 
+Value=Allows training of Mahûd Chieftains and War Mûmakil 
 Valueline2= +10% faster build speed
 
 [CONTROLBAR:TooltipUpgradeAngmarDenLevel3]
-Value=Allows training of Siege Mûmakil 
-Valueline2= +25% faster build speed
+Value=Allows training of Siege Mûmakil
+Valueline2=Allows Mûmakil to be upgraded with Armoured Tusks and War Paint
+Valueline3=+25% faster build speed
+Valueline4= Heals nearby Mûmakil
 
 [TOOLTIP:LackLevel2Den]
 Value=Requires Level 2 Troll and Wolf Den
@@ -60089,6 +60092,7 @@ Value=Requires Level 3 Troll and Wolf Den
 [CONTROLBAR:ToolTipConstructAngmarHallofTwilight]
 Value=Trains Black Númenórean units and Watchers of Kârna
 Valueline2= 
+Valueline3= The great stone towers of Umbar stand as a solemn reminder of a shared ancestry, attainted by centuries of conflict.
 
 [CONTROLBAR:ToolTipPurchaseTechnologyAngmarSoulFreeze]
 Value=Allows Sorcerers to specialize in the Soul Freeze power 
