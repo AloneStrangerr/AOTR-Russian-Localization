@@ -60062,9 +60062,9 @@ Valueline2=+10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildAngmarBarracksLevel3Upgrade]
-Value=Allows training of Guards of the Serpent and the research of the Lies and Threats upgrade 
-Valueline2= +25% Faster build speed 
-Valueline3= Adds defensive Arrow Tower
+Value=Allows training of Harondor Archers and Guards of the Serpent 
+Valueline2= +25% faster build speed 
+Valueline3= Adds defensive arrow tower
 
 
 [CONTROLBAR:ToolTipAngmarDen]
@@ -80968,6 +80968,8 @@ Value=Syâr-Rhul
 [OBJECT:HaradGoldenKing]
 Value=The Golden King
 
+Valueline2= 
+Valueline3= A powerful warlord from the wartorn lands of Harondor, Sûladan has won renown throughout his many skirmishes with the Gondorian oppressors, clearing them out of Harondor to claim it for his own people.
 
 [CONTROLBAR:HaradSuladanRevive]
 Value=Revive the fallen Hero, Sûladan
@@ -81162,12 +81164,15 @@ Valueline3= Left click icon then left click on target
 Value=Blade of the Serpent Lord (&T)
 
 [CONTROLBAR:ToolTipBladeoftheSerpentLord]
-Value=Requires Level 3 
-Valueline2= Modifier Type: Debuff 
-Valueline3= Nearby enemy units suffer -15% speed 
-Valueline4= Does not stack with other Debuffs 
-Valueline5=Passive ability 
-Valueline6= When activated, Sûladan temporarily deals strong poison damage and is able to slow enemy heroes by 33%
+Value=Requires Level 3
+Valueline2=Modifier Type: Debuff
+Valueline3=Nearby enemy units suffer -15% speed
+Valueline4=Passive ability
+
+[CONTROLBAR:ToolTipBladeoftheSerpentLordSummoned]
+Value=Modifier Type: Debuff
+Valueline2=Nearby enemy units suffer -15% speed
+Valueline3=Passive ability
 
 [CONTROLBAR:Onslaught]
 Value=Onslaught (&V)
@@ -81634,19 +81639,79 @@ Value=Guards of the Serpent
 
 
 [CONTROLBAR:ConstructGuardoftheSerpentHorde]
-Value=Guards of the Serpent (&V)
+Value=Guards of the Serpent (&D)
 
 
 [CONTROLBAR:ToolTipBuildGuardoftheSerpentHorde]
+Value=Requires Level 3 Harondor Outpost and Sûladan has been recruited
+Valueline2= Hero Unit. Limited to 1 
+Valueline3= Strong vs. Infantry and Cavalry
+Valueline4= Able to switch between mounted and on foot
+Valueline5=
+Valueline6= Sûladan surrounds himself with a cadre of veteran warriors. Fiercely loyal and with martial prowess matched by few, the Guards of the Serpent are righteously feared by the northern oppressor.
+
+
+[OBJECT:HarondorArcher]
+Value=Harondor Archer
+
+
+[OBJECT:HarondorArcherHorde]
+Value=Harondor Archers
+
+
+[CONTROLBAR:ConstructHarondorArcherHorde]
+Value=Harondor Archers (&S)
+
+
+[CONTROLBAR:ToolTipBuildHarondorArcherHorde]
 Value=Requires Level 3 Harondor Outpost 
-Valueline2= Strong vs. Infantry??? 
-Valueline3= Specialist Unit??? 
+Valueline2= Strong vs. Infantry 
+Valueline3=
 Valueline4= Limited to 2 
-Valueline5= 
-Valueline6= NEEDS LORE STRING.
+
+
+[CONTROLBAR:LW_Unit_HaradHarondorArcherHorde]
+Value=Harondor Archer Horde
+
+
+[CONTROLBAR:LW_Unit_HaradHarondorArcherHordePlural]
+Value=Harondor Archer Battalions
+
+
+[BANNERUI:HarondorArcher]
+Value=Harondor Archer
+
+
+[BANNERUI:HarondorArchers]
+Value=Harondor Archers
 
 
 
+
+[OBJECT:HaradHarondorSwords]
+Value=Harondor Swordsman
+
+
+[OBJECT:HaradHarondorSwordsHorde]
+Value=Harondor Swords
+
+
+[CONTROLBAR:ConstructHaradHarondorSwordsHorde]
+Value=Harondor Swords (&W)
+
+
+
+
+[OBJECT:HaradHarondorSpearmen]
+Value=Harondor Spearman
+
+
+[OBJECT:HaradHarondorSpearmenHorde]
+Value=Harondor Spearmen
+
+
+[CONTROLBAR:ConstructHaradHarondorSpearmenHorde]
+Value=Harondor Spearmen (&T)
 
 
 [CONTROLBAR:ToolTipBuildHarondorArcherHorde]
@@ -81654,9 +81719,24 @@ Value=Requires Level 2 Harondor Outpost
 Valueline2= Strong vs. Infantry 
 Valueline3= Specialist Unit 
 Valueline4= 
-Valueline5= The archers in Sûladan's ranks were known for their use of poison-tipped arrows, which they extracted themselves at great risk from Haradwaith's many venomous species such as snakes and scorpions.
 
 
+[CONTROLBAR:LW_Unit_HaradHarondorSpearmenHorde]
+Value=Harondor Spearmen Horde
+
+
+[CONTROLBAR:LW_Unit_HaradHarondorSpearmenHordePlural]
+Value=Harondor Spearmen Hordes
+
+
+
+
+[BANNERUI:HarondorSpearman]
+Value=Harondor Spearman
+
+
+[BANNERUI:HarondorSpearmen]
+Value=Harondor Spearmen
 
 
 [OBJECT:HaradwaithHarondorRaider]
@@ -81984,6 +82064,20 @@ Value=Strong vs. Pikemen
 Valueline2= NEEDS LORE STRING.
 
 
+[CONTROLBAR:ConstructHaradwaithHarondorSpearmenHordeCamp]
+Value=Summon Harondor Spearmen (&T)
+
+
+Valueline2= Summons a battalion of Harondor Spearmen
+
+
+[CONTROLBAR:ConstructHaradwaithHarondorArcherHordeCamp]
+Value=Summon Harondor Archers (&S)
+
+
+Valueline2= Summons a battalion of Harondor Archers
+
+
 [CONTROLBAR:ConstructHaradwaithHarondorRaiderHordeCamp]
 Value=Summon Harondor Raiders (&D)
 
@@ -82122,6 +82216,12 @@ Valueline4=Left click to activate
 
 [CONTROLBAR:ToolTipPurchaseHaradLiesandThreats]
 Value=Increases Harondor Warlords' armour
+
+
+[TOOLTIP:LackLevel3HaradLiesandThreats]
+Value=Requires Level 1 Harondor Outpost
+
+
 Valueline2= Harondor Warlords have increased armour 
 Valueline3= Passive ability
 
@@ -82141,7 +82241,7 @@ Value=Subjugation: Near Harad (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeHaradFortressHarondor]
-Value=Permanently decreases build time of Haradrim units by 20%
+Value=Permanently decreases build time of Harondor units by 20% 
 Valueline2= Allows Tribal Camps to summon Harondor units 
 
 
@@ -82712,6 +82812,10 @@ Valueline3=Left click on icon then left click on target area
 Value=Mission IV - Gloin and Glorfindel arrive at the Blue Mountains to help the Dwarves reclaim their halls from a brooding dragon.
 Valueline2= Recommended Faction: Erebor
 
+[CONTROLBAR:TooltipWotRDarkLordChosenHarad]
+Value=Permanently summons a horde of Guards of the Serpent
+Valueline2=Limited to 1
+Valueline3=Left click on icon then left click on target area
 
 [Map:MAPSPgoodcelduin]
 Value=Campaign: Good VI - Celduin
