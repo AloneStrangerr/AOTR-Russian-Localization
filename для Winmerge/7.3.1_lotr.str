@@ -60108,15 +60108,21 @@ Valueline2= This calls down a barrage of corpses on the target area
 
 
 [CONTROLBAR:ToolTipConstructAngmarForgeWorks]
-Value=Trains specialist and siege units 
-Valueline2= Increases command point limit by 25
+Value=Trains various beasts and Nâfarati tribesmen
+Valueline2=
+Valueline3= The Pavilion of the Golden King is a dark menagerie, filled with Men and fell beasts captured and corrupted to bolster the Golden King's war effort.
+
+[CONTROLBAR:ToolTipConstructAngmarForgeWorksWotRRealTime]
+Value=Tertiary Barracks 
+Valueline2= Trains Great Scorpions 
+Valueline3= Limited to 1
 
 [CONTROLBAR:TooltipUpgradeAngmarForgeWorksLevel2]
-Value=Allows training of Risen Carrion 
+Value=Allows training of Nâfarati Beastmasters and Kâradd Patriarchs
 Valueline2= +10% faster build speed
 
 [CONTROLBAR:TooltipUpgradeAngmarForgeWorksLevel3]
-Value=Allows training of Nafârati Marauders 
+Value=Allows training of Nâfarati Marauders 
 Valueline2= +25% faster build speed
 
 [CONTROLBAR:PurchaseTechnologyAngmarIceShot]
@@ -60157,8 +60163,8 @@ Value=Ice Arro&ws
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarFortressBanners]
 Value=Modifier Type: Leadership 
-Valueline2= Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster. 
-Valueline3= Stacks with Buffs and Spells 
+Valueline2= Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster 
+Valueline3=
 Valueline4=
 Valueline5=Reduces Hero cost by 10% 
 Valueline6= Reduces Hero recruit time by 10% 
@@ -60166,8 +60172,7 @@ Valueline7= Reduces cost of builders by 20%
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarFortressHouseOfLamentation]
 Value=Modifier Type: Passive Debuff 
-Valueline2= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline3= Does not stack with other Debuffs
+Valueline2= Nearby enemy units suffer -25% damage and -20% armour
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarFortressSanctum]
 Value=Constructs the Witch-king's Sanctum, which launches chunks of ice
@@ -60181,8 +60186,7 @@ Value=&Winter's Wrath
 [CONTROLBAR:ToolTipHwaldarLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= Allied Rhudaur Spearmen, Axe Throwers and Hillmen near Hwaldar gain +33% damage, +33% armour, and earn experience 50% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline3= Passive ability
 
 [CONTROLBAR:ToolTipHwaldarBrigandage]
 Value=Requires Level 3
@@ -60198,9 +60202,8 @@ Valueline3= Left click icon then left click on pathable location
 [CONTROLBAR:ToolTipMorgomirDreadVisage]
 Value=Requires Level 2 
 Valueline2= Modifier Type: Passive Debuff 
-Valueline3= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline4= Does not stack with other Debuffs 
-Valueline5= Passive ability
+Valueline3= Nearby enemy units suffer -25% damage and -20% armour
+Valueline4= Passive ability
 
 [CONTROLBAR:ToolTipMorgomirMorgulBlade]
 Value=Requires Level 5 
@@ -60247,9 +60250,8 @@ Value=The &Witch-king
 Value=Freezes an area of terrain 
 Valueline2= Modifier Type: Leadership and Spell 
 Valueline3= All allied units gain +33% damage, +33% armour and earn experience 50% faster 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Extinguishes all fires
-Valueline6=Left click icon then left click on target area
+Valueline4= Extinguishes all fires
+Valueline5=Left click icon then left click on target area
 
 
 [CONTROLBAR:TooltipBlight]
@@ -60269,41 +60271,40 @@ Value=Summons an avalanche that will damage enemies and put out fires
 Valueline2= Strong vs. units 
 Valueline3= Modifier Type: Spell 
 Valueline4= Enemy units that pass through the snowfield suffer -33% speed 
-Valueline5= Stacks with Buffs, Leadership and other Spells 
-Valueline6= Left click icon then left click on target area
+Valueline5= Left click icon then left click on target area
 
 
 
 
 [CONTROLBAR:ToolTipCAH_BerserkerRage_L1]
-Value=Hero gains a moderate boost to Armor and Damage
+Value=Hero gains a moderate boost to armour and damage
 
 [CONTROLBAR:ToolTipCAH_BerserkerRage_L1_Palantir]
-Value=Hero gains a moderate boost to Armor and Damage 
+Value=Hero gains a moderate boost to armour and damage 
 Valueline2= Left click to activate
 
 
 [CONTROLBAR:ToolTipCAH_BerserkerRage_L2]
-Value=Hero gains a good boost to Armor and Damage
+Value=Hero gains a good boost to armour and damage
 
 [CONTROLBAR:ToolTipCAH_BerserkerRage_L2_Palantir]
-Value=Hero gains a good boost to Armor and Damage 
+Value=Hero gains a good boost to armour and damage 
 Valueline2= Left click to activate
 
 
 [CONTROLBAR:ToolTipCAH_BerserkerRage_L3]
-Value=Hero gains an excellent boost to Armor and Damage
+Value=Hero gains an excellent boost to armour and damage
 
 [CONTROLBAR:ToolTipCAH_BerserkerRage_L3_Palantir]
-Value=Hero gains an excellent boost to Armor and Damage 
+Value=Hero gains an excellent boost to armour and damage 
 Valueline2= Left click to activate
 
 
 [CONTROLBAR:ToolTipCAH_BerserkerRage_L4]
-Value=Hero gains a superior boost to to Armor and Damage
+Value=Hero gains a superior boost to to armour and damage
 
 [CONTROLBAR:ToolTipCAH_BerserkerRage_L4_Palantir]
-Value=Hero gains a superior boost to to Armor and Damage 
+Value=Hero gains a superior boost to to armour and damage 
 Valueline2= Left click to activate
 
 
@@ -60317,34 +60318,34 @@ Valueline2= Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipCAH_BattleRage_Level1]
-Value=Hero gains a moderate boost to Armor and Damage
+Value=Hero gains a moderate boost to armour and damage
 
 [CONTROLBAR:ToolTipCAH_BattleRage_Level1_Palantir]
-Value=Hero gains a moderate boost to Armor and Damage 
+Value=Hero gains a moderate boost to armour and damage 
 Valueline2= Left click to activate
 
 
 [CONTROLBAR:ToolTipCAH_BattleRage_Level2]
-Value=Hero gains a good boost to Armor and Damage
+Value=Hero gains a good boost to armour and damage
 
 [CONTROLBAR:ToolTipCAH_BattleRage_Level2_Palantir]
-Value=Hero gains a good boost to Armor and Damage 
+Value=Hero gains a good boost to armour and damage 
 Valueline2= Left click to activate
 
 
 [CONTROLBAR:ToolTipCAH_BattleRage_Level3]
-Value=Hero gains an excellent boost to Armor and Damage
+Value=Hero gains an excellent boost to armour and damage
 
 [CONTROLBAR:ToolTipCAH_BattleRage_Level3_Palantir]
-Value=Hero gains an excellent boost to Armor and Damage 
+Value=Hero gains an excellent boost to armour and damage 
 Valueline2= Left click to activate
 
 
 [CONTROLBAR:ToolTipCAH_BattleRage_Level4]
-Value=Hero gains a superior boost to Armor and Damage
+Value=Hero gains a superior boost to armour and damage
 
 [CONTROLBAR:ToolTipCAH_BattleRage_Level4_Palantir]
-Value=Hero gains a superior boost to Armor and Damage 
+Value=Hero gains a superior boost to armour and damage 
 Valueline2= Left click to activate
 
 
@@ -60488,15 +60489,13 @@ Valueline2= Left click icon then left click on pathable location
 Value=Hero summons a flock of birds that reveal the shroud and detects stealth 
 Valueline2= Modifier Type: Active Debuff 
 Valueline3= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline4= Nullifies enemy Leadership 
-Valueline5= Does not stack with other Debuffs
+Valueline4= Nullifies enemy leadership
 
 [CONTROLBAR:TooltipCAH_SummonFamiliar_Level3_Palantir]
 Value=Hero summons a flock of birds that reveal the shroud and detects stealth 
 Valueline2= Modifier Type: Active Debuff 
 Valueline3= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline4= Nullifies enemy Leadership 
-Valueline5= Does not stack with other Debuffs
+Valueline4= Nullifies enemy leadership
 
 
 [CONTROLBAR:ToolTipCAH_A_TrueSight]
@@ -60505,15 +60504,13 @@ Value=Reveals an area of the map
 
 [CONTROLBAR:ToolTipCreateAHeroLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= Allies near the Hero gain +33% damage, +33% armour, and earn experience 50% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline2= Allies near the Hero gain +33% damage, +33% armour, and earn experience 50% faster
+Valueline3= Passive ability
 
 [CONTROLBAR:ToolTipCreateAHeroLeadership_Palantir]
 Value=Modifier Type: Leadership 
 Valueline2= Allies near the Hero gain +33% damage, +33% armour, and earn experience 50% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline3= Passive ability
 
 
 
@@ -60537,13 +60534,13 @@ Value=Yeoman Spearman
 
 [CONTROLBAR:LW_ToolTipBuild_RohanSpearmenHorde]
 Value=Unit Type: Basic Pikemen
-Valueline2=Strong vs. Cavalry
+Valueline2=Strong vs. Cavalry and Heroes
 Valueline3=
 
 [CONTROLBAR:LW_ToolTip_RohanSpearmenHorde]
 Value=
 Valueline2=Unit Type: Basic Pikemen
-Valueline3=Strong vs. Cavalry
+Valueline3=Strong vs. Cavalry and Heroes
 
 
 [CONTROLBAR:LW_ToolTipBuild_GondorArcherHorde]
@@ -63330,8 +63327,8 @@ Value=Iron Discipline (&T)
 
 [CONTROLBAR:ToolTipMuzgashDiscipline]
 Value=Requires Level 6 
-Valueline2= Mûzgash whips his underlings into proper formation, 
-Valueline3= granting them +33% movement speed for a limited time 
+Valueline2= Mûzgash whips his underlings into proper formation,
+Valueline3=granting them +33% movement speed for 30 seconds
 Valueline4= Left click on icon then left click on target
 
 
@@ -63341,7 +63338,7 @@ Value=Token of Supremacy (&C)
 
 [CONTROLBAR:ToolTipMuzgashSupremacy]
 Value=Requires Level 9 
-Valueline2= Mûzgash presents his foes with a token of past victories 
+Valueline2= Mûzgash presents his foes with a token of past victories for 60 seconds 
 Valueline3= Enemy units lose all leadership and lose 33% movement speed 
 Valueline4= Left click on icon then left click on target
 
@@ -63355,8 +63352,7 @@ Value=Callous Influence
 Value=Requires Level 10 
 Valueline2= Modifier Type: Leadership 
 Valueline3= Allies near Mûzgash gain fear resistance
-Valueline4= Stacks with Buffs and Spells 
-Valueline5=Passive ability
+Valueline4=Passive ability
 
 
 [CONTROLBAR:MuzgashHowl]
@@ -63376,7 +63372,7 @@ Value=Wyrm Lair
 
 
 [OBJECT:FireWyrmLairDescription]
-Value=Allows recruitment of Wyrms and Cold Drakes
+Value=Allows recruitment of Wyrms and Cold-drakes
 
 
 [CONTROLBAR:ConstructFireWyrmLair]
@@ -63385,8 +63381,7 @@ Value=Build Wyrm Lair (&M)
 
 [CONTROLBAR:ToolTipConstructFireWyrmLair]
 Value=Requires the Brood of the North upgrade 
-Valueline2= Tames Wyrms and Cold Drakes 
-Valueline3= Increases command point limit by 25
+Valueline2= Tames Wyrms and Cold-drakes
 
 
 [CONTROLBAR:UpgradeFireWyrmLairLevel2]
@@ -63406,7 +63401,7 @@ Value=Wyrm Lair Level 3
 
 
 [CONTROLBAR:ToolTipBuildFireWyrmLairLevel2Upgrade]
-Value=Allows taming of Cold Drakes and researching Wyrm-armour
+Value=Allows taming of Cold-drakes and researching Wyrm-armour
 Valueline2=+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildFireWyrmLairLevel3Upgrade]
@@ -63423,7 +63418,7 @@ Value=Gwahaedhrim
 
 
 [CONTROLBAR:ConstructCerinAmrothSentinelHorde]
-Value=Gwahaedhrim (&R)
+Value=Gwahaedhrim (&T)
 
 
 [CONTROLBAR:LW_Unit_CerinAmrothSentinelHorde]
@@ -63526,7 +63521,7 @@ Value=Tawar-na-Thirrad
 
 
 [CONTROLBAR:ConstructHordeLorienStalker]
-Value=Tawar-na-Thirrad (&T)
+Value=Tawar-na-Thirrad (&S)
 
 
 [CONTROLBAR:LW_Unit_LorienStalkerHorde]
@@ -63542,9 +63537,10 @@ Valueline3=Strong vs. Infantry
 [CONTROLBAR:ToolTipBuildLorienStalkerHorde]
 Value=Sindar Pathstalkers 
 Valueline2= Requires Level 2 Galadhrim Garrison
-Valueline3=Strong vs. Infantry 
-Valueline4= 
-Valueline5= Trained in woodscraft and assassination, these Elves are some of Galadriel's most trusted warriors.
+Valueline3=Strong vs. Infantry
+Valueline4=Can stealth near trees
+Valueline5= 
+Valueline6= Trained in woodscraft and assassination, these Elves are some of Galadriel's most trusted warriors.
 
 
 [CONTROLBAR:LW_ToolTipBuild_LorienStalkerHorde]
@@ -63560,9 +63556,8 @@ Value=Shadowstrike (&W)
 
 [CONTROLBAR:TooltipLorienShadowstrike]
 Value=Requires Level 2 
-Valueline2= Tawar-na-Thirrad briefly become fully stealthed. 
-Valueline3= +125% damage for duration. 
-Valueline4= Left click icon to activate
+Valueline2= Sindar Pathstalkers briefly become fully stealthed and deal +125% damage for 20 seconds
+Valueline3= Left click icon to activate
 
 
 [OBJECT:GaladhrimWarrior]
@@ -63574,7 +63569,7 @@ Value=Edrain-na-Maethyr
 
 
 [CONTROLBAR:ConstructGaladhrimWarriorHorde]
-Value=Edrain-na-Maethyr (&S)
+Value=Edrain-na-Maethyr (&D)
 
 
 [CONTROLBAR:ConstructGaladhrimWarriorHordeRohanInn]
@@ -67196,6 +67191,10 @@ Value=Waters of Nimrodel
 Value=The waters of Nimrodel surround this mallorn tree, allowing it to heal nearby units
 
 
+[TOOLTIP:MarchwardenGarrison]
+Value=Marchwarden Garrison
+
+
 [OBJECT:ElvenIdrial]
 Value=Idrial
 
@@ -67231,12 +67230,19 @@ Value=Cleanse Shadow (&R)
 [CONTROLBAR:TooltipCleanseShadow]
 Value=Requires Level 3 
 Valueline2= Modifier Type: Leadership 
-Valueline3= Nearby Sindar Pathstalkers gain +33% damage and +33% armour
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability 
-Valueline6=
-Valueline7= Left click to moderately heal and temporarily grant allied units immunity to fear and terror 
-Valueline8= Stacks with Leadership and Spells
+Valueline3= Nearby Sindar Pathstalkers and Handmaidens gain +33% damage and +33% armour
+Valueline4=Passive ability 
+Valueline5=
+Valueline6= Left click to moderately heal and grant allied units immunity to fear and terror for 30 seconds
+
+
+[CONTROLBAR:TooltipCleanseShadowGifts]
+Value=Requires Level 3 
+Valueline2= Modifier Type: Leadership 
+Valueline3= Nearby Sindar Pathstalkers and Handmaidens gain +33% damage and +33% armour
+Valueline4=Passive ability 
+Valueline5=
+Valueline6= Left click to moderately heal, replenish and grant allied units immunity to fear and terror for 30 seconds in a wider radius
 
 
 [CONTROLBAR:GiftofGaladriel]
@@ -67269,8 +67275,9 @@ Valueline4= Passive ability
 Value=Veteran Marchwardens (&S)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressFlamingMunitions]
-Value=Places Tawar-na-Pengryn upgraded with Mallorn Bows onto Fortress 
-Valueline2= Unlocks ‘Border Patrol’, which allows the player to summon a trio of individual Marchwardens anywhere on the map to reveal the area, detect stealth, and fire on nearby enemies
+Value=Places Silvan Scouts upgraded with Mallorn Bows onto Fortress
+Valueline2= Adds magic damage to the Fortress
+Valueline3= Unlocks ‘Border Patrol’, which allows the player to summon a trio of individual Marchwardens anywhere on the map to reveal the area, detect stealth, and fire on nearby enemies
 
 
 [CONTROLBAR:ConstructEregionForge]
@@ -69625,6 +69632,14 @@ Value=Jungle Troll Lair
 
 [OBJECT:JungleTrollLairDescription]
 Value=Allows training of Jungle Trolls
+
+
+[OBJECT:KaraddLair]
+Value=Kâradd Lair
+
+
+[OBJECT:KaraddLairDescription]
+Value=Allows training of Kâradd Patriarchs
 
 
 [CONTROLBAR:ConstructAOTRSnowTroll]
@@ -81011,6 +81026,7 @@ Value=Revive the fallen Hero, Caran-Lambar
 [CONTROLBAR:HaradCaranLambarHotkey]
 Value=Caran-Lambar (&D)
 
+Valueline3= The chief advisor to the Golden King in all matters, but particularly those related to the subjugation of the Haradrim and their enslavement to Sauron's will.
 
 [CONTROLBAR:HaradSyarRhulRevive]
 Value=Revive the fallen Hero, Syâr-Rhul
@@ -81280,6 +81296,10 @@ Value=Lord of Abrakhân (&T)
 Value=Requires Level 5 
 Valueline2= Summons two battalions of Abrakhân Warriors
 Valueline3=Left click to activate
+
+[CONTROLBAR:DarkSubjugation]
+Value=Dark Subjugation (&C)
+
 
 [CONTROLBAR:GoldenKingIntimidation]
 Value=Intimidation (&C)
@@ -81889,15 +81909,15 @@ Valueline2= Level 3: +25% faster build speed
 
 
 [OBJECT:HaradwaithNafaratiMarauder]
-Value=Nafârati Marauder
+Value=Nâfarati Marauder
 
 
 [OBJECT:HaradwaithNafaratiMarauderHorde]
-Value=Nafârati Marauders
+Value=Nâfarati Marauders
 
 
 [CONTROLBAR:ConstructHaradwaithNafaratiMarauderHorde]
-Value=Nafârati Marauders (&R)
+Value=Nâfarati Marauders (&S)
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithNafaratiMarauderHorde]
@@ -81908,12 +81928,101 @@ Valueline4= In his conquest of Far Harad, the Golden King has corrupted the Nafâ
 
 
 [CONTROLBAR:ConstructHaradwaithGiantScorpion]
+Value=Great Scorpion (&E)
+
+
+[CONTROLBAR:ConstructHaradwaithGiantScorpionWotR]
 Value=Great Scorpion (&W)
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithGiantScorpion]
 Value=Strong vs. ??? 
-Valueline2= NEEDS LORE STRING.
+Valueline2= 
+Valueline3= The Southern Reaches of Middle-earth are a desolate place, full of mystery and danger. Great Scorpions slither through its treacherous sands, preying on all those foolish enough to find themselves there.
+
+
+[CONTROLBAR:LW_Unit_HaradwaithGiantScorpion]
+Value=Great Scorpion
+
+
+[CONTROLBAR:LW_Unit_HaradwaithGiantScorpionPlural]
+Value=Great Scorpions
+
+
+[BANNERUI:HaradGiantScorpion]
+Value=Great Scorpion
+
+
+[BANNERUI:HaradGiantScorpions]
+Value=Great Scorpions
+
+
+[CONTROLBAR:ConstructHaradwaithKaradd]
+Value=Kâradd Patriarch (&R)
+
+
+[CONTROLBAR:ConstructKaraddFromLair]
+Value=Kâradd Patriarch (&W)
+
+
+[CONTROLBAR:ToolTipBuildKaraddFromLair]
+Value=Strong vs. Infantry
+Valueline2= 
+Valueline3= The Kâradd live in small troops, hidden away deep within the vast unknown of Haradwaith's southern jungles. The Golden King has stolen away scores of their offspring, hoping to twist them into malicious beasts of war to smash through the ranks of Zigûr's enemies.
+
+
+[CONTROLBAR:ToolTipBuildHaradwaithKaradd]
+Value=Requires Level 2 Pavilion of the Golden King
+Valueline2=Strong vs. Infantry
+Valueline3= 
+Valueline4= The Kâradd live in small troops, hidden away deep within the vast unknown of Haradwaith's southern jungles. The Golden King has stolen away scores of their offspring, hoping to twist them into malicious beasts of war to smash through the ranks of Zigûr's enemies.
+
+
+[CONTROLBAR:LW_Unit_HaradwaithKaradd]
+Value=Kâradd Patriarch
+
+
+[CONTROLBAR:LW_Unit_HaradwaithKaraddPlural]
+Value=Kâradd Patriarchs
+
+
+[BANNERUI:HaradKaradd]
+Value=Kâradd Patriarch
+
+
+[BANNERUI:HaradKaraddPlural]
+Value=Kâradd Patriarchs
+
+
+[CONTROLBAR:LW_ToolTipBuild_HaradwaithKaradd]
+Value=Unit Type: Basic Cavalry
+Valueline2=Strong vs. Swordsmen and Cavalry
+Valueline3=
+
+
+[OBJECT:HaradwaithKaradd]
+Value=Kâradd Patriarch
+
+
+[CONTROLBAR:KaraddHowl]
+Value=Blood-crazed Howl (&W)
+
+
+[CONTROLBAR:TooltipKaraddHowl]
+Value=Requires Level 2
+Valueline2=The Kâradd Patriarch howls, causing enemy units to flee in terror
+Valueline3=Left click to activate
+
+
+[CONTROLBAR:KaraddLeap]
+Value=Thundering Leap (&R)
+
+
+[CONTROLBAR:ToolTipKaraddLeap]
+Value=Requires Level 3
+Valueline2=The Kâradd jumps to a location causing area-effect damage
+Valueline3= Left click icon then left click on target area
+
 [CONTROLBAR:HarbingersofDeath]
 Value=Harbingers of Death
 
@@ -82072,6 +82181,8 @@ Valueline2= NEEDS LORE STRING.
 Value=Summon Harondor Spearmen (&T)
 
 
+[CONTROLBAR:ToolTipBuildHaradwaithHarondorSpearmenHordeCamp]
+Value=Requires the Subjugation: Near Harad fortress upgrade
 Valueline2= Summons a battalion of Harondor Spearmen
 
 
@@ -82079,6 +82190,8 @@ Valueline2= Summons a battalion of Harondor Spearmen
 Value=Summon Harondor Archers (&S)
 
 
+[CONTROLBAR:ToolTipBuildHaradwaithHarondorArcherHordeCamp]
+Value=Requires the Subjugation: Near Harad fortress upgrade
 Valueline2= Summons a battalion of Harondor Archers
 
 
@@ -82086,6 +82199,8 @@ Valueline2= Summons a battalion of Harondor Archers
 Value=Summon Harondor Raiders (&D)
 
 
+[CONTROLBAR:ToolTipBuildHaradwaithHarondorRaiderHordeCamp]
+Value=Requires the Subjugation: Near Harad fortress upgrade
 Valueline2= Summons a battalion of Harondor Raiders
 
 
@@ -82140,9 +82255,8 @@ Value=Engorged Stinger
 
 
 [CONTROLBAR:ToolTipGiantScorpionPoisonedStinger]
-Value=The Great Scorpion will periodically attack with it's stinger, dealing heavy initial damage, then poisoning enemies for a short while
-Valueline2= Deals increased damage vs heroes 
-Valueline3= Passive ability
+Value=The Great Scorpion will periodically attack heroes with its stinger, dealing heavy initial damage, then poisoning its target for 10 seconds
+Valueline2= Passive ability
 
 
 [CONTROLBAR:VenomSpray]
@@ -82151,8 +82265,8 @@ Value=Venom Spray (&T)
 
 [CONTROLBAR:ToolTipVenomSpray]
 Value=Requires Level 3 
-Valueline2= Target enemies are sprayed by the Great Scorpion's venom, causing them to lose -50% movement speed and take strong damage over time
-Valueline3=Left click icon then left click on target area
+Valueline2= Target enemy structure is sprayed by the Great Scorpion's corrosive venom, causing it to take strong damage over time and lose -20% armour for 30 seconds
+Valueline3=Left click icon then left click on target structure
 
 
 [CONTROLBAR:HardenedCarapace]
@@ -82202,6 +82316,7 @@ Value=Serpent's Sting (&W)
 
 
 Valueline2= Nearby Harondor Raiders, Black Númenórean Vanguard, and Sûladan all gain +100% armour against specialist damage for 20 seconds
+Valueline2= For 15 seconds, Nâfarati Marauders gain +50% armour and +50% damage, but lose -33% speed
 
 
 [CONTROLBAR:ToolTipRitualofSacrifice]
@@ -82241,7 +82356,7 @@ Valueline3=Reduces cost of builders by 20%
 
 
 [CONTROLBAR:PurchaseUpgradeHaradFortressHarondor]
-Value=Subjugation: Near Harad (&E)
+Value=Subjugation: Near Harad (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeHaradFortressHarondor]
@@ -82250,8 +82365,7 @@ Valueline2= Allows Tribal Camps to summon Harondor units
 
 
 [CONTROLBAR:PurchaseUpgradeHaradFortressNafarat]
-Value=Subjugation: Nâfarat (&R)
-
+Value=Subjugation: Nâfarat (&E)
 
 
 
@@ -82260,6 +82374,10 @@ Value=Subjugation: Nâfarat (&R)
 Value=Subjugation: Mahûd (&T)
 
 
+
+
+[CONTROLBAR:ToolTipSpecialAbilitySummonOliphaunt]
+Value=Requires the Subjugation: Mahûd upgrade
 [CONTROLBAR:ToolTipPurchaseUpgradeHaradFortressMahud]
 Value=Prerequisite to the Hegemony upgrade
 Valueline2=Permanently decreases cost and build time of Mûmakil units by 20%
@@ -82491,11 +82609,15 @@ Value=Unlocks Tenebrous Boughs, which hides the Talan from sight
 
 
 [CONTROLBAR:UpgradeTalanMarchwardenGarrison]
-Value=Research Marchwarden Garrison (&C)
+Value=Research Marchwarden Garrison (&R)
 
 
 [CONTROLBAR:ToolTipUpgradeTalanMarchwardenGarrison]
-Value=Marchwardens will patrol around the Talan
+Value=Unlocks Marchwarden Garrison, allows Talan to temporarily summon Marchwarden patrols for 60 seconds
+
+
+[CONTROLBAR:TalanSummonMarchwardenGarrison]
+Value=Marchwarden Garrison (&R)
 
 
 [CONTROLBAR:ToolTipSummonTalanMarchwardenGarrison]
@@ -82561,6 +82683,88 @@ Value=Armour of Doriath (&E)
 
 [CONTROLBAR:ToolTipArmorofDoriath]
 Value=Requires Level 2 Hidden Sanctum
+[CONTROLBAR:ToolTipSpecialPowerGaladrielGrace]
+Value=Allows Handmaidens to rank up 
+Valueline2= Becomes more expensive the higher Handmaidens ranks up 
+Valueline3= Left click to purchase upgrade 
+Valueline4=
+Valueline5= Handmaidens can target units to decrease their speed by 5% up to 25%
+Valueline6=and buildings to decrease their armour by 5% up to 25%
+Valueline7=
+Valueline8= At rank 3, Handmaidens gain 50% ranged damage avoidance and reflect damage 
+Valueline9= Passive ability
+
+
+[CONTROLBAR:SpecialPowerGaladrielGraceFinal]
+Value=Galadriel's Grace
+
+
+[CONTROLBAR:ToolTipSpecialPowerGaladrielGraceFinal]
+Value=Handmaidens can target units to decrease their speed by 5% up to 25%
+Valueline2=and buildings to decrease their armour by 5% up to 25%
+Valueline3=
+Valueline4= At rank 3, Handmaidens gain 50% ranged damage avoidance and reflect damage 
+Valueline5= Passive ability
+[CONTROLBAR:ToolTipBlessedEarth]
+Value=The Handmaidens bless a small area of terrain, creating a temporary place of healing to nearby friendly units 
+Valueline2= Left click then left click target area
+[CONTROLBAR:ToolTipHandmaidenFaithfulService]
+Value=Modifier Type: Spell 
+Valueline2= Handmaiden grants +15% armour to Galadriel when she is nearby 
+Valueline3=Passive ability
+
+
+[CONTROLBAR:HandmaidenGoldenWoodGlaive]
+Value=Golden Wood Glaive (&R)
+
+
+[CONTROLBAR:ToolTipHandmaidenGoldenWoodGlaive]
+Value=Upgrades the Handmaiden with a Golden Wood Glaive 
+Valueline2= When equipped, adds minor splash damage to the Handmaiden's attacks
+
+
+
+
+[CONTROLBAR:ToolTipGleamOfNenya]
+Value=Requires Level 3 
+Valueline2= Wielding a fragment of Nenya’s power allows the Handmaiden to cleanse the land before her, knocking back and dealing minor damage to enemy units in a straight line
+Valueline3= Left click icon then left click on target
+
+
+[CONTROLBAR:ConstructHandmaidenHorde]
+Value=Alcarwen (&R)
+
+
+[CONTROLBAR:ToolTipBuildHandmaidenHorde]
+Value=Radiant-maiden
+
+
+[OBJECT:HordeHandmaiden]
+Value=Alcarwen
+
+
+[OBJECT:ElvenHandmaiden]
+Value=Alcarwen
+
+
+[CONTROLBAR:LW_Unit_ElvenHandmaiden]
+Value=Alcarwen
+
+
+[CONTROLBAR:LW_Unit_ElvenHandmaidenPlural]
+Value=Alcarwen
+
+
+[BANNERUI:ElvenHandmaiden]
+Value=Alcarwen
+
+
+[BANNERUI:ElvenHandmaidens]
+Value=Alcarwen
+
+
+[CONTROLBAR:LW_ToolTip_ElvenHandmaiden]
+Value=Radiant-maiden
 [CONTROLBAR:FishingNets]
 Value=Commence Fishing (&W)
 
@@ -82795,6 +82999,10 @@ Value=Permanently summons a horde of Harbingers of Shadow
 Valueline2=Limited to 3
 Valueline3=Left click on icon then left click on target area
 
+[CONTROLBAR:TooltipWotRAnswerTheCallHarad]
+Value=Permanently summons a horde of Nâfarati Marauders
+Valueline2=Limited to 3
+Valueline3=Left click on icon then left click on target area
 
 [Map:MAPSPevilrivendell]
 Value=Campaign: Evil VIII - Rivendell
