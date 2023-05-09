@@ -63757,7 +63757,7 @@ Valueline4=
 
 
 [OBJECT:LothlorienFlet]
-Value=Lothlorien Flet
+Value=Talan
 
 
 [CONTROLBAR:ConstructLothlorienFlet]
@@ -63789,10 +63789,9 @@ Value=Building Inspections
 
 [CONTROLBAR:TooltipStoneWorkerLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= Nearby Structures gain +25% armour 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4=Passive ability 
-Valueline5=Must maintain Stoneworker for upgrade
+Valueline2= Nearby Structures gain +30% armour 
+Valueline3=Passive ability 
+Valueline4=Must maintain Stoneworker for upgrade
 
 
 [GUI:STONEWORKER_DISCOUNT]
@@ -63928,6 +63927,21 @@ Valueline4=
 Valueline5= The lands of Lossarnach were renowned for their natural beauty, and its soldiers for their ferocity and loyalty to their Steward.
 
 
+[CONTROLBAR:ToolTipBuildLossarnachAxeMenHordeGC]
+Value=Requires Level 2 Barracks
+Valueline2=Strong vs. Pikemen and Buildings 
+Valueline3=
+Valueline4= The lands of Lossarnach were renowned for their natural beauty, and its soldiers for their ferocity and loyalty to their Steward.
+
+
+[CONTROLBAR:ToolTipBuildLossarnachAxeMenHorde_SwornAllegianceGC]
+Value=Requires Level 2 Barracks
+Valueline2=Strong vs. Pikemen and Buildings 
+Valueline3= Come equipped with Armaments of the White City 
+Valueline4=
+Valueline5= The lands of Lossarnach were renowned for their natural beauty, and its soldiers for their ferocity and loyalty to their Steward.
+
+
 [CONTROLBAR:ConstructLossarnachAxeMenHorde]
 Value=Lossarnach Axemen (&R)
 
@@ -63990,11 +64004,15 @@ Value=Dol Amroth Archers
 
 
 [CONTROLBAR:ConstructGondorDolArcherHorde]
-Value=Dol Amroth &Archers
+Value=Dol Amroth Archers (&W)
+
+
+[CONTROLBAR:ConstructGondorDolArcherHorde_GC]
+Value=Dol Amroth Archers (&R)
 
 
 [CONTROLBAR:LW_Unit_GondorDolArcherHorde]
-Value=Anórien Archers Battalion
+Value=Dol Amroth Archers Battalion
 
 
 [CONTROLBAR:ToolTipConstructGondorDolArcherHorde]
@@ -64027,14 +64045,14 @@ Value=Dol Amroth Man at Arms Battalion
 [CONTROLBAR:ToolTipConstructGondorDolMAArmsHorde]
 Value=Strong vs. Pikemen 
 Valueline2= 
-Valueline3= Choosing to fight on foot rather than from horseback, these heavily armored soldiers are no less elite than their equestrian counterparts.
+Valueline3= Choosing to fight on foot rather than from horseback, these heavily armoured soldiers are no less elite than their equestrian counterparts.
 
 
 [CONTROLBAR:ToolTipConstructGondorDolMAArmsHorde_WOTR]
 Value=Requires Level 2 Barracks and Dol Amroth Citadel 
 Valueline2= Strong vs. Pikemen 
 Valueline3= 
-Valueline4= Choosing to fight on foot rather than from horseback, these heavily armored soldiers are no less elite than their equestrian counterparts.
+Valueline4= Choosing to fight on foot rather than from horseback, these heavily armoured soldiers are no less elite than their equestrian counterparts.
 
 
 [CONTROLBAR:LW_ToolTipBuild_GondorDolMAArmsHorde]
@@ -64075,6 +64093,21 @@ Valueline2=
 Valueline3= As Pinnath Gelin was a loyal province of Gondor, Hirluin marched some three-hundred well-armed soldiers to the aid of Minas Tirith during the Battle of the Pelennor Fields.
 
 
+[CONTROLBAR:ToolTipBuildGondorPinnathGelinHorde_SwornAllegiance]
+Value=Strong vs. Swordsmen and Archers
+Valueline2=Come equipped with Armaments of the White City 
+Valueline3= 
+Valueline4= As Pinnath Gelin was a loyal province of Gondor, Hirluin marched some three-hundred well-armed soldiers to the aid of Minas Tirith during the Battle of the Pelennor Fields.
+
+
+[CONTROLBAR:ToolTipBuildGondorPinnathGelinHorde_GC]
+Value=Requires Level 3 Barracks
+Valueline2=Strong vs. Swordsmen and Archers 
+Valueline3= 
+Valueline4= As Pinnath Gelin was a loyal province of Gondor, Hirluin marched some three-hundred well-armed soldiers to the aid of Minas Tirith during the Battle of the Pelennor Fields.
+
+
+
 [CONTROLBAR:LW_ToolTipBuild_GondorPinnathGelinHorde]
 Value=Unit Type: Basic Cavalry
 Valueline2=Strong vs. Archers
@@ -64097,6 +64130,28 @@ Value=Fountain Guards (&S)
 Value=Fountain Guard Battalion
 
 
+[CONTROLBAR:LW_Unit_GondorFountainSwordHorde]
+Value=Swords of the Fountain Battalion
+
+
+[CONTROLBAR:LW_Unit_GondorFountainSwordHordePlural]
+Value=Swords of the Fountain Battalions
+
+
+[BANNERUI:GondorFountainSword]
+Value=Sword of the Fountain
+
+
+[BANNERUI:GondorFountainSwords]
+Value=Swords of the Fountain
+
+
+[CONTROLBAR:LW_ToolTip_GondorFountainSwordHorde]
+Value=
+Valueline2=Unit Type: Elite Infantry
+Valueline3=Strong vs. Pikemen
+
+
 [CONTROLBAR:LW_ToolTip_GondorFountainGuardHorde]
 Value=
 Valueline2=Unit Type: Hero Unit
@@ -64116,7 +64171,7 @@ Valueline2= Hero Unit. Limited to 2.
 Valueline3=Strong vs. Cavalry 
 Valueline4= Able to switch formation for improved defensive capabilities 
 Valueline5= 
-Valueline6= These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Númenor.
+Valueline6= These men are the silent Guards of the White Tree. Their arms and armour, inlaid with Mithril, invoke the memory of lost Númenor.
 
 
 [CONTROLBAR:ToolTipBuildGondorFountainGuardHorde_WOTR]
@@ -64124,7 +64179,7 @@ Value=Hero Unit.
 Valueline2=Strong vs. Cavalry 
 Valueline3= Able to switch formation for improved defensive capabilities 
 Valueline4= 
-Valueline5= These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Númenor. 
+Valueline5= These men are the silent Guards of the White Tree. Their arms and armour, inlaid with Mithril, invoke the memory of lost Númenor. 
 Valueline6=
 Valueline7= In War of the Ring, you can only recruit this unit if it was on the battlefield from the start and was killed
 
@@ -64134,7 +64189,7 @@ Value=Hero Unit Limited to 1
 Valueline2=Strong vs. Cavalry 
 Valueline3= Able to switch formation for improved defensive capabilities 
 Valueline4= 
-Valueline5= These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Númenor.
+Valueline5= These men are the silent Guards of the White Tree. Their arms and armour, inlaid with Mithril, invoke the memory of lost Númenor.
 
 
 [CONTROLBAR:LW_ToolTipBuild_GondorFountainGuardHorde]
@@ -64169,9 +64224,8 @@ Value=Fair Lord
 
 [CONTROLBAR:ToolTipImrahilLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= Fiefdom and Dol Amroth units near Imrahil gain +33% damage and +33% armour. 
-Valueline3= Stacks with buffs and spells. 
-Valueline4= Passive ability
+Valueline2= Fiefdom and Dol Amroth units near Imrahil gain +33% damage and +33% armour
+Valueline3= Passive ability
 
 [CONTROLBAR:SpecialPowerImrahilUnscathed]
 Value=Unscathed (&T)
@@ -64179,7 +64233,7 @@ Value=Unscathed (&T)
 
 [CONTROLBAR:ToolTipSpecialPowerImrahilUnscathed]
 Value=Required: Rank 3
-Valueline2= Imrahil becomes immune to ranged damage, gains +100% damage, +10 Speed, and is resistant to knockback for 20 seconds 
+Valueline2= Imrahil becomes immune to ranged damage, gains +100% damage, +10% speed, and is resistant to knockback for 20 seconds 
 Valueline3= Left click to activate
 
 
@@ -64189,8 +64243,8 @@ Value=Inspiration (&C)
 
 [CONTROLBAR:ToolTipImrahilCounsel]
 Value=Required: Rank 5 
-Valueline2= All allied troops near Imrahil earn double experience for 1 minute 
-Valueline3= left click then right click on target
+Valueline2= All allied troops near Imrahil earn double experience for 60 seconds 
+Valueline3= Left click to activate
 
 
 [CONTROLBAR:ImrahilAmroth]
@@ -64200,10 +64254,9 @@ Value=Amroth for Gondor! (&V)
 [CONTROLBAR:ToolTipImrahilAmroth]
 Value=Required: Rank 7 
 Valueline2= Modifier Type: Spell 
-Valueline3= Imrahil and nearby cavalry, including Swan Knights, gain +50% armour, and -50% crush deceleration for 20 seconds 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Imrahil must be mounted to use ability 
-Valueline6= Left click to activate
+Valueline3= Imrahil and nearby cavalry, including Swan Knights, gain +50% armour, and -50% crush deceleration for 20 seconds
+Valueline4=Imrahil must be mounted to use ability 
+Valueline5= Left click to activate
 
 
 
@@ -64214,7 +64267,7 @@ Value=Lord of the Nazgûl
 
 [CONTROLBAR:ToolTipWitchKingLeadership]
 Value=Modifier Type: Leadership 
-Valueline2=Allies near the Witch King gain 
+Valueline2=Allies near the Witch-king gain 
 Valueline3= +33% damage, +33% armour, 
 Valueline4= and earn experience 50% faster
 Valueline5= Passive ability
@@ -64237,30 +64290,49 @@ Value=The Nine are Abroad
 
 
 [CONTROLBAR:ToolTipSpecialAbilityNazgulNineServantsOfSauron]
+Value=As more Nazgûl gather, their strength grows
+Valueline2=Nearby Nazgûl receive +10% damage and armour
+Valueline3=Passive ability
+
+
+[CONTROLBAR:ToolTipSpecialAbilityNazgulNineServantsOfSauronBlackRider]
 Value=As more Nazgûl gather, their strength grows 
-Valueline2= +10% damage and +10% armour per every Nazgûl nearby 
-Valueline3= Passive ability
+Valueline2= +10% damage and +10% armour per every Ringwraith nearby 
+Valueline3= Passive ability 
+Valueline4=
+Valueline5= Requires Level 2 
+Valueline6= Modifier Type: Passive Debuff 
+Valueline7= Nearby enemy units suffer -25% damage and -20% armour
+Valueline8=Passive ability
 
 
 [CONTROLBAR:ToolTipSpecialAbilityRingwraithServantsOfSauron]
-Value=As more Nazgûl gather, their strength grows 
-Valueline2= +10% damage and +10% armour per every Nazgûl nearby 
-Valueline3= Passive ability
+Value=As more Nazgûl gather, their strength grows
+Valueline2=Nearby Nazgûl receive +10% damage and armour
+Valueline3=Passive ability
+
+
+[CONTROLBAR:ToolTipSpecialAbilityRingwraithServantsOfSauronSummoned]
+Value=As more Nazgûl gather, their strength grows
+Valueline2=Nearby Nazgûl receive +10% damage and armour
+Valueline3=Passive ability
+Valueline4=
+Valueline5=Modifier Type: Passive Debuff 
+Valueline6= Nearby enemy units suffer -25% damage and -20% armour
+Valueline7=Passive ability
 
 
 [CONTROLBAR:ToolTipBlackRiderDreadVisage]
 Value=Requires Level 2 
 Valueline2= Modifier Type: Passive Debuff 
-Valueline3= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline4= Does not stack with other Debuffs 
-Valueline5=Passive ability
+Valueline3= Nearby enemy units suffer -25% damage and -20% armour
+Valueline4=Passive ability
 
 
 [CONTROLBAR:ToolTipBlackRiderDreadVisageSummoned]
 Value=Modifier Type: Passive Debuff 
 Valueline2= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline3= Does not stack with other Debuffs 
-Valueline4=Passive ability
+Valueline3=Passive ability
 
 
 [CONTROLBAR:ToolTipBlackRiderDreadVisageKhamul]
@@ -64271,9 +64343,8 @@ Valueline4=
 Valueline5= Requires Level 2 
 Valueline6= Modifier Type: Passive Debuff 
 Valueline7= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline8= At rank 6, also causes damage-over-time to nearby enemies 
-Valueline9= Does not stack with other Debuffs 
-Valueline10=Passive ability
+Valueline8=
+Valueline9= Left click to switch between mounted and on foot
 
 
 [CONTROLBAR:ToolTipWitchKingDreadWrath]
@@ -64287,15 +64358,103 @@ Valueline7=
 Valueline8= Requires Level 2 
 Valueline9= Modifier Type: Passive Nullifier Debuff 
 Valueline10= Nearby enemy units suffer -33% damage and -25% armour 
-Valueline11=Nullifies enemy Leadership 
+Valueline11=Nullifies enemy leadership 
 Valueline12= Takes precedence over other Debuffs 
 Valueline13= Passive ability 
 Valueline14=
 Valueline15= Requires Level 8 
 Valueline16= Target enemies' special ability timers are reset to just used 
-Valueline17= Units near the Witch-king suffer uncontrollable fear 
+Valueline17= Units near the Witch-king suffer uncontrollable fear for 15 seconds
 Valueline18= Left click icon then left click on target area
 
+
+[CONTROLBAR:ChiefoftheNine]
+Value=Chief of the Nine (&W)
+
+
+[CONTROLBAR:NineAreAbroad]
+Value=The Nine Are Abroad (&W)
+
+
+[CONTROLBAR:TooltipChiefoftheNine]
+Value=As more Nazgûl gather, their strength grows 
+Valueline2= +10% damage and +10% armour per every Nazgûl nearby 
+Valueline3= Passive ability
+Valueline4=
+Valueline5= Modifier Type: Passive Debuff 
+Valueline6= Nearby enemy units suffer -33% damage and -25% armour
+Valueline7=Nullifies enemy leaderships
+Valueline8=Passive ability 
+Valueline9=
+Valueline10= Left click to switch between mounted and on foot
+
+
+[CONTROLBAR:TooltipNazgulMount]
+Value=As more Nazgûl gather, their strength grows 
+Valueline2= +10% damage and +10% armour per every Nazgûl nearby 
+Valueline3= Passive ability
+Valueline4=
+Valueline5=Requires Level 2 
+Valueline6= Modifier Type: Passive Debuff 
+Valueline7= Nearby enemy units suffer -25% damage and -20% armour
+Valueline8=Passive ability
+Valueline9=
+Valueline10= Left click to switch between mounted and on foot
+
+
+[CONTROLBAR:TooltipChiefoftheNineFellbeast]
+Value=As more Nazgûl gather, their strength grows 
+Valueline2= +10% damage and +10% armour per every Nazgûl nearby 
+Valueline3= Passive ability
+Valueline4=
+Valueline5= Modifier Type: Passive Debuff 
+Valueline6= Nearby enemy units suffer -33% damage and -25% armour
+Valueline7=Nullifies enemy leaderships
+Valueline8=Passive ability 
+Valueline9=
+Valueline10= Left click then left click on pathable location
+
+
+[CONTROLBAR:ToolTipChillofAngmarWK]
+Value=The Witch-king reflects 10% of all damage dealt to him by nearby enemies
+Valueline2=Passive ability
+Valueline3=
+Valueline4=When activated, the Witch-king is surrounded by a storm of hail and frost for 30 seconds, damaging nearby enemy units, more the closer they are to him
+Valueline5= At Level 5, deals increased damage
+Valueline6= At level 8, nearby enemy units are terrified
+Valueline7=Left click to activate
+
+
+[CONTROLBAR:OpenInTheNameOfMordor]
+Value=Open in the Name of Mordor (&C)
+
+
+[CONTROLBAR:ToolTipOpenInTheNameOfMordor]
+Value=Requires Level 6
+Valueline2=Deals damage to target enemy structure and disables it for 20 seconds
+Valueline3=Enemy units nearby the targeted structure take damage over time and turn into a Wight when killed
+Valueline4=Automatically opens targeted gate
+Valueline5=Left click then left click target enemy structure
+
+
+[CONTROLBAR:BlackBreath]
+Value=Black Breath (&C)
+
+
+[CONTROLBAR:BlackBreathFellbeast]
+Value=Black Breath (&T)
+
+
+[CONTROLBAR:ToolTipBlackBreath]
+Value=Requires Level 10
+Valueline2=Black Breath emanates from the Nazgûl
+Valueline3=Nearby enemy units caught in the breath take damage over time for 15 seconds
+Valueline4=Left click to activate
+
+
+
+[OBJECT:MordorSlave]
+Value=Slave
 
 
 [OBJECT:MoriaGate]
@@ -64326,18 +64485,20 @@ Valueline3=Strong vs. All Normal Troops
 
 [CONTROLBAR:ToolTipBuildWildBodyGuardHorde]
 Value=Requires Level 3 Mountain-orc Lodge
-Valueline2=Hero Unit. Limited to 1 
-Valueline3=Strong vs. All Unit Types 
-Valueline4= 
-Valueline5= Understanding that Azog's recklessness had gotten him killed, Bolg surrounded himself with the largest, cruelest Orcs that could be found to avoid repeating his father's mistake.
+Valueline2=Hero Unit
+Valueline3= Limited to 1 
+Valueline4=Strong vs. All Unit Types 
+Valueline5= 
+Valueline6= Understanding that Azog's recklessness had gotten him killed, Bolg surrounded himself with the largest, cruelest Orcs that could be found to avoid repeating his father's mistake.
 
 
 [CONTROLBAR:ToolTipBuildWildBodyGuardHordeFortress]
 Value=Requires Level 3 Mountain-orc Lodge
-Valueline2=Hero Unit. Limit increased to 2. 
-Valueline3=Strong vs. All Unit Types 
-Valueline4= 
-Valueline5= Understanding that Azog's recklessness had gotten him killed, Bolg surrounded himself with the largest, cruelest Orcs that could be found to avoid repeating his father's mistake.
+Valueline2=Hero Unit
+Valueline3=Limit increased to 2. 
+Valueline4=Strong vs. All Unit Types 
+Valueline5= 
+Valueline6= Understanding that Azog's recklessness had gotten him killed, Bolg surrounded himself with the largest, cruelest Orcs that could be found to avoid repeating his father's mistake.
 
 
 [CONTROLBAR:LW_ToolTipBuild_WildBodyGuardHorde]
@@ -64384,12 +64545,12 @@ Value=Reaping Slash (&C)
 
 [CONTROLBAR:ToolTipMordorMollokReapingSlash]
 Value=Requires Level 8 
-Valueline2= Mollok gains +200% damage and +25% armour and regains health per hit
+Valueline2= Mollok gains +100% damage and +25% armour and regains health per hit for 20 seconds
 Valueline3= Left click icon to activate
 
 
 [CONTROLBAR:MollokLeadership]
-Value=Lord of the Olog-Hai
+Value=Lord of the Olog-hai
 
 
 [CONTROLBAR:ToolTipMollokLeadership]
@@ -64398,8 +64559,7 @@ Valueline2= Modifier Type: Leadership
 Valueline3= Nearby allied Trolls gain
 Valueline4=+33% damage, +33% armour
 Valueline5=and earn experience 50% faster
-Valueline6= Stacks with Buffs and Spells 
-Valueline7=Passive ability
+Valueline6=Passive ability
 
 
 [CONTROLBAR:ToolTipSpecialAbilityGondorChargeAttack]
@@ -64407,9 +64567,8 @@ Value=Requires Level 2
 Valueline2= Order Soldiers to charge the enemy 
 Valueline3= Modifier Type: Buff 
 Valueline4= Soldiers gain +50% damage and +50% armour for 20 seconds 
-Valueline5= Stacks with Leadership and Spells 
-Valueline6= Causes meta impact 
-Valueline7= Left click icon then left click on target
+Valueline5=Causes meta impact 
+Valueline6= Left click icon then left click on target
 
 
 [CONTROLBAR:GondorArmaments]
@@ -64420,20 +64579,17 @@ Value=Armaments of the White City
 Value=Requires Level 3
 Valueline2= Modifier Type: Level
 Valueline3= Units permanently gain 33% armour
-Valueline4= Stacks with Leadership, Buffs, and Spells
 
 
 [CONTROLBAR:ToolTipGondorArmamentsNew]
 Value=Requires Level 4
 Valueline2= Modifier Type: Level
-Valueline3= Units permanently gain 33% armour
-Valueline4= Stacks with Leadership, Buffs, and Spells
+Valueline3= Units permanently gain 20% armour
 
 
 [CONTROLBAR:ToolTipGondorArmaments_SwornAllegiance]
 Value=Modifier Type: Level
-Valueline2= Units permanently gain 33% armour
-Valueline3= Stacks with Leadership, Buffs, and Spells
+Valueline2= Units permanently gain 20% armour
 
 
 [CONTROLBAR:RohanArmaments]
@@ -64447,9 +64603,8 @@ Value=&Valiant Charge
 [CONTROLBAR:ToolTipRangerToggle]
 Value=Requires Level 2 
 Valueline2= Modifier Type: Spell
-Valueline3= Rangers toggle weapons and gain +33% damage and +50% Resistance to Knockback for a short time
-Valueline4= Stacks with Leadership, Buffs, and Spells 
-Valueline5= Left click to activate
+Valueline3= Rangers toggle weapons and gain +33% damage and +50% resistance to knockback for a short time
+Valueline4= Left click to activate
 
 
 [CONTROLBAR:ToolTipRangerLongShotAbility]
@@ -64472,7 +64627,7 @@ Valueline2= Left click icon then left click on target area
 
 
 [CONTROLBAR:RangerLureIthilien]
-Value=&Lure
+Value=Lure (&R)
 
 
 [CONTROLBAR:RangerLureIthilienforHordes]
@@ -64487,11 +64642,10 @@ Valueline2= Left click to activate
 [CONTROLBAR:ToolTipFrodoLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= Nearby allies in a large radius gain
-Valueline3=+50% damage, +50% armour, 
-Valueline4= earn experience twice as fast 
-Valueline5= reduces recharge time for unit and heroes and abilities by 25% 
-Valueline6= Stacks with Leadership, Buffs, and Spells 
-Valueline7= Passive ability
+Valueline3=+50% damage, +50% armour,
+Valueline4=and earn experience twice as fast
+Valueline5=Nearby unit and hero ability cooldown times are reduced by 25% 
+Valueline6=Passive ability
 
 
 [CONTROLBAR:FrodoLeadership]
@@ -64541,8 +64695,9 @@ Value=Tenacious Creature
 
 
 [CONTROLBAR:TooltipSmeagolTenacious]
-Value=When Sméagol reaches low health, he temporarily gains +33% attack and +100% armour 
-Valueline2= Passive ability
+Value=When Sméagol reaches low health, he gains +33% attack and +100% armour for 20 seconds
+Valueline2=Cannot be triggered again for 60 seconds
+Valueline3=Passive ability
 
 
 [CONTROLBAR:SamwiseFrodoLeadership]
@@ -64560,18 +64715,24 @@ Value=That's For My Old Gaffer! (&T)
 
 
 [CONTROLBAR:TooltipSamwiseBladeMaster]
-Value=Modifier Type: Buff 
-Valueline2= Sam temporarily gains
-Valueline3=+100% damage, +50% armour 
-Valueline4= Left click to activate
+Value=Sam passively deals +200% damage against Nazgûl
+Valueline2=Passive ability
+Valueline3=
+Valueline4=Modifier Type: Buff 
+Valueline5= Sam gains
+Valueline6=+100% damage, +50% armour for 30 seconds
+Valueline7= Left click to activate
 
 
 [CONTROLBAR:TooltipSamwiseBladeMaster_Campaign]
 Value=Requires Level 3 
-Valueline2= Modifier Type: Buff 
-Valueline3= Sam temporarily gains
-Valueline4=+100% damage, +100% armour 
-Valueline5= Left click to activate
+Valueline2=Sam passively deals +200% damage against Nazgûl
+Valueline3=Passive ability
+Valueline4=
+Valueline5= Modifier Type: Buff 
+Valueline6= Sam gains
+Valueline7=+100% damage, +100% armour for 30 seconds
+Valueline8= Left click to activate
 
 
 [UPGRADE:GondorBattleTowerGarrison]
@@ -64592,7 +64753,7 @@ Valueline2= Left click to purchase
 
 
 [CONTROLBAR:RumilLeadership]
-Value=Sentinel of Nimrodel
+Value=Sentinel of the Naith
 
 
 [CONTROLBAR:ToolTipRumilLeadership]
@@ -64609,20 +64770,30 @@ Value=Feigned Voices (&C)
 [CONTROLBAR:ToolTipRumilSummon]
 Value=Requires Level 8 
 Valueline2=Summons an illusion of Silvan Scouts at the target location 
-Valueline3= Illusion archers deal no damage with their attacks and instead debuff enemy speed, armour and damage by -25%
+Valueline3= Illusion archers' arrows deal no damage but debuff enemy units' speed and damage by 33% for 3 seconds
 Valueline4= Left click icon then left click on pathable location
 
 
 [CONTROLBAR:OrophinLeadership]
-Value=Warden of the Celebrant (&T)
+Value=Warden of the Naith (&T)
 
 
 [CONTROLBAR:ToolTipOrophinLeadership]
 Value=Requires Level 6 
 Valueline2= Modifier Type: Spell 
-Valueline3= Orophin and nearby units gain resistance to knockback and +50% armour 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Left click to activate
+Valueline3= Orophin and nearby units gain +50% armour for 30 seconds
+Valueline4=Left click to activate
+
+
+[CONTROLBAR:AmrothLeadership]
+Value=Protector of Lórinand (&R)
+
+
+[CONTROLBAR:ToolTipAmrothLeadership]
+Value=Requires Level 5 
+Valueline2= Modifier Type: Spell 
+Valueline3= King Amroth and nearby units gain +50% armour for 30 seconds
+Valueline4=Left click to activate
 
 
 [CONTROLBAR:GwedhanarLeadership]
@@ -64632,23 +64803,26 @@ Value=Gwedhanar
 [CONTROLBAR:ToolTipGwedhanarLeadershipRumil]
 Value=Modifier Type: Leadership 
 Valueline2= Haldir and Orophin gain +10% damage and +5% experience gain
-Valueline3= Passive ability
+Valueline3=Does not stack
+Valueline4=Passive ability
 
 
 [CONTROLBAR:ToolTipGwedhanarLeadershipOrophin]
 Value=Modifier Type: Leadership 
 Valueline2= Haldir and Rumil gain +10% damage and +5% experience gain
-Valueline3= Passive ability
+Valueline3=Does not stack
+Valueline4=Passive ability
 
 
 [CONTROLBAR:ToolTipGwedhanarLeadershipHaldir]
 Value=Modifier Type: Leadership 
 Valueline2= Orophin and Rumil gain +10% damage and +5% experience gain
-Valueline3= Passive ability
+Valueline3=Does not stack
+Valueline4=Passive ability
 
 
 [CONTROLBAR:RumilWoundingArrow]
-Value=Mallorn Shaft (&R)
+Value=Cúthalion (&R)
 
 
 [CONTROLBAR:ToolTipRumilWoundingArrow]
@@ -64656,6 +64830,14 @@ Value=Requires Level 3
 Valueline2= Single ranged attack
 Valueline3=Causes target monster to flee
 Valueline4=Left click icon then left click on target
+
+
+[CONTROLBAR:ToolTipRumilWoundingArrowGifts]
+Value=Requires Level 3 
+Valueline2= Single ranged attack
+Valueline3=Target enemy hero is stunned for 10 seconds
+Valueline4=Causes target monster to flee
+Valueline5=Left click icon then left click on target
 
 
 [CONTROLBAR:OrophinBladeMaster]
@@ -64700,19 +64882,37 @@ Valueline3= Left click icon then left click on target
 
 
 [CONTROLBAR:HaldirLeadership]
-Value=Captain of the Galadhrim
+Value=Captain of the Galadhrim (&C)
 
 
 [CONTROLBAR:ToolTipHaldirLeadership]
 Value=Requires Level 6 
 Valueline2= Modifier Type: Leadership 
-Valueline3= Nearby Lórien Wardens, Lórien Archers, Sentinels of Cerin Amroth, Sindar Pathstalkers and Marchwardens gain +33% damage and +33% armour
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability 
-Valueline6=
-Valueline7= Modifier Type: Level 
-Valueline8= Haldir dons his heavy armour and gains 50% armour increase
-Valueline9= Passive ability
+Valueline3= Nearby allies gain +33% damage and +20% armour
+Valueline4= Passive ability 
+Valueline5=
+Valueline6= Modifier Type: Level 
+Valueline7= Haldir dons his heavy armour and gains 25% armour increase
+Valueline8= Passive ability 
+Valueline9=
+Valueline10= Modifier Type: Spell 
+Valueline11= Nearby units gain +50% damage and +15% speed for 30 seconds 
+Valueline12=Left click to activate
+
+
+[CONTROLBAR:ToolTipHaldirLeadershipGifts]
+Value=Requires Level 6 
+Valueline2= Modifier Type: Leadership 
+Valueline3= Nearby allies gain +33% damage and +20% armour
+Valueline4= Passive ability 
+Valueline5=
+Valueline6= Modifier Type: Level 
+Valueline7= Haldir dons his heavy armour and gains 25% armour increase
+Valueline8= Passive ability 
+Valueline9=
+Valueline10= Modifier Type: Spell 
+Valueline11= Nearby units gain +50% damage, +15% speed and resistance to knockback and trample for 30 seconds 
+Valueline12=Left click to activate
 
 
 [CONTROLBAR:HaldirTeleport]
@@ -64733,8 +64933,11 @@ Value=Last Stand (&V)
 
 [CONTROLBAR:TooltipHaldirLastStand]
 Value=Requires Level 10 
-Valueline2= Haldir regains half of his health and gains +33% damage but loses 50% armour 
-Valueline3= Left click to activate
+Valueline2= Haldir regains half of his health 
+Valueline3= Bow: Haldir gains +100% damage, but loses -50% armour for 20 seconds
+Valueline4= Sword: Haldir gains +100% armour, loses -25% damage for 20 seconds
+Valueline5=Haldir cannot toggle weapon for the duration of the power
+Valueline6=Left click to activate
 
 
 [CONTROLBAR:HaldirArmor]
@@ -64791,8 +64994,7 @@ Value=A Very Great Wizard
 [CONTROLBAR:ToolTipRadagastLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= Nearby units gain +50% attack and +150% experience gain 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline3=Passive ability
 
 
 [CONTROLBAR:RadagastSiphonLeadership]
@@ -64818,8 +65020,7 @@ Value=Watchful Eye (&T)
 Value=Radagast summons a flock of birds that reveal the shroud and detects stealth 
 Valueline2= Modifier Type: Active Debuff 
 Valueline3= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline4= Nullifies enemy Leadership 
-Valueline5= Does not stack with other Debuffs
+Valueline4= Nullifies enemy leadership
 
 
 [OBJECT:RadagastFamiliar]
@@ -64845,8 +65046,12 @@ Value=Foresight (&W)
 
 
 [CONTROLBAR:TooltipGaladrielForesight]
-Value=Reveals shroud in targeted area 
-Valueline2= Left click icon then left click on target area
+Value=Reveals shroud in target area for 60 seconds
+Valueline2= 
+Valueline3= Modifier Type: Active Debuff 
+Valueline4= Targeted enemy units lose all leadership and cannot earn experience for 30 seconds
+Valueline5= 
+Valueline6= Left click on icon then left click on target area
 
 
 [CONTROLBAR:GaladrielLeadership]
@@ -64856,39 +65061,60 @@ Value=The Lady of Lothlórien
 [CONTROLBAR:ToolTipGaladrielLeadership]
 Value=Requires Level 3 
 Valueline2= Modifier Type: Leadership 
-Valueline3= All nearby friendly Heroes gain +150% Experience gain and recharge timers are decreased 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability 
-Valueline6=
-Valueline7= Modifier Type: Passive Debuff 
-Valueline8= Nearby enemy Heroes suffer -25% damage 
-Valueline9= Does not stack with other Debuffs 
-Valueline10=Passive ability
+Valueline3= All nearby friendly Heroes gain +50% experience gain and their recharge timers are decreased by 25%
+Valueline4=Passive ability
+Valueline5=
+Valueline6= Modifier Type: Passive Debuff 
+Valueline7= Nearby enemy Heroes and Heroic units suffer -25% damage
+Valueline8=Passive ability
 
 
 [CONTROLBAR:SpecialPowerGaladrielNenya]
-Value=Bearer of Nenya (&T)
+Value=Bearer of Nenya (&C)
 
 
 [CONTROLBAR:ToolTipSpecialPowerGaladrielNenya]
-Value=Requires Level 5 
-Valueline2= All Structures within the area of effect cannot produce, but are immune to damage 
-Valueline3= Left click icon then left click on target area 
-Valueline4=
-Valueline5= Modifier Type: Leadership 
-Valueline6= All nearby friendly structures gain +150% armour 
-Valueline7= Stacks with Buffs and Spells 
-Valueline8= Passive ability
+Value=Requires Level 6
+Valueline2=Modifier Type: Leadership 
+Valueline3= All nearby friendly structures gain +50% armour
+Valueline4=Passive ability
+Valueline5=
+Valueline6=Target allied or enemy structures within the area of effect cannot produce, but are immune to damage for 30 seconds
+Valueline7=Allied units within the area of effect are fully healed and temporarily gain +150% armour for 30 seconds
+Valueline8=
+Valueline9=Left click icon then left click on target area
+
+
+[CONTROLBAR:ToolTipSpecialPowerGaladrielNenyaGifts]
+Value=Requires Level 6
+Valueline2=Modifier Type: Leadership 
+Valueline3= All nearby friendly structures gain +50% armour
+Valueline4=Passive ability
+Valueline5=
+Valueline6=Target allied or enemy structures within the wider area of effect cannot produce, but are immune to damage for 30 seconds
+Valueline7=Allied units within the wider area of effect are fully healed and temporarily gain +150% armour for 30 seconds
+Valueline8=
+Valueline9=Left click icon then left click on target area
 
 
 [CONTROLBAR:GaladrielFear]
-Value=Light of Valinor (&C)
+Value=Light of Valinor (&T)
 
 
 [CONTROLBAR:TooltipGaladrielFear]
-Value=Requires Level 7 
-Valueline2= For a brief time Galadriel is revealed in white light spreading terror in the hearts of her enemies and becoming invulnerable 
-Valueline3= Left click to activate
+Value=Requires Level 3 
+Valueline2= Galadriel is revealed in white light and reflects a portion of the damage dealt to her for 20 seconds
+Valueline3=Nearby enemy units flee in terror
+Valueline4=
+Valueline5=Left click to activate
+
+
+[CONTROLBAR:TooltipGaladrielFearGifts]
+Value=Requires Level 3 
+Valueline2= Galadriel is revealed in white light and reflects a portion of the damage dealt to her for 20 seconds
+Valueline3=Nearby enemy units flee in terror and suffer damage over time
+Valueline4=
+Valueline5=Left click to activate
 
 
 [CONTROLBAR:GaladrielStormQueen]
@@ -64896,10 +65122,12 @@ Value=The Storm Queen (&V)
 
 
 [CONTROLBAR:TooltipGaladrielStormQueen]
-Value=Requires Level 10 
+Value=Requires Level 9 
 Valueline2= Galadriel takes on the form of the Storm Queen and temporarily gains
-Valueline3=+100% Base Damage, +100% armour, +300% damage to Structures, and her attacks become ranged attacks 
-Valueline4= Left click to activate
+Valueline3= +50% armour, +300% damage to Structures, and her attacks become ranged, area of effect attacks
+Valueline4=Effect lasts 30 seconds
+Valueline5=
+Valueline6=Left click to activate
 
 
 [OBJECT:ElvenLorienCeleborn]
@@ -75009,8 +75237,7 @@ Value=Lord of Lossarnach
 Value=Modifier Type: Leadership 
 Valueline2= Fiefdom troops near Forlong earn experience 33% faster 
 Valueline3= and become immune to Fear 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability
+Valueline4=Passive ability
 
 
 [CONTROLBAR:ForlongVitality]
@@ -82662,6 +82889,34 @@ Value=Marchwarden Garrison (&R)
 [CONTROLBAR:ToolTipSummonTalanMarchwardenGarrison]
 Value=Summons Marchwardens to patrol the Talan for 60 seconds
 Valueline2=Left click to activate
+
+
+
+
+[CONTROLBAR:ToolTipUpgradeTalanNiphredilBloom]
+Value=The Talan grants additional +10% production to nearby Mallorn Trees
+
+
+
+
+[CONTROLBAR:ToolTipTalanFakeNiphredil]
+Value=The Talan grants additional +10% production to nearby Mallorn Trees
+
+
+
+
+[CONTROLBAR:ToolTipTalanPassiveEco]
+Value=The Talan passively increases production of nearby mallorn trees by +10% 
+Valueline2= Passive Ability
+
+
+
+
+[CONTROLBAR:ToolTipUpgradeTalanStatue]
+Value=Allies near the Talan gain 
+Valueline2= +25% damage, +25% armour, 
+Valueline3=earn experience +33% faster,
+Valueline4=and become immune to fear and terror
 
 
 
