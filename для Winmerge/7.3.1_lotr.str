@@ -82581,6 +82581,12 @@ Valueline3=Left click to activate
 Value=Serpent's Sting (&W)
 
 
+[CONTROLBAR:ToolTipSerpentsSting]
+Value=Requires Level 3 
+Valueline2= Poisons targeted enemies causing damage over time for 15 seconds 
+Valueline3= Left click to activate
+
+
 Valueline2= Nearby Harondor Raiders, Black Númenórean Vanguard, and Sûladan all gain +100% armour against specialist damage for 20 seconds
 Valueline2= For 15 seconds, Nâfarati Marauders gain +50% armour and +50% damage, but lose -33% speed
 
