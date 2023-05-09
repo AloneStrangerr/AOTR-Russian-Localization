@@ -63618,44 +63618,45 @@ Valueline4=
 
 
 [OBJECT:AxeElf]
-Value=Hatholdir
+Value=Tawarwaith
 
 
 [OBJECT:AxeElfHorde]
-Value=Hatholdhrim
+Value=Tawarwaith
 
 
 [OBJECT:Nimrodel]
-Value=Nimrodel-na-Lethril
+Value=Naith-na-Lethril
 
 
 [OBJECT:HordeNimrodel]
-Value=Nimrodel-na-Lethril
+Value=Naith-na-Lethril
 
 
 [CONTROLBAR:ConstructNimrodelHorde]
-Value=Nimrodel-na-Lethril (&W)
+Value=Naith-na-Lethril (&W)
 
 
 [CONTROLBAR:LW_Unit_NimrodelHorde]
-Value=Nimrodel-na-Lethril Battalion
+Value=Naith-na-Lethril Battalion
 
 
 [CONTROLBAR:LW_ToolTip_NimrodelHorde]
-Value=Watchers of Nimrodel
+Value=Riders of the Naith
 Valueline2=Unit Type: Basic Cavalry
 Valueline3=Strong vs. Infantry
 
 
 [CONTROLBAR:ToolTipBuildNimrodelHorde]
-Value=Watchers of Nimrodel 
-Valueline2= Strong vs. Infantry and Archers 
-Valueline3= 
-Valueline4= With the strong increase of orcish incursions on their eastern border, the Galadhrim have begun employing mounted archers to cut off and scatter the orcs before they can make it to the treeline.
+Value=Riders of the Naith 
+Valueline2= Strong vs. Infantry and Archers
+Valueline3= Can stealth near trees 
+Valueline4= 
+Valueline5= With the strong increase of orcish incursions on their eastern border, the Galadhrim have begun employing mounted archers to cut off and scatter the orcs before they can make it to the treeline.
 
 
 [CONTROLBAR:LW_ToolTipBuild_NimrodelHorde]
-Value=Watchers of Nimrodel 
+Value=Riders of the Naith 
 Valueline2= Unit Type: Basic Cavalry
 Valueline3=Strong vs. Infantry
 Valueline4=
@@ -63680,7 +63681,7 @@ Value=Revive the fallen warrior, Rumil
 
 
 [CONTROLBAR:ElvenRumilHotkey]
-Value=Rumil (&W)
+Value=Rumil (&E)
 
 
 [OBJECT:ElvenOrophin]
@@ -63702,7 +63703,7 @@ Value=Revive the fallen warrior, Orophin
 
 
 [CONTROLBAR:ElvenOrophinHotkey]
-Value=Orophin (&E)
+Value=Orophin (&W)
 
 
 [OBJECT:MirkwoodWarrior]
@@ -63726,11 +63727,11 @@ Value=Megilherdir (&W)
 
 
 [CONTROLBAR:LW_Unit_MirkwoodWarriorHorde]
-Value=Megilherdor Battalion
+Value=Megilherdir Battalion
 
 
 [CONTROLBAR:LW_Unit_MirkwoodWarriorHordePlural]
-Value=Megilherdor Battalions
+Value=Megilherdir Battalions
 
 
 [CONTROLBAR:LW_ToolTip_MirkwoodWarriorHorde]
@@ -64597,12 +64598,8 @@ Value=Sentinel of Nimrodel
 [CONTROLBAR:ToolTipRumilLeadership]
 Value=Requires Level 6 
 Valueline2= Modifier Type: Leadership 
-Valueline3= Nearby Lórien Archers, Lórien Wardens and Marchwardens gain +50% vision range and archers gain +15% attack range 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Modifier Type: Level 
-Valueline6=
-Valueline7= Rúmil gains +50% armour 
-Valueline8= Passive ability
+Valueline3= Nearby Silvan Scouts, Silvan Levy, Silvan Sentries and Marchwardens gain +50% vision range and archers gain +15% attack range
+Valueline4= Passive ability
 
 
 [CONTROLBAR:RumilSummon]
@@ -64611,7 +64608,7 @@ Value=Feigned Voices (&C)
 
 [CONTROLBAR:ToolTipRumilSummon]
 Value=Requires Level 8 
-Valueline2=Summons an illusion of Lórien Archers at the target location 
+Valueline2=Summons an illusion of Silvan Scouts at the target location 
 Valueline3= Illusion archers deal no damage with their attacks and instead debuff enemy speed, armour and damage by -25%
 Valueline4= Left click icon then left click on pathable location
 
@@ -64662,15 +64659,34 @@ Valueline4=Left click icon then left click on target
 
 
 [CONTROLBAR:OrophinBladeMaster]
-Value=Silvan Rage (&R)
+Value=Megilherdir (&R)
 
 
 [CONTROLBAR:TooltipOrophinBladeMaster]
 Value=Requires Level 3 
 Valueline2= Modifier Type: Buff 
-Valueline3= Orophin temporarily gains
-Valueline4=+50% damage, +50% armour 
+Valueline3= Orophin gains
+Valueline4=+50% damage, +50% armour for 30 seconds
 Valueline5= Left click to activate
+
+
+[CONTROLBAR:TooltipOrophinBladeMasterGifts]
+Value=Requires Level 3 
+Valueline2= Modifier Type: Buff 
+Valueline3= Orophin gains +50% damage, +50% armour for 30 seconds
+Valueline4=Orophin deals splash damage and knockback for 30 seconds
+Valueline5=Left click to activate
+
+
+[CONTROLBAR:AmrothBladeMaster]
+Value=Megilherdir (&W)
+
+
+[CONTROLBAR:TooltipAmrothBladeMaster]
+Value=Modifier Type: Buff 
+Valueline2= King Amroth gains
+Valueline3=+50% damage, +50% armour and deals splash damage for 30 seconds
+Valueline4= Left click to activate
 
 
 [CONTROLBAR:OrophinBorderGuardsJudgement]
@@ -66881,6 +66897,7 @@ Value=Amroth's Knights
 [CONTROLBAR:ToolTipAmrothKnights]
 Value=Enables the recruitment of Amroth-na-Erphin from the Pasture
 Valueline2= Passive power
+Valueline7= Orophin: Megilherdir deals splash damage and knockback
 Valueline8= Treebeard: Roar causes nearby enemies to flee in terror
 
 
@@ -67026,6 +67043,14 @@ Value=Knights of Amroth Amdírion
 Valueline2= Unit Type: Elite Cavalry
 Valueline3=Strong vs. Archers
 Valueline4=
+
+
+
+
+[CONTROLBAR:ToolTipAmrothSeasonedRiders]
+Value=Modifier Type: Leadership
+Valueline2=Nearby Riders of the Naith gain +33% armour
+Valueline3= Passive ability
 
 
 
@@ -67191,6 +67216,12 @@ Value=Waters of Nimrodel
 Value=The waters of Nimrodel surround this mallorn tree, allowing it to heal nearby units
 
 
+[TOOLTIP:SilvanLevy]
+Value=Silvan Levy
+
+
+
+
 [TOOLTIP:MarchwardenGarrison]
 Value=Marchwarden Garrison
 
@@ -67330,7 +67361,7 @@ Value=Things That Are
 Value=Things That Are (&W)
 
 [CONTROLBAR:ToolTipBuildThingsthatAre]
-Value=Increases production speed of Tawar-na-Pengryn, Tawar-na-Eithyr, Tawar-na-Thirrad, Gwahaedhrim, and Edrain-na-Maethyr for a short time
+Value=Increases production speed of Silvan Levy, Silvan Sentries, Silvan Scouts, Sindar Pathstalkers, Sentinels of Cerin Amroth, and Marchwardens by 100% for 45 seconds
 
 [CONTROLBAR:CallofBelegaer]
 Value=Call of Belegaer (&S)
@@ -72830,15 +72861,23 @@ Value=Edrain-na-Maethyr
 
 
 [CONTROLBAR:LW_Unit_NimrodelHordePlural]
-Value=Nimrodel-na-Lethril Battalions
+Value=Naith-na-Lethril Battalions
 
 
 [BANNERUI:NimrodelScout]
-Value=Nimrodel-na-Lethril
+Value=Naith-na-Lethril
 
 
 [BANNERUI:NimrodelScouts]
-Value=Nimrodel-na-Lethril
+Value=Naith-na-Lethril
+
+
+[UPGRADE:NaithBows]
+Value=Bows Equipped
+
+
+[TOOLTIP:NaithBows]
+Value=Bows Equipped
 
 
 [CONTROLBAR:LW_Unit_ElvenAmrothKnightHordePlural]
@@ -82638,6 +82677,35 @@ Valueline2= Left click to activate
 Value=Causes enemy units to cower in fear for 5 seconds
 
 
+[CONTROLBAR:UpgradeSilvanLevy]
+Value=Research Silvan Levy (&T)
+
+
+[CONTROLBAR:ToolTipUpgradeSilvanLevy]
+Value=Summons a horde of Silvan Sentries to defend the Mallorn Tree for 30 seconds
+
+
+[CONTROLBAR:SilvanLevy]
+Value=Silvan Levy (&R)
+
+
+[CONTROLBAR:SilvanLevyBarracks]
+Value=Silvan Levy (&C)
+
+
+[CONTROLBAR:SilvanLevyStorehouse]
+Value=Silvan Levy (&F)
+
+
+[CONTROLBAR:SilvanLevyPasture]
+Value=Silvan Levy (&T)
+
+
+[CONTROLBAR:ToolTipSilvanLevy]
+Value=Summons a temporary horde of Silvan Sentries to defend the Mallorn Tree 
+Valueline2= Left click to activate
+
+
 Valueline2= Increases command point limit by 50
 
 
@@ -82661,11 +82729,16 @@ Value=Primary Upgrade: Green Pasture (&R)
 
 [CONTROLBAR:ToolTipUpgradeMallornGreenPasture]
 Value=Turns the Mallorn Tree into a Green Pasture 
+Valueline2= Allows the recruitment of Riders of the Naith 
 Valueline3= Increases command point limit by 25
 
 
 [CONTROLBAR:UpgradeMallornGreenPastureFake]
 Value=Primary Upgrade: Green Pasture
+
+
+[CONTROLBAR:ToolTipUpgradeMallornGreenPastureFake]
+Value=Allows the recruitment of Riders of the Naith 
 Valueline2= Increases command point limit by 25
 
 
