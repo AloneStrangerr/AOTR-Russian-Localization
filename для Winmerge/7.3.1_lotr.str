@@ -65154,7 +65154,7 @@ Value=Lord of the Galadhrim (&W)
 
 [CONTROLBAR:ToolTipCelebornLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= All nearby friendly units and heroes gain fear resistance as well as +10% speed 
+Valueline2= All nearby friendly units gain +10% speed, +50% experience gain and fear resistance
 Valueline3= Celeborn also causes fear to nearby enemies 
 Valueline4= Stacks with Buffs and Spells 
 Valueline5= Passive ability 
@@ -83239,6 +83239,69 @@ Value=Recruits Moria-orc Shamans
 
 [CONTROLBAR:ToolTipSpecialAbilityFlameofUdun]
 Value=Requires four full battalions of Moria-orc Shamans 
+
+
+[CONTROLBAR:KotDCallBeyond]
+Value=A Call Beyond (&T)
+
+
+
+
+[CONTROLBAR:KotDOathbreaker]
+Value=Fulfill Your Oath! (&C)
+
+
+
+
+[CONTROLBAR:ConstructOathbreakerWarriorHorde]
+Value=Oathbreaker Warriors (&W)
+
+
+
+
+[CONTROLBAR:ConstructOathbreakerHuskarlHorde]
+Value=Oathbreaker Huskarls (&E)
+
+
+[CONTROLBAR:ToolTipBuildOathbreakerHuskarlHorde]
+Value=Specialist Unit
+Valueline2=Strong vs. Heroes, Infantry and Structures
+Valueline3=Limited to 2
+Valueline4=
+Valueline5=Mighty warriors in life, these elite undead swordsmen were unparalleled fighters among the men of Dunharrow. In death, their deft swordsmanship is enhanced by the chill of the grave.
+
+
+[CONTROLBAR:HuskarlLeadership]
+Value=Deathly Veterans
+
+
+
+
+[CONTROLBAR:SummonDwimoCairn]
+Value=Cairn of the Dwimorberg
+
+
+[CONTROLBAR:TooltipSummonDwimoCairn]
+Value=Summons the Cairn of the Dwimorberg 
+Valueline2= Limited to 2 
+Valueline3= Recruits The King of the Dead, Oathbreaker Warriors, and Oathbreaker Huskarls 
+Valueline4= Left click on icon then left click on target area
+
+
+[CONTROLBAR:DreadfulOmensCairn]
+Value=Dreadful Omens
+
+
+
+
+[CONTROLBAR:ConstructGCBarracks]
+Value=Build Southern Fiefdom Barracks (&T)
+
+
+[CONTROLBAR:ToolTipConstructGCBarracks]
+Value=Recruits Fiefdom Units from Gondor's expansive southern territories
+
+
 Valueline2=Produces resources
 Valueline3=Increases command point limit by 100
 
