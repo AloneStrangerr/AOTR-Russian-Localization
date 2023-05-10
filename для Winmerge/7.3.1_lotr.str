@@ -65156,15 +65156,30 @@ Value=Lord of the Galadhrim (&W)
 Value=Modifier Type: Leadership 
 Valueline2= All nearby friendly units gain +10% speed, +50% experience gain and fear resistance
 Valueline3= Celeborn also causes fear to nearby enemies 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability 
+Valueline4=Passive ability 
+Valueline5=
+Valueline6= Requires Level 3
+Valueline7= Celeborn is accompanied by three sword-wielding Sentinels of the Silver Tree 
+Valueline8= Passive ability 
+Valueline9=
+Valueline10= Requires Level 7 
+Valueline11= Celeborn summons three sword-wielding Sentinels of the Silver Tree to guard an allied hero for 45 seconds 
+Valueline12= Left click icon then left click on target hero
+
+
+[CONTROLBAR:ToolTipCelebornLeadershipGifts]
+Value=Modifier Type: Leadership 
+Valueline2= All nearby friendly units gain +10% speed, +50% experience gain and fear resistance
+Valueline3=Nearby allied units also gain +33% armour
+Valueline4= Celeborn causes fear to nearby enemies 
+Valueline5=Passive ability 
 Valueline6=
 Valueline7= Requires Level 3
-Valueline8= Celeborn is accompanied by three sword-wielding Celemegiliath 
+Valueline8= Celeborn is accompanied by three sword-wielding Sentinels of the Silver Tree 
 Valueline9= Passive ability 
 Valueline10=
 Valueline11= Requires Level 7 
-Valueline12= Celeborn summons three sword-wielding Celemegiliath to guard an allied hero for a short time 
+Valueline12= Celeborn summons three sword-wielding Sentinels of the Silver Tree to guard an allied hero for 45 seconds 
 Valueline13= Left click icon then left click on target hero
 
 
@@ -65183,10 +65198,11 @@ Value=The Silver Host (&R)
 
 [CONTROLBAR:ToolTipSilverHost]
 Value=Requires Level 2 
-Valueline2= Summons a battalion of Celemegiliath 
-Valueline3=At rank 6, includes an additional battalion of sword-wielding Celemegiliath
-Valueline4=At rank 10, two of both
-Valueline5=Left click to activate
+Valueline2= Summons a battalion of Sentinels of the Silver Tree 
+Valueline3=At rank 4, includes an additional battalion of sword-wielding Sentinels of the Silver Tree 
+Valueline4=At rank 7, includes an additional battalion of bow-wielding Sentinels of the Silver Tree
+Valueline5=At rank 10, two of both
+Valueline6=Left click to activate
 
 
 [CONTROLBAR:SpecialPowerCelebornCunning]
@@ -65195,8 +65211,8 @@ Value=Cunning Warrior (&T)
 
 [CONTROLBAR:ToolTipSpecialPowerCelebornCunning]
 Value=Requires Level 4 
-Valueline2= Celeborn briefly absorbs all damage towards him 
-Valueline3= and enemies around him lose 25% damage and 25% armour 
+Valueline2= Celeborn gains +100% armour and deals splash damage for 30 seconds
+Valueline3= Enemy units around him lose 25% damage and 25% armour for the duration of the ability
 Valueline4= Left click to activate
 
 
@@ -65227,15 +65243,13 @@ Value=Renowned Warrior (&C)
 
 [CONTROLBAR:ToolTipSpecialPowerRenownedWarrior]
 Value=Requires Level 5 
-Valueline2= Thranduil briefly gains +15% speed and +50% armour 
-Valueline3=Rank 6: +15% speed, +50% armour, +15% damage
-Valueline4=Rank 7: Thranduil permanently gains +25% armour 
-Valueline5= +15% speed, +50% armour, +25% damage
-Valueline6=Rank 8: +15% speed, +50% armour, +50% damage
-Valueline7=Rank 9: +15% speed, +50% armour, +50% damage, -75% crush deceleration
-Valueline8=Rank 10: +15% speed, +50% damage, -75% crush deceleration
-Valueline9=and absorbs all damage towards him
-Valueline10=Left click to activate
+Valueline2= Thranduil gains +10% speed and +50% armour for 30 seconds 
+Valueline3=Rank 6: +10% speed, +50% armour, +15% damage
+Valueline4=Rank 7: +10% speed, +50% armour, +25% damage
+Valueline5=Rank 8: +10% speed, +50% armour, +50% damage
+Valueline6=Rank 9: +10% speed, +50% armour, +50% damage, -25% crush deceleration
+Valueline7=Rank 10: +10% speed, +150% armour, +50% damage, -25% crush deceleration
+Valueline8=Left click to activate
 
 
 [OBJECT:IsengardScout]
@@ -65303,10 +65317,10 @@ Valueline4= Strong vs. All Unit types
 
 [CONTROLBAR:ToolTipBuildIsengardManSlayerHorde]
 Value=Requires Level 3 Uruk Pit 
-Valueline2= Limited to 3 
+Valueline2= Hero Unit. Limited to 3 
 Valueline3= Strong vs. All Unit Types 
 Valueline4= 
-Valueline5= Driven mad by the scent of Man-flesh, these deranged creatures are capable of cleaving through armor and sustaining wounds that would kill ordinary orcs and uruks.
+Valueline5= Driven mad by the scent of Man-flesh, these deranged creatures are capable of cleaving through armour and sustaining wounds that would kill ordinary orcs and uruks.
 
 
 [CONTROLBAR:LW_ToolTipBuild_IsengardManSlayerHorde]
@@ -65321,9 +65335,8 @@ Value=Twisted Frenzy (&R)
 
 [CONTROLBAR:ToolTipFanaticDeathWish]
 Value=Requires Level 4 
-Valueline2= Man-slayers temporarily gain
-Valueline3=+150% damage, -33% armour
-Valueline4= Left click to activate
+Valueline2= Man-slayers gain +150% damage at the cost of -33% armour for 20 seconds
+Valueline3= Left click to activate
 
 
 [CONTROLBAR:FanaticStoneWall]
@@ -65331,7 +65344,7 @@ Value=Bane of the Rohirrim
 
 
 [CONTROLBAR:ToolTipFanaticStoneWall]
-Value=Man-slayers are highly resistant to knockback and deal high trample revenge damage
+Value=Man-slayers are highly resistant to knockback and immune to trample
 Valueline2=Passive ability
 
 
@@ -65343,8 +65356,9 @@ Value=Scent of Blood (&T)
 Value=Requires Level 7 
 Valueline2= Man-slayers regain health per hit 
 Valueline3=Passive ability 
-Valueline4= When activated, Man-slayers temporarily gain +33% movement speed 
-Valueline5= Left click to activate
+Valueline4=
+Valueline5= When activated, Man-slayers gain +33% movement speed for 20 seconds
+Valueline6= Left click to activate
 
 [OBJECT:IsengardMineBeserker]
 Value=Isengard Sapper
@@ -65387,7 +65401,7 @@ Value=Devastation
 
 [CONTROLBAR:ToolTipDevastation]
 Value=Trees are instantly turned into resources
-Valueline2= Halves the resource production of any resource structure within the area of effect 
+Valueline2= Halves the resource production of any resource structure within the area of effect for 45 seconds
 Valueline3= 
 Valueline4= Left click icon then left click on target forest
 
@@ -65461,9 +65475,8 @@ Value=Hunt for the Ring (&R)
 [CONTROLBAR:TooltipIsengardUglukHuntfortheRing]
 Value=Requires Level 3 
 Valueline2= Modifier Type: Spell 
-Valueline3= Nearby infantry and heroes gain a 15% speed bonus, a 50% experience bonus and resistance to fear and terror
-Valueline4= Stacks with Buffs, Leadership, and Spells 
-Valueline5= Left click to activate
+Valueline3= Nearby infantry and heroes gain a 15% speed bonus, a 50% experience bonus and resistance to fear and terror for 20 seconds
+Valueline4=Left click to activate
 
 
 [CONTROLBAR:IsengardUglukHeadhunter]
@@ -65473,9 +65486,8 @@ Value=Headhunter (&T)
 [CONTROLBAR:ToolTipIsengardUglukHeadhunter]
 Value=Requires Level 5 
 Valueline2= Modifier Type: Spell 
-Valueline3= Nearby Uruks temporarily gain +100% damage and Uglúk temporarily regains health per attack
-Valueline4= Stacks with Buffs, Leadership, and Spells 
-Valueline5= Left click icon to activate
+Valueline3= Nearby Uruk-hai gain +100% damage and Uglúk regains health per attack for 25 seconds
+Valueline4=Left click icon to activate
 
 
 [CONTROLBAR:IsengardUglukReinforcements]
@@ -65580,8 +65592,184 @@ Value=Unit Type: Elite Archers
 Valueline2=Strong vs. Archers
 Valueline3=
 
+[OBJECT:EasterlingAxeman]
+Value=Khân-bórax
+
+
+[OBJECT:HordeEasterlingAxemen]
+Value=Khân-bórainax
+
+
+[CONTROLBAR:LW_Unit_EasterlingAxemenHorde]
+Value=Khân-bórainax Battalion
+
+
+[CONTROLBAR:LW_ToolTip_EasterlingAxemenHorde]
+Value=Golden Axemen
+Valueline2=Unit Type: Elite Infantry
+Valueline3=Strong vs. Pikemen
+
+
+[CONTROLBAR:ConstructEasterlingAxemenHorde]
+Value=Khân-bórainax (&D)
+
+
+[CONTROLBAR:ConstructEasterlingAxemenHordeInn]
+Value=Khân-bórainax (&W)
+
+
+[CONTROLBAR:ConstructEasterlingAxemenHorde_Rhun]
+Value=Khân-bórainax (&S)
+
+
+[CONTROLBAR:ToolTipBuildEasterlingAxemenHorde]
+Value=Golden Axemen
 Valueline2=Requires Level 3 Easterling Garrison and He Is Gathering All Evil To Him upgrade
+Valueline3=Strong vs. Pikemen
+Valueline4=Limited to 3
+Valueline5=
+Valueline6= The Khân-bórainax traditionally remained at the back of the Rhûnic legions, only entering the fray as reserves to relieve a tired front line of phalanx and smash the remaining enemy.
+
+
+[CONTROLBAR:ToolTipBuildEasterlingAxemenHorde_Rhun]
+Value=Golden Axemen
 Valueline2=Requires Level 3 Easterling Garrison
+Valueline3=Strong vs. Pikemen
+Valueline4=Limited to 3
+Valueline5=
+Valueline6= The Khân-bórainax traditionally remained at the back of the Rhûnic legions, only entering the fray as reserves to relieve a tired front line of phalanx and smash the remaining enemy.
+
+
+[CONTROLBAR:ToolTipBuildEasterlingAxemenHordeInn]
+Value=Golden Axemen
+Valueline2=Strong vs. Pikemen 
+Valueline3=
+Valueline4= The Khân-bórainax traditionally remained at the back of the Rhûnic legions, only entering the fray as reserves to relieve a tired front line of phalanx and smash the remaining enemy.
+
+[CONTROLBAR:EasterlingSplash]
+Value=Indomitable (&W)
+
+
+[CONTROLBAR:ToolTipEasterlingSplash]
+Value=Golden Axemen gain +50% damage and immunity to knocknack and trample for 20 seconds
+Valueline2=Left click to activate
+
+
+[CONTROLBAR:ToolTipSerratedArmorAxemen]
+Value=Requires Level 3
+Valueline2=Golden Axemen gain +20% armour and reflect received melee damage back to attacking units
+Valueline3=Passive ability
+
+
+[CONTROLBAR:NoQuarter]
+Value=No Quarter (&T)
+
+
+[CONTROLBAR:ToolTipNoQuarter]
+Value=Requires Level 4
+Valueline2=Modifier Type: Spell
+Valueline3=Nearby Easterling and Variag units gain +50% armour and resistance to fear and terror for 30 seconds
+Valueline4=Left click to activate
+
+
+[CONTROLBAR:WarHardened]
+Value=War-hardened (&R)
+
+
+[CONTROLBAR:ToolTipWarHardened]
+Value=Requires Level 4
+Valueline2=Modifier Type: Weapon
+Valueline3=Great Khân's Swordsmen gain +50% armour and resistance to fear and terror for 30 seconds
+Valueline4=Left click to activate
+
+
+[CONTROLBAR:ToolTipWarHardenedRhun]
+Value=Requires Level 4
+Valueline2=For  30 seconds, Great Khân's Swordsmen bleed their foes with each attack, dealing damage over time
+Valueline3=Left click to activate
+
+[OBJECT:TribalAuxillary]
+Value=Heltân-hârax
+
+
+[OBJECT:TribalAuxillaryHorde]
+Value=Heltâin-hârainax
+
+
+[CONTROLBAR:LW_Unit_TribalAuxillaryHorde]
+Value=Heltâin-hârainax Battalion
+
+
+[CONTROLBAR:ConstructTribalAuxillaryHorde]
+Value=Heltâin-hârainax (&W)
+
+
+[CONTROLBAR:ConstructTribalAuxillaryHorde_Rhun]
+Value=Heltâin-hârainax (&E)
+
+
+[CONTROLBAR:ConstructTribalAuxillaryHorde_Serf]
+Value=Heltâin-hârainax (&T)
+
+
+[CONTROLBAR:ToolTipBuildTribalAuxillaryHorde]
+Value=Serf Spearmen
+Valueline2=Strong vs. Cavalry and Heroes 
+Valueline3=
+Valueline4=Horde Bonus 
+Valueline5= Modifier Type: Spell 
+Valueline6= All Serf Spearmen and Serf Bowmen gain +35% armour when gathered in numbers of 40 or more
+Valueline7= 
+Valueline8= When the Khâns gathered their Golden Hordes to march to Mordor, they passed many villages and farms, where they demanded able-bodied Men to abandon their families and bolster the horde.
+
+
+[CONTROLBAR:ForcedService]
+Value=Forced Service (&R)
+
+[CONTROLBAR:TooltipForcedService]
+Value=Requires Level 3
+Valueline2= Heltân-hârax quickly replenish their forces with 4 new recruits 
+Valueline3=Left click to activate
+
+
+[CONTROLBAR:TooltipForcedServiceArchers]
+Value=Requires Level 3
+Valueline2= Heltân-yûnax quickly replenish their forces with 4 new recruits 
+Valueline3=Left click to activate
+
+
+
+
+[OBJECT:AuxillaryArcher]
+Value=Heltân-yûnax
+
+
+[OBJECT:AuxillaryArcherHorde]
+Value=Heltân-yûnax
+
+
+[CONTROLBAR:LW_Unit_AuxillaryArcherHorde]
+Value=Heltân-yûnax Battalion
+
+
+[CONTROLBAR:ConstructAuxillaryArcherHorde]
+Value=Heltân-yûnax (&W)
+
+
+[CONTROLBAR:ConstructAuxillaryArcherHorde_Serf]
+Value=Heltân-yûnax (&S)
+
+
+[CONTROLBAR:ToolTipBuildAuxillaryArcherHorde]
+Value=Serf Bowmen
+Valueline2=Strong vs. Infantry and Monsters 
+Valueline3=
+Valueline4=Horde Bonus 
+Valueline5= Modifier Type: Spell 
+Valueline6= All Serf Spearmen and Serf Bowmen gain +35% armour when gathered in numbers of 40 or more
+Valueline7= 
+Valueline8=The hunters of the plains and darkwoods of the distant East are not free: they belong to whichever warlord lays claim upon their hunting grounds, and must serve him when called upon in times of war.
+
 Valueline2= Requires Level 3 Easterling Garrison
 [OBJECT:RhunCannon]
 Value=Khârtan-gâsh
@@ -66007,7 +66195,7 @@ Valueline2= Left click on icon then left click on target area
 
 [CONTROLBAR:TooltipSummonHaradrimRaiders]
 Value=Summon three battalions of Haradrim Raiders to the battlefield 
-Valueline2= Once used, passively unlocks Easterling Kataphrakts and Easterling Swordsmen 
+Valueline2= Once used, passively unlocks Golden Cataphracts and Golden Axemen 
 Valueline3= Left click on icon then left click on target area
 
 
@@ -69483,12 +69671,22 @@ Value=Âzugh-Khazad-dûm
 Value=Âzugh-Khazad-dûm
 
 
+[CONTROLBAR:LW_Unit_KhazadGuardHorde]
+Value=Âzugh-Khazad-dûm
+
+
+[CONTROLBAR:LW_ToolTip_KhazadGuardHorde]
+Value=Khazad-dûm Veterans 
+Valueline2=Unit Type: Elite Infantry
+Valueline3=Strong vs. Pikemen
+
+
 [CONTROLBAR:MoriaLord]
 Value=Lord of Moria
 
 
 [CONTROLBAR:ToolTipMoriaLord]
-Value=Âzugh-Khazad-dûm gain +25% armour while near Balin
+Value=Khazad-dûm Veterans gain +25% armour while near Balin
 Valueline2=Passive ability
 
 
@@ -69502,6 +69700,12 @@ Valueline2= Units in the vicinity of the pillar become immune to Fear and Terror
 Valueline3= Left click icon then left click on pathable location
 
 
+[CONTROLBAR:ConstructDwarvenKhazadGuardHorde]
+Value=Âzugh-Khazad-dûm (&F)
+
+
+[CONTROLBAR:ToolTipBuildKhazadGuardHorde]
+Value=Khazad-dûm Veterans 
 [CONTROLBAR:ThrorHoard]
 Value=Thrór’s Hoard
 
@@ -83241,22 +83445,43 @@ Value=Recruits Moria-orc Shamans
 Value=Requires four full battalions of Moria-orc Shamans 
 
 
+[CONTROLBAR:ToolTipKotDSpell]
+Value=Requires Level 5
+Valueline2=Target enemies flee in terror
+Valueline3=Any Oathbreaker Warriors in the target area deal +50% damage
+Valueline4=Left click icon then left click on target area
+
+
 [CONTROLBAR:KotDCallBeyond]
 Value=A Call Beyond (&T)
 
 
+[CONTROLBAR:ToolTipKotDCallBeyond]
+Value=Requires Level 7
+Valueline2=The King of the Dead slowly but continually summons temporary,
+Valueline3=single Oathbreaker Warriors from the earth
+Valueline4=but can't move or attack
+Valueline5=Left click to activate and deactivate
 
 
 [CONTROLBAR:KotDOathbreaker]
 Value=Fulfill Your Oath! (&C)
 
 
+[CONTROLBAR:ToolTipKotDOathbreaker]
+Value=Requires Level 10
+Valueline2=Summons an army of Oathbreakers that will kill and terrify anything in its path 
+Valueline3= Left click icon then left click on target
 
 
 [CONTROLBAR:ConstructOathbreakerWarriorHorde]
 Value=Oathbreaker Warriors (&W)
 
 
+[CONTROLBAR:ToolTipBuildOathbreakerWarriorHorde]
+Value=Strong vs. Pikemen
+Valueline2=
+Valueline3=The Men of Dunharrow were cursed to dwell eternally in the Haunted Mountain, and can only be freed by fulfilling their oaths to Isildur.
 
 
 [CONTROLBAR:ConstructOathbreakerHuskarlHorde]
@@ -83273,6 +83498,12 @@ Valueline5=Mighty warriors in life, these elite undead swordsmen were unparallel
 
 [CONTROLBAR:HuskarlLeadership]
 Value=Deathly Veterans
+
+
+[CONTROLBAR:ToolTipHuskarlLeadership]
+Value=Requires Level 2 
+Valueline2= The Oathbreakers steel their shambling allies, reinforcing their armour by 10%
+Valueline3= Passive ability
 
 
 
@@ -83292,6 +83523,28 @@ Valueline4= Left click on icon then left click on target area
 Value=Dreadful Omens
 
 
+[CONTROLBAR:ToolTipDreadfulOmensCairn]
+Value=Long has the Haunted Mountain struck fear into the hearts of mortals 
+Valueline2= Passive ability 
+Valueline3=
+Valueline4= Modifier Type: Passive Debuff 
+Valueline5= Nearby enemy units suffer -25% Damage and -20% Armour 
+Valueline6= Does not stack with other Debuffs 
+Valueline7=Passive ability
+
+
+[CONTROLBAR:ToolTipConstructGondorDolMAArmsHordeNEW]
+Value=Requires Level 2 Barracks 
+Valueline2= Strong vs. Pikemen 
+Valueline3= 
+Valueline4= Choosing to fight on foot rather than from horseback, these heavily armoured soldiers are no less elite than their equestrian counterparts.
+
+
+[CONTROLBAR:ToolTipConstructGondorDolArcherHordeNEW]
+Value=Requires Level 2 Archery Range 
+Valueline2= Strong vs. Infantry and Monsters 
+Valueline3= 
+Valueline4= Using long, swan-feathered shafts and keen eyes, the archers of Dol Amroth are a force to be reckoned with.
 
 
 [CONTROLBAR:ConstructGCBarracks]
@@ -83347,6 +83600,9 @@ Value=Campaign: Evil III - Shire
 Value=Mission III - Goblins arrive at the outskirts of the Shire, where Golfimbul hopes to avenge his fallen ancestors.
 Valueline2= Recommended Faction: Misty Mountains
 
+[CONTROLBAR:TooltipWotRAnswerTheCallLorien]
+Value=Permanently summons a battalion of sword-wielding and bow-wielding Celemegiliath
+Valueline2=Left click on icon then left click on target area
 
 [Map:MAPSPevilfornost]
 Value=Campaign: Evil IV - Fornost
@@ -83387,8 +83643,10 @@ Value=Mission VI - Sauron sends his envoy to forge an alliance with the dragons 
 Valueline2= Recommended Faction: Misty Mountains
 
 
-[Map:MAPSPevilerebor]
-Value=Campaign: Evil VII - Erebor
+[CONTROLBAR:TooltipWotRAnswerTheCallMordor]
+Value=Permanently summons a horde of Khân-bórainax
+Valueline2=Limited to 3
+Valueline3=Left click on icon then left click on target area
 
 
 [CONTROLBAR:TooltipWotRAnswerTheCallGuldur]
