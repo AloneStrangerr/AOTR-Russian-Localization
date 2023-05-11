@@ -65919,6 +65919,23 @@ Valueline2=Deals no damage
 Valueline3=Left click to activate
 
 
+[CONTROLBAR:DeactivateBoilerExceed]
+Value=Deactivate Boiler Exceed (&T)
+
+
+[CONTROLBAR:BoilerExceed]
+Value=Activate Boiler Exceed (&T)
+
+
+[CONTROLBAR:ToolTipBoilerExceed]
+Value=Whilst active, the Flame-destroyer continually spews fire when targeting enemy units at the cost of suffering damage over time
+Valueline2=If the Flame-destroyer dies while Boiler Exceed is active, it explodes
+Valueline3=Left click to toggle on and off
+
+
+[OBJECT:CannonCrew]
+Value=Cannon Operator
+
 [OBJECT:RhunCannon]
 Value=Khârtan-gâsh
 
@@ -65927,6 +65944,78 @@ Value=Khârtan-gâsh (&E)
 
 [CONTROLBAR:ConstructRhunCannon_Serf]
 Value=Khârtan-gâsh (&E)
+
+[CONTROLBAR:ToolTipBuildRhunCannon]
+Value=Dragonfire Cannon
+Valueline2=Requires Level 2 Great Siege Works
+Valueline3=Strong vs. Structures 
+Valueline4=
+Valueline5= Fueled by wyrmsfire, a substance concocted whose mysterious origins were taught by Sauron in ages past, the khârtan-gâshan are capable of inflicting heavy losses amongst the enemy ranks, leaving naught but blackened stone in their wake.
+
+[CONTROLBAR:ToolTipBuildRhunCannon_Serf]
+Value=Dragonfire Cannon
+Valueline2=Strong vs. Structures 
+Valueline3=
+Valueline4= Fueled by wyrmsfire, a substance concocted whose mysterious origins were taught by Sauron in ages past, the khârtan-gâshan are capable of inflicting heavy losses amongst the enemy ranks, leaving naught but blackened stone in their wake.
+
+[CONTROLBAR:ToolTipCannonUnstableConcoction]
+Value=The Dragonfire Cannon explodes if destroyed via fire, damaging all surrounding units and structures
+Valueline2=Passive ability
+
+[OBJECT:RhunVahRus]
+Value=Vâh-rús
+
+[CONTROLBAR:VahRusHotkey]
+Value=Vâh-rús (&S)
+
+[CONTROLBAR:VahRusRevive]
+Value=Revive the fallen hero, Vâh-rús
+
+[CONTROLBAR:VahRusRecruit]
+Value=Recruit the Overlord of the Rhûnic Legions 
+Valueline2=
+Valueline3= Personally appointed by the shadowy Onyx Emperor, Vâh-rús has taken up high command of the legions sent to crush Sauron's enemies during the final campaigns, so that the Dark Lord may seize his control of all Middle-earth. Ruthless and cunning, Vâh-rús is a veteran of many wars, and has led his warriors from the front lines for decades, quelling uprisings and uniting his emperor's lands under his black banner.
+
+[CONTROLBAR:LW_ToolTip_VahRus]
+Value=Unit Type: Hero Army Leader
+
+[CONTROLBAR:RanAuthority]
+Value=Rân's Authority
+
+[CONTROLBAR:ToolTipRanAuthority]
+Value=Modifier Type: Leadership
+Valueline2=Nearby allies gain +10% armour 
+Valueline3=At level 3, nearby allies gain +25% armour and damage
+Valueline4=At level 6, nearby allies gain +50% armour and damage
+Valueline5=Passive Ability
+
+[CONTROLBAR:WeightedBlow]
+Value=Weighted Blow (&R)
+
+[CONTROLBAR:ToolTipWeightedBlow]
+Value=Requires Level 2
+Valueline2=Vâh-rús performs a heavy strike against his enemies, knocking them back
+Valueline3=Left click then left click on target
+
+[CONTROLBAR:VahRusWarlordsDemand]
+Value=Warlord's Demand (&T)
+
+[CONTROLBAR:ToolTipVahRusWarlordsDemand]
+Value=Requires Level 5 
+Valueline2= Modifier Type: Spell and Active Debuff 
+Valueline3= Targeted friendly units gain +33% damage and immunity to fear and terror for 30 seconds
+Valueline4= Targeted enemy units suffer -25% damage and -25% armour for 30 seconds
+Valueline5=Left click icon then left click on target units
+
+[CONTROLBAR:SpecialAbilityChosenGreatKhan]
+Value=Onyx Emperor's Chosen (&C)
+
+[CONTROLBAR:ToolTipSpecialAbilityChosenGreatKhan]
+Value=Requires Level 8 
+Valueline2= Vâh-rús was personally empowered by the Onyx Emperor
+Valueline3=For 30 seconds, he gains +100% armour, immunity to knockback, and knocks back enemies in a radius with his attacks
+Valueline4= At level 10, summons a battalion of Khân's Guard for 90 seconds
+Valueline5=Left click to activate
 
 
 [CONTROLBAR:ToolTipHoundmaster]
