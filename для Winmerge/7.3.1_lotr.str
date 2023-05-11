@@ -66017,15 +66017,316 @@ Valueline3=For 30 seconds, he gains +100% armour, immunity to knockback, and kno
 Valueline4= At level 10, summons a battalion of Khân's Guard for 90 seconds
 Valueline5=Left click to activate
 
+[CONTROLBAR:SpecialAbilityFoeHammer]
+Value=Foehammer (&T)
+
+[CONTROLBAR:ToolTipSpecialAbilityFoeHammer]
+Value=Vâh-rús gains +50% damage and armour for 30 seconds
+Valueline2=Left click to activate
+
+[CONTROLBAR:SpecialAbilityBlackDragon]
+Value=Curse of the Black Dragon (&V)
+
+[CONTROLBAR:ToolTipSpecialAbilityBlackDragon]
+Value=Requires Level 10
+Valueline2=Target enemies are engulfed in mystical dragonfire
+Valueline3= Enemies outside the blast are inflicted with fear
+Valueline4=Left click then left click on target area
+
+[CONTROLBAR:MightofRhun]
+Value=Might of Rhûn (&V)
+
+[CONTROLBAR:ToolTipMightofRhun]
+Value=Requires Level 10
+Valueline2=Summons a mighty host of Great Khân's Phalanx, Great Khân's Archers and Golden Axemen for 90 seconds
+Valueline3=Left click then left click target area
+
+[OBJECT:RhunBelokhZa]
+Value=Houndmaster Bélohk
+
+[CONTROLBAR:BelokhZaHotkey]
+Value=Houndmaster Bélohk (&W)
+
+[CONTROLBAR:BelokhZaRevive]
+Value=Revive the fallen hero, Houndmaster Bélohk
+
+[CONTROLBAR:BelokhZaRecruit]
+Value=Recruit the dreaded Houndmaster of Khand 
+Valueline2=
+Valueline3= Chief Houndmaster of the legions of Vâh-rús, Belohk is a loyal and fierce warrior, proudly leading the Khandish auxiliaries into battle, accompanied by scores of ferocious warhounds.
+
+[CONTROLBAR:Houndmaster]
+Value=The Houndmaster (&W)
 
 [CONTROLBAR:ToolTipHoundmaster]
 Value=Houndmaster Bélohk is accompanied by three Khandish Wardogs
 Valueline2= Passive ability 
+Valueline3= When activated, summons an additional temporary Wardog that follows the Houndmaster and attacks his enemies
+Valueline4= Summons an additional Wardog at level 5, and 2 more at level 10
+Valueline5=Left click to activate
+
+[CONTROLBAR:RendingArrow]
+Value=Rending Arrows
+
+[CONTROLBAR:ToolTipRendingArrow]
+Value=Requires Level 5
+Valueline2= The Houndmaster's arrows cause enemies to suffer damage over time for 10 seconds
+Valueline3=Passive ability
+
+[CONTROLBAR:MasterSteppes]
+Value=Master of the Khandish Steppes
+
+[CONTROLBAR:TooltipMasterSteppes]
+Value=Requires Level 3
+Valueline2=Modifier Type: Leadership
+Valueline3= Nearby Variags, Wardogs, and Rhûn Serf units gain +15% armour and +15% damage
+Valueline4=Passive ability
+
+[CONTROLBAR:WarmongersShot]
+Value=Warmonger's Shot (&T)
+
+[CONTROLBAR:ToolTipWarmongersShot]
+Value=Requires Level 4
+Valueline2= A precise arrow shot that slows down an enemy unit by -70% and reduces their vision by 50% for 15 seconds 
+Valueline3= Left click icon then left click on target unit
+
+[CONTROLBAR:FuryoftheBeasts]
+Value=Fury of the Beasts (&V)
+
+[CONTROLBAR:TooltipFuryoftheBeasts]
+Value=Requires Level 8
+Valueline2=Modifier Type: Spell
+Valueline3=Nearby Variags, Outriders, and Khandish Wardogs gain +50% damage, +50% armour and -25% trample deceleration for 10 seconds
+Valueline4= At rank 10, duration of effect increases to 20 seconds
+Valueline5=Left click to activate
+
+[CONTROLBAR:ToolTipToggleBelokhZaWeapons]
+Value=Left click to toggle between bow and dual blades
+Valueline2=Bélokk-Zá is passively stealthed when not attacking
+ 
+[CONTROLBAR:Shadowstrike]
+Value=Shadowstrike (&R)
+
+[CONTROLBAR:TooltipShadowstrike]
+Value=Requires Level 2
+Valueline2=Bélohk-Zá teleports to a target area, slashing all enemies where he lands
+Valueline3=Left click then left click target area
+
+[CONTROLBAR:DragonTalon]
+Value=Dragon's Talon (&T)
+
+[CONTROLBAR:ToolTipDragonTalon]
+Value=Requires Level 3 
+Valueline2= Single ranged attack
+Valueline3=Can only be used with bow equipped
+Valueline4=Left click icon then left click on target
+
+[CONTROLBAR:SpecialAbilityDeathmark]
+Value=Deathmark (&C)
+
+[CONTROLBAR:ToolTipSpecialAbilityDeathmark]
+Value=Requires Level 6
+Valueline2=Target enemy hero is marked and grants vision for 60 seconds
+Valueline3=Target enemy hero is slowed by 20% and takes +50% damage from Bélohk-Zá for 15 seconds
+Valueline4=Left click then left click on target enemy hero
+
+[CONTROLBAR:FanOfKnives]
+Value=Fan of Knives (&V)
+
+[CONTROLBAR:ToolTipFanOfKnives]
+Value=Requires Level 8
+Valueline2=Launch a continuous volley of knives, dealing AOE damage
+Valueline3=Left click icon then left click on target area
+
+[OBJECT:RhunKhrenTak]
+Value=Khren-ták
+
+[CONTROLBAR:KhrenTakHotkey]
+Value=Khren-ták (&R)
+
+[CONTROLBAR:KhrenTakRevive]
+Value=Revive the fallen hero, Khren-ták
+
+[CONTROLBAR:KhrenTakRecruit]
+Value=Recruit the Scourge of Dorwinion 
+Valueline2=
+Valueline3= The Scourge of Dorwinion earned his moniker during bloody conflict with the lords of Dorwinion, when, outnumbered and surrounded, he slew a hundred legionnaires to reach their commander, whose head he took. Being among the sole survivors of his company of Dragon Knights, Khren-ták was promoted to replace their fallen commander.
+
+[CONTROLBAR:WardenoftheEast]
+Value=Warden of the East
+
+[CONTROLBAR:KhrenTakSummon]
+Value=Warden of the East (&W)
+
+[CONTROLBAR:ToolTipKhrenTakSummon]
+Value=Modifier Type: Leadership
+Valueline2=Nearby allied structures gain +33% armour
+Valueline3=Passive ability
+Valueline4=
+Valueline5=At level 3, can be activated to summon a battalion of Great Khân's Swordsmen
+Valueline6=At level 7, summons two battalions
+Valueline7=At level 10, battalions are summoned with heavy armour and forged blades
+Valueline8=Left click to activate
+
+[CONTROLBAR:PerfectStrike]
+Value=Shield Slam (&W)
+
+[CONTROLBAR:ToolTipPerfectStrike]
+Value=For every 15 allied Rhûn units nearby, Khren-ták gains +5% armour to a maximum of 25% 
+Valueline2= Passive ability 
+Valueline3= 
+Valueline4= When activated, Khren-ták slams the enemy with his shield, damaging and knocking them back
+Valueline5= Left click icon then left click on target
+
+
+[CONTROLBAR:RoaroftheBlackDragon]
+Value=Strength's Reward (&T)
+
+[CONTROLBAR:TooltipRoaroftheBlackDragon]
+Value=Requires Level 5 
+Valueline2= Give targeted units excellent experience 
+Valueline3= Left click icon then left click on target units
+
+[CONTROLBAR:UnflinchingBlow]
+Value=Great Wyrm's Supplication (&C)
+
+[CONTROLBAR:ToolTipUnflinchingBlow]
+Value=Requires Level 7
+Valueline2= Khren-ták slams his mace into the ground, stunning 
+Valueline3= nearby enemies for 5 seconds and granting knockback resistance to all nearby allies for 10 seconds
+Valueline4=
+Valueline5= Left click to activate
+
+[CONTROLBAR:VeteransRule]
+Value=Veteran's Rule
 
 [CONTROLBAR:ToolTipVeteransRule]
 Value=Requires Level 3
 Valueline2=Modifier Type: Leadership 
 Valueline3= Dragon Knights near Khren-ták gain experience +50% faster
+Valueline4=At level 6, grants nearby Easterling infantry an additional +25% damage and armour
+Valueline5=
+Valueline6= Passive Ability
+
+[CONTROLBAR:SpecialAbilityZealotCharge]
+Value=Dragon Lord's Wrath (&V)
+
+[CONTROLBAR:ToolTipSpecialAbilityZealotCharge]
+Value=Requires Level 10
+Valueline2=Khren-ták channels the might of the raging dragon, breathing fire over an area and dealing heavy damage to units and structures 
+Valueline3=Left click icon then left click on target
+
+[OBJECT:RhunRazari]
+Value=Razári
+
+[CONTROLBAR:RhunRazariHotkey]
+Value=Razári (&E)
+
+[CONTROLBAR:RhunRazariRevive]
+Value=Revive the fallen hero, Razári
+
+[CONTROLBAR:RhunRazariRecruit]
+Value=Recruit the Balchoth Priestess 
+Valueline2=
+Valueline3= The last of the void-priestesses, Razari kindles a dark flame of remembrance for the ruined tribes of the Balchoth. Meddling in strange magics, she believes in the restoration of her people, though her methods betray a darker influence.
+
+[CONTROLBAR:ManifestedTerror]
+Value=Manifested Terror (&W)
+
+[CONTROLBAR:ToolTipManifestedTerror]
+Value=Rázari practices forbidden sorcery, channeling the powers of the void and stealing health with every hit. 
+Valueline2=Passive Ability 
+Valueline3= 
+Valueline4= When activated, Rázari damages nearby units and pulses fear to them for 10 seconds 
+Valueline5= Left click to activate
+
+[CONTROLBAR:RazariFeastOfSouls]
+Value=Feast of Souls (&T)
+
+[CONTROLBAR:ToolTipRazariFeastOfSouls]
+Value=Requires Level 4
+Valueline2=Enemy units in target area suffer damage over time and deal 25% less damage for 5 seconds 
+Valueline3=Heals Razári and nearby friendly non-mechanical units 
+Valueline4=At level 8, the amount allies are healed by greatly increases 
+Valueline5= Left click icon then left click on target area
+
+[CONTROLBAR:RazariFellOmen]
+Value=Fell Omen (&R)
+
+[CONTROLBAR:ToolTipRazariFellOmen]
+Value=Requires Level 2
+Valueline2= Summons a Baleful Ward, which reduces enemy vision and speed 
+Valueline3= by 15%, and reduces the cooldown of spells Rázari casts near it by 50% 
+Valueline4= 
+Valueline5= At level 5, Baleful Wards slowly damage nearby units 
+Valueline6= 
+Valueline7= Limited to 3 
+Valueline8= Left click icon then left click on target area
+
+[CONTROLBAR:RazariWhispersOfVoid]
+Value=Whispers of the Void (&C)
+
+[CONTROLBAR:TooltipRazariWhispersOfVoid]
+Value=Requires Level 7
+Valueline2= Causes targeted units to become hostile
+Valueline3= towards each other for 15 seconds
+Valueline4=
+Valueline5= Can be cast on Baleful Wards to make them afflict nearby enemy units with damage over time, destroying them in the process. 
+Valueline6= Left click icon then left click on target area
+
+[CONTROLBAR:WrathBalchoth]
+Value=Wrath of the Balchoth (&V)
+
+[CONTROLBAR:ToolTipWrathBalchoth]
+Value=Requires Level 10 
+Valueline2= Gain control of targeted enemies for 30 seconds
+Valueline3=Dominated enemy units gain +50% damage but lose -50% armour whilst controlled
+Valueline4=Left click icon then left click on target enemies
+
+[OBJECT:RhunDragon]
+Value=Khâronax
+
+[CONTROLBAR:GildedMajesty]
+Value=Gilded Majesty
+
+[CONTROLBAR:ToolTipGildedMajesty]
+Value=As long as Khâronax is alive on the battlefield, Slave Farms and Foundries produce +15% more resources
+Valueline2=Passive ability
+
+[CONTROLBAR:SpecialAbilityKhanoraxFlamestrike]
+Value=Flamestrike (&R)
+
+[CONTROLBAR:ToolTipSpecialAbilityKhanoraxFlamestrike]
+Value=Sends a fireball at selected target 
+Valueline2= Left click icon then left click on target
+
+[CONTROLBAR:GlaurungsWrath]
+Value=Glaurung's Wrath (&T)
+
+[CONTROLBAR:TooltipGlaurungsWrath]
+Value=Causes enemy units to flee in terror 
+Valueline2= Left click to activate
+
+[CONTROLBAR:SpecialAbilityGoldenDrakesFavour]
+Value=Golden Drake's Favour (&C)
+
+[CONTROLBAR:ToolTipGoldenDrakesFavour]
+Value=Grants Jagged Steel Armour, Cruel Blades and Barbed Arrows to units in radius
+Valueline2= Left click on icon then left click on target units
+
+[CONTROLBAR:SpecialAbilityFlamingRuin]
+Value=Flaming Ruin (&V)
+
+[CONTROLBAR:ToolTipSpecialAbilityFlamingRuin]
+Value=Breathes fire over a selected area 
+Valueline2= Left click icon then left click on target area
+
+[OBJECT:RhunBalchoth]
+Value=Balchoth Warrior
+
+[OBJECT:RhunBalchothHorde]
+Value=Balchoth Warriors
+
 [OBJECT:MordorVariag]
 Value=Variag of Khand
 
@@ -66152,8 +66453,19 @@ Value=Contest of Wills (&V)
 
 [CONTROLBAR:ToolTipDenethorContest]
 Value=Requires Level 10 
-Valueline2= When cast on a friendly hero, increases damage output by +100% at the cost of -50% armour 
-Valueline3= When cast on an enemy hero, causes the hero to temporarily be stunned and lose -33% armour 
+Valueline2= When cast on a friendly hero, increases damage output by +100% at the cost of -50% armour for 15 seconds
+Valueline3= When cast on an enemy hero, causes the hero to lose -33% armour and speed for 15 seconds
+Valueline4= Left click on icon then left click on target hero
+
+
+[CONTROLBAR:AnarionLordofAnor_LAS]
+Value=Lord of Minas Anor (&R)
+
+
+[CONTROLBAR:ToolTipAnarionLordofAnor_LAS]
+Value=Requires Level 7 
+Valueline2= When cast on a friendly hero, increases damage output by +100% at the cost of -50% armour for 15 seconds
+Valueline3= When cast on an enemy hero, causes the hero to lose -33% armour and speed for 15 seconds
 Valueline4= Left click on icon then left click on target hero
 
 
