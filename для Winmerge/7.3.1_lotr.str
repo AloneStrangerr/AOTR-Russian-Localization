@@ -66220,12 +66220,11 @@ Value=Swarm (&W)
 
 [CONTROLBAR:ToolTipGreatGoblinSwarm]
 Value=Summons Goblin-town Warriors 
-Valueline2= Number of summoned hordes summoned is analogous to the Great Goblin's rank 
+Valueline2= Number of hordes summoned is analogous to the Great Goblin's rank 
 Valueline3=
 Valueline4= Modifier Type: Buff 
-Valueline5= When activated, nearby Moria-orcs and Goblin-towers gain +15% speed and damage 
-Valueline6= Stacks with leaderships, spells and other buffs 
-Valueline7= Left click to activate
+Valueline5= When activated, nearby Moria-orcs and Goblin-towers gain +15% speed and damage for 20 seconds
+Valueline6=Left click to activate
 
 
 [CONTROLBAR:GreatGoblinSwarm2]
@@ -66245,14 +66244,13 @@ Value=Goblin-town Warriors (&W)
 
 
 [CONTROLBAR:ToolTipBuildGoblinTownFighterHorde]
-Value=Strong vs. Pikemen 
+Value=Strong vs. Pikemen  
 Valueline2=
-Valueline3= Horde Bonus 
+Valueline3= Greater Swarm 
 Valueline4= Modifier Type: Spell 
-Valueline5= All Moria Orc Screechers, Moria Orc Archers and Goblin-town Warriors gain +50% damage when gathered in numbers of 150 or more 
-Valueline6= Stacks with buffs, Leadership and other spells 
-Valueline7=
-Valueline8= This wretched swarm of diseased, mutilated troglodytes is united by one thing alone: their fearful worship of The Great Fat One - an abominable orcish warlord who has managed to wield their collective villainy to construct the great settlement of Goblin-town.
+Valueline5= Goblin-town Warriors gain +20% damage and armour for every two Goblin-town battalions, up to a maximum of +100% damage and armour
+Valueline6=
+Valueline7= This wretched swarm of diseased, mutilated troglodytes is united by one thing alone: their fearful worship of The Great Fat One - an abominable orcish warlord who has managed to wield their collective villainy to construct the great settlement of Goblin-town.
 
 
 [CONTROLBAR:GreatGoblinLeadership]
@@ -66262,12 +66260,11 @@ Value=The Goblin King (&R)
 [CONTROLBAR:ToolTipGreatGoblinLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= Nearby Moria Orcs and Goblin-towners gain +33% damage and +33% armour and resistance to fear and terror
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability 
-Valueline5=
-Valueline6= At Level 7 
-Valueline7= Gives targeted units excellent experience 
-Valueline8= Left click icon then left click on target units
+Valueline3=Passive ability 
+Valueline4=
+Valueline5= At Level 7 
+Valueline6= Gives targeted units excellent experience 
+Valueline7= Left click icon then left click on target units
 
 
 [CONTROLBAR:GreatGoblinDemand]
@@ -66299,12 +66296,10 @@ Value=Abominable Song (&V)
 [CONTROLBAR:TooltipGreatGoblinAbominableSong]
 Value=Requires Level 9 
 Valueline2=Modifier Type: Spell and Active Debuff 
-Valueline3= Nearby friendly units gain +33% damage and +33% armour
-Valueline4= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline5=Nullifies enemy Leadership 
-Valueline6= Stacks With Buffs, Leadership and other Spells 
-Valueline7= Does not stack with other Debuffs 
-Valueline8=Left click icon to activate
+Valueline3= Nearby friendly units gain +33% damage and +33% armour for 30 seconds
+Valueline4= Nearby enemy units suffer -25% damage and -20% armour for 30 second
+Valueline5=Nullifies enemy leadership
+Valueline6=Left click icon to activate
 
 
 [OBJECT:Antequaries]
@@ -66592,10 +66587,8 @@ Value=Will of Sauron
 [CONTROLBAR:ToolTipMollokkWillofSauron]
 Value=Requires Level 3 
 Valueline2=Modifier Type: Spell 
-Valueline3= Mollok gains +20% resistance against normal arrows 
-Valueline4= Stacks With Buffs, Leadership and other Spells 
-Valueline5= 
-Valueline6= Passive ability
+Valueline3= Mollok gains +20% resistance against normal arrows
+Valueline4= Passive ability
 
 
 [CONTROLBAR:FaithfulGuardianLeadership]
@@ -66606,8 +66599,12 @@ Value=Faithful Guardian
 Value=Modifier Type: Leadership 
 Valueline2= Fountain Guards grant nearby structures +50% armour
 Valueline3= Passive ability
-Valueline4= 
-Valueline5= Passive ability
+
+
+[CONTROLBAR:FaithfulGuardianSlayer]
+Value=Expel (&T)
+
+
 [CONTROLBAR:TooltipFaithfulGuardianSlayer]
 Value=Requires Level 3 
 Valueline2= Fountain Guards deal +33% damage and knockback enemy units for 30 seconds 
@@ -66695,10 +66692,9 @@ Value=Strong vs. Cavalry and Heroes
 Valueline2=
 Valueline3= Horde Bonus 
 Valueline4= Modifier Type: Spell 
-Valueline5= All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 150 or more 
-Valueline6= Stacks With Buffs, Leadership and other Spells
-Valueline7= 
-Valueline8= Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr.
+Valueline5= Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more
+Valueline6= 
+Valueline7= Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr.
 
 
 
@@ -66732,9 +66728,7 @@ Value=Chieftain of Mount Gram
 Value=Modifier Type: Leadership 
 Valueline2=Nearby Wargs and Cavalry gains
 Valueline3= +25% damage, +15% speed and earn experience 50% faster
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= 
-Valueline6= Passive ability
+Valueline4= Passive ability
 
 
 [CONTROLBAR:GolfimbulWargSummon]
@@ -66754,12 +66748,10 @@ Value=Hatred of the Fair Folk (&T)
 [CONTROLBAR:TooltipGolfimbulHatred]
 Value=Requires Level 8 
 Valueline2= Modifier Type: Spell 
-Valueline3= Golfimbul seeks to exact his revenge upon the Fair-folk. 
+Valueline3= Golfimbul seeks to exact his revenge upon the Fair-folk
 Valueline4= Golfimbul and nearby Wolves, Wargs, and Wolf-Riders gain
-Valueline5=+100% damage, +100% armour and -50% Trample Deceleration 
-Valueline6= Stacks with Leadership and Spells 
-Valueline7= 
-Valueline8= Left click to activate
+Valueline5=+100% damage, +100% armour and -50% trample deceleration for 20 seconds
+Valueline6= Left click to activate
 
 
 [CONTROLBAR:AzogSpawnOfTheDefiler]
@@ -66787,16 +66779,16 @@ Value=Left click to mount/dismount Azog's enormous White Warg
 
 
 [UPGRADE:HardenedSkin]
-Value=Wyrm-armor
+Value=Wyrm-armour
 
 
 [CONTROLBAR:PurchaseTechnologyHardenedSkin]
-Value=Research Wyrm-Armor (&E)
+Value=Research Wyrm-Armour (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyHardenedSkin]
-Value=Allows Wyrms to purchase the Wyrm-armor upgrade 
-Valueline2= When equipped increases armor against Arrows and Pikes
+Value=Allows Wyrms to purchase the Wyrm-armour upgrade 
+Valueline2= When equipped increases armour against Arrows and Pikes
 
 
 [TOOLTIP:LackLevel2FireWyrmLair]
@@ -66804,17 +66796,17 @@ Value=Requires Wyrm Lair level 2
 
 
 [CONTROLBAR:PurchaseUpgradeHardenedSkin]
-Value=Wyrm-Armor (&R)
+Value=Wyrm-Armour (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeHardenedSkin]
-Value=Upgrades the Wyrm with Wyrm-armor 
-Valueline2= increases the armor against Pierce by +30%
+Value=Upgrades the Wyrm with Wyrm-armour 
+Valueline2= increases the armour against Pierce by +30%
 
 
 [TOOLTIP:LackHardenedSkin]
 Value=Research this upgrade at Wyrm Lair to enable this equipment 
-Valueline2= When equipped increases the armor against Pierce by +30% 
+Valueline2= When equipped increases the armour against Pierce by +30% 
 
 
 [CONTROLBAR:PurchaseUpgradeWildFortressDrumsInTheDeep]
@@ -66861,8 +66853,7 @@ Value=Dol Amroth Banners (&R)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDolFortressBanners]
 Value=Modifier Type: Leadership 
-Valueline2= Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster. 
-Valueline3= Stacks with Buffs and Spells
+Valueline2= Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster
 
 
 [CONTROLBAR:PurchaseUpgradeDolFortressMoat]
@@ -66934,9 +66925,8 @@ Value=Morgul Influence
 [CONTROLBAR:ToolTipDreadVisageVanguard]
 Value=Requires Level 2 
 Valueline2= Modifier Type: Passive Debuff 
-Valueline3= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline4= Does not stack with other Debuffs 
-Valueline5=Passive ability
+Valueline3= Nearby enemy units suffer -15% damage and -10% armour
+Valueline4=Passive ability
 
 
 [CONTROLBAR:VanguardMorgulBlade]
@@ -66946,7 +66936,7 @@ Value=Morgul Blade (&R)
 [CONTROLBAR:ToolTipVanguardMorgulBlade]
 Value=Requires Level 4 
 Valueline2= Targeted enemy takes poison damage over 
-Valueline3= time and becomes a wight upon death 
+Valueline3= time for 10 seconds and becomes a wight upon death 
 Valueline4= Left click icon then left click on target
 
 
@@ -66969,7 +66959,7 @@ Value=Legion of Morgul
 
 
 [CONTROLBAR:ConstructMordorMorgulOrcHorde]
-Value=Legions of Morgul (&S)
+Value=Legions of Morgul (&D)
 
 
 [CONTROLBAR:LW_Unit_MordorMorgulOrcHorde]
@@ -66985,9 +66975,9 @@ Valueline3=Strong vs. Pikemen
 [CONTROLBAR:ToolTipBuildMordorMorgulOrcHorde]
 Value=Requires the Morgul Sorcery upgrade
 Valueline2= Elite Infantry 
-Valueline3=Strong vs. Pikemen
+Valueline3=Strong vs. Pikemen 
 Valueline4=
-Valueline5=These orcs have been hardened by years of war with Gondor and are amongst the elite of Sauron's armies.
+Valueline5= These orcs have been hardened by years of war with Gondor and are amongst the elite of Sauron's armies.
 
 
 [CONTROLBAR:LW_ToolTipBuild_MordorMorgulOrcHorde]
@@ -67039,8 +67029,8 @@ Value=Serrated Armour
 
 [CONTROLBAR:ToolTipSerratedArmor]
 Value=Requires Level 3
-Valueline2=A small percentage of received melee damage
-Valueline3=is redirected to the attacker
+Valueline2=A small amount of received melee damage
+Valueline3=is reflected back to the attacker
 Valueline4=Passive ability
 
 
@@ -67077,9 +67067,8 @@ Value=Intimidation
 
 [CONTROLBAR:ToolTipIntimidation]
 Value=Modifier Type: Passive Debuff 
-Valueline2= Nearby enemy heroes and hero units suffer -25% damage and -20% armour 
-Valueline3= Does not stack with other Debuffs 
-Valueline4=Passive ability
+Valueline2= Nearby enemy heroes and hero units suffer -25% damage and -20% armour
+Valueline3=Passive ability
 
 
 [CONTROLBAR:GreyHost]
@@ -67141,10 +67130,9 @@ Value=Fierce Loyalty
 
 [CONTROLBAR:ToolTipBeregondFierceLoyalty]
 Value=Requires Level 7 
-Valueline2= Modifier Type: Spell 
+Valueline2= Modifier Type: Leadership 
 Valueline3= Faramir, Boromir, and Pippin gain +33% armour and +33% damage when near Beregond 
-Valueline4= Stacks with Leadership, Buffs, and Spells 
-Valueline5= Passive ability
+Valueline4=Passive ability
 
 
 [CONTROLBAR:BeregondGuardoftheCitadel]
@@ -67155,8 +67143,7 @@ Value=Guard of the Citadel
 Value=Requires Level 5 
 Valueline2= Modifier Type: Spell 
 Valueline3= Nearby structures gain +30% armour 
-Valueline4= Stacks with Leadership, Buffs, and Spells 
-Valueline5= Passive ability
+Valueline4=Passive ability
 
 
 [CONTROLBAR:DefenderoftheWhiteCity]
