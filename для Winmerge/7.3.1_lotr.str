@@ -65738,6 +65738,18 @@ Valueline2= Heltân-yûnax quickly replenish their forces with 4 new recruits
 Valueline3=Left click to activate
 
 
+[CONTROLBAR:ReinforcementRhun]
+Value=Reinforcements from Rhûn
+
+[CONTROLBAR:TooltipReinforcementRhun]
+Value=As long as there is a Rhûn Commander on the battlefield, structure is permanently able to recruit units from Rhûn
+
+
+[CONTROLBAR:ReinforcementWR]
+Value=Silvan Alliance
+
+[CONTROLBAR:TooltipReinforcementWR]
+Value=As long as there is a Woodland Realm Commander on the battlefield, structure is permanently able to recruit units from Woodland Realm
 
 
 [OBJECT:AuxillaryArcher]
@@ -65770,7 +65782,143 @@ Valueline6= All Serf Spearmen and Serf Bowmen gain +35% armour when gathered in 
 Valueline7= 
 Valueline8=The hunters of the plains and darkwoods of the distant East are not free: they belong to whichever warlord lays claim upon their hunting grounds, and must serve him when called upon in times of war.
 
+[OBJECT:EasterlingChariot]
+Value=Âkhax-rúmax
+
+
+[BANNERUI:EasterlingChariot]
+Value=Âkhax-rúmax
+
+
+[CONTROLBAR:LW_Unit_EasterlingChariot]
+Value=Âkhax-rúmax
+
+
+[CONTROLBAR:LW_ToolTip_EasterlingChariot]
+Value=Golden Chariot
+Valueline2=Unit Type: Basic Cavalry
+Valueline3=Strong vs. Archers and Swordsmen
+
+
+[CONTROLBAR:ConstructEasterlingChariot]
+Value=Âkhax-rúmax (&T)
+
+
+[CONTROLBAR:ToolTipBuildEasterlingChariot]
+Value=Golden Chariot 
+Valueline2= Requires Level 3 Horsemaster's Campground 
+Valueline3=Strong vs. Swordsmen and Archers
+Valueline4=
+Valueline5= Great chariots thunder across the vast plains of the Eastlands, driven by the warlords that lead their armies as they are summoned by the Dark Lord for his final war upon Gondor.
+
+
+[CONTROLBAR:SpecialAbilityWainriders]
+Value=Wainriders
+
+[CONTROLBAR:ToolTipSpecialAbilityWainriders]
+Value=Increases the armour of nearby Golden Cataphracts and Variag Outriders by +25%
+Valueline2=Passive ability
+
+[CONTROLBAR:RunThemDown]
+Value=Run Them Down! (&R)
+
+[CONTROLBAR:TooltipRunThemDown]
+Value=Requires Level 2
+Valueline2= Modifier Type: Weapon 
+Valueline3= The Chariot gains +25% speed and -50% trample deceleration at the cost of -25% armour for 10 seconds
+Valueline4=Left click to activate
+
+
+[CONTROLBAR:SpecialAbilityPackTactics]
+Value=Pack Tactics
+
+[CONTROLBAR:ToolTipSpecialAbilityPackTactics]
+Value=Horde Bonus 
+Valueline2= Modifier Type: Spell 
+Valueline3= All Khandish Wardogs gain +25% damage and +25% armour when gathered in numbers of 30 or more
+
+
+[OBJECT:HordeMordorDragonKnights]
+Value=Khârtan-khâmurâin
+
+
+[OBJECT:HordeMordorDragonKnight]
+Value=Khârtan-khâmurân
+
+
+[CONTROLBAR:ConstructDragonKnightHorde]
+Value=Khârtan-khâmurâin (&D)
+
+
+[CONTROLBAR:ToolTipConstructDragonKnightHorde]
+Value=Dragon Knights 
 Valueline2= Requires Level 3 Easterling Garrison
+Valueline3=Strong vs. Infantry 
+Valueline4=
+Valueline5= The Dragon Knights are an order of Easterling warriors who travel the land and serving whichever warlord is willing to pay their considerable retainer. The final rite of passage a prospective Dragon Knight must endure is to travel high into distant mountains and seek out a hoarding fire-drake and retrieve a gemstone - whether through wit, strength, or flattery.
+Valueline6=
+Valueline7= Limited to 3
+
+
+[CONTROLBAR:SpecialAbilityDKGazeDragon]
+Value=Gaze of the Dragon
+
+[CONTROLBAR:ToolTipSpecialAbilityDKGazeDragon]
+Value=Nearby enemies suffer -15% damage
+Valueline2= Causes fear
+Valueline3=Passive ability
+
+
+[CONTROLBAR:AccursedWyrmsfire]
+Value=Accursed Wyrmsfire (&T)
+
+[CONTROLBAR:ToolTipAccursedWyrmsfire]
+Value=Requires Rank 7 
+Valueline2= For 20 seconds, Dragon Knights gain +50% speed and armour, and deal fire damage
+Valueline3= Left click to activate
+
+
+[CONTROLBAR:FlamesofAncalagon]
+Value=Wyrm's Wisdom (&R)
+
+[CONTROLBAR:ToolTipFlamesofAncalagon]
+Value=Requires Level 3
+Valueline2=The Dragon Knights share a fraction of their might with a target unit, permanently granting it 25% damage
+Valueline3= Left click then left click on target 
+
+[OBJECT:MordorFlamesprayer]
+Value=Gâsh-gôrtân
+
+
+[CONTROLBAR:ConstructFlamesprayer]
+Value=Gâsh-gôrtân (&W)
+
+
+[CONTROLBAR:ToolTipConstructFlamesprayer]
+Value=Flame-destroyer
+Valueline2= Strong vs. Infantry and Structures 
+Valueline3=
+Valueline4= Dragon-veneration in Rhûn developed long ago as an offshoot of Melkor-worship. Many have attempted to harness the power of these creatures, but to little enduring success. The Flame-destroyer harbours the power of the fire-drake without the unpredictability and personal danger that is often associated with them, laying waste to enemy armies and fortifications at the word of an officer rather than at the strange whims of a dragon.
+
+
+[CONTROLBAR:UnstableConcoction]
+Value=Unstable Concoction
+
+
+[CONTROLBAR:ToolTipFlamesprayerUnstableConcoction]
+Value=The Flame-destroyer explodes if destroyed via fire, damaging all surrounding units and structures
+Valueline2=Passive ability
+
+
+[CONTROLBAR:FlamesprayerPressureBlast]
+Value=Pressure Blast (&R)
+
+[CONTROLBAR:ToolTipFlamesprayerPressureBlast]
+Value=Blasts away enemies in front of the Flame-destroyer
+Valueline2=Deals no damage
+Valueline3=Left click to activate
+
+
 [OBJECT:RhunCannon]
 Value=Khârtan-gâsh
 
@@ -65780,6 +65928,15 @@ Value=Khârtan-gâsh (&E)
 [CONTROLBAR:ConstructRhunCannon_Serf]
 Value=Khârtan-gâsh (&E)
 
+
+[CONTROLBAR:ToolTipHoundmaster]
+Value=Houndmaster Bélohk is accompanied by three Khandish Wardogs
+Valueline2= Passive ability 
+
+[CONTROLBAR:ToolTipVeteransRule]
+Value=Requires Level 3
+Valueline2=Modifier Type: Leadership 
+Valueline3= Dragon Knights near Khren-ták gain experience +50% faster
 [OBJECT:MordorVariag]
 Value=Variag of Khand
 
@@ -65799,29 +65956,27 @@ Value=Variag of Khand Battalion
 [CONTROLBAR:LW_ToolTip_MordorVariagHorde]
 Value=
 Valueline2=Unit Type: Elite Infantry
-Valueline3=Strong vs. Pikemen
+Valueline3=Strong vs. Pikemen and Archers
 
 
 [CONTROLBAR:ToolTipBuildMordorVariagHorde]
-Value=Strong vs. Pikemen 
+Value=Strong vs. Pikemen and Archers 
 Valueline2= 
 Valueline3= The Variags of Khand were a formidable race of warriors, born from a long history of conflict with the lands of Gondor.
 
 
 [CONTROLBAR:LW_ToolTipBuild_MordorVariagHorde]
 Value=Unit Type: Elite Infantry
-Valueline2=Strong vs. Pikemen
+Valueline2=Strong vs. Pikemen and Archers
 Valueline3=
-
 
 [CONTROLBAR:TooltipDenethorPalantir]
 Value=Can be cast to reveal shroud for 2 minutes
 Valueline2= 
 Valueline3= Modifier Type: Active Debuff 
-Valueline4= Targeted units, both friend and foe, lose all leadership 
-Valueline5= Does not stack with other Debuffs 
-Valueline6= 
-Valueline7= Left click on icon then left click on target area
+Valueline4= Targeted units, both friend and foe, lose all leadership for 30 seconds
+Valueline5= 
+Valueline6= Left click on icon then left click on target area
 
 
 [CONTROLBAR:DenethorPalantir]
@@ -65834,16 +65989,15 @@ Value=In Service of the Steward (&C)
 
 [CONTROLBAR:ToolTipDenethorSummon]
 Value=Requires Level 6 
-Valueline2= Summons a temporary battalion of Citadel Guards 
+Valueline2= Summons a temporary battalion of Guards of the Citadel 
 Valueline3= At level 10, also temporarily summons Berethor 
 Valueline4= Left click on icon to activate
 
 
 [CONTROLBAR:ToolTipDenethorFailingRule]
 Value=Modifier Type: Active Debuff 
-Valueline2= Targeted units, both friend and foe, lose all leadership. 
-Valueline3= Does not stack with other Debuffs 
-Valueline4= Left click icon then left click on target area
+Valueline2= Targeted units, both friend and foe, lose all leadership 
+Valueline3=Left click icon then left click on target area
 
 
 [CONTROLBAR:DenethorFailingRule]
@@ -65852,13 +66006,13 @@ Value=His &Rule Is Failing
 
 [CONTROLBAR:ToolTipDenethorFavor]
 Value=Requires Bulwark of the West upgrade 
-Valueline2= Summons two battalions of Citadel Guards 
+Valueline2= Summons two battalions of Guards of the Citadel 
 Valueline3= 
 Valueline4= Left click icon then left click on target area
 
 
 [CONTROLBAR:DenethorFavor]
-Value=Stalwart Defence (&T)
+Value=Stalwart Defense (&T)
 
 
 [CONTROLBAR:DenethorSteward]
@@ -65871,14 +66025,13 @@ Valueline2= Allows Denethor to rank up
 Valueline3= Left click to purchase upgrade 
 Valueline4=
 Valueline5= Modifier Type: Leadership 
-Valueline6= Rank 1: Allied units near Denethor gain +50% experience gain 
+Valueline6= Rank 1: Allied units near Denethor gain +25% experience gain 
 Valueline7= Faramir loses -15% armour and -15% experience gain 
 Valueline8= Rank 3: Allied units near Denethor gain +33% armour 
 Valueline9= Gandalf loses -15% armour and -15% experience gain 
 Valueline10= Rank 6: Allied units near Denethor gain +33% damage 
-Valueline11= Elessar loses -15% armour 
-Valueline12= Stacks with Buffs and Spells 
-Valueline13= Passive ability
+Valueline11= Elessar loses -15% armour
+Valueline12=Passive ability
 
 
 [CONTROLBAR:ToolTipStewardLvl10]
@@ -65974,7 +66127,7 @@ Value=Summons King Elessar accompanied by his Royal Guards
 Valueline2= His guards are temporary, but the King lasts until killed 
 Valueline3= Modifier Type: Buff 
 Valueline4= Nearby units gain +50% armour, immunity to fear 
-Valueline5= and knockback and trample resistance for a brief time 
+Valueline5= and knockback and trample resistance for 20 seconds
 Valueline6=Left click on icon then left click on target area
 
 
@@ -65995,10 +66148,10 @@ Value=Sworn Allegiance
 
 
 [CONTROLBAR:TooltipSwornAllegiance]
-Value=Can be cast on a barracks or an archery range to temporarily decrease recruitment time for Fiefdom troops by 10 seconds 
+Value=All Gondor Barracks, Archery Range and Stables have decreased recruitment time of Fiefdom troops by 33% 
 Valueline2= The troops come equipped with Armaments of the White City 
 Valueline3= Effect lasts for 60 seconds 
-Valueline4= Left click on icon then left click on target building
+Valueline4= Left click to activate
 
 
 [CONTROLBAR:TooltipSummonDolAmrothAllies]
@@ -66021,7 +66174,7 @@ Valueline2= Left click on icon then left click on target area
 
 
 [CONTROLBAR:TooltipSummonSpawnDenethor]
-Value=Summons Denethor and his contingent of Citadel Guard.  
+Value=Summons Denethor and his contingent of Guards of the Citadel  
 Valueline2= Left click on icon then left click on target area
 
 
@@ -68295,40 +68448,88 @@ Value=Unit Type: Elite Infantry
 Valueline2=Strong vs. Pikemen
 
 [OBJECT:MordorEasterlingKataphract]
-Value=Easterling Kataphrakt
+Value=Khân-kâtaphrax
 
 
 [OBJECT:HordeMordorEasterlingKataphract]
-Value=Easterling Kataphrakts
+Value=Khân-kâtaphranax
 
 
 [CONTROLBAR:ConstructMordorEasterlingKataphractHorde]
-Value=Easterling Kataphrakts (&S)
+Value=Khân-kâtaphranax (&S)
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingKataphractHorde]
-Value=Easterling Kataphrakt Battalion
+Value=Khân-kâtaphranax Battalion
 
 
 [CONTROLBAR:LW_ToolTip_MordorEasterlingKataphractHorde]
-Value=
+Value=Golden Cataphracts
 Valueline2=Unit Type: Elite Cavalry
 Valueline3=Strong vs. Archers
 
 
 [CONTROLBAR:ToolTipBuildMordorEasterlingKataphractHorde]
-Value=Requires Level 3 Encampment and He Is Gathering All Evil To Him upgrade 
+Value=Golden Cataphracts
 Valueline2=Requires Level 3 Easterling Garrison and He Is Gathering All Evil To Him upgrade 
+
+
+[CONTROLBAR:ToolTipBuildMordorEasterlingKataphractHordeWotrInn]
+Value=Golden Cataphracts 
 Valueline2=Elite Cavalry 
 Valueline3=Strong vs. Archers 
 Valueline4= 
 Valueline5= 'Easterling Kataphrakts are heavy cavalry - nigh unstoppable killing machines that will sweep enemy cavalrymen from their saddles and ride down unprepared foot soldiers like a scythe through wheat.'
 
 
+[CONTROLBAR:ConstructMordorEasterlingKataphractHorde_Rhun]
+Value=Khân-kâtaphranax (&R)
+
+
+[CONTROLBAR:ToolTipBuildMordorEasterlingKataphractHorde_Rhun]
+Value=Golden Cataphracts
+Valueline2=Requires Level 2 Horsemaster's Campground 
+
+
 [CONTROLBAR:LW_ToolTipBuild_MordorEasterlingKataphractHorde]
-Value=Unit Type: Elite Cavalry
+Value=Golden Cataphracts
+
+
+[OBJECT:RhunWardog]
+Value=Khandish Wardog
+
+
+[OBJECT:RhunWardogAlpha]
+Value=Khandish Wardog Alpha
+
+
+
+[OBJECT:HordeRhunWardog]
+Value=Khandish Wardogs
+
+
+[CONTROLBAR:ConstructRhunWardogHorde]
+Value=Khandish Wardogs (&W)
+
+
+[CONTROLBAR:LW_Unit_RhunWardogHorde]
+Value=Khandish Wardogs Battalion
+
+
 Valueline2=Strong vs. Archers
 Valueline3=
+
+
+[OBJECT:RhunVariagHorseArcher]
+Value=Variag Outrider
+
+
+[OBJECT:HordeRhunVariagHorseArcher]
+Value=Variag Outriders
+
+
+[CONTROLBAR:ConstructRhunVariagHorseArcherHorde]
+Value=Variag Outriders (&E)
 
 
 
@@ -73553,15 +73754,15 @@ Value=Easterling Swordsmen
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingKataphractHordePlural]
-Value=Easterling Kataphrakt Battalions
+Value=Khân-kâtaphranax Battalions
 
 
 [BANNERUI:MordorEasterlingKataphract]
-Value=Easterling Kataphrakt
+Value=Khân-kâtaphranax
 
 
 [BANNERUI:MordorEasterlingKataphracts]
-Value=Easterling Kataphrakts
+Value=Khân-kâtaphranax
 
 
 [CONTROLBAR:LW_Unit_WildTrollSling]
