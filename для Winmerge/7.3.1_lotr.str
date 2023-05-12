@@ -66719,6 +66719,62 @@ Value=Wraiths on Wings!
 Value=He Is Gathering All Evil To Him
 
 
+[CONTROLBAR:SummonHarondorRaiders]
+Value=Ride of the Black Serpent
+
+
+[CONTROLBAR:RecklessFervour]
+Value=Reckless Fervour
+
+
+[CONTROLBAR:MorgulAllies]
+Value=Herald of the Dark Tower
+
+
+[CONTROLBAR:ArrowVolleyRhun]
+Value=Arrow Barrage
+
+
+[CONTROLBAR:EndlessTwilight]
+Value=Endless Twilight
+
+
+[CONTROLBAR:ReversalofFortune]
+Value=Reversal Of Fortune
+
+
+[CONTROLBAR:ToTheLastMan]
+Value=To the Last Man (&W)
+
+
+[CONTROLBAR:TooltipToTheLastMan]
+Value=Temporarily increases the production speed of Rhûn infantry for 30 seconds 
+Valueline2= Left click to activate
+
+
+[CONTROLBAR:SummonRhunWarBanner]
+Value=Banner of the Khân-úl-khârtan
+
+
+[OBJECT:RhunBanner]
+Value=Banner of the Khân-úl-khârtan
+
+
+[OBJECT:RhunBannerDescription]
+Value=The banner provides increasingly powerful bonuses the longer it is alive 
+Valueline2= Initial cast: +25% armour and +50% experience gain 
+Valueline3= 30 seconds: +50% armour, +25% damage, and +100% experience gain 
+Valueline4=60 seconds: +50% armour, +50% damage, +100% experience gain, and resistance to knockback
+
+
+[CONTROLBAR:WarChantRhun]
+Value=Horn of the Great Khân
+
+
+[CONTROLBAR:RhunDragonAlly]
+Value=Flight of the Gilded Dragon
+
+
 [OBJECT:GreatGoblinTotem]
 Value=Totem of the Swarm
 
@@ -66751,6 +66807,69 @@ Valueline3= Left click on icon then left click on target area
 [CONTROLBAR:TooltipSummonHarondorRaiders]
 Value=Summon three battalions of Harondor Raiders to the battlefield, commanded by Sûladan 
 Valueline2= Left click on icon then left click on target area
+
+
+[CONTROLBAR:ToolTipRecklessFervour]
+Value=Partially heals units and replaces one dead man per battalion 
+Valueline2= Debuffs both allied and enemy armour by 20% 
+Valueline3= Left click icon then left click on target units
+
+
+[CONTROLBAR:TooltipArrowVolleyRhun]
+Value=Bombards an area with a volley of arrows 
+Valueline2= Left click icon then left click on target area
+
+
+[CONTROLBAR:TooltipRhunDragonAlly]
+Value=Summons Khâronax the Opulent, Fire-drake of the East 
+Valueline2= Left click icon then left click on pathable location
+
+
+[CONTROLBAR:TooltipMorgulAllies]
+Value=Summons the Mouth of Sauron and his Acolytes 
+Valueline2= Left click on icon then left click on target area
+
+
+[CONTROLBAR:TooltipReversalofFortune]
+Value=Enemy units within the radius lose all leadership
+Valueline2=and move 20% slower for 10 seconds
+Valueline3=Allied units within the radius lose all debuffs and move 20% faster
+Valueline4=
+Valueline5=Left click icon then left click on target units
+
+
+[CONTROLBAR:TooltipSummonRhunWarBanner]
+Value=Summons an enormous banner of Rhûn that provides increasingly powerful bonuses the longer it is alive 
+Valueline2= Initial cast: +25% armour and +50% experience gain 
+Valueline3= 30 seconds: +50% armour, +25% damage, and +100% experience gain 
+Valueline4=60 seconds: +50% armour, +50% damage, +100% experience gain, and resistance to knockback 
+Valueline5=  
+Valueline6= Limited to 1 
+Valueline7= Left click icon then left click on pathable location
+
+
+[CONTROLBAR:RhunWarBannerBuffLevel1]
+Value=Desperate Gambit Level 1
+
+
+[CONTROLBAR:ToolTipRhunWarBannerBuffLevel1]
+Value=Nearby allies gain +25% armour and +50% experience gain. Desperate Gambit's bonuses increase the longer the banner is alive
+
+
+[CONTROLBAR:RhunWarBannerBuffLevel2]
+Value=Desperate Gambit Level 2
+
+
+[CONTROLBAR:ToolTipRhunWarBannerBuffLevel2]
+Value=Nearby allies gain +50% armour, +25% damage, and +100% experience gain. The banner gains 1000 additional health
+
+
+[CONTROLBAR:RhunWarBannerBuffLevel3]
+Value=Desperate Gambit Level 3
+
+
+[CONTROLBAR:ToolTipRhunWarBannerBuffLevel3]
+Value=Nearby allies gain +50% armour, +50% damage, +100% experience gain, and resistance to knockback. The banner gains 1000 additional health
 
 
 [OBJECT:SummonedFellBeast]
