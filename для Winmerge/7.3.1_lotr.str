@@ -66936,7 +66936,7 @@ Value=&Malice of Rhûn
 Value=Requires Level 8 
 Valueline2= Modifier Type: Spell 
 Valueline3= Khamûl and nearby friendly units gain +75% damage and +20% speed but lose -25% armour and gain no experience for 20 seconds
-Valueline4= Also summons four single Ancient Easterlings 
+Valueline4= Also summons four Accursed Guards 
 Valueline5=Left click to activate
 
 
@@ -66952,6 +66952,19 @@ Valueline4=Nearby friendly units gain +33% damage
 Valueline5=Passive ability
 Valueline6=
 Valueline7= At rank 5, Khamûl dons his armour, granting him +25% armour
+
+
+[CONTROLBAR:KhamulLieutnantRhun]
+Value=The Shadow of the East (&T)
+
+
+[CONTROLBAR:ToolTipKhamulLieutnantRhun]
+Value=Requires Level 3
+Valueline2=Modifier Type: Leadership
+Valueline3=Nearby friendly units gain +33% damage
+Valueline4=Passive ability
+
+
 [CONTROLBAR:ToolTipKhamulLieutnantRhunActive]
 Value=Requires Level 3
 Valueline2=Modifier Type: Leadership
@@ -66963,7 +66976,7 @@ Valueline7= Left click then left click on target
 
 
 [OBJECT:GuldurAncientEasterling]
-Value=Ancient Easterling
+Value=Accursed Guard
 
 
 [CONTROLBAR:ConstructMordorArmory]
@@ -66975,6 +66988,8 @@ Value=Manufactures and trades armour as a resource based on available terrain
 Valueline2=Researches weapon and armour upgrades
 Valueline3= Reduced cost of upgrades 
 Valueline4= Increases command point limit by 50
+Valueline5=
+Valueline6=Though crude in appearance, the weapons and armour that came from the great forges of fell Gorgoroth were potent, and rightly feared amongst the Gondorian ranks.
 
 
 [OBJECT:MordorArmory]
@@ -66984,10 +66999,10 @@ Value=Gorgoroth Foundry
 [OBJECT:MordorArmoryDescription]
 Value=Generates resources based on available terrain
 Valueline2= Surplus Bonus - Reduced cost of upgrades 
-Valueline3= 2 Armories: 5% 
-Valueline4= 3 Armories: 10% 
-Valueline5= 4 Armories: 15% 
-Valueline6= 5+ Armories: 20%
+Valueline3= 2 Foundries: 5% 
+Valueline4= 3 Foundries: 10% 
+Valueline5= 4 Foundries: 15% 
+Valueline6= 5+ Foundries: 20%
 
 
 [UPGRADE:MordorBarbedArrowUpgrade]
@@ -67131,6 +67146,8 @@ Valueline2= Fountain Guards deal +33% damage and knockback enemy units for 30 se
 Valueline3= Left click to activate
 
 
+[CONTROLBAR:FountainGuardTwo]
+Value=Ardent Defenders (&C)
 
 
 [CONTROLBAR:TooltipFountainGuardTwo]
@@ -67349,12 +67366,10 @@ Value=Drums in the Deep (&S)
 [CONTROLBAR:ToolTipSpecialAbilityDrumsInTheDeep]
 Value=Requires the Drums in the Deep upgrade 
 Valueline2= Temporarily summons 5 hordes of Moria-orc Screechers 
-Valueline3= 
-Valueline4=
-Valueline5= Modifier Type: Active Debuff 
-Valueline6= Targeted enemy units suffer -25% damage and -20% armour
-Valueline7= Does not stack with other Debuffs 
-Valueline8= Left click on icon then left click on target area
+Valueline3=
+Valueline4= Modifier Type: Active Debuff 
+Valueline5= Targeted enemy units suffer -25% damage and -20% armour for 20 seconds
+Valueline6= Left click on icon then left click on target area
 
 
 [CONTROLBAR:SpecialAbilitySummonWyrm]
@@ -67470,6 +67485,46 @@ Valueline2=Causes enemy units to flee in terror
 Valueline3= Left click to activate
 
 
+[OBJECT:DismountedMorgulVanguard]
+Value=Morgul Acolyte
+
+
+[OBJECT:DismountedMorgulVanguardHorde]
+Value=Morgul Acolytes
+
+
+[CONTROLBAR:ConstructDismountedMorgulVanguardHorde]
+Value=Morgul Acolytes (&W)
+
+
+[BANNERUI:DismountedMorgulVanguard]
+Value=Morgul Acolyte
+
+
+[BANNERUI:DismountedMorgulVanguardPlural]
+Value=Morgul Acolytes
+
+
+[CONTROLBAR:LW_Unit_DismountedMorgulVanguardHorde]
+Value=Morgul Acolyte Battalion
+
+
+[CONTROLBAR:LW_Unit_DismountedMorgulVanguardHordePlural]
+Value=Morgul Acolyte Battalions
+
+
+[CONTROLBAR:LW_ToolTip_DismountedMorgulVanguardHorde]
+Value=
+Valueline2=Unit Type: Elite Swordsmen
+Valueline3=Strong vs. Pikemen
+
+
+[CONTROLBAR:ToolTipBuildDismountedMorgulVanguardHorde]
+Value=Strong vs. Pikemen 
+Valueline2= 
+Valueline3= These soulless men have long served the Witch-king as his personal bodyguard and the vanguard of his legions.
+
+
 [OBJECT:MordorMorgulOrc]
 Value=Legion of Morgul
 
@@ -67478,12 +67533,24 @@ Value=Legion of Morgul
 Value=Legion of Morgul
 
 
+[OBJECT:HordeMordorMorgulOrc_LAS]
+Value=Orcs of the Dark Tower
+
+
 [CONTROLBAR:ConstructMordorMorgulOrcHorde]
 Value=Legions of Morgul (&D)
 
 
 [CONTROLBAR:LW_Unit_MordorMorgulOrcHorde]
 Value=Legion of Morgul Horde
+
+
+[CONTROLBAR:LW_Unit_MordorMorgulOrcHorde_LAS]
+Value=Orcs of the Dark Tower Horde
+
+
+[CONTROLBAR:LW_Unit_MordorMorgulOrcHordePlural_LAS]
+Value=Orcs of the Dark Tower Hordes
 
 
 [CONTROLBAR:LW_ToolTip_MordorMorgulOrcHorde]
@@ -67543,6 +67610,12 @@ Value=Morgul Pikemen
 Value=Morgul Pikemen (&W)
 
 
+[CONTROLBAR:ToolTipBuildMordorMorgulPikeHorde]
+Value=Strong vs. Cavalry and Heroes
+Valueline2=
+Valueline3= Once the Dark Lord had issued his signal, the orcs of Minas Morgul came streaming out from the dead city, many of them carrying fell halberds, spears, and long pikes.
+
+
 [CONTROLBAR:SerratedArmor]
 Value=Serrated Armour
 
@@ -67578,7 +67651,8 @@ Value=Troll-bane (&V)
 
 [CONTROLBAR:TooltipTrollbane]
 Value=Requires Level 10 
-Valueline2= Pippin gains +150% armour and deals +250% damage against Monsters for 20 seconds
+Valueline2= Pippin gains +150% armour, knockback resistance and deals +250% damage against Monsters for 20 seconds
+Valueline3=Left click to activate
 
 
 [CONTROLBAR:Intimidation]
@@ -67702,11 +67776,11 @@ Valueline4= Left click icon then left click on target hero
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingEasterlingHorde]
-Value=Easterling Pikemen - Easterling Archer Horde
+Value=Khân-pâlainax - Khân-yûn-âkhax Horde
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingEasterlingHordePlural]
-Value=Easterling Pikemen - Easterling Archer Hordes
+Value=Khân-pâlainax - Khân-yûn-âkhax Hordes
 
 
 [CONTROLBAR:LW_ToolTip_MordorEasterlingEasterlingHorde]
@@ -67716,11 +67790,11 @@ Valueline3=Strong vs. Swordsmen and Cavalry
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingEasterlingSwordHorde]
-Value=Easterling Pikemen - Easterling Swordsmen Horde
+Value=Khân-pâlainax - Khân-xâtainax Horde
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingEasterlingSwordHordePlural]
-Value=Easterling Pikemen - Easterling Swordsmen Hordes
+Value=Khân-pâlainax - Khân-xâtainax Hordes
 
 
 [CONTROLBAR:LW_ToolTip_MordorEasterlingEasterlingSwordHorde]
@@ -67730,11 +67804,11 @@ Valueline3=Strong vs. Cavalry and Pikemen
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingArcherEasterlingSwordHorde]
-Value=Easterling Archer - Easterling Swordsmen Horde
+Value=Khân-yûn-âkhax - Khân-xâtainax Horde
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingArcherEasterlingSwordHordePlural]
-Value=Easterling Archer - Easterling Swordsmen Hordes
+Value=Khân-yûn-âkhax - Khân-xâtainax Hordes
 
 
 [CONTROLBAR:LW_ToolTip_EasterlingArcherEasterlingSwordHorde]
@@ -67744,14 +67818,40 @@ Valueline3=Strong vs. Infantry and Pikemen
 
 
 [CONTROLBAR:FuryofKhand]
-Value=Fury of Khand (&W)
+Value=Plainsrunners (&W)
 
 
 [CONTROLBAR:ToolTipFuryofKhand]
-Value=Requires Level 3 
-Valueline2= Variags gain
-Valueline3= 35% damage at the cost of 20% armour 
-Valueline4= Left click to activate
+Value=Variags gain 33% speed at the cost of 10% armour for 20 seconds
+Valueline2= Left click to activate
+
+
+[CONTROLBAR:VariagArcherAbility]
+Value=Shield Cover
+
+
+[CONTROLBAR:ToolVariagArcherAbility]
+Value=Variags gain 15% armour against ranged attacks as long as there are more than 10 units in battalion 
+Valueline2= Passive ability
+
+
+[CONTROLBAR:VariagMercenaryRule]
+Value=Mercenary Rule
+
+
+[CONTROLBAR:TooltipVariagMercenaryRule]
+Value=Variags are a welcome sight to conscripted serfs and contribute to their horde bonus 
+Valueline2= Variags do not benefit from the horde bonus themselves 
+Valueline3= Passive ability
+
+
+[CONTROLBAR:ToggleVariagsBlockFormation]
+Value=Block Formation (&W)
+
+
+[CONTROLBAR:ToolTipToggleVariagsBlockFormation]
+Value=+33% armour
+Valueline2=-40% speed
 
 
 [OBJECT:StewPot]
@@ -67791,6 +67891,10 @@ Valueline2=
 Valueline3= The Fell Winter of 2911 brought to Eriador fearsome white wolves from the frozen wilds of Forodwaith.
 
 
+[OBJECT:HordeWildRisenDeadGC]
+Value=Oathbreaker Warriors
+
+
 [OBJECT:HordeWildRisenDead]
 Value=Dead of Arnor
 
@@ -67824,7 +67928,7 @@ Value=Ambassador (&T)
 
 [CONTROLBAR:ToolTipMOSAmbassador]
 Value=Requires Level 5 
-Valueline2= The Mouth of Sauron temporarily gains 300% armour and is resistant to knockback 
+Valueline2= The Mouth of Sauron gains 100% armour and is resistant to knockback for 20 seconds
 Valueline3= Left click to activate
 
 
@@ -67844,16 +67948,15 @@ Value=Dark Resolve (&T)
 
 [CONTROLBAR:ToolTipBodyguardDeathWish]
 Value=Requires Level 7 
-Valueline2= Bolg's Bodyguard temporarily gain
-Valueline3=+150% damage, -25% armour
-Valueline4= Left click to activate
+Valueline2= Bolg's Bodyguard gain +100% damage at the cost of -25% armour for 20 seconds
+Valueline3= Left click to activate
 
 
 [CONTROLBAR:SarumanThunderBolt]
 Value=Redhorn's Wrath (&C)
 
 [CONTROLBAR:SarumanThunderBoltFort]
-Value=Lightning Strike (&D)
+Value=Lightning Strike (&S)
 
 [CONTROLBAR:ToolTipSarumanThunderBolt]
 Value=Requires Level 7 
@@ -67892,10 +67995,9 @@ Value=Lord of Orthanc (&W)
 Value=Close range attack that blasts back enemies 
 Valueline2= Left click icon then left click on target 
 Valueline3= 
-Valueline4= Modifier Type: Leadership 
-Valueline5= Allies near Saruman gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to Fear and Terror 
-Valueline6= Stacks with Buffs and Spells 
-Valueline7= Passive ability
+Valueline4= Modifier Type: Spell
+Valueline5= Allies near Saruman gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to fear and terror 
+Valueline6=Passive ability
 
 [CONTROLBAR:SpecialAbilitySarumanImprovedBlast]
 Value=Saruman of Many Colours (&W)
@@ -67905,16 +68007,17 @@ Value=Allows Saruman to attack from great range
 Valueline2= Can be used to crush enemy units 
 Valueline3=Left click icon then left click on target area 
 Valueline4= 
-Valueline5= Modifier Type: Leadership Nearby units gain +50% damage, +50% armour, increased experience gain, and fear immunity. At rank 5, nearby furnaces gain +50% resources 
-Valueline6= Nearby enemies are terrified 
-Valueline7= Passive ability
+Valueline5= Modifier Type: Spell
+Valueline6= Nearby units gain +50% damage, +50% armour, increased experience gain, and fear immunity. At rank 5, nearby furnaces gain +50% resources 
+Valueline7= Nearby enemies are terrified 
+Valueline8= Passive ability
 
 [CONTROLBAR:SarumanRuinousWrath]
 Value=Ruinous Wrath (&R)
 
 [CONTROLBAR:ToolTipSarumanRuinousWrath]
 Value=Requires Level 3
-Valueline2=Flame erupts from the ground beneath the targeted enemies
+Valueline2=Flame erupts from the ground beneath the targeted enemies for 15 seconds
 Valueline3=Left click icon then left click on target area
 
 [CONTROLBAR:SarumanStormofOrthanc]
@@ -67937,9 +68040,8 @@ Value=Elven Horn
 
 [CONTROLBAR:TooltipRallyingCallElves]
 Value=Modifier Type: Buff 
-Valueline2= Targeted allies gain +50% damage and +50% armour 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Left click icon then left click on target units
+Valueline2= Targeted allies gain +25% damage and +25% armour for 60 seconds
+Valueline3=Left click icon then left click on target units
 
 
 [CONTROLBAR:ArrowVolleyLorien]
@@ -67948,7 +68050,8 @@ Value=Leithio I Philinn
 
 [CONTROLBAR:TooltipArrowVolleyLorien]
 Value=Launches a small volley of arrows anywhere on the map 
-Valueline2= Left click icon then left click on target area
+Valueline2= Damaged enemy units suffer -25% armour for 30 seconds 
+Valueline3= Left click icon then left click on target area
 
 
 [CONTROLBAR:LorienTrap]
@@ -67956,25 +68059,39 @@ Value=You Can Go No Further
 
 
 [CONTROLBAR:ToolTipLorienTrap]
-Value=Stuns every enemy unit in a small area for a short duration 
+Value=Stuns every enemy unit in a small area for 4 seconds 
 Valueline2= Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipCampaignTrap]
-Value=Stuns enemy units in a small area for a short duration 
+Value=Stuns enemy units in a small area for 5 seconds 
 Valueline2= Does not stun enemy heroes 
 Valueline3= Left click icon then left click on target
 
 
 [CONTROLBAR:AmrothKnights]
-Value=Amroth's Knights
+Value=Gifts of Lórien
 
 
 [CONTROLBAR:ToolTipAmrothKnights]
-Value=Enables the recruitment of Amroth-na-Erphin from the Pasture
-Valueline2= Passive power
+Value=Targeted Lothlórien heroes gain bonuses to one of their abilities:
+Valueline2= Galadriel: Light of Valinor deals damage to enemies
+Valueline3= Celeborn: Lord of the Galadhrim grants units +33% armour
+Valueline4=Idrial: Cleanse Shadow replenishes fallen units in a great area
+Valueline5=Haldir: Captain of the Galadhrim grants resistance to knockback and trample
+Valueline6=Rumil: Cúthalion stuns target enemy hero for 10 seconds
 Valueline7= Orophin: Megilherdir deals splash damage and knockback
 Valueline8= Treebeard: Roar causes nearby enemies to flee in terror
+Valueline9= Left click icon then left click on target
+
+
+[UPGRADE:GiftsofLorien]
+Value=Gifts of Lórien
+
+
+[TOOLTIP:GiftsofLorien]
+Value=Gifts of Lórien
+
 
 
 [CONTROLBAR:SilvanAllies]
@@ -67987,7 +68104,7 @@ Valueline2= Left click icon then left click on pathable location
 
 
 [CONTROLBAR:ElvenWoodLorien]
-Value=Glade of Mellyrn
+Value=Twisted Malice
 
 
 [CONTROLBAR:ToolTipElvenWoodLorien]
@@ -68004,14 +68121,13 @@ Value=Garden of Ithilien
 [CONTROLBAR:TooltipIthilienGarden]
 Value=Summons a lush garden onto the battlefield for 5 minutes 
 Valueline2= Modifier Type: Buff 
-Valueline3= All allied units gain +50% damage, +33% armour and become immune to fear and terror 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5=  The Garden is inhabited by a number of Ithilien Rangers 
-Valueline6= Left click icon then left click on target area
+Valueline3= All allied units gain +50% damage and become immune to fear and terror 
+Valueline4= The Garden is inhabited by a number of Ithilien Rangers 
+Valueline5= Left click icon then left click on target area
 
 
 [CONTROLBAR:SummonRadagast]
-Value=A Very Great Wizard
+Value=Waters of Nimrodel
 
 
 [CONTROLBAR:SummonCampaignRadagast]
@@ -68024,8 +68140,12 @@ Valueline2= Left click icon then left click on target
 
 
 [CONTROLBAR:TooltipSummonRadagastLorien]
-Value=Summons Radagast the Brown to your aid 
-Valueline2= Left click icon then left click on pathable location
+Value=Summons a statue of Nimrodel in the centre of a great pool of water
+Valueline2= Friendly units within the pool are immune to debuffs
+Valueline3= Increases resource production of nearby Mallorn Trees by 25% 
+Valueline4= Posseses ability to repair selected structure 
+Valueline5= Limited to 1 
+Valueline6= Left click icon then left click on pathable location
 
 
 [CONTROLBAR:SummonEagleAlliesLorien]
@@ -68038,14 +68158,15 @@ Valueline2= Left click icon then left click on target area
 
 
 [CONTROLBAR:CloudBreakLorien]
-Value=Blessing of Manwë
+Value=Aiya Eärendil!
 
 
 [CONTROLBAR:ToolTipCloudBreakLorien]
-Value=Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness
-Valueline2=Stuns enemy units
-Valueline3= Slowly heals allied units across the map 
-Valueline4= Left click to activate
+Value=Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness
+Valueline2=Stuns enemy units for 15 seconds
+Valueline3= Allied heroes and units temporarily gain +50% resistance to magic and elemental damage for 30 seconds 
+Valueline4= Enemy heroes lose -20% speed and -15% armour for 30 seconds 
+Valueline5= Left click to activate
 
 
 [CONTROLBAR:CastDown]
@@ -68062,11 +68183,11 @@ Value=Mists of Lothlorien
 
 
 [CONTROLBAR:TooltipEnshroudingMistLorien]
-Value=Friendly units within the mist become stealthed, enemy units caught within the mist take damage over time 
-Valueline2= Modifier Type: Active Debuff 
-Valueline3= Nearby enemy units suffer -25% damage, -50% speed, and -20% armour
-Valueline4=Nullifies enemy Leadership 
-Valueline5= Does not stack with other Debuffs 
+Value=Conjures Enshrouding Mist for 60 seconds 
+Valueline2=Friendly units within the mist become stealthed, enemy units caught within the mist take damage over time 
+Valueline3= Modifier Type: Spell 
+Valueline4= Nearby enemy units suffer -25% damage, -50% speed, and -20% armour
+Valueline5=Nullifies enemy leadership 
 Valueline6= Left click icon then left click on target area
 
 
@@ -68075,12 +68196,11 @@ Value=The Ring of Adamant
 
 
 [CONTROLBAR:ToolTipElvenWoodAdamant]
-Value=Creates an area of magical terrain through the power of Nenya 
+Value=Creates an area of magical terrain through the power of Nenya for 60 seconds 
 Valueline2= Modifier Type: Spell 
-Valueline3= All allied units are slowly healed, gain +300% armour, and become immune to fear and terror 
-Valueline4= All structures gain +100% armour and are repaired over time 
-Valueline5= Stacks with Leadership and Spells 
-Valueline6=Left click icon then left click on target area
+Valueline3= All allied units are slowly healed, replenished, gain +150% armour, and become immune to fear and terror 
+Valueline4= All structures gain +50% armour and are repaired over time 
+Valueline5=Left click icon then left click on target area
 
 
 [OBJECT:ElvenAmrothKnight]
@@ -74231,19 +74351,19 @@ Value=Legion of Morgul
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingArcherHordePlural]
-Value=Easterling Archer Battalions
+Value=Khân-yûn-âkhax Battalions
 
 
 [BANNERUI:MordorEasterlingArcher]
-Value=Easterling Archer
+Value=Khân-yûn-âkhax
 
 
 [BANNERUI:MordorEasterlingArchers]
-Value=Easterling Archers
+Value=Khân-yûn-âkhax
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingSwordsmanPlural]
-Value=Easterling Swordsman Battalions
+Value=Khân-xâtainax Battalions
 
 
 [CONTROLBAR:LW_ToolTipBuild_MordorEasterlingSwordsman]
@@ -74253,11 +74373,11 @@ Valueline3=
 
 
 [BANNERUI:MordorEasterlingSwordsman]
-Value=Easterling Swordsman
+Value=Khân-xâtainax
 
 
 [BANNERUI:MordorEasterlingSwordsmen]
-Value=Easterling Swordsmen
+Value=Khân-xâtainax
 
 
 [CONTROLBAR:LW_Unit_MordorEasterlingKataphractHordePlural]
@@ -78124,6 +78244,10 @@ Valueline3= Increases command point limit by 25
 Value=Restless Warrior
 
 
+[OBJECT:OathbreakerWarriorGC]
+Value=Oathbreaker Warrior
+
+
 [CONTROLBAR:ConstructGuldurSorceryTower]
 Value=Summon Spire of Sorcery (&N)
 
@@ -78174,6 +78298,14 @@ Value=Requires Level 3
 Valueline2=Units within the radius take damage over time
 Valueline3=Affects both enemies and allies
 Valueline4=Risen Dead are immune
+Valueline5=Left click icon then left click on target area
+
+
+[CONTROLBAR:ToolTipOathbreakerHuskarlWitheringTouch]
+Value=Requires Level 3
+Valueline2=Units within the radius take damage over time for 20 seconds
+Valueline3=Affects both enemies and allies
+Valueline4=Oathbreaker Warriors are immune
 Valueline5=Left click icon then left click on target area
 
 
@@ -81508,6 +81640,11 @@ Valueline3= Left click to activate
 
 [CONTROLBAR:ToolTipDarkSustenanceCopy]
 Value=Risen Dúnedain quickly regain health and restore their horde while outside of combat
+Valueline2=Passive ability
+
+
+[CONTROLBAR:ToolTipDarkSustenanceCopyGC]
+Value=Oathbreaker Warriors quickly regain health and restore their horde while outside of combat
 Valueline2=Passive ability
 
 
