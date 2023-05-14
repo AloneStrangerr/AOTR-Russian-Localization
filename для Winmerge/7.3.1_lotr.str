@@ -68207,6 +68207,43 @@ Valueline5=Left click icon then left click on target area
 Value=Amroth-na-Arphen
 
 
+[OBJECT:DismountedAmrothKnight]
+Value=Amroth-na-Armegil
+
+
+[CONTROLBAR:LW_Unit_DismountedAmrothKnight]
+Value=Amroth-na-Armegil Battalion
+
+
+[CONTROLBAR:ConstructDismountedAmrothHorde]
+Value=Amroth-na-Armegil
+
+
+[CONTROLBAR:ConstructDismountedAmrothHordeWotrInn]
+Value=Amroth-na-Armegil (&R)
+
+
+[CONTROLBAR:ToolTipBuildDismountedAmrothHorde]
+Value=Noble-swords of Amroth 
+Valueline2=Strong vs. Pikemen 
+Valueline3= 
+Valueline4= Though their King has long disappeared, these Sindarin nobles continue to hold their oaths and defend Lórien as Amroth’s household guard.
+
+
+[CONTROLBAR:LW_ToolTip_DismountedAmrothHorde]
+Value=Noble-swords of Amroth 
+Valueline2= Unit Type: Basic Infantry
+Valueline3=Strong vs. Pikemen
+
+
+[BANNERUI:DismountedAmrothKnight]
+Value=Amroth-na-Armegil
+
+
+[BANNERUI:DismountedAmrothKnights]
+Value=Amroth-na-Armegil
+
+
 [OBJECT:HordeElvenAmrothKnight]
 Value=Amroth-na-Erphin
 
@@ -68241,12 +68278,34 @@ Valueline3=Strong vs. Archers
 Valueline4=
 
 
+[CONTROLBAR:AmrothSeasonedRiders]
+Value=Seasoned Riders
 
 
 [CONTROLBAR:ToolTipAmrothSeasonedRiders]
 Value=Modifier Type: Leadership
 Valueline2=Nearby Riders of the Naith gain +33% armour
 Valueline3= Passive ability
+
+
+[CONTROLBAR:AmrothPastGlories]
+Value=Past Glories (&R)
+
+
+[CONTROLBAR:ToolTipAmrothPastGlories]
+Value=Requires Level 3 
+Valueline2= All nearby allied troops gain +100% experience for 1 minute 
+Valueline3= Left click to activate
+
+
+[CONTROLBAR:AmrothPastGloriesGilded]
+Value=Past Glories (&C)
+
+
+[CONTROLBAR:ToolTipAmrothPastGloriesGilded]
+Value=Requires Level 7 
+Valueline2= All nearby allied troops gain +100% experience for 1 minute 
+Valueline3= Left click to activate
 
 
 
@@ -68343,8 +68402,8 @@ Value=For Lórinand! (&T)
 
 
 [CONTROLBAR:ToolTipPalaceGUnscathed]
-Value=Required: Rank 2
-Valueline2= The Palace Guard temporarily gain +60% armour and is resistant to knockback but lose 40% speed 
+Value=Required: Rank 4
+Valueline2= The Palace Guard gain +50% armour and is resistant to knockback but lose 40% speed for 30 seconds
 Valueline3= Left click to activate
 
 
@@ -68354,6 +68413,15 @@ Value=Elven Endurance (&R)
 
 [CONTROLBAR:PalaceGuardUnscathed]
 Value=Elven Endurance (&T)
+
+
+[CONTROLBAR:ToolTipGreenwoodUnscathed]
+Value=Required: Rank 4
+Valueline2= Greenwood Spearmen gain +50% armour and are resistant to knockback but lose 40% speed for 30 seconds
+Valueline3= Left click to activate
+
+
+
 [CONTROLBAR:ToolTipNandorTreasure]
 Value=Required: Rank 6
 Valueline2=Grants Tempered Blades, Elven Armour, and Mallorn Bows to units in radius
@@ -68371,12 +68439,12 @@ Value=Switch to Sword (&W)
 [CONTROLBAR:ToolTipToggleNandorWeapons]
 Value=Left click to switch weapons
 Valueline2=
-Valueline3= Swords strong vs. normal infantry and heroes 
-Valueline4= Axes strong vs. buildings, monsters, and siege machines
+Valueline3= Swords strong vs. infantry and heroes 
+Valueline4= Axes strong vs. buildings, cavalry, monsters, and siege machines
 
 
 [CONTROLBAR:NandorTreasure]
-Value=Treasures of Ossiriand (&R)
+Value=Treasures of Ossiriand (&C)
 
 
 [CONTROLBAR:PurchaseUpgradeElvenFortressEarendilLorien]
@@ -68384,7 +68452,7 @@ Value=Eärendil's Guidance (&F)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEarendilLorien]
-Value=Unlocks Eärendil's Guidance Power 
+Value=Unlocks Eärendil's Guidance power 
 Valueline2= Increases Fortress vision range
 
 
@@ -68400,7 +68468,7 @@ Valueline3= Left click to activate
 
 [TOOLTIP:LackEarendil]
 Value=Requires Blessed Lanterns upgrade 
-Valueline2= Provides Eärendil's Guidance Power 
+Valueline2= Provides Eärendil's Guidance power 
 Valueline3= Increases Fortress vision range
 
 
@@ -68409,13 +68477,31 @@ Value=Waters of Nimrodel
 
 
 [UPGRADE:ToolTipNimrodelWaters]
-Value=The waters of Nimrodel surround this mallorn tree, allowing it to heal nearby units
+Value=Blessed Waters
+
+
+[TOOLTIP:NephredilBloom]
+Value=Nephredil Bloom
+
+
+[TOOLTIP:StarLitLanterns]
+Value=Star-lit Lanterns
+
+
+[TOOLTIP:MallornRoots]
+Value=Mallorn Roots
 
 
 [TOOLTIP:SilvanLevy]
 Value=Silvan Levy
 
 
+[TOOLTIP:HiddenVolley]
+Value=Hidden Volley
+
+
+[TOOLTIP:TenebrousBoughs]
+Value=Tenebrous Boughs
 
 
 [TOOLTIP:MarchwardenGarrison]
@@ -68482,9 +68568,8 @@ Valueline2= Summons a golden tree that is surrounded by Elven mists onto the bat
 Valueline3= Friendly units within the mist become stealthed 
 Valueline4= Modifier Type: Active Debuff 
 Valueline5= Nearby enemy units suffer -25% damage and -20% armour
-Valueline6=Nullifies enemy Leadership 
-Valueline7= Does not stack with other Debuffs 
-Valueline8= Left click icon then left click on target area
+Valueline6=Nullifies enemy leadership 
+Valueline7= Left click icon then left click on target area
 
 
 [CONTROLBAR:HasteoftheElves]
@@ -68523,22 +68608,20 @@ Value=Things That Will Be
 Value=Things That Will Be (&R)
 
 [CONTROLBAR:ToolTipBuildGrandHarvestUpgradeLorien]
-Value=+15% resources from mallorn trees 
+Value=Grants +25% armour to Mallorn Trees 
 Valueline2= Player must maintain a Mirror to benefit from this upgrade
 
 [OBJECT:GMirrorDescription]
 Value=Researches special faction upgrades 
 Valueline2= Detects stealth 
-Valueline3= Limited to 1 
-Valueline4= Increases command point limit by 25
+Valueline3= Limited to 1
 
 [CONTROLBAR:ToolTipConstructGaladrielMirror_Disabled]
 Value=Researches special faction upgrades 
 Valueline2= Detects stealth 
-Valueline3= Limited to 1 
-Valueline4= Increases command point limit by 25 
-Valueline5= 
-Valueline6= The Mirror of Galadriel is already built
+Valueline3= Limited to 1
+Valueline4= 
+Valueline5= The Mirror of Galadriel is already built
 
 [UPGRADE:ThingsthatWere]
 Value=Things That Were
@@ -68559,10 +68642,10 @@ Value=Things That Are (&W)
 [CONTROLBAR:ToolTipBuildThingsthatAre]
 Value=Increases production speed of Silvan Levy, Silvan Sentries, Silvan Scouts, Sindar Pathstalkers, Sentinels of Cerin Amroth, and Marchwardens by 100% for 45 seconds
 
-[CONTROLBAR:CallofBelegaer]
-Value=Call of Belegaer (&S)
+[CONTROLBAR:LordOfHavens]
+Value=Lord of the Havens (&D)
 
-[CONTROLBAR:ToolTipCallofBelegaer]
+[CONTROLBAR:ToolTipLordOfHavens]
 Value=Requires the White Council Observatory upgrade
 Valueline2=
 Valueline3=Permanently summons Círdan the Shipwright
@@ -68598,16 +68681,15 @@ Value=Intimidation (&W)
 [CONTROLBAR:ToolTipUrshakIntimidation]
 Value=Modifier Type: Leadership 
 Valueline2= Trolls, Bats and Giants near Urshak gain
-Valueline3=+15% speed, vision and shroud clearing
+Valueline3=+15% speed and vision
 Valueline4=Passive ability 
 Valueline5=
 Valueline6= Modifier Type: Passive Debuff 
-Valueline7= Nearby enemy units suffer -25% damage and Armour and -20% speed 
-Valueline8= Does not stack with other Debuffs 
-Valueline9=Passive ability 
-Valueline10=
-Valueline11= At level 8, bewitches targeted units, causing them to become hostile towards each other 
-Valueline12= Left click icon then left click on target area
+Valueline7= Nearby enemy units suffer -25% damage, -20% armour and -10% speed 
+Valueline8=Passive ability 
+Valueline9=
+Valueline10= At level 10, bewitches targeted units, causing them to become hostile towards each other 
+Valueline11= Left click icon then left click on target area
 
 
 [CONTROLBAR:UrshakShakeFoundation]
@@ -68617,7 +68699,7 @@ Value=Cave In (&R)
 [CONTROLBAR:ToolTipUrshakShakeFoundation]
 Value=Requires Level 3
 Valueline2=Target enemy building takes heavy damage
-Valueline3=and is temporarily disabled 
+Valueline3=and is disabled for 20 seconds
 Valueline4= Automatically opens targeted gate 
 Valueline5= Left click icon then left click on target
 
@@ -68628,7 +68710,7 @@ Value=Fell Winter (&T)
 
 [CONTROLBAR:ToolTipUrshakSoulFreeze]
 Value=Requires Level 6
-Valueline2=Affected enemy and ally units are frozen and cannot move, attack or receive upgrades 
+Valueline2=Affected enemy and ally units are frozen and cannot move, attack or receive upgrades for 15 seconds 
 Valueline3= Left click icon then left click on target area
 
 
@@ -80564,7 +80646,16 @@ Value=Upgrade Royal Barracks to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodRoyalBarracksLevel2Upgrade]
-Value=Allows training of Cúmaethyr and Tamastirnyr 
+Value=Allows training of Greenwood Archers and Palace Guards 
+Valueline2= +10% faster build speed
+
+
+[CONTROLBAR:ConstructMirkwoodRoyalBarracks2UpgradeBotFA]
+Value=Upgrade Elvenking's Barracks to Level 2 (&A)
+
+
+[CONTROLBAR:ToolTipBuildMirkwoodRoyalBarracksLevel2UpgradeBotFA]
+Value=Allows training of Greenwood Archers and Greenwood Spearmen 
 Valueline2= +10% faster build speed
 
 
@@ -83905,7 +83996,7 @@ Value=Research this upgrade at the Sanctum of Zigûr to enable this power
 
 
 [CONTROLBAR:TalanHiddenVolley]
-Value=Hidden Volley (&R)
+Value=Hidden Volley (&W)
 
 
 [CONTROLBAR:ToolTipTalanHiddenVolley]
@@ -83914,7 +84005,7 @@ Valueline2= Left click icon then left click on target area
 
 
 [CONTROLBAR:UpgradeTalanHiddenVolley]
-Value=Research Hidden Volley (&A)
+Value=Research Hidden Volley (&W)
 
 
 [CONTROLBAR:ToolTipUpgradeTalanHiddenVolley]
@@ -83922,7 +84013,7 @@ Value=Unlocks the Hidden Volley ability
 
 
 [CONTROLBAR:UpgradeTalanTenebrousBoughs]
-Value=Research Tenebrous Boughs (&B)
+Value=Research Tenebrous Boughs (&E)
 
 
 [CONTROLBAR:ToolTipUpgradeTalanTenebrousBoughs]
@@ -83974,6 +84065,8 @@ Valueline3=earn experience +33% faster,
 Valueline4=and become immune to fear and terror
 
 
+[CONTROLBAR:UpgradeStarLitLanterns]
+Value=Research Star-lit Lanterns (&W)
 
 
 [CONTROLBAR:ToolTipUpgradeStarLitLanterns]
@@ -83981,6 +84074,20 @@ Value=Causes enemy units to cower in fear for 5 seconds
 Valueline2= Left click to activate
 
 
+[CONTROLBAR:AbilityStarLitLanterns]
+Value=Star-lit Lanterns (&E)
+
+
+[CONTROLBAR:AbilityStarLitLanternsBarracks]
+Value=Star-lit Lanterns (&G)
+
+
+[CONTROLBAR:AbilityStarLitLanternsStorehouse]
+Value=Star-lit Lanterns (&D)
+
+
+[CONTROLBAR:AbilityStarLitLanternsPasture]
+Value=Star-lit Lanterns (&R)
 
 
 [CONTROLBAR:ToolTipAbilityStarLitLanterns]
