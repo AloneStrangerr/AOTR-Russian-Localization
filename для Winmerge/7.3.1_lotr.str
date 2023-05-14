@@ -68750,7 +68750,7 @@ Value=Into the Fray (&V)
 
 [CONTROLBAR:ToolTipGothmogIntoTheFray]
 Value=Requires Level 10
-Valueline2=Allied units in a wide radius gain +15% movement speed and +33% damage
+Valueline2=Allied units in a wide radius gain +15% movement speed and +50% damage for 30 seconds
 Valueline3=Left click to activate
 
 
@@ -68759,9 +68759,11 @@ Value=Build Me An Army
 
 
 [CONTROLBAR:TooltipBuildmeanarmy]
-Value=Temporarily summons an Isengard War Camp. Every 45 seconds, a horde of Fighting Uruk-hai is spawned. Respects command point limit 
-Valueline2= Limited to 1 
-Valueline3= Left click on icon then left click on target position
+Value=Temporarily summons an Isengard War Camp
+Valueline2= Every 45 seconds, a horde of chosen Uruk-hai is spawned
+Valueline3= Respects command point limit 
+Valueline4= Limited to 1 
+Valueline5= Left click on icon then left click on target position
 
 
 [CONTROLBAR:BuildmeanarmyActivate]
@@ -68770,7 +68772,7 @@ Value=Activate Build Me An Army (&W)
 
 [CONTROLBAR:TooltipBuildmeanarmyActivate]
 Value=Activate Isengard War Camp 
-Valueline2= Every 45 seconds, a horde of Fighting Uruk-hai is spawned 
+Valueline2= Every 45 seconds, a horde of chosen Uruk-hai is spawned 
 Valueline3= Respects command point limit
 
 
@@ -68780,7 +68782,31 @@ Value=Deactivate Build Me An Army (&W)
 
 [CONTROLBAR:TooltipBuildmeanarmyDeactivate]
 Value=Deactivate Isengard War Camp 
-Valueline2= Fighting Uruk-hai summoning is interrupted
+Valueline2= Uruk-hai summoning is interrupted
+
+
+[CONTROLBAR:BuildArmySwords]
+Value=Toggle Fighting Uruk-hai production (&E)
+
+
+[CONTROLBAR:TooltipBuildArmySwords]
+Value=Isengard War Camp starts producing Fighting Uruk-hai
+
+
+[CONTROLBAR:BuildArmyPikes]
+Value=Toggle Uruk-hai Pikemen production (&R)
+
+
+[CONTROLBAR:TooltipBuildArmyPikes]
+Value=Isengard War Camp starts producing Uruk-hai Pikemen
+
+
+[CONTROLBAR:BuildArmyBows]
+Value=Toggle Uruk-hai Crossbowmen production (&T)
+
+
+[CONTROLBAR:TooltipBuildArmyBows]
+Value=Isengard War Camp starts producing Uruk-hai Crossbowmen
 
 
 [CONTROLBAR:Longhouse]
@@ -68825,8 +68851,8 @@ Value=Dunlending Subjugation
 
 [CONTROLBAR:ToolTipWulfgarSubjugation]
 Value=Modifier type: Leadership 
-Valueline2= Nearby Dunlendings and Wildmen units gain +50% damage
-Valueline3=Stacks with buffs and spells
+Valueline2= Nearby Dunlendings and Wildmen units gain +33% damage
+Valueline3=At rank 5, Nearby Dunlendings and Wildmen units gain +50% damage
 Valueline4=Passive ability
 
 
@@ -68844,8 +68870,8 @@ Value=King of the Hills (&V)
 
 
 [CONTROLBAR:ToolTipKingoftheHills]
-Value=Requires Level 8
-Valueline2=Rallies nearby Dunlendings and Wildmen, temporarily increasing their armor by 200% 
+Value=Requires Level 10
+Valueline2=Rallies nearby Dunlendings and Wildmen, increasing their armour by 200% for 20 seconds
 Valueline3= Left click to activate
 
 
@@ -68879,8 +68905,7 @@ Value=King of the Hills
 Value=Requires Level 3 
 Valueline2= Modifier Type: Leadership 
 Valueline3= Wildmen and Dunlending units near Wulfgar gain +50% damage 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability
+Valueline4=Passive ability
 
 
 
@@ -68890,9 +68915,10 @@ Value=Crow Banner (&C)
 
 [CONTROLBAR:ToolTipCrowBanner]
 Value=Requires Level 5 
-Valueline2= Wulfgar summons a Crow Banner and one battalion of Dunlending Huskarls
-Valueline3= Enemies nearby the Crow Banner lose -20% armour and -25% damage 
-Valueline4= Left click to activate
+Valueline2= Wulfgar summons a Crow Banner for 90 seconds
+Valueline3= Enemies nearby the Crow Banner lose -20% armour and -25% damage
+Valueline4=At level 8, also summons a temporary battalion of Dunlending Huskarls
+Valueline5= Left click to activate
 
 
 [OBJECT:BuildmeanArmyStructure]
@@ -69074,7 +69100,7 @@ Value=Mordhau Grip (&W)
 
 
 [CONTROLBAR:ToolTipDunlandMordhauGrip]
-Value=Dunlending Huskarls temporarily use Mordhau grip 
+Value=Dunlending Huskarls use Mordhau grip for 20 seconds
 Valueline2= Whilst active, Huskarls ignore unit armour and deal bonus damage vs heroes but do not deal splash damage 
 Valueline3= Weak vs structures and spam units 
 Valueline4= Left click to activate
@@ -84597,6 +84623,11 @@ Valueline2= Recommended Faction: Misty Mountains
 
 [CONTROLBAR:TooltipWotRAnswerTheCallMordor]
 Value=Permanently summons a horde of Khân-bórainax
+Valueline2=Limited to 3
+Valueline3=Left click on icon then left click on target area
+
+[CONTROLBAR:TooltipWotRAnswerTheCallIsengard]
+Value=Permanently summons a horde of Dunlending Huskarls
 Valueline2=Limited to 3
 Valueline3=Left click on icon then left click on target area
 
