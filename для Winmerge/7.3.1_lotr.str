@@ -68952,8 +68952,9 @@ Value=&Broad Shields
 
 [CONTROLBAR:ToolTipBroadShields]
 Value=Modifier Type: Spell 
-Valueline2= Nearby friendly units in a small radius gain +33% armour 
-Valueline3= Left click to activate
+Valueline2= Nearby friendly units in a small radius gain +33% armour
+Valueline3=Shield-bearers lose -40% movement speed and -20% damage
+Valueline4=Left click to activate
 
 
 [CONTROLBAR:DunlendingRallyingCry]
@@ -68963,7 +68964,7 @@ Value=Rallying Cry (&W)
 [CONTROLBAR:ToolTipDunlendingRallyingCry]
 Value=Modifier Type: Spell 
 Valueline2= Requires Rank 4 
-Valueline3= Nearby Wildmen and Dunlendings gain trample resistance and +15% movement speed 
+Valueline3= Nearby Wildmen and Dunlendings gain trample resistance and +15% movement speed for 30 seconds
 Valueline4= Left click to activate
 
 [OBJECT:IsengardDunlandArcher]
@@ -69033,7 +69034,7 @@ Valueline3=Strong vs. Archers
 
 
 [CONTROLBAR:ToolTipBuildIsengardDunlandRiderHorde]
-Value=Requires Dunlending Longhouse Level 2 
+Value=Requires Dunlending Longhouse Level 3 
 Valueline2= Elite Cavalry 
 Valueline3=Strong vs. Archers 
 Valueline4= 
@@ -69060,6 +69061,10 @@ Value=Dunlending Huskarl
 
 [OBJECT:DunlandHuskarlHorde]
 Value=Dunlending Huskarls
+
+
+[OBJECT:DunlandHuskarlHordeGC]
+Value=Oathbreaker Huskarls
 
 
 [CONTROLBAR:ConstructIsengardDunlandHuskarlHorde]
@@ -69122,9 +69127,10 @@ Value=Reckless Swings
 
 
 [CONTROLBAR:ToolTipRecklessSwings]
-Value=Requires Level 3 
-Valueline2= Consecutive attacks temporarily increase attack damage by 5% but reduce armour by 5% 
-Valueline3= Passive ability
+Value=Requires Level 3
+Valueline2=Consecutive attacks temporarily increase attack damage by 5% 
+Valueline3=Stacks to a maximum of 25%
+Valueline4=Passive ability
 
 
 [CONTROLBAR:LW_Unit_DunlandHuskarl]
@@ -69157,6 +69163,10 @@ Value=Dunlending Axemen
 Value=Dunlending Axemen (&W)
 
 
+[CONTROLBAR:ConstructIsengardDunlandAxemenHordeWotrInn]
+Value=Dunlending Axemen (&E)
+
+
 [CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde]
 Value=Elite Infantry 
 Valueline2=Strong vs. Pikemen 
@@ -69181,6 +69191,25 @@ Valueline3=Strong vs. Pikemen
 [CONTROLBAR:LW_ToolTipBuild_IsengardDunlandAxemenHorde]
 Value=Unit Type: Elite Infantry
 Valueline2=Strong vs. Pikemen
+
+[OBJECT:DunlandSpearman]
+Value=Dunlending Spearman
+
+
+[OBJECT:DunlandSpearmanHorde]
+Value=Dunlending Spearmen
+
+
+[CONTROLBAR:ConstructDunlandSpearmenHorde]
+Value=Dunlending Spearmen (&W)
+
+
+[CONTROLBAR:ToolTipBuildDunlandSpearmenHorde]
+Value=Strong vs. Cavalry and Heroes
+Valueline2=Able to switch formation for improved defensive capabilities
+Valueline3=
+Valueline4= Like Wotann leading his Wild Hunt amongst the dark skies of midwinter, the Dunlendings hunt boar and stag amongst the forests of Enedhwaith.
+
 
 [OBJECT:MordorEasterlingKataphract]
 Value=Khân-kâtaphrax
@@ -69207,6 +69236,10 @@ Valueline3=Strong vs. Archers
 [CONTROLBAR:ToolTipBuildMordorEasterlingKataphractHorde]
 Value=Golden Cataphracts
 Valueline2=Requires Level 3 Easterling Garrison and He Is Gathering All Evil To Him upgrade 
+Valueline3=Elite Cavalry 
+Valueline4=Strong vs. Archers 
+Valueline5= 
+Valueline6= The Khân-kâtaphranax were made up of nobles high and lesser. These heavily-armoured steeds charging forth, shaking the earth, thundering across the plain, was a force few armies could withstand.
 
 
 [CONTROLBAR:ToolTipBuildMordorEasterlingKataphractHordeWotrInn]
@@ -69214,7 +69247,7 @@ Value=Golden Cataphracts
 Valueline2=Elite Cavalry 
 Valueline3=Strong vs. Archers 
 Valueline4= 
-Valueline5= 'Easterling Kataphrakts are heavy cavalry - nigh unstoppable killing machines that will sweep enemy cavalrymen from their saddles and ride down unprepared foot soldiers like a scythe through wheat.'
+Valueline5= The Khân-kâtaphranax were made up of nobles high and lesser. These heavily-armoured steeds charging forth, shaking the earth, thundering across the plain, was a force few armies could withstand.
 
 
 [CONTROLBAR:ConstructMordorEasterlingKataphractHorde_Rhun]
@@ -69224,10 +69257,17 @@ Value=Khân-kâtaphranax (&R)
 [CONTROLBAR:ToolTipBuildMordorEasterlingKataphractHorde_Rhun]
 Value=Golden Cataphracts
 Valueline2=Requires Level 2 Horsemaster's Campground 
+Valueline3= Elite Cavalry 
+Valueline4=Strong vs. Archers 
+Valueline5= 
+Valueline6= The Khân-kâtaphranax were made up of nobles high and lesser. These heavily-armoured steeds charging forth, shaking the earth, thundering across the plain, was a force few armies could withstand.
 
 
 [CONTROLBAR:LW_ToolTipBuild_MordorEasterlingKataphractHorde]
 Value=Golden Cataphracts
+Valueline2=Unit Type: Elite Cavalry
+Valueline3=Strong vs. Archers
+Valueline4=
 
 
 [OBJECT:RhunWardog]
@@ -69251,6 +69291,22 @@ Value=Khandish Wardogs (&W)
 Value=Khandish Wardogs Battalion
 
 
+[CONTROLBAR:LW_ToolTip_RhunWardogHorde]
+Value=Unit Type: Basic Cavalry
+Valueline2=Strong vs. Archers
+
+
+[CONTROLBAR:ToolTipBuildRhunWardogHorde]
+Value=Requires Houndmaster Bélohk 
+Valueline2=
+Valueline3= Basic Cavalry 
+Valueline4=Strong vs. Archers 
+Valueline5= 
+Valueline6= For generations, the men of Khand have relied on these sturdy hounds for hunting and as guard dogs. The beasts are also used in times of war, tieing down their targets while Variag outriders volley arrows from the flank.
+
+
+[CONTROLBAR:LW_ToolTipBuild_RhunWardogHorde]
+Value=Unit Type: Basic Cavalry
 Valueline2=Strong vs. Archers
 Valueline3=
 
@@ -69267,6 +69323,10 @@ Value=Variag Outriders
 Value=Variag Outriders (&E)
 
 
+[CONTROLBAR:ToolTipBuildRhunVariagHorseArcherHorde]
+Value=Strong vs. Archers 
+Valueline2=
+Valueline3= Practiced in the art of horse archery from an early age, Variag warriors are known for their swift raiding parties, riding forth on their plains-horses to release a volley of deadly arrows before retreating out from the enemy's range.
 
 [OBJECT:ColdDrake]
 Value=Cold-drake
@@ -69332,7 +69392,7 @@ Value=Vampirism
 
 
 [CONTROLBAR:ToolTipVampirism]
-Value=Flying units lose -70% speed for 30 seconds 
+Value=Flying units lose -30% speed for 5 seconds 
 Valueline2= when hit by Giant Bats 
 Valueline3= Passive ability 
 Valueline4= 
@@ -69366,7 +69426,7 @@ Value=Fell Storm
 
 
 [CONTROLBAR:ToolTipFellStorm]
-Value=Casts several bolts of lightning in the targetted area 
+Value=Casts several bolts of lightning in the targeted area 
 Valueline2= Strong vs. buildings 
 Valueline3= Left click icon then left click on target area
 
@@ -69391,7 +69451,7 @@ Valueline3=Increased by 15%%
 
 
 [CONTROLBAR:SummonBigWarg]
-Value=Summon Warg Matriarch (&C)
+Value=Summon Warg Matriarch (&V)
 
 
 [CONTROLBAR:TooltipSummonBigWarg]
@@ -69403,7 +69463,7 @@ Valueline4= Left click icon to activate
 
 [CONTROLBAR:ToolTipBuildGondorTrebuchet]
 Value=Strong vs. Structures 
-Valueline2= Only 6 allowed at any time 
+Valueline2=
 Valueline3= A Trebuchet launches a huge boulder with terrifying speed, splintering defences and crushing warriors.
 
 
@@ -69413,7 +69473,7 @@ Value=Horns of the Gate (&S)
 
 [CONTROLBAR:TooltipHornoftheGate]
 Value=Requires the Horns of the Gate upgrade 
-Valueline2= Causes fear in nearby enemies 
+Valueline2= Causes fear in nearby enemies for 15 seconds
 Valueline3= Left click to activate
 
 
@@ -69423,6 +69483,10 @@ Value=Armouries of Thrór (&D)
 
 [CONTROLBAR:ToolTipThrorArmouries]
 Value=Requires the Armouries of Thrór upgrade 
+Valueline2= Spawns racks of Erebor weapons and armour to upgrade friendly units
+Valueline3= Left click icon then left click on target area
+
+
 [CONTROLBAR:PurchaseTechnologyDwarvenFireArrows]
 Value=Research Mithril-tipped Arrows Upgrade (&R)
 
@@ -69444,14 +69508,17 @@ Value=Left click to upgrade this unit
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFireArrows]
 Value=Upgrades this battalion with Mithril-tipped Arrows 
-Valueline2= Adds additional Slash damage to Arrows
+Valueline2= Adds additional slash damage to arrows
 
 
 [ToolTip:LackDwarvenFireArrows]
 Value=Research upgrade at the Grand Forge to enable this equipment 
-Valueline2= When equipped, adds additional Slash or Fire damage to Arrows
+Valueline2= When equipped, adds additional slash or fire damage to arrows
+
+
 [ToolTip:LackDwarvenFireArrowsBotFA]
 Value=Research upgrade at the Armouries of Thrór fortress upgrade and cast its ability to grant units Fire Arrows 
+Valueline2= When equipped, adds additional slash or fire damage to arrows
 
 
 [TOOLTIP:LackDwarvenMithrilMail]
@@ -69537,11 +69604,11 @@ Value=Wisdom of the Eldar
 
 
 [CONTROLBAR:TooltipFarsightRivendell]
-Value=Reveals shroud in targeted area 
+Value=Reveals shroud in targeted area for 60 seconds
 Valueline2= 
 Valueline3= Modifier Type: Buff 
 Valueline4= Gives a temporary +15% speed bonus to 
-Valueline5= units at its target area
+Valueline5= units at its target area for 35 seconds
 Valueline6= Always stacks 
 Valueline7= 
 Valueline8= Left click icon then left click on target area
@@ -69562,9 +69629,8 @@ Value=Tangado Haid!
 
 [CONTROLBAR:TooltipRallyingCallRivendell]
 Value=Modifier Type: Buff 
-Valueline2= Targeted allies gain +50% damage and +50% armour 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Left click icon then left click on target units
+Valueline2= Targeted allies gain +25% damage and +25% armour for 60 seconds
+Valueline3= Left click icon then left click on target units
 
 
 [CONTROLBAR:OldKingdom]
@@ -69572,11 +69638,10 @@ Value=Remnant of the Old Kingdom
 
 
 [CONTROLBAR:ToolTipOldKingdom]
-Value=Summons a ruined Arnorian outpost 
+Value=Summons a ruined Arnorian outpost for 5 minutes 
 Valueline2= Modifier Type: Buff 
 Valueline3= All allied units gain +50% damage, +50% armour and become immune to fear and terror 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5=Left click icon then left click on target area
+Valueline4=Left click icon then left click on target area
 
 
 [CONTROLBAR:SummonHallOfFire]
@@ -69586,12 +69651,11 @@ Value=Hall of Fire
 [CONTROLBAR:TooltipSummonHallOfFire]
 Value=Summons the Hall of Fire 
 Valueline2=Modifier Type: Leadership 
-Valueline3= Allies near the Hall of Fire heal and gain +33% armour, earn experience 50% faster, and become immune to Fear and Terror 
-Valueline4= Nearby Quentaroli's power recharge timers are decreased 
-Valueline5= Stacks with Buffs and Spells 
-Valueline6= The Hall of Fire may call forth vivid images of the past that inspire fear and deal damage to enemy units 
-Valueline7= Limited to 3 
-Valueline8= Left click on icon then left click on target area
+Valueline3= Allies near the Hall of Fire heal and gain +33% armour, earn experience 33% faster, and become immune to fear and terror 
+Valueline4= Nearby Revelers' power recharge timers are decreased by 50% 
+Valueline5=The Hall of Fire may call forth vivid images of the past that inspire fear and deal damage to enemy units 
+Valueline6= Limited to 3 
+Valueline7= Left click on icon then left click on target area
 
 
 [CONTROLBAR:SonsOfElrond]
@@ -69627,7 +69691,7 @@ Value=Blessing of Ulmo
 
 [CONTROLBAR:ToolTipBlessingofUlmo]
 Value=Temporarily covers the map in rain
-Valueline2= Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness
+Valueline2=Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness
 Valueline3= All friendly units are slowly healed for 30 seconds
 Valueline4= Orchards gain +25% armour for 3 minutes
 Valueline5= Extinguishes all fires 
@@ -69651,8 +69715,7 @@ Value=King Under the Mountain
 [CONTROLBAR:ToolTipThorinLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= Dwarves near Thorin gain 25% armour, resistance to fear and terror and earn experience 75% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline3=Passive ability
 
 
 [CONTROLBAR:ThorinOrcrist]
@@ -69661,17 +69724,17 @@ Value=Goblin-Cleaver (&T)
 
 [CONTROLBAR:TooltipThorinOrcrist]
 Value=Requires Level 5 
-Valueline2= Thorin temporarily gains
-Valueline3=+75% magic damage and +100% armour 
+Valueline2= Thorin gains
+Valueline3=+75% magic damage and +100% armour for 30 seconds
 Valueline4= Left click to activate
 
 
 [CONTROLBAR:ThorinLeadership2]
-Value=Armor of Thrór
+Value=Armour of Thrór
 
 
 [CONTROLBAR:ToolTipThorinLeadership2]
-Value=Thorin attains the armor of his grandfather, King Thrór, increasing his default armor 
+Value=Thorin attains the armour of his grandfather, King Thrór, increasing his default armour 
 Valueline2= Passive ability
 
 
@@ -69695,7 +69758,7 @@ Value=Resentment (&R)
 [CONTROLBAR:ToolTipThorinResentment]
 Value=Requires Level 3 
 Valueline2= Modifier Type: Active Debuff 
-Valueline3= Targeted enemy units suffer -20% speed and -30% armour
+Valueline3= Targeted enemy units suffer -20% speed and -30% armour for 30 seconds
 Valueline4= Nullifies enemy leadership 
 Valueline5= Left click icon then left click on target units
 
@@ -69720,7 +69783,7 @@ Value=Beas&t Slayer Arrow
 
 
 [CONTROLBAR:ToolTipBardSlamArrow]
-Value=A precise arrow shot that significantly slows down an enemy unit
+Value=A precise arrow shot that slows down an enemy unit by -70% for 15 seconds
 Valueline2= Left click icon then left click on target unit
 
 
@@ -69749,9 +69812,14 @@ Value=Descendant of Girion
 [CONTROLBAR:ToolTipBardLeadership]
 Value=Requires Level 8 
 Valueline2= Modifier Type: Leadership 
-Valueline3= Archers near Bard gain +33% armour, +33% vision and +15% attack range 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability
+Valueline3= Archers near Bard gain +33% damage, +33% vision and +15% attack range 
+Valueline4=Passive ability
+
+
+[CONTROLBAR:ToolTipBardLeadershipBotFA]
+Value=Modifier Type: Leadership 
+Valueline2= Archers near Bard gain +33% damage, +33% vision and +15% attack range 
+Valueline3=Passive ability
 
 
 [CONTROLBAR:BrandSlamArrow]
@@ -69759,11 +69827,10 @@ Value=Black Arrow of Dale (&R)
 
 
 [CONTROLBAR:ToolTipBrandSlamArrowNew]
-Value=Requires Level 2 
-Valueline2=A precise arrow shot that does increased damage 
-Valueline3= At level 5, knocks targeted units back 
-Valueline4= At level 8, targeted units and heroes lose -33% armour 
-Valueline5= Left click icon then left click on target unit
+Value=A precise arrow shot that reduces targeted enemy's armour by -25% for 30 seconds
+Valueline2= At level 5, knocks targeted units back 
+Valueline3= At level 8, targeted units and heroes lose -25% movement speed for 30 seconds
+Valueline4= Left click icon then left click on target unit
 
 
 [CONTROLBAR:BrandPommelStrike]
@@ -69771,11 +69838,10 @@ Value=Pommel Strike (&R)
 
 
 [CONTROLBAR:ToolTipBrandPommelStrike]
-Value=Requires Level 2
-Valueline2= A strike that deals increased damage 
-Valueline3= At level 5, knocks targeted units back 
-Valueline4= At level 8, targeted enemy unit or hero is temporarily crippled 
-Valueline5= Left click icon then left click on target
+Value=A strike that deals increased damage 
+Valueline2= At level 5, knocks targeted units back 
+Valueline3= At level 8, targeted enemy unit or hero is crippled for 10 seconds
+Valueline4= Left click icon then left click on target
 
 
 [CONTROLBAR:BrandDeadEye]
@@ -69784,9 +69850,11 @@ Value=Dragonslayer (&V)
 
 [CONTROLBAR:ToolTipBardDeadEye]
 Value=Requires Level 10 
-Valueline2= Bard summons a thrush. Temporarily gains increased attack speed, damage, and range
-Valueline3= Bard does bonus damage against monsters and flying units
-Valueline4=Left click to activate
+Valueline2= Bard summons a thrush
+Valueline3= He gains +33% attack speed, +70% damage, and +30% range
+Valueline4= Bard does bonus damage against monsters and flying units
+Valueline5=Lasts for 20 seconds
+Valueline6=Left click to activate
 
 
 [CONTROLBAR:BalinLeadership]
@@ -69796,8 +69864,7 @@ Value=Pathfinder
 [CONTROLBAR:ToolTipBalinLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= Allies near Balin gain +15% movement speed 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline3=Passive ability
 
 
 [CONTROLBAR:BalinLookout]
@@ -69805,11 +69872,13 @@ Value=Company's Lookout (&W)
 
 
 [CONTROLBAR:TooltipBalinLookout]
-Value=Modifier Type: Leadership 
-Valueline2= Allies near Balin gain +15% speed 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability 
-Valueline5= Left click to temporarily grant Balin +150% vision range
+Value=Modifier Type: Leadership
+Valueline2=Allies near Balin gain +25% vision range
+Valueline3=Passive ability 
+Valueline4=
+Valueline5= At level 10, teleports target units to the targeted location
+Valueline6=Does not work on siege units
+Valueline7=Left click icon, then left click on target units, then left click on pathable location
 
 
 [CONTROLBAR:BalinDwarvenWisdom]
@@ -69817,8 +69886,8 @@ Value=Dwarven Wisdom (&T)
 
 
 [CONTROLBAR:ToolTipBalinDwarvenWisdom]
-Value=Requires Level 3 
-Valueline2= Selected structure's resource output is temporarily raised to 175% 
+Value=Requires Level 5 
+Valueline2= Selected structure's resource output is raised to 175% for 60 seconds
 Valueline3= Left click icon then left click on target resource structure
 
 
@@ -69829,20 +69898,21 @@ Value=Counselor of Kings (&C)
 [CONTROLBAR:ToolTipBalinCounselorOfKings]
 Value=Requires Level 9 
 Valueline2= Modifier Type: Spell 
-Valueline3= Balin temporarily empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times 
-Valueline4= Stacks with Leadership and Spells 
+Valueline3= Balin empowers a friendly hero, granting them 50% armour, 50% faster experience gain,
+Valueline4= and 75% faster power recharge times for 30 seconds
 Valueline5= Left click icon then left click on target hero
 
 
 [CONTROLBAR:BalinFlag]
-Value=Balin's Expedition (&T)
+Value=Balin's Expedition (&R)
 
 
 [CONTROLBAR:TooltipBalinFlag]
-Value=Requires Level 5 
+Value=Requires Level 3 
 Valueline2= Balin plants a banner of Durin. 
 Valueline3= Nearby troops gain +50% experience gain, +25% armour, +33% damage and are partially healed. 
-Valueline4= At level 10, affected units are immune to knockback and are healed by a larger amount.
+Valueline4= At level 7, affected units are immune to knockback and are healed by a larger amount 
+Valueline5= Left click icon then left click on target area
 
 
 [OBJECT:BalinBanner]
@@ -69872,6 +69942,12 @@ Valueline2= Heals nearby friendly units
 Valueline3= Left click to activate
 
 
+[CONTROLBAR:TooltipOakenBird_WotR]
+Value=Requires Level 5 
+Valueline2= Heals nearby friendly units 
+Valueline3= Left click to activate
+
+
 [CONTROLBAR:ThrainSmash]
 Value=Son of Thrór (&W)
 
@@ -69888,8 +69964,7 @@ Value=King of Durin's Folk
 [CONTROLBAR:ToolTipThrorLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= Allies near King Thrór gain +50% damage, +75% armour, and earn experience 50% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline3=Passive ability
 
 
 [CONTROLBAR:YoungThorinLeadership]
@@ -69899,8 +69974,7 @@ Value=Prince of Erebor
 [CONTROLBAR:ToolTipYoungThorinLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= Allies near King Thorin gain +33% damage, +33% armour, and earn experience 50% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline3=Passive ability
 
 
 [CONTROLBAR:YoungThorinOakenshield]
@@ -69909,8 +69983,15 @@ Value=Oakenshield (&R)
 
 [CONTROLBAR:TooltipYoungThorinOakenshield]
 Value=Requires Level 3 
-Valueline2= Thorin temporarily gains
-Valueline3=+75% magic damage and +100% armour 
+Valueline2= Thorin gains
+Valueline3=+75% magic damage and +100% armour for 30 seconds
+Valueline4= Left click to activate
+
+
+[CONTROLBAR:TooltipYoungThorinOakenshield_WotR]
+Value=Requires Level 4 
+Valueline2= Thorin gains
+Valueline3=+75% magic damage and +100% armour for 30 seconds
 Valueline4= Left click to activate
 
 
@@ -69921,9 +70002,15 @@ Value=Du Bekar! (&T)
 [CONTROLBAR:ToolTipYoungThorinDuBekar]
 Value=Requires Level 5 
 Valueline2= Modifier Type: Spell 
-Valueline3= Thorin and nearby allies gain resistance to knockback, +75% armour, +20% speed, and crush enemies for a short time 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Left click to activate
+Valueline3= Thorin and nearby allies gain resistance to knockback, +75% armour and +20% speed for 30 seconds 
+Valueline4=Left click to activate
+
+
+[CONTROLBAR:ToolTipYoungThorinDuBekar_WotR]
+Value=Requires Level 7 
+Valueline2= Modifier Type: Spell 
+Valueline3= Thorin and nearby allies gain resistance to knockback, +75% armour and +20% speed for 30 seconds 
+Valueline4=Left click to activate
 
 
 [CONTROLBAR:YoungDwalinLeadership]
@@ -69933,9 +70020,8 @@ Value=Brother-in-Arms
 [CONTROLBAR:ToolTipYoungDwalinLeadership]
 Value=Modifier Type: Spell 
 Valueline2= When near Thorin, Dwalin gains
-Valueline3=+15% damage, +15% armour, and +15% Attack Speed 
-Valueline4= Stacks with Leadership, Buffs, and Spells 
-Valueline5= Passive ability
+Valueline3=+15% damage, +15% armour, and +15% attack speed 
+Valueline4=Passive ability
 
 
 [CONTROLBAR:YoungDwalinSmash]
@@ -69982,9 +70068,9 @@ Value=Reckless Assault
 [CONTROLBAR:ToolTipYoungDainRecklessAssault]
 Value=Requires Level 5 
 Valueline2= Modifier Type: Spell
-Valueline3= Targeted friendly units gain +33% damage 
-Valueline4= Enemy leadership is nullified 
-Valueline5= Stacks With Buffs, Leadership and other Spells
+Valueline3= Targeted friendly units gain +33% damage for 30 seconds
+Valueline4= enemy leadership is nullified for 30 seconds
+Valueline5=Left click then left click target area
 
 
 [CONTROLBAR:YoungBalinTactician]
@@ -70004,9 +70090,15 @@ Value=King's Advisor (&R)
 [CONTROLBAR:ToolTipYoungBalinCounselorOfKings]
 Value=Requires Level 3 
 Valueline2= Modifier Type: Spell 
-Valueline3= Balin temporarily empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Left click icon then left click on target hero
+Valueline3= Balin empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times for 30 seconds
+Valueline4=Left click icon then left click on target hero
+
+
+[CONTROLBAR:ToolTipYoungBalinCounselorOfKings_WotR]
+Value=Requires Level 9 
+Valueline2= Modifier Type: Spell 
+Valueline3= Balin empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times for 30 seconds
+Valueline4=Left click icon then left click on target hero
 
 
 
@@ -70042,10 +70134,9 @@ Valueline2=Strong vs. Cavalry and Heroes
 Valueline3=
 Valueline4= Horde Bonus 
 Valueline5= Modifier Type: Spell 
-Valueline6= All Laketown Watchmen and Laketown Bowmen gain +25% damage and armour when gathered in numbers of 80 or more 
-Valueline7= Stacks with buffs, Leadership and other spells 
-Valueline8=
-Valueline9= Of old, the Master of Esgaroth has armed and maintained a small regiment of townsguard, tasked with upholding law and order upon the Long Lake.
+Valueline6= All Laketown Watchmen and Laketown Bowmen gain +25% damage and armour when gathered in numbers of 80 or more
+Valueline7=
+Valueline8= Of old, the Master of Esgaroth has armed and maintained a small regiment of townsguard, tasked with upholding law and order upon the Long Lake.
 
 
 [CONTROLBAR:LW_ToolTipBuild_LaketownMilitaHorde]
@@ -70055,6 +70146,10 @@ Valueline2=Strong vs. Cavalry and Heroes
 
 [OBJECT:MasterSpy]
 Value=Master's Spy
+
+
+[OBJECT:DorwinionFighterCaptain]
+Value=Gwinion Legate
 
 
 [OBJECT:DorwinionFighter]
@@ -70093,6 +70188,17 @@ Valueline4= 'Dorwinion is a rich and fertile land, selling its excellent wine fo
 [CONTROLBAR:LW_ToolTipBuild_DorwinionFighterHorde]
 Value=Unit Type: Elite Pikemen
 Valueline2=Strong vs. Cavalry
+
+
+[CONTROLBAR:DrunkenCourage]
+Value=Drunken Courage (&W)
+
+
+[CONTROLBAR:ToolTipDrunkenCourage]
+Value=Requires level 2 
+Valueline2= Dorwinion Legionnaires gain +33% damage and resistance to fear and terror at the cost of -15% armour for 20 seconds
+Valueline3=Left click to activate
+
 
 
 [OBJECT:MenofDaleSword]
@@ -70148,6 +70254,14 @@ Value=Barding Outriders
 
 [CONTROLBAR:ConstructDaleCavalryHorde]
 Value=Barding Outriders (&W)
+
+
+[CONTROLBAR:ToolTipBuildDaleCavalryHorde]
+Value=Strong vs. Swordsmen and Archers 
+Valueline2= 
+Valueline3= Dale maintained a small, elite cavalry division for the purpose of sorties and harassing the Enemy.
+
+
 [CONTROLBAR:LW_Unit_BardingCavalryHorde]
 Value=Barding Outrider Battalion
 
@@ -70180,10 +70294,9 @@ Valueline2= Strong vs. Infantry
 Valueline3=
 Valueline4= Horde Bonus 
 Valueline5= Modifier Type: Spell 
-Valueline6= All Laketown Watchmen and Laketown Bowmen gain +25% damage and armour when gathered in numbers of 80 or more 
-Valueline7= Stacks with buffs, Leadership and other spells 
-Valueline8= 
-Valueline9= With their long bows and tall helmets, the bowmen of Esgaroth keep alive the old Dalish tradition of keen marksmanship.
+Valueline6= All Laketown Watchmen and Laketown Bowmen gain +25% damage and armour when gathered in numbers of 80 or more
+Valueline7= 
+Valueline8= With their long bows and tall helmets, the bowmen of Esgaroth keep alive the old Dalish tradition of keen marksmanship.
 
 [OBJECT:LaketownGuard]
 Value=Guard of the Master
@@ -70213,7 +70326,7 @@ Value=Search Warrant (&R)
 
 [CONTROLBAR:ToolTipSearchWarrant]
 Value=Requires Level 3
-Valueline2=Disables enemy structures and deals minor damage over time
+Valueline2=Disables enemy structures and deals minor damage over time for 15 seconds
 Valueline3= Left click icon then left click on target
 
 
@@ -70291,6 +70404,29 @@ Valueline4= At level 3 can be activated to pull enemies nearby the Khazâd-uzbadu
 Valueline5= Left click to activate
 
 
+[CONTROLBAR:SpecialAbilityStaunchDefenderIH]
+Value=Staunch Defenders (&R)
+
+
+[CONTROLBAR:ToolTipSpecialAbilityStaunchDefenderIH]
+Value=Heroes nearby the Ashâmar-sharâhul are granted +10% armour and damage 
+Valueline2= Passive ability 
+Valueline3= 
+Valueline4= At level 3 can be activated to pull enemies nearby the Ashâmar-sharâhul towards them 
+Valueline5= Left click to activate
+
+
+[CONTROLBAR:SongOfDurinIH]
+Value=Hymn of Durin (&T)
+
+
+[CONTROLBAR:ToolTipSongOfDurinIH]
+Value=Requires Level 4
+Valueline2=The Ashâmar-sharâhul sound an intimidating chant,
+Valueline3=reducing armour of nearby enemy units by 35% for 20 seconds
+Valueline4= Left click to activate
+
+
 [OBJECT:ArmedMiner]
 Value=Uthâk
 
@@ -70305,10 +70441,12 @@ Value=Armed Miners
 Valueline2=
 Valueline3= Horde Bonus 
 Valueline4= Modifier Type: Spell 
-Valueline5= All Miners gain +25% damage and +25% armour when gathered in numbers of 30 or more 
-Valueline6= Stacks with buffs, Leadership and other spells
-Valueline7=
-Valueline8= NEEDS LORE ENTRY
+Valueline5= All Miners gain +25% damage and +25% armour when gathered in numbers of 60 or more
+Valueline6=
+Valueline7= Among Dwarves, mining is a profession of great necessity and renown. All Dwarf-youths serve several years in a mining company. The best of them never leave.
+
+[CONTROLBAR:MithrilTippedPickaxes]
+Value=Mithril-tipped Pickaxes
 
 [CONTROLBAR:ToolTipMithrilTippedPickaxes]
 Value=Armed Miners' attacks decrease structure armour by 5% and steal resources from structures
@@ -70318,18 +70456,37 @@ Valueline2=Passive ability
 Value=Prospectors
 
 [CONTROLBAR:ToolTipDwarvenProspectors]
-Value=Requires Level 2 
-Valueline2= Nearby Dwarven Mines generate +3% resources 
-Valueline3= Passive ability
+Value=Requires Level 3
+Valueline2=Modifier Type: Leadership
+Valueline3= Nearby allied resource production structures generate +15% resources 
+Valueline4= Passive ability
+
+[CONTROLBAR:MinersTeleport]
+Value=NAME TBD (&T)
 
 [CONTROLBAR:TooltipMinersTeleport]
 Value=Requires Level 4
 Valueline2=Armed Miners teleport to target location
 Valueline3=Left click then left click target area
 
+[CONTROLBAR:MinersBomb]
+Value=Powder Bomb (&T)
+
+
+[CONTROLBAR:ToolTipMinersBomb]
+Value=Requires Level 4
+Valueline2=Place a pile of explosive powder barrels that knock back all surrounding units and damage structures
+Valueline3=The barrels detonate after 10 seconds 
+Valueline4= Very effective against structures 
+Valueline5= Left click to activate
+
 
 [OBJECT:TubDwarf]
 Value=Rowdy Tub-dwarf
+
+
+[OBJECT:RowdyTubDwarfLair]
+Value=Dwarven Sauna
 
 [OBJECT:EredLuinRanger]
 Value=Huruz-Khagal-zirak
@@ -70452,6 +70609,13 @@ Value=The Rangers passively heal outside of combat
 Valueline2= Passive ability
 
 
+[CONTROLBAR:ToolTipTraderEredLuinGuardsCram]
+Value=The Guards passively heal outside of combat 
+Valueline2= Passive ability
+
+
+[CONTROLBAR:EredLuinBodyguard]
+Value=Bodyguards (&R)
 
 
 [CONTROLBAR:ToolTipEredLuinBodyguard]
@@ -70461,6 +70625,8 @@ Valueline3= Ered Luin Guards empower a friendly hero, granting them 20% armour, 
 Valueline4=Left click icon then left click on target hero
 
 
+[CONTROLBAR:EredLuinCrossfire]
+Value=Crossfire (&R)
 
 
 [CONTROLBAR:ToolTipEredLuinCrossfire]
@@ -70476,9 +70642,8 @@ Value=Merchants (&R)
 [CONTROLBAR:ToolTipTraderMerchantsActive]
 Value=Requires Level 2 
 Valueline2= Modifier Type: Spell 
-Valueline3= Traders and nearby allies earn resources per kill 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Left click to activate
+Valueline3= Traders and nearby allies earn resources per kill for 30 seconds
+Valueline4=Left click to activate
 
 
 [CONTROLBAR:TraderTinkersLeadership]
@@ -70556,6 +70721,15 @@ Valueline5=
 Valueline6= 'The Dwarves of the Iron Hills see symbolic similarity between themselves and these large mountain goats. Together, they make for a fearsome presence on the battlefield.'
 
 
+[CONTROLBAR:ToolTipBuildIronHillRiderHordeBotFA]
+Value=Iron Hills Riders 
+Valueline2= Requires Level 3 Iron Hills Redoubt 
+Valueline3= Elite Cavalry 
+Valueline4=Strong vs. Archers 
+Valueline5= 
+Valueline6= 'The Dwarves of the Iron Hills see symbolic similarity between themselves and these large mountain goats. Together, they make for a fearsome presence on the battlefield.'
+
+
 [CONTROLBAR:LW_ToolTipBuild_IronHillRiderHorde]
 Value=Iron Hills Riders 
 Valueline2= Unit Type: Elite Cavalry
@@ -70564,12 +70738,18 @@ Valueline4=
 
 
 [CONTROLBAR:RelentlessCharge]
-Value=&Relentless Charge
+Value=Relentless Charge (&W)
 
 
 [CONTROLBAR:ToolTipRelentlessCharge]
-Value=Ukhrub-sharâhul temporarily lose -50% trample deceleration and gain +50% resistance to pikes 
+Value=Iron Hills Riders lose -50% trample deceleration and gain +50% resistance to pikes for 20 seconds 
 Valueline2= Left click to activate
+
+
+[CONTROLBAR:ToolTipRelentlessChargeBotFA]
+Value=Requires Level 4
+Valueline2=Iron Hills Riders lose -50% trample deceleration and gain +50% resistance to pikes for 20 seconds 
+Valueline3= Left click to activate
 
 
 [OBJECT:DwarfMangonel]
@@ -70584,10 +70764,21 @@ Value=Sulûn-abanul (&R)
 Value=Mangonel 
 Valueline2= Requires Level 2 Workshop 
 Valueline3= Strong vs. Structures
-Valueline4= Only 6 allowed at any time 
-Valueline5= Can toggle to use lighter ammunition for greater effectiveness against infantry.
-Valueline6= 
-Valueline7= Dwarven ingenuity ensures this mangonel can reload at speed and accurately pummel targets from great distances.
+Valueline4=Can toggle to use lighter ammunition for greater effectiveness against infantry.
+Valueline5= 
+Valueline6= Dwarven ingenuity ensures this mangonel can reload at speed and accurately pummel targets from great distances.
+
+
+[CONTROLBAR:ConstructDwarfMangonelWotR]
+Value=Sulûn-abanul (&W)
+
+
+[CONTROLBAR:ToolTipBuildDwarfMangonelWotR]
+Value=Mangonel 
+Valueline2= Strong vs. Structures
+Valueline3=Can toggle to use lighter ammunition for greater effectiveness against infantry.
+Valueline4= 
+Valueline5= Dwarven ingenuity ensures this mangonel can reload at speed and accurately pummel targets from great distances.
 
 
 [CONTROLBAR:DwarfToggleMangonelWeapons]
@@ -70631,8 +70822,8 @@ Value=Moria Reclaimed
 
 
 [CONTROLBAR:TooltipKhazadAllies]
-Value=Summons a Dwarrowdelf Pillar surrounded by 3 battalions of Âzugh-Khazad-dûm 
-Valueline2= Units in the vicinity of the pillar become immune to Fear and Terror 
+Value=Summons a Dwarrowdelf Pillar surrounded by 3 battalions of Khazad-dûm Veterans 
+Valueline2= Units in the vicinity of the pillar become immune to fear and terror 
 Valueline3= Left click icon then left click on pathable location
 
 
@@ -70642,6 +70833,13 @@ Value=Âzugh-Khazad-dûm (&F)
 
 [CONTROLBAR:ToolTipBuildKhazadGuardHorde]
 Value=Khazad-dûm Veterans 
+Valueline2= Requires Level 3 Erebor Assembly and the Arkenstone 
+Valueline3= Strong vs. Infantry and Structures 
+Valueline4= Limited to 3
+Valueline5=
+Valueline6= The hardy, stalwart descendents of fallen Khazad-dûm, these elite Dwarven warriors fear no enemy.
+
+
 [CONTROLBAR:ThrorHoard]
 Value=Thrór’s Hoard
 
@@ -70655,7 +70853,8 @@ Value=Treasure
 
 
 [CONTROLBAR:TooltipThrorHoard]
-Value=Summons a Dwarven hoard. Watch out for what your greed could summon.
+Value=Summons a Dwarven hoard. Watch out for what your greed could summon
+Valueline2=Left click icon then left click on target area
 
 
 [CONTROLBAR:CampaignHiddenCache]
@@ -70669,6 +70868,8 @@ Valueline2= Left click icon then left click on pathable location
 
 [CONTROLBAR:BilboRecruit]
 Value=Recruit the noble hobbit from the Shire
+Valueline2=
+Valueline3='Sorry! I don't want any adventures, thank you. Not today. Good morning! But please come to tea - any time you like! Why not tomorrow? Good bye!'
 
 
 [CONTROLBAR:BilboRevive]
@@ -70694,7 +70895,8 @@ Value=Riddle Maker (&T)
 
 
 [CONTROLBAR:TooltipBilboRiddleMaker]
-Value=Causes enemy units in the radius to fight amongst themselves
+Value=Causes enemy units and monsters in the radius to fight amongst themselves for 45 seconds
+Valueline2=Left click icon then left click on target area
 
 
 [CONTROLBAR:BilboLeadership]
@@ -70704,11 +70906,10 @@ Value=Bilbo's Courage
 [CONTROLBAR:ToolTipBilboLeadership]
 Value=Modifier Type: Spell 
 Valueline2= Nearby allies in a large radius gain
-Valueline3=+50% damage, +50% armour, 
-Valueline4= earn experience twice as fast 
-Valueline5= reduces recharge time for unit and heroes and abilities by 25% 
-Valueline6= Stacks with Leadership, Buffs, and Spells 
-Valueline7= Passive ability
+Valueline3=+50% damage, +50% armour,
+Valueline4=and earn experience twice as fast
+Valueline5=Nearby unit and hero ability cooldown times are reduced by 25% 
+Valueline6=Passive ability
 
 
 [CONTROLBAR:BilboOldFriends]
@@ -70719,25 +70920,53 @@ Value=Old Friends (&V)
 Value=Summons Gandalf the Grey
 
 
+[CONTROLBAR:BilboKinglyGift]
+Value=Kingly Gift (&R)
+
+
+[CONTROLBAR:ToolTipBilboKinglyGift]
+Value=Bilbo gains +33% armour against ranged attacks for 30 seconds
+Valueline2=Left click to activate
+
+
+[CONTROLBAR:BilboBurglar]
+Value=Company's Burglar (&T)
+
+
+[CONTROLBAR:TooltipBilboBurglar]
+Value=Bilbo becomes stealthed and can neither be attacked nor make an attack for 30 seconds
+Valueline2= Left click icon to activate
+
+
 [CONTROLBAR:CracksOfDoom]
 Value=Cracks of Doom
 
 
 [CONTROLBAR:ToolTipCracksOfDoom]
-Value=Summons a patch of cracked, volcanic earth for a short time 
-Valueline2= All units inside take damage over time 
+Value=Summons a patch of cracked, volcanic earth for 15 seconds 
+Valueline2= Enemy units inside take damage over time and are slowed by -33%
 Valueline3= Left click icon then left click on target area
 
 
 [CONTROLBAR:SummonGenericMordorSpy]
-Value=Wraiths of Mordor
+Value=Trackers of Cirith Ungol
 
 
 [CONTROLBAR:ToolTipSummonGenericMordorSpy]
-Value=Summons a small horde of wraiths
-Valueline2=Wraiths are fast-moving units that reveal a lot of shroud and detect stealth 
+Value=Summons a small horde of Ungol Trackers
+Valueline2=Ungol Trackers are fast-moving units that clear shroud and detect stealth 
 Valueline3= Nearby enemy units suffer -25% damage and -20% armour
 Valueline4= Left click icon then left click on pathable location
+
+
+[OBJECT:MordorUngolTracker]
+Value=Ungol Tracker
+
+[OBJECT:MordorUngolTrackerHorde]
+Value=Ungol Trackers
+
+[CONTROLBAR:UngolTrackerSnuffOut]
+Value=Snuff Out
 
 
 [CONTROLBAR:SummonedWightDebuff]
@@ -70746,9 +70975,8 @@ Value=Black Dread
 
 [CONTROLBAR:ToolTipSummonedWightDebuff]
 Value=Modifier Type: Passive Debuff 
-Valueline2= Nearby enemy units suffer -25% damage and -20% armour 
-Valueline3= Does not stack with other Debuffs 
-Valueline4= Passive ability
+Valueline2= Nearby enemy units suffer -25% damage and -20% armour
+Valueline3= Passive ability
 
 
 [OBJECT:FishBarrel]
@@ -70785,9 +71013,8 @@ Value=In The Name of The &King
 [CONTROLBAR:TooltipDalishSupremacy]
 Value=Requires Level 4 
 Valueline2= Modifier Type: Passive Debuff 
-Valueline3= Nearby enemy Easterling and Variag units suffer -25% damage and -20% armour 
-Valueline4= Does not stack with other Debuffs 
-Valueline5= Passive ability
+Valueline3= Nearby enemy Easterling and Variag units suffer -25% damage and -20% armour
+Valueline4= Passive ability
 
 
 [CONTROLBAR:RallyingCallErebor]
@@ -70796,13 +71023,16 @@ Value=Horn of Erebor
 
 [CONTROLBAR:TooltipRallyingCallErebor]
 Value=Modifier Type: Buff 
-Valueline2= Targeted allies gain +50% damage and +50% armour 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Left click icon then left click on target units
+Valueline2= Targeted allies gain +25% damage and +25% armour for 60 seconds
+Valueline3=Left click icon then left click on target units
 
 
 [CONTROLBAR:RebuildErebor]
 Value=Dwarven Skill
+
+
+[CONTROLBAR:RebuildEreborBotFA]
+Value=Erebor Rebuilt
 
 
 [CONTROLBAR:TooltipRebuildErebor]
@@ -70820,8 +71050,7 @@ Valueline2= Reveals the shroud and detects stealthed units
 Valueline3= Modifier Type: Leadership 
 Valueline4= Nearby friendly units gain +10% speed 
 Valueline5= Nearby enemy units lose -25% speed
-Valueline6= Stacks with Buffs and Spells
-Valueline7= Left click icon then left click on target area
+Valueline6= Left click icon then left click on target area
 
 
 [CONTROLBAR:DeepDelving]
@@ -70841,6 +71070,18 @@ Value=Hearths Rekindled
 Value=+15% resources from Grand Forges
 Valueline2=Unlocks Ignite for Grand Forges
 Valueline3=Passive power
+
+
+[CONTROLBAR:BotFANobleCharge]
+Value=Noble Charge
+
+
+[CONTROLBAR:TooltipBotFANobleCharge]
+Value=Modifier Type: Buff 
+Valueline2= Friendly units gain +15% speed, +75% armour and resistance to fear, terror and knockback for 20 seconds
+Valueline3= Left click icon then left click on target units
+
+
 [CONTROLBAR:EreborCalltheHorde]
 Value=Muster the Dwarves
 
@@ -70848,6 +71089,17 @@ Value=Muster the Dwarves
 [CONTROLBAR:ToolTipEreborCalltheHorde]
 Value=Temporarily increase Dwarf Production Speed 
 Valueline2= Left click to activate
+
+
+[CONTROLBAR:EreborVowOfVengeance]
+Value=Vow Of Vengeance
+
+
+[CONTROLBAR:ToolTipEreborVowOfVengeance]
+Value=Durin's Folk take a solemn vow of vengeance against those that have wronged them 
+Valueline2= Reduces enemy armour in a radius by 50% and prevents experience gain 
+Valueline3=Area of effect lasts 5 minutes
+Valueline4= Left click icon then left click on target area
 
 
 [CONTROLBAR:ToolTipFullyArmed]
@@ -77191,7 +77443,7 @@ Value=Focus: Fighting Uruk-hai (&W)
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusInfantry]
 Value=Select to activate 
 Valueline2= Provides bonuses to Fighting Uruk-hai, Uruk-hai Pikemen and Uruk-hai Shieldbearers 
-Valueline3= +30% damage, +70% Combat Experience 
+Valueline3= +30% damage, +70% combat experience 
 Valueline4= Decreases price by 20%
 
 
@@ -84484,6 +84736,12 @@ Valueline2= The Oathbreakers steel their shambling allies, reinforcing their arm
 Valueline3= Passive ability
 
 
+[OBJECT:OathbreakerHuskarl]
+Value=Oathbreaker Huskarl
+
+
+[OBJECT:OathbreakerLord]
+Value=Oathbreaker Lord
 
 
 [CONTROLBAR:SummonDwimoCairn]
@@ -84532,6 +84790,21 @@ Value=Build Southern Fiefdom Barracks (&T)
 [CONTROLBAR:ToolTipConstructGCBarracks]
 Value=Recruits Fiefdom Units from Gondor's expansive southern territories
 
+
+[CONTROLBAR:ToolTipIthilienRangerEscape]
+Value=Requires Level 2
+Valueline2=Rangers of Ithilien gain 25% armour,
+Valueline3= 10% speed and knockback resistance for 20 seconds
+Valueline4=Left click to activate
+
+[OBJECT:IthilienSkirmisher]
+Value=Ithilien Skirmisher
+
+[OBJECT:IthilienSkirmisherHorde]
+Value=Ithilien Skirmishers
+
+[CONTROLBAR:ConstructIthilienSkirmisherHorde]
+Value=Ithilien Skirmishers (&W)
 
 Valueline2=Produces resources
 Valueline3=Increases command point limit by 100
