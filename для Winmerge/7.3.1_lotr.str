@@ -72187,7 +72187,6 @@ Value=Elladan deals +33% extra damage to all Orcs
 Valueline2=Passive ability 
 Valueline3= 
 Valueline4= When activated, nearby orcs lose -15% speed for 30 seconds
-Valueline5=Left click to activate
 
 
 [CONTROLBAR:ElladanBrightBlade]
@@ -72416,7 +72415,7 @@ Value=Andúril, the Flame of the West (&S)
 Value=Reforge the Sword of Elendil 
 Valueline2=
 Valueline3= Aragorn takes up his claim to the throne of Gondor 
-Valueline4= Aragorn gains +40% Magic Damage and +50% damage vs Heroes
+Valueline4= Aragorn gains +40% magic damage and +50% damage vs Heroes
 
 
 [TOOLTIP:LackLayofLeithianlvl3ForgeTechnology]
@@ -72537,6 +72536,50 @@ Valueline3=Left click to activate
 
 
 
+[OBJECT:SentinelsWoodyEnd]
+Value=Sentinel of Woody End
+
+
+[OBJECT:HordeSentinelsWoodyEnd]
+Value=Sentinels of Woody End
+
+
+[BANNERUI:SentinelWoodyEnd]
+Value=Sentinel of Woody End
+
+
+[BANNERUI:SentinelsWoodyEnd]
+Value=Sentinels of Woody End
+
+
+[CONTROLBAR:LW_Unit_SentinelsWoodyEndHorde]
+Value=Sentinels of Woody End Battalion
+
+
+[CONTROLBAR:LW_Unit_SentinelsWoodyEndHordePlural]
+Value=Sentinels of Woody End Battalions
+
+
+[CONTROLBAR:ConstructSentinelsWoodyEndHorde]
+Value=Sentinels of Woody End (&W)
+
+
+[CONTROLBAR:ToolTipBuildSentinelsWoodyEndHorde]
+Value=Strong vs. Pikemen 
+Valueline2= Stealth near trees 
+Valueline3=
+Valueline4=A rare and elusive sight, the Sentinels of Woody End wandered the lonely hills and woods, and all wicked things fled at their passing.
+
+
+[CONTROLBAR:WoodyEndPassiveHeal]
+Value=Elven Stores
+
+
+[CONTROLBAR:ToolTipWoodyEndPassiveHeal]
+Value=Friendly units and heroes nearby the Sentinels of Woody End are passively healed 
+Valueline2= Passive ability
+
+
 
 [CONTROLBAR:PurchaseUpgradeDunedainSpears]
 Value=Equip Spears (&T)
@@ -72569,7 +72612,7 @@ Value=Equip Swords (&R)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDunedainSwords]
 Value=Permanently equips rangers with swords 
-Valueline2= Increases damage towards infantry and slightly increases armor
+Valueline2= Increases damage towards infantry and slightly increases armour
 Valueline3= Only one upgrade may be purchased at a time
 Valueline4= Left click to upgrade this unit
 
@@ -72586,7 +72629,7 @@ Value=Swords Equipped
 Value=Swords Equipped
 
 [CONTROLBAR:ToolTipUpgradeDunedainSwords]
-Value=Increases damage towards infantry and slightly increases armor
+Value=Increases damage towards infantry and slightly increases armour
 Valueline2= Passive Ability
 
 
@@ -72600,7 +72643,7 @@ Valueline4= Left click to upgrade this unit
 [TOOLTIP:LackArnorFireArrowsDunedain]
 Value=Research upgrade at Forge to enable this equipment 
 Valueline2=Permanently equips rangers with bows
-Valueline3= Increases base damage and adds Magic damage to arrows
+Valueline3= Increases base damage and adds magic damage to arrows
 Valueline4= Only one upgrade may be purchased at a time
 
 
@@ -72608,7 +72651,7 @@ Valueline4= Only one upgrade may be purchased at a time
 Value=Research Fire Arrows upgrade at Archery Range
 Valueline2=to enable this equipment 
 Valueline3=Permanently equips rangers with bows
-Valueline4= Increases base damage and adds Magic damage to arrows
+Valueline4= Increases base damage and adds magic damage to arrows
 Valueline5= Only one upgrade may be purchased at a time
 
 
@@ -72616,7 +72659,7 @@ Valueline5= Only one upgrade may be purchased at a time
 Value=Research Fire Arrows upgrade at Blacksmith
 Valueline2=to enable this equipment 
 Valueline3=Permanently equips rangers with bows
-Valueline4= Increases base damage and adds Magic damage to arrows
+Valueline4= Increases base damage and adds magic damage to arrows
 Valueline5= Only one upgrade may be purchased at a time
 
 
@@ -72630,7 +72673,7 @@ Valueline2= Can only be equipped at Level 1
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDunedainCaptainforDunedainProtectors]
-Value=Increases unit to Level 2 and unlocks Woodscraft special power 
+Value=Increases unit to Level 2 and unlocks Protectors of the Small-folk special power 
 Valueline2= Can only be equipped at Level 1
 
 
@@ -72664,7 +72707,7 @@ Value=Woodscraft (&V)
 
 
 [CONTROLBAR:ElvenRangerCloakProtectors]
-Value=Woodscraft (&V)
+Value=Protectors of the Small-folk (&V)
 
 
 [CONTROLBAR:ToolTipElvenRangerCloak]
@@ -72684,7 +72727,7 @@ Valueline3= Left click to activate
 
 
 [CONTROLBAR:ToolTipElvenRangerCloakInn]
-Value=Becomes invisible when standing still 
+Value=The battalion becomes invisible when standing still 
 Valueline2= Left click to activate
 
 
@@ -72728,8 +72771,48 @@ Value=Dúnedain Outriders (&W)
 
 [CONTROLBAR:ToolTipBuildDunedainOutriderHorde]
 Value=Strong vs. Archers
-Valueline2= 
-Valueline3= The wilds of Eriador stretch far and wide, and cannot all be protected by Men wandering on foot.
+Valueline2=Can stealth near trees
+Valueline3= 
+Valueline4= The wilds of Eriador stretch far and wide, and cannot all be protected by Men wandering on foot.
+
+
+
+[OBJECT:ArthedainSentinels]
+Value=Arthedain Sentinel
+
+
+[OBJECT:HordeArthedainSentinels]
+Value=Arthedain Sentinels
+
+
+[CONTROLBAR:ConstructArthedainSentinels]
+Value=Arthedain Sentinels (&W)
+
+
+[CONTROLBAR:ToolTipBuildArthedainSentinels]
+Value=Strong vs. Pikemen
+Valueline2= Stealth near trees
+Valueline3= 
+Valueline4= Though the ruins of Fornost Erain for long years lay abandoned, the Dúnedain at times ventured there to hold secret counsel. It is for this reason that the ancient city was rarely unguarded.
+
+
+[CONTROLBAR:ArthedainWesternesse]
+Value=Blades of Westernesse
+
+
+[CONTROLBAR:ToolTipArthedainWesternesse]
+Value=Arthedain Sentinels deal +33% damage against Undead units
+Valueline2=Passive ability
+
+
+[CONTROLBAR:ArthedainFarsight]
+Value=Watchful Eyes (&R)
+
+
+[CONTROLBAR:ToolTipArthedainFarsight]
+Value=Requires Level 3 
+Valueline2= Reveals an area of the map 
+Valueline3= Left click icon then left click on target area
 
 
 [OBJECT:BreeFarmer]
@@ -72814,17 +72897,50 @@ Value=Armour from the Barrows
 Value=Requires Level 3
 Valueline2= Modifier Type: Level
 Valueline3= Units permanently gain 33% armour
-Valueline4= Stacks with Leadership, Buffs, and Spells
+
+
+[OBJECT:HuntersofCombe]
+Value=Hunter of the Chetwood
+
+
+[OBJECT:HuntersofCombeHorde]
+Value=Hunters of the Chetwood
+
+
+[CONTROLBAR:ConstructHuntersofCombeHorde]
+Value=Hunters of the Chetwood (&W)
+
+
+[CONTROLBAR:ToolTipBuildHuntersofCombeHorde]
+Value=Strong vs. Infantry 
+Valueline2= Stealth near trees 
+Valueline3=
 Valueline4= The Chetwood was a large stretch of woodland near Bree. Bree-landers often ventured there to hunt for rabbits and deer.
 
 
+[CONTROLBAR:BearTrap]
+Value=Bear Trap (&R)
+
+[CONTROLBAR:ToolTipBearTrap]
+Value=Requires Level 2 
+Valueline2= The Hunters lay down a bear trap
+Valueline3= Enemies that walk across the trap are damaged on impact and suffer damage over time for 10 seconds
 Valueline4= Does not affect creeps
+Valueline5=
+Valueline6= Left click to activate
+
+
+
 [OBJECT:NoldorVeterans]
 Value=Laurëthalion
 
 
 [OBJECT:HordeNoldorVeterans]
 Value=Laurëthelyn
+
+
+[CONTROLBAR:ToggleVeteranLAWeapons]
+Value=Veterans of Many Wars (&W)
 
 
 [CONTROLBAR:LAVeteranManyWars]
