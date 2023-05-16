@@ -71126,9 +71126,9 @@ Value=Durin's Day
 
 
 [CONTROLBAR:ToolTipCloudBreakErebor]
-Value=Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness
-Valueline2=Stuns enemy units
-Valueline3= Slowly heals allied units across the map 
+Value=Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness
+Valueline2=Stuns enemy units for 15 seconds
+Valueline3= Slowly heals allied units across the map for 15 seconds 
 Valueline4= Left click to activate
 
 
@@ -71171,9 +71171,8 @@ Value=Brother-in-Arms
 [CONTROLBAR:ToolTipDwalinLeadership]
 Value=Modifier Type: Spell 
 Valueline2= When near Thorin, Dwalin gains
-Valueline3=+15% damage, +15% armour, and +15% Attack Speed 
-Valueline4= Stacks with Leadership, Buffs, and Spells 
-Valueline5= Passive ability
+Valueline3=+15% damage, +15% armour, and +15% attack speed 
+Valueline4=Passive ability
 
 
 [CONTROLBAR:OldDwalinLeadership]
@@ -71182,9 +71181,8 @@ Value=Veteran
 
 [CONTROLBAR:ToolTipOldDwalinLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= Nearby Dwarven units gain +15% damage and armour 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline2= Nearby Dwarven units gain +15% damage and armour
+Valueline3= Passive ability
 
 
 [CONTROLBAR:OldDwalinGloriousCharge]
@@ -71195,8 +71193,7 @@ Value=Baruk Khazâd! (&R)
 Value=Requires Level 3 
 Valueline2= Modifier type: Spell 
 Valueline3= Nearby Dwarven units gain a 15% speed bonus and a 50% experience bonus and resistance to fear and terror 
-Valueline4= Stacks with buffs, leadership and spells 
-Valueline5= Left click to activate
+Valueline4= Left click to activate
 
 
 [CONTROLBAR:LonglivedWarrior]
@@ -71215,8 +71212,8 @@ Value=Dwarven Juggernaut (&C)
 [CONTROLBAR:ToolTipDwalinJuggernaut]
 Value=Requires Level 8 
 Valueline2= Modifier Type: Buff 
-Valueline3= Dwalin temporarily gains
-Valueline4=+200% armour, Resistance to knockback, and deals knockback damage for a short time 
+Valueline3= Dwalin gains
+Valueline4=+200% armour, Resistance to knockback, and deals knockback damage for 30 seconds
 Valueline5= Left click to activate
 
 
@@ -71248,6 +71245,14 @@ Value=Wild Mammoth
 Value=Wild Mûmak
 
 
+[OBJECT:TradeMumak]
+Value=Trade Mûmak
+
+
+[OBJECT:HaradOliphaunt]
+Value=Oliphaunt
+
+
 [OBJECT:SnowTrollAOTR]
 Value=Wild Snow-troll
 
@@ -71266,6 +71271,50 @@ Value=Wild Stone-troll
 
 [OBJECT:Lossoth]
 Value=Lossoth
+
+
+[OBJECT:LossothArcher]
+Value=Lossoth Hunter
+
+
+[OBJECT:LossothArcherHorde]
+Value=Lossoth Hunters
+
+
+[CONTROLBAR:ConstructLossothArchers]
+Value=Lossoth Hunters (&W)
+
+
+[CONTROLBAR:ToolTipBuildLossothArchers]
+Value=Strong vs. Infantry 
+Valueline2= Stealth near trees 
+Valueline3=
+Valueline4= The Snow-men of Forochel were adept hunters. From a young age, boys were taught the ancient methods, an education that culminated in the Great Hunt, where they would join the men to fell a giant mammoth.
+
+
+[CONTROLBAR:PurchaseUpgradeLossothBasicTraining]
+Value=Purchase Lossoth Huntmaster (&V)
+
+
+[CONTROLBAR:LossothTrap]
+Value=Hunting Trap (&T)
+
+[CONTROLBAR:ToolTipLossothTrap]
+Value=Requires Level 2 
+Valueline2= The Lossoth set a hunting trap on the ground
+Valueline3= Enemies that walk across the trap are damaged and suffer -15% speed for 15 seconds
+Valueline4= Does not affect creeps
+Valueline5=
+Valueline6= Left click to activate
+
+
+[CONTROLBAR:PurchaseUpgradeLoyalCompanionsLossoth]
+Value=Purchase Loyal Companions (&R)
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeLoyalCompanionsLossoth]
+Value=Causes the battalion to be defended by sled dogs
+
 
 
 [OBJECT:LossothLair]
@@ -71350,6 +71399,11 @@ Value=Corrupted Lossoth
 Value=Gandalf The Grey
 
 
+[CONTROLBAR:GandalfTheGreyRecruit]
+Value=Recruit the Grey Pilgrim, Gandalf
+Valueline2=
+Valueline3='A wizard is never late, nor is he early, he arrives precisely when he means to.'
+
 
 [CONTROLBAR:GandalfTheGreyRevive]
 Value=Revive the fallen Hero, Gandalf
@@ -71369,17 +71423,23 @@ Value=Let's Risk A Little More Light (&R)
 
 [CONTROLBAR:ToolTipGandalfGloriousCharge]
 Value=Requires Level 5 
-Valueline2= Nearby archers gain +20% range and +15% damage 
+Valueline2= Nearby archers gain +20% range and +15% damage for 30 seconds
+Valueline3= Left click to activate
+
+
+[CONTROLBAR:ToolTipGandalfGloriousChargeBotFA]
+Value=Requires Level 2 
+Valueline2= Nearby archers gain +20% range and +15% damage for 30 seconds
 Valueline3= Left click to activate
 
 
 [CONTROLBAR:ToolTipRivendellGandalfGloriousCharge]
-Value=Nearby archers gain +20% range and +15% damage 
+Value=Nearby archers gain +20% range and +15% damage for 30 seconds
 Valueline2= Left click to activate
 
 
 [CONTROLBAR:ToolTipFellowshipGandalfGloriousCharge]
-Value=Drastically increases vision range and shroud reveal 
+Value=Drastically increases vision range and shroud reveal for 30 seconds
 Valueline2= for a short time 
 Valueline3= Left click to activate
 
@@ -71424,6 +71484,10 @@ Valueline3= Left click icon then left click on target
 Value=The Foe-Hammer (&C)
 
 
+[CONTROLBAR:GandalfFoeHammerBotFA]
+Value=The Foe-Hammer (&T)
+
+
 [CONTROLBAR:ToolTipGandalfFoeHammer]
 Value=Requires Level 2 
 Valueline2= Shoots out lightning bolts from Glamdring 
@@ -71440,7 +71504,7 @@ Value=You Shall Not Pass
 
 [CONTROLBAR:ToolTipGandalfYouShallNotPass]
 Value=Requires Level 10 
-Valueline2= Stuns enemy units in a wide radius surrounding Gandalf 
+Valueline2= Stuns enemy units in a wide radius surrounding Gandalf for 10 seconds 
 Valueline3= Left click to activate
 
 
@@ -71460,16 +71524,15 @@ Value=Prince of Erebor
 
 
 [CONTROLBAR:ToolTipPrinceOfErebor]
-Value=Modifier Type: Leadership
-Valueline2=Whenever Thorin attacks, nearby troops gain +33% damage for 8 seconds
-Valueline3=Passive ability 
-Valueline4=
-Valueline5= At level 5, Thorin is accompanied by three Khazâd-uzbadul
+Value=Whenever Thorin attacks, nearby troops gain +33% damage for 5 seconds
+Valueline2=Passive ability 
+Valueline3=
+Valueline4= At level 5, Thorin is accompanied by three Khazâd-uzbadul
 
 
 [CONTROLBAR:ToolTipDwarvenGrudge]
 Value=Thorin knocks back enemy units and gains +50% attack speed for 15 seconds
-Valueline2=Prince of Erebor's bonus is increased to 50% damage during that time
+Valueline2=Prince of Erebor bonus is increased to 50% damage during that time
 Valueline3=Left click icon then left click on target
 Valueline4=
 Valueline5=At rank 3, Thorin passively returns a percentage of damage dealt to him
@@ -71482,7 +71545,7 @@ Value=Durin's Chosen (&T)
 
 [CONTROLBAR:ToolTipDurinsChosen]
 Value=Requires Level 5 
-Valueline2= Thorin and nearby Dwarven units gain resistance to knockback and +75% damage for 30 seconds
+Valueline2= Thorin and nearby Dwarven units briefly gain resistance to knockback and +75% damage for 30 seconds
 Valueline3=Thorin can crush enemies for the duration
 Valueline4= Left click to activate
 
@@ -71509,7 +71572,7 @@ Value=Keen Eye (&W)
 Value=Nearby structures receive +25% armour 
 Valueline2= Nearby Mangonels gain +10% range 
 Valueline3= Passive Ability 
-Valueline4= At rank 3, can be cast on enemy structures to temporarily reduce their armor by 33% 
+Valueline4= At rank 3, can be cast on enemy structures to reduce their armour by 33% for 10 seconds
 Valueline5= Left click icon then left click on target
 
 
@@ -71520,7 +71583,7 @@ Value=Sabotage (&R)
 [CONTROLBAR:ToolTipHadhodSabotage]
 Value=Requires Level 3
 Valueline2=Target enemy building takes heavy damage
-Valueline3=and is temporarily disabled 
+Valueline3=and is disabled for 20 seconds
 Valueline4= Automatically opens targeted gate 
 Valueline5= Left click icon then left click on target
 
@@ -71534,7 +71597,7 @@ Value=Requires Level 6
 Valueline2=Nearby Dwarven units deal +25% damage against structures
 Valueline3=Passive ability
 Valueline4=
-Valueline5=At rank 8, can be cast to grant siege hammers upgrade to Âzagh-baruk in radius
+Valueline5=At rank 8, can be cast to grant siege hammers upgrade to Erebor Warriors in radius
 Valueline6=Left click icon then left click on target battalion
 
 
@@ -71553,7 +71616,7 @@ Value=True Shot (&W)
 
 
 [CONTROLBAR:ToolTipElegostTrueShot]
-Value=A high damage attack that stuns enemy units
+Value=A high damage attack that instills fear into enemy units for 10 seconds
 Valueline2=Left click icon then left click on target
 
 
@@ -71571,18 +71634,18 @@ Value=Ranger Craft (&T)
 
 
 [CONTROLBAR:ToolTipElegostRangerCraft]
-Value=Enemies in radius lose -50% vision range and -25% movement speed 
+Value=Enemies in radius lose -50% vision range and -25% movement speed for 30 seconds
 Valueline2= Left click then left click on target area
 
 
 [CONTROLBAR:ToolTipRivendellGandalfYouShallNotPass]
-Value=Stuns enemy units in a wide radius surrounding Gandalf 
+Value=Stuns enemy units in a wide radius surrounding Gandalf for 10 seconds
 Valueline2= Left click to activate
 
 
 [CONTROLBAR:ToolTipFellowshipGandalfYouShallNotPass]
 Value=Requires Level 3 
-Valueline2= Stuns enemy units in a wide radius surrounding Gandalf 
+Valueline2= Stuns enemy units in a wide radius surrounding Gandalf for 10 seconds
 Valueline3= Left click to activate
 
 
@@ -71592,9 +71655,8 @@ Value=Lord of the Iron Hills
 
 [CONTROLBAR:ToolTipEreborDainLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= Iron Hills units near Dáin gain +33% damage, +33% armour, and earn experience 50% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline2= Iron Hills units near Dáin gain +25% damage, +25% armour, and earn experience 33% faster 
+Valueline3=Passive ability
 
 
 [CONTROLBAR:EreborOldDainLeadership]
@@ -71604,8 +71666,7 @@ Value=King Under the Mountain
 [CONTROLBAR:ToolTipEreborOldDainLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= Units near Dáin gain +33% damage, +33% armour, and earn experience 50% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline3=Passive ability
 
 
 [CONTROLBAR:EreborDainBarukKhazad]
@@ -71634,9 +71695,9 @@ Value=Reckless Assault (&T)
 [CONTROLBAR:ToolTipEreborDainRecklessAssault]
 Value=Requires Level 5 
 Valueline2= Modifier Type: Spell
-Valueline3= Targeted friendly units gain +33% damage 
-Valueline4= Nullifies enemy leadership 
-Valueline5= Stacks With Buffs, Leadership and other Spells
+Valueline3= Targeted friendly units gain +33% damage for 30 seconds
+Valueline4= Nullifies enemy leadership for 30 seconds
+Valueline5= Left click on icon then left click on target units
 
 
 [CONTROLBAR:EreborDainToTheKing]
@@ -71687,7 +71748,7 @@ Value=Hidden Blade (&R)
 [CONTROLBAR:ToolTipFiliAxeThrow]
 Value=Requires Level 3 
 Valueline2=Fili deals heavy damage to a single target,
-Valueline3= temporarily crippling it for 10 seconds 
+Valueline3= crippling it for 10 seconds 
 Valueline4= Left click icon then left click on target
 
 
@@ -71697,9 +71758,8 @@ Value=Dwarven Dexterity (&T)
 
 [CONTROLBAR:ToolTipFiliSlayer]
 Value=Requires Level 5 
-Valueline2= Fili gains +25% damage and
-Valueline3=increased attack and movement speed 
-Valueline4= Left click to activate
+Valueline2= Fili gains +25% damage and increased attack and movement speed for 30 seconds
+Valueline3= Left click to activate
 
 
 [CONTROLBAR:FiliLeadership]
@@ -71710,8 +71770,7 @@ Value=Heir to the Throne
 Value=Requires Level 8 
 Valueline2=Modifier Type: Leadership 
 Valueline3= Basic Erebor Dwarves and Ered Luin Dwarves near Fili gain +33% damage and +25% armour
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability
+Valueline4= Passive ability
 
 
 [CONTROLBAR:KiliQuickshot]
@@ -71720,7 +71779,7 @@ Value=Quick Shot (&C)
 
 [CONTROLBAR:ToolTipKiliQuickshot]
 Value=Requires Level 3 
-Valueline2= Kili gains increased damage and attack speed for a short period of time
+Valueline2= Kili gains +15% damage and +33% attack speed for 20 seconds
 Valueline3= Can only use with bow equipped 
 Valueline4= Left click to activate
 
@@ -71751,11 +71810,9 @@ Value=As the unit levels the power improves
 Valueline2= Rank 1: Nearby allied units gain 10% armour 
 Valueline3= Rank 2: Nearby enemy units lose 10% speed 
 Valueline4= Rank 4: Nearby allied units gain 15% armour 
-Valueline5= Buff Modifier Type: Spell 
-Valueline6= Stacks with Leadership, Buffs, and other Spells 
-Valueline7= Debuff Modifier Type: Passive Debuff 
-Valueline8= Does not stack with other Debuffs 
-Valueline9= Passive ability
+Valueline5= Buff Modifier Type: Spell
+Valueline6= Debuff Modifier Type: Passive Debuff
+Valueline7= Passive ability
 
 
 [OBJECT:EreborVW]
@@ -71804,14 +71861,52 @@ Value=Pillar of Moria
 
 
 [CONTROLBAR:DwarvenTenacity]
-Value=Dwarven Tenacity (&W)
+Value=Natural Sprinters (&W)
+
+
+[CONTROLBAR:DwarvenTenacityPhalanx]
+Value=Natural Sprinters (&R)
+
+
+[CONTROLBAR:DwarvenTenacityIHPhalanx]
+Value=Natural Sprinters (&T)
 
 
 [CONTROLBAR:ToolTipDwarvenTenacity]
-Value=Requires Level 4 
-Valueline2= For 15 seconds, Âzagh-baruk gain +10% armour per hit
-Valueline3=Can stack five times
-Valueline4=Left click to activate
+Value=Requires Level 3
+Valueline2= Order Erebor Warriors to charge the enemy 
+Valueline3= Modifier Type: Buff 
+Valueline4= Warriors gain +25% damage and +25% armour for 10 seconds 
+Valueline5=Causes meta impact 
+Valueline6= Left click icon then left click on target
+
+
+[CONTROLBAR:ToolTipDwarvenTenacityIH]
+Value=Requires Level 2 
+Valueline2= Order Iron Hills Warriors to charge the enemy 
+Valueline3= Modifier Type: Buff 
+Valueline4= Warriors gain +25% damage and +25% armour for 10 seconds 
+Valueline5=Causes meta impact 
+Valueline6= Left click icon then left click on target
+
+
+[CONTROLBAR:ToolTipDwarvenTenacityIHPhalanx]
+Value=Requires Level 2 
+Valueline2= Order Iron Hills Phalanx to charge the enemy 
+Valueline3= Modifier Type: Buff 
+Valueline4= Phalanx gain +25% damage and +25% armour for 10 seconds 
+Valueline5=Causes meta impact 
+Valueline6= Left click icon then left click on target
+
+
+
+[CONTROLBAR:ToolTipDwarvenTenacityPhalanx]
+Value=Requires Level 3 
+Valueline2= Order Erebor Pikemen to charge the enemy 
+Valueline3= Modifier Type: Buff 
+Valueline4= Pikemen gain +25% damage and +25% armour for 10 seconds 
+Valueline5=Causes meta impact 
+Valueline6= Left click icon then left click on target
 
 
 [OBJECT:EreborRoac]
@@ -71865,9 +71960,8 @@ Valueline3=
 Valueline4= Modifier Type: Leadership 
 Valueline5= Rank 1: Allied units near Roäc gain +5% speed. 
 Valueline6= Rank 3: Allied heroes near Roäc gain +10% experience gain.
-Valueline7= Rank 5: Allied units near Roäc gain +10% speed. 
-Valueline8= Stacks with Buffs and Spells 
-Valueline9= Passive ability
+Valueline7= Rank 5: Allied units near Roäc gain +10% speed
+Valueline8= Passive ability
 
 
 [CONTROLBAR:PromoteRoacToLevel5]
@@ -71880,9 +71974,8 @@ Valueline3=
 Valueline4= Modifier Type: Leadership 
 Valueline5= Rank 1: Allied units near Roäc gain +5% speed. 
 Valueline6= Rank 3: Allied heroes near Roäc gain +10% experience gain.
-Valueline7= Rank 5: Allied units near Roäc gain +10% speed. 
-Valueline8= Stacks with Buffs and Spells 
-Valueline9= Passive ability
+Valueline7= Rank 5: Allied units near Roäc gain +10% speed
+Valueline8= Passive ability
 
 
 [CONTROLBAR:RoacLordofRavens]
@@ -71893,9 +71986,8 @@ Value=Lord of Ravens
 Value=Modifier Type: Leadership 
 Valueline2= Rank 1: Allied units near Roäc gain +5% speed. 
 Valueline3= Rank 3: Allied heroes near Roäc gain +10% experience gain.
-Valueline4= Rank 5: Allied units near Roäc gain +10% speed. 
-Valueline5= Stacks with Buffs and Spells 
-Valueline6= Passive ability
+Valueline4= Rank 5: Allied units near Roäc gain +10% speed
+Valueline5=Passive ability
 
 
 [CONTROLBAR:PromoteArcahToLevel3]
@@ -71910,8 +72002,7 @@ Valueline4= Modifier Type: Leadership
 Valueline5= Rank 1: Allied units near Arcah gain +5% speed
 Valueline6= Rank 3: Allied heroes near Arcah gain +10% experience gain
 Valueline7= Rank 5: Allied units near Arcah gain +10% speed
-Valueline8= Stacks with Buffs and Spells 
-Valueline9= Passive ability
+Valueline8= Passive ability
 
 
 [CONTROLBAR:PromoteArcahToLevel5]
@@ -71926,8 +72017,7 @@ Valueline4= Modifier Type: Leadership
 Valueline5= Rank 1: Allied units near Arcah gain +5% speed
 Valueline6= Rank 3: Allied heroes near Arcah gain +10% experience gain
 Valueline7= Rank 5: Allied units near Arcah gain +10% speed
-Valueline8= Stacks with Buffs and Spells 
-Valueline9= Passive ability
+Valueline8= Passive ability
 
 
 [CONTROLBAR:ArcahLadyofRavens]
@@ -71939,8 +72029,7 @@ Value=Modifier Type: Leadership
 Valueline2= Rank 1: Allied units near Arcah gain +5% speed
 Valueline3= Rank 3: Allied heroes near Arcah gain +10% experience gain
 Valueline4= Rank 5: Allied units near Arcah gain +10% speed
-Valueline5= Stacks with Buffs and Spells
-Valueline6= Passive ability
+Valueline5=Passive ability
 
 
 [CONTROLBAR:RoacLeadership]
@@ -71993,7 +72082,7 @@ Value=Messenger of the King (&V)
 
 [CONTROLBAR:ToolTipRoacMessenger]
 Value=Requires Level 5 
-Valueline2= Summons a battalion of Ukhrub-sharâhul 
+Valueline2= Summons a battalion of Iron Hills Riders 
 Valueline3= Left click icon then left click on pathable location
 
 
@@ -72083,11 +72172,10 @@ Value=Gwenyn
 
 [CONTROLBAR:ToolTipElladanLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= When near his brother, Elladan gains +100% damage and +100% armour 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= If Elrohir dies while Elladan is on the field,
-Valueline5= Elladan gains a temporary +200% damage increase but also loses -150% of his armor 
-Valueline6= Passive ability
+Valueline2= When near his brother, Elladan gains +50% damage and +50% armour
+Valueline3= If Elrohir dies while Elladan is on the field,
+Valueline4= Elladan gains a temporary +100% damage increase but also loses -25% of his armour 
+Valueline5= Passive ability
 
 
 [CONTROLBAR:ElladanLeadership2]
@@ -72108,7 +72196,7 @@ Value=Bright Blade (&C)
 
 [CONTROLBAR:ToolTipElladanBrightBlade]
 Value=Required: Rank 3 
-Valueline2= Elladan knocks down and pins target hero 
+Valueline2= Elladan deals heavy damage to targeted hero
 Valueline3= Normal units are knocked down and damaged 
 Valueline4= left click then right click on target
 
@@ -72119,11 +72207,10 @@ Value=Gwenyn
 
 [CONTROLBAR:ToolTipElrohirLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= When near his brother, Elrohir gains +100% damage and +100% armour 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= If Elladan dies while Elrohir is on the field,
-Valueline5= Elrohir gains a temporary +200% damage increase but also loses -150% of his armor 
-Valueline6= Passive ability
+Valueline2= When near his brother, Elrohir gains +50% damage and +50% armour 
+Valueline3=If Elladan dies while Elrohir is on the field,
+Valueline4= Elrohir gains a temporary +100% damage increase but also loses -25% of his armour 
+Valueline5= Passive ability
 
 
 [CONTROLBAR:ElrohirLeadership2]
@@ -72135,7 +72222,6 @@ Value=Elrohir deals +33% extra damage to all Orcs
 Valueline2=Passive ability 
 Valueline3= 
 Valueline4= When activated, nearby orcs lose -25% armour for 30 seconds
-Valueline5=Left click to activate
 
 
 [CONTROLBAR:ElrohirSwiftStrikes]
@@ -72144,7 +72230,7 @@ Value=Swift Strikes (&C)
 
 [CONTROLBAR:ToolTipElrohirSwiftStrikes]
 Value=Requires Level 3 
-Valueline2= Elrohir gains +33% Attack Speed, but loses -33% armour 
+Valueline2= Elrohir gains +33% attack speed, but loses -33% armour for 30 seconds
 Valueline3= Left click to activate
 
 
@@ -72158,8 +72244,7 @@ Valueline2= Grants 25% armour to nearby Bree-landers, Dúnedain and Elves
 Valueline3= At level 5, reduces recharge time for nearby heroes abilities by 25% and 
 Valueline4= increases auto-heal of nearby heroes by 25%
 Valueline5= Does not affect his brother 
-Valueline6= Stacks with Buffs and Spells 
-Valueline7= Passive ability
+Valueline6=Passive ability
 
 
 [CONTROLBAR:ToolTipTwinsHeroesLeadershipElrohir]
@@ -72168,8 +72253,7 @@ Valueline2= Grants 25% damage to nearby Bree-landers, Dúnedain and Elves
 Valueline3= At level 5, reduces recharge time for nearby heroes abilities by 25% and 
 Valueline4= increases auto-heal of nearby heroes by 25%
 Valueline5= Does not affect his brother 
-Valueline6= Stacks with Buffs and Spells 
-Valueline7= Passive ability
+Valueline6=Passive ability
 
 
 [CONTROLBAR:PurchaseUpgradeRivendellFortressObservatory]
@@ -72296,7 +72380,7 @@ Value=Practical Application of Fëanorian Smithing (&T)
 [CONTROLBAR:ToolTipPurchaseTechnologyRivendellFeanorSmithing]
 Value=This exhaustive treatise on Noldorin smithing techniques was authored by Celebrimbor. 
 Valueline2=
-Valueline3= Permanently reduces cost of unit upgrades
+Valueline3= Permanently reduces cost of unit upgrades by 20%
 
 
 [CONTROLBAR:PurchaseTechnologyRivendellMalice]
@@ -72374,9 +72458,8 @@ Value=Companion
 
 [CONTROLBAR:ToolTipGildorLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= Hobbits near Gildor gain +33% damage, +33% armour and experience
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline2= Hobbits near Gildor gain +33% damage, armour and experience 
+Valueline3=Passive ability
 
 
 [CONTROLBAR:GildorExiles]
@@ -72443,8 +72526,15 @@ Value=Song to Elbereth (&R)
 
 
 [CONTROLBAR:ToolTipSongToElbereth]
-Value=Friendly units temporarily become immune to fear
+Value=Nearby friendly units become immune to fear and terror for 20 seconds
 Valueline2=Left click to activate
+
+
+[CONTROLBAR:ToolTipSongToElberethWoody]
+Value=Requires rank 3 
+Valueline2= Nearby friendly units become immune to fear and terror for 20 seconds
+Valueline3=Left click to activate
+
 
 
 
@@ -72728,6 +72818,7 @@ Valueline4= Stacks with Leadership, Buffs, and Spells
 Valueline4= The Chetwood was a large stretch of woodland near Bree. Bree-landers often ventured there to hunt for rabbits and deer.
 
 
+Valueline4= Does not affect creeps
 [OBJECT:NoldorVeterans]
 Value=Laurëthalion
 
@@ -84064,13 +84155,20 @@ Value=Subjugation: Nâfarat (&E)
 Value=Subjugation: Mahûd (&T)
 
 
+[CONTROLBAR:SpecialAbilitySummonOliphaunt]
+Value=Summon Oliphaunt (&T)
 
 
 [CONTROLBAR:ToolTipSpecialAbilitySummonOliphaunt]
 Value=Requires the Subjugation: Mahûd upgrade
+Valueline2= Temporarily summons an Oliphaunt
+Valueline3= Left click on icon then left click on target area
+
+
 [CONTROLBAR:ToolTipPurchaseUpgradeHaradFortressMahud]
 Value=Prerequisite to the Hegemony upgrade
 Valueline2=Permanently decreases cost and build time of Mûmakil units by 20%
+Valueline3= Allows the Fortress to temporarily summon an Oliphaunt
 
 
 [CONTROLBAR:PurchaseUpgradeHaradFortressHegemony]
@@ -84650,6 +84748,14 @@ Valueline4= Increases command point limit by 50
 
 [OBJECT:ArnorianArmouryDescription]
 Value=Generates resources based on available terrain
+
+[CONTROLBAR:ToolTipAidFromForod]
+Value=Temporarily summons a battalion of Lossoth Hunters
+Valueline2=Left click to activate
+
+[CONTROLBAR:ToolTipPurchaseAidFromForod]
+Value=Allows the Embassy to temporarily summon a battalion of Lossoth Hunters
+
 [CONTROLBAR:ToolTipPurchaseAidFromRivendell]
 Value=Allows the Embassy to temporarily summon a battalion of Noldor Knights
 
