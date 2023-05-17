@@ -73337,6 +73337,36 @@ Valueline4=When Thorin attacks, nearby troops gain +33% armour for 8 seconds
 
 
 
+[CONTROLBAR:ToggleStanceBattleHasharin]
+Value=Stance: Subtlety
+
+
+[CONTROLBAR:ToggleStanceAggressiveHasharin]
+Value=Stance: Combat
+
+
+[CONTROLBAR:ToggleStanceHoldGroundHasharin]
+Value=Stance: Assassination
+
+
+
+[CONTROLBAR:ToolTipToggleStanceBattleHasharin]
+Value=Shortcut: F 
+Valueline2= This is the Hasharin Blade's default stance 
+Valueline3= No bonus 
+
+
+[CONTROLBAR:ToolTipToggleStanceAggressiveHasharin]
+Value=Shortcut: D 
+Valueline2= The Hasharin gains +25% armour and +15% movement speed, but loses -25% damage
+
+
+[CONTROLBAR:ToolTipToggleStanceHoldGroundHasharin]
+Value=Shortcut: G 
+Valueline2= The Hasharin no longer auto-acquires enemies. 
+Valueline3= Gains +25% damage, but loses -25% armour
+
+
 [OBJECT:HordeIronHillsGuard]
 Value=Ashâmar-sharâhul
 
@@ -73606,18 +73636,18 @@ Value=Knife Throw (&W)
 
 [CONTROLBAR:TooltipWannaBoroMiKnife]
 Value=Requires Level 2
-Valueline2= Boromir throws his knife at an enemy unit, knocking them back and reducing their armor for 10 seconds 
+Valueline2= Boromir throws his knife at an enemy unit, knocking them back and reducing their armour by 20% for 10 seconds 
 Valueline3= Left click icon then left click on target
 
 
 [CONTROLBAR:TooltipFellowshipWannaBoroMiKnife]
-Value=Boromir throws his knife at an enemy unit, knocking them back and reducing their armor for 10 seconds 
+Value=Boromir throws his knife at an enemy unit, knocking them back and reducing their armour by 20% for 10 seconds 
 Valueline2= Left click icon then left click on target
 
 
 [CONTROLBAR:ToolTipSongOfDurin]
-Value=The Khazad-dúm Veterans sound an intimidating chant,
-Valueline2=reducing armor of nearby enemy units.
+Value=The Khazad-dûm Veterans sound an intimidating chant,
+Valueline2=reducing armour of nearby enemy units by 35% for 20 seconds
 Valueline3= Left click to activate
 
 
@@ -73642,7 +73672,7 @@ Value=Knotted Strings (&R)
 
 [CONTROLBAR:ToolTipKnottedStrings]
 Value=Requires Level 2
-Valueline2= Azaghâr-sharâhul temporarily ignore enemy armour
+Valueline2= Iron Hills Crossbowmen ignore enemy armour for 30 seconds
 Valueline3= Left click to activate
 
 
@@ -73662,12 +73692,12 @@ Value=Punch Through! (&R)
 
 [CONTROLBAR:ToolTipPunchThrough]
 Value=Requires Level 3
-Valueline2=Rakhâs-abzâg temporarily knock back enemy units.
+Valueline2=Erebor Archers knock back enemy units for 30 seconds
 Valueline3= Left click to activate
 
 
 [CONTROLBAR:ToolTipKiliArrowDodge]
-Value=Kili permanently gains a boost in evasion to ranged attacks.
+Value=Kili permanently gains a boost in evasion to ranged attacks
 Valueline2= At level 5, Kili gains resistance to knockback 
 Valueline3= Passive ability
 
@@ -73676,9 +73706,12 @@ Valueline3= Passive ability
 Value=Luck of Battle
 
 
-
 [OBJECT:ElvenOropher]
 Value=Sinda Spirit
+
+
+[OBJECT:ElvenOropherWotR]
+Value=Oropher
 
 
 [OBJECT:SecondAgeElendil]
@@ -73691,6 +73724,11 @@ Value=Isildur
 
 [OBJECT:SecondAgeElendur]
 Value=Elendur
+
+
+[OBJECT:SecondAgeAnarion]
+Value=Anárion
+
 
 
 [OBJECT:SecondAgeElrond]
@@ -73712,6 +73750,13 @@ Valueline3= Allies near Elendil gain
 Valueline4= +33% damage, +33% armour, 
 Valueline5= and earn experience 50% faster
 Valueline6=Passive ability
+
+
+[CONTROLBAR:ToolTipElendilLeadership_LAS]
+Value=Elendil, son of Amandil, was the leader of the Faithful Númenóreans, before Eru Ilúvatar drowned the island nation as punishment for the arrogance of Ar-Pharazôn, its last king. Elendil escaped with his two sons and founded Númenórean kingdoms in Middle-earth. His seat was in Annúminas, in Arnor, while his sons ruled in his name from Minas Anor and Minas Ithil, in Gondor. 
+Valueline2=
+Valueline3= Allies near Elendil gain +33% armour
+Valueline4=Passive ability
 
 
 [CONTROLBAR:ElendurLeadership]
@@ -73736,8 +73781,19 @@ Valueline2=their special ability timers
 Valueline3= Left click icon then left click on target area
 
 
+[CONTROLBAR:ElendilRestoration_LAS]
+Value=Hands of the King (&R)
+
+
+[CONTROLBAR:ToolTipElendilRestoration_LAS]
+Value=Requires Level 7
+Valueline2=Heals nearby allies and fully refreshes
+Valueline3=their special ability timers 
+Valueline4= Left click icon then left click on target area
+
+
 [CONTROLBAR:OinRestoration]
-Value=Oin's O&intments
+Value=Óin's Ointments (&W)
 
 
 [CONTROLBAR:ToolTipOinRestoration]
@@ -73783,7 +73839,13 @@ Value=Shard of Narsil (&R)
 
 [CONTROLBAR:TooltipIsildurBladeMaster]
 Value=Requires Level 2 
-Valueline2= Isildur gains +100% damage and +100% armour as he takes up the shards of his father's sword 
+Valueline2= Isildur gains +100% damage and +100% armour and deals knockback for 30 seconds as he takes up the shards of his father's sword 
+Valueline3= Left click to activate
+
+
+[CONTROLBAR:TooltipIsildurBladeMaster_LAS]
+Value=Requires Level 10 
+Valueline2= Isildur gains +100% damage and +100% armour and deals knockback for 30 seconds as he takes up the shards of his father's sword 
 Valueline3= Left click to activate
 
 
@@ -73800,14 +73862,28 @@ Valueline5= and earn experience 50% faster
 Valueline6=Passive ability
 
 
+[CONTROLBAR:ToolTipGilGaladLeadership_LAS]
+Value=After the destruction of Beleriand at the end of the First Age, Ereinion Gil-galad went east across the Ered Luin and founded a Noldorin kingdom in Lindon. Many elves joined him there, and for much of the second age, his realm was a place of beauty and wisdom, firmly arrayed against Sauron's slow encroachment. 
+Valueline2=
+Valueline3= Allies near Gil-galad gain +33% damage
+Valueline4=Passive ability
+
+
 [CONTROLBAR:GilGaladAeglosLance]
 Value=His Lance Was Keen (&R)
 
 
 [CONTROLBAR:ToolTipGilGaladAeglosLance]
-Value=Knocks down and pins target hero 
+Value=Knocks down and pins target hero for 15 seconds 
 Valueline2= Normal units are knocked down and damaged 
 Valueline3= left click then right click on target
+
+
+[CONTROLBAR:ToolTipGilGaladAeglosLance_LAS]
+Value=Requires Level 6 
+Valueline2= Knocks down and pins target hero for 15 seconds 
+Valueline3= Normal units are knocked down and damaged 
+Valueline4= left click then right click on target
 
 
 [CONTROLBAR:ElrondLALeadership]
@@ -73815,12 +73891,20 @@ Value=Herald of Gil-Galad
 
 
 [CONTROLBAR:ToolTipElrondLALeadership]
-Value=When Gil-galad and Elendil joined forces, the Lord of Rivendell opened his sanctuary for the Kings to formulate their battleplans and assemble their forces. Scores of mighty arms and armor were wrought in Imladris during this time. Elrond would be Gil-galad's herald in the war to come. 
+Value=When Gil-galad and Elendil joined forces, the Lord of Rivendell opened his sanctuary for the Kings to formulate their battleplans and assemble their forces. Scores of mighty arms and armour were wrought in Imladris during this time. Elrond would be Gil-galad's herald in the war to come. 
 Valueline2=
 Valueline3=  Allies near Elrond gain 
 Valueline4= +33% damage, +33% armour, 
 Valueline5= and earn experience 50% faster
 Valueline6=Passive ability
+
+
+[CONTROLBAR:ToolTipElrondLALeadership_LAS]
+Value=When Gil-galad and Elendil joined forces, the Lord of Rivendell opened his sanctuary for the Kings to formulate their battleplans and assemble their forces. Scores of mighty arms and armour were wrought in Imladris during this time. Elrond would be Gil-galad's herald in the war to come. 
+Valueline2=
+Valueline3=  Allies near Elrond gain 
+Valueline4= +10% speed and earn experience 50% faster
+Valueline5=Passive ability
 
 
 [CONTROLBAR:ElrondArrowVolleyAbility]
@@ -73832,6 +73916,16 @@ Value=Elrond calls elven archers to bombard anywhere within a great radius with 
 Valueline2= Left click icon then left click on target area
 
 
+[CONTROLBAR:ElrondArrowVolleyAbility_LAS]
+Value=Leithio I Philinn! (&R)
+
+
+[CONTROLBAR:ToolTipElrondArrowVolleyAbility_LAS]
+Value=Requires Level 8 
+Valueline2=Elrond calls elven archers to bombard anywhere within a great radius with a volley of arrows 
+Valueline3= Left click icon then left click on target area
+
+
 [OBJECT:SecondAgeLindonWarrior]
 Value=Lindon Warrior
 
@@ -73840,14 +73934,50 @@ Value=Lindon Warrior
 Value=Lindon Warriors
 
 
+[CONTROLBAR:LW_Unit_SecondAgeLindonWarrior]
+Value=Lindon Warriors Battalion
+
+
+[CONTROLBAR:LW_ToolTip_SecondAgeLindonWarriorHorde]
+Value=
+Valueline2=Unit Type: Elite Infantry
+Valueline3=Strong vs. Infantry
+
+
+[BANNERUI:SecondAgeLindonWarrior]
+Value=Lindon Warrior
+
+
+[BANNERUI:SecondAgeLindonWarriors]
+Value=Lindon Warriors
+
+
+[CONTROLBAR:LW_Unit_SecondAgeLindonWarriorHorde]
+Value=Lindon Warriors Battalion
+
+
+[CONTROLBAR:LW_Unit_SecondAgeLindonWarriorHordePlural]
+Value=Lindon Warriors Battalions
+
+
 [CONTROLBAR:ConstructSecondAgeLindonWarriorHorde]
-Value=L&indon Warriors
+Value=Lindon Warriors (&W)
 
 
 [CONTROLBAR:ToolTipBuildSecondAgeLindonWarriorHorde]
 Value=Strong vs. Infantry
 Valueline2=
-Valueline3= Gil-galad's forces were well armed and armored, carrying long swords and bows, shining and shimmering as they approached the Enemy.
+Valueline3= Gil-galad's forces were well armed and armoured, carrying long swords and bows, shining and shimmering as they approached the Enemy.
+
+
+[CONTROLBAR:ConstructSecondAgeLindonKnightHorde]
+Value=Lindon &Knights
+
+
+[CONTROLBAR:ToolTipBuildSecondAgeLindonKnightHorde]
+Value=Strong vs. Infantry
+Valueline2=
+Valueline3= LORE STRING.
 
 
 [OBJECT:SecondAgeLindonSpearmen]
