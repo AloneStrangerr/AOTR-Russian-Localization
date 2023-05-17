@@ -72943,6 +72943,16 @@ Value=Laurëthelyn
 Value=Veterans of Many Wars (&W)
 
 
+[CONTROLBAR:ToolTipToggleVeteranLAWeapons]
+Value=Left click to switch weapons 
+Valueline2= 
+Valueline3= The Veterans have fought many battles and witnessed great triumphs and tragic defeats,
+Valueline4=and are learned in the art of war.
+Valueline5=
+Valueline6=Nearby allied troops gain +25% experience gain.
+Valueline7=Passive ability
+
+
 [CONTROLBAR:LAVeteranManyWars]
 Value=Veterans of Many Wars
 
@@ -72956,33 +72966,41 @@ Valueline5=Passive ability
 
 
 [CONTROLBAR:LAVeteranEregion]
-Value=Siege of Eregion (&T)
+Value=Siege of Eregion (&R)
 
 
 [CONTROLBAR:ToolTipLAVeteranEregion]
 Value=The Veterans were there during Sauron's attack on the Noldorin realm of Eregion.
 Valueline2=
-Valueline3=The battalion is temporarily immune to knockback, trample and fear 
-Valueline4= Modifier Type: Weapon 
-Valueline5= Stacks with Leadership, Buffs, and Spells 
-Valueline6=Left click to activate.
-Valueline7=
-Valueline8=Only one ability may be active at a time.
+Valueline3=The battalion gains +33% armour and is immune to knockback, trample and fear for 30 seconds
+Valueline4= Left click to activate.
+Valueline5=
+Valueline6=Only one ability may be active at a time.
 
 
 [CONTROLBAR:LAVeteranLastAlliance]
-Value=War of the Last Alliance (&C)
+Value=War of the Last Alliance (&T)
 
 
 [CONTROLBAR:ToolTipLAVeteranLastAlliance]
-Value=Requires Level 3
+Value=Requires Level 4
 Valueline2=The Veterans were there during the Battle of Dagorlad and the final siege of Barad-dûr.
 Valueline3=
-Valueline4=Nearby Dúnedain and Bree-landers temporarily gain +33% armour for a short time
-Valueline5=while nearby Elven units gain +33% damage for a short time
+Valueline4=Nearby Dúnedain and Bree-landers gain +50% armour for 30 seconds
+Valueline5=while nearby Elven units gain +50% damage for 30 seconds
 Valueline6=Left click to activate.
 Valueline7=
 Valueline8=Only one ability may be active at a time.
+
+
+[CONTROLBAR:ToolTipLAVeteranLastAllianceArthedain]
+Value=Requires Level 4
+Valueline2=The Veterans were there during the Battle of Dagorlad and the final siege of Barad-dûr.
+Valueline3=
+Valueline4=Nearby Arthedain Knights, Cardolan Longbowmen, Fornost Soldiers, Fornost Wardens and Annúminas Captains gain +50% armour for 30 seconds
+Valueline5=Left click to activate.
+Valueline6=
+Valueline7=Only one ability may be active at a time.
 
 
 [CONTROLBAR:LAVeteranFallOfAngmar]
@@ -72990,13 +73008,13 @@ Value=Fall of Angmar (&C)
 
 
 [CONTROLBAR:ToolTipLAVeteranFallOfAngmar]
-Value=Requires Level 5
-Valueline2=The Veterans fought alongside Glorfindel in the decisive battle against the Lord of Angmar.
+Value=Requires Level 7
+Valueline2=The Veterans were there alongside Glorfindel in the decisive battle against the Lord of Angmar.
 Valueline3=
-Valueline4=Melee attacks temporarily deal area-of-effect damage and additional damage versus structures. Ranged attack speed is increased.
-Valueline5= Modifier Type: Weapon 
-Valueline6= Stacks with Leadership, Buffs, and Spells
-Valueline7=Left click to activate.
+Valueline4=Melee attacks deal area-of-effect damage and +50% damage versus structures. Ranged attack speed is doubled.
+Valueline5= Veterans can't switch weapons for the duration of the ability.
+Valueline6= Lasts for 30 seconds
+Valueline7= Left click to activate.
 Valueline8=
 Valueline9=Only one ability may be active at a time.
 
@@ -73044,8 +73062,8 @@ Value=Break the Fourth Wall
 
 
 [CONTROLBAR:ToolTipRevelerWeapon]
-Value=Quentaroli don't deal damage but can attack units reducing their movement speed by 10%
-Valueline2=and structures reducing their armor by 5% while targeting it
+Value=Revelers don't deal damage but can attack units reducing their movement speed by 10%
+Valueline2=and structures reducing their armour by 5% while targeting it
 Valueline3=Can stack with other Revelers
 Valueline4=Passive ability
 
@@ -73064,7 +73082,7 @@ Value=Ainulindalë (&T)
 
 
 [CONTROLBAR:ToolTipSongOfSpring]
-Value=When cast on an Orchard, temporarily increases its resource production by 50%
+Value=When cast on an Orchard, its resource production is increased by 50% for 30 seconds
 Valueline2= Left click icon then left click on target
 
 
@@ -73073,11 +73091,12 @@ Value=Akallabêth (&C)
 
 
 [CONTROLBAR:ToolTipRevelersAkallabeth]
-Value=Quentaroli can target units to decrease their speed by 10% and buildings to decrease their armor by 33% 
+Value=Revelers can target units to decrease their speed by 10% and buildings to decrease their armour by 33% for 7 seconds
 Valueline2= Passive ability 
-Valueline3= Deals significant damage over time to structures 
-Valueline4= Can be cast from a large distance 
-Valueline5= Left click icon then left click on target
+Valueline3=
+Valueline4=Deals significant damage over time to structures for 15 seconds
+Valueline5= Can be cast from a large distance 
+Valueline6= Left click icon then left click on target
 
 
 [CONTROLBAR:UndomielLeadership]
@@ -73086,9 +73105,8 @@ Value=Undómiel
 
 [CONTROLBAR:TooltipUndomielLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= Units near Arwen gain +33% armour 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline2= Units near Arwen gain +33% armour
+Valueline3= Passive ability
 
 
 [CONTROLBAR:SpecialPowerUndomiel]
@@ -73104,12 +73122,12 @@ Valueline5= Modifier Type: Leadership
 Valueline6= Rank 1: Allied heroes near Arwen gain +33% experience gain. 
 Valueline7= Rank 3: The radius of Arwen's leadership is greatly increased. 
 Valueline8= Rank 10: Allied heroes near Arwen gain +33% armour for 40 seconds. 
-Valueline9= Also passively grants Arwen a high percentage of ranged damage avoidance and increased armor per level. 
+Valueline9= Also passively grants Arwen a high percentage of ranged damage avoidance and increased armour per level. 
 Valueline10=Passive ability
 
 
 [CONTROLBAR:SpecialPowerUndomielFinal]
-Value=Undómiel
+Value=Undómiel (&R)
 
 
 [CONTROLBAR:ToolTipSpecialPowerUndomielFinal]
@@ -73117,7 +73135,7 @@ Value=Modifier Type: Leadership
 Valueline2= Rank 1: Allied heroes near Arwen gain +33% experience gain. 
 Valueline3= Rank 3: The radius of Arwen's leadership is greatly increased. 
 Valueline4= Rank 10: Allied heroes near Arwen gain +33% armour for 40 seconds. 
-Valueline5= Also passively grants Arwen a high percentage of ranged damage avoidance and increased armor per level. 
+Valueline5= Also passively grants Arwen a high percentage of ranged damage avoidance and increased armour per level. 
 Valueline6= Left-click to activate 
 
 
@@ -73146,7 +73164,7 @@ Valueline5= Left click icon then left click on target
 
 
 [CONTROLBAR:ArwenFlood]
-Value=Loudwater's Fury
+Value=Loudwater's Fury (&C)
 
 
 [CONTROLBAR:ToolTipArwenFlood]
@@ -73169,8 +73187,9 @@ Value=Blessing of Tinuviel (&C)
 
 [CONTROLBAR:ToolTipTinuvielBlessing]
 Value=Requires Level 6 
-Valueline2= Enemy units within the radius are slowed and lose -20% damage and armour for 30 seconds
-Valueline3= Left click icon then left click on target
+Valueline2= Enemy units within the radius are slowed by 15% and
+Valueline3=lose -20% damage and armour for 30 seconds
+Valueline4= Left click icon then left click on target
 
 
 [CONTROLBAR:ArwenImage]
@@ -73179,7 +73198,7 @@ Value=Image of Lúthien (&T)
 
 [CONTROLBAR:ToolTipArwenImage]
 Value=Requires Level 3
-Valueline2= Targeted units and heroes temporarily become invisible and receive +10% movement speed 
+Valueline2= Targeted units and heroes become invisible and receive +10% movement speed for 30 seconds
 Valueline3= Left click icon then left click on target
 
 
@@ -73199,13 +73218,12 @@ Value=Revealed in Wrath (&R)
 
 [CONTROLBAR:ToolTipGlorfindelWrath]
 Value=Requires Level 3
-Valueline2=Glorfindel temporarily gains +100% damage 
+Valueline2=Glorfindel gains +100% damage for 30 seconds
 Valueline3= Left click to activate 
 Valueline4=
 Valueline5=Modifier Type: Spell 
-Valueline6= Glorfindel causes fear to nearby enemies and Nazgûl. 
-Valueline7= Stacks with Spells, Buffs, and Leaderships 
-Valueline8=Passive ability
+Valueline6= Glorfindel causes fear to nearby enemies and Nazgûl
+Valueline7=Passive ability
 
 
 [CONTROLBAR:GlorfindelLight]
@@ -73225,7 +73243,7 @@ Value=Slayer of Demons (&V)
 [CONTROLBAR:ToolTipGlorfindelSlayer]
 Value=Requires Level 10
 Valueline2= Blasts back units in a wide radius surrounding Glorfindel and stuns them for 15 seconds 
-Valueline3=Glorfindel’s melee attacks pin enemy heroes for 30 seconds
+Valueline3=Glorfindel's melee attacks pin enemy heroes for 30 seconds
 Valueline4= Left click to activate
 
 
@@ -73296,12 +73314,48 @@ Valueline3= Dáin will equip his Warhammer
 Valueline4=Deals knockback damage
 
 
+[CONTROLBAR:ToolTipToggleStanceBattleThorin]
+Value=Shortcut: F 
+Valueline2= This is Thorin's default stance 
+Valueline3= Modifier Type: Leadership
+Valueline4=When Thorin attacks, nearby troops gain +15% damage and armour for 8 seconds
+
+
+[CONTROLBAR:ToolTipToggleStanceAggressiveThorin]
+Value=Shortcut: D 
+Valueline2= +10% damage, +10% speed, -20% armour 
+Valueline3=Modifier Type: Leadership
+Valueline4=When Thorin attacks, nearby troops gain +33% damage for 8 seconds
+
+
+[CONTROLBAR:ToolTipToggleStanceHoldGroundThorin]
+Value=Shortcut: G 
+Valueline2= +10% armour, -20% damage, -10% speed 
+Valueline3=Modifier Type: Leadership
+Valueline4=When Thorin attacks, nearby troops gain +33% armour for 8 seconds
+
+
+
+
 [OBJECT:HordeIronHillsGuard]
 Value=Ashâmar-sharâhul
 
 
 [OBJECT:IronHillsGuard]
 Value=Ashmar-sharâhul
+
+
+[CONTROLBAR:ConstructIronHillsGuardHorde]
+Value=Ashâmar-sharâhul (&S)
+
+
+[CONTROLBAR:ToolTipBuildIronHillsGuardHorde]
+Value=Iron Hills Guards
+Valueline2=Requires Level 3 Iron Hills Redoubt 
+Valueline3= Limited to 3
+Valueline4=Strong vs. Infantry 
+Valueline5= 
+Valueline6= Battle-hardened and unyielding, the Ashâmar-sharâhul are wardens of the Halls of Ironfoot, tasked with keeping safe their Lord and his kin.
 
 
 [OBJECT:IronHillsWarrior]
@@ -73323,9 +73377,42 @@ Value=Baruk-sharâhul (&T)
 [CONTROLBAR:ToolTipBuildIronHillsWarriorHorde]
 Value=Iron Hills Warriors 
 Valueline2= Requires Level 3 Erebor Assembly 
-Valueline3=Strong vs. Pikemen
+Valueline3=Strong vs. Pikemen and Cavalry
 Valueline4=
 Valueline5= These hardy warriors followed the Lord of the Iron Hills to Erebor, to do battle with any that stood between them and their kin.
+
+
+
+[OBJECT:IronHillsSwordBotFA]
+Value=Azaghar-sharâhul
+
+
+[OBJECT:HordeIronHillsSwords]
+Value=Azaghâr-sharâhul
+
+
+[CONTROLBAR:ConstructIronHillsWarriorSwordHorde]
+Value=Azaghâr-sharâhul (&W)
+
+
+[CONTROLBAR:ToolTipBuildIronHillsWarriorSwordHorde]
+Value=Iron Hills Warriors
+Valueline2=Strong vs. Pikemen
+Valueline3=
+Valueline4= These hardy warriors followed the Lord of the Iron Hills to Erebor, to do battle with any that stood between them and their kin.
+
+
+[CONTROLBAR:ConstructIronHillsWarriorSpearHorde]
+Value=Baruk-sharâhul (&E)
+
+
+[CONTROLBAR:ToolTipBuildIronHillsWarriorSpearHorde]
+Value=Iron Hills Phalanx
+Valueline2=Requires Level 2 Iron Hills Redoubt
+Valueline3=Strong vs. Cavalry and Heroes
+Valueline4=
+Valueline5= With long spears and broad shields, these Dwarves staunchly guarded the Lord of the Iron Hills with nigh impenetrable lines.
+
 
 
 [OBJECT:IronHillsCrossbow]
@@ -73340,10 +73427,26 @@ Value=Azaghâr-sharâhul
 Value=Azaghâr-sharâhul (&F)
 
 
+[CONTROLBAR:ConstructIronHillsCrossbowHorde_Adventure]
+Value=Azaghâr-sharâhul (&S)
+
+
+[CONTROLBAR:ConstructIronHillsCrossbowHordeBotFA]
+Value=Azaghâr-sharâhul (&R)
+
+
 
 [CONTROLBAR:ToolTipBuildIronHillsCrossbowHorde]
 Value=Iron Hills Crossbowmen 
 Valueline2= Requires Level 3 Erebor Assembly 
+Valueline3= Strong vs. Infantry
+Valueline4=
+Valueline5= Like their users, Iron Hills crossbows are short and sturdy, and packing quite a punch.
+
+
+[CONTROLBAR:ToolTipBuildIronHillsCrossbowHordeBotFA]
+Value=Iron Hills Crossbowmen 
+Valueline2= Requires Level 2 Iron Hills Redoubt 
 Valueline3= Strong vs. Infantry
 Valueline4=
 Valueline5= Like their users, Iron Hills crossbows are short and sturdy, and packing quite a punch.
@@ -73364,17 +73467,15 @@ Value=Durin's Banner
 
 [CONTROLBAR:ToolTipBTDurinBanner]
 Value=Modifier Type: Spell 
-Valueline2= Allies near the Tower earn experience +15% faster 
-Valueline3= Stacks with Spells, Buffs, and Leaderships 
-Valueline4=Passive ability 
-Valueline5= Left click to purchase
+Valueline2= Allies near the Tower earn experience +15% faster
+Valueline3=Passive ability 
+Valueline4= Left click to purchase
 
 
 [CONTROLBAR:ToolTipBTDurinBannerUpgraded]
 Value=Modifier Type: Spell 
-Valueline2= Allies near the Tower earn experience +15% faster 
-Valueline3= Stacks with Spells, Buffs, and Leaderships 
-Valueline4=Passive ability
+Valueline2= Allies near the Tower earn experience +15% faster
+Valueline3=Passive ability
 
 
 [UPGRADE:BTKhazadBanner]
@@ -73391,17 +73492,15 @@ Value=Khazad-dûm Banner
 
 [CONTROLBAR:ToolTipBTKhazadBanner]
 Value=Modifier Type: Spell 
-Valueline2= Allies near the Tower become immune to Fear and Terror 
-Valueline3= Stacks with Spells, Buffs, and Leaderships 
-Valueline4=Passive ability 
-Valueline5= Left click to purchase
+Valueline2= Allies near the Tower become immune to fear and terror
+Valueline3=Passive ability 
+Valueline4= Left click to purchase
 
 
 [CONTROLBAR:ToolTipBTKhazadBannerUpgraded]
 Value=Modifier Type: Spell 
-Valueline2= Allies near the Tower become immune to Fear and Terror 
-Valueline3= Stacks with Spells, Buffs, and Leaderships 
-Valueline4=Passive ability
+Valueline2= Allies near the Tower become immune to fear and terror
+Valueline3=Passive ability
 
 
 [UPGRADE:BTEredMithrimBanner]
@@ -73419,18 +73518,16 @@ Value=Ered Mithrim Banner
 [CONTROLBAR:ToolTipBTEredMithrimBanner]
 Value=Modifier Type: Spell 
 Valueline2= Increases vision of tower 
-Valueline3= Allies near the Tower gain a +25% range and vision bonus 
-Valueline4= Stacks with Spells, Buffs, and Leaderships 
-Valueline5=Passive ability 
-Valueline6= Left click to purchase
+Valueline3= Allies near the Tower gain a +25% range and vision bonus
+Valueline4=Passive ability 
+Valueline5= Left click to purchase
 
 
 [CONTROLBAR:ToolTipBTEredMithrimBannerUpgraded]
 Value=Modifier Type: Spell 
 Valueline2= Increases vision of tower 
-Valueline3= Allies near the Tower gain a +25% range and vision bonus 
-Valueline4= Stacks with Spells, Buffs, and Leaderships 
-Valueline5=Passive ability
+Valueline3= Allies near the Tower gain a +25% range and vision bonus
+Valueline4=Passive ability
 
 
 [UPGRADE:BTIronHillsBanner]
@@ -73447,17 +73544,15 @@ Value=Iron Hills Banner
 
 [CONTROLBAR:ToolTipBTIronHillsBanner]
 Value=Modifier Type: Spell 
-Valueline2= Allies near the Tower gain +15% damage 
-Valueline3= Stacks with Spells, Buffs, and Leaderships 
-Valueline4=Passive ability 
-Valueline5= Left click to purchase
+Valueline2= Allies near the Tower gain +15% damage
+Valueline3=Passive ability 
+Valueline4= Left click to purchase
 
 
 [CONTROLBAR:ToolTipBTIronHillsBannerUpgraded]
 Value=Modifier Type: Spell 
-Valueline2= Allies near the Tower gain +15% damage 
-Valueline3= Stacks with Spells, Buffs, and Leaderships 
-Valueline4=Passive ability
+Valueline2= Allies near the Tower gain +15% damage
+Valueline3=Passive ability
 
 
 [UPGRADE:BTEredLuinBanner]
@@ -73474,17 +73569,15 @@ Value=Ered Luin Banner
 
 [CONTROLBAR:ToolTipBTEredLuinBanner]
 Value=Modifier Type: Spell 
-Valueline2= Allies near the Tower gain resources per kill 
-Valueline3= Stacks with Spells, Buffs, and Leaderships 
-Valueline4=Passive ability 
-Valueline5= Left click to purchase
+Valueline2= Allies near the Tower gain resources per kill
+Valueline3=Passive ability 
+Valueline4= Left click to purchase
 
 
 [CONTROLBAR:ToolTipBTEredLuinBannerUpgraded]
 Value=Modifier Type: Spell 
-Valueline2= Allies near the Tower gain resources per kill 
-Valueline3= Stacks with Spells, Buffs, and Leaderships 
-Valueline4=Passive ability
+Valueline2= Allies near the Tower gain resources per kill
+Valueline3=Passive ability
 
 
 [OBJECT:DwarfBatteringRam]
@@ -73495,9 +73588,10 @@ Value=Urkhas-felak (&W)
 
 [CONTROLBAR:ToolTipBuildDwarfBatteringRam]
 Value=Battering Ram 
-Valueline2= Breaks down castle gates and enemy structures 
-Valueline3= 
-Valueline4= Capable of carrying great weight across large distances, the Dwarves of Erebor forge and refine their battering rams within their halls, rather than use felled trees from the battleground.
+Valueline2= Strong vs. Structures
+Valueline3= Breaks down castle gates and enemy structures 
+Valueline4= 
+Valueline5= Capable of carrying great weight across large distances, the Dwarves of Erebor forge and refine their battering rams within their halls, rather than use felled trees from the battleground.
 
 [OBJECT:DwarfSiegeCrew]
 Value=Dwarven Siege Crewer
