@@ -73988,8 +73988,34 @@ Value=Lindon Spearmen
 Value=Lindon Spearmen
 
 
+[CONTROLBAR:LW_Unit_SecondAgeLindonSpearmen]
+Value=Lindon Spearmen Battalion
+
+
+[CONTROLBAR:LW_ToolTip_SecondAgeLindonSpearmen]
+Value=
+Valueline2=Unit Type: Elite Pikemen
+Valueline3=Strong vs. Cavalry
+
+
+[BANNERUI:SecondAgeLindonGuard]
+Value=Lindon Spearman
+
+
+[BANNERUI:SecondAgeLindonGuards]
+Value=Lindon Spearmen
+
+
+[CONTROLBAR:LW_Unit_SecondAgeLindonGuardHorde]
+Value=Lindon Spearmen Battalion
+
+
+[CONTROLBAR:LW_Unit_SecondAgeLindonGuardHordePlural]
+Value=Lindon Spearmen Battalions
+
+
 [CONTROLBAR:ConstructSecondAgeLindonSpearmenHorde]
-Value=Lindon &Spearmen
+Value=Lindon Spearmen (&E)
 
 
 [CONTROLBAR:ToolTipBuildSecondAgeLindonSpearmenHorde]
@@ -74002,12 +74028,38 @@ Valueline3= With tall shields and immense spears, these Noldor warriors halted t
 Value=Dúnedain Soldier
 
 
+[BANNERUI:SecondAgeFighter]
+Value=Dúnedain Soldier
+
+
+[BANNERUI:SecondAgeFighters]
+Value=Dúnedain Soldiers
+
+
 [OBJECT:HordeSecondAgeFighter]
 Value=Dúnedain Soldiers
 
 
+[CONTROLBAR:LW_Unit_SecondAgeFighter]
+Value=Dúnedain Soldiers Battalion
+
+
+[CONTROLBAR:LW_ToolTip_SecondAgeFighter]
+Value=
+Valueline2=Unit Type: Basic Infantry
+Valueline3=Strong vs. Pikemen
+
+
+[CONTROLBAR:LW_Unit_SecondAgeFighterHorde]
+Value=Dúnedain Soldiers Battalion
+
+
+[CONTROLBAR:LW_Unit_SecondAgeFighterHordePlural]
+Value=Dúnedain Soldiers Battalions
+
+
 [CONTROLBAR:ConstructSecondAgeFighterHorde]
-Value=&Dúnedain Soldiers
+Value=Dúnedain Soldiers (&W)
 
 
 
@@ -74015,6 +74067,44 @@ Value=&Dúnedain Soldiers
 Value=Strong vs. Infantry
 Valueline2=
 Valueline3= Elendil's Dúnedain soldiers were of stature undimmed and undiluted blood - legendary warriors, feared by the Dark Lord's servants.
+
+
+[OBJECT:SecondAgeSpearmen]
+Value=Dúnedain Spearman
+
+
+[OBJECT:HordeSecondAgeSpearmen]
+Value=Dúnedain Spearmen
+
+
+[BANNERUI:SecondAgeSpearman]
+Value=Dúnedain Spearman
+
+
+[BANNERUI:SecondAgeSpearmen]
+Value=Dúnedain Spearmen
+
+
+[CONTROLBAR:LW_Unit_SecondAgeSpearmen]
+Value=Dúnedain Spearmen Battalion
+
+
+[CONTROLBAR:LW_Unit_SecondAgeSpearmenHorde]
+Value=Dúnedain Spearmen Battalion
+
+
+[CONTROLBAR:LW_Unit_SecondAgeSpearmenHordePlural]
+Value=Dúnedain Spearmen Battalions
+
+
+[CONTROLBAR:ConstructSecondAgeSpearmenHorde]
+Value=Dúnedain Spearmen (&R)
+
+
+[CONTROLBAR:ToolTipBuildSecondAgeSpearmenHorde]
+Value=Strong vs. Cavalry and Heroes
+Valueline2=
+Valueline3= The Dúnedain of Gondor were steadfast in their assault on the Black Land - driving back the unending hordes of the Dark Lord with their great spears.
 
 
 [OBJECT:SecondAgeArcher]
@@ -74025,22 +74115,54 @@ Value=Dúnedain Archer
 Value=Dúnedain Archers
 
 
+[CONTROLBAR:LW_Unit_SecondAgeArcher]
+Value=Dúnedain Archers Battalion
+
+
+[CONTROLBAR:LW_ToolTip_SecondAgeArcher]
+Value=
+Valueline2=Unit Type: Basic Archer
+Valueline3=Strong vs. Swordsmen
+
+
+[BANNERUI:SecondAgeArcher]
+Value=Dúnedain Archer
+
+
+[BANNERUI:SecondAgeArchers]
+Value=Dúnedain Archers
+
+
+[CONTROLBAR:LW_Unit_SecondAgeArcherHorde]
+Value=Dúnedain Archers Battalion
+
+
+[CONTROLBAR:LW_Unit_SecondAgeArcherHordePlural]
+Value=Dúnedain Archers Battalions
+
+
 [CONTROLBAR:ConstructSecondAgeArcherHorde]
-Value=Dú&nedain Archers
+Value=Dúnedain Archers (&E)
 
 
 [CONTROLBAR:ToolTipBuildSecondAgeArcherHorde]
 Value=Strong vs. Infantry
 Valueline2=
-Valueline3= The Dúnedain under Elendil still made use Númenórean hollow steel-bows and sent before them a great cloud of arrows, like rain turned to serpents.
+Valueline3= The Dúnedain under Elendil still made use of Númenórean hollow steel-bows and sent before them a great cloud of arrows, like rain turned to serpents.
 
 
 [CONTROLBAR:ConstructLAGondorTent]
-Value=Build a Dúnedain Tent
+Value=Build a Dúnedain Tent (&W)
 
 
 [CONTROLBAR:ToolTipConstructLAGondorTent]
 Value=Recruits Dúnedain troops
+
+
+[CONTROLBAR:ToolTipConstructLAGondorTent_LAS]
+Value=Recruits Dúnedain troops
+Valueline2=
+Valueline3=Limited to 1
 
 
 [OBJECT:LAGondorTent]
@@ -74052,11 +74174,17 @@ Value=Recruits Dúnedain troops
 
 
 [CONTROLBAR:ConstructLAElvenTent]
-Value=Build a Noldor Tent
+Value=Build a Noldor Tent (&E)
 
 
 [CONTROLBAR:ToolTipConstructLAElvenTent]
 Value=Recruits Noldor troops
+
+
+[CONTROLBAR:ToolTipConstructLAElvenTent_LAS]
+Value=Recruits Noldor troops
+Valueline2=
+Valueline3=Limited to 1
 
 
 [OBJECT:LAElvenTent]
@@ -74258,6 +74386,10 @@ Value=Sulkhâ-bekhâz
 Value=Sulkhâ-bekhâz (&T)
 
 
+[CONTROLBAR:ConstructGrimHammerHorde_Adventure]
+Value=Sulkhâ-bekhâz (&R)
+
+
 [CONTROLBAR:ToolTipBuildGrimHammerHorde]
 Value=Grim Hammers 
 Valueline2= Requires Level 2 Hall of Warriors 
@@ -74273,9 +74405,15 @@ Value=Intimidation
 [CONTROLBAR:TooltipGrimIntimidate]
 Value=Requires Level 2 
 Valueline2= Modifier Type: Passive Debuff 
-Valueline3= Nearby enemy units suffer -10% speed 
-Valueline4= Stacks with other Debuffs 
-Valueline5= Passive ability
+Valueline3= Nearby enemy units suffer -10% speed
+Valueline4= Passive ability
+
+
+[CONTROLBAR:TooltipIHIntimidate]
+Value=Requires Level 4 
+Valueline2= Modifier Type: Passive Debuff 
+Valueline3= Nearby enemy units suffer -10% speed
+Valueline4= Passive ability
 
 
 [CONTROLBAR:PurchaseUpgradeDwarvenTrainingWagon]
@@ -74303,7 +74441,7 @@ Value=Unfurl Ironfoot's Banners!
 
 [CONTROLBAR:TooltipDwarvenWagonButtonBC]
 Value=Requires Level 2
-Valueline2=Nearby Dwarves gain +33% damage, +33% armour, and 50% experience gain
+Valueline2=Nearby Dwarves gain +33% damage, +33% armour, and +50% experience gain
 Valueline3= Passive ability
 
 
@@ -74336,17 +74474,17 @@ Valueline2=The battlewagon and crew heal outside of combat
 
 
 [OBJECT:GuldurCastellan]
-Value=Armored Castellan
+Value=Armoured Castellan
 
 
 [CONTROLBAR:ConstructGuldurCastellan]
-Value=Armored Castellan (&R)
+Value=Armoured Castellan (&R)
 
 
 [CONTROLBAR:ToolTipBuildGuldurCastellan]
-Value=Requires Level 3 Spire of Sorcery
+Value=Requires Level 2 Spire of Sorcery
 Valueline2=Strong vs. Swordsmen and Archers
-Valueline3=Limited to 3
+Valueline3=Hero Unit. Limited to 3
 Valueline4= 
 Valueline5= Nameless and with no will of their own, the dreaded Castellans of Dol Guldur are eternally bound to the Dark Lord's command.
 
@@ -74413,12 +74551,11 @@ Value=Secret Gate
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressBanners]
 Value=Modifier Type: Leadership 
-Valueline2= Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster. 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4=
-Valueline5=Reduces Hero cost by 10% 
-Valueline6= Reduces Hero recruit time by 10% 
-Valueline7= Reduces the cost of builders by 20%
+Valueline2= Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster
+Valueline3=
+Valueline4=Reduces Hero cost by 10% 
+Valueline5= Reduces Hero recruit time by 10% 
+Valueline6= Reduces the cost of builders by 20%
 
 [CONTROLBAR:PurchaseUpgradeRohanFortressBanners]
 Value=Royal Banners (&W)
@@ -74434,7 +74571,7 @@ Valueline3= Left click to activate
 
 
 [CONTROLBAR:PurchaseUpgradeDesperateGarrison]
-Value=Desperate Garrison (&R)
+Value=Desperate Garrison (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDesperateGarrison]
@@ -74442,7 +74579,7 @@ Value=Stations Spear-throwers in the Fortress
 
 
 [CONTROLBAR:PurchaseUpgradeHornofHammerhand]
-Value=Horns of Hammerhand (&S)
+Value=Horns of Hammerhand (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeHornofHammerhand]
@@ -74461,11 +74598,11 @@ Value=Allows recruitment of Helmingas Warriors
 
 
 [CONTROLBAR:PurchaseUpgradeRohanFortressFortifications]
-Value=Hasty Fortifications (&E)
+Value=Hasty Fortifications (&S)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressFortifications]
-Value=Increases Fortress armor 
+Value=Increases Fortress armour by 65% 
 Valueline2= Damages units adjacent to fortress
 
 
