@@ -74611,12 +74611,14 @@ Value=Mead Hall (&D)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressMeadHall]
-Value=Heals allies nearby the Fortress
+Value=Reduces Hero revival cost by 20% 
+Valueline2= Reduces Hero revival time by 20% 
+Valueline3= Heals nearby allies
 
 
 [TOOLTIP:LackRohanFortressMeadHall]
 Value=Requires the Mead Hall upgrade 
-Valueline2= Allows the Summoning of two fully-upgraded Rohirrim battalions
+Valueline2= Allows the summoning of two fully-upgraded Rohirrim battalions
 
 
 [CONTROLBAR:PurchaseUpgradeRohanFortressRideofRohirrim]
@@ -74696,7 +74698,8 @@ Value=Fear! Fire! Foes! (&R)
 
 [CONTROLBAR:ToolTipHornofBuckland]
 Value=Requires Level 2
-Valueline2=The Horn-call of Buckland is sounded decreasing recruit times of all Hobbit units
+Valueline2=The Horn-call of Buckland is sounded, decreasing recruit times of all Hobbit units for 300% for 30 seconds
+Valueline3= Left click to activate
 
 
 [OBJECT:ArnorFarmerMaggot]
@@ -74755,8 +74758,9 @@ Value=Bamfurlong
 
 [CONTROLBAR:ToolTipMaggotsFarmSummon]
 Value=Requires Level 2
-Valueline2=Summons Farmer Maggot's farm for a short time 
+Valueline2=Summons Farmer Maggot's farm for 30 seconds 
 Valueline3= Generates a large amount of resources 
+Valueline4= Left click icon then left click on target area
 
 
 [OBJECT:MaggotsFarmDescription]
@@ -74771,12 +74775,15 @@ Value=Hall of Fire
 Value=Take a seat near the hearth and listen to the tales of old. 
 Valueline2=
 Valueline3=Modifier Type: Leadership 
-Valueline4= Allies near the Hall of Fire gain +33% armour, earn experience 50% faster, and become immune to Fear and Terror 
-Valueline5= Nearby Quentaroli's power recharge timers are decreased 
-Valueline6= Stacks with Buffs and Spells 
-Valueline7= Replenishes health and units in nearby battalions
-Valueline8= The Hall of Fire may call forth vivid images of the past that inspire fear and deal damage to enemy units 
-Valueline9= Limited to 3
+Valueline4= Allies near the Hall of Fire gain +33% armour, earn experience 33% faster, and become immune to fear and terror 
+Valueline5= Nearby Revelers' power recharge timers are decreased
+Valueline6= Replenishes health and units in nearby battalions
+Valueline7= The Hall of Fire may call forth vivid images of the past that inspire fear and deal damage to enemy units 
+Valueline8= Limited to 3
+
+
+[OBJECT:HallOfFireDescriptionWotR]
+Value=Take a seat near the hearth and listen to the tales of old.
 Valueline2=
 Valueline3=Recruits Rivendell Revelers
 Valueline4=Limited to 1
@@ -74803,7 +74810,8 @@ Valueline13=
 Valueline14=But long ago he rode away,
 Valueline15=and where he dwelleth none can say,
 Valueline16=for into darkness fell his star
-Valueline17=in Mordor where the shadows are.
+Valueline17=in Mordor where the shadows are. 
+Valueline18= Left click icon then left click on target area
 
 
 [CONTROLBAR:HallOfFireSpawnTurin]
@@ -74838,7 +74846,32 @@ Value=The Smith of Eregion (&T)
 Value=
 Valueline2=Summons a vivid retelling of Celebrimbor's Death
 Valueline3=
-Valueline4= Celebrimbor, the great Elven smith, forged many artifacts of beauty and power. When Sauron arrived in Eregion - disguised as Annatar the Fair - he taught Celebrimbor to make magic Rings of Power, which resulted in Celebrimbor creating the Three Elven Rings. Then Sauron went away to Orodruin, where he crafted the One Ring, to rule over the others. Celebrimbor, realizing this betrayal, sent the Three away for safekeeping and waged war against Sauron, ultimately losing his life.
+Valueline4= Celebrimbor, the great Elven smith, forged many artifacts of beauty and power. When Sauron arrived in Eregion - disguised as Annatar the Fair - he taught Celebrimbor to make magic Rings of Power, which resulted in Celebrimbor creating the Three Elven Rings. Then Sauron went away to Orodruin, where he crafted the One Ring, to rule over the others. Celebrimbor, realizing this betrayal, sent the Three away for safekeeping and waged war against Sauron, ultimately losing his life. 
+Valueline5= Left click icon then left click on target area
+
+
+[CONTROLBAR:HallOfFireSpawnElendil]
+Value=The Faithful King (&S)
+
+
+[CONTROLBAR:TooltipHallOfFireSpawnElendil]
+Value=
+Valueline2=Summons a vivid retelling of the High King of Gondor and Arnor
+Valueline3=
+Valueline4= When the isle of Númenor was drowned after Ar-Pharazôn's betrayal of the Valar, Elendil remained faithful and escaped the destruction along with his sons and people, sailing nine ships towards Middle-earth. There, he would reign as High King of the newly founded kingdoms of Gondor and Arnor, and fought valiantly in the War of the Last Alliance, opposing Sauron alongside Gil-galad. In the final assault upon the Barad-dûr, both kings fought the Dark Lord hand to hand, and were slain. It was then that Isildur, eldest son of Elendil, took up his father's sword and cut the Ring from Sauron's hand. 
+Valueline5= Left click icon then left click on target area
+
+
+[CONTROLBAR:HallOfFireSpawnAmroth]
+Value=The Drowned Lord (&D)
+
+
+[CONTROLBAR:TooltipHallOfFireSpawnAmroth]
+Value=
+Valueline2=Summons a vivid retelling of the last King of Lórien
+Valueline3=
+Valueline4= Great was the love that Amroth Amdírion, the Sinda King of Lórien, bore for Nimrodel, who had dwelled in the forest long before the Noldor and Sindar brought their warlike ways from over the mountains. Nimrodel desired peace, and knowing she would no longer find it in Middle-earth, said to Amroth that they could marry if he took her to a tranquil land. Amroth agreed, and they traveled south to find passage towards the Undying Lands. However, they became separated, and Amroth reached the havens of Edhellond before Nimrodel. Long he waited, until one fateful night his ship was born away in a storm as far as Tol Eressëa. In despair, Amroth leapt over the bow, wishing to swim back to shore and his fair Nimrodel, but sadly drowned in the attempt. 
+Valueline5= Left click icon then left click on target area
 
 
 [CONTROLBAR:GilGaladHOFLeadership]
@@ -74956,6 +74989,10 @@ Value=Fountain Guard
 
 [BANNERUI:GondorFountainGuards]
 Value=Fountain Guards
+
+
+[CONTROLBAR:LW_Hero_Madril]
+Value=Madril
 
 
 [CONTROLBAR:LW_Hero_Beregond]
