@@ -75385,6 +75385,14 @@ Value=Bolg's Bodyguard
 Value=Bolg's Bodyguard
 
 
+[BANNERUI:WildHobgoblin]
+Value=Hobgoblin Plunderer
+
+
+[BANNERUI:WildHobgoblins]
+Value=Hobgoblin Plunderer
+
+
 [CONTROLBAR:LW_Unit_WildFireDrake]
 Value=Fire Wyrm
 
@@ -75601,7 +75609,7 @@ Value=Erebor Redoubt
 
 
 [CONTROLBAR:LW_ToolTipBuild_DwarvenWorkshop]
-Value=Battle Template: Erebor Redoubt
+Value=Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline3=Structure Type: Elite Barracks
 Valueline4=Trains Erebor elite units
@@ -75609,10 +75617,11 @@ Valueline5=
 
 
 [CONTROLBAR:LW_ToolTip_DwarvenWorkshop]
-Value=Battle Template: Erebor Redoubt
+Value=Battle Bonus: +20% faster unit production
 Valueline2=
 Valueline3=Structure Type: Elite Barracks
 Valueline4=Trains Erebor elite units
+Valueline5=
 
 
 [CONTROLBAR:LW_Unit_DwarvenBatteringRam]
@@ -75849,9 +75858,8 @@ Value=Armaments of Ost-in-Edhil
 Value=Requires Level 6 
 Valueline2= Elrond equips his heavy armour 
 Valueline3= Modifier Type: Spell 
-Valueline4= Elrond gains +50% armour and +50% resistance to knockback 
-Valueline5= Stacks with Buffs and Spells 
-Valueline6= Passive ability
+Valueline4= Elrond gains +33% armour and +50% resistance to knockback
+Valueline5= Passive ability
 
 
 [CONTROLBAR:ElrondRingOfAir]
@@ -75861,10 +75869,10 @@ Value=Ring of Air (&C)
 [CONTROLBAR:TooltipElrondRingOfAir]
 Value=Requires Level 3
 Valueline2= Modifier Type: Buff
-Valueline3=Creates a circular sanctuary around Elrond
+Valueline3=Creates a circular sanctuary around Elrond for 30 seconds
 Valueline4=Allied units gain +100% armour while in the area
 Valueline5=Rank 5: Nearby enemy units suffer -25% damage, -20% armour and lose all leadership while nearby allies are immune to fear and terror
-Valueline6=Rank 8: The sanctuary's radius increases and enemy units are knocked back periodically 
+Valueline6=Rank 8: The sanctuary's radius increases and enemy units are knocked back each 7 seconds 
 Valueline7=Left click icon to activate
 
 
@@ -75908,8 +75916,10 @@ Value=Hold the Line! (&W)
 
 
 [CONTROLBAR:ToolTipDunhereHoldLine]
-Value=Dunhere enters a defensive stance, providing damage reduction and crush resistance to all nearby troops but reducing their movement speed
-Valueline2=Left click to activate
+Value=Dunhere enters a defensive stance, granting nearby friendly units +25% armour,
+Valueline2=and 100% knockback resistance at the cost of -25% movement speed
+Valueline3=Effect lasts 30 seconds
+Valueline4=Left click to activate
 
 
 [CONTROLBAR:DunhereCaptain]
@@ -75920,7 +75930,7 @@ Value=Captain of Upbourn (&R)
 Value=Nearby units gain +50% experience
 Valueline2=Passive ability
 Valueline3=
-Valueline4=Can be activated to temporarily grant Dunhere +50% damage
+Valueline4=Can be activated to grant Dunhere +50% damage for 20 seconds
 Valueline5=Left click to activate
 
 
@@ -75930,13 +75940,16 @@ Value=Ranger Veteran
 
 [CONTROLBAR:TooltipMadrilLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= Rangers near Madril earn experience 150% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline2= Rangers near Madril earn experience 150% faster
+Valueline3= Passive ability
 
 
 [CONTROLBAR:MadrilSnare]
-Value=&Master of Ambush
+Value=Master of Ambush (&C)
+
+
+[CONTROLBAR:MadrilSnareAdventure]
+Value=Master of Ambush (&T)
 
 
 [CONTROLBAR:ToolTipMadrilSnare]
@@ -75946,16 +75959,16 @@ Valueline3= Left click then left click target location
 
 
 [CONTROLBAR:MablungKeenEyed]
-Value=&Keen Eyed
+Value=Keen Eyed (&T)
 
 
 [CONTROLBAR:TooltipMablungKeenEyed]
-Value=Mablung temporarily gains +150% vision range 
+Value=Mablung gains +150% vision range for 25 seconds
 Valueline2= Left click to activate
 
 
 [CONTROLBAR:MablungLethalAim]
-Value=&Lethal Aim
+Value=Lethal Aim (&T)
 
 
 [CONTROLBAR:ToolTipMablungLethalAim]
@@ -85293,6 +85306,25 @@ Value=Recruits Moria-orc Shamans
 
 [CONTROLBAR:ToolTipSpecialAbilityFlameofUdun]
 Value=Requires four full battalions of Moria-orc Shamans 
+
+[OBJECT:MoriaHobgoblinPlunderer]
+Value=Hobgoblin Plunderer
+
+[OBJECT:MoriaHobgoblinPlundererHorde]
+Value=Hobgoblin Plunderers
+
+[CONTROLBAR:LW_Unit_HobgoblinPlundererHorde]
+Value=Hobgoblin Plunderers
+
+[CONTROLBAR:LW_Unit_HobgoblinPlundererHordePlural]
+Value=Hobgoblin Plunderers
+
+[CONTROLBAR:ConstructHobgoblinPlundererHorde]
+Value=Hobgoblin Plunderers (&S)
+
+Valueline2= Level 1: Hobgoblin Plunderers gain +25% damage but lose 25% speed
+Valueline2=Mûzgash gains +100% armour when near the Hobgoblin Plunderers
+Valueline2= Allows training of a second battalion of Hobgoblin Plunderers
 
 
 [CONTROLBAR:ToolTipKotDSpell]
