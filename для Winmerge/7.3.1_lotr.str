@@ -75863,7 +75863,7 @@ Valueline5= Passive ability
 
 
 [CONTROLBAR:ElrondRingOfAir]
-Value=Ring of Air (&C)
+Value=Ring of Air (&T)
 
 
 [CONTROLBAR:TooltipElrondRingOfAir]
@@ -75972,12 +75972,13 @@ Value=Lethal Aim (&T)
 
 
 [CONTROLBAR:ToolTipMablungLethalAim]
-Value=Enemies within the radius take increased damage from ranged attacks 
-Valueline2= Left click then left click on target area
+Value=Enemies within the radius lose -33% armour
+Valueline2=against ranged attacks for 30 seconds
+Valueline3= Left click then left click on target area
 
 
 [CONTROLBAR:DamrodSkilledHunter]
-Value=S&killed Hunter
+Value=Skilled Hunter (&T)
 
 [CONTROLBAR:ToolTipDamrodSkilledHunter]
 Value=Can be cast on enemy units to permanently track their movements 
@@ -75986,10 +75987,10 @@ Valueline3= Left click, then left click on target
 
 
 [CONTROLBAR:DamrodQuickDispatch]
-Value=Q&uick Dispatch
+Value=Quick Dispatch (&C)
 
 [CONTROLBAR:ToolTipDamrodQuickDispatch]
-Value=Damrod temporarily receives +25% attack and movement speed 
+Value=Damrod receives +25% attack and movement speed for 30 seconds
 Valueline2= Left click to activate
 
 
@@ -76013,7 +76014,7 @@ Valueline2=Left click to activate
 Value=Quick Dispatch (&W)
 
 [CONTROLBAR:ToolTipLothrandirQuickDispatch]
-Value=Lothrandir temporarily receives +25% attack and movement speed 
+Value=Lothrandir gains +25% attack and movement speed for 30 seconds
 Valueline2= Left click to activate
 
 
@@ -76042,7 +76043,7 @@ Valueline2= Left click to activate
 
 
 [CONTROLBAR:AnbornMasterScout]
-Value=&Master Scout
+Value=Master Scout (&T)
 
 
 [CONTROLBAR:TooltipAnbornMasterScout]
@@ -76051,11 +76052,11 @@ Valueline2= Left click to activate
 
 
 [CONTROLBAR:AnbornPoisonArrows]
-Value=Poison A&rrows
+Value=Poison Arrows (&C)
 
 
 [CONTROLBAR:AnbornBarbedArrows]
-Value=Barbed Arrows (&R)
+Value=Barbed Arrows (&C)
 
 
 [CONTROLBAR:TooltipAnbornPoisonArrows]
@@ -76079,6 +76080,30 @@ Value=Elvenking's Lament (&W)
 [CONTROLBAR:ToolTipOropherWordofPower]
 Value=Blasts back and stuns surrounding units for 10 seconds
 Valueline2= Left click to activate
+
+
+[CONTROLBAR:OropherKingofEryn_LAS]
+Value=King of Eryn Galen (&W)
+
+
+[CONTROLBAR:ToolTipOropherKingofEryn_LAS]
+Value=Requires Level 2 
+Valueline2=Nearby Silvan units gain +33% armour
+Valueline3=Passive ability
+Valueline4=
+Valueline5=Allows all targeted allies to become stealthed for 30 seconds
+Valueline6= Left click icon then left click on target units
+
+
+[CONTROLBAR:OropherRecklessCharge_LAS]
+Value=Reckless Charge (&R)
+
+
+[CONTROLBAR:ToolTipOropherRecklessCharge_LAS]
+Value=Requires Level 6 
+Valueline2= Modifier Type: Spell 
+Valueline3= King Oropher and nearby friendly units gain +75% damage but lose -25% armour and gain no experience for 20 seconds 
+Valueline4=Left click to activate
 
 
 [OBJECT:RohanHama]
@@ -76174,8 +76199,40 @@ Value=Forth Eorlingas! (&R)
 
 [CONTROLBAR:ToolTipForthEorlingas]
 Value=Requires level 2 
-Valueline2= Westfolders briefly gain +25% damage and movement speed
+Valueline2= Westfolders briefly gain +25% damage and movement speed for 20 seconds
 Valueline3=Left click to activate
+
+
+[OBJECT:BeaconGuards]
+Value=Beacon-guard
+
+
+[OBJECT:HordeBeaconGuards]
+Value=Beacon-guards
+
+
+[CONTROLBAR:ConstructBeaconGuardsHorde]
+Value=Beacon-guards (&W)
+
+
+[CONTROLBAR:ToolTipBuildBeaconGuardsHorde]
+Value=Strong vs. Cavalry and Heroes 
+Valueline2= Can stealth near trees
+Valueline3= 
+Valueline4= Solemn guardians of the sacred hill of Halifirien, these Men are amongst the finest warriors the realms of Gondor and Rohan have to offer.
+
+
+[CONTROLBAR:BeaconGuardLeadership]
+Value=Guards of the Sacred Hill
+
+
+[CONTROLBAR:TooltipBeaconGuardLeadership]
+Value=Modifier Type: Leadership 
+Valueline2= Beacon-guards grants nearby structures +15% armour
+Valueline3= 
+Valueline4= Passive ability
+
+
 
 
 [OBJECT:FirienholtWarden]
@@ -76193,7 +76250,7 @@ Value=Halifirien Wardens (&E)
 [CONTROLBAR:ToolTipBuildFirienholtWardenHorde]
 Value=Requires Level 2 Archery Range 
 Valueline2= Strong vs. Infantry and Monsters 
-Valueline3= Can fire Longshot arrow volleys
+Valueline3= Can stealth near trees and fire Longshot arrow volleys
 Valueline4= 
 Valueline5= These woodsmen protected the sacred hill of Halifirien and the surrounding Firienholt.
 
@@ -76237,7 +76294,7 @@ Valueline5= 4 Farms: 15%
 Valueline6= 5 Farms: 20% 
 Valueline7= 6+ Farms: 25% 
 Valueline8= 
-Valueline9= Nearby Peasants gain +35% speed
+Valueline9= Nearby Peasants gain 35% speed
 
 
 [OBJECT:RohanWindmill]
@@ -76274,20 +76331,23 @@ Valueline3= Level 3: +25% faster build speed
 Valueline4=
 Valueline5= Horsemaster Bonus
 Valueline6= Modifier Type: Buff 
-Valueline7= Grants additional +5% armour to all cavalry units on the map 
-Valueline8= Stacks with Leadership and Spells 
-Valueline9= 1 Stables: 5% 
-Valueline10= 2 Stables: 10% 
-Valueline11= 3 Stables: 15% 
-Valueline12= 4 Stables: 20% 
-Valueline13= 5 Stables: 25% 
-Valueline14= 6 Stables: 30% 
-Valueline15= 7 Stables: 35% 
-Valueline16= 8+ Stables: 40%
+Valueline7= Grants additional +5% armour to all cavalry units on the map
+Valueline8= 1 Stables: 5% 
+Valueline9= 2 Stables: 10% 
+Valueline10= 3 Stables: 15% 
+Valueline11= 4 Stables: 20% 
+Valueline12= 5 Stables: 25% 
+Valueline13= 6 Stables: 30% 
+Valueline14= 7 Stables: 35% 
+Valueline15= 8+ Stables: 40%
 
 
 [GUI:FIELD_DISCOUNT]
 Value=Field Bonus -%d%%
+
+
+[GUI:FERTILITY_DISCOUNT]
+Value=Fertility Bonus -%d%%
 
 
 [GUI:BREAD_DISCOUNT]
@@ -76324,17 +76384,15 @@ Value=Horn of the Westfold
 [CONTROLBAR:TooltipWestfoldHorn]
 Value=Modifier Type: Buff 
 Valueline2= Targeted allies gain +60% damage and +60% armour for 60 seconds
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Once used, passively unlocks Erkenbrand and Westfolders 
-Valueline5= Left click icon then left click on target units 
+Valueline3= Once used, passively unlocks Erkenbrand and Westfolders 
+Valueline4= Left click icon then left click on target units 
 
 
 [CONTROLBAR:TooltipWestfoldHorn_WOTR]
 Value=Modifier Type: Buff 
-Valueline2= Targeted allies gain +50% damage and +50% armour for 60 seconds 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Once used, passively unlocks Westfolders 
-Valueline5= Left click icon then left click on target units 
+Valueline2= Targeted allies gain +60% damage and +60% armour for 60 seconds 
+Valueline3=Once used, passively unlocks Westfolders 
+Valueline4= Left click icon then left click on target units
 
 
 [CONTROLBAR:PukelStatue]
@@ -76343,7 +76401,7 @@ Value=Skill of the Woses
 
 [CONTROLBAR:TooltipPukelStatue]
 Value=Summons a Púkel-man statue harboring strange magic 
-Valueline2= Nearby enemies lose -25% damage and -25% crush armour 
+Valueline2= Nearby enemies lose all leaderships and suffer -25% damage, and -25% crush armour 
 Valueline3= Limited to 2 
 Valueline4= Left click icon then left click on pathable location
 
@@ -76353,8 +76411,10 @@ Value=Muster the Rohirrim
 
 
 [CONTROLBAR:ToolTipMusterRohirrim]
-Value=Temporarily increases Cavalry Production Speed 
-Valueline2= Left click to activate
+Value=Targeted infantry battalion is fully replenished and permanently becomes mounted 
+Valueline2= Does not work on stunned units 
+Valueline3= Spell has shorter cooldown 
+Valueline4= Left click icon then left click on target battalion
 
 
 [CONTROLBAR:BountifulHarvest]
@@ -76362,7 +76422,7 @@ Value=Bountiful Harvest
 
 
 [CONTROLBAR:TooltipBountifulHarvest]
-Value=+25% resources from Farms and Windmills 
+Value=+30% resources from Farms and Windmills 
 Valueline2= Passive power
 
 
@@ -76371,8 +76431,8 @@ Value=Ere the Sun Rises
 
 
 [CONTROLBAR:ToolTipRohanCloudBreak]
-Value=Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness
-Valueline2=Stuns enemy units for 5 seconds
+Value=Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness
+Valueline2=Stuns enemy units for 15 seconds
 Valueline3= Slowly heals allied units across the map for 15 seconds
 Valueline4= Left click to activate
 
@@ -76383,7 +76443,7 @@ Value=Boar of Everholt
 
 [CONTROLBAR:ToolTipEverholtBoar]
 Value=Summons the Great Boar of Everholt 
-Valueline2= The boar tramples, deals good siege damage, debuffs, and attacks everything in sight 
+Valueline2= The boar tramples, deals good siege damage and attacks everything in sight 
 Valueline3= Left click icon then left click on pathable location
 
 
@@ -76415,35 +76475,43 @@ Valueline2=+10% faster build speed
 Value=Allows training of Edoras Kingsguard, Helmingas Warriors 
 Valueline2= and research of the Heavy Armour upgrade
 Valueline3=+25% faster build speed
-Valueline4=Adds defensive Arrow Tower
+Valueline4=Adds defensive arrow tower
 
 
 [CONTROLBAR:ToolTipBuildRohanBarracksLevel3Upgrade_WOTR]
 Value=Allows training of Edoras Kingsguard and research of the Heavy Armour upgrade
 Valueline2=+25% faster build speed
-Valueline3=Adds defensive Arrow Tower
+Valueline3=Adds defensive arrow tower
 
 
 [CONTROLBAR:ToolTipBuildRohanArcherRangeLevel2Upgrade]
 Value=Allows training of Halifirien Wardens and research of the Fire Arrows upgrade
 Valueline2=+10% faster build speed
 
+[CONTROLBAR:ToolTipBuildRohanArcherRangeLevel2UpgradeFoI]
+Value=+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildRohanArcherRangeLevel3Upgrade]
 Value=+25% faster build speed
-Valueline2=Adds defensive Arrow Tower
+Valueline2=Adds defensive arrow tower
 
 
 [CONTROLBAR:ToolTipBuildRohanStablesLevel2Upgrade]
 Value=Allows training of Rohirrim Warriors, Rohirrim Archers and Riders of Snowbourn and research of the Horseman Shield upgrade
 Valueline2=+10% faster build speed
 
+[CONTROLBAR:ToolTipBuildRohanStablesLevel2UpgradeFoI]
+Value=Allows training of Rohirrim Warriors and Rohirrim Archers and research of the Horseman Shield upgrade
+Valueline2=+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildRohanStablesLevel3Upgrade]
 Value=Allows training of the Mounted Kingsguard
 Valueline2=+25% faster build speed
-Valueline3=Adds defensive Arrow Tower
+Valueline3=Adds defensive arrow tower
 
+[CONTROLBAR:ToolTipBuildRohanStablesLevel3UpgradeFoI]
+Value=+25% faster build speed
+Valueline2=Adds defensive arrow tower
 
 [OBJECT:EverholtBoar]
 Value=Boar of Everholt
@@ -76453,6 +76521,19 @@ Value=Boar of Everholt
 Value=Hirgon
 
 
+[CONTROLBAR:TheRedArrow]
+Value=The Red Arrow (&W)
+
+
+[CONTROLBAR:ToolTipTheRedArrow]
+Value=Temporarily increases cavalry production speed by 100% for 45 seconds
+Valueline2=Left click to activate
+
+
+[CONTROLBAR:RohanHirgonRecruit]
+Value=Recruit the Messenger of Gondor 
+Valueline2=
+Valueline3= 'He was clad as a rider with a cloak of dark green over a coat of fine mail; on the front of his helm was wrought a small silver star. In his hand he bore a single arrow, black-feathered and barbed with steel, but the point was painted red.'
 
 
 [CONTROLBAR:RohanHirgonRevive]
@@ -76569,7 +76650,7 @@ Value=Harken To Me!
 
 [CONTROLBAR:ToolTipHarkenToMeLeadership]
 Value=Modifier Type: Leadership 
-Valueline2=Nearby heroes have reduced ability cooldowns 
+Valueline2=Nearby heroes' ability cooldown times are reduced by 25% 
 Valueline3= Passive ability
 
 
@@ -76579,10 +76660,9 @@ Value=Door-wardens
 
 [CONTROLBAR:TooltipDoorWardenKingsguardLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= The Kingsguard grants nearby structures +33% armour. 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= 
-Valueline5= Passive ability
+Valueline2= The Kingsguard grants nearby structures +33% armour
+Valueline3= 
+Valueline4= Passive ability
 
 
 [CONTROLBAR:KingsguardLeadership]
@@ -76591,10 +76671,9 @@ Value=Royal Escort
 
 [CONTROLBAR:TooltipKingsguardLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= The Kingsguards grant nearby heroes +15% armour 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= 
-Valueline5= Passive ability
+Valueline2= The Kingsguards grant nearby heroes +15% armour
+Valueline3= 
+Valueline4= Passive ability
 
 
 [OBJECT:RohanHorsemen]
@@ -76612,9 +76691,8 @@ Value=Doorwarden of Meduseld
 [CONTROLBAR:ToolTipHamaLeadership]
 Value=Modifier Type: Spell 
 Valueline2= For every allied building in Háma's vicinity,
-Valueline3= he gains +15% armour 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability
+Valueline3= he gains +15% armour
+Valueline4= Passive ability
 
 
 [CONTROLBAR:GamlingWhateverEnd]
@@ -76623,17 +76701,15 @@ Value=To Whatever End (&W)
 
 [CONTROLBAR:ToolTipGamlingWhateverEnd]
 Value=Modifier Type: Buff 
-Valueline2= Target hero temporarily gains +25% armour 
-Valueline3= Can only be used on Théoden, Éomer, Eowyn or Théodred 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Left click icon then left click on target hero
+Valueline2= Target hero gains +25% armour for 30 seconds
+Valueline3= Can only be used on Théoden, Éomer, Éowyn or Théodred
+Valueline4= Left click icon then left click on target hero
 
 
 [CONTROLBAR:ToolTipGamlingWhateverEndCampaign]
 Value=Modifier Type: Buff 
-Valueline2= Target hero temporarily gains +25% armour 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Left click icon then left click on target hero
+Valueline2= Target hero gains +25% armour for 30 seconds
+Valueline3=Left click icon then left click on target hero
 
 
 [CONTROLBAR:StrengthRemembered]
@@ -76642,7 +76718,7 @@ Value=Strength Remembered (&T)
 
 [CONTROLBAR:ToolTipStrengthRemembered]
 Value=Requires Level 3 
-Valueline2= Heal nearby units 
+Valueline2= Heals nearby friendly units and heroes 
 Valueline3=
 Valueline4= Requires Level 5 
 Valueline5= Also summons two battalions of Kingsguard accompanied by Háma and Gamling 
@@ -76652,7 +76728,7 @@ Valueline7= Left click to activate
 
 [CONTROLBAR:ToolTipStrengthRememberedCampaign]
 Value=Requires Level 3 
-Valueline2= Heal nearby units 
+Valueline2= Heals nearby friendly units and heroes 
 Valueline3= Left click to activate
 
 
@@ -76681,7 +76757,8 @@ Value=Gilded Horn (&W)
 
 
 [CONTROLBAR:ToolTipErkenbrandHorn]
-Value=Nearby infantry temporarily gain +20% bonus speed and resistance to fear, knockback and trample
+Value=Nearby infantry gain +20% bonus speed and resistance to fear, knockback and trample for 30 seconds
+Valueline2=Left click to activate
 
 
 [CONTROLBAR:ErkenbrandShieldCrush]
@@ -76690,7 +76767,8 @@ Value=Valour of Hammerhand (&R)
 
 [CONTROLBAR:ToolTipErkenbrandShieldCrush]
 Value=Requires Level 3
-Valueline2=Erkenbrand can crush enemies and is immune to arrows for a short duration
+Valueline2=Erkenbrand can crush enemies and is immune to arrows for 20 seconds
+Valueline3=Left click to activate
 
 
 [CONTROLBAR:ErkenbrandLeadership]
@@ -76701,8 +76779,7 @@ Value=Marshall of the West-mark
 Value=Requires Level 5 
 Valueline2= Modifier Type: Leadership 
 Valueline3= Westfolders near Erkenbrand gain +33% armour 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability
+Valueline4=Passive ability
 
 
 [CONTROLBAR:ErkenbrandReinforcements]
@@ -76711,7 +76788,8 @@ Value=Reinforcements (&C)
 
 [CONTROLBAR:ToolTipErkenbrandReinforcements]
 Value=Requires Level 8 
-Valueline2= Summons two battalions of Westfolders
+Valueline2= Summons two battalions of heavily-armoured Westfolders
+Valueline3=Left click to activate
 
 
 [CONTROLBAR:GrimboldLeadership]
@@ -76722,8 +76800,7 @@ Value=Valiant Captain
 Value=Requires Level 5 
 Valueline2= Modifier Type: Leadership 
 Valueline3= Nearby infantry units gain +33% armour and +33% damage
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= Passive ability
+Valueline4=Passive ability
 
 
 [CONTROLBAR:GrimboldProtection]
@@ -76747,14 +76824,13 @@ Valueline3= Left click to activate
 
 
 [CONTROLBAR:EomerBlademaster]
-Value=Thirst of Guthwine (&C)
+Value=Thirst of Gúthwinë (&C)
 
 
 [CONTROLBAR:TooltipEomerBlademaster]
 Value=Requires Level 5 
-Valueline2= Éomer temporarily gains
-Valueline3=+100% damage 
-Valueline4= Left click to activate
+Valueline2= Éomer gains +100% damage and deals splash damage for 30 seconds
+Valueline3= Left click to activate
 
 
 [CONTROLBAR:EomerStandGround]
@@ -76763,10 +76839,9 @@ Value=Stand Your Ground (&V)
 
 [CONTROLBAR:ToolTipEomerStandGround]
 Value=Required: Rank 8 
-Valueline2= Creates a ring which gives +30% armour and resistance to 
-Valueline3= knockback and fear immunity to units within it 
-Valueline4= Lasts 60 seconds 
-Valueline5= Left click to activate
+Valueline2= Creates a ring which gives +33% armour, +33% damage and resistance to knockback to units within it 
+Valueline3= Lasts 60 seconds 
+Valueline4= Left click to activate
 
 
 [CONTROLBAR:TheodredIllFated]
@@ -76785,7 +76860,7 @@ Value=Luck of Battle (&T)
 [CONTROLBAR:ToolTipTheodredLuck]
 Value=Requires Level 3 
 Valueline2= Théodred equips his helmet, gaining +33% armour 
-Valueline3= When activated, Théodred temporarily avoids all ranged damage for 30 seconds 
+Valueline3= When activated, Théodred avoids all ranged damage for 30 seconds 
 Valueline4=
 Valueline5= Requires Level 7 
 Valueline6= When activated, the above effect is coupled with temporary invulnerability 
@@ -76795,7 +76870,7 @@ Valueline7= Left click to activate
 [CONTROLBAR:ToolTipTheodredLuckCampaign]
 Value=Requires Level 3 
 Valueline2= Théodred equips his helmet, gaining +33% armour 
-Valueline3= When activated, Théodred temporarily avoids all ranged damage for 30 seconds 
+Valueline3= When activated, Théodred avoids all ranged damage for 30 seconds 
 Valueline4= Left click to activate
 
 
@@ -76807,11 +76882,10 @@ Value=Prince of the Riddermark
 Value=Requires Level 5 
 Valueline2= Théodred equips his royal cloak 
 Valueline3= Modifier Type: Leadership 
-Valueline4= Grants +20% to armor and +10% to attack damage, movement speed and health regeneration 
+Valueline4= Grants +20% to armour and +10% to attack damage, movement speed and health regeneration 
 Valueline5= for Théoden, Éomer, and Éowyn 
 Valueline6= Nearby units gain +35% damage 
-Valueline7= Stacks with Buffs and Spells 
-Valueline8= Passive ability
+Valueline7=Passive ability
 
 
 [CONTROLBAR:TheodredDetermination]
@@ -76828,8 +76902,12 @@ Valueline3= Left click to activate
 Value=Elfhelm's Promotion
 
 
+[CONTROLBAR:WizardBlastStormcrow]
+Value=Chief of the Istari (&R)
+
+
 [CONTROLBAR:GandalfFirstLight]
-Value=First Light of the Fifth Day (&R)
+Value=First Light of the Fifth Day (&T)
 
 
 [CONTROLBAR:ToolTipGandalfFirstLight]
@@ -76838,33 +76916,39 @@ Valueline2= Left click to activate
 
 
 [CONTROLBAR:AragornLeaderofMen]
-Value=Leader of Men (&R)
+Value=Leader of Men (&T)
+
+
+[CONTROLBAR:FellowshipAragornLeaderofMen]
+Value=Leader of Men (&C)
 
 
 [CONTROLBAR:ToolTipAragornLeaderofMen]
 Value=Modifier Type: Spell 
-Valueline2= Nearby frendly units gain +33% armour 
+Valueline2= Nearby friendly units gain +33% armour 
 Valueline3= 
-Valueline4= When activated, units near Aragorn temporarily gain +50% damage and immunity to terror for 20 seconds 
+Valueline4= When activated, units near Aragorn gain +50% damage and immunity to fear and terror for 20 seconds 
 Valueline5= Left click to activate
 
 
 [CONTROLBAR:ToolTipFellowshipAragornLeaderofMen]
 Value=Requires Level 8 
 Valueline2= Modifier Type: Spell 
-Valueline3= Nearby frendly units gain +33% armour 
-Valueline4= 
-Valueline5= When activated, units near Aragorn temporarily gain +50% damage and immunity to terror 
-Valueline6= Left click to activate
+Valueline3= Nearby friendly units gain +33% armour
+Valueline4=Passive ability
+Valueline5= 
+Valueline6= When activated, units near Aragorn gain +50% damage and immunity to fear and terror for 20 seconds 
+Valueline7= Left click to activate
 
 
 [CONTROLBAR:ToolTipFellowshipStriderLeaderofMen]
 Value=Requires Level 8 
 Valueline2= Modifier Type: Spell 
-Valueline3= Nearby frendly units gain +33% armour 
-Valueline4= 
-Valueline5= When activated, units near Strider temporarily gain +50% damage and immunity to terror 
-Valueline6= Left click to activate
+Valueline3= Nearby friendly units gain +33% armour
+Valueline4=Passive ability
+Valueline5= 
+Valueline6= When activated, units near Strider gain +50% damage and immunity to fear and terror for 20 seconds 
+Valueline7= Left click to activate
 
 
 [CONTROLBAR:EowynLeadership]
@@ -76873,9 +76957,8 @@ Value=Lady of Rohan
 
 [CONTROLBAR:ToolTipEowynLeadership]
 Value=Modifier Type: Leadership 
-Valueline2= Peasants near Eowyn gain +25% armour, and earn experience 100% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= Passive ability
+Valueline2= Peasants near Éowyn gain +25% armour, and earn experience 100% faster 
+Valueline3=Passive ability
 
 
 [CONTROLBAR:EowynReadiness]
@@ -76886,7 +76969,7 @@ Value=Readiness (&R)
 Value=Requires Level 3 
 Valueline2= Summons a permanent battalion of drafted Peasants
 Valueline3=Respects command point limit
-Valueline4= Left click to activate
+Valueline4=Left click to activate
 
 
 [CONTROLBAR:ToggleEowynDernhelm]
@@ -76895,7 +76978,7 @@ Value=Dernhelm (&T)
 
 [CONTROLBAR:ToolTipToggleEowynDernhelm]
 Value=Requires Level 5 
-Valueline2= Eowyn dons Dernhelm's armor 
+Valueline2= Éowyn dons Dernhelm's armour 
 Valueline3= Toggle between White Lady and Dernhelm
 
 
@@ -76905,7 +76988,7 @@ Value=White Lady (&W)
 
 [CONTROLBAR:ToolTipToggleEowynLady]
 Value=Requires Level 5 
-Valueline2= Eowyn dons her gown 
+Valueline2= Éowyn dons her gown 
 Valueline3= Toggle between White Lady and Dernhelm
 
 
@@ -76926,7 +77009,7 @@ Value=Courage for our Friends (&T)
 [CONTROLBAR:ToolTipEowynCourage]
 Value=Requires Level 5 
 Valueline2= Modifier Type: Spell 
-Valueline3= Eowyn gains +50% damage and armor while nearby allies gain resistance to fear and terror for 30 seconds 
+Valueline3= Éowyn gains +33% damage and armour while nearby allies gain resistance to fear and terror for 30 seconds 
 Valueline4= Left click to activate
 
 
@@ -76939,8 +77022,7 @@ Value=Requires Level 3
 Valueline2= Modifier Type: Spell 
 Valueline3= Nearby cavalry gains +15% speed while nearby infantry gains +15% armour for 30 seconds 
 Valueline4= Both cavalry and infantry gain bonus damage against machines for the duration 
-Valueline5= Stacks with Leadership and Spells 
-Valueline6= Left click to activate
+Valueline5=Left click to activate
 
 
 [CONTROLBAR:ElfhelmPromotion]
@@ -76973,11 +77055,10 @@ Value=Esquire of Rohan
 [CONTROLBAR:ToolTipMerryLeadership]
 Value=Requires Level 5 
 Valueline2= Modifier Type: Leadership 
-Valueline3= Merry gains +25 armor and +25% damage when near Eowyn 
+Valueline3= Merry gains +25% armour and +25% damage when near Éowyn 
 Valueline4= Nearby heroes gain experience +50% faster 
-Valueline5= Stacks with Buffs and Spells 
-Valueline6= Merry's health is increased 
-Valueline7= Passive ability
+Valueline5= Merry's health is increased 
+Valueline6= Passive ability
 
 
 
@@ -76986,7 +77067,7 @@ Value=Athelas
 
 
 [CONTROLBAR:FellowshipAthelas]
-Value=&Kingsfoil
+Value=Kingsfoil (&R)
 
 
 [CONTROLBAR:TooltipFellowshipAthelas]
@@ -77001,7 +77082,7 @@ Value=Púkel-man Statue
 [OBJECT:RohanPukelStatueDescription]
 Value=A Púkel-man statue harboring strange magic 
 Valueline2=
-Valueline3= Nearby enemies lose -25% damage and -25% crush armour
+Valueline3= Nearby enemies lose all leaderships and suffer -25% damage, and -25% crush armour
 
 
 [CONTROLBAR:PukelMoveUnseen]
@@ -77030,7 +77111,7 @@ Value=Faithful Stone (&R)
 
 [CONTROLBAR:ToolTipPukelFaithfulStone]
 Value=A long-forgotten tale tells of a faithful stone guardian coming alive to guard the house of a friend 
-Valueline2= When cast on a structure, said structure is defended by a mysterious Drúedain warrior for 60 seconds 
+Valueline2= Target allied structure is defended by three mysterious Drúedain Warriors for 60 seconds 
 Valueline3= Left click icon then left click on target building
 
 
@@ -77054,6 +77135,10 @@ Valueline3= The Rohirrim associated horses with strength and nobility. No wonder
 
 [CONTROLBAR:ConstructRohanMangonel]
 Value=Rohirric Onager (&E)
+
+
+[CONTROLBAR:ConstructRohanMangonelWotR]
+Value=Rohirric Onager (&W)
 
 
 [OBJECT:RohanMangonel]
