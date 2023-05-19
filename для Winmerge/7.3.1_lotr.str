@@ -72722,7 +72722,7 @@ Valueline7= Left click to activate
 
 [CONTROLBAR:ToolTipElvenRangerCloakOutriders]
 Value=Requires Level 2 
-Valueline2=Becomes invisible when standing still 
+Valueline2=Becomes stealthed when standing still for 20 seconds 
 Valueline3= Left click to activate
 
 
@@ -77157,10 +77157,16 @@ Valueline2= causes fire in the effected area
 [CONTROLBAR:ToolTipBuildRohanMangonel]
 Value=Requires Level 2 Workshop 
 Valueline2= Strong vs. Structures
-Valueline3= Only 6 allowed at any time 
-Valueline4= Can launch a bale of burning hay, setting fire to the area surrounding impact.
-Valueline5= 
-Valueline6= Though not as advanced as their allies in Gondor, the Rohirrim were nonetheless capable of constructing powerful ranged siege weapons.
+Valueline3=Can launch a bale of burning hay, setting fire to the area surrounding impact.
+Valueline4= 
+Valueline5= Though not as advanced as their allies in Gondor, the Rohirrim were nonetheless capable of constructing powerful ranged siege weapons.
+
+
+[CONTROLBAR:ToolTipBuildRohanMangonelWotR]
+Value=Strong vs. Structures
+Valueline2=Can launch a bale of burning hay, setting fire to the area surrounding impact.
+Valueline3= 
+Valueline4= Though not as advanced as their allies in Gondor, the Rohirrim were nonetheless capable of constructing powerful ranged siege weapons.
 
 
 [CONTROLBAR:BowMastery]
@@ -77174,6 +77180,10 @@ Valueline2=Temporarily allows the unit to fire while moving
 
 [CONTROLBAR:ImladrisDunedainGarrison]
 Value=Dúnedain Sentries (&T)
+
+
+[CONTROLBAR:ImladrisDunedainGarrison_GC]
+Value=Dúnedain Sentries (&E)
 
 
 [CONTROLBAR:ToolTipImladrisDunedainGarrison]
@@ -77216,8 +77226,8 @@ Value=Grim Resolve
 
 [CONTROLBAR:ToolTipGreyCompanyGrimResolve]
 Value=Nearby enemies lose 10% armour and damage and have reduced fear resistance
-Valueline2=Each time a ranger falls, the other members of the battalion gain a small damage and armor boost for a short time
-Valueline3=Stacks each time a ranger dies
+Valueline2=Each time a member of the Grey Company falls, the other members of the battalion gain +10% damage and armour boost for 3 seconds
+Valueline3=Does not stack with itself
 Valueline4=Passive power
 
 
@@ -77228,7 +77238,8 @@ Value=Silent Defenders (&T)
 [CONTROLBAR:ToolTipGreyCompanySilentDefenders]
 Value=Requires Level 3
 Valueline2=Aragorn, Halbarad and the Sons of Elrond passively gain +25% damage when around the Grey Company
-Valueline3= When activated, nearby Hobbits, Bree-landers and Hobbit heroes recruited from the Encampment gain +25% armour while Dúnedain units gain +25% damage for a short time
+Valueline3=
+Valueline4= When activated, nearby Hobbits, Bree-landers and Hobbit heroes recruited from the Encampment gain +25% armour while Dúnedain units gain +25% damage for 30 seconds
 
 
 [CONTROLBAR:GreyCompanyHunt]
@@ -77238,16 +77249,16 @@ Value=Skilled Hunters (&C)
 [CONTROLBAR:ToolTipGreyCompanyHunt]
 Value=Requires Level 5
 Valueline2= For 30 seconds, a target unit or hero is marked by the Grey Company
-Valueline3=The target shares vision with the player, loses speed and takes 50% more damage from Grey Company and Dunedain attack
+Valueline3=The target shares vision with the player, loses -40% speed and takes 50% more damage from Grey Company and Dúnedain attack
 Valueline4= Left click then left click on target
 
 
 [CONTROLBAR:ArwenEvenstarCampaign]
-Value=Light of the &Evenstar
+Value=Light of the Evenstar (&T)
 
 
 [CONTROLBAR:ToolTipArwenEvenstarCampaign]
-Value=Allies units within the radius are healed and temporarily gain +33% damage 
+Value=Allied units within the radius are healed and gain +33% damage for 60 seconds
 Valueline2= Left click icon then left click on target
 
 
@@ -77271,7 +77282,7 @@ Value=Run, Fatty, Run! (&W)
 
 [CONTROLBAR:TooltipFattyBolgerSpeed]
 Value=Modifier Type: Buff 
-Valueline2= Fatty Bolger temporarily gains +30% speed 
+Valueline2= Fatty Bolger gains +30% speed for 15 seconds
 Valueline3= Left click to activate
 
 
@@ -77309,7 +77320,7 @@ Value=&Bifur
 
 
 [OBJECT:DwarvenOin]
-Value=Oin
+Value=Óin
 
 [CONTROLBAR:ToolTipBuildOin]
 Value=Recruit a fellow companion of Thorin's company
@@ -77318,10 +77329,10 @@ Value=Recruit a fellow companion of Thorin's company
 Value=Recruit a fellow companion of Thorin's company
 
 [CONTROLBAR:DwarvenOinRevive]
-Value=Revive the fallen companion, Oin
+Value=Revive the fallen companion, Óin
 
 [CONTROLBAR:DwarvenOinHotkey]
-Value=O&in
+Value=Óin
 
 
 [CONTROLBAR:ForlongLeadership]
@@ -77353,9 +77364,8 @@ Value=True Heart, True Friend (&T)
 [CONTROLBAR:ToolTipForlongTrueHeartTrueFriend]
 Value=Requires Level 7 
 Valueline2= Modifier Type: Spell 
-Valueline3= Forlong temporarily empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times for 30 seconds
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Left click icon then left click on target hero
+Valueline3= Forlong empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times for 30 seconds
+Valueline4=Left click icon then left click on target hero
 
 
 [UPGRADE:DreadHelmet]
@@ -77372,24 +77382,26 @@ Value=Purchase Dread Helmet (&R)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeDreadHelmet]
 Value=Upgrades this troll with a Dread Helmet 
-Valueline2= Significantly increases armor and scares enemy units
+Valueline2= Significantly increases armour and scares enemy units 
+Valueline3= Decreases Stone-troll's speed by 10%
 
 
 [UPGRADE:SerratedArmor]
-Value=Serrated Armor
+Value=Serrated Armour
 
 
 [TOOLTIP:SerratedArmor]
-Value=Serrated Armor
+Value=Serrated Armour
 
 
 [CONTROLBAR:PurchaseUpgradeSerratedArmor]
-Value=Purchase Serrated Armor (&T)
+Value=Purchase Serrated Armour (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeSerratedArmor]
-Value=Upgrades this troll with Serrated Armor 
-Valueline2= Significantly increases troll's hitpoints and decreases crush deceleration
+Value=Upgrades this troll with Serrated Armour 
+Valueline2= Significantly increases troll's hitpoints and decreases crush deceleration 
+Valueline3= Decreases Stone-troll's speed by 10%
 
 
 [UPGRADE:ScytheGauntlets]
@@ -77406,7 +77418,8 @@ Value=Purchase Scythe Gauntlets (&C)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeScytheGauntlets]
 Value=Upgrades this Stone-troll with Scythe Gauntlets 
-Valueline2= Significantly increases attack power and splash damage
+Valueline2= Significantly increases attack power and splash damage 
+Valueline3= Decreases Stone-troll's speed by 10%
 
 
 [CONTROLBAR:LW_Unit_HobbitShirrifsHorde]
@@ -77900,10 +77913,8 @@ Value=Guardians of Caras Galadhon
 [CONTROLBAR:TooltipCarasGaladhonLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= The Sentinels gain +15% armour near structures 
-Valueline3= and grant nearby structures +50% armour 
-Valueline4= Stacks with Buffs and Spells 
-Valueline5= 
-Valueline6= Passive ability
+Valueline3= and grant nearby structures +50% armour
+Valueline4= Passive ability
 
 
 [CONTROLBAR:PurchaseTunnelCollapse]
@@ -77911,8 +77922,9 @@ Value=Purchase Tunnel Collapse Upgrade (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseTunnelCollapse]
-Value=Allows the Dwarven Mine to damage and stun nearby units
-Valueline2= but reduces resource production by 50% for 60 seconds
+Value=Allows the Dwarven Mine to damage and stun nearby units for 15 seconds
+Valueline2= but reduces resource production by 50% for 60 seconds 
+Valueline3= Left click to activate
 
 
 [CONTROLBAR:TunnelCollaspe]
@@ -77920,7 +77932,7 @@ Value=Tunnel Collapse (&W)
 
 
 [CONTROLBAR:ToolTipTunnelCollaspe]
-Value=Damages and stuns nearby units 
+Value=Damages and stuns nearby units for 15 seconds
 Valueline2= but reduces resource production by 50% for 60 seconds
 
 
@@ -77933,21 +77945,26 @@ Value=Song of Finwë (&R)
 
 
 [CONTROLBAR:ToolTipSongForVictoryGuards]
-Value=The seasoned warriors sing a song of past victories 
-Valueline2=Macari temporarily gain +33% damage
+Value=The seasoned warriors sing a song of past victories
+Valueline2=Rivendell Guardsmen gain +33% damage for 15 seconds
+Valueline3=Left click to activate
+
+
+[CONTROLBAR:ToolTipSongForVictoryInn]
+Value=The seasoned warriors sing a song of past victories
 Valueline2=Noldor Knights gain +33% armour for 15 seconds
 Valueline3=Left click to activate
 
 
 [CONTROLBAR:ToolTipSongForVictoryGlaivesmen]
-Value=The seasoned warriors sing a song of past victories  
-Valueline2=Ehtyari temporarily gain +33% armour
+Value=The seasoned warriors sing a song of past victories
+Valueline2=Rivendell Glaivesmen gain +33% armour for 15 seconds
 Valueline3=Left click to activate
 
 
 [CONTROLBAR:ToolTipSongForVictoryArchers]
-Value=The seasoned warriors sing a song of past victories  
-Valueline2=Quingar temporarily gain increased attack speed
+Value=The seasoned warriors sing a song of past victories
+Valueline2=Rivendell Archers gain +20% attack range and vision for 15 seconds
 Valueline3=Left click to activate
 
 
@@ -77963,17 +77980,18 @@ Value=Eyes of the Crow (&R)
 
 [CONTROLBAR:ToolTipEyesoftheCrow]
 Value=Requires Level 2 
-Valueline2= The Longbowmen temporarily gain +25% range and 
-Valueline3= +25% damage, at the cost of -25% Attack Speed
+Valueline2= Longbowmen gain +25% range and +25% damage, at the cost of -25% movement speed for 20 seconds 
+Valueline3= Left click to activate
 
 
 [CONTROLBAR:WildCharge]
-Value=Wild Charge (&W)
+Value=Wild Hunt (&W)
 
 
 [CONTROLBAR:ToolTipWildCharge]
 Value=Requires Level 2 
-Valueline2= The Outriders temporarily gain increased +25% speed and Trample at the cost of -25% armour
+Valueline2= Outriders gain increased +15% speed and trample, at the cost of -25% armour for 20 seconds 
+Valueline3= Left click to activate
 
 
 [CONTROLBAR:ThickSkull]
@@ -77982,8 +78000,8 @@ Value=Thick Skull (&W)
 
 [CONTROLBAR:ToolTipThickSkull]
 Value=Requires Level 2
-Valueline2=For 15 seconds, the Troll gains +100 damage against structures
-Valueline3=but loses -15% armour 
+Valueline2=For 15 seconds, the Troll gains +100% damage against structures
+Valueline3=but loses -50% armour 
 Valueline4= Left click to activate
 
 
@@ -78043,7 +78061,8 @@ Value=For the Hornburg! (&R)
 
 
 [CONTROLBAR:ToolTipHelmingasShieldCrush]
-Value=The Helmingas can crush enemies and are immune to arrows for a short duration
+Value=The Helmingas can crush enemies and are immune to arrows for 20 seconds
+Valueline2=Left click to activate
 
 
 [CONTROLBAR:MarkOfHelm]
@@ -78052,9 +78071,8 @@ Value=Mark of Helm (&T)
 
 [CONTROLBAR:ToolTipMarkOfHelm]
 Value=Requires Level 3 
-Valueline2= The Helmingas grant the Mark of Helm to an allied unit, 
-Valueline3= causing them to temporarily gain +100% attack damage 
-Valueline4= Left click on icon then left click on target battalion
+Valueline2= The Helmingas grant the Mark of Helm to an allied unit, causing them to gain +100% attack damage for 60 seconds
+Valueline3= Left click on icon then left click on target battalion
 
 
 [CONTROLBAR:MarkOfFreca]
@@ -78074,7 +78092,7 @@ Value=Surrender Arms (&T)
 
 [CONTROLBAR:ToolTipSurrenderArms]
 Value=Requires Level 3 
-Valueline2= Enemy units within the radius temporarily deal -33% damage 
+Valueline2= Enemy units within the radius deal -33% damage for 30 seconds
 Valueline3= Left click on icon then left click on target battalion
 
 
@@ -78083,7 +78101,7 @@ Value=Grand Harvest
 
 
 [CONTROLBAR:ToolTipGrandHarvest]
-Value=Increases resources from farms by 15% 
+Value=Increases resources from farms by 12% 
 Valueline2= Passive Ability
 
 
@@ -78097,13 +78115,17 @@ Valueline2= Left click icon then left click on target
 
 
 [CONTROLBAR:GreatBeastHouda]
-Value=Hop On, Boys!
+Value=Hop On, Boys! (&R)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityGreatBeastHouda]
-Value=Requires Level 2 
-Valueline2= Spawns a carriage with orcish archers on the Great Beast's back 
-Valueline3= Passive ability
+Value=Spawns a carriage with orcish archers on the Great Beast's back 
+Valueline2= Passive ability
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeGreatBeastHouda]
+Value=Upgrade this Great Beast with a carriage with orcish archers 
+Valueline2= Orc Archers benefit from the fire arrow upgrade
 
 
 [CONTROLBAR:GreatBeastGrog]
@@ -78111,10 +78133,13 @@ Value=Give 'Em Some Grog! (&T)
 
 
 [CONTROLBAR:TooltipSpecialAbilityGreatBeastGrog]
-Value=Requires Level 3 
-Valueline2= Allows the orcs to toss a barrel of highly volatile grog 
-Valueline3= that explode on the battlefield 
-Valueline4= Left click icon then left click on target area
+Value=Allows the orcs to toss a barrel of highly volatile grog 
+Valueline2= that explode on the battlefield 
+Valueline3= Left click icon then left click on target area
+
+
+[CONTROLBAR:TooltipPurchaseUpgradeGreatBeastGrog]
+Value=Upgrade this Great Beast with the ability to toss a highly volatile barrel of grog
 
 
 [CONTROLBAR:GreatBeastFear]
@@ -78157,7 +78182,7 @@ Value=Focus: Fury of Frecalund (&E)
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusDunland]
 Value=Select to activate 
 Valueline2= Provides bonuses to Wildmen and Dunlendings 
-Valueline3= +15% damage, +70% Combat Experience 
+Valueline3= +15% damage, +70% combat experience 
 Valueline4= Decreases price by 10%
 
 
@@ -78168,8 +78193,7 @@ Value=Focus: Wicked Marksmen (&R)
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusArcher]
 Value=Select to activate 
 Valueline2= Provides bonuses to Uruk-hai Scouts and Crossbowmen 
-Valueline3= +20% damage, +10% range, +80% Combat Experience 
-Valueline4= Decreases price by 20%
+Valueline3= +35% damage, +25% range, +80% combat experience 
 
 
 [CONTROLBAR:SpecialAbilityIsengardFocusWarg]
@@ -78179,7 +78203,7 @@ Value=Focus: Wolves of Isengard (&T)
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusWarg]
 Value=Select to activate 
 Valueline2= Provides bonuses to Warg Riders 
-Valueline3= +30% damage, +20% armour, +100% Combat Experience 
+Valueline3= +30% damage, +20% armour, +100% combat experience 
 Valueline4= Decreases price by 25%
 
 
@@ -78201,7 +78225,7 @@ Value=Focus: Black Steel (&D)
 [CONTROLBAR:ToolTipSpecialAbilityIsengardFocusForge]
 Value=Select to activate 
 Valueline2= Decreases the cost of upgrades 
-Valueline3= Also increases global Armor by 3% and Damage by 4% 
+Valueline3= Also increases global armour by 3% and damage by 4% 
 Valueline4= Decreases upgrade price by 20%
 
 
@@ -78214,13 +78238,13 @@ Value=Long range defensive weapon
 
 
 [CONTROLBAR:TrollishRage]
-Value=Trollish Rage (&W)
+Value=Trollish Rage (&T)
 
 
 [CONTROLBAR:ToolTipTrollishRage]
-Value=The Snow-trolls temporarily gain +33% speed and +33% damage 
-Valueline2= Requires level 2 
-Valueline3= Left click to activate
+Value=Requires level 2
+Valueline2=Snow-trolls throw their spears with mighty strength, dealing increased damage and knocking units down in large radius
+Valueline3= Left click icon then left click on target
 
 
 [CONTROLBAR:MerryBlade]
@@ -78230,7 +78254,7 @@ Value=Halfling Courage (&V)
 [CONTROLBAR:ToolTipMerryBlade]
 Value=Requires Level 10 
 Valueline2= Merry plunges his Blade of Westernesse into an enemy hero,
-Valueline3= dealing strong damage and decreasing armor by -50% for 10 seconds 
+Valueline3= dealing strong damage and decreasing armour by -33% for 10 seconds 
 Valueline4= Can only use when sword is equipped 
 Valueline5= Left click icon then left click on target
 
@@ -78311,6 +78335,17 @@ Value=Defensive tower that fires arrows at nearby enemies
 Valueline2= Can be garrisoned with archers to increase damage output
 
 
+[CONTROLBAR:ToolTipConstructTalan]
+Value=Defensive tower that fires arrows at nearby enemies 
+Valueline2= Can be garrisoned with archers to increase damage output 
+Valueline3= Passively increases production of nearby Mallorn Trees by 10%
+
+
+[CONTROLBAR:ToolTipConstructHaradSentryTower]
+Value=Defensive tower that fires arrows at nearby enemies 
+Valueline2= Can be garrisoned with archers to increase damage output
+
+
 [OBJECT:GenericSentryTowerDescription]
 Value=Defensive tower that fires arrows at nearby enemies 
 Valueline2= Can be garrisoned with archers to increase damage output
@@ -78332,8 +78367,7 @@ Value=This Day We Fight!
 Value=Modifier Type: Buff 
 Valueline2= Heroes and cavalry gain +50% damage and +150% armour 
 Valueline3= No force can slow this charge 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Left click icon then left click on target units
+Valueline4= Left click icon then left click on target units
 
 
 [TOOLTIP:Mansblood]
@@ -78502,10 +78536,8 @@ Value=Lone Scout
 
 [CONTROLBAR:TooltipLoneScoutLeadership]
 Value=Modifier Type: Buff 
-Valueline2= The Outrider grants nearby units +15% speed, +25% armour and +25% damage 
-Valueline3= Stacks with Leaderships and Spells 
-Valueline4= 
-Valueline5= Passive ability
+Valueline2= The Outrider grants nearby units +15% speed, +25% armour and +25% damage
+Valueline3= Passive ability
 
 
 [CONTROLBAR:FrodoMithrilShirt]
@@ -78581,14 +78613,14 @@ Value=Rohirric Onagers
 
 [CONTROLBAR:LW_ToolTipBuild_RohanMangonel]
 Value=Unit Type: Siege
-Valueline2=Strong vs. Structures
+Valueline2=Strong vs. Structures and Archers
 Valueline3=
 
 
 [CONTROLBAR:LW_ToolTip_RohanMangonel]
 Value=
 Valueline2=Unit Type: Siege
-Valueline3=Strong vs. Structures
+Valueline3=Strong vs. Structures and Archers
 
 
 [BANNERUI:RohanOnager]
@@ -78632,15 +78664,13 @@ Value=Fell Determination (&R)
 
 
 [CONTROLBAR:ToolTipFellDetermination]
-Value=Requires Level 2 
-Valueline2= Gundabad Berserkers briefly gain 
-Valueline3= +100% resistance to knockback 
-Valueline4= +33% damage 
-Valueline5=Left click to activate
+Value=Requires Level 2
+Valueline2=Gundabad Berserkers gain +33% damage and knockback resistance for 20 seconds
+Valueline3=Left click to activate
 
 
 [CONTROLBAR:ConstructGuldurLumberMill]
-Value=S&ummon Lumber Mill
+Value=Summon Lumber Mill (&D)
 
 
 [OBJECT:GuldurSlaveMill]
@@ -78654,9 +78684,17 @@ Valueline3= Misery Bonus - Reduced cost of basic orcs
 Valueline4= 2 Slave Mills: 5% 
 Valueline5= 3 Slave Mills: 10% 
 Valueline6= 4 Slave Mills: 15% 
-Valueline7= 5 Slave Mills: 20% 
-Valueline8= 6+ Slave Mills: 25%
+Valueline7= 5+ Slave Mills: 20%
+
+
+[OBJECT:AngmarSlaveMillDescription]
 Value=Provides misery as a resource based on available terrain 
+Valueline2= Can spawn hordes of Angmar Snaga 
+Valueline3= Misery Bonus - Reduced cost of basic orcs 
+Valueline4= 2 Slave Mills: 5% 
+Valueline5= 3 Slave Mills: 10% 
+Valueline6= 4 Slave Mills: 15% 
+Valueline7= 5+ Slave Mills: 20%
 
 
 [CONTROLBAR:ConstructGuldurSlaveMill]
@@ -78672,6 +78710,8 @@ Valueline4= Increases command point limit by 50
 
 [CONTROLBAR:TooltipConstructAngmarSlaveMill]
 Value=Provides misery as a resource based on available terrain 
+Valueline2= Can spawn hordes of Angmar Snaga 
+Valueline3= Reduces cost of basic orcs 
 Valueline4= Increases command point limit by 50
 
 
@@ -78725,9 +78765,10 @@ Value=Blighted Trappers (&E)
 
 [CONTROLBAR:ToolTipBuildGuldurWoodsmenHorde]
 Value=Requires Level 2 Fount of Corruption 
-Valueline2= Strong vs. Archers and Monsters 
-Valueline3=
-Valueline4=Parasitic spores that spread from the corrupted pools of Southern Mirkwood have infected parts of the native Woodmen population. They were last seen shambling towards the haunted fortress upon the barren hill...
+Valueline2= Strong vs. Archers and Monsters
+Valueline3=Can stealth near trees
+Valueline4=
+Valueline5=Parasitic spores that spread from the corrupted pools of Southern Mirkwood have infected parts of the native Woodmen population. They were last seen shambling towards the haunted fortress upon the barren hill...
 
 
 [CONTROLBAR:GuldurNoxiousDarts]
@@ -78736,7 +78777,7 @@ Value=Noxious Darts (&R)
 
 [CONTROLBAR:ToolTipGuldurNoxiousDarts]
 Value=Requires Level 2
-Valueline2=Blighted Trappers temporarily deal poison damage
+Valueline2=For 20 seconds, Blighted Trappers deal poison damage
 Valueline3=Deals additional damage to structures
 Valueline4=Left click to activate
 
@@ -78747,9 +78788,12 @@ Value=Parasitic Embrace (&T)
 
 [CONTROLBAR:ToolTipGuldurParasiticEmbrace]
 Value=Requires Level 3
-Valueline2=Archers in the targeted area become infected and lose
-Valueline3=-50% Vision, -25% ranged Damage, -25% Reload Speed for a short time
-Valueline4=Left click icon then left click on target archers
+Valueline2= Enemy archers hit by Blighted Trappers suffer -20% damage for 5 seconds
+Valueline3=Passive ability
+Valueline4=
+Valueline5=Enemy units in the targeted area become infected and lose
+Valueline6=-50% vision and -25% range for 30 seconds
+Valueline7=Left click icon then left click on target area
 
 
 [OBJECT:GuldurRisenDead]
@@ -78808,7 +78852,7 @@ Value=Bring It Down! (&V)
 
 [CONTROLBAR:ToolTipBringItDown]
 Value=Requires Level 2
-Valueline2=Temporarily increases damage to Flying units
+Valueline2= Increases damage to flying units by 200% for 20 seconds
 Valueline3=Left click to activate
 
 
@@ -78856,7 +78900,7 @@ Value=Appetite for Destruction (&R)
 
 [CONTROLBAR:ToolTipAppetiteForDestruction]
 Value=Requires Level 3
-Valueline2=Orc Ravagers temporarily do knockback damage and regain health per hit against structures
+Valueline2=Orc Ravagers deal knockback damage and regain health per hit against structures for 20 seconds
 Valueline3=Left click to activate
 
 
@@ -78886,6 +78930,45 @@ Value=Guldur Bulwarks Hordes
 
 [CONTROLBAR:ConstructRavagerShieldHorde]
 Value=Guldur Bulwarks (&W)
+
+
+[CONTROLBAR:ToolTipBuildRavagerShieldHorde]
+Value=Strong vs. Pikemen 
+Valueline2=
+Valueline3= The fell sorcery of the Necromancer has granted these orcs great physical strength, allowing them to carry large axes and tower shields to protect the more brittle of Dol Guldur's forces.
+
+
+[OBJECT:GuldurSpiderRider]
+Value=Guldur Spider Rider
+  
+[OBJECT:GuldurSpiderRiderHorde]
+Value=Guldur Spider Riders
+
+
+[CONTROLBAR:ConstructGuldurSpiderRiderHorde]
+Value=Guldur Spider Riders
+
+
+[CONTROLBAR:ConstructGuldurSpiderRiderHordeWotrInn]
+Value=Guldur Spider Riders (&E)
+
+
+[CONTROLBAR:ToolTipBuildGuldurSpiderRiderHorde]
+Value=Can switch between Bow and Spear 
+Valueline2= Strong vs. Archers
+Valueline3=
+Valueline4=The trick to riding a giant spider is to convince it that you are not the juiciest meal available, but that you do know where it is that one may find such a meal...
+
+[OBJECT:WightLord]
+Value=Mound-dweller of Rhudaur
+
+
+[OBJECT:WightLordHorde]
+Value=Wight Lords
+
+
+[CONTROLBAR:ConstructWightLordsHorde]
+Value=Mound-dweller of Rhudaur (&W)
 
 
 [CONTROLBAR:ToolTipBuildWightLordsHorde]
@@ -78919,9 +79002,8 @@ Value=Heavy Duty
 
 [CONTROLBAR:ToolTipGuldurHeavyDuty]
 Value=Requires Level 2
-Valueline2=When a Tomb Guard dies, nearby Tomb Guard temporarily gain +15% armour 
-Valueline3= Stackable
-Valueline4= Passive ability
+Valueline2=When a Tomb Guard dies, nearby Tomb Guard gain +15% armour for 8 seconds
+Valueline3= Passive ability
 
 
 [OBJECT:GuldurHarbinger]
@@ -78945,7 +79027,7 @@ Value=Unburied Wights (&W)
 
 
 [CONTROLBAR:ToolTipBuildGuldurUnburiedWight]
-Value=The Necromancer must be recruited
+Value=Requires Spire of Sorcery 
 Valueline2= Specialist Unit
 Valueline3=Strong vs. Elite and Upgraded units 
 Valueline4= Limited to 3 
@@ -78988,15 +79070,25 @@ Valueline6=During Sauron's long hiding in the mysterious lands of the East he at
 Value=Dark Presence
 
 
+[CONTROLBAR:DreadfulPresence]
+Value=Dreadful Presence
+
+
 [CONTROLBAR:ToolTipDarkPresence]
-Value=Empowers nearby Dol Guldur units
-Valueline2=Counters Slow Decay and buffs armour and damage of nearby Broken Rabble, Gaolers and Hunters by 15%
+Value=Modifier Type: Spell
+Valueline2=Nearby Dol Guldur units afflicted by Slow Decay are no longer drained over time, receive +15% damage and armour, and are healed by a small amount
+Valueline3=Passive ability
+
+
+[CONTROLBAR:ToolTipNecromancerDarkPresence]
+Value=Modifier Type: Spell
+Valueline2=Nearby Dol Guldur units afflicted by Slow Decay are no longer drained over time, become resistant to fear and terror, receive +33% damage and armour, and are healed by a small amount
 Valueline3=Passive ability
 
 
 [CONTROLBAR:ToolTipDarkPresenceWithRing]
-Value=Empowers nearby Dol Guldur units
-Valueline2=Counters Slow Decay and buffs armour and damage of nearby Broken Rabble, Gaolers and Hunters by 15%
+Value=Modifier Type: Spell
+Valueline2=Nearby Dol Guldur units afflicted by Slow Decay are no longer drained over time, become resistant to fear and terror, receive +33% damage and armour, and are healed by a small amount
 Valueline3=Deals damages to nearby enemies
 Valueline4=Passive ability
 
@@ -79008,9 +79100,8 @@ Value=Infestation (&W)
 [CONTROLBAR:ToolTipGuldurInfestation]
 Value=Requires a Spider Lair
 Valueline2=Summons a temporary swarm of spiders around the structure
-Valueline3=that slows nearby enemies' attack and movement speed 
-Valueline4= and deals minor damage
-Valueline5=Left click to activate
+Valueline3=that slows nearby enemies' attack and movement speed by 20% and deals minor damage for 30 seconds
+Valueline4=Left click to activate
 
 
 [CONTROLBAR:SpiderLairInfestation]
@@ -79021,7 +79112,7 @@ Value=Infestation
 Value=Once constructed, Spider Lairs allow most structures
 Valueline2=to use the Infestation power
 Valueline3=Infestation summons a swarm of spiders around a structure
-Valueline4=that slows nearby enemies' attack and movement speed and deals minor damage
+Valueline4=that slows nearby enemies' attack and movement speed by 20% and deals minor damage
 Valueline5=Passive ability
 
 
@@ -79030,10 +79121,23 @@ Value=Slow Decay
 
 
 [CONTROLBAR:ToolTipGuldurDrain]
-Value=Units suffer from a basic, constant damage over time effect
-Valueline2=due to the Necromancer’s magic draining them
-Valueline3=and their surroundings
-Valueline4=Dark Presence counters this damage and buffs units
+Value=Units are continually drained by the Necromancer's magic, slowly losing health over time
+Valueline2=Slow Decay can be countered by Dark Presence from nearby Dol Guldur structures and the Necromancer
+Valueline3=Passive ability
+
+
+[CONTROLBAR:BulwarkBuff]
+Value=Bulwarks
+
+
+[CONTROLBAR:ToolTipBulwarkBuff]
+Value=As the unit levels the power improves
+Valueline2= Rank 1: Nearby allied units gain 10% armour 
+Valueline3= Rank 2: Nearby enemy units lose 10% speed 
+Valueline4= Rank 4: Nearby allied units gain 20% armour 
+Valueline5= Buff Modifier Type: Leadership
+Valueline6= Debuff Modifier Type: Passive Debuff
+Valueline7=Passive ability
 
 
 [CONTROLBAR:EternalServitude]
@@ -79158,16 +79262,24 @@ Value=Guldur Gaol
 [OBJECT:GuldurGaolDescription]
 Value=Level 2: +10% faster build speed
 Valueline2= Level 3: +25% faster build speed
-Valueline3=Increases command point limit by 25
 
 
 [CONTROLBAR:ConstructGuldurGaol]
 Value=Summon Guldur Gaol (&T)
 
 
+[CONTROLBAR:ConstructGuldurGaolWotRRealTime]
+Value=Summon Guldur Gaol (&W)
+
+
 [CONTROLBAR:ToolTipConstructGuldurGaol]
-Value=Trains Broken Rabble and Orc units 
-Valueline2= Increases command point limit by 25
+Value=Trains Broken Rabble and Orc units
+
+
+[CONTROLBAR:ToolTipConstructGuldurGaolWotR]
+Value=Primary Barracks 
+Valueline2= Trains Broken Rabble and basic Orc units 
+Valueline3= Limited to 3
 
 
 [CONTROLBAR:ConstructGuldurGaol2Upgrade]
@@ -79185,8 +79297,8 @@ Valueline2=+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildGuldurGaol3Upgrade]
 Value=Allows training of Tomb Guard
-Valueline2=+25% Faster build speed 
-Valueline3= Adds defensive Arrow Tower
+Valueline2=+25% faster build speed 
+Valueline3= Adds defensive arrow tower
 
 
 [OBJECT:GuldurSpiderLair]
@@ -79199,12 +79311,21 @@ Valueline2= Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ConstructGuldurSpiderLair]
-Value=Summon Spider Lair (&V)
+Value=Summon Spider Lair (&C)
+
+
+[CONTROLBAR:ConstructGuldurSpiderLairWotRRealTime]
+Value=Summon Spider Lair (&R)
 
 
 [CONTROLBAR:ToolTipConstructGuldurSpiderLair]
-Value=Trains and upgrades Spiders 
-Valueline2= Increases command point limit by 25
+Value=Trains and upgrades Spiders
+
+
+[CONTROLBAR:ToolTipConstructGuldurSpiderLairWotR]
+Value=Secondary Barracks 
+Valueline2= Trains Fell Brood 
+Valueline3= Limited to 1
 
 
 [OBJECT:GuldurFellBrood]
@@ -79221,9 +79342,10 @@ Value=Fell Brood (&W)
 
 [CONTROLBAR:ToolTipBuildGuldurFellBroodHorde]
 Value=Strong vs. Infantry
-Valueline2=May trample enemy units 
-Valueline3=
-Valueline4= A horde of large Mirkwood spiders
+Valueline2=May trample enemy units
+Valueline3=Can stealth near trees
+Valueline4=
+Valueline5= A horde of large Mirkwood spiders
 
 
 [CONTROLBAR:FellBroodShriek]
@@ -79242,8 +79364,8 @@ Value=Saenathra's Sister (&E)
 
 
 [CONTROLBAR:ToolTipBuildGuldurGreatSpider]
-Value=Requires Level 3 Spider Lair
-Valueline2=Strong vs. Structures 
+Value=Requires Level 2 Spider Lair
+Valueline2=Strong vs. infantry and structures
 Valueline3=
 Valueline4= A single giant spider that tramples enemy units and deals powerful siege damage
 
@@ -79268,7 +79390,7 @@ Value=Encasing Webs (&T)
 
 [CONTROLBAR:ToolTipEncasingWebs]
 Value=Requires Level 3
-Valueline2=Disables enemy structures and deals minor damage over time
+Valueline2=Disables enemy structures and deals minor damage for 15 seconds
 Valueline3= Left click icon then left click on target
 
 
@@ -79281,12 +79403,12 @@ Value=Upgrade Spider Lair to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildGuldurSpiderLairLevel2Upgrade]
-Value=+10% faster build speed
+Value=Allows training of Saenathra's Sisters
+Valueline2=+10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildGuldurSpiderLairLevel3Upgrade]
-Value=Allows training of Saenathra's Sisters
-Valueline2=+25% faster build speed
+Value=+25% faster build speed
 
 
 [OBJECT:GuldurRestlessBarrow]
@@ -79299,8 +79421,7 @@ Value=Summon Restless Barrow (&M)
 
 [CONTROLBAR:ToolTipConstructGuldurRestlessBarrow]
 Value=Defensive units that will attack nearby enemies 
-Valueline2= Unearths Unburied Wights 
-Valueline3= Increases command point limit by 25
+Valueline2= Unearths Unburied Wights
 
 
 [OBJECT:GuldurRestlessWarrior]
@@ -79312,20 +79433,18 @@ Value=Oathbreaker Warrior
 
 
 [CONTROLBAR:ConstructGuldurSorceryTower]
-Value=Summon Spire of Sorcery (&N)
+Value=Summon Spire of Sorcery (&V)
 
 
 [CONTROLBAR:ToolTipConstructGuldurSorceryTower]
 Value=Trains specialist units
 Valueline2=Damage nearby enemies and turns them into wraiths upon dying
 Valueline3=Grants access to Necromancy upgrade
-Valueline4=Increases command point limit by 25
 
 
 [CONTROLBAR:ToolTipConstructGuldurSorceryTower_WOTR]
 Value=Trains specialist units
 Valueline2=Damage nearby enemies and turns them into wraiths upon dying
-Valueline3=Increases command point limit by 25
 
 
 [CONTROLBAR:HarbingerDeepRot]
@@ -79356,9 +79475,14 @@ Valueline5=Passive ability
 Value=Withering Touch (&T)
 
 
+[CONTROLBAR:OathbreakerHuskarlWitheringTouch]
+Value=Withering Touch (&R)
+
+
+
 [CONTROLBAR:ToolTipHarbingerWitheringTouch]
 Value=Requires Level 3
-Valueline2=Units within the radius take damage over time
+Valueline2=Units within the radius take damage over time for 20 seconds
 Valueline3=Affects both enemies and allies
 Valueline4=Risen Dead are immune
 Valueline5=Left click icon then left click on target area
@@ -79490,7 +79614,14 @@ Value=Dark Encroachment (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGuldurFortressEncroachment]
-Value=Permanently reduces all structure costs by 33%
+Value=Permanently reduces all structure costs by 33% 
+Valueline2=Doesn't affect fortress
+
+
+[CONTROLBAR:PurchaseUpgradeGuldurFortressNecromancy_Wotr]
+Value=Necromancy (&R)
+
+
 
 
 [CONTROLBAR:GuldurFortressEncroachment]
@@ -85285,6 +85416,19 @@ Valueline3= Will upgrade all patrols instantly once upgrade is purchased
 Value=Research Silvan Fletching (&T)
 
 
+
+[OBJECT:AngmarSnaga]
+Value=Angmar Snaga
+
+[CONTROLBAR:ConstructAngmarSnagaHorde]
+Value=Angmar Snaga (&E)
+
+[CONTROLBAR:ToolTipBuildAngmarSnagaHorde]
+Value=Strong vs. Pikemen 
+Valueline2=
+Valueline3=Crawling forth endlessly from their deep warrens, snaga made up the lowest and most numerous rank of orc, little more than meat shields for their dark master.
+
+
 [OBJECT:AngmarBastion]
 Value=Spire of Angmar
 
@@ -85317,6 +85461,7 @@ Valueline4= Beneath the great barrows of desolate Rhudaur dwell the restless dea
 
 [CONTROLBAR:ToolTipBuildAngmarUnburiedWight]
 Value=Requires Level 3 Arnorian Barrow 
+Valueline2=Permanently summons a horde of Angmar Snaga
 [OBJECT:AngmarHarbinger]
 Value=Harbinger of Frost
 
