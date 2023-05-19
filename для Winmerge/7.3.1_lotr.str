@@ -79622,6 +79622,8 @@ Valueline2=Doesn't affect fortress
 Value=Necromancy (&R)
 
 
+[CONTROLBAR:ToolTipPurchaseUpgradeGuldurFortressNecromancy_Wotr]
+Value=Unlocks Necromancy ability for Orc Gaolers and Orc Hunters
 
 
 [CONTROLBAR:GuldurFortressEncroachment]
@@ -79657,7 +79659,7 @@ Value=Guldur Palantir (&T)
 
 [CONTROLBAR:ToolTipGuldurPalantir]
 Value=Requires the Guldur Palantir upgrade
-Valueline2=Can be cast to reveal part of the map
+Valueline2=Can be cast to reveal part of the map for 2 minutes
 Valueline3=Enemy units caught in the radius take minor damage over time
 Valueline4=Left click icon then left click on target area
 
@@ -79668,9 +79670,9 @@ Value=Hill of Sorcery (&D)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeGuldurFortressSorcery]
 Value=Requires the Blight upgrade 
-Valueline2= Increases Fortress armor 
+Valueline2= Increases Fortress armour by 65% 
 Valueline3= Allows use of Ensnare ability 
-Valueline4= Temporarily takes control of enemy units within the radius 
+Valueline4= Ensnare takes control of enemy units within the radius for 30 seconds
 Valueline5= When Ensnare runs out, ensnared enemies take damage
 
 
@@ -79695,7 +79697,7 @@ Value=Ensnare (&S)
 
 [CONTROLBAR:TooltipGuldurEnsnare]
 Value=Requires the Hill of Sorcery upgrade 
-Valueline2= Temporarily takes control of enemy units within the radius 
+Valueline2= Ensnare takes control of enemy units within the radius for 30 seconds
 Valueline3= Ensnared enemies are invulnerable but when the spell runs out, they take damage 
 Valueline4=Left click icon then left click on target
 
@@ -79754,8 +79756,9 @@ Value=No Escape
 
 [CONTROLBAR:TooltipThrainNoEscape]
 Value=Requires Level 5
-Valueline2=When Thráin reaches low health he becomes temporarily invulnerable
-Valueline3=Passive ability
+Valueline2=When Thráin reaches low health he becomes invulnerable but cannot attack for 20 seconds
+Valueline3=Cannot be triggered again for 60 seconds
+Valueline4=Passive ability
 
 
 
@@ -79800,8 +79803,8 @@ Value=Master's Command
 Value=Krimpûl has been tasked with retrieving the Rings of Power
 Valueline2=Deals +33% additional damage versus Gandalf the White,
 Valueline3=Elrond, Galadriel, and Thorin Oakenshield
-Valueline4=At rank 3, his strikes also lower the armor of enemies
-Valueline5=within a small radius by 5% up to a maximum of 25%
+Valueline4=At rank 3, his strikes also lower the armour of enemies
+Valueline5=within a small radius by 20%
 Valueline6=Passive ability
 
 
@@ -79830,10 +79833,9 @@ Value=Imprison (&C)
 
 [CONTROLBAR:ToolTipKrimpulCripple]
 Value=Requires Level 8
-Valueline2=Krimpûl cripples an enemy hero
+Valueline2=Krimpûl cripples an enemy hero for 30 seconds
 Valueline3=Causes surrounding enemy units to cower in fear
-Valueline4=Can't be cast on Monsters, Ring Heroes, Elessar and Tom Bombadil
-Valueline5=Left click icon then left click on target
+Valueline4=Left click icon then left click on target
 
 
 
@@ -79864,7 +79866,7 @@ Value=Barrow-lord (&W)
 
 
 [CONTROLBAR:ToolTipCargastBarrowLord]
-Value=Nearby enemies are slowed passively by 33%
+Value=Nearby enemies are slowed passively by 15%
 Valueline2=The radius of this effect increases with each level
 Valueline3=Passive ability
 Valueline4=
@@ -79879,9 +79881,11 @@ Value=March of the Dead
 
 [CONTROLBAR:ToolTipCargastLeadership]
 Value=Requires Level 3
-Valueline2=Cargást and nearby Risen Dead, Orc Ravagers, Tomb Guards, Unburied Wights and Harbingers of Shadow gain +15% movement speed
-Valueline3= Risen Dead, Orc Ravagers, Tomb Guards, Unburied Wights and Harbingers of Shadow gain +33% experience gain
-Valueline4=Passive ability
+Valueline2=Cargást permanently gains +15% movement speed
+Valueline3=
+Valueline4=Modifier Type: Leadership
+Valueline5=Nearby friendly units and heroes gain +15% movement speed and +50% experience gain
+Valueline6=Passive ability
 
 
 [CONTROLBAR:CargastCursedTreasure]
@@ -79890,10 +79894,9 @@ Value=Cursed Treasure (&T)
 
 [CONTROLBAR:ToolTipCargastCursedTreasure]
 Value=Requires Level 5
-Valueline2=Target structure earns more resources but all nearby units
-Valueline3=have reduced armour for a time
-Valueline4=Can target enemy resource structures
-Valueline5=Left click icon then left click on target
+Valueline2=Target structure earns +100% more resources but all nearby units lose -15% armour for 30 seconds
+Valueline3=Can target enemy resource structures
+Valueline4=Left click icon then left click on target
 
 
 [CONTROLBAR:CargastSpell]
@@ -79902,8 +79905,8 @@ Value=Spell of the Barrows (&C)
 
 [CONTROLBAR:ToolTipCargastSpell]
 Value=Requires Level 7
-Valueline2=Target enemies flee in terror
-Valueline3=Any Risen Dead in the target area deal +50% damage
+Valueline2=Target enemies cower in terror
+Valueline3=Any Risen Dead near Cargást deal +50% damage for 20 seconds
 Valueline4=Left click icon then left click on target area
 
 
@@ -79953,10 +79956,10 @@ Value=Feast, My Children! (&R)
 
 [CONTROLBAR:ToolTipGuldurSaenathraFeast]
 Value=Requires Level 3
-Valueline2=Enemy units within the radius are slowed and take 
-Valueline3= increased damage from Spiders 
-Valueline4=
-Valueline5= At rank 6, also summons a horde of Fell Brood
+Valueline2=Enemy units within the radius are slowed by 33% and take increased damage from Spiders for 30 seconds 
+Valueline3=
+Valueline4= At rank 6, also summons a horde of Fell Brood 
+Valueline5= Left click icon then left click on target units
 
 
 [CONTROLBAR:GuldurSaenathraWebOfLies]
@@ -79965,7 +79968,7 @@ Value=Web of Lies (&T)
 
 [CONTROLBAR:ToolTipGuldurSaenathraWebOfLies]
 Value=Requires Level 5 
-Valueline2= Causes targeted units to become hostile towards each other 
+Valueline2= Causes targeted units to become hostile towards each other for 15 seconds
 Valueline3= Left click icon then left click on target area
 
 
@@ -79977,7 +79980,7 @@ Value=Endless Hunger (&C)
 Value=Requires Level 8
 Valueline2=Like Ungoliant, Saenathra possesses an insatiable hunger
 Valueline3=for flesh and precious objects
-Valueline4=Saenathra can now trample, and steals resources when dealing damage to enemy units and structures
+Valueline4=Saenathra can move across impassable terrain, and steals resources when dealing damage to enemy units and structures
 Valueline5=Passive ability
 Valueline6=
 Valueline7=When activated, Saenathra regains 30% health
@@ -80033,8 +80036,9 @@ Value=Lord of Wolves (&R)
 
 [CONTROLBAR:ToolTipNecromancerWolvesSummon]
 Value=Summons a large, black Warg
-Valueline2=A maximum of three may be out at any time
-Valueline3=Left click to activate
+Valueline2=A maximum of three may be out at any time 
+Valueline3= Can't be used while using Shapeless Malice 
+Valueline4= Left click to activate
 
 
 [OBJECT:GuldurBlackWolf]
@@ -80046,7 +80050,7 @@ Value=Lunge (&W)
 
 
 [CONTROLBAR:ToolTipGuldurWargLunge]
-Value=Deals strong damage to selected enemy and causes temporary bleeding 
+Value=Deals strong damage to selected enemy and causes bleeding for 10 seconds 
 Valueline2= The warg is healed for a small amount 
 Valueline3= Left click icon then left click on target
 
@@ -80066,8 +80070,9 @@ Value=His Deadliest Servants (&V)
 
 
 [CONTROLBAR:ToolTipSauronRingwraithSummon]
-Value=Sauron temporarily summons four Ringwraiths
-Valueline2=Left click to activate
+Value=Sauron permanently summons four Ringwraiths
+Valueline2=A maximum of four Ringwraiths may be out at any time
+Valueline3=Left click to activate
 
 
 [OBJECT:GuldurRingwraith]
@@ -80167,9 +80172,8 @@ Value=Carnage
 
 [CONTROLBAR:ToolTipGuldurCarnage]
 Value=Modifier Type: Buff 
-Valueline2= Target allies gain +75% damage, at the cost of -25% armour 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Left click icon then left click on target units
+Valueline2= Target allies gain +50% damage, at the cost of -15% armour for 60 seconds
+Valueline3=Left click icon then left click on target units
 
 
 [CONTROLBAR:GuldurMarsh]
@@ -80189,7 +80193,8 @@ Value=Don't Follow The Lights
 
 [CONTROLBAR:TooltipGuldurShadeDecoy]
 Value=Summons a spirit of the Dead Marshes, identical in appearance to a Tethered Shade 
-Valueline2=If attacked, the spirit will disappear, stunning enemy units and reducing their vision significantly for a short time
+Valueline2=If attacked, the spirit will disappear, stunning enemy units for 5 seconds and reducing their vision by 50% for 30 seconds
+Valueline3=Limited to 1
 
 
 [CONTROLBAR:DolGuldurChill]
@@ -80197,7 +80202,7 @@ Value=Chill of the Grave
 
 
 [CONTROLBAR:TooltipDolGuldurChill]
-Value=Enemy units are slowed by 40% and take damage over time for 20 seconds
+Value=Enemy units are slowed by 30% and take damage over time for 15 seconds
 Valueline2= Left click icon then click on target
 
 
@@ -80206,13 +80211,12 @@ Value=Forest of Fear
 
 
 [CONTROLBAR:ToolTipGuldurForestOfFear]
-Value=Corrupts an area of terrain 
-Valueline2= Modifier Type: Buff 
-Valueline3= All allied units gain +50% Vision range
-Valueline4=Stacks with Leadership and Spells
-Valueline5=Spawns a large number of wild spiders that attack anything in sight
-Valueline6=Enemy units in the target area lose all leadership, suffer -20% speed and are terrified
-Valueline7=Left click icon then left click on target area
+Value=Corrupts an area of terrain for 5 minutes 
+Valueline2= Modifier Type: Spell 
+Valueline3= Nearby Dol Guldur units afflicted by Slow Decay are no longer drained over time and receive +15% damage and armour 
+Valueline4=Spawns a large number of wild spiders that attack anything in sight
+Valueline5=Enemy units in the target area lose all leadership, suffer -20% speed and are terrified
+Valueline6=Left click icon then left click on target area
 
 
 [CONTROLBAR:GuldurConcealment]
@@ -80223,8 +80227,8 @@ Value=Spell of Concealment
 Value=Friendly units and structures within the area become stealthed 
 Valueline2= Modifier Type: Active Debuff 
 Valueline3= Nearby enemy units suffer -33% damage and -33% armour
-Valueline4=Nullifies enemy Leadership 
-Valueline5= Does not stack with other Debuffs 
+Valueline4=Nullifies enemy leadership
+Valueline5= Lasts 60 seconds 
 Valueline6= Left click icon then left click on target area
 
 
@@ -80233,7 +80237,7 @@ Value=Dark Hysteria
 
 
 [CONTROLBAR:ToolTipGuldurDarkHysteria]
-Value=Causes targeted battalions to become hostile towards all allies
+Value=Causes targeted battalions to become hostile towards all allies for 20 seconds
 Valueline2=Left click icon then left click on target units
 
 
@@ -80267,7 +80271,7 @@ Value=Undead Monstrosity
 
 
 [CONTROLBAR:TooltipGuldurUndeadTroll]
-Value=Summons an armored, undead Troll 
+Value=Summons an armoured, undead Troll 
 Valueline2= Left click icon then left click on pathable location
 
 
@@ -80276,7 +80280,7 @@ Value=Putrid Presence
 
 
 [CONTROLBAR:ToolTipPutridPresence]
-Value=Armor of nearby enemies is reduced by 15%
+Value=Armour of nearby enemies is reduced by 15%
 Valueline2=Passive ability
 
 
@@ -80287,7 +80291,7 @@ Value=Toxic Bile (&R)
 [CONTROLBAR:ToolTipToxicBile]
 Value=The Undead Monstrosity spews out a load of toxic bile
 Valueline2=within the selected radius
-Valueline3=Enemies caught within take strong damage over time
+Valueline3=Enemies caught within take strong damage over time for 20 seconds
 Valueline4=Left click icon then left click on target area
 
 
@@ -80296,7 +80300,7 @@ Value=Hooked! (&T)
 
 
 [CONTROLBAR:ToolTipUndeadTrollHooked]
-Value=Target enemy hero or unit is hooked and rooted in place for a short time, during which its armor and attack damage is decreased by 50%
+Value=Target enemy hero or unit is hooked and rooted in place for 20 seconds, during which its armour and attack damage is decreased by 25%
 Valueline2=Left click icon then left click on target
 
 
@@ -80317,7 +80321,7 @@ Value=Wither
 
 
 [CONTROLBAR:TooltipGuldurWither]
-Value=Disables and damages structures in a radius 
+Value=Damages structures in a radius and disables them for 30 seconds
 Valueline2= Left click icon then click on target
 
 
@@ -80366,6 +80370,13 @@ Value=Tethered Shade (&W)
 
 [CONTROLBAR:ToolTipConstructGuldurPorter]
 Value=This disembodied Elven spirit can summon forth a structure before it vanishes
+Valueline2=Limited to 5
+
+
+[CONTROLBAR:ToolTipConstructGuldurPorterWotR]
+Value=This disembodied Elven spirit can summon forth a structure before it vanishes
+Valueline2=Is a source of Dark Presence
+Valueline3=Limited to 3
 
 
 [CONTROLBAR:GuldurShade]
@@ -80376,8 +80387,7 @@ Value=Withering Presence
 Value=The Shade will vanish after summoning a structure 
 Valueline2= Modifier Type: Passive Debuff 
 Valueline3= Nearby enemy units suffer -15% speed and -10% armour 
-Valueline4= Does not stack with other Debuffs 
-Valueline5= Passive ability
+Valueline4= Passive ability
 
 
 [CONTROLBAR:GuldurShadeDecoy]
@@ -80387,8 +80397,7 @@ Value=Don't Follow the Lights
 [CONTROLBAR:ToolTipGuldurShadeDecoy1]
 Value=Modifier Type: Passive Debuff 
 Valueline2= Nearby enemy units suffer -15% speed and -10% armour 
-Valueline3= Does not stack with other Debuffs 
-Valueline4= Passive ability
+Valueline3=Passive ability
 
 
 [CONTROLBAR:ToolTipGuldurShadeDecoy2]
