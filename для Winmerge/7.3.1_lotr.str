@@ -80401,8 +80401,8 @@ Valueline3=Passive ability
 
 
 [CONTROLBAR:ToolTipGuldurShadeDecoy2]
-Value=If attacked, the spirit will disappear and nearby enemy units will suffer a large reduction in vision and a stun for a short time 
-Valueline2= Passive ability
+Value=If attacked, the spirit will disappear and nearby enemy units will be stunned for 5 seconds and suffer a 50% reduction in vision for 30 seconds
+Valueline2=Passive ability
 
 
 [UPGRADE:GuldurBasicTraining]
@@ -80464,13 +80464,13 @@ Value=Upgrade Spire of Sorcery to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildGuldurSorceryTowerLevel2Upgrade]
-Value=Allows use of Blight and training of Harbingers of Shadow 
+Value=Allows use of Blight, training of Harbingers of Shadow and Armoured Castellan
 Valueline2= +10% faster build speed
 
 
 [CONTROLBAR:TooltipBuildGuldurSorceryTowerLevel3Upgrade]
-Value=Allows training of Armored Castellan and research of the Greater Blight upgrade
-Valueline2= +25% Build Speed
+Value=Allows research of the Greater Blight upgrade
+Valueline2= +25% faster build speed
 
 
 [CONTROLBAR:IntrepidCorpse]
@@ -85423,6 +85423,25 @@ Valueline3= Will upgrade all patrols instantly once upgrade is purchased
 
 [CONTROLBAR:PurchaseTechnologyMirkwoodSilverthornArrows_Dorwinion]
 Value=Research Silvan Fletching (&T)
+
+
+[CONTROLBAR:ToolTipDarkSorcerer]
+Value=Requires Level 3
+Valueline2=The Witch-king casts a necromantic spell on enemies
+Valueline3=within a radius, dealing heavy damage and resurrecting the dead
+Valueline4=as Risen Dead under the player’s control
+Valueline5=At rank 6, increased damage
+Valueline6=At rank 8, can be cast on Restless Barrows to summon a horde of Restless Warriors - respects command point limit
+Valueline7=At rank 10, increased damage
+Valueline9=Left click icon then left click on target enemies
+
+[CONTROLBAR:ToolTipDarkSorcererUpgraded]
+Value=Requires Level 3
+Valueline2=The Witch-king casts a necromantic spell on enemies
+Valueline3=within a large radius, dealing heavy damage and resurrecting the dead
+Valueline4=as Risen Dead under the player’s control
+Valueline5=Can be cast on Restless Barrows to summon a horde of Restless Warriors
+Valueline7=Left click icon then left click on target enemies
 
 
 
