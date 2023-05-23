@@ -81395,9 +81395,10 @@ Value=Hunting Arrows (&T)
 
 
 [CONTROLBAR:ToolTipUrukScoutHuntingArrows]
-Value=Requires Lurtz and Level 4
-Valueline2=Uruk-hai Scouts temporarily slow targets by 33%
-Valueline3=Left click to activate
+Value=Requires Level 3
+Valueline2=For 20 seconds, Uruk-hai Scouts' arrows slow targets by 33% for 5 seconds
+Valueline3=Can only be used with bows equipped
+Valueline4=Left click to activate
 
 
 [OBJECT:MirkwoodGalion]
@@ -81447,7 +81448,7 @@ Value=Dorwinion Red (&T)
 
 [CONTROLBAR:ToolTipGalionDorwinionRed]
 Value=Requires Level 3 
-Valueline2= Friendly units within the radius temporarily gain +75% armour but lose -25% attack damage
+Valueline2= Friendly units within the radius gain +50% damage but lose -25% armour for 30 seconds
 Valueline3= Increased radius at levels 5 and 7 
 Valueline4= Left click on icon then left click on target battalion
 
@@ -81490,7 +81491,7 @@ Value=Shield Bash (&W)
 
 [CONTROLBAR:ToolTipFerenShieldBash]
 Value=Powerful attack that knocks back enemy units
-Valueline2=At rank 5, radius and damage are increased
+Valueline2=At rank 5, radius is increased
 Valueline3= Left click icon then left click on target
 
 
@@ -81499,11 +81500,11 @@ Value=Sound the Alarm! (&T)
 
 
 [CONTROLBAR:ToolTipFerenSoundAlarm]
-Value=Requires Level 3
+Value=Requires Level 5
 Valueline2=Feren blows his horn
-Valueline3=Can be cast on a structure to temporarily decrease recruitment time,
-Valueline4= on friendly units to temporarily increase movement speed by 25%,
-Valueline5=or on enemy units to temporarily decrease movement speed by 25%
+Valueline3=Can be cast on a structure to decrease recruitment time by 75% for 90 seconds,
+Valueline4= on friendly units to increase movement speed by 25% for 15 seconds,
+Valueline5=or on enemy units to decrease movement speed by 25% for 15 seconds
 Valueline6=Cannot be cast on Beorning Lodge
 Valueline7=Left click icon then left click on target
 
@@ -81514,7 +81515,7 @@ Value=Banishment (&C)
 
 [CONTROLBAR:ToolTipFerenBanishment]
 Value=Requires Level 7
-Valueline2=Target enemy hero is pinned and takes +33% damage from all damage sources
+Valueline2=Target enemy hero is pinned and takes +33% damage from all damage sources for 20 seconds
 Valueline3=Left click icon then left click on target
 
 
@@ -81582,7 +81583,7 @@ Value=Beorning Bodyguard (&C)
 
 [CONTROLBAR:ToolTipGrimbeornBodyguard]
 Value=Requires Level 6
-Valueline2= Grimbeorn summons three Beornings to guard an allied hero or structure for a short time 
+Valueline2= Grimbeorn summons three Beornings to guard an allied hero or structure for 45 seconds 
 Valueline3= Left click icon then left click on target hero or structure
 
 
@@ -81600,6 +81601,42 @@ Valueline6=gaining additional +25% damage and +50% armour
 Valueline7=Causes nearby enemies to flee in terror
 Valueline8= Whilst active, Grimbeorn deals +50% additional damage against Bolg
 Valueline9=Left click to activate
+
+
+[OBJECT:BotFABeorn]
+Value=Beorn
+
+[CONTROLBAR:BotFABeornRecruit]
+Value=Recruit the Beorn the Skin-changer
+Valueline2=\In that last hour Beorn himself had appeared — no one knew how or from where. He came alone, and in bear's shape; and he seemed to have grown almost to giant-size in his wrath.
+
+[CONTROLBAR:BotFABeornRevive]
+Value=Revive the fallen hero, Beorn
+
+
+[CONTROLBAR:BotFABeornHotkey]
+Value=Beorn the Skin-changer
+
+
+[CONTROLBAR:SummonBeorn]
+Value=Beorn the Skin-changer
+
+
+[CONTROLBAR:TooltipSummonBeorn]
+Value=Summon Beorn the Skin-changer to wreak havoc on the battlefield
+Valueline2=Left click then left click target area
+
+
+[CONTROLBAR:HatredofOrcsBeorn]
+Value=Hatred of Orcs
+
+
+[CONTROLBAR:ToolTipHatredofOrcsBeorn]
+Value=Modifier Type: Passive Nullifier Debuff 
+Valueline2= Nearby enemy Orcs and Wargs suffer -33% damage and -25% armour 
+Valueline3=Nullifies enemy leadership 
+Valueline4= Takes precedence over other Debuffs
+Valueline5=Passive ability
 
 
 [OBJECT:MirkwoodRadagast]
@@ -81638,12 +81675,13 @@ Value=Aiwendil (&R)
 
 [CONTROLBAR:ToolTipRadagastAiwendil]
 Value=Nearby Woodmen and Beorning units gain +75% experience
-Valueline2=Passive ability
-Valueline3=
-Valueline4=Targeted enemy units are beset by a flock of birds,
-Valueline5=causing them to lose 50% vision and 66% movement speed
-Valueline6=and take damage over time
-Valueline7=Left click icon then left click on target
+Valueline2= Woodmen additionally gain +33% damage and armour
+Valueline3=Passive ability
+Valueline4=
+Valueline5=Targeted enemy units are beset by a flock of birds,
+Valueline6=causing them to lose 50% vision and 25% armour
+Valueline7=and take damage over time for 15 seconds
+Valueline8=Left click icon then left click on target
 
 
 [CONTROLBAR:RadagastGuardian]
