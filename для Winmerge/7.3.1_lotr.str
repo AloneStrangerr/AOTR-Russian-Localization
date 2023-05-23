@@ -81229,6 +81229,42 @@ Valueline3=Passive ability
 Value=Lord of Wights
 
 
+[CONTROLBAR:ToolTipLordofWightsWL]
+Value=The Mound-dweller is immune to all fear and terror effects
+Valueline2=Passive ability
+
+
+[CONTROLBAR:LeechingStrikes]
+Value=Leeching Strikes
+
+
+[CONTROLBAR:ToolTipLeechingStrikes]
+Value=Requires Level 2 
+Valueline2= Attacks against living units restore health to the Mound-dweller
+Valueline3=Passive ability
+
+
+[CONTROLBAR:SpecialAbilityTouchofRuinWL]
+Value=Touch of Ruin (&R)
+
+
+[CONTROLBAR:ToolTipSpecialAbilityTouchofRuinWL]
+Value=Requires level 2
+Valueline2=For 20 seconds, the Mound-dweller reduces the armour of those they strike by 10%
+Valueline3=Left click to activate
+
+
+[CONTROLBAR:SpecialAbilityPlagueFromAngmar]
+Value=Plague From Angmar (&C)
+
+
+[CONTROLBAR:ToolTipSpecialAbilityPlagueFromAngmar]
+Value=Requires Level 5 
+Valueline2= The Mound-dweller curses target area with fell sorcery
+Valueline3=Enemy units within the radius take damage over time and become Risen Dead if killed
+Valueline4=Left click icon then left click on target area
+
+
 [CONTROLBAR:BlackWinds]
 Value=Black Winds (&C)
 
@@ -81250,9 +81286,8 @@ Value=Ancestral Home
 
 [CONTROLBAR:ToolTipBTKhazadBannerUpgradedPillar]
 Value=Modifier Type: Spell 
-Valueline2= Allies near the pillar become immune to Fear and Terror 
-Valueline3= Stacks with Spells, Buffs, and Leaderships 
-Valueline4=Passive ability
+Valueline2= Allies near the pillar become immune to fear and terror 
+Valueline3=Passive ability
 
 [CONTROLBAR:PurchaseUpgradeFountofCorruptionLevel2]
 Value=Upgrade Fount of Corruption to Level 2 (&A)
@@ -81298,6 +81333,15 @@ Value=Allows this Tower to fire arrows at enemies
 Valueline2=Allows purchase of the Fire Arrows upgrade
 
 
+[CONTROLBAR:PurchaseUpgradeSentryTowerDarkPresence]
+Value=Dreadful Presence (&R)
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerDarkPresence]
+Value=Increases the radius of Dark Presence from this Tower by 50%
+Valueline2=Increases Tower's armour by 33%
+
+
 [CONTROLBAR:DolAmrothHealing]
 Value=Blood of the Eldar
 
@@ -81324,8 +81368,8 @@ Value=Despoiler (&T)
 
 [CONTROLBAR:ToolTipBlackUrukDespoiler]
 Value=Requires Level 3
-Valueline2=Black Uruk Marauders temporarily gain +25% damage against structures
-Valueline3=and leech resources when attacking structures
+Valueline2=Black Uruk Marauders gain +25% damage against structures
+Valueline3=and leech resources when attacking structures for 20 seconds
 Valueline4=Left click to activate
 
 
