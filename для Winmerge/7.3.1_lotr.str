@@ -80482,6 +80482,39 @@ Value=Risen Dead are immune to all fear and terror effects
 Valueline2=Passive ability
 
 
+[OBJECT:RestlessArcher]
+Value=Restless Archer
+
+
+[OBJECT:HordeRestlessArcher]
+Value=Restless Archers
+
+
+[CONTROLBAR:ConstructGuldurRestlessArcherHorde]
+Value=Restless Archers
+
+
+[CONTROLBAR:ConstructGuldurRestlessArcherHordeWotrInn]
+Value=Restless Archers (&R)
+
+
+[CONTROLBAR:ToolTipBuildGuldurRestlessArcherHorde]
+Value=Strong vs. Infantry and Monsters
+Valueline2=
+Valueline3=The restless bones of the dead sometimes retain shreds of memory and long-lost identity. When reanimated, they might be inclined to choose familiar arms, whether they be bow, spear or sword.
+
+
+[CONTROLBAR:ToolTipIntrepidCorpseRestlessArchers]
+Value=Restless Archers are immune to all fear and terror effects
+Valueline2=Passive ability
+
+
+[CONTROLBAR:ToolTipDarkSustenanceRestlessArchers]
+Value=Requires Level 2
+Valueline2=Restless Archers quickly regain health and restore their horde while outside of combat
+Valueline3=Passive ability
+
+
 [CONTROLBAR:DarkSustenance]
 Value=Dark Sustenance
 
@@ -80520,7 +80553,7 @@ Value=Castellan of Dol Guldur
 
 [CONTROLBAR:ToolTipCastellanLeadership]
 Value=Provides +25% armour to nearby allied structures 
-Valueline2= Attacking enemy units are poisoned and have reduced armor 
+Valueline2= Attacking enemy units are poisoned and lose -15% armour for 5 seconds
 Valueline3= Passive ability
 
 
@@ -80530,8 +80563,8 @@ Value=Incorporeal (&R)
 
 [CONTROLBAR:ToolTipCastellanIncorporeal]
 Value=Requires Level 3
-Valueline2=The Armored Castellan becomes immune to damage
-Valueline3=for 30 seconds but cannot move, attack or heal
+Valueline2=The Armoured Castellan becomes immune to damage
+Valueline3=for 30 seconds but cannot move or attack
 Valueline4=Left click to activate
 
 
@@ -80540,7 +80573,7 @@ Value=Necromantic Blast (&T)
 
 
 [CONTROLBAR:ToolTipNecromanticBlast]
-Value=Requires Level 5
+Value=Requires Level 7
 Valueline2=Enemy units are blasted back and take damage
 Valueline3=Killed units become wraiths
 Valueline4=Left click to activate
@@ -80571,11 +80604,11 @@ Value=Tamastirnyr (&T)
 
 
 [CONTROLBAR:LW_Unit_MirkwoodPalaceGuardHorde]
-Value=Tamastirnor Battalion
+Value=Tamastirnyr Battalion
 
 
 [CONTROLBAR:LW_Unit_MirkwoodPalaceGuardHordePlural]
-Value=Tamastirnor Battalions
+Value=Tamastirnyr Battalions
 
 
 [CONTROLBAR:LW_Unit_MirkwoodPalaceGuardComboHorde]
@@ -80606,6 +80639,55 @@ Valueline2= Unit Type: Elite Pikemen
 Valueline3=Strong vs. Cavalry
 Valueline4=
 
+
+[CONTROLBAR:ConstructGreenwoodSpearmanHorde]
+Value=Tamastirnyr (&T)
+
+
+[CONTROLBAR:ToolTipBuildGreenwoodSpearmenHorde]
+Value=Hall-watchers 
+Valueline2= Requires Level 2 Barracks
+Valueline3=Strong vs. Cavalry and Heroes 
+Valueline4= 
+Valueline5= Armed with long spears and tall shields, these Elven warriors solemnly carried out the Elvenking's will with deadly precision.
+
+
+[CONTROLBAR:ToolTipBuildGreenwoodSpearmenHordeBotFA]
+Value=Hall-watchers 
+Valueline2= Requires Level 2 Elvenking's Barracks
+Valueline3=Strong vs. Cavalry and Heroes 
+Valueline4= 
+Valueline5= Armed with long spears and tall shields, these Elven warriors solemnly carried out the Elvenking's will with deadly precision.
+
+[CONTROLBAR:ConstructPrisonGuardSwordHorde]
+Value=Prison Guards (&W)
+
+
+[CONTROLBAR:ToolTipBuildPrisonGuardSwordHorde]
+Value=Strong vs. Pikemen 
+Valueline2= 
+Valueline3= Charged with the protection of the Elvenking's dungeons, the Prison Guard is a cadre of skilled Elven warriors.
+
+
+[OBJECT:HordePrisonGuard]
+Value=Prison Guards
+
+
+[OBJECT:PrisonGuard]
+Value=Prison Guard
+
+
+[CONTROLBAR:LW_Unit_PrisonGuardSwordHorde]
+Value=Prison Guard Battalion
+
+
+[CONTROLBAR:LW_Unit_PrisonGuardSwordHordePlural]
+Value=Prison Guard Battalions
+
+
+[CONTROLBAR:LW_ToolTip_PrisonGuardSwordHorde]
+Value=Unit Type: Elite Infantry
+Valueline2=Strong vs. Infantry
 
 
 [OBJECT:DwarvenThorinHelm]
@@ -80702,6 +80784,63 @@ Value=Reign of Ironfoot
 Value=You have chosen the Reign of Ironfoot
 
 
+[OBJECT:TrueAzog]
+Value=Azog
+
+[CONTROLBAR:TrueAzogRecruit]
+Value=Recruit the Despoiler of Moria
+Valueline2=
+Valueline3= 'But if his family wish to know who is now king here, the name is written on his face. I wrote it! I killed him! I am the master!'
+
+[CONTROLBAR:TrueAzogRevive]
+Value=Revive the fallen Hero, Azog
+
+[CONTROLBAR:TrueAzogHotkey]
+Value=Azog
+
+[CONTROLBAR:TrueAzogLeadership]
+Value=Orcish Chieftain
+
+[CONTROLBAR:ToolTipTrueAzogLeadership]
+Value=Modifier Type: Leadership
+Valueline2=Nearby Orcs receive +50% armour, experience and resistance to fear and terror
+Valueline3=Passive ability
+
+[CONTROLBAR:TrueAzogDespoiler]
+Value=Despoiler of Moria (&R)
+
+[CONTROLBAR:ToolTipTrueAzogDespoiler]
+Value=Taints an area around Azog for 60 seconds
+Valueline2= Nearby allies near this area earn extra resources on kills 
+Valueline3= Enemy units near this area suffer -25% damage and -20% armour
+Valueline4= Nullifies enemy leadership
+Valueline5= Left click to activate
+
+[CONTROLBAR:TrueAzogGrowingHatred]
+Value=Growing Hatred (&T)
+
+[CONTROLBAR:ToolTipTrueAzogGrowingHatred]
+Value=Requires Level 3
+Valueline2= Azog deals increased damage against Dwarves 
+Valueline3= Passive ability 
+Valueline4=
+Valueline5= When activated, Azog deals knockback damage with a greater attack radius for 30 seconds
+Valueline6= Consecutive attacks temporarily increase attack damage by 10% up to a maximum of 50% 
+Valueline7= Left click to activate
+
+[CONTROLBAR:TrueAzogRuledByFear]
+Value=Ruled by Fear (&C)
+
+[CONTROLBAR:TrueAzogHewingBlow]
+Value=Hewing Blow (&V)
+
+[CONTROLBAR:ToolTipTrueAzogHewingBlow]
+Value=Requires Level 7
+Valueline2=Knocks down and damages targeted units
+Valueline3=Stuns targeted heroes for 5 seconds
+Valueline4=Left click icon then left click on target
+
+
 [OBJECT:MordorGorbag]
 Value=Gorbag
 
@@ -80754,14 +80893,14 @@ Valueline3=Passive ability
 
 
 [CONTROLBAR:GorbagMorgulCunning]
-Value=Morgul Cunning (&R)
+Value=Orcish Cunning (&R)
 
 
 [CONTROLBAR:ToolTipGorbagMorgulCunning]
 Value=Grows in power as Gorbag levels
 Valueline2=At rank 1, Gorbag's ranged avoidance is increased
-Valueline3=At rank 3, Gorbag is able to stealth for a short time - Gorbag loses stealth if he attacks
-Valueline4=At rank 5, +25% damage for a short time plus prior effects
+Valueline3=At rank 3, Gorbag is able to stealth for 30 seconds - Gorbag loses stealth if he attacks
+Valueline4=At rank 5, +25% damage for 30 seconds plus prior effects
 Valueline5=At rank 7, passively gains +25% damage
 Valueline6=At rank 10, passively gains +25% armour
 Valueline7=Left click to activate
@@ -80772,10 +80911,11 @@ Value=Dropkick (&T)
 
 
 [CONTROLBAR:ToolTipGorbagDropkick]
-Value=Requires Level 3
-Valueline2=Stuns and knocks down nearby units and heroes
-Valueline3=Can be used with Morgul Cunning
-Valueline4=Left click icon then left click on target
+Value=Requires Level 2
+Valueline2= Knocks down nearby units 
+Valueline3= Stuns targeted heroes for 5 seconds 
+Valueline4=Can be used with Orcish Cunning
+Valueline5=Left click icon then left click on target
 
 
 [CONTROLBAR:GorbagBleedWeapon]
@@ -80783,8 +80923,8 @@ Value=I'll Bleed You (&C)
 
 
 [CONTROLBAR:ToolTipGorbagBleedWeapon]
-Value=Requires Level 5
-Valueline2=Targeted enemy hero takes heavy damage over time
+Value=Requires Level 4
+Valueline2=Targeted enemy hero takes heavy damage over time for 15 seconds
 Valueline3=Left click icon then left click on target
 
 
@@ -80797,9 +80937,10 @@ Value=Requires Level 7
 Valueline2=Gorbag passively gains +15% speed
 Valueline3=Passive ability
 Valueline4=
-Valueline5=Targeted enemy hero loses -50% armour for a short time
-Valueline6=Left click icon then left click on target" ;
-Valueline7=while Gorbag gains +50% armour for the duration
+Valueline5=Targeted enemy hero loses -25% armour for 30 seconds
+Valueline6=Gorbag deals +25% damage to targeted hero for the duration
+Valueline7=Left click icon then left click on target" ;
+Valueline8=while Gorbag gains +50% armour for the duration
 
 
 [CONTROLBAR:ShagratTowersCaptain]
@@ -80815,7 +80956,7 @@ Value=Mordor Towers and Orc Archers near Shagrat gain +15% vision,
 Valueline2=+15% range, and +15% damage
 Valueline3=Passive ability
 Valueline4=
-Valueline5=At rank 3, spawns a temporary horde of Black Uruk Marauders when used on a friendly building
+Valueline5=At rank 3, spawns a temporary horde of Black Uruk Marauders when used on a allied or enemy building
 Valueline6=Left click icon then left click on target building
 
 
@@ -80828,13 +80969,13 @@ Value=Requires Level 5
 Valueline2=Nearby Black Uruk Marauders gain +25% armour
 Valueline3=Passive ability
 Valueline4=
-Valueline5=Can be activated to temporarily grant +25% damage to nearby Orc Warriors and Black Uruk Marauders
-Valueline6=as well as knockback damage to Shagrat
+Valueline5=Can be activated to grant +25% damage to nearby Orc Warriors and Black Uruk Marauders
+Valueline6=as well as knockback damage to Shagrat for 20 seconds
 Valueline7=Left click to activate
 
 
 [CONTROLBAR:ShagratCovetousUruk]
-Value=&Covetous Uruk
+Value=Covetous Uruk
 
 
 [CONTROLBAR:ToolTipShagratCovetousUruk]
@@ -80922,29 +81063,30 @@ Valueline2=Left click icon then left click on target
 
 
 [CONTROLBAR:PurchaseUpgradeMordorFortressMorgulSpire]
-Value=Morgul Spire (&S)
+Value=Morgul Spire (&D)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSpire]
 Value=Requires the Morgul Sorcery upgrade
-Valueline2= Allows recruitment of Morgul Vanguard 
-Valueline3= His Deadliest Servants:
-Valueline4=Passively grants +33% damage and 33% armour
-Valueline5=to all Nazgul on the battlefield
-Valueline6=Allows the Fortress to use the Beacon of Morgul:
-Valueline7=All orcs on the battlefield gain 15% speed and 50% armour
-Valueline8=for 30 seconds
-Valueline9=During this time all friendly resource structures are disabled
+Valueline2= Allows recruitment of Morgul Vanguard
+Valueline3=
+Valueline4= His Deadliest Servants:
+Valueline5=Passively grants +20% damage and 20% armour
+Valueline6=to all Nazgûl on the battlefield
+Valueline7=Does not affect Fellbeasts
+Valueline8=
+Valueline9=Allows the Fortress to use the Beacon of Morgul:
+Valueline10=All orcs on the battlefield gain 15% speed and +50% damage and armour for 30 seconds
 
 
 [ToolTip:LackMorgulSorcery]
 Value=Requires the Morgul Sorcery upgrade
 Valueline2=His Deadliest Servants:
-Valueline3=Passively grants +33% damage and 33% armour to all Nazgul on the battlefield
-Valueline4=Allows the Fortress to use the Beacon of Morgul:
-Valueline5=All orcs on the battlefield gain 15% speed and 50% armour
-Valueline6=for a short time
-Valueline7=During this time all friendly resource structures are disabled
+Valueline3=Passively grants +20% damage and 20% armour to all Nazgûl on the battlefield
+Valueline4=Does not affect Fellbeasts
+Valueline5=
+Valueline6=Allows the Fortress to use the Beacon of Morgul:
+Valueline7=All orcs on the battlefield gain 15% speed and +50% damage and armour for 30 seconds
 
 
 [CONTROLBAR:MordorFortressDeadliestServants]
@@ -80953,21 +81095,20 @@ Value=His Deadliest Servants
 
 [CONTROLBAR:ToolTipMordorFortressDeadliestServants]
 Value=Requires the Morgul Spire upgrade
-Valueline2=Grants +33% damage and 33% armour
-Valueline3=to all Nazgul on the battlefield
-Valueline4=Passive ability
+Valueline2=Grants +20% damage and +30% armour
+Valueline3=to all Nazgûl on the battlefield
+Valueline4=Does not affect Fellbeasts
+Valueline5=Passive ability
 
 
 [CONTROLBAR:MordorFortressMorgulSpire]
-Value=Beacon of Morgul (&F)
+Value=Beacon of Morgul (&G)
 
 
 [CONTROLBAR:ToolTipMordorFortressMorgulSpire]
 Value=Requires the Morgul Spire upgrade
-Valueline2=All orcs on the battlefield gain 15% speed and 50% armour
-Valueline3=for a short time
-Valueline4=During this time all friendly resource structures are disabled
-Valueline5=Left click to activate
+Valueline2=All orcs on the battlefield gain 15% speed and +50% damage and armour for 30 seconds
+Valueline3=Left click to activate
 
 
 [CONTROLBAR:GuldurSpireBlight]
@@ -80996,9 +81137,10 @@ Value=Soul Trap (&W)
 
 
 [CONTROLBAR:ToolTipGwanthaurSoulTrap]
-Value=Enemy units within the radius take damage
-Valueline2=If a unit dies, the Gwanthaur receives +5% armour and damage for a limited time
-Valueline3=Left click icon then left click on target area
+Value=Enemy units within the radius take damage over time
+Valueline2=If a unit dies, the Gwanthaur receives +5% armour and damage for 8 seconds
+Valueline3=Stacks up to 25% armour and damage
+Valueline4=Left click icon then left click on target area
 
 
 [CONTROLBAR:GwanthaurReclamation]
@@ -81041,17 +81183,36 @@ Value=Chittering Swarm
 [CONTROLBAR:ToolTipChitteringSwarm]
 Value=Horde Bonus 
 Valueline2= Modifier Type: Spell 
-Valueline3= All Fell Brood gain +25% damage and +25% armour when gathered in numbers of 40 or more
+Valueline3= All Fell Brood gain +25% damage and +25% armour when gathered in numbers of 30 or more
 
 
 [CONTROLBAR:BitingCold]
 Value=Biting Cold
 
 
+[CONTROLBAR:DesecrateHoard]
+Value=Desecrate Hoard (&W)
+
+
+[CONTROLBAR:DesecrateHoard5]
+Value=Desecrate Hoard
+
+
 [CONTROLBAR:ToolTipBitingCold]
 Value=Nearby enemy units suffer -10% armour and damage
-Valueline2= Debuff increases by 10% with every time Unburied Wights gain a level
+Valueline2= Debuff increases by 10% with every time Unburied Wights desecrate their hoard
 Valueline3=Passive ability
+
+
+[CONTROLBAR:ToolTipDesecrateHoard]
+Value=The Unburied Wights delve deeper into their ancestral hoard, uncovering time-lost artifacts that increase their strength
+Valueline2=Unburied Wights rank up a level
+Valueline3=Left click to purchase
+
+
+[CONTROLBAR:ToolTipDesecrateHoard5]
+Value=The Unburied Wights have desecrated their ancestral hoard in its entirety and cannot be ranked up any further
+Valueline2=Passive ability
 
 
 [CONTROLBAR:RavenousHunger]
@@ -81062,6 +81223,10 @@ Value=Ravenous Hunger
 Value=Requires Level 2 
 Valueline2= Attacks against living units restore health to the Unburied Wights
 Valueline3=Passive ability
+
+
+[CONTROLBAR:LordofWightsWL]
+Value=Lord of Wights
 
 
 [CONTROLBAR:BlackWinds]
@@ -83829,7 +83994,7 @@ Value=Dark Subjugation (&C)
 
 
 [CONTROLBAR:GoldenKingIntimidation]
-Value=Intimidation (&C)
+Value=Lord of Wights (&T)
 
 [CONTROLBAR:TooltipGoldenKingIntimidation]
 Value=Requires Level 7 
