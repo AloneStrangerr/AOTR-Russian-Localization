@@ -81691,8 +81691,8 @@ Value=Faithful Guardian (&T)
 [CONTROLBAR:ToolTipRivendellRadagastGuardian]
 Value=Requires Level 3
 Valueline2=Radagast slams his staff into the soil,
-Valueline3=stunning enemies before him for a brief moment
-Valueline4=At rank 8, stun duration is increased
+Valueline3=stunning enemies before him for 5 seconds
+Valueline4=At rank 8, stun duration is increased to 10 seconds
 Valueline5=Left click to activate
 
 
@@ -81742,7 +81742,7 @@ Value=Eyes and Ears (&R)
 
 [CONTROLBAR:ToolTipTaurielSummon]
 Value=Requires Level 3 
-Valueline2= Tauriel calls a group of stationary Taurdrim to defend targeted location
+Valueline2= Tauriel calls a group of stationary Silvan Rangers to defend targeted location
 Valueline3=They are immobile, but remain stealthed when not attacking
 Valueline4= Left click icon then left click on pathable location
 
@@ -81764,7 +81764,7 @@ Valueline4=Left click icon then left click on pathable location
 
 [CONTROLBAR:ToolTipTaurielDecisiveStrike]
 Value=Requires Level 5
-Valueline2=Tauriel temporarily uses her twin daggers
+Valueline2=Tauriel uses her twin daggers for 30 seconds
 Valueline3=Increases attack damage by +33% and deals splash damage
 Valueline4=Left click to activate
 
@@ -81776,9 +81776,8 @@ Value=Fleet-footed (&T)
 [CONTROLBAR:ToolTipTaurielFleetFooted]
 Value=Requires Level 4 
 Valueline2= Modifier Type: Spell 
-Valueline3= Nearby infantry gains +20% movement speed
-Valueline4= Stacks with Leadership and Spells
-Valueline5=Left click to activate
+Valueline3= Nearby infantry gains +20% movement speed for 30 seconds
+Valueline4=Left click to activate
 
 
 [CONTROLBAR:LegolasDwarfFriend]
@@ -81797,8 +81796,8 @@ Value=None May Enter (&T)
 
 [CONTROLBAR:ToolTipNoneMayEnter]
 Value=Requires Level 4
-Valueline2= Targeted terrain becomes hostile to enemy units
-Valueline3=When passed over, enemy units are slowed by -25% and take damage over time
+Valueline2= Targeted terrain becomes hostile to enemy units for 60 seconds
+Valueline3=When passed over, enemy units are slowed by -15% and take damage over time
 Valueline4=Left click icon then left click on pathable location
 
 
@@ -81808,10 +81807,10 @@ Value=Memory Of Mordor (&V)
 
 [CONTROLBAR:ToolTipMemoryOfMordor]
 Value=Requires Level 10
-Valueline2=Thranduil is surrounded by memories of the Black Land
+Valueline2=Thranduil is surrounded by memories of the Black Land for 30 seconds
 Valueline3=Enemy units are terrified, take damage,
 Valueline4= lose all leadership and deal -50% damage
-Valueline5=Thranduil is invulnerable while the power is active but cannot move
+Valueline5=Thranduil is invulnerable while the power is active but cannot attack and is slower by 75%
 Valueline6=Left click to activate
 
 
@@ -81823,13 +81822,13 @@ Value=Frumgar
 [CONTROLBAR:MirkwoodFrumgarRecruit]
 Value=Recruit Frumgar the Younger, son of Frumgar the Elder, Champion of the Anduin Vale. 
 Valueline2= 
-Valueline3= 'QUOTE'
+Valueline3= The latest scion in a long line of namesakes, Frumgar is the Lord of the Éothéod, and a fearsome warrior. With many daring feats of strength to his name, few now dare to oppose him on the green and rolling fields of Rhovanion.
 
 [CONTROLBAR:MirkwoodFrumgarRevive]
 Value=Revive the fallen Hero, Frumgar
 
 [CONTROLBAR:MirkwoodFrumgarHotkey]
-Value=&Frumgar
+Value=Frumgar (&E)
 
 
 [CONTROLBAR:WrathoftheDragonSlayer]
@@ -81838,9 +81837,8 @@ Value=Wrath of the Dragon Slayer
 
 [CONTROLBAR:ToolTipWrathoftheDragonSlayer]
 Value=Modifier Type: Leadership
-Valueline2=Allies near Frumgar gain +33% damage, +33% armour, earn experience +50% faster and are immune to fear, terror and fire
-Valueline3=Stacks with buffs and spells
-Valueline4=Passive ability
+Valueline2=Allies near Frumgar gain +33% damage, +50% armour against fire and are immune to fear and terror
+Valueline3=Passive ability
 
 
 [CONTROLBAR:OrcWarVeteran]
@@ -81853,8 +81851,20 @@ Valueline2= Targeted units gain experience
 Valueline3= Left click icon then left click on target units
 
 
+[CONTROLBAR:ToolTipDorwinionOrcWarVeteran]
+Value=Requires Level 3
+Valueline2=Frumgar tells of the day he slew Mûzgash 
+Valueline3= Targeted units gain experience 
+Valueline4= Left click icon then left click on target units
+
+
 [CONTROLBAR:FeatofLegends]
 Value=Feat of Legends (&T)
+
+[CONTROLBAR:ToolTipDorwinionFrumgarSpear]
+Value=Requires Level 5
+Valueline2=Powerful ranged attack with radius damage 
+Valueline3= Left click icon then left click on target
 
 
 
@@ -81887,8 +81897,7 @@ Value=A Sign of Good Fortune
 [CONTROLBAR:ToolTipSGoodFortune]
 Value=Modifier Type: Spell 
 Valueline2= Nearby friendly units gain +300% armour and resistance to fear and terror 
-Valueline3= Stacks with Leaderships and Buffs 
-Valueline4= Passive ability
+Valueline3=Passive Ability
 
 
 [CONTROLBAR:FeyWisdom]
@@ -81896,7 +81905,7 @@ Value=Fey Wisdom (&T)
 
 
 [CONTROLBAR:ToolTipFeyWisdom]
-Value=For 1 minute, nearby units and heroes gain 300% experience gain and immunity to magic and elemental damage
+Value=For 60 seconds, nearby units and heroes gain 300% experience gain and immunity to magic and elemental damage
 Valueline2=Left click to activate
 
 
@@ -81955,9 +81964,18 @@ Valueline3= Increases command point limit by 50
 Value=Build Silvan Clearing (&T)
 
 
+[CONTROLBAR:ConstructMirkwoodTrainingGroundsWotRRealTime]
+Value=Build Silvan Clearing (&W)
+
+
 [CONTROLBAR:ToolTipConstructMirkwoodTrainingGrounds]
 Value=Trains Silvan units
-Valueline2= Increases command point limit by 25
+
+
+[CONTROLBAR:ToolTipConstructMirkwoodTrainingGroundsWotRRealTime]
+Value=Primary Barracks
+Valueline2= Trains Silvan infantry 
+Valueline3= Limited to 2
 
 
 [OBJECT:MirkwoodTrainingGrounds]
@@ -81974,7 +81992,7 @@ Value=Upgrade Silvan Clearing to Level 2 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodTrainingGroundsLevel2Upgrade]
-Value=Allows training of Thelamaethyr and Gwairochyn
+Value=Allows training of Silvan Spearmen and Silvan Outriders
 Valueline2=+10% faster build speed
 
 
@@ -81983,11 +82001,24 @@ Value=Upgrade Silvan Clearing to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodTrainingGroundsLevel3Upgrade]
-Value=+25% faster build speed
+Value=Adds defensive arrow tower 
+Valueline2= +25% faster build speed
 
 
 [CONTROLBAR:ConstructMirkwoodRoyalBarracks]
 Value=Build Royal Barracks (&V)
+
+
+[CONTROLBAR:ConstructMirkwoodRoyalBarracksBotFA]
+Value=Build Elvenking's Barracks (&V)
+
+
+[CONTROLBAR:ToolTipConstructMirkwoodRoyalBarracksBotFA]
+Value=Trains Elves of the Woodland Realm
+
+
+[CONTROLBAR:ConstructMirkwoodRoyalBarracksWotRRealTime]
+Value=Build Royal Barracks (&R)
 
 
 [CONTROLBAR:ToolTipConstructMirkwoodRoyalBarracks]
@@ -82002,6 +82033,10 @@ Valueline3= Limited to 1
 
 [OBJECT:MirkwoodRoyalBarracks]
 Value=Royal Barracks
+
+
+[OBJECT:ElvenkingBarracks]
+Value=Elvenking's Barracks
 
 
 [OBJECT:MirkwoodRoyalBarracksDescription]
@@ -82032,7 +82067,16 @@ Value=Upgrade Royal Barracks to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodRoyalBarracksLevel3Upgrade]
-Value=Allows training of Faenrochyn 
+Value=Allows training of Sindar Nobles 
+Valueline2= +25% faster build speed
+
+
+[CONTROLBAR:ConstructMirkwoodRoyalBarracksLevel3UpgradeBotFA]
+Value=Upgrade Elvenking's Barracks to Level 3 (&A)
+
+
+[CONTROLBAR:ToolTipBuildMirkwoodRoyalBarracksLevel3UpgradeBotFA]
+Value=Allows training of Gilded Guards 
 Valueline2= +25% faster build speed
 
 
@@ -82048,8 +82092,18 @@ Value=Researches Woodland Realm unit upgrades
 Value=Thranduil's Treasury
 
 
+[CONTROLBAR:PurchaseUpgradeMirkwoodTreasuryLevel2]
+Value=Upgrade Thranduil's Treasury to Level 2 (&A)
+
+
 [CONTROLBAR:ToolTipBuildMirkwoodTreasuryLevel2]
 Value=Allows research of Silvan Steel Upgrade
+
+
+[CONTROLBAR:PurchaseUpgradeMirkwoodTreasuryLevel3]
+Value=Upgrade Thranduil's Treasury to Level 3 (&A)
+
+
 [CONTROLBAR:ToolTipBuildMirkwoodTreasuryLevel3]
 Value=Allows research of Silvan Fletching Upgrade
 
@@ -82181,12 +82235,11 @@ Value=Enchanted River (&T)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeMirkwoodFortressBanners]
 Value=Modifier Type: Leadership 
-Valueline2= Allies near the Fortress gain +33% damage, +25% armour, and earn experience 50% faster 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4=
-Valueline5=Reduces Hero cost by 10% 
-Valueline6= Reduces Hero recruit time by 10% 
-Valueline7= Reduces the cost of builders by 20%
+Valueline2= Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster
+Valueline3=
+Valueline4=Reduces Hero cost by 10% 
+Valueline5= Reduces Hero recruit time by 10% 
+Valueline6= Reduces the cost of builders by 20%
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodFortressHouseOfHealing]
@@ -82198,11 +82251,11 @@ Value=Heals nearby allies
 
 
 [CONTROLBAR:PurchaseUpgradeMirkwoodFortressEmperorProtection]
-Value=Emperor's Protection (&T)
+Value=Emperor's Protection (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeElvenFortressEmperorProtection]
-Value=Unlocks the Emperor's Protection ability, which when activated causes structures in a wide radius around the fortress to temporarily gain +150% armour against siege, fire and magic damage
+Value=Unlocks the Emperor's Protection ability, which when activated causes structures in a wide radius around the fortress to gain +150% armour against siege, fire and magic damage for 30 seconds
 Valueline2=Doesn't affect summoned structures
 
 
@@ -82212,7 +82265,7 @@ Value=Emperor's Protection (&S)
 
 [CONTROLBAR:TooltipEmperorProtection]
 Value=Requires the Emperor's Protection upgrade
-Valueline2=Structures in a wide radius around the fortress temporarily gain +150% armour against siege, fire and magic damage
+Valueline2=Structures in a wide radius around the fortress gain +150% armour against siege, fire and magic damage for 30 seconds
 Valueline3=Left click to activate
 
 
@@ -82237,13 +82290,17 @@ Valueline4=Unlocks recruitment of Gilded Guard
 Valueline5=Unlocks the Horn of Tauron ability, which when activated causes enemies near the fortress to lose 50% armour and flee in terror
 
 
+[CONTROLBAR:ToolTipPurchaseUpgradeElvenMonumentFortressOromeTribute]
+Value=Unlocks recruitment of Gilded Guard
+
+
 [CONTROLBAR:HornOfTauron]
 Value=Horn of Tauron (&D)
 
 
 [CONTROLBAR:TooltipHornOfTauron]
 Value=Requires the Tribute to Oromë upgrade
-Valueline2=Causes enemies near the fortress to lose 50% armour
+Valueline2=Causes enemies near the fortress to lose 50% armour for 20 seconds
 Valueline3=and flee in terror
 Valueline4=Left click to activate
 
@@ -82281,6 +82338,8 @@ Valueline2= Increases command point limit
 [CONTROLBAR:ConstructMirkwoodSilvanHunter]
 Value=Feredir (&W)
 
+[CONTROLBAR:ConstructMirkwoodSilvanHunterAI]
+Value=Feredir
 
 [CONTROLBAR:ToolTipBuildMirkwoodSilvanHunter]
 Value=Hunter 
@@ -82315,9 +82374,8 @@ Value=Hunting Snare (&R)
 Value=Requires Level 3 
 Valueline2= The Hunter lays a hunting snare which stuns nearby enemies for 5 seconds
 Valueline3=Does not affect creeps
-Valueline4= Does not work on water
-Valueline5=
-Valueline6= Left click then left click target location
+Valueline4=
+Valueline5= Left click then left click target location
 
 
 [OBJECT:HuntingSnare]
@@ -82384,7 +82442,7 @@ Value=Skinning Knives
 
 [CONTROLBAR:ToolTipSkinningKnives]
 Value=Requires Level 3 
-Valueline2= Attacks deal a small amount of damage over time 
+Valueline2= Attacks deal a small amount of damage over time for 15 seconds 
 Valueline3= Passive ability
 
 
@@ -82424,10 +82482,23 @@ Value=Tawartirio
 Value=Tawartirio (&T)
 
 
+[CONTROLBAR:ConstructDismountedGildedGuardHorde]
+Value=Tawartirio (&S)
+
+
+[CONTROLBAR:ToolTipBuildDismountedGildedGuardHorde]
+Value=Dismounted Gilded Guard
+Valueline2=Requires Level 3 Elvenking's Barracks
+Valueline3=Hero Unit. Limited to 2
+Valueline4=Strong. vs Pikemen
+Valueline5=
+Valueline6= Few servants of Evil could withstand the axes of the Elvenking's Gilded Guard in their terrible wrath.
+
+
 [CONTROLBAR:ToolTipBuildGildedGuardHorde]
 Value=Gilded Guard of Lasgalen
 Valueline2=Requires the Tribute to Oromë upgrade
-Valueline3=Limited to 1
+Valueline3=Hero Unit. Limited to 1
 Valueline4=Strong. vs Swordsmen and Archers
 Valueline5=
 Valueline6= Their order originating from the earliest origins of Silvan settlement of Greenwood the Great, the Gilded Guard have stood ever vigilant in defense of their forest home.
@@ -82450,7 +82521,7 @@ Valueline2= 15% movement speed and +15% armour
 Valueline3=Passive ability
 Valueline4=
 Valueline5=When activated, the Gilded Guard sound their horns,
-Valueline6=causing friendly kills to generate resources for a limited time
+Valueline6=causing friendly kills to generate resources for 20 seconds
 Valueline7=Left click to activate
 
 
@@ -82458,12 +82529,16 @@ Valueline7=Left click to activate
 Value=Weeping Blades (&R)
 
 
+[CONTROLBAR:WeepingBladesDismounted]
+Value=Weeping Blades (&T)
+
+
 [CONTROLBAR:ToolTipWeepingBlades]
 Value=Requires Level 3
-Valueline2=Gilded Guard return a percentage of damage dealt to them
+Valueline2=Gilded Guard reflect a small amount of damage dealt to them
 Valueline3=Passive ability
 Valueline4=
-Valueline5=When activated, Gilded Guard temporarily ignore armor
+Valueline5=When activated, Gilded Guard ignore armour for 30 seconds
 Valueline6=Left click to activate
 
 
@@ -83542,12 +83617,18 @@ Value=Haehadron
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodBallista]
-Value=Requires Level 2 Siege Grounds 
-Valueline2= Distant Thrower 
+Value=Distant Thrower
+Valueline2=Requires Level 2 Siege Grounds 
 Valueline3= Strong vs. Structures
-Valueline4= Only 6 allowed at any time 
-Valueline5= 
-Valueline6= The Haehadron is an elegant machine designed for an inelegant task.
+Valueline4= 
+Valueline5= The Haehadron is an elegant machine designed for an inelegant task.
+
+
+[CONTROLBAR:ToolTipBuildMirkwoodBallistaWotR]
+Value=Distant Thrower
+Valueline2= Strong vs. Structures
+Valueline3= 
+Valueline4= The Haehadron is an elegant machine designed for an inelegant task.
 
 
 [OBJECT:MirkwoodSiegeGrounds]
@@ -83570,7 +83651,13 @@ Value=Build Siege Grounds (&T)
 [CONTROLBAR:ToolTipConstructMirkwoodSiegeGrounds]
 Value=Constructs and upgrades siege engines
 Valueline2= At rank 2, repairs nearby siege engines 
-Valueline3= Increases command point limit by 25
+
+
+[CONTROLBAR:ToolTipConstructMirkwoodSiegeGroundsWotRRealTime]
+Value=Tertiary Barracks 
+Valueline2= Constructs Haehadron 
+Valueline3= Limited to 1
+
 
 [CONTROLBAR:ConstructMirkwoodSiegeGroundsLevel2Upgrade]
 Value=Upgrade Siege Grounds to Level 2 (&A)
