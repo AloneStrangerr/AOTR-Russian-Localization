@@ -82549,7 +82549,7 @@ Value=Fury of Nahar (&T)
 [CONTROLBAR:TooltipFuryOfNahar]
 Value=Requires Level 6
 Valueline2= The Gilded Guard commence a great charge and gain
-Valueline3=+40% speed, +50% armour and glide past enemies like the wind 
+Valueline3=+40% speed, +50% armour and glide past enemies like the wind for 30 seconds
 Valueline4= Left click to activate
 
 
@@ -82559,6 +82559,29 @@ Value=Woodman Hunter
 
 [OBJECT:WoodmenMarksmenHorde]
 Value=Woodmen Hunters
+
+
+[OBJECT:DunnishSeer]
+Value=Dunnish Seer
+
+
+[CONTROLBAR:LW_Unit_DunnishSeer]
+Value=Dunnish Seer
+
+
+[CONTROLBAR:LW_Unit_DunnishSeers]
+Value=Dunnish Seers
+
+
+[CONTROLBAR:ConstructDunnishSeer]
+Value=Dunnish Seer (&W)
+
+
+[CONTROLBAR:ToolTipBuildDunnishSeer]
+Value=Support Unit 
+Valueline2= Limited to 5 
+Valueline3= 
+Valueline4= Seers can be found among the tribes of the northern Dunland. Said to be living links to the spirit realm, these men hold positions of high authority.
 
 
 [OBJECT:Druid]
@@ -82582,9 +82605,10 @@ Value=Woodmen Hunters (&W)
 
 
 [CONTROLBAR:ToolTipBuildWoodmenMarksmenHorde]
-Value=Strong vs. Infantry and Structures 
-Valueline2= 
-Valueline3= The hunters amongst the Woodmen are veteran warriors, having long needed to wield their great bows in defense of their holdfasts against the hordes of Dol Guldur.
+Value=Strong vs. Infantry and Structures
+Valueline2=Can stealth near trees 
+Valueline3= 
+Valueline4= The hunters amongst the Woodmen are veteran warriors, having long needed to wield their great bows in defense of their holdfasts against the hordes of Dol Guldur.
 
 
 [CONTROLBAR:ConstructWoodmenDruidsHorde]
@@ -82611,7 +82635,7 @@ Valueline4= Grimbeorn's folk were known for being grim of face and character, an
 
 
 [CONTROLBAR:ConstructMirkwoodEotheodHorde]
-Value=Éot&heod Warriors
+Value=Éotheod Warriors (&E)
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodEotheodHorde]
@@ -82621,8 +82645,19 @@ Valueline3=
 Valueline4= It was after the Battle of the Plains that the Éothéod, a remnant of the Northmen, became a distinct people, dwelling in the Vales of Anduin between the Carrock and the Gladden Fields.
 
 
+[CONTROLBAR:ToolTipBuildMirkwoodEotheodHordeWotrInn]
+Value=Strong vs. Archers 
+Valueline2= 
+Valueline3= It was after the Battle of the Plains that the Éothéod, a remnant of the Northmen, became a distinct people, dwelling in the Vales of Anduin between the Carrock and the Gladden Fields.
+
+
 [CONTROLBAR:ConstructMirkwoodRangerHorde]
 Value=Taurdrim (&W)
+
+
+[CONTROLBAR:ConstructMirkwoodRangerHorde_NCS]
+Value=Taurdrim (&T)
+
 
 
 [CONTROLBAR:ToolTipBuildMirkwoodRangerHorde]
@@ -82836,11 +82871,11 @@ Value=Purchase Beekeeping (&T)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeBeekeeping]
 Value=Requires level 3 Beorning Lodge
-Valueline2= Allows the Beorning Lodge to produce a larger-than-average amount of resources per tick
+Valueline2= Beorning Lodge resource production is increased by 2500%
 
 
 [CONTROLBAR:ToolTipBeekeeping]
-Value=The Beorning Lodge produces a larger-than-average amount of resources per tick
+Value=Beorning Lodge resource production is increased by 2500%
 Valueline2=Passive ability
 
 
@@ -82861,7 +82896,7 @@ Value=Woodland Feast
 
 
 [OBJECT:WoodlandFeastDescription]
-Value=Heals nearby units and grants them +50% armour
+Value=Heals nearby units and grants them +33% armour and damage
 
 
 
@@ -82919,6 +82954,15 @@ Value=Research Silvan Steel (&E)
 Value=Purchase Silvan Steel (&C)
 
 
+[CONTROLBAR:PurchaseUpgradeKinnLaiForgedBlades]
+Value=Purchase Avarin Steel (&C)
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeKinnLaiForgedBlades]
+Value=Upgrades this battalion with Avarin Steel 
+Valueline2= When equipped, increases the damage done by melee weapons
+
+
 [CONTROLBAR:ToolTipPurchaseUpgradeMirkwoodForgedBlades]
 Value=Upgrades this battalion with Silvan Steel 
 Valueline2= When equipped, increases the damage done by melee weapons
@@ -82964,9 +83008,8 @@ Value=Horn of the Gate
 
 [CONTROLBAR:TooltipRallyingCallMirkwood]
 Value=Modifier Type: Buff 
-Valueline2= Targeted allies gain +50% damage and +50% armour 
-Valueline3= Stacks with Leadership and Spells 
-Valueline4= Left click icon then left click on target units
+Valueline2= Targeted allies gain +25% damage and +25% armour for 60 seconds
+Valueline3=Left click icon then left click on target units
 
 
 [CONTROLBAR:FarsightMirkwood]
@@ -82983,8 +83026,9 @@ Value=The Elves Awoke Them
 
 
 [CONTROLBAR:TooltipTheElvesAwokeThemMirkwood]
-Value=Summons a tree that knocks back enemy units and stealths nearby allies
-Valueline2=Left click icon then left click on target area
+Value=Summons a tree that knocks back enemy units
+Valueline2= Nearby allies are stealthed while enemies suffer -15% damage and armour
+Valueline3=Left click icon then left click on target area
 
 
 [CONTROLBAR:ElvenkingRoad]
@@ -83022,7 +83066,7 @@ Value=Elvenking's Feast
 
 [CONTROLBAR:TooltipElvenkingFeast]
 Value=Summons one of Thranduil's famous woodland feasts
-Valueline2=Units near it gain +50% armour and heal
+Valueline2=Units near it heal over time and gain +33% damage and armour
 Valueline3=Left click icon then left click on target location
 
 
@@ -83041,8 +83085,9 @@ Value=Elvenking's Patience
 
 [CONTROLBAR:TooltipElvenkingPatience]
 Value=Enemy units within the radius lose all leadership
-Valueline2=and are slowed by 66% 
-Valueline3=Left click icon then left click on target units
+Valueline2=and are slowed for 30 seconds
+Valueline3=Enemy units are slowed by 50% in the first 10 seconds, by 35% in the next 10 seconds and by 20% in the last 10 seconds
+Valueline4=Left click icon then left click on target units
 
 
 [CONTROLBAR:ElvenkingDecree]
@@ -83051,7 +83096,7 @@ Value=Elvenking's Decree
 
 [CONTROLBAR:ToolTipElvenkingsDecree]
 Value=For 60 seconds, all kills earn extra resources
-Valueline2=and allied units gain +15% speed 
+Valueline2=and allied units gain +50% experience gain 
 Valueline3= Left click to activate
 
 
@@ -83075,8 +83120,8 @@ Value=Lights Go Out
 
 
 [CONTROLBAR:ToolTipMirkwoodDarkness]
-Value=Cancels Western Winds, Freezing Rain, Ere the Sun Rises, Blessing of Ulmo, Blessing of Manwë, Durin's Day, Lights Go Out, White Winter and Darkness 
-Valueline2= Enemy units temporarily suffer from -25% vision and attack range, -25% experience gain, and -40% attack damage
+Value=Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness 
+Valueline2= Enemy units suffer from -25% vision and attack range, -25% experience gain, and -40% attack damage for 3 minutes
 Valueline3=Left click to activate
 
 
@@ -83086,7 +83131,7 @@ Value=Hail of Arrows
 
 [CONTROLBAR:TooltipMirkwoodArrowVolley]
 Value=Two swift volleys of Silvan arrows
-Valueline2=The first salvo is instantaneous, the second follows afterwards
+Valueline2=First volley is instant, second volley follows afterwards
 Valueline3=Left click icon the left click on target area
 
 
@@ -83096,12 +83141,12 @@ Value=Great Hunt of Oromë
 
 [CONTROLBAR:ToolTipHuntOfOrome]
 Value=Enemy units within the radius lose -50% armour
-Valueline2=and -50% damage
+Valueline2=and -50% damage for 30 seconds
 Valueline3=Heroes within the radius have their cooldown timers recharged and are moderately healed
 Valueline4=All friendly units on the battlefield may temporarily
 Valueline5=trample enemies
 Valueline6=All cavalry units on the battlefield gains +50% armour
-Valueline7=against spearmen
+Valueline7=against spearmen for 30 seconds
 Valueline8=Left click icon then left click on target units
 
 
@@ -83121,7 +83166,7 @@ Value=Spawn of Ungoliant
 
 [CONTROLBAR:ToolTipShelobUngoliantSpawn]
 Value=Shelob continuously spawns tiny spiders that deal damage
-Valueline2=to nearby enemies and slow them
+Valueline2=to nearby enemies and slow them by 15%
 Valueline3=Passive ability
 
 
@@ -83130,7 +83175,7 @@ Value=Dark Deterrent (&R)
 
 
 [CONTROLBAR:ToolTipShelobDarkDeterrent]
-Value=Enemies within the radius are stunned for 5 seconds and receive poison damage
+Value=Enemies within the radius are stunned for 5 seconds and receive poison damage for 15 seconds
 Valueline2=Left click icon then left click on target area
 
 
