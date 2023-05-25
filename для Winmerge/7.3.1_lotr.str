@@ -86435,22 +86435,57 @@ Valueline3= Human Player: Woodland Realm
 Value=Adventure: Durin's Folk*
 
 
+[Map:MAPMPadventuredurinsfolk/Desc]
+Value=Though many Dwarves emigrated to the newly founded Kingdom of Erebor after the death of Smaug, some remained in the Iron Hills, mining its ferrous mineral, and forming settlements of hardy Dwarves whose martial skill is undeniable.
+Valueline2= Singleplayer Adventure Map 
+Valueline3= Human Player: Erebor
+
+
+
+
+[Map:MAPMPadventuregreycompany]
+Value=Adventure: Grey Company*
+
+
+[Map:MAPMPadventuregreycompany/Desc]
 Value=Emerging from the Paths of the Dead, Aragorn and the Grey Company hastened through the southern lands of Gondor towards Minas Tirith, arriving first at the river Morthond and the Blackroot Vale. 
 Valueline2= Singleplayer Adventure Map 
-Valueline3= Human Player: Left starting position, Gondor 
-Valueline4= AI: Right starting position, Mordor
+Valueline3= Human Player: Gondor
 
 
 
-[Map:MAPMPadventurenorthundeep]
-Value=Adventure: North Undeep*
+[Map:MAPMPadventureithilien]
+Value=Adventure: Ithilien*
 
 
-[Map:MAPMPadventurenorthundeep/Desc]
-Value=Earlier in the Third Age, a clan of fierce Easterlings under the sway of Dol Guldur, known as the Balchoth, occupied and raided the lands of Rhovanion. 
+[Map:MAPMPadventureithilien/Desc]
+Value=The Enemy moves against Gondor: Orcs and Uruks despoil the verdant forests of Ithilien, legions of Southrons march to the Black Lands unchecked. Faramir, Captain of Gondor, and his Rangers are tasked with waylaying these foes before their numbers overwhelm the White City.
 Valueline2= Singleplayer Adventure Map 
-Valueline3= Human Player: Left starting position, FACTION 
-Valueline4= AI: Right starting position, FACTION
+Valueline3= Human Player: Gondor
+
+
+
+[Map:MAPMPadventurerhun]
+Value=Adventure: Rhûn*
+
+
+[Map:MAPMPadventurerhun/Desc]
+Value=The Easterlings were among the most fanatical and devoted of the Dark Lord's servants among men. Hailing from the vast land of Rhûn, they were renowned for their martial prowess and fearlessness in battle. 
+Valueline2= Singleplayer Adventure Map 
+Valueline3= Human Player: Mordor
+
+
+
+
+[Map:MAPMPadventureshadowandflame]
+Value=Adventure: Shadow and Flame*
+
+
+[Map:MAPMPadventureshadowandflame/Desc]
+Value=Khazad-dûm, the once great Dwarven kingdom, was desecrated by Orcs that swarmed the now abandoned halls. Yet, there are older and fouler things than Orcs that dwell in the deep places of the world.
+Valueline2= Singleplayer Adventure Map 
+Valueline3= Human Player: Misty Mountains
+
 
 
 
