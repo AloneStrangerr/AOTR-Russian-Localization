@@ -83193,18 +83193,19 @@ Value=Grubby Hands
 
 
 [CONTROLBAR:ToolTipGrubbyHands]
-Value=Goblin-towners's attacks decrease structure armor by 5% and steal resources
+Value=Goblin-towners' attacks decrease structure armour by 5% and steal resources from structures
 Valueline2=Passive ability
 
 
 [CONTROLBAR:MountainOrcScoutBarbedArrows]
-Value=Barbed Ar&rows
+Value=Barbed Arrows (&R)
 
 
 [CONTROLBAR:ToolTipMountainOrcScoutBarbedArrows]
 Value=Requires Level 2
-Valueline2=Mountain Orc Scouts temporarily slow Monsters and Flyers by 50% and increase their damage by 75% vs the same targets
-Valueline3=Left click to activate
+Valueline2=For 20 seconds, Mountain-orc Scouts gain +65% damage vs monsters and flying units
+Valueline3=Target monsters and flying units lose -25% movement speed
+Valueline4=Left click to activate
 
 
 [CONTROLBAR:SpecialAbilityTouchofRuin]
@@ -83212,13 +83213,13 @@ Value=Touch of Ruin (&R)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityTouchofRuin]
-Value=Requires level 2 
-Valueline2= Dead of Arnor temporarily reduce the armour of those they strike by 10% 
-Valueline3= Left click to activate
+Value=Requires level 2
+Valueline2=For 20 seconds, Dead of Arnor reduce the armour of those they strike by 10%
+Valueline3=Left click to activate
 
 
 [CONTROLBAR:ToolTipDarkSustenanceCopy]
-Value=Risen Dúnedain quickly regain health and restore their horde while outside of combat
+Value=Dead of Arnor quickly regain health and restore their horde while outside of combat
 Valueline2=Passive ability
 
 
@@ -83233,7 +83234,7 @@ Value=Winter Coat
 
 [CONTROLBAR:ToolTipWinterCoat]
 Value=Requires Level 3
-Valueline2=Pierce resistance is increased by 50%
+Valueline2=Pierce resistance is increased by 33%
 Valueline3=Passive ability
 
 
@@ -83307,7 +83308,7 @@ Value=Thorned Barbs (&T)
 
 [CONTROLBAR:ToolTipThornedBarbs]
 Value=Requires Level 3
-Valueline2=Briefly stuns enemy units 
+Valueline2=Stuns enemy units for 5 seconds 
 Valueline3= Left click icon then left click on target
 
 
@@ -83317,7 +83318,13 @@ Value=Horse Mastery (&R)
 
 [CONTROLBAR:ToolTipMirkwoodHorseMastery]
 Value=Requires Level 2
-Valueline2= Outriders temporarily gain +50% armour and +20% speed 
+Valueline2= Outriders gain +25% armour and +20% speed for 30 seconds
+Valueline3= Left click to activate
+
+
+[CONTROLBAR:ToolTipEotheodHorseMastery]
+Value=Requires Level 2
+Valueline2= Éothéod Warriors gain +25% armour and +20% speed for 30 seconds
 Valueline3= Left click to activate
 
 
@@ -83336,7 +83343,7 @@ Value=Elven Precision (&R)
 
 [CONTROLBAR:ToolTipElvenPrecision]
 Value=Requires Level 3 
-Valueline2= Temporarily increases attack range and damage by 25% at the cost of 50% movement speed 
+Valueline2= Increases attack range and damage by 25% at the cost of 50% movement speed for 25 seconds
 Valueline3= Left click to activate
 
 [CONTROLBAR:FerenCommander]
@@ -83348,10 +83355,12 @@ Value=Commander of Eryn Lasgalen
 
 
 [CONTROLBAR:ToolTipFerenCommander]
-Value=Summons a battalion of Taurdrim 
-Valueline2=At rank 5, includes an additional battalion of Greenwood Spearmen
-Valueline3=At rank 10, two of both
-Valueline4=Left click to activate
+Value=Requires Level 3 
+Valueline2=Summons a battalion of Silvan Rangers 
+Valueline3=At rank 5, includes an additional battalion of Greenwood Spearmen
+Valueline4=At rank 8, includes an additional battalion of Silvan Rangers
+Valueline5=At rank 10, two of both
+Valueline6=Left click to activate
 
 
 [CONTROLBAR:SolemnDuty]
@@ -83363,6 +83372,13 @@ Value=Requires level 2
 Valueline2= Palace Guards grant Legolas and Thranduil +10% armour, up to a maximum of 30% 
 Valueline3= Nearby structures gain +25% armour 
 Valueline4= Passive ability
+
+
+[CONTROLBAR:ToolTipSolemnDutyGildedGuard]
+Value=Gilded Guards grant Legolas and Thranduil +10% armour, up to a maximum of 30% 
+Valueline2= Nearby structures gain +25% armour 
+Valueline3= Passive ability
+
 
 
 [CONTROLBAR:ToolTipToggleMirkwoodSlayersLooseFormation]
@@ -83418,8 +83434,9 @@ Value=Blessing of Aldaron (&R)
 
 
 [CONTROLBAR:ToolTipBlessingofAldaron]
-Value=Can be cast on friendly units to replenish fallen units 
-Valueline2= Left click icon then left click on target area
+Value=Can be cast on friendly battalions to replenish
+Valueline2= one fallen unit per battalion 
+Valueline3= Left click icon then left click on target area
 
 
 [UPGRADE:BlessingofAldaron]
@@ -83436,7 +83453,8 @@ Value=Purchase Blessing of Aldaron (&R)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeBlessingofAldaron]
 Value=Allows Druid to use the Blessing of Aldaron ability 
-Valueline2= Can be cast on friendly units to replenish fallen units
+Valueline2= Can be cast on friendly battalions to replenish 
+Valueline3= one fallen unit per battalion
 
 
 [OBJECT:WardingStones]
@@ -83514,8 +83532,7 @@ Value=Potion of Potency (&V)
 Value=Modifier Type: Spell 
 Valueline2= Targeted hero is partially healed
 Valueline3=and gains +25% armour for 30 seconds
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Left click icon then left click on target hero
+Valueline4= Left click icon then left click on target hero
 
 
 [UPGRADE:PotionofPotency]
@@ -83533,8 +83550,7 @@ Value=Purchase Potion of Potency (&V)
 [CONTROLBAR:ToolTipPurchaseUpgradePotionofPotency]
 Value=Allows Druid to use the Potion of Potency ability 
 Valueline2= Targeted hero is partially healed
-Valueline3=and gains +25% armour for 30 seconds 
-Valueline4= Stacks with Leadership and Spells
+Valueline3=and gains +25% armour for 30 seconds
 
 
 [OBJECT:SacredOak]
@@ -83551,7 +83567,7 @@ Value=Righteous Indignation (&R)
 
 [CONTROLBAR:TooltipRighteousIndignation]
 Value=Requires Level 2 
-Valueline2= Nearby enemy units are terrified and Sindar Nobles temporarily gain -33% crush deceleration 
+Valueline2= Nearby enemy units are terrified and Sindar Nobles gain -33% crush deceleration for 20 seconds
 Valueline3= Left click to Activate
 
 
@@ -83560,7 +83576,7 @@ Value=Feast! (&W)
 
 
 [CONTROLBAR:ToolTipFeast]
-Value=Instantly heals units for a moderate amount, but decreases their movement by 66% for 60 seconds
+Value=Instantly heals units for a moderate amount, but decreases their movement speed by 66% for 30 seconds
 Valueline2= Left click icon then left click on target area
 
 
@@ -83574,7 +83590,7 @@ Value=Mark of Béma (&R)
 
 [CONTROLBAR:ToolTipMarkofBema]
 Value=For 30 seconds, target unit or hero is marked by the Woodmen Hunters 
-Valueline2= Marked enemies suffer 20 additional damage from Woodsmen attacks for 30 seconds 
+Valueline2= The target takes 10 more damage from Woodmen attacks 
 Valueline3= Left click then left click on target
 
 
@@ -83603,8 +83619,9 @@ Value=Elven Affinity (&R)
 
 [CONTROLBAR:ToolTipElvenAffinity]
 Value=Requires level 2 
-Valueline2= All nearby allied Mirkwood Elves gain +10% armour up to a maximum of 50% 
-Valueline3= Left click to activate
+Valueline2= All nearby allied Mirkwood Elves gain +20% armour for 30 seconds
+Valueline3=Does not stack with itself
+Valueline4= Left click to activate
 
 
 [CONTROLBAR:RoughExterior]
@@ -83613,7 +83630,8 @@ Value=Rough Exterior (&R)
 
 [CONTROLBAR:ToolTipRoughExterior]
 Value=Requires Level 3 
-Valueline2= Temporarily increases resistance to ranged damage by +50%
+Valueline2= Increases resistance to ranged damage by +50% for 20 seconds
+Valueline3=Left click to activate
 
 
 [CONTROLBAR:BeorningRage]
@@ -83622,8 +83640,8 @@ Value=Wild Rage (&T)
 
 [CONTROLBAR:ToolTipBeorningRage]
 Value=Requires Level 5
-Valueline2=The Beorning Berserkers fly into an uncontrollable battle-rage
-Valueline3=They become resistant to knockback and their movement speed, armor, and attack damage are greatly increased, but they cannot be controlled for the duration
+Valueline2=The Beorning Berserkers fly into an uncontrollable battle-rage for 20 seconds
+Valueline3=They become resistant to knockback and their movement speed, armour, and attack damage are increased by 33%, but they cannot be controlled for the duration
 Valueline4=Left click to activate
 
 
@@ -83694,8 +83712,8 @@ Value=Build Siege Grounds (&T)
 
 
 [CONTROLBAR:ToolTipConstructMirkwoodSiegeGrounds]
-Value=Constructs and upgrades siege engines
-Valueline2= At rank 2, repairs nearby siege engines 
+Value=Constructs siege engines
+Valueline2= At rank 2, repairs nearby siege engines
 
 
 [CONTROLBAR:ToolTipConstructMirkwoodSiegeGroundsWotRRealTime]
@@ -83727,7 +83745,17 @@ Value=Stop Right There! (&T)
 
 [CONTROLBAR:ToolTipStopRightThere]
 Value=Requires Level 2 
-Valueline2= Enemy units within the radius temporarily deal -33% damage and are slowed by 33% 
+Valueline2= Enemy units within the radius deal -33% damage and are slowed by 20% for 30 seconds
+Valueline3= Left click on icon then left click on target battalion
+
+[CONTROLBAR:ToolTipStopRightThereDale]
+Value=Requires Level 4 
+Valueline2= Enemy units within the radius deal -33% damage and are slowed by 20% for 30 seconds
+Valueline3= Left click on icon then left click on target battalion
+
+[CONTROLBAR:ToolTipStopRightThereRoyalGuard]
+Value=Requires Level 2 
+Valueline2= Enemy units within the radius deal -50% armour and are slowed by 20% for 30 seconds
 Valueline3= Left click on icon then left click on target battalion
 
 
@@ -83735,17 +83763,50 @@ Valueline3= Left click on icon then left click on target battalion
 Value=Sentry Tower
 
 [OBJECT:HaradKhanofRhun]
-Value=Khan of Rhûn
+Value=Vârakh-bórax
 
 [OBJECT:HaradChariot]
 Value=Khandish Chariot
 
+[CONTROLBAR:ConstructKhandishChariot]
+Value=Khandish Chariot (&W)
+
+[CONTROLBAR:ToolTipBuildKhandishChariot]
+Value=Strong vs. Swordsmen and Archers
+
 [OBJECT:HaradAicanaroc]
 Value=Aicanaroc
 
+[OBJECT:HaradMumakilMatriarch]
+Value=The Black Matriarch
+
+[CONTROLBAR:HaradMumakilMatriarchMightyStomp]
+Value=Mighty Stomp (&W)
+
+[CONTROLBAR:ToolTipHaradMumakilMatriarchMightyStomp]
+Value=The Black Matriarch stomps down sending a shockwave
+Valueline2= that knocks down and damages enemy units and structures in front of her
+Valueline3=Left click to activate
+
+[CONTROLBAR:HaradMumakilMatriarchDeafeningTrumpet]
+Value=Deafening Trumpet (&R)
 
 [CONTROLBAR:ToolTipHaradMumakilMatriarchDeafeningTrumpet]
 Value=The Black Matriarch sounds an ear-splitting trumpeting, stunning surrounding enemies in fear for 15 seconds
+Valueline2=Left click to activate
+
+[CONTROLBAR:HaradMumakilMatriarchSingleMindedCharge]
+Value=Single-Minded Charge (&T)
+
+[CONTROLBAR:ToolTipHaradMumakilMatriarchSingleMindedCharge]
+Value=The Black Matriarch gores target enemy hero or structure with her tusks, dealing significant damage
+Valueline2=Left click on icon then left click on target
+
+[CONTROLBAR:HaradMumakilMatriarchGloriousCharge]
+Value=Black Matriarch (&C)
+
+[CONTROLBAR:ToolTipHaradMumakilMatriarchGloriousCharge]
+Value=Nearby War and Siege Mûmakil are granted +20% speed and +33% armour for 20 seconds 
 Valueline2=Left click to activate
 
 [CONTROLBAR:HaradWarChant]
@@ -83755,8 +83816,10 @@ Value=Horn of the Serpent Lord
 Value=Dry Spell
 
 [CONTROLBAR:TooltipDrySpell]
-Value=Halves the resource production of any resource structure within the area of effect 
-Valueline2= Left click icon then left click on target area
+Value=Reduces production of any resource structure within the area of effect for 150 seconds 
+Valueline2=Resource production is decreased by -75% 
+Valueline3=Left click icon then left click on target area
+
 [OBJECT:TribalCamp]
 Value=Tribal Camp
 
@@ -86229,68 +86292,73 @@ Value=Permanently summons a horde of Guards of the Serpent
 Valueline2=Limited to 1
 Valueline3=Left click on icon then left click on target area
 
-[Map:MAPSPgoodcelduin]
-Value=Campaign: Good VI - Celduin
 
 
-[Map:MAPSPgoodcelduin/Desc]
-Value=Mission VI - Dáin leads the Dwarves of Erebor and the people of Celduin in a desparate attempt to defend the settlement against a Mordor host.
-Valueline2= Recommended Faction: Erebor
+
+[Map:MAPSPevillorien/Desc]
+Value=Led by Sauron's envoy, a wicked host from Dol Guldur invades the Golden Wood of Lothlórien and lays siege to Caras Galadhon, the heart of Elvendom on Earth.
 
 
-[Map:MAPSPgooddolguldur]
-Value=Campaign: Good VIII - Dol Guldur
+[Map:MAPSPevilgreyhavens/Desc]
+Value=Sauron has commanded the Golden King to send forth the Corsairs of Umbar to turn the Grey Havens to ash, preventing Cirdan’s subjects from escaping the Dark Lord’s dominion.
 
 
-[Map:MAPSPgooddolguldur/Desc]
-Value=Mission VIII - The Elves and Dwarves launch a final assault against Sauron's fortress of Dol Guldur.
-Valueline2= Recommended Faction: Rivendell
+[Map:MAPSPevilshire/Desc]
+Value=An Orc-host arrives at the borders of the Shire. It is led by Golfimbul, who seeks to avenge his long-dead ancestor, slain by the legendary Bullroarer Took.
 
 
-[Map:MAPSPgooderebor]
-Value=Campaign: Good VII - Erebor
+[Map:MAPSPevilfornost/Desc]
+Value=The Rangers of the North, aided by Dwarves from the Ered Luin, seek to hold on to their ancient stronghold at Fornost. If not for the wicked machinations of the dark shaman Urshak, they might have stood a chance.
 
 
-[Map:MAPSPgooderebor/Desc]
-Value=Mission VII - The Dwarves of Erebor make one final stand against the overwhelming forces of Mordor.
-Valueline2= Recommended Faction: Erebor
+[Map:MAPSPevilMirkwood/Desc]
+Value=A dread host shambles forth from the ruins of Dol Guldur, seeking to seize control of the Old Forest Road, thereby cutting off the Elvenking from any allied reinforcements that might prevent the Woodland Realm’s destruction.
 
 
-[Map:MAPSPgoodettenmoors]
-Value=Campaign: Good III - Ettenmoors
+[Map:MAPSPevilwitheredheath/Desc]
+Value=To lay ruin to the stronghold at Erebor, Sauron sends envoys into the desolation of the Withered Heath, to forge an alliance with the fire-breathing wyrms that still dwell there.
 
 
-[Map:MAPSPgoodettenmoors/Desc]
-Value=Mission III - The Elves must remove the Goblin threat from the North by striking at its heart.
-Valueline2= Recommended Faction: Rivendell
+[Map:MAPSPevilerebor/Desc]
+Value=The legions of Rhûn launch a mighty assault into Rhovanion, seeking to destroy the city of Dale and the great Dwarven stronghold of Erebor.
 
 
-[Map:MAPSPgoodgreyhavens]
-Value=Campaign: Good V - Grey Havens
+[Map:MAPSPevilrivendell/Desc]
+Value=In a bid to seal his final victory over the Free Peoples of Middle-earth, Sauron has gathered all evil to him and assaults Rivendell, the most powerful holdout of the Eldar still remaining in Middle-earth.
 
-
-[Map:MAPSPgoodgreyhavens/Desc]
-Value=Mission V - The Elves and Dwarves must repel an invasion of this key elven port  by the Corsairs of Umbar and the Southrons.
-Valueline2= Recommended Faction: Rivendell
-
-
-[Map:MAPSPgoodhighpass]
-Value=Campaign: Good II - High Pass
-
-
-[Map:MAPSPgoodhighpass/Desc]
-Value=Mission II - Glorfindel and Gloin arrive to retake the High Pass from the Goblins.
-Valueline2= Recommended Faction: Rivendell
-
-
-[Map:MAPSPgoodrivendell]
-Value=Campaign: Good I - Rivendell
 
 
 [Map:MAPSPgoodrivendell/Desc]
-Value=Mission I - Glorfindel discovers a Goblin force which has been sent to destroy Imladris.
-Valueline2= Recommended Faction: Rivendell
+Value=A surprise orc attack on Rivendell causes the Elf-lord Glorfindel to forge an unlikely alliance with Glóin the Dwarf.
 
+
+[Map:MAPSPgoodhighpass/Desc]
+Value=Glorfindel and Glóin travel to the High Pass, seeking to keep its passage open and free from an orcish infestation.
+
+
+
+[Map:MAPSPgoodettenmoors/Desc]
+Value=In order to subdue the Orcs of the Misty Mountains, Glorfindel and Glóin rally a force of arms and strike at the heart of the orcish presence in the region.
+
+
+[Map:MAPSPgoodbluemountains/Desc]
+Value=The Dwarves of the Blue Mountains seek the help of Glorfindel and Glóin in reclaiming their halls from the clutches of a fire-breathing dragon.
+
+
+[Map:MAPSPgoodgreyhavens/Desc]
+Value=The ancient havens of Mithlond are under attack by a force of Haradrim. Glorfindel and Glóin arrive to assist Cirdan the Shipwright repel this vile incursion.
+
+
+[Map:MAPSPgoodcelduin/Desc]
+Value=Dáin Ironfoot, the warrior-king of Erebor, personally leads his forces into Laketown to defend it from a sudden Easterling attack.
+
+
+[Map:MAPSPgooderebor/Desc]
+Value=The Dwarves of Erebor and the Men of Dale organise a desperate defence against the besieging legions of Rhûn.
+
+
+[Map:MAPSPgooddolguldur/Desc]
+Value=The White Council and its allies launch a final assault against Sauron’s stronghold of Dol Guldur, seeking to cast down its dark walls and bare its wicked pits in order to finally cleanse Mirkwood of its corruption.
 
 
 
@@ -86308,11 +86376,65 @@ Valueline5= Save your progress often.
 
 
 
-[Map:MAPMPadventureblackrootvale]
-Value=Adventure: Blackroot Vale*
+[Map:MAPMPadventureangmar]
+Value=Adventure: Angmar*
 
 
-[Map:MAPMPadventureblackrootvale/Desc]
+[Map:MAPMPadventureangmar/Desc]
+Value=Having emerged from hiding, the Lord of the Nazgûl established the kingdom of Angmar and set out to destroy the Dúnedain of the North whilst they were vulnerable from political strife.
+Valueline2= Singleplayer Adventure Map 
+Valueline3= Human Player: Dol Guldur
+
+
+
+[Map:MAPMPadventureangmarwars]
+Value=Adventure: The Angmar Wars*
+
+
+[Map:MAPMPadventureangmarwars/Desc]
+Value=The ancient conflict that saw Arnor and its successor realms destroyed by the evil realm of Angmar lasted for generations. Despite their eventual defeat, the armies of the Dúnedain achieved many victories against the Witch-king.
+Valueline2= Multiplayer Adventure Map 
+Valueline3= Human Players: Dol Guldur and Gondor
+
+
+
+[Map:MAPMPadventurearthedain]
+Value=Adventure: Arthedain*
+
+
+[Map:MAPMPadventurearthedain/Desc]
+Value=The last remnant of the North Kingdom, Arthedain valiantly attempts to stem the tide of evil washing out of fell Angmar. King Arvedui, scion of Westernesse, fields his steel-clad armies, glittering beneath the sun as it sets on his kingdom.
+Valueline2=Singleplayer Adventure Map 
+Valueline3= Human Player: Gondor
+
+
+
+[Map:MAPMPadventurebattleofthefivearmies]
+Value=Adventure: Battle of the Five Armies*
+
+
+[Map:MAPMPadventurebattleofthefivearmies/Desc]
+Value='... in all the mountains there was a forging and an arming. Then they marched... until around and beneath the great mountain Gundabad of the North, where was their capital, a vast host was assembled ready to sweep down in time of storm unawares upon the South.'
+Valueline2= Singleplayer Adventure Map 
+Valueline3= Human Player: Erebor
+
+
+
+[Map:MAPMPadventuredorwinion]
+Value=Adventure: Dorwinion*
+
+
+[Map:MAPMPadventuredorwinion/Desc]
+Value=Sent as emissaries of the Valar, the Ithryn Luin scoured the far East in search of the Enemy and to kindle dissension among his servants, thus hindering their efforts to overwhelm Dorwinion. 
+Valueline2= Singleplayer Adventure Map 
+Valueline3= Human Player: Woodland Realm
+
+
+
+[Map:MAPMPadventuredurinsfolk]
+Value=Adventure: Durin's Folk*
+
+
 Value=Emerging from the Paths of the Dead, Aragorn and the Grey Company hastened through the southern lands of Gondor towards Minas Tirith, arriving first at the river Morthond and the Blackroot Vale. 
 Valueline2= Singleplayer Adventure Map 
 Valueline3= Human Player: Left starting position, Gondor 
@@ -89362,8 +89484,8 @@ Value=This coastal region in southern Gondor stretches from the mouth of the And
 Value=The Black Gate
 
 
-[Map:MAPWORblackgate/Desc]
-Value=The Black Gate of Mordor was built by Sauron to guard the Pass of Cirith Gorgor, the gap between the Ered Lithui and the Ephel Duath, and entrance to the lands of Mordor.
+[Map:MAPWORForlindon/Desc]
+Value=Forlindon is the name of the coastal lands north of the Gulf of Lune and the Grey Havens, and west of the Blue Mountains. 
 
 
 
@@ -89378,8 +89500,12 @@ Value=The Blue Mountains, also known as the Ered Luin, was the mountain range at
 
 
 
-[LW:DisplayNameBuckland]
-Value=Buckland
+[LW:DisplayNameGreyHavens]
+Value=Grey Havens
+
+
+[Map:MAPWORGreyHavens/Desc]
+Value=The Grey Havens are a seaport on the Gulf of Lune, founded during the Second Age by the Elves of Lindon, and used by the Elves to leave Middle-earth for Valinor in the West. 
 
 
 [Map:MAPWORbuckland/Desc]
@@ -89993,8 +90119,8 @@ Value=Also known as the Tower of Sorcery, this dark fortress was held by the the
 Value=Minas Tirith
 
 
-[MAP:MAPWORMinasTirith/Desc]
-Value=The White City of Minas Tirith sits on seven levels against Mount Mindolluin, and is ruled over by the Stewards of Gondor.
+[Map:MAPWORGreyHavens]
+Value=Grey Havens
 
 
 
