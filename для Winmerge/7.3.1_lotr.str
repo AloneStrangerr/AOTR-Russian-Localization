@@ -86496,8 +86496,32 @@ Value=Adorn River
 
 [Map:MAPMPadornriver/Desc]
 Value=The Adorn River flows into the River Isen and helps form the western border of Rohan. 
-Valueline2= Capturable: Outpost, Signal Fire 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Region: Rohan
+
+
+
+[Map:MAPMPamathafa]
+Value=Amathafa*
+
+
+[Map:MAPMPamathafa/Desc]
+Value=The wide plains of Haradwaith are interspersed by grassy savannahs that spring to life during the wet seasons, bringing abundant birds and wildlife to seasonal water holes. Here live the tribal Mahûd, amongst herds of wild Mûmakil. 
+Valueline2= Creeps: Warg 
+Valueline3= Region: Haradwaith
+
+
+
+
+[Map:MAPMPamathuna]
+Value=Amathûna*
+
+
+[Map:MAPMPamathuna/Desc]
+Value=At the centre of this sacred site of the Mahûd lies an enormous Mûmak graveyard; its field of giant bones encircled by forgotten ancient structures carved into the surrounding cliffs. 
+Valueline2= Creeps: Mahûd, Warg 
+Valueline3= Region: Haradwaith
+
 
 
 
@@ -86518,8 +86542,8 @@ Value=Andrast*
 
 
 [Map:MAPMPandrast/Desc]
-Value=Andrast was a long cape in the south-west of Gondor, between the Bay of Belfalas and the Great Sea, populated by scattered settlements. 
-Valueline2= Capturable: Outpost 
+Value=Andrast is a long cape in the south-west of Gondor, between the Bay of Belfalas and the Great Sea, populated by scattered settlements. 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg 
 Valueline4= Region: Gondor
 
@@ -86555,9 +86579,9 @@ Value=Angmar
 
 [Map:MAPMPangmar/Desc]
 Value=The icy region and kingdom founded during the Third Age in the far north of the Misty Mountains by the Lord of the Ringwraiths, the Witch-king of Angmar. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Snow Troll 
-Valueline4= Region: Arnor
+Valueline4= Region: Misty Mountains
 
 
 
@@ -86567,9 +86591,8 @@ Value=Annúminas*
 
 [Map:MAPMPannuminas/Desc]
 Value=On the southern shores of Lake Evendim stand the ancient ruins of Annúminas, once seat of the Kings of Arnor. Its fair ruins and surrounding foothills are inhabited by the Dúnedain, led by Halbarad their captain. 
-Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Warg 
-Valueline4= Region: Arnor
+Valueline2= Capturable: Inn 
+Valueline3= Region: Arnor
 
 
 
@@ -86579,7 +86602,7 @@ Value=Annúnlos*
 
 [Map:MAPMPannunlos/Desc]
 Value=A vast territory marked by broken remnants of the lost realm of Rhudaur. The slopes of the north eventually lead into the Weather Hills. 
-Valueline2= Capturable: Outpost, Signal Fire 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Dúnedain (Good), Wolf (Evil), Warg 
 Valueline4= Region: Arnor
 
@@ -86591,7 +86614,7 @@ Value=Anórien
 
 [Map:MAPMPanorien/Desc]
 Value=This northwestern fiefdom of Gondor forms the border between Gondor and Rohan, north of the White Mountains. 
-Valueline2= Capturable: Signal Fire  
+Valueline2= Capturable: Inn  
 Valueline3= Creeps: Warg, Cave Troll  
 Valueline4= Region: Gondor
 
@@ -86602,9 +86625,10 @@ Value=Archet*
 
 
 [Map:MAPMParchet/Desc]
-Value=Archet was the most remote of the settlements of the Bree-land, set among the trees on the northern edge of the Chetwood. A few hobbits lived there, but the inhabitants were predominantly Big Folk. 
-Valueline2= Creeps: Barrow Wights, Hill Troll 
-Valueline3= Region: Arnor
+Value=Archet is the most remote of the settlements of the Bree-land, set among the trees on the northern edge of the Chetwood. A few hobbits live there, but the inhabitants were predominantly Big Folk. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Barrow Wight, Hill Troll 
+Valueline4= Region: Arnor
 
 
 
@@ -86613,8 +86637,8 @@ Value=Arnor
 
 
 [Map:MAPMParnor/Desc]
-Value=This was once the realm of the Great North Kingdom of Men. 
-Valueline2= Capturable: Signal Fire 
+Value=Arnor, the Northern Kingdom, was one of two great realms of the Númenóreans, together with Gondor to the South. Its eventual destruction in the early Third Age has left this a barren, snowy region. 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Snow Troll 
 Valueline4= Region: Arnor
 
@@ -86625,10 +86649,48 @@ Value=Arthobel*
 
 
 [Map:MAPMParthobel/Desc]
-Value=Weathered mountain trails lead through the ruins of this forgotten Númenorian landmark, beyond the mountainous hills that border Lake Evendim. 
-Valueline2= Capturable: Signal Fire, Outpost 
+Value=Weathered mountain trails lead through the ruins of this forgotten Númenórean landmark, beyond the mountainous hills that border Lake Evendim. 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Barrow Wight, Warg 
 Valueline4= Region: Arnor
+
+
+
+
+[Map:MAPMPayanathiri]
+Value=Aya Nathiri*
+
+
+[Map:MAPMPayanathiri/Desc]
+Value=The dense jungles surrounding the Nâfarat River are home to many warring tribes, the greatest of which inhabits the territory of Aya Nathiri, the chiefdom of Caran Lambar. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Karadd 
+Valueline4= Region: Haradwaith
+
+
+
+[Map:MAPMPbakhalforest]
+Value=Bakhâl Forest*
+
+
+[Map:MAPMPbakhalforest/Desc]
+Value=The 'Strong-wood' in the native tongue of Rhûn borders the inland Sea of Rhûn; its tall conifers towering above the old forest growth, amid the shores of wide, gentle lakes. 
+Valueline2= Creeps: Warg 
+Valueline3= Region: Rhûn
+
+
+
+
+[Map:MAPMPbarhurin]
+Value=Bâr Húrin*
+
+
+[Map:MAPMPbarhurin/Desc]
+Value=The remains of the settlement of Bâr Húrin can be found within the area of South Ithilien in Eastern Gondor, near to Emyn Arnen. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Hill Troll, Goblin 
+Valueline4= Region: Gondor
+
 
 
 
@@ -86641,6 +86703,19 @@ Value=Ancient burial grounds of Arnor lie southwest of Bree. After the fall of R
 Valueline2= Capturable: Inn 
 Valueline3= Creeps: Barrow Wight 
 Valueline4= Region: Arnor
+
+
+
+
+[Map:MAPMPbelegaerabyss]
+Value=Belegaer Abyss*
+
+
+[Map:MAPMPbelegaerabyss/Desc]
+Value=Deep beneath the waves of Belegaer, the Great Sea, remnants of past civilisations remain forever lost to the watery abyss and the passing of the ages. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Barrow Wight 
+Valueline4= Region: Lindon
 
 
 
@@ -89456,6 +89531,50 @@ Valueline4= Region: Rhovanion
 
 
 
+[LW:DisplayNameAnnuminas]
+Value=Annúminas
+
+
+[Map:MAPWORAnnuminas/Desc]
+Value=On the southern shores of Lake Evendim stand the fair ruins of Annúminas, once seat of the Kings of Arnor. The surrounding foothills are inhabited by the Dúnedain, led by Halbarad their captain. 
+Valueline2= Subregion: Arthedain (+5 PP, +5% Def) 
+Valueline3= Region: Arnor (50% Hero Discount)
+
+
+
+
+
+
+
+
+[LW:DisplayNameBarrowDowns]
+Value=Barrow Downs
+
+
+[Map:MAPWORBarrowDowns/Desc]
+Value=Ancient burial grounds of Arnor lie southwest of Bree. After the fall of Rhudaur the Witch-king sent barrow-wights to haunt the hills.
+Valueline2= Subregion: Bree-land (+10% Def) 
+Valueline3= Region: Arnor (50% Hero Discount)
+
+
+
+
+
+
+
+
+[LW:DisplayNameAnorien]
+Value=Anórien
+
+
+[Map:MAPWORAnorien/Desc]
+Value=This northwestern fiefdom of Gondor forms the border between Gondor and Rohan, north of the White Mountains. 
+Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
 
 
 
@@ -89464,8 +89583,8 @@ Valueline4= Region: Rhovanion
 Value=Andrast
 
 
-[Map:MAPWORandrast/Desc]
-Value=Andrast was a long cape in the south-west of Gondor, between the Bay of Belfalas and the Great Sea, populated by scattered settlements.
+[Map:MAPWORAndrast/Desc]
+Value=Andrast is a long cape in the south-west of Gondor, between the Bay of Belfalas and the Great Sea, populated by scattered settlements. 
 
 
 
@@ -89475,6 +89594,22 @@ Value=Anfalas
 
 [Map:MAPWORanfalas/Desc]
 Value=The western coastal region of Gondor south of Pinnath Gelin. During the War of the Ring, Lord Golasgil led a force from Anfalas to the Battle of the Pelennor Fields.
+
+
+
+
+[LW:DisplayNameBelfalas]
+Value=Belfalas
+
+
+[Map:MAPWORBelfalas/Desc]
+Value=This coastal region in southern Gondor stretches from the mouth of the Anduin to Dol Amroth, forming a large peninsula that juts out into the Bay of Belfalas. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
 
 
 
@@ -89640,6 +89775,16 @@ Value=Dead Marshes
 
 [Map:MAPWORdeadmarshes/Desc]
 Value=Reeking wetlands and endless mires lie northwest of the Dagorlad. In the dark waters could be seen the dead from battles of long past.
+
+
+
+
+[LW:DisplayNameAmonHen]
+Value=Amon Hen
+
+
+[Map:MAPWORAmonHen/Desc]
+Value=The Hill of Sight, Amon Hen, lies on the western bank of Nen Hithoel. The remnants of an ancient path winds through the surrounding woodland to the Seat of Seeing at its summit. 
 
 
 
@@ -89838,8 +89983,8 @@ Value=A hill west of Minas Tirith, near to the Paths of the Dead, where in ages 
 Value=Ered Lithui
 
 
-[Map:MAPWOREredlithui/Desc]
-Value=A great ashy plain that lies to the north-east of Barad-dûr in Mordor.
+[Map:MAPWORAnnuminas]
+Value=Annúminas
 
 
 
@@ -89852,6 +89997,8 @@ Value=Eregion
 Value=During the Second Age, Celebrimbor and the Noldorin were enticed by Annatar, the "Lord of Gifts," to create the Rings of Power. Later revealed as the Dark Lord Sauron, the Three were taken into hiding, Celebrimbor slain, and Eregion left in ruin.
 
 
+[Map:MAPWORBarrowDowns]
+Value=Barrow Downs
 
 [LW:DisplayNameEsgaroth]
 Value=Esgaroth
@@ -89998,6 +90145,8 @@ Value=Gladden Fields
 Value=This marshland along the Anduin was the location where High King Isildur was slain by a party of Orcs and the One Ring was lost for centuries.
 
 
+[Map:MAPWORAnorien]
+Value=Anórien
 
 
 
@@ -90029,7 +90178,13 @@ Value=A hallowed mountain that stands over the border of Rohan and Anorien. It i
 
 
 
+[Map:MAPWORAndrast]
+Value=Andrast
 
+
+
+[Map:MAPWORBelfalas]
+Value=Belfalas
 
 [LW:DisplayNameHarlindon]
 Value=Harlindon
@@ -90245,8 +90400,8 @@ Value=The northern lands of Gondor, where Faramir first encountered Frodo and Sa
 Value=Northern Mirkwood
 
 
-[MAP:mapworNorthernMirkwood/Desc]
-Value=When the Old Forest Road became unusable, a second path through the Mirkwood was made to the north. Between the two paths lies the Mountains of Mirkwood. The Forest River cuts through the forest's northern end from its source in the western Grey Mountains, joined in the centre by the Enchanted River.
+[Map:MAPWORAmonHen]
+Value=Amon Hen
 
 
 
