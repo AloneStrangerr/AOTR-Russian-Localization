@@ -83827,31 +83827,33 @@ Value=Tribal Camp
 Value=Southron Sentry
 
 [CONTROLBAR:TooltipHaradSentry]
-Value=Summons a Sentry Tower, providing strong line of sight 
-Valueline2= 
-Valueline3= Left click icon then left click on target area
+Value=Summons a Sentry Tower, providing strong line of sight and detecting stealth 
+Valueline2= Limited to 4 
+Valueline3= 
+Valueline4= Left click icon then left click on target area
 
 [CONTROLBAR:ForthMenDarkness]
 Value=Forth, Men of Darkness
 
 [CONTROLBAR:TooltipForthMenDarkness]
-Value=Summons two battalions of heavy-armored Easterling Phalanx led by a Khân of Rhûn 
-Valueline2= 
+Value=Summons two battalions of heavy-armoured Great Khân's Phalanx led by a Great Khân's Acolyte
+Valueline2=
 Valueline3= Left click icon then left click on target area
 
 [CONTROLBAR:CurseWindDemon]
 Value=Curse of the Wind Demon
 
 [CONTROLBAR:TooltipCurseWindDemon]
-Value=All units within the radius are scattered and stunned for a short while and suffer damage 
+Value=All units within the radius are scattered and suffer damage 
 Valueline2= 
-Valueline3= Left click icon then left click on target area - DAMAGE NOT IN YET
+Valueline3= Left click icon then left click on target area
 
 [CONTROLBAR:ThreatofMordor]
 Value=March to War
 
 [CONTROLBAR:TooltipThreatofMordor]
-Value=STILL A PLACEHOLDER - SPEEDS UP RECRUITMENT, DOESN'T REDUCE COST. SHOULD IT?
+Value=For 60 seconds, all Haradwaith units gain +15% damage and armour and are immune to debuffs 
+Valueline2= Left click to activate
 
 [CONTROLBAR:TribesofHarad]
 Value=Tribes of Harad
@@ -83869,16 +83871,19 @@ Value=Khandish Charioteers
 
 [CONTROLBAR:TooltipKhandishCharioteers]
 Value=Summons three Khandish Chariots
+Valueline2=
+Valueline3= Left click icon then left click on target area
 
 [CONTROLBAR:UnrelentingSun]
 Value=Unrelenting Sun
 
 [CONTROLBAR:TooltipUnrelentingSun]
-Value=Modifier Type: Spell 
-Valueline2= Enemy units across the map are slowed by -33% and take damage over time - DAMAGE NOT IN YET 
+Value=Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness
+Valueline2= Enemy units across the map are slowed by -33% and take damage over time for 15 seconds
 Valueline3= Modifier Type: Buff 
-Valueline4= Haradwaith units gain +33% movement speed 
-Valueline5= Left click to activate
+Valueline4= Haradwaith units gain +20% movement speed for 15 seconds
+Valueline5=
+Valueline6=Left click to activate
 
 [OBJECT:HaradOasis]
 Value=Oasis
@@ -83888,9 +83893,10 @@ Value=Oasis
 
 [CONTROLBAR:TooltipHaradOasis]
 Value=Summons a palm tree surrounded by a natural moat of clear water 
-Valueline2= Nearby units are passively healed and can be fortified by the Oasis' cleansing waters 
-Valueline3= 
-Valueline4= Left click icon then left click on target area
+Valueline2= Nearby units are passively healed and can be fortified by the Oasis' cleansing waters
+Valueline3= Limited to 2 
+Valueline4= 
+Valueline5= Left click icon then left click on target area
 
 
 [CONTROLBAR:CleansingWaters]
@@ -83910,11 +83916,11 @@ Value=Calls a fiery beam of sunlight to scorch the
 Valueline2=battlefield. Stuns light-sensitive creatures. 
 Valueline3= Left click icon then left click on target area
 
-[CONTROLBAR:Aicanaroc]
-Value=Aicanaroc
+[CONTROLBAR:BlackMatriarch]
+Value=The Black Matriarch
 
-[CONTROLBAR:TooltipAicanaroc]
-Value=Summons a giant, mythical bird of prey. The Aicanaroc is immune to fire damage 
+[CONTROLBAR:TooltipBlackMatriarch]
+Value=Summons the Black Matriarch, an ancient, towering Mûmak, black of skin with fiery red eyes. A heavily armoured, nigh unstoppable beast of destruction 
 Valueline2= 
 Valueline3= Left click icon then left click on target area
 
@@ -83925,12 +83931,12 @@ Value=Zigûr
 Value=Revive the fallen Hero, Zigûr
 
 [CONTROLBAR:HaradZigurHotkey]
-Value=Zigûr (&G)
+Value=Zigûr (&A)
 
 [CONTROLBAR:HaradZigurRecruit]
 Value=Use the One Ring to summon the High Priest of Melkor. 
 Valueline2= 
-Valueline3= Zigûr is one Sauron's many guises. Presenting himself as the High Priest of Melkor, the Great One that can provide salvation in exchange for veneration, he has corrupted the hearts of many of the Haradrim tribes.
+Valueline3= Zigûr is one of Sauron's many guises. Presenting himself as the High Priest of Melkor, the Great One that can provide salvation in exchange for veneration, he has corrupted the hearts of many of the Haradrim tribes.
 
 [OBJECT:HaradSuladan]
 Value=Sûladan
@@ -83956,6 +83962,14 @@ Value=Syâr-Rhul
 [OBJECT:HaradGoldenKing]
 Value=The Golden King
 
+[OBJECT:HaradHoarmurath]
+Value=Hoarmûrath, Third of the Nine
+
+[CONTROLBAR:ToolTipBuildSuladan]
+Value=Recruit the Serpent Lord
+
+[CONTROLBAR:HaradSuladanRecruit]
+Value=Recruit the Serpent Lord 
 Valueline2= 
 Valueline3= A powerful warlord from the wartorn lands of Harondor, Sûladan has won renown throughout his many skirmishes with the Gondorian oppressors, clearing them out of Harondor to claim it for his own people.
 
@@ -83965,6 +83979,20 @@ Value=Revive the fallen Hero, Sûladan
 [CONTROLBAR:HaradSuladanHotkey]
 Value=Sûladan (&R)
 
+[CONTROLBAR:LW_Hero_Suladan]
+Value=Sûladan
+
+[CONTROLBAR:LW_ToolTipBuild_Suladan]
+Value=Unit Type: Hero Army Leader
+Valueline2=
+
+[CONTROLBAR:ToolTipBuildCassimir]
+Value=Recruit the leader of the Black Númenóreans of Umbar
+
+[CONTROLBAR:HaradCassimirRecruit]
+Value=Recruit the leader of the Black Númenóreans of Umbar 
+Valueline2= 
+Valueline3= One of the two rivaling sons of Kathuphazgân, the last Black Lord of Umbar. Câssimir is a harsh, cruel man that commands the loyalty of the Black Númenórean nobility that still live in Umbar.
 
 [CONTROLBAR:HaradCassimirRevive]
 Value=Revive the fallen Hero, Câssimir
@@ -83975,12 +84003,38 @@ Value=Câssimir (&S)
 [CONTROLBAR:LW_Hero_Cassimir]
 Value=Câssimir
 
+[CONTROLBAR:LW_ToolTipBuild_Cassimir]
+Value=Unit Type: Hero Army Leader
+Valueline2=
+
+[CONTROLBAR:ToolTipBuildBurodapan]
+Value=Recruit the Corsair-lord of Umbar
+
+[CONTROLBAR:HaradBurodapanRecruit]
+Value=Recruit the Corsair-lord of Umbar 
+Valueline2= 
+Valueline3= One of the two rivaling sons of Kathuphazgân, the last Black Lord of Umbar. Burôdapân is a fierce corsair-lord, demanding tribute and taxes from a vast majority of Umbar's raiding fleet.
+
 [CONTROLBAR:HaradBurodapanRevive]
 Value=Revive the fallen Hero, Burôdapân
 
 [CONTROLBAR:HaradBurodapanHotkey]
 Value=Burôdapân (&T)
 
+[CONTROLBAR:LW_Hero_Burodapan]
+Value=Burôdapân
+
+[CONTROLBAR:LW_ToolTipBuild_Burodapan]
+Value=Unit Type: Hero Army Leader
+Valueline2=
+
+[CONTROLBAR:ToolTipBuildBeruthiel]
+Value=Recruit the Black Queen of Umbar
+
+[CONTROLBAR:HaradBeruthielRecruit]
+Value=Recruit the Black Queen of Umbar 
+Valueline2= 
+Valueline3= Concubine to both Câssimir and Burôdapân, the Black Queen stole her name from an ancient Black Númenórean Queen. Berúthiel's spies are many, and her influence runs deep.
 
 [CONTROLBAR:HaradBeruthielRevive]
 Value=Revive the fallen Hero, Berúthiel
@@ -83988,6 +84042,20 @@ Value=Revive the fallen Hero, Berúthiel
 [CONTROLBAR:HaradBeruthielHotkey]
 Value=Berúthiel (&W)
 
+[CONTROLBAR:LW_Hero_Beruthiel]
+Value=Berúthiel
+
+[CONTROLBAR:LW_ToolTipBuild_Beruthiel]
+Value=Unit Type: Hero
+Valueline2=
+
+[CONTROLBAR:ToolTipBuildCaranLambar]
+Value=Recruit the Chieftain of the Nâfarati
+
+[CONTROLBAR:HaradCaranLambarRecruit]
+Value=Recruit the Chieftain of the Nâfarati 
+Valueline2= 
+Valueline3= Once a respected chief of a prominent Nâfarati tribe, Caran-Lambar was ensnared by the Golden King, and through dark magic has been transformed into a brutal champion to his cause.
 
 [CONTROLBAR:HaradCaranLambarRevive]
 Value=Revive the fallen Hero, Caran-Lambar
@@ -83995,6 +84063,19 @@ Value=Revive the fallen Hero, Caran-Lambar
 [CONTROLBAR:HaradCaranLambarHotkey]
 Value=Caran-Lambar (&D)
 
+[CONTROLBAR:LW_Hero_CaranLambar]
+Value=Caran-Lambar
+
+[CONTROLBAR:LW_ToolTipBuild_CaranLambar]
+Value=Unit Type: Hero
+Valueline2=
+
+[CONTROLBAR:ToolTipBuildSyarRhul]
+Value=Recruit the Black Vizier
+
+[CONTROLBAR:HaradSyarRhulRecruit]
+Value=Recruit the Black Vizier 
+Valueline2= 
 Valueline3= The chief advisor to the Golden King in all matters, but particularly those related to the subjugation of the Haradrim and their enslavement to Sauron's will.
 
 [CONTROLBAR:HaradSyarRhulRevive]
@@ -84003,7 +84084,33 @@ Value=Revive the fallen Hero, Syâr-Rhul
 [CONTROLBAR:HaradSyarRhulHotkey]
 Value=Syâr-Rhul (&E)
 
+[CONTROLBAR:LW_Hero_SyarRhul]
+Value=Syâr-Rhul
 
+[CONTROLBAR:LW_ToolTipBuild_SyarRhul]
+Value=Unit Type: Hero
+Valueline2=
+
+[CONTROLBAR:ToolTipBuildGoldenKing]
+Value=Recruit the mysterious Sorcerer-king
+
+[CONTROLBAR:HaradGoldenKingRecruit]
+Value=Recruit the mysterious Sorcerer-king 
+Valueline2= 
+Valueline3= The ancient, immensely cruel king of legendary Abrakhân. Recently returned, he has rebuilt his former might and seeks to subjugate all of Haradwaith beneath his black banner.
+
+[CONTROLBAR:HaradGoldenKingRevive]
+Value=Revive the fallen Hero, the Golden King of Abrakhân
+
+[CONTROLBAR:HaradGoldenKingHotkey]
+Value=The Golden King of Abrakhân (&F)
+
+[CONTROLBAR:LW_Hero_GoldenKing]
+Value=The Golden King of Abrakhân
+
+[CONTROLBAR:LW_ToolTipBuild_GoldenKing]
+Value=Unit Type: Hero Army Leader
+Valueline2=
 
 
 
@@ -84011,8 +84118,10 @@ Value=Syâr-Rhul (&E)
 Value=Monstrous Shadow
 
 [CONTROLBAR:ToolTipMonstrousShadow]
-Value=Modifier Type: Leadership 
-Valueline2= Haradrim beneath the shadow of the Aicanaroc get SOME SORT OF BONUS - USES PLACEHOLDER ATTRIBUTE MODIFIER AND RANGE 
+Value=Modifier Type: Spell 
+Valueline2= Nearby friendly units gain +300% armour against magic and elemental damage
+Valueline3=Passive ability
+
 Valueline3=Passive ability
 
 [CONTROLBAR:HighPriest]
