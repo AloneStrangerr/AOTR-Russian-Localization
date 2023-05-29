@@ -84122,33 +84122,48 @@ Value=Modifier Type: Spell
 Valueline2= Nearby friendly units gain +300% armour against magic and elemental damage
 Valueline3=Passive ability
 
+[CONTROLBAR:GlisteningDown]
+Value=Glistening Down
+
+[CONTROLBAR:ToolTipGlisteningDown]
+Value=The Aicanaroc periodically drops glistening feathers
+Valueline2=Haradwaith units can pick up these feathers to permanently gain +25% health and resistance to fear and terror
 Valueline3=Passive ability
 
+[CONTROLBAR:SpecialAbilityAicanarocStun]
+Value=Astonishing Plumage (&T)
+
+[CONTROLBAR:ToolTipSpecialAbilityAicanarocStun]
+Value=Pins enemy hero in place for a short time
+Valueline2=Left click icon then left click on target
+
 [CONTROLBAR:HighPriest]
-Value=High Priest of Morgoth
+Value=High Priest of Melkor
 
 [CONTROLBAR:ToolTipHighPriest]
 Value=Modifier Type: Nullifier 
-Valueline2= Nearby enemy units lose -50% armour and -15% movement speed 
-Valueline3=Passive ability
+Valueline2= Nearby enemy units lose -50% armour, -15% movement speed
+Valueline3= and take damage over time
+Valueline4=Passive ability
 
 [CONTROLBAR:SacrificialRites]
-Value=Sacrificial &Rites
+Value=Sacrificial Rites (&R)
 
 [CONTROLBAR:ToolTipSacrificialRites]
-Value=Enemy units within the radius take damage
-Valueline2=If a unit dies, Zigur receives +5% armour and damage for a limited time
-Valueline3=Left click icon then left click on target area
+Value=Enemy units within the radius take damage over time for 30 seconds
+Valueline2=If a unit dies, Zigûr receives +5% armour and damage for 8 seconds
+Valueline3=Stacks up to 25% armour and damage
+Valueline4=Left click icon then left click on target area
 
 [CONTROLBAR:FellWhispers]
-Value=Fe&ll Whispers
+Value=Fell Whispers (&T)
 
 [CONTROLBAR:ToolTipFellWhispers]
-Value=Causes targeted units to become hostile towards each other 
+Value=Causes targeted units and monsters to become hostile towards each other for 45 seconds
 Valueline2= Left click icon then left click on target area
 
 [CONTROLBAR:DreadTyrant]
-Value=Dread &Tyrant
+Value=Dread Tyrant (&C)
 
 [CONTROLBAR:ToolTipDreadTyrant]
 Value=Cancels all leadership effects across the map for 30 seconds
@@ -84156,11 +84171,11 @@ Valueline2= Nearby allied and enemy units are frozen in fear for 5 seconds
 Valueline3=Left click to activate
 
 [CONTROLBAR:FirePillar]
-Value=Pillar of Fla&mes
+Value=Pillar of Flames (&V)
 
 [CONTROLBAR:TooltipFirePillar]
-Value=Targeted enemy units burst into flames 
-Valueline2= Sets fire to surrounding terrain
+Value=Summons a controllable Fire Whirlwind 
+Valueline2= The Whirlwind sucks in units and sets fire to surrounding terrain
 Valueline3= Left click icon then left click on target area
 
 [OBJECT:FirePillarObject]
@@ -84171,73 +84186,108 @@ Value=Lord of Waves
 
 [CONTROLBAR:ToolTipLordofWaves]
 Value=Modifier Type: Leadership 
-Valueline2= Nearby Corsairs gain +15% armour and Damage and +50% Experience
-Valueline3= At level 5, Burôdapân and nearby Corsairs earn resources per kill 
-Valueline4= Passive ability
+Valueline2= Nearby Corsairs gain +33% armour and damage and +50% experience
+Valueline3=At level 5, Burôdapân and nearby Corsairs earn resources per kill
+Valueline4=Passive ability
 
 [CONTROLBAR:TakeAllYouCan]
 Value=Take All You Can (&R)
 
 [CONTROLBAR:ToolTipDominateBurod]
 Value=Requires Level 3 
-Valueline2= Permanently gain control of targeted enemies 
-Valueline3= Left click icon then left click on target enemies
+Valueline2= Takes control of single enemy battalion for 30 seconds
+Valueline3= Cannot be used on heroic units 
+Valueline4= Left click icon then left click on target enemies
 
 [CONTROLBAR:SpecialAbilityGiveNothingBack]
 Value=Give Nothing Back (&T)
 
 [CONTROLBAR:ToolTipSpecialAbilityGiveNothingBack]
 Value=Requires Level 6
-Valueline2=Set fire to selected area, dealing heavy damage to enemy units and structures 
+Valueline2=Set fire to selected area, dealing heavy damage to units and structures 
 Valueline3= Left click icon then left click on target area
 
 [CONTROLBAR:HornofKarna]
-Value=Horn of Kârna (&C)
+Value=Horn of Kârna (&V)
 
 [CONTROLBAR:ToolTipHornofKarnaSummon]
-Value=Requires Level 8
-Valueline2=Burôdapân summons the Horn of Kârna. When sounded, the Horn stuns enemy units and invokes the Fury of the Deep, which does a thing 
-Valueline3= Left click icon then left click on target area
+Value=Requires Level 10
+Valueline2=Burôdapân summons the Horn of Kârna
+Valueline3=When sounded, the Horn invokes the Fury of the Deep, which causes nearby units to fight amongst themselves for 30 seconds
+Valueline4=Horn of Kârna is limited to 1
+Valueline5=Left click icon then left click on target area
 
 [OBJECT:HornofKarna]
 Value=Horn of Kârna
 
 [OBJECT:HornofKarnaDescription]
-Value=When sounded, the Horn stuns enemy units and invokes the Fury of the Deep, which does a thing
+Value=When sounded, the Horn invokes the Fury of the Deep, which causes nearby units to fight amongst themselves
+Valueline2=Limited to 1
 
 [CONTROLBAR:SoundHornofKarna]
 Value=Sound the Horn of Kârna (&W)
 
 [CONTROLBAR:TooltipSoundHornofKarna]
-Value=
-Valueline2=When sounded, the Horn stuns enemy units and invokes the Fury of the Deep, which does a thing 
+Value=When sounded, the Horn invokes the Fury of the Deep, which causes nearby units to fight amongst themselves for 30 seconds
+Valueline2= Affects both enemy and allied units
 Valueline3= Left click, then left click on target area
 
+[CONTROLBAR:SoundHornofKarnaShip]
+Value=Sound the Horn of Kârna (&T)
+
+[CONTROLBAR:TooltipSoundHornofKarnaShip]
+Value=When sounded, the Horn invokes the Fury of the Deep
+Valueline2= Affects both enemy and allied ships
+Valueline3= Left click, then left click on target ships
+
+[OBJECT:KarnaMonster]
+Value=Fury of the Deep
+
+[CONTROLBAR:WateryGraves]
+Value=Watery Graves (&C)
+
+[CONTROLBAR:ToolTipWateryGraves]
+Value=Requires Level 8
+Valueline2=Deals significant damage over time to structures for 15 seconds 
+Valueline3= Can be cast from a large distance 
+Valueline4= Left click icon then left click on target
+
 [CONTROLBAR:LordofStones]
-Value=Lord of Stones
+Value=Lord of Stones (&W)
 
 [CONTROLBAR:ToolTipLordofStones]
-Value=Modifier Type: Leadership 
-Valueline2= Nearby Black Númenórean units gain +15% armour and Damage and +50% Experience
+Value=Modifier Type: Leadership
+Valueline2=Nearby Black Númenórean units gain +33% armour and damage and +50% experience
+Valueline3=Passive ability
+Valueline4=
+Valueline5= Requires Level 8
+Valueline6=Modifier Type: Spell
+Valueline7= All nearby friendly units +50% armour for 30 seconds
+Valueline8=Left click to activate
 
 [CONTROLBAR:RuleoftheKingsMen]
 Value=Rule of the King's Men (&T)
 
 [CONTROLBAR:TooltipRuleoftheKingsMen]
-Value=Requires Level 3 
-Valueline2= Câssimir plants a banner of DICK. 
-Valueline3= Nearby units temporarily gain a +x% damage and will replenish fallen units in their battalion, but will suffer -X% Armour 
-Valueline4= Left click to activate
+Value=Requires Level 3
+Valueline2=Câssimir plants the Banner of the King's Men
+Valueline3=Nearby units gain resistance to fear, terror and knockback
+Valueline4= Nearby battalions will replenish fallen units
+Valueline5=Banner lasts for 60 seconds
+Valueline6=Left click to activate
 
 [OBJECT:CassmirsBanner]
-Value=Banner of DICK
+Value=Banner of the King's Men
+
+[OBJECT:SuladanBanner]
+Value=Banner of the Black Serpent
 
 [CONTROLBAR:ColdJudgement]
 Value=Cold Judgement (&C)
 
 [CONTROLBAR:ToolTipColdJudgement]
-Value=Requires Level 8 
-Valueline2= Enemy units within the radius are stunned and have -33% armour for 10 seconds
+Value=Requires Level 5 
+Valueline2= Enemy units within the radius are stunned for 5 seconds and have -33% armour for 10 seconds
 Valueline3= Left click icon then left click on target
 
 [CONTROLBAR:HewerofRanks]
@@ -84245,21 +84295,24 @@ Value=Hewer of Ranks (&V)
 
 [CONTROLBAR:ToolTipHewerofRanks]
 Value=Required: Rank 10 
-Valueline2= Câssimir knocks down and pins target hero 
+Valueline2= Câssimir knocks down and pins target hero for 15 seconds
 Valueline3= Normal units are knocked down and damaged 
-Valueline4= Subsequently, Câssimir's attack and armor are increased by 50% for a short time 
+Valueline4= Subsequently, Câssimir's damage and armour are increased by 50% for 30 seconds
 Valueline5= left click then click on target
 
 [CONTROLBAR:SouthronConquest]
-Value=Southron Conquest (&C)
+Value=Lands Retaken (&C)
 
 [CONTROLBAR:ToolTipSouthronConquest]
 Value=Requires Level 5
-Valueline2=Disables enemy structures and deals damage over time
-Valueline3= Left click icon then left click on target
+Valueline2=Summons the Banner of the Black Serpent, defended by various single Harondor infantry
+Valueline3=Nearby enemy structures lose -33% armour
+Valueline4=Nearby enemy farms produce fewer resources
+Valueline5=Banner lasts for 90 seconds
+Valueline6=Left click then left click target area
 
 [CONTROLBAR:BladeoftheSerpentLord]
-Value=Blade of the Serpent Lord (&T)
+Value=Serpent Lord's Gaze
 
 [CONTROLBAR:ToolTipBladeoftheSerpentLord]
 Value=Requires Level 3
@@ -84279,9 +84332,9 @@ Value=Onslaught (&V)
 Value=Requires Level 8 
 Valueline2= Requires Sûladan to be mounted 
 Valueline3= Modifier Type: Spell 
-Valueline4= Sûladan and nearby cavalry gain +50% armour and -100% trample deceleration 
-Valueline5= Stacks with Leadership and Spells 
-Valueline6= Left click to activate
+Valueline4= Sûladan and nearby cavalry gain +50% armour and -100% trample deceleration for 20 seconds
+Valueline5=Left click to activate
+
 
 [CONTROLBAR:BeruthielCat]
 Value=Eyes and Ears (&W)
