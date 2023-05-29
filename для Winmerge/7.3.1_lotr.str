@@ -84335,38 +84335,70 @@ Valueline3= Modifier Type: Spell
 Valueline4= Sûladan and nearby cavalry gain +50% armour and -100% trample deceleration for 20 seconds
 Valueline5=Left click to activate
 
+[CONTROLBAR:SpecialPowerRiseToPower]
+Value=Rise To Power (&W)
+
+[CONTROLBAR:ToolTipSpecialPowerRiseToPower]
+Value=Berúthiel manipulates her way into the higher echelons of Black Númenórean society 
+Valueline2= Allows Berúthiel to rank up.
+Valueline3= Becomes more expensive the higher Berúthiel ranks up 
+Valueline4= Left click to purchase upgrade
+
+
+[CONTROLBAR:SpecialPowerRiseToPowerFinal]
+Value=Rise to Power
+
+
+[CONTROLBAR:ToolTipSpecialPowerRiseToPowerFinal]
+Value=Queen Berúthiel has manipulated her way to the upper echelons of Black Númenórean society 
+Valueline2= Berúthiel can not be ranked up any further 
+Valueline3= Passive ability
+
 
 [CONTROLBAR:BeruthielCat]
-Value=Eyes and Ears (&W)
+Value=Eyes and Ears (&R)
 
 [CONTROLBAR:ToolTipBeruthielCat]
 Value=The Black Queen summons one of her cats to spy upon the enemy
-Valueline2=Left click to activate
+Valueline2= Limited to 3 
+Valueline3= Left click to activate
+
 
 [CONTROLBAR:Disdain]
-Value=Disdain
+Value=Disdain (&T)
 
 [CONTROLBAR:ToolTipDisdain]
-Value=Requires Level 3 
-Valueline2= Modifier Type: Debuff 
-Valueline3= Enemy units near the Black Queen are unable to gain experience 
-Valueline4= Passive ability
+Value=Requires Level 3
+Valueline2=Modifier Type: Active Debuff
+Valueline3=Targeted enemy units suffer -25% damage and cannot gain experience for 30 seconds
+Valueline4=Left click icon then left click on target units
+
 
 [CONTROLBAR:FeignedHysteria]
-Value=Feigned Hysteria (&T)
+Value=Feigned Hysteria (&C)
 
 [CONTROLBAR:ToolTipFeignedHysteria]
-Value=Requires Level 5 
+Value=Requires Level 6 
 Valueline2= Modifier Type: Debuff 
-Valueline3= Nearby enemy units temporarily lose all leadership and -25% armour. Berúthiel becomes invisible, allowing her to escape
+Valueline3= Nearby enemy units lose all leadership and -25% armour for 30 seconds
+Valueline4=Berúthiel becomes invisible for 30 seconds, allowing her to escape
+Valueline5=Left click to activate
 
 [CONTROLBAR:BeruthielEscort]
-Value=Queen's Escort (&C)
+Value=Queen's Escort (&V)
 
 [CONTROLBAR:ToolTipBeruthielEscort]
-Value=Requires Level 8 
-Valueline2= The Black Queen summons two fully armed battalions of Black Númenórean Warriors
-Valueline3=Left click to activate
+Value=Requires Level 10 
+Valueline2= The Black Queen summons a fully armed battalion of Wardens of Umbar 
+Valueline3=Left click icon then left click on target area
+
+[CONTROLBAR:AlleyCatScratch]
+Value=Alley Cat Scratch
+
+[CONTROLBAR:ToolTipAlleyCatScratch]
+Value=Attacking an enemy unit causes the cat to leap at them and inflict area-effect damage. 
+Valueline2=Attacking causes the cat to be removed from play 
+Valueline3=Passive ability
 
 [CONTROLBAR:MadChieftain]
 Value=Mad Chieftain
@@ -86900,7 +86932,7 @@ Value=Berennyn
 
 [Map:MAPMPberennyn/Desc]
 Value=Part of the Old Brown Lands, this area was once home of the Entwives until they were driven away when Sauron desolated the land in defence of Mordor, during the War of the Last Alliance. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Goblin, Barrow Wight 
 Valueline4= Region: Rhovanion
 
@@ -86913,8 +86945,22 @@ Value=Besiege: Dol Guldur*
 [Map:MAPMPbesiegedolguldur/Desc]
 Value=A dark and tortured ruin on Amon Lanc, inhabited by a Necromancer whose influence causes sickness and death to fall over Greenwood. 
 Valueline2= Creeps: Spider 
-Valueline3= Hazards: Fog 
-Valueline4= Region: Rhovanion
+Valueline3= Region: Rhovanion
+
+
+
+
+[Map:MAPMPbesiegedurthang]
+Value=Besiege: Durthang*
+
+
+[Map:MAPMPbesiegedurthang/Desc]
+Value=Durthang stands upon the northern passes of Ephel Dúath near the Black Gate. Originally a Gondorian fortress, it is now one of several orc strongholds that guards Mordor's western flank. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Goblin 
+Valueline4= Region: Mordor
+
+
 
 
 
@@ -87904,7 +87950,19 @@ Value=Fortress: Dol Guldur*
 Value=A dark and tortured ruin on Amon Lanc, inhabited by a Necromancer whose influence causes sickness and death to fall over Greenwood. 
 Valueline2= Creeps: Spider 
 Valueline3= Hazards: Fog 
-Valueline4= Region: Rhovanion
+
+
+
+
+[Map:MAPMPfortressdurthang]
+Value=Fortress: Durthang*
+
+
+[Map:MAPMPfortressdurthang/Desc]
+Value=Durthang stands upon the northern passes of Ephel Dúath near the Black Gate. Originally a Gondorian fortress, it is now one of several orc strongholds that guards Mordor's western flank. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Goblin 
+Valueline4= Region: Mordor
 
 
 
@@ -89941,6 +89999,22 @@ Value=Reeking wetlands and endless mires lie northwest of the Dagorlad. In the d
 
 
 
+[LW:DisplayNameDurthang]
+Value=Durthang
+
+
+[Map:MAPWORDurthang/Desc]
+Value=Durthang stands upon the northern passes of Ephel Dúath, near the Black Gate. Originally a Gondorian fortress, it is now one of several orc strongholds that guards Mordor's flank. 
+Valueline2= Subregion: Ephel Dúath (+5 PP,+10% Atk) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
+
+
+
+
+
+
+
+
 [LW:DisplayNameAmonHen]
 Value=Amon Hen
 
@@ -90526,8 +90600,8 @@ Value=Greatest of all the mansions of the Dwarves was Khazad-dûm, the Dwarrowdel
 Value=Mouths of the Entwash
 
 
-[MAP:MAPWorMouthsoftheEntwash/Desc]
-Value=The Mouths of Entwash form a mighty delta where the River Entwash meets the Anduin. The delta measured a hundred miles from the splitting of the river to the marshy lands at its end.
+[Map:MAPWORDurthang]
+Value=Durthang
 
 
 
