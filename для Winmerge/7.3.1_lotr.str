@@ -86969,9 +86969,10 @@ Value=Besiege: Edoras*
 
 
 [Map:MAPMPbesiegeedoras/Desc]
-Value=Edoras is the capital of Rohan, built upon a great mound, and home to the Golden Hall of Meduseld. Outside the city, the tombs of past rulers of Rohan are arrayed in barrows, covered with flowering Simbelmyne. 
-Valueline2= Creeps: Cave Troll, Warg 
-Valueline3= Region: Rohan
+Value=Edoras is the capital of Rohan, encircled by walls and with the Golden Hall of Meduseld at the summit of its great mound. Outside the city, the tombs of past rulers of Rohan are arrayed in barrows, covered with flowering Simbelmyne. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Warg 
+Valueline4= Region: Rohan
 
 
 
@@ -86982,7 +86983,32 @@ Value=Besiege: Esgaroth*
 [Map:MAPMPbesiegeesgaroth/Desc]
 Value=Esgaroth, or Lake-town, lies south of Erebor and east of Mirkwood, built upon wooden stilts sunk deep into the Long Lake. Its hardy people have a long history of trade with the Woodland Realm, and the Kingdoms of Erebor and Dale. 
 Valueline2= Capturable: Signal Fire, Inn, Dock 
+Valueline3= Region: Erebor
+
+
+
+
+[Map:MAPMPbesiegegundabad]
+Value=Besiege: Gundabad*
+
+
+[Map:MAPMPbesiegegundabad/Desc]
+Value=Gundabad is a mountain in the northern reaches of the Misty Mountains, sacred to the Dwarves as the place of their ancestral awakening. It has long since been overrun by orcs of the Misty Mountains led by Bolg, to the everlasting hatred of Durin's Folk. 
+Valueline2= Creeps: Snow Troll, Mountain Giant 
+Valueline3= Region: Misty Mountains
+
+
+
+
+[Map:MAPMPbesiegehallsoftheelvenking]
+Value=Besiege: Halls of the Elvenking*
+
+
+[Map:MAPMPbesiegehallsoftheelvenking/Desc]
+Value=In Northern Mirkwood lie the Halls of the Elvenking, hidden stronghold of Thranduil and the elves of the Woodland Realm. Its many streams lead through cavernous halls carved into the living rock, out past the wine cellars, and eventually east towards the Long Lake. 
+Valueline2= Creeps: Spider 
 Valueline3= Region: Rhovanion
+
 
 
 
@@ -86994,6 +87020,19 @@ Value=Besiege: Helm's Deep*
 Value=This aged stronghold is the site of one of the key battles in the War of the Ring. No enemy has ever defeated the defenders of the walls of the fortress, or entered its keep, the Hornburg. 
 Valueline2= Capturable: Outpost 
 Valueline3= Region: Rohan
+
+
+
+[Map:MAPMPbesiegehidar]
+Value=Besiege: Hîdar*
+
+
+[Map:MAPMPbesiegehidar/Desc]
+Value=Built upon a desert oasis by Númenóreans long ago, the city of Hîdar has since changed hands many times. Many seek to claim it, for holding Hîdar means holding sway over all of Near Harad. 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Scorpion 
+Valueline4= Hazards: Dehydration 
+Valueline5= Region: Haradwaith
 
 
 
@@ -87035,8 +87074,8 @@ Value=Besiege: Minas Tirith*
 
 
 [Map:MAPMPbesiegeminastirith/Desc]
-Value=Minas Tirith is the chief city of Gondor, originally called Minas Anor. During the Third Age, it became the capital of the South-kingdom and the seat of its Kings and ruling Stewards. 
-Valueline2= Capturable: Signal Fire 
+Value=The White City of Minas Tirith sits on seven levels against Mount Mindolluin, and is ruled over by the Stewards of Gondor. 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Region: Gondor
 
 
@@ -87046,10 +87085,23 @@ Value=Besiege: Pelargir*
 
 
 [Map:MAPMPbesiegepelargir/Desc]
-Value=An ancient port city of Gondor that lies at the mouth of the rivers Anduin and Sirith. Frequent raids by Corsairs of Umbar have made it necessary for heavy fortifications to protect Gondor's maritime interests. 
-Valueline2= Capturable: Signal Fire, Outpost, Dock 
+Value=This ancient port city of Gondor lies at the mouth of the Anduin. Its heavy fortifications protect Gondor's maritime interests from frequent raids by the Corsairs of Umbar. 
+Valueline2= Capturable: Signal Fire, Outpost, Inn, Dock 
 Valueline3= Creeps: Warg, Goblin, Corsair 
 Valueline4= Region: Gondor
+
+
+
+
+[Map:MAPMPbesiegeumbar]
+Value=Besiege: Umbar*
+
+
+[Map:MAPMPbesiegeumbar/Desc]
+Value=Umbar lies to the distant south, where a great cape forms a natural harbour upon which the city was first built. Now, its Black Númenóreans descendants rule over a population of native people and corsairs, raiding Gondor's coastline until the past glory of Umbar may one day be reclaimed. 
+Valueline2= Capturable: Signal Fire, Outpost, Inn, Dock 
+Valueline3= Region: Haradwaith
+
 
 
 
@@ -87984,8 +88036,9 @@ Value=Fortress: Edoras*
 
 [Map:MAPMPfortressedoras/Desc]
 Value=Edoras is the capital of Rohan, encircled by walls and with the Golden Hall of Meduseld at the summit of its great mound. Outside the city, the tombs of past rulers of Rohan are arrayed in barrows, covered with flowering Simbelmyne. 
-Valueline2= Creeps: Cave Troll, Warg 
-Valueline3= Region: Rohan
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Warg 
+Valueline4= Region: Rohan
 
 
 
@@ -87996,7 +88049,7 @@ Value=Fortress: Esgaroth*
 [Map:MAPMPfortressesgaroth/Desc]
 Value=Esgaroth, or Lake-town, lies south of Erebor and east of Mirkwood, built upon wooden stilts sunk deep into the Long Lake. Its hardy people have a long history of trade with the Woodland Realm, and the Kingdoms of Erebor and Dale. 
 Valueline2= Capturable: Signal Fire, Inn, Dock 
-Valueline3= Region: Rhovanion
+Valueline3= Region: Erebor
 
 
 
@@ -88033,6 +88086,34 @@ Value=Fortress: Gundabad*
 Value=Gundabad is a mountain in the northern reaches of the Misty Mountains, sacred to the Dwarves as the place of their ancestral awakening. It has long since been overrun by orcs of the Misty Mountains led by Bolg, to the everlasting hatred of Durin's Folk. 
 Valueline2= Creeps: Snow Troll, Mountain Giant 
 Valueline3= Region: Misty Mountains
+
+
+
+
+
+[Map:MAPMPfortresshallsoftheelvenking]
+Value=Fortress: Halls of the Elvenking*
+
+
+[Map:MAPMPfortresshallsoftheelvenking/Desc]
+Value=In Northern Mirkwood lie the Halls of the Elvenking, hidden stronghold of Thranduil and the elves of the Woodland Realm. Its many streams lead through cavernous halls carved into the living rock, out past the wine cellars, and eventually east towards the Long Lake. 
+Valueline2= Creeps: Spider 
+Valueline3= Region: Rhovanion
+
+
+
+
+[Map:MAPMPfortresshidar]
+Value=Fortress: Hîdar*
+
+
+[Map:MAPMPfortresshidar/Desc]
+Value=Built upon a desert oasis by Númenóreans long ago, the city of Hîdar has since changed hands many times. Many seek to claim it, for holding Hîdar means holding sway over all of Near Harad. 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Scorpion 
+Valueline4= Hazards: Dehydration 
+Valueline5= Region: Haradwaith
+
 
 
 
@@ -88123,7 +88204,7 @@ Value=Fortress: Minas Tirith*
 
 [Map:MAPMPfortressminastirith/Desc]
 Value=The White City of Minas Tirith sits on seven levels against Mount Mindolluin, and is ruled over by the Stewards of Gondor. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Region: Gondor
 
 
@@ -88133,8 +88214,8 @@ Value=Fortress: Pelargir*
 
 
 [Map:MAPMPfortresspelargir/Desc]
-Value=An ancient port city of Gondor that lies at the mouth of the rivers Anduin and Sirith. Frequent raids by Corsairs of Umbar have made it necessary for heavy fortifications to protect Gondor's maritime interests. 
-Valueline2= Capturable: Signal Fire, Outpost, Dock 
+Value=This ancient port city of Gondor lies at the mouth of the Anduin. Its heavy fortifications protect Gondor's maritime interests from frequent raids by the Corsairs of Umbar. 
+Valueline2= Capturable: Signal Fire, Outpost, Inn, Dock 
 Valueline3= Creeps: Warg, Goblin, Corsair 
 Valueline4= Region: Gondor
 
@@ -88176,6 +88257,17 @@ Value=Many of Durin's Folk led by Thorin Oakenshield settled in the Blue Mountai
 Valueline2= Capturable: Outpost 
 Valueline3= Creeps: Cave Troll 
 Valueline4= Region: Lindon
+
+
+
+[Map:MAPMPfortressumbar]
+Value=Fortress: Umbar*
+
+
+[Map:MAPMPfortressumbar/Desc]
+Value=Umbar lies to the distant south, where a great cape forms a natural harbour upon which the city was first built. Now, its Black Númenóreans descendants rule over a population of native people and corsairs, raiding Gondor's coastline until the past glory of Umbar may one day be reclaimed. 
+Valueline2= Capturable: Signal Fire, Outpost, Inn, Dock 
+Valueline3= Region: Haradwaith
 
 
 
@@ -89779,6 +89871,26 @@ Valueline3= Region: Arnor (50% Hero Discount)
 
 
 
+[LW:DisplayNameEsgaroth]
+Value=Esgaroth
+
+
+[Map:MAPWOREsgaroth/Desc]
+Value=Esgaroth, or Lake-town, lies south of Erebor and east of Mirkwood, built upon wooden stilts sunk deep into the Long Lake. Its hardy people have a long history of trade with the Woodland Realm, Erebor and Dale. 
+Valueline2= Subregion: Kingdom of Erebor and Dale (+10% Res,+5 PP, +10% Def) 
+Valueline3= Region: Erebor (+5 PP,+5% Def,+200 Extra Starting Res)
+
+
+
+
+[LW:DisplayNameErebor]
+Value=Erebor
+
+
+[Map:MAPWORErebor/Desc]
+Value=The Lonely Mountain, or Erebor, is a mountain in the north-east of Rhovanion. It is the source of the river Running, and the greatest kingdom of Durin's Folk in the Third Age. 
+Valueline2= Subregion: Kingdom of Erebor and Dale (+10% Res,+5 PP, +10% Def) 
+Valueline3= Region: Erebor (+5 PP,+5% Def,+200 Extra Starting Res)
 
 
 
@@ -89792,6 +89904,21 @@ Value=This northwestern fiefdom of Gondor forms the border between Gondor and Ro
 Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
 Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
+
+
+
+
+
+
+
+[LW:DisplayNameMinasTirith]
+Value=Minas Tirith
+
+
+[Map:MAPWORMinasTirith/Desc]
+Value=The White City of Minas Tirith sits on seven levels against Mount Mindolluin, and is ruled over by the Stewards of Gondor. 
+Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
@@ -89833,6 +89960,22 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+
+[LW:DisplayNamePelargir]
+Value=Pelargir
+
+
+[Map:MAPWORPelargir/Desc]
+Value=This ancient port city of Gondor lies at the mouth of the Anduin. Its heavy fortifications protect Gondor's maritime interests from frequent raids by Corsairs. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
+
+
+
 [LW:DisplayNameAngmar]
 Value=Angmar
 
@@ -89842,8 +89985,32 @@ Value=This icy region and kingdom was founded during the Third Age in the far no
 
 
 
-[LW:DisplayNameAnorien]
-Value=Anórien
+
+[LW:DisplayNameHidar]
+Value=Hîdar
+
+
+[Map:MAPWORHidar/Desc]
+Value=Built upon a desert oasis by Númenóreans long ago, the city of Hîdar has since changed hands many times. Many seek to claim it, for holding Hîdar means holding sway over all of Near Harad. 
+Valueline2= Subregion: Mardrûak (+5% Atk,+5% Exp) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
+
+
+[LW:DisplayNameUmbar]
+Value=Umbar
+
+
+[Map:MAPWORUmbar/Desc]
+Value=A great cape forms the harbour where the city of Umbar was first built. Now, its Black Númenórean descendants rule the Havens, raiding Gondor's coastline until the glory of Umbar is reclaimed. 
+Valueline2= Subregion: Umbar (+10% Res,+5% Atk) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
 
 
 [Map:MAPWORanorien/Desc]
@@ -89937,6 +90104,22 @@ Value=Carn Dûm
 
 [Map:MAPWORcarndum/Desc]
 Value=Once great fortress of the Witch-king of Angmar, Carn Dûm is now a ruin overtaken by wilderness and inhabited only by scattered bands of goblins.
+
+
+
+
+[LW:DisplayNameMountGundabad]
+Value=Mount Gundabad
+
+
+[Map:MAPWORMountGundabad/Desc]
+Value=Gundabad lies in the northern Misty Mountains, sacred to the Dwarves as place of their ancestral awakening. It has long since been overrun by orcs to the everlasting hatred of Durin's Folk. 
+Valueline2= Subregion: Gundabad (+5 PP,+10% Atk)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
+
+
+
+
 
 
 
@@ -90055,6 +90238,22 @@ Value=A dark and tortured ruin on Amon Lanc, inhabited by a Necromancer whose in
 
 
 
+[LW:DisplayNameHallsElvenking]
+Value=Halls of the Elvenking
+
+
+[Map:MAPWORHallsoftheElvenking/Desc]
+Value=In Northern Mirkwood lie the Halls of the Elvenking, hidden stronghold of Thranduil and the elves of the Woodland Realm. Its many streams lead through cavernous halls carved into the living rock. 
+Valueline2= Subregion: Woodland Realm (+5 PP,+5% Atk,+5% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
+
+
+
+
+
+
+
+
 [LW:DisplayNameDorwinion]
 Value=Dorwinion
 
@@ -90156,12 +90355,30 @@ Value=At the end of the Third Age, Saruman started fortifying Isengard and event
 
 
 
+[LW:DisplayNameIsengard]
+Value=Isengard
+
+
+[Map:MAPWORIsengard/Desc]
+Value=Isengard is a great fortress located at the southern end of the Misty Mountains, near the Gap of Rohan. In the centre of the Ring of Isengard stands the stone tower of Orthanc, entrusted to Saruman the White. 
+Valueline2= Subregion: Isen (+10% Res,+5 PP) 
+Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
+
+
+
+
+
+
+
 [LW:DisplayNameEdoras]
 Value=Edoras
 
 
-[Map:MAPWORedoras/Desc]
-Value=Edoras is the capital of Rohan, encircled by walls and with the Golden Hall of Meduseld at the summit of its great mound. Outside the city, the tombs of past rulers of Rohan are arrayed in barrows, covered with flowering Simbelmyne.
+[Map:MAPWOREdoras/Desc]
+Value=Edoras is the capital of Rohan, with the Golden Hall of Meduseld at the summit of the great mound. Outside the walls, past rulers of Rohan are arrayed in barrows covered with flowering Simbelmyne. 
+Valueline2= Subregion: King's Lands (+10% Res,+5 PP) 
+Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
+
 
 
 
@@ -90179,10 +90396,16 @@ Value=The Emyn Arnen are a cluster of hills in South Ithilien, south of Osgiliat
 [LW:DisplayNameEmynMuil]
 Value=Emyn Muil
 
+[LW:DisplayNameHelmsDeep]
+Value=Helm's Deep
 
 [Map:MAPWORemynmuil/Desc]
 Value=Dark, rocky labyrinthine hills east of the Anduin. Gollum led Frodo and Sam through the treachorous terrain on their way to Mordor.
 
+[Map:MAPWORHelmsDeep/Desc]
+Value=This aged stronghold is the site of one of the key battles in the War of the Ring. No enemy has ever defeated the defenders of the walls of the fortress, or entered its keep, the Hornburg. 
+Valueline2= Subregion: West-mark (+5 PP,+10% Def) 
+Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
 
 
 
@@ -90307,10 +90530,14 @@ Value=The Field of Celebrant lies between the Anduin and Limlight, southeast of 
 [LW:DisplayNameFordsofBruinen]
 Value=Fords of Bruinen
 
+[Map:MAPWOREsgaroth]
+Value=Esgaroth
 
 [Map:MAPWORfordsofbruinen/Desc]
 Value=The River Bruinen flows down from the Misty Mountains and surrounds the Elven haven of Rivendell. The crossing point at Its ford is under the power and protection of Elrond and his ring Vilya.
 
+[Map:MAPWORErebor]
+Value=Erebor
 
 
 
@@ -90403,6 +90630,8 @@ Value=Grey Mountains
 Value=A northern range of mountains where goblins and dwarves have battled for many ages.
 
 
+[Map:MAPWORMinasTirith]
+Value=Minas Tirith
 
 
 [LW:DisplayNameHalifirien]
@@ -90441,6 +90670,8 @@ Value=Harlond is the port of the city of Minas Tirith, located south of the city
 
 
 
+[Map:MAPWORPelargir]
+Value=Pelargir
 
 [LW:DisplayNameHarondor]
 Value=Harondor
@@ -90503,8 +90734,9 @@ Value=Khand is the name of the mysterious land which lies to the south-east of M
 
 
 
-[LW:DisplayNameLamedon]
-Value=Lamedon
+
+[Map:MAPWORHidar]
+Value=Hîdar
 
 
 [Map:MAPWORlamedon/Desc]
@@ -90517,14 +90749,16 @@ Value=A series of valleys through which the Ringló and Ciril rivers flowed south
 Value=Lebennin
 
 
-[Map:MAPWORlebennin/Desc]
-Value=A region in southern Gondor south of the White Mountains, Lebennin was largely populated by men descended from the forgotten 'Men of the Mountains' that dwealt in there during the Second Age.
+[Map:MAPWORAmathuna]
+Value=Amathûna
 
 
+[Map:MAPWORUmbar]
+Value=Umbar
 
 
-[LW:DisplayNameLothlorien]
-Value=Lothlórien
+[Map:MAPWORMaros]
+Value=Mâros
 
 
 [Map:MAPWORlothlorien/Desc]
@@ -90577,7 +90811,7 @@ Value=Mount Doom, or Orodruin, was a volcano in Mordor within which Sauron wille
 
 
 
-[LW:DisplayNameMountGundabad]
+[Map:MAPWORMountGundabad]
 Value=Mount Gundabad
 
 
@@ -90658,6 +90892,10 @@ Value=Old Brown Lands
 Value=The Brown Lands are a vast region east of the Anduin, between Mirkwood and the Emyn Muil. The area was once home to the Entwives, but they were driven away when Sauron blighted the land in defense of Mordor during the War of the Last Alliance in the Second Age.
 
 
+[Map:MAPWORHallsoftheElvenking]
+Value=Halls of the Elvenking
+
+
 
 [LW:DisplayNameOldFordAnduin]
 Value=Old Ford of Anduin
@@ -90715,8 +90953,8 @@ Value=The Halls of the Elvenking Thranduil dwell within a cave system in norther
 
 
 
-[LW:DisplayNameRhudaur]
-Value=Rhudaur
+[Map:MAPWORIsengard]
+Value=Isengard
 
 
 [MAP:mapworRhudaur/Desc]
@@ -90727,6 +90965,8 @@ Value=Rhudaur was the smallest of the three kingdoms that originated from the br
 [LW:DisplayNameRhun]
 Value=Rhûn
 
+[Map:MAPWOREdoras]
+Value=Edoras
 
 [MAP:mapworRhun/Desc]
 Value=Rhûn refers to the little-known eastern lands of Middle-earth. At the shores of the Sea of Rhûn, mannish tribes known as Easterlings lie under the dominion of Sauron, and have led many attacks against Gondor and its allies through the ages.
@@ -90737,6 +90977,8 @@ Value=Rhûn refers to the little-known eastern lands of Middle-earth. At the shor
 [LW:DisplayNameRivendell]
 Value=Rivendell
 
+[Map:MAPWORHelmsDeep]
+Value=Helm's Deep
 
 [MAP:mapworRivendell/Desc]
 Value=Rivendell is the hidden sanctuary for the Elves of Eriador. The centerpiece of this city is the House of Elrond.
