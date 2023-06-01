@@ -87344,13 +87344,26 @@ Valueline4= Region: Haradwaith
 
 
 
+
+[Map:MAPMPcoldfells]
+Value=Coldfells*
+
+
+[Map:MAPMPcoldfells/Desc]
+Value=This snowy wilderness north of Rhudaur is marked by scattered ruins of the lost realm of Arnor, uninhabited by all save the Dúnedain. 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Snow Troll, Goblin 
+Valueline4= Region: Misty Mountains
+
+
+
 [Map:MAPMPcrossingofporos]
 Value=Crossing of Poros*
 
 
 [Map:MAPMPcrossingofporos/Desc]
 Value=The Crossing of Poros marks the point where the Harad Road passes over the river Poros, where Gondor's southern lands lead into the lush wooded region of Ithilien. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Goblin 
 Valueline4= Region: Gondor
 
@@ -87362,7 +87375,7 @@ Value=Crossroads*
 
 [Map:MAPMPcrossroads/Desc]
 Value=The place where the ancient Gondor road between Minas Tirith and Minas Morgul crosses the Harad road. 
-Valueline2= Capturable: Signal Fire, Outpost 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Cave Troll, Goblin 
 Valueline4= Region: Gondor
 
@@ -90057,6 +90070,18 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameCrossroads]
+Value=Crossroads
+
+
+[Map:MAPWORCrossroads/Desc]
+Value=The place where the ancient Gondor road between Minas Tirith and Minas Morgul crosses the Harad road. 
+Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
 
 
 
@@ -90294,10 +90319,14 @@ Value=Caradhras
 Value=Caradhras is the tallest peak of the Misty Mountains, under which realm of Khazad-dûm was built.
 
 
+[LW:DisplayNameColdfells]
+Value=Coldfells
 
-[LW:DisplayNameCardolan]
-Value=Cardolan
 
+[Map:MAPWORColdfells/Desc]
+Value=This snowy wilderness north of Rhudaur is marked by scattered ruins of the lost realm of Arnor, uninhabited by all save the Dúnedain. 
+Valueline2= Subregion: Angmar (+5 PP,+5% Atk)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
 [Map:MAPWORcardolan/Desc]
 Value=One of the lost realms of Arnor, Cardolan lies between the rivers Brandywine and Greyflood, and remains unpopulated even still.
@@ -90852,6 +90881,8 @@ Value=Cair Andros
 [LW:DisplayNameGreyHavens]
 Value=Grey Havens
 
+[Map:MAPWORCrossroads]
+Value=Crossroads
 
 [Map:MAPWORgreyhavens/Desc]
 Value=The Grey Havens, also known as Mithlond, is a seaport on the Gulf of Lune at the mouth of the River Lhûn, founded during the Second Age by the Elves of Lindon. The Grey Havens were used by the Elves to leave Middle-earth for Valinor in the West.
@@ -91051,6 +91082,8 @@ Value=At the beginning of the Third Age Thranduil replaced Oropher as king of th
 [LW:DisplayNameMountDoom]
 Value=Mount Doom
 
+[Map:MAPWORColdfells]
+Value=Coldfells
 
 [MAP:mapworMountDoom/Desc]
 Value=Mount Doom, or Orodruin, was a volcano in Mordor within which Sauron willed the heart of the earth into his dark sorceries and forging of the One Ring.
