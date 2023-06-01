@@ -87111,9 +87111,9 @@ Value=Besiege: Wulfborg*
 
 [Map:MAPMPbesiegewulfborg/Desc]
 Value=Wulfborg is the capital of Frecalund, a Dunlending realm under the banner of King Wulfgar. Saruman the White is known to visit, stirring its folk with speeches of injustice and retribution against their foes. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg 
-Valueline4= Region: Eriador
+Valueline4= Region: Enedwaith
 
 
 
@@ -87122,8 +87122,8 @@ Value=Bindbole Wood*
 
 
 [Map:MAPMPbindbolewood/Desc]
-Value=Known as Bindbale Forest in the northern Tookish spelling, Bindbole to the Dúnedain. This forest was north of the Shire and drank from small creeks running into Lake Evendim. Its rocky outcrops create a maze of walking trails. 
-Valueline2= Capturable: Signal Fire 
+Value=Known as Bindbale Forest in the northern Tookish spelling, Bindbole to the Dúnedain. This forest lies north of the Shire and is fed by small creeks that run into Lake Evendim. Its rocky outcrops create a maze of walking trails. 
+Valueline2= Capturable: Inn 
 Valueline3= Region: Arnor
 
 
@@ -87133,7 +87133,7 @@ Value=Black Gate
 
 
 [Map:MAPMPblackgate/Desc]
-Value=The Black Gate of Mordor was built by Sauron to guard the Pass of Cirith Gorgor, the gap between the Ered Lithui and the Ephel Duath, and entrance to the lands of Mordor. 
+Value=The Black Gate of Mordor was built by Sauron to guard the Pass of Cirith Gorgor, the gap between the Ered Lithui and the Ephel Dúath, and entrance to the lands of Mordor. 
 Valueline2= Creeps: Stone Troll, Goblin 
 Valueline3= Region: Mordor
 
@@ -87145,7 +87145,7 @@ Value=Blackroot Vale*
 
 [Map:MAPMPblackrootvale/Desc]
 Value=The Blackroot Vale is a dark valley in the shadows of the White Mountains, through which flows the River Blackroot, or Morthond. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Goblin 
 Valueline4= Region: Gondor
 
@@ -87156,10 +87156,10 @@ Value=Borders of Khand*
 
 
 [Map:MAPMPbordersofkhand/Desc]
-Value=In the far east of Harad lie the mysterious lands of Khand. Very few have ever ventured so far, and lived to tell of these mysterious lands.  
-Valueline2= Capturable: Outpost 
+Value=The easternmost reaches of distant Harad border the vast region of Khand. Very few have ever ventured so far, and fewer still have returned to tell of these mysterious lands. 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Jungle Troll 
-Valueline4= Region: Harad
+Valueline4= Region: Haradwaith
 
 
 
@@ -87180,10 +87180,23 @@ Value=Bree*
 
 
 [Map:MAPMPbree/Desc]
-Value=A city for Men and Hobbits in Eriador. Home to the Prancing Pony Inn. 
+Value=Bree is a village of Men and Hobbits, east of the Shire and south of Fornost in Eriador. Home to the Prancing Pony Inn, the town offeres shelter for many travellers as they travel the Great East Road. 
 Valueline2= Capturable: Outpost, Inn 
 Valueline3= Creeps: Barrow Wight 
 Valueline4= Region: Arnor
+
+
+
+[Map:MAPMPbruinengorges]
+Value=Bruinen Gorges*
+
+
+[Map:MAPMPbruinengorges/Desc]
+Value=Densely wooded valleys surround the River Bruinen and the hidden route towards Rivendell. The area is known for its towering rock formations, autumnal forests, and dangerous troll lairs. 
+Valueline2= Creeps: Cave Troll 
+Valueline3= Capturable: Inn 
+Valueline4= Region: Eriador
+
 
 
 
@@ -87205,8 +87218,8 @@ Value=Cair Andros
 
 [Map:MAPMPcairandros/Desc]
 Value=Cair Andros is an island fortress on the Anduin, north of Osgiliath. Together, the two locations guard the vulnerable crossing-points of the Anduin into the lands of Gondor to the west. 
-Valueline2= Capturable: Signal Fire, Outpost, Inn 
-Valueline3= Creeps: Cave Troll, Warg, Barrow Wight 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Warg, Barrow Wight 
 Valueline4= Region: Gondor
 
 
@@ -87228,9 +87241,9 @@ Value=Cape of Mardrûak*
 
 
 [Map:MAPMPcapeofmardruak/Desc]
-Value=The Cape of Mardrûak is located in the south of Umbar. Its coastal cliffs separate the more verdant mainland from its barren beaches. 
-Valueline2= Creeps: Mûmak, Jungle Troll 
-Valueline3= Region: Harad
+Value=The Cape of Mardrûak is located in the south of Umbar. Rocky coastal cliffs separate the more verdant mainland from long sandy beaches. 
+Valueline2= Creeps: Jungle Troll 
+Valueline3= Region: Haradwaith
 
 
 
@@ -87240,10 +87253,10 @@ Value=Cardolan
 
 [Map:MAPMPcardolan/Desc]
 Value=One of the lost realms of Arnor, Cardolan lies between the rivers Brandywine and Greyflood, and remains unpopulated even still. 
-Valueline2= Capturable: Signal Fire, Outpost 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Barrow Wight, Warg 
 Valueline4= Hazards: Fog 
-Valueline5= Region: Arnor
+Valueline5= Region: Eriador
 
 
 
@@ -87253,7 +87266,7 @@ Value=Carnen*
 
 [Map:MAPMPcarnen/Desc]
 Value=The Carnen flows south from the Iron Hills. It is known as the Redwater, because the iron from the mountains gives it a red tinge. 
-Valueline2= Capturable: Signal Fire, Outpost 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Warg, Goblin 
 Valueline4= Region: Erebor
 
@@ -87287,7 +87300,7 @@ Value=Central Ithilien*
 
 
 [Map:MAPMPcentralithilien/Desc]
-Value=A land in eastern Gondor, bordering the mountains that divide Gondor from Mordor. 
+Value=This forested region in eastern Gondor borders the Ephel Dúath that separate Gondor from Mordor. 
 Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll, Barrow Wight 
 Valueline4= Region: Gondor
@@ -87311,10 +87324,23 @@ Value=Cistern of Moria*
 
 
 [Map:MAPMPcisternofmoria/Desc]
-Value=By accessing deep springs, the Dwarves of Moria created basins of fresh water that by elevated waterways were distributed throughout their underground realm. 
+Value=By accessing deep springs, the Dwarves of Moria created basins of fresh water that by elevated waterways were once distributed throughout their underground realm. 
 Valueline2= Capturable: Outpost 
 Valueline3= Creeps: Goblin 
 Valueline4= Region: Misty Mountains
+
+
+
+
+[Map:MAPMPcoastofardumir]
+Value=Coast of Ardumir*
+
+
+[Map:MAPMPcoastofardumir/Desc]
+Value=Dramatic white cliffs and sandy bays form this archipelago near the Umbarian coastline, a shelter for smugglers and raiding corsair pirates. 
+Valueline2= Capturable: Signal Fire, Inn, Dock 
+Valueline3= Creeps: Corsair 
+Valueline4= Region: Haradwaith
 
 
 
@@ -88230,7 +88256,7 @@ Value=Fortress: The Angle*
 Value='The Angle' was the name given to the wedge of land between the rivers Hoarwell and Loudwater, south of the Trollshaws. After the Fall of Arnor, the Angle became inhabited by the scattered remaining Dúnedain. 
 Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll, Warg, Goblin 
-Valueline4= Region: Arnor
+Valueline4= Region: Eriador
 
 
 
@@ -88277,9 +88303,9 @@ Value=Fortress: Wulfborg*
 
 [Map:MAPMPfortresswulfborg/Desc]
 Value=Wulfborg is the capital of Frecalund, a Dunlending realm under the banner of King Wulfgar. Saruman the White is known to visit, stirring its folk with speeches of injustice and retribution against their foes. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg 
-Valueline4= Region: Eriador
+Valueline4= Region: Enedwaith
 
 
 
@@ -88383,10 +88409,10 @@ Value=Greyflood
 
 
 [Map:MAPMPgreyflood/Desc]
-Value=A river on the southern border of Eriador, the Greyflood is formed by the confluence of the River Hoarwell, and the marshy lower course of the River Glanduin. 
+Value=A river on the southern border of Minhiriath, the Greyflood is formed by the confluence of the River Hoarwell, and the marshy lower course of the River Glanduin. 
 Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg 
-Valueline4= Region: Eriador
+Valueline4= Region: Enedwaith
 
 
 
@@ -88631,7 +88657,7 @@ Value=Iron Foothills*
 
 [Map:MAPMPironfoothills/Desc]
 Value=The Redwater flows south from the mountainous lands of the Iron Hills, bordering the eastern land of Rhûn. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Hill Troll, Goblin 
 Valueline4= Region: Erebor
 
@@ -89871,6 +89897,82 @@ Valueline3= Region: Arnor (50% Hero Discount)
 
 
 
+[LW:DisplayNameBree]
+Value=Bree
+
+
+[Map:MAPWORBree/Desc]
+Value=Bree is a village of Men and Hobbits, east of the Shire and south of Fornost in Eriador. Home to the Prancing Pony Inn, the town offeres shelter for many travellers as they travel the Great East Road. 
+Valueline2= Subregion: Bree-land (+10% Def) 
+Valueline3= Region: Arnor (50% Hero Discount)
+
+
+
+
+
+
+
+
+[LW:DisplayNameBuckland]
+Value=Buckland
+
+
+[Map:MAPWORBuckland/Desc]
+Value=Buckland is a small but densely populated sliver of land between the Old Forest and the east bank of the Brandywine river, inhabited by Hobbits from the Shire, including the Brandybuck family. 
+Valueline2= Subregion: The Shire (+5 PP, +5% Def) 
+Valueline3= Region: Arnor (50% Hero Discount)
+
+
+
+
+
+
+
+
+[LW:DisplayNameWulfborg]
+Value=Wulfborg
+
+
+[Map:MAPWORWulfborg/Desc]
+Value=Wulfborg is the capital of Frecalund, a Dunlending realm under the banner of King Wulfgar. Saruman the White is known to visit, stirring its folk with speeches of injustice and retribution against their foes. 
+Valueline2= Subregion: Dunland (+10 PP, +10% Atk) 
+Valueline3= Region: Enedwaith (+5% Exp, Free Special Units)
+
+
+
+
+
+
+
+
+[LW:DisplayNameGreyflood]
+Value=Greyflood
+
+
+[Map:MAPWORGreyflood/Desc]
+Value=A river on the southern border of Minhiriath, the Greyflood is formed by the confluence of the River Hoarwell, and the marshy lower course of the River Glanduin. 
+Valueline2= Subregion: Enedwaith (+10 PP, +10% Exp) 
+Valueline3= Region: Enedwaith (+5% Exp, Free Special Units)
+
+
+
+
+
+
+
+
+[LW:DisplayNameIronFoothills]
+Value=Iron Foothills
+
+
+[Map:MAPWORIronFoothills/Desc]
+Value=The Redwater flows south from the mountainous lands of the Iron Hills that border the eastern lands of Rhûn. 
+Valueline2= Subregion: Iron Hills (+10% Res,+5 PP) 
+Valueline3= Region: Erebor (+5 PP,+5% Def,+200 Extra Starting Res)
+
+
+
+
 [LW:DisplayNameEsgaroth]
 Value=Esgaroth
 
@@ -89895,12 +89997,60 @@ Valueline3= Region: Erebor (+5 PP,+5% Def,+200 Extra Starting Res)
 
 
 
+[LW:DisplayNameCarnen]
+Value=Carnen
+
+
+[Map:MAPWORCarnen/Desc]
+Value=The Carnen flows south from the Iron Hills. It is known as the Redwater, because the iron from the mountains gives it a red tinge. 
+Valueline2= Subregion: Riverlands (+10% Res,+10% Def) 
+Valueline3= Region: Erebor (+5 PP,+5% Def,+200 Extra Starting Res)
+
+
+
+
+[LW:DisplayNameValesofCelduin]
+Value=Vales of Celduin
+
+
+[Map:MAPWORValesofCelduin/Desc]
+Value=The Celduin runs south from Erebor, connecting Thranduil's kingdom with the northmen of Dale and Esgaroth, and the realms to the south. 
+Valueline2= Subregion: Riverlands (+10% Res,+10% Def) 
+Valueline3= Region: Erebor (+5 PP,+5% Def,+200 Extra Starting Res)
+
+
+
+
+[LW:DisplayNameCardolan]
+Value=Cardolan
+
+
+[Map:MAPWORCardolan/Desc]
+Value=One of the lost realms of Arnor, Cardolan lies between the rivers Brandywine and Greyflood, and remains unpopulated even still. 
+Valueline2= Subregion: Cardolan (+5 PP,+5% Exp) 
+Valueline3= Region: Eriador (-100 Unit Discount)
+
+
+
+
 [LW:DisplayNameAnorien]
 Value=Anórien
 
 
 [Map:MAPWORAnorien/Desc]
 Value=This northwestern fiefdom of Gondor forms the border between Gondor and Rohan, north of the White Mountains. 
+Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
+[LW:DisplayNameCairAndros]
+Value=Cair Andros
+
+
+[Map:MAPWORCairAndros/Desc]
+Value=Cair Andros is an island fortress on the Anduin, north of Osgiliath. Together, the two locations guard the vulnerable crossing-points of the Anduin into the lands of Gondor to the west. 
 Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
 Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
@@ -89961,6 +90111,22 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameCentralIthilien]
+Value=Central Ithilien
+
+
+[Map:MAPWORCentralIthilien/Desc]
+Value=A land in eastern Gondor, bordering the mountains that divide Gondor from Mordor. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
+
+
+
+
 [LW:DisplayNamePelargir]
 Value=Pelargir
 
@@ -89973,6 +90139,37 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+
+
+
+
+
+
+
+[LW:DisplayNameBordersofKhand]
+Value=Borders of Khand
+
+
+[Map:MAPWORBordersofKhand/Desc]
+Value=In the far east of Harad lie the mysterious lands of Khand. Very few have ever ventured so far, and lived to tell of these mysterious lands. 
+Valueline2= Subregion: Khand (+5 PP,+5% Exp) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
+
+
+
+
+[LW:DisplayNameCapeofMardruak]
+Value=Cape of Mardrûak
+
+
+[Map:MAPWORCapeofMardruak/Desc]
+Value=The Cape of Mardrûak is located in the south of Umbar. Rocky coastal cliffs separate the more verdant mainland from long sandy beaches. 
+Valueline2= Subregion: Mardrûak (+5% Atk,+5% Exp) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
@@ -90019,8 +90216,17 @@ Value=This northwestern fiefdom of Gondor forms the border between Gondor and Ro
 
 
 
-[LW:DisplayNameBarrowDowns]
-Value=Barrow Downs
+
+
+
+[LW:DisplayNameCapeofForlond]
+Value=Cape of Forlond
+
+
+[Map:MAPWORCapeofForlond/Desc]
+Value=Forlond is a natural harbour that lies on the northern shore of the Gulf of Lune, in the Elvish land of Forlindon. 
+Valueline2= Subregion: Forlindon (+10 PP,+10% Exp)  
+Valueline3= Region: Lindon (+200 Extra Starting Res) 
 
 
 [Map:MAPWORbarrowdowns/Desc]
@@ -90153,12 +90359,14 @@ Value=A land in eastern Gondor, bordering the mountains that divide Gondor from 
 
 
 
-[LW:DisplayNameShelobsLair]
-Value=Cirith Ungol
+[LW:DisplayNameBlackGate]
+Value=Black Gate
 
 
-[Map:MAPWORcirithungol/Desc]
-Value=Cirith Ungol is located on the north shoulder of the Morgul Pass. During the War of the Ring, Frodo and Samwise were led through the pass by Gollum to the lair of the giant spider Shelob, who dwelt there.
+[Map:MAPWORBlackGate/Desc]
+Value=The Black Gate of Mordor was built by Sauron to guard the Pass of Cirith Gorgor, the gap between the Ered Lithui and the Ephel Dúath, and entrance to the lands of Mordor. 
+Valueline2= Subregion: Dagorlad (+5% Atk) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
 
 
@@ -90178,6 +90386,18 @@ Value=Dead Marshes
 
 [Map:MAPWORdeadmarshes/Desc]
 Value=Reeking wetlands and endless mires lie northwest of the Dagorlad. In the dark waters could be seen the dead from battles of long past.
+
+
+
+
+[LW:DisplayNameCirithUngol]
+Value=Cirith Ungol
+
+
+[Map:MAPWORCirithUngol/Desc]
+Value=Cirith Ungol is located on the north shoulder of the Morgul Pass. During the War of the Ring, Frodo and Samwise were led through the pass by Gollum to the lair of the giant spider Shelob, who dwelt there. 
+Valueline2= Subregion: Ephel Dúath (+5 PP,+10% Atk) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
 
 
@@ -90462,14 +90682,16 @@ Value=Barrow Downs
 [LW:DisplayNameEsgaroth]
 Value=Esgaroth
 
+[Map:MAPWORBree]
+Value=Bree
 
 [MAP:MAPWOResgaroth/Desc]
 Value=Lake-town, also known as Esgaroth upon the Long Lake, is the township of the Lake-men in Wilderland, under the kingdom of Dale under Bard II. The town is constructed entirely of wood upon wooden pillars sunk into the bed of the Lake.
 
 
 
-[LW:DisplayNameEttenmoors]
-Value=Ettenmoors
+[Map:MAPWORBuckland]
+Value=Buckland
 
 
 [Map:MAPWORettenmoors/Desc]
@@ -90494,6 +90716,8 @@ Value=Annúminas
 [Map:MAPWORevendimlake/Desc]
 Value=On the southern shores of Lake Evendim stand the ancient ruins of Annúminas, once seat of the Kings of Arnor. Its fair ruins and surrounding foothills are inhabited by the Dúnedain.
 
+[Map:MAPWORWulfborg]
+Value=Wulfborg
 
 
 
@@ -90506,20 +90730,26 @@ Value=Fangorn Forest is a deep, dark woodland that grows beneath the southern Mi
 
 
 
+[Map:MAPWORGreyflood]
+Value=Greyflood
 
 [LW:DisplayNameFarHarad]
 Value=Far Harad
 
+[Map:MAPWORDruwaithIaur]
+Value=Drúwaith Iaur
 
 [Map:MAPWORfarharad/Desc]
 Value=Far Harad, a part of the larger region known as Harad, is a distant, unknown land far to the south of Gondor, where dense jungles line the rivers that stretch through the arid deserts of Harad into the sea.
 
 
 
+[Map:MAPWORIronFoothills]
+Value=Iron Foothills
 
-[LW:DisplayNameFieldCelebrant]
-Value=Field of Celebrant
 
+[Map:MAPWORIronHills]
+Value=Iron Hills
 
 [Map:MAPWORfieldofcelebrant/Desc]
 Value=The Field of Celebrant lies between the Anduin and Limlight, southeast of Lothlórien. During the Third Age, this was the site of the Battle of the Field of Celebrant, where Eorl the Young rode from the north to the aid of Gondor.
@@ -90540,6 +90770,8 @@ Value=The River Bruinen flows down from the Misty Mountains and surrounds the El
 Value=Erebor
 
 
+[Map:MAPWORCarnen]
+Value=Carnen
 
 [LW:DisplayNameFordsofIsen]
 Value=Fords of Isen
@@ -90548,6 +90780,8 @@ Value=Fords of Isen
 [Map:MAPWORfordsofisen/Desc]
 Value=The river Isen passes between Isengard and Helm's Deep. Many travellers journeying to and from the Gap of Rohan cross the mighty river at this shallow point.
 
+[Map:MAPWORCardolan]
+Value=Cardolan
 
 
 
@@ -90612,6 +90846,8 @@ Value=This marshland along the Anduin was the location where High King Isildur w
 Value=Anórien
 
 
+[Map:MAPWORCairAndros]
+Value=Cair Andros
 
 [LW:DisplayNameGreyHavens]
 Value=Grey Havens
@@ -90658,8 +90894,12 @@ Value=Harlindon
 [Map:MAPWORharlindon/Desc]
 Value=Harlindon is a green and fair elvish land, located west of the Blue Mountains and south of the Gulf of Lune, which divided Lindon into the northern Forlindon and Harlindon to the south.
 
+[Map:MAPWORCentralIthilien]
+Value=Central Ithilien
 
 
+[Map:MAPWORSouthernIthilien]
+Value=Southern Ithilien
 
 [LW:DisplayNameHarlond]
 Value=Harlond
@@ -90722,6 +90962,8 @@ Value=Isengard
 Value=Isengard is a great fortress located at the southern end of the Misty Mountains, near the Gap of Rohan. In the centre of the Ring of Isengard stands the stone tower of Orthanc, entrusted to Saruman the White.
 
 
+[Map:MAPWORBordersofKhand]
+Value=Borders of Khand
 
 
 [LW:DisplayNameKhand]
@@ -90731,6 +90973,8 @@ Value=Khand
 [Map:MAPWORkhand/Desc]
 Value=Khand is the name of the mysterious land which lies to the south-east of Mordor and to the east of Near Harad. Its mannish tribes included the warlike Variags of Khand.
 
+[Map:MAPWORCapeofMardruak]
+Value=Cape of Mardrûak
 
 
 
@@ -90765,6 +91009,8 @@ Value=Mâros
 Value=This forest, also known as the Golden Wood for its Mallorn Trees, is the home of Galadriel and Celeborn of the Elves.
 
 
+[Map:MAPWORCapeofForlond]
+Value=Cape of Forlond
 
 [LW:DisplayNameMinasMorgul]
 Value=Minas Morgul
@@ -90828,14 +91074,24 @@ Value=Moria
 Value=Greatest of all the mansions of the Dwarves was Khazad-dûm, the Dwarrowdelf, Hadhodrond in the Elvish tongue, that was afterwards in the days of its darkness called Moria.
 
 
+[Map:MAPWORBlackGate]
+Value=Black Gate
 
 
-[LW:DisplayNameMouthsoftheEntwash]
-Value=Mouths of the Entwash
+
+
+
+
+[Map:MAPWORCirithUngol]
+Value=Cirith Ungol
 
 
 [Map:MAPWORDurthang]
 Value=Durthang
+
+
+[Map:MAPWORMinasMorgul]
+Value=Minas Morgul
 
 
 
