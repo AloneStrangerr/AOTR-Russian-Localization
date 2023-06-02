@@ -87399,7 +87399,7 @@ Value=Dagorlad
 
 [Map:MAPMPdagorlad/Desc]
 Value=A dusty plain northwest of Mordor and the site of Sauron's defeat in the Second Age, and the Battle of the Morannon during the Third Age. 
-Valueline2= Capturable: Signal Fire, Outpost, Inn 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Stone Troll, Goblin 
 Valueline4= Region: Mordor
 
@@ -87873,7 +87873,7 @@ Value=Fords of Bruinen*
 
 
 [Map:MAPMPfordsofbruinen/Desc]
-Value=The River Bruinen flows down from the Misty Mountains and surrounds the Elven haven of Rivendell. The crossing point at Its ford is under the power and protection of Elrond and his ring Vilya. 
+Value=The River Bruinen flows down from the Misty Mountains and surrounds the Elven haven of Rivendell. The crossing point at its ford is under the power and protection of Elrond and his ring Vilya. 
 Valueline2= Creeps: Cave Troll, Goblin 
 Valueline3= Region: Eriador
 
@@ -90076,6 +90076,18 @@ Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
+[LW:DisplayNameFordsofBruinen]
+Value=Fords of Bruinen
+
+
+[Map:MAPWORFordsofBruinen/Desc]
+Value=The River Bruinen flows down from the Misty Mountains and surrounds the Elven haven of Rivendell. The crossing point at its ford is under the power and protection of Elrond and his ring Vilya. 
+Valueline2= Subregion: Rivendell (+5 PP,+10% Def) 
+Valueline3= Region: Eriador (-100 Unit Discount)
+
+
+
+
 [LW:DisplayNameAnorien]
 Value=Anórien
 
@@ -90434,8 +90446,11 @@ Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 Value=Dagorlad
 
 
-[Map:MAPWORdagorlad/Desc]
-Value=A dusty plain northwest of Mordor and the site of Sauron's defeat in the Second Age, and the Battle of the Morannon during the Third Age.
+[Map:MAPWORDagorlad/Desc]
+Value=A dusty plain northwest of Mordor and the site of Sauron's defeat in the Second Age, and the Battle of the Morannon during the Third Age. 
+Valueline2= Subregion: Dagorlad (+5% Atk) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
+
 
 
 
@@ -90875,24 +90890,28 @@ Value=Rhudaur
 Value=Trollshaws
 
 
+[Map:MAPWORFordsofBruinen]
+Value=Fords of Bruinen
 
-[LW:DisplayNameFramsburg]
-Value=Framsburg
+
+[Map:MAPWORRivendell]
+Value=Rivendell
 
 
-[MAP:MAPWorFramsburg/Desc]
-Value=The Anduin begins as two different streams where the Misty Mountains meets the Grey Mountains, named the Langwell and the Greylin by the Éothéod when they lived in the triangle of land that they formed. Their old capital Framsburg was built at the merging of these streams where the Anduin proper began.
-
+[Map:MAPWORTulima]
+Value=Tûli-mâ
 
 
 [LW:DisplayNameGapofRohan]
 Value=Gap of Rohan
 
 
-[Map:MAPWORgapofrohan/Desc]
-Value=Between the Misty Mountains and the White Mountains flows the river Isen, which forms the western boundary of Rohan. Access through the Gap is guarded by the fortress of Isengard, controlled by Saruman.
+[Map:MAPWORItama]
+Value=Itä-mâ
 
 
+[Map:MAPWORForodwaith]
+Value=Forodwaith
 
 
 [LW:DisplayNameGladdenFields]
@@ -90910,14 +90929,10 @@ Value=Anórien
 [Map:MAPWORCairAndros]
 Value=Cair Andros
 
-[LW:DisplayNameGreyHavens]
-Value=Grey Havens
 
 [Map:MAPWORCrossroads]
 Value=Crossroads
 
-[Map:MAPWORgreyhavens/Desc]
-Value=The Grey Havens, also known as Mithlond, is a seaport on the Gulf of Lune at the mouth of the River Lhûn, founded during the Second Age by the Elves of Lindon. The Grey Havens were used by the Elves to leave Middle-earth for Valinor in the West.
 
 
 
@@ -90950,12 +90965,8 @@ Value=Andrast
 [Map:MAPWORBelfalas]
 Value=Belfalas
 
-[LW:DisplayNameHarlindon]
-Value=Harlindon
 
 
-[Map:MAPWORharlindon/Desc]
-Value=Harlindon is a green and fair elvish land, located west of the Blue Mountains and south of the Gulf of Lune, which divided Lindon into the northern Forlindon and Harlindon to the south.
 
 [Map:MAPWORCentralIthilien]
 Value=Central Ithilien
@@ -90964,30 +90975,20 @@ Value=Central Ithilien
 [Map:MAPWORSouthernIthilien]
 Value=Southern Ithilien
 
-[LW:DisplayNameHarlond]
-Value=Harlond
 
 
-[Map:MAPWORharlond/Desc]
-Value=Harlond is the port of the city of Minas Tirith, located south of the city beyond the Rammas Echor. During the War of the Ring, Aragorn and his followers landed at Harlond and swept north into the Battle of the Pelennor Fields.
 
 
 
 [Map:MAPWORPelargir]
 Value=Pelargir
 
-[LW:DisplayNameHarondor]
-Value=Harondor
-
-
-[Map:MAPWORharondor/Desc]
-Value=Harondor is a disputed region south of Ithilien, between the rivers Poros and Harnen. Ongoing wars have led to the region's downfall, which is now a deserted land.
 
 
 
 
-[LW:DisplayNameHelmsDeep]
-Value=Helm's Deep
+
+
 
 
 [Map:MAPWORhelmsdeep/Desc]
@@ -91143,6 +91144,8 @@ Value=Greatest of all the mansions of the Dwarves was Khazad-dûm, the Dwarrowdel
 Value=Black Gate
 
 
+[Map:MAPWORDagorlad]
+Value=Dagorlad
 
 
 
