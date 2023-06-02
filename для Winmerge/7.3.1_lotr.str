@@ -87387,7 +87387,7 @@ Value=Daergil*
 
 [Map:MAPMPdaergil/Desc]
 Value=This secluded passage through the foothills connects the Trollshaws and the scattered ruins of Eregion. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll, Goblin 
 Valueline4= Region: Eriador
 
@@ -87910,6 +87910,20 @@ Value=Fords of Isen*
 Value=The Fords of Isen are guarded by the Rohirrim, being the only crossing point of the mighty river between Isengard and Rohan. A raised eyot lies at its centre, where twice the Fords were assaulted during the War of the Ring, during the First and Second Battle of the Fords of Isen. 
 Valueline2= Creeps: Warg 
 Valueline3= Region: Rohan
+
+
+
+
+[Map:MAPMPfordsoftheloudwater]
+Value=Fords of the Loudwater*
+
+
+[Map:MAPMPfordsoftheloudwater/Desc]
+Value=The Bruinen, also known as the Loudwater, flows down from the Misty Mountains and surrounds the Elven haven of Rivendell. The crossing point at its ford is under the power and protection of Elrond and his ring Vilya. 
+Valueline2= Creeps: Cave Troll, Goblin 
+Valueline3= Region: Eriador
+
+
 
 
 
@@ -89717,7 +89731,7 @@ Value=Trollshaws*
 Value=The Trollshaws are the upland woods that lie west of Rivendell, between the Rivers Hoarwell and Loudwater. In the wild hills are found shallow caves, wild trolls, and scattered ruins. 
 Valueline2= Capturable: Signal Fire 
 Valueline3= Creeps: Stone Troll, Goblin 
-Valueline4= Region: Arnor
+Valueline4= Region: Eriador
 
 
 
@@ -90041,6 +90055,22 @@ Value=Cardolan
 [Map:MAPWORCardolan/Desc]
 Value=One of the lost realms of Arnor, Cardolan lies between the rivers Brandywine and Greyflood, and remains unpopulated even still. 
 Valueline2= Subregion: Cardolan (+5 PP,+5% Exp) 
+Valueline3= Region: Eriador (-100 Unit Discount)
+
+
+
+
+
+
+
+
+[LW:DisplayNameTrollshaws]
+Value=Trollshaws
+
+
+[Map:MAPWORTrollshaws/Desc]
+Value=The Trollshaws are the upland woods that lie west of Rivendell, between the Rivers Hoarwell and Loudwater. In the wild hills are found shallow caves, wild trolls, and scattered ruins. 
+Valueline2= Subregion: Rhudaur (+5 PP,+5% Atk) 
 Valueline3= Region: Eriador (-100 Unit Discount)
 
 
@@ -90837,10 +90867,12 @@ Value=Destroyed by the Witch-King of Angmar centuries ago, Fornost is a ruined a
 [LW:DisplayNameForodwaith]
 Value=Forodwaith
 
+[Map:MAPWORRhudaur]
+Value=Rhudaur
 
-[Map:MAPWORforodwaith/Desc]
-Value=The Northern Waste is a vast cold region of mostly ice and snow, in the far north end of Middle-earth, beyond the Mountains of Angmar, Mount Gundabad and the Ered Mithrin. The main known area was Forochel.
 
+[Map:MAPWORTrollshaws]
+Value=Trollshaws
 
 
 
