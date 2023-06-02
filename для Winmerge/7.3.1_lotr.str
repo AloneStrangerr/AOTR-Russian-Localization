@@ -87413,8 +87413,7 @@ Value=Dead Marshes
 Value=Reeking wetlands and endless mires lie northwest of the Dagorlad. In the dark waters could be seen the dead from battles of long past. 
 Valueline2= Capturable: Signal Fire 
 Valueline3= Creeps: Barrow Wight, Goblin 
-Valueline4= Hazards: Midges, Fog 
-Valueline5= Region: Gondor
+Valueline4= Region: Mordor
 
 
 
@@ -87423,9 +87422,9 @@ Value=Deadman's Dike*
 
 
 [Map:MAPMPdeadmansdike/Desc]
-Value=Destroyed by the Witch-King of Angmar centuries ago, Fornost is a ruined and desolate place more commonly known as Deadman's Dike. 
-Valueline2= Capturable: Signal Fire, Outpost, Inn 
-Valueline3= Creeps: Barrow Wights 
+Value=Destroyed by the Witch-king of Angmar centuries ago, the ruins of Fornost are a ruined and desolate place, now more commonly known as Deadman's Dike. 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Barrow Wight 
 Valueline4= Region: Arnor
 
 
@@ -89908,6 +89907,18 @@ Valueline3= Region: Arnor (50% Hero Discount)
 
 
 
+[LW:DisplayNameFornost]
+Value=Fornost
+
+
+[Map:MAPWORFornost/Desc]
+Value=Destroyed by the Witch-king of Angmar centuries ago, the ruins of Fornost are a ruined and desolate place, now more commonly known as Deadman's Dike. 
+Valueline2= Subregion: Arthedain (+5 PP, +5% Def) 
+Valueline3= Region: Arnor (50% Hero Discount)
+
+
+
+
 
 
 
@@ -90458,8 +90469,10 @@ Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 Value=Dead Marshes
 
 
-[Map:MAPWORdeadmarshes/Desc]
-Value=Reeking wetlands and endless mires lie northwest of the Dagorlad. In the dark waters could be seen the dead from battles of long past.
+[Map:MAPWORDeadMarshes/Desc]
+Value=Reeking wetlands and endless mires lie northwest of the Dagorlad. In the dark waters could be seen the dead from battles of long past. 
+Valueline2= Subregion: Dagorlad (+5% Atk) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
 
 
@@ -90723,23 +90736,19 @@ Value=The Lonely Mountain, or Erebor, is a mountain in the north-east of Rhovani
 
 
 
-[LW:DisplayNamePathsDead]
-Value=Erech
-
-
-[MAP:mapworErech/Desc]
-Value=A hill west of Minas Tirith, near to the Paths of the Dead, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur. Upon the summit stands a smooth black globe, the Stone of Erech.
 
 
 
-[LW:DisplayNameLithlad]
-Value=Ered Lithui
+
+
 
 
 [Map:MAPWORAnnuminas]
 Value=Annúminas
 
 
+[Map:MAPWORFornost]
+Value=Fornost
 
 
 [LW:DisplayNameEregion]
@@ -90753,14 +90762,10 @@ Value=During the Second Age, Celebrimbor and the Noldorin were enticed by Annata
 [Map:MAPWORBarrowDowns]
 Value=Barrow Downs
 
-[LW:DisplayNameEsgaroth]
-Value=Esgaroth
 
 [Map:MAPWORBree]
 Value=Bree
 
-[MAP:MAPWOResgaroth/Desc]
-Value=Lake-town, also known as Esgaroth upon the Long Lake, is the township of the Lake-men in Wilderland, under the kingdom of Dale under Bard II. The town is constructed entirely of wood upon wooden pillars sunk into the bed of the Lake.
 
 
 
@@ -90773,48 +90778,32 @@ Value=A mountainous, wild land north of Rivendell, consisting of rocky valleys r
 
 
 
-[LW:DisplayNameEvendimHills]
-Value=Hills of Evendim
-
-
-[Map:MAPWORhillsofevendim/Desc]
-Value=The Hills of Evendim are a series of hills in northern Eriador, about a hundred miles north of the Shire in northern Eriador. At the southern end lies the ruins of Annúminas, the first capital of Arnor, at Lake Evendim.
 
 
 
 
-[LW:DisplayNameEvendimLake]
-Value=Annúminas
 
 
-[Map:MAPWORevendimlake/Desc]
-Value=On the southern shores of Lake Evendim stand the ancient ruins of Annúminas, once seat of the Kings of Arnor. Its fair ruins and surrounding foothills are inhabited by the Dúnedain.
+
+
 
 [Map:MAPWORWulfborg]
 Value=Wulfborg
 
 
 
-[LW:DisplayNameFangorn]
-Value=Fangorn
 
 
-[Map:MAPWORfangorn/Desc]
-Value=Fangorn Forest is a deep, dark woodland that grows beneath the southern Misty Mountains, under the eastern flanks of that range. The habitat of the Ents in the Third Age, the forest is named after the oldest Ent, Fangorn.
 
 
 
 [Map:MAPWORGreyflood]
 Value=Greyflood
 
-[LW:DisplayNameFarHarad]
-Value=Far Harad
 
 [Map:MAPWORDruwaithIaur]
 Value=Drúwaith Iaur
 
-[Map:MAPWORfarharad/Desc]
-Value=Far Harad, a part of the larger region known as Harad, is a distant, unknown land far to the south of Gondor, where dense jungles line the rivers that stretch through the arid deserts of Harad into the sea.
 
 
 
@@ -90825,8 +90814,6 @@ Value=Iron Foothills
 [Map:MAPWORIronHills]
 Value=Iron Hills
 
-[Map:MAPWORfieldofcelebrant/Desc]
-Value=The Field of Celebrant lies between the Anduin and Limlight, southeast of Lothlórien. During the Third Age, this was the site of the Battle of the Field of Celebrant, where Eorl the Young rode from the north to the aid of Gondor.
 
 
 
@@ -91148,6 +91135,8 @@ Value=Black Gate
 Value=Dagorlad
 
 
+[Map:MAPWORDeadMarshes]
+Value=Dead Marshes
 
 
 [Map:MAPWORCirithUngol]
