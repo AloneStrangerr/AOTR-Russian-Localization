@@ -87705,7 +87705,7 @@ Value=Emyn Arnen
 
 [Map:MAPMPemynarnen/Desc]
 Value=The Emyn Arnen are a cluster of hills in South Ithilien, south of Osgiliath, on the east bank of the Anduin. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Hill Troll, Goblin 
 Valueline4= Region: Gondor
 
@@ -90263,6 +90263,18 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameEmynArnen]
+Value=Emyn Arnen
+
+
+[Map:MAPWOREmynArnen/Desc]
+Value=The Emyn Arnen are a cluster of hills in South Ithilien, south of Osgiliath, on the east bank of the Anduin. 
+Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
 
 
 
@@ -90837,8 +90849,14 @@ Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
 Value=Eaves of Fangorn
 
 
-[Map:MAPWOReavesfangorn/Desc]
-Value=At the end of the Third Age, Saruman started fortifying Isengard and eventually harvesting Fangorn to fuel his armies. During the War of the Ring, Eomer's Eored routed a band of Uruk-hai under the eaves of the forest.
+[Map:MAPWOREavesofFangorn/Desc]
+Value=During the War of the Ring, Eomer's Eored routed a band of Uruk-hai under the eaves of Fangorn Forest. 
+Valueline2= Subregion: Isen (+10% Res,+5 PP) 
+Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
+
+
+
+
 
 
 
@@ -91125,19 +91143,19 @@ Value=Crossroads
 Value=Drúadan Forest
 
 
-[LW:DisplayNameGreyMountains]
-Value=Grey Mountains
+[Map:MAPWOREmynArnen]
+Value=Emyn Arnen
 
 
-[Map:MAPWORgreymountains/Desc]
-Value=A northern range of mountains where goblins and dwarves have battled for many ages.
+[Map:MAPWORNorthIthilien]
+Value=Northern Ithilien
 
 
 [Map:MAPWORMinasTirith]
 Value=Minas Tirith
 
 
-[LW:DisplayNameHalifirien]
+[Map:MAPWORHalifirien]
 Value=Halifirien
 
 
@@ -91480,8 +91498,8 @@ Value=Eastern Rohan
 Value=Eastfold
 
 
-[MAP:MAPWORrealmoftheelvenking/Desc]
-Value=The Halls of the Elvenking Thranduil dwell within a cave system in northern Mirkwood, where many of the Elves of the Woodland Realm reside. The throne room is a great hall with pillars carved from the living rock, and in its lower levels lie the dungeons and cellars of the king.
+[Map:MAPWOREavesofFangorn]
+Value=Eaves of Fangorn
 
 
 
