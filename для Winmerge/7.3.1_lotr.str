@@ -84404,53 +84404,76 @@ Valueline3=Passive ability
 Value=Mad Chieftain
 
 [CONTROLBAR:ToolTipMadcheiftain]
-Value=Modifier Type: Leadership 
-Valueline2= Nearby units do +33% damage at the cost of -33% armour 
-Valueline3= At rank 5, damage is increased to 50% 
-Valueline4= Stacks with Buffs and Spells
+Value=For every 15 allied Haradwaith units nearby, Caran-Lambar gains
+Valueline2=+5% damage and movement speed to a maximum of 25% 
+Valueline3= Passive ability
 
 [CONTROLBAR:BreakerofStone]
 Value=Breaker of Stone (&R)
 
 [CONTROLBAR:ToolTipBreakerofStone]
 Value=Requires Level 3
-Valueline2= Caran-Lambar performs a powerful strike that deals heavy damage to structures CURRENTLY ALSO DISABLES STRUCTURES AND OPENS GATES
-Valueline3= Left click icon then left click on target
+Valueline2= Caran-Lambar slams the ground, damaging and knocking back enemy units and dealing heavy damage to structures in a small radius
+Valueline3=Left click icon then left click on target
 
 [CONTROLBAR:Derangement]
 Value=Derangement (&T)
 
 [CONTROLBAR:ToolTipDerangement]
 Value=Requires Level 5 
-Valueline2= Caran-Lambar deals damage to himself. Nearby enemy units temporarily lose -25% attack damage 
-Valueline3= Left click to activate
+Valueline2= Modifier Type: Leadership 
+Valueline3= Nearby friendly units gain resistance to fear and terror 
+Valueline4=Passive ability 
+Valueline5=
+Valueline6=Modifier Type: Debuff
+Valueline7=When activated, Caran-Lambar deals damage to himself 
+Valueline8= Nearby enemy units lose -50% attack damage and attack speed for 30 seconds
+Valueline9= Left click to activate
 
 [CONTROLBAR:DireStraits]
 Value=Dire Straits
 
 [CONTROLBAR:ToolTipDireStraits]
 Value=Requires Level 8 
-Valueline2= Once Caran-Lambar's health reaches less than 20% he goes into a terrifying rage, dealing 150% more damage and knocking back enemy units in a greater radius
-Valueline3=Passive ability KNOCKBACK DOESN'T WORK YET
+Valueline2= Once Caran-Lambar's health reaches less than 25% he goes into a terrifying rage, dealing 150% more damage and regaining health per hit for 15 seconds
+Valueline3=Cannot be triggered again for 60 seconds
+Valueline4=Passive ability
+
+[CONTROLBAR:SpecialAbilityCaranLambarPull]
+Value=Ensorcelled Rage (&V)
+
+[CONTROLBAR:SpecialAbilityCaranLambarSlayer]
+Value=Ensorcelled Rage
+
+[CONTROLBAR:ToolTipSpecialAbilityCaranLambarPull]
+Value=Requires Level 10
+Valueline2= Caran-Lambar pulls all nearby enemies towards him
+Valueline3= For 30 seconds, Caran-Lambar gains +50% armour and movement speed and can crush enemy units
+Valueline4=Left click to activate
 
 [CONTROLBAR:PersonalGuard]
-Value=Personal Guard (&R)
+Value=Guard of Abrakhân (&W)
 
 [CONTROLBAR:ToolTipPersonalGuard]
 Value=The Golden King is always accompanied by three fierce warriors 
 Valueline2= Passive ability 
-Valueline3= When activated, the guards temporarily gain +200% damage at the cost of 50% armour 
-Valueline4= Left click to activate
+Valueline3=
+Valueline4= When activated, the guards are sacrificed to summon a horde of Wights for 60 seconds
+Valueline5=Wights ignore enemy armour and regain health per hit
+Valueline6=Enemy units nearby the Wights lose -20% armour and -25% damage
+Valueline7=Left click to activate
 
 [CONTROLBAR:TheGoldenKingLeadership]
-Value=The Golden King
+Value=The Golden King (&R)
 
 [CONTROLBAR:ToolTipTheGoldenKingLeadership]
-Value=Modifier Type: Leadership Nearby units gain +33% armour and +200% experience gain 
-Valueline2= Passive ability 
-Valueline3= Stacks with Buffs and Spells 
-Valueline4= when near the Black Vizier, the Golden King gains +25% experience and attack damage 
-Valueline5= Passive ability
+Value=Modifier Type: Leadership 
+Valueline2= Nearby enemy leaderships are passively nullified 
+Valueline3= When near the Black Vizier, the Golden King gains +25% armour 
+Valueline4= Passive ability 
+Valueline5=
+Valueline6= At rank 5, summons two battalions of Abrakhân Warriors when activated 
+Valueline7= Left click to activate
 
 [CONTROLBAR:LordofAbrakhan]
 Value=Lord of Abrakhân (&T)
@@ -84464,13 +84487,21 @@ Valueline3=Left click to activate
 Value=Dark Subjugation (&C)
 
 
+[CONTROLBAR:ToolTipDarkSubjugation]
+Value=Requires Level 7 
+Valueline2= Targeted Haradwaith units gain +200% damage and resistance to fear and terror for 20 seconds 
+Valueline3= After 20 seconds have expired, affected units take damage over time for 5 seconds 
+Valueline4= Does not affect monsters, heroic units or summoned units
+Valueline5= Left click then left click target units
+
+
 [CONTROLBAR:GoldenKingIntimidation]
 Value=Lord of Wights (&T)
 
 [CONTROLBAR:TooltipGoldenKingIntimidation]
-Value=Requires Level 7 
-Valueline2= Causes enemy units to flee in terror 
-Valueline3= Left click to activate
+Value=Requires Level 3 
+Valueline2= Targeted enemy units flee in terror and take damage over time for 15 seconds
+Valueline3= Left click then left click target area
 
 [CONTROLBAR:TheKingUnmasked]
 Value=The King Unmasked (&V)
