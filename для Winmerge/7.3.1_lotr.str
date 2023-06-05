@@ -87728,9 +87728,9 @@ Value=Emyn Muil*
 
 
 [Map:MAPMPemynmuil/Desc]
-Value=Dark, rocky labyrinthine hills east of the Anduin. Gollum led Frodo and Sam through the treachorous terrain on their way to Mordor. 
+Value=Dark, rocky labyrinthine hills east of the Anduin. Gollum led Frodo and Sam through the treacherous terrain on their way to Mordor. 
 Valueline2= Creeps: Stone Troll 
-Valueline3= Region: Gondor
+Valueline3= Region: Rhovanion
 
 
 
@@ -87740,8 +87740,9 @@ Value=Enedwaith*
 
 [Map:MAPMPenedwaith/Desc]
 Value=Enedwaith was once deeply forested until the arrival of the timber-seeking Númenóreans during the Second Age left the landscape devastated and barren. 
-Valueline2= Creeps: Hill Troll, Goblin 
-Valueline3= Region: Eriador
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Hill Troll, Goblin 
+Valueline4= Region: Enedwaith
 
 
 
@@ -87751,7 +87752,7 @@ Value=Entwash*
 
 [Map:MAPMPentwash/Desc]
 Value=The Entwash river originates in Fangorn flowing southeast across Rohan. It is fed by many streams and rivers of Rohan on its eastward journey towards the Anduin. 
-Valueline2= Capturable: Signal Fire, Outpost 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Warg, Goblin 
 Valueline4= Region: Rohan
 
@@ -87763,7 +87764,7 @@ Value=Erebor
 
 [Map:MAPMPerebor/Desc]
 Value=This Dwarven fortress within the mountain Erebor is the proud domain of King Dáin II Ironfoot. 
-Valueline2= Capturable: Signal Fire, Outpost, Inn 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Warg 
 Valueline4= Region: Erebor
 
@@ -87776,7 +87777,7 @@ Value=Erech
 [Map:MAPMPerech/Desc]
 Value=A hill west of Minas Tirith, near to the Paths of the Dead, where in ages past the faithless King of the Mountains swore an oath of fealty to Isildur. Upon the summit stands a smooth black globe, the Stone of Erech. 
 Valueline2= Capturable: Inn 
-Valueline3= Creeps: Hill Troll, The Dead 
+Valueline3= Creeps: Cave Troll, Barrow Wight 
 Valueline4= Region: Gondor
 
 
@@ -90071,6 +90072,18 @@ Valueline3= Region: Enedwaith (+5% Exp, Free Special Units)
 
 
 
+[LW:DisplayNameEnedwaith]
+Value=Enedwaith
+
+
+[Map:MAPWOREnedwaith/Desc]
+Value=Enedwaith was once deeply forested until the arrival of the timber-seeking Númenóreans during the Second Age left the landscape devastated and barren. 
+Valueline2= Subregion: Enedwaith (+10 PP, +10% Exp) 
+Valueline3= Region: Enedwaith (+5% Exp, Free Special Units)
+
+
+
+
 [LW:DisplayNameGreyflood]
 Value=Greyflood
 
@@ -90294,6 +90307,22 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+
+[LW:DisplayNameMouthsofEntwash]
+Value=Mouths of Entwash
+
+
+[Map:MAPWORMouthsofEntwash/Desc]
+Value=The Mouths of Entwash form a mighty delta where the River Entwash meets the Anduin. The delta measured a hundred miles from the splitting of the river to the marshy lands at its end. 
+Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
+
+
+
 [LW:DisplayNameAndrast]
 Value=Andrast
 
@@ -90335,6 +90364,22 @@ Value=Central Ithilien
 
 [Map:MAPWORCentralIthilien/Desc]
 Value=A land in eastern Gondor, bordering the mountains that divide Gondor from Mordor. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
+
+
+
+
+[LW:DisplayNameErech]
+Value=Erech
+
+
+[Map:MAPWORErech/Desc]
+Value=In ages past the faithless King of the Mountains swore an oath of fealty to Isildur upon the summit of the hill, upon which stands a smooth black globe, the Stone of Erech. 
 Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
 Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
@@ -90675,6 +90720,22 @@ Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
 
 
+[LW:DisplayNameEredLithui]
+Value=Ered Lithui
+
+
+[Map:MAPWOREredLithui/Desc]
+Value=A great ashy plain that lies to the north-east of Barad-dûr in Mordor. 
+Valueline2= Subregion: Gorgoroth (+10 PP,+5% Atk) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
+
+
+
+
+
+
+
+
 [LW:DisplayNameAmonHen]
 Value=Amon Hen
 
@@ -90697,8 +90758,18 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 Value=Dimrill Dale
 
 
-[Map:MAPWORdimrilldale/Desc]
-Value=A valley on the east side of the Misty Mountains, the Dimrill Dale is formed beneath the peaks of Redhorn, Silvertine, and Cloudyhead. At its southeast lies the Mirrormere, a sacred lake of Durin's Folk.
+[LW:DisplayNameEmynMuil]
+Value=Emyn Muil
+
+
+[Map:MAPWOREmynMuil/Desc]
+Value=Dark, rocky labyrinthine hills east of the Anduin. Gollum led Frodo and Sam through the treacherous terrain on their way to Mordor. 
+Valueline2= Subregion: Brown Lands (+5 PP,+5% Exp) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
+
+
+
+
 
 
 
@@ -91011,6 +91082,8 @@ Value=Wulfborg
 
 
 
+[Map:MAPWOREnedwaith]
+Value=Enedwaith
 
 
 [Map:MAPWORGreyflood]
@@ -91042,8 +91115,6 @@ Value=Fords of Bruinen
 [Map:MAPWOREsgaroth]
 Value=Esgaroth
 
-[Map:MAPWORfordsofbruinen/Desc]
-Value=The River Bruinen flows down from the Misty Mountains and surrounds the Elven haven of Rivendell. The crossing point at Its ford is under the power and protection of Elrond and his ring Vilya.
 
 [Map:MAPWORErebor]
 Value=Erebor
@@ -91162,6 +91233,10 @@ Value=Halifirien
 [Map:MAPWORhalifirien/Desc]
 Value=A hallowed mountain that stands over the border of Rohan and Anorien. It is the highest and westernmost of the seven beacons of Gondor, appearing to stand alone due to a deep cleft that separates it from the surrounding White Mountains.
 
+[Map:MAPWORMouthsofEntwash]
+Value=Mouths of Entwash
+
+
 
 
 [Map:MAPWORAndrast]
@@ -91183,6 +91258,8 @@ Value=Central Ithilien
 Value=Southern Ithilien
 
 
+[Map:MAPWORErech]
+Value=Erech
 
 
 
@@ -91381,6 +91458,10 @@ Value=Durthang
 Value=Minas Morgul
 
 
+[Map:MAPWOREredLithui]
+Value=Ered Lithui
+
+
 
 [LW:DisplayNameNearHarad]
 Value=Near Harad
@@ -91421,9 +91502,9 @@ Value=Amon Hen
 Value=East Bight
 
 
+[Map:MAPWOREmynMuil]
+Value=Emyn Muil
 
-[MAP:mapworNurn/Desc]
-Value=Nurn is the name given to the southern regions of Mordor, more fertile than Gorgoroth in the north, wherein lies the great inland Sea of Núrnen. 
 
 
 
