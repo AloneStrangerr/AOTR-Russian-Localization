@@ -87788,7 +87788,7 @@ Value=Ered Lithui*
 
 [Map:MAPMPeredlithui/Desc]
 Value=A rugged and forbidding mountain range, composed of broken peaks and barren ridges on the northern border of Mordor. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Cave Troll, Goblin 
 Valueline4= Region: Mordor
 
@@ -87800,8 +87800,9 @@ Value=Ered Luin Highlands*
 
 [Map:MAPMPeredluinhighlands/Desc]
 Value=Between the arms of the Ered Luin lie wide stretches of highlands, often used by the Dwarves for hunting. 
-Valueline2= Creeps: Hill Troll, Goblin 
-Valueline3= Region: Lindon
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Hill Troll, Goblin 
+Valueline4= Region: Lindon
 
 
 
@@ -87811,7 +87812,7 @@ Value=Eregion
 
 [Map:MAPMPeregion/Desc]
 Value=During the Second Age, Celebrimbor and the elven smiths of Eregion were enticed by Annatar, the "Lord of Gifts," to create the Rings of Power, to their eventual ruin. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg 
 Valueline4= Region: Eriador
 
@@ -87823,9 +87824,36 @@ Value=Eryn Laer
 
 [Map:MAPMPerynlaer/Desc]
 Value=The tall trees of Eryn Laer, the Woods of Song, stand deep in the realm of Lothlórien, the heart of Elvendom in Middle-earth. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll, Warg 
 Valueline4= Region: Rhovanion
+
+
+
+
+[Map:MAPMPerynvorn]
+Value=Eryn Vorn*
+
+
+[Map:MAPMPerynvorn/Desc]
+Value=Eryn Vorn is a wooded region of dark pine trees on the coast of Minhiriath in Eriador. The last remnant of vast forests that once covered Eriador until their deforestation by the Númenóreans, the forest is now home only to scattered hunter-folk.
+Valueline2= Capturable: Signal Fire 
+Valueline3= Creeps: Hill Troll, Warg 
+Valueline4= Region: Eriador
+
+
+
+
+[Map:MAPMPethiranduin]
+Value=Ethir Anduin*
+
+
+[Map:MAPMPethiranduin/Desc]
+Value=This lush, fertile river delta stretches across the lands north of Harondor, where the mighty Anduin finally meets the sea. Its farmlands and fishing settlements endure ongoing skirmishes from Gondor and Harad. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Corsair 
+Valueline4= Region: Haradwaith
+
 
 
 
@@ -87834,8 +87862,8 @@ Value=Ethring*
 
 
 [Map:MAPMPethring/Desc]
-Value=Ethring was a major crossing point of the river Ringló, along the main road from Erech to Pelargir. Aragorn and the Oathbreakers crossed the river here during the War of the Ring. 
-Valueline2= Capturable: Outpost, Inn 
+Value=Ethring is a major crossing point of the river Ringló, along the main road from Erech to Pelargir. Aragorn and the Oathbreakers crossed the river here during the War of the Ring. 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg, Goblin 
 Valueline4= Region: Gondor
 
@@ -87847,10 +87875,9 @@ Value=Ettenmoors
 
 [Map:MAPMPettenmoors/Desc]
 Value=A mountainous, wild land north of Rivendell, consisting of rocky valleys reaching into the foothills of the Misty Mountains. 
-Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Goblin, Barrow Wight, Hill Troll 
-Valueline4= Hazards: Frostbite 
-Valueline5= Region: Misty Mountains
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Goblin, Barrow Wight 
+Valueline4= Region: Misty Mountains
 
 
 
@@ -87860,9 +87887,20 @@ Value=Evendim
 
 [Map:MAPMPevendim/Desc]
 Value=Lake Evendim is a large lake in northern Eriador. After the fall of Númenor, Elendil established the capital of Arnor, Annúminas, on the southern shore of the lake. 
-Valueline2= Capturable: Signal Fire, Outpost, Dock 
+Valueline2= Capturable: Signal Fire, Inn, Dock 
 Valueline3= Creeps: Barrow Wight, Goblin 
 Valueline4= Region: Arnor
+
+
+
+[Map:MAPMPeyrieofperil]
+Value=Eyrie of Peril*
+
+
+[Map:MAPMPeyrieofperil/Desc]
+Value=Deep among the dry bluffs of eastern Haradwaith, the enormous Aicanaroc makes its nest. The sight of its monstrous shadow spells doom, and few interlopers have managed to escape its spear-like talons. 
+Valueline2= Region: Haradwaith
+
 
 
 
@@ -87872,7 +87910,7 @@ Value=Fangorn
 
 [Map:MAPMPfangorn/Desc]
 Value=Fangorn Forest is a deep, dark woodland that grows beneath the southern Misty Mountains, under the eastern flanks of that range. The habitat of the Ents in the Third Age, the forest is named after the oldest Ent, Fangorn. 
-Valueline2= Creeps: Goblin 
+Valueline2= Creeps: Warg, Goblin 
 Valueline3= Region: Rhovanion
 
 
@@ -87883,9 +87921,9 @@ Value=Far Harad
 
 [Map:MAPMPfarharad/Desc]
 Value=Far Harad, a part of the larger region known as Harad, is a distant, unknown land far to the south of Gondor, where dense jungles line the rivers that stretch through the arid deserts of Harad into the sea. 
-Valueline2= Capturable: Signal Fire, Outpost 
-Valueline3= Creeps: Cave Troll, Goblin 
-Valueline4= Region: Harad
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Giant Scorpion, Scorpion 
+Valueline4= Region: Haradwaith
 
 
 
@@ -87895,7 +87933,7 @@ Value=Field of Celebrant*
 
 [Map:MAPMPfieldofcelebrant/Desc]
 Value=The Field of Celebrant lies between the Anduin and Limlight, southeast of Lothlórien. During the Third Age, Eorl the Young rode to the aid of Gondor at the Battle of the Field of Celebrant. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Goblin 
 Valueline4= Region: Rhovanion
 
@@ -87907,7 +87945,7 @@ Value=Field of Cormallen*
 
 [Map:MAPMPfieldofcormallen/Desc]
 Value=The Field of Cormallen is a lush field in North Ithilien, near Henneth Annûn. It is told that the tree culumalda, having yellow flowers, is especially abundant in Cormallen. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Hill Troll, Goblin 
 Valueline4= Region: Gondor
 
@@ -88689,10 +88727,9 @@ Value=Hills of Evendim*
 
 [Map:MAPMPhillsofevendim/Desc]
 Value=A series of hills in northern Eriador, north of the Shire. At its southern end lie the ruins of Annúminas, the first capital of Arnor, at Lake Evendim. 
-Valueline2= Capturable: Outpost 
-Valueline3= Creeps: Barrow Wight 
-Valueline4= Hazards: Fog 
-Valueline5= Region: Arnor
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Goblin 
+Valueline4= Region: Arnor
 
 
 
@@ -89988,6 +90025,18 @@ Valueline3= Region: Arnor (50% Hero Discount)
 
 
 
+[LW:DisplayNameHillsofEvendim]
+Value=Hills of Evendim
+
+
+[Map:MAPWORHillsofEvendim/Desc]
+Value=A series of hills in northern Eriador, north of the Shire. At its southern end lie the ruins of Annúminas, the first capital of Arnor, at Lake Evendim. 
+Valueline2= Subregion: Arthedain (+5 PP, +5% Def) 
+Valueline3= Region: Arnor (50% Hero Discount)
+
+
+
+
 
 
 
@@ -90204,6 +90253,22 @@ Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
+[LW:DisplayNameEregion]
+Value=Eregion
+
+
+[Map:MAPWOREregion/Desc]
+Value=During the Second Age, Celebrimbor and the Noldorin were enticed by Annatar, "Lord of Gifts," to create the Rings of Power; until Sauron was revealed, Celebrimbor slain, and Eregion left in ruin. 
+Valueline2= Subregion: Eregion (+5 PP,+10% Exp) 
+Valueline3= Region: Eriador (-100 Unit Discount)
+
+
+
+
+
+
+
+
 [LW:DisplayNameTrollshaws]
 Value=Trollshaws
 
@@ -90406,6 +90471,30 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameFarHarad]
+Value=Far Harad
+
+
+[Map:MAPWORFarHarad/Desc]
+Value=Far Harad, a part of the larger region known as Harad, is a distant, unknown land far to the south of Gondor, where dense jungles line the rivers that stretch through the arid deserts of Harad into the sea. 
+Valueline2= Subregion: Far Harad (+5 PP) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
+[LW:DisplayNameEthirAnduin]
+Value=Ethir Anduin
+
+
+[Map:MAPWOREthirAnduin/Desc]
+Value=The mighty Anduin finally meets the sea at this fertile delta, north of Harondor. These humble settlements are increasingly abandoned, occupying the disputed lands between Gondor and Harad.
+Valueline2= Subregion: Harondor (+5 PP,+5% Def) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
 
 
 
@@ -90499,10 +90588,14 @@ Valueline3= Region: Lindon (+200 Extra Starting Res)
 Value=Ancient burial grounds of Arnor lie southwest of Bree. After the fall of Rhudaur the Witch-king sent barrow-wights to haunt the hills.
 
 
+[LW:DisplayNameEredLuinHighlands]
+Value=Ered Luin Highlands
 
-[LW:DisplayNameBelfalas]
-Value=Belfalas
 
+[Map:MAPWOREredLuinHighlands/Desc]
+Value=Between the arms of the Ered Luin lie wide stretches of highlands, often used by the Dwarves for hunting. 
+Valueline2= Subregion: Forlindon (+10 PP,+10% Exp)  
+Valueline3= Region: Lindon (+200 Extra Starting Res) 
 
 [Map:MAPWORbelfalas/Desc]
 Value=This coastal region in southern Gondor stretches from the mouth of the Anduin to Dol Amroth, forming a large peninsula that juts out into the Bay of Belfalas.
@@ -90542,8 +90635,15 @@ Value=Buckland was a small but densely populated sliver of land between the Old 
 
 
 
-[LW:DisplayNameCairAndros]
-Value=Cair Andros
+
+[LW:DisplayNameEttenmoors]
+Value=Ettenmoors
+
+
+[Map:MAPWOREttenmoors/Desc]
+Value=A mountainous, wild land north of Rivendell, consisting of rocky valleys reaching into the foothills of the Misty Mountains. 
+Valueline2= Subregion: Angmar (+5 PP,+5% Atk)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
 
 [Map:MAPWORcairandros/Desc]
@@ -90770,7 +90870,14 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
+[LW:DisplayNameFangorn]
+Value=Fangorn
 
+
+[Map:MAPWORFangorn/Desc]
+Value=Fangorn Forest is a dark, ancient wood that grows beneath the southern Misty Mountains. The habitat of the Ents in the Third Age, the forest is named after the oldest Ent, Fangorn. 
+Valueline2= Subregion: Brown Lands (+5 PP,+5% Exp) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
@@ -90791,6 +90898,22 @@ Value=Dol Guldur
 [Map:MAPWORDolGuldur/Desc]
 Value=A dark and tortured ruin on Amon Lanc, inhabited by a Necromancer whose influence causes sickness and death to fall over Greenwood. 
 Valueline2= Subregion: Dol Guldur (+5 PP,+5% Atk) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
+
+
+
+
+
+
+
+
+[LW:DisplayNameFieldCelebrant]
+Value=Field of Celebrant
+
+
+[Map:MAPWORFieldofCelebrant/Desc]
+Value=The Field of Celebrant lies to the southeast of Lothlórien's border. During the Third Age, this was the site of the Battle of the Field of Celebrant, where Eorl the Young rode to the aid of Gondor. 
+Valueline2= Subregion: Lothlórien (+5 PP,+10% Def) 
 Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
@@ -91034,8 +91157,8 @@ Value=Annúminas
 Value=Fornost
 
 
-[LW:DisplayNameEregion]
-Value=Eregion
+[Map:MAPWORHillsofEvendim]
+Value=Hills of Evendim
 
 
 [Map:MAPWOReregion/Desc]
@@ -91144,9 +91267,9 @@ Value=Forlindon is the name of the northern part of Lindon, north of the Gulf of
 
 
 
+[Map:MAPWOREregion]
+Value=Eregion
 
-[LW:DisplayNameFornost]
-Value=Fornost
 
 
 [Map:MAPWORfornost/Desc]
@@ -91285,11 +91408,13 @@ Value=This aged stronghold is the site of one of the key battles in the War of t
 Value=High Pass
 
 
-[Map:MAPWORhighpass/Desc]
-Value=The High Pass one of two passes over the Misty Mountains, where the Great East Road climbs high into the mountains. Of the two passes, the lower is more travelled by orcs and goblins, hence most travellers use the higher pass.
+
+[Map:MAPWORKarna]
+Value=Kârna
 
 
-
+[Map:MAPWORFarHarad]
+Value=Far Harad
 
 
 [LW:DisplayNameIronHills]
@@ -91300,6 +91425,8 @@ Value=Iron Hills
 Value=The Iron Hills are a range of great hills in the north-east of Wilderland, and the source of the river Carnen, rich in iron. It is home to a Dwarf-realm of the Longbeards.
 
 
+[Map:MAPWOREthirAnduin]
+Value=Ethir Anduin
 
 
 [LW:DisplayNameIsengard]
@@ -91362,12 +91489,10 @@ Value=This forest, also known as the Golden Wood for its Mallorn Trees, is the h
 [Map:MAPWORCapeofForlond]
 Value=Cape of Forlond
 
-[LW:DisplayNameMinasMorgul]
-Value=Minas Morgul
 
+[Map:MAPWOREredLuinHighlands]
+Value=Ered Luin Highlands
 
-[MAP:mapworMinasMorgul/Desc]
-Value=Also known as the Tower of Sorcery, this dark fortress was held by the the leader of the Ringwraiths during the War of the Ring.
 
 
 
@@ -91393,8 +91518,8 @@ Value=Minhiriath is the name of the land between the Brandywine and the Gwathlo 
 Value=Mirkwood
 
 
-[MAP:MAPWorMirkwood/Desc]
-Value=At the beginning of the Third Age Thranduil replaced Oropher as king of the Woodland Realm. The arrival of the Necromancer has caused a darkening of Greenwood, now known as Mirkwood.
+[Map:MAPWOREttenmoors]
+Value=Ettenmoors
 
 
 
@@ -91506,6 +91631,8 @@ Value=East Bight
 Value=Emyn Muil
 
 
+[Map:MAPWORFangorn]
+Value=Fangorn
 
 
 [LW:DisplayNameBrownlands]
@@ -91518,6 +91645,12 @@ Value=The Brown Lands are a vast region east of the Anduin, between Mirkwood and
 
 [Map:MAPWORDolGuldur]
 Value=Dol Guldur
+
+
+
+
+[Map:MAPWORFieldofCelebrant]
+Value=Field of Celebrant
 
 
 
