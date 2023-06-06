@@ -88003,7 +88003,7 @@ Value=Fords of Glanduin*
 
 [Map:MAPMPfordsofglanduin/Desc]
 Value=The Glanduin flows from the Misty Mountains, south of Moria, and borders the regions of Dunland and Eregion. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll, Warg 
 Valueline4= Region: Eriador
 
@@ -88051,8 +88051,8 @@ Value=Forlindon
 
 [Map:MAPMPforlindon/Desc]
 Value=Forlindon is the name of the northern part of Lindon, north of the Gulf of Lune and west of the Blue Mountains. 
-Valueline2= Capturable: Signal Fire, Outpost, Dock 
-Valueline3= Creeps: Goblin, Warg, Hill Troll 
+Valueline2= Capturable: Signal Fire, Inn, Dock 
+Valueline3= Creeps: Goblin, Warg, 
 Valueline4= Region: Lindon
 
 
@@ -88063,10 +88063,9 @@ Value=Forochel
 
 [Map:MAPMPforochel/Desc]
 Value=Forochel is the name given to the frozen and icy tundra in the northern parts of Middle-earth, and especially of the great icebay and the lands surrounding it. 
-Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Snow Troll, Lossoth 
-Valueline4= Hazards: 
-Valueline5= Region: Misty Mountains
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Snow Troll, Warg 
+Valueline4= Region: Forodwaith
 
 
 
@@ -88076,10 +88075,22 @@ Value=Forodwaith
 
 [Map:MAPMPforodwaith/Desc]
 Value=A vast region of ice and snow in the frozen far north of Middle-earth, beyond the Misty Mountains. 
-Valueline2= Capturable: Signal Fire, Outpost 
-Valueline3= Creeps: Mammoth, Lossoth, Snow Troll 
-Valueline4= Hazards: Frostbite 
-Valueline5= Region: Misty Mountains
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Goblin, Snow Troll 
+Valueline4= Region: Forodwaith
+
+
+
+[Map:MAPMPfortressabrakhan]
+Value=Fortress: Abrakhân*
+
+
+[Map:MAPMPfortressabrakhan/Desc]
+Value=The ancient city of Abrakhân ruled this once-fertile valley in ages past, under the rule of its cruel and despotic warlord. These deserted ruins now stir, bringing whispers of a long-forgotten name: Hoarmûrath, the Golden King. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Scorpion 
+Valueline4= Region: Haradwaith
+
 
 
 
@@ -88764,10 +88775,13 @@ Value=Ice Bay of Forochel*
 
 [Map:MAPMPicebayofforochel/Desc]
 Value=These icy northern wastelands surround the distant Ice Bay of Forochel, and a popular fishing spot of the Lossoth. 
-Valueline2= Capturable: Outpost, Inn 
-Valueline3= Creeps: Mammoth, Lossoth, Snow Troll 
-Valueline4= Hazards: Frostbite 
-Valueline5= Region: Misty Mountains
+Valueline2= Capturable: Inn, Dock 
+Valueline3= Creeps: Snow Troll 
+Valueline4= Region: Forodwaith
+
+
+
+
 
 
 
@@ -90293,6 +90307,38 @@ Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
+
+
+
+
+[LW:DisplayNameIceBayofForochel]
+Value=Ice Bay of Forochel
+
+
+[Map:MAPWORIceBayofForochel/Desc]
+Value=These icy northern wastelands surround the distant Ice Bay of Forochel, and a popular fishing spot of the Lossoth. 
+Valueline2= Subregion: Forochel (+10 PP,+10% Def) 
+Valueline3= Region: Forodwaith (Free Special Units)
+
+
+
+
+
+
+
+
+[LW:DisplayNameForodwaith]
+Value=Forodwaith
+
+
+[Map:MAPWORForodwaith/Desc]
+Value=A vast region of ice and snow in the frozen far north of Middle-earth, beyond the Misty Mountains. 
+Valueline2= Subregion: Northern Wastes (+10 PP,+10% Atk) 
+Valueline3= Region: Forodwaith (Free Special Units)
+
+
+
+
 [LW:DisplayNameAnorien]
 Value=Anórien
 
@@ -90471,6 +90517,22 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameAbrakhan]
+Value=Abrakhân
+
+
+[Map:MAPWORAbrakhan/Desc]
+Value=The ancient city of Abrakhân ruled this once-fertile valley in ages past, under the rule of a cruel, despotic warlord. These ruins now stir, whispering a long-forgotten name: Hoarmûrath, the Golden King. 
+Valueline2= Subregion: Abrakhân (+5 PP) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
+
+
+
+
 [LW:DisplayNameFarHarad]
 Value=Far Harad
 
@@ -90602,12 +90664,14 @@ Value=This coastal region in southern Gondor stretches from the mouth of the And
 
 
 
-[LW:DisplayNameBlackGate]
-Value=The Black Gate
+[LW:DisplayNameForlindon]
+Value=Forlindon
 
 
 [Map:MAPWORForlindon/Desc]
 Value=Forlindon is the name of the coastal lands north of the Gulf of Lune and the Grey Havens, and west of the Blue Mountains. 
+Valueline2= Subregion: Forlindon (+10 PP,+10% Exp)  
+Valueline3= Region: Lindon (+200 Extra Starting Res) 
 
 
 
@@ -90923,6 +90987,18 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
+[LW:DisplayNameTheForestGate]
+Value=The Forest Gate
+
+
+[Map:MAPWORTheForestGate/Desc]
+Value=The Forest Gate is the western entrance to the Elf-path that leads across Mirkwood to the Elvenking's Halls. Here Thorin's Company entered Mirkwood in their quest to reclaim Erebor. 
+Valueline2= Subregion: Woodland Realm (+5 PP,+5% Atk,+5% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
+
+
+
+
 [LW:DisplayNameHallsElvenking]
 Value=Halls of the Elvenking
 
@@ -91051,6 +91127,14 @@ Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
 
 
 
+[LW:DisplayNameFordsofIsen]
+Value=Fords of Isen
+
+
+[Map:MAPWORFordsofIsen/Desc]
+Value=The river Isen passes between Isengard and Helm's Deep. Many travellers journeying to and from the Gap of Rohan cross the mighty river at this shallow point. 
+Valueline2= Subregion: Isen (+10% Res,+5 PP) 
+Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
 
 
 
@@ -91301,8 +91385,8 @@ Value=Rivendell
 Value=Tûli-mâ
 
 
-[LW:DisplayNameGapofRohan]
-Value=Gap of Rohan
+[Map:MAPWORIceBayofForochel]
+Value=Ice Bay of Forochel
 
 
 [Map:MAPWORItama]
@@ -91401,6 +91485,8 @@ Value=Pelargir
 [Map:MAPWORhelmsdeep/Desc]
 Value=This aged stronghold is the site of one of the key battles in the War of the Ring. No enemy has ever defeated the defenders of the walls of the fortress, or entered its keep, the Hornburg.
 
+[Map:MAPWORAbrakhan]
+Value=Abrakhân
 
 
 
@@ -91494,6 +91580,8 @@ Value=Cape of Forlond
 Value=Ered Luin Highlands
 
 
+[Map:MAPWORForlindon]
+Value=Forlindon
 
 
 [LW:DisplayNameMinasTirith]
@@ -91655,6 +91743,10 @@ Value=Field of Celebrant
 
 
 
+[Map:MAPWORTheForestGate]
+Value=The Forest Gate
+
+
 [Map:MAPWORHallsoftheElvenking]
 Value=Halls of the Elvenking
 
@@ -91716,6 +91808,8 @@ Value=Eastfold
 Value=Eaves of Fangorn
 
 
+[Map:MAPWORFordsofIsen]
+Value=Fords of Isen
 
 
 [Map:MAPWORIsengard]
