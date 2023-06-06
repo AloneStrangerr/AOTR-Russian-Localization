@@ -88113,8 +88113,7 @@ Value=Fortress: Barrow of Cárgast*
 [Map:MAPMPfortressbarrowofcargast/Desc]
 Value=This is the ancient resting place of a great warrior-king, corrupted by foul necromancy. The restless dead now congregate near it under the leadership of Cárgast, the Lord of Bones. 
 Valueline2= Creeps: Warg, Spider 
-Valueline3= Hazards: Fog 
-Valueline4= Region: Rhovanion
+Valueline3= Region: Rhovanion
 
 
 
@@ -88135,7 +88134,7 @@ Value=Fortress: Carn Dûm*
 
 [Map:MAPMPfortresscarndum/Desc]
 Value=Carn Dûm was the capital and chief fortress of the Witch-king's realm of Angmar. It was located at the western end of the Mountains of Angmar, the north-western extension of the Misty Mountains. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Outpost, Inn 
 Valueline3= Region: Misty Mountains
 
 
@@ -88147,7 +88146,7 @@ Value=Fortress: Dimrill Gate*
 
 [Map:MAPMPfortressdimrillgate/Desc]
 Value=The East-gate of Moria is the original entrance into Khazad-dûm in the Dimrill Dale, where Durin had his vision in the Kheled-zâram. 
-Valueline2= Capturable: Outpost, Silver Mine, Durin's Stone 
+Valueline2= Capturable: Signal Fire, Outpost 
 Valueline3= Creeps: Goblin 
 Valueline4= Region: Misty Mountains
 
@@ -88158,7 +88157,7 @@ Value=Fortress: Dol Amroth*
 
 
 [Map:MAPMPfortressdolamroth/Desc]
-Value=Chief city and port int he fiefdom of Belfalas in southern Gondor. Dol Amroth was located on the coast of the Bay of Belfalas on a high promontory overlooking the inlet called Cobas Haven. 
+Value=Chief city and port in the fiefdom of Belfalas in southern Gondor. Dol Amroth is located on the coast of the Bay of Belfalas on a high promontory overlooking the inlet called Cobas Haven. 
 Valueline2= Capturable: Outpost, Inn, Dock 
 Valueline3= Creeps: Barrow Wight 
 Valueline4= Region: Gondor
@@ -88189,13 +88188,14 @@ Valueline4= Region: Mordor
 
 
 
+
 [Map:MAPMPfortressedennogrod]
 Value=Fortress: Edennogrod*
 
 
 [Map:MAPMPfortressedennogrod/Desc]
-Value=Edennogrod (New Nogrod) was in the Blue Mountains, a mountain range at the far west of Eriador. It became the new home for many of Durin's Folk who were exiled from their halls in Erebor by Smaug the Dragon. 
-Valueline2= Capturable: Signal Fire, Outpost 
+Value=Edennogrod (New Nogrod) lies in the Blue Mountains, a mountain range at the far west of Eriador. It became the new home for many of Durin's Folk who were exiled from their halls in Erebor by Smaug the Dragon. 
+Valueline2= Capturable: Signal Fire, Outpost, Inn 
 Valueline3= Creeps: Fire Drake, Goblin 
 Valueline4= Region: Lindon
 
@@ -88229,7 +88229,7 @@ Value=Fortress: Fornost Erain*
 
 
 [Map:MAPMPfortressfornost/Desc]
-Value=Norbury of the Kings, standing at the south end of North Downs, was a second capital of Arnor and seat of kings of Arthedain. 
+Value=Fornost, Norbury of the Kings, stood at the south end of North Downs, and was a second capital of Arnor and seat of kings of Arthedain. 
 Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Region: Arnor
 
@@ -88243,8 +88243,7 @@ Value=Fortress: Framsburg*
 Value=The reclaimed ancestral home of the Éothéod was founded at the confluence of the Greylin and Langwell rivers, in the mountainous valleys from which the Anduin flows south. 
 Valueline2= Capturable: Signal Fire, Outpost 
 Valueline3= Creeps: Hill Troll, Barrow Wight, Warg 
-Valueline4= Hazards: Fog 
-Valueline5= Region: Rhovanion
+Valueline4= Region: Rhovanion
 
 
 
@@ -88351,7 +88350,7 @@ Value=Fortress: The Last Homely House*
 
 
 [Map:MAPMPfortresslasthomelyhouse/Desc]
-Value=Rivendell, or Imladris, was an Elven haven in the Misty Mountains on the eastern edge of Eriador. Because of its location, it was called "The Last Homely House East of the Sea" for travellers heading west across the Misty Mountains into Rhovanion. 
+Value=Rivendell, or Imladris, is an Elven haven in the Misty Mountains on the eastern edge of Eriador. Because of its location, it is called "The Last Homely House East of the Sea" for travellers heading west across the Misty Mountains into Rhovanion. 
 Valueline2= Capturable: Outpost, Inn 
 Valueline3= Region: Eriador
 
@@ -88362,8 +88361,8 @@ Value=Fortress: Minas Morgul*
 
 
 [Map:MAPMPfortressminasmorgul/Desc]
-Value=Also known as the Tower of Sorcery, this dark fortress was held by the the leader of the Ringwraiths during the War of the Ring. 
-Valueline2= Capturable: Signal Fire, Outpost 
+Value=Also known as the Tower of Sorcery, this dark fortress is now held by the the leader of the Ringwraiths, the Witch-king. 
+Valueline2= Capturable: Signal Fire, Outpost, Inn 
 Valueline3= Creeps: Goblin 
 Valueline4= Region: Mordor
 
@@ -88398,7 +88397,7 @@ Value=Fortress: The Angle*
 
 
 [Map:MAPMPfortresstheangle/Desc]
-Value='The Angle' was the name given to the wedge of land between the rivers Hoarwell and Loudwater, south of the Trollshaws. After the Fall of Arnor, the Angle became inhabited by the scattered remaining Dúnedain. 
+Value='The Angle' is the name given to the wedge of land between the rivers Hoarwell and Loudwater, south of the Trollshaws. After the Fall of Arnor, the Angle became inhabited by the scattered remaining Dúnedain. 
 Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll, Warg, Goblin 
 Valueline4= Region: Eriador
@@ -88413,7 +88412,7 @@ Value=Fortress: The Dwarf Hold*
 
 [Map:MAPMPfortressthedwarfhold/Desc]
 Value=This ancient Dwarf-hold was hewn out of the living rock by a team of legendary craftsmen. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg 
 Valueline4= Region: Erebor
 
@@ -88425,7 +88424,7 @@ Value=Fortress: Thorin's Halls*
 
 [Map:MAPMPfortressthorinshalls/Desc]
 Value=Many of Durin's Folk led by Thorin Oakenshield settled in the Blue Mountains at the far west of Eriador, following their flight from Erebor and the destruction brought by Smaug the Dragon. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Outpost, Inn 
 Valueline3= Creeps: Cave Troll 
 Valueline4= Region: Lindon
 
@@ -88461,8 +88460,7 @@ Value=Foundations of Stone*
 [Map:mapmpfoundationsofstone/Desc]
 Value=This deepest region of Moria is a shadowy abyss, a chilling, vast, and strange place made of twisted stones, woeful waters, and creeping fog. 
 Valueline2= Creeps: Goblin, Fire Wyrm, Nameless Things 
-Valueline3= Hazards: Poisionous Fumes 
-Valueline4= Region: Misty Mountains
+Valueline3= Region: Misty Mountains
 
 
 
@@ -88484,7 +88482,7 @@ Value=Gardens of Lórien*
 
 [Map:MAPMPgardensoflorien/Desc]
 Value=Within the woods of Lothlórien are plentiful gardens where the crops of the elves are grown. 
-Valueline2= Capturable: Outpost, Inn 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll, Warg 
 Valueline4= Region: Rhovanion
 
@@ -88495,7 +88493,7 @@ Value=Gladden Fields*
 
 
 [Map:MAPMPgladdenfields/Desc]
-Value=This marshland along the Anduin was the location where High King Isildur was slain by a party of Orcs and the One Ring was lost for centuries.  
+Value=This marshland along the Anduin is the location where High King Isildur was slain by a party of Orcs and the One Ring was lost for centuries. 
 Valueline2= Creeps: Warg, Goblin 
 Valueline3= Region: Rhovanion
 
@@ -89471,7 +89469,7 @@ Value=Ruins of Carn Dûm*
 
 [Map:MAPMPruinsofcarndum/Desc]
 Value=Once great fortress of the Witch-king of Angmar, Carn Dûm is now a ruin overtaken by wilderness and inhabited only by scattered bands of goblins. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Outpost, Inn 
 Valueline3= Creeps: Goblin, Barrow Wight 
 Valueline4= Region: Misty Mountains
 
@@ -89919,10 +89917,9 @@ Value=Weathertop*
 
 [Map:MAPMPweathertop/Desc]
 Value=The ancient tower of Amon Sûl once held one of the palantíri of Arnor. Destroyed by the forces of the Witch-king of Angmar long ago, now all that remains is a ring of broken stonework. 
-Valueline2= Capturable: Weathertop, Inn 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Stone Troll 
-Valueline4= Hazards: Fog 
-Valueline5= Region: Arnor
+Valueline4= Region: Arnor
 
 
 
@@ -90095,6 +90092,22 @@ Valueline3= Region: Arnor (50% Hero Discount)
 
 
 
+
+
+
+
+[LW:DisplayNameWeathertop]
+Value=Weathertop
+
+
+[Map:MAPWORWeathertop/Desc]
+Value=The ancient Tower of Amon Sûl was built to hold one of the palantíri of Arnor. Destroyed by the forces of the Witch-king of Angmar long ago, now all that remains is a ring of broken stonework. 
+Valueline2= Subregion: Weather Hills (+10 PP) 
+Valueline3= Region: Arnor (50% Hero Discount)
+
+
+
+
 [LW:DisplayNameDunfearn]
 Value=Dunfearn
 
@@ -90171,6 +90184,14 @@ Valueline3= Region: Enedwaith (+5% Exp, Free Special Units)
 
 
 
+[LW:DisplayNameIronfootsHalls]
+Value=Ironfoot's Halls
+
+
+[Map:MAPWORIronfootsHalls/Desc]
+Value=Deep within the jagged red rocks of the Iron Hills lie the heavily fortified halls Dáin II Ironfoot and hardy warriors of Durin's folk, close kin of the Dwarves of Erebor. 
+Valueline2= Subregion: Iron Hills (+10% Res,+5 PP) 
+Valueline3= Region: Erebor (+5 PP,+5% Def,+200 Extra Starting Res)
 
 
 
@@ -90283,6 +90304,22 @@ Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
+[LW:DisplayNameTheAngle]
+Value=The Angle
+
+
+[Map:MAPWORTheAngle/Desc]
+Value='The Angle' is the name given to the wedge of land between the rivers Hoarwell and Loudwater, south of the Trollshaws. After the Fall of Arnor, the Angle became inhabited by the scattered remaining Dúnedain. 
+Valueline2= Subregion: Rhudaur (+5 PP,+5% Atk) 
+Valueline3= Region: Eriador (-100 Unit Discount)
+
+
+
+
+
+
+
+
 [LW:DisplayNameTrollshaws]
 Value=Trollshaws
 
@@ -90301,6 +90338,18 @@ Value=Fords of Bruinen
 
 [Map:MAPWORFordsofBruinen/Desc]
 Value=The River Bruinen flows down from the Misty Mountains and surrounds the Elven haven of Rivendell. The crossing point at its ford is under the power and protection of Elrond and his ring Vilya. 
+Valueline2= Subregion: Rivendell (+5 PP,+10% Def) 
+Valueline3= Region: Eriador (-100 Unit Discount)
+
+
+
+
+[LW:DisplayNameRivendell]
+Value=Rivendell
+
+
+[Map:MAPWORRivendell/Desc]
+Value=Rivendell, or Imladris, is an Elven haven on the eastern edge of Eriador. It is called "The Last Homely House East of the Sea" for travellers heading west across the Misty Mountains into Rhovanion. 
 Valueline2= Subregion: Rivendell (+5 PP,+10% Def) 
 Valueline3= Region: Eriador (-100 Unit Discount)
 
@@ -90497,6 +90546,14 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameDolAmroth]
+Value=Dol Amroth
+
+
+[Map:MAPWORDolAmroth/Desc]
+Value=Chief city and port int he fiefdom of Belfalas in southern Gondor. Dol Amroth is located on the coast of the Bay of Belfalas on a high promontory overlooking the inlet called Cobas Haven. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
@@ -90693,6 +90750,18 @@ Value=Grey Havens
 [Map:MAPWORGreyHavens/Desc]
 Value=The Grey Havens are a seaport on the Gulf of Lune, founded during the Second Age by the Elves of Lindon, and used by the Elves to leave Middle-earth for Valinor in the West. 
 
+[LW:DisplayNameThorinsHalls]
+Value=Thorin's Halls
+
+
+[Map:MAPWORThorinsHalls/Desc]
+Value=Many of Durin's Folk led by Thorin Oakenshield settled in the Blue Mountains at the far west of Eriador, following their flight from Erebor and the destruction brought by Smaug the Dragon. 
+Valueline2= Subregion: Harlindon (+5 PP,+10% Exp) 
+Valueline3= Region: Lindon (+200 Extra Starting Res) 
+
+
+
+
 
 [Map:MAPWORbuckland/Desc]
 Value=Buckland was a small but densely populated sliver of land between the Old Forest and the east bank of the Brandywine river, inhabited by Hobbits from the Shire, including the Brandybuck family.
@@ -90742,8 +90811,10 @@ Value=One of the lost realms of Arnor, Cardolan lies between the rivers Brandywi
 Value=Carn Dûm
 
 
-[Map:MAPWORcarndum/Desc]
-Value=Once great fortress of the Witch-king of Angmar, Carn Dûm is now a ruin overtaken by wilderness and inhabited only by scattered bands of goblins.
+[Map:MAPWORCarnDum/Desc]
+Value=Once great fortress of the Witch-king of Angmar, Carn Dûm is now a ruin overtaken by wilderness and inhabited only by scattered bands of goblins. 
+Valueline2= Subregion: Angmar (+5 PP,+5% Atk)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
 
 
@@ -90880,6 +90951,14 @@ Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
 
 
+[LW:DisplayNameMinasMorgul]
+Value=Minas Morgul
+
+
+[Map:MAPWORMinasMorgul/Desc]
+Value=Also known as the Tower of Sorcery, this dark fortress is now held by the the leader of the Ringwraiths, the Witch-king. 
+Valueline2= Subregion: Ephel Dúath (+5 PP,+10% Atk) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
 
 
@@ -90892,6 +90971,34 @@ Value=Ered Lithui
 Value=A great ashy plain that lies to the north-east of Barad-dûr in Mordor. 
 Valueline2= Subregion: Gorgoroth (+10 PP,+5% Atk) 
 Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
+
+
+
+
+
+
+
+
+[LW:DisplayNameFramsburg]
+Value=Framsburg
+
+
+[Map:MAPWORFramsburg/Desc]
+Value=The reclaimed ancestral home of the Éothéod was founded at the confluence of the Greylin and Langwell rivers, in the mountainous valleys from which the Anduin flows south. 
+Valueline2= Subregion: Anduin (+5 PP) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
+
+
+
+
+[LW:DisplayNameGladdenFields]
+Value=Gladden Fields
+
+
+[Map:MAPWORGladdenFields/Desc]
+Value=This marshland along the Anduin is the location where High King Isildur was slain by a party of Orcs and the One Ring was lost for centuries. 
+Valueline2= Subregion: Anduin (+5 PP) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
@@ -91151,6 +91258,14 @@ Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
 
 
 
+[LW:DisplayNameGapofRohan]
+Value=Gap of Rohan
+
+
+[Map:MAPWORGapofRohan/Desc]
+Value=Between the Misty Mountains and the White Mountains flows the river Isen, which forms the western boundary of Rohan. Access through the Gap is guarded by the fortress of Isengard, controlled by Saruman. 
+Valueline2= Subregion: Isen (+10% Res,+5 PP) 
+Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
 
 
 
@@ -91269,8 +91384,12 @@ Value=A mountainous, wild land north of Rivendell, consisting of rocky valleys r
 
 
 
+[Map:MAPWORWeatherHills]
+Value=Weather Hills
 
 
+[Map:MAPWORWeathertop]
+Value=Weathertop
 
 
 [Map:MAPWORDunfearn]
@@ -91301,6 +91420,8 @@ Value=Greyflood
 Value=Drúwaith Iaur
 
 
+[Map:MAPWORIronfootsHalls]
+Value=Ironfoot's Halls
 
 
 [Map:MAPWORIronFoothills]
@@ -91361,9 +91482,9 @@ Value=Destroyed by the Witch-King of Angmar centuries ago, Fornost is a ruined a
 
 
 
+[Map:MAPWORTheAngle]
+Value=The Angle
 
-[LW:DisplayNameForodwaith]
-Value=Forodwaith
 
 [Map:MAPWORRhudaur]
 Value=Rhudaur
@@ -91469,6 +91590,8 @@ Value=Southern Ithilien
 Value=Erech
 
 
+[Map:MAPWORDolAmroth]
+Value=Dol Amroth
 
 
 [Map:MAPWORPelargir]
@@ -91592,9 +91715,9 @@ Value=Minas Tirith
 Value=Grey Havens
 
 
+[Map:MAPWORThorinsHalls]
+Value=Thorin's Halls
 
-[LW:DisplayNameMinhiriath]
-Value=Minhiriath
 
 
 [MAP:mapworMinhiriath/Desc]
@@ -91620,6 +91743,8 @@ Value=Coldfells
 [MAP:mapworMountDoom/Desc]
 Value=Mount Doom, or Orodruin, was a volcano in Mordor within which Sauron willed the heart of the earth into his dark sorceries and forging of the One Ring.
 
+[Map:MAPWORCarnDum]
+Value=Carn Dûm
 
 
 [Map:MAPWORMountGundabad]
@@ -91698,9 +91823,12 @@ Value=The North Downs are a range of hills in northern Eriador, east of the Hill
 Value=Northern Ithilien
 
 
-[MAP:mapworNorthernIthilien/Desc]
-Value=The northern lands of Gondor, where Faramir first encountered Frodo and Sam, on their journey to Mordor.
+[Map:MAPWORFramsburg]
+Value=Framsburg
 
+
+[Map:MAPWORGladdenFields]
+Value=Gladden Fields
 
 
 [LW:DisplayNameNorthernMirkwood]
@@ -91816,8 +91944,8 @@ Value=Fords of Isen
 Value=Isengard
 
 
-[MAP:mapworRhudaur/Desc]
-Value=Rhudaur was the smallest of the three kingdoms that originated from the breaking of the kingdom of Arnor. Later controlled by Angmar, until its defeat at the Battle of Fornost, it became home to the remainder of the Dúnedain and the Rangers of the North.
+[Map:MAPWORGapofRohan]
+Value=Gap of Rohan
 
 
 [Map:MAPWORDunharrow]
@@ -91853,14 +91981,18 @@ Value=Rohan is the kingdom and territory of the Rohirrim, a people of herdsmen a
 
 
 
+[Map:MAPWORLAFornost]
+Value=Fornost Erain
 
-[LW:DisplayNameHobitton]
-Value=The Shire
+
+[LW:DisplayNameFornostLA]
+Value=Fornost Erain
 
 
-[Map:MAPWORshire/Desc]
-Value=A green, peaceful land, and home of the Hobbits of Middle-earth.
-
+[Map:MAPWORLAFornost/Desc]
+Value=Fornost Erain stands at the south end of North Downs, and is the second capital of the Kingdom of Arnor. 
+Valueline2= Subregion: Arthedain (+5 PP, +5% Def) 
+Valueline3= Region: Arnor (50% Hero Discount)
 
 
 [LW:DisplayNameSouthernIthilien]
@@ -92001,18 +92133,20 @@ Value=West Emnet
 Value=Westemnet is the westernmost grasslands of Rohan beyond the Entwash. The most important of Rohan's settlements and fortifications lie to the south of the Westemnet, where the White Mountains rise up from the surrounding plains.
 
 
-
-[LW:DisplayNameWestfold]
-Value=Westfold
-
-
-[MAP:mapworWestfold/Desc]
-Value=The western part of Rohan, close to the White Mountains and between the river Isen and the Folde. Following the second Battle of the Fords of Isen, Erkenbrand's forces were scattered and Saruman's host marched through the Westfold towards Helm's Deep.
+[Map:MAPWORFoundationsofStone]
+Value=Foundations of Stone
 
 
+[LW:DisplayNameFoundations]
+Value=Foundations of Stone
 
-[LW:DisplayNameWitheredHeath]
-Value=Withered Heath
+
+[Map:MAPWORFoundationsofStone/Desc]
+Value=The deepest routes that lie beneath the Misty Mountains lead through vast and strange chasms made of twisted stones, shadowy waters, and the dark mountain abyss. 
+Valueline2= Subregion: High Pass (+5 PP)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
+
+
 
 [Map:MAPWORSilvertine]
 Value=Silvertine
