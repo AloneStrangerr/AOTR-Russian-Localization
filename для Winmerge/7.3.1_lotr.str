@@ -84507,36 +84507,47 @@ Valueline3= Left click then left click target area
 Value=The King Unmasked (&V)
 
 [CONTROLBAR:ToolTipTheKingUnmasked]
-Value=Requires Level 10 and The Black Tower of Abrakhân Fortress upgrade 
-Valueline2= Modifier Type: Debuff 
-Valueline3= The Golden King of Harad reveals himself to be Hoarmurath, Third of the Nine. Nearby enemies lose -33% armour and -33% damage. Hoarmurath gains +50% damage 
-Valueline4= Does not stack with other Debuffs 
-Valueline5=Passive ability  
-Valueline6= When activated, a dark mist surrounds the Golden King. Enemies caught within the mist are slowed by 33%,  lose -33% armour and -33% damage and their leaderships are removed 
-Valueline7= Modifier Type: Spell 
-Valueline8= Left click to activate 
-Valueline9= MIST DEBUFF AND DARK TOWER REQUISITE NOT IMPLEMENTED
+Value=Requires Level 10 
+Valueline2= The Golden King of Harad reveals himself to be Hoarmûrath, Third of the Nine 
+Valueline3= Hoarmûrath gains +50% attack damage, plus additional poison damage 
+Valueline4= Enemy units close to Hoarmûrath suffer damage over time 
+Valueline5= Passive ability  
+Valueline6=
+Valueline7= When activated, Hoarmûrath continually summons temporary,
+Valueline8=single Risen Husks from the earth for 60 seconds
+Valueline9=Left click to activate
 
 [CONTROLBAR:GoldenKingVizierLeadership]
 Value=Golden King's Vizier
 
 [CONTROLBAR:ToolTipGoldenKingVizierLeadership]
-Value=Modifier Type: Leadership 
-Valueline2= Units recruited from the Golden King's Pavillion gain +50% Experience, +25% armour and +33% damage 
-Valueline3= Rank 3: leadership expands to include Mahûd units 
-Valueline4=  Rank 6: leadership expands to include Harondor units 
-Valueline5= Rank 10: Leadership expands to include Black Númenórean units and Watchers of Kârna 
+Value=Modifier Type: Leadership
+Valueline2=Tribal and Harondor units gain +15% experience, +15% armour and +15% damage
+Valueline3=Rank 3: leadership expands to include Mahûd units
+Valueline4=Rank 6: leadership expands to include units from the Sanctum of Zigûr
+Valueline5=Rank 10: Leadership expands to include Black Númenórean units
 Valueline6=
-Valueline7= When near the Golden King, the Black Vizier gains +100% armour 
+Valueline7=When near the Golden King, the Black Vizier gains +50% armour
 Valueline8=Passive ability
 
 [CONTROLBAR:VizierEnforcer]
 Value=Enforcer (&R)
 
 [CONTROLBAR:ToolTipVizierEnforcer]
-Value=Requires Level 3
-Valueline2= The Black Vizier commands a Caravan to produce more resources but causes damage over time 
-Valueline3= Left click icon then left click on target
+Value=Requires Level 3 
+Valueline2= Can be cast on a friendly or enemy resource structure to pause production for 60 seconds 
+Valueline3= Spawns a Tribute Chest which can be decommissioned at the Fortress for 250 resources 
+Valueline4= If the Tribute Chest is killed before reaching the Fortress, it drops a treasure chest of 125 resources 
+Valueline5= Left click icon then left click on target
+
+
+[OBJECT:HaradTributeCart]
+Value=Tribute Chest
+
+
+[OBJECT:ArnorSupplyChest]
+Value=Supply Chest
+
 
 [CONTROLBAR:DarkSacrifice]
 Value=Dark Sacrifice (&T)
