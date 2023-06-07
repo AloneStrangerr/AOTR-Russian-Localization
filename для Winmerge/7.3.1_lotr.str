@@ -85233,7 +85233,7 @@ Value=Harbingers of Death
 
 
 [CONTROLBAR:ConstructHaradwaithRisenCarrion]
-Value=Risen Carrion (&E)
+Value=Risen Husk (&E)
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithRisenCarrion]
@@ -85243,7 +85243,7 @@ Valueline3= The sea of sand surrounding the city of Abrakhân is a cursed place. 
 
 
 [OBJECT:HaradwaithRisenCarrion]
-Value=Risen Carrion
+Value=Risen Husk
 
 
 [OBJECT:GiantScorpion]
