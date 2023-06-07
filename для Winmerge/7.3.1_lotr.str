@@ -88522,6 +88522,19 @@ Valueline4= Region: Gondor
 
 
 
+
+[Map:MAPMPgoblintown]
+Value=Goblin Town*
+
+
+[Map:MAPMPgoblintown/Desc]
+Value=Far beneath the Misty Mountains, the Great Goblin rules the disfigured hordes of his domain. Elaborate traps are set in the High Pass to take travellers down, down to Goblin Town. 
+Valueline2= Capturable: Outpost, Inn 
+Valueline3= Creeps: Cave Troll, Goblin 
+Valueline4= Region: Misty Mountains
+
+
+
 [Map:MAPMPgreenway]
 Value=Greenway*
 
@@ -88540,9 +88553,8 @@ Value=Grey Havens
 
 [Map:MAPMPgreyhavens/Desc]
 Value=The Elven harbour from which the Elves of Middle-earth would pass to the West. 
-Valueline2= Capturable: Outpost, Dock 
-Valueline3= Creeps: Cave Troll 
-Valueline4= Region: Lindon
+Valueline2= Capturable: Inn, Dock 
+Valueline3= Region: Lindon
 
 
 
@@ -88552,9 +88564,9 @@ Value=Grey Mountains
 
 [Map:MAPMPgreymountains/Desc]
 Value=A northern range of mountains where goblins and dwarves have battled for many ages.  
-Valueline2= Capturable: Signal Fire, Outpost 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Fire Drake, Goblin 
-Valueline4= Region: Rhovanion
+Valueline4= Region: Misty Mountains
 
 
 
@@ -88577,8 +88589,19 @@ Value=Greylin*
 [Map:MAPMPgreylin/Desc]
 Value=A great branching river that flows south from the Grey Mountains, eventually joining the Anduin near its source. 
 Valueline2= Creeps: Warg, Goblin 
-Valueline3= Hazards: Frostbite 
-Valueline4= Region: Misty Mountains
+Valueline3= Region: Misty Mountains
+
+
+
+[Map:MAPMPgulfoflune]
+Value=Gulf of Lune*
+
+
+[Map:MAPMPgulfoflune/Desc]
+Value=The River Lhûn empties into the wide Gulf of Lune, dividing the region of Lindon into Forlindon and Harlindon. 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Cave Troll, Warg 
+Valueline4= Region: Lindon
 
 
 
@@ -88588,12 +88611,18 @@ Value=Gulf of the Sûrûbeki*
 
 [Map:MAPMPgulfofthesurubeki/Desc]
 Value=The southern shores of the Sea of Rhûn receive sparse rainfall yet rivers from the Ered Lithui support these otherwise dry lands. 
-Valueline2= Capturable: Outpost, Inn 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll 
-Valueline4= Hazards: Fog 
-Valueline5= Region: Rhûn
+Valueline4= Region: Rhûn
 
+Map:MAPMPgrorsvalley
+Value=Grór's Valley*
 
+Map:MAPMPgrorsvalley/Desc
+Value=Named after their founder, Grór's Valley serves as a trade route leading into the Dwarf kingdom of the Iron Hills. 
+Valueline2=Capturable: Inn 
+Valueline3=Creeps: Warg, Troll 
+Valueline4=Region: Erebor
 
 [Map:MAPMPhalifirien]
 Value=Halifirien*
@@ -88601,7 +88630,7 @@ Value=Halifirien*
 
 [Map:MAPMPhalifirien/Desc]
 Value=A hallowed mountain that stands over the border of Rohan and Anórien. It is highest and westernmost of the seven beacons of Gondor, separated from the surrounding White Mountains by a deep cleft. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg 
 Valueline4= Region: Gondor
 
@@ -88613,7 +88642,7 @@ Value=Hall of Oak*
 
 [Map:MAPMPhallofoak/Desc]
 Value=The sacred place of gathering of the woodmen Druids lies deep within the forest, a lush clearing and altar encircled by ancient oaks. 
-Valueline2= Capturable: Altar 
+Valueline2= Capturable: Altar (Signal Fire + Heal) 
 Valueline3= Creeps: Warg, Spider 
 Valueline4= Region: Rhovanion
 
@@ -88625,10 +88654,9 @@ Value=Harad Coast*
 
 [Map:MAPMPharadcoast/Desc]
 Value=Tropical jungles grow dense along the rivers where the arid deserts of Harad meet the sea. Wild Mûmakil are often seen basking in the pools, escaping the burning sun. 
-Valueline2= Capturable: Signal Fire, Dock 
-Valueline3= Creeps: Mûmak, Jungle Troll 
-Valueline4= Hazards: Dehydration 
-Valueline5= Region: Harad
+Valueline2= Capturable: Inn, Dock 
+Valueline3= Creeps: Jungle Troll 
+Valueline4= Region: Haradwaith
 
 
 
@@ -89028,7 +89056,7 @@ Value=Mithlond*
 
 [Map:MAPMPmithlond/Desc]
 Value=The Grey Havens, also known as Mithlond, is a seaport on the Gulf of Lune from which the elves undertake their journey into the West. 
-Valueline2= Capturable: Outpost, Dock 
+Valueline2= Capturable: Inn, Dock 
 Valueline3= Creeps: Hill Troll 
 Valueline4= Region: Lindon
 
@@ -90475,6 +90503,18 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameHalifirien]
+Value=Halifirien
+
+
+[Map:MAPWORHalifirien/Desc]
+Value=A hallowed mountain that stands over the border of Rohan and Anórien. It is highest and westernmost of the seven beacons of Gondor, separated from the surrounding White Mountains by a deep cleft. 
+Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
 
 
 
@@ -90680,6 +90720,18 @@ Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
+[LW:DisplayNameHaradCoast]
+Value=Harad Coast
+
+
+[Map:MAPWORHaradCoast/Desc]
+Value=Tropical jungles grow dense along the rivers where the arid deserts of Harad meet the sea. Wild Mûmakil are often seen basking in the pools, escaping the burning sun. 
+Valueline2= Subregion: Mardrûak (+5% Atk,+5% Exp) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
 
 
 [LW:DisplayNameUmbar]
@@ -90760,6 +90812,11 @@ Value=Grey Havens
 
 [Map:MAPWORGreyHavens/Desc]
 Value=The Grey Havens are a seaport on the Gulf of Lune, founded during the Second Age by the Elves of Lindon, and used by the Elves to leave Middle-earth for Valinor in the West. 
+Valueline2= Subregion: Forlindon (+10 PP,+10% Exp) 
+Valueline3= Region: Lindon (+200 Extra Starting Res) 
+
+
+
 
 [LW:DisplayNameThorinsHalls]
 Value=Thorin's Halls
@@ -90842,12 +90899,28 @@ Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount)
 
 
 
+[LW:DisplayNameGreyMountains]
+Value=Grey Mountains
+
+
+[Map:MAPWORGreyMountains/Desc]
+Value=A northern range of mountains where goblins and dwarves have battled for many ages. 
+Valueline2= Subregion: Gundabad (+5 PP,+10% Atk)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
 
 
 
-[LW:DisplayNameCarnen]
-Value=Carnen
+
+
+[LW:DisplayNameGoblinTown]
+Value=Goblin Town
+
+
+[Map:MAPWORGoblinTown/Desc]
+Value=Far beneath the Misty Mountains, the Great Goblin rules the disfigured hordes of his domain. Elaborate traps are set in the High Pass to take travellers down, down to Goblin Town. 
+Valueline2= Subregion: High Pass (+5 PP)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
 
 
@@ -91129,6 +91202,18 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
+[LW:DisplayNameHallofOak]
+Value=Hall of Oak
+
+
+[Map:MAPWORHallofOak/Desc]
+Value=The sacred place of gathering of the woodmen Druids lies deep within the forest, a lush clearing and altar encircled by ancient oaks. 
+Valueline2= Subregion: Woodland Realm (+5 PP,+5% Atk,+5% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
+
+
+
+
 
 
 
@@ -91371,8 +91456,8 @@ Value=Fornost
 Value=Hills of Evendim
 
 
-[Map:MAPWOReregion/Desc]
-Value=During the Second Age, Celebrimbor and the Noldorin were enticed by Annatar, the "Lord of Gifts," to create the Rings of Power. Later revealed as the Dark Lord Sauron, the Three were taken into hiding, Celebrimbor slain, and Eregion left in ruin.
+[Map:MAPWORNorthDowns]
+Value=North Downs
 
 
 [Map:MAPWORBarrowDowns]
@@ -91383,16 +91468,20 @@ Value=Barrow Downs
 Value=Bree
 
 
+[Map:MAPWORSarnFord]
+Value=Sarn Ford
 
 
 [Map:MAPWORBuckland]
 Value=Buckland
 
 
-[Map:MAPWORettenmoors/Desc]
-Value=A mountainous, wild land north of Rivendell, consisting of rocky valleys reaching into the foothills of the Misty Mountains.
+[Map:MAPWORTheShire]
+Value=The Shire
 
 
+[Map:MAPWORTheOldForest]
+Value=The Old Forest
 
 
 [Map:MAPWORWeatherHills]
@@ -91415,6 +91504,8 @@ Value=Dunland
 Value=Wulfborg
 
 
+[Map:MAPWORFrecalund]
+Value=Frecalund
 
 
 
@@ -91448,8 +91539,6 @@ Value=Iron Hills
 [Map:MAPWOREasternWastes]
 Value=Eastern Wastes
 
-[LW:DisplayNameFordsofBruinen]
-Value=Fords of Bruinen
 
 [Map:MAPWOREsgaroth]
 Value=Esgaroth
@@ -91462,24 +91551,16 @@ Value=Erebor
 [Map:MAPWORCarnen]
 Value=Carnen
 
-[LW:DisplayNameFordsofIsen]
-Value=Fords of Isen
 
 
-[Map:MAPWORfordsofisen/Desc]
-Value=The river Isen passes between Isengard and Helm's Deep. Many travellers journeying to and from the Gap of Rohan cross the mighty river at this shallow point.
 
 [Map:MAPWORCardolan]
 Value=Cardolan
 
 
 
-[LW:DisplayNameForlindon]
-Value=Forlindon
 
 
-[Map:MAPWORforlindon/Desc]
-Value=Forlindon is the name of the northern part of Lindon, north of the Gulf of Lune and west of the Blue Mountains.
 
 
 
@@ -91488,8 +91569,6 @@ Value=Eregion
 
 
 
-[Map:MAPWORfornost/Desc]
-Value=Destroyed by the Witch-King of Angmar centuries ago, Fornost is a ruined and desolate place more commonly known as Deadman's Dike.
 
 
 
@@ -91616,16 +91695,12 @@ Value=Pelargir
 
 
 
-[Map:MAPWORhelmsdeep/Desc]
-Value=This aged stronghold is the site of one of the key battles in the War of the Ring. No enemy has ever defeated the defenders of the walls of the fortress, or entered its keep, the Hornburg.
 
 [Map:MAPWORAbrakhan]
 Value=Abrakhân
 
 
 
-[LW:DisplayNameHighPass]
-Value=High Pass
 
 
 
@@ -91680,8 +91755,8 @@ Value=Dûsalan
 Value=Hîdar
 
 
-[Map:MAPWORlamedon/Desc]
-Value=A series of valleys through which the Ringló and Ciril rivers flowed south. Lamedon is one of the most densely populated fiefdoms of Gondor.
+[Map:MAPWORHaradCoast]
+Value=Harad Coast
 
 
 
@@ -91731,8 +91806,6 @@ Value=Thorin's Halls
 
 
 
-[MAP:mapworMinhiriath/Desc]
-Value=Minhiriath is the name of the land between the Brandywine and the Gwathlo rivers. Although still forested in parts, this once lush region is now barren and bears the scars of ages of felling, burning and war.
 
 
 
@@ -91745,14 +91818,10 @@ Value=Ettenmoors
 
 
 
-[LW:DisplayNameMountDoom]
-Value=Mount Doom
 
 [Map:MAPWORColdfells]
 Value=Coldfells
 
-[MAP:mapworMountDoom/Desc]
-Value=Mount Doom, or Orodruin, was a volcano in Mordor within which Sauron willed the heart of the earth into his dark sorceries and forging of the One Ring.
 
 [Map:MAPWORCarnDum]
 Value=Carn Dûm
@@ -91762,10 +91831,14 @@ Value=Carn Dûm
 Value=Mount Gundabad
 
 
-[MAP:mapworMountGundabad/Desc]
-Value=Gundabad is a mountain in the northern reaches of the Misty Mountains. Revered by the Dwarves, it has long since been overrun by Orcs, much to the everlasting hatred of Durin's Folk.
+[Map:MAPWORGreyMountains]
+Value=Grey Mountains
 
 
+
+
+[Map:MAPWORGoblinTown]
+Value=Goblin Town
 
 
 [Map:MAPWORHighPass]
@@ -91812,12 +91885,8 @@ Value=Ered Lithui
 
 
 
-[LW:DisplayNameNearHarad]
-Value=Near Harad
 
 
-[MAP:MAPWorNearHarad/Desc]
-Value=Near Harad is an inhospitable region to the south of Gondor and Mordor, beyond the River Harnen. The Haradhrim that inhabited the land are long enemies of the Gondorians.
 
 
 
@@ -91825,8 +91894,6 @@ Value=Near Harad is an inhospitable region to the south of Gondor and Mordor, be
 Value=North Downs
 
 
-[MAP:mapworNorthDowns/Desc]
-Value=The North Downs are a range of hills in northern Eriador, east of the Hills of Evendim and north of the Weather Hills. Other than the Rangers of the North, the North Downs remained uninhabited during the end of the Third Age.
 
 
 
@@ -91890,18 +91957,19 @@ Value=The Forest Gate
 Value=Halls of the Elvenking
 
 
-
-[LW:DisplayNameOldFordAnduin]
-Value=Old Ford of Anduin
-
-
-[MAP:mapworOldFordofAnduin/Desc]
-Value=The Anduin flows south between the Misty Mountains and Mirkwood. The Old Forest Road leads from the High Pass and crosses the river at the Old Ford of Anduin.
+[Map:MAPWORHallofOak]
+Value=Hall of Oak
 
 
+[Map:MAPWORMirkwood]
+Value=Mirkwood
 
-[LW:DisplayNameOldForest]
-Value=The Old Forest
+
+[Map:MAPWORNorthernMirkwood]
+Value=Northern Mirkwood
+
+
+
 
 
 
@@ -91966,20 +92034,14 @@ Value=Dunharrow
 [Map:MAPWOREdoras]
 Value=Edoras
 
-[MAP:mapworRhun/Desc]
-Value=Rhûn refers to the little-known eastern lands of Middle-earth. At the shores of the Sea of Rhûn, mannish tribes known as Easterlings lie under the dominion of Sauron, and have led many attacks against Gondor and its allies through the ages.
 
 
 
 
-[LW:DisplayNameRivendell]
-Value=Rivendell
 
 [Map:MAPWORHelmsDeep]
 Value=Helm's Deep
 
-[MAP:mapworRivendell/Desc]
-Value=Rivendell is the hidden sanctuary for the Elves of Eriador. The centerpiece of this city is the House of Elrond.
 
 
 
@@ -92006,8 +92068,6 @@ Valueline2= Subregion: Arthedain (+5 PP, +5% Def)
 Valueline3= Region: Arnor (50% Hero Discount)
 
 
-[LW:DisplayNameSouthernIthilien]
-Value=Southern Ithilien
 
 [Map:MAPWORLAAmonSul]
 Value=Amon Sûl
@@ -92021,8 +92081,6 @@ Value=Amon Sûl
 Value=Swanfleet
 
 
-[MAP:mapworSwanFleet/Desc]
-Value=The Swanfleet is an inland delta in eastern Eriador through which the lower reaches of the Glanduin flow, before joining the Hoarwell. The area is known for its countless bevies of swans.
 
 
 
@@ -92075,12 +92133,8 @@ Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount)
 
 
 
-[LW:DisplayNameTolfalas]
-Value=Tolfalas
 
 
-[MAP:mapworTolfalas/Desc]
-Value=A large island in the Bay of Belfalas beyond the mouth of Anduin. Its sharp southern cape was traditionally considered as marking the southernmost point of Gondor.
 
 
 
@@ -92088,8 +92142,6 @@ Value=A large island in the Bay of Belfalas beyond the mouth of Anduin. Its shar
 Value=Tower Hills
 
 
-[MAP:mapworTowerHills/Desc]
-Value=A range of hills in west Eriador, home to three tall Elven towers, the White Towers. The highest of these is named Elostirion, which houses a palantír.
 
 
 
@@ -92122,8 +92174,6 @@ Value=Northern Greenwood
 
 
 
-[MAP:mapworWeatherHills/Desc]
-Value=The Weather Hills is the name among Men for the north-south range of hills that lay in central Eriador, and in ancient times marked part of the border between the lands of Arthedain and Rhudaur. 
 
 
 
@@ -92136,12 +92186,8 @@ Value=Lórinand
 
 
 
-[LW:DisplayNameWestEmnet]
-Value=West Emnet
 
 
-[MAP:mapworWestEmnet/Desc]
-Value=Westemnet is the westernmost grasslands of Rohan beyond the Entwash. The most important of Rohan's settlements and fortifications lie to the south of the Westemnet, where the White Mountains rise up from the surrounding plains.
 
 
 [Map:MAPWORFoundationsofStone]
