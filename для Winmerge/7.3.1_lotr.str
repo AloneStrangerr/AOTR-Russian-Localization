@@ -88666,9 +88666,34 @@ Value=Harad Oasis
 
 [Map:MAPMPharadoasis/Desc]
 Value=A region deep within Far Harad, where precious pools of water offer refuge from the inhospitable landscape. 
-Valueline2= Capturable: Signal Fire, Outpost, Inn 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll, Goblin 
-Valueline4= Region: Harad
+Valueline4= Region: Haradwaith
+
+
+
+
+[Map:MAPMPharadroad]
+Value=Harad Road*
+
+
+[Map:MAPMPharadroad/Desc]
+Value=The ancient Harad Road leads south from Ithilien, eventually crossing the Harnen River and into the vast arid lands of Haradwaith. Bustling caravans and scattered markets line this vital trade route where merchants, slavers and travellers meet.
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Warg
+Valueline4= Region: Haradwaith
+
+
+
+[Map:MAPMPharfalas]
+Value=Harfalas*
+
+
+[Map:MAPMPharfalas/Desc]
+Value=The headlands of this rocky Harondor coastline were once watched over by an old Gondorian outpost. Now, its ruins only serve as the hideout of smugglers and outlaws. 
+Valueline2= Capturable: Inn, Dock 
+Valueline3= Creeps: Corsair, Hill Troll 
+Valueline4= Region: Haradwaith
 
 
 
@@ -88678,7 +88703,7 @@ Value=Harlindon
 
 [Map:MAPMPharlindon/Desc]
 Value=Harlindon is a green and fair elvish land, located west of the Blue Mountains and south of the Gulf of Lune, which divided Lindon into the northern Forlindon and Harlindon to the south.  
-Valueline2= Capturable: Outpost, Inn, Dock 
+Valueline2= Capturable: Signal Fire, Inn, Dock 
 Valueline3= Creeps: Goblin 
 Valueline4= Region: Lindon
 
@@ -88690,9 +88715,23 @@ Value=Harlond*
 
 [Map:MAPMPharlond/Desc]
 Value=The port of Minas Tirith, located south of the city beyond the Rammas Echor. During the War of the Ring, Aragorn and his company landed at Harlond and swept north into the Battle of the Pelennor Fields. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg, Goblin 
 Valueline4= Region: Gondor
+
+
+
+
+[Map:MAPMPharnen]
+Value=Harnen*
+
+
+[Map:MAPMPharnen/Desc]
+Value=The river Harnen lies to the south of the disputed region of Harondor, and is crossed by the Harad Road before it flows west into the sea. The river marks the northern border of Near Harad and the strange lands of Haradwaith beyond. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Scorpion 
+Valueline4= Region: Haradwaith
+
 
 
 
@@ -88703,7 +88742,7 @@ Value=Harondor*
 [Map:MAPMPharondor/Desc]
 Value=Harondor is a disputed region south of Ithilien, between the rivers Poros and Harnen. Ongoing wars have led to the region's downfall, which is now a deserted land. 
 Valueline2= Creeps: Warg, Goblin 
-Valueline3= Region: Harad
+Valueline3= Region: Haradwaith
 
 
 
@@ -90515,6 +90554,14 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameHarlond]
+Value=Harlond
+
+
+[Map:MAPWORHarlond/Desc]
+Value=A port of Minas Tirith located south of the city beyond the Rammas Echor. During the War of the Ring, Aragorn and his followers landed at Harlond and swept north into the Battle of the Pelennor Fields. 
+Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
@@ -90664,6 +90711,27 @@ Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
+
+[LW:DisplayNameHaradRoad]
+Value=Harad Road
+
+
+[Map:MAPWORHaradRoad/Desc]
+Value=The Harad Road leads south from Ithilien, crossing the Harnen River and into the arid lands of Haradwaith. Bustling caravans and markets line this vital trade route where merchants, slavers and travellers meet. 
+Valueline2= Subregion: Harondor (+5 PP,+5% Def) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
+[LW:DisplayNameHarondor]
+Value=Harondor
+
+
+[Map:MAPWORHarondor/Desc]
+Value=Harondor is a disputed region south of Ithilien, between the rivers Poros and Harnen. Ongoing wars have led to the region's downfall, which is now a deserted land. 
+Valueline2= Subregion: Harondor (+5 PP,+5% Def) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
@@ -90830,6 +90898,32 @@ Valueline3= Region: Lindon (+200 Extra Starting Res)
 
 
 
+[LW:DisplayNameHarlindon]
+Value=Harlindon
+
+
+[Map:MAPWORHarlindon/Desc]
+Value=Harlindon is a green and fair elvish land, located west of the Blue Mountains and south of the Gulf of Lune, which divided Lindon into the northern Forlindon and Harlindon to the south. 
+Valueline2= Subregion: Harlindon (+5 PP,+10% Exp) 
+Valueline3= Region: Lindon (+200 Extra Starting Res) 
+
+
+
+
+[LW:DisplayNameTowerHills]
+Value=Tower Hills
+
+
+[Map:MAPWORTowerHills/Desc]
+Value=A range of hills in west Eriador, home to three tall Elven towers, the White Towers. The highest of these is named Elostirion, which houses a palantír. 
+Valueline2= Subregion: Harlindon (+5 PP,+10% Exp) 
+Valueline3= Region: Lindon (+200 Extra Starting Res) 
+
+
+
+
+[LW:DisplayNameAngmar]
+Value=Angmar
 
 [Map:MAPWORbuckland/Desc]
 Value=Buckland was a small but densely populated sliver of land between the Old Forest and the east bank of the Brandywine river, inhabited by Hobbits from the Shire, including the Brandybuck family.
@@ -91648,8 +91742,9 @@ Value=Minas Tirith
 Value=Halifirien
 
 
-[Map:MAPWORhalifirien/Desc]
-Value=A hallowed mountain that stands over the border of Rohan and Anorien. It is the highest and westernmost of the seven beacons of Gondor, appearing to stand alone due to a deep cleft that separates it from the surrounding White Mountains.
+[Map:MAPWORHarlond]
+Value=Harlond
+
 
 [Map:MAPWORMouthsofEntwash]
 Value=Mouths of Entwash
@@ -91724,8 +91819,8 @@ Value=The Iron Hills are a range of great hills in the north-east of Wilderland,
 Value=Ethir Anduin
 
 
-[LW:DisplayNameIsengard]
-Value=Isengard
+[Map:MAPWORHaradRoad]
+Value=Harad Road
 
 
 [Map:MAPWORisengard/Desc]
@@ -91805,12 +91900,14 @@ Value=Grey Havens
 Value=Thorin's Halls
 
 
+[Map:MAPWORHarlindon]
+Value=Harlindon
 
 
 
 
-[LW:DisplayNameMirkwood]
-Value=Mirkwood
+[Map:MAPWORAngmar]
+Value=Angmar
 
 
 [Map:MAPWOREttenmoors]
@@ -91848,7 +91945,8 @@ Value=High Pass
 [Map:MAPWORDimrillDale]
 Value=Dimrill Dale
 
-[LW:DisplayNameMoria]
+
+[Map:MAPWORMoria]
 Value=Moria
 
 
