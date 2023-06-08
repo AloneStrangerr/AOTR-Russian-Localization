@@ -86092,6 +86092,60 @@ Valueline4= Increases command point limit by 50
 
 Value=Researches weapons and armour upgrades 
 Valueline2= Provides traded goods as a resource based on available terrain 
+
+[CONTROLBAR:ToolTipBuildIstariAcolyte]
+Value=Requires Level 2 Kinn-lai Garrison
+
+
+[CONTROLBAR:ToolTipAcolytePremonitions]
+Value=Modifier Type: Leadership
+Valueline2=Nearby Elves of the Kinn-lai gain +33% crush armour and resistance to fear and terror
+Valueline3=Passive ability
+
+
+
+
+[OBJECT:KinnLaiGarrison]
+Value=Kinn-lai Garrison
+
+
+[CONTROLBAR:ConstructKinnLaiGarrison]
+Value=Build Kinn-lai Garrison (&V)
+
+
+[CONTROLBAR:ConstructKinnLaiGarrisonLevel2]
+Value=Upgrade Kinn-lai Garrison to Level 2 (&A)
+
+
+
+
+[CONTROLBAR:ConstructKinnLaiGarrisonLevel3Upgrade]
+Value=Upgrade Kinn-lai Garrison to Level 3 (&A)
+
+
+[CONTROLBAR:ToolTipBuildKinnLaiGarrisonLevel3Upgrade]
+Value=Allows recruitment of Kinn-lai Masters
+Valueline2= +25% faster build speed
+
+
+
+
+[OBJECT:KinnLaiVeteranHorde]
+Value=Kinn-lai Masters
+
+
+[OBJECT:KinnLaiVeteran]
+Value=Kinn-lai Master
+
+
+[CONTROLBAR:ConstructKinnLaiVeterans]
+Value=Kinn-lai Masters (&R)
+
+
+[CONTROLBAR:ToolTipBuildKinnLaiVeterans]
+Value=Requires Level 3 Kinn-lai Garrison
+Valueline2=Strong vs. Infantry.
+Valueline3= 
 Valueline2=When activated, causes nearby enemies to cower in fear for 15 seconds
 
 [CONTROLBAR:ToolTipPurchaseTechnologyMirkwoodForgedBlades_Dorwinion]
@@ -88752,10 +88806,9 @@ Value=Harrowdale*
 
 [Map:MAPMPharrowdale/Desc]
 Value=Harrowdale is the name given to the deep north-south valley cut into the White Mountains by the Snowbourn River. To the south lies Dunharrow, a refuge point of the Rohirrim. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll, Warg 
-Valueline4= Hazards: Storm 
-Valueline5= Region: Rohan
+Valueline4= Region: Rohan
 
 
 
@@ -88765,9 +88818,9 @@ Value=Highlands of Frecalund*
 
 [Map:MAPMPhighlandsoffrecalund/Desc]
 Value=The highlands of Frecalund are home to King Freca's descendants and lie under the protection of nearby Wulfborg. 
-Valueline2= Capturable: Hunting Lodge, Windmill 
-Valueline3= Creeps: Hill Troll, Warg 
-Valueline4= Region: Eriador
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Warg 
+Valueline4= Region: Enedwaith
 
 
 
@@ -88776,11 +88829,10 @@ Value=High Crag
 
 
 [Map:MAPMPhighcrag/Desc]
-Value=The High Crag lies between steep ridges of the Misty Mountains. Wild goblins and trolls occupy its narrow passes and numerous deep dead-end valleys. 
-Valueline2= Capturable: Signal Fire, Inn 
-Valueline3= Creeps: Snow Troll, Goblin 
-Valueline4= Hazards: Ice Columns, Blizzard 
-Valueline5= Region: Misty Mountains
+Value=The High Crag lies between steep ridges of the Misty Mountains. Wild goblins occupy its narrow passes and numerous deep dead-end valleys. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Goblin 
+Valueline4= Region: Misty Mountains
 
 
 
@@ -88789,10 +88841,10 @@ Value=High Moor*
 
 
 [Map:MAPMPhighmoor/Desc]
-Value=Eastwards from the River Bruinen lies the barren High Moor, a rough, rocky highland that borders the Trollshaws, and Eregion beyond. 
+Value=Westwards from the River Bruinen lies the barren High Moor, a rough, rocky highland that borders the Trollshaws. 
 Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Hill Troll 
-Valueline4= Region: Arnor
+Valueline4= Region: Eriador
 
 
 
@@ -88826,7 +88878,7 @@ Value=Hollin
 
 [Map:MAPMPhollin/Desc]
 Value=Hollin was once home to the famed Elvish jewel-smiths of Eregion, the forgers of the great rings of power. But now the ruins of their great cities stand in silence among the stones. 
-Valueline2= Capturable: Signal Fire, Inn 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll, Warg 
 Valueline4= Region: Eriador
 
@@ -88837,11 +88889,12 @@ Value=Honk's Valley*
 
 
 [Map:MAPMPhonksvalley/Desc]
-Value=A valley named after Honk, a troll-king of remarkably low intelligence. 
-Valueline2= Capturable: Outpost, Inn 
+Value=This icy valley in the far north contains many treacherous ravines, and is named after Honk, a troll-king of remarkably low intelligence. 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Snow Troll 
-Valueline4= Hazards: Blizzard, Frostbite,  
-Valueline5= Region: Misty Mountains
+Valueline4= Region: Forodwaith
+
+
 
 
 
@@ -88858,6 +88911,14 @@ Valueline4= Region: Forodwaith
 
 
 
+[Map:MAPMPifaalafa]
+Value=Ifaa-lafa*
+
+
+[Map:MAPMPifaalafa/Desc]
+Value=According to ancient Mahûddi beliefs, the desolate Ifaa-lafa, or 'Bright Lands' are the realm of mysterious, sleeping pale spirits. Few that enter ever return, and none do so unchanged. 
+Valueline2= Creeps: Goblin 
+Valueline3= Region: Haradwaith
 
 
 
@@ -88871,6 +88932,15 @@ Valueline2= Capturable: Inn
 Valueline3= Creeps: Cave Troll, Goblin 
 Valueline4= Region: Gondor
 
+[Map:MAPMPindela]
+Value=Indela*
+
+
+[Map:MAPMPindela/Desc]
+Value=These baobab trees, locally known as 'mothers of the forest' are the remnants of a great tropical forest that once covered this ancient land.
+Valueline2=Capturable: Inn
+Valueline3=Creeps: Wargs
+Valueline4=Region: Haradwaith
 
 
 [Map:MAPMPironfoothills]
@@ -88891,8 +88961,8 @@ Value=Iron Hills
 
 [Map:MAPMPironhills/Desc]
 Value=The Iron Hills are a range of great hills in the north-east of Wilderland, and the source of the river Carnen, rich in iron. It is home to a Dwarf-realm of the Longbeards. 
-Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Hill Troll, Goblin 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Cave Troll, Goblin 
 Valueline4= Region: Erebor
 
 
@@ -88903,9 +88973,34 @@ Value=Isendale*
 
 [Map:MAPMPisendale/Desc]
 Value=The River Isen runs west from Isengard and the Gap of Rohan, forming shallow crossings in the lands before it empties into the Sea of Belegaer.
-Valueline2= Capturable: Outpost, Inn 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Stone Troll, Goblin 
-Valueline4= Region: Eriador
+Valueline4= Region: Enedwaith
+
+
+
+[Map:MAPMPitama]
+Value=Itä-mâ*
+
+
+[Map:MAPMPitama/Desc]
+Value=Strange stone formations lie amongst the ancient trees of Itä-mâ, ‘East Land’ in the speech of the native Lossoth. This dense forested region borders the Bay of Forochel and the unmapped wilderness of Forodwaith further inland. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Snow Troll 
+Valueline4= Region: Forodwaith
+
+
+
+[Map:MAPMPitakhkhand]
+Value=Itakh-Khand*
+
+
+[Map:MAPMPitakhkhand/Desc]
+Value=These rocky grasslands and rolling foothills on the southern border of Khand are watered by seasonal streams that flow from  mountains in the distant east, known only to the Variag tribes who inhabit its vast plains. 
+Valueline2= Capturable: Signal Fire 
+Valueline3= Creeps: Warg 
+Valueline4= Region: Haradwaith
+
 
 
 
@@ -88915,20 +89010,86 @@ Value=Ithiliant
 
 [Map:MAPMPithiliant/Desc]
 Value=A small range of hills in South Ithilien, an eastern province of Gondor 
-Valueline2= Capturable: Signal Fire, Outpost 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Stone Troll, Warg 
 Valueline4= Region: Gondor
 
+[Map:MAPMPizuhara]
+Izuhara*
+
+
+[Map:MAPMPizuhara/Desc]
+Value=A small village, where members of the ancient Kinn-lai tribe dwell amidst red and perpetually flowering trees
+Valueline2=Creeps: Wargs
+Valueline3=Capturable: Inn
+Valueline4= Region: Rhûn
+
+
+
+[Map:MAPMPjakuru]
+Value=Jä-kuru*
+
+
+[Map:mapmpjakuru/Desc]
+Value=Narrow passages lead through the deep icy ravines of Jä-kuru, 'Canyon of Ice' in the tongue of the Lossoth tribes that inhabit this inhospitable region. 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Warg 
+Valueline4= Region: Forodwaith
+
+
+
+[Map:MAPMPjarannit]
+Value=Jä-rannit*
+
+
+[Map:MAPMPjarannit/Desc]
+Value=Lossoth for 'Ice Coast', the frozen coastline of Jä-rannit borders the dense forests of Itä-mâ, with its great cape forming one end of the Ice Bay of Forochel. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Warg 
+Valueline4= Region: Forodwaith
 
 
 
 
-[Map:MAPMPjunglesofharad/Desc]
-Value=Far Harad, land of the fabled Mûmakil, are known not only for its deserts, but also its vast primordial forests, likened to those that once covered most of Middle-earth. 
-Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Jungle Troll, Warg 
-Valueline4= Hazards: Fog 
-Valueline5= Region: Harad
+
+
+[Map:MAPMPjokusali]
+Value=Jöku-sali*
+
+
+[Map:MAPMPjokusali/Desc]
+Value=Large chunks of glacial ice split from the mainland of Forochel, forming the wide ice floes of Jöku-sali that slowly drift towards the open sea. The treacherous icy landscape is inhabited by great white bears and scattered fishing settlements. 
+Valueline2= Capturable: Dock 
+Valueline3= Region: Forodwaith
+
+
+
+
+
+
+[Map:MAPMPjollyhollin]
+Value=Jolly Hollin*
+
+
+[Map:mapmpjollyhollin/Desc]
+Value=Galion, Master of Wines cordially requests the pleasure of your company at a winter party in honour of his own good self! Be there, or be forever square. 
+Valueline2= Galion's Christmas Cup 2021 
+Valueline3= Capturable: Inn 
+Valueline4= Creeps: Cave Troll, Warg 
+Valueline5= Region: Eriador
+
+
+
+
+[Map:MAPMPkasalan]
+Value=Kâsalan*
+
+
+[Map:MAPMPkasalan/Desc]
+Value=This uninhabited mountain pass in the west of Far Harad springs to life as seasonal rains create numerous streams, cascading waterfalls and shallow pools amongst the otherwise arid landscape. 
+Valueline2= Creeps: Jungle Troll, Goblin 
+Valueline3= Region: Haradwaith
+
 
 
 
@@ -88938,9 +89099,12 @@ Value=Khand*
 
 [Map:MAPMPkhand/Desc]
 Value=Khand is the name of the mysterious land which lies to the south-east of Mordor and to the east of Near Harad. Its mannish tribes included the warlike Variags of Khand. 
-Valueline2= Capturable: Outpost 
-Valueline3= Creeps: Cave Troll, Goblin 
-Valueline4= Region: Harad
+Valueline2= Capturable: Inn 
+Valueline3= Region: Haradwaith
+
+
+
+
 
 
 
@@ -90222,6 +90386,26 @@ Valueline3= Region: Enedwaith (+5% Exp, Free Special Units)
 
 
 
+[LW:DisplayNameFrecalund]
+Value=Frecalund
+
+
+[Map:MAPWORFrecalund/Desc]
+Value=The highlands of Frecalund are home to King Freca's descendants and lie under the protection of nearby Wulfborg. 
+Valueline2= Subregion: Dunland (+10 PP, +10% Atk) 
+Valueline3= Region: Enedwaith (+5% Exp, Free Special Units)
+
+
+
+
+[LW:DisplayNameRegnfells]
+Value=Regnfells
+
+
+[Map:MAPWORRegnfells/Desc]
+Value=Many seasonal streams course through this rocky valley in the Dunnish foothills, once spring arrives and winter snows begin to melt. 
+Valueline2= Subregion: Dunland (+10 PP, +10% Atk) 
+Valueline3= Region: Enedwaith (+5% Exp, Free Special Units)
 
 
 
@@ -90280,6 +90464,18 @@ Value=Iron Foothills
 
 [Map:MAPWORIronFoothills/Desc]
 Value=The Redwater flows south from the mountainous lands of the Iron Hills that border the eastern lands of Rhûn. 
+Valueline2= Subregion: Iron Hills (+10% Res,+5 PP) 
+Valueline3= Region: Erebor (+5 PP,+5% Def,+200 Extra Starting Res)
+
+
+
+
+[LW:DisplayNameIronHills]
+Value=Iron Hills
+
+
+[Map:MAPWORIronHills/Desc]
+Value=The Iron Hills are a range of great hills in the north-east of Wilderland, and the source of the river Carnen, rich in iron. It is home to a Dwarf-realm of the Longbeards. 
 Valueline2= Subregion: Iron Hills (+10% Res,+5 PP) 
 Valueline3= Region: Erebor (+5 PP,+5% Def,+200 Extra Starting Res)
 
@@ -90378,6 +90574,18 @@ Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
+[LW:DisplayNameHollin]
+Value=Hollin
+
+
+[Map:MAPWORHollin/Desc]
+Value=Hollin was once home to the famed Elvish jewel-smiths of Eregion, the forgers of the great rings of power. But now the ruins of their great cities stand in silence among the stones. 
+Valueline2= Subregion: Eregion (+5 PP,+10% Exp) 
+Valueline3= Region: Eriador (-100 Unit Discount)
+
+
+
+
 
 
 
@@ -90460,6 +90668,18 @@ Value=Forodwaith
 
 [Map:MAPWORForodwaith/Desc]
 Value=A vast region of ice and snow in the frozen far north of Middle-earth, beyond the Misty Mountains. 
+Valueline2= Subregion: Northern Wastes (+10 PP,+10% Atk) 
+Valueline3= Region: Forodwaith (Free Special Units)
+
+
+
+
+[LW:DisplayNameJotunstath]
+Value=Honk's Valley
+
+
+[Map:MAPWORJotunstath/Desc]
+Value=This icy valley in the far north contains many treacherous ravines, and is named after Honk, a troll-king of remarkably low intelligence. 
 Valueline2= Subregion: Northern Wastes (+10 PP,+10% Atk) 
 Valueline3= Region: Forodwaith (Free Special Units)
 
@@ -90748,6 +90968,26 @@ Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
+[LW:DisplayNameKhand]
+Value=Khand
+
+
+[Map:MAPWORKhand/Desc]
+Value=Khand is the name of the mysterious land which lies to the south-east of Mordor and to the east of Near Harad. Its mannish tribes included the warlike Variags of Khand. 
+Valueline2= Subregion: Khand (+5 PP,+5% Exp) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
+[LW:DisplayNameItakhKhand]
+Value=Itakh-Khand
+
+
+[Map:MAPWORItakhKhand/Desc]
+Value=The rocky grasslands and rolling hills of southern Khand are watered by seasonal streams that flow from mountains in the east; lands known only to the Variag tribes who inhabit its vast plains. 
+Valueline2= Subregion: Khand (+5 PP,+5% Exp) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
@@ -91835,8 +92075,9 @@ Value=Borders of Khand
 Value=Khand
 
 
-[Map:MAPWORkhand/Desc]
-Value=Khand is the name of the mysterious land which lies to the south-east of Mordor and to the east of Near Harad. Its mannish tribes included the warlike Variags of Khand.
+[Map:MAPWORItakhKhand]
+Value=Itakh-Khand
+
 
 [Map:MAPWORCapeofMardruak]
 Value=Cape of Mardrûak
