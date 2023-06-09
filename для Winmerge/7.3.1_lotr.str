@@ -84554,9 +84554,9 @@ Value=Dark Sacrifice (&T)
 
 [CONTROLBAR:ToolTipVizierDarkSacrifice]
 Value=Requires Level 6
-Valueline2= Modifier Type: Spell 
-Valueline3= The Black Vizier brands friendly units within the radius as traitors to Melkor, killing them and providing remaining friendly units +50% attack damage for a short time 
-Valueline4= Left click icon then left click on target
+Valueline2= Modifier Type: Spell
+Valueline3= Targeted allied units gain +50% damage for 30 seconds
+Valueline4= Left click icon then left click on target units
 
 [CONTROLBAR:ArbiterofFaith]
 Value=Arbiter of Faith (&C)
@@ -84564,9 +84564,23 @@ Value=Arbiter of Faith (&C)
 [CONTROLBAR:ToolTipArbiterofFaith]
 Value=Requires Level 9 
 Valueline2= Modifier Type: Spell 
-Valueline3= Syâr-Rhul spreads the faith to a target hero. If used on an allied hero, they temporarily have double experience gain and their abilities will cool down 50% faster. If used on an enemy hero, they will temporarily be unable to gain experience and their abilities will cool down 50% slower. 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Left click icon then left click on target hero
+Valueline3= Syâr-Rhul spreads the faith to a target hero
+Valueline4=
+Valueline5=If used on an allied hero, they gain double experience gain and their abilities will cool down 50% faster for 60 seconds
+Valueline6=Summons two Hasharin Blades to defend target allied hero
+Valueline7=
+Valueline8=If used on an enemy hero, they will be unable to gain experience and their abilities will cool down 50% slower for 60 seconds
+Valueline9=Summons two Hasharin Blades to attack target enemy hero
+Valueline10=
+Valueline11=Left click icon then left click on target hero
+
+[CONTROLBAR:SyarRhulKingsFavor]
+Value=False Promises (&V)
+
+[CONTROLBAR:ToolTipSyarRhulKingsFavor]
+Value=Requires Level 10 
+Valueline2= Give targeted units excellent experience 
+Valueline3= Left click icon then left click on target units
 
 
 [OBJECT:HaradPorter]
@@ -84576,6 +84590,24 @@ Value=Architect
 Value=Architect
 
 
+[CONTROLBAR:MumakUpgrades]
+Value=Mahûddin Warcraft (&R)
+
+[CONTROLBAR:MumakUpgradesBack]
+Value=Back (&W)
+
+[CONTROLBAR:ToolTipMumakUpgrades]
+Value=Purchase upgrades for the War Mûmak
+
+[CONTROLBAR:PurchaseUpgradeMahudDriver]
+Value=Mahûd Mastery (&R)
+
+[CONTROLBAR:PurchaseUpgradeMahudDriverSiege]
+Value=Mahûd Mastery (&V)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeMahudDriver]
+Value=Upgrades this Mûmak with Mahûd Mastery 
+Valueline2= The Mûmak and nearby Mûmakil permanently gain +35% damage
 
 [CONTROLBAR:PurchaseUpgradeArmoredTusks]
 Value=Purchase Armoured Tusks (&C)
@@ -84584,8 +84616,8 @@ Value=Purchase Armoured Tusks (&C)
 Value=Purchase Armoured Tusks (&C)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeArmoredTusks]
-Value=Upgrades this Mûmak with Armored Tusks 
-Valueline2= Significantly increases resistance to specialist damage
+Value=Upgrades this Mûmak with Armoured Tusks 
+Valueline2= Significantly increases resistance to damage from pikemen
 
 [CONTROLBAR:PurchaseUpgradeWarPaint]
 Value=Purchase War Paint (&T)
@@ -84601,38 +84633,47 @@ Valueline2= Significantly increases resistance to ranged damage
 Value=Red Serpent's Venom (&T)
 
 [CONTROLBAR:ToolTipMahudHeadhuntersRedSerpentsVenom]
-Value=Requires Level 3
-Valueline2= The Headhunters dip their darts in the Red Serpent's venom, temporarily stunning targeted enemy units
-Valueline3=Left click to activate
+Value=Requires Level 5
+Valueline2= The Headhunters dip their darts in the Red Serpent's venom
+Valueline3=For 20 seconds, their attacks stun targeted infantry units for 5 seconds
+Valueline4=Left click to activate
 
 [CONTROLBAR:MahudHeadhuntersTwilightsMistress]
-Value=Twilight's Mistress (&T)
+Value=Twilight's Mistress (&R)
 
 [CONTROLBAR:ToolTipMahudHeadhuntersTwilightsMistress]
-Value=Requires Level 4
-Valueline2= The Headhunters dip their darts in the poison of the Twilight's Mistress, temporarily causing targeted enemy units to become terrified
+Value=Requires Level 2
+Valueline2= The Headhunters dip their darts in the poison of the Twilight's Mistress, causing poison damage to enemy units for 20 seconds
 Valueline3=Left click to activate
 
 [CONTROLBAR:MahudWarchant]
 Value=Warchant (&W)
 
 [CONTROLBAR:TooltipMahudWarchant]
-Value=Requires Level 2
+Value=Requires Level 3
 Valueline2= Modifier Type: Weapon 
-Valueline3= Mahûd Warriors gain +50% damage and deal splash damage 
-Valueline4= Stacks with Leadership and Spells 
-Valueline5= Left click to activate
+Valueline3= Mahûd Warriors gain +25% damage for 20 seconds
+Valueline4=Left click to activate
+
+
+[CONTROLBAR:TooltipMahudSpearWarchant]
+Value=Requires Level 3
+Valueline2= Modifier Type: Weapon 
+Valueline3= Mahûd Spears gain +25% armour for 20 seconds
+Valueline4=Left click to activate
+
 
 [CONTROLBAR:MahudChiefLeadership]
 Value=Chieftain's Banner
 
 [CONTROLBAR:ToolTipMahudChiefLeadership]
-Value=The presence of Mahûd Chieftains decreases the cost of Mûmakil by 5% for each Mahûd on the field, up to a maximum of 20% 
-Valueline2= Mahûd Chieftains can garrison War Mûmaks for +20% speed THIS PART NOT IN YET 
+Value=Each Mahûd Chieftain on the field decreases the cost of War and Siege Mûmakil by 5%, up to a maximum of 20%
+Valueline2=
 Valueline3= Modifier Type: Spell 
-Valueline4=Nearby Mahûd troops receive +10% armour every time the Chieftain deals damage, up to a maximum of 40% 
-Valueline5=At rank 3, also receive +10% damage per swing.
-Valueline6=Passive ability
+Valueline4=Whenever the Chieftain attacks,
+Valueline5= Mahûd troops gain +33% armour for 6 seconds 
+Valueline6=At rank 3, Mahûd troops also receive +33% damage
+Valueline7=Passive ability
 
 [CONTROLBAR:PurchaseChiefTametheBeast]
 Value=Purchase &Tame the Beast
