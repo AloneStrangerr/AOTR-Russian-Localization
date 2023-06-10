@@ -84676,13 +84676,13 @@ Valueline6=At rank 3, Mahûd troops also receive +33% damage
 Valueline7=Passive ability
 
 [CONTROLBAR:PurchaseChiefTametheBeast]
-Value=Purchase &Tame the Beast
+Value=Purchase Tame the Beast (&R)
 
 [CONTROLBAR:ToolTipPurchaseChiefTametheBeast]
 Value=Once purchased, can be cast on a creep lair to convert it to the player's side
 
 [CONTROLBAR:ChiefTametheBeast]
-Value=Purchase &Tame the Beast
+Value=Tame the Beast (&R)
 
 [CONTROLBAR:ToolTipChiefTametheBeast]
 Value=Can be cast on a creep lair to convert it to the player's side
@@ -84706,11 +84706,30 @@ Valueline3= Units killed by the Risen Carrion will rise as skeletal Risen Carrio
 Valueline4=Left click to activate
 
 [CONTROLBAR:HasharinSubtlety]
-Value=Subtlety (&W)
+Value=Blades of Syâr-Rhul (&R)
 
 [CONTROLBAR:TooltipHasharinSubtlety]
-Value=Hasharin Blades briefly become fully stealthed. 
-Valueline2= Left click icon to activate
+Value=Hasharin Blades deal strong damage vs enemy heroes and heroic units
+Valueline2=Passive ability
+Valueline3=
+Valueline4= When activated, Hasharin Blades become stealthed for 20 seconds
+Valueline5=During this time, their attacks deal damage over time to enemy heroes and heroic units
+Valueline6=
+Valueline7= Left click icon to activate
+
+[CONTROLBAR:EyesofSyarRhul]
+Value=Eyes of Syâr-Rhul (&W)
+
+[CONTROLBAR:TooltipEyesofSyarRhul]
+Value=When damaging enemy heroes, the enemy hero becomes Marked by Syâr-Rhul, allowing the player to track the hero's movements for 60 seconds
+Valueline2=Passive ability
+Valueline3=
+Valueline4= When activated, can be cast on enemy unit to take on its appearance
+Valueline5= While disguised, the Hasharin cannot attack or be attacked, but can use certain powers 
+Valueline6= 
+Valueline7= Left click icon to activate  
+Valueline8= Hasharin autoheal at rank 2 
+Valueline9= Passive ability
 
 [CONTROLBAR:HasharinDispatch]
 Value=Dispatch (&R)
