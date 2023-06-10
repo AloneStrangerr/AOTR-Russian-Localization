@@ -89165,6 +89165,28 @@ Valueline3= Region: Haradwaith
 
 
 
+[Map:MAPMPkinefieldsofrhun]
+Value=Kine Fields of Rhûn*
+
+
+[Map:MAPMPkinefieldsofrhun/Desc]
+Value=The Kine of Araw are a species of hardy oxen that inhabit the vast fields surrounding the Sea of Rhûn in the distant East. The Horn of Gondor was fashioned from a horn of one of these great beasts.
+Valueline2= Capturable: Signal Fire 
+Valueline3= Region: Rhûn
+
+
+
+
+
+[Map:MAPMPkunin]
+Value=Kûnin*
+
+
+[Map:MAPMPkunin/Desc]
+Value=Kûnin is the ancient name given to this sunlit valley in the mysterious tongue of distant Rhûn. The name now belongs to the fortress that inhabits the rocky hilltop and surrounding farmland, ruled over by its fierce and warlike Khân. 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Region: Rhûn
+
 
 
 
@@ -89173,9 +89195,10 @@ Value=Lamedon*
 
 
 [Map:MAPMPlamedon/Desc]
-Value=A series of valleys through which the Ringló and Ciril rivers flowed south. Lamedon is one of the most densely populated fiefdoms of Gondor.  
-Valueline2= Creeps: Hill Troll, Warg, Goblin 
-Valueline3= Region: Gondor
+Value=A series of valleys through which the Ringló and Ciril rivers flowed south. Lamedon is one of the most densely populated fiefdoms of Gondor. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Hill Troll, Warg, Goblin 
+Valueline4= Region: Gondor
 
 
 
@@ -89185,8 +89208,8 @@ Value=Lamedon Highlands*
 
 [Map:MAPMPlamedonhighlands/Desc]
 Value=The valleys and moors of Lamedon are filled with small towns. The people are under Angbor, Lord of Lamedon. 
-Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Fire Drake, Barrow Wight 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Barrow Wight 
 Valueline4= Region: Gondor
 
 
@@ -89196,9 +89219,10 @@ Value=Lebennin*
 
 
 [Map:MAPMPlebennin/Desc]
-Value=A region in southern Gondor south of the White Mountains, Lebennin was largely populated by men descended from the forgotten 'Men of the Mountains' that dwealt in there during the Second Age. 
-Valueline2= Creeps: Warg, Goblin 
-Valueline3= Region: Gondor
+Value=A region in southern Gondor south of the White Mountains, Lebennin is largely populated by men descended from the forgotten 'Men of the Mountains' that dwealt in there during the Second Age. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Warg, Goblin 
+Valueline4= Region: Gondor
 
 
 
@@ -89231,7 +89255,7 @@ Value=Lórien
 
 [Map:MAPMPlorien/Desc]
 Value=This forest, also known as the Golden Wood for its Mallorn Trees, is the home of Galadriel and Celeborn of the Elves. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Goblin 
 Valueline4= Region: Rhovanion
 
@@ -89243,9 +89267,34 @@ Value=Lossarnach*
 
 [Map:MAPMPlossarnach/Desc]
 Value=One of Gondor’s southern fiefdoms, Lossarnach lies within the vales of the White Mountains. Its lush grasslands are filled with flowers. 
-Valueline2= Capturable: Outpost, Inn  
-Valueline3= Creeps: Goblins, Wargs 
+Valueline2= Capturable: Signal Fire, Inn  
+Valueline3= Creeps: Goblin 
 Valueline4= Region: Gondor
+
+
+
+[Map:MAPMPlostladen]
+Value=Lostladen*
+
+
+[Map:MAPMPlostladen/Desc]
+Value=The desert of Lostladen stretches across the north of Near Harad, where red sands meet the black volcanic rock of Ephel Dúath south of Mordor. Not much is known of this land; the harsh landscape has prevented any attempts of settlement by both man and orc.
+Valueline2= Creeps: Great Scorpion 
+Valueline3= Region: Haradwaith
+
+
+
+
+[Map:MAPMPlugland]
+Value=Lug-Land*
+
+
+[Map:mapmplugland/Desc]
+Value='Oi, mate. Just wanted to let ya know: there's a price on your head. Now, I could collect - quite easily, in fact - but instead we're gonna play a little game. Oh, and bring a friend.' ~Lug the Luscious 
+Valueline2= Lug's Slugfest Cup 2022 
+Valueline3= Capturable: Signal Fire 
+Valueline4= Creeps: Cave Troll, Barrow Wight 
+Valueline5= Region: Misty Mountains
 
 
 
@@ -89256,9 +89305,9 @@ Value=Mâros*
 
 [Map:MAPMPmaros/Desc]
 Value=Ancient ruins crafted in ages long past still line the streets of this Umbarian port town, situated on a rocky cape west of Umbar. 
-Valueline2= Capturable: Outpost, Dock 
-Valueline3= Creeps: Jungle Troll, Goblin 
-Valueline4= Region: Harad
+Valueline2= Capturable: Outpost, Inn, Dock 
+Valueline3= Creeps: Goblin 
+Valueline4= Region: Haradwaith
 
 
 
@@ -89268,7 +89317,7 @@ Value=Methedras*
 
 [Map:MAPMPmethedras/Desc]
 Value=A tall and prominent peak at the southern end of the Misty Mountains. Hardy wildmen villages can be found amongst its wide foothills that stretch towards Dunland in the west and Isengard to the south. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Wildmen, Warg 
 Valueline4= Region: Misty Mountains
 
@@ -89280,11 +89329,10 @@ Value=Midgewater Marshes*
 
 
 [Map:MAPMPmidgewatermarshes/Desc]
-Value=A fly-infested region of marshland in central Eriador with a morass of shifting pools and swarms of midges that fill the air. 
+Value=A fly-infested region of marshland bordering the Weather Hills, where a morass of shifting pools and swarms of midges fill the air. 
 Valueline2= Capturable: Signal Fire 
 Valueline3= Creeps: Cave Troll, Goblin 
-Valueline4= Hazards: Midges, Fog 
-Valueline5= Region: Arnor
+Valueline4= Region: Arnor
 
 
 
@@ -89294,10 +89342,9 @@ Value=Minhiriath
 
 [Map:MAPMPminhiriath/Desc]
 Value=Although still forested in parts, this once lush region is now barren, and bears the scars of long ages of felling, burning and war. 
-Valueline2= Capturable: Signal Fire, Outpost 
-Valueline3= Creeps: Barrow Wights 
-Valueline4= Hazards: Fog 
-Valueline5= Region: Eriador
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Barrow Wight 
+Valueline4= Region: Eriador
 
 
 
@@ -89307,8 +89354,8 @@ Value=Mirkwood Eaves*
 
 [Map:MAPMPmirkwoodeaves/Desc]
 Value=The western eaves of Mirkwood lie near Thranduil's Halls. It is a dark and contested area between the Greenwood Elves and the encroaching minions of the Necromancer. 
-Valueline2= Capturable: Signal Fire, Outpost 
-Valueline3= Creeps: Spider, Barrow Wight 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Spider 
 Valueline4= Region: Rhovanion
 
 
@@ -89325,14 +89372,28 @@ Valueline4= Region: Lindon
 
 
 
+
+[Map:MAPMPmorgulduin]
+Value=Morgulduin*
+
+
+[Map:MAPMPmorgulduin/Desc]
+Value=The Morgulduin springs from the Morgul Vale in the Ephel Dúath, and runs westward until it reaches the Cross-roads in Ithilien. There its course turns southwest until it enters the Anduin just south of Osgiliath. North of the stream lies the road from Osgiliath to Minas Morgul. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Cave Troll, Barrow Wight 
+Valueline4= Region: Gondor
+
+
+
+
 [Map:MAPMPmountdoom]
 Value=Mount Doom
 
 
 [Map:MAPMPmountdoom/Desc]
-Value=Mount Doom, or Orodruin, was a volcano in Mordor within which Sauron willed the heart of the earth into his dark sorceries and forging of the One Ring. 
-Valueline2= Creeps: Stone Troll, Goblin 
-Valueline3= Hazards: Poisonous Fumes 
+Value=Mount Doom, or Orodruin, is a volcano in Mordor within which Sauron willed the heart of the earth into his dark sorceries and forging of the One Ring. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Stone Troll, Goblin 
 Valueline4= Region: Mordor
 
 
@@ -89355,8 +89416,8 @@ Value=Mountains of Mirkwood*
 
 [Map:MAPMPmountainsofmirkwood/Desc]
 Value=When the Old Forest Road became unusable, a second path through the Mirkwood was made to the north. Between the two paths lay the Mountains of Mirkwood. 
-Valueline2= Creeps: Spider 
-Valueline3= Hazards: Fog 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Spider 
 Valueline4= Region: Rhovanion
 
 
@@ -89372,16 +89433,42 @@ Valueline3= Region: Gondor
 
 
 
-[Map:MAPMPnafaratoasis]
-Value=Nafârat Oasis*
+[Map:MAPMPnafarcrossing]
+Value=Nâfar Crossing*
 
 
-[Map:MAPMPnafaratoasis/Desc]
-Value=Within the desert of Harad, the Nafarat Oasis is seen by many as a refuge from the burning sun. Those who have traveled there and lived to tell the tale, beg to differ. 
-Valueline2= Capturable: Outpost 
-Valueline3= Creeps: Jungle Troll, Corsair 
-Valueline4= Hazards: Midges 
-Valueline5= Region: Harad
+[Map:MAPMPnafarcrossing/Desc]
+Value=Far Harad is known not only for its deserts, but also the vast primordial forests that surround the Nâfarat River, likened to those that once covered most of Middle-earth. 
+Valueline2= Capturable: Signal Fire 
+Valueline3= Creeps: Karadd, Jungle Warg 
+Valueline4= Hazards: Fog 
+Valueline5= Region: Haradwaith
+
+
+
+
+[Map:MAPMPnafaratdelta]
+Value=Nâfarat Delta*
+
+
+[Map:MAPMPnafaratdelta/Desc]
+Value=The Nâfarat River journeys through the jungles of Nâfarat and Far Harad before it meets the Sea in a wide, marshy delta of many streams and islets. The dense surrounding jungle and long grasses are the home of much birdlife. 
+Valueline2= Capturable: Inn, Dock 
+Valueline3= Creeps: Karadd 
+Valueline4= Region: Haradwaith
+
+
+
+
+[Map:MAPMPnafaratriver]
+Value=Nâfarat River*
+
+
+[Map:MAPMPnafaratriver/Desc]
+Value=Within the desert of Harad, the Nâfarat River is seen by many as a refuge from the burning sun. Those who have traveled there and lived to tell the tale, beg to differ. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Karadd 
+Valueline4= Region: Haradwaith
 
 
 
@@ -89390,7 +89477,7 @@ Value=Nain Enidh
 
 
 [Map:MAPMPnainenidh/Desc]
-Value=Nain Enidh is Sindarin for 'Center Valleys', a barren and hilly landscape along the Great East Road nearby Weathertop. 
+Value=Nain Enidh is Sindarin for 'Centre Valleys', a barren and hilly landscape along the Great East Road nearby Weathertop. 
 Valueline2= Capturable: Signal Fire, Outpost 
 Valueline3= Creeps: Warg 
 Valueline4= Region: Arnor
@@ -89402,8 +89489,8 @@ Value=Nan Celebrant*
 
 
 [Map:MAPMPnancelebrant/Desc]
-Value=Orcish incursions have turned the once-tranquil crossings of the Celebrant into a scarred, ruinous battlefield. 
-Valueline2= Creeps: Goblin, Cave Troll 
+Value=The Galadhrim keep watch over the river Celebrant, ensuring no incursions beyond the misty waters and into the southern woodlands of Lórien.
+Valueline2= Creeps: Goblin 
 Valueline3= Region: Rhovanion
 
 
@@ -89425,11 +89512,10 @@ Value=Near Harad
 
 
 [Map:MAPMPnearharad/Desc]
-Value=An inhospitable region to the south of Gondor and Mordor, beyond the River Harnen. The Haradhrim that inhabit the land are long-standing enemies of Gondor. 
-Valueline2= Capturable: Signal Fire, Inn 
-Valueline3= Creeps: Goblin 
-Valueline4= Hazards: Dehydration 
-Valueline5= Region: Harad
+Value=An inhospitable region to the south of Gondor and Mordor, beyond the River Harnen. The Haradrim that inhabit the land are long-standing enemies of Gondor. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Scorpion 
+Valueline4= Region: Haradwaith
 
 
 
@@ -89439,7 +89525,7 @@ Value=Nimrodel*
 
 [Map:MAPMPnimrodel/Desc]
 Value=A river of Lothlórien, the Nimrodel flows down from the Misty Mountains before joining the Silverlode. Its waters are said to heal weariness. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Goblin 
 Valueline4= Region: Rhovanion
 
@@ -89461,8 +89547,8 @@ Value=North Downs
 
 
 [Map:MAPMPnorthdowns/Desc]
-Value=A range of hills in northern Eriador, east of the Hills of Evendim and north of the Weather Hills. Other than the Dúnedain, the North Downs remain uninhabited. 
-Valueline2= Capturable: Inn 
+Value=A range of rolling foothills east of the hills of Evendim and north of the Weather Hills. Other than the Dúnedain, the North Downs remain uninhabited. 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Hill Troll 
 Valueline4= Region: Arnor
 
@@ -89486,7 +89572,7 @@ Value=Northern Ithilien*
 
 [Map:MAPMPnorthernithilien/Desc]
 Value=The northern lands of Gondor, where Faramir first encountered Frodo and Sam, on their journey to Mordor.
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll, Goblin 
 Valueline4= Region: Gondor
 
@@ -89497,10 +89583,10 @@ Value=Northtarn
 
 
 [Map:MAPMPnorthtarn/Desc]
-Value=This frozen lake in the southern Misty Mountains makes for an upredicable travel route. 
-Valueline2= Capturable: Signal Fire 
+Value=This icy lake north of the Misty Mountains offers an unpredictable route through the frozen plains of Forodwaith. 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Snow Troll, Goblin 
-Valueline4= Region: Misty Mountains
+Valueline4= Region: Forodwaith
 
 
 
@@ -89510,8 +89596,8 @@ Value=Núrn*
 
 [Map:MAPMPnurn/Desc]
 Value=These southern fertile lands of Mordor surround the great inland Sea of Núrnen. 
-Valueline2= Capturable: Signal Fire, Outpost 
-Valueline3= Creeps: Cave Troll 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Goblin 
 Valueline4= Region: Mordor
 
 
@@ -90350,6 +90436,14 @@ Valueline3= Region: Arnor (50% Hero Discount)
 
 
 
+[LW:DisplayNameNorthDowns]
+Value=North Downs
+
+
+[Map:MAPWORNorthDowns/Desc]
+Value=A range of rolling foothills east of the hills of Evendim and north of the Weather Hills. Other than the Dúnedain, the North Downs remain uninhabited. 
+Valueline2= Subregion: Arthedain (+5 PP, +5% Def) 
+Valueline3= Region: Arnor (50% Hero Discount)
 
 
 
@@ -90618,6 +90712,18 @@ Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
+[LW:DisplayNameMinhiriath]
+Value=Minhiriath
+
+
+[Map:MAPWORMinhiriath/Desc]
+Value=Minhiriath is the name of the land between the Brandywine and the Gwathlo rivers. Although still forested in parts, this once lush region is now barren and bears the scars of ages of felling, burning and war. 
+Valueline2= Subregion: Cardolan (+5 PP,+5% Exp) 
+Valueline3= Region: Eriador (-100 Unit Discount)
+
+
+
+
 
 
 
@@ -90746,6 +90852,18 @@ Valueline3= Region: Forodwaith (Free Special Units)
 
 
 
+[LW:DisplayNameNorthtarn]
+Value=Northtarn
+
+
+[Map:MAPWORNorthtarn/Desc]
+Value=This icy lake north of the Misty Mountains offers an unpredictable route through the frozen plains of Forodwaith. 
+Valueline2= Subregion: Northern Wastes (+10 PP,+10% Atk) 
+Valueline3= Region: Forodwaith (Free Special Units)
+
+
+
+
 [LW:DisplayNameAnorien]
 Value=Anórien
 
@@ -90806,6 +90924,14 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameNorthIthilien]
+Value=Northern Ithilien
+
+
+[Map:MAPWORNorthIthilien/Desc]
+Value=The northern lands of Gondor, where Faramir first encountered Frodo and Sam, on their journey to Mordor. 
+Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
@@ -90948,6 +91074,42 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameLamedon]
+Value=Lamedon
+
+
+[Map:MAPWORLamedon/Desc]
+Value=A series of valleys through which the Ringló and Ciril rivers flowed south. Lamedon is one of the most densely populated fiefdoms of Gondor. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
+[LW:DisplayNameLebennin]
+Value=Lebennin
+
+
+[Map:MAPWORLebennin/Desc]
+Value=A region in southern Gondor south of the White Mountains, Lebennin is largely populated by men descended from the forgotten 'Men of the Mountains' that dwealt in there during the Second Age. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
+[LW:DisplayNameLossarnach]
+Value=Lossarnach
+
+
+[Map:MAPWORLossarnach/Desc]
+Value=One of Gondor’s southern fiefdoms, Lossarnach lies within the vales of the White Mountains. Its lush grasslands are filled with flowers. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+
 
 
 
@@ -90974,6 +91136,18 @@ Value=Far Harad
 
 [Map:MAPWORFarHarad/Desc]
 Value=Far Harad, a part of the larger region known as Harad, is a distant, unknown land far to the south of Gondor, where dense jungles line the rivers that stretch through the arid deserts of Harad into the sea. 
+Valueline2= Subregion: Far Harad (+5 PP) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
+[LW:DisplayNameNafaratDelta]
+Value=Nâfarat Delta
+
+
+[Map:MAPWORNafaratDelta/Desc]
+Value=The Nâfarat River journeys through the jungles of Nâfarat and Far Harad before it meets the Sea in a wide, marshy delta of many streams, dense surrounding jungle, and much birdlife. 
 Valueline2= Subregion: Far Harad (+5 PP) 
 Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
@@ -91100,6 +91274,18 @@ Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
+[LW:DisplayNameDesertofLostladen]
+Value=Desert of Lostladen
+
+
+[Map:MAPWORDesertofLostladen/Desc]
+Value=The desert of Lostladen stretches across the north of Near Harad, where red sands meet the black volcanic rock of Ephel Dúath. The harsh landscape has prevented attempts of settlement by both man and orc. 
+Valueline2= Subregion: Near Harad (+5 PP,+5% Exp) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
 
 
 [LW:DisplayNameUmbar]
@@ -91114,9 +91300,15 @@ Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
+[LW:DisplayNameMaros]
+Value=Mâros
 
-[Map:MAPWORanorien/Desc]
-Value=This northwestern fiefdom of Gondor forms the border between Gondor and Rohan, north of the White Mountains.
+
+[Map:MAPWORMaros/Desc]
+Value=Ancient ruins crafted in ages long past still line the streets of this Umbarian port town, situated on a rocky cape west of Umbar. 
+Valueline2= Subregion: Umbar (+10% Res,+5% Atk) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
 
 
 
@@ -91453,6 +91645,34 @@ Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
 
 
+[LW:DisplayNameMountDoom]
+Value=Mount Doom
+
+
+[Map:MAPWORMountDoom/Desc]
+Value=Mount Doom, or Orodruin, is a volcano in Mordor within which Sauron willed the heart of the earth into his dark sorceries and forging of the One Ring. 
+Valueline2= Subregion: Gorgoroth (+10 PP,+5% Atk) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
+
+
+
+
+
+
+
+
+[LW:DisplayNameNurn]
+Value=Núrn
+
+
+[Map:MAPWORNurn/Desc]
+Value=Nurn is the name given to the southern regions of Mordor, more fertile than Gorgoroth in the north, wherein lies the great inland Sea of Núrnen. 
+Valueline2= Subregion: Núrn (+10% Res) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
+
+
+
+
 
 
 
@@ -91572,6 +91792,22 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
+[LW:DisplayNameNanCelebrant]
+Value=Nan Celebrant
+
+
+[Map:MAPWORNanCelebrant/Desc]
+Value=The Galadhrim keep watch over the river Celebrant, ensuring no incursions beyond the misty waters and into the southern woodlands of Lórien. 
+Valueline2= Subregion: Lothlórien (+5 PP,+10% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
+
+
+
+
+
+
+
+
 [LW:DisplayNameTheForestGate]
 Value=The Forest Gate
 
@@ -91612,6 +91848,22 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
+[LW:DisplayNameNorthernMirkwood]
+Value=Northern Mirkwood
+
+
+[Map:MAPWORNorthernMirkwood/Desc]
+Value=When the Old Forest Road became unusable, a second path through the Mirkwood was made to the north. Between the two paths lie the Mountains of Mirkwood, and the Enchanted River. 
+Valueline2= Subregion: Woodland Realm (+5 PP,+5% Atk,+5% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
+
+
+
+
+
+
+
+
 [LW:DisplayNameDorwinion]
 Value=Dorwinion
 
@@ -91622,6 +91874,16 @@ Valueline2= Subregion: Dorwinion (+10% Res, Free Special Unit)
 Valueline3= Region: Rhûn (+5 PP,+10% Atk, 50% Siege Discount)
 
 
+
+
+[LW:DisplayNameKunin]
+Value=Kûnin
+
+
+[Map:MAPWORKunin/Desc]
+Value=Kûnin is the ancient name given to this sunlit valley in distant Rhûn. The name now belongs to the fortress that inhabits the rocky hilltop and surrounding farmland, ruled over by its fierce Khân. 
+Valueline2= Subregion: Rhûn (+10 PP,+5% Atk,+5% Exp) 
+Valueline3= Region: Rhûn (+5 PP,+10% Atk, 50% Siege Discount)
 
 
 
