@@ -89820,7 +89820,7 @@ Value=Rohan
 
 [Map:MAPMProhan/Desc]
 Value=Rohan is the kingdom and territory of the Rohirrim, a people of herdsmen and farmers. Well-known for their horses and cavalry, they are Gondor's most important ally. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg 
 Valueline4= Region: Rohan
 
@@ -89833,8 +89833,8 @@ Value=Ruins of Belegost*
 [Map:MAPMPruinsofbelegost/Desc]
 Value=Once a mighty fortress during the First Age, broken ramparts and deep crevasses are all that remain of the ruined halls of Belegost. It has long been forgotten, lost amongst the snowy peaks of the Ered Luin. 
 Valueline2= Creeps: Warg, Snow Troll 
-Valueline3= Hazards: Frostbite
-Valueline4= Region: Lindon
+Valueline3= Region: Lindon
+
 
 
 
@@ -89850,6 +89850,21 @@ Valueline4= Region: Misty Mountains
 
 
 
+[Map:MAPMPruinsoflindon]
+Value=Ruins of Lindon*
+
+
+[Map:MAPMPruinsoflindon/Desc]
+Value=These ancient ruins of the Noldor lie deep within the old forests of Lindon, left abandoned in the turmoil of Ages past and long since forgotten. 
+Valueline2= Capturable: Well, Signal Fire, Outpost 
+Valueline3= Creeps: Barrow Wight, Warg 
+Valueline4= Region: Lindon
+
+
+
+
+
+
 [Map:mapmpruinsofost-in-edhil]
 Value=Ruins of Ost-in-Edhil*
 
@@ -89862,14 +89877,41 @@ Valueline4= Region: Eriador
 
 
 
+
+[Map:MAPMPsarikhgorge]
+Value=Sârikh Gorge*
+
+
+[Map:MAPMPsarikhgorge/Desc]
+Value=Treacherous canyon bridges and tamed Mûmakil have enabled hardy nomadic tribes to forge a perilous existence at the top of these steep rocky mesas, which punctuate the arid landscape of southern Far Harad. 
+Valueline2= Capturable: Outpost
+Valueline3= Creeps: Hill Troll, Warg
+Valueline4= Region: Haradwaith
+
+
+
+
+[Map:MAPMPsandsofazkahar]
+Value=Sands of Azkâhar*
+
+
+[Map:MAPMPsandsofazkahar/Desc]
+Value=Ancient structures still linger within the vast Azkâhar Desert surrounding Abrakhân in distant Far Harad. Their relics are now lost to desert beasts and an ocean of sand beneath the unrelenting sun.
+Valueline2= Capturable: Signal Fire 
+Valueline3= Creeps: Great Scorpion, Scorpion 
+Valueline4= Hazards: Desert Wind, Dehydration 
+Valueline5= Region: Haradwaith
+
+
+
 [Map:MAPMPsarnford]
 Value=Sarn Ford*
 
 
 [Map:MAPMPsarnford/Desc]
-Value=Stone ford on the Brandywine, guarding the entrance to the southfarthing of the Shire. Dunedain kept a watchful eye here to protect the Smallfolk from any harm. 
-Valueline2= Capturable: Farmstead 
-Valueline3= Creeps: Dúnedain (Good), Wolves (Evil), Warg 
+Value=This stone ford on the Brandywine marks the entrance to the southfarthing of the Shire, guarded by the watchful eyes of the Dúnedain that protect the Smallfolk from any harm. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Warg 
 Valueline4= Region: Arnor
 
 
@@ -89887,9 +89929,15 @@ Valueline4= Region: Mordor
 
 
 
+[Map:MAPMPnabalmazri]
+Value=Nabal Mâzri*
+
+
+[Map:MAPMPnabalmazri/Desc]
+Value=Within the vast inland Sea of Rhûn lies a mysterious set of islands, the Nabal Mazri. The rocky coastline and rough waters are shrouded by the sea mist, and by rumours of strange occult rituals that take place at its summit.
 Valueline2= Capturable: Dock 
-Valueline3= Creeps: Stone Troll, Cave Troll, Goblin 
-Valueline4= Region: Mordor
+Valueline3= Region: Rhûn
+
 
 
 
@@ -89923,9 +89971,8 @@ Value=The Shire
 
 [Map:MAPMPshire/Desc]
 Value=A green, peaceful land, and home of the Hobbits of Middle-earth. 
-Valueline2= Capturable: Signal Fire, Outpost, Green Dragon 
-Valueline3= Creeps: Warg 
-Valueline4= Region: Arnor
+Valueline2= Capturable: Inn 
+Valueline3= Region: Arnor
 
 
 
@@ -89959,7 +90006,7 @@ Value=Snowbourn*
 
 [Map:MAPMPsnowbourn/Desc]
 Value=This river in Rohan begins under the Starkhorn in the White Mountains and flows north, before turning past Edoras to meet the River Entwash. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll, Goblin 
 Valueline4= Region: Rohan
 
@@ -89971,9 +90018,9 @@ Value=South Rhûn*
 
 
 [Map:MAPMPsouthrhun/Desc]
-Value=Little is known of the lands beyond the great Sea of Rhûn, beyond the borders of the most western lands. 
-Valueline2= Capturable: Outpost 
-Valueline3= Creeps: Cave Troll, Goblin 
+Value=Little is known of the vast lands to the east of Rhovanion, south of the great Sea of Rhûn. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Warg 
 Valueline4= Region: Rhûn
 
 
@@ -89996,7 +90043,7 @@ Value=Southern Ithilien*
 
 [Map:MAPMPsouthernithilien/Desc]
 Value=These fertile, wooded lands in southern Gondor are guarded by Ithilien Rangers led by their captain, Faramir. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Goblin 
 Valueline4= Region: Gondor
 
@@ -90015,14 +90062,67 @@ Valueline4= Region: Erebor
 
 
 
+
+[Map:MAPMPspookyisen]
+Value=Spooky Isen*
+
+
+[Map:MAPMPspookyisen/Desc]
+Value=Mr Bones stands before you...
+Valueline2= Bones a-rattling, skull a-clattering, spine a-shivering, ribs a-rustling, pelvis a-thrusting... 
+Valueline3= 'It's time', he says. 'Time to show me what you got!' 
+Valueline4= Mr Bones' Spooktacular Cup 2021 
+Valueline5= Capturable: Inn 
+Valueline6= Creeps: Cave Troll, Warg 
+Valueline7= Region: Rhovanion
+
+
+
+
+[Map:MAPMPsteppesofsarakhax]
+Value=Steppes of Sarâkhax*
+
+
+[Map:MAPMPsteppesofsarakhax/Desc]
+Value=In the distant east of Rhûn, the rising sun bathes the endless swaying grasslands of the 'Golden Fields' in gentle morning light. The vast steppes are inhabited by hardy folk who have forged a nomadic existence amongst the rolling plains. 
+Valueline2= Capturable: Signal Fire 
+Valueline3= Region: Rhûn
+
+
+
 [Map:MAPMPstonemere]
 Value=Stonemere*
 
 
 [Map:MAPMPstonemere/Desc]
-Value=Treachorous paths lead through the stony outcrops and rough moors of the Stonemere, a highland to the east of the Trollshaws dotted with rocks, shrubs, and trees. 
+Value=Treacherous paths lead through the stony outcrops and rough moors of the Stonemere, a highland to the east of the Trollshaws dotted with rocks, shrubs, and trees. 
 Valueline2= Creeps: Hill Troll, Stone Troll 
 Valueline3= Region: Eriador
+
+
+
+[Map:MAPMPstreetsofdale]
+Value=Streets of Dale*
+
+
+[Map:MAPMPstreetsofdale/Desc]
+Value=The winding city streets of the re-established Kingdom of Dale are home to thriving merchants and craftsmen, and ruled by King Brand, grandson of Bard the Bowman. 
+Valueline2= Capturable: Inn 
+Valueline3= Region: Erebor
+
+
+
+[Map:MAPMPsummerhall]
+Value=Summerhall*
+
+
+[Map:MAPMPsummerhall/Desc]
+Value=Frumgar Frumgarsson, Chieftain of the Éothéod, has earned both glory and great hoard throughout the lands of Rhovanion. So too shall glory await the winner of this great tournament! 
+Valueline2= Frumgar's Finest Midsummer Cup 2022 
+Valueline3= Capturable: Inn 
+Valueline4= Creeps: Hill Troll, Barrow Wight 
+Valueline5= Region: Rhovanion
+
 
 
 
@@ -90032,7 +90132,7 @@ Value=Swanfleet*
 
 [Map:MAPMPswanfleet/Desc]
 Value=The Swanfleet is an inland delta in eastern Eriador through which the lower reaches of the Glanduin flow, before joining the Hoarwell. The area is known for its countless bevies of swans. 
-Valueline2= Capturable: Signal Fire, Outpost 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Region: Eriador
 
 
@@ -90055,8 +90155,8 @@ Value=Targul Quarry*
 
 [Map:MAPMPtargulquarry/Desc]
 Value=A large deep pit carved into the hills that lie between the dwarven kingdoms of Erebor and the Iron Hills. 
-Valueline2= Creeps: Cave Troll, Goblin 
-Valueline3= Hazards: Storm 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Goblin 
 Valueline4= Region: Erebor
 
 
@@ -90067,7 +90167,7 @@ Value=Tarlang's Neck*
 
 [Map:MAPMPtarlangsneck/Desc]
 Value=A local Gondorian legend tells of a giant named Tarlang who tripped and broke his neck. His body became a part of the land, forming the pass of Tarlang's Neck. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg, Goblin 
 Valueline4= Region: Gondor
 
@@ -90079,7 +90179,7 @@ Value=Tarnost
 
 [Map:MAPMPtarnost/Desc]
 Value=These grassy foothills lie south of the River Ringló in Gondor, between the river Gilrain to the east and Dol Amroth to the west. 
-Valueline2= Capturable: Signal Fire, Inn 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Hill Troll, Warg 
 Valueline4= Region: Gondor
 
@@ -90098,6 +90198,17 @@ Valueline5= Region: Rhovanion
 
 
 
+
+[Map:MAPMPtaurhithlin]
+Value=Taur Hithlin*
+
+
+[Map:MAPMPtaurhithlin/Desc]
+Value=Golden aspen trees line the shores of this serene lake within the 'Misty Lake Forest', deep within the woods of Lorien. Its tranquil waters create a gentle mist that enshrouds the surrounding woodland. 
+Valueline2= Region: Rhovanion
+
+
+
 [Map:MAPMPtaurenungolath]
 Value=Taur-en-Ungolath*
 
@@ -90106,8 +90217,7 @@ Value=Taur-en-Ungolath*
 Value=Amongst the deepest, darkest glades of Mirkwood lurks the 'Forest of Spiders', the lair of Saenathra and her many children. 
 Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Spider 
-Valueline4= Hazards: Fog 
-Valueline5= Region: Rhovanion
+Valueline4= Region: Rhovanion
 
 
 
@@ -90118,8 +90228,33 @@ Value=Taur-na-Faroth*
 [Map:MAPMPtaurnafaroth/Desc]
 Value=The 'Forest of Hunters' in Sindarin, a sacred hunting ground often frequented by the Wood-elves of the Woodland Realm. 
 Valueline2= Creeps: Goblin, Spider 
-Valueline3= Hazards: Fog 
-Valueline4= Region: Rhovanion
+Valueline3= Region: Rhovanion
+
+
+
+[Map:MAPMPtaurnavereth]
+Value=Taur-na-Vereth*
+
+
+[Map:MAPMPtaurnavereth/Desc]
+Value=The secluded 'Forest of Feasting' contains numerous small hidden glades where the elven folk of the Woodland Realm delight in feasting and merriment, unless they be disturbed by uninvited guests. 
+Valueline2= Region: Rhovanion
+
+
+
+
+
+[Map:MAPMPtempleofkarna]
+Value=Temple of Kârna*
+
+
+[Map:MAPMPtempleofkarna/Desc]
+Value=The Nâfarati whisper of a sunken temple deep in the jungle and a nameless evil within. Fiercely guarded by the Watchers the ruins remain quiet, seemingly appeased by a mysterious Horn and by human sacrifice cast into the shadowy depths. 
+Valueline2= Capturable: Horn of Kârna, Inn 
+Valueline3= Creeps: Watchers of Kârna 
+Valueline4= Region: Haradwaith
+
+
 
 
 
@@ -90129,8 +90264,8 @@ Value=Tharbad*
 
 [Map:MAPMPtharbad/Desc]
 Value=The Old South Road passes through the ruined city of Tharbad. Desolate and long abandoned, its only crossing point is a dangerous ford formed by the ruins of its once great bridge. 
-Valueline2= Capturable: Signal Fire, Outpost 
-Valueline3= Creeps: Cave Troll, Goblin 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Goblin 
 Valueline4= Region: Eriador
 
 
@@ -90141,10 +90276,9 @@ Value=The Enchanted Stream*
 
 [Map:MAPMPtheenchantedstream/Desc]
 Value=The Enchanted Stream runs north from the Mountains of Mirkwood. It was crossed by Thorin's Company, but not before the stream lay its curse on Bombur, sending him into a deep sleep. 
-Valueline2= Capturable: Outpost, Inn 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Spider, Goblin 
-Valueline4= Hazards: Enchanted Stream, Fog 
-Valueline5= Region: Rhovanion
+Valueline4= Region: Rhovanion
 
 
 
@@ -90466,6 +90600,14 @@ Valueline3= Region: Arnor (50% Hero Discount)
 
 
 
+[LW:DisplayNameSarnFord]
+Value=Sarn Ford
+
+
+[Map:MAPWORSarnFord/Desc]
+Value=This stone ford on the Brandywine marks the entrance to the southfarthing of the Shire, guarded by the watchful eyes of the Dúnedain that protect the Smallfolk from any harm. 
+Valueline2= Subregion: Bree-land (+10% Def) 
+Valueline3= Region: Arnor (50% Hero Discount)
 
 
 
@@ -90476,6 +90618,18 @@ Value=Buckland
 
 [Map:MAPWORBuckland/Desc]
 Value=Buckland is a small but densely populated sliver of land between the Old Forest and the east bank of the Brandywine river, inhabited by Hobbits from the Shire, including the Brandybuck family. 
+Valueline2= Subregion: The Shire (+5 PP, +5% Def) 
+Valueline3= Region: Arnor (50% Hero Discount)
+
+
+
+
+[LW:DisplayNameTheShire]
+Value=The Shire
+
+
+[Map:MAPWORTheShire/Desc]
+Value=A green, peaceful land, and home of the Hobbits of Middle-earth. 
 Valueline2= Subregion: The Shire (+5 PP, +5% Def) 
 Valueline3= Region: Arnor (50% Hero Discount)
 
@@ -90718,6 +90872,26 @@ Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
+[LW:DisplayNameSwanfleet]
+Value=Swanfleet
+
+
+[Map:MAPWORSwanfleet/Desc]
+Value=The Swanfleet is an inland delta in eastern Eriador through which the lower reaches of the Glanduin flow, before joining the Hoarwell. The area is known for its countless bevies of swans. 
+Valueline2= Subregion: Cardolan (+5 PP,+5% Exp) 
+Valueline3= Region: Eriador (-100 Unit Discount)
+
+
+
+
+[LW:DisplayNameTharbad]
+Value=Tharbad
+
+
+[Map:MAPWORTharbad/Desc]
+Value=The Old South Road passes through the ruined city of Tharbad. Desolate and long abandoned, its only crossing point is a dangerous ford formed by the ruins of its once great bridge. 
+Valueline2= Subregion: Cardolan (+5 PP,+5% Exp) 
+Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
@@ -90746,6 +90920,14 @@ Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
+[LW:DisplayNameOstinEdhil]
+Value=Ost-in-Edhil
+
+
+[Map:MAPWOROstinEdhil/Desc]
+Value=Stony pillars and stony cliffs now sing quietly of the ruin of Ost-in-Edhil, once great fortress of the Noldor. Long ago, Celebrimbor dwelt here, and alongside Annatar, forged the rings of power. 
+Valueline2= Subregion: Eregion (+5 PP,+10% Exp) 
+Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
@@ -91045,6 +91227,14 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameSouthernIthilien]
+Value=Southern Ithilien
+
+
+[Map:MAPWORSouthernIthilien/Desc]
+Value=These fertile, wooded lands in southern Gondor are guarded by Ithilien Rangers led by their captain, Faramir. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
@@ -91137,6 +91327,30 @@ Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
+[LW:DisplayNameDesertofAzkahar]
+Value=Desert of Azkâhar
+
+
+[Map:MAPWORDesertofAzkahar/Desc]
+Value=Ancient structures still linger within the vast Desert of Azkâhar that surrounds Abrakhân in distant Far Harad. Their relics are now lost to desert beasts and an ocean of sand beneath the unrelenting sun. 
+Valueline2= Subregion: Abrakhân (+5 PP) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
+
+
+
+
+[LW:DisplayNameKarna]
+Value=Kârna
+
+
+[Map:MAPWORKarna/Desc]
+Value=The Nâfarati whisper of a sunken temple deep in the jungle and a nameless evil within. Fiercely guarded by the Watchers, the ruins are seemingly appeased by a mysterious Horn and by ritual human sacrifice. 
+Valueline2= Subregion: Far Harad (+5 PP) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
@@ -91828,6 +92042,14 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
+[LW:DisplayNameTaurenUngolath]
+Value=Taur-en-Ungolath
+
+
+[Map:MAPWORTaurenUngolath/Desc]
+Value=Amongst the deepest, darkest glades of Mirkwood lurks the 'Forest of Spiders', the lair of Saenathra and her many children. 
+Valueline2= Subregion: Dol Guldur (+5 PP,+5% Atk) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
@@ -91860,6 +92082,14 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
+[LW:DisplayNameTaurHithlin]
+Value=Taur Hithlin
+
+
+[Map:MAPWORTaurHithlin/Desc]
+Value=Golden aspen trees line the shores of this serene lake within the 'Misty Lake Forest', deep within the woods of Lorien. Its tranquil waters create a gentle mist that enshrouds the surrounding woodland. 
+Valueline2= Subregion: Lothlórien (+5 PP,+10% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
@@ -91916,6 +92146,26 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
+[LW:DisplayNameTaurenMorvith]
+Value=Taur-en-Morvith
+
+
+[Map:MAPWORTaurenMorvith/Desc]
+Value=The serene 'Forest of Mist' dwells deep within the borders of Thranduil's realm. Many Silvan elves make their homes here. 
+Valueline2= Subregion: Woodland Realm (+5 PP,+5% Atk,+5% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
+
+
+
+
+[LW:DisplayNameTaurnaFaroth]
+Value=Taur-na-Faroth
+
+
+[Map:MAPWORTaurnaFaroth/Desc]
+Value=The 'Forest of Hunters' in Sindarin, a sacred hunting ground often frequented by the Wood-elves of the Woodland Realm. 
+Valueline2= Subregion: Woodland Realm (+5 PP,+5% Atk,+5% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
@@ -91956,10 +92206,14 @@ Value=A pine forest in northern Gondor, thought to be inhabited by a strange fol
 [LW:DisplayNameDunharrow]
 Value=Dunharrow
 
+[LW:DisplayNameSteppesofSarakhax]
+Value=Steppes of Sarâkhax
 
-[Map:MAPWORdunharrow/Desc]
-Value=A gathering point for the people of Rohan, located at the foot of the White Mountains. Large carved stones mark the entrance to the Dimholt, and the Paths of the Dead.
 
+[Map:MAPWORSteppesofSarakhax/Desc]
+Value=In the far east, the rising sun bathes the swaying grasslands of the 'Golden Fields' in gentle morning light. The vast steppes are inhabited by hardy folk who forge a nomadic existence amongst the plains. 
+Valueline2= Subregion: Rhûn (+10 PP,+5% Atk,+5% Exp) 
+Valueline3= Region: Rhûn (+5 PP,+10% Atk, 50% Siege Discount)
 
 
 
@@ -91984,12 +92238,14 @@ Value=This great indentation in the eastern edge of Mirkwood is a treeless regio
 
 
 
-[LW:DisplayNameEasternRohan]
-Value=Eastern Rohan
+[LW:DisplayNameSouthRhun]
+Value=South Rhûn
 
 
-[Map:MAPWOReasternrohan/Desc]
-Value=The most significant feature of Rohan's geography is the river Entwash, which divided the country between Eastemnet and Westemnet. The eastern borders of Rohan are the Mouths of Entwash.
+[Map:MAPWORSouthRhun/Desc]
+Value=Little is known of the vast lands to the east of Rhovanion, south of the great Sea of Rhûn. 
+Valueline2= Subregion: South Rhûn (+5 PP,+5% Atk) 
+Valueline3= Region: Rhûn (+5 PP,+10% Atk, 50% Siege Discount)
 
 
 
@@ -92272,8 +92528,12 @@ Value=Cardolan
 
 
 
+[Map:MAPWORSwanfleet]
+Value=Swanfleet
 
 
+[Map:MAPWORTharbad]
+Value=Tharbad
 
 
 [Map:MAPWOREregion]
@@ -92803,14 +93063,20 @@ Value=Swanfleet
 
 
 
-
-
-[LW:DisplayNameTharbad]
+[Map:MAPWORLATharbad]
 Value=Tharbad
 
 
-[MAP:mapworTharbad/Desc]
-Value=The Old South Road passes through the ruined city of Tharbad. Desolate and long abandoned, its only crossing point is a dangerous ford formed by the ruins of its once great bridge.
+[LW:DisplayNameTharbadLA]
+Value=Tharbad
+
+
+[Map:MAPWORLATharbad/Desc]
+Value=The South Road passes through the city of Tharbad, where its great bridge provides passage across the rivers Glanduin and Hoarwell, and the small trade ships that harbour there. 
+Valueline2= Subregion: Cardolan (+5 PP,+5% Exp) 
+Valueline3= Region: Eriador (-100 Unit Discount)
+
+
 
 
 
