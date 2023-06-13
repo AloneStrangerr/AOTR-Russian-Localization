@@ -89609,7 +89609,7 @@ Value=Ofstipel*
 [Map:MAPMPofstipel/Desc]
 Value=Overgrown ruins are all that remain of the fortress and tower that once guarded this river crossing of the Anduin vale. 
 Valueline2= Creeps: Barrow Wights, Wargs 
-Valueline3= Capturable: Signal Fire, Outpost, Inn, Ruins 
+Valueline3= Capturable: Inn 
 Valueline4= Region: Rhovanion
 
 
@@ -89655,7 +89655,7 @@ Value=Orocarni*
 
 [Map:MAPMPorocarni/Desc]
 Value=The Orocarni, also known as the Red Mountains, are a mountain range in the distant and mysterious north-east of Middle-earth, first raised by the Valar during early ages in the forming of the world. 
-Valueline2= Capturable: Outpost 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Cave Troll 
 Valueline4= Region: Rhûn
 
@@ -89667,7 +89667,7 @@ Value=Osgiliath*
 
 [Map:MAPMPosgiliath/Desc]
 Value=This Gondorian city is the last line of defense between Mordor and Minas Tirith. The river Anduin runs through the centre of the city. 
-Valueline2= Capturable: Outpost, Dock 
+Valueline2= Capturable: Inn, Dock 
 Valueline3= Region: Gondor
 
 
@@ -89700,9 +89700,8 @@ Value=Plains of Gorgoroth*
 
 [Map:MAPMPplainsofgorgoroth/Desc]
 Value=A barren wasteland surrounding Mount Doom. An inhospitable land marred with pits, ash, and poisonous fumes. 
-Valueline2= Creeps: Great Beasts 
-Valueline3= Hazards: Poisonous Fumes 
-Valueline4= Region: Mordor
+Valueline2= Creeps: Goblin 
+Valueline3= Region: Mordor
 
 
 
@@ -89710,12 +89709,11 @@ Valueline4= Region: Mordor
 Value=Red Desert of Kâhir*
 
 
-[Map:MAPMPreddesertofkhand/Desc]
-Value=Outlandish rock formations emerge from the otherwise barren desert landscape of the Red Desert, located deep within the little-known region of Khand. 
-Valueline2= Capturable: Signal Fire, Outpost, Inn 
-Valueline3= Creeps: Fire Drake 
-Valueline4= Hazards: Dehydration 
-Valueline5= Region: Harad
+[Map:MAPMPreddesertofkahir/Desc]
+Value=Outlandish rock formations emerge from the otherwise barren desert landscape of the Red Desert of Kâhir, located deep within the little-known region of Haradwaith. 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Great Scorpion 
+Valueline4= Region: Haradwaith
 
 
 
@@ -89725,10 +89723,9 @@ Value=Redhorn Pass
 
 [Map:MAPMPredhornpass/Desc]
 Value=Caradhras is the tallest peak of the Misty Mountains, under which realm of Khazad-dûm was built. 
-Valueline2= Capturable: Signal Fire, Inn, Outpost 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Snow Troll, Goblin 
-Valueline4= Hazards: Frostbite 
-Valueline5= Region: Misty Mountains
+Valueline4= Region: Misty Mountains
 
 
 
@@ -89737,9 +89734,22 @@ Value=Regnfells*
 
 
 [Map:MAPMPregnfells/Desc]
-Value=Many seasonal streams course through this rocky valley in the Dunnish foothills, once spring arrives and winter snows begin to melt. 
+Value=Many seasonal streams course through this rocky valley in the Dunnish foothills, once spring arrives and winter snows begin to melt.
 Valueline2= Creeps: Warg 
-Valueline3= Region: Eriador
+Valueline3= Region: Enedwaith
+
+
+
+[Map:MAPMPrhosgobel]
+Value=Rhosgobel*
+
+
+[Map:MAPMPrhosgobel/Desc]
+Value=Rhosgobel is the home of Radagast the Brown, and is located between the Carrock and the Old Forest Road on Mirkwood's western borders. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Spider 
+Valueline4= Region: Rhovanion
+
 
 
 
@@ -89760,33 +89770,11 @@ Value=Rhudaur
 
 
 [Map:MAPMPrhudaur/Desc]
-Value=Rhudaur was the smallest of the three kingdoms that originated from the breaking of the kingdom of Arnor. Later controlled by Angmar, until its defeat at the Battle of Fornost, it became home to the remainder of the Dúnedain and the Rangers of the North. 
-Valueline2= Capturable: Signal Fire, Outpost, Inn 
-Valueline3= Region: Misty Mountains
+Value=Rhudaur was the smallest of the three kingdoms that originated from the breaking of the kingdom of Arnor and was later held by Angmar, until its eventual defeat at the Battle of Fornost. 
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Hill Troll 
+Valueline4= Region: Eriador
 
-
-
-[Map:MAPMPrhudaurplateau]
-Value=Rhudaur Plateau*
-
-
-[Map:MAPMPrhudaurplateau/Desc]
-Value=The northern wilderness of Rhudaur is marked by the scattered ruins of the lost realm of Arnor, uninhabited by all save the Dúnedain. 
-Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Snow Troll, Goblin 
-Valueline4= Region: Misty Mountains
-
-
-
-[Map:MAPMPrhun]
-Value=Rhûn
-
-
-[Map:MAPMPrhun/Desc]
-Value=At the shores of the Sea of Rhûn, mannish tribes known as Easterlings dwell under the dominion of Sauron, and have led many attacks against Gondor and its allies through the ages. 
-Valueline2= Capturable: Outpost, Signal Fire 
-Valueline3= Creeps: Cave Troll 
-Valueline4= Region: Rhûn
 
 
 
@@ -89795,8 +89783,8 @@ Value=Rivendell
 
 
 [Map:MAPMPrivendell/Desc]
-Value=Rivendell is the hidden sanctuary for the Elves of Eriador. The centerpiece of this city is the House of Elrond. 
-Valueline2= Capturable: Signal Fire, Outpost, Inn 
+Value=Rivendell is the hidden sanctuary for the Elves of Eriador. The centrepiece of this city is the House of Elrond. 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Warg 
 Valueline4= Region: Eriador
 
@@ -89821,9 +89809,8 @@ Value=River Sernui*
 
 [Map:MAPMPriversernui/Desc]
 Value=The River Sernui, or Serni, is a short river in southern Gondor; rising beneath the White Mountains and flowing southwest through Lebennin. Its name comes from the Sindarin 'sarn', referring to its stony riverbed. 
-Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Warg, Goblin 
-Valueline4= Region: Gondor
+Valueline2= Creeps: Warg, Goblin 
+Valueline3= Region: Gondor
 
 
 
@@ -89892,7 +89879,14 @@ Value=Sea of Núrnen
 
 
 [Map:MAPMPseaofnurnen/Desc]
-Value=The Sea of Núrnen is a large inland lake in southeast Mordor. Fed by rivers flowing from the Ephel Duath and Ash Mountains, it separates the volcanic plateau of Gorgoroth from the fertile plains of Núrn. 
+Value=The Sea of Núrnen is a large inland lake in southeast Mordor. Fed by rivers flowing from the Ephel Dúath and Ash Mountains, it separates the volcanic plateau of Gorgoroth from the fertile plains of Núrn. 
+Valueline2= Capturable: Dock, Inn 
+Valueline3= Creeps: Cave Troll 
+Valueline4= Region: Mordor
+
+
+
+
 Valueline2= Capturable: Dock 
 Valueline3= Creeps: Stone Troll, Cave Troll, Goblin 
 Valueline4= Region: Mordor
@@ -89952,9 +89946,9 @@ Value=Slave Fields of Núrn*
 
 
 [Map:MAPMPslavefieldsofnurn/Desc]
-Value=Inhabited by those enslaved by Sauron, the fields of Núrn are fertile enough to feed Sauron's numberless hordes. Covered in vast fields of grain, the soil is enriched by ash from Orodruin and watered by the Sea of Núrnen. 
+Value=Inhabited by those enslaved by Mordor, the fertile lands of Núrn are fertile enough to feed Sauron's endless hordes. Covered in fields of grain, the soil is enriched by ash from Orodruin and watered by the Sea of Núrnen. 
 Valueline2= Creeps: Warg 
-Valueline3= Hazards: Fog 
+Valueline3= Capturable: Inn 
 Valueline4= Region: Mordor
 
 
@@ -90768,6 +90762,14 @@ Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
+[LW:DisplayNameRhudaur]
+Value=Rhudaur
+
+
+[Map:MAPWORRhudaur/Desc]
+Value=Rhudaur was the smallest of the three kingdoms that remained from the breaking of the Kingdom of Arnor. It was later controlled by Angmar, until its eventual defeat at the Battle of Fornost. 
+Valueline2= Subregion: Rhudaur (+5 PP,+5% Atk) 
+Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
@@ -90983,6 +90985,15 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+
+[LW:DisplayNameOsgiliath]
+Value=Osgiliath
+
+
+[Map:MAPWOROsgiliath/Desc]
+Value=This Gondorian city is the last line of defense between Mordor and Minas Tirith. The river Anduin runs through the centre of the city. 
+Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
@@ -91555,9 +91566,11 @@ Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount)
 Value=Caradhras
 
 
+[Map:MAPWORCaradhras/Desc]
+Value=Caradhras is the tallest peak of the Misty Mountains, under which realm of Khazad-dûm was built. 
+Valueline2= Subregion: Moria (+10% Res,+5 PP)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
-[Map:MAPWORcentralithilien/Desc]
-Value=A land in eastern Gondor, bordering the mountains that divide Gondor from Mordor.
 
 
 
@@ -91657,6 +91670,14 @@ Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
 
 
+[LW:DisplayNamePlainsofGorgoroth]
+Value=Plains of Gorgoroth
+
+
+[Map:MAPWORPlainsofGorgoroth/Desc]
+Value=The barren ashy wasteland of Gorgoroth surrounds Mount Doom. An inhospitable land marred with pits, ash, and poisonous fumes. 
+Valueline2= Subregion: Gorgoroth (+10 PP,+5% Atk) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
 
 
@@ -91667,6 +91688,30 @@ Value=Núrn
 
 [Map:MAPWORNurn/Desc]
 Value=Nurn is the name given to the southern regions of Mordor, more fertile than Gorgoroth in the north, wherein lies the great inland Sea of Núrnen. 
+Valueline2= Subregion: Núrn (+10% Res) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
+
+
+
+
+[LW:DisplayNameSeaofNurnen]
+Value=Sea of Núrnen
+
+
+[Map:MAPWORSeaofNurnen/Desc]
+Value=The Sea of Núrnen is a large inland lake in southeast Mordor. Fed by rivers flowing from the Ephel Dúath and Ash Mountains, it separates the volcanic plateau of Gorgoroth from the fertile plains of Núrn. 
+Valueline2= Subregion: Núrn (+10% Res) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
+
+
+
+
+[LW:DisplayNameSlavefieldsofNurn]
+Value=Slavefields of Núrn
+
+
+[Map:MAPWORSlavefieldsofNurn/Desc]
+Value=The Sea of Núrnen is a large inland lake in southeast Mordor. Fed by rivers flowing from the Ephel Dúath and Ash Mountains, it separates the volcanic plateau of Gorgoroth from the fertile plains of Núrn. 
 Valueline2= Subregion: Núrn (+10% Res) 
 Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
@@ -91750,8 +91795,19 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
-[LW:DisplayNameDolAmroth]
-Value=Dol Amroth
+
+[LW:DisplayNameOldBrownLands]
+Value=Old Brown Lands
+
+
+[Map:MAPWOROldBrownLands/Desc]
+Value=A vast region east of the Anduin, this area was once home to the Entwives, until they were driven away when Sauron blighted the land in defense of Mordor during the Second Age. 
+Valueline2= Subregion: Brown Lands (+5 PP,+5% Exp) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
+
+
+
+
 
 
 [Map:MAPWORdolamroth/Desc]
@@ -92548,12 +92604,16 @@ Value=Ered Lithui
 
 
 
+[Map:MAPWORNurn]
+Value=Núrn
 
 
+[Map:MAPWORSeaofNurnen]
+Value=Sea of Núrnen
 
-[LW:DisplayNameNorthDowns]
-Value=North Downs
 
+[Map:MAPWORSlavefieldsofNurn]
+Value=Slavefields of Núrn
 
 
 
