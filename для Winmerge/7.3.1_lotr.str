@@ -90301,7 +90301,7 @@ Value=The Old Forest
 
 [Map:MAPMPtheoldforest/Desc]
 Value=One of the few remnants of vast ancient forests that once covered Eriador before the Second Age. Angered by long ages of felling and destruction, the forest is known to ensnare unwary travellers. 
-Valueline2= Capturable: Signal Fire 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Barrow Wight, Spider 
 Valueline4= Region: Arnor
 
@@ -90314,21 +90314,9 @@ Value=The Wold*
 [Map:MAPMPthewold/Desc]
 Value=The Wold is the northernmost and least populated part of Rohan, a grassy upland plain lying between Fangorn and the Anduin. Its hardy and nomadic inhabitants use the land to graze cattle. 
 Valueline2= Capturable: Inn 
-Valueline3= Creeps: Warg, Goblin 
+Valueline3= Creeps: Warg 
 Valueline4= Region: Rhovanion
 
-
-
-[Map:MAPMPtolfuin]
-Value=Tol Fuin*
-
-
-[Map:MAPMPtolfuin/Desc]
-Value=Tol Fuin is one of the Western Isles beyond the coasts of Lindon. Only its highest reaches survived the drowning of Beleriand and the changing of the world. 
-Valueline2= Capturable: 
-Valueline3= Creeps: 
-Valueline4= Hazards: 
-Valueline5= Region: Lindon
 
 
 
@@ -90337,10 +90325,33 @@ Value=Tolfalas*
 
 
 [Map:MAPMPtolfalas/Desc]
-Value=A large island in the Bay of Belfalas beyond the mouth of Anduin. Its sharp southern cape was traditionally considered as marking the southernmost point of Gondor. 
-Valueline2= Capturable: Signal Fire, Dock 
-Valueline3= Creeps: Cave Troll 
-Valueline4= Region: Gondor
+Value=A large island in the Bay of Belfalas beyond the mouth of Anduin. Its sharp southern cape has traditionally been considered as the southernmost point of Gondor. 
+Valueline2= Capturable: Signal Fire, Inn, Dock 
+Valueline3= Region: Gondor
+
+
+
+
+[Map:MAPMPtolfennas]
+Value=Tol Fennas*
+
+
+[Map:MAPMPtolfennas/Desc]
+Value=Tol Fennas lies within the Bay of Belfalas, 'Gateway Isle' to Dol Amroth and Gondor's southern coast. A small outpost watches over the towering white cliffs and passing seafarers. 
+Valueline2= Capturable: Dock 
+Valueline3= Region: Gondor
+
+
+
+[Map:MAPMPtombsofabrakhan]
+Value=Tombs of Abrakhân*
+
+
+[Map:MAPMPtombsofabrakhan/Desc]
+Value=The sprawling grave site of the rulers of Abrakhân has long been buried under sand and forgotten... until the recent return of an ancient evil unearthed its secrets. 
+Valueline2= Capturable: Signal Fire, Outpost 
+Valueline3= Creeps: Great Scorpion, Scorpion 
+Valueline4= Region: Haradwaith
 
 
 
@@ -90350,7 +90361,7 @@ Value=Tower Hills
 
 [Map:MAPMPtowerhills/Desc]
 Value=A range of hills in west Eriador, home to three tall Elven towers, the White Towers. The highest of these is named Elostirion, which houses a palantír. 
-Valueline2= Capturable: White Towers, Outpost 
+Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Goblin 
 Valueline4= Region: Lindon
 
@@ -90378,6 +90389,19 @@ Valueline2= Region: Arnor
 
 
 
+
+[Map:MAPMPtulima]
+Value=Tûli-mâ*
+
+
+[Map:MAPMPtulima/Desc]
+Value=Beyond the northern borders of Eriador stretches the vast rocky tundra of Tûli-mâ, or 'Windy Land' in the native Lossoth tongue. Glacial streams course through this hilly area, home to large herds of migrating wildlife. 
+Valueline2= Creeps: Warg 
+Valueline3= Region: Forodwaith
+
+
+
+
 [Map:MAPMPudun]
 Value=Udûn
 
@@ -90390,15 +90414,27 @@ Valueline4= Region: Mordor
 
 
 
-[Map:MAPMPumbar]
-Value=Umbar
+[Map:MAPMPultala]
+Value=Ul-tâla*
 
 
-[Map:MAPMPumbar/Desc]
-Value=Umbar is a haven to the far south of Gondor in Middle-earth. It has long welcomed exiles and enemies of the realm of Gondor. 
+[Map:MAPMPultala/Desc]
+Value=The rolling hills of Ul-tâla, the 'Great Steppe', lie to the far east in distant Rhûn. These flowering grasslands are largely uninhabited save for fortified outposts that guard strategic trade routes and nearby nomadic tribes. 
+Valueline2= Creeps: Warg 
+Valueline3= Region: Rhûn
+
+
+
+
+[Map:MAPMPumbarcove]
+Value=Umbar Cove
+
+
+[Map:MAPMPumbarcove/Desc]
+Value=The coastline of Umbar contains many sheltered coves and bays that offer haven from exiles and enemies of the realm of Gondor. 
 Valueline2= Capturable: Signal Fire, Dock, Inn 
-Valueline3= Creeps: Barrow Wight, Spider, Corsair 
-Valueline4= Region: Harad
+Valueline3= Creeps: Goblin, Corsair 
+Valueline4= Region: Haradwaith
 
 
 
@@ -90408,9 +90444,9 @@ Value=Vales of Celduin*
 
 [Map:MAPMPvalesofcelduin/Desc]
 Value=The Celduin runs south from Erebor, connecting Thranduil's kingdom with the northmen of Dale and Esgaroth, and the realms to the south. 
-Valueline2= Capturable: Outpost 
-Valueline3= Creeps: Hill Troll, Warg, Goblin 
-Valueline4= Region: Rhûn
+Valueline2= Capturable: Inn 
+Valueline3= Creeps: Warg, Goblin 
+Valueline4= Region: Erebor
 
 
 
@@ -90420,10 +90456,9 @@ Value=Walls of Moria*
 
 [Map:MAPMPwallsofmoria/Desc]
 Value=The Doors of Durin are hidden within the surface of the Walls of Moria, the sheer cliffs at the base of the Misty Mountains. Its secret doorway was crafted by the smiths of Khazad-dûm and Eregion. 
-Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Goblin 
-Valueline4= Hazards: Watcher 
-Valueline5= Region: Misty Mountains
+Valueline2= Creeps: Goblin 
+Valueline3= Hazards: Watcher 
+Valueline4= Region: Misty Mountains
 
 
 
@@ -90458,7 +90493,7 @@ Value=Westfold*
 [Map:MAPMPwestfold/Desc]
 Value=The western part of Rohan between the river Isen and the Folde. Following the second Battle of the Fords of Isen, Erkenbrand's forces were scattered and Saruman's host marched through the Westfold towards Helm's Deep. 
 Valueline2= Capturable: Signal Fire, Inn 
-Valueline3= Creeps: Cave Troll, Warg, Goblin 
+Valueline3= Creeps: Warg, Goblin 
 Valueline4= Region: Rohan
 
 
@@ -90480,10 +90515,34 @@ Value=Whitcleft
 
 
 [Map:MAPMPwhitcleft/Desc]
-Value=This narrow cleft in the Misty Mountains is a treachourous mountain pass, now occupied by a handful of goblins. 
-Valueline2= Capturable: Outpost, Inn 
+Value=This narrow cleft in the Misty Mountains is a treacherous mountain pass, now occupied by a handful of goblins. 
+Valueline2= Capturable: Inn 
 Valueline3= Creeps: Goblin 
 Valueline4= Region: Misty Mountains
+
+
+
+[Map:MAPMPwhitemountainpass]
+Value=White Mountain Pass*
+
+
+[Map:MAPMPwhitemountainpass/Desc]
+Value=One of the few passes that lead through the White Mountains, this small valley is inhabited only by the hardiest of mountain folk and wild creatures. 
+Valueline2= Capturable: Signal Fire 
+Valueline3= Creeps: Stone Troll, Wolf 
+Valueline4= Region: Gondor
+
+
+
+[Map:MAPMPwhitepillar]
+Value=White Pillar*
+
+
+[Map:MAPMPwhitepillar/Desc]
+Value=The White Pillar once stood upon the coastline overlooking Umbar, a monument to the landing of the Númenórean fleet and humbling of Sauron during the Second Age. It was later cast down during Sauron's dominion over Umbar. 
+Valueline2= Capturable: Inn, Dock 
+Valueline3= Creeps: Warg 
+Valueline4= Region: Haradwaith
 
 
 
@@ -90492,10 +90551,10 @@ Value=Wilds of Forochel*
 
 
 [Map:MAPMPwildsofforochel/Desc]
-Value=A wild and treachorous region of Forochel scarcely inhabited by small northmen tribes. 
+Value=This wild and icy region of Forochel is sparsely inhabited by hardy Lossoth ice-fishing tribes that dwell beside its large frozen lakes. 
 Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Wolf 
-Valueline4= Region: Misty Mountains
+Valueline3= Creeps: Warg 
+Valueline4= Region: Forodwaith
 
 
 
@@ -90507,7 +90566,7 @@ Value=Withered Heath
 Value=A long narrow valley between the eastern ranges of the Grey Mountains forms this burned and desolate heath, the breeding-ground of dragons and lesser wyrms. 
 Valueline2= Capturable: Signal Fire, Inn 
 Valueline3= Creeps: Fire Drake, Goblin 
-Valueline4= Region: Erebor
+Valueline4= Region: Misty Mountains
 
 
 
@@ -90516,9 +90575,9 @@ Value=Woodsedge
 
 
 [Map:MAPMPwoodsedge/Desc]
-Value=The Woodsedge is an area in the central part of the Vales of Anduin, south of the Beorning-lands and bordered by the Anduin. They are home to scattered wild folk. 
-Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Cave Troll, Warg 
+Value=The Woodsedge is an area in the central part of the Vales of Anduin, south of the Beorning-lands and bordered by the Anduin, home to scattered wild folk. 
+Valueline2= Capturable: Signal Fire, Inn 
+Valueline3= Creeps: Warg 
 Valueline4= Region: Rhovanion
 
 
@@ -90636,6 +90695,26 @@ Valueline3= Region: Arnor (50% Hero Discount)
 
 
 
+[LW:DisplayNameTheOldForest]
+Value=The Old Forest
+
+
+[Map:MAPWORTheOldForest/Desc]
+Value=The Old Forest is one of the few remnants of ancient forests that once covered Eriador in the Second Age. Angered by long ages of felling and destruction, its trees are known to lash out at unwary travellers. 
+Valueline2= Subregion: The Shire (+5 PP, +5% Def) 
+Valueline3= Region: Arnor (50% Hero Discount)
+
+
+
+
+[LW:DisplayNameWeatherHills]
+Value=Weather Hills
+
+
+[Map:MAPWORWeatherHills/Desc]
+Value=The Weather Hills is the name among Men for the north-south range of hills that lay in central Eriador, and in ancient times marked part of the border between the lands of Arthedain and Rhudaur. 
+Valueline2= Subregion: Weather Hills (+10 PP) 
+Valueline3= Region: Arnor (50% Hero Discount)
 
 
 
@@ -90784,6 +90863,14 @@ Valueline3= Region: Erebor (+5 PP,+5% Def,+200 Extra Starting Res)
 
 
 
+[LW:DisplayNameTargul]
+Value=Targul
+
+
+[Map:MAPWORTargul/Desc]
+Value=A large deep pit carved into the hills that lie between the dwarven kingdoms of Erebor and the Iron Hills. 
+Valueline2= Subregion: Iron Hills (+10% Res,+5 PP) 
+Valueline3= Region: Erebor (+5 PP,+5% Def,+200 Extra Starting Res)
 
 
 
@@ -90992,6 +91079,14 @@ Valueline3= Region: Eriador (-100 Unit Discount)
 
 
 
+[LW:DisplayNameTulima]
+Value=Tûli-mâ
+
+
+[Map:MAPWORTulima/Desc]
+Value=To the north of Eriador stretches the rocky tundra of Tûli-mâ, 'Windy Land' in the native Lossoth tongue. Glacial streams course through this hilly area, home to large herds of migrating wildlife. 
+Valueline2= Subregion: Forochel (+10 PP,+10% Def) 
+Valueline3= Region: Forodwaith (Free Special Units)
 
 
 
@@ -91008,6 +91103,14 @@ Valueline3= Region: Forodwaith (Free Special Units)
 
 
 
+[LW:DisplayNameItama]
+Value=Itä-mâ
+
+
+[Map:MAPWORItama/Desc]
+Value=Strange stone formations lie amongst the tall trees of Itä-mâ, ‘East Land’ in the speech of the native Lossoth. This forested region borders the Bay of Forochel and the unmapped wilderness of Forodwaith. 
+Valueline2= Subregion: Forochel (+10 PP,+10% Def) 
+Valueline3= Region: Forodwaith (Free Special Units)
 
 
 
@@ -91186,6 +91289,9 @@ Value=Andrast
 
 [Map:MAPWORAndrast/Desc]
 Value=Andrast is a long cape in the south-west of Gondor, between the Bay of Belfalas and the Great Sea, populated by scattered settlements. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
 
 
 
@@ -91193,8 +91299,10 @@ Value=Andrast is a long cape in the south-west of Gondor, between the Bay of Bel
 Value=Anfalas
 
 
-[Map:MAPWORanfalas/Desc]
-Value=The western coastal region of Gondor south of Pinnath Gelin. During the War of the Ring, Lord Golasgil led a force from Anfalas to the Battle of the Pelennor Fields.
+[Map:MAPWORAnfalas/Desc]
+Value=The western coastal region of Gondor south of Pinnath Gelin. During the War of the Ring, Lord Golasgil led a force from Anfalas to the Battle of the Pelennor Fields. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
@@ -91211,6 +91319,14 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameRingloVale]
+Value=Ringló Vale
+
+
+[Map:MAPWORRingloVale/Desc]
+Value=The Ringló Vale is a dark valley in the shadows of the White Mountains, through which flows the River Blackroot, or Morthond. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
@@ -91311,6 +91427,14 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[LW:DisplayNameTolfalas]
+Value=Tolfalas
+
+
+[Map:MAPWORTolfalas/Desc]
+Value=A large island in the Bay of Belfalas beyond the mouth of Anduin. Its sharp southern cape has traditionally been considered the southernmost point of Gondor. 
+Valueline2= Subregion: Southern Gondor (+10% Res,+15 PP,+10% Atk)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
@@ -91339,6 +91463,14 @@ Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
+[LW:DisplayNameTombsofAbrakhan]
+Value=Tombs of Abrakhân
+
+
+[Map:MAPWORTombsofAbrakhan/Desc]
+Value=The sprawling grave site of the rulers of Abrakhân has long been buried under sand and forgotten... until the recent return of an ancient evil unearthed its secrets. 
+Valueline2= Subregion: Abrakhân (+5 PP) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
@@ -91373,6 +91505,18 @@ Value=Nâfarat Delta
 
 [Map:MAPWORNafaratDelta/Desc]
 Value=The Nâfarat River journeys through the jungles of Nâfarat and Far Harad before it meets the Sea in a wide, marshy delta of many streams, dense surrounding jungle, and much birdlife. 
+Valueline2= Subregion: Far Harad (+5 PP) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
+[LW:DisplayNameNafarat]
+Value=Nâfarat
+
+
+[Map:MAPWORNafarat/Desc]
+Value=Within the desert of Harad, the Nâfarat River is seen by many as a refuge from the burning sun. Those who have traveled there and lived to tell the tale, beg to differ. 
 Valueline2= Subregion: Far Harad (+5 PP) 
 Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
@@ -91511,6 +91655,28 @@ Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
+[LW:DisplayNameNearHarad]
+Value=Near Harad
+
+
+[Map:MAPWORNearHarad/Desc]
+Value=Near Harad is an inhospitable region to the south of Gondor and Mordor, beyond the River Harnen. The Haradrim that inhabited the land are long enemies of the Gondorians. 
+Valueline2= Subregion: Near Harad (+5 PP,+5% Exp) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
+
+
+[LW:DisplayNameAmathuna]
+Value=Amathûna
+
+
+[Map:MAPWORAmathuna/Desc]
+Value=At the centre of this sacred site of the Mahûd lies an enormous Mûmak graveyard; its field of giant bones encircled by forgotten ancient structures carved into the surrounding cliffs. 
+Valueline2= Subregion: Near Harad (+5 PP,+5% Exp) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
+
+
 
 
 [LW:DisplayNameUmbar]
@@ -91537,6 +91703,14 @@ Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
+[LW:DisplayNameWhitePillar]
+Value=White Pillar
+
+
+[Map:MAPWORWhitePillar/Desc]
+Value=The White Pillar once stood upon the coastline overlooking Umbar, a monument to the humbling of Sauron by the Númenórean fleet. It was later cast down during Sauron's dominion over Umbar. 
+Valueline2= Subregion: Umbar (+10% Res,+5% Atk) 
+Valueline3= Region: Haradwaith (+5 PP, Free Special Units)
 
 
 
@@ -91551,8 +91725,6 @@ Valueline2= Subregion: Forlindon (+10 PP,+10% Exp)
 Valueline3= Region: Lindon (+200 Extra Starting Res) 
 
 
-[Map:MAPWORbarrowdowns/Desc]
-Value=Ancient burial grounds of Arnor lie southwest of Bree. After the fall of Rhudaur the Witch-king sent barrow-wights to haunt the hills.
 
 
 [LW:DisplayNameEredLuinHighlands]
@@ -91564,8 +91736,6 @@ Value=Between the arms of the Ered Luin lie wide stretches of highlands, often u
 Valueline2= Subregion: Forlindon (+10 PP,+10% Exp)  
 Valueline3= Region: Lindon (+200 Extra Starting Res) 
 
-[Map:MAPWORbelfalas/Desc]
-Value=This coastal region in southern Gondor stretches from the mouth of the Anduin to Dol Amroth, forming a large peninsula that juts out into the Bay of Belfalas.
 
 
 
@@ -91581,12 +91751,14 @@ Valueline3= Region: Lindon (+200 Extra Starting Res)
 
 
 
-[LW:DisplayNameBlueMountains]
+[LW:DisplayNameEredLuin]
 Value=Ered Luin
 
 
-[Map:MAPWORbluemountains/Desc]
-Value=The Blue Mountains, also known as the Ered Luin, was the mountain range at the far west of Eriador. It became the new home for many of Durin's Folk who were exiled from their halls in Erebor by Smaug the Dragon.
+[Map:MAPWOREredLuin/Desc]
+Value=The Blue Mountains, or Ered Luin, lie in the far west of Eriador. They became the new home for many of Durin's Folk who were exiled from their halls in Erebor by Smaug the Dragon. 
+Valueline2= Subregion: Forlindon (+10 PP,+10% Exp)  
+Valueline3= Region: Lindon (+200 Extra Starting Res) 
 
 
 
@@ -91642,8 +91814,11 @@ Valueline3= Region: Lindon (+200 Extra Starting Res)
 [LW:DisplayNameAngmar]
 Value=Angmar
 
-[Map:MAPWORbuckland/Desc]
-Value=Buckland was a small but densely populated sliver of land between the Old Forest and the east bank of the Brandywine river, inhabited by Hobbits from the Shire, including the Brandybuck family.
+
+[Map:MAPWORAngmar/Desc]
+Value=This icy region and kingdom was founded during the Third Age in the far north of the Misty Mountains by the Lord of the Ringwraiths, the Witch-king of Angmar. 
+Valueline2= Subregion: Angmar (+5 PP,+5% Atk)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
 
 
@@ -91658,18 +91833,18 @@ Valueline2= Subregion: Angmar (+5 PP,+5% Atk)
 Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
 
-[Map:MAPWORcairandros/Desc]
-Value=Cair Andros is an island fortress on the Anduin, north of Osgiliath. Together, the two locations guard the vulnerable crossing-points of the Anduin into the lands of Gondor to the west.
 
 
+[LW:DisplayNameMountGram]
+Value=Mount Gram
 
 
-[LW:DisplayNameCaradhras]
-Value=Caradhras
+[Map:MAPWORMountGram/Desc]
+Value=A mountain at the northern end of the Misty Mountains and the breeding ground of orcs. 
+Valueline2= Subregion: Angmar (+5 PP,+5% Atk)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
 
-[Map:MAPWORcaradhras/Desc]
-Value=Caradhras is the tallest peak of the Misty Mountains, under which realm of Khazad-dûm was built.
 
 
 [LW:DisplayNameColdfells]
@@ -91681,8 +91856,6 @@ Value=This snowy wilderness north of Rhudaur is marked by scattered ruins of the
 Valueline2= Subregion: Angmar (+5 PP,+5% Atk)  
 Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
-[Map:MAPWORcardolan/Desc]
-Value=One of the lost realms of Arnor, Cardolan lies between the rivers Brandywine and Greyflood, and remains unpopulated even still.
 
 
 
@@ -91722,6 +91895,16 @@ Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount)
 
 
 
+[LW:DisplayNameWitheredHeath]
+Value=Withered Heath
+
+
+[Map:MAPWORWitheredHeath/Desc]
+Value=A long narrow valley between the eastern ranges of the Grey Mountains forms this burned and desolate heath, the breeding-ground of dragons and lesser wyrms. 
+Valueline2= Subregion: Gundabad (+5 PP,+10% Atk)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
+
+
 
 
 [LW:DisplayNameGoblinTown]
@@ -91747,8 +91930,6 @@ Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount)
 
 
 
-[Map:MAPWORcarnen/Desc]
-Value=The Carnen flows south from the Iron Hills. It is known as the Redwater, because the iron from the mountains gives it a red tinge.
 
 [LW:DisplayNameDimrillDale]
 Value=Dimrill Dale
@@ -91759,8 +91940,6 @@ Value=A valley on the east side of the Misty Mountains, the Dimrill Dale is form
 Valueline2= Subregion: Moria (+10% Res,+5 PP)  
 Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
-[LW:DisplayNameCarrock]
-Value=Carrock
 
 
 
@@ -91932,6 +92111,26 @@ Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
 
 
+[LW:DisplayNameValeofAnduin]
+Value=Vale of Anduin
+
+
+[Map:MAPWORValeofAnduin/Desc]
+Value=The Old Forest Road crosses the River Anduin, the Great River, at the Old Ford. In an age past, there was a bridge, but that has long since eroded away. 
+Valueline2= Subregion: Anduin (+5 PP) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
+
+
+
+
+[LW:DisplayNameTheCarrock]
+Value=The Carrock
+
+
+[Map:MAPWORTheCarrock/Desc]
+Value=Narrow steps were carved by Beorn into the very cliff face of the Carrock, a stony eyot and ford of stones in the upper reaches of the Anduin. 
+Valueline2= Subregion: Anduin (+5 PP) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
@@ -91960,6 +92159,14 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
+[LW:DisplayNameOldFordAnduin]
+Value=Old Ford of Anduin
+
+
+[Map:MAPWOROldFordofAnduin/Desc]
+Value=The Anduin flows south between the Misty Mountains and Mirkwood. The Old Forest Road leads from the High Pass and crosses the river at the Old Ford of Anduin. 
+Valueline2= Subregion: Anduin (+5 PP) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
@@ -91970,6 +92177,10 @@ Value=Amon Hen
 
 [Map:MAPWORAmonHen/Desc]
 Value=The Hill of Sight, Amon Hen, lies on the western bank of Nen Hithoel. The remnants of an ancient path winds through the surrounding woodland to the Seat of Seeing at its summit. 
+Valueline2= Subregion: Brown Lands (+5 PP,+5% Exp) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
+
+
 
 
 [LW:DisplayNameEastBight]
@@ -91982,8 +92193,6 @@ Valueline2= Subregion: Brown Lands (+5 PP,+5% Exp)
 Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
-[LW:DisplayNameDimrillDale]
-Value=Dimrill Dale
 
 
 [LW:DisplayNameEmynMuil]
@@ -92022,10 +92231,14 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
+[LW:DisplayNameTheWold]
+Value=The Wold
 
 
-[Map:MAPWORdolamroth/Desc]
-Value=Chief city and port int he fiefdom of Belfalas in southern Gondor. Dol Amroth was located on the coast of the Bay of Belfalas on a high promontory overlooking the inlet called Cobas Haven.
+[Map:MAPWORTheWold/Desc]
+Value=The Wold is the northernmost and least populated part of Rohan, a grassy upland plain lying between Fangorn and the Anduin. Its hardy and nomadic inhabitants use the land to graze cattle. 
+Valueline2= Subregion: Brown Lands (+5 PP,+5% Exp) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
@@ -92066,6 +92279,14 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
+[LW:DisplayNameLothlorien]
+Value=Lothlórien
+
+
+[Map:MAPWORLothlorien/Desc]
+Value=Home of the Lady Galadriel and the Lord Celeborn, Caras Galadhon is a city built upon a green hill crowned with great Mallorn trees. 
+Valueline2= Subregion: Lothlórien (+5 PP,+10% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
@@ -92130,6 +92351,14 @@ Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount)
 
 
 
+[LW:DisplayNameMirkwood]
+Value=Mirkwood
+
+
+[Map:MAPWORMirkwood/Desc]
+Value=At the beginning of the Third Age Thranduil replaced Oropher as king of the Woodland Realm. The arrival of the Necromancer has caused a darkening of Greenwood, now known as Mirkwood. 
+Valueline2= Subregion: Woodland Realm (+5 PP,+5% Atk,+5% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
@@ -92193,18 +92422,18 @@ Valueline3= Region: Rhûn (+5 PP,+10% Atk, 50% Siege Discount)
 
 
 
-[LW:DisplayNameDruadanForest]
-Value=Drúadan Forest
+
+[LW:DisplayNameRhun]
+Value=Rhûn
 
 
-[Map:MAPWORdruadanforest/Desc]
-Value=A pine forest in northern Gondor, thought to be inhabited by a strange folk of men known as the Drúedain, the Wild Men of the Woods or Wood Woses.
+[Map:MAPWORRhun/Desc]
+Value=Rhûn refers to the little-known eastern lands of Middle-earth. Its Mannish people known as Easterlings lie under the dominion of Sauron, and have led many attacks against the West through the ages. 
+Valueline2= Subregion: Rhûn (+10 PP,+5% Atk,+5% Exp) 
+Valueline3= Region: Rhûn (+5 PP,+10% Atk, 50% Siege Discount)
 
 
 
-
-[LW:DisplayNameDunharrow]
-Value=Dunharrow
 
 [LW:DisplayNameSteppesofSarakhax]
 Value=Steppes of Sarâkhax
@@ -92217,23 +92446,27 @@ Valueline3= Region: Rhûn (+5 PP,+10% Atk, 50% Siege Discount)
 
 
 
-[LW:DisplayNameDunland]
-Value=Dunland
+
+[LW:DisplayNameUlTala]
+Value=Ul-tâla
 
 
-[Map:MAPWORdunland/Desc]
-Value=A sparsely populated foothill region on the western slopes of Misty Mountains, Dunland is inhabited by the warlike hillmen known as the Dunlendings.
+[Map:MAPWORUlTala/Desc]
+Value=The rolling hills of Ul-tâla, the 'Great Steppe', lie in distant eastern Rhûn. These flowering grasslands are largely uninhabited save for fortified outposts that guard strategic trade routes and nearby tribes. 
+Valueline2= Subregion: Rhûn (+10 PP,+5% Atk,+5% Exp) 
+Valueline3= Region: Rhûn (+5 PP,+10% Atk, 50% Siege Discount)
 
 
 
 
-[LW:DisplayNameEastBight]
-Value=East Bight
+[LW:DisplayNameSurubeki]
+Value=Sûrûbeki
 
 
-[Map:MAPWOReastbight/Desc]
-Value=This great indentation in the eastern edge of Mirkwood is a treeless region resulting from generations of forestry by the Northmen who historically occupied the lands east of the Forest.
-
+[Map:MAPWORSurubeki/Desc]
+Value=The southern shores of the Sea of Rhûn receive sparse rainfall yet rivers from the Ered Lithui support these otherwise dry lands. 
+Valueline2= Subregion: South Rhûn (+5 PP,+5% Atk) 
+Valueline3= Region: Rhûn (+5 PP,+10% Atk, 50% Siege Discount)
 
 
 
@@ -92358,25 +92591,33 @@ Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
 
 
 
-
-[LW:DisplayNameEmynArnen]
-Value=Emyn Arnen
-
-
-[Map:MAPWORemynarnen/Desc]
-Value=The Emyn Arnen are a cluster of hills in South Ithilien, south of Osgiliath, on the east bank of the Anduin.
+[LW:DisplayNameHarrowdale]
+Value=Harrowdale
 
 
+[Map:MAPWORHarrowdale/Desc]
+Value=A hallowed mountain that stands over the border of Rohan and Anorien. Highest and westernmost of Gondor's beacons, a deep cleft separates it from the surrounding White Mountains. 
+Valueline2= Subregion: King's Lands (+10% Res,+5 PP) 
+Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
 
 
-[LW:DisplayNameEmynMuil]
-Value=Emyn Muil
+
+
+[LW:DisplayNameTheFolde]
+Value=The Folde
+
+
+[Map:MAPWORTheFolde/Desc]
+Value=The Folde is an ancient and historic region of Rohan, close to the capital of Edoras, and originally home to the King's seat at the town of Aldburg. It is the ancestral homeland of Rohan's royal line. 
+Valueline2= Subregion: King's Lands (+10% Res,+5 PP) 
+Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
+
+
+
 
 [LW:DisplayNameHelmsDeep]
 Value=Helm's Deep
 
-[Map:MAPWORemynmuil/Desc]
-Value=Dark, rocky labyrinthine hills east of the Anduin. Gollum led Frodo and Sam through the treachorous terrain on their way to Mordor.
 
 [Map:MAPWORHelmsDeep/Desc]
 Value=This aged stronghold is the site of one of the key battles in the War of the Ring. No enemy has ever defeated the defenders of the walls of the fortress, or entered its keep, the Hornburg. 
@@ -92385,29 +92626,39 @@ Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
 
 
 
-[LW:DisplayNameEnedwaith]
-Value=Enedwaith
+
+[LW:DisplayNameSnowbourn]
+Value=Snowbourn
 
 
-[Map:MAPWORenedwaith/Desc]
-Value=Enedwaith was once deeply forested until the arrival of the timber-seeking Númenóreans during the Second Age left the landscape devastated and barren.
-
-
-
-
-[LW:DisplayNameErebor]
-Value=Erebor
-
-
-[Map:MAPWORerebor/Desc]
-Value=The Lonely Mountain, or Erebor, is a mountain in the north-east of Rhovanion. It is the source of the river Running, and the greatest kingdom of Durin's Folk in the Third Age.
+[Map:MAPWORSnowbourn/Desc]
+Value=This river in Rohan begins under the Starkhorn in the White Mountains and flows north, before turning past Edoras to meet the River Entwash. 
+Valueline2= Subregion: West-mark (+5 PP,+10% Def) 
+Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
 
 
 
 
+[LW:DisplayNameWestEmnet]
+Value=West Emnet
+
+
+[Map:MAPWORWestEmnet/Desc]
+Value=The most important of Rohan's settlements lie to the south of the West-emnet, the westernmost grasslands beyond the Entwash, where the White Mountains rise from the surrounding plains. 
+Valueline2= Subregion: West-mark (+5 PP,+10% Def) 
+Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
 
 
 
+
+[LW:DisplayNameWestfold]
+Value=Westfold
+
+
+[Map:MAPWORWestfold/Desc]
+Value=Following the second Battle of the Fords of Isen, Erkenbrand's forces were scattered and Saruman's host marched through the grasslands of the Westfold towards Helm's Deep. 
+Valueline2= Subregion: West-mark (+5 PP,+10% Def) 
+Valueline3= Region: Rohan (+5 PP,+300 Extra Starting Res)
 
 
 
@@ -92476,6 +92727,8 @@ Value=Wulfborg
 Value=Frecalund
 
 
+[Map:MAPWORRegnfells]
+Value=Regnfells
 
 
 [Map:MAPWOREnedwaith]
@@ -92502,6 +92755,8 @@ Value=Iron Foothills
 Value=Iron Hills
 
 
+[Map:MAPWORTargul]
+Value=Targul
 
 
 [Map:MAPWOREasternWastes]
@@ -92520,12 +92775,16 @@ Value=Erebor
 Value=Carnen
 
 
+[Map:MAPWORValesofCelduin]
+Value=Vales of Celduin
 
 
 [Map:MAPWORCardolan]
 Value=Cardolan
 
 
+[Map:MAPWORMinhiriath]
+Value=Minhiriath
 
 
 [Map:MAPWORSwanfleet]
@@ -92540,8 +92799,12 @@ Value=Tharbad
 Value=Eregion
 
 
+[Map:MAPWORHollin]
+Value=Hollin
 
 
+[Map:MAPWOROstinEdhil]
+Value=Ost-in-Edhil
 
 
 [Map:MAPWORTheAngle]
@@ -92580,12 +92843,12 @@ Value=Itä-mâ
 Value=Forodwaith
 
 
-[LW:DisplayNameGladdenFields]
-Value=Gladden Fields
+[Map:MAPWORJotunstath]
+Value=Honk's Valley
 
 
-[Map:MAPWORgladdenfields/Desc]
-Value=This marshland along the Anduin was the location where High King Isildur was slain by a party of Orcs and the One Ring was lost for centuries.
+[Map:MAPWORNorthtarn]
+Value=Northtarn
 
 
 [Map:MAPWORAnorien]
@@ -92628,17 +92891,24 @@ Value=Harlond
 Value=Mouths of Entwash
 
 
+[Map:MAPWOROsgiliath]
+Value=Osgiliath
 
 
 [Map:MAPWORAndrast]
 Value=Andrast
 
 
+[Map:MAPWORAnfalas]
+Value=Anfalas
+
 
 [Map:MAPWORBelfalas]
 Value=Belfalas
 
 
+[Map:MAPWORRingloVale]
+Value=Ringló Vale
 
 
 [Map:MAPWORCentralIthilien]
@@ -92661,20 +92931,32 @@ Value=Dol Amroth
 Value=Pelargir
 
 
+[Map:MAPWORLamedon]
+Value=Lamedon
 
 
+[Map:MAPWORLebennin]
+Value=Lebennin
 
 
+[Map:MAPWORLossarnach]
+Value=Lossarnach
 
 
+[Map:MAPWORTolfalas]
+Value=Tolfalas
 
 
 [Map:MAPWORAbrakhan]
 Value=Abrakhân
 
 
+[Map:MAPWORDesertofAzkahar]
+Value=Desert of Azkâhar
 
 
+[Map:MAPWORTombsofAbrakhan]
+Value=Tombs of Abrakhân
 
 
 [Map:MAPWORKarna]
@@ -92685,12 +92967,12 @@ Value=Kârna
 Value=Far Harad
 
 
-[LW:DisplayNameIronHills]
-Value=Iron Hills
+[Map:MAPWORNafaratDelta]
+Value=Nâfarat Delta
 
 
-[Map:MAPWORironhills/Desc]
-Value=The Iron Hills are a range of great hills in the north-east of Wilderland, and the source of the river Carnen, rich in iron. It is home to a Dwarf-realm of the Longbeards.
+[Map:MAPWORNafarat]
+Value=Nâfarat
 
 
 [Map:MAPWOREthirAnduin]
@@ -92701,15 +92983,15 @@ Value=Ethir Anduin
 Value=Harad Road
 
 
-[Map:MAPWORisengard/Desc]
-Value=Isengard is a great fortress located at the southern end of the Misty Mountains, near the Gap of Rohan. In the centre of the Ring of Isengard stands the stone tower of Orthanc, entrusted to Saruman the White.
+[Map:MAPWORHarondor]
+Value=Harondor
 
 
 [Map:MAPWORBordersofKhand]
 Value=Borders of Khand
 
 
-[LW:DisplayNameKhand]
+[Map:MAPWORKhand]
 Value=Khand
 
 
@@ -92733,10 +93015,12 @@ Value=Hîdar
 Value=Harad Coast
 
 
+[Map:MAPWORDesertofLostladen]
+Value=Desert of Lostladen
 
 
-[LW:DisplayNameLebennin]
-Value=Lebennin
+[Map:MAPWORNearHarad]
+Value=Near Harad
 
 
 [Map:MAPWORAmathuna]
@@ -92751,8 +93035,8 @@ Value=Umbar
 Value=Mâros
 
 
-[Map:MAPWORlothlorien/Desc]
-Value=This forest, also known as the Golden Wood for its Mallorn Trees, is the home of Galadriel and Celeborn of the Elves.
+[Map:MAPWORWhitePillar]
+Value=White Pillar
 
 
 [Map:MAPWORCapeofForlond]
@@ -92767,8 +93051,8 @@ Value=Ered Luin Highlands
 Value=Forlindon
 
 
-[LW:DisplayNameMinasTirith]
-Value=Minas Tirith
+[Map:MAPWOREredLuin]
+Value=Ered Luin
 
 
 [Map:MAPWORGreyHavens]
@@ -92783,6 +93067,8 @@ Value=Thorin's Halls
 Value=Harlindon
 
 
+[Map:MAPWORTowerHills]
+Value=Tower Hills
 
 
 [Map:MAPWORAngmar]
@@ -92793,6 +93079,8 @@ Value=Angmar
 Value=Ettenmoors
 
 
+[Map:MAPWORMountGram]
+Value=Mount Gram
 
 
 [Map:MAPWORColdfells]
@@ -92811,6 +93099,8 @@ Value=Mount Gundabad
 Value=Grey Mountains
 
 
+[Map:MAPWORWitheredHeath]
+Value=Withered Heath
 
 
 [Map:MAPWORGoblinTown]
@@ -92829,8 +93119,8 @@ Value=Dimrill Dale
 Value=Moria
 
 
-[Map:MAPWORmoria/Desc]
-Value=Greatest of all the mansions of the Dwarves was Khazad-dûm, the Dwarrowdelf, Hadhodrond in the Elvish tongue, that was afterwards in the days of its darkness called Moria.
+[Map:MAPWORCaradhras]
+Value=Caradhras
 
 
 [Map:MAPWORBlackGate]
@@ -92861,7 +93151,12 @@ Value=Minas Morgul
 Value=Ered Lithui
 
 
+[Map:MAPWORMountDoom]
+Value=Mount Doom
 
+
+[Map:MAPWORPlainsofGorgoroth]
+Value=Plains of Gorgoroth
 
 
 [Map:MAPWORNurn]
@@ -92876,10 +93171,12 @@ Value=Sea of Núrnen
 Value=Slavefields of Núrn
 
 
+[Map:MAPWORValeofAnduin]
+Value=Vale of Anduin
 
 
-[LW:DisplayNameNorthernIthilien]
-Value=Northern Ithilien
+[Map:MAPWORTheCarrock]
+Value=The Carrock
 
 
 [Map:MAPWORFramsburg]
@@ -92890,8 +93187,8 @@ Value=Framsburg
 Value=Gladden Fields
 
 
-[LW:DisplayNameNorthernMirkwood]
-Value=Northern Mirkwood
+[Map:MAPWOROldFordofAnduin]
+Value=Old Ford of Anduin
 
 
 [Map:MAPWORAmonHen]
@@ -92910,24 +93207,36 @@ Value=Emyn Muil
 Value=Fangorn
 
 
-[LW:DisplayNameBrownlands]
+[Map:MAPWOROldBrownLands]
 Value=Old Brown Lands
 
 
-[MAP:mapworOldBrownLands/Desc]
-Value=The Brown Lands are a vast region east of the Anduin, between Mirkwood and the Emyn Muil. The area was once home to the Entwives, but they were driven away when Sauron blighted the land in defense of Mordor during the War of the Last Alliance in the Second Age.
+[Map:MAPWORTheWold]
+Value=The Wold
 
 
 [Map:MAPWORDolGuldur]
 Value=Dol Guldur
 
 
+[Map:MAPWORTaurenUngolath]
+Value=Taur-en-Ungolath
 
 
 [Map:MAPWORFieldofCelebrant]
 Value=Field of Celebrant
 
 
+[Map:MAPWORLothlorien]
+Value=Lothlórien
+
+
+[Map:MAPWORNanCelebrant]
+Value=Nan Celebrant
+
+
+[Map:MAPWORTaurHithlin]
+Value=Taur Hithlin
 
 
 [Map:MAPWORTheForestGate]
@@ -92950,8 +93259,12 @@ Value=Mirkwood
 Value=Northern Mirkwood
 
 
+[Map:MAPWORTaurenMorvith]
+Value=Taur-en-Morvith
 
 
+[Map:MAPWORTaurnaFaroth]
+Value=Taur-na-Faroth
 
 
 [Map:MAPWORDorwinion]
@@ -92966,6 +93279,8 @@ Value=Kûnin
 Value=Rhûn
 
 
+[Map:MAPWORSteppesofSarakhax]
+Value=Steppes of Sarâkhax
 
 
 [Map:MAPWORUlTala]
@@ -93016,22 +93331,28 @@ Value=Dunharrow
 Value=Edoras
 
 
+[Map:MAPWORHarrowdale]
+Value=Harrowdale
 
 
+[Map:MAPWORTheFolde]
+Value=The Folde
 
 
 [Map:MAPWORHelmsDeep]
 Value=Helm's Deep
 
 
+[Map:MAPWORSnowbourn]
+Value=Snowbourn
 
 
-[LW:DisplayNameRohan]
-Value=Rohan
+[Map:MAPWORWestEmnet]
+Value=West Emnet
 
 
-[MAP:mapworRohan/Desc]
-Value=Rohan is the kingdom and territory of the Rohirrim, a people of herdsmen and farmers. Well-known for their horses and cavalry, they are Gondor's most important ally.
+[Map:MAPWORWestfold]
+Value=Westfold
 
 
 
@@ -93058,8 +93379,10 @@ Value=Amon Sûl
 Value=Amon Sûl
 
 
-[LW:DisplayNameSwanFleet]
-Value=Swanfleet
+[Map:MAPWORLAAmonSul/Desc]
+Value=The Tower of Amon Sûl stands upon the southernmost top of the Weather Hills, and was built to house one of the palantíri of Arnor. 
+Valueline2= Subregion: Weather Hills (+10 PP) 
+Valueline3= Region: Arnor (50% Hero Discount)
 
 
 
@@ -93075,6 +93398,21 @@ Value=Tharbad
 Value=The South Road passes through the city of Tharbad, where its great bridge provides passage across the rivers Glanduin and Hoarwell, and the small trade ships that harbour there. 
 Valueline2= Subregion: Cardolan (+5 PP,+5% Exp) 
 Valueline3= Region: Eriador (-100 Unit Discount)
+
+
+
+[Map:MAPWORLAMinasAnor]
+Value=Minas Anor
+
+
+[LW:DisplayNameMinasAnorLA]
+Value=Minas Anor
+
+
+[Map:MAPWORLAMinasAnor/Desc]
+Value=Minas Anor, Tower of the Sun, sits on seven levels against Mount Mindolluin, and is ruled over by Anárion, son of Elendil. 
+Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
