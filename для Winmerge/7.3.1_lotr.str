@@ -93416,6 +93416,33 @@ Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
 
 
 
+[Map:MAPWORLAOsgiliath]
+Value=Osgiliath
+
+
+[LW:DisplayNameOsgiliathLA]
+Value=Osgiliath
+
+
+[Map:MAPWORLAOsgiliath/Desc]
+Value=The river Anduin runs through the centre of Osgiliath, capital of the newly-founded South-kingdom of Gondor. 
+Valueline2= Subregion: Northern Gondor (+10% Res,+10 PP,+10% Def)  
+Valueline3= Region: Gondor (+5 PP,+5% Def, -50% Hero Discount)
+
+
+
+[Map:MAPWORLAEredLindon]
+Value=Ered Lindon
+
+
+[LW:DisplayNameEredLindonLA]
+Value=Ered Lindon
+
+
+[Map:MAPWORLAEredLindon/Desc]
+Value=The Dwarven cities of Nogrod and Belegost were ruined when the mountains were broken at the end of the First Age, causing most of the Dwarves to migrate east to Khazad-dûm. However, some Dwarves remained amongst the Ered Lindon in days afterwards 
+Valueline2= Subregion: Harlindon (+5 PP,+10% Exp) 
+Valueline3= Region: Lindon (+200 Extra Starting Res) 
 
 
 
@@ -93427,6 +93454,10 @@ Value=Angmar
 Value=Angmar
 
 
+[Map:MAPWORLAAngmar/Desc]
+Value=This icy region lies to the north of Arnor, encircled by the Mountains of Angmar to the north, and the Misty Mountains to the east.  
+Valueline2= Subregion: Angmar (+5 PP,+5% Atk)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
 
 
@@ -93438,6 +93469,10 @@ Value=Carn Dûm
 Value=Carn Dûm
 
 
+[Map:MAPWORLACarnDum/Desc]
+Value=This valley in the northern Misty Mountains is uninhabited, save only by scattered bands of goblins and wild creatures. 
+Valueline2= Subregion: Angmar (+5 PP,+5% Atk)  
+Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount) 
 
 
 
@@ -93456,37 +93491,63 @@ Valueline3= Region: Misty Mountains (+5 PP,+5% Def,-200 Building Discount)
 
 
 
+[Map:MAPWORLAGreyMarshes]
+Value=Grey Marshes
+
+
+[LW:DisplayNameGreyMarshesLA]
+Value=Grey Marshes
+
+
+[Map:MAPWORLAGreyMarshes/Desc]
+Value=These reeking wetlands and endless mires lie northwest of the Dagorlad, forming a natural defence beyond The Black Gate of Mordor. 
+Valueline2= Subregion: Dagorlad (+5% Atk) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
 
 
+[Map:MAPWORLAMinasIthil]
+Value=Minas Ithil
+
+
+[LW:DisplayNameMinasIthilLA]
+Value=Minas Ithil
+
+
+[Map:MAPWORLAMinasIthil/Desc]
+Value=Minas Ithil, Tower of the Moon, stands watch over Mordor to the east and is ruled by Isildur. Its courtyards and streets are said to gleam in the silver light of the moon. 
+Valueline2= Subregion: Ephel Dúath (+5 PP,+10% Atk) 
+Valueline3= Region: Mordor (+5 PP,-200 Building Discount)
 
 
 
-
-[LW:DisplayNameTowerHills]
-Value=Tower Hills
-
+[Map:MAPWORLAAmonLanc]
+Value=Amon Lanc
 
 
+[LW:DisplayNameAmonLancLA]
+Value=Amon Lanc
 
 
-[LW:DisplayNameTrollShaws]
-Value=Trollshaws
-
-
-[MAP:mapworTrollshaws/Desc]
-Value=The Trollshaws are the upland woods that lie west of Rivendell, between the Rivers Hoarwell and Loudwater. In the wild hills are found shallow caves, wild trolls, and scattered ruins.
+[Map:MAPWORLAAmonLanc/Desc]
+Value=Amon Lanc, the Naked Hill, is a treeless hill and highest point amongst the southern lands of Greenwood the Great. 
+Valueline2= Subregion: Dol Guldur (+5 PP,+5% Atk) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
-[LW:DisplayNameUmbar]
-Value=Umbar
+[Map:MAPWORLAGreenwood]
+Value=Greenwood the Great
 
 
-[MAP:mapworUmbar/Desc]
-Value=Umbar is a haven to the far south of Gondor in Middle-earth. It has long welcomed exiles and enemies of the realm of Gondor.
+[LW:DisplayNameGreenwoodLA]
+Value=Greenwood the Great
 
 
+[Map:MAPWORLAGreenwood/Desc]
+Value=Greenwood the Great, or Eryn Galen, is a great forest east of the Anduin. This vast realm is inhabited by Oropher and the Wood-Elves. 
+Valueline2= Subregion: Woodland Realm (+5 PP,+5% Atk,+5% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
@@ -93498,6 +93559,10 @@ Value=Northern Greenwood
 Value=Northern Greenwood
 
 
+[Map:MAPWORLANorthernGreenwood/Desc]
+Value=Wild and mountainous forest lies to the north of the Forest Road , which crosses Greenwood and connects the Anduin Vale with the lands east of Rhovanion.
+Valueline2= Subregion: Woodland Realm (+5 PP,+5% Atk,+5% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
@@ -93510,6 +93575,10 @@ Value=Lórinand
 Value=Lórinand
 
 
+[Map:MAPWORLALorinand/Desc]
+Value=Lórinand, the Valley of Gold, is a wooded region, home to King Amdír and the Galadhrim. 
+Valueline2= Subregion: Lothlórien (+5 PP,+10% Def) 
+Valueline3= Region: Rhovanion (+10 PP,+5% Exp,-100 Unit Discount) 
 
 
 
