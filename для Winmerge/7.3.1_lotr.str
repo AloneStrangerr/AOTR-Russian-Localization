@@ -86638,12 +86638,16 @@ Value=Research Niphredil Bloom (&T)
 Value=The Talan grants additional +10% production to nearby Mallorn Trees
 
 
+[CONTROLBAR:TalanFakeNiphredil]
+Value=Niphredil Bloom
 
 
 [CONTROLBAR:ToolTipTalanFakeNiphredil]
 Value=The Talan grants additional +10% production to nearby Mallorn Trees
 
 
+[CONTROLBAR:TalanPassiveEco]
+Value=Radiant Presence
 
 
 [CONTROLBAR:ToolTipTalanPassiveEco]
@@ -86651,6 +86655,8 @@ Value=The Talan passively increases production of nearby mallorn trees by +10%
 Valueline2= Passive Ability
 
 
+[CONTROLBAR:UpgradeTalanStatue]
+Value=Research Border Fences (&S)
 
 
 [CONTROLBAR:ToolTipUpgradeTalanStatue]
@@ -86718,11 +86724,21 @@ Value=Summons a temporary horde of Silvan Sentries to defend the Mallorn Tree
 Valueline2= Left click to activate
 
 
+[CONTROLBAR:UpgradeMallornNiphredilBloom]
+Value=Primary Upgrade: Niphredil Bloom (&W)
+
+
+[CONTROLBAR:ToolTipUpgradeMallornNiphredilBloom]
+Value=Increases resource production of the Mallorn Tree 
 Valueline2= Increases command point limit by 50
 
 
 [CONTROLBAR:UpgradeMallornGaladhrimGarrisonFake]
 Value=Primary Upgrade: Galadhrim Garrison
+
+
+[CONTROLBAR:ToolTipUpgradeMallornGaladhrimGarrisonFake]
+Value=Allows the recruitment of Lothlórien's infantry units 
 Valueline2= Increases command point limit by 25
 
 
@@ -86732,6 +86748,7 @@ Value=Primary Upgrade: Galadhrim Garrison (&E)
 
 [CONTROLBAR:ToolTipUpgradeMallornGaladhrimGarrison]
 Value=Turns the Mallorn Tree into a Galadhrim Garrison 
+Valueline2= Allows the recruitment of Lothlórien's infantry units 
 Valueline3= Increases command point limit by 25
 
 
@@ -86754,12 +86771,53 @@ Value=Allows the recruitment of Riders of the Naith
 Valueline2= Increases command point limit by 25
 
 
+[CONTROLBAR:UpgradeMallornStorehouse]
+Value=Primary Upgrade: Storehouse (&T)
+
+
+[CONTROLBAR:ToolTipUpgradeMallornStorehouse]
+Value=Turns the Mallorn Tree into a Storehouse 
+Valueline2= Allows the purchase of various upgrades 
+Valueline3=  Reduces cost of upgrades 
 Valueline4= Increases command point limit by 25
 
 
+[CONTROLBAR:UpgradeMallornStorehouseFake]
+Value=Primary Upgrade: Storehouse
+
+
+[CONTROLBAR:ToolTipUpgradeMallornStorehouseFake]
+Value=Allows the purchase of various upgrades 
 Valueline2= Increases command point limit by 25
 
 
+[CONTROLBAR:SecondaryUpgrades]
+Value=Secondary Upgrades (&W)
+
+
+[CONTROLBAR:SecondaryUpgradesBarracks]
+Value=Secondary Upgrades (&F)
+
+
+[CONTROLBAR:SecondaryUpgradesStorehouse]
+Value=Secondary Upgrades (&S)
+
+
+[CONTROLBAR:SecondaryUpgradesPasture]
+Value=Secondary Upgrades (&E)
+
+
+[CONTROLBAR:ToolTipSecondaryUpgrades]
+Value=Purchase secondary upgrades for the Mallorn Tree
+
+
+[CONTROLBAR:LongMemory]
+Value=Long Memory (&W)
+
+
+[CONTROLBAR:ToolTipLongMemory]
+Value=Targeted units are permanently upgraded with +15% attack range, +25% vision and immunity to terror but gain -33% experience  
+Valueline2=  Left click icon then left click on target units
 
 
 [CONTROLBAR:ArmorofDoriath]
@@ -86768,6 +86826,26 @@ Value=Armour of Doriath (&E)
 
 [CONTROLBAR:ToolTipArmorofDoriath]
 Value=Requires Level 2 Hidden Sanctum
+Valueline2=Targeted units are permanently upgraded with time-worn armour
+Valueline3= Targeted units autoheal +50% better, gain +50 health and reflect damage taken but lose -10% movement speed 
+Valueline4= Left click icon then left click on target units
+
+
+[CONTROLBAR:StatueOfAmroth]
+Value=Statue of Amroth (&D)
+
+
+[CONTROLBAR:ToolTipStatueofAmroth]
+Value=Modifier Type: Spell
+Valueline2= +50% recharge speed for Hidden Sanctum spells and +33% experience gain for Knights of Amroth Amdírion
+Valueline3= Recharges Hidden Sanctum spells upon purchase 
+Valueline4=Passive ability
+
+
+[CONTROLBAR:SpecialPowerGaladrielGrace]
+Value=Galadriel's Grace (&W)
+
+
 [CONTROLBAR:ToolTipSpecialPowerGaladrielGrace]
 Value=Allows Handmaidens to rank up 
 Valueline2= Becomes more expensive the higher Handmaidens ranks up 
@@ -86790,9 +86868,21 @@ Valueline2=and buildings to decrease their armour by 5% up to 25%
 Valueline3=
 Valueline4= At rank 3, Handmaidens gain 50% ranged damage avoidance and reflect damage 
 Valueline5= Passive ability
+
+
+[CONTROLBAR:BlessedEarth]
+Value=Blessed Earth (&R)
+
+
 [CONTROLBAR:ToolTipBlessedEarth]
 Value=The Handmaidens bless a small area of terrain, creating a temporary place of healing to nearby friendly units 
 Valueline2= Left click then left click target area
+
+
+[CONTROLBAR:HandmaidenFaithfulService]
+Value=Faithful Service
+
+
 [CONTROLBAR:ToolTipHandmaidenFaithfulService]
 Value=Modifier Type: Spell 
 Valueline2= Handmaiden grants +15% armour to Galadriel when she is nearby 
@@ -86808,6 +86898,18 @@ Value=Upgrades the Handmaiden with a Golden Wood Glaive
 Valueline2= When equipped, adds minor splash damage to the Handmaiden's attacks
 
 
+[CONTROLBAR:HandmaidenRadiance]
+Value=Radiance
+
+
+[CONTROLBAR:ToolTipHandmaidenRadiance]
+Value=Modifier Type: Spell 
+Valueline2= Each consecutive attack grants nearby Lorien melee units +5% attack damage up to a maximum of 20% for 8 seconds 
+Valueline3=Passive ability
+
+
+[CONTROLBAR:GleamOfNenya]
+Value=Gleam of Nenya (&C)
 
 
 [CONTROLBAR:ToolTipGleamOfNenya]
@@ -86822,6 +86924,9 @@ Value=Alcarwen (&R)
 
 [CONTROLBAR:ToolTipBuildHandmaidenHorde]
 Value=Radiant-maiden
+Valueline2=Strong unit that provides buffs to friendly units 
+Valueline3=
+Valueline4= These elf-maidens were part of the Lady's innermost circle. Learned in the subtle magic of the Eldar, their abilities have been infused with the splendour of Nenya.
 
 
 [OBJECT:HordeHandmaiden]
@@ -86850,6 +86955,77 @@ Value=Alcarwen
 
 [CONTROLBAR:LW_ToolTip_ElvenHandmaiden]
 Value=Radiant-maiden
+Valueline2=Unit Type: Special
+Valueline3=Provides buffs to friendly units
+
+
+[CONTROLBAR:HuornRoots]
+Value=Wicked Slumber (&W)
+
+
+[CONTROLBAR:ToolTipHuornRoots]
+Value=The Huorn goes into a wicked slumber for 30 seconds
+Valueline2=Its roots rise from the ground and attack enemy units in a wide radius
+Valueline3=The Huorn gains 300% armour but cannot move for the duration of its slumber
+Valueline4=Left click to activate
+
+
+[CONTROLBAR:ValorousRecovery]
+Value=Valorous Recovery
+
+
+[CONTROLBAR:ToolTipValorousRecovery]
+Value=Requires Level 2
+Valueline2=Heroic units regain health while outside of combat
+Valueline3=Passive ability
+
+
+[CONTROLBAR:FoulRecovery]
+Value=Foul Recovery
+
+
+[CONTROLBAR:ToolTipFoulRecovery]
+Value=Requires Level 2
+Valueline2=Heroic units regain health while outside of combat
+Valueline3=Passive ability
+
+
+[CONTROLBAR:ToolTipFoulRecoveryNafarati]
+Value=Requires Level 2
+Valueline2=Heroic units regain health while outside of combat
+Valueline3=Passive ability 
+Valueline4= Does not stack with Blackened Blood
+
+
+[CONTROLBAR:MonstrousRecovery]
+Value=Monstrous Recovery
+
+
+[CONTROLBAR:ToolTipMonstrousRecovery]
+Value=Requires Level 3
+Valueline2=Monster units regain health while outside of combat
+Valueline3=Passive ability
+
+
+[CONTROLBAR:SwiftRecovery]
+Value=Swift Recovery
+
+
+[CONTROLBAR:ToolTipSwiftRecovery]
+Value=Requires Level 2
+Valueline2= Regains health while outside of combat
+Valueline3=Passive ability
+
+
+[CONTROLBAR:EntDraught]
+Value=Ent-draught
+
+
+[CONTROLBAR:ToolTipEntDraught]
+Value=Ents regain health while outside of combat
+Valueline2=Passive ability
+
+
 [CONTROLBAR:FishingNets]
 Value=Commence Fishing (&W)
 
@@ -86865,6 +87041,88 @@ Value=Cease Fishing (&W)
 
 [CONTROLBAR:ToolTipHideFishingNets]
 Value=Left click to cease fishing
+
+
+[CONTROLBAR:HideFishingPassive]
+Value=Contested Waters
+
+
+[CONTROLBAR:ToolTipHideFishingPassive]
+Value=Nearby fishing boats decrease the income of each other, the closer they are 
+Valueline2= Battleships are discounted by 3% with each fishing ship present on the battlefield up to 12%
+
+
+[OBJECT:Romestamo]
+Value=Rómestámo
+
+
+[CONTROLBAR:RomestamoRecruit]
+Value=Recruit the East-helper
+Valueline2=
+Valueline3=A wise and cunning wizard, Rómestámo accompanied his friend Morinehtar eastwards in an attempt to ward its inhabitants from the devices of Sauron.
+
+
+[CONTROLBAR:RomestamoRevive]
+Value=Revive the fallen hero, Rómestámo
+
+
+[CONTROLBAR:RomestamoHotkey]
+Value=Rómestámo the Blue (&D)
+
+[CONTROLBAR:EastHelper]
+Value=East-helper (&R)
+
+[CONTROLBAR:ToolTipEastHelper]
+Value=Modifier Type: Leadership
+Valueline2=Nearby friendly units gain +25% armour
+Valueline3=Passive Ability
+Valueline4=At rank 3, can be activated to heal nearby friendly units and replace one dead unit per battalion
+Valueline5=Left click to activate
+
+[CONTROLBAR:HindranceToEvil]
+Value=Hindrance to Evil (&T)
+
+[CONTROLBAR:ToolTipHindranceToEvil]
+Value=Modifier Type: Passive Debuff 
+Valueline2= Nearby enemy units suffer -33% damage and -25% armour
+Valueline3=Nullifies enemy leaderships
+Valueline4=Passive ability
+Valueline5=At rank 6, target enemies' special ability timers are reset to just used
+Valueline6=Left click then left click target area
+
+
+[OBJECT:Morinehtar]
+Value=Morinehtar
+
+
+[CONTROLBAR:MorinehtarRecruit]
+Value=Recruit the Darkness-slayer
+Valueline2=
+
+
+[CONTROLBAR:MorinehtarRevive]
+Value=Revive the fallen hero, Morinehtar
+
+
+[CONTROLBAR:MorinehtarHotkey]
+Value=Morinehtar the Blue (&S)
+
+
+[CONTROLBAR:IthrynLuin]
+Value=Ithryn Luin
+
+
+[CONTROLBAR:ToolTipIthrynLuin]
+Value=Modifier Type: Leadership
+Valueline3=Passive Ability
+
+
+[CONTROLBAR:DarknessSlayer]
+Value=Darkness-slayer (&R)
+
+
+[CONTROLBAR:ToolTipDarknessSlayer]
+Value=Modifier Type: Leadership
 [CONTROLBAR:ToolTipDorwinionVineyard]
 Value=Generates wine as a resource based on available terrain 
 Valueline2= Increases command point limit by 50
