@@ -84747,12 +84747,42 @@ Valueline2= Mirages deal no damage
 Valueline3=Left click to activate
 
 [CONTROLBAR:CorrosiveVial]
-Value=Corrosive Vial (&C)
+Value=Poisoned Well (&C)
 
 [CONTROLBAR:ToolTipCorrosiveVial]
-Value=Requires Level 3 
-Valueline2= The Hasharin Blade throws a vial of poison. Enemies caught in the radius receive heavy damage over time 
-Valueline3= Left click icon then left click on target
+Value=Disables an enemy structure
+Valueline2= Deals damage over time to enemies nearby the structure in a wide radius
+Valueline3=Effect lasts 45 seconds
+Valueline4=Left click icon then left click on target
+
+[CONTROLBAR:SmokeBomb]
+Value=Smoke Bomb (&V)
+
+[CONTROLBAR:ToolTipSmokeBomb]
+Value=Requires Level 2 
+Valueline2= Disables defensive structures within the radius
+Valueline3=Enemies caught within the smoke suffer -90% vision range
+Valueline4= Lasts 30 seconds 
+Valueline5= Left click icon then left click on target
+
+[CONTROLBAR:HasharinFanOfKnives]
+Value=Fan of Knives (&V)
+
+
+[CONTROLBAR:ToolTipHasharinFanOfKnives]
+Value=Hasharin teleports to targeted enemy unit, dealing area of effect damage upon impact
+Valueline2=Left click icon then left click on target area
+
+
+[CONTROLBAR:ToolTipHasharinMarkedForDeath]
+Value=Requires Level 3
+Valueline2= Hasharin throws a poisoned knife at an enemy unit, dealing strong damage over time and slowing the target by 50%
+Valueline3=Effect lasts for 10 seconds
+Valueline4=Left click icon then left click on target enemy unit
+
+
+[CONTROLBAR:HasharinMarkedForDeath]
+Value=Marked For Death (&V)
 
 
 [OBJECT:HaradBazaar]
@@ -84761,6 +84791,14 @@ Value=Bazaar
 
 [CONTROLBAR:SpecialAbilityHaradCaravanDeploy]
 Value=Deploy Caravan (&W)
+
+
+[CONTROLBAR:SpecialAbilityHaradCaravanUnDeploy]
+Value=Pack up (&W)
+
+
+[CONTROLBAR:SpecialAbilityHaradNomadDeploy]
+Value=Make Camp (&W)
 
 
 [CONTROLBAR:TooltipSpecialAbilityHaradNomadDeploy]
@@ -84784,8 +84822,61 @@ Value=Âmazhir Camp
 
 [CONTROLBAR:SpecialAbilityNomadHeal]
 Value=Blackest of Teas (&R)
+
+
+[CONTROLBAR:TooltipSpecialAbilityNomadHeal]
+Value=Caravan must be deployed 
+Valueline2= Replenishes one fallen unit in nearby battalions 
+Valueline3= Left click to activate
+
+
+[CONTROLBAR:NomadArmor]
+Value=Blessing of Mâhan
+
+
+[CONTROLBAR:ToolTipNomadArmor]
+Value=Caravan must be deployed 
+Valueline2= Modifier Type: Leadership 
+Valueline3= Allies near the Camp gain +33% armour
+Valueline4=Passive ability
+
+
+[CONTROLBAR:NomadDamage]
+Value=Blessing of Shâhad
+
+
+[CONTROLBAR:ToolTipNomadDamage]
+Value=Caravan must be deployed 
+Valueline2= Modifier Type: Leadership 
+Valueline3= Allies near the Camp gain +33% damage
+Valueline4=Passive ability
+
+
+[CONTROLBAR:NomadFear]
+Value=Wind Demon's Favour
+
+
+[CONTROLBAR:ToolTipNomadFear]
+Value=Caravan must be deployed 
+Valueline2= Modifier Type: Leadership 
+Valueline3= Allies near the Camp earn experience 50% faster
+Valueline4=Passive ability
+
+
 [CONTROLBAR:TooltipSpecialAbilityHaradCaravanDeploy]
-Value=Caravan becomes immobile but gains +200% production
+Value=Caravan becomes immobile and produces resources
+Valueline2=Left click to activate
+
+
+[CONTROLBAR:TooltipSpecialAbilityHaradCaravanUnDeploy]
+Value=Caravan can move again but ceases resource production
+Valueline2=Left click to activate
+
+
+[CONTROLBAR:CaravanDebuff]
+Value=Fierce Competition
+
+
 [CONTROLBAR:ToolTipCaravanDebuff]
 Value=Trade Caravans heal over time when near Bazaars
 Valueline2= Passive ability
@@ -84795,8 +84886,21 @@ Valueline2= Passive ability
 Value=Southron Trade Caravan
 
 
+[OBJECT:TradeCaravanDescription]
+Value=Capitalist Bonus - Reduces cost of upgrades when deployed 
+Valueline2= 2 Caravans: 5% 
+Valueline3= 3 Caravans: 10% 
+Valueline4= 4 Caravans: 15% 
+Valueline5= 5 Caravans: 20% 
+Valueline6= 6+ Caravans: 25%
+
+
 [CONTROLBAR:ConstructTradeCaravan]
 Value=Southron Trade Caravan (&W)
+
+
+[OBJECT:HaradTrader]
+Value=Trader
 
 
 [OBJECT:HaradAmazhirNomad]
@@ -84805,13 +84909,22 @@ Value=Âmazhir Nomad
 
 [CONTROLBAR:ConstructHaradNomad]
 Value=Âmazhir Caravan (&E)
+
+
+[CONTROLBAR:ToolTipBuildHaradNomad]
+Value=Mobile support structure 
+Valueline2= Can deploy to grant nearby friendly units additional armour, damage and experience gain
+Valueline3=
 Valueline4= The Âmazhir are an ancient tribe of nomads. None are more intimately familiar with the vast South-lands of Middle-earth, or more privy to its many secrets.
 
 
 [CONTROLBAR:ToolTipBuildTradeCaravan]
-Value=Produces a small number of resources, more once deployed 
-Valueline2= At rank 2, can provide nearby units with upgrades 
-Valueline3= Limited to 3
+Value=Mobile economy structure
+Valueline2=Can deploy to produce resources and gain experience
+Valueline3= Can provide nearby units with upgrades
+Valueline4=Reduces cost of unit upgrades when deployed
+Valueline5=
+Valueline6= Many well-worn trade routes connect the often distant and disparate places of habitation of Haradwaith. Merchants and traders are of great import, bringing with them the means of survival and news of the wide world beyond.
 
 
 [CONTROLBAR:CaravanBlades]
@@ -84828,12 +84941,31 @@ Valueline6= Passive ability
 
 
 [CONTROLBAR:PurchaseUpgradeAngmarBasicTraining]
-Value=Purchase Banner Carrier (&V)
+Value=Purchase Silken Banners (&V)
+
+
+[CONTROLBAR:PurchaseUpgradeAngmarBasicTrainingMahud]
+Value=Purchase Indunâ (&V)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeAngmarBasicTraining]
 Value=Increases this battalion to Level 2 
 Valueline2= Can only be equipped at Level 1
+
+
+[CONTROLBAR:PurchaseUpgradeAngmarBasicTrainingCorsairs]
+Value=Purchase Oathsworn (&V)
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeAngmarBasicTrainingCorsairs]
+Value=Increases this battalion to Level 2 
+Valueline2= Requires Burôdapân to have been recruited
+Valueline3= Can only be equipped at Level 1
+
+
+[TOOLTIP:LackAngmarBasicTrainingCorsairs]
+Value=Burôdapân must have been recruited to enable this equipment 
+Valueline2= When equipped, increases the horde to Level 2
 
 
 [CONTROLBAR:CaravanBanners]
@@ -84879,12 +85011,24 @@ Value=Harondor Warlord
 Value=Harondor Warlord (&W)
 
 
+[CONTROLBAR:ToolTipBuildHaradWarlord]
+Value=Capable of summoning a variety of Tribesmen units to serve him 
+Valueline2= 
+Valueline3= Messengers from Mordor stirred up great unrest in the vast tribal lands of Haradwaith. Those chiefs that bowed the deepest were elevated to powerful warlords, subjugating tribes and driving them to their doom in the northern wars.
+
+
 [CONTROLBAR:LW_Unit_HaradWarlord]
 Value=Harondor Warlord
 
 
 [CONTROLBAR:LW_Unit_HaradWarlordPlural]
 Value=Harondor Warlords
+
+
+[CONTROLBAR:LW_ToolTipBuild_HaradWarlord]
+Value=Unit Type: Weak Support Unit
+Valueline2=Versatile
+Valueline3=
 
 
 [BANNERUI:HaradWarlord]
@@ -84956,7 +85100,7 @@ Value=Harondor Archers (&S)
 Value=Requires Level 3 Harondor Outpost 
 Valueline2= Strong vs. Infantry 
 Valueline3=
-Valueline4= Limited to 2 
+Valueline4= The archers in Sûladan's ranks were well-trained and plentifully equipped, raining down great barrages of arrows upon their unsuspecting foes
 
 
 [CONTROLBAR:LW_Unit_HaradHarondorArcherHorde]
@@ -84975,6 +85119,10 @@ Value=Harondor Archer
 Value=Harondor Archers
 
 
+[CONTROLBAR:LW_ToolTipBuild_HaradHarondorArcherHorde]
+Value=Strong vs. Infantry 
+Valueline2=
+Valueline3= The archers in Sûladan's ranks were well-trained and plentifully equipped, raining down great barrages of arrows upon their unsuspecting foes
 
 
 [OBJECT:HaradHarondorSwords]
@@ -84989,6 +85137,10 @@ Value=Harondor Swords
 Value=Harondor Swords (&W)
 
 
+[CONTROLBAR:ToolTipBuildaradHaradrimSwordsHorde]
+Value=Strong vs. Pikemen 
+Valueline2= 
+Valueline3= Carrying cruel swords that were curved like a fell lash, Sûladan's warriors were an unwelcome sight upon the southern horizon.
 
 
 [OBJECT:HaradHarondorSpearmen]
@@ -85003,11 +85155,11 @@ Value=Harondor Spearmen
 Value=Harondor Spearmen (&T)
 
 
-[CONTROLBAR:ToolTipBuildHarondorArcherHorde]
+[CONTROLBAR:ToolTipBuildaradHaradrimSpearmenHorde]
 Value=Requires Level 2 Harondor Outpost 
-Valueline2= Strong vs. Infantry 
-Valueline3= Specialist Unit 
-Valueline4= 
+Valueline2= Strong vs. Cavalry and Heroes 
+Valueline3= 
+Valueline4= The brunt of Sûladan's forces was made up of spear-warriors capable of marching across vast distances at great speed.
 
 
 [CONTROLBAR:LW_Unit_HaradHarondorSpearmenHorde]
@@ -85018,6 +85170,14 @@ Value=Harondor Spearmen Horde
 Value=Harondor Spearmen Hordes
 
 
+[CONTROLBAR:LW_ToolTipBuild_HaradHarondorSpearmenHorde]
+Value=Unit Type: Elite Pikemen
+Valueline2=Strong vs. Cavalry
+
+
+[CONTROLBAR:LW_ToolTip_HaradHarondorSpearmenHorde]
+Value=Unit Type: Elite Pikemen
+Valueline2=Strong vs. Cavalry
 
 
 [BANNERUI:HarondorSpearman]
@@ -85067,7 +85227,14 @@ Value=Harondor Raiders (&W)
 
 [CONTROLBAR:ToolTipBuildHaradwaithHarondorRaidersHorde]
 Value=Requires Level 2 Harondor Outpost 
-Valueline2= Strong vs. Infantry 
+Valueline2= Strong vs. Archers and Swordsmen 
+Valueline3=
+Valueline4= These raiders were known in Gondor for striking hard and fast, then retreating ere any retaliation could be organised.
+
+
+[CONTROLBAR:ToolTipBuildHaradwaithHarondorRaidersHordeWotRRealTime]
+Value=Strong vs. Archers and Swordsmen 
+Valueline2=
 Valueline3= These raiders were known in Gondor for striking hard and fast, then retreating ere any retaliation could be organised.
 
 
@@ -85090,12 +85257,37 @@ Value=Mahûd Headhunter
 Value=Mahûd Headhunters
 
 
-
+[CONTROLBAR:ConstructHaradwaithMahudHeadhunterHorde]
+Value=Mahûd Headhunters (&E)
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithMahudHeadhunterHorde]
-Value=Strong vs. Infantry 
-Valueline2= NEEDS LORE STRING.
+Value=Strong vs. Infantry
+Valueline2= Can stealth near trees
+Valueline3=
+Valueline4= Amongst the Mahûddin tribes, manhood must be earned through various trials, one of which is to capture an enemy using darts tipped with a debilitating poison.
+
+
+[CONTROLBAR:LW_Unit_HaradwaithMahudHeadhunterHorde]
+Value=Mahûd Headhunter Horde
+
+
+[CONTROLBAR:LW_Unit_HaradwaithMahudHeadhunterHordePlural]
+Value=Mahûd Headhunter Hordes
+
+
+[CONTROLBAR:LW_ToolTipBuild_HaradwaithMahudHeadhunterHorde]
+Value=Unit Type: Basic Archer
+Valueline2=Strong vs. Swordsmen
+Valueline3=
+
+
+[BANNERUI:HaradMahudHeadhunter]
+Value=Mahûd Headhunter
+
+
+[BANNERUI:HaradMahudHeadhunters]
+Value=Mahûd Headhunters
 
 
 [OBJECT:HaradwaithMahudWarrior]
@@ -85111,8 +85303,55 @@ Value=Mahûd Warriors (&W)
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithMahudWarriorHorde]
-Value=Strong vs. Pikemen 
-Valueline2= NEEDS LORE STRING.
+Value=Strong vs. Pikemen
+Valueline2= Can stealth near trees 
+Valueline3=
+Valueline4= The warriors of the Mahûd are said to be fearless in battle, knowing that the moment of their glorious demise is pre-ordained by the many gods of death.
+
+
+[CONTROLBAR:LW_Unit_HaradwaithMahudWarriorHorde]
+Value=Mahûd Warrior Horde
+
+
+[CONTROLBAR:LW_Unit_HaradwaithMahudWarriorHordePlural]
+Value=Mahûd Warrior Hordes
+
+
+[CONTROLBAR:LW_ToolTipBuild_HaradwaithMahudWarriorHorde]
+Value=Unit Type: Basic Infantry
+Valueline2=Strong vs. Pikemen
+Valueline3=
+
+
+[BANNERUI:HaradMahudWarrior]
+Value=Mahûd Warrior
+
+
+[BANNERUI:HaradMahudWarriors]
+Value=Mahûd Warriors
+
+
+[OBJECT:HaradwaithMahudSpears]
+Value=Mahûd Spears
+
+
+[OBJECT:HaradwaithMahudSpearsHorde]
+Value=Mahûd Spears
+
+
+[CONTROLBAR:ConstructHaradwaithMahudSpearsHorde]
+Value=Mahûd Spears (&W)
+
+
+[CONTROLBAR:ToolTipBuildHaradwaithMahudSpearsHorde]
+Value=Strong vs. Cavalry and Heroes
+Valueline2= Can stealth near trees 
+Valueline3=
+Valueline4= The Mahûd have hunted using razor-sharp, stone-tipped spears for untold ages, a testament to their skill and craft.
+
+
+[OBJECT:MahudCaptain]
+Value=Indunâ
 
 
 [OBJECT:MahudChief]
@@ -85125,8 +85364,37 @@ Value=Mahûd Chieftain (&R)
 
 [CONTROLBAR:ToolTipBuildHaradwaithMahudChief]
 Value=Requires Level 2 Mahûd Gathering 
-Valueline2= (Specialist unit?) Strong vs. ??? 
-Valueline3= NEEDS LORE STRING.
+Valueline2= Supports Mahûd units and Mûmak
+Valueline3=
+Valueline4= Mahûd warchiefs form exceptional bonds of loyalty with their Mûmak, caring for them for many years until they can drive and command them as if they were an extension of their own body.
+
+
+[CONTROLBAR:LW_Unit_HaradwaithMahudChief]
+Value=Mahûd Chieftain
+
+
+[CONTROLBAR:LW_Unit_HaradwaithMahudChiefPlural]
+Value=Mahûd Chieftains
+
+
+[CONTROLBAR:LW_ToolTip_HaradwaithMahudChief]
+Value=
+Valueline2=Unit Type: Elite Infantry
+Valueline3=Strong vs. Swordsmen
+
+
+[CONTROLBAR:LW_ToolTipBuild_HaradwaithMahudChief]
+Value=Unit Type: Elite Infantry
+Valueline2=Strong vs. Swordsmen
+Valueline3=
+
+
+[BANNERUI:MahudChief]
+Value=Mahûd Chieftain
+
+
+[BANNERUI:MahudChiefs]
+Value=Mahûd Chieftains
 
 
 [OBJECT:SiegeMumak]
@@ -85141,16 +85409,45 @@ Value=Siege Mûmak (&S)
 Value=Requires Level 3 Mahûd Gathering 
 Valueline2= Strong vs. Structures and Cavalry 
 Valueline3= 
-Valueline4= NEEDS LORE STRING
+Valueline4= When the Black Vizier came to power over the tribes of the Mahûd, he instructed them in the building of siege engines, to be placed out of the enemy's reach, upon the backs of the giant Mûmakil.
+
+
+[CONTROLBAR:LW_Unit_HaradSiegeMumakil]
+Value=Siege Mûmak
+
+
+[BANNERUI:SiegeMumakil]
+Value=Siege Mûmak
+
+
+[BANNERUI:PluralSiegeMumakil]
+Value=Siege Mûmakil
+
+
+[CONTROLBAR:LW_ToolTip_HaradSiegeMumakil]
+Value=
+Valueline2=Unit Type: Siege
+Valueline3=Strong vs. Swordsmen, Cavalry, Structures, and Heroes
+
+
+[CONTROLBAR:LW_ToolTipBuild_HaradSiegeMumakil]
+Value=Unit Type: Siege
+Valueline2=Strong vs. Swordsmen, Cavalry, Structures, and Heroes
+Valueline3=
 
 
 
+[OBJECT:MahudMangonel]
+Value=Mahûd Mangonel
 
 
 [OBJECT:MahudOutpost]
 Value=Mahûd Gathering
 
 
+[OBJECT:MahudOutpostDescription]
+Value=Level 2: +10% faster build speed
+Valueline2= Level 3: +25% faster build speed
 
 
 [CONTROLBAR:ConstructHaradMumakil]
@@ -85164,13 +85461,61 @@ Valueline3=
 Valueline4= The Mûmakil of Harad were tamed and used as beasts of war by the Haradrim, who employed them to devastating effect during the Battle of the Pelennor.
 
 
+[CONTROLBAR:LW_Unit_HaradMumakil]
+Value=War Mûmak
+
+
+[CONTROLBAR:LW_ToolTipBuild_HaradMumakil]
+Value=Unit Type: Elite Cavalry
+Valueline2=Strong vs. Swordsmen, Cavalry, Structures, and Heroes
+Valueline3=
+
+
 [OBJECT:GoldenKingPavillion]
-Value=Pavillion of the Golden King
+Value=Pavilion of the Golden King
 
 
 [OBJECT:GoldenKingPavillionDescription]
 Value=Level 2: +10% faster build speed
 Valueline2= Level 3: +25% faster build speed
+
+
+[OBJECT:PelargirExpeditionary]
+Value=Pelargir Expeditionary
+
+
+[OBJECT:PerlargirExpeditionaryHorde]
+Value=Pelargir Expeditionaries
+
+
+[CONTROLBAR:ConstructPerlargirExpeditionaryHorde]
+Value=Pelargir Expeditionaries (&W)
+
+
+[CONTROLBAR:ToolTipBuildPerlargirExpeditionaryHorde]
+Value=Strong vs. Pikemen
+Valueline2=
+Valueline3= Experienced marines from Pelargir have been known to cross into Haradrim lands at times to gather information about the movements of Gondor's greatest adversaries.
+
+
+[CONTROLBAR:GondorianMariners]
+Value=Gondorian Mariners
+
+
+[CONTROLBAR:ToolTipGondorianMariners]
+Value=Modifier Type: Leadership
+Valueline2=Ships in wide radius around Pelargir Expeditionaries gain +33% armour
+Valueline3=Passive ability
+
+
+[CONTROLBAR:CutThrough]
+Value=Cut Through (&R)
+
+[CONTROLBAR:ToolTipCutThrough]
+Value=Requires Level 2
+Valueline2= Modifier Type: Weapon 
+Valueline3= Pelargir Expeditionaries gain +15% damage, speed and are resistant to fear and terror for 20 seconds
+Valueline4=Left click to activate
 
 
 [OBJECT:HaradwaithNafaratiMarauder]
@@ -85185,11 +85530,16 @@ Value=Nâfarati Marauders
 Value=Nâfarati Marauders (&S)
 
 
+[OBJECT:NafaratiCaptain]
+Value=Leopard Chief
+
+
 [CONTROLBAR:ToolTipBuildHaradwaithNafaratiMarauderHorde]
-Value=Requires Level 3 Pavillion of the Golden King 
-Valueline2= Strong vs. ??? 
+Value=Requires Level 3 Pavilion of the Golden King 
+Valueline2= Strong vs. Infantry, Cavalry and Structures 
 Valueline3= Limited to 3 
-Valueline4= In his conquest of Far Harad, the Golden King has corrupted the Nafârati tribe, and through dark magic turned their greatest warriors into beastly, troll-like Men..
+Valueline4= 
+Valueline5= Once the brave companions of Caran-Lambar, their noble chief, these Men were ensnared along with him. Tortured and mutilated and of broken mind, they now serve the Golden King without question.
 
 
 [CONTROLBAR:ConstructHaradwaithGiantScorpion]
@@ -85201,7 +85551,7 @@ Value=Great Scorpion (&W)
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithGiantScorpion]
-Value=Strong vs. ??? 
+Value=Strong vs. Structures and Heroes 
 Valueline2= 
 Valueline3= The Southern Reaches of Middle-earth are a desolate place, full of mystery and danger. Great Scorpions slither through its treacherous sands, preying on all those foolish enough to find themselves there.
 
@@ -85220,6 +85570,17 @@ Value=Great Scorpion
 
 [BANNERUI:HaradGiantScorpions]
 Value=Great Scorpions
+
+
+[CONTROLBAR:LW_ToolTipBuild_HaradwaithGiantScorpion]
+Value=Unit Type: Basic Cavalry
+Valueline2=Strong vs. Structures and Heroes
+Valueline3=
+
+[CONTROLBAR:LW_ToolTip_HaradwaithGiantScorpion]
+Value=
+Valueline2=Unit Type: Basic Cavalry
+Valueline3=Strong vs. Structures and Heroes
 
 
 [CONTROLBAR:ConstructHaradwaithKaradd]
@@ -85288,8 +85649,124 @@ Value=Requires Level 3
 Valueline2=The Kâradd jumps to a location causing area-effect damage
 Valueline3= Left click icon then left click on target area
 
+
+[CONTROLBAR:ConstructHaradBeastmaster]
+Value=Nâfarati Beastmaster (&T)
+
+
+[CONTROLBAR:ToolTipBuildHaradBeastmaster]
+Value=Requires Level 2 Pavilion of the Golden King
+Valueline2=Single ranged unit guarded by Jungle Wargs
+Valueline3= Strong at range 
+Valueline4= Limited to 5 
+Valueline5= 
+Valueline6= Amongst tribes of the Nâfarati there are those that have learned to command the creatures of the dark jungle. Wargs follow in their train, and no predator dares cross them.
+
+
+[OBJECT:HaradBeastmaster]
+Value=Nâfarati Beastmaster
+
+
+[CONTROLBAR:LW_Unit_Beastmaster]
+Value=Nâfarati Beastmaster
+
+
+[CONTROLBAR:LW_Unit_BeastmasterPlural]
+Value=Nâfarati Beastmasters
+
+
+[BANNERUI:HaradBeastmaster]
+Value=Nâfarati Beastmaster
+
+
+[BANNERUI:HaradBeastmasters]
+Value=Nâfarati Beastmasters
+
+
+[CONTROLBAR:LW_ToolTipBuild_Beastmaster]
+Value=Unit Type: Special
+Valueline2=Strong at Range
+Valueline3=
+
+
+[CONTROLBAR:LW_ToolTip_Beastmaster]
+Value=
+Valueline2=Unit Type: Special
+Valueline3=Strong at Range
+
+
+[CONTROLBAR:BeastmasterLeadership]
+Value=Beastmaster
+
+
+[CONTROLBAR:ToolTipBeastmasterLeadership]
+Value=Modifier Type: Leadership
+Valueline2=Nearby Pavilion Beasts gain +33% armour
+Valueline3=Passive Ability
+
+
+[CONTROLBAR:BeastmasterKillCommand]
+Value=Kill Command (&R)
+
+
+[CONTROLBAR:ToolTipBeastmasterKillCommand]
+Value=The Beastmaster shoots a fell arrow at an enemy
+Valueline2=Affected enemy units are knocked back and
+Valueline3= take +50% damage from all Pavilion Beasts for 30 seconds
+Valueline4=Left click then left click on target
+
+
+[CONTROLBAR:BeastmasterWargTamer]
+Value=Warg Tamer (&T)
+
+
+[CONTROLBAR:ToolTipBeastmasterWargTamer]
+Value=Requires Level 3
+Valueline2=The Beastmaster temporarily summons a pack of Jungle Wargs to protect him
+Valueline3=Jungle Wargs partially ignore enemy armour and are resistant to fear and terror effects
+Valueline4=Left click to activate
+
+
+[OBJECT:HaradJungleWarg]
+Value=Jungle Warg
+
+
+[OBJECT:HaradJungleWargHorde]
+Value=Jungle Wargs
+
+
+[OBJECT:HaradVulture]
+Value=Carrion Feeder
+
+
+[CONTROLBAR:ConstructHaradVulture]
+Value=Carrion Feeder (&W)
+
+
 [CONTROLBAR:HarbingersofDeath]
 Value=Harbingers of Death
+
+
+[CONTROLBAR:ToolTipHarbingersofDeath]
+Value=Modifier Type: Debuff
+Valueline2=Nearby enemy units lose -10% armour, -10% damage and -15% movement speed
+Valueline3=Passive Ability
+
+
+[CONTROLBAR:PutridTalons]
+Value=Putrid Talons (&R)
+
+
+[CONTROLBAR:TooltipPutridTalons]
+Value=When activated, Carrion Feeders' attacks poison target enemies, dealing damage over time for 15 seconds
+Valueline2=Left click to activate
+
+
+[CONTROLBAR:ToolTipBuildHaradVulture]
+Value=Strong vs. Infantry and Cavalry
+Valueline2=Limited to 5
+Valueline3=
+Valueline4= "Great and black they are, and black is the shadow cast by their wide wings, as they circle the cloudless sky like wraiths... both patient and eager to tear the flesh from your bones.
 
 
 [CONTROLBAR:ConstructHaradwaithRisenCarrion]
@@ -85297,7 +85774,7 @@ Value=Risen Husk (&E)
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithRisenCarrion]
-Value=Requires Level 3 Pavillion of the Golden King 
+Value=Requires Level 3 Pavilion of the Golden King 
 Valueline2= Strong vs. ??? 
 Valueline3= The sea of sand surrounding the city of Abrakhân is a cursed place. Folk say that travelers that were thought to have perished in its dangerous storms sometimes return home, hungering for the flesh of the living...
 
@@ -85319,10 +85796,26 @@ Value=Watchers of Kârna
 [CONTROLBAR:ConstructHaradwaithWatchersofKarnaHorde]
 Value=Watchers of Kârna (&T)
 
+[OBJECT:WatchersofKarnaBanner]
+Value=Tlâmacâz
+
 [CONTROLBAR:ToolTipBuildHaradwaithWatchersofKarnaHorde]
 Value=Requires Level 3 Umbarian Citadel and Bûrodapân 
-Valueline2= Strong vs. ??? 
-Valueline3= The Watchers of Kârna are an ancient order of monk-like warriors that task themselves with the protection of the island of Kârna.
+Valueline2= Strong vs. Cavalry and Heroes
+Valueline3=Hero Unit. Limited to 3
+Valueline4= 
+Valueline5= Deep within the southern jungle there lies a ruined temple, beneath which slumbers an ancient evil. Tribes send forth great warriors to guard it while it sleeps, to appease it as its hollow dreams taint the land.
+Valueline6= Through some dark ritual, the Corsair-lord Burôdapân inherited the loyalty of these watchers, who now deify him.
+
+
+[CONTROLBAR:ConstructTropicalFishHorde]
+Value=Fish (&W)
+
+
+[CONTROLBAR:ToolTipBuildTropicalFishHorde]
+Value=Alive without breath; as cold as death; never thirsting, ever drinking; clad in mail, never clinking. 
+Valueline2= Limited to 5
+
 
 
 [OBJECT:UmbarianCitadel]
@@ -85339,7 +85832,7 @@ Value=Upgrade Umbarian Citadel to Level 2 (&A)
 
 
 [CONTROLBAR:ConstructUmbarianCitadel3Upgrade]
-Value=Upgrade Umbarian Citadel to Level 3 (A)
+Value=Upgrade Umbarian Citadel to Level 3 (&A)
 
 
 [CONTROLBAR:ToolTipBuildUmbarianCitadelLevel2Upgrade]
@@ -85363,6 +85856,20 @@ Value=Black Númenórean Warrior
 Value=Black Númenórean Warriors
 
 
+[CONTROLBAR:LW_ToolTipBuild_HaradBlackNumenoreans]
+Value=Strong vs. Pikemen 
+Valueline2= 
+Valueline3= Those few Umbarians that still claim to be of noble Númenórean heritage come to battle armed with pride and the best arms and armour that gold can buy.
+
+
+[OBJECT:HaradWardenUmbar]
+Value=Warden of Umbar
+
+
+[OBJECT:HaradWardenUmbarHorde]
+Value=Wardens of Umbar
+
+
 [OBJECT:HaradwaithNumenoreanVanguard]
 Value=Black Númenórean Vanguard
 
@@ -85372,9 +85879,12 @@ Value=Black Númenórean Vanguard (&R)
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithNumenoreanVanguard]
-Value=Requires Level 2 Umbarian Citadel 
+Value=Requires Level 3 Umbarian Citadel 
 Valueline2=  Strong vs. Infantry 
-Valueline3= NEEDS LORE STRING.
+Valueline3= 
+Valueline4= Charging forth on great armoured horses, the mounted nobility of Umbar are known to have smashed tribal insurrections even when greatly outnumbered.
+
+
 [CONTROLBAR:LW_Unit_HaradwaithNumenoreanVanguard]
 Value=Black Númenórean Vanguard Horde
 
@@ -85391,12 +85901,27 @@ Value=Black Númenórean Vanguard
 Value=Black Númenórean Vanguard
 
 
+[CONTROLBAR:LW_ToolTip_HaradwaithNumenoreanVanguard]
+Value=Unit Type: Elite Cavalry
+Valueline2=Strong vs. Archers
+
+
+[CONTROLBAR:LW_ToolTipBuild_HaradwaithNumenoreanVanguard]
+Value=Unit Type: Elite Cavalry
+Valueline2=Strong vs. Archers
+Valueline3=
+
+
+[OBJECT:HaradwaithHasharinCrossbowman]
+Value=Hasharin Crossbowman
+
+
 [OBJECT:HaradwaithHasharinBlade]
 Value=Hasharin Blade
 
 
 [CONTROLBAR:ConstructHaradwaithHasharinBlade]
-Value=Hasharin &Blade
+Value=Hasharin Blade (&S)
 
 
 [OBJECT:HaradwaithAbrakhanWarrior]
