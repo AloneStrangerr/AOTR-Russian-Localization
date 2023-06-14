@@ -85934,8 +85934,10 @@ Value=Abrakhân Warriors
 
 [CONTROLBAR:ToolTipBuildHaradwaithHasharinBlade]
 Value=Requires Level 2 Sanctum of Zigûr 
-Valueline2= Strong vs. ??? 
-Valueline3= The Hasharin are an order of assassins founded by the wicked Syâr-Rhul in order to silence and intimidate the Golden King's adversaries amongst the Haradrim tribes
+Valueline2= Strong vs. Heroes 
+Valueline3= Limited to 5 
+Valueline4= 
+Valueline5= The Hasharin are an order of assassins founded by the wicked Syâr-Rhul in order to silence and intimidate the Golden King's adversaries amongst the Haradrim tribes
 
 
 [CONTROLBAR:ConstructHaradwaithTribalJavelineersHordeCamp]
@@ -85954,8 +85956,10 @@ Value=Summon Tribal Spearmen (&R)
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithTribalSpearmenHordeCamp]
-Value=Strong vs. Cavalry and Heroes 
-Valueline2= NEEDS LORE STRING.
+Value=Summons two battalions of Tribal Spearmen
+Valueline2=Strong vs. Cavalry and Heroes 
+Valueline3= 
+Valueline4= All tribal warriors are proficient with the spear, for it is a primary weapon used for hunting and defending their camps from the various beasts of the Southern deserts.
 
 
 [CONTROLBAR:ConstructHaradwaithTribalAxemenHordeCamp]
@@ -85963,8 +85967,10 @@ Value=Summon Tribal Axemen (&W)
 
 
 [CONTROLBAR:ToolTipBuildHaradwaithTribalAxemenHordeCamp]
-Value=Strong vs. Pikemen 
-Valueline2= NEEDS LORE STRING.
+Value=Summons two battalions of Tribal Axemen
+Valueline2=Strong vs. Pikemen 
+Valueline3= 
+Valueline4= Wielding light axes, these warriors are known for appearing out of nowhere, flanking an enemy to inflict as much as damage as possible before retreating.
 
 
 [CONTROLBAR:ConstructHaradwaithHarondorSpearmenHordeCamp]
@@ -85974,6 +85980,9 @@ Value=Summon Harondor Spearmen (&T)
 [CONTROLBAR:ToolTipBuildHaradwaithHarondorSpearmenHordeCamp]
 Value=Requires the Subjugation: Near Harad fortress upgrade
 Valueline2= Summons a battalion of Harondor Spearmen
+Valueline3=Strong vs. Cavalry and Heroes
+Valueline4=
+Valueline5= The brunt of Sûladan's forces was made up of spear-warriors capable of marching across vast distances at great speed.
 
 
 [CONTROLBAR:ConstructHaradwaithHarondorArcherHordeCamp]
@@ -85983,6 +85992,9 @@ Value=Summon Harondor Archers (&S)
 [CONTROLBAR:ToolTipBuildHaradwaithHarondorArcherHordeCamp]
 Value=Requires the Subjugation: Near Harad fortress upgrade
 Valueline2= Summons a battalion of Harondor Archers
+Valueline3=Strong vs. Infantry
+Valueline4=
+Valueline5= The archers in Sûladan's ranks were known for their use of poison-tipped arrows, which they extracted themselves at great risk from Haradwaith's many venomous species such as snakes and scorpions.
 
 
 [CONTROLBAR:ConstructHaradwaithHarondorRaiderHordeCamp]
@@ -85992,10 +86004,17 @@ Value=Summon Harondor Raiders (&D)
 [CONTROLBAR:ToolTipBuildHaradwaithHarondorRaiderHordeCamp]
 Value=Requires the Subjugation: Near Harad fortress upgrade
 Valueline2= Summons a battalion of Harondor Raiders
+Valueline3=Strong vs. Archers and Swordsmen 
+Valueline4=
+Valueline5= These raiders were known in Gondor for striking hard and fast, then retreating ere any retaliation could be organised.
 
 
 [OBJECT:HaradScorpionExpansion]
-Value=Scorpion Pit Expansion
+Value=Den of Scorpions Expansion
+
+
+[OBJECT:ScorpionLair]
+Value=Den of Scorpions
 
 
 [OBJECT:HaradCatapultExpansion]
@@ -86003,7 +86022,7 @@ Value=Catapult Expansion
 
 
 [OBJECT:HaradSandstoneTowerExpansion]
-Value=Sandstone Tower Expansion
+Value=Domed Spire Expansion
 
 
 [CONTROLBAR:ConstructHaradCatapultExpansion]
@@ -86015,7 +86034,7 @@ Value=Long range defensive weapon
 
 
 [CONTROLBAR:ConstructHaradSandstoneTowerExpansion]
-Value=Sandstone Tower Expansion (&W)
+Value=Domed Spire Expansion (&W)
 
 
 [CONTROLBAR:ToolTipConstructHaradSandstoneTowerExpansion]
@@ -86023,7 +86042,7 @@ Value=Short Range Defensive Tower
 
 
 [CONTROLBAR:ConstructHaradScorpionPitExpansion]
-Value=Scorpion Pit Expansion (&E)
+Value=Den of Scorpions Expansion (&E)
 
 
 [CONTROLBAR:ToolTipConstructHaradScorpionPitExpansion]
@@ -86036,7 +86055,7 @@ Value=Camouflage (&R)
 
 [CONTROLBAR:ToolTipScorpionCamouflage]
 Value=Requires Level 2 
-Valueline2= Becomes invisible when standing still 
+Valueline2= Becomes stealthed when standing still for 20 seconds 
 Valueline3= Left click to activate
 
 
@@ -86065,11 +86084,13 @@ Value=Hardened Carapace
 
 [CONTROLBAR:ToolTipHardenedCarapace]
 Value=Requires Level 5 
-Valueline2= The Great Scorpion's carapace has hardened after many battles 
-Valueline3=Armor is permanently increased by 50%
+Valueline2=Armour is permanently increased by 25%
+Valueline3=Armour against structural damage is permanently increased by 50%
+Valueline4=Passive ability
 
 
-
+[CONTROLBAR:DreadMask]
+Value=Stern Gaze
 
 
 [CONTROLBAR:TooltipDreadMask]
@@ -86078,16 +86099,24 @@ Valueline2= Nearby enemy units suffer -10% armour
 Valueline3=Passive ability
 
 
+[CONTROLBAR:RisenCarrionDebuff]
+Value=TBD
 
 
+TooltipRisenCarrionDebuff
+Modifier Type: Passive Debuff 
+Valueline2= Nearby enemy units suffer -25% damage and speed 
+Valueline2=Passive ability
 
 
+[CONTROLBAR:SpecialAbilityWarriorsReach]
+Value=Quaking Hearts (&R)
 
 
 [CONTROLBAR:ToolTipSpecialAbilityWarriorsReach]
 Value=Requires Level 3 
 Valueline2= Modifier type: Debuff 
-Valueline3= For a short time, struck enemies inflict -25% damage 
+Valueline3= For 20 seconds, struck enemies inflict -25% damage 
 Valueline4= Left click to activate
 
 
@@ -86102,7 +86131,7 @@ Valueline3=Left click to activate
 
 
 [CONTROLBAR:SerpentsSting]
-Value=Serpent's Sting (&W)
+Value=Serpent's Sting (&R)
 
 
 [CONTROLBAR:ToolTipSerpentsSting]
@@ -86111,8 +86140,48 @@ Valueline2= Poisons targeted enemies causing damage over time for 15 seconds
 Valueline3= Left click to activate
 
 
+[CONTROLBAR:BlackSerpentBanner]
+Value=Unbending Charge (&T)
+
+
+[CONTROLBAR:ToolTipBlackSerpentBanner]
+Value=Requires Level 5 
 Valueline2= Nearby Harondor Raiders, Black Númenórean Vanguard, and Sûladan all gain +100% armour against specialist damage for 20 seconds
+Valueline3=Can only be cast when mounted
+Valueline4= Left click to activate
+
+
+[CONTROLBAR:BlackenedBlood]
+Value=Blackened Blood (&W)
+
+
+[CONTROLBAR:ToolTipBlackenedBlood]
+Value=Marauders heal quickly once out of combat, are immune to knockback and trample
+Valueline2= Passive ability 
+Valueline3= At rank 3, can be activated to cause attacks to drain health from enemy units for 20 seconds
+Valueline4=Left click to activate
+
+
+[CONTROLBAR:AccursedBastion]
+Value=Accursed Bastion (&R)
+
+
+[CONTROLBAR:ToolTipAccursedBastion]
+Value=Requires Rank 4 
 Valueline2= For 15 seconds, Nâfarati Marauders gain +50% armour and +50% damage, but lose -33% speed
+Valueline3= When Accursed Bastion ends, all nearby enemies are moderately knocked back
+Valueline4= Left click to activate
+
+
+[CONTROLBAR:ToolTipToggleWatchersofKarnaWeapons]
+Value=Left click to toggle between bow and staff 
+Valueline2= Modifier Type: Debuff 
+Valueline3=  Melee attacks slow enemy units by 10% 
+Valueline4= Passive ability
+
+
+[CONTROLBAR:RitualofSacrifice]
+Value=Ritual of Sacrifice (&R)
 
 
 [CONTROLBAR:ToolTipRitualofSacrifice]
@@ -86121,22 +86190,60 @@ Valueline2=Watchers of Kârna can select enemy battalion or hero for a sacrifice 
 Valueline3= For 30 seconds Watchers of Kârna gain +100% experience and +33% damage when near chosen enemy
 Valueline4=
 Valueline5= Left click then left click target enemy unit
+
+
+[CONTROLBAR:AncientGuardians]
+Value=Ancient Guardians
+
+
 [CONTROLBAR:TooltipAncientGuardians]
 Value=Requires Level 4
 Valueline2=Watchers of Kârna grant nearby friendly structures +50% armour
 Valueline3=Passive ability
+
+
+[CONTROLBAR:Predictable]
+Value=Chant of the Deeps (&C)
+
+
+[CONTROLBAR:ToolTipPredictable]
+Value=Requires Level 7
+Valueline2=Modifier Type: Buff and Active Debuff
+Valueline3=Nearby friendly units gain knockback resistance and +15% movement speed for 20 seconds
+Valueline4=Nearby enemy units lose -50% armour for 20 seconds
+Valueline5=Left click to activate
+
+
+[CONTROLBAR:Submit]
+Value=Submit! (&R)
+
+
+[CONTROLBAR:ToolTipSubmit]
+Value=Requires Lies and Threats upgrade 
 Valueline2= Harondor Warlords can sacrifice members of their hordes for +10% speed and +15% damage 
 Valueline3= Lasts 30 seconds 
 Valueline4=Left click to activate
 
+
+[CONTROLBAR:PurchaseHaradLiesandThreats]
+Value=Research Lies and Threats (&E)
+
+
 [CONTROLBAR:ToolTipPurchaseHaradLiesandThreats]
 Value=Increases Harondor Warlords' armour
+Valueline2= Unlocks the "Submit!" ability for tribal hordes
 
 
 [TOOLTIP:LackLevel3HaradLiesandThreats]
 Value=Requires Level 1 Harondor Outpost
 
 
+[CONTROLBAR:LiesandThreatsFake]
+Value=Lies and Threats
+
+
+[CONTROLBAR:ToolTipLiesandThreatsFake]
+Value=Requires Lies and Threats upgrade 
 Valueline2= Harondor Warlords have increased armour 
 Valueline3= Passive ability
 
@@ -86146,9 +86253,12 @@ Value=Threat of Mordor (&W)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeHaradFortressBanners]
-Value=Reduces Hero cost by 10%
-Valueline2= Reduces Hero recruit time by 10%
-Valueline3=Reduces cost of builders by 20%
+Value=Modifier Type: Passive Debuff
+Valueline2=Nearby enemies suffer -25% damage and -20% armour
+Valueline3=
+Valueline4=Reduces Hero cost by 10%
+Valueline5= Reduces Hero recruit time by 10%
+Valueline6=Reduces cost of builders by 20%
 
 
 [CONTROLBAR:PurchaseUpgradeHaradFortressHarondor]
@@ -86158,12 +86268,15 @@ Value=Subjugation: Near Harad (&R)
 [CONTROLBAR:ToolTipPurchaseUpgradeHaradFortressHarondor]
 Value=Permanently decreases build time of Harondor units by 20% 
 Valueline2= Allows Tribal Camps to summon Harondor units 
+Valueline3= Adds fire damage to all attached towers
 
 
 [CONTROLBAR:PurchaseUpgradeHaradFortressNafarat]
 Value=Subjugation: Nâfarat (&E)
 
 
+[CONTROLBAR:ToolTipPurchaseUpgradeHaradFortressNafarat]
+Value=Provides healing to nearby troops
 
 
 [CONTROLBAR:PurchaseUpgradeHaradFortressMahud]
@@ -86182,7 +86295,7 @@ Valueline3= Left click on icon then left click on target area
 
 [CONTROLBAR:ToolTipPurchaseUpgradeHaradFortressMahud]
 Value=Prerequisite to the Hegemony upgrade
-Valueline2=Permanently decreases cost and build time of Mûmakil units by 20%
+Valueline2=Permanently decreases cost and build time of Mûmakil units by 20% 
 Valueline3= Allows the Fortress to temporarily summon an Oliphaunt
 
 
@@ -86192,20 +86305,21 @@ Value=Hegemony (&S)
 
 [CONTROLBAR:ToolTipPurchaseUpgradeHaradFortressHegemony]
 Value=Requires the Subjugation: Mahûd upgrade
-Valueline2=Increases fortress armor
-Valueline3=Reduces recruitment cost of Umbar units by 15%
+Valueline2=Increases fortress armour by 65%
+Valueline3=Reduces recruitment cost of Corsairs and Black Númenórean units by 15%
 Valueline4=Unlocks Sauron's Reward
 
 
 [CONTROLBAR:SauronsReward]
-Value=Sauron's Reward (&T)
+Value=Sauron's Reward (&S)
 
 
 [CONTROLBAR:ToolTipSauronsReward]
 Value=Requires the Hegemony upgrade
 Valueline2=Permanently empowers targeted hero with +33% armour and +33% damage 
-Valueline3= Does not work on the Golden King
-Valueline4=Left click on icon, then left click on target hero
+Valueline3= Does not work on the Golden King or Zigûr
+Valueline4=Does not stack
+Valueline5=Left click on icon, then left click on target hero
 
 
 [CONTROLBAR:ConstructSanctumofZigur]
@@ -86216,6 +86330,7 @@ Value=Build Sanctum of Zigûr (&V)
 Value=Trains Zigûr Cultists and Hasharin Blades
 Valueline2=Limited to 1
 Valueline3=
+Valueline4= Zigûr-worship is an ancient practice among those initiated few that remember it. Under the Golden King's terrible reign, it has once again risen to prominence.
 
 
 [OBJECT:SanctumofZigur]
@@ -86245,7 +86360,9 @@ Value=Zigûr Cultists (&W)
 
 
 [CONTROLBAR:TooltipBuildZigurCultistsHorde]
-Value=Battlefield Support Unit
+Value=Battlefield Support Unit 
+Valueline2= 
+Valueline3= Learned in the ancient rites and customs of the Cult of Zigûr, these fanatical cultists seek to gain the Dark Lord's favor and wield some of his power through the sacrifice of living Men.
 
 
 [OBJECT:HordeZigurCultists]
@@ -86274,6 +86391,49 @@ Value=Zigûr Cultist
 
 [BANNERUI:ZigurCultists]
 Value=Zigûr Cultists
+
+
+[CONTROLBAR:LW_ToolTipBuild_ZigurCultistsHorde]
+Value=Unit Type: Support Unit
+Valueline2=Weak vs. Archers and Cavalry
+Valueline3=
+
+
+[CONTROLBAR:ConstructZigurArbitersHorde]
+Value=Arbiters of Zigûr
+
+
+[CONTROLBAR:TooltipBuildZigurArbitersHorde]
+Value=Strong vs Pikemen
+Valueline2=
+Valueline3=Utterly corrupted by Zigûr's dark sorcery, these unfeeling Men delight in meting out cold judgement upon those that dare resist the word of the Golden King or his Black Vizier.
+
+
+[OBJECT:ArbiterofZigur]
+Value=Arbiter of Zigûr
+
+
+[OBJECT:ArbiterofZigurHorde]
+Value=Arbiters of Zigûr
+
+
+[CONTROLBAR:LW_Unit_ArbiterofZigurHorde]
+Value=Arbiters of Zigûr Horde
+
+
+[CONTROLBAR:LW_Unit_ArbiterofZigurHordePlural]
+Value=Arbiters of Zigûr Hordes
+
+
+[BANNERUI:ArbiterofZigur]
+Value=Arbiter of Zigûr
+
+
+[BANNERUI:ArbitersofZigur]
+Value=Arbiters of Zigûr
+
+
+
 [CONTROLBAR:ArbitersSpiritOfZigur]
 Value=Spirit of Zigûr (&T)
 
@@ -86287,9 +86447,20 @@ Value=Desolation (&W)
 
 
 [CONTROLBAR:TooltipCultistsDesolation]
-Value=Target area is covered in blistering heat 
-Valueline2=Enemy units that enter the area lose -40% movement speed 
+Value=Target area is covered in blistering heat for 30 seconds 
+Valueline2=Enemy units that enter the area lose -33% movement speed 
 Valueline3= Left click icon then left click on target area
+
+
+[CONTROLBAR:CultistsMorgothsPillar]
+Value=Fist of the Underworld (&R)
+
+
+[CONTROLBAR:TooltipCultistsMorgothsPillar]
+Value=Morgoth, though locked in the Void, still influences the world through his seeping corruption 
+Valueline2=Summons Morgoth's Wrath from the ground 
+Valueline3= Enemies in targeted area are knocked back and suffer moderate damage 
+Valueline4= Left click icon then left click on target area
 
 
 [CONTROLBAR:CultistsZealotry]
@@ -86302,12 +86473,25 @@ Value=Specialization: Zealotry (&T)
 
 [CONTROLBAR:TooltipCultistsZealotry]
 Value=Modifier Type: Spell
-Valueline2= Targeted friendly units temporarily gain +50% attack and lose -75% armour 
-Valueline3= Stacks With Buffs, Leadership and other Spells
+Valueline2= Targeted enemy units are terrified for 3 seconds 
+Valueline3= Allies near them are healed and gain 25% armour for 20 seconds 
 Valueline4= Left click icon then left click on target area
 
 
+[CONTROLBAR:TooltipArbiterZealotry]
+Value=Requires Level 3
+Valueline2=Modifier Type: Spell
+Valueline3= Targeted enemy units are terrified for 3 seconds 
+Valueline4= Allies near them are healed and gain 25% armour for 20 seconds 
+Valueline5= Left click icon then left click on target area
+
+
+
+[CONTROLBAR:TooltipPurchaseUpgradeCultistsZealotry]
 Value=Allows Specialization in the Zealotry power 
+Valueline2= Modifier Type: Spell
+Valueline3= Targeted enemy units are terrified for 3 seconds 
+Valueline4= Allies near them are healed and gain 25% armour for 20 seconds 
 Valueline5=The Cultists can specialize in one power only
 
 
@@ -86317,14 +86501,24 @@ Value=Dark Worship: Zealotry (&E)
 
 [CONTROLBAR:ToolTipPurchaseTechnologyCultistsZealotry]
 Value=Allows Cultists to specialize in the Zealotry power
+Valueline2= 
+Valueline3= Modifier Type: Spell
+Valueline4= Targeted enemy units are terrified for 3 seconds 
+Valueline5= Allies near them are healed and gain 25% armour for 20 seconds 
+Valueline6=Left click icon then left click on target units
+
+
 [CONTROLBAR:CultistsHeartsofFire]
 Value=Hearts of Fire (&T)
 
 
 [CONTROLBAR:ToolTipCultistsHeartsofFire]
 Value=Targeted friendly units permanently deal added fire damage 
-Valueline2= Can only be used in non heroic, non monstrous melee infantry
-Valueline3= Left click icon then left click on target units
+Valueline2= with their attacks and to enemies that attack them 
+Valueline3= Grants 50% armour against fire as well 
+Valueline4=Can only be used on Haradwaith melee units
+Valueline5=Does not affect heroic units or monsters
+Valueline6=Left click icon then left click on target units
 
 
 [CONTROLBAR:PurchaseUpgradeHeartsofFire]
@@ -86334,8 +86528,9 @@ Value=Specialization: Hearts of Fire (&C)
 [CONTROLBAR:ToolTipPurchaseUpgradeHeartsofFire]
 Value=Allows Specialization in the Hearts of Fire power 
 Valueline2= Targeted friendly units permanently deal added fire damage 
-Valueline3= Can only be used in non heroic, non monstrous melee infantry 
-Valueline4= The Cultists can specialize in one power only
+Valueline3= with their attacks and to enemies that attack them 
+Valueline4= Grants 50% armour against fire as well 
+Valueline5= Can only be used in non heroic, non monstrous melee infantry 
 Valueline6= The Cultists can specialize in one power only
 
 
@@ -86345,6 +86540,13 @@ Value=Dark Worship: Hearts of Fire (&R)
 
 [CONTROLBAR:ToolTipPurchaseTechnologyCultistsHeartsofFire]
 Value=Allows Cultists to specialize in the Hearts of Fire power
+Valueline2= 
+Valueline3= Targeted friendly units permanently deal added fire damage 
+Valueline4= with their attacks and to enemies that attack them 
+Valueline5= Grants 50% armour against fire as well 
+Valueline6= Can only be used in non heroic, non monstrous melee infantry
+
+
 [CONTROLBAR:CultistsSpiritOfZigur]
 Value=Spirit of Zigûr (&T)
 
@@ -86428,6 +86630,8 @@ Value=Summons Marchwardens to patrol the Talan for 60 seconds
 Valueline2=Left click to activate
 
 
+[CONTROLBAR:UpgradeTalanNiphredilBloom]
+Value=Research Niphredil Bloom (&T)
 
 
 [CONTROLBAR:ToolTipUpgradeTalanNiphredilBloom]
