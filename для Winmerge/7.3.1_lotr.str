@@ -87098,6 +87098,7 @@ Value=Morinehtar
 [CONTROLBAR:MorinehtarRecruit]
 Value=Recruit the Darkness-slayer
 Valueline2=
+Valueline3=A great warrior and worthy wizard, Morinehtar was sent into the East to slay the darkness festering there for years uncounted.
 
 
 [CONTROLBAR:MorinehtarRevive]
@@ -87114,6 +87115,7 @@ Value=Ithryn Luin
 
 [CONTROLBAR:ToolTipIthrynLuin]
 Value=Modifier Type: Leadership
+Valueline2=When near each other, the Blue Wizards gain +50% armour
 Valueline3=Passive Ability
 
 
@@ -87123,6 +87125,70 @@ Value=Darkness-slayer (&R)
 
 [CONTROLBAR:ToolTipDarknessSlayer]
 Value=Modifier Type: Leadership
+Valueline2=Nearby friendly units gain +25% damage
+Valueline3=Passive Ability
+Valueline4=At rank 3, can be activated to grant Morinehtar +50% damage for 30 seconds
+Valueline5=Left click to activate
+
+
+[CONTROLBAR:SpecialAbilitySpearOfOrome]
+Value=Spear of Oromë (&T)
+
+
+[CONTROLBAR:ToolTipSpecialAbilitySpearOfOrome]
+Value=Morinehtar throws the Spear of Oromë, which knocks back and damages enemy units in its path
+Valueline2=Left click then left click target area
+
+
+[CONTROLBAR:AzureGuardian]
+Value=Azure Guardian (&C)
+
+
+[CONTROLBAR:ToolTipAzureGuardian]
+Value=Morinehtar teleports to target location and stuns nearby enemy units for 5 seconds upon arrival
+Valueline2=Left click then left click target location
+
+
+[CONTROLBAR:ConstructStatueOfGirion]
+Value=Statue of Girion (&G)
+
+
+[CONTROLBAR:StatueOfGirionBuild]
+Value=Provides a leadership bonus to nearby units
+Valueline2=Heals nearby allies 
+Valueline3= Detects stealth
+
+
+[CONTROLBAR:StatueOfGirionBuildBotFA]
+Value=Provides a leadership bonus to nearby units
+Valueline2=Heals nearby allies 
+Valueline3=Can summon random battalions of Lake-towners
+Valueline4=Limited to 3
+
+
+[OBJECT:StatueOfGirion]
+Value=Statue of Girion
+
+
+[OBJECT:StatueOfGirionDescription]
+Value=Modifier Type: Leadership 
+Valueline2= Allies near the Statue gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror
+Valueline3=Replenishes health and units in nearby battalions
+
+
+[CONTROLBAR:SpawnRandomGirionHorde]
+Value=Dalish Guard (&W)
+
+
+[CONTROLBAR:ToolTipSpawnRandomGirionHorde]
+Value=Temporarily spawns a random battalion of Lake-towners
+Valueline2=Left click to activate
+
+
+[CONTROLBAR:ConstructDorwinionVineyard]
+Value=Greenwood Vineyard (&W)
+
+
 [CONTROLBAR:ToolTipDorwinionVineyard]
 Value=Generates wine as a resource based on available terrain 
 Valueline2= Increases command point limit by 50
@@ -87134,14 +87200,123 @@ Value=Generates wine as a resource based on available terrain
 [CONTROLBAR:ToolTipConstructDorwinionMarket]
 Value=Provides traded goods as a resource based on available terrain
 Valueline2=Researches weapons and armour upgrades
+Valueline3= Reduces cost of upgrades 
 Valueline4= Increases command point limit by 50
 
 
+[CONTROLBAR:ConstructDorwinionMarket]
+Value=Dorwinion Market (&R)
+
+
+[OBJECT:DorwinionMarket]
+Value=Dorwinion Market
+
+
+[CONTROLBAR:ConstructDorwinionSentryTower]
+Value=Build Barding Tower (&Y)
+
+
+[OBJECT:DorwinionTower]
+Value=Barding Tower
+
+
+[OBJECT:DorwinionMarketDescription]
 Value=Researches weapons and armour upgrades 
 Valueline2= Provides traded goods as a resource based on available terrain 
+Valueline3= Trade Bonus - Reduced cost of upgrades 
+Valueline4= 2 Markets: 5% 
+Valueline5= 3 Markets: 10% 
+Valueline6= 4 Markets: 15% 
+Valueline7= 5 Markets: 20% 
+Valueline8= 6+ Markets: 25%
+
+
+[GUI:TRADE_DISCOUNT]
+Value=Trade Bonus -%d%%
+
+
+[CONTROLBAR:ToolTipBuildMirkwoodEotheodHorde_Adventure]
+Value=Requires Level 2 Beorning Lodge 
+Valueline2= Strong vs. Archers 
+Valueline3= 
+Valueline4= It was after the Battle of the Plains that the Éothéod, a remnant of the Northmen, became a distinct people, dwelling in the Vales of Anduin between the Carrock and the Gladden Fields.
+
+
+[CONTROLBAR:ToolTipBuildDaleRoyalGuardAdventure]
+Value=Requires Level 3 Dorwinion Assembly and King Brand
+Valueline2=Hero Unit. Limited to 1.
+Valueline3=Strong vs. Cavalry 
+Valueline4= Able to switch formation for improved defensive capabilities 
+Valueline5= 
+Valueline6= The retinue of Dalish royal guards was founded soon after Bard restored the great city of Dale. Its members have served as the personal guard of the Barding kings ever since.
+
+
+[CONTROLBAR:PurchaseTechnologyMirkwoodBasicTrainingAdventure]
+Value=Research Banners of Dale (&W)
+
+
+[CONTROLBAR:PurchaseTechnologyMirkwoodForgedBladesAdventure]
+Value=Research Avarin Steel (&E)
+
+
+[CONTROLBAR:PurchaseTechnologyDwarvenMithrilMailAdventure]
+Value=Research Barding Chainmail (&R)
+
+
+[TOOLTIP:LackLevel2Market]
+Value=Requires Level 2 Dorwinion Market
+
+
+[TOOLTIP:LackLevel3Market]
+Value=Requires Level 3 Dorwinion Market
+
+
+[CONTROLBAR:ConstructMirkwoodBatteringRamDorwinion]
+Value=Beorning Battering Ram (&R)
+
+
+[CONTROLBAR:ToolTipBuildMirkwoodBatteringRamDorwinion]
+Value=Requires Level 2 Beorning Lodge
+Valueline2=Breaks down castle gates and enemy structures 
+Valueline3= 
+Valueline4= Strong as bears, the Beornings of the Anduin Vale are quite capable of uprooting a tree to batter down an enemy's front door.
+
+
+[CONTROLBAR:ConstructIstariAcolyte]
+Value=Istari Acolyte (&E)
+
+[OBJECT:IstariAcolyte]
+Value=Istari Acolyte
 
 [CONTROLBAR:ToolTipBuildIstariAcolyte]
 Value=Requires Level 2 Kinn-lai Garrison
+Valueline2= Support Unit 
+Valueline3= Limited to 5 
+Valueline4= 
+Valueline5= When the Ithryn Luin settled in the far reaches of Middle-earth, they took on sages and wisemen that sought to array themselves against the sinister tendrils of evil that grasped at the hearts of many of the Easterlings, teaching them subtle magics to kindle the flame of resistance to the Dark Lord's influence. 
+
+
+[CONTROLBAR:PurchaseUpgradeIstariDisciple]
+Value=Purchase Disciple of the Ithryn Luin (&C)
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeIstariDisciple]
+Value=Allows Acolyte to use the Disciple of Ithryn Luin ability 
+Valueline2= Target enemy building takes heavy damage
+Valueline3= Left click icon then left click on target
+
+
+[CONTROLBAR:IstariDisciple]
+Value=Disciple of the Ithryn Luin (&C)
+
+
+[CONTROLBAR:ToolTipIstariDisciple]
+Value=Target enemy building takes heavy damage
+Valueline2= Left click icon then left click on target
+
+
+[CONTROLBAR:AcolytePremonitions]
+Value=Dark Premonitions
 
 
 [CONTROLBAR:ToolTipAcolytePremonitions]
@@ -87150,6 +87325,83 @@ Valueline2=Nearby Elves of the Kinn-lai gain +33% crush armour and resistance to
 Valueline3=Passive ability
 
 
+[CONTROLBAR:ToolTipSummonRavensDorwinion]
+Value=Summons an unkindness of Ravens 
+Valueline2= Reveals the shroud and detects stealthed units
+Valueline3= Modifier Type: Active Debuff 
+Valueline4= Nearby enemy units suffer -25% damage and -20% armour
+Valueline5= Nullifies enemy leadership
+Valueline6= Left click icon then left click on target area
+
+
+[CONTROLBAR:RhovanionAlliance]
+Value=Rhovanion Alliance
+
+
+[CONTROLBAR:ToolTipRhovanionAlliance]
+Value=Randomly summons 3 battalions from across Rhovanion 
+Valueline2= Left click icon then left click on pathable location
+
+
+[CONTROLBAR:DorwinionTrade]
+Value=Dorwinion Trade
+
+
+[CONTROLBAR:TooltipDorwinionTrade]
+Value=+15% resources from Dorwinion Markets 
+Valueline2= Passive power
+
+
+[CONTROLBAR:KingUnderTheMountain]
+Value=The King Under the Mountain
+
+
+[CONTROLBAR:TooltipKingUnderTheMountain]
+Value=Temporarily summons King Dáin and two battalions of Khazâd-uzbadul 
+Valueline2= Left click icon then left click on pathable location
+
+
+[CONTROLBAR:HuntOfPalacendo]
+Value=Horn of Palacendo
+
+
+[CONTROLBAR:CunningHaimenar]
+Value=Cunning of Haimenar
+
+
+[CONTROLBAR:ToolTipBuildMirkwoodBeorningCabinLevel2UpgradeAdventure]
+Value=Allows recruitment of Éothéod Warriors and Beorning Battering Rams
+Valueline2=+10% faster build speed
+
+
+[OBJECT:DorwinionAssembly]
+Value=Dorwinion Assembly
+
+
+[CONTROLBAR:ConstructDorwinionAssembly]
+Value=Build Dorwinion Assembly (&T)
+
+
+[CONTROLBAR:TooltipConstructDorwinionAssembly]
+Value=Trains Dorwinion Legionnaires and Bardings
+
+
+[CONTROLBAR:ConstructDorwinionAssemblyLevel2]
+Value=Upgrade Dorwinion Assembly to Level 2 (&A)
+
+
+[CONTROLBAR:ToolTipBuildDorwinionAssemblyLevel2]
+Value=Allows recruitment of Barding Longbowmen and Heroes of Dorwinion
+Valueline2= +10% faster build speed
+
+
+[CONTROLBAR:ConstructDorwinionAssemblyLevel3]
+Value=Upgrade Dorwinion Assembly to Level 3 (&A)
+
+
+[CONTROLBAR:ToolTipBuildDorwinionAssemblyLevel3]
+Value=Allows recruitment of Royal Guard of Dale
+Valueline2= +25% faster build speed
 
 
 [OBJECT:KinnLaiGarrison]
@@ -87164,6 +87416,9 @@ Value=Build Kinn-lai Garrison (&V)
 Value=Upgrade Kinn-lai Garrison to Level 2 (&A)
 
 
+[CONTROLBAR:ToolTipBuildKinnLaiLevel2Upgrade]
+Value=Allows recruitment of Istari Acolytes
+Valueline2= +10% faster build speed
 
 
 [CONTROLBAR:ConstructKinnLaiGarrisonLevel3Upgrade]
@@ -87175,6 +87430,12 @@ Value=Allows recruitment of Kinn-lai Masters
 Valueline2= +25% faster build speed
 
 
+[CONTROLBAR:ToolTipConstructKinnLaiGarrison]
+Value=Trains Elves of the Kinn-lai and Istari Acolytes
+
+
+[CONTROLBAR:ArtOfWarVeteran]
+Value=Art of War (&T)
 
 
 [OBJECT:KinnLaiVeteranHorde]
@@ -87193,15 +87454,276 @@ Value=Kinn-lai Masters (&R)
 Value=Requires Level 3 Kinn-lai Garrison
 Valueline2=Strong vs. Infantry.
 Valueline3= 
+Valueline4= Wise beyond measure and with the experience of centuries beyond count, these Avari have mastered the art of war, tending to their craft with unwavering dedication.
+
+
+[CONTROLBAR:PurchaseUpgradeDorwinionFortressBanners]
+Value=Banners of Bladorthin (&W)
+
+[CONTROLBAR:PurchaseUpgradeDorwinionFortressBountyofVine]
+Value=Bounty of Vine and Vale (&E)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeDorwinionFortressBountyofVine]
+Value=Fortress permanently produces more resources
+
+[CONTROLBAR:PurchaseUpgradeDorwinionFortressVinterGuild]
+Value=Vinter's Guild (&R)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeDorwinionFortressVinterGuild]
+Value=Unlocks Fine Vintage ability
+Valueline2=When activated, allies nearby the fortress are healed and replenished for 30 seconds
+
+[CONTROLBAR:PurchaseUpgradeDorwinionFortressArtificerGuild]
+Value=Artificer's Guild (&T)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeDorwinionFortressArtificerGuild]
+Value=Increases Fortress armour by 65%
+Valueline2=Reduces cost of Dorwinion unit Upgrades 
+Valueline3= 1 Fortress with Artificer's Guild = 25% cheaper 
+Valueline4= 2 Fortresses with Artificer's Guild = 35% cheaper 
+Valueline5= 3 Fortresses with Artificer's Guild = 40% cheaper 
+Valueline6= 4 Fortresses with Artificer's Guild = 45% cheaper 
+Valueline7= 5 Fortresses with Artificer's Guild = 50% cheaper
+
+[CONTROLBAR:PurchaseUpgradeDorwinionFortressHorns]
+Value=Horns of Dorwinion (&S)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeDorwinionFortressHorns]
+Value=Unlocks the Call of Alarm ability
 Valueline2=When activated, causes nearby enemies to cower in fear for 15 seconds
+
+[CONTROLBAR:PurchaseUpgradeDorwinionFortressCouncilOfLords]
+Value=Council of Lords (&D)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeDorwinionFortressCouncilOfLords]
+Value=Requires Horns of Dorwinion upgrade
+Valueline2=Unlocks recruitment of Gilded Guard
+Valueline3=Unlocks the Call to Arms ability
+Valueline4=When activated, recruitment time of Dorwinion units is reduced by 50% for 60 seconds
+Valueline5=All Dorwinion units on the battlefield gain 15% speed and +50% damage and armour for 30 seconds
+
+[CONTROLBAR:FineVintage]
+Value=Fine Vintage (&S)
+
+[CONTROLBAR:ToolTipFineVintage]
+Value=Requires Vinter's Guild upgrade
+Valueline2=When activated, allies nearby the fortress are healed and replenished for 30 seconds
+Valueline3=Left click to activate
+
+[CONTROLBAR:HornsofDorwinion]
+Value=Call of Alarm (&D)
+
+[CONTROLBAR:TooltipHornsofDorwinion]
+Value=Requires Horns of Dorwinion upgrade
+Valueline2=When activated, causes nearby enemies to cower in fear for 15 seconds
+Valueline3=Left click to activate
+
+[CONTROLBAR:DorwinionCallToArms]
+Value=Call to Arms (&F)
+
+[CONTROLBAR:ToolTipDorwinionCallToArms]
+Value=Requires Council of Lords upgrade
+Valueline2=When activated, recruitment time of Dorwinion units is reduced by 50% for 60 seconds
+Valueline3=All Dorwinion units on the battlefield gain 15% speed and +50% damage and armour for 30 seconds
+Valueline4=Left click to activate
+
+[OBJECT:DorwinionCaptain]
+Value=Hero of Dorwinion
+
+[CONTROLBAR:ToolTipDorwinionShieldBash]
+Value=Powerful attack that knocks back enemy units
+Valueline2= Left click icon then left click on target
+
+[CONTROLBAR:DorwinionSoundAlarm]
+Value=Sound the Alarm (&R)
+
+[CONTROLBAR:ToolTipDorwinionSoundAlarm]
+Value=Requires Level 2
+Valueline2=The Hero of Dorwinion blows his horn
+Valueline3=Can be cast on friendly units to increase movement speed by 25% for 15 seconds,
+Valueline4=or on enemy units to decrease movement speed by 25% for 15 seconds
+Valueline5=Left click icon then left click on target
+
+[CONTROLBAR:DorwinionCaptainSummon]
+Value=Personal Retinue (&T)
+
+[CONTROLBAR:ToolTipDorwinionCaptainSummon]
+Value=Requires Level 3
+Valueline2=Temporarily summons a battalion of Dorwinion Guards
+Valueline3=At rank 4, includes an battalion of Dorwinion Auxillaries
+Valueline4=At rank 5, includes an additional battalion of Dorwinion Guards
+Valueline5=Left click to activate
+
+[CONTROLBAR:ConstructDorwinionCaptain]
+Value=Hero of Dorwinion (&T)
+
+[CONTROLBAR:ToolTipBuildConstructDorwinionCaptain]
+Value=Requires Level 2 Dorwinion Assembly
+Valueline2=Single support unit
+Valueline3=
+Valueline4=Those Men, be they guilded or guildless, that perform great acts of valour at the benefit of the land of Dorwinion, are granted the honorary title of Hero of Dorwinion, along with a plot of land, a house, and servants to call their own. In times of need they are called upon to help defend the interests of the Lords of Vine and Vale.
+
+[CONTROLBAR:ConstructDorwinionCaptainWotrInn]
+Value=Hero of Dorwinion (&E)
+
+[CONTROLBAR:ToolTipBuildConstructDorwinionCaptainWotrInn]
+Value=Single support unit
+Valueline2=
+Valueline3=Those Men, be they guilded or guildless, that perform great acts of valour at the benefit of the land of Dorwinion, are granted the honorary title of Hero of Dorwinion, along with a plot of land, a house, and servants to call their own. In times of need they are called upon to help defend the interests of the Lords of Vine and Vale.
+
+
+[OBJECT:DorwinionGuard]
+Value=Dorwinion Guard
+
+[OBJECT:DorwinionGuardHorde]
+Value=Dorwinion Guards
+
+[CONTROLBAR:ConstructDorwinionGuardHorde]
+Value=Dorwinion Guards (&W)
+
+[CONTROLBAR:ToolTipBuildDorwinionGuardHorde]
+Value=Strong vs. Pikemen
+Valueline2=These languid warriors patrol the sleepy roads of Dorwinion, ensuring that no malarkey may occur, and that their flasks are ever full.
+
+
+[OBJECT:DorwinionPilum]
+Value=Dorwinion Auxiliary
+
+[OBJECT:DorwinionPilumHorde]
+Value=Dorwinion Auxiliaries
+
+[CONTROLBAR:ConstructDorwinionPilumHorde]
+Value=Dorwinion Auxiliaries (&W)
+
+[CONTROLBAR:ToolTipBuildDorwinionPilumHorde]
+Value=Strong vs. Infantry
+Valueline2=Levied from the far corners of the realm, the Dorwinion Auxiliaries are motivated by decent wages and the opportunity to linger on the edge of the battlefield once they've thrown all they've got to throw.
+
+
+[CONTROLBAR:PurchaseUpgradeSentryTowerForgedBladesDorwinion]
+Value=Mithril-tipped Arrows (&W)
+
+[CONTROLBAR:ConstructBeorningBerserkerDorwinion]
+Value=Beorning Berserkers (&T)
+
+[CONTROLBAR:PurchaseUpgradeBeekeepingDorwinion]
+Value=Purchase Beekeeping (&S)
+
+[ToolTip:LackDorwinionFireArrows]
+Value=Research upgrade at the Dorwinion Market to enable this equipment 
+Valueline2= When equipped, significantly increases the damage done by arrows
+
+[TOOLTIP:LackDorwinionMithrilMail]
+Value=Research upgrade at the Dorwinion Market to enable this equipment 
+Valueline2= When equipped, significantly reduces the amount of damage taken
+
+[TOOLTIP:LackDorwinionBasicTraining]
+Value=Research upgrade at the Dorwinion Market to enable this equipment 
+Valueline2= When equipped, increases this battalion to Level 2
+
+[TOOLTIP:LackDorwinionForgedBlades]
+Value=Research upgrade at the Dorwinion Market to enable this equipment 
+Valueline2= When equipped, increases the damage done by melee weapons
+
+[CONTROLBAR:ConstructMenofDaleSwordHordeDorwinion]
+Value=Barding Swordsmen (&E)
+
+[CONTROLBAR:ConstructDwarvenMenOfDaleDorwinion]
+Value=Barding Longbowmen (&R)
 
 [CONTROLBAR:ToolTipPurchaseTechnologyMirkwoodForgedBlades_Dorwinion]
 Value=Allows battalions to purchase the Avarin Steel upgrade 
 Valueline2= When equipped, increases the damage done by melee weapons
 Valueline3= Will upgrade all patrols instantly once upgrade is purchased
 
+[CONTROLBAR:ToolTipPurchaseTechnologyDwarvenMithrilMail_Dorwinion]
+Value=Allows units to purchase the Barding Chainmail upgrade 
+Valueline2= When equipped, significantly reduces the amount of damage taken
+
+[CONTROLBAR:ToolTipBuildGildedGuardHordeDorwinion]
+Value=Gilded Guard of Lasgalen
+Valueline2=Requires the Council of Lords upgrade
+Valueline3=Hero Unit. Limited to 1
+Valueline4=Strong. vs Swordsmen and Archers
+Valueline5=
+Valueline6= Their order originating from the earliest origins of Silvan settlement of Greenwood the Great, the Gilded Guard have stood ever vigilant in defense of their forest home.
+
 [CONTROLBAR:PurchaseTechnologyMirkwoodSilverthornArrows_Dorwinion]
 Value=Research Silvan Fletching (&T)
+
+[OBJECT:AngmarNauroth]
+Value=Nauroth
+
+[CONTROLBAR:AngmarNaurothRecruit]
+Value=Recruit the greatest spawn of Carcharoth
+Valueline2=
+Valueline3=A black Wolf of terrifying size and cunning, Nauroth was swayed to serve the Witch-king with the promise of satiating his hunger with the blood of Arnor
+
+[CONTROLBAR:AngmarNaurothRevive]
+Value=Revive the fallen hero, Nauroth
+
+[CONTROLBAR:AngmarNaurothHotkey]
+Value=Nauroth (&R)
+
+[CONTROLBAR:NaurothLunge]
+Value=Lunge (&W)
+
+[CONTROLBAR:ToolTipNaurothLunge]
+Value=Nauroth leaps to a location causing area-effect damage
+Valueline2= Left click icon then left click on target area
+
+[CONTROLBAR:NaurothBloodFreezingHowl]
+Value=Blood-freezing Howl (&R)
+
+[CONTROLBAR:ToolTipNaurothBloodFreezingHowl]
+Value=Requires Level 3
+Valueline2=Enemy units within the radius are slowed by 33% and take increased damage from Wolves for 30 seconds 
+Valueline3=
+Valueline4= At rank 6, also summons a horde of White Wolves 
+Valueline5= Left click icon then left click on target units
+
+[CONTROLBAR:NaurothWolfInSheepClothing]
+Value=Wolf in Sheep's Clothing (&T)
+
+[CONTROLBAR:ToolTipNaurothWolfInSheepClothing]
+Value=Requires Level 5 
+Valueline2= Causes targeted units to become hostile towards each other for 15 seconds
+Valueline3= Left click icon then left click on target area
+
+[CONTROLBAR:NaurothRavenousHunger]
+Value=Ravenous Hunger (&C)
+
+[CONTROLBAR:ToolTipNaurothRavenousHunger]
+Value=Requires Level 8
+Valueline2=Like Carcharoth, Nauroth possesses an insatiable hunger for flesh
+Valueline3=Nauroth can now trample enemy units
+Valueline4=Passive ability
+Valueline5=
+Valueline6=When activated, Nauroth deals strong damage to selected enemy and is healed
+Valueline7= Left click icon then left click on target
+
+
+[OBJECT:AngmarGorg]
+Value=Gorg the Wicked
+
+[CONTROLBAR:AngmarGorgRecruit]
+Value=Recruit Gorg the Wicked
+Valueline2=
+Valueline3=A troll of exceptional cruelty - and low wit - Gorg rose ruthlessly through the ranks of Angmar, until the Witch-king finally took notice and put him to work in a place where his talents could come to full fruition.
+
+[CONTROLBAR:AngmarGorgRevive]
+Value=Recruit the fallen hero, Gorg the Wicked
+
+[CONTROLBAR:AngmarGorgHotkey]
+Value=Gorg the Wicked (&T)
+
+[CONTROLBAR:GorgTrollSummon]
+Value=Trollish Chief (&W)
+
+[CONTROLBAR:ToolTipGorgTrollSummon]
+Value=Temporarily summons a Snow-troll
+Valueline2=At level 3, summons an additional Snow-troll
+Valueline3=Left click to activate
 
 
 [CONTROLBAR:ToolTipDarkSorcerer]
