@@ -87725,6 +87725,25 @@ Value=Temporarily summons a Snow-troll
 Valueline2=At level 3, summons an additional Snow-troll
 Valueline3=Left click to activate
 
+[CONTROLBAR:GorgCommand]
+Value=Master's Command
+
+[CONTROLBAR:TooltipGorgCommand]
+Value=Gorg has been tasked with wiping out the Dúnedain
+Valueline2= Deals +33% additional damage versus Aragorn II, Halbarad, Faramir, and Imrahil
+Valueline3=At rank 3, his strikes also lower the armour of enemies
+Valueline4=within a small radius by 20%
+Valueline5=Passive ability
+
+[CONTROLBAR:GorgThrow]
+Value=Massive Throw (&T)
+
+[CONTROLBAR:ToolTipGorgThrow]
+Value=Requires Level 5
+Valueline2=Gorg throws his massive stone axe at target enemy unit or structure
+Valueline3=Deals siege damage in a small radius
+Valueline4=Left click then left click on target
+
 
 [CONTROLBAR:ToolTipDarkSorcerer]
 Value=Requires Level 3
