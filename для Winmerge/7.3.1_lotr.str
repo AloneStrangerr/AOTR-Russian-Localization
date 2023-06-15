@@ -87090,6 +87090,24 @@ Valueline4=Passive ability
 Valueline5=At rank 6, target enemies' special ability timers are reset to just used
 Valueline6=Left click then left click target area
 
+[CONTROLBAR:CobaltShard]
+Value=Cobalt Shard (&C)
+
+[CONTROLBAR:ToolTipCobaltShard]
+Value=Places down a Cobalt Shard, which can be manually detonated, stunning enemy units for 5 seconds and causing damage over time for 20 seconds
+Valueline2=Cobalt Shards also detonate if destroyed by enemy units
+Valueline3=A maximum of 3 Cobalt Shards may exist at a time
+Valueline4=Left click to activate
+
+[CONTROLBAR:CobaltShardDetonate]
+Value=Detonate Shard (&W)
+
+[CONTROLBAR:ToolTipCobaltShardDetonate]
+Value=Detonates the Cobalt Shard to stun nearby enemy units for 5 seconds and cause damage over time for 20 seconds
+Valueline2=Left click to activate
+
+[OBJECT:CobaltShard]
+Value=Cobalt Shard
 
 [OBJECT:Morinehtar]
 Value=Morinehtar
@@ -87744,6 +87762,71 @@ Valueline2=Gorg throws his massive stone axe at target enemy unit or structure
 Valueline3=Deals siege damage in a small radius
 Valueline4=Left click then left click on target
 
+[CONTROLBAR:GorgCripple]
+Value=Break Their Legs! (&C)
+
+[CONTROLBAR:ToolTipGorgCripple]
+Value=Requires Level 8
+Valueline2=Gorg cripples an enemy hero for 15 seconds
+Valueline3=Causes surrounding enemy units to flee in terror
+Valueline4=Left click then left click enemy hero
+
+
+[OBJECT:AngmarValdugr]
+Value=Úlf the Váldúgr
+
+[CONTROLBAR:AngmarValdugrRecruit]
+Value=Recruit the Leader of the Hillmen of Rhudaur
+Valueline2=
+Valueline3=The Váldgoil is an ancient and largely dominant northern Hillman culture. Numerous smaller tribes and villages consider themselves Váldgoil, and wage traditional wars to elevate a warrior of their own crop to Váldúgr - a man who embodies the spirit of the wolf - a warchief whose leadership is called upon in times of war with outside cultures.
+
+[CONTROLBAR:AngmarValdugrRevive]
+Value=Revive the fallen hero, Úlf the Váldúgr
+
+[CONTROLBAR:AngmarValdugrHotkey]
+Value=Úlf the Váldúgr (&W)
+
+[CONTROLBAR:ValdugrLeadership]
+Value=Leader of the Pack
+
+[CONTROLBAR:ToolTipValdugrLeadership]
+Value=Modifier Type: Leadership
+Valueline2=Nearby Hillmen gain +15% armour and +25% damage
+Valueline3=Passive ability
+
+[CONTROLBAR:WolfCunning]
+Value=Wolf's Cunning (&R)
+
+[CONTROLBAR:ToolTipWolfCunning]
+Value=Úlf and targeted allies become stealthed and gain +25% movement speed for 30 seconds
+Valueline2= Left click icon then left click on target units
+
+[CONTROLBAR:ValdugrShout]
+Value=Terrifying Shout (&T)
+
+[CONTROLBAR:ToolTipValdugrShout]
+Value=Requires Level 3 
+Valueline2= Úlf lets out a cry, causing enemy units to flee in terror 
+Valueline3= Left click to activate
+
+[CONTROLBAR:SpecialAbilityValdugr]
+Value=Váldúgr (&C)
+
+[CONTROLBAR:TooltipSpecialAbilityValdugr]
+Value=Requires Level 6
+Valueline2=Úlf takes on the Spirit of the Wolf
+Valueline3=For 30 seconds, each consecutive attack summons a temporary White Wolf, up to a maximum of 3
+Valueline4= At rank 8, the maximum is increased to 5
+Valueline5=Left click to activate
+
+[CONTROLBAR:ShiveringPresence]
+Value=Shivering Presence (&W)
+
+[CONTROLBAR:ToolTipWKShiveringPresence]
+Value=Modifier Type: Spell
+Valueline2=Nearby Angmar units afflicted by Slow Decay are no longer drained over time, become resistant to fear and terror and receive +33% damage and armour
+Valueline3=Passive ability
+Valueline4=
 
 [CONTROLBAR:ToolTipDarkSorcerer]
 Value=Requires Level 3
@@ -87782,6 +87865,45 @@ Value=Spire of Angmar
 
 [CONTROLBAR:ConstructAngmarBastion]
 Value=Summon Spire of Angmar (&T)
+
+
+[OBJECT:AngmarPikeOrc]
+Value=Angmar Pikeman
+
+[OBJECT:AngmarPikeOrcHorde]
+Value=Angmar Pikemen
+
+[CONTROLBAR:ConstructAngmarOrcPikemanHorde]
+Value=Angmar Pikemen (&R)
+
+[CONTROLBAR:ToolTipBuildAngmarOrcPikemanHorde]
+Value=Strong vs. Cavalry 
+Valueline2= Can stealth near trees 
+Valueline3=
+
+[OBJECT:AngmarHunter]
+Value=Angmar Hunter
+
+[OBJECT:AngmarHunterHorde]
+Value=Angmar Hunters
+
+[CONTROLBAR:ConstructAngmarOrcArcherHorde]
+Value=Angmar Hunters (&T)
+
+[CONTROLBAR:ToolTipBuildAngmarOrcArcherHorde]
+Value=Strong vs. Infantry 
+Valueline2= Can stealth near trees 
+Valueline3=
+
+[OBJECT:AngmarRavager]
+Value=Angmar Ravager
+
+[OBJECT:AngmarRavagerHorde]
+Value=Angmar Ravagers
+
+[CONTROLBAR:ConstructAngmarOrcRavagerHorde]
+Value=Angmar Ravagers (&S)
+
 Value=Requires Level 2 Spire of Angmar
 Value=Requires Level 3 Spire of Angmar 
 [CONTROLBAR:ConstructAngmarBastion2Upgrade]
