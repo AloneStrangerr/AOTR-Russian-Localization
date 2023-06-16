@@ -87827,6 +87827,32 @@ Value=Modifier Type: Spell
 Valueline2=Nearby Angmar units afflicted by Slow Decay are no longer drained over time, become resistant to fear and terror and receive +33% damage and armour
 Valueline3=Passive ability
 Valueline4=
+Valueline5=At Level 3, can be activated to surround the Witch-king with a storm of hail and frost for 30 seconds
+Valueline6=damaging nearby enemy units, more the closer they are to him
+Valueline7=Left click to activate
+
+[CONTROLBAR:ToolTipWKShiveringPresenceWithRing]
+Value=Modifier Type: Spell
+Valueline2=Nearby Angmar units afflicted by Slow Decay are no longer drained over time, become resistant to fear and terror and receive +33% damage and armour
+Valueline3=
+Valueline4=The Witch-king is permanently surrounded by a storm of hail and ice
+Valueline5=damaging nearby enemy units, more the closer they are to him
+Valueline6=Passive ability
+
+[CONTROLBAR:WKRingwraithSummon]
+Value=Lord of the Nine (&R)
+
+[CONTROLBAR:ToolTipWKRingwraithSummon]
+Value=As more Nazgûl gather, their strength grows
+Valueline2=+10% damage and +10% armour per every Nazgûl nearby
+Valueline3=Passive ability
+Valueline4=
+Valueline5=When activated, summons a Ringwraith
+Valueline6=A maximum of three may be out at any time
+Valueline7=Left click to activate
+
+[CONTROLBAR:WKDarkSorcerer]
+Value=Dark Sorcerer (&T)
 
 [CONTROLBAR:ToolTipDarkSorcerer]
 Value=Requires Level 3
@@ -87836,6 +87862,7 @@ Valueline4=as Risen Dead under the player’s control
 Valueline5=At rank 6, increased damage
 Valueline6=At rank 8, can be cast on Restless Barrows to summon a horde of Restless Warriors - respects command point limit
 Valueline7=At rank 10, increased damage
+Valueline8=Can't be used while using Unshrouded Wraith
 Valueline9=Left click icon then left click on target enemies
 
 [CONTROLBAR:ToolTipDarkSorcererUpgraded]
@@ -87844,8 +87871,55 @@ Valueline2=The Witch-king casts a necromantic spell on enemies
 Valueline3=within a large radius, dealing heavy damage and resurrecting the dead
 Valueline4=as Risen Dead under the player’s control
 Valueline5=Can be cast on Restless Barrows to summon a horde of Restless Warriors
+Valueline6=Can't be used while using Unshrouded Wraith
 Valueline7=Left click icon then left click on target enemies
 
+[CONTROLBAR:UnshroudedWraith]
+Value=Unshrouded Wraith (&C)
+
+[CONTROLBAR:TooltipUnshroudedWraith]
+Value=Requires Level 5
+Valueline2=The Witch-king becomes incorporeal, allowing him to move quickly across the map while terrifying nearby enemy units 
+Valueline3= Unshrouded Wraith does not allow him to attack
+Valueline4=Left click to shift shape
+
+[CONTROLBAR:ToolTipAngmarWKWordofPower]
+Value=Requires Level 8
+Valueline2=Blasts back and damages units in a wide radius surrounding the Witch-king
+Valueline3=Can't be used while using Unshrouded Wraith
+Valueline4=Left click to activate
+
+[CONTROLBAR:ToolTipAngmarWKWordofPowerRing]
+Value=Requires Level 8
+Valueline2=Blasts back and damages units in a wide radius surrounding the Witch-king
+Valueline3=Can't be used while using Unshrouded Wraith
+Valueline4=Shorter cooldown with the One Ring
+
+
+[OBJECT:AngmarMammoth]
+Value=Corrupted Mammoth
+
+[CONTROLBAR:ToolTipCorpseExplosionMammoth]
+Value=The Corrupted Mammoth explodes if not killed
+Valueline2=before its timer runs out
+Valueline3=The explosion knocks down nearby enemies
+Valueline4=and leaves a cloud of poisonous fumes
+Valueline5=Passive ability
+
+[CONTROLBAR:MammothMightyStomp]
+Value=Mighty Stomp (&T)
+
+[CONTROLBAR:ToolTipMammothMightyStomp]
+Value=The Corrupted Mammoth stomps down sending a shockwave
+Valueline2= that knocks down and damages enemy units and structures in front of her
+Valueline3=Left click to activate
+
+[CONTROLBAR:HarrowingTrumpet]
+Value=Harrowing Trumpet (&C)
+
+[CONTROLBAR:ToolTipHarrowingTrumpet]
+Value=The Corrupted Mammoth sounds an ear-splitting trumpeting, stunning surrounding enemies in fear for 15 seconds
+Valueline2=Left click to activate
 
 
 [OBJECT:AngmarSnaga]
@@ -87866,6 +87940,9 @@ Value=Spire of Angmar
 [CONTROLBAR:ConstructAngmarBastion]
 Value=Summon Spire of Angmar (&T)
 
+[CONTROLBAR:ToolTipConstructAngmarBastion]
+Value=Trains Orcs of Angmar
+
 
 [OBJECT:AngmarPikeOrc]
 Value=Angmar Pikeman
@@ -87880,6 +87957,7 @@ Value=Angmar Pikemen (&R)
 Value=Strong vs. Cavalry 
 Valueline2= Can stealth near trees 
 Valueline3=
+Valueline4= The orcs of Angmar are not granted fates much improved from those they torment. In the end, all must bend and crawl before the Witch-king's dark might.
 
 [OBJECT:AngmarHunter]
 Value=Angmar Hunter
@@ -87894,6 +87972,7 @@ Value=Angmar Hunters (&T)
 Value=Strong vs. Infantry 
 Valueline2= Can stealth near trees 
 Valueline3=
+Valueline4= When evil stirs, orcs are gathered to it like moths to a flame. It did not take long for them to answer the call of their master and swarm towards the frigid north.
 
 [OBJECT:AngmarRavager]
 Value=Angmar Ravager
@@ -87904,16 +87983,107 @@ Value=Angmar Ravagers
 [CONTROLBAR:ConstructAngmarOrcRavagerHorde]
 Value=Angmar Ravagers (&S)
 
+[CONTROLBAR:ToolTipAngmarAppetiteForDestruction]
+Value=Requires Level 3
+Valueline2=Angmar Ravagers deal knockback damage and regain health per hit against structures for 20 seconds
+Valueline3=Left click to activate
+
+[CONTROLBAR:ToolTipBuildAngmarOrcRavagerHorde]
 Value=Requires Level 2 Spire of Angmar
+Valueline2=Strong vs. Structures and Infantry 
+Valueline3=
+Valueline4= The Witch-king took a special interest in the largest and toughest of his minions, cursing them with fell magic and turning them into senseless, unstoppable husks tailored strictly to his will.
+
+[CONTROLBAR:ToolTipBuildAngmarTombGuardHorde]
 Value=Requires Level 3 Spire of Angmar 
+Valueline2=Strong vs. Cavalry 
+Valueline3=
+Valueline4= Many dark tunnels and tombs were dug into Carn Dûm to house the Witch-king's subjects and keep them hidden from the prying eyes of the Kings of Arnor. They were guarded by ancient orcs of singular mind, rotted and decayed.
+
+[CONTROLBAR:ToolTipConstructGuldurPorter_Angmar]
+Value=This disembodied Dúnadan spirit can summon forth a structure before it vanishes
+Valueline2=Limited to 5
+
 [CONTROLBAR:ConstructAngmarBastion2Upgrade]
 Value=Upgrade Spire of Angmar to Level 2 (&A)
 
 [CONTROLBAR:ConstructAngmarBastion3Upgrade]
 Value=Upgrade Spire of Angmar to Level 3 (&A)
+
+[CONTROLBAR:ToolTipBuildAngmarBastion2Upgrade]
+Value=Allows training of Angmar Ravagers
+Valueline2=+10% faster build speed
+
+[CONTROLBAR:TechnologyAngmarNecromancy]
+Value=Fell Spirits
+
+[CONTROLBAR:ToolTipTechnologyAngmarNecromancy]
 Value=Requires Level 3 Spire of Angmar
+Valueline2=Angmar Hunters and Pikemen may be turned into Risen Dead,
+Valueline3=fast-moving shock troops that do not suffer from Slow Decay
+Valueline4=Passive ability
+
+[CONTROLBAR:ToolTipAngmarNecromancySummon]
 Value=Requires a Level 3 Spire of Angmar
+Valueline2=Turn the horde into Risen Dead
+Valueline3=Left click to activate
+
+[TOOLTIP:LackLevel3AngmarSpireFireArrows]
 Value=Requires Level 2 Spire of Angmar
+
+
+[OBJECT:AngmarCairn]
+Value=Wild Cairn
+
+[CONTROLBAR:ConstructAngmarCairn]
+Value=Summon Wild Cairn (&V)
+
+[CONTROLBAR:ToolTipConstructAngmarCairn]
+Value=Breeds Wolves and Snow-trolls
+
+[CONTROLBAR:ToolTipBuildWildSnowTrollHorde_Adventure]
+Value=Requires Level 2 Wild Cairn 
+Valueline2=Strong vs. Infantry and Monsters 
+Valueline3=
+Valueline4= Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty
+
+[CONTROLBAR:ConstructAngmarCairnLevel2Upgrade]
+Value=Upgrade Wild Cairn to Level 2 (&A)
+
+[CONTROLBAR:ToolTipBuildAngmarCairnLevel2Upgrade]
+Value=Allows training of Snow-trolls
+Valueline2=+10% faster build speed
+
+[CONTROLBAR:ConstructAngmarCairnLevel3Upgrade]
+Value=Upgrade Wild Cairn to Level 3 (&A)
+
+[CONTROLBAR:HowlingWolves]
+Value=Howling Wolves (&W)
+
+[CONTROLBAR:ToolTipHowlingWolves]
+Value=Requires a Wild Cairn
+Valueline2=Summons a White Wolf to defend the structure
+Valueline3=Left click to activate
+
+[CONTROLBAR:HowlingWolvesCairn]
+Value=Howling Wolves
+
+[CONTROLBAR:ToolTipHowlingWolvesCairn]
+Value=Once constructed, Wild Cairns allow most structures
+Valueline2=to use the Howling Wolves power
+Valueline3=Howling Wolves ummons a White Wolf to defend the structure
+Valueline4=Passive ability
+
+[CONTROLBAR:ToolTipBuildAngmarCairnLevel3Upgrade]
+Value=Allows training of Dread Matriarchs
+Valueline2=+25% faster build speed
+
+[CONTROLBAR:BuildGuldurWorker]
+Value=Orc Laborer (&E)
+
+[CONTROLBAR:ConstructAngmarWhiteWargPack]
+Value=White Wolves (&W)
+
 [CONTROLBAR:ConstructArnorianBarrow]
 Value=Summon Arnorian Barrow (&M)
 [OBJECT:ArnorianBarrow]
