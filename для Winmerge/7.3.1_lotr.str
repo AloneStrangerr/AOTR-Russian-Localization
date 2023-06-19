@@ -88599,27 +88599,349 @@ Value=Banner of Annúminas
 [CONTROLBAR:ArnorElrondHotkey]
 Value=Lord Elrond (&A)
 
+[CONTROLBAR:ArnorElrondRecruit]
+Value=Recruit the Lord of Rivendell to decide the fate of the One Ring. 
+Valueline2= 
+Valueline3= 'Now at this last we must take a hard road, a road unforeseen. There lies our hope, if hope it be. To walk into peril - to Mordor. We must send the Ring to the Fire'
+
+[CONTROLBAR:RingElrondArrowVolleyAbility]
+Value=Leithio I Philinn! (&T)
+
+[CONTROLBAR:ToolTipRingElrondArrowVolleyAbility]
+Value=Requires Level 3
+Valueline2=Elrond calls elven archers to instantly bombard anywhere within a great radius with a volley of arrows
+Valueline3=At Level 6, a second volley is shot shortly after the first
+Valueline4=Left click icon then left click on target area
+
+[CONTROLBAR:ElrondLastAlliance]
+Value=Veteran of the Last Alliance (&C)
+
+[CONTROLBAR:ToolTipElrondLastAlliance]
+Value=Requires Level 5 
+Valueline2= Elrond equips his heavy armour 
+Valueline3= Modifier Type: Spell 
+Valueline4= Elrond gains +33% armour and +50% resistance to knockback
 Valueline5=Passive ability
 Valueline6=
 Valueline7=At Level 7, permanently summons a battalion of Veterans of the Last Alliance
 Valueline8=Limited to 1
 Valueline9=Left click to activate
+
+
+[OBJECT:FornostSoldier]
+Value=Soldier of Arthedain
+
+[OBJECT:FornostSoldierHorde]
+Value=Soldiers of Arthedain
+
+[CONTROLBAR:ConstructFornostSoldierHorde]
+Value=Soldiers of Arthedain (&W)
+
+[CONTROLBAR:ToolTipBuildFornostSoldierHorde]
+Value=Strong vs. Pikemen
+Valueline2=
+Valueline3=The armies of Arthedain were made up of grim and battle-hardened Men, unwavering in their defence against the Evil of Angmar.
+
+[CONTROLBAR:ArnorBloodofNumenor]
+Value=Blood of Númenor (&R)
+
+[CONTROLBAR:TooltipArnorBloodofNumenor]
+Value=Modifier Type: Debuff and Spell
+Valueline2=When activated, nearby enemy units lose -33% movement speed for 30 seconds
+Valueline3=At Level 2, Soldiers of Arthedain passively heal out of combat
+Valueline4=At Level 3, Soldiers of Arthedain become passively immune to fear and terror
+Valueline5=At Level 5, nearby allied units gain +25% damage when activated
+Valueline6=Left click to activate
+
+
+[OBJECT:FornostWarden]
+Value=Warden of Arthedain
+
+[OBJECT:FornostWardenHorde]
+Value=Wardens of Arthedain
+
+[CONTROLBAR:ConstructFornostWardenHorde]
+Value=Wardens of Arthedain (&E)
+
+[CONTROLBAR:ToolTipBuildFornostWardenHorde]
+Value=Strong vs. Cavalry and Heroes 
+Valueline2=
+Valueline3=The Wardens of Arthedain patrolled the roads of Arthedain in times of peace and war, serving their King faithfully as protectors of his subjects.
+
+[CONTROLBAR:TooltipWardenBloodofNumenor]
+Value=Modifier Type: Debuff and Spell
+Valueline2=When activated, nearby enemy cavalry lose -33% armour for 30 seconds
+Valueline3=At Level 2, Wardens of Arthedain passively heal out of combat
+Valueline4=At Level 3, Wardens of Arthedain become passively immune to fear and terror
+Valueline5=At Level 5, nearby allied units gain +25% armour when activated
+Valueline6=Left click to activate
+
+
+[OBJECT:CardolanLongbowman]
+Value=Longbowman of Cardolan
+
+[OBJECT:CardolanLongbowmenHorde]
+Value=Longbowmen of Cardolan
+
+[CONTROLBAR:ConstructCardolanLongbowmenHorde]
+Value=Longbowmen of Cardolan (&T)
+
+[CONTROLBAR:ToolTipBuildCardolanLongbowmenHorde]
+Value=Requires Level 2 Fornost Garrison 
+Valueline2= Strong vs. Infantry and Monsters 
+Valueline3=
+Valueline4=Though this former Arnorian territory lay abandoned for centuries, the Kings of Arthedain still at times sent ranging parties there, wishing to remain informed of the fell threat that loomed over these lands.
+
 [CONTROLBAR:PurchaseUpgradeGondorHeavyArmorLongbowman]
 Value=Purchase Steel Cuirasses (&C)
+
+[CONTROLBAR:TooltipLongbowBloodofNumenor]
+Value=Modifier Type: Weapon
+Valueline2=Cardolan Longbowmen gain +25% range for 30 seconds
+Valueline3=At Level 2, Longbowmen of Cardolan passively heal out of combat
+Valueline4=At Level 3, Longbowmen of Cardolan become passively immune to fear and terror
+Valueline5=At Level 5, Longbowmen of Cardolan's shots knock back enemy infantry for 30 seconds
+Valueline6=Left click to activate
+
+[CONTROLBAR:CardolanLongShotAbility]
+Value=Precision Shot (&T)
+
+[CONTROLBAR:ToolTipCardolanLongShotAbility]
+Value=Requires Level 4
+Valueline2=The Longbowmen bombard anywhere within a great radius with a volley of arrows 
+Valueline3= Left click icon then left click on target area
+
+
+[OBJECT:ArthedainKnight]
+Value=Knight of Arthedain
+
+[OBJECT:ArthedainKnightHorde]
+Value=Knights of Arthedain
+
+[CONTROLBAR:ConstructArthedainKnightHorde]
+Value=Knights of Arthedain (&S)
+
+[CONTROLBAR:ToolTipBuildArthedainKnightHorde]
+Value=Requires Level 2 Fornost Garrison 
+Valueline2= Strong vs. Swordsmen and Archers 
+Valueline3= Able to switch formation for improved offensive capabilities 
+Valueline4= 
+Valueline5= Scions of noble houses, some descended from the days of Westernesse, the Knights of Arthedain saw fierce battle during the waning days of their kingdom, committing to history deeds of valour and great prowess.
+
+[CONTROLBAR:ToolTipToggleArthedainLineFormation]
+Value=Arthedain Knights gain +15% armour and -15% crush velocity
+
+[CONTROLBAR:TooltipKnightBloodofNumenor]
+Value=Modifier Type: Weapon
+Valueline2=Knights of Arthedain gain +15% movement speed for 15 seconds
+Valueline3=At Level 2, Knights of Arthedain passively heal out of combat
+Valueline4=At Level 3, Knights of Arthedain become passively immune to fear and terror
+Valueline5=At Level 5, Knights of Arthedain glide past enemies like the wind for 15 seconds
+Valueline6=Left click to activate
+
+
+[OBJECT:AnnuminasCaptain]
+Value=Captain of Annúminas
+
+[CONTROLBAR:ConstructAnnuminasCaptain]
+Value=Captain of Annúminas (&R)
+
+[CONTROLBAR:ToolTipBuildAnnuminasCaptain]
+Value=Requires Level 2 Fornost Garrison 
+Valueline2= Supports Dúnedain units
+Valueline3=
+Valueline4=The great city of Annúminas was of old the home of the royal line of Arnor, and though it has long since been ruined, the captains of Arthedain are still styled after their former capital.
+
+[CONTROLBAR:SpecialAbilityAnnuminasCaptainDiscipline]
+Value=Disciplined (&W)
+
+[CONTROLBAR:TooltipSpecialAbilityAnnuminasCaptainDiscipline]
+Value=Modifier Type: Leadership
+Valueline2=Nearby friendly units gain +50% experience gain
+Valueline3=Passive ability
+Valueline4=When activated, the Captain of Annúminas gains +50% armour for 30 seconds
+Valueline5=Left click to activate
+
+[CONTROLBAR:AnnuminasCaptainTactical]
+Value=Tactical Advantage (&R)
+
+[CONTROLBAR:ToolTipAnnuminasCaptainTactical]
+Value=Requires Level 2 
+Valueline2= Modifier Type: Active Debuff 
+Valueline3= Targeted enemy units suffer -33% armour for 30 seconds
+Valueline4=Nullifies enemy leadership
+Valueline5= Left click icon then left click on target units
+
+[CONTROLBAR:AnnuminasCaptainCall]
+Value=Call to Arms (&T)
+
+[CONTROLBAR:ToolTipAnnuminasCaptainCall]
+Value=Requires Level 3
+Valueline2=Target Fornost Garrison temporarily gains +75% increased unit production speed for 90 seconds
+Valueline3=Left click then left click target Fornost Garrison
+
+
+[CONTROLBAR:ConstructArnorTrebuchet]
+Value=Arnor Trebuchet (&D)
+
+[CONTROLBAR:ToolTipBuildArnorTrebuchet]
+Value=Requires Level 3 Fornost Garrison
+Valueline2=Strong vs. Structures and Infantry
+Valueline3=Like their distant forebears, the Dúnedain of the North are skillful engineers, capable of constructing powerful siege machines.
+
+Valueline2= When equipped, significantly increases the Trebuchet's damage
+
+
+[OBJECT:ArthedainWatchtower]
+Value=Arthedain Watchtower
+
+[CONTROLBAR:ConstructArthedainWatchtower]
+Value=Arthedain Watchtower (&Y)
+
+[CONTROLBAR:EyeOfAmonSul]
+Value=Eye of Amon-Sûl (&W)
+
+[CONTROLBAR:ToolTipPurchaseEyeOfAmonSul]
+Value=Requires Vision of the Seeing-stone
+Valueline2=When purchased, allows the Arthedain Watchtower to reveal part of the map for 60 seconds
+
+[CONTROLBAR:ToolTipEyeOfAmonSul]
+Value=The Arthedain Watchtower reveals part of the map for 60 seconds
+Valueline2=Left click then left click target area
+
+[TOOLTIP:LackVisionOfSeeingStone]
+Value=Requires Vision of the Seeing-stone
+Valueline2=When purchased, allows the Arthedain Watchtower to reveal part of the map for 60 seconds
+
+[OBJECT:FornostGarrison]
+Value=Fornost Garrison
+
+[CONTROLBAR:ConstructFornostGarrison]
+Value=Build Fornost Garrison (&T)
+
+[CONTROLBAR:ToolTipConstructFornostGarrison]
+Value=Trains the Dúnedain of Arnor
+
+[CONTROLBAR:ConstructFornostGarrisonLevel2]
+Value=Upgrade Fornost Garrison to Level 2 (&A)
+
+[CONTROLBAR:ToolTipBuildFornostGarrisonLevel2]
+Value=Allows recruitment of Captains of Annúminas, Knights of Arthedain and Longbowmen of Cardolan
+Valueline2=+10% faster build speed
+
+[CONTROLBAR:ConstructFornostGarrisonLevel3]
+Value=Upgrade Fornost Garrison to Level 3 (&A)
+
+[CONTROLBAR:ToolTipBuildFornostGarrisonLevel3]
+Value=Allows recruitment of Arnor Trebuchets and Kingsguard of Fornost Erain
+Valueline2=+25% faster build speed
+
+[OBJECT:AnnuminasKingsGuard]
+Value=Kingsguard of Fornost Erain
+
+[CONTROLBAR:ConstructAnnuminasKingsguardHorde]
+Value=Kingsguard of Fornost Erain (&F)
+
+[CONTROLBAR:ToolTipBuildAnnuminasKingsguardHorde]
+Value=Requires Level 3 Fornost Garrison and King Arvedui
+Valueline2=Hero Unit. Limited to 2
+Valueline3=Strong vs All
+Valueline4=Warriors of great nobility and renown, the Kingsguard of Fornost were sworn defenders of the blood of Anadûnê, tasked with ensuring the survival of Elendil's line.
+
+[CONTROLBAR:AnnuminasFaithful]
+Value=Faithful Guardians (&W)
+
+[CONTROLBAR:TooltipAnnuminasFaithful]
+Value=Modifier Type: Leadership 
+Valueline2=Kingsguard of Fornost Erain grant nearby Heroes +10% to all stats
+Valueline3=Passive ability
+Valueline4=Target friendly hero gains +50% armour for 25 seconds
+Valueline5=Left click then left click target hero
+
+[CONTROLBAR:SpecialPowerAnnuminasVigilant]
+Value=Vigilant Watch (&R)
+
+[CONTROLBAR:TooltipSpecialPowerAnnuminasVigilant]
+Value=Requires Level 2
+Valueline2=Target friendly structure becomes invulnerable but cannot produce for 30 seconds
+Valueline3=Left click then left click target structure
+
+[CONTROLBAR:AnnuminasZealous]
+Value=Zealous Defence (&T)
+
+[CONTROLBAR:ToolTipAnnuminasZealous]
+Value=Requires Level 3
+Valueline2=Kingsguard of Fornost Erain deal splash damage in a wide radius at the cost of -33% armour for 20 seconds
+Valueline3=Left click to activate
+
+
+[OBJECT:ArnorMill]
+Value=Arnorian Mill
+
+[CONTROLBAR:ConstructArnorMill]
+Value=Arnorian Mill (&W)
+
 [CONTROLBAR:ToolTipConstructArnorMill]
 Value=Generates resources based on available terrain 
 Valueline2= Increases command point limit by 50
 
 [CONTROLBAR:ToolTipDescriptionArnorMill]
 Value=Generates resources based on available terrain
+
+
+[OBJECT:ArnorianArmoury]
+Value=Arnorian Armoury
+
+[CONTROLBAR:ConstructArnorBlacksmith]
+Value=Build Arnorian Armoury (&R)
+
 [CONTROLBAR:ToolTipConstructArnorBlacksmith]
 Value=Provides worked metals as a resource based on available terrain
 Valueline2=Researches weapons and armour upgrades
+Valueline3= Reduces cost of upgrades 
 Valueline4= Increases command point limit by 50
 
 [OBJECT:ArnorianArmouryDescription]
 Value=Generates resources based on available terrain
+Valueline2= Steel Bonus - Reduced cost of upgrades 
+Valueline3= 2 Armouries: 5% 
+Valueline4= 3 Armouries: 10% 
+Valueline5= 4 Armouries: 15% 
+Valueline6= 5 Armouries: 20% 
+Valueline7= 6+ Armouries: 25%
 
+[CONTROLBAR:PurchaseTechnologyGondorBasicTrainingArnor]
+Value=Banners of the Seven Stars (&W)
+
+
+[CONTROLBAR:ConstructStatueOfElendil]
+Value=Build Monument to Tar-Araval (&G)
+
+[CONTROLBAR:StatueOfElendilBuild]
+Value=Provides a leadership bonus to nearby units
+Valueline2=Heals nearby allies 
+Valueline3= Detects stealth
+Valueline4=
+Valueline5=Araval, grandsire to Arvedui, was a mighty Arthedinian king who went to battle against the dark forces of Angmar and returned victorious
+
+[OBJECT:StatueOfElendil]
+Value=Monument to Tar-Araval
+
+
+Valueline2= Limited to 1
+
+[CONTROLBAR:PurchaseTechnologyNumenoreanEngineering]
+Value=Númenórean Engineering (&W)
+
+[CONTROLBAR:ToolTipPurchaseTechnologyNumenoreanEngineering]
+Value=This exhaustive treatise on Númenórean engineering techniques was salvaged before Akallabêth. 
+Valueline2=
+Valueline4=Unlocks Fire Stones for Arnorian Trebuchets
+
+[CONTROLBAR:TooltipNumenoreanEngineering]
+Valueline2=Left click to activate
+
+[CONTROLBAR:PurchaseTechnologyMartialProwess]
 [CONTROLBAR:ToolTipAidFromForod]
 Value=Temporarily summons a battalion of Lossoth Hunters
 Valueline2=Left click to activate
