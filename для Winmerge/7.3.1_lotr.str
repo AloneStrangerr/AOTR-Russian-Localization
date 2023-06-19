@@ -88469,6 +88469,136 @@ Valueline3= Spawns a Tribute Chest which can be decommissioned at the Fortress f
 Valueline4= If the Tribute Chest is killed before reaching the Fortress, it drops a treasure chest of 125 resources 
 Valueline5= Left click icon then left click on target
 
+[CONTROLBAR:ArveduiRoyalCamp]
+Value=Royal Expedition (&T)
+
+[CONTROLBAR:ToolTipArveduiRoyalCamp]
+Value=Requies Level 5
+Valueline2=Summons a Royal Camp
+Valueline3=Every 60 seconds, a fully upgraded horde of chosen Dúnedain is spawned
+Valueline4= Respects command point limit 
+Valueline5= Limited to 1 
+Valueline6= Left click on icon then left click on target area
+
+
+[OBJECT:RoyalCamp]
+Value=Royal Camp
+
+[CONTROLBAR:RoyalCampActivate]
+Value=Activate Royal Camp (&W)
+
+[CONTROLBAR:TooltipRoyalCampActivate]
+Value=Activate Royal Camp 
+Valueline2= Every 45 seconds, a fully upgraded horde of chosen Dúnedain is spawned 
+Valueline3= Respects command point limit
+
+[CONTROLBAR:RoyalCampDeactivate]
+Value=Deactivate Royal Camp (&W)
+
+[CONTROLBAR:TooltipRoyalCampDeactivate]
+Value=Deactivate Royal Camp 
+Valueline2= Dúnedain summoning is paused
+
+[CONTROLBAR:SummonFornostSoldiers]
+Value=Toggle Soldiers of Arthedain production (&E)
+
+[CONTROLBAR:TooltipSummonFornostSoldiers]
+Value=Royal Camp starts producing Soldiers of Arthedain
+
+[CONTROLBAR:SummonFornostWardens]
+Value=Toggle Wardens of Arthedain production (&R)
+
+[CONTROLBAR:TooltipSummonFornostWardens]
+Value=Royal Camp starts producing Wardens of Arthedain
+
+[CONTROLBAR:SummonCardolanLongbows]
+Value=Toggle Longbowmen of Cardolan production (&T)
+
+[CONTROLBAR:TooltipSummonCardolanLongbows]
+Value=Royal Camp starts producing Longbowmen of Cardolan
+
+
+[CONTROLBAR:DesperateAssault]
+Value=Desperate Assault (&C)
+
+[CONTROLBAR:ToolTipDesperateAssault]
+Value=Requires Level 7 
+Valueline2= Targeted Arnor units gain +200% damage for 20 seconds 
+Valueline3= After 20 seconds have expired, affected units take damage over time for 5 seconds 
+Valueline4= Does not affect heroic units or summoned units
+Valueline5= Left click then left click target units
+
+[CONTROLBAR:ArveduiPalantir]
+Value=Keeper of the Palantíri (&V)
+
+[CONTROLBAR:TooltipArveduiPalantir]
+Value=Requires Level 10
+Valueline2=Reveals the entire shroud for 30 seconds
+Valueline3= Detects stealthed units
+Valueline4=Enemy units across the map lose leadership and suffer damage over time for 30 seconds
+Valueline5=Left click to activate
+
+
+[OBJECT:ArnorAranarth]
+Value=Aranarth
+
+[CONTROLBAR:ArnorAranarthRecruit]
+Value=Recruit the Prince of Arthedain
+Valueline2=
+Valueline3=The eldest son of Arvedui, Aranarth has shown great wisdom from a young age. Though faced with great adversity, he managed to ensure the survival of his people and of the royal line to which he belonged.
+
+[CONTROLBAR:ArnorAranarthRevive]
+Value=Recruit the fallen hero, Aranarth
+
+[CONTROLBAR:ArnorAranarthHotkey]
+Value=Aranarth, Prince of Arthedain (&E)
+
+[CONTROLBAR:AranarthCunningWarrior]
+Value=Cunning Warrior (&R)
+
+[CONTROLBAR:ToolTipAranarthCunningWarrior]
+Value=Aranarth exploits an enemy hero's weakness, reducing their armour and speed by 20% for 30 seconds
+Valueline2= At level 3, reduces armour and speed by 30% 
+Valueline3= At level 6, reduces armour and speed by 40% 
+Valueline4= At level 10, reduces armour and speed by 50% 
+Valueline5=Left click icon then left click on target
+
+[CONTROLBAR:AranarthMarksman]
+Value=Marksman (&T)
+
+[CONTROLBAR:ToolTipAranarthMarksman]
+Value=Requires Level 3
+Valueline2=Single ranged attack
+Valueline3=Target enemy suffers damage over time for 15 seconds
+Valueline4=Can only use with bow equipped
+Valueline5=Left click icon then left click on target
+
+[CONTROLBAR:AranarthImpenetrable]
+Value=Impenetrable Lines (&C)
+
+[CONTROLBAR:ToolTipAranarthImpenetrable]
+Value=Requires Level 6
+Valueline2=Nearby friendly units gain +30% armour and +50% resistance to knockback for 30 seconds
+Valueline3= Left click to activate
+
+[CONTROLBAR:AranarthBanner]
+Value=Chieftain of the Dúnedain (&V)
+
+[CONTROLBAR:TooltipAranarthBanner]
+Value=Requires Level 10 
+Valueline2=Aranarth unfurls the Banner of Annúminas
+Valueline3= For 60 seconds, allied units in a large radius gain +50% armour and are constantly replenished
+Valueline4=Nearby allied heroes' ability cooldown times are reduced by 25%
+Valueline5=The banner can be destroyed by the enemy in this time
+Valueline6= Left click icon to activate
+
+[OBJECT:BannerofAnnuminas]
+Value=Banner of Annúminas
+
+
+[CONTROLBAR:ArnorElrondHotkey]
+Value=Lord Elrond (&A)
+
 Valueline5=Passive ability
 Valueline6=
 Valueline7=At Level 7, permanently summons a battalion of Veterans of the Last Alliance
