@@ -88789,6 +88789,8 @@ Value=Requires Level 3 Fornost Garrison
 Valueline2=Strong vs. Structures and Infantry
 Valueline3=Like their distant forebears, the Dúnedain of the North are skillful engineers, capable of constructing powerful siege machines.
 
+[TOOLTIP:LackArnorFireStones]
+Value=Research Númenórean Engineering at Malbeth's Study to enable this equipment 
 Valueline2= When equipped, significantly increases the Trebuchet's damage
 
 
@@ -88928,6 +88930,14 @@ Valueline5=Araval, grandsire to Arvedui, was a mighty Arthedinian king who went 
 Value=Monument to Tar-Araval
 
 
+[OBJECT:MalbethStudy]
+Value=Malbeth's Study
+
+[CONTROLBAR:ConstructMalbethStudy]
+Value=Build Malbeth's Study (&M)
+
+[CONTROLBAR:ToolTipConstructMalbethStudy]
+Value=Malbeth's Study holds many ancient books that can be accessed for unique upgrades and effects 
 Valueline2= Limited to 1
 
 [CONTROLBAR:PurchaseTechnologyNumenoreanEngineering]
@@ -88936,9 +88946,11 @@ Value=Númenórean Engineering (&W)
 [CONTROLBAR:ToolTipPurchaseTechnologyNumenoreanEngineering]
 Value=This exhaustive treatise on Númenórean engineering techniques was salvaged before Akallabêth. 
 Valueline2=
+Valueline3= Unlocks Númenórean Engineering ability, which when activated causes structures in a wide radius around the Study to gain +150% armour against siege, fire and magic damage for 30 seconds
 Valueline4=Unlocks Fire Stones for Arnorian Trebuchets
 
 [CONTROLBAR:TooltipNumenoreanEngineering]
+Value=When activated, structures in a wide radius around the Study gain +150% armour against siege, fire and magic damage for 30 seconds
 Valueline2=Left click to activate
 
 [CONTROLBAR:PurchaseTechnologyMartialProwess]
@@ -89011,9 +89023,11 @@ Valueline2=Left click to activate
 Value=Aid from the Gwathló (&E)
 
 [CONTROLBAR:ToolTipAidFromGwathlo]
+Value=Temporarily summons a battalion of Gwathló Tribesmen
 Valueline2=Left click to activate
 
 [CONTROLBAR:ToolTipPurchaseAidFromGwathlo]
+Value=Allows the Embassy to temporarily summon a battalion of Gwathló Tribesmen
 
 [CONTROLBAR:AidFromForod]
 Value=Aid from Forodwaith (&R)
@@ -89035,6 +89049,11 @@ Value=Allows the Embassy to temporarily summon a battalion of Noldor Knights
 Value=Temporarily summons a battalion of Noldor Knights
 Valueline2=Left click to activate
 
+[OBJECT:GwathloTribesmenHorde]
+Value=Gwathló Tribesmen
+
+[OBJECT:GwathloTribesman]
+Value=Gwathló Tribesman
 
 
 [CONTROLBAR:LechoCalad]
@@ -89281,14 +89300,136 @@ Value=Ignite (&R)
 [CONTROLBAR:ToolTipSpecialAbilityDurinsBaneIgnite]
 Value=Requires Level 3
 Valueline2=Durin's Bane gains +50% damage, +50% armour for 30 seconds
+Valueline3=Reduced the recharge time of special powers 
+Valueline4= Causes enemy units to flee in terror 
+Valueline5= Left click to activate
+
+[CONTROLBAR:SpecialAbilityDurinsBaneImmolation]
+Value=Immolation (&R)
+
+[CONTROLBAR:ToolTipSpecialAbilityDurinsBaneImmolation]
+Value=Requires Level 3
+Valueline2=Durin's Bane sends out a blastwave and knocks back enemy units
+Valueline3=Durin's Bane gains +50% damage, +50% armour for 30 seconds
+Valueline4=Reduced the recharge time of special powers 
+Valueline5= Causes enemy units to flee in terror 
+Valueline6= Left click to activate
+
+[CONTROLBAR:ShadowAndFlame]
+Value=Shadow and Flame (&T)
+
+[CONTROLBAR:ToolTipShadowAndFlame]
+Value=Requires Level 5
+Valueline2=Modifier Type: Spell
+Valueline3=Nearby allied units deal +125% damage, but lose -50% armour and do not gain experience for 20 seconds
 Valueline4= Stuns nearby enemy units in fear for 15 seconds
+Valueline5=Left click to activate
+
+[CONTROLBAR:ToolTipShadowAndFlameRing]
+Value=Requires Level 5
+Valueline2=Modifier Type: Spell
+Valueline3=Nearby allied units deal +125% damage and +50% armour for 20 seconds
 Valueline4= Stuns nearby enemy units in fear for 15 seconds
+Valueline5=Left click to activate
+
+[CONTROLBAR:SpecialAbilityDurinsBaneWhip]
+Value=Fire Whip (&C)
+
+[CONTROLBAR:ToolTipSpecialAbilityDurinsBaneWhip]
+Value=Requires Level 7
+Valueline2=Durin's Bane attacks target enemy with flaming whip 
+Valueline3= Left click icon then left click on target
+
+[CONTROLBAR:ToolTipSpecialAbilityDurinsBaneWhipRing]
+Value=Requires Level 7
+Valueline2=Durin's Bane attacks target enemy with flaming whip
+Valueline3=Deals increased damage with the One Ring
+Valueline4=Left click icon then left click on target
+
+[CONTROLBAR:SpecialAbilityDurinsBaneBreath]
+Value=Breathe Fire (&V)
+
+[CONTROLBAR:ToolTipSpecialAbilityDurinsBaneBreath]
+Value=Requires Level 10
+Valueline2=Durin's Bane breathes fire to incinerate enemy units and structures
+Valueline3= Left click icon then left click on target area
+
+[CONTROLBAR:ToolTipConstructWildGoblinFissure_Moria]
+Value=Trains Trolls of Moria and Giant Bats
+
+
+[CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade_Moria]
+Value=Allows training of Moria-orc Spearmen
+ValueLine2=+10% faster build speed
+ValueLine3=Adds two garrisoned Moria Orc Archers
+
+
+[CONTROLBAR:ToolTipBuildWildCaveLevel3Upgrade_Moria]
+Value=Allows training of Black Uruk Marauders and Hobgoblin Plunderers
+ValueLine2=+25% faster build speed
+
+
+[CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade_Moria]
+Value=Allows training of Cave-troll Destroyers and Bats
+ValueLine2=+10% faster build speed
+
+
+[CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade_Moria]
+Value=Allows training of Catapult Trolls
+ValueLine2=+25% faster build speed
+
+
+
+[OBJECT:AltarofFire]
+Value=Altar of Flame
+
+[CONTROLBAR:ConstructAltarofFire]
+Value=Altar of Flame (&V)
 
 [CONTROLBAR:ToolTipConstructAltarofFire]
 Value=Recruits Moria-orc Shamans
+Valueline2=Worships Durin's Bane to cast various mapwide abilities
+Valueline3=Limited to 1
+
+[OBJECT:AltarofFireDescription]
+Value=Worships Durin's Bane to cast various mapwide abilities
+
+[CONTROLBAR:SpecialAbilityDarkRenewal]
+Value=Dark Renewal (&E)
+
+[CONTROLBAR:ToolTipSpecialAbilityDarkRenewal]
+Value=When activated, one fallen unit from all friendly battalions across the map is replenished
+Valueline2=Left click to activate
+
+[CONTROLBAR:SpecialAbilityPlunderedTribute]
+Value=Plundered Tribute (&R)
+
+[CONTROLBAR:TooltipSpecialAbilityPlunderedTribute]
+Value=Selected Orc Tunnel or Goblin Hoard's resource output is raised to 275% for 5 minutes
+Valueline2= Left click icon then left click on target resource structure
+
+[CONTROLBAR:SpecialAbilityFlameofUdun]
+Value=Flame of Udûn (&T)
 
 [CONTROLBAR:ToolTipSpecialAbilityFlameofUdun]
 Value=Requires four full battalions of Moria-orc Shamans 
+Valueline2= Sacrifice all Shamans on the battlefield to summon the wrath of Durin's Bane and burn all enemy units in target area
+Valueline3= Left click icon and then left click on target location
+
+
+[CONTROLBAR:ConstructMoriaSpearmanHordeSaF]
+Value=Moria-orc Spearmen (&R)
+
+[CONTROLBAR:ToolTipBuildMoriaSpearmanHordeSaF]
+Value=Requires Level 2 Moria-orc Cave
+Valueline2=Strong vs. Cavalry and Heroes
+Valueline3= Able to switch formation for improved defensive capabilities 
+Valueline4=
+Valueline5= Horde Bonus 
+Valueline6= Modifier Type: Spell 
+Valueline7= All Moria-orc Screechers, Moria-orc Archers, Moria-orc Spearmen and Goblin-town Warriors gain +50% damage when gathered in numbers of 150 or more
+Valueline8= 
+Valueline9= These quaffing, bleating goblins carry spears forged from Dwarf-weapons pried from Khazad-dûm's fallen reclaimers.
 
 [OBJECT:MoriaHobgoblinPlunderer]
 Value=Hobgoblin Plunderer
@@ -89305,8 +89446,71 @@ Value=Hobgoblin Plunderers
 [CONTROLBAR:ConstructHobgoblinPlundererHorde]
 Value=Hobgoblin Plunderers (&S)
 
+[CONTROLBAR:ToolTipBuildHobgoblinPlundererHorde]
+Value=Requires Level 3 Moria-orc Cave
+Valueline2=Hero Unit
+Valueline3= Limited to 1 
+Valueline4=Strong vs. All Unit Types 
+Valueline5= 
+Valueline6= Though there was much Dwarf-treasure to be looted from the halls of Moria, in the end there were far more orcs than suits of armour. So it was that only the strongest and cruelest of orcs managed to muscle their way into completing their Dwarven armour collections.
+
+[CONTROLBAR:LW_Unit_ToolTipBuildHobgoblinPlundererHorde]
+Value=Unit Type: Hero Unit
+Valueline2=Strong vs. All Normal Troops
+Valueline3=
+
+[CONTROLBAR:ToolTipBuildHobgoblinPlundererHordeFortress]
+Value=Requires Level 3 Moria-orc Cave
+Valueline2=Hero Unit
+Valueline3=Limit increased to 2. 
+Valueline4=Strong vs. All Unit Types 
+Valueline5= 
+Valueline6= Though there was much Dwarf-treasure to be looted from the halls of Moria, in the end there were far more orcs than suits of armour. So it was that only the strongest and cruelest of orcs managed to muscle their way into completing their Dwarven armour collections.
+
+[CONTROLBAR:ToolTipToggleHobgoblinLineToCrescentFormation]
+Value=The units form a Crescent
 Valueline2= Level 1: Hobgoblin Plunderers gain +25% damage but lose 25% speed
+Valueline3=Level 3: +25% damage, resistance to knockback and decelerate crush, -25% speed
+Valueline4=Level 5: +25% damage, +25% armour, resistance to knockback and decelerate crush, -25% speed
+Valueline5=Level 7: +25% damage, +50% armour, resistance to knockback and decelerate crush, -25% speed
+Valueline6=Level 10: +50% damage, +50% armour, resistance to knockback and decelerate crush, -25% speed
+
+[CONTROLBAR:HobgoblinDespoilers]
+Value=Despoilers
+
+[CONTROLBAR:ToolTipHobgoblinDespoilers]
+Value=Plunderers steal resources whenever dealing damage to enemy structures
 Valueline2=Mûzgash gains +100% armour when near the Hobgoblin Plunderers
+Valueline3=Passive ability
+
+[CONTROLBAR:HobgoblinTerror]
+Value=Terror of Moria (&T)
+
+[CONTROLBAR:TooltipHobgoblinTerror]
+Value=Requires Level 3
+Valueline2=Modifier Type: Leadership
+Valueline3= Nearby enemy leaderships are passively nullified
+Valueline4=Passive ability
+Valueline5=When activated, nearby enemy units flee in terror
+Valueline6=Left click to activate
+
+[CONTROLBAR:SpecialAbilityHobgoblinPoison]
+Value=Poisoned Blades (&C)
+
+[CONTROLBAR:ToolTipSpecialAbilityHobgoblinPoison]
+Value=Requires Level 5
+Valueline2=Plunderers' attacks passively deal damage over time
+Valueline3=Passive ability
+Valueline4=When activated, enemies hit by the Plunderers lose -50% armour for 5 seconds
+Valueline5=Effect lasts 20 seconds
+Valueline6=Left click to activate
+
+
+[CONTROLBAR:PurchaseUpgradeWildDesecratedHalls]
+Value=Desecrated Halls (&S)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeWildDesecratedHalls]
+Value=Increases Fortress armour by 65%
 Valueline2= Allows training of a second battalion of Hobgoblin Plunderers
 
 
