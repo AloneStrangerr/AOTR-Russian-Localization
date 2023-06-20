@@ -88942,6 +88942,23 @@ Valueline4=Unlocks Fire Stones for Arnorian Trebuchets
 Valueline2=Left click to activate
 
 [CONTROLBAR:PurchaseTechnologyMartialProwess]
+Value=Martial Prowess (&E)
+
+[CONTROLBAR:ToolTipPurchaseTechnologyMartialProwess]
+Value=A collection of writings authored by the many Master-at-Arms of Annúminas, extensively detailing training drills for prospective soldiers
+Valueline2=Troops of Arthedain gain an additional +15% damage and armour when in formation
+
+[CONTROLBAR:PurchaseTechnologyCardolanAgriculture]
+Value=Cardolan Agriculture (&R)
+
+[CONTROLBAR:ToolTipPurchaseTechnologyCardolanAgriculture]
+Value=Documentation of various agricultural techniques, collected before the fall of Cardolan.
+Valueline2=
+Valueline3= Increases Arnorian Mill production by 15%
+Valueline4=Friendly units nearby Arnorian Mills gain +15% movement speed
+
+[CONTROLBAR:PurchaseTechnologyVisionofSeeingStone]
+Value=Vision of the Seeing-stone (&T)
 [CONTROLBAR:ToolTipAidFromForod]
 Value=Temporarily summons a battalion of Lossoth Hunters
 Valueline2=Left click to activate
