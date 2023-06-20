@@ -88959,6 +88959,65 @@ Valueline4=Friendly units nearby Arnorian Mills gain +15% movement speed
 
 [CONTROLBAR:PurchaseTechnologyVisionofSeeingStone]
 Value=Vision of the Seeing-stone (&T)
+
+[CONTROLBAR:ToolTipPurchaseTechnologyVisionofSeeingStone]
+Value=Authored by Malbeth himself, this book is essential material for those wishing to learn the secrets of the Palantíri.
+Valueline2=
+Valueline3= Allows Arthedain Watchtowers to purchase Eye of Amon-Sûl ability to temporarily spy on target location.
+
+[CONTROLBAR:PurchaseTechnologyMemoryofNumenor]
+Value=Memory of Anadûnê (&S)
+
+[CONTROLBAR:ToolTipPurchaseTechnologyMemoryofNumenor]
+Value=A collection of writings on the Kingdom of Númenor. Timelines, memoirs and poetry, gathered by Elendil, before departing to Middle-earth.
+Valueline2=
+Valueline3= Monument to Tar-Araval's area of effect and rate of healing are increased by 50%
+Valueline4=Prerequisite to Blades of Westernesse upgrade
+
+[CONTROLBAR:PurchaseTechnologyBladeofWesternesse]
+Value=Blades of Westernesse (&D)
+
+[CONTROLBAR:ToolTipPurchaseTechnologyBladeofWesternesse]
+Value=Requires Memory of Anadûnê
+Valueline2=Written by the Dúnedain of Cardolan, this tome describes the forging of weapons capable of cleaving the spells knitting Angmar's unliving servants to the Witch-king's will
+Valueline3=
+Valueline4=Dúnedain are permanently equipped with Blades of Westernesse, dealing additional magic damage and bonus damage vs Undead units
+
+[TOOLTIP:LackMemoryofNumenor]
+Value=Requires Memory of Anadûnê
+Valueline2=Written by the Dúnedain of Cardolan, this tome describes the forging of weapons capable of cleaving the spells knitting Angmar's unliving servants to the Witch-king's will
+Valueline3=
+Valueline4=Dúnedain are permanently equipped with Blades of Westernesse, dealing additional magic damage and bonus damage vs Undead units
+
+
+[OBJECT:ArnorEmbassy]
+Value=Embassy
+
+[CONTROLBAR:ConstructArnorEmbassy]
+Value=Build Embassy (&F)
+
+[CONTROLBAR:ToolTipConstructArnorEmbassy]
+Value=Can summon battalions to protect the area 
+Valueline2= Limited to 2
+
+[CONTROLBAR:AidFromShire]
+Value=Aid from the Shire (&W)
+
+[CONTROLBAR:ToolTipAidFromShire]
+Value=Temporarily summons two battalions of Bounders
+Valueline2=Left click to activate
+
+[CONTROLBAR:AidFromGwathlo]
+Value=Aid from the Gwathló (&E)
+
+[CONTROLBAR:ToolTipAidFromGwathlo]
+Valueline2=Left click to activate
+
+[CONTROLBAR:ToolTipPurchaseAidFromGwathlo]
+
+[CONTROLBAR:AidFromForod]
+Value=Aid from Forodwaith (&R)
+
 [CONTROLBAR:ToolTipAidFromForod]
 Value=Temporarily summons a battalion of Lossoth Hunters
 Valueline2=Left click to activate
@@ -88966,13 +89025,250 @@ Valueline2=Left click to activate
 [CONTROLBAR:ToolTipPurchaseAidFromForod]
 Value=Allows the Embassy to temporarily summon a battalion of Lossoth Hunters
 
+[CONTROLBAR:AidFromRivendell]
+Value=Aid from Rivendell (&T)
+
 [CONTROLBAR:ToolTipPurchaseAidFromRivendell]
 Value=Allows the Embassy to temporarily summon a battalion of Noldor Knights
 
 [CONTROLBAR:ToolTipAidFromRivendell]
 Value=Temporarily summons a battalion of Noldor Knights
 Valueline2=Left click to activate
+
+
+
+[CONTROLBAR:LechoCalad]
+Value=Lacho calad! Drego morn!
+
+[CONTROLBAR:RoyalGarden]
+Value=Royal Garden
+
+[CONTROLBAR:TooltipRoyalGarden]
+Value=Summons a Royal Garden
+Valueline2=Friendly units within its radius gain +15% armour and are slowly healed
+Valueline3=Left click then left click on pathable location
+
+[CONTROLBAR:SummonTookArchers]
+Value=Halfling Bravery
+
+[CONTROLBAR:TooltipSummonTookArchers]
+Value=Summons a contingent of Tookish Archers
+Valueline2=Left click then left click on pathable location
+
+[CONTROLBAR:AnnuminasArmaments]
+Value=Armaments of Annúminas
+
+[CONTROLBAR:TooltipAnnuminasArmaments]
+Value=Grants heavy armour to units in radius 
 Valueline2= Only affects units that can receive Steel Cuirasses 
+Valueline3= Left click on icon then left click on target own units
+
+[CONTROLBAR:SummonCirdan]
+Value=Aid from the Havens
+
+[CONTROLBAR:TooltipSummonCirdan]
+Value=Temporarily summons Círdan the Shipwright
+Valueline2=Left click then left click on pathable location
+
+[CONTROLBAR:CirdanTeleport]
+Value=Voyage to Safety (&T)
+
+[CONTROLBAR:ToolTipCirdanTeleport]
+Value=Círdan guides allied units from one location on the battlefield to anywhere on the map 
+Valueline2= Does not work on siege units
+Valueline3=
+Valueline4= Left click icon, then left click on target units, then left click on pathable location
+
+[CONTROLBAR:LoneTowerArnor]
+Value=Northern Vigil
+
+[CONTROLBAR:TooltipLoneTowerArnor]
+Value=Summons an Arthedain Watchtower protected by Soldiers and Wardens of Fornost
+Valueline2=Arthedain Watchtower can cast Eye of Amon-Sûl ability to reveal part of the map for 60 seconds
+Valueline3=Left click then left click on pathable location
+
+[CONTROLBAR:StarOfEarendil]
+Value=Star of Eärendil
+
+[CONTROLBAR:PeredhelProtection]
+Value=Peredhel's Protection
+
+[CONTROLBAR:SpawnGlorfindel]
+Value=Elf-friends of Old
+
+[CONTROLBAR:TooltipSpawnGlorfindel]
+Value=Summons Glorfindel and an army of Rivendell Warriors
+Valueline2=Left click then left click on pathable location
+
+[CONTROLBAR:ToolTipGlorfindelWrathArnor]
+Value=Glorfindel gains +100% damage for 30 seconds
+Valueline2= Left click to activate 
+Valueline3=
+Valueline4=Modifier Type: Spell 
+Valueline5= Glorfindel causes fear to nearby enemies and Nazgûl
+Valueline6=Passive ability
+
+[CONTROLBAR:GlorfindelSlayerArnor]
+Value=Slayer of Demons (&C)
+
+
+[CONTROLBAR:ToolTipGlorfindelSlayerArnor]
+Value=Blasts back units in a wide radius surrounding Glorfindel and stuns them for 15 seconds 
+Valueline2=Glorfindel’s melee attacks pin enemy heroes for 30 seconds
+Valueline3= Left click to activate
+
+
+[CONTROLBAR:SummonEarnur]
+Value=Allegiance of the Faithful
+
+[CONTROLBAR:TooltipSummonEarnur]
+Value=Summons Prince Eärnur and an army of Knights of Gondor
+Valueline2=Left click then left click on pathable location
+
+[OBJECT:GondorEarnur]
+Value=Eärnur
+
+[CONTROLBAR:GondorEarnurHotkey]
+Value=Eärnur
+
+[CONTROLBAR:GondorEarnurRecruit]
+Value=Recruit the Prince of Gondor
+Valueline2=
+Valueline3=A fierce warrior and leader of Men, Prince Eärnur led a Gondorian army to Arthedain's aid. Though he arrived too late to prevent Angmar's ruinous hammer blow, he banished the Witch-king from the northern realms, igniting a long rivalry with the Dark Lord's deadliest servant.
+
+[OBJECT:GondorEarnurRevive]
+Value=Revive the fallen Hero, Eärnur
+
+[CONTROLBAR:SpecialAbilityEarnurCaptain]
+Value=Captain of Gondor (&R)
+
+[CONTROLBAR:ToolTipEarnurCaptain]
+Value=Modifier Type: Spell 
+Valueline2= Eärnur and nearby cavalry, gain +50% armour, and -50% crush deceleration for 20 seconds
+Valueline3=Left click to activate
+
+
+[CONTROLBAR:PurchaseUpgradeArthedainFortressBanners]
+Value=Banners of the Elendili (&W)
+
+[CONTROLBAR:PurchaseUpgradeArthedainFortressKeepers]
+Value=Keepers of the Seeing-stones (&E)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeArthedainFortressKeepers]
+Value=Increases Fortress armour by 65%
+Valueline2=Unlocks Keepers of the Seeing-stones ability
+Valueline3=When activated, all friendly heroes on the map gain +25% vision range for 60 seconds
+
+[CONTROLBAR:PurchaseUpgradeArthedainFortressMusteringGrounds]
+Value=Mustering Grounds (&R)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeArthedainFortressMusteringGrounds]
+Value=Unlocks Mustering Grounds ability
+Valueline2=When activated, temporarily decreases the recruit cost of Arthedain units by 25% and recruit time by 50% for 60 seconds
+
+[CONTROLBAR:PurchaseUpgradeArthedainTowerOfStars]
+Value=Tower of the Stars (&T)
+
+[CONTROLBAR:ToolTipPurchaseUpgradeArthedainTowerOfStars]
+Value=Modifier Type: Spell
+Valueline2=Dúnedain units across the map passively gain +15% damage, armour and experience gain
+Valueline3=Passive ability
+Valueline4=Unlocks Tower of the Stars ability
+Valueline5=When activated, replenishes one fallen unit from all friendly battalions across the map
+
+[CONTROLBAR:KeepersofSeeingStones]
+Value=Keepers of the Seeing-stones (&T)
+
+[CONTROLBAR:ToolTipKeepersofSeeingStones]
+Value=When activated, all friendly heroes on the map gain +25% vision range for 60 seconds
+Valueline2=Left click to activate
+
+[CONTROLBAR:ArthedainMusteringGrounds]
+Value=Mustering Grounds (&S)
+
+[CONTROLBAR:ToolTipArthedainMusteringGrounds]
+Value=When activated, temporarily decreases the recruit cost of Arthedain units by 25% and recruit time by 50% for 60 seconds
+Valueline2=Left click to activate
+
+[CONTROLBAR:SpecialAbilityTowersOfStars]
+Value=Tower of the Stars (&D)
+
+[CONTROLBAR:ToolTipSpecialAbilityTowersOfStars]
+Value=When activated, one fallen unit from all friendly battalions across the map is replenished
+Valueline2=Left click to activate
+
+[OBJECT:ArthedainBuildingFoundation]
+Value=Arthedain Building Foundation
+
+
+[OBJECT:CatapultTroll]
+Value=Catapult Troll
+
+
+[CONTROLBAR:ConstructCatapultTroll]
+Value=Catapult Troll (&T)
+
+
+[CONTROLBAR:ToolTipBuildCatapultTroll]
+Value=Requires Level 3 Troll Lair
+Valueline2=Strong vs. Structures
+Valueline3=Goblins spent a long time perfecting their catapult-strapped-to-troll technology, seemingly never realising that the Troll could just pick up a rock and throw it...
+
+
+[OBJECT:MoriaTrollDestroyer]
+Value=Cave-troll Destroyer
+
+[CONTROLBAR:ConstructTrollDestroyer]
+Value=Cave-troll Destroyer (&E)
+
+[CONTROLBAR:ToolTipBuildTrollDestroyer]
+Value=Requires Level 2 Troll Lair
+Valueline2=Strong vs. Swordsmen, Cavalry, and Structures 
+Valueline3= 
+Valueline4=Reared for brutal tunnel warfare, these Cave-trolls are the largest and meanest of their kind. Before battle, their orcish keepers pester and bully them into a blind rage. 
+
+
+[OBJECT:MoriaTrollPackHorde]
+Value=Pack of Trolls
+
+[CONTROLBAR:ConstructMoriaTrollPack]
+Value=Pack of Trolls (&W)
+
+[CONTROLBAR:ToolTipBuildMoriaTrollPack]
+Value=Strong vs. Swordsmen and Archers
+Valueline2=
+Valueline3=Like their orcish tormentors, smaller trolls understand that there is strength in numbers. Should one encounter such a pygmy, it would be wise to steer clear, as its friends are likely to be lurking nearby.
+
+[CONTROLBAR:TrollishFury]
+Value=Trollish Fury (&W)
+
+[CONTROLBAR:ToolTipSpecialAbilityTrollishFury]
+Value=Requires Level 2 
+Valueline2= Order the Pack Trolls to charge the enemy 
+Valueline3= Modifier Type: Buff 
+Valueline4= Pack Trolls gain +50% damage and +50% armour 
+Valueline5=Causes meta impact 
+Valueline6= Left click icon then left click on target
+
+
+[CONTROLBAR::BalrogRecruit]
+Value=Recruit the Balrog of Moria
+Valueline2=
+Valueline3='Moria. You fear to go into those mines. The Dwarves delved too greedily and too deep. You know what they awoke in the darkness of Khazad-dûm: Shadow and Flame.'
+
+[CONTROLBAR::BalrogRevive]
+Value=Revive the fallen hero, Durin's Bane
+
+[CONTROLBAR:DurinsBane]
+Value=Durin's Bane (&W)
+
+[CONTROLBAR::BalrogHotkey]
+Value=Durin's Bane (&T)
+
+[CONTROLBAR:ToolTipDurinsBane]
+Value=Destroys targeted enemy Dwarven hero
+Valueline2=Left click then left click target hero
+
 [CONTROLBAR:ToolTipDurinsBaneRing]
 Value=Durin's Bane is permanently ignited and nearby enemy units suffer fire damage
 Valueline2=Passive ability
@@ -88981,6 +89277,10 @@ Valueline4=Left click then left click target hero
 
 [CONTROLBAR:SpecialAbilityDurinsBaneIgnite]
 Value=Ignite (&R)
+
+[CONTROLBAR:ToolTipSpecialAbilityDurinsBaneIgnite]
+Value=Requires Level 3
+Valueline2=Durin's Bane gains +50% damage, +50% armour for 30 seconds
 Valueline4= Stuns nearby enemy units in fear for 15 seconds
 Valueline4= Stuns nearby enemy units in fear for 15 seconds
 
