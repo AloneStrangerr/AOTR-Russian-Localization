@@ -89916,63 +89916,512 @@ Valueline2=Enemies within the radius lose -33% armour
 Valueline3=against ranged attacks for 30 seconds
 Valueline4= Left click then left click on target area
 
+[CONTROLBAR:MablungDeadlyThrust]
+Value=Deadly Thrust (&C)
+
+[CONTROLBAR:ToolTipMablungDeadlyThrust]
+Value=Requires Level 5
+Valueline2=Heavy melee attack that causes severe damage and does knockback
+Valueline3=Increased radius and damage at level 7
+Valueline4=Target enemy hero suffers -50% armour for 10 seconds at level 10
+Valueline5=Can only use with spear equipped
+Valueline6=Left click icon then left click on target unit
+
+[CONTROLBAR:GondorAnbornRecruit]
+Value=Recruit the master scout of Ithilien
+Valueline2=
+Valueline3='I have my bow here, and I have posted other archers, nigh as good marksmen as myself, on either bank. We wait only for your command to shoot, Captain.'
+
+[CONTROLBAR:GondorAnbornRevive]
+Value=Revive the fallen hero, Anborn
+
+[CONTROLBAR:GondorAnbornHotkey]
+Value=Anborn (&R)
+
+[CONTROLBAR:AnbornPoisonShots]
+Value=Poison Shots (&R)
+
+[CONTROLBAR:ToolTipAnbornPoisonShots]
+Value=Anborn’s arrows deal damage over time for 15 seconds
+Valueline2=Can only be used with bow equipped
+Valueline3=Left click to activate
+
+[CONTROLBAR:AnbornTakePoint]
+Value=Take Point (&C)
+
+[CONTROLBAR:ToolTipAnbornTakePoint]
+Value=Requires Level 3
+Valueline2= Anborn calls a group of Rangers to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches
+Valueline3= At level 7, summons a larger group of Rangers
+Valueline4= Left click icon then left click on pathable location
+
+[CONTROLBAR:AnbornNightRaid]
+Value=Night Raid (&V)
+
+[CONTROLBAR:ToolTipAnbornNightRaid]
+Value=Requires Level 7
+Valueline2=Anborn and nearby Ithilien Skirmishers, Sentinels and Outriders steal resources when attacking buildings
+Valueline3= Passive ability
+Valueline4=
+Valueline5=Can be cast on enemy resource structure to pause production for 60 seconds
+Valueline6=Left click icon then left click on target structure
+
+[CONTROLBAR:IthilienFaramirFavor]
+Value=Captain of Ithilien (&T)
+
+[CONTROLBAR:ToolTipFaramirFavor]
+Value=Modifier Type: Leadership
+Valueline2= Allies near Faramir gain +33% damage, +33% armour, and earn experience 50% faster
+Valueline3=Passive ability
+Valueline4=
+Valueline5=At level 3, can be cast on Ithilien units to permanently grant +20% armour
+Valueline6=Decreased cooldown at levels 5, 7 and 10
+Valueline7=Left click on icon then left click on target own units
+
+[CONTROLBAR:WoundingArrowIthilien]
+Value=Wounding Arrow (&C)
+
+[CONTROLBAR:SpecialAbilityFaramirQuality]
+Value=Faramir's Quality (&C)
+
+[CONTROLBAR:TooltipSpecialAbilityFaramirQuality]
+Value=Requires Level 6 
+Valueline2= Faramir deals knockback per attack and gains +50% armour and damage for 30 seconds
+Valueline3= Can only use with sword equipped 
+Valueline4= Left click to activate
+
+[CONTROLBAR:SonsOfGondor]
+Value=Sons of Gondor (&V)
+
+[CONTROLBAR:TooltipSonsOfGondor]
+Value=Requires Level 10
+Valueline2=Temporarily summons Boromir to the battlefield
+Valueline3=Left click to activate
+
+[CONTROLBAR:HornofGondorIthilien]
+Value=Horn of Gondor (&W)
+
+[CONTROLBAR:ToolTipHornofGondorIthilien]
+Value=Stun enemies with fear for 15 seconds 
+Valueline2= Left click to activate
+
+[CONTROLBAR:WarCryIthilien]
+Value=For Gondor! (&R)
+
+[CONTROLBAR:ToolTipWarCryIthilien]
+Value=Modifier Type: Spell 
+Valueline2= Targeted friendly units gain
+Valueline3=+33% damage, +20% speed, and resistance to fear and terror for 30 seconds
+Valueline4=Left click icon then left click on target units
+
+[CONTROLBAR:CaptainofGondorIthilien]
+Value=Proud, Stubborn, Strong (&T)
+
+[CONTROLBAR:ToolTipCaptainofGondorBoromirIthilien]
+Value=Give targeted units superior experience
+Valueline2= Left click icon then left click on target units
+
+[CONTROLBAR:IthilienDamrodRecruit]
+Value=Recruit the skilled ranger of Ithilien
+Valueline2=
+Valueline3=But the noise grew closer. 'They are coming!' cried Damrod. 'See! Some of the Southrons have broken from the trap and are flying from the road. There they go! Our men after them, and the Captain leading.'
+
+[CONTROLBAR:IthilienDamrodRevive]
+Value=Revive the fallen hero, Damrod
+
+[CONTROLBAR:IthilienDamrodHotkey]
+Value=Damrod (&W)
+
+[CONTROLBAR:DamrodSkilledHunterIthilien]
+Value=Skilled Hunter (&R)
+
+[CONTROLBAR:DamrodQuickDispatchIthilien]
+Value=Quick Dispatch (&T)
+
+[CONTROLBAR:ToolTipDamrodQuickDispatchIthilien]
+Value=Requires Level 3
+Valueline2=Damrod receives +25% attack and movement speed for 30 seconds
+Valueline3= Left click to activate
+
+[CONTROLBAR:DamrodRefuge]
+Value=Refuge (&C)
+
+[CONTROLBAR:TooltipDamrodRefuge]
+Value=Requires Level 5
+Valueline2=Damrod sets up a Forward Camp for 90 seconds
+Valueline3=Allies near the Forward Camp are stealthed, healed and gain +25% damage, +25% armour and +33% experience gain
+Valueline4=Left click then left click target area
+
+[OBJECT:IthilienForwardCamp]
+Value=Forward Camp
+
+[OBJECT:ForwardCampDescription]
+Value=Allies near the Forward Camp are stealthed, healed and gain +25% damage, +25% armour and +33% experience gain
+
+[CONTROLBAR:DamrodCampRefugeFake]
+Value=Refuge
+
+[CONTROLBAR:TooltipDamrodCampRefugeFake]
+Value=Allies near the Forward Camp are stealthed, healed and gain +25% damage, +25% armour and +33% experience gain
+
+[OBJECT:IthilienGathering]
+Value=Ithilien Gathering
+
+[OBJECT:IthilienGatheringDescription]
+Value=Trains Rangers of Ithilien
+
+[CONTROLBAR:IthilienGathering]
+Value=Build Ithilien Gathering (&W)
+
+[CONTROLBAR:ToolTipConstructIthilienGathering]
+Value=Calls upon the Rangers of Ithilien
+
+[CONTROLBAR:ToolTipConstructIthilienGatheringFoundation]
+Value=Calls upon the Rangers of Ithilien
 Valueline2=Produces resources
 Valueline3=Increases command point limit by 100
 
 [OBJECT:IthilienStorehouse]
 Value=Ithilien Storehouse
 
+[OBJECT:IthilienStorehouseDescription]
+Value=Researches Ithilien unit upgrades
+Valueline2=Constructs Ithilien siege equipment
+
 [CONTROLBAR:ConstructIthilienStorehouse]
 Value=Build Ithilien Storehouse (&E)
 
+[CONTROLBAR:ToolTipConstructIthilienStorehouse]
+Value=Researches Ithilien unit upgrades
+Valueline2=Constructs Ithilien siege equipment
+
+[CONTROLBAR:ToolTipConstructIthilienStorehouseFoundation]
+Value=Researches Ithilien unit upgrades
+Valueline2=Constructs Ithilien siege equipment
 Valueline3=Produces resources
 Valueline4=Increases command point limit by 100
 
+[OBJECT:IthilienBeacon]
+Value=Ithilien Beacon
+
+[OBJECT:IthilienBeaconDescription]
+Value=Calls for aid from the White City of Minas Tirith
+
+[CONTROLBAR:ConstructIthilienBeacon]
+Value=Build Ithilien Beacon (&R)
+
+[CONTROLBAR:ToolTipConstructIthilienBeacon]
+Value=Calls for aid from the White City of Minas Tirith
+
+[CONTROLBAR:ToolTipConstructIthilienBeaconFoundation]
+Value=Calls for aid from the White City of Minas Tirith
 Valueline2=Produces resources
 Valueline3=Increases command point limit by 100
 
+[CONTROLBAR:BeaconCallForAid]
+Value=Call For Aid (&W)
+
+[CONTROLBAR:ToolTipBeaconCallForAid]
+Value=Permanently summons a random battalion of troops from Minas Tirith
+
+[OBJECT:IthilienWatchtower]
+Value=Ithilien Watchtower
+
+[CONTROLBAR:ConstructIthilienWatchtower]
+Value=Build Ithilien Watchtower (&T)
+
+[CONTROLBAR:ToolTipConstructIthilienWatchtower]
+Value=Defensive tower, will fire at enemy units
+
+[CONTROLBAR:ToolTipConstructIthilienWatchtowerFoundation]
+Value=Defensive tower, will fire at enemy units
 Valueline2=Produces resources
 Valueline3=Increases command point limit by 100
 
+[CONTROLBAR:PurchaseUpgradeSentryTowerBodkinArrows]
+Value=Bodkin Arrows (&W)
 
-[Map:MAPSPevillorien]
-Value=Campaign: Evil I - Lórien
+[CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerBodkinArrows]
+Value=Upgrades this Tower with Bodkin Arrows 
+Valueline2= Increases damage done by arrows
+
+[CONTROLBAR:WatchfulEyes]
+Value=Watchful Eyes (&E)
+
+[CONTROLBAR:ToolTipWatchfulEyes]
+Value=Reveals shroud and summons three Ithilien Rangers in target area
+Valueline2=Left click icon then left click on target area
+
+[CONTROLBAR:TooltipSpecialAbilityForwardPosition]
+Value=The Pathfinder unpacks a Forward Camp
+Valueline2=Allies near the Forward Camp are stealthed, replenished and gain +25% damage, +25% armour and +33% experience gain
+Valueline3=Forward Camps can pack up, allowing Pathfinder to reposition
+Valueline4=Left click to activate
+
+[OBJECT:IthilienPathfinder]
+Value=Ithilien Pathfinder
+
+[CONTROLBAR:SpecialAbilityForwardPosition]
+Value=Forward Position (&W)
+
+[CONTROLBAR:SpecialAbilitySharpSenses]
+Value=Sharp Senses (&R)
+
+[CONTROLBAR:TooltipSpecialAbilitySharpSenses]
+Value=The Pathfinder gains +100% vision range for 25 seconds
+Valueline2=Left click to activate
+
+[CONTROLBAR:SpecialAbilityMisdirection]
+Value=Misdirection (&T)
+
+[CONTROLBAR:ToolTipSpecialAbilityMisdirection]
+Value=Disables defensive structures within the radius
+Valueline2=Enemies caught within the smoke suffer -90% vision range
+Valueline3= Lasts 30 seconds 
+Valueline4= Left click icon then left click on target
+
+[CONTROLBAR:PathfinderSnare]
+Value=Hunting Snare (&C)
+
+[CONTROLBAR:ToolTipPathfinderSnare]
+Value=The Pathfinder lays a hunting snare
+Valueline2=Enemies that walk across the snare are damaged on impact and suffer damage over time for 10 seconds
+Valueline3=Left click then left click target area
+
+[CONTROLBAR:SpecialAbilityUnpackCamp]
+Value=Pack Up Camp (&W)
+
+[CONTROLBAR:TooltipSpecialAbilityUnpackCamp]
+Value=Ithilien Pathfinder may move again and cast abilities
+Valueline2= Left click to activate
+
+[CONTROLBAR:ConstructIthilienPathfinder]
+Value=Ithilien Pathfinder (&W)
+
+[CONTROLBAR:ToolTipBuildIthilienPathfinder]
+Value=Able to cast disruptive abilities and deploy into Forward Camp
+Valueline2=
+Valueline3= Pathfinders are skilled woodsmen, surviving in the wilderness for many weeks at a time, tracking the Enemy and tending to the various sanctuaries kept by the rangers of Ithilien.
+
+[OBJECT:IthilienCitadel]
+Value=Ithilien Citadel
+
+[CONTROLBAR:SpecialAbilityConcealment]
+Value=Concealment (&T)
+
+[CONTROLBAR:ToolTipSpecialAbilityConcealment]
+Value=Target friendly units are stealthed for 60 seconds
+Valueline2=Left click then left click target area
+
+[CONTROLBAR:SafeRefuge]
+Value=Safe Refuge (&R)
+
+[CONTROLBAR:ToolTipSafeRefuge]
+Value=Modifier Type: Leadership 
+Valueline2= Allies near the Citadel gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror
+Valueline3=Nearby allies are passively healed
+Valueline4=Passive ability
+Valueline5=
+Valueline6=Teleport allied units from one location on the battlefield to within a radius of the Citadel
+Valueline7= Does not work on siege units 
+Valueline8= Left click on target units
+
+[CONTROLBAR:ConstructIthilienRam]
+Value=Ithilien Battering Ram (&S)
+
+[CONTROLBAR:ToolTipBuildIthilienRam]
+Value=Breaks down castle gates and enemy structures 
+Valueline2= 
+Valueline3= Swiftly constructed among the forests of Ithilien, these battering rams are manned by staunch warriors, and few enemy gates can withstand them.
+
+[OBJECT:IthilienTrebuchet]
+Value=Ithilien Trebuchet
+
+[CONTROLBAR:ConstructIthilienTrebuchet]
+Value=Ithilien Trebuchet (&D)
+
+[CONTROLBAR:ToolTipBeregondFierceLoyaltyIthilien]
+Value=Modifier Type: Leadership 
+Valueline2= Faramir and Boromir gain +33% armour and +33% damage when near Beregond
+Valueline3=Passive ability
+
+[CONTROLBAR:DefenderoftheWhiteCityBIthilien]
+Value=Defender of the Prince (Bow) (&T)
 
 
-[Map:MAPSPevillorien/Desc]
-Value=Mission I - Led by Sauron's envoy, a host from Dol Guldur invades the golden forest of Lothlórien and lays siege to the elven city of Caras Galadhon.
-Valueline2= Recommended Faction: Dol Guldur
+[CONTROLBAR:DefenderoftheWhiteCitySIthilien]
+Value=Defender of the Prince (Spear) (&T)
 
 
-[Map:MAPSPevilgreyhavens]
-Value=Campaign: Evil II - Grey Havens
+[CONTROLBAR:ToolTipDefenderoftheWhiteCityBIthilien]
+Value=Requires Level 3 
+Valueline2= Shoots an arrow that causes severe damage and does knockback 
+Valueline3= Left click icon then left click on target unit
 
 
-[Map:MAPSPevilgreyhavens/Desc]
-Value=Mission II - In alliance with the Corsairs of Umbar, the goblin chief Mûzgash seeks to assault the key elven port of the Grey Havens. 
-Valueline2= Recommended Faction: Misty Mountains
+[CONTROLBAR:ToolTipDefenderoftheWhiteCitySIthilien]
+Value=Requires Level 3 
+Valueline2= Heavy melee attack that causes severe damage and does knockback 
+Valueline3= Left click icon then left click on target unit
+
+[CONTROLBAR:BeregondWhiteCompany]
+Value=Captain of the White Company (&C)
+
+[CONTROLBAR:ToolTipBeregondWhiteCompany]
+Value=Requires Level 5 
+Valueline2= Modifier Type: Spell 
+Valueline3= Nearby structures gain +30% armour 
+Valueline4=Passive ability
+Valueline5=
+Valueline6=Target allied hero is temporarily guarded by Guards of the Citadel and gains +50% armour, +50% faster experience gain, and +75% faster power recharge times for 30 seconds
+Valueline7=Left click then left click allied hero
+
+[CONTROLBAR:BeregondDevotion]
+Value=Devotion (&V)
+
+[CONTROLBAR:ToolTipBeregondDevotion]
+Value=Requires Level 8
+Valueline2=Beregond and nearby White Company units gain +50% damage and gain immunity to ranged damage and knockback for 20 seconds
+Valueline3=Left click to activate
+
+[OBJECT:WhiteCompanySoldier]
+Value=White Company Veteran
+
+[OBJECT:WhiteCompanySoldierHorde]
+Value=White Company Veterans
+
+[CONTROLBAR:ConstructWhiteCompanyVeteranHorde]
+Value=White Company Veterans (&W)
+
+[CONTROLBAR:ToolTipBuildWhiteCompanyVeteranHorde]
+Value=Strong vs. Infantry
+Valueline2=Limited to 3
+Valueline3=
+Valueline4=The White Company was comprised of many veterans from the Citadel Guard and Faramir's ranger companies.
+
+[OBJECT:WhiteCompanyGuard]
+Value=White Company Guardian
+
+[OBJECT:WhiteCompanyGuardHorde]
+Value=White Company Guardians
+
+[CONTROLBAR:ConstructWhiteCompanyGuardHorde]
+Value=White Company Guardians (&E)
+
+[CONTROLBAR:ToolTipBuildWhiteCompanyGuardHorde]
+Value=Strong vs. Cavalry and Heroes
+Valueline2=Limited to 3
+Valueline3=
+Valueline4=Stout warriors, hand-picked by Beregond, guard the forest-halls of fair Ithilien.
+
+[CONTROLBAR:ToolTipWhiteCompanySolemnDuty]
+Value=Requires Level 2 
+Valueline2= White Company Guardians grant nearby allied heroes +10% armour
+Valueline3= Passive ability
+
+[CONTROLBAR:ToolTipWhiteCompanyUnscathed]
+Value=Required: Rank 4
+Valueline2= White Company Guardians gain +50% armour and resistance to knockback but lose 40% speed for 30 seconds
+Valueline3= Left click to activate
+
+[CONTROLBAR:WhiteCompanyUnscathed]
+Value=Unscathed (&T)
+
+[OBJECT:WhiteCompanyCitadel]
+Value=Citadel of the White Company
+
+[CONTROLBAR:SwornAllegianceIthilien]
+Value=Reinforcements from Henneth Annûn
+
+[CONTROLBAR:TooltipSwornAllegianceIthilien]
+Value=All Ithilien Gatherings have decreased recruitment time of Ithilien troops by 33% 
+Valueline2= The troops come equipped with Tempered Blades and Bodkin Arrows 
+Valueline3= Effect lasts for 60 seconds 
+Valueline4= Left click to activate
+
+[CONTROLBAR:SummonRohanAlliesIthilien]
+Value=Royal Knights
+
+[CONTROLBAR:TooltipSummonRohanAlliesIthilien]
+Value=Summons three Knights of Minas Tirith as reinforcements
+Valueline2= Left click icon then left click on pathable location
+
+[CONTROLBAR:SummonWhiteCompanyAllies]
+Value=Citadel of the White Company
+
+[CONTROLBAR:TooltipSummonWhiteCompanyAllies]
+Value=Summons a Citadel of the White Company 
+Valueline2= Limited to 2 
+Valueline3= Recruits Beregond and White Company Veterans and Guardsmen
+Valueline4= Left click on icon then left click on target area
+
+[CONTROLBAR:SummonHostOfTheWest]
+Value=The Host of the West
+
+[CONTROLBAR:TooltipHostOfTheWest]
+Value=Summons Elessar and the Host of the West
+Valueline2=Each battalion is led by a hero
+Valueline3=If the hero dies, the entire battalion dies
+Valueline4=Left click on icon then left click on target area
+
+[CONTROLBAR:ToolTipGreyCompanyWesternesse]
+Value=Grey Company deal +33% damage against Undead units
+Valueline2=Passive ability
 
 
-[Map:MAPSPevilshire]
-Value=Campaign: Evil III - Shire
+[CONTROLBAR:WotRHeal]
+Value=Blessing of Yavanna
 
+[CONTROLBAR:WotRRallyingCall]
+Value=Hope Undying
 
-[Map:MAPSPevilshire/Desc]
-Value=Mission III - Goblins arrive at the outskirts of the Shire, where Golfimbul hopes to avenge his fallen ancestors.
-Valueline2= Recommended Faction: Misty Mountains
+[CONTROLBAR:WotRArrowVolley]
+Value=Hail of Arrows
+
+[CONTROLBAR:WotRCloudbreak]
+Value=Blessing of Manwë
+
+[CONTROLBAR:TooltipWotRGloriousCharge]
+Value=Modifier Type: Buff 
+Valueline2= Friendly units and heroes gain +15% speed and +150% armour for 20 seconds
+Valueline3= No force can slow this charge 
+Valueline4= Left click icon then left click on target units
+
+[CONTROLBAR:WotRAnswerTheCall]
+Value=Answer the Call!
+
+[CONTROLBAR:TooltipWotRAnswerTheCallGondor]
+Value=Permanently summons a battalion of Swan Knights
+Valueline2=Limited to 3
+Valueline3=Left click on icon then left click on target area
+
+[CONTROLBAR:TooltipWotRAnswerTheCallRohan]
+Value=Permanently summons a battalion of Mounted Kingsguard
+Valueline2=Limited to 3
+Valueline3=Left click on icon then left click on target area
 
 [CONTROLBAR:TooltipWotRAnswerTheCallLorien]
 Value=Permanently summons a battalion of sword-wielding and bow-wielding Celemegiliath
 Valueline2=Left click on icon then left click on target area
 
-[Map:MAPSPevilfornost]
-Value=Campaign: Evil IV - Fornost
+[CONTROLBAR:TooltipWotRAnswerTheCallRivendell]
+Value=Permanently summons a battalion of Grey Company
+Valueline2=Limited to 1
+Valueline3=Left click on icon then left click on target area
 
+[CONTROLBAR:TooltipWotRAnswerTheCallErebor]
+Value=Permanently summons two battalions of Adâruf-sulûkh
+Valueline2=Left click on icon then left click on target area
 
-[Map:MAPSPevilfornost/Desc]
-Value=Mission IV - To weaken the defences in the North and strengthen Sauron's grip over Eriador, the Goblins plan an attack on the ancient Arnorian capital of Fornost.
-Valueline2= Recommended Faction: Misty Mountains
+[CONTROLBAR:TooltipWotRAnswerTheCallMirkwood]
+Value=Permanently summons a battalion of Beorning Berserkers
+Valueline2=Left click on icon then left click on target area
 
+[CONTROLBAR:SummonEagleAlliesWotR]
+Value=The Eagles Are Coming!
+
+[CONTROLBAR:WotRHeroicWarriors]
+Value=Heroic Warriors
 
 [CONTROLBAR:TooltipWotRHeroicWarriorsGondor]
 Value=Permanently summons a battalion of Fountain Guard
@@ -89994,15 +90443,24 @@ Value=Permanently summons a battalion of Laurëthelyn
 Valueline2=Limited to 1
 Valueline3=Left click on icon then left click on target area
 
+[CONTROLBAR:TooltipWotRHeroicWarriorsErebor]
+Value=Permanently summons two battalions of Khazâd-uzbadul
+Valueline2=Limited to 3
+Valueline3=Left click on icon then left click on target area
 
-[Map:MAPSPevilwitheredheath]
-Value=Campaign: Evil VI - Withered Heath
+[CONTROLBAR:TooltipWotRHeroicWarriorsMirkwood]
+Value=Permanently summons a battalion of Tawartirio
+Valueline2=Limited to 1
+Valueline3=Left click on icon then left click on target area
 
+[CONTROLBAR:CrebainWotR]
+Value=Unfriendly Eyes
 
-[Map:MAPSPevilwitheredheath/Desc]
-Value=Mission VI - Sauron sends his envoy to forge an alliance with the dragons of the Withered Heath and gain their support in the war against the forces of Eriador.
-Valueline2= Recommended Faction: Misty Mountains
+[CONTROLBAR:FellPresenceWotR]
+Value=Fell Presence
 
+[CONTROLBAR:FieryBarrageWotR]
+Value=Fiery Barrage
 
 [CONTROLBAR:TooltipWotRAnswerTheCallMordor]
 Value=Permanently summons a horde of Khân-bórainax
@@ -90014,6 +90472,10 @@ Value=Permanently summons a horde of Dunlending Huskarls
 Valueline2=Limited to 3
 Valueline3=Left click on icon then left click on target area
 
+[CONTROLBAR:TooltipWotRAnswerTheCallMM]
+Value=Permanently summons a horde of Bolg's Bodyguard
+Valueline2=Limited to 1
+Valueline3=Left click on icon then left click on target area
 
 [CONTROLBAR:TooltipWotRAnswerTheCallGuldur]
 Value=Permanently summons a horde of Harbingers of Shadow
@@ -90025,25 +90487,39 @@ Value=Permanently summons a horde of Nâfarati Marauders
 Valueline2=Limited to 3
 Valueline3=Left click on icon then left click on target area
 
-[Map:MAPSPevilrivendell]
-Value=Campaign: Evil VIII - Rivendell
+[CONTROLBAR:DarknessWotR]
+Value=Cover of Darkness
 
+[CONTROLBAR:SavageAssaultWotR]
+Value=Savage Assault
 
-[Map:MAPSPevilrivendell/Desc]
-Value=Mission VIII - The combined forces of evil gather in the valley of Imladris to destroy Rivendell, along with the last remnant of the Eldar still residing in Middle-Earth. 
-Valueline2= Recommended Faction: Misty Mountains
+[CONTROLBAR:TooltipSavageAssaultWotR]
+Value=Modifier Type: Buff 
+Valueline2= Friendly units and heroes gain +25% speed and +200% damage at the cost of -50% armour for 20 seconds
+Valueline3= Left click icon then left click on target units
 
+[CONTROLBAR:WotRDarkLordChosen]
+Value=Dark Lord's Chosen
 
+[CONTROLBAR:TooltipWotRDarkLordChosenIsengard]
+Value=Permanently summons a horde of Uruk-hai Man-slayers
+Valueline2=Limited to 3
+Valueline3=Left click on icon then left click on target area
 
 [CONTROLBAR:TooltipWotRDarkLordChosenMordor]
 Value=Permanently summons a horde of Morgul Vanguard
 Valueline2=Limited to 1
 Valueline3=Left click on icon then left click on target area
 
+[CONTROLBAR:TooltipWotRDarkLordChosenMM]
+Value=Permanently summons a Cold-drake
+Valueline2=Limited to 1
+Valueline3=Left click on icon then left click on target area
 
-[Map:MAPSPgoodbluemountains/Desc]
-Value=Mission IV - Gloin and Glorfindel arrive at the Blue Mountains to help the Dwarves reclaim their halls from a brooding dragon.
-Valueline2= Recommended Faction: Erebor
+[CONTROLBAR:TooltipWotRDarkLordChosenGuldur]
+Value=Permanently summons two Castellans of Dol Guldur
+Valueline2=Limited to 3
+Valueline3=Left click on icon then left click on target area
 
 [CONTROLBAR:TooltipWotRDarkLordChosenHarad]
 Value=Permanently summons a horde of Guards of the Serpent
