@@ -89513,6 +89513,194 @@ Value=Desecrated Halls (&S)
 Value=Increases Fortress armour by 65%
 Valueline2= Allows training of a second battalion of Hobgoblin Plunderers
 
+[CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDrumsInTheDeepMoria]
+Value=The fortress gains the ability to use the Drums in the Deep
+Valueline2=Temporarily summons 5 hordes of Moria-orc Screechers
+Valueline3=Grants Moria structures ability to cast Drums in the Deep to temporarily summon 2 hordes of Moria-orc Screechers
+
+[TOOLTIP:LackDragonNestWebCocoonMoria]
+Value=Requires the Descecrated Halls upgrade 
+Valueline2= Temporarily summons 5 hordes of Moria-orc Screechers and unlocks Drums in the Deep for Moria structures
+
+[CONTROLBAR:DrumsInTheDeepSaF]
+Value=Drums in the Deep
+
+[CONTROLBAR:ToolTipDrumsInTheDeepSaF]
+Value=Requires Drums in the Deep fortress upgrade
+Valueline2=Temporarily summons 2 hordes of Moria-orc Screechers
+Valueline3=Left click to activate
+
+[CONTROLBAR:FieryWind]
+Value=Fiery Wind
+
+[CONTROLBAR:WheelOfFire]
+Value=Wheel of Fire
+
+[CONTROLBAR:TooltipWheelOfFire]
+Value=Summons a fiery ring around target area for 5 minutes
+Valueline2= Friendly units within the ring gain +50% damage, +50% armour and become immune to fear and terror
+Valueline3=Left click icon then left click on target area
+
+[CONTROLBAR:SpellBookNoxiousFumes]
+Value=Noxious Fumes
+
+[CONTROLBAR:TooltipSpellBookNoxiousFumes]
+Value=Conjures Noxious Fumes for 60 seconds
+Valueline2=Enemy units caught within the fumes take damage over time
+Valueline3=Left click icon then left click on target area
+
+[CONTROLBAR:CaveDrake]
+Value=Summon Cave-drake
+
+[CONTROLBAR:TooltipCaveDrake]
+Value=Summons a Cave-drake
+Valueline2=Left click icon then left click on pathable location
+
+[OBJECT:MoriaCaveDrake]
+Value=Cave-drake
+
+[CONTROLBAR:PitchBlack]
+Value=Pitch Black
+
+[CONTROLBAR:DeepRumblings]
+Value=Deep Rumblings
+
+[CONTROLBAR:TunnelCollapse]
+Value=Tunnel Collapse
+
+[CONTROLBAR:TunnelCollapseBotFA]
+Value=The Lonely Mountain Stirs
+
+[CONTROLBAR:TooltipTunnelCollapseMoria]
+Value=Summons a tunnel collapse that damages enemies
+Valueline2= Strong vs. units
+Valueline3= Left click icon then left click on target area
+
+[CONTROLBAR:RavensCurse]
+Value=Raven's Curse
+
+
+[CONTROLBAR:ToolTipRavensCurse]
+Value=Seers can target units to decrease their damage by 15% 
+Valueline2=and buildings to decrease their armour by 15% 
+Valueline3=
+Valueline4= Nearby Wildmen gain +33% crush armour and resistance to fear and terror 
+Valueline5= Passive ability
+
+
+[CONTROLBAR:PurchaseUpgradeBlessingofFalf]
+Value=Purchase Blessing of Fálf (&R)
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeBlessingofFalf]
+Value=Allows Seer to use the Blessing of Fálf ability 
+Valueline2= Can be cast on friendly battalions to replenish 
+Valueline3= one fallen unit per battalion
+
+
+[CONTROLBAR:BlessingofFalf]
+Value=Blessing of Fálf (&R)
+
+
+[CONTROLBAR:ToolTipBlessingofFalf]
+Value=Can be cast on friendly battalions to replenish
+Valueline2= one fallen unit per battalion 
+Valueline3= Left click icon then left click on target area
+
+
+[CONTROLBAR:PurchaseUpgradePotionofWrath]
+Value=Purchase Potion of Wrath (&V)
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradePotionofWrath]
+Value=Allows Seer to use the Potion of Wrath ability 
+Valueline2= Targeted hero is partially healed
+Valueline3=and gains +25% damage for 30 seconds
+
+
+[CONTROLBAR:PotionofWrath]
+Value=Potion of Wrath (&V)
+
+
+[CONTROLBAR:ToolTipPotionofWrath]
+Value=Modifier Type: Spell 
+Valueline2= Targeted hero is partially healed
+Valueline3=and gains +25% damage for 30 seconds
+Valueline4= Left click icon then left click on target hero
+
+
+[OBJECT:IsengardWhiteRaven]
+Value=White Raven
+
+
+[CONTROLBAR:PurchaseUpgradeServantofHrafvit]
+Value=Purchase Servant of Hráfvit (&T)
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeServantofHrafvit]
+Value=Allows Seer to use the Servant of Hráfvit ability 
+Valueline2= Summons a White Raven. Friendly units nearby the White Raven gain +33% armour. White Raven can attack. Lasts for 90 seconds 
+Valueline3= Left click icon then left click on target area.
+
+
+[CONTROLBAR:ServantofHrafvit]
+Value=Servant of Hráfvit (&T)
+
+
+[CONTROLBAR:TooltipServantofHrafvit]
+Value=Summons a White Raven. Friendly units nearby the White Raven gain +33% armour. White Raven can attack. Lasts for 90 seconds 
+Valueline2= Left click icon then left click on target area.
+
+
+[CONTROLBAR:PurchaseUpgradeIllOmen]
+Value=Purchase Ill Omen (&C)
+
+
+[CONTROLBAR:ToolTipPurchaseUpgradeIllOmen]
+Value=Allows Seer to use the Ill Omen ability 
+Valueline2= Target enemy building takes heavy damage
+Valueline3=and is disabled for 20 seconds
+Valueline4= Automatically opens targeted gate
+
+
+[CONTROLBAR:SeerIllOmen]
+Value=Ill Omen (&C)
+
+
+[CONTROLBAR:ToolTipSeerIllOmen]
+Value=Target enemy building takes heavy damage
+Valueline2=and is disabled for 20 seconds
+Valueline3= Automatically opens targeted gate 
+Valueline4= Left click icon then left click on target
+
+
+
+[OBJECT:PrairieDogHole]
+Value=Prairie dog Hole
+
+
+
+[OBJECT:KotD]
+Value=The King of the Dead
+
+
+[CONTROLBAR:KotDRecruit]
+Value=Recruit the King of the Dead 
+Valueline2= 
+Valueline3= The way is shut. It was made by those who are Dead, and the Dead keep it, until the time comes. The way is shut.
+
+
+[CONTROLBAR:KotDRevive]
+Value=Revive the King of the Dead
+
+
+[CONTROLBAR:KotDHotkey]
+Value=The King of the Dead (&R)
+
+
+[CONTROLBAR:KotDSpell]
+Value=Curse of the Dead King (&R)
+
 
 [CONTROLBAR:ToolTipKotDSpell]
 Value=Requires Level 5
@@ -89644,6 +89832,89 @@ Value=Ithilien Skirmishers
 
 [CONTROLBAR:ConstructIthilienSkirmisherHorde]
 Value=Ithilien Skirmishers (&W)
+
+[CONTROLBAR:ToolTipBuildIthilienSkirmisherHorde]
+Value=Strong vs. Pikemen
+Valueline2=Stealth near trees
+Valueline3= 
+Valueline4= Though the Rangers of Ithilien relied chiefly upon ambush, at times pitched battle in Ithilien could not be avoided, and bow was exchanged for the sword.
+
+[CONTROLBAR:SharpenedBlades]
+Value=Sharpened Blades
+
+[CONTROLBAR:ToolTipBuildIthilienRangerHorde]
+Value=Strong vs. Infantry and Monsters 
+Valueline2= Stealth near trees
+Valueline3= 
+Valueline4= The Rangers are the descendants of the people who once dwelt in Ithilien, before it fell from Gondor's control.
+
+[OBJECT:IthilienOutrider]
+Value=Ithilien Outrider
+
+[OBJECT:IthilienOutriderHorde]
+Value=Ithilien Outriders
+
+[CONTROLBAR:ConstructIthilienOutriderHorde]
+Value=Ithilien Outriders (&T)
+
+[CONTROLBAR:ToolTipBuildIthilienOutriderHorde]
+Value=Strong vs. Archers
+Valueline2=Can stealth near trees
+Valueline3= 
+Valueline4= The road from Ithilien to Minas Tirith was trodden by green-clad messengers, bringing word to and from the White City, informing the Steward of the movements of the Enemy and bringing new orders to the Rangers of Ithilien.
+
+[CONTROLBAR:IthilienMadrilRecruit]
+Value=Recruit Faramir's most trusted lieutenant
+Valueline2=
+Valueline3='But we must look to our own borders. Faramir, orcs are on the move. Sauron is marshalling an army.'
+
+[CONTROLBAR:IthilienMadrilRevive]
+Value=Revive the fallen hero, Madril
+
+[CONTROLBAR:IthilienMadrilHotkey]
+Value=Madril (&T)
+
+[CONTROLBAR:ToolTipMadrilAmbush]
+Value=Requires Level 3
+Valueline2=An experienced Ranger, Madril knows how best to execute a successful ambush upon his foes 
+Valueline3= Madril stuns nearby enemies for 5 seconds
+Valueline4= Left click then left click target location
+
+[CONTROLBAR:MadrilTeleport]
+Value=Strategist (&C)
+
+[CONTROLBAR:TooltipMadrilTeleport]
+Value=Requires Level 5 
+Valueline2= Madril guides allied units from one location on the battlefield to anywhere on the map 
+Valueline3= Does not work on siege units
+Valueline4=
+Valueline5= Left click icon, then left click on target units, then left click on pathable location
+
+[CONTROLBAR:ToolTipMadrilSacrifice]
+Value=Requires Level 8 
+Valueline2= Modifier Type: Spell 
+Valueline3= Madril suffers heavy damage while targeted allied hero becomes immune to damage for 10 seconds
+Valueline4= Left click icon then left click on target hero
+
+[CONTROLBAR:IthilienMablungRecruit]
+Value=Recruit the keen-eyed hunter of Ithilien
+Valueline2=
+Valueline3='And they go ever more heedlessly, we learn, thinking that the power of their new master is great enough, so that the mere shadow of His hills will protect them. We come to teach them another lesson.'
+
+[CONTROLBAR:IthilienMablungRevive]
+Value=Revive the fallen hero, Mablung
+
+[CONTROLBAR:IthilienMablungHotkey]
+Value=Mablung (&E)
+
+[CONTROLBAR:MablungKeenEyedIthilien]
+Value=Keen Eyed (&R)
+
+[CONTROLBAR:ToolTipIthilienMablungLethalAim]
+Value=Requires Level 3
+Valueline2=Enemies within the radius lose -33% armour
+Valueline3=against ranged attacks for 30 seconds
+Valueline4= Left click then left click on target area
 
 Valueline2=Produces resources
 Valueline3=Increases command point limit by 100
