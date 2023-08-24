@@ -14607,7 +14607,7 @@ Valueline3= Limited to 1
 
 
 [CONTROLBAR:ToolTipConstructRohanWorkshop]
-Value=Constructs and upgrades siege engines
+Value=Constructs siege engines
 Valueline2= At rank 2, repairs nearby siege engines 
 Valueline3= Generates a small amount of resources based on avaliable terrain 
 Valueline4= Reduces cost of upgrades
@@ -15139,12 +15139,10 @@ Value=Trains Haradrim Archers and Mûmakil
 [CONTROLBAR:ToolTipConstructLumberMill]
 Value=Harvests resources from nearby trees 
 Valueline2= Reduces cost of structures 
-Valueline3= Increases command point limit by 25
 
 
 [CONTROLBAR:ToolTipConstructGuldurLumberMill]
 Value=Harvests resources from nearby trees 
-Valueline2= Increases command point limit by 25
 
 
 [CONTROLBAR:ToolTipLumberMill]
@@ -15243,7 +15241,6 @@ Value=Build Lumber Mill (&D)
 [CONTROLBAR:ToolTipConstructWildLumberMill]
 Value=Harvests resources from nearby trees 
 Valueline2= Reduces cost of buildings 
-Valueline3= Increases command point limit by 25
 
 
 [CONTROLBAR:ConstructWildGoblinCave]
@@ -15581,9 +15578,10 @@ Value=Draft
 
 
 [CONTROLBAR:ToolTipDraft]
-Value=All peasants become armed, permanently gaining +5 damage and +40 health 
-Valueline2= Spell has shorter cooldown 
-Valueline3= Left click to activate
+Value=All peasants become armed, permanently gaining +5 damage and +20 health 
+Valueline2=Rohan units gain +15% armour for 30 seconds
+Valueline3= Spell has shorter cooldown 
+Valueline4= Left click to activate
 
 
 [CONTROLBAR:ElvenGifts]
@@ -16373,6 +16371,9 @@ Value=Revive the fallen Hero, Gimli
 
 [CONTROLBAR:RohanGimliHotkey]
 Value=Gimli (&S)
+
+[CONTROLBAR:RohanGimliHotkeyAdventure]
+Value=Gimli (&D)
 
 [CONTROLBAR:FellowshipGimliHotkey]
 Value=Gimli (&T)
@@ -18654,7 +18655,7 @@ Value=D&isguise
 
 
 [CONTROLBAR:Smite]
-Value=Begone, Foul Dwimmerlaik (&C)
+Value=Begone, Foul Dwimmerlaik (&T)
 
 
 [CONTROLBAR:ShieldMaiden]
@@ -26219,11 +26220,12 @@ Value=Research Fire Arrows Upgrade (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRohanFireArrows]
-Value=Left click to upgrade this unit
+Value=Upgrades this battalion with Fire Arrows
+Valueline2=Significantly increases the damage done by arrows
 
 
 [CONTROLBAR:PurchaseTechnologyRohanForgedBlades]
-Value=Mundburg Steel Blades (&D)
+Value=Mundburg Steel Blades (&S)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades]
@@ -26238,7 +26240,7 @@ Valueline2= Increases the damage done by melee weapons
 
 
 [CONTROLBAR:PurchaseTechnologyRohanHeavyArmor]
-Value=Mundburg Steel Armour (&F)
+Value=Mundburg Steel Armour (&D)
 
 
 [CONTROLBAR:ToolTipPurchaseTechnologyRohanHeavyArmor]
@@ -27266,7 +27268,7 @@ Value=%d%%
 
 
 [CONTROLBAR:RadialBack]
-Value=Back
+Value=Back (&A)
 
 
 [CONTROLBAR:ToolTipCommandRadialBack]
@@ -27407,6 +27409,9 @@ Valueline2= Increases Fortress vision range
 Value=Provides Palantir Vision Power 
 Valueline2= Increases Fortress vision range
 
+[CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTowerFortressMap_GC]
+Value=Allows recruitment of Grey Company
+Valueline2= Increases Fortress vision range
 
 [CONTROLBAR:PurchaseUpgradeMenFortressBoilingOil]
 Value=Bulwark of the West (&R)
@@ -29108,7 +29113,7 @@ Value=Statue of Nimrodel
 
 [OBJECT:NimrodelStatueDescription]
 Value=Friendly units within the pool are immune to debuffs 
-Valueline2= Nearby Mallorn Trees gain +25% faster resource production 
+Valueline2= All Mallorn Trees gain +10% faster resource production 
 Valueline3= Possesses ability to repair selected structure
 
 
@@ -29122,7 +29127,7 @@ Value=Waters of Nimrodel
 
 [CONTROLBAR:ToolTipBlessingofNimrodel]
 Value=Friendly units within the pool are immune to debuffs 
-Valueline2= Nearby Mallorn Trees gain +25% faster resource production 
+Valueline2= All Mallorn Trees gain +10% faster resource production 
 Valueline3= Passive ability
 
 
@@ -33434,7 +33439,7 @@ Value=Way of the Raging Dragon (&G)
 [CONTROLBAR:ToolTipSpecialAbilityWayRagingDragon]
 Value=Requires Ways of War
 Valueline2=All friendly Golden Cataphracts and Golden Chariots units gain +50% armour and -25% crush deceleration for 120 seconds
-Valueline3=Golden Cataphracts and Golden Chariots' recruitment cost and time are reduced by 25% for 120 seconds
+Valueline3=Golden Cataphracts and Golden Chariots' recruitment times are reduced by 50% for 120 seconds
 Valueline4=Only one War Tactic may be active at a time
 Valueline5=Left click to activate
 
@@ -33650,7 +33655,6 @@ Valueline2= Reduces cost of Buildings
 Valueline3= 2 Lumber Mills: 10%
 Valueline4= 3 Lumber Mills: 20%
 Valueline5= 4 Lumber Mills: 30% 
-Valueline6= Increases command point limit by 25
 
 
 [CONTROLBAR:ConstructIsengardWargSentry]
@@ -33697,7 +33701,6 @@ Value=Build Lumber Mill (&D)
 [CONTROLBAR:TooltipConstructMordorLumberMill]
 Value=Harvests resources from nearby trees 
 Valueline2= Reduces cost of buildings 
-Valueline3= Increases command point limit by 25
 
 
 
@@ -34416,7 +34419,7 @@ Value=Proud Father
 
 
 [CONTROLBAR:ToolTipProudFather]
-Value=Glóin gains +33% armour and damage while near Gimli
+Value=Glóin gains +25% armour and damage while near Gimli
 Valueline2=Passive ability
 
 
@@ -34492,7 +34495,7 @@ Value=Underhanded Strike (&T)
 
 [CONTROLBAR:ToolTipUnderhandedStrike]
 Value=Deals heavy melee damage to enemy unit
-Valueline2=Targeted enemy unit or hero is crippled and loses 25% armour for 10 seconds
+Valueline2=Targeted enemy unit or hero is crippled for 10 seconds
 Valueline3=Left click icon then left click on target
 
 
@@ -43815,7 +43818,7 @@ Valueline2= Significantly increases the damage done by Arrows
 
 
 [CONTROLBAR:PurchaseTechnologyRohanBasicTraining]
-Value=Research Heraldry of the Riddermark (&S)
+Value=Research Heraldry of the Riddermark (&T)
 
 
 [CONTROLBAR:PurchaseUpgradeRohanBasicTraining]
@@ -44390,7 +44393,7 @@ Valueline2= When equipped, increases this battalion to Level 2
 
 [TOOLTIP:LackRohanFireArrows]
 Value=Purchase Upgrade at Archery Range to enable this equipment 
-Valueline2= When equipped, significantly reduces the amount of damage taken
+Valueline2= When equipped, significantly increases the damage done by arrows
 
 
 [TOOLTIP:LackRohanFireArrowsHD]
@@ -52199,7 +52202,7 @@ Valueline4=Left click to activate
 [CONTROLBAR:ToolTipMasterTrackerAbility]
 Value=Requires Level 3 
 Valueline2=Modifier Type: Spell
-Valueline3=Aragorn gains +150% vision range, +25% range and +15% speed while nearby allies gain +15% movement speed for 25 seconds
+Valueline3=Aragorn gains +150% vision range and +25% range while nearby allies gain +15% movement speed for 25 seconds
 Valueline4=Left click to activate
 
 
@@ -54388,7 +54391,7 @@ Value=Yeoman Spearmen
 
 
 [CONTROLBAR:ConstructRohanSpearmenHorde]
-Value=Yeoman Spearmen (&W)
+Value=Yeoman Spearmen (&R)
 
 
 [CONTROLBAR:ToolTipBuildRohanSpearmenHorde]
@@ -54412,6 +54415,43 @@ Value=Inspiration
 [CONTROLBAR:KnightsofDolChargeofGlory]
 Value=Amroth for Gondor (&R)
 
+[OBJECT:GondorBlackSwanCaptain]
+Value=Black Swan Captain
+
+[CONTROLBAR:ConstructGondorBlackSwanCaptain]
+Value=Black Swan Captain (&W)
+
+[CONTROLBAR:ToolTipBuildGondorBlackSwanCaptain]
+Value=Strong vs. Infantry, Archers
+Valueline2=
+Valueline3=
+Valueline4=Black Swan Captains are knights of singular purpose: Slay the enemies of the prince. Made orphans by the war, these warriors were taken in by Imrahil and trained by the royal Master-at-Arms.
+
+[CONTROLBAR:BlackSwanLeadership]
+Value=Leader of the Charge
+
+[CONTROLBAR:ToolTipBlackSwanLeadership]
+Value=Modifier Type: Leadership
+Valueline2=Allied cavalry near the Black Swan Captain gain +15% armour against specialist damage and -15% trample deceleration
+Valueline3=Passive ability
+
+[CONTROLBAR:BlackSwanCripple]
+Value=Devastating Blow (&R)
+
+[CONTROLBAR:ToolTipBlackSwanCripple]
+Value=Requires Level 3
+Valueline2=Target enemy hero or monster is pinned for 7 seconds
+Valueline3=At level 7, stun duration is increased to 10 seconds
+Valueline4=Left click icon then left click on target
+
+[CONTROLBAR:SpecialAbilityDreadedWarrior]
+Value=Dreaded Warrior (&T)
+
+[CONTROLBAR:ToolTipSpecialAbilityDreadedWarrior]
+Value=Requires Level 5
+Valueline2=Black Swan Captain's attacks deal knockback and decrease enemy armour by -25% for 5 seconds
+Valueline3=Effect lasts 30 seconds
+Valueline4=Left click to activate
 
 
 
@@ -58089,7 +58129,7 @@ Valueline4=Left click icon then left click on target area
 
 
 [CONTROLBAR:ToolTipIndustry]
-Value=Selected structure's resource output is raised to 300% for 5 minutes
+Value=Selected structure's resource output is raised to 275% for 5 minutes
 Valueline2= Affects Furnaces and Armouries 
 Valueline3= Left click icon then left click on target resource structure
 
@@ -58433,10 +58473,10 @@ Valueline5=Passive ability
 
 
 [CONTROLBAR:ToolTipSmite]
-Value=Requires Level 8
-Valueline2= Powerful ranged attack against a single target
-Valueline3= Deals great damage to flying units
-Valueline4= Deals 200% extra damage to the Witch-king of Angmar
+Value=Requires Level 4
+Valueline2= Strong ranged attack against a single target
+Valueline3= Deals 200% extra damage to the Witch-king of Angmar
+Valueline4= Reduces targeted enemy's speed by -25% for 15 seconds 
 Valueline5= Left click icon then left click on target
 
 
@@ -59127,7 +59167,7 @@ Valueline3=Left click to activate
 
 
 [CONTROLBAR:TooltipWhiteWolvesHowl]
-Value=Requires Level 2
+Value=Requires Level 3
 Valueline2=The White Wolves let out a bone-chilling howl,
 Valueline3=terrifying nearby enemy units for 10 seconds 
 Valueline4=Left click to activate
@@ -59979,7 +60019,7 @@ Valueline4= Passive ability
 [CONTROLBAR:ToolTipBuildWildSnowTrollHorde]
 Value=Requires Level 2 Troll Lair 
 Valueline2= 
-Valueline3=Strong vs. Infantry and Monsters 
+Valueline3=Strong vs. Elite Infantry and Monsters 
 Valueline4=
 Valueline5= Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty
 
@@ -61626,8 +61666,8 @@ Value=King's Messenger (&C)
 
 [CONTROLBAR:ToolTipDainEmissary]
 Value=Requires Level 7
-Valueline2=Target hero is immune to damage but is unable to attack for 15 seconds
-Valueline3=Can be cast on allied or enemy heroes
+Valueline2=Target allied hero is immune to damage for 15 seconds
+Valueline3=Target enemy hero is unable to attack for 15 seconds 
 Valueline4=Left click on icon then left click on target hero
 
 
@@ -61787,7 +61827,7 @@ Valueline3=+75% armour
 
 [CONTROLBAR:ToolTipToggleLineToSchiltronFormation]
 Value=The Edoras Kingsguard form up into a schiltron formation
-Valueline2=-33% movement speed, +10% armour, bonus damage to cavalry
+Valueline2=-30% movement speed, +15% damage and armour, immunity to knockback    
 
 
 [CONTROLBAR:ToolTipToggleLorienSentryLineToPorcupineFormation]
