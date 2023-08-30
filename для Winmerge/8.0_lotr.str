@@ -68127,7 +68127,7 @@ Valueline2= Galadriel: Light of Valinor deals damage to enemies
 Valueline3= Celeborn: Lord of the Galadhrim grants units +33% armour
 Valueline4=Idrial: Cleanse Shadow replenishes fallen units in a great area
 Valueline5=Haldir: Captain of the Galadhrim grants resistance to knockback and trample
-Valueline6=Rumil: Cúthalion stuns target enemy hero for 10 seconds
+Valueline6=Rumil: Cúthalion slows down target enemy hero for 10 seconds
 Valueline7= Orophin: Megilherdir deals splash damage and knockback
 Valueline8= Treebeard: Roar causes nearby enemies to flee in terror
 Valueline9= Left click icon then left click on target
@@ -68190,7 +68190,7 @@ Valueline2= Left click icon then left click on target
 [CONTROLBAR:TooltipSummonRadagastLorien]
 Value=Summons a statue of Nimrodel in the centre of a great pool of water
 Valueline2= Friendly units within the pool are immune to debuffs
-Valueline3= Increases resource production of nearby Mallorn Trees by 25% 
+Valueline3= Increases resource production of all Mallorn Trees by 10%
 Valueline4= Posseses ability to repair selected structure 
 Valueline5= Limited to 1 
 Valueline6= Left click icon then left click on pathable location
@@ -68808,7 +68808,7 @@ Value=Build Me An Army
 
 [CONTROLBAR:TooltipBuildmeanarmy]
 Value=Temporarily summons an Isengard War Camp
-Valueline2= Every 45 seconds, a horde of chosen Uruk-hai is spawned
+Valueline2= Every 45 seconds, a horde of chosen heavily-armoured Uruk-hai is spawned
 Valueline3= Respects command point limit 
 Valueline4= Limited to 1 
 Valueline5= Left click on icon then left click on target position
@@ -68820,7 +68820,7 @@ Value=Activate Build Me An Army (&W)
 
 [CONTROLBAR:TooltipBuildmeanarmyActivate]
 Value=Activate Isengard War Camp 
-Valueline2= Every 45 seconds, a horde of chosen Uruk-hai is spawned 
+Valueline2= Every 45 seconds, a horde of chosen heavily-armoured Uruk-hai is spawned 
 Valueline3= Respects command point limit
 
 
@@ -69831,7 +69831,7 @@ Value=Beas&t Slayer Arrow
 
 
 [CONTROLBAR:ToolTipBardSlamArrow]
-Value=A precise arrow shot that slows down an enemy unit by -70% for 15 seconds
+Value=A precise arrow shot that decreases enemy armour by -25% for 30 seconds
 Valueline2= Left click icon then left click on target unit
 
 
@@ -69928,6 +69928,15 @@ Valueline5= At level 10, teleports target units to the targeted location
 Valueline6=Does not work on siege units
 Valueline7=Left click icon, then left click on target units, then left click on pathable location
 
+[CONTROLBAR:BalinLookoutDurinsFolk]
+Value=Company's Lookout
+
+[CONTROLBAR:TooltipBalinLookoutDurinsFolk]
+Value=Modifier Type: Leadership
+Valueline2=Allies near Balin gain +25% vision range
+Valueline3=
+Valueline4=Passive ability
+
 
 [CONTROLBAR:BalinDwarvenWisdom]
 Value=Dwarven Wisdom (&T)
@@ -69962,6 +69971,13 @@ Valueline3= Nearby troops gain +50% experience gain, +25% armour, +33% damage an
 Valueline4= At level 7, affected units are immune to knockback and are healed by a larger amount 
 Valueline5= Left click icon then left click on target area
 
+[CONTROLBAR:TooltipBalinFlagDurinsFolk]
+Value=Requires Level 3
+Valueline2=Balin plants a banner of Durin.
+Valueline3=Nearby troops gain +50% experience gain, +25% armour, +33% damage and are partially healed.
+Valueline4=At level 7, affected units are immune to knockback and are healed by a larger amount
+Valueline5=At level 10, summons a battalion of Moria Reclaimers
+Valueline6=Left click to activate
 
 [OBJECT:BalinBanner]
 Value=Banner of Durin
@@ -70083,7 +70099,7 @@ Valueline3= Left click icon then left click on target
 
 
 [CONTROLBAR:YoungDwalinGloriousCharge]
-Value=Baruk Khazâd! (&R)
+Value=Baruk Khazâd! (&T)
 
 
 [CONTROLBAR:ToolTipYoungDwalinGloriousCharge]
@@ -70876,12 +70892,12 @@ Valueline3= Left click icon then left click on pathable location
 
 
 [CONTROLBAR:ConstructDwarvenKhazadGuardHorde]
-Value=Âzugh-Khazad-dûm (&F)
+Value=Âzugh-Khazad-dûm (&T)
 
 
 [CONTROLBAR:ToolTipBuildKhazadGuardHorde]
 Value=Khazad-dûm Veterans 
-Valueline2= Requires Level 3 Erebor Assembly and the Arkenstone 
+Valueline2= Requires Level 3 Erebor Redoubt and Balin 
 Valueline3= Strong vs. Infantry and Structures 
 Valueline4= Limited to 3
 Valueline5=
@@ -71106,7 +71122,7 @@ Value=Deep Delving
 
 
 [CONTROLBAR:TooltipDeepDelving]
-Value=+15% resources from Dwarven Mines 
+Value=+12% resources from Dwarven Mines 
 Valueline2= Passive power
 
 
@@ -71211,10 +71227,14 @@ Value=Dwalin (&G)
 [CONTROLBAR:DwalinHotkey_Adventure]
 Value=Dwalin (&D)
 
+[CONTROLBAR:DwalinOldHotkey_Adventure]
+Value=Dwalin (&S)
 
 [CONTROLBAR:DwalinLeadership]
 Value=Brother-in-Arms
 
+[CONTROLBAR:DwalinLeadership_Old]
+Value=Son of Fundin
 
 [CONTROLBAR:ToolTipDwalinLeadership]
 Value=Modifier Type: Spell 
@@ -71222,6 +71242,11 @@ Valueline2= When near Thorin, Dwalin gains
 Valueline3=+15% damage, +15% armour, and +15% attack speed 
 Valueline4=Passive ability
 
+[CONTROLBAR:ToolTipDwalinLeadership_Old]
+Value=Modifier Type: Spell
+Valueline2=When near Balin, Dwalin gains
+Valueline3=+15% damage, +15% armour, and +15% attack speed
+Valueline4=Passive ability
 
 [CONTROLBAR:OldDwalinLeadership]
 Value=Veteran
@@ -71252,9 +71277,36 @@ Value=Long-lived Warrior (&T)
 Value=Dwalin temporarily gains +50% armour and regains health per hit 
 Valueline2= Left click to activate
 
+[CONTROLBAR:tooltipCommand_ToggleDwalinHammer]
+Value=Toggle to War Hammer (&W)
+
+[CONTROLBAR:tooltipCommand_ToggleDwalinAxesBasic]
+Value=Toggle to Grasper and Keeper (&W)
+
+[CONTROLBAR:ToolTipDwalinHammer]
+Value=Switch to War Hammer
+Valueline2=Dwalin gains +33% damage against heroes and buildings, and +25% armour but loses -50% damage radius
+
+[CONTROLBAR:ToolTipDwalinAxesBasic]
+Value=Switch to Grasper and Keeper
+Valueline2=Dwalin gains +33% damage against infantry and +50% damage radius
+
+[CONTROLBAR:tooltipCommand_ToggleWarAxe]
+Value=Toggle to War Axe (&W)
+
+[CONTROLBAR:tooltipCommand_ToggleDwalinAxesUpg]
+Value=Toggle to Dual Axes (&W)
+
+[CONTROLBAR:ToolTipDwalinWarAxe]
+Value=Switch to War Axe
+Valueline2=Dwalin gains +33% damage against heroes and buildings, and +25% armour but loses -50% damage radius
+
+[CONTROLBAR:ToolTipDwalinAxesUpg]
+Value=Switch to Dual Axes
+Valueline2=Dwalin gains +33% damage against infantry and +50% damage radius
 
 [CONTROLBAR:DwalinJuggernaut]
-Value=Dwarven Juggernaut (&C)
+Value=Dwarven Juggernaut (&V)
 
 
 [CONTROLBAR:ToolTipDwalinJuggernaut]
@@ -71266,7 +71318,7 @@ Valueline5= Left click to activate
 
 
 [CONTROLBAR:DwalinSmash]
-Value=Furious Blow (&T)
+Value=Furious Blow (&C)
 
 
 [CONTROLBAR:ToolTipDwalinSmash]
@@ -71276,7 +71328,7 @@ Valueline3= Left click icon then left click on target
 
 
 [CONTROLBAR:DwalinGloriousCharge]
-Value=Baruk Khazâd! (&R)
+Value=Baruk Khazâd! (&T)
 
 
 [CONTROLBAR:ToolTipDwalinGloriousCharge]
@@ -71620,8 +71672,9 @@ Value=Keen Eye (&W)
 Value=Nearby structures receive +25% armour 
 Valueline2= Nearby Mangonels gain +10% range 
 Valueline3= Passive Ability 
-Valueline4= At rank 3, can be cast on enemy structures to reduce their armour by 33% for 10 seconds
-Valueline5= Left click icon then left click on target
+Valueline4= 
+Valueline5=Can be cast on enemy structures to reduce their armour by 33% for 10 seconds
+Valueline6= Left click icon then left click on target
 
 
 [CONTROLBAR:HadhodSabotage]
@@ -71641,11 +71694,11 @@ Value=Stone Hewer (&T)
 
 
 [CONTROLBAR:ToolTipHadhodStoneHewer]
-Value=Requires Level 6
+Value=Requires Level 5
 Valueline2=Nearby Dwarven units deal +25% damage against structures
 Valueline3=Passive ability
 Valueline4=
-Valueline5=At rank 8, can be cast to grant siege hammers upgrade to Erebor Warriors in radius
+Valueline5=Can be cast to grant siege hammers upgrade to Erebor Warriors in radius
 Valueline6=Left click icon then left click on target battalion
 
 
@@ -71654,7 +71707,7 @@ Value=Bonds of Friendship (&C)
 
 
 [CONTROLBAR:TooltipBondsofFriendship]
-Value=Requires Level 10
+Value=Requires Level 7
 Valueline2=Summons Elegost the Dúnadan to the battlefield
 Valueline3=Left click to activate
 
@@ -71673,7 +71726,7 @@ Value=Grace of Kingsfoil (&R)
 
 
 [CONTROLBAR:ToolTipElegostHeal]
-Value=For 15 seconds, Elegost heals nearby units and heroes over time
+Value=For 10 seconds, Elegost heals nearby units and heroes over time
 Valueline2=Left click to activate
 
 
