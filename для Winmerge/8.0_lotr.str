@@ -76717,7 +76717,11 @@ Valueline2=Has to be rebought after usage
 
 
 [CONTROLBAR:ToolTipDraftTowerOathFirienholt]
-Value=Summons one battalion of Halifirien Wardens to defend the tower
+Value=Summons a permanent battalion of Halifirien Wardens
+Valueline2=Can be cast near any Draft Tower or Fortress
+Valueline3=Respects command point limit
+Valueline4=Requires 72 command points to be summoned
+Valueline5=Left click then left click target area
 
 
 [CONTROLBAR:PurchaseDraftTowerRohirrim]
@@ -76725,11 +76729,15 @@ Value=Oath: Éored (&T)
 
 
 [CONTROLBAR:ToolTipPurchaseDraftTowerRohirrim]
-Value=Permanently alters the active Oath to summon a battalion of upgraded Rohirrim Warriors
-
+Value=Alters the active Oath to summon a permanent battalion of Rohirrim Warriors
+Valueline2=Has to be rebought after usage
 
 [CONTROLBAR:ToolTipDraftTowerOathRohirrim]
-Value=Summons one battalion of upgraded Rohirrim Warriors to defend the tower
+Value=Summons a permanent battalion of Rohirrim Warriors
+Valueline2=Can be cast near any Draft Tower or Fortress
+Valueline3=Respects command point limit
+Valueline4=Requires 80 command points to be summoned
+Valueline5=Left click then left click target area
 
 
 [OBJECT:RohanLoneScout]
@@ -76769,14 +76777,25 @@ Valueline3= Passive ability
 
 
 [CONTROLBAR:DoorWardenKingsguardLeadership]
-Value=Door-wardens
-
+Value=Door-wardens (&R)
 
 [CONTROLBAR:TooltipDoorWardenKingsguardLeadership]
 Value=Modifier Type: Leadership 
 Valueline2= The Kingsguard grants nearby structures +33% armour
-Valueline3= 
-Valueline4= Passive ability
+Valueline3= Passive ability
+Valueline4= 
+Valueline5= When bought, permanently equips Doorwardens with swords 
+Valueline6= Left click to upgrade this unit
+
+[CONTROLBAR:DoorWardenKingsguardLeadershipFake]
+Value=Door-wardens
+
+[CONTROLBAR:TooltipDoorWardenKingsguardLeadershipFake]
+Value=Modifier Type: Leadership
+Valueline2=The Kingsguard grants nearby structures +33% armour
+Valueline3=Passive ability
+Valueline4=
+Valueline5=Swords have been equipped
 
 
 [CONTROLBAR:KingsguardLeadership]
@@ -76852,7 +76871,7 @@ Value=Drafted
 
 [CONTROLBAR:ToolTipRohanPeasantHasDraft]
 Value=Requires Draft power
-Valueline2= Peasants have received swords and shields, gaining +5 damage and +40 health 
+Valueline2= Peasants have received swords and shields, gaining +5 damage and +20 health 
 Valueline3= Peasants can now be upgraded with Forged Blades and Heavy Armour
 
 
@@ -76862,7 +76881,7 @@ Value=Purchase Draf&t
 
 [CONTROLBAR:ToolTipPurchaseUpgradeRohanDraft]
 Value=Allows peasants to receive swords and shields,
-Valueline2=gaining +5 damage and +40 health 
+Valueline2=gaining +5 damage and +20 health 
 Valueline3= Peasants can be upgraded with Forged Blades and Heavy Armour
 
 
@@ -76871,7 +76890,7 @@ Value=Gilded Horn (&W)
 
 
 [CONTROLBAR:ToolTipErkenbrandHorn]
-Value=Nearby infantry gain +20% bonus speed and resistance to fear, knockback and trample for 30 seconds
+Value=Nearby infantry and heroes gain +20% bonus speed and resistance to fear, terror, knockback and trample for 30 seconds
 Valueline2=Left click to activate
 
 
@@ -77080,7 +77099,7 @@ Value=Readiness (&R)
 
 
 [CONTROLBAR:ToolTipEowynReadiness]
-Value=Requires Level 3 
+Value=Requires Level 2
 Valueline2= Summons a permanent battalion of drafted Peasants
 Valueline3=Respects command point limit
 Valueline4=Left click to activate
@@ -77091,7 +77110,7 @@ Value=Dernhelm (&T)
 
 
 [CONTROLBAR:ToolTipToggleEowynDernhelm]
-Value=Requires Level 5 
+Value=Requires Level 4
 Valueline2= Éowyn dons Dernhelm's armour 
 Valueline3= Toggle between White Lady and Dernhelm
 
@@ -77101,7 +77120,7 @@ Value=White Lady (&W)
 
 
 [CONTROLBAR:ToolTipToggleEowynLady]
-Value=Requires Level 5 
+Value=Requires Level 4
 Valueline2= Éowyn dons her gown 
 Valueline3= Toggle between White Lady and Dernhelm
 
@@ -77117,11 +77136,11 @@ Valueline3= Left click on icon then left click on target position
 
 
 [CONTROLBAR:EowynCourage]
-Value=Courage for our Friends (&T)
+Value=Courage for our Friends (&C)
 
 
 [CONTROLBAR:ToolTipEowynCourage]
-Value=Requires Level 5 
+Value=Requires Level 6
 Valueline2= Modifier Type: Spell 
 Valueline3= Éowyn gains +33% damage and armour while nearby allies gain resistance to fear and terror for 30 seconds 
 Valueline4= Left click to activate
@@ -77135,7 +77154,7 @@ Value=Quick Rescue (&T)
 Value=Requires Level 3 
 Valueline2= Modifier Type: Spell 
 Valueline3= Nearby cavalry gains +15% speed while nearby infantry gains +15% armour for 30 seconds 
-Valueline4= Both cavalry and infantry gain bonus damage against machines for the duration 
+Valueline4= Both cavalry and infantry gain +25% damage against machines for the duration 
 Valueline5=Left click to activate
 
 
@@ -77155,7 +77174,7 @@ Value=Marshall of the East-mark
 
 
 [CONTROLBAR:ToolTipElfhelmLeadership]
-Value=Requires Level 9 
+Value=Requires Level 7
 Valueline2= Modifier Type: Leadership 
 Valueline3= Halifirien Wardens, Yeoman Archers and Rohirrim Archers near Elfhelm gain +15% attack range and +33% damage
 Valueline4=Riders of Snowbourn near Elfhelm gain +33% armour
@@ -77170,7 +77189,7 @@ Value=Esquire of Rohan
 Value=Requires Level 5 
 Valueline2= Modifier Type: Leadership 
 Valueline3= Merry gains +25% armour and +25% damage when near Éowyn 
-Valueline4= Nearby heroes gain experience +50% faster 
+Valueline4= Nearby heroes gain experience +33% faster 
 Valueline5= Merry's health is increased 
 Valueline6= Passive ability
 
@@ -77196,7 +77215,7 @@ Value=Púkel-man Statue
 [OBJECT:RohanPukelStatueDescription]
 Value=A Púkel-man statue harboring strange magic 
 Valueline2=
-Valueline3= Nearby enemies lose all leaderships and suffer -25% damage, and -25% crush armour
+Valueline3= Nearby enemies suffer -25% damage and armour
 
 
 [CONTROLBAR:PukelMoveUnseen]
@@ -77313,7 +77332,7 @@ Valueline4= A battering ram is a basic tool for siege warfare. Easy to make, and
 
 
 [CONTROLBAR:ConstructRohanHelmingasWardenHorde]
-Value=Helmingas Warriors (&T)
+Value=Helmingas Warriors (&R)
 
 
 [CONTROLBAR:ToolTipBuildRohanHelmingasWardenHorde]
@@ -94238,6 +94257,14 @@ Value=Taur-na-Vereth*
 Value=The secluded 'Forest of Feasting' contains numerous small hidden glades where the elven folk of the Woodland Realm delight in feasting and merriment, unless they be disturbed by uninvited guests. 
 Valueline2= Region: Rhovanion
 
+[Map:MAPMPtaurorthon]
+Value=Taur Orthon*
+
+[Map:MAPMPtaurorthon/Desc]
+Value=These are borderlands between the windswept utter north of Eriador and the frigid wastelands of Forodwaith.
+Valueline2=Capturable: Inn
+Valueline3=Creeps: White Wargs
+Valueline4=Region: Forodwaith
 
 
 
@@ -94418,8 +94445,9 @@ Value=Ul-tâla*
 
 [Map:MAPMPultala/Desc]
 Value=The rolling hills of Ul-tâla, the 'Great Steppe', lie to the far east in distant Rhûn. These flowering grasslands are largely uninhabited save for fortified outposts that guard strategic trade routes and nearby nomadic tribes. 
-Valueline2= Creeps: Warg 
-Valueline3= Region: Rhûn
+Valueline2= Capturable: Inn
+Valueline3= Creeps: Warg 
+Valueline4= Region: Rhûn
 
 
 
