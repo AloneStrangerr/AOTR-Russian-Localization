@@ -72192,6 +72192,10 @@ Value=Requires Level 5
 Valueline2= Summons a battalion of Barding Outriders 
 Valueline3= Left click icon then left click on pathable location
 
+[CONTROLBAR:ToolTipRoacArcahMessengerDurinsFolk]
+Value=Requires Level 5 
+Valueline2= Summons a battalion of Iron Hills Warriors
+Valueline3= Left click icon then left click on pathable location
 
 [UPGRADE:RoacLevel3]
 Value=Roac Level 3
@@ -73379,7 +73383,8 @@ Value=Revive the fallen Hero, King Dáin
 [CONTROLBAR:DwarvenKingDainHotkey]
 Value=King Dáin (&F)
 
-
+[CONTROLBAR:DwarvenKingDainAdventureHotkey]
+Value=King Dáin (&G)
 
 [CONTROLBAR:ToggleStanceBattleDain]
 Value=Battle Stance
@@ -74542,8 +74547,10 @@ Value=Unfurl Ironfoot's Banners!
 
 [CONTROLBAR:TooltipDwarvenWagonButtonBC]
 Value=Requires Level 2
-Valueline2=Nearby Dwarves gain +33% damage, +33% armour, and +50% experience gain
-Valueline3= Passive ability
+Valueline2=Modifier Type: Leadership
+Valueline3=Nearby Dwarves gain +33% damage, +33% armour, and +50% experience gain
+Valueline4=Stacks with Buffs and Spells
+Valueline5=Passive ability
 
 
 [CONTROLBAR:DwarvenWagonButon1]
@@ -75971,7 +75978,7 @@ Value=Ring of Air (&T)
 Value=Requires Level 3
 Valueline2= Modifier Type: Buff
 Valueline3=Creates a circular sanctuary around Elrond for 30 seconds
-Valueline4=Allied units gain +100% armour while in the area
+Valueline4=Allied units gain +75% armour while in the area
 Valueline5=Rank 5: Nearby enemy units suffer -25% damage, -20% armour and lose all leadership while nearby allies are immune to fear and terror
 Valueline6=Rank 8: The sanctuary's radius increases and enemy units are knocked back each 7 seconds 
 Valueline7=Left click icon to activate
@@ -76223,10 +76230,9 @@ Value=H&áma
 Value=Erkenbrand
 
 [CONTROLBAR:RohanErkenbrandRecruit]
-Value=Requires the Horn of the Westfold power to be used 
-Valueline2= Recruit the Lord of the Westfold 
-Valueline3= 
-Valueline4= Amid them strode a man tall and strong. His shield was red. As he came to the valley's brink, he set to his lips a great black horn and blew a ringing blast. 'Erkenbrand!' the Riders shouted. 'Erkenbrand!'
+Value=Recruit the Lord of the Westfold 
+Valueline2= 
+Valueline3= Amid them strode a man tall and strong. His shield was red. As he came to the valley's brink, he set to his lips a great black horn and blew a ringing blast. 'Erkenbrand!' the Riders shouted. 'Erkenbrand!'
 
 [CONTROLBAR:RohanErkenbrandRevive]
 Value=Revive the fallen Hero, Erkenbrand
@@ -76264,16 +76270,15 @@ Value=Westfolders
 
 
 [CONTROLBAR:ConstructRohanWestfolderHorde]
-Value=Westfolders (&E)
+Value=Westfolders (&W)
 
 
 [CONTROLBAR:ToolTipBuildRohanWestfolderHorde]
-Value=Requires Level 2 Barracks
-Valueline2=and the Horn of the Westfold power to be used
-Valueline3= Strong vs. Pikemen
-Valueline4= Able to switch formation 
-Valueline5= 
-Valueline6= These hardy, disciplined men were some of the best-armed warriors in the Riddermark. Their shieldwall was feared amongst the enemies of the Westfold, particularly the men of Dunland.
+Value=Requires Erkenbrand
+Valueline2=Strong vs. Pikemen
+Valueline3= Able to switch formation 
+Valueline4= 
+Valueline5= These hardy, disciplined men were some of the best-armed warriors in the Riddermark. Their shieldwall was feared amongst the enemies of the Westfold, particularly the men of Dunland.
 
 
 [CONTROLBAR:ToolTipToggleWestfolderBlockToLineFormationElite]
@@ -76369,11 +76374,11 @@ Value=Edoras Kingsguard
 
 
 [CONTROLBAR:ConstructRohanDoorWardenHorde]
-Value=Edoras Kingsguard (&R)
+Value=Edoras Kingsguard (&E)
 
 
 [CONTROLBAR:ToolTipBuildRohanDoorWardenHorde]
-Value=Requires Level 3 Barracks 
+Value=Requires Level 2 Barracks 
 Valueline2= Strong vs. Pikemen 
 Valueline3= 
 Valueline4= Alternatively named the Door-Wardens, these warriors were hand-picked by the King and tasked with the safety of Meduseld. In times of war, they would each lead a small part of a greater Éored.
@@ -76382,7 +76387,7 @@ Valueline4= Alternatively named the Door-Wardens, these warriors were hand-picke
 [CONTROLBAR:ToolTipConstructRohanFarm]
 Value=Provides field as a resource based on available terrain 
 Valueline2=Reduced cost of cavalry
-Valueline3= Grants nearby Peasants +35% speed 
+Valueline3= Grants nearby Peasants +10% damage and armour
 Valueline4= Increases command point limit by 50
 
 
@@ -76395,7 +76400,7 @@ Valueline5= 4 Farms: 15%
 Valueline6= 5 Farms: 20% 
 Valueline7= 6+ Farms: 25% 
 Valueline8= 
-Valueline9= Nearby Peasants gain 35% speed
+Valueline9= Nearby Peasants gain +10% damage and armour
 
 
 [OBJECT:RohanWindmill]
@@ -76409,7 +76414,7 @@ Value=Build Windmill (&R)
 [CONTROLBAR:ToolTipConstructRohanWindmill]
 Value=Provides bread as a resource based on available terrain 
 Valueline2=Reduced cost of infantry 
-Valueline3= Grants nearby Peasants +35% speed
+Valueline3= Grants nearby Peasants +10% damage and armour
 Valueline4= Increases command point limit by 50
 
 
@@ -76422,7 +76427,7 @@ Valueline5= 4 Windmills: 15%
 Valueline6= 5 Windmills: 20% 
 Valueline7= 6+ Windmills: 25% 
 Valueline8= 
-Valueline9= Nearby Peasants gain +35% speed
+Valueline9= Nearby Peasants gain +10% damage and armour
 
 
 [OBJECT:RohanStablesDescription]
@@ -76465,7 +76470,7 @@ Value=Lone Scout
 
 
 [CONTROLBAR:ToolTipSummonLoneScout]
-Value=Summons a temporary, Rohirrim scout which grants +15% speed, +25% armour and +25% damage to nearby allied units
+Value=Summons a temporary, Rohirrim scout which grants +15% speed and +35% damage to nearby allied units
 Valueline2= Left click icon then left click on pathable location
 
 
@@ -76485,8 +76490,7 @@ Value=Horn of the Westfold
 [CONTROLBAR:TooltipWestfoldHorn]
 Value=Modifier Type: Buff 
 Valueline2= Targeted allies gain +60% damage and +60% armour for 60 seconds
-Valueline3= Once used, passively unlocks Erkenbrand and Westfolders 
-Valueline4= Left click icon then left click on target units 
+Valueline3=Left click icon then left click on target units 
 
 
 [CONTROLBAR:TooltipWestfoldHorn_WOTR]
@@ -76502,7 +76506,7 @@ Value=Skill of the Woses
 
 [CONTROLBAR:TooltipPukelStatue]
 Value=Summons a Púkel-man statue harboring strange magic 
-Valueline2= Nearby enemies lose all leaderships and suffer -25% damage, and -25% crush armour 
+Valueline2= Nearby enemies suffer -25% damage and armour 
 Valueline3= Limited to 2 
 Valueline4= Left click icon then left click on pathable location
 
@@ -76544,9 +76548,11 @@ Value=Boar of Everholt
 
 [CONTROLBAR:ToolTipEverholtBoar]
 Value=Summons the Great Boar of Everholt 
-Valueline2= The boar tramples, deals good siege damage and attacks everything in sight 
-Valueline3= Left click icon then left click on pathable location
-
+Valueline2= The boar tramples and attacks everything in sight 
+Valueline3=Enemies near the boar suffer -33% speed and lose all leadership
+Valueline4=Upon dying, the Great Boar spawns the Hunter's Trophy which stays on the battlefield for 60 seconds
+Valueline5=Allies in its vicinity gain +25% damage and are immune to fear and terror
+Valueline6=Left click icon then left click on pathable location
 
 [CONTROLBAR:SummonLastMarch]
 Value=Last March
@@ -76568,12 +76574,12 @@ Valueline3= Left click icon then left click on pathable location
 
 
 [CONTROLBAR:ToolTipBuildRohanBarracksLevel2Upgrade]
-Value=Allows training of Westfolders and research of the Forged Blades upgrade
+Value=Allows training of Edoras Kingsguard and research of the Forged Blades upgrade
 Valueline2=+10% faster build speed
 
 
 [CONTROLBAR:ToolTipBuildRohanBarracksLevel3Upgrade]
-Value=Allows training of Edoras Kingsguard, Helmingas Warriors 
+Value=Allows training of Helmingas Warriors 
 Valueline2= and research of the Heavy Armour upgrade
 Valueline3=+25% faster build speed
 Valueline4=Adds defensive arrow tower
@@ -76588,9 +76594,6 @@ Valueline3=Adds defensive arrow tower
 [CONTROLBAR:ToolTipBuildRohanArcherRangeLevel2Upgrade]
 Value=Allows training of Halifirien Wardens and research of the Fire Arrows upgrade
 Valueline2=+10% faster build speed
-
-[CONTROLBAR:ToolTipBuildRohanArcherRangeLevel2UpgradeFoI]
-Value=+10% faster build speed
 
 [CONTROLBAR:ToolTipBuildRohanArcherRangeLevel3Upgrade]
 Value=+25% faster build speed
@@ -76675,11 +76678,14 @@ Value=Oath: Éored (&W)
 
 
 [CONTROLBAR:DraftTowerOath]
-Value=Oaths You Have Taken... (&W)
+Value=Oaths You Have Taken... (&E)
+
+[CONTROLBAR:DraftTowerOathPeasants]
+Value=Fierce Defenders (&W)
 
 
 [CONTROLBAR:ToolTipDraftTowerOathPeasant]
-Value=Summons two battalions of drafted peasants to defend the tower
+Value=Summons two temporary battalions of drafted peasants to defend the tower
 
 
 [CONTROLBAR:PurchaseDraftTowerWestfolder]
@@ -76687,12 +76693,18 @@ Value=Oath: Westfold (&E)
 
 
 [CONTROLBAR:ToolTipPurchaseDraftTowerWestfolder]
-Value=Requires the Horn of the Westfold power to be used
-Valueline2=Permanently alters the active Oath to summon a battalion of Westfolders
+Value=Requires Erkenbrand to be used
+Valueline2=Alters the active Oath to summon a permanent battalion of Westfolders
+Valueline3=Has to be rebought after usage
 
 
 [CONTROLBAR:ToolTipDraftTowerOathWestfolder]
-Value=Summons one battalion of Westfolders to defend the tower
+Value=Summons a permanent battalion of Westfolders
+Valueline2=Can be cast near any Draft Tower or Fortress
+Valueline3=Respects command point limit
+Valueline4=Requires 75 command points to be summoned
+Valueline5=Left click then left click target area
+
 
 
 [CONTROLBAR:PurchaseDraftTowerFirienholt]
@@ -76700,7 +76712,8 @@ Value=Oath: Firienholt (&R)
 
 
 [CONTROLBAR:ToolTipPurchaseDraftTowerFirienholt]
-Value=Permanently alters the active Oath to summon a battalion of Halifirien Wardens
+Value=Alters the active Oath to summon a permanent battalion of Halifirien Wardens
+Valueline2=Has to be rebought after usage
 
 
 [CONTROLBAR:ToolTipDraftTowerOathFirienholt]
