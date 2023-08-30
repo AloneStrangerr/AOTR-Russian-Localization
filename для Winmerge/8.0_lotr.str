@@ -61845,7 +61845,7 @@ Value=Mount Windfola / Dismount (&R)
 
 
 [CONTROLBAR:ToolTipNewEowynMount]
-Value=Requires Level 5 
+Value=Requires Level 4 
 Valueline2= Left click to switch between mounted on Windfola and on foot 
 Valueline3= When mounted on Windfola, Eowyn gains +25% armour near Rohirrim units
 
@@ -61896,7 +61896,8 @@ Value=+25% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeMordorTrollCageLevel2]
-Value=+10% faster build speed
+Value=Allows training of the Drummer Troll
+Valueline2=+10% faster build speed
 
 
 [CONTROLBAR:TooltipUpgradeMordorSiegeWorksLevel3]
@@ -62340,6 +62341,9 @@ Valueline2= Allows training of Iron Hills Phalanx and Iron Hills Crossbowmen
 Value=+25% faster build speed 
 Valueline2= Allows training of Khazâd-uzbadul
 
+[CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3Custom]
+Value=+25% faster build speed
+Valueline2= Allows training of Khazâd-uzbadul and Khazâd-Dum Veterans
 
 [CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3BotFA]
 Value=+25% faster build speed 
@@ -62529,7 +62533,7 @@ Value=By GameReplays.org
 
 
 [Version:Format2]
-Value=Age of the Ring Version 8.1
+Value=Age of the Ring Version 8.2
 
 
 [Version:Format3]
@@ -62944,7 +62948,7 @@ Value=Halfling Courage
 [CONTROLBAR:ToolTipPippinCourage]
 Value=Requires Level 5
 Valueline2= Modifier Type: Leadership 
-Valueline3= Nearby heroes earn experience 60% faster 
+Valueline3= Nearby heroes earn experience 33% faster 
 Valueline4= Pippin's health is increased 
 Valueline5= Passive ability
 
@@ -64875,7 +64879,7 @@ Valueline4=Left click icon then left click on target
 [CONTROLBAR:ToolTipRumilWoundingArrowGifts]
 Value=Requires Level 3 
 Valueline2= Single ranged attack
-Valueline3=Target enemy hero is stunned for 10 seconds
+Valueline3=Target enemy hero is slowed down by -75% for 10 seconds
 Valueline4=Causes target monster to flee
 Valueline5=Left click icon then left click on target
 
@@ -66114,13 +66118,15 @@ Valueline2= The Houndmaster's arrows cause enemies to suffer damage over time fo
 Valueline3=Passive ability
 
 [CONTROLBAR:MasterSteppes]
-Value=Master of the Khandish Steppes
+Value=Master of the Khandish Steppes (&R)
 
 [CONTROLBAR:TooltipMasterSteppes]
 Value=Requires Level 3
 Valueline2=Modifier Type: Leadership
 Valueline3= Nearby Variags, Wardogs, and Rhûn Serf units gain +15% armour and +15% damage
 Valueline4=Passive ability
+Valueline5=
+Valueline6=Left click to switch between mounted and on foot
 
 [CONTROLBAR:WarmongersShot]
 Value=Warmonger's Shot (&T)
@@ -67948,7 +67954,9 @@ Value=Dead of Arnor (&E)
 
 
 [CONTROLBAR:ToolTipBuildWildRisenDeadHorde]
-Value=Fell spirits have long haunted the ruined castles of ancient Angmar. When the Witch-king rode North in pursuit of the Ring, he sent these spirits forth, to inhabit the bodies of long-dead Arnorian soldiers.
+Value=Strong vs. Pikemen
+Valueline2=
+Valueline3=Fell spirits have long haunted the ruined castles of ancient Angmar. When the Witch-king rode North in pursuit of the Ring, he sent these spirits forth, to inhabit the bodies of long-dead Arnorian soldiers.
 
 
 [CONTROLBAR:MOSLieutenant]
