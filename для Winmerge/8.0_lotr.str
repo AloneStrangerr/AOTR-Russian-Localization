@@ -78027,7 +78027,7 @@ Value=Peasantry of the Mark (&W)
 
 
 [CONTROLBAR:ToolTipRohanPeasantry]
-Value=Switch to peasants recruitment
+Value=Switch to recruitment of Peasants and Yeomen Spearmen
 
 
 [CONTROLBAR:SpecialAbilityTheArkenstone]
@@ -78185,7 +78185,7 @@ Value=Chill of Angmar
 
 
 [CONTROLBAR:ToolTipChillofAngmar]
-Value=Nearby enemy units are slowed and lose all leadership 
+Value=Nearby enemy units are slowed by 25% and lose all leadership 
 Valueline2= Passive Ability
 
 
@@ -78194,28 +78194,33 @@ Value=For the Hornburg! (&R)
 
 
 [CONTROLBAR:ToolTipHelmingasShieldCrush]
-Value=The Helmingas can crush enemies and are immune to arrows for 20 seconds
-Valueline2=Left click to activate
+Value=Modifier Type: Spell
+Valueline2=Allies near the Helmingas become immune to fear and terror
+Valueline3=Passive ability
+Valueline4=
+Valueline5=When activated, the Helmingas can crush enemies and are immune to arrows for 20 seconds
+Valueline6=Left click to activate
+
 
 
 [CONTROLBAR:MarkOfHelm]
-Value=Mark of Helm (&T)
+Value=Mark of Helm (&C)
 
 
 [CONTROLBAR:ToolTipMarkOfHelm]
-Value=Requires Level 3 
+Value=Requires Level 6 
 Valueline2= The Helmingas grant the Mark of Helm to an allied unit, causing them to gain +100% attack damage for 60 seconds
 Valueline3= Left click on icon then left click on target battalion
 
 
 [CONTROLBAR:MarkOfFreca]
-Value=Mark of Freca (&C)
+Value=Mark of Freca (&T)
 
 
 [CONTROLBAR:ToolTipMarkOfFreca]
-Value=Requires Level 6 
+Value=Requires Level 3
 Valueline2= The Helmingas grant the Mark of Freca to an enemy unit, 
-Valueline3= causing them to flee in fear and lose -33% armour for 60 seconds
+Valueline3= causing them to flee in fear, lose all leadership and -33% armour for 60 seconds
 Valueline4= Left click on icon then left click on target battalion
 
 
@@ -78385,7 +78390,7 @@ Value=Halfling Courage (&V)
 
 
 [CONTROLBAR:ToolTipMerryBlade]
-Value=Requires Level 10 
+Value=Requires Level 7
 Valueline2= Merry plunges his Blade of Westernesse into an enemy hero,
 Valueline3= dealing strong damage and decreasing armour by -33% for 10 seconds 
 Valueline4= Can only use when sword is equipped 
@@ -78669,7 +78674,7 @@ Value=Lone Scout
 
 [CONTROLBAR:TooltipLoneScoutLeadership]
 Value=Modifier Type: Buff 
-Valueline2= The Outrider grants nearby units +15% speed, +25% armour and +25% damage
+Valueline2= The Outrider grants nearby units +15% speed and +35% damage
 Valueline3= Passive ability
 
 
@@ -79232,8 +79237,8 @@ Value=Infestation (&W)
 
 [CONTROLBAR:ToolTipGuldurInfestation]
 Value=Requires a Spider Lair
-Valueline2=Summons a temporary swarm of spiders around the structure
-Valueline3=that slows nearby enemies' attack and movement speed by 20% and deals minor damage for 30 seconds
+Valueline2=Summons a swarm of spiders around the structure for 30 seconds
+Valueline3=that slows nearby enemies' attack and movement speed by 20% and deals minor damage to nearby enemies
 Valueline4=Left click to activate
 
 
@@ -80841,6 +80846,8 @@ Value=Revive the fallen Hero, Thorin III Stonehelm
 [CONTROLBAR:DwarvenThorinHelmHotkey]
 Value=Thorin III Stonehelm (&D)
 
+[CONTROLBAR:DwarvenThorinHelmAdventureHotkey]
+Value=Thorin III Stonehelm (&F)
 
 [OBJECT:DwarvenHadhod]
 Value=Hadhod
@@ -81228,7 +81235,7 @@ Value=His Deadliest Servants
 
 [CONTROLBAR:ToolTipMordorFortressDeadliestServants]
 Value=Requires the Morgul Spire upgrade
-Valueline2=Grants +20% damage and +30% armour
+Valueline2=Grants +20% damage and +20% armour
 Valueline3=to all Nazgûl on the battlefield
 Valueline4=Does not affect Fellbeasts
 Valueline5=Passive ability
@@ -86872,8 +86879,8 @@ Value=Primary Upgrade: Galadhrim Garrison
 
 [CONTROLBAR:ToolTipUpgradeMallornGaladhrimGarrisonFake]
 Value=Allows the recruitment of Lothlórien's infantry units 
-Valueline2= Increases command point limit by 25
-
+Valueline2= Increases armour of the Mallorn Tree by 33%
+Valueline3= Increases command point limit by 25
 
 [CONTROLBAR:UpgradeMallornGaladhrimGarrison]
 Value=Primary Upgrade: Galadhrim Garrison (&E)
@@ -86882,7 +86889,8 @@ Value=Primary Upgrade: Galadhrim Garrison (&E)
 [CONTROLBAR:ToolTipUpgradeMallornGaladhrimGarrison]
 Value=Turns the Mallorn Tree into a Galadhrim Garrison 
 Valueline2= Allows the recruitment of Lothlórien's infantry units 
-Valueline3= Increases command point limit by 25
+Valueline3= Increases armour of the Mallorn Tree by 33%
+Valueline4=Increases command point limit by 25
 
 
 [CONTROLBAR:UpgradeMallornGreenPasture]
@@ -86892,7 +86900,8 @@ Value=Primary Upgrade: Green Pasture (&R)
 [CONTROLBAR:ToolTipUpgradeMallornGreenPasture]
 Value=Turns the Mallorn Tree into a Green Pasture 
 Valueline2= Allows the recruitment of Riders of the Naith 
-Valueline3= Increases command point limit by 25
+Valueline3= Increases armour of the Mallorn Tree by 33%
+Valueline4=Increases command point limit by 25
 
 
 [CONTROLBAR:UpgradeMallornGreenPastureFake]
@@ -86901,7 +86910,8 @@ Value=Primary Upgrade: Green Pasture
 
 [CONTROLBAR:ToolTipUpgradeMallornGreenPastureFake]
 Value=Allows the recruitment of Riders of the Naith 
-Valueline2= Increases command point limit by 25
+Valueline2= Increases armour of the Mallorn Tree by 33%
+Valueline3=Increases command point limit by 25
 
 
 [CONTROLBAR:UpgradeMallornStorehouse]
@@ -86910,9 +86920,10 @@ Value=Primary Upgrade: Storehouse (&T)
 
 [CONTROLBAR:ToolTipUpgradeMallornStorehouse]
 Value=Turns the Mallorn Tree into a Storehouse 
-Valueline2= Allows the purchase of various upgrades 
-Valueline3=  Reduces cost of upgrades 
-Valueline4= Increases command point limit by 25
+Valueline2=Increases resource production of the Mallorn Tree
+Valueline3=Allows the purchase of various upgrades 
+Valueline4=  Reduces cost of upgrades 
+Valueline5= Increases command point limit by 25
 
 
 [CONTROLBAR:UpgradeMallornStorehouseFake]
@@ -86921,7 +86932,8 @@ Value=Primary Upgrade: Storehouse
 
 [CONTROLBAR:ToolTipUpgradeMallornStorehouseFake]
 Value=Allows the purchase of various upgrades 
-Valueline2= Increases command point limit by 25
+Valueline2=Increases resource production of the Mallorn Tree
+Valueline3=Increases command point limit by 25
 
 
 [CONTROLBAR:SecondaryUpgrades]
@@ -89651,9 +89663,16 @@ Value=The fortress gains the ability to use the Drums in the Deep
 Valueline2=Temporarily summons 5 hordes of Moria-orc Screechers
 Valueline3=Grants Moria structures ability to cast Drums in the Deep to temporarily summon 2 hordes of Moria-orc Screechers
 
+[CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDrumsInTheDeepMoria_Fortress]
+Value=Grants Moria structures ability to cast Drums in the Deep to temporarily summon 2 hordes of Moria-orc Screechers
+
 [TOOLTIP:LackDragonNestWebCocoonMoria]
 Value=Requires the Descecrated Halls upgrade 
 Valueline2= Temporarily summons 5 hordes of Moria-orc Screechers and unlocks Drums in the Deep for Moria structures
+
+[TOOLTIP:LackDragonNestWebCocoonMoria_Fortress]
+Value=Requires the Descecrated Halls upgrade
+Valueline2=Grants Moria structures ability to cast Drums in the Deep to temporarily summon 2 hordes of Moria-orc Screechers
 
 [CONTROLBAR:DrumsInTheDeepSaF]
 Value=Drums in the Deep
@@ -91478,7 +91497,14 @@ Valueline2= Capturable: Inn
 Valueline3= Creeps: Cave Troll, Barrow Wight 
 Valueline4= Region: Gondor
 
+[Map:MAPMPchetwood]
+Value=Chetwood*
 
+[Map:MAPMPchetwood/Desc]
+Value=Chetwood is the broad woodland that lay to the north and east of the Bree-hill. The village of Archet was built among the trees near its edge. 
+Valueline2=Capturable: Inn 
+Valueline3=Creeps: Warg
+Valueline4=Region: Arnor
 
 [Map:MAPMPcirithungol]
 Value=Cirith Ungol*
