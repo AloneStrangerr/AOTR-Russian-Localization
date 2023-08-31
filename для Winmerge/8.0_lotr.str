@@ -91785,7 +91785,7 @@ Valueline3= Region: Misty Mountains
 
 
 [Map:MAPMPeastbight]
-Value=East Bight
+Value=East Bight*
 
 
 [Map:MAPMPeastbight/Desc]
@@ -91972,7 +91972,14 @@ Valueline2= Capturable: Inn
 Valueline3= Creeps: Hill Troll, Goblin 
 Valueline4= Region: Lindon
 
+[Map:MAPMPeredwethrin]
+Value=Ered Wethrin*
 
+[Map:MAPMPeredwethrin/Desc]
+Value=The Ered Wethrin, or the Mountains of Shadow, was a mountain range in the north of Beleriand.
+Valueline2=Capturable: Inn
+Valueline3=Creeps : Cave Troll, Warg
+Valueline4=Region: Lindon
 
 [Map:MAPMPeregion]
 Value=Eregion
@@ -92005,8 +92012,8 @@ Value=Eryn Vorn*
 
 [Map:MAPMPerynvorn/Desc]
 Value=Eryn Vorn is a wooded region of dark pine trees on the coast of Minhiriath in Eriador. The last remnant of vast forests that once covered Eriador until their deforestation by the Númenóreans, the forest is now home only to scattered hunter-folk.
-Valueline2= Capturable: Signal Fire 
-Valueline3= Creeps: Hill Troll, Warg 
+Valueline2= Capturable: Signal Fire, Inn
+Valueline3= Creeps: Warg 
 Valueline4= Region: Eriador
 
 
@@ -92268,7 +92275,7 @@ Value=Fortress: Amon Sûl*
 
 [Map:MAPMPfortressamonsul/Desc]
 Value=The fortress on the windy hill of Amon Sûl housed a palantír until the fortress was destroyed by the Witch-king's army. Later it came to be known as Weathertop. 
-Valueline2= Capturable: Signal Fire, Outpost 
+Valueline2= Capturable: Signal Fire, Inn
 Valueline3= Region: Arnor
 
 
@@ -93036,7 +93043,7 @@ Valueline3= Creeps: Cave Troll, Goblin
 Valueline4= Region: Gondor
 
 [Map:MAPMPindela]
-Value=Indela*
+Value=Indlela*
 
 
 [Map:MAPMPindela/Desc]
@@ -93290,7 +93297,14 @@ Value=Marshes and shallow surround both sides of the Forest River, extending fro
 Valueline2= Creeps: Barrow Wight 
 Valueline3= Region: Erebor
 
+[Map:MAPMPlonddaerenedh]
+Value=Lond Daer Enedh*
 
+[Map:MAPMPlonddaerenedh/Desc]
+Value=Lond Daer was founded by Númenor's crown prince and future "Ship-king" Tar-Aldarion on the estuary of the River Gwathló in the early Second Age. It was the first permanent settlement of the Númenóreans in Middle-earth.
+Valueline2=Capturable: Inn
+Valueline3=Creeps: Cave Troll, Warg
+Valueline4=Region: Enedwaith
 
 [Map:MAPMPlorien]
 Value=Lórien
