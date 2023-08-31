@@ -93550,7 +93550,14 @@ Value=The Galadhrim keep watch over the river Celebrant, ensuring no incursions 
 Valueline2= Creeps: Goblin 
 Valueline3= Region: Rhovanion
 
+[Map:MAPMPnanharlond]
+Value=Nan Harlond*
 
+[Map:MAPMPnanharlond/Desc]
+Value=A lush area in Lossarnach, once home to Númenórean settlement towers. Long since fallen into ruin, they served as gathering places for Forlong's forces ere they marched to Minas Tirith.
+Valueline2=Capturable: Inn
+Valueline3=Creeps: Warg
+Valueline4=Region: Gondor
 
 [Map:MAPMPnantornaeth]
 Value=Nan Tornaeth
@@ -94117,7 +94124,14 @@ Valueline2= Capturable: Hearth, Statue
 Valueline3= Creeps: Rowdy Tub-dwarves 
 Valueline4= Region: Erebor
 
+[Map:MAPMPspringofloudwater]
+Value=Spring of Loudwater*
 
+[Map:MAPMPspringofloudwater/Desc]
+Value=The Loudwater begins with two tributaries flowing from the western slopes of the Misty Mountains, one of which came from the High Pass where Goblin-town existed. 
+Valueline2=Capturable: Inn
+Valueline3=Creeps: Cave Troll, Goblin 
+Valueline4=Region: Misty Mountains
 
 
 [Map:MAPMPspookyisen]
@@ -94145,7 +94159,14 @@ Value=In the distant east of Rhûn, the rising sun bathes the endless swaying gra
 Valueline2= Capturable: Signal Fire 
 Valueline3= Region: Rhûn
 
+[Map:MAPMPstonedeans]
+Value=Stonedeans*
 
+[Map:MAPMPstonedeans/Desc]
+Value=A region among the foothills of the Misty Mountains, the Stonedeans consists of crags, broken stones, tall oaks and firs, and rushing rivers. A source of many of the metals worked by the Rohirrim, particularly iron mined from the low mountains that surround Nan Curunír.
+Valueline2=Capturable: Inn
+Valueline3=Creeps: Troll, Warg
+Valueline4=Region: Rohan
 
 [Map:MAPMPstonemere]
 Value=Stonemere*
