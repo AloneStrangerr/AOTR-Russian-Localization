@@ -16686,7 +16686,7 @@ CONTROLBAR:ToolTipScavenger
 END
 
 CONTROLBAR:ToolTipAOTRScavenger
-"For 150 seconds, all kills earn extra resources \n Units upgrades are discounted by 20% for the duration \n Left click to activate"
+"For 150 seconds, all kills earn extra resources \n Units upgrades are discounted by 25% for the duration \n Left click to activate"
 END
 
 CONTROLBAR:FreezingRain
@@ -16822,7 +16822,7 @@ CONTROLBAR:Draft
 End
 
 CONTROLBAR:ToolTipDraft
-"All peasants become armed, permanently gaining +5 damage and +20 health \n Rohan units gain +15% armour for 30 seconds \n Spell has shorter cooldown \n Left click to activate"
+"All peasants become armed, permanently gaining +5 damage and +10 health \n Rohan units gain +15% armour for 30 seconds \n Spell has shorter cooldown \n Left click to activate"
 END
 
 CONTROLBAR:ElvenGifts
@@ -17548,6 +17548,9 @@ END
 
 CONTROLBAR:ConstructGoblinFighterHorde
 "Moria-orc Screechers (&W)"
+END
+CONTROLBAR:ConstructGoblinFighterHorde_They
+"Moria-orc Screechers"
 END
 CONTROLBAR:ConstructGoblinFighterHordeInn
 "Moria-orc Screechers (&W)"
@@ -18439,7 +18442,7 @@ CONTROLBAR:ElessarAthelas
 END
 
 CONTROLBAR:TooltipElessarAthelas
-"Heals nearby friendly Heroes and strengthens them by granting them \n +33% armour for 30 seconds\n Left click to activate"
+"Heals nearby friendly Heroes and strengthens them by granting \n them +33% armour for 30 seconds\n Left click to activate"
 END
 
 CONTROLBAR:ToolTipElendil
@@ -18663,7 +18666,7 @@ CONTROLBAR:ToolTipThranduilFavor_Campaign
 END
 
 CONTROLBAR:ToolTipThranduilFavor
-"Requires Level 3\n\nGrants Sindarin Armour to units in radius \n Sindarin Armour: grants an additional +20% armour to units \n Decreased cooldown at levels 5, 7 and 10 \n \n Left click on icon then left click on target own units"
+"Requires Level 3\n\nGrants Sindarin Armour to units in radius \n Sindarin Armour: grants an additional +25% armour to units \n Decreased cooldown at levels 5, 7 and 10 \n \n Left click on icon then left click on target own units"
 END
 
 CONTROLBAR:ThranduilFavor
@@ -18768,7 +18771,7 @@ CONTROLBAR:ToggleGimliWeapons
 END
 
 CONTROLBAR:ToolTipToggleGimliWeapons
-"Left click to toggle between Balin's Axe (double-headed) and Glóin's Axe (walking axe)\nBalin's Axe grants +33% armour and splash damage\nGlóin's Axe grants +20% movement speed and +50% attack speed"
+"Left click to toggle between Balin's Axe (double-headed) and Glóin's Axe (walking axe)\nBalin's Axe grants +33% armour and splash damage\nGlóin's Axe grants +10% movement speed and +50% attack speed"
 END
 
 CONTROLBAR:GimliElfFriend
@@ -19369,7 +19372,7 @@ CONTROLBAR:FaramirDesperateCharge
 END
 
 CONTROLBAR:ToolTipFaramirDesperateCharge
-"Required: Rank 5\n Faramir gains +100% resistance to ranged attacks and pike damage for 15 seconds \n Left click to activate"
+"Required: Rank 5\n Faramir gains +100% resistance to ranged attacks and pike damage for 20 seconds \n Left click to activate"
 END
 
 CONTROLBAR:FaramirWarSpeech
@@ -19525,11 +19528,11 @@ CONTROLBAR:ConstructRohanPeasant
 END
 
 CONTROLBAR:ToolTipBuildRohanPeasant
-"Can be drafted \n\n Horde Bonus \n Modifier Type: Spell \n All Peasants gain +25% damage and +25% armour when gathered in numbers of 60 or more\n\n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle."
+"Can be drafted \n\n Horde Bonus \n Modifier Type: Spell \n All Peasants gain +20% damage and +20% armour when gathered in numbers of 60 or more\n\n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle."
 END
 
 CONTROLBAR:ToolTipBuildRohanPeasantDrafted
-"Strong vs. Pikemen\n\nHorde Bonus \n Modifier Type: Spell \n All Peasants gain +25% damage and +25% armour when gathered in numbers of 60 or more\n \n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle."
+"Strong vs. Pikemen\n\nHorde Bonus \n Modifier Type: Spell \n All Peasants gain +20% damage and +20% armour when gathered in numbers of 60 or more\n \n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle."
 END
 
 CONTROLBAR:ToolTipSpecialAbilityDwarfToss
@@ -34920,7 +34923,7 @@ CONTROLBAR:ProudFather
 END
 
 CONTROLBAR:ToolTipProudFather
-"Glóin gains +25% armour and damage while near Gimli\nPassive ability"
+"Glóin gains +20% armour and damage while near Gimli\nPassive ability"
 END
 
 CONTROLBAR:GloinGloriousCharge
@@ -34928,11 +34931,11 @@ CONTROLBAR:GloinGloriousCharge
 END
 
 CONTROLBAR:ToolTipGloinGloriousCharge
-"Requires Level 3\n Modifier type: Spell\n Nearby Dwarven units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror for 20 seconds\nLeft click to activate"
+"Requires Level 3\n Modifier type: Spell\n Gloin and nearby Dwarven units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror for 20 seconds\nLeft click to activate"
 END
 
 CONTROLBAR:ToolTipGloinGloriousChargeCampaign
-"Requires Level 3\n Modifier type: Spell\n Nearby friendly units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror for 20 seconds\nLeft click to activate"
+"Requires Level 3\n Modifier type: Spell\n Gloin and nearby friendly units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror for 20 seconds\nLeft click to activate"
 END
 
 CONTROLBAR:VentureCapitalism
@@ -53442,7 +53445,7 @@ CONTROLBAR:SanctumMelkorRuin
 End
 
 CONTROLBAR:ToolTipSanctumMelkorRuin
-"Requires Level 3 Sanctum of Zigûr and four full battalions of Zigûr Cultists \n Sacrifice all cultists on the battlefield to summon the wrath of Melkor\n Left click icon and then left click on target location"
+"Requires Level 3 Sanctum of Zigûr and three full battalions of Zigûr Cultists \n Sacrifice all cultists on the battlefield to summon the wrath of Melkor\n Left click icon and then left click on target location"
 End
 
 CONTROLBAR:PurchaseUpgradeCorpseRain
@@ -58649,7 +58652,7 @@ CONTROLBAR:ToolTipBuildGondorWorkshopLevel3Upgrade
 END
 CONTROLBAR:ToolTipBuildRohanWorkshopLevel2Upgrade
 //"Level 2: +10% faster build speed \n Allows research of the Fire Stones upgrade"
-"Allows training of Rohirric Onager \n Heals nearby damaged siege machines \n +10% faster build speed"
+"Allows training of Rohirric Onager and research of Mundburg Masonry upgrade \n Heals nearby damaged siege machines \n +10% faster build speed"
 END
 CONTROLBAR:ToolTipBuildRohanWorkshopLevel3Upgrade
 //"Level 3: +25% faster build speed"
@@ -58704,14 +58707,14 @@ END
 
 CONTROLBAR:ToolTipSmite
 //"Powerful ranged attack against a single target \n Left click icon then left click on target"
-"Requires Level 4\n Strong ranged attack against a single target\n Deals 200% extra damage to the Witch-king of Angmar\n Reduces targeted enemy's speed by -25% for 15 seconds \n Left click icon then left click on target"
+"Requires Level 5\n Strong ranged attack against a single target\n Deals 200% extra damage to the Witch-king of Angmar\n Reduces targeted enemy's speed by -25% for 15 seconds \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipEomerLeadership
 //"Cavalry near Eomer gain \n +50% damage, +50% armour, \n and earn experience twice as fast \n \n Passive ability       Does not stack"
 //"Allied cavalry near Eomer gain \n +33% damage, +33% armour, \n and earn experience twice as fast \n Passive ability"
 //"Allied cavalry near Eomer gain \n +33% damage, +33% armour, \n and earn experience 50% faster\n Passive ability"
-"Modifier Type: Leadership \n Allied cavalry near Éomer gain +50% damage and -25% trample deceleration \n\n Requires Level 3 \n Éomer and nearby units earn resources per kill \n\n Passive ability"
+"Modifier Type: Leadership \n Allied cavalry near Éomer gain +33% damage and -25% trample deceleration \n\n Requires Level 3 \n Éomer and nearby units earn resources per kill \n\n Passive ability"
 END
 
 CONTROLBAR:ToolTipThrowSpear
@@ -58742,7 +58745,7 @@ END
 CONTROLBAR:ToolTipGloriousCharge
 //"Requires Level 6 \n Theoden and nearby cavalry take only 10% of normal damage \n Theoden must be mounted to use ability \n Left click to activate"
 //"Requires Level 6 \n Theoden and nearby cavalry gain\n+100% damage and +300% armour \n No force can slow this charge \n Theoden must be mounted to use ability \n Left click to activate"
-"Requires Level 5 \n Théoden must be mounted to use ability \n Modifier Type: Spell \n Théoden and nearby cavalry gain +100% armour for 20 seconds\n The more riders near Théoden, the larger the bonus \n(+10% armour by battalion) \n No force can slow this charge \n\n At level 10 affected units are immune to fear and terror \nLeft click to activate"
+"Requires Level 5 \n Théoden must be mounted to use ability \n Modifier Type: Spell \n Théoden and nearby cavalry gain +100% armour for 20 seconds\n The more riders near Théoden, the larger the bonus \n(+10% armour per battalion, up to additional +100%)\n No force can slow this charge \n\n At level 10 affected units are immune to fear and terror \nLeft click to activate"
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
@@ -58751,7 +58754,7 @@ CONTROLBAR:ToolTipFaramirLeadership
 //"Requires Level 5 \n Allies near Faramir gain \n +33% damage, +33% armour, \n and earn experience twice as fast\n Passive ability"
 //"Requires Level 5 \n Allies near Faramir gain \n +33% damage, +33% armour, \n and earn experience 50% faster\n Passive ability"
 //"Requires Level 6 \n Allies near Faramir gain \n +33% damage, +33% armour, \n and earn experience 50% faster\n Passive ability"
-"Requires Level 3 \n Modifier Type: Leadership \n Pinnath Gelin Riders and Knights of Minas Tirith near Faramir gain +15% armour and -15% trample deceleration \nPassive ability"
+"Requires Level 3 \n Modifier Type: Leadership \n Knights of Minas Tirith near Faramir gain +25% damage and -25% trample deceleration \nPassive ability"
 END
 CONTROLBAR:ToolTipCaptainofGondor
 //"Requires Level 7 \n Give targeted units experience \n Left click icon then left click on target units"
@@ -59033,7 +59036,7 @@ END
 
 CONTROLBAR:ToolTipFellowshipLegolasTrainArchers  
 //"Requires Level 3 \n Targeted Good archers gain experience \n Left click icon then left click on target archers"
-"Requires Level 3 \n Targeted Good archers gain good experience \n Left click icon then left click on target archers \n \n Requires Level 6 \n Nearby friendly units gain +33% damage, fear and terror immunity and +25% vision range \n Passive ability"
+"Requires Level 3 \n Targeted Good archers gain good experience \n Left click icon then left click on target archers \n \n Modifier Type: Leadership \n Nearby friendly units are immune to fear and terror\n At level 6, nearby friendly units gain +33% damage \n and +25% vision range\n Passive ability"
 END
 
 CONTROLBAR:ToolTipKnifeFighter
@@ -59505,7 +59508,7 @@ END
 
 CONTROLBAR:ToolTipSharkuManEater
 //"Requires Level 10 \n Kill target enemy which restores Sharku's health and temporarily grants +50% damage and +50% armour \n Left click icon then left click on target enemy \n Does not stack"
-"Requires Level 5 \n Kill target enemy which restores 50% of Sharku's health and grants\n+50% damage, +100% armour for 20 seconds\n Left click icon then left click on target enemy" 
+"Requires Level 5 \n Kill target enemy which restores 50% of Sharku's health and grants\n+50% damage and armour for 20 seconds\n Left click icon then left click on target enemy" 
 END
 
 CONTROLBAR:ToolTipSpeechCraft
@@ -59542,7 +59545,7 @@ END
 CONTROLBAR:TooltipCrebain
 //"Reveals the shroud and detects stealthed units \n Significantly reduces enemy armour and damage \n Left click icon then left click on target area"
 //"Reveals the shroud and detects stealthed units\nReduces enemy armour and damage\nNullifies enemy leadership\nLeft click icon then left click on target area"
-"Reveals the shroud and detects stealthed units \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% damage and -20% armour\n Left click icon then left click on target area"
+"Reveals the shroud and detects stealthed units \n Modifier Type: Active Debuff \n Nearby enemy units suffer -15% damage and armour\n Left click icon then left click on target area"
 END
 
 CONTROLBAR:ToolTipTaintIsengard  
@@ -60051,7 +60054,7 @@ END
 CONTROLBAR:TooltipCaveBats
 //"Reveals the shroud and detects stealthed units \n Significantly reduces enemy armour and damage \n Left click icon then left click on pathable location"
 //"Reveals the shroud and detects stealthed units\nReduces enemy armour and damage\n Nullifies enemy leadership \n Left click icon then left click on pathable location"
-"Reveals the shroud and detects stealthed units\n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% damage and -20% armour\n Left click icon then left click on target area"
+"Reveals the shroud and detects stealthed units\n Modifier Type: Active Debuff \n Nearby enemy units suffer -15% damage and armour\n Left click icon then left click on target area"
 END
 
 CONTROLBAR:SummonSpiderlingAllies
@@ -61937,7 +61940,7 @@ CONTROLBAR:ToolTipFueltheFires
 //"+100% resources from harvesting trees \n Passive power"
 //"+80% resources from harvesting trees\n Passive power"
 //"+70% resources from harvesting trees\n Passive power"
-"+70% resources from harvesting trees \n Unlocks Heat Blast for Furnaces \n Passive power"
+"+60% resources from harvesting trees \n Unlocks Heat Blast for Furnaces \n Passive power"
 End
 
 CONTROLBAR:ToolTipWildShelobPoisonedStinger
@@ -62199,7 +62202,7 @@ END
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
 //"Strong vs. Pikemen"
 //"Strong vs. Pikemen \n Horde Bonus \n All Orc Warriors, Orc Archers and Black Uruks gain +50% damage when gathered in numbers of 150 or more \n \n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr."
-"Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more\n\n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr."
+"Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 150 or more\n\n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr."
 END
 
 CONTROLBAR:ToolTipBuildIsengardOrcFighterHorde
@@ -62217,7 +62220,7 @@ END
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde
 //"Strong at Range"
 //"Strong vs. Infantry \n Horde Bonus \n All Orc Warriors, Orc Archers and Black Uruks gain +50% damage when gathered in numbers of 150 or more \n \n Largely unskilled and ill-equipped, Mordor's archers are a prime example of strength in numbers."
-"Strong vs. Infantry \n\n Horde Bonus \n Modifier Type: Spell \n Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more\n\n Largely unskilled and ill-equipped, Mordor's archers are a prime example of strength in numbers."
+"Strong vs. Infantry \n\n Horde Bonus \n Modifier Type: Spell \n Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 150 or more\n\n Largely unskilled and ill-equipped, Mordor's archers are a prime example of strength in numbers."
 END
 
 CONTROLBAR:ToolTipBuildIsengardOrcArcherHorde
@@ -62474,7 +62477,7 @@ CONTROLBAR:BrandLeadership
 END
 
 CONTROLBAR:ToolTipBrandLeadership
-"Modifier Type: Leadership\nKing Brand gains +33% armour when near King Dáin\nAt Level 3, nearby Mannish allies gain +33% damage and +33% armour\n Passive ability \n\n At Level 8, Brand can summon a battalion of Barding Outriders \n Left click to activate"
+"Modifier Type: Leadership\nKing Brand gains +33% armour when near King Dáin\nAt Level 3, nearby Mannish allies gain +25% damage and +33% armour\n Passive ability \n\n At Level 8, Brand can summon a battalion of Barding Outriders \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipBrandTrainArchers
@@ -62611,7 +62614,7 @@ Version:Format2
 //"Age of the Ring Version 6.1"
 //"Age of the Ring Version 7.0"
 //"Age of the Ring Version 7.1"
-"Age of the Ring Version 8.2"
+"Age of the Ring Version 8.3"
 END
 
 Version:Format3
@@ -63019,6 +63022,14 @@ CONTROLBAR:ToolTipChangeAngle4
 "Zoom in to view into the sky"
 END
 
+CONTROLBAR:ToggleHouseColours
+"House Colours"
+End
+
+CONTROLBAR:ToolTipToggleHouseColours
+"Activate to toggle House Colours"
+END
+
 CONTROLBAR:ToolTipBuildRivendellAragorn
 "Call upon the heir of Isildur"
 END
@@ -63215,7 +63226,7 @@ CONTROLBAR:BolgRuledByFear
 "Ruled By Fear (&T)"
 END
 CONTROLBAR:ToolTipBolgRuledByFear
-"Requires Level 5\n Modifier Type: Spell\nNearby allied units deal +125% damage, but lose -50% armour and do not gain experience for 20 seconds\n Nearby enemies units flee in terror\nLeft click to activate"
+"Requires Level 5\n Modifier Type: Spell\nNearby allied units deal +125% damage, but lose -50% armour and do not gain experience for 20 seconds\n Nearby enemies cower in fear for 15 seconds\nLeft click to activate"
 END
 CONTROLBAR:BolgUnpierceableRanks
 "Unpierceable Ranks (&C)"
@@ -64140,7 +64151,7 @@ CONTROLBAR:ToolTipBlackRiderDreadVisageKhamul
 END
 
 CONTROLBAR:ToolTipWitchKingDreadWrath
-"As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Nazgûl nearby \n Passive ability \n\n When dismounted, The Witch-king reflects 10% of all damage dealt to him to nearby enemies \n Passive ability \n\n Requires Level 2 \n Modifier Type: Passive Nullifier Debuff \n Nearby enemy units suffer -33% damage and -25% armour \nNullifies enemy leadership \n Takes precedence over other Debuffs \n Passive ability \n\n Requires Level 8 \n Target enemies' special ability timers are reset to just used \n Units near the Witch-king suffer uncontrollable fear for 15 seconds\n Left click icon then left click on target area"
+"As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Nazgûl nearby \n Passive ability \n\n When dismounted, The Witch-king reflects 10% of all damage dealt to him to nearby enemies \n Passive ability \n\n Requires Level 2 \n Modifier Type: Passive Nullifier Debuff \n Nearby enemy units suffer -25% damage and -25% armour \nNullifies enemy leadership \n Takes precedence over other Debuffs \n Passive ability \n\n Requires Level 8 \n Target enemies' special ability timers are reset to just used \n Units near the Witch-king suffer uncontrollable fear for 15 seconds\n Left click icon then left click on target area"
 End
 
 CONTROLBAR:ChiefoftheNine
@@ -64152,7 +64163,7 @@ CONTROLBAR:NineAreAbroad
 END
 
 CONTROLBAR:TooltipChiefoftheNine
-"As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Nazgûl nearby \n Passive ability\n\n Modifier Type: Passive Debuff \n Nearby enemy units suffer -33% damage and -25% armour\nNullifies enemy leaderships\nPassive ability \n\n Left click to switch between mounted and on foot"
+"As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Nazgûl nearby \n Passive ability\n\n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% damage and -25% armour\nNullifies enemy leaderships\nPassive ability \n\n Left click to switch between mounted and on foot"
 End
 
 CONTROLBAR:TooltipNazgulMount
@@ -64160,7 +64171,7 @@ CONTROLBAR:TooltipNazgulMount
 END
 
 CONTROLBAR:TooltipChiefoftheNineFellbeast
-"As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Nazgûl nearby \n Passive ability\n\n Modifier Type: Passive Debuff \n Nearby enemy units suffer -33% damage and -25% armour\nNullifies enemy leaderships\nPassive ability \n\n Left click then left click on pathable location"
+"As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Nazgûl nearby \n Passive ability\n\n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% damage and -25% armour\nNullifies enemy leaderships\nPassive ability \n\n Left click then left click on pathable location"
 END
 
 CONTROLBAR:ToolTipChillofAngmarWK
@@ -64444,7 +64455,7 @@ CONTROLBAR:OrophinLeadership
 END
 
 CONTROLBAR:ToolTipOrophinLeadership
-"Requires Level 6 \n Modifier Type: Spell \n Orophin and nearby units gain +50% armour for 30 seconds\nLeft click to activate"
+"Requires Level 5 \n Modifier Type: Spell \n Orophin and nearby units gain +50% armour for 30 seconds\nLeft click to activate"
 END
 
 CONTROLBAR:AmrothLeadership
@@ -64490,12 +64501,12 @@ END
 
 CONTROLBAR:TooltipOrophinBladeMaster
 //"Requires Level 3 \n Modifier Type: Buff \n Orophin temporarily gains\n+100% damage, +100% armour \n Left click to activate"
-"Requires Level 3 \n Modifier Type: Buff \n Orophin gains\n+50% damage, +50% armour for 30 seconds\n Left click to activate"
+"Requires Level 2 \n Modifier Type: Buff \n Orophin gains\n+50% damage, +50% armour for 30 seconds\n Left click to activate"
 END
 
 CONTROLBAR:TooltipOrophinBladeMasterGifts
 //"Requires Level 3 \n Modifier Type: Buff \n Orophin temporarily gains\n+100% damage, +100% armour \n Left click to activate"
-"Requires Level 3 \n Modifier Type: Buff \n Orophin gains +50% damage, +50% armour for 30 seconds\nOrophin deals splash damage and knockback for 30 seconds\nLeft click to activate"
+"Requires Level 2 \n Modifier Type: Buff \n Orophin gains +50% damage, +50% armour for 30 seconds\nOrophin deals splash damage and knockback for 30 seconds\nLeft click to activate"
 END
 
 CONTROLBAR:AmrothBladeMaster
@@ -64512,7 +64523,7 @@ CONTROLBAR:OrophinBorderGuardsJudgement
 END
 
 CONTROLBAR:TooltipOrophinBorderGuardsJudgement
-"Requires Level 8 \n Targeted enemy hero's ability timers are set to just used \n Left click icon then left click on target"
+"Requires Level 7 \n Targeted enemy hero's ability timers are set to just used \n Left click icon then left click on target"
 END
 
 CONTROLBAR:HaldirLeadership
@@ -64645,7 +64656,7 @@ CONTROLBAR:GaladrielLeadership
 END
 
 CONTROLBAR:ToolTipGaladrielLeadership
-"Requires Level 3 \n Modifier Type: Leadership \n All nearby friendly Heroes gain +50% experience gain and their recharge timers are decreased by 25%\nPassive ability\n\n Modifier Type: Passive Debuff \n Nearby enemy Heroes and Heroic units suffer -25% damage\nPassive ability"
+"Requires Level 3 \n Modifier Type: Leadership \n All nearby friendly Heroes gain +50% experience gain and their recharge timers are decreased by 20%\nPassive ability\n\n Modifier Type: Passive Debuff \n Nearby enemy Heroes and Heroic units suffer -15% damage\nPassive ability"
 END
 
 CONTROLBAR:SpecialPowerGaladrielNenya
@@ -64679,7 +64690,7 @@ END
 CONTROLBAR:TooltipGaladrielStormQueen
 //"Requires Level 2 \n Aragorn temporarily gains +100% damage and +100% armour \n Left click to activate"
 //"Requires Level 3 \n Aragorn temporarily gains +100% damage and +100% armour \n Left click to activate"
-"Requires Level 9 \n Galadriel takes on the form of the Storm Queen and temporarily gains\n +50% armour, +300% damage to Structures, and her attacks become ranged, area of effect attacks\nEffect lasts 30 seconds\n\nLeft click to activate"
+"Requires Level 9 \n Galadriel takes on the form of the Storm Queen and temporarily gains +50% armour, +300% damage to Structures, \n and her attacks become ranged, area of effect attacks\nEffect lasts 30 seconds\n\nLeft click to activate"
 END
 
 OBJECT:ElvenLorienCeleborn
@@ -64732,7 +64743,7 @@ END
 
 CONTROLBAR:ToolTipSpecialPowerCelebornCunning
 //"Requires Level 4 \n Celeborn temporarily becomes immune to damage and is resistant to knockback  \n Left click to activate"
-"Requires Level 4 \n Celeborn gains +100% armour and deals splash damage for 30 seconds\n Enemy units around him lose 25% damage and 25% armour for the duration of the ability\n Left click to activate"
+"Requires Level 4 \n Celeborn gains +100% armour and deals splash damage for 30 seconds\n Enemy units around him lose 20% damage and 20% armour for the duration of the ability\n Left click to activate"
 END
 
 CONTROLBAR:CelebornArmor
@@ -64740,7 +64751,7 @@ CONTROLBAR:CelebornArmor
 END
 
 CONTROLBAR:ToolTipCelebornArmor
-"Requires Level 5 \n Celeborn wields his ancient armaments from Doriath gaining a 33% armour increase\n Celeborn's attacks now deal magic damage \n Passive ability"
+"Requires Level 6 \n Celeborn wields his ancient armaments from Doriath gaining a 33% armour increase\n Celeborn's attacks now deal magic damage \n Passive ability"
 END
 
 CONTROLBAR:CelebornWise
@@ -64748,7 +64759,7 @@ CONTROLBAR:CelebornWise
 END
 
 CONTROLBAR:ToolTipCelebornWise
-"Requires Level Rank 7 \n Celeborn's words grant friendly units great experience \n left click then left click on target"
+"Requires Level Rank 8 \n Celeborn's words grant friendly units great experience \n left click then left click on target"
 END
 
 CONTROLBAR:SpecialPowerRenownedWarrior
@@ -65248,7 +65259,7 @@ CONTROLBAR:ConstructDragonKnightHorde
 END
 
 CONTROLBAR:ToolTipConstructDragonKnightHorde
-"Dragon Knights \n Requires Level 3 Easterling Garrison\nStrong vs. Infantry \n\n The Dragon Knights are an order of Easterling warriors who travel the land and serving whichever warlord is willing to pay their considerable retainer. The final rite of passage a prospective Dragon Knight must endure is to travel high into distant mountains and seek out a hoarding fire-drake and retrieve a gemstone - whether through wit, strength, or flattery.\n\n Limited to 3"
+"Dragon Knights \n Requires Level 3 Easterling Garrison\nStrong vs. Monsters, Cavalry, and Heroes \n\n The Dragon Knights are an order of Easterling warriors who travel the land and serving whichever warlord is willing to pay their considerable retainer. The final rite of passage a prospective Dragon Knight must endure is to travel high into distant mountains and seek out a hoarding fire-drake and retrieve a gemstone - whether through wit, strength, or flattery.\n\n Limited to 3"
 END
 
 CONTROLBAR:SpecialAbilityDKGazeDragon
@@ -65671,7 +65682,7 @@ CONTROLBAR:ToolTipStewardLvl3
 End
 
 CONTROLBAR:ToolTipStewardLvl10
-"Denethor is protected by his guards \n\n Modifier Type: Leadership \n Rank 1: Allied units near Denethor gain +25% experience gain \n Faramir loses -15% armour and -15% experience gain \n Rank 3: Allied units near Denethor gain +33% armour \n Gandalf loses -15% armour and -15% experience gain \n Rank 6: Allied units near Denethor gain +33% damage \n Elessar loses -15% armour\nPassive ability"
+"Denethor is protected by his guards \n\n Modifier Type: Leadership \n Rank 1: Allied units near Denethor gain +25% armour \n Faramir loses -15% armour and -15% experience gain \n Rank 3: Allied units near Denethor gain +33% damage \n Gandalf loses -15% armour and -15% experience gain \n Rank 6: Allied units near Denethor gain +25% experience gain \n Elessar loses -15% armour\nPassive ability"
 End
 
 CONTROLBAR:DenethorHighAuthority
@@ -65687,7 +65698,7 @@ CONTROLBAR:DenethorContest
 END
 
 CONTROLBAR:ToolTipDenethorContest
-"Requires Level 10 \n When cast on a friendly hero, increases damage output by +100% at the cost of -50% armour for 15 seconds\n When cast on an enemy hero, causes the hero to lose -33% armour and speed for 15 seconds\n Left click on icon then left click on target hero"
+"Requires Level 9 \n When cast on a friendly hero, increases damage output by +100% at the cost of -50% armour for 15 seconds\n When cast on an enemy hero, causes the hero to lose -33% armour and speed for 15 seconds\n Left click on icon then left click on target hero"
 END
 
 CONTROLBAR:AnarionLordofAnor_LAS
@@ -65829,7 +65840,7 @@ END
 
 CONTROLBAR:ToolTipGreatGoblinSwarm
 //"Requires Level 10 \n The Great Goblin may recruit hordes of Goblin-towners at his Totem \n Left click on icon then left click on target position"
-"Summons Goblin-town Warriors \n Number of hordes summoned is analogous to the Great Goblin's rank \n\n Modifier Type: Buff \n When activated, nearby Moria-orcs and Goblin-towers gain +15% speed and damage for 20 seconds\nLeft click to activate"
+"Summons Goblin-town Warriors \n Number of hordes summoned is analogous to the Great Goblin's rank \n\n Modifier Type: Buff \n When activated, nearby Moria-orcs and Goblin-towners gain +15% speed and damage for 20 seconds\nLeft click to activate"
 END
 
 CONTROLBAR:GreatGoblinSwarm2
@@ -65965,7 +65976,7 @@ CONTROLBAR:TooltipSummonWraith
 END
 
 CONTROLBAR:TooltipSummonHaradrimRaiders
-"Summon three battalions of Haradrim Raiders to the battlefield \n Once used, passively unlocks Golden Cataphracts and Golden Axemen \n Left click on icon then left click on target area"
+"Summon two battalions of Haradrim Raiders to the battlefield \n Once used, passively unlocks Golden Cataphracts and Golden Axemen \n Left click on icon then left click on target area"
 END
 
 CONTROLBAR:TooltipSummonHarondorRaiders
@@ -66304,7 +66315,7 @@ CONTROLBAR:ConstructMordorPikeHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorPikeHorde
-"Strong vs. Cavalry and Heroes \n\n Horde Bonus \n Modifier Type: Spell \n Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more\n \n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr."
+"Strong vs. Cavalry and Heroes \n\n Horde Bonus \n Modifier Type: Spell \n Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 150 or more\n \n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr."
 
 END
 
@@ -66341,7 +66352,7 @@ CONTROLBAR:GolfimbulWargSummon
 END
 
 CONTROLBAR:ToolTipGolfimbulWargSummon
-"Requires Level 3 \n Golfimbul summons 6 White Wolves at the target area. \n Left click on icon then left click on target area"
+"Requires Level 3 \n Golfimbul summons 3 White Wolves at the target area. \nAt level 6 number of summoned Wolves is increased to 6 \n Left click on icon then left click on target area"
 END
 
 CONTROLBAR:GolfimbulHatred
@@ -66713,7 +66724,7 @@ CONTROLBAR:BeregondFierceLoyalty
 END
 
 CONTROLBAR:ToolTipBeregondFierceLoyalty
-"Requires Level 7 \n Modifier Type: Leadership \n Faramir, Boromir, and Pippin gain +33% armour and +33% damage when near Beregond \nPassive ability"
+"Requires Level 7 \n Modifier Type: Leadership \n Faramir, Boromir, and Pippin gain +25% armour and +25% damage when near Beregond \nPassive ability"
 END
 
 CONTROLBAR:BeregondGuardoftheCitadel
