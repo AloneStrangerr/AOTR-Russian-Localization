@@ -16030,6 +16030,19 @@ OBJECT:GondorWell
 "Well"
 END
 
+CONTROLBAR:ConstructMonumenttoElendil
+"Build Monument to Elendil (&U)"
+END
+CONTROLBAR:MonumenttoElendilBuildTooltip
+"Provides a leadership bonus to nearby units\nHeals nearby allies \n Detects stealth\n\n The High King of Gondor and Arnor was ever remembered in the South-kingdom, even in its days of waning."
+END
+OBJECT:MonumenttoElendil
+"Monument to Elendil"
+END
+OBJECT:MonumenttoElendilDescription
+"Modifier Type: Leadership \n Allies near the Statue gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror\nReplenishes health and units in nearby battalions"
+END
+
 OBJECT:GBKeep
 "Keep"
 END
@@ -16744,7 +16757,11 @@ CONTROLBAR:MordorCalltheHordeWild
 End
 
 CONTROLBAR:ToolTipMordorCalltheHordeWild
-"Increases Moria-orc Production Speed for 30 seconds\n Left click to activate"
+"Targeted Orc or Were-worm Tunnel spawns 6 permanent battalions of Moria-orc Screechers \n Respects command limit \n Left click then left click target"
+END
+
+CONTROLBAR:ToolTipTheyAreComing
+"Targeted Orc or Were-worm Tunnel spawns 6 permanent battalions of Moria-orc Screechers \n Respects command limit \n Left click then left click target"
 END
 
 CONTROLBAR:CalltheHorde
@@ -18674,11 +18691,11 @@ CONTROLBAR:ThranduilFavor
 END
 
 CONTROLBAR:GlorfindelNewMount
-"Mount Asfaloth / Dismount (&W)"
+"Lord of the House of the Golden Flower (&W)"
 END
 
 CONTROLBAR:GlorfindelNewMountTooltip
-"Left click to switch between \n mounted on Asfaloth and on foot"
+"Modifier Type: Leadership \n Rivendell Knights near Glorfindel gain +25% damage and armour \n Passive ability \n\n Left click to switch between \n mounted on Asfaloth and on foot"
 END
 
 CONTROLBAR:TheodenNewMount
@@ -25632,7 +25649,7 @@ OBJECT:RohanArmoryDescription
 END
 
 OBJECT:RohanWellDescription
-"Heals nearby allies \n Detects stealth\n Increases resource gain of nearby farms and windmills"
+"Heals nearby allies \n Detects stealth\n Increases resource gain of nearby farms and windmills by 20% \n Does not stack with Bountiful Harvest"
 END
 
 OBJECT:GondorWellDescription
@@ -62391,7 +62408,7 @@ END
 CONTROLBAR:TooltipUndermine
 //"Places a Mine Shaft anywhere on the map \n Mine Shaft becomes immediately connected to tunnel network \n Left click icon then left click on visible location"
 //"Places a Mine Shaft anywhere on the map that damages enemies when it appears\nMine Shaft becomes immediately connected to tunnel network \n Left click icon then left click on visible location"
-"Places a Mine Shaft anywhere on the map that damages units\nand stuns them for 6 seconds when it appears\nNearby enemy structures lose -25% armour for 30 seconds\nMine Shaft becomes immediately connected to tunnel network\nLeft click icon then left click on visible location"
+"Places a Mine Shaft anywhere on the map that is protected \n by Vault Wardens and damages units when it appears\n Nearby allies gain 15% damage and armour and are slowly healed \nMine Shaft becomes immediately connected to tunnel network\nLeft click icon then left click on visible location"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenDemolisher
@@ -67032,7 +67049,7 @@ CONTROLBAR:SilvanAllies
 End
 
 CONTROLBAR:TooltipSilvanAllies
-"Summons 3 battalions of Silvan Rangers from the Greenwood \n Left click icon then left click on pathable location"
+"Summons 1 battalion of Silvan Rangers, Daggers and Spearmen from the Greenwood \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:ElvenWoodLorien
@@ -69407,7 +69424,7 @@ CONTROLBAR:SummonRavens
 END
 
 CONTROLBAR:ToolTipSummonRavens
-"Summons an unkindness of Ravens \n Reveals the shroud and detects stealthed units \n Modifier Type: Leadership \n Nearby friendly units gain +10% speed \n Nearby enemy units lose -25% speed\n Left click icon then left click on target area"
+"Summons an unkindness of Ravens \n Reveals the shroud and detects stealthed units \n Modifier Type: Spell \nNearby friendly units gain +15% movement, attack and ability recharge speed\nNearby friendly structures gain +15% production speed\n Left click icon then left click on target area"
 END
 
 CONTROLBAR:DeepDelving
@@ -69455,7 +69472,7 @@ CONTROLBAR:ToolTipEreborVowOfVengeance
 END
 
 CONTROLBAR:ToolTipFullyArmed
-"Grants heavy armour to units in radius \n Only affects units that can receive Dwarven Plates \n Left click on icon then left click on target own units"
+"Grants forged blades and upgraded arrows to units in radius \n Only affects units that can receive Khûzdul Runes, Mithril-tipped Arrows and Fire Arrows \n Left click on icon then left click on target own units"
 END
 
 CONTROLBAR:FullyArmed
@@ -70587,7 +70604,7 @@ CONTROLBAR:GildorLeadership
 End
 
 CONTROLBAR:ToolTipGildorLeadership
-"Modifier Type: Leadership \n Hobbits near Gildor gain +33% damage, armour and experience \nPassive ability"
+"Modifier Type: Leadership \n Hobbits and Breelanders near Gildor gain +33% damage, armour and experience \nPassive ability"
 END
 
 CONTROLBAR:GildorExiles
@@ -73959,7 +73976,7 @@ CONTROLBAR:TooltipBountifulHarvest
 //"+30% resources from Dwarven Mines\nPassive power"
 //"+25% resources from Dwarven Mines\nPassive power"
 //"+20% resources from Dwarven Mines\nPassive power"
-"+30% resources from Farms and Windmills \n Passive power"
+"+20% resources from Farms and Windmills \n Does not stack with Irrigation Bonus \n Passive power"
 END
 
 CONTROLBAR:RohanCloudBreak
@@ -74269,7 +74286,7 @@ CONTROLBAR:ErkenbrandShieldCrush
 END
 
 CONTROLBAR:ToolTipErkenbrandShieldCrush
-"Requires Level 3\nErkenbrand can crush enemies and is immune to arrows for 20 seconds\nLeft click to activate"
+"Requires Level 3\nErkenbrand performs a powerful attack that knocks back enemy units\nLeft click icon then left click on target"
 End
 
 CONTROLBAR:ErkenbrandLeadership
@@ -77045,7 +77062,7 @@ CONTROLBAR:GuldurConcealment
 END
 
 CONTROLBAR:TooltipGuldurConcealment
-"Friendly units and structures within the area become stealthed \n Modifier Type: Active Debuff \n Nearby enemy units suffer -33% damage and -33% armour\nNullifies enemy leadership\n Lasts 60 seconds \n Left click icon then left click on target area"
+"Friendly units and structures within the area become stealthed \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% damage and -25% armour\nNullifies enemy leadership\n Lasts 60 seconds \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:GuldurDarkHysteria
@@ -77735,11 +77752,11 @@ CONTROLBAR:PurchaseUpgradeMordorFortressMorgulSpire
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSpire
-"Requires the Morgul Sorcery upgrade\n Allows recruitment of Morgul Vanguard\n\n His Deadliest Servants:\nPassively grants +20% damage and 20% armour\nto all Nazgûl on the battlefield\nDoes not affect Fellbeasts\n\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% speed and +50% damage and armour for 30 seconds"
+"Requires the Morgul Sorcery upgrade\n Allows recruitment of Morgul Vanguard\n\n His Deadliest Servants:\nPassively grants +15% damage and 15% armour\nto all Nazgûl on the battlefield\nDoes not affect Fellbeasts\n\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% speed and +50% damage and armour for 30 seconds"
 END
 
 ToolTip:LackMorgulSorcery
-"Requires the Morgul Sorcery upgrade\nHis Deadliest Servants:\nPassively grants +20% damage and +20% armour to all Nazgûl on the battlefield\nDoes not affect Fellbeasts\n\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% speed and +50% damage and armour for 30 seconds"
+"Requires the Morgul Sorcery upgrade\nHis Deadliest Servants:\nPassively grants +15% damage and +15% armour to all Nazgûl on the battlefield\nDoes not affect Fellbeasts\n\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% speed and +50% damage and armour for 30 seconds"
 END
 
 CONTROLBAR:MordorFortressDeadliestServants
@@ -77747,7 +77764,7 @@ CONTROLBAR:MordorFortressDeadliestServants
 END
 
 CONTROLBAR:ToolTipMordorFortressDeadliestServants
-"Requires the Morgul Spire upgrade\nGrants +20% damage and +20% armour\nto all Nazgûl on the battlefield\nDoes not affect Fellbeasts\nPassive ability"
+"Requires the Morgul Spire upgrade\nGrants +15% damage and +15% armour\nto all Nazgûl on the battlefield\nDoes not affect Fellbeasts\nPassive ability"
 END
 
 CONTROLBAR:MordorFortressMorgulSpire
@@ -78069,7 +78086,7 @@ CONTROLBAR:FerenShieldBash
 END
 
 CONTROLBAR:ToolTipFerenShieldBash
-"Powerful attack that knocks back enemy units\nAt rank 5, radius is increased\n Left click icon then left click on target"
+"Powerful attack that knocks back enemy units\nAt rank 6, radius is increased\n Left click icon then left click on target"
 END
 
 CONTROLBAR:FerenSoundAlarm
@@ -78085,7 +78102,7 @@ CONTROLBAR:FerenBanishment
 END
 
 CONTROLBAR:ToolTipFerenBanishment
-"Requires Level 7\nTarget enemy hero is pinned and takes +33% damage from all damage sources for 20 seconds\nLeft click icon then left click on target"
+"Requires Level 8\nTarget enemy hero is pinned and takes +15% damage from all damage sources for 15 seconds\nLeft click icon then left click on target"
 END
 
 //------------ Grimbeorn ---------------
@@ -78210,7 +78227,7 @@ CONTROLBAR:RadagastAiwendil
 END
 
 CONTROLBAR:ToolTipRadagastAiwendil
-"Nearby Woodmen and Beorning units gain +75% experience\n Woodmen additionally gain +33% damage and armour\nPassive ability\n\nTargeted enemy units are beset by a flock of birds,\ncausing them to lose 50% vision and 25% armour\nand take damage over time for 15 seconds\nLeft click icon then left click on target"
+"Modifier Type: Leadership\nNearby Woodmen and Beorning units gain +75% experience\n Woodmen additionally gain +33% damage and armour\nPassive ability\n\nTargeted enemy units are beset by a flock of birds,\ncausing them to lose 50% vision and 25% armour\nand take damage over time for 15 seconds\nLeft click icon then left click on target"
 END
 
 CONTROLBAR:RadagastGuardian
@@ -78411,7 +78428,7 @@ OBJECT:MirkwoodHuntingLodge
 END
 
 OBJECT:MirkwoodHuntingLodgeDescription
-"Generates game as a resource based on available terrain \n Allows training of Feredir \n Game Bonus - Reduced cost of Silvan infantry\n 2 Shrines: 5% \n 3 Shrines: 10% \n 4 Shrines: 15% \n 5 Shrines: 20% \n 6+ Shrines: 25%"
+"Generates game as a resource based on available terrain \n Allows training of Feredir \n Game Bonus - Reduced cost of Silvan infantry\n 2 Shrines: 5% \n 3 Shrines: 10% \n 4 Shrines: 15% \n 5+ Shrines: 20%"
 END
 
 CONTROLBAR:ConstructMirkwoodVineyard
@@ -78423,7 +78440,7 @@ OBJECT:MirkwoodVineyard
 END
 
 OBJECT:MirkwoodVineyardDescription
-"Generates wine as a resource based on available terrain \n Wine Bonus - Reduced cost of Greenwood units\n 2 Vineyards: 5% \n 3 Vineyards: 10% \n 4 Vineyards: 15% \n 5 Vineyards: 20% \n 6+ Vineyards: 25%"
+"Generates wine as a resource based on available terrain \n Wine Bonus - Reduced cost of Greenwood units\n 2 Vineyards: 5% \n 3 Vineyards: 10% \n 4 Vineyards: 15% \n 5+ Vineyards: 20%"
 END
 
 CONTROLBAR:ToolTipMirkwoodVineyard
@@ -78599,7 +78616,7 @@ CONTROLBAR:ConstructMirkwoodBeorningCabinLevel3Upgrade
 END
 
 CONTROLBAR:ToolTipBuildMirkwoodBeorningCabinLevel3Upgrade
-"Allows recruitment of Beorning Berserkers\n+25% faster build speed"
+"Allows recruitment of Beorning Berserkers and research of Beekeeping upgrade\n+25% faster build speed"
 END
 
 CONTROLBAR:ToolTipBuildMirkwoodBeorningCabinLevel3Upgrade_WOTR
@@ -78927,7 +78944,7 @@ CONTROLBAR:WeepingBladesDismounted
 END
 
 CONTROLBAR:ToolTipWeepingBlades
-"Requires Level 3\nGilded Guard reflect a small amount of damage dealt to them\nPassive ability\n\nWhen activated, Gilded Guard ignore armour for 30 seconds\nLeft click to activate"
+"Requires Level 4\nGilded Guard reflect a small amount of damage dealt to them\nPassive ability\n\nWhen activated, Gilded Guard ignore armour for 30 seconds\nLeft click to activate"
 END
 
 CONTROLBAR:FuryOfNahar
@@ -78935,7 +78952,7 @@ CONTROLBAR:FuryOfNahar
 END
 
 CONTROLBAR:TooltipFuryOfNahar
-"Requires Level 6\n The Gilded Guard commence a great charge and gain\n+40% speed, +50% armour and glide past enemies like the wind for 30 seconds\n Left click to activate"
+"Requires Level 7\n The Gilded Guard commence a great charge and gain\n+40% speed, +50% armour and glide past enemies like the wind for 30 seconds\n Left click to activate"
 END
 
 OBJECT:WoodmenMarksmen
@@ -79389,7 +79406,7 @@ CONTROLBAR:ElvenkingDecree
 END
 
 CONTROLBAR:ToolTipElvenkingsDecree
-"For 60 seconds, all kills earn extra resources\nand allied units gain +50% experience gain \n Left click to activate"
+"For 60 seconds, all kills earn extra resources\nand allied units gain +33% experience gain \n Left click to activate"
 END
 
 CONTROLBAR:SummonEotheodAllies
@@ -79659,7 +79676,7 @@ CONTROLBAR:BlessingofAldaron
 END
 
 CONTROLBAR:ToolTipBlessingofAldaron
-"Can be cast on friendly battalions to replenish\n one fallen unit per battalion \n Left click icon then left click on target area"
+"Can be cast on friendly battalions to moderately heal them\n and replenish one fallen unit per battalion \n Left click icon then left click on target area"
 END
 
 UPGRADE:BlessingofAldaron
@@ -79675,7 +79692,7 @@ CONTROLBAR:PurchaseUpgradeBlessingofAldaron
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBlessingofAldaron
-"Allows Druid to use the Blessing of Aldaron ability \n Can be cast on friendly battalions to replenish \n one fallen unit per battalion"
+"Allows Druid to use the Blessing of Aldaron ability \n Can be cast on friendly battalions to moderately heal them\n and replenish one fallen unit per battalion"
 END
 
 OBJECT:WardingStones
@@ -79715,7 +79732,7 @@ CONTROLBAR:RitualofOak
 END
 
 CONTROLBAR:ToolTipRitualofOak
-"Summons a sacred Oak tree that produces\na small number resources \n Lasts until destroyed\nLimited to 5 \n Left click icon then left click on target area"
+"Summons a sacred Oak tree that produces\na small number of resources \n Lasts until destroyed\nLimited to 5 \n Left click icon then left click on target area"
 END
 
 UPGRADE:RitualofOak
@@ -79791,7 +79808,7 @@ CONTROLBAR:MarkofBema
 END
 
 CONTROLBAR:ToolTipMarkofBema
-"For 30 seconds, target unit or hero is marked by the Woodmen Hunters \n The target takes 10 more damage from Woodmen attacks \n Left click then left click on target"
+"For 30 seconds, target unit or hero is marked by the Woodmen Hunters \n The target takes 15 more damage from Woodmen attacks \n Left click then left click on target"
 END
 
 CONTROLBAR:ToggleWoodmenWeaponsAxe
@@ -79920,7 +79937,7 @@ CONTROLBAR:ToolTipStopRightThere
 "Requires Level 2 \n Enemy units within the radius deal -33% damage and are slowed by 20% for 30 seconds\n Left click on icon then left click on target battalion"
 END
 CONTROLBAR:ToolTipStopRightThereDale
-"Requires Level 4 \n Enemy units within the radius deal -33% damage and are slowed by 20% for 30 seconds\n Left click on icon then left click on target battalion"
+"Requires Level 3 \n Enemy units within the radius deal -33% damage and are slowed by 20% for 30 seconds\n Left click on icon then left click on target battalion"
 END
 CONTROLBAR:ToolTipStopRightThereRoyalGuard
 "Requires Level 2 \n Enemy units within the radius deal -50% armour and are slowed by 20% for 30 seconds\n Left click on icon then left click on target battalion"
@@ -80009,13 +80026,13 @@ CONTROLBAR:ThreatofMordor
 "March to War"
 End
 CONTROLBAR:TooltipThreatofMordor
-"For 60 seconds, all Haradwaith units gain +15% damage and armour and are immune to debuffs \n Left click to activate"
+"For 60 seconds, all Haradwaith units gain +20% damage, +15% armour and are immune to debuffs \n Left click to activate"
 End
 CONTROLBAR:TribesofHarad
 "Tribes of Harad"
 End
 CONTROLBAR:TooltipTribesofHarad
-"Summons a Tribal Camp \n Limited to 2 \n  The Tribal Camp may temporarily summon Tribal Axemen, Bowmen, and Spearmen \n When Subjugation: Near Harad is researched, the Tribal Camp may temporarily summon Harondor Spearmen, Archers and Raiders \n\n Left click icon then left click on target area"
+"Summons a Tribal Camp \n Limited to 2 \n  The Tribal Camp may summon permanent Tribal Axemen, Bowmen, and Spearmen \n When Subjugation: Near Harad is researched, the Tribal Camp may summon permanent Harondor Spearmen, Archers and Raiders \n\n Left click icon then left click on target area"
 End
 CONTROLBAR:KhandishCharioteers
 "Khandish Charioteers"
@@ -80353,13 +80370,13 @@ CONTROLBAR:ColdJudgement
 "Cold Judgement (&C)"
 END
 CONTROLBAR:ToolTipColdJudgement
-"Requires Level 5 \n Enemy units within the radius are stunned for 5 seconds and have -33% armour for 10 seconds\n Left click icon then left click on target"
+"Requires Level 6 \n Enemy units within the radius are stunned for 5 seconds and have -33% armour for 10 seconds\n Left click icon then left click on target"
 END
 CONTROLBAR:HewerofRanks
 "Hewer of Ranks (&V)"
 END
 CONTROLBAR:ToolTipHewerofRanks
-"Required: Rank 10 \n Câssimir knocks down and pins target hero for 15 seconds\n Normal units are knocked down and damaged \n Subsequently, Câssimir's damage and armour are increased by 50% for 30 seconds\n left click then click on target"
+"Required: Rank 9 \n Câssimir knocks down and pins target hero for 15 seconds\n Normal units are knocked down and damaged \n Subsequently, Câssimir's damage and armour are increased by 50% for 30 seconds\n left click then click on target"
 END
 CONTROLBAR:SouthronConquest
 "Lands Retaken (&C)"
@@ -80433,7 +80450,7 @@ CONTROLBAR:MadChieftain
 "Mad Chieftain"
 END
 CONTROLBAR:ToolTipMadcheiftain
-"For every 15 allied Haradwaith units nearby, Caran-Lambar gains\n+5% damage and movement speed to a maximum of 25% \n Passive ability"
+"Modifier Type: Leadership\n For every 15 allied Haradwaith units nearby, Caran-Lambar gains\n+5% damage and movement speed to a maximum of 25% \n At level 5, nearby Nâfarati units gain +30% armour  \n Passive ability"
 End
 CONTROLBAR:BreakerofStone
 "Breaker of Stone (&R)"
@@ -81674,7 +81691,7 @@ CONTROLBAR:ConstructHaradwaithTribalJavelineersHordeCamp
 End
 
 CONTROLBAR:ToolTipBuildHaradwaithTribalJavelineersHordeCamp
-"Summons two battalions of Tribal Bowmen\nStrong vs. Archers and Swordsmen \n \n These archers carry tough bows of bone that require great strength and discipline to shoot."
+"Summons two battalions of Tribal Bowmen\nStrong vs. Archers and Swordsmen \n Respects command point limit \n Requires 50 command points per battalion to be summoned \n \n These archers carry tough bows of bone that require great strength and discipline to shoot."
 End
 
 CONTROLBAR:ConstructHaradwaithTribalSpearmenHordeCamp
@@ -81682,7 +81699,7 @@ CONTROLBAR:ConstructHaradwaithTribalSpearmenHordeCamp
 End
 
 CONTROLBAR:ToolTipBuildHaradwaithTribalSpearmenHordeCamp
-"Summons two battalions of Tribal Spearmen\nStrong vs. Cavalry and Heroes \n \n All tribal warriors are proficient with the spear, for it is a primary weapon used for hunting and defending their camps from the various beasts of the Southern deserts."
+"Summons two battalions of Tribal Spearmen\nStrong vs. Cavalry and Heroes \n Respects command point limit \n Requires 50 command points per battalion to be summoned \n \n All tribal warriors are proficient with the spear, for it is a primary weapon used for hunting and defending their camps from the various beasts of the Southern deserts."
 End
 
 CONTROLBAR:ConstructHaradwaithTribalAxemenHordeCamp
@@ -81690,7 +81707,7 @@ CONTROLBAR:ConstructHaradwaithTribalAxemenHordeCamp
 End
 
 CONTROLBAR:ToolTipBuildHaradwaithTribalAxemenHordeCamp
-"Summons two battalions of Tribal Axemen\nStrong vs. Pikemen \n \n Wielding light axes, these warriors are known for appearing out of nowhere, flanking an enemy to inflict as much as damage as possible before retreating."
+"Summons two battalions of Tribal Axemen\nStrong vs. Pikemen \n Respects command point limit \n Requires 50 command points per battalion to be summoned \n \n Wielding light axes, these warriors are known for appearing out of nowhere, flanking an enemy to inflict as much as damage as possible before retreating."
 End
 
 CONTROLBAR:ConstructHaradwaithHarondorSpearmenHordeCamp
@@ -81698,7 +81715,7 @@ CONTROLBAR:ConstructHaradwaithHarondorSpearmenHordeCamp
 End
 
 CONTROLBAR:ToolTipBuildHaradwaithHarondorSpearmenHordeCamp
-"Requires the Subjugation: Near Harad fortress upgrade\n Summons a battalion of Harondor Spearmen\nStrong vs. Cavalry and Heroes\n\n The brunt of Sûladan's forces was made up of spear-warriors capable of marching across vast distances at great speed."
+"Requires the Subjugation: Near Harad fortress upgrade\n Summons a battalion of Harondor Spearmen\nStrong vs. Cavalry and Heroes \n Respects command point limit \n Requires 75 command points to be summoned \n\n The brunt of Sûladan's forces was made up of spear-warriors capable of marching across vast distances at great speed."
 End
 
 CONTROLBAR:ConstructHaradwaithHarondorArcherHordeCamp
@@ -81706,7 +81723,7 @@ CONTROLBAR:ConstructHaradwaithHarondorArcherHordeCamp
 End
 
 CONTROLBAR:ToolTipBuildHaradwaithHarondorArcherHordeCamp
-"Requires the Subjugation: Near Harad fortress upgrade\n Summons a battalion of Harondor Archers\nStrong vs. Infantry\n\n The archers in Sûladan's ranks were known for their use of poison-tipped arrows, which they extracted themselves at great risk from Haradwaith's many venomous species such as snakes and scorpions."
+"Requires the Subjugation: Near Harad fortress upgrade\n Summons a battalion of Harondor Archers\nStrong vs. Infantry \n Respects command point limit \n Requires 72 command points to be summoned \n\n The archers in Sûladan's ranks were known for their use of poison-tipped arrows, which they extracted themselves at great risk from Haradwaith's many venomous species such as snakes and scorpions."
 End
 
 CONTROLBAR:ConstructHaradwaithHarondorRaiderHordeCamp
@@ -81714,7 +81731,7 @@ CONTROLBAR:ConstructHaradwaithHarondorRaiderHordeCamp
 End
 
 CONTROLBAR:ToolTipBuildHaradwaithHarondorRaiderHordeCamp
-"Requires the Subjugation: Near Harad fortress upgrade\n Summons a battalion of Harondor Raiders\nStrong vs. Archers and Swordsmen \n\n These raiders were known in Gondor for striking hard and fast, then retreating ere any retaliation could be organised."
+"Requires the Subjugation: Near Harad fortress upgrade\n Summons a battalion of Harondor Raiders\nStrong vs. Archers and Swordsmen \n Respects command point limit \n Requires 80 command points to be summoned \n\n These raiders were known in Gondor for striking hard and fast, then retreating ere any retaliation could be organised."
 End
 
 OBJECT:HaradScorpionExpansion
@@ -81852,7 +81869,7 @@ CONTROLBAR:AccursedBastion
 END
 
 CONTROLBAR:ToolTipAccursedBastion
-"Requires Rank 4 \n For 15 seconds, Nâfarati Marauders gain +50% armour and +50% damage, but lose -33% speed\n When Accursed Bastion ends, all nearby enemies are moderately knocked back\n Left click to activate"
+"Requires Rank 5 \n For 15 seconds, Nâfarati Marauders gain +50% armour and +50% damage, but lose -33% speed\n When Accursed Bastion ends, all nearby enemies are moderately knocked back\n Left click to activate"
 END
 
 CONTROLBAR:ToolTipToggleWatchersofKarnaWeapons
@@ -81964,7 +81981,7 @@ CONTROLBAR:SauronsReward
 END
 
 CONTROLBAR:ToolTipSauronsReward
-"Requires the Hegemony upgrade\nPermanently empowers targeted hero with +33% armour and +33% damage \n Does not work on the Golden King or Zigûr\nDoes not stack\nLeft click on icon, then left click on target hero"
+"Requires the Hegemony upgrade\nPermanently empowers targeted hero with +25% armour and +25% damage \n Does not work on the Golden King or Zigûr\nDoes not stack\nLeft click on icon, then left click on target hero"
 END
 
 CONTROLBAR:ConstructSanctumofZigur
@@ -84357,7 +84374,7 @@ CONTROLBAR:ConstructAltarofFire
 "Altar of Flame (&V)"
 END
 CONTROLBAR:ToolTipConstructAltarofFire
-"Recruits Moria-orc Shamans\nWorships Durin's Bane to cast various mapwide abilities\nLimited to 1"
+"Recruits Moria-orc Shamans\nWorships Durin's Bane to cast various mapwide abilities\nLimited to 1\nCannot be demolished"
 END
 OBJECT:AltarofFireDescription
 "Worships Durin's Bane to cast various mapwide abilities"
@@ -84512,7 +84529,7 @@ CONTROLBAR:PurchaseUpgradeBlessingofFalf
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeBlessingofFalf
-"Allows Seer to use the Blessing of Fálf ability \n Can be cast on friendly battalions to replenish \n one fallen unit per battalion"
+"Allows Seer to use the Blessing of Fálf ability \n Can be cast on friendly battalions to moderately heal them\n and replenish one fallen unit per battalion"
 END
 
 CONTROLBAR:BlessingofFalf
@@ -84520,7 +84537,7 @@ CONTROLBAR:BlessingofFalf
 END
 
 CONTROLBAR:ToolTipBlessingofFalf
-"Can be cast on friendly battalions to replenish\n one fallen unit per battalion \n Left click icon then left click on target area"
+"Can be cast on friendly battalions to moderately heal them\n and replenish one fallen unit per battalion \n Left click icon then left click on target area"
 END
 
 CONTROLBAR:PurchaseUpgradePotionofWrath
@@ -85008,7 +85025,7 @@ CONTROLBAR:ConstructIthilienTrebuchet
 "Ithilien Trebuchet (&D)"
 END
 CONTROLBAR:ToolTipBeregondFierceLoyaltyIthilien
-"Modifier Type: Leadership \n Faramir and Boromir gain +33% armour and +33% damage when near Beregond\nPassive ability"
+"Modifier Type: Leadership \n Faramir and Boromir gain +25% armour and +25% damage when near Beregond\nPassive ability"
 END
 CONTROLBAR:DefenderoftheWhiteCityBIthilien
 "Defender of the Prince (Bow) (&T)"
@@ -85419,6 +85436,36 @@ End
 
 /////
 
+Map:MAPMPaelinveren
+"Aelin Veren*"
+End
+
+Map:MAPMPaelinveren/Desc
+"Aelin Veren lies in Northern Ithilien, where its beautiful gardens cover the ruins of long-forgotten royal thermae. \n Capturable: Inn, Signal Fire \n Creeps: Wargs \n Region: Gondor"
+End
+
+/////
+
+Map:MAPMPaldamori
+"Aldamóri*"
+End
+
+Map:MAPMPaldamori/Desc
+"Aldamóri is a secluded land, hidden in the northern forests of Rhun, where a tribe of Kinn-lai elves and Men coexist peacefully. \n Capturable: Inn \n Creeps: Warg \n Region: Rhûn" 
+End
+
+/////
+
+Map:MAPMPaldamori
+"Aldamóri*"
+End
+
+Map:MAPMPaldamori/Desc
+"Aldamóri is a secluded land, hidden in the northern forests of Rhun, where a tribe of Kinn-lai elves and Men coexist peacefully. \n Capturable: Inn \n Creeps: Warg \n Region: Rhun"
+End
+
+/////
+
 Map:MAPMPamathafa
 "Amathafa*"
 End
@@ -85562,6 +85609,16 @@ End
 
 /////
 
+Map:MAPMPayunama
+"Ayún-âma*"
+End
+
+Map:MAPMPayunama/Desc
+"Once known as the Heavenly Eyes, these two temples have long been swallowed by the unforgiving sands of the Abrakhânic desert and are now known as Ayún-âma, the 'Eyes that are Blind'. \n Capturable: Inn \n Creeps: Scorpion, Warg \n Region: Haradwaith"
+End
+
+/////
+
 Map:MAPMPbakhalforest
 "Bakhâl Forest*"
 End
@@ -85572,6 +85629,15 @@ End
 
 /////
 
+Map:MAPMPbakhjad
+"Bakhjad*"
+End
+
+Map:MAPMPbakhjad/Desc
+"In the heart of an enigmatic and mist-shrouded jungle, a forgotten world reveals itself as tendrils of ethereal fog weave through towering trees and ancient vines. \n Capturable: Inn, Signal Fire \n Creeps: Karadd, Jungle Warg \n Region: Haradwaith"
+End
+
+/////
 
 Map:MAPMPbarhurin
 "Bâr Húrin*"
@@ -85810,6 +85876,16 @@ End
 
 Map:MAPMPblackrootvale/Desc
 "The Blackroot Vale is a dark valley in the shadows of the White Mountains, through which flows the River Blackroot, or Morthond. \n Capturable: Inn \n Creeps: Goblin \n Region: Gondor"
+End
+
+/////
+
+Map:MAPMPbloodwood
+"Bloodwood*"
+End
+
+Map:MAPMPbloodwood/Desc
+"Within the last flicker of Mr Bones' dark and dying soul lies the accursed realm of Bloodwood, where the spirits of his victims suffer for all eternity. \n Capturable: Inn \n Creeps: Warg \n Region: Arnor"
 End
 
 /////
@@ -86354,7 +86430,7 @@ Map:MAPMPeredwethrin
 End
 
 Map:MAPMPeredwethrin/Desc
-"The Ered Wethrin, or the Mountains of Shadow, was a mountain range in the north of Beleriand. \n Capturable: Inn \n Creeps : Cave Troll, Warg \n Region: Lindon"
+"The Ered Wethrin, or the Mountains of Shadow, was a mountain range in the north of Beleriand. \n Capturable: Inn, Signal Fire \n Creeps : Warg \n Region: Lindon"
 End
 
 /////
@@ -86971,6 +87047,15 @@ End
 
 /////
 
+Map:MAPMPgloomglens
+"Gloomglens*"
+End
+
+Map:MAPMPgloomglens/Desc
+"Of old a coniferous marshland, the Gloomglens have in recent years been the site of logging by local woodsmen who use the nearby rivers to transport timber. \n Capturable: Inn \n Creeps: Warg \n Region: Enedwaith"
+End
+
+/////
 
 Map:MAPMPgoblintown
 "Goblin Town*"
@@ -87354,7 +87439,7 @@ Map:MAPMPizuhara
 End
 
 Map:MAPMPizuhara/Desc
-"A small village, where members of the ancient Kinn-lai tribe dwell amidst red and perpetually flowering trees\nCreeps: Wargs\nCapturable: Inn\n Region: Rhûn"
+"A small village, where members of the ancient Kinn-lai tribe dwell amidst red and perpetually flowering trees\nCreeps: Wargs\nCapturable: Inn, Signal Fire\n Region: Rhûn"
 END
 
 /////
@@ -87563,6 +87648,16 @@ End
 
 /////
 
+Map:MAPMPmeadhollow
+"Meadhollow*"
+End
+
+Map:MAPMPmeadhollow/Desc
+"The Anduin winds its way through Meadhollow, meandering past beautiful golden aspens and evergreen firs. \n Capturable: Inn \n Creeps: Warg \n Region: Rhovanion"
+End
+
+/////
+
 Map:MAPMPmethedras
 "Methedras*"
 End
@@ -87600,6 +87695,16 @@ End
 
 Map:MAPMPmirkwoodeaves/Desc
 "The western eaves of Mirkwood lie near Thranduil's Halls. It is a dark and contested area between the Greenwood Elves and the encroaching minions of the Necromancer. \n Capturable: Signal Fire, Inn \n Creeps: Spider \n Region: Rhovanion"
+End
+
+/////
+
+Map:MAPMPmitheithel
+"Mitheithel*"
+End
+
+Map:MAPMPmitheithel/Desc
+"The Mitheithel, or Hoarwell, arises in the Misty Mountains. Joined with the Bruinen and Glanduin rivers, it would become a part of the Gwathló, one of the greatest rivers in the North. \n Capturable: Inn \n Creeps: Troll, Warg \n Region: Eriador"
 End
 
 /////
@@ -87783,7 +87888,7 @@ Map:MAPMPnorthundeep
 End
 
 Map:MAPMPnorthundeep/Desc
-"The Undeeps were two bends in the Anduin between the Wold and Brown Lands. The shallow regions offered a great crossing point for armies. \n Creeps: Goblin \n Capturable: Outpost, Inn \n Region: Rhovanion"
+"The Undeeps were two bends in the Anduin between the Wold and Brown Lands. The shallow regions offered a great crossing point for armies. \n Creeps: Warg, Troll \n Capturable:  Inn \n Region: Rohan"
 End
 
 /////
@@ -88248,7 +88353,7 @@ Map:MAPMPstonedeans
 End
 
 Map:MAPMPstonedeans/Desc
-"A region among the foothills of the Misty Mountains, the Stonedeans consists of crags, broken stones, tall oaks and firs, and rushing rivers. A source of many of the metals worked by the Rohirrim, particularly iron mined from the low mountains that surround Nan Curunír. \n Capturable: Inn \n Creeps: Troll, Warg \n Region: Rohan"
+"A region among the foothills of the Misty Mountains, the Stonedeans consists of crags, broken stones, tall oaks and firs, and rushing rivers. \n Capturable: Inn \n Creeps: Warg \n Region: Rohan"
 End
 
 /////
