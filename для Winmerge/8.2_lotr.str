@@ -73858,7 +73858,7 @@ END
 
 CONTROLBAR:ToolTipDescriptionRohanFarm
 //"Generates resources based on available terrain Increases command point limit by 50"
-"Generates resources based on available terrain\n Field Bonus - Reduced cost of cavalry \n 2 Farms: 5% \n 3 Farms: 10% \n 4 Farms: 15% \n 5 Farms: 20% \n 6+ Farms: 25% \n \n Nearby Peasants gain +10% damage and armour"
+"Generates resources based on available terrain\n Field Bonus - Reduced cost of cavalry \n 2 Farms: 5% \n 3 Farms: 10% \n 4 Farms: 15% \n 5+ Farms: 20% \n \n Modifier Type: Spell\n Nearby Peasants gain +10% damage and armour"
 END
 
 OBJECT:RohanWindmill
@@ -73877,7 +73877,7 @@ END
 
 CONTROLBAR:ToolTipDescriptionRohanWindmill
 //"Generates resources based on available terrain Increases command point limit by 50"
-"Generates resources based on available terrain\n Bread Bonus - Reduced cost of infantry \n 2 Windmills: 5% \n 3 Windmills: 10% \n 4 Windmills: 15% \n 5 Windmills: 20% \n 6+ Windmills: 25% \n \n Nearby Peasants gain +10% damage and armour"
+"Generates resources based on available terrain\n Bread Bonus - Reduced cost of infantry \n 2 Windmills: 5% \n 3 Windmills: 10% \n 4 Windmills: 15% \n 5+ Windmills: 20% \n \n Modifier Type: Spell\n Nearby Peasants gain +10% damage and armour"
 END
 
 OBJECT:RohanStablesDescription
@@ -74245,7 +74245,7 @@ CONTROLBAR:RohanPeasantHasDraft
 END
 
 CONTROLBAR:ToolTipRohanPeasantHasDraft
-"Requires Draft power\n Peasants have received swords and shields, gaining +5 damage and +20 health \n Peasants can now be upgraded with Forged Blades and Heavy Armour"
+"Requires Draft power\n Peasants have received swords and shields, gaining +5 damage and +10 health \n Peasants can now be upgraded with Forged Blades and Heavy Armour"
 END
 
 CONTROLBAR:PurchaseUpgradeRohanDraft
@@ -74253,7 +74253,7 @@ CONTROLBAR:PurchaseUpgradeRohanDraft
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanDraft
-"Allows peasants to receive swords and shields,\ngaining +5 damage and +20 health \n Peasants can be upgraded with Forged Blades and Heavy Armour"
+"Allows peasants to receive swords and shields,\ngaining +5 damage and +10 health \n Peasants can be upgraded with Forged Blades and Heavy Armour"
 END
 
 CONTROLBAR:ErkenbrandHorn
@@ -74285,7 +74285,7 @@ CONTROLBAR:ErkenbrandReinforcements
 END
 
 CONTROLBAR:ToolTipErkenbrandReinforcements
-"Requires Level 8 \n Summons two battalions of heavily-armoured Westfolders\nLeft click to activate"
+"Requires Level 7 \n Summons two battalions of heavily-armoured Westfolders\nLeft click to activate"
 END
 
 CONTROLBAR:GrimboldLeadership
@@ -74325,7 +74325,7 @@ CONTROLBAR:EomerStandGround
 END
 
 CONTROLBAR:ToolTipEomerStandGround
-"Required: Rank 8 \n Creates a ring which gives +33% armour, +33% damage and resistance to knockback to units within it \n Lasts 60 seconds \n Left click to activate"
+"Required: Rank 8 \n Modifier Type: Spell\n Creates a ring which gives +33% armour, +33% damage and resistance to knockback to units within it \n Lasts 60 seconds \n Left click to activate"
 END
 
 CONTROLBAR:TheodredIllFated
@@ -74341,7 +74341,7 @@ CONTROLBAR:TheodredLuck
 END
 
 CONTROLBAR:ToolTipTheodredLuck
-"Requires Level 3 \n Théodred equips his helmet, gaining +33% armour \n When activated, Théodred avoids all ranged damage for 30 seconds \n\n Requires Level 7 \n When activated, the above effect is coupled with temporary invulnerability \n Left click to activate"
+"Requires Level 3 \n Théodred equips his helmet, gaining +33% armour \n Passive ability \n When activated, Théodred avoids all ranged damage for 30 seconds \n\n Requires Level 7 \n When activated, the above effect is coupled with temporary invulnerability \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipTheodredLuckCampaign
@@ -74413,7 +74413,7 @@ CONTROLBAR:EowynReadiness
 END
 
 CONTROLBAR:ToolTipEowynReadiness
-"Requires Level 2 \n Summons a permanent battalion of drafted Peasants\nRespects command point limit\nLeft click to activate"
+"Requires Level 3 \n Summons a permanent battalion of drafted Peasants\nRespects command point limit\nLeft click to activate"
 END
 
 CONTROLBAR:ToggleEowynDernhelm
@@ -74421,7 +74421,7 @@ CONTROLBAR:ToggleEowynDernhelm
 END
 
 CONTROLBAR:ToolTipToggleEowynDernhelm
-"Requires Level 4 \n Éowyn dons Dernhelm's armour \n Toggle between White Lady and Dernhelm"
+"Requires Level 5 \n Éowyn dons Dernhelm's armour \n Toggle between White Lady and Dernhelm"
 END
 
 CONTROLBAR:ToggleEowynLady
@@ -74429,7 +74429,7 @@ CONTROLBAR:ToggleEowynLady
 END
 
 CONTROLBAR:ToolTipToggleEowynLady
-"Requires Level 4 \n Éowyn dons her gown \n Toggle between White Lady and Dernhelm"
+"Requires Level 5 \n Éowyn dons her gown \n Toggle between White Lady and Dernhelm"
 END
 
 CONTROLBAR:EowynIthilienGarden
@@ -75200,7 +75200,7 @@ CONTROLBAR:PurchaseTunnelCollapse
 END
 
 CONTROLBAR:ToolTipPurchaseTunnelCollapse
-"Allows the Dwarven Mine to damage and stun nearby units for 15 seconds\n but reduces resource production by 50% for 60 seconds \n Left click to activate"
+"Allows the Dwarven Mine to damage and stun nearby units for 15 seconds but reduces resource production\n by 50% for 60 seconds \n Left click to activate"
 END
 
 CONTROLBAR:TunnelCollaspe
@@ -75236,7 +75236,7 @@ CONTROLBAR:ToolTipSongForVictoryArchers
 END
 
 CONTROLBAR:ToolTipSongForVictoryKnights
-"The seasoned warriors sing a song of past victories\nKnights of Rivendell gain -50% reduced trample deceleration for 15 seconds\nLeft click to activate"
+"The seasoned warriors sing a song of past victories\nKnights of Rivendell gain -25% reduced trample deceleration for 15 seconds\nLeft click to activate"
 END
 
 CONTROLBAR:EyesoftheCrow
@@ -75312,7 +75312,7 @@ CONTROLBAR:HelmingasShieldCrush
 END
 
 CONTROLBAR:ToolTipHelmingasShieldCrush
-"Modifier Type: Spell \n Allies near the Helmingas become immune to fear and terror \nPassive ability \n\n When activated, the Helmingas can crush enemies and are immune to arrows for 20 seconds\nLeft click to activate"
+"Modifier Type: Spell \n Helmingas and nearby allies become immune to fear and terror \nPassive ability \n\n When activated, the Helmingas can crush enemies and are immune to arrows for 20 seconds\nLeft click to activate"
 End
 
 CONTROLBAR:MarkOfHelm
@@ -75412,7 +75412,7 @@ CONTROLBAR:SpecialAbilityIsengardFocusDunland
 END
 
 CONTROLBAR:ToolTipSpecialAbilityIsengardFocusDunland
-"Select to activate \n Provides bonuses to Wildmen and Dunlendings \n +15% damage, +70% combat experience \n Decreases price by 10%"
+"Select to activate \n Provides bonuses to Wildmen and Dunlendings \n +15% armour, +70% combat experience \n Decreases price by 10%"
 END
 
 CONTROLBAR:SpecialAbilityIsengardFocusArcher
@@ -75499,7 +75499,7 @@ CONTROLBAR:WildMountainOrcTerror
 End
 
 CONTROLBAR:ToolTipWildMountainOrcTerror
-"Requires Level 2 \n Consecutive attacks temporarily increase attack damage by 5% up to a maximum of 25% \n Passive Ability"
+"Requires Level 2 \n Consecutive attacks temporarily increase attack damage by 5% up to a maximum of 20% \n Passive Ability"
 End
 
 OBJECT:WildMountainOrcBrute
@@ -75926,7 +75926,7 @@ CONTROLBAR:ConstructGuldurBrokenRabbleHordeKrimpul
 END
 
 CONTROLBAR:ToolTipBuildGuldurBrokenRabbleHorde
-"Horde consisting of tortured and enslaved Elves, Woodmen,\n and Dwarves. \n \n 'The Necromancer's servants hunted and ensnared countless wanderers in and around the borders of southern Mirkwood. Tortured and broken, they were sent out with Dol Guldur's legions, to make war on their former friends and family.'"
+"Strong vs. Pikemen \n\nHorde consisting of tortured and enslaved Elves, Woodmen,\n and Dwarves. \n \n 'The Necromancer's servants hunted and ensnared countless wanderers in and around the borders of southern Mirkwood. Tortured and broken, they were sent out with Dol Guldur's legions, to make war on their former friends and family.'"
 END
 
 OBJECT:GuldurOrcArcher
@@ -76156,7 +76156,7 @@ CONTROLBAR:GuldurInfestation
 END
 
 CONTROLBAR:ToolTipGuldurInfestation
-"Requires a Spider Lair\nSummons a swarm of spiders around the structure for 30 seconds\nthat slows nearby enemies' attack and movement speed by 20% and deals minor damage to nearby enemies\nLeft click to activate"
+"Requires a Spider Lair\nSummons a swarm of spiders around the structure for 30 seconds\nthat slows nearby enemies' attack and movement speed by 10% and deals minor damage to nearby enemies\nLeft click to activate"
 END
 
 CONTROLBAR:SpiderLairInfestation
@@ -76164,7 +76164,7 @@ CONTROLBAR:SpiderLairInfestation
 END
 
 CONTROLBAR:ToolTipSpiderLairInfestation
-"Once constructed, Spider Lairs allow most structures\nto use the Infestation power\nInfestation summons a swarm of spiders around a structure\nthat slows nearby enemies' attack and movement speed by 20% and deals minor damage\nPassive ability"
+"Once constructed, Spider Lairs allow most structures\nto use the Infestation power\nInfestation summons a swarm of spiders around a structure\nthat slows nearby enemies' attack and movement speed by 10% and deals minor damage\nPassive ability"
 END
 
 CONTROLBAR:GuldurDrain
@@ -76684,7 +76684,7 @@ CONTROLBAR:ThrainLeadership
 End
 
 CONTROLBAR:ToolTipThrainLeadership
-"Requires Level 2\nBroken Rabble near Thráin gain \n+50% experience and +50% armour\nPassive ability \n\n At level 7, targeted Broken Rabble gain large experience \n Left click then left click on target units"
+"Requires Level 2\nBroken Rabble near Thráin gain \n+50% experience and +35% armour\nPassive ability \n\n At level 7, targeted Broken Rabble gain large experience \n Left click then left click on target units"
 END
 
 CONTROLBAR:ThrainNoEscape
