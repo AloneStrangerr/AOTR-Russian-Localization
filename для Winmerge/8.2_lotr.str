@@ -67426,7 +67426,7 @@ CONTROLBAR:HasteoftheElves
 END
 
 CONTROLBAR:ToolTipHasteoftheElves
-"Requires Level 10 \n Modifier Type: Spell \n Idrial's power cooldowns are reduced by 25% permanently\n Passive ability"
+"Requires Level 10 \n Modifier Type: Spell \n Idrial's power cooldowns are reduced by 20% permanently\n Passive ability"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenFortressFlamingMunitions
@@ -67694,7 +67694,7 @@ CONTROLBAR:CrowBanner
 END
 
 CONTROLBAR:ToolTipCrowBanner
-"Requires Level 5 \n Wulfgar summons a Crow Banner for 90 seconds\n Enemies nearby the Crow Banner lose -20% armour and -25% damage\nAt level 8, also summons a temporary battalion of Dunlending Huskarls\n Left click to activate"
+"Requires Level 5 \n Wulfgar summons a Crow Banner for 90 seconds\n Enemies nearby the Crow Banner lose -33% armour and damage\nAt level 8, also summons a temporary battalion of Dunlending Huskarls\n Left click to activate"
 END
 
 OBJECT:BuildmeanArmyStructure
@@ -68387,7 +68387,7 @@ CONTROLBAR:BardBeastSlayerArrow
 END
 
 CONTROLBAR:ToolTipBardSlamArrow
-"A precise arrow shot that decreases enemy armour by -25% for 30 seconds\n Left click icon then left click on target unit"
+"A precise arrow shot that decreases enemy armour by -33% for 15 seconds\n Left click icon then left click on target unit"
 End
 
 CONTROLBAR:ToolTipBardBeastSlayerArrow
@@ -69321,7 +69321,7 @@ CONTROLBAR:SummonGenericMordorSpy
 END
 
 CONTROLBAR:ToolTipSummonGenericMordorSpy
-"Summons a small horde of Ungol Trackers\nUngol Trackers are fast-moving units that clear shroud and detect stealth \n Nearby enemy units suffer -25% damage and -20% armour\n Left click icon then left click on pathable location"
+"Summons a small horde of Ungol Trackers\nUngol Trackers are fast-moving units that clear shroud and detect stealth \n Nearby enemy units suffer -15% damage and armour\n Left click icon then left click on pathable location"
 END
 
 OBJECT:MordorUngolTracker
@@ -69340,6 +69340,10 @@ END
 
 CONTROLBAR:ToolTipSummonedWightDebuff
 "Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% damage and -20% armour\n Passive ability"
+END
+
+CONTROLBAR:ToolTipSummonedUngolDebuff
+"Modifier Type: Passive Debuff \n Nearby enemy units suffer -15% damage and armour\n Passive ability"
 END
 
 OBJECT:FishBarrel
@@ -69415,7 +69419,7 @@ CONTROLBAR:TooltipDeepDelving
 //"+30% resources from Dwarven Mines\nPassive power"
 //"+25% resources from Dwarven Mines\nPassive power"
 //"+20% resources from Dwarven Mines\nPassive power"
-"+12% resources from Dwarven Mines \n Passive power"
+"+10% resources from Dwarven Mines \n Passive power"
 END
 
 CONTROLBAR:RekindledHearths
@@ -70406,11 +70410,11 @@ CONTROLBAR:TwinsHeroesLeadership
 End
 
 CONTROLBAR:ToolTipTwinsHeroesLeadershipElladan
-"Modifier Type: Leadership \n Grants 25% armour to nearby Bree-landers, Dúnedain and Elves \n At level 5, reduces recharge time for nearby heroes abilities by 25% and \n increases auto-heal of nearby heroes by 25%\n Does not affect his brother \nPassive ability"
+"Modifier Type: Leadership \n Grants 25% armour to nearby Bree-landers, Dúnedain and Elves \n At level 5, reduces recharge time for nearby heroes abilities by 25% and increases auto-heal of nearby heroes by 25%\n Does not affect his brother \nPassive ability"
 End
 
 CONTROLBAR:ToolTipTwinsHeroesLeadershipElrohir
-"Modifier Type: Leadership \n Grants 25% damage to nearby Bree-landers, Dúnedain and Elves \n At level 5, reduces recharge time for nearby heroes abilities by 25% and \n increases auto-heal of nearby heroes by 25%\n Does not affect his brother \nPassive ability"
+"Modifier Type: Leadership \n Grants 25% damage to nearby Bree-landers, Dúnedain and Elves \n At level 5, reduces recharge time for nearby heroes abilities by 25% and increases auto-heal of nearby heroes by 25%\n Does not affect his brother \nPassive ability"
 End
 
 //------------ New Rivendell Stuff ---------------
@@ -71146,19 +71150,19 @@ CONTROLBAR:ToolTipArwenFloodCampaign
 End
 
 CONTROLBAR:TinuvielBlessing
-"Blessing of Tinuviel (&C)"
+"Blessing of Tinuviel (&T)"
 END
 
 CONTROLBAR:ToolTipTinuvielBlessing
-"Requires Level 6 \n Enemy units within the radius are slowed by 15% and\nlose -20% damage and armour for 30 seconds\n Left click icon then left click on target"
+"Requires Level 3 \n Enemy units within the radius are slowed by 15% and\nlose -20% damage and armour for 30 seconds\n Left click icon then left click on target"
 END
 
 CONTROLBAR:ArwenImage
-"Image of Lúthien (&T)"
+"Image of Lúthien (&C)"
 End
 
 CONTROLBAR:ToolTipArwenImage
-"Requires Level 3\n Targeted units and heroes become invisible and receive +10% movement speed for 30 seconds\n Left click icon then left click on target"
+"Requires Level 6\n Targeted units and heroes become invisible and receive +10% movement speed for 30 seconds\n Left click icon then left click on target"
 End
 
 CONTROLBAR:DaughterElrond
@@ -71541,7 +71545,7 @@ CONTROLBAR:WannaBoroMiKnife
 END
 
 CONTROLBAR:TooltipWannaBoroMiKnife
-"Requires Level 2\n Boromir throws his knife at an enemy unit, knocking them back and reducing their armour by 20% for 10 seconds \n Left click icon then left click on target"
+"Requires Level 2\n Boromir throws his knife at an enemy unit, knocking them back and reducing their armour by 30% for 10 seconds \n Left click icon then left click on target"
 END
 
 CONTROLBAR:TooltipFellowshipWannaBoroMiKnife
@@ -72058,7 +72062,7 @@ CONTROLBAR:VWMineLeadership
 End
 
 CONTROLBAR:ToolTipVWMineLeadership
-"Modifier Type: Leadership \n Vault-wardens gain +25% damage and +50% armour when near Allied Dwarven Mines\n and earn experience 50% faster \nPassive ability"
+"Modifier Type: Leadership \n Vault-wardens gain +25% damage and armour when near Allied\n Dwarven Mines and earn experience 50% faster \nPassive ability"
 End
 
 OBJECT:HordeDwarvenArcherDwarvenPhalanxCombo
