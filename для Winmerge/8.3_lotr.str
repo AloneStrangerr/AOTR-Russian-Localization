@@ -9327,6 +9327,10 @@ OBJECT:DwarvenAxeThrower
 "Erebor Axe Thrower"
 END
 
+OBJECT:EredLuinTrollSlayer
+"Utasu-id-darâh"
+END
+
 OBJECT:DwarvenBanner
 "Erebor Banner Carrier"
 END
@@ -9467,7 +9471,7 @@ OBJECT:IsengardBanner
 END
 
 OBJECT:IsengardWargRider
-"Warg Rider"
+"Warg-rider"
 END
 
 OBJECT:IsengardBeserker
@@ -10005,7 +10009,7 @@ OBJECT:GenericHillTroll
 END
   
 OBJECT:GenericWargRider
-"Warg Rider"
+"Warg-rider"
 END
   
 OBJECT:GenericGoblinSwordsman
@@ -16499,10 +16503,10 @@ CONTROLBAR:ToolTipIsengardUrukPit_EvilAmonHen
 "Trains Isengard infantry units"
 END
 CONTROLBAR:ToolTipIsengardWargPit
-"Trains Warg Riders"
+"Trains Warg-riders"
 END
 CONTROLBAR:ToolTipIsengardWargPitWotR
-"Secondary Barracks \n Trains Warg Riders \n Limited to 1"
+"Secondary Barracks \n Trains Warg-riders \n Limited to 1"
 END
 CONTROLBAR:ToolTipIsengardSiegeWorks
 "Builds Isengard's Siege Weapons\n At rank 2, repairs nearby siege engines"
@@ -17945,7 +17949,7 @@ CONTROLBAR:ConstructIsengardWildmanHorde
 "Wildmen of Dunland (&W)"
 END
 CONTROLBAR:ConstructIsengardWargRider
-"Warg Riders (&W)"
+"Warg-riders (&W)"
 END
 CONTROLBAR:ConstructWildWargRider
 "Gundabad Wolf-riders (&E)"
@@ -25067,12 +25071,12 @@ End
 
 BANNERUI:WargRider
 // Singluar name of the warg rider category displayed in the army summary from the banner ui
-"Warg Rider"
+"Warg-rider"
 End
 
 BANNERUI:WargRiders
 // Plural name of the warg rider category displayed in the army summary from the banner ui
-"Warg Riders"
+"Warg-riders"
 End
 
 BANNERUI:SiegeEquipment
@@ -25406,22 +25410,22 @@ BANNERUI:IsengardUrukCrossbows
 End
 
 BANNERUI:IsengardWargRider
-// Singluar name of the Isengard Warg Rider category displayed in the army summary for WotR
-"Warg Rider"
+// Singluar name of the Isengard Warg-rider category displayed in the army summary for WotR
+"Warg-rider"
 End
 
 BANNERUI:IsengardWargRiders
-// Plural name of the Isengard Warg Rider category displayed in the army summary for WotR
-"Warg Riders"
+// Plural name of the Isengard Warg-rider category displayed in the army summary for WotR
+"Warg-riders"
 End
 
 BANNERUI:WildWargRider
-// Plural name of the Isengard Warg Rider category displayed in the army summary for WotR
+// Plural name of the Isengard Warg-rider category displayed in the army summary for WotR
 "Gundabad Wolf-Rider"
 End
 
 BANNERUI:WildWargRiders
-// Singluar name of the Isengard Warg Rider category displayed in the army summary for WotR
+// Singluar name of the Isengard Warg-rider category displayed in the army summary for WotR
 "Gundabad Wolf-riders"
 End
 
@@ -26386,7 +26390,7 @@ OBJECT:HordeIsengardCrossbow
 END
 
 OBJECT:HordeIsengardWargRiders
-"Warg Riders"
+"Warg-riders"
 END
 
 OBJECT:HordeWildMenOfDunland
@@ -29291,6 +29295,10 @@ END
 
 OBJECT:HordeDwarvenAxeThrower
 "Axe Throwers"
+END
+
+OBJECT:HordeEredLuinTrollSlayer
+"Ered Luin Troll-slayers"
 END
 
 /////////////////////////////////////////
@@ -69008,7 +69016,11 @@ END
 CONTROLBAR:ToolTipDwarvenWile
 "Requires Level 3 \n Ered Luin Rangers lay down an assortment of tripwires, caltrops and pitfalls.\n Enemies that walk across are stunned for 5 seconds\n Does not affect creeps\n\n Left click then left click target location"
 END
-//------------ Ered Luin Guards ---------------
+//------------ Ered Luin Troll Slayers ---------------
+CONTROLBAR:ConstructEredLuinTrollSlayerHorde
+"Utus-id-darâh (&T)"
+END
+CONTROLBAR:ToolTipBuildEredLuinTrollSlayerHorde//------------ Ered Luin Guards ---------------
 OBJECT:EredLuinGuard
 "Ushmur-Khagal-zirak"
 END
@@ -88735,7 +88747,7 @@ Map:MAPMPwestmarch
 End
 
 Map:MAPMPwestmarch/Desc
-"A land of meadows and rises, between the Tower Hills and the Shire. \n Capturable: Signal Fire, Inn \n Creeps: Stone Troll \n Region: Arnor"
+"A land of meadows and rises, between the Tower Hills and the Shire. \n Capturable: Signal Fire, Inn \n Creeps: Stone Troll, Warg \n Region: Arnor"
 End
 
 /////
@@ -90122,7 +90134,7 @@ LW:DisplayNameDurthang
 End
 
 Map:MAPWORDurthang/Desc
-"Durthang stands upon the northern passes of Ephel Dúath, near the Black Gate. Originally a Gondorian fortress, it is now one of several orc strongholds that guards Mordor's flank. \n Subregion: Ephel Dúath (+5 PP,+10% Atk) \n Region: Mordor (+5 PP,-200 Building Discount)"
+"Durthang stands upon the northern passes of Ephel Dúath, near the Black Gate. Originally a Gondorian fortress, it is now one of several orc strongholds that guard Mordor's flank. \n Subregion: Ephel Dúath (+5 PP,+10% Atk) \n Region: Mordor (+5 PP,-200 Building Discount)"
 End
 
 
