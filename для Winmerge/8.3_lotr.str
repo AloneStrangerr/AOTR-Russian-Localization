@@ -83605,7 +83605,7 @@ CONTROLBAR:ToolTipCapturedPalantir
 "Requires the Captured Palantir upgrade\nCan be cast to reveal part of the map for 2 minutes\nEnemy units caught in the radius take minor damage over time\nLeft click icon then left click on target area"
 END
 CONTROLBAR:PurchaseUpgradeAngmarFrostbite
-"Plague From Angmar (&S)"
+"Frostbite (&S)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeAngmarFrostbite
 "Prerequisite to Fell Storm \n Enemy units surrounding the fortress take damage \n and turn into Wraiths upon dying"
@@ -84233,37 +84233,37 @@ CONTROLBAR:PurchaseUpgradeArthedainFortressBanners
 "Banners of the Elendili (&W)"
 END
 CONTROLBAR:PurchaseUpgradeArthedainFortressKeepers
-"Keepers of the Seeing-stones (&E)"
+"Keepers of the Seeing-stones (&T)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeArthedainFortressKeepers
 "Increases Fortress armour by 65%\nUnlocks Keepers of the Seeing-stones ability\nWhen activated, all friendly heroes on the map gain +25% vision range for 60 seconds"
 END
 CONTROLBAR:PurchaseUpgradeArthedainFortressMusteringGrounds
-"Mustering Grounds (&R)"
+"Mustering Grounds (&E)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeArthedainFortressMusteringGrounds
 "Unlocks Mustering Grounds ability\nWhen activated, temporarily decreases the recruit cost of Arthedain units by 25% and recruit time by 50% for 60 seconds"
 END
 CONTROLBAR:PurchaseUpgradeArthedainTowerOfStars
-"Tower of the Stars (&T)"
+"Tower of the Stars (&R)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeArthedainTowerOfStars
 "Modifier Type: Spell\nDúnedain units across the map passively gain +15% damage, armour and experience gain\nPassive ability\nUnlocks Tower of the Stars ability\nWhen activated, replenishes one fallen unit from all friendly battalions across the map"
 END
 CONTROLBAR:KeepersofSeeingStones
-"Keepers of the Seeing-stones (&T)"
+"Keepers of the Seeing-stones (&D)"
 END
 CONTROLBAR:ToolTipKeepersofSeeingStones
 "When activated, all friendly heroes on the map gain +25% vision range for 60 seconds\nLeft click to activate"
 END
 CONTROLBAR:ArthedainMusteringGrounds
-"Mustering Grounds (&S)"
+"Mustering Grounds (&T)"
 END
 CONTROLBAR:ToolTipArthedainMusteringGrounds
 "When activated, temporarily decreases the recruit cost of Arthedain units by 25% and recruit time by 50% for 60 seconds\nLeft click to activate"
 END
 CONTROLBAR:SpecialAbilityTowersOfStars
-"Tower of the Stars (&D)"
+"Tower of the Stars (&S)"
 END
 CONTROLBAR:ToolTipSpecialAbilityTowersOfStars
 "When activated, one fallen unit from all friendly battalions across the map is replenished\nLeft click to activate"
@@ -84291,6 +84291,9 @@ OBJECT:MoriaTrollDestroyer
 END
 CONTROLBAR:ConstructTrollDestroyer
 "Cave-troll Destroyer (&E)"
+END
+CONTROLBAR:ConstructTrollDestroyer_They
+"Cave-troll Destroyer"
 END
 CONTROLBAR:ToolTipBuildTrollDestroyer
 "Requires Level 2 Troll Lair\nStrong vs. Swordsmen, Cavalry, and Structures \n \nReared for brutal tunnel warfare, these Cave-trolls are the largest and meanest of their kind. Before battle, their orcish keepers pester and bully them into a blind rage. "
@@ -84413,7 +84416,7 @@ CONTROLBAR:SpecialAbilityPlunderedTribute
 "Plundered Tribute (&R)"
 END
 CONTROLBAR:TooltipSpecialAbilityPlunderedTribute
-"Selected Orc Tunnel or Goblin Hoard's resource output is raised to 275% for 5 minutes\n Left click icon then left click on target resource structure"
+"Selected Orc Tunnel or Goblin Hoard's resource output is raised to 250% for 5 minutes\n Left click icon then left click on target resource structure"
 End
 CONTROLBAR:SpecialAbilityFlameofUdun
 "Flame of Udûn (&T)"
@@ -84639,12 +84642,16 @@ CONTROLBAR:KotDHotkey
 "The King of the Dead (&R)"
 End
 
+CONTROLBAR:DunharrowKotDHotkey
+"The King of the Dead (&W)"
+End
+
 CONTROLBAR:KotDSpell
 "Curse of the Dead King (&R)"
 END
 
 CONTROLBAR:ToolTipKotDSpell
-"Requires Level 5\nTarget enemies flee in terror\nAny Oathbreaker Warriors in the target area deal +50% damage\nLeft click icon then left click on target area"
+"Requires Level 5\nTarget enemies flee in terror\nAny Oathbreaker Warriors near the King of the Dead deal +50% damage for 20 seconds\nLeft click icon then left click on target area"
 END
 
 CONTROLBAR:KotDCallBeyond
@@ -84652,7 +84659,7 @@ CONTROLBAR:KotDCallBeyond
 END
 
 CONTROLBAR:ToolTipKotDCallBeyond
-"Requires Level 7\nThe King of the Dead slowly but continually summons temporary,\nsingle Oathbreaker Warriors from the earth\nbut can't move or attack\nLeft click to activate and deactivate"
+"Requires Level 7\nThe King of the Dead slowly but continually summons temporary,\nsingle Oathbreaker Warriors from the earth for 60 seconds\nLeft click to activate"
 END
 
 CONTROLBAR:KotDOathbreaker
@@ -84893,7 +84900,7 @@ CONTROLBAR:DamrodRefuge
 "Refuge (&C)"
 END
 CONTROLBAR:TooltipDamrodRefuge
-"Requires Level 5\nDamrod sets up a Forward Camp for 90 seconds\nAllies near the Forward Camp are stealthed, healed and gain +25% damage, +25% armour and +33% experience gain\nLeft click then left click target area"
+"Requires Level 5\nDamrod sets up a Forward Camp for 90 seconds\nAllies near the Forward Camp are stealthed, healed, replenished and gain +25% damage, +25% armour and +33% experience gain\nLeft click then left click target area"
 END
 OBJECT:IthilienForwardCamp
 "Forward Camp"
@@ -85049,7 +85056,7 @@ CONTROLBAR:ConstructIthilienTrebuchet
 "Ithilien Trebuchet (&D)"
 END
 CONTROLBAR:ToolTipBeregondFierceLoyaltyIthilien
-"Modifier Type: Leadership \n Faramir and Boromir gain +25% armour and +25% damage when near Beregond\nPassive ability"
+"Modifier Type: Leadership \n Faramir and Boromir gain +15% armour and +15% damage when near Beregond\nPassive ability"
 END
 CONTROLBAR:DefenderoftheWhiteCityBIthilien
 "Defender of the Prince (Bow) (&T)"
@@ -85245,7 +85252,7 @@ CONTROLBAR:TooltipWotRDarkLordChosenIsengard
 "Permanently summons a horde of Uruk-hai Man-slayers\nLimited to 3\nLeft click on icon then left click on target area"
 END
 CONTROLBAR:TooltipWotRDarkLordChosenMordor
-"Permanently summons a horde of Morgul Vanguard\nLimited to 1\nLeft click on icon then left click on target area"
+"Permanently summons a horde of Witch-king's Vanguard\nLimited to 1\nLeft click on icon then left click on target area"
 END
 CONTROLBAR:TooltipWotRDarkLordChosenMM
 "Permanently summons a Cold-drake\nLimited to 1\nLeft click on icon then left click on target area"
@@ -85383,6 +85390,7 @@ Map:MAPMPadventurebattleofthefivearmies/Desc
 "'... in all the mountains there was a forging and an arming. Then they marched... until around and beneath the great mountain Gundabad of the North, where was their capital, a vast host was assembled ready to sweep down in time of storm unawares upon the South.'\n Singleplayer Adventure Map \n Human Player: Erebor"
 END
 
+
 /////
 
 Map:MAPMPadventuredorwinion
@@ -85433,6 +85441,7 @@ End
 Map:MAPMPadventurerhun/Desc
 "The Easterlings were among the most fanatical and devoted of the Dark Lord's servants among men. Hailing from the vast land of Rhûn, they were renowned for their martial prowess and fearlessness in battle. \n Singleplayer Adventure Map \n Human Player: Mordor"
 End
+
 
 /////
 
@@ -85732,7 +85741,7 @@ Map:MAPMPbesiegedurthang
 End
 
 Map:MAPMPbesiegedurthang/Desc
-"Durthang stands upon the northern passes of Ephel Dúath near the Black Gate. Originally a Gondorian fortress, it is now one of several orc strongholds that guards Mordor's western flank. \n Capturable: Inn \n Creeps: Goblin \n Region: Mordor"
+"Durthang stands upon the northern passes of Ephel Dúath near the Black Gate. Originally a Gondorian fortress, it is now one of several orc strongholds that guard Mordor's western flank. \n Capturable: Inn \n Creeps: Goblin \n Region: Mordor"
 End
 
 /////
@@ -86294,7 +86303,7 @@ Map:MAPMPeastbight
 End
 
 Map:MAPMPeastbight/Desc
-"This great indentation in the eastern edge of Mirkwood is a treeless region resulting from generations of forestry by the Northmen who historically occupied the lands east of the Forest. \n Capturable: Inn \n Creeps: Goblin \n Region: Rhovanion"
+"This great indentation in the eastern edge of Mirkwood is a treeless region resulting from generations of forestry by the Northmen who historically occupied the lands east of the Forest. \n Capturable: Inn \n Creeps: Goblin, Warg \n Region: Rhovanion"
 End
 
 /////
@@ -86785,7 +86794,7 @@ Map:MAPMPfortressdurthang
 End
 
 Map:MAPMPfortressdurthang/Desc
-"Durthang stands upon the northern passes of Ephel Dúath near the Black Gate. Originally a Gondorian fortress, it is now one of several orc strongholds that guards Mordor's western flank. \n Capturable: Inn \n Creeps: Goblin \n Region: Mordor"
+"Durthang stands upon the northern passes of Ephel Dúath near the Black Gate. Originally a Gondorian fortress, it is now one of several orc strongholds that guard Mordor's western flank. \n Capturable: Inn \n Creeps: Goblin \n Region: Mordor"
 End
 
 /////
@@ -88346,7 +88355,7 @@ Map:MAPMPspringofloudwater
 End
 
 Map:MAPMPspringofloudwater/Desc
-"The Loudwater begins with two tributaries flowing from the western slopes of the Misty Mountains, one of which came from the High Pass where Goblin-town existed. \n Capturable: Inn \n Creeps: Cave Troll, Goblin \n Region: Misty Mountains"
+"The Loudwater begins with two tributaries flowing from the western slopes of the Misty Mountains, one of which came from the High Pass where Goblin-town existed. \n Capturable: Inn \n Creeps: Cave Troll, Goblin, Warg \n Region: Misty Mountains"
 End
 
 /////
@@ -88367,7 +88376,7 @@ Map:MAPMPsteppesofsarakhax
 End
 
 Map:MAPMPsteppesofsarakhax/Desc
-"In the distant east of Rhûn, the rising sun bathes the endless swaying grasslands of the 'Golden Fields' in gentle morning light. The vast steppes are inhabited by hardy folk who have forged a nomadic existence amongst the rolling plains. \n Capturable: Signal Fire \n Region: Rhûn"
+"In the distant east of Rhûn, the rising sun bathes the endless swaying grasslands of the 'Golden Fields' in gentle morning light. The vast steppes are inhabited by hardy folk who have forged a nomadic existence amongst the rolling plains. \n Capturable: Signal Fire, Inn \n Region: Rhûn"
 End
 
 /////
@@ -88529,7 +88538,7 @@ Map:MAPMPtempleofkarna
 End
 
 Map:MAPMPtempleofkarna/Desc
-"The Nâfarati whisper of a sunken temple deep in the jungle and a nameless evil within. Fiercely guarded by the Watchers the ruins remain quiet, seemingly appeased by a mysterious Horn and by human sacrifice cast into the shadowy depths. \n Capturable: Horn of Kârna, Inn \n Creeps: Watchers of Kârna \n Region: Haradwaith"
+"The Nâfarati whisper of a sunken temple deep in the jungle and a nameless evil within. Fiercely guarded by the Watchers the ruins remain quiet, seemingly appeased by a mysterious Horn and by human sacrifice cast into the shadowy depths. \n Capturable: Inn \n Creeps: Watchers of Kârna \n Region: Haradwaith"
 End
 
 
@@ -88666,7 +88675,7 @@ Map:MAPMPudun
 End
 
 Map:MAPMPudun/Desc
-"The lands behind the Black Gate known as Udûn take the name of the underworld due to the volcanic ash and noxious fumes that cover them. \n Capturable: Signal Fire \n Hazards: Poisonous Funes \n Region: Mordor"
+"The lands behind the Black Gate known as Udûn take the name of the underworld due to the volcanic ash and noxious fumes that cover them. \n Capturable: Inn \n Creeps: Troll, Warg \n Region: Mordor"
 End
 
 /////
