@@ -9406,6 +9406,10 @@ CONTROLBAR:ToolTipPickpockets
 "Requires Level 2 \n Ruffians steal resources from slain enemies\nPassive ability"
 END
 
+CONTROLBAR:ToolTipPickpockets_Summoned
+"Ruffians steal resources from slain enemies\nPassive ability"
+END
+
 CONTROLBAR:LightEmUp
 "Light 'em Up! (&T)"
 END
@@ -9501,6 +9505,11 @@ END
 OBJECT:IsengardLurtz
 "Lurtz"
 END
+
+OBJECT:IsengardMog
+"Móg"
+END
+
 
 OBJECT:IsengardPorter
 "Builder"
@@ -9708,12 +9717,40 @@ OBJECT:DeadOrc
 "Dead Orc"
 END
 
+OBJECT:DeadOrcs
+"Dead Orcs"
+END
+
 OBJECT:DeadUruk
 "Dead Uruk"
 END
 
+OBJECT:DeadHaradrim
+"Dead Haradrim"
+END
+
 OBJECT:DeadSoldier
 "Dead Soldier"
+END
+
+OBJECT:DeadElf
+"Dead Elf"
+END
+
+OBJECT:DeadDwarf
+"Dead Dwarf"
+END
+
+OBJECT:DeadDwarves
+"Dead Dwarves"
+END
+
+OBJECT:DeadRohirrim
+"Dead Rohirrim"
+END
+
+OBJECT:DeadHorse
+"Dead Horse"
 END
 
 OBJECT:OrcMeatRack
@@ -9836,6 +9873,10 @@ OBJECT:VineBarricade
 "Vine Barricade"
 END
 
+OBJECT:Moss
+"Moss"
+END
+
 OBJECT:Urn
 "Urn"
 END
@@ -9882,6 +9923,14 @@ END
 
 OBJECT:Spear
 "Spear"
+END
+
+OBJECT:Bow
+"Bow"
+END
+
+OBJECT:Axe
+"Axe"
 END
 
 OBJECT:Shield
@@ -10069,7 +10118,7 @@ END
 
 CONTROLBAR:ToolTipMallornRoots
 //"Requires Level 2 Mallorn Tree \n Nearby enemies are slowed"
-"Modifier Type: Debuff\nNearby enemies are slowed and suffer minor damage over time\n Mallorn Tree receives +33% armour"
+"Modifier Type: Debuff\nNearby enemies are slowed and suffer minor damage over time\n Mallorn Tree receives +25% armour"
 END
 
 OBJECT:Obsolete
@@ -10329,6 +10378,10 @@ END
 
 OBJECT:GondorFarm
 "Farm"
+END
+
+OBJECT:GondorGranary
+"Granary"
 END
 
 OBJECT:GondorBlackSmith
@@ -11076,6 +11129,10 @@ OBJECT:Torch
 "Torch"
 END
 
+OBJECT:Candle
+"Candle"
+END
+
 OBJECT:Lamp
 "Lamp"
 END
@@ -11204,6 +11261,14 @@ OBJECT:MTDoor
 "Minas Tirith Door"
 END
 
+OBJECT:MTWoodenGate
+"Wooden Gate"
+END
+
+OBJECT:PelargirBridgeGate
+"Draw Bridge"
+END
+
 OBJECT:MTBridge
 "Minas Tirith Bridge"
 END
@@ -11267,6 +11332,11 @@ OBJECT:CampaignStrider
 "Strider"
 END
 
+OBJECT:CampaignFellbeast
+"Fellbeast"
+END
+
+
 OBJECT:CampaignRingwraith
 "Ringwraith"
 END
@@ -11288,7 +11358,7 @@ OBJECT:CampaignAthelas
 END
 
 OBJECT:BalinsAxe
-"Balin's Axe"
+"Durin's Axe"
 END
 
 OBJECT:FireWood
@@ -11323,6 +11393,10 @@ OBJECT:CampaignGrog
 "Grog"
 END
 
+OBJECT:CampaignFirebombCache
+"Firebomb Cache"
+END
+
 OBJECT:CampaignBooks
 "Books"
 END
@@ -11332,7 +11406,7 @@ OBJECT:CampaignWaystone
 END
 
 OBJECT:CampaignMog
-"Mog"
+"Móg"
 END
 
 OBJECT:GarrisonableBush
@@ -11345,6 +11419,10 @@ END
 
 OBJECT:Shane
 "Shane"
+END
+
+OBJECT:CampaignRammasGate
+"Rammas Gate"
 END
 
 //////////CAMPAIGN MISSIONS/////////////
@@ -15042,59 +15120,59 @@ END
 ////////////////COUNCIL OF ELROND/////////////////
 
 SCRIPT:Objective00_Council
-"Speak to heroes in the Hall of Fire"
+"Speak to heroes in the Hall of Fire."
 END
 
 SCRIPT:Objective00Boromir_Council
-"Speak to Boromir to learn of the struggles in Gondor"
+"Speak to Boromir to learn of the struggles in Gondor."
 END
 
 SCRIPT:Objective00Elrond_Council
-"Speak to Elrond to hear the fate of Isildur"
+"Speak to Elrond to hear the fate of Isildur."
 END
 
 SCRIPT:Objective00Bilbo_Council
-"Speak to Bilbo to hear a tale of riddles"
+"Speak to Bilbo to hear a tale of riddles."
 END
 
 SCRIPT:Objective01_Council
-"Explore the cave"
+"Explore the cave."
 END
 
 SCRIPT:Objective02_Council
-"Answer Gollum's riddles"
+"Answer Gollum's riddles."
 END
 
 SCRIPT:Objective03_Council
-"Escape from Gollum's cave"
+"Escape from Gollum's cave!"
 END
 
 SCRIPT:Objective04_Council
-"Survive the orc ambush"
+"Survive the orc ambush!"
 END
 
 SCRIPT:Objective05_Council
-"Hold ground and stop orcs from advancing into the forest and finding Isildur"
+"Hold ground and stop orcs from advancing into the forest and finding Isildur."
 END
 
 SCRIPT:Objective06_Council
-"Defend Isildur"
+"Defend Isildur."
 END
 
 SCRIPT:OsgiliathObjective01_Council
-"Reclaim all buildings on the Western bank before it is overrun"
+"Reclaim all buildings on the Western bank before it is overrun."
 End
 
 SCRIPT:OsgiliathObjective02_Council
-"Defend the bridges from enemy attacks"
+"Defend the bridges from enemy attacks."
 End
 
 SCRIPT:OsgiliathObjective03_Council
-"Clear the bridges of enemy forces"
+"Clear the bridges of enemy forces."
 End
 
 SCRIPT:OsgiliathBonus_Council
-"Kill the Nazgûl commander"
+"Kill the Nazgûl commander."
 End
 
 ////////////////////REDHORN//////////////////////
@@ -15182,7 +15260,7 @@ SCRIPT:BonusObjective01_Moria
 END
 
 SCRIPT:BonusObjective02_Moria
-"Find Balin's Axe."
+"Find Durin's Axe."
 END
 
 SCRIPT:BonusObjective03_Moria
@@ -15306,7 +15384,7 @@ SCRIPT:Objective06_Fords
 END
 
 SCRIPT:Objective07_Fords
-"Kill Mog"
+"Kill Móg"
 END
 
 SCRIPT:BonusObjective01_Fords
@@ -15747,7 +15825,6 @@ SCRIPT:BonusObjective01_Isengard
 "Keep all Ents alive."
 END
 
-
 // Clears the common comment field for the missions text
 // context:
 // comment:
@@ -15863,6 +15940,10 @@ END
 
 CONTROLBAR:ConstructMenFarm
 "Build Farm (&W)"
+END
+
+CONTROLBAR:ConstructMenFarmGranary
+"Build Granary (&W)"
 END
 
 CONTROLBAR:ConstructMenBarracks
@@ -16002,7 +16083,7 @@ CONTROLBAR:ConstructMenStoneMaker
 END
 
 CONTROLBAR:ToolTipConstructMenStoneMaker
-"Generates resources based on available terrain \n Strengthens nearby structures \n Reduces cost of buildings\n Limited to 5 \n Increases command point limit by 10"
+"Strengthens nearby structures \n Reduces cost of buildings \n Generates a small amount of resources \n Increases command point limit by 10\n Limited to 5"
 END
 
 CONTROLBAR:ConstructGoodPort
@@ -16427,6 +16508,9 @@ CONTROLBAR:ToolTipMordorTrollCageWotR
 "Secondary Barracks \n Trains Mountain-trolls \n Limited to 1"
 END
 CONTROLBAR:ToolTipordorSiegeWorks
+"Builds siege weapons \n At rank 2, repairs nearby siege engines\nAt rank 3, heals nearby Great Beasts"
+END
+CONTROLBAR:ToolTipRhunSiegeWorks
 "Builds siege weapons \n At rank 2, repairs nearby siege engines"
 END
 CONTROLBAR:ToolTipordorSiegeWorksWotR
@@ -16734,6 +16818,9 @@ CONTROLBAR:Taint
 "Tainted Land"
 End
 
+CONTROLBAR:SummonDurinVII
+"Awaken Durin the Deathless"
+END
 CONTROLBAR:Earthquake
 "Cave-in"
 End
@@ -16772,6 +16859,10 @@ CONTROLBAR:MordorCalltheHordeWild
 "They Are Coming"
 End
 
+CONTROLBAR:ToolTipWildCalltheHordeSAF
+"Increases Moria-orc and Black Uruk Production Speed for 45 seconds\n Left click to activate"
+END
+
 CONTROLBAR:ToolTipMordorCalltheHordeWild
 "Targeted Orc or Were-worm Tunnel spawns 6 permanent battalions of Moria-orc Screechers \n Respects command limit \n Left click then left click target"
 END
@@ -16789,7 +16880,7 @@ CONTROLBAR:WhiteWinter
 End
 
 CONTROLBAR:ToolTipCalltheHorde
-"Increases Orc and Uruk Production Speed for 30 seconds\n Left click to activate"
+"Increases Orc and Uruk Production Speed for 45 seconds\n Left click to activate"
 END
 
 CONTROLBAR:ToolTipHaradCalltheHorde
@@ -16981,7 +17072,7 @@ CONTROLBAR:MannishAllies
 End
 
 CONTROLBAR:TooltipMannishAllies
-"Reign of Oakenshield: Summons Bard the Bowman and Laketown Archers \n \nReign of Ironfoot: Summons King Brand and Dalish Archers \n \n Left click icon then left click on pathable location"
+"Reign of Oakenshield: Summons Bard the Bowman and Laketown Archers \n \nReign of Ironfoot: Summons King Brand and Barding Longbowmen \n \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:SummonSpiderlings
@@ -17103,6 +17194,9 @@ END
 CONTROLBAR:ConstructGondorTrebuchet
 "Trebuchet (&W)"
 END
+CONTROLBAR:ConstructDolAmrothTrebuchet
+"Trebuchet (&R)"
+END
 CONTROLBAR:ConstructGondorPorter
 "Builder"
 END
@@ -17134,10 +17228,10 @@ CONTROLBAR:ConstructReinforcedGateUpgrade
 "Reinforced Gate"
 END
 CONTROLBAR:ConstructGrandHarvestUpgrade
-"&Grand Harvest"
+"Grand Harvest (&W)"
 END
 CONTROLBAR:ConstructSiegeMaterialsUpgrade
-"Siege Materials (&W)"
+"Siege Materials (&E)"
 END
 CONTROLBAR:ConstructGondorSilverTreeBanner
 "White Tree Banner Carrier"
@@ -17825,7 +17919,7 @@ CONTROLBAR:ToolTipBuildMordorMumakil
 "Strong vs. Structures and Cavalry \n \n The Mûmakil of Harad were tamed and used as beasts of war by the Haradrim, who employed them to devastating effect during the Battle of the Pelennor."
 END
 CONTROLBAR:ToolTipBuildMordorGreatBeast
-"Requires Level 3 Great Siege Works \n Strong vs. Structures and Cavalry \n\n These lumbering creatures are native to the great ash-covered plains of Gorgoroth, feeding on the thick roots that grow in the dry soil of that barren land. The orcs were quick to realize their potential as beasts of burden and war, and have long bred them in captivity, fielding them in Sauron's war against the lands of Gondor."
+"Requires Level 2 Great Siege Works \n Strong vs. Structures and Cavalry \n\n These lumbering creatures are native to the great ash-covered plains of Gorgoroth, feeding on the thick roots that grow in the dry soil of that barren land. The orcs were quick to realize their potential as beasts of burden and war, and have long bred them in captivity, fielding them in Sauron's war against the lands of Gondor."
 END
 CONTROLBAR:ToolTipBuildMordorSiegeTower
 "Requires Level 2 Great Siege Works \n Allows infantry units to scale castle walls \n \n Constructed by Mordor's slaves using wood, iron and stone, Siege towers advance steadily toward enemy fortifications, looking to overwhelm their defenders."
@@ -17859,6 +17953,10 @@ END
 
 CONTROLBAR:AdvAngmarWitchKingHotkey
 "The Witch-king of Angmar (&S)"
+END
+
+CONTROLBAR:MorgulWitchKingHotkey
+"The Witch-king of Angmar (&F)"
 END
 
 
@@ -17975,6 +18073,9 @@ END
 CONTROLBAR:ConstructIsengardExplosiveMine
 "Explosive Mine (&R)"
 END
+CONTROLBAR:ConstructIsengardExplosiveMine_WhiteHand
+"Explosive Mine (&T)"
+END
 CONTROLBAR:ConstructIsengardBannerCarrier
 "Banner Carrier"
 END
@@ -18055,8 +18156,16 @@ END
 CONTROLBAR:IsengardLurtzHotkey
 "Lurtz (&T)"
 END
+CONTROLBAR:IsengardLurtzHotKey_WhiteHand
+"Lurtz (&S)"
+END
 
-CONTROLBAR:ToolTipBuildSaruman
+CONTROLBAR:IsengardMogRevive
+"Revive the fallen Hero, Móg"
+END
+CONTROLBAR:IsengardMogHotkey
+"Móg (&D)"
+ENDCONTROLBAR:ToolTipBuildSaruman
 "Recruit Saruman the Wise, Master of Isengard, and First of the Istari. \n \n 'A new power is rising. Its victory is at hand. We have only to remove those who oppose us.'"
 END
 CONTROLBAR:IsengardSarumanRecruit
@@ -18067,6 +18176,9 @@ CONTROLBAR:IsengardSarumanRevive
 END
 CONTROLBAR:IsengardSarumanHotkey
 "Saruman (&D)"
+END
+CONTROLBAR:IsengardSarumanHotKey_WhiteHand
+"Saruman (&F)"
 END
 
 // ENT UNITS
@@ -18123,7 +18235,7 @@ CONTROLBAR:KickAndPunchSnow
 END
 
 CONTROLBAR:ToolTipThrowRocksRank3
-"Requires Rank 3 \n Switch to rock throwing mode"
+"Requires Rank 2 \n Switch to rock throwing mode"
 END
 
 
@@ -18170,6 +18282,10 @@ END
 
 CONTROLBAR:GuldurFireArrowUpgrade
 "Corpse-fire Arrows (&C)"
+END
+
+CONTROLBAR:MorgulFireArrowUpgrade
+"Corpse-flame Arrows (&C)"
 END
 
 CONTROLBAR:BodkinArrowUpgrade
@@ -18298,7 +18414,7 @@ CONTROLBAR:ToolTipTrollFindTree
 END
 
 CONTROLBAR:ToolTipTrollFindTastyOrc
-"Find an Orc to eat for healing"
+"Find an Orc to eat\nMountain Troll heals over time for 10 seconds after eating an Orc"
 END
 
 CONTROLBAR:ToolTipTrollFindOrcToHold
@@ -18426,6 +18542,9 @@ CONTROLBAR:ElessarBladeMaster
 "Andúril, Flame of the West (&T)"
 END
 
+CONTROLBAR:CampaignElessarBladeMaster
+"Andúril, Flame of the West (&W)"
+END
 CONTROLBAR:NarsilAttack
 "Power of Narsill"
 END
@@ -18499,7 +18618,7 @@ CONTROLBAR:ElessarOathbreaker
 END
 
 CONTROLBAR:ToolTipElessarOathbreaker
-"Summons an army of Oathbreakers that will kill and terrify anything in its path \n Left click icon then left click on target"
+"Summons an army of Oathbreakers that will kill and terrify anything in its path \nElessar can only cast when dismounted\nLeft click icon then left click on target"
 END
 
 CONTROLBAR:Oathbreakers
@@ -18756,7 +18875,7 @@ CONTROLBAR:SuladanMount
 END
 
 CONTROLBAR:SuladanMountTooltip
-"Left click to toggle between mounted and dismounted \n\n Modifier Type: Leadership \n When mounted, Harondor Raiders near Sûladan gain +15% armour and -15% trample deceleration \n\n When dismounted, Harondor infantry gain +33% armour and damage and +50% experience\nPassive ability"
+"Left click to toggle between mounted and dismounted \n\n Modifier Type: Leadership \n When mounted, Harondor Raiders near Sûladan gain +20% armour and -15% trample deceleration \n\n When dismounted, Harondor infantry gain +33% armour and damage and +50% experience\nPassive ability"
 END
 
 CONTROLBAR:LordDainMount
@@ -18793,6 +18912,10 @@ END
 
 CONTROLBAR:AxeThrow
 "Axe Throw (&W)"
+END
+
+CONTROLBAR:GloinAxeThrow
+"Axe Throw (&R)"
 END
 
 CONTROLBAR:Slayer
@@ -18943,8 +19066,20 @@ CONTROLBAR:ToggleWedgeFormation
 "Wedge Formation (&W)"
 END
 
+CONTROLBAR:ToggleWedgeFormationOathsworn
+"Wedge Formation (&R)"
+END
+
 CONTROLBAR:ToggleHarondorWedgeFormation
 "Serpent's Lunge Formation (&W)"
+END
+
+CONTROLBAR:ToggleWargArcherSkirmishFormation
+"Skirmish Formation (&R)"
+END
+
+CONTROLBAR:ToggleWargArcherHuntingFormation
+"Hunting Formation (&R)"
 END
 
 CONTROLBAR:ToggleLineFormation
@@ -18971,12 +19106,16 @@ CONTROLBAR:ToggleVolleyFormation
 "Serpent's Bite Formation (&R)"
 END
 
+CONTROLBAR:ToggleVolleyFormationErynGallen
+"Volley Formation (&R)"
+END
+
 CONTROLBAR:ToggleDefaultFormation
 "Default Formation (&W)"
 END
 
 CONTROLBAR:ToolTipToggleSnowbourneLineFormation
-"+20% damage, +20% armour and +20% speed \n +50% trample deceleration"
+"+75% armour, -25% damage and -40% speed"
 END
 
 CONTROLBAR:ToolTipToggleSnowbourneDefualtFormation
@@ -18995,6 +19134,10 @@ CONTROLBAR:TogglePorcupineFormation
 "Porcupine Formation (&W)"
 END
 
+CONTROLBAR:ToggleEthyrambaFormation
+"Ethyramba (&W)"
+END
+
 CONTROLBAR:ToggleTribalPorcupineFormation
 "Porcupine Formation (&T)"
 END
@@ -19011,6 +19154,10 @@ CONTROLBAR:TogglePhalanxFormation
 "Phalanx Formation (&W)"
 END
 
+CONTROLBAR:ToggleHarseldPhalanxFormation
+"Wall of Spears (&W)"
+END
+
 CONTROLBAR:ToggleMorgulPikeFormation
 "Pikes in Front! (&W)"
 END
@@ -19021,6 +19168,10 @@ END
 
 CONTROLBAR:ToggleSquareFormation
 "Square Formation (&W)"
+END
+
+CONTROLBAR:ToggleAmbushFormation
+"Ambush Formation (&W)"
 END
 
 CONTROLBAR:ToolTipTogglePorcupineFormation
@@ -19044,7 +19195,7 @@ CONTROLBAR:ToolTipToggleSpearWallFormation
 END
 
 CONTROLBAR:ToolTipToggleGundabadFormation
-"-35% speed \n -20% damage \n +33% armour \n Resistance to Trample \n Bonus damage vs cavalry"
+"-33% speed \n +40% armour \n Resistance to Trample \n Bonus damage vs cavalry"
 END
 
 CONTROLBAR:ToggleBroadShieldsFormation
@@ -19055,12 +19206,24 @@ CONTROLBAR:ToggleBlockFormation
 "Shield Wall Formation (&W)"
 END
 
+CONTROLBAR:ToggleThangailFormation
+"Thangail Formation (&W)"
+END
+
+CONTROLBAR:ToggleSecondAgeSpearmenFormation
+"Aeghail Formation (&W)"
+END
+
 CONTROLBAR:ToggleBlockFormationOathsworn
 "Shield Wall Formation (&R)"
 END
 
 CONTROLBAR:ToggleHarondorLineFormation
 "Line Formation (&W)"
+END
+
+CONTROLBAR:ToggleFormationLAElvenAxeRun
+"March Formation (&W)"
 END
 
 CONTROLBAR:ToggleCrescentFormation
@@ -19105,6 +19268,14 @@ END
 
 CONTROLBAR:ToolTipToggleElvenWarriorWeapons
 "Left click to switch weapons"
+END
+
+CONTROLBAR:ToggleHaldirWeaponsLorien
+"Alternate Weapon (&T)"
+END
+
+CONTROLBAR:ToolTipToggleHaldirWeapons
+"Requires Level 3\nLeft click to switch weapons"
 END
 
 CONTROLBAR:ToolTipToggleGaladhrimnWarriorWeapons
@@ -19219,7 +19390,7 @@ CONTROLBAR:ToolTipUseSword
 END
 
 CONTROLBAR:ToolTipUseSwordRank3
-"Requires Rank 3\nLeft click to switch to melee mode"
+"Requires Rank 2\nLeft click to switch to melee mode"
 END
 
 CONTROLBAR:PhialofGaladriel
@@ -19247,8 +19418,14 @@ CONTROLBAR:EnshroudingMist
 "Enshrouding Mist"
 END
 
-CONTROLBAR:EnshroudingMistCampaign
+
+CONTROLBAR:EnshroudingMistCampaignOld
 "Hide!"
+END 
+
+CONTROLBAR:EnshroudingMistCampaign
+//"Hide!"
+"Blessed Mist"
 END
 
 CONTROLBAR:TheOneRing
@@ -19319,6 +19496,9 @@ CONTROLBAR:ToolTipIstariLightTiered
 "Requires Level 5 \n Beam of light that damages enemies \n Bonus vs. Balrogs and Nazgûl \nDeals increased damage at Level 7\nDeals damage in an increased radius and knocks back enemy units at Level 9\n Left click icon then left click on target"
 END
 
+CONTROLBAR:ToolTipIstariLightMT
+"Requires Level 7 \n Beam of light that damages enemies \n Bonus vs. Balrogs and Nazgûl \n Target Nazgûl temporarily flee in terror \n Left click icon then left click on target"
+END
 CONTROLBAR:GandalfPrepareForBattle
 "Rekindled Hearts (&T)"
 END
@@ -19365,6 +19545,10 @@ END
 
 CONTROLBAR:HornofGondor
 "Horn of Gondor (&R)"
+END
+
+CONTROLBAR:HornofGondorFellowship
+"Horn of Gondor (&T)"
 END
 
 CONTROLBAR:WoundingArrow
@@ -19561,7 +19745,7 @@ CONTROLBAR:ConstructRohanPeasant
 END
 
 CONTROLBAR:ToolTipBuildRohanPeasant
-"Can be drafted \n\n Horde Bonus \n Modifier Type: Spell \n All Peasants gain +20% damage and +20% armour when gathered in numbers of 60 or more\n\n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle."
+"Strong vs. Pikemen\nCan be drafted \n\n Horde Bonus \n Modifier Type: Spell \n All Peasants gain +20% damage and +20% armour when gathered in numbers of 60 or more\n\n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle."
 END
 
 CONTROLBAR:ToolTipBuildRohanPeasantDrafted
@@ -35500,7 +35684,7 @@ CONTROLBAR:TooltipUpgradeMordorMumakilPenLevel3
 End
 
 CONTROLBAR:TooltipUpgradeMordorSiegeWorksLevel2
-"Allows construction of the Catapults \nHeals nearby damaged siege machines \n +10% faster build speed"
+"Allows construction of the Catapults and Great Beasts of Gorgoroth \nHeals nearby damaged siege machines \n +10% faster build speed"
 End
 
 CONTROLBAR:TooltipUpgradeMordorSiegeWorksLevel2Rhun
@@ -58586,9 +58770,15 @@ CONTROLBAR:ToolTipConstructMenFarm
 "Provides food as a resource based on available terrain \nReduced cost of cavalry \n Increases command point limit by 50"
 END
 
+CONTROLBAR:ToolTipConstructMenFarmGranary
+//"Generates resources based on available terrain Increases command point limit by 50"
+//"Generates resources based on available terrain\n Reduces the cost of cavalry"
+"Provides stores as a resource based on available terrain \nReduced cost of cavalry \n Increases command point limit by 50"
+END
+
 CONTROLBAR:ToolTipDescriptionMenFarm
 //"Generates resources based on available terrain Increases command point limit by 50"
-"Generates resources based on available terrain\n Pasture Bonus - Reduced cost of cavalry \n 2 Farms: 5% \n 3 Farms: 10% \n 4 Farms: 15% \n 5 Farms: 20% \n 6+ Farms: 25%"
+"Generates resources based on available terrain\n Pasture Bonus - Reduced cost of cavalry \n 2 Farms: 5% \n 3 Farms: 10% \n 4 Farms: 15% \n 5 Farms: 20%"
 END
 
 CONTROLBAR:ToolTipConstructMenBarracks
