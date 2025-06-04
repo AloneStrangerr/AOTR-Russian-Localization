@@ -35258,12 +35258,26 @@ CONTROLBAR:ToolTipMasterSpy
 "Place a Master's Spy on the map\nThe Master's Spy is stealthed and cannot move, and reveals a large amount of shroud \n Left click icon then left click on pathable location"
 END
 
+CONTROLBAR:MasterSpyOthar
+"Shrewd Merchant (&R)"
+END
+CONTROLBAR:ToolTipMasterSpyOthar
+"Place a Master's Spy on the map\nThe Master's Spy is stealthed and cannot move, and reveals a large amount of shroud \n Left click icon then left click on pathable location"
+END
+
 CONTROLBAR:UnderhandedStrike
 "Underhanded Strike (&T)"
 END
 
 CONTROLBAR:ToolTipUnderhandedStrike
 "Deals heavy melee damage to enemy unit\nTargeted enemy unit or hero is crippled for 10 seconds\nLeft click icon then left click on target"
+END
+
+CONTROLBAR:UnderhandedStrikeOthar
+"The Master's Levy (&T)"
+END
+CONTROLBAR:ToolTipUnderhandedStrikeOthar
+"Deals heavy melee damage to enemy unit\nTargeted enemy unit or hero is crippled for 10 seconds\n At rank 5, also summons a battalion of Tollkeepers \nLeft click icon then left click on target"
 END
 
 CONTROLBAR:LaketownCallGuard
@@ -35331,6 +35345,10 @@ End
 
 CONTROLBAR:MenLongShotAbility
 "Longshot (&T)"
+End
+
+CONTROLBAR:IthilienLongShotAbilityBG
+"Longshot (&R)"
 End
 
 CONTROLBAR:FirienholtLongShotAbility
@@ -37234,12 +37252,16 @@ CONTROLBAR:ToolTipMorginTime
 "Restore Man morgs all over the place, summoning Morgomir and his merry band of pranksters\nLeft click then left click target area"
 END
 
+CONTROLBAR:RestoreManThorinsCompany
+"Thorin's Company (&U)"
+END
+
 CONTROLBAR:MagicMan
 "Magic Man"
 END
 
 CONTROLBAR:ToolTipMagicMan
-"Mr Magic Man does his thing\nLeft click then left click target area"
+"Restore Man summons a not-so-special guest\n When killed, the guest provides max Spellbook points\nLeft click then left click target area"
 END
 
 CONTROLBAR:ToolTipRestoreManSpeechCraft
@@ -37551,6 +37573,10 @@ End
 
 OBJECT:TreasureChest
 "Treasure Chest"
+End
+
+OBJECT:TreasureChestMoria
+"Shrine of Dwarven Wisdom"
 End
 
 OBJECT:Tree01
@@ -39252,6 +39278,10 @@ END
 
 CONTROLBAR:IsengardSharkuHotkey
 "Sharku (&E)"
+END
+
+CONTROLBAR:IsengardSharkuHotKey_WhiteHand
+"Sharku (&R)"
 END
 
 CONTROLBAR:IsengardSharkuRecruit
@@ -43999,6 +44029,10 @@ OBJECT:EvilArrowShip
 "Corsair Black Ship"
 END
 
+OBJECT:CorsairBallistaShip
+"Corsair Scorpion Ship"
+END
+
 OBJECT:BlackDread
 "The Black Dread"
 END
@@ -44064,7 +44098,7 @@ CONTROLBAR:SpecialPowerSauronLordoftheRings
 END
 
 CONTROLBAR:ToolTipSpecialPowerSauronLordoftheRings
-"Sauron becomes immune to damage for 20 seconds\n Left click to activate"
+"Sauron gains +100% damage, +10% movement speed and invulnerability for 20 seconds\n Left click to activate"
 END
 
 TOOLTIP:LackIvoryTower
@@ -44254,6 +44288,10 @@ CONTROLBAR:PurchaseUpgradeDwarvenBasicTraining
 "Purchase Thrór's Banners (&V)"
 END
 
+CONTROLBAR:PurchaseUpgradeDwarvenBasicTrainingLastAlliance
+"Purchase Banners of Khazad-dûm (&V)"
+END
+
 CONTROLBAR:PurchaseUpgradeDwarvenBasicTrainingEredLuin
 "Purchase Ered Luin Chief (&V)"
 END
@@ -44410,6 +44448,14 @@ CONTROLBAR:ToolTipPurchaseUpgradeGondorHeavyArmor
 "Upgrades this battalion with Steel Cuirasses \n Significantly reduces the amount of damage taken"
 END
 
+CONTROLBAR:PurchaseUpgradeLADunedainHeavyArmor
+"Purchase Steel Pauldrons (&T)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeLADunedainHeavyArmor
+"Upgrades this battalion with Steel Pauldrons \n Significantly reduces the amount of damage taken"
+END
+
 CONTROLBAR:PurchaseTechnologyGondorKnightShield
 "Research Horse Sh&ields"
 END
@@ -44453,6 +44499,11 @@ END
 CONTROLBAR:PurchaseUpgradeRohanHorseShield
 "Purchase Horsemen Shields (&R)"
 END
+
+CONTROLBAR:PurchaseUpgradeRohanHorseShieldSnowbourn
+"Purchase Horsemen Shields (&C)"
+END
+
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanHorseShield
 "Upgrades this battalion with Horseman Shields \n Significantly reduces the amount of damage taken from Arrows and Pikemen"
@@ -44498,6 +44549,10 @@ CONTROLBAR:PurchaseUpgradeIsengardHeavyArmor
 "Purchase Blackened Plate (&T)"
 END
 
+CONTROLBAR:PurchaseUpgradeIsengardHeavyArmor_UrukLongbows
+"Purchase Blackened Plate (&C)"
+END
+
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor
 "Upgrades this horde with Blackened Plate \n Significantly reduces the amount of damage taken"
 END
@@ -44524,6 +44579,10 @@ END
 
 CONTROLBAR:ToolTipPurchaseUpgradeGuldurFireArrows
 "Upgrades this horde with Corpse-fire Arrows \n Significantly increases the damage done by Arrows"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeMorgulFireArrows
+"Upgrades this horde with Corpse-flame Arrows \n Significantly increases the damage done by Arrows"
 END
 
 CONTROLBAR:PurchaseTechnologyRohanBasicTraining
@@ -44650,7 +44709,11 @@ CONTROLBAR:PurchaseUpgradeWildBasicTraining
 "Purchase Banners of Bolg (&V)"
 END
 
-CONTROLBAR:PurchaseUpgradeWildBasicTrainingWarg
+CONTROLBAR:PurchaseUpgradeWildBasicTrainingWarg 
+"Purchase Pack Alpha (&V)"
+END
+
+CONTROLBAR:PurchaseUpgradeWildBasicTrainingWargPack
 "Purchase Pack Alpha (&V)"
 END
 
