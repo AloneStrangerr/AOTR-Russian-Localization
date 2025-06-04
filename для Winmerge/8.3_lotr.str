@@ -25941,7 +25941,8 @@ OBJECT:GondorWorkshopDescription
 END
 
 OBJECT:GondorStoneworkerDescription
-"Generates resources based on available terrain \n Reduces cost of buildings \n 1 Stoneworker: 5%\n 2 Stoneworkers: 10\n 3 Stoneworkers: 15\n 4 Stoneworkers: 20\n 5 Stoneworkers: 25%"
+//"Generates resources based on available terrain \n Reduces cost of buildings \n 1 Stoneworker: 5%\n 2 Stoneworkers: 10\n 3 Stoneworkers: 15\n 4 Stoneworkers: 20\n 5 Stoneworkers: 25%"
+"Generates a small amount of resources \n Reduces cost of buildings \n 1 Stoneworker: 5%\n 2 Stoneworkers: 10\n 3 Stoneworkers: 15\n 4 Stoneworkers: 20\n 5 Stoneworkers: 25%"
 END
 
 OBJECT:GondorStatueDescription
@@ -26466,23 +26467,23 @@ OBJECT:HordeMenofDale
 END
 
 OBJECT:HordeMenofDaleG
-"Barding Phalanx"
+"Barding Spearman"
 END
 
 OBJECT:HordeMenofDaleGHorde
-"Barding Phalanx"
+"Barding Spearmen"
 END
 
 OBJECT:DaleRoyalGuard
-"Royal Guard of Dale"
+"Warden of Hársald"
 END
 
 OBJECT:DaleRoyalGuardHorde
-"Royal Guard of Dale"
+"Wardens of Hársald"
 END
 
 CONTROLBAR:ConstructDaleRoyalGuard
-"Royal Guard of Dale (&S)"
+"Wardens of Hársald (&S)"
 END
 
 CONTROLBAR:ToolTipBuildDaleRoyalGuard
@@ -26529,6 +26530,11 @@ END
 CONTROLBAR:HuntThemDown
 "Hunt Them Down (&W)"
 END
+
+CONTROLBAR:HuntThemDown_WhiteHand
+"Hunt Them Down (&R)"
+END
+
 CONTROLBAR:TooltipHuntThemDown
 "Requires Level 2\n Modifier Type: Weapon \n Uruk-hai Axes gain +25% damage and +15% speed for 20 seconds\nLeft click to activate"
 END
@@ -26576,6 +26582,22 @@ END
 OBJECT:HordeIsengardWargRiders
 "Warg-riders"
 END
+
+OBJECT:HordeIsengardWargArchers
+"Warg-rider Archers"
+END
+
+OBJECT:IsengardWargArcher
+"Warg-rider Archer"
+END
+
+CONTROLBAR:ConstructIsengardWargArcher
+"Warg-rider Archers (&R)"
+END
+
+CONTROLBAR:ToolTipBuildIsengardWargArcher
+"Requires Level 2 Warg Pit \n Strong vs. Swordsmen and Archers \n \n Running rampant through the Mark, some orcs shoot from warg-back, hoping to avoid close combat with a Rohirric rider."
+End
 
 OBJECT:HordeWildMenOfDunland
 "Wildmen Of Dunland"
@@ -26949,7 +26971,7 @@ END
 
 //EAST EMNET
 BONUSROUND:SPSGOODEASTEMNETWARG
-"Bonus: Destroy all Warg Riders that patrol this area."
+"Bonus: Destroy all Warg-riders that patrol this area."
 END
 BONUSROUND:SPSGOODEASTEMNETEOMER
 "Bonus: Level up Eomer one level."
@@ -27303,7 +27325,7 @@ END
 
 //ANORIEN
 BONUSROUND:SPSEVILANORIENWARG
-"Bonus: Build 4 hordes of Warg Riders."
+"Bonus: Build 4 hordes of Warg-riders."
 END
 BONUSROUND:SPSEVILANORIENHARADRIM
 "Bonus: Build 5 hordes of Haradrim."
@@ -27414,7 +27436,7 @@ BONUSROUND:SPSEVILCROSSROADSCOMMAND
 "Bonus: Command a Troll to pick up a tree, rock or to eat an orc."
 END
 BONUSROUND:SPSEVILCROSSROADSBUILD
-"Bonus: Build 3 hordes of Warg Riders."
+"Bonus: Build 3 hordes of Warg-riders."
 END
 
 
@@ -27426,7 +27448,7 @@ BONUSROUND:SPSEVILBELFALASTROLL
 "Bonus: Command a Troll to pick up a tree, rock or to eat an orc."
 END
 BONUSROUND:SPSEVILBELFALASBUILD
-"Bonus: Build 3 hordes of Warg Riders."
+"Bonus: Build 3 hordes of Warg-riders."
 END
 
 //LEBENNIN
@@ -29285,7 +29307,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressMightyCatapult_WOTR
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenFortressOilCasks
-"Solemn Guard&ians"
+"Solemn Guardians (&R)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressOilCasks
@@ -29410,7 +29432,7 @@ END
 ////////////////////////////////////
 
 CONTROLBAR:GloinHotkey
-"Glóin (&E)"
+"Glóin (&R)"
 END
 
 CONTROLBAR:GloinRecruit
@@ -29582,11 +29604,15 @@ CONTROLBAR:ConstructDwarvenMenOfDale
 END
 
 CONTROLBAR:ToolTipBuildDwarvenMenOfDaleHorde
-"Requires Level 2 Erebor Assembly \n Strong vs. Infantry and Monsters \n Can Fire Black Arrows \n \n In Dalish military tradition, skillful use of the longbow is a prime mark of an excellent soldier."
+"Requires Level 2 Erebor Assembly \n Strong vs. Infantry and Monsters \n Can Fire Black Arrows \n \n In Barding military tradition, skillful use of the longbow is a prime mark of an excellent soldier."
 END
 
 CONTROLBAR:ConstructDwarvenDaleGuardHorde
-"Barding Phalanx (&E)"
+"Barding Spearmen (&E)"
+END
+
+CONTROLBAR:ConstructDwarvenDaleGuardHordeKingdomofDale
+"Barding Spearmen (&E)"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenDaleGuardHorde
@@ -29682,11 +29708,12 @@ CONTROLBAR:BTKhazadBannerAncestralFury
 END
 
 CONTROLBAR:ToolTipBTKhazadBannerAncestralFury
-"Modifier Type: Spell \n Requires Level 3 \n Allies near the Khazad Guard become immune to fear and terror \nPassive ability"
+"Modifier Type: Spell \n Requires Level 3 \n Allies near the Khazad-dûm Veterans become immune to fear and terror \nPassive ability"
+END
 END
 
 CONTROLBAR:TooltipConstructDwarvenAssemblyCustom
-"Recruits allies from the Blue Mountains, the Iron Hills, and the lost realm of Khazad-dûm"
+"Recruits dwarven allies from the Blue Mountains and the Iron Hills"
 END
 
 CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel2UpgradeCustom
@@ -30032,7 +30059,7 @@ CONTROLBAR:ForthAxeElves
 END
 
 CONTROLBAR:ToolTipForthAxeElves
-"Summons a horde of Axe-elves\nLeft click icon then left click on target"
+"Summons a horde of Axe-elves to fight for 40 seconds \nLeft click icon then left click on target"
 END
 
 CONTROLBAR:BorderPatrol
@@ -30407,7 +30434,7 @@ OBJECT:NimrodelStatue
 END
 
 OBJECT:NimrodelStatueDescription
-"Friendly units within the pool are immune to debuffs \n All Mallorn Trees gain +10% faster resource production \n Possesses ability to repair selected structure"
+"Friendly units within the pool are immune to debuffs \n Mallorn Trees within a wide radius gain +10% faster resource production \n Possesses ability to repair selected structure"
 END
 
 CONTROLBAR:NimrodelRebuild
@@ -30419,7 +30446,7 @@ CONTROLBAR:BlessingofNimrodel
 END
 
 CONTROLBAR:ToolTipBlessingofNimrodel
-"Friendly units within the pool are immune to debuffs \n All Mallorn Trees gain +10% faster resource production \n Passive ability"
+"Friendly units within the pool are immune to debuffs \n Mallorn Trees within a wide radius gain +10% faster resource production \n Passive ability"
 END
 
 OBJECT:RivendellStatue
@@ -32579,11 +32606,11 @@ CONTROLBAR:LW_Unit_ToolTipBuild_IsengardUrukShieldbearer
 END
 
 CONTROLBAR:LW_Unit_IsengardWargRiderHorde
-"Warg Rider Horde"
+"Warg-rider Horde"
 END
 
 CONTROLBAR:LW_Unit_IsengardWargRiderHordePlural
-"Warg Rider Hordes"
+"Warg-rider Hordes"
 END
 
 CONTROLBAR:LW_Unit_WildWargRiderHorde
@@ -32901,7 +32928,7 @@ END
 
 CONTROLBAR:ToolTipToggleStanceAggressive
 //"Shortcut: D \n Units gain an increase to their attack damage, but a decrease to their armour \n They will auto-acquire enemies when sighted"
-"Shortcut: D \n Swordsmen: +25% damage, -15% armour \n Archers: +20% damage, -20% armour \n Pikemen: +25% damage, -15% armour \n Cavalry: +25% damage, -15% armour \n Siege: +15% range, -20% armour \n Heroes and Monsters: +10% damage, +10% speed, -20% armour\n\nUnits will auto-acquire enemies when sighted"
+"Shortcut: D \n Swordsmen: +25% damage, -15% armour \n Archers: +20% damage, -20% armour \n Pikemen: +25% damage, -15% armour \n Cavalry: +25% damage, -15% armour \n Siege: +15% range, -20% armour \n Heroes and Monsters: +10% damage, -20% armour\n\nUnits will auto-acquire enemies when sighted"
 END
 
 CONTROLBAR:ToolTipToggleStanceHoldGround
@@ -33923,11 +33950,13 @@ CONTROLBAR:TooltipFlood
 END
 
 CONTROLBAR:CampaignFlood
-"Wrath of Ulmo"
+//"Wrath of Ulmo"
+"Gale of Manwë"
 END
 
 CONTROLBAR:TooltipCampaignFlood
 "Summons a powerful Flood to crush enemy units \n Extinguishes fires\n Left click icon then left click on target area"
+ Exting
 END
 
 CONTROLBAR:Sunflare
@@ -33935,7 +33964,8 @@ CONTROLBAR:Sunflare
 END
 
 CONTROLBAR:CampaignSunflare
-"Wrath of Varda"
+//"Wrath of Varda"
+"Rays of Varda"
 END
 
 CONTROLBAR:CaveBats
@@ -34028,7 +34058,7 @@ CONTROLBAR:PurchaseUpgradeWildFortressNorthernWastes
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressNorthernWastes
-"Unlocks Mountain Giants and Wyrm Lair \n Allows the fortress to temporarily summon a Wyrm"
+"Unlocks Wyrm Lair \nUpgrades the maximum number of available\n Mountain Giants from 2 to 5 \n Allows the fortress to temporarily summon a Wyrm"
 End
 
 CONTROLBAR:ToolTipPurchaseUpgradeWildFortressNorthernWastesForMap
@@ -34053,12 +34083,20 @@ CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows
 "Fire Arrows (&W)"
 END
 
+CONTROLBAR:PurchaseUpgradeSentryTowerFireArrowsMorgul
+"Corpse-flame Arrows (&W)"
+END
+
 CONTROLBAR:PurchaseUpgradeSentryTowerFireArrowsRuinousTower
 "Corpse-fire Arrows (&E)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerFireArrows
 "Upgrades this Tower with Fire Arrows \n Increases damage done by arrows"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerFireArrowsMorgul
+"Upgrades this Tower with Corpse-flame Arrows \n Increases damage done by arrows"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeGuldurSentryTowerFireArrows
@@ -34069,6 +34107,14 @@ CONTROLBAR:ConstructWildBurrowsExpansion
 "Tunnel Entrance Expansion (&T)"
 END
 
+
+CONTROLBAR:PurchaseUpgradeRhunSentryTowerFireArrows
+"Fire Arrows (&W)"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeRhunSentryTowerFireArrows
+"Upgrades this Tower with Fire Arrows \n Increases damage done by arrows"
+END
 
 //////////////////////////////////
 /// Isengard Fortress Tooltips ///
@@ -34140,6 +34186,10 @@ END
 
 CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows
 "Murder of Crows (&W)"
+END
+
+CONTROLBAR:PurchaseUpgradeIsengardFortressEyesOfOrthanc
+"Eyes of Orthanc (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressMurderOfCrows
@@ -34266,7 +34316,7 @@ CONTROLBAR:PurchaseUpgradeRhunFortressWaysOfWar
 "Ways of War (&T)"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeRhunFortressWaysOfWar
-"Permanently increases Fortress armour by 65%\nAllows Fortress to activate War Tactics to buff specialised areas of the faction temporarily\nOnly one War Tactic may be active at a time"
+"Requires the Voidseeker's Spire upgrade\nPermanently increases Fortress armour by 65%\nAllows Fortress to activate War Tactics to buff specialised areas of the faction temporarily\nOnly one War Tactic may be active at a time"
 END
 CONTROLBAR:ConstructRhunTowerExpansion
 "Guard Tower Expansion (&W)"
@@ -34358,7 +34408,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSorcery
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSorceryForMaps
-"Unlocks Unlocks Gothmog, Morgul Vanguard and Legions of Morgul"
+"Unlocks Gothmog, Witch-king's Vanguard and Legions of Morgul"
 END
 
 CONTROLBAR:PurchaseUpgradeMordorFortressDoomPyres
@@ -34871,6 +34921,15 @@ CONTROLBAR:ToolTipWKWordofPower
 "Requires Level 10 \n Blasts back and damages units in a wide radius surrounding the Witch-king\n Left click to activate"
 END
 
+CONTROLBAR:CampaignWKWordofPower
+"This is My Hour! (&T)"
+END
+
+CONTROLBAR:ToolTipCampaignWKWordofPower
+"Requires Level 10 \n Blasts back and damages units in a wide radius surrounding the Witch-king\nEnemy heroes take damage over time for 10 seconds\nLeft click to activate"
+END
+
+
 CONTROLBAR:ThunderBolt
 "&Thunderbolt"
 END
@@ -35152,11 +35211,15 @@ CONTROLBAR:GloinGloriousCharge
 END
 
 CONTROLBAR:ToolTipGloinGloriousCharge
-"Requires Level 3\n Modifier type: Spell\n Gloin and nearby Dwarven units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror for 20 seconds\nLeft click to activate"
+"Requires Level 3\n Modifier type: Spell\n Glóin and nearby Dwarven units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror for 20 seconds\nLeft click to activate"
 END
 
 CONTROLBAR:ToolTipGloinGloriousChargeCampaign
-"Requires Level 3\n Modifier type: Spell\n Gloin and nearby friendly units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror for 20 seconds\nLeft click to activate"
+"Requires Level 3\n Modifier type: Spell\n Glóin and nearby friendly units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror for 20 seconds\nLeft click to activate"
+END
+
+CONTROLBAR:CraftyFinancer
+"Crafty Financer (&T)"
 END
 
 CONTROLBAR:VentureCapitalism
@@ -35164,7 +35227,7 @@ CONTROLBAR:VentureCapitalism
 END
 
 CONTROLBAR:ToolTipVentureCapitalism
-"Requires Level 5\nTargeted Mine or Grand Forge has +200% increased production for 30 seconds\nLeft click icon then left click on target"
+"Requires Level 6\nTargeted Mine or Grand Forge has +200% increased production for 30 seconds\nLeft click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipVentureCapitalismCampaign
@@ -35176,7 +35239,8 @@ CONTROLBAR:GloinSecretWays
 END
 
 CONTROLBAR:TooltipGloinSecretWays
-"Requires Level 8 \n Glóin knows of routes younger dwarves do not\nTeleports targeted units to targeted location\nDoes not work on siege units\n Left click icon, then left click on target units, then left click on pathable location"
+"Requires Level 9 \n Glóin knows of routes younger dwarves do not\nTeleports targeted units to targeted location\nDoes not work on siege units\n Left click icon, then left click on target units, then left click on pathable location"
+End
 End
 
 CONTROLBAR:MasteroftheLake
@@ -35188,7 +35252,7 @@ CONTROLBAR:ToolTipMasteroftheLake
 END
 
 CONTROLBAR:MasterSpy
-" Subtle Subterfuge (&R)"
+"Subtle Subterfuge (&R)"
 END
 CONTROLBAR:ToolTipMasterSpy
 "Place a Master's Spy on the map\nThe Master's Spy is stealthed and cannot move, and reveals a large amount of shroud \n Left click icon then left click on pathable location"
@@ -35578,7 +35642,7 @@ CONTROLBAR:ToolTipMithlondSentryZephyrStrike
 End
 
 CONTROLBAR:ToolTipPoisonArrows
-"Poison tipped arrows that cause damage over time for 15 seconds \nPoison arrows deal +50% additional damage against monsters\nLeft click icon then left click on target"
+"Poison tipped arrows that cause damage over time for 15 seconds \nPoison arrows deal +55% additional damage against monsters\nLeft click icon then left click on target"
 End
 
 CONTROLBAR:ToolTipPurchaseIsengardWargSentry
@@ -36301,6 +36365,10 @@ OBJECT:EvilPort
 "Dock"
 End
 
+OBJECT:WaterGate
+"Water Gate"
+End
+
 OBJECT:EvilPortDescription
 "Dock Description"
 End
@@ -36926,7 +36994,7 @@ STRATEGICHUD:ConstructionTurnsRemainingTooltip
 END
 
 OBJECT:IsengardAttackTroll
-"Isengard Troll"
+"Isengard Siege Troll"
 END
 
 OBJECT:MordorAttackTroll
@@ -37167,7 +37235,7 @@ CONTROLBAR:ToolTipMorginTime
 END
 
 CONTROLBAR:MagicMan
-"Magic Man "
+"Magic Man"
 END
 
 CONTROLBAR:ToolTipMagicMan
@@ -37418,7 +37486,7 @@ End
 
 OBJECT:SignalFireDescription
 //"Capture to decrease power recharge times"
-"Capute to grant vision in surrounding area"
+"Capture to receive increased vision in the surrounding area"
 End
 
 OBJECT:SkullTotem
@@ -39187,7 +39255,7 @@ CONTROLBAR:IsengardSharkuHotkey
 END
 
 CONTROLBAR:IsengardSharkuRecruit
-"Recruit the leader of the Warg Riders \n \n 'He's dead. Took a little tumble off the cliff.'"
+"Recruit the leader of the Warg-riders \n \n 'He's dead. Took a little tumble off the cliff.'"
 END
 
 CONTROLBAR:IsengardWormtongueRecruit
@@ -54417,15 +54485,15 @@ OBJECT:MordorHaradrimRiders
 END
 
 TOOLTIP:LackLevel2SiegeForgedBlades
-"Requires Level 2 Gogoroth Armoury"
+"Requires Level 2 Gorgoroth Foundry"
 END
 
 TOOLTIP:LackLevel2SiegeForgedHeavyArmor
-"Requires Level 2 Gogoroth Armoury"
+"Requires Level 2 Gorgoroth Foundry"
 END
 
 TOOLTIP:LackLevel3HaradFireArrows
-"Requires Level 2 Gogoroth Armoury"
+"Requires Level 2 Gorgoroth Foundry"
 END
 
 TOOLTIP:LackLevel3GuldurGaolFireArrows
@@ -61264,11 +61332,11 @@ BANNERUI:KhazadUzbaduls
 END
 
 CONTROLBAR:LW_Unit_DaleGuardHorde
-"Barding Phalanx Battalion"
+"Barding Spearmen Battalion"
 END
 
 CONTROLBAR:LW_Unit_DaleGuardHordePlural
-"Barding Phalanx Battalions"
+"Barding Spearmen Battalions"
 END
 
 CONTROLBAR:LW_ToolTipBuild_DaleGuardHorde
@@ -61280,11 +61348,11 @@ CONTROLBAR:LW_ToolTip_DaleGuardHorde
 END
 
 BANNERUI:DaleGuard
-"Barding Phalanx"
+"Barding Spearman"
 END
 
 BANNERUI:DaleGuards
-"Barding Phalanx"
+"Barding Spearmen"
 END
 
 BANNERUI:DwarvenAxeThrower
