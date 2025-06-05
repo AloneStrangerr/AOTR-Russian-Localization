@@ -52620,7 +52620,7 @@ CONTROLBAR:DunedainChieftain
 END
 
 CONTROLBAR:ToolTipDunedainChieftain
-"Nearby Dúnedain gain +33% attack damage \n and become immune to fear and terror\n Passive power \n \n Isildur's Heir \n Requires Level 9 and Andúril Upgrade \n Nearby Dúnedain gain +33% attack damage \n and become immune to fear and terror\n When activated, all nearby units gain +33% damage and +50% armour for 20 seconds"
+"Modifier Type: Leadership\nNearby Dúnedain gain +33% attack damage \n and become immune to fear and terror\nStacks with Buffs and Spells\n Passive ability \n \n Isildur's Heir \n Requires Level 9 and Andúril Upgrade \n Nearby Dúnedain gain +33% attack damage \n and become immune to fear and terror\n When activated, all nearby units gain +33% damage and +50% armour for 20 seconds"
 END
 
 CONTROLBAR:AragornIsildurHeir
@@ -52628,7 +52628,8 @@ CONTROLBAR:AragornIsildurHeir
 END
 
 CONTROLBAR:ToolTipFellowshipAragornIsildurHeir
-"Nearby Dúnedain gain +33% attack damage and become immune to fear and terror\n Passive power \n\n Active ability: Requires Level 9 and Andúril \n When activated, all nearby units gain +33% damage and +50% armour for 20 seconds"
+"Modifier Type: Leadership\nNearby Dúnedain gain +33% attack damage and become immune to fear and terror\nStacks with Buffs and Spells\n Passive ability \n\n Active ability: Requires Level 9 and Andúril \n When activated, all nearby units gain +33% damage and +50% armour for 20 seconds"
+END
 END
 
 CONTROLBAR:IsildurHeir_LAS
