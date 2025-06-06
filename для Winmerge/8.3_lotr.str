@@ -52637,7 +52637,8 @@ CONTROLBAR:IsildurHeir_LAS
 END
 
 CONTROLBAR:ToolTipIsildurHeir_LAS
-"Requires Level 3\nModifier Type: Spell\n When activated, all nearby units gain +33% damage and and immunity to fear and terror for 20 seconds"
+"Requires Level 3\nModifier Type: Spell\n When activated, all nearby units gain +33% damage and and immunity to fear and terror for 20 seconds \n left click to activate"
+END
 END
 
 CONTROLBAR:ArnorAragornBlademaster
@@ -52647,7 +52648,8 @@ END
 CONTROLBAR:TooltipArnorAragornBlademaster
 //"Requires Level 2 \n Aragorn temporarily gains +100% damage and +100% armour \n Left click to activate"
 //"Requires Level 3 \n Aragorn temporarily gains +100% damage and +100% armour \n Left click to activate"
-"Requires Level 6 \n Aragorn wields a torch and deals knockback damage \n Aragorn gains +75% damage and +25% armour for 30 seconds\n While the ability is active, nearby heroes gain +15% armour \n Can only use with sword equipped \n Left click to activate"
+"Requires Level 6 \n Aragorn wields a torch and deals knockback damage \n Aragorn gains +50% damage and +25% armour for 30 seconds\n While the ability is active, nearby heroes gain +10% armour \n Can only use with sword equipped \n Left click to activate"
+END
 END
 
 CONTROLBAR:FellowshipAragornBlademaster
@@ -57805,7 +57807,8 @@ CONTROLBAR:LW_ToolTipBuild_RohanSnowbournRiderHorde
 END
 
 CONTROLBAR:LW_ToolTip_RohanSnowbournRiderHorde
-"\nUnit Type: Elite Cavalry\nStrong vs. Cavalry and Structures"
+"Unit Type: Elite Cavalry\nStrong vs. Cavalry and Structures"
+END
 END
 
 BANNERUI:RohanRoyalGuardMounted
@@ -58682,15 +58685,15 @@ CONTROLBAR:ToolTipToggleIthilienWideFormation
 END
 
 CONTROLBAR:ToolTipToggleTowerGuardLineToSpearWallFormation
-"The units form a Spear Wall\n Units lose 40% speed, gain resistance to knockback, decelerate crush, and gain +33% armour"
+"The units form a Spear Wall\n Units lose 33% speed, gain resistance to knockback, decelerate crush, and gain +40% armour"
 End
 
 CONTROLBAR:ToolTipToggleFountainGuardLineToSpearWallFormation
-"Fountain Guards form a Spear Wall\n They gain +25% armour, immunity to knockback, fear, terror and all debuffs at the cost of -40% speed"
+"Fountain Guards form a Spear Wall\n They gain +40% armour, immunity to knockback, fear, terror and all debuffs at the cost of -33% speed"
 End
 
 CONTROLBAR:ToolTipToggleKarnaLineToCrescentFormation
-"The units form a Crescent\n Level 1: Watchers of Kârna gain +25% damage but lose 25% speed\nLevel 3: +25% damage, resistance to knockback and decelerate crush, -25% speed\nLevel 5: +25% damage, +25% armour, resistance to knockback and decelerate crush, -25% speed\nLevel 7: +25% damage, +50% armour, resistance to knockback and decelerate crush, -25% speed\nLevel 10: +50% damage, +50% armour, resistance to knockback and decelerate crush, -25% speed"
+"The units form a Crescent\n Level 1: Watchers of Kârna gain +25% armour but lose 25% speed\nLevel 3: +25% armour, +25% damage, -25% speed\nLevel 5: +25% armour, +25% damage, resistance to knockback and decelerate crush, -25% speed\nLevel 7: +25% armour, +50% damage, resistance to knockback and decelerate crush, -25% speed\nLevel 10: +50% armour, +50% damage, resistance to knockback and decelerate crush, -25% speed"
 End
 
 
@@ -58751,7 +58754,8 @@ END
 
 CONTROLBAR:ToolTipIndustry
 //"Selected structure's resource output is permanently raised to 300% \n Left click icon then left click on target resource structure"
-"Selected structure's resource output is raised to 275% for 5 minutes\n Affects Furnaces and Armouries \n Left click icon then left click on target resource structure"
+"Selected structure's resource output is raised to 200% for 5 minutes\n Affects Furnaces and Armouries \n Left click icon then left click on target resource structure"
+End
 End
 
 CONTROLBAR:TooltipUntamedAllegiance
@@ -58826,17 +58830,17 @@ CONTROLBAR:ToolTipToggleGFighterBlockToLineFormation
 END
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormation
 //"+25% armour, -40% speed"
-"+33% armour\n-20% damage\n-40% speed"
+"+40% armour\n-33% speed"
 END
 
 CONTROLBAR:ToolTipToggleIHFighterLineToBlockFormation
 //"+25% armour, -40% speed"
-"Iron Hills Warriors form a Shield Wall \n They gain +33% armour, -20% damage, -40% speed and bonus damage to cavalry"
+"Iron Hills Warriors form a Shield Wall \n They gain +40% armour, -33% speed and bonus damage to cavalry"
 END
 
 CONTROLBAR:ToolTipToggleBulwarkAlternateFormation
 //"+25% armour, -40% speed"
-"Guldur Bulwarks form a Shield Wall\nThey gain +25% armour and become immune to knockback, but lose -20% damage and -30% speed"
+"Guldur Bulwarks form a Shield Wall\nThey gain +40% armour and become immune to knockback, but lose -33% speed"
 END
 
 CONTROLBAR:ToolTipToggleGFighterBlockToLineFormationElite
@@ -58846,7 +58850,7 @@ CONTROLBAR:ToolTipToggleGFighterBlockToLineFormationElite
 END
 CONTROLBAR:ToolTipToggleGFighterLineToBlockFormationElite
 //"+25% armour, -40% speed"
-"+33% armour\n-40% speed"
+"+40% armour\n-33% speed"
 END
 
 CONTROLBAR:ToolTipToggleGHarondorLineFormation
@@ -59139,7 +59143,7 @@ CONTROLBAR:ToolTipBoromirNewLeadership
 //"Requires Level 5 \n Allies near Boromir gain \n +50% damage, +50% armour, \n and earn experience twice as fast \n \n Passive ability       Does not stack"
 //"Requires Level 5 \n Allies near Boromir gain \n +33% damage, +33% armour, \n and earn experience twice as fast \nPassive ability"
 //"Requires Level 5 \n Allies near Boromir gain \n +33% damage, +33% armour, \n and earn experience 50% faster\nPassive ability"
-"Requires Level 5 \n Boromir dons his Gondorian Armour \n Modifier Type: Leadership \n Soldiers, Spearmen, and Archers of Minas Tirith near Boromir gain +33% damage, +33% armour, and earn experience 50% faster \nPassive ability"
+"Requires Level 5 \n Boromir dons his Gondorian Armour and gains +10% armour \n Modifier Type: Leadership \n Soldiers, Spearmen, and Archers of Minas Tirith near Boromir gain +33% damage, +33% armour, and earn experience 50% faster \nPassive ability"
 END
 
 CONTROLBAR:ToolTipCaptainofGondorBoromir
@@ -59292,6 +59296,7 @@ CONTROLBAR:ToolTipBuildElvenGreenPastureLevel3Upgrade
 //"+25% faster build speed \n Adds defensive arrow tower"
 "+25% faster build speed \n Adds defensive arrow tower"
 END
+
 CONTROLBAR:PurchaseUpgradeHiddenSenctumLevel2
 "Upgrade Hidden Sanctum to Level 2 (&A)"
 END
@@ -59662,7 +59667,7 @@ END
 
 CONTROLBAR:ToolTipDwarvenGimliAxeThrow
 //"Powerful ranged attack against a single target \n Left click icon then left click on target"
-"Powerful ranged attack with radius damage\nTarget enemy hero is pinned for 10 seconds\nLeft click icon then left click on target"
+"Powerful ranged attack with radius damage\nTarget enemy hero is slowed by -50% for 10 seconds\nLeft click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipMirkwoodGimliAxeThrow
@@ -59683,7 +59688,7 @@ END
 
 CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
 //"-40% speed \n +25% armour"
-"+33% armour\n-20% damage\n-40% speed"
+"+40% armour\n-33% speed"
 END
 CONTROLBAR:ToolTipToggleIFighterBlockToLineFormation
 //"No bonus"
@@ -59693,7 +59698,7 @@ END
 
 CONTROLBAR:ToolTipToggleIPikemanPhalanxFormation
 //"The units form a Spear Wall\n Units lose 40% speed, gain resistance to knockback, decelerates crush, and gain +33% armour to all and a bonus 60% armour against Cavalry"
-"The units form a Spear Wall\n Units lose 40% speed, gain resistance to knockback, decelerate crush, and gain +33% armour"
+"The units form a Spear Wall\n Units lose 33% speed, gain resistance to knockback, decelerate crush, and gain +40% armour"
 End
 CONTROLBAR:ToolTipToggleIPikemanLineFormation
 //"No bonus"
@@ -59795,8 +59800,10 @@ CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations
 END
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges
 //"Reduces the cost of Isengard unit Upgrades \n 1 Fortress with Burning Forges = 10% cheaper \n 2 Fortresses with Burning Forges = 20% cheaper \n 3 Fortresses with Burning Forges = 25% cheaper \n 4 Fortresses with Burning Forges = 30% cheaper \n 5 Fortresses with Burning Forges = 35% cheaper"
-"Reduces cost of Isengard unit Upgrades \n 1  Fortress with forges = 25% cheaper \n 2 Fortresses with forges = 35% cheaper \n 3 Fortresses with forges = 40% cheaper \n 4 Fortresses with forges = 45% cheaper \n 5 Fortresses with forges = 50% cheaper"
+"Reduces cost of Isengard unit Upgrades \n 1  Fortress with forges = 20% cheaper \n 2 Fortresses with forges = 35% cheaper \n 3 Fortresses with forges = 40% cheaper \n 4 Fortresses with forges = 45% cheaper \n 5 Fortresses with forges = 50% cheaper"
 END
+END
+
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressWizardsTower
 //"The Wizard's Tower can shoot several bolts of lightning at an area surrounding the Fortress"
 //"Shoots several bolts of lightning that hit near the Fortress"
@@ -59837,7 +59844,7 @@ END
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
 //"Pins enemy Hero in place \n Can only use with bow equipped \n Left click icon then left click on target"
 //"Requires Level 2 \n Pins enemy Hero in place \n Can only use with bow equipped \n Left click icon then left click on target"
-"Requires Level 4 \n Pins enemy hero in place for 15 seconds\n At rank 8, instills fear into nearby enemies \n Can only use with bow equipped \n Left click icon then left click on target"
+"Requires Level 5 \n Pins enemy hero in place for 10 seconds\n At rank 8, instills fear into nearby enemies \n Can only use with bow equipped \n Left click icon then left click on target"
 END
 CONTROLBAR:LurtzLeadership
 "Leader of the Hunt (&R)"
@@ -59855,7 +59862,7 @@ CONTROLBAR:ToolTipLurtzPillage
 END
 
 CONTROLBAR:ToolTipGBloodHunt
-"Modifier Type: Leadership \n Allied Warg Riders near Sharku gain +33% damage, +33% armour and earn experience 50% faster \nPassive ability"
+"Modifier Type: Leadership \n Allied Warg-riders near Sharku gain +33% damage, +33% armour and earn experience 50% faster \nPassive ability"
 END
 
 CONTROLBAR:SharkuArmouredWolves
@@ -59867,7 +59874,8 @@ END
 
 CONTROLBAR:ToolTipSharkuManEater
 //"Requires Level 10 \n Kill target enemy which restores Sharku's health and temporarily grants +50% damage and +50% armour \n Left click icon then left click on target enemy \n Does not stack"
-"Requires Level 5 \n Kill target enemy which restores 50% of Sharku's health and grants\n+50% damage and armour for 20 seconds\n Left click icon then left click on target enemy" 
+//"Requires Level 5 \n Kill target enemy infantry unit to restore 50% of Sharku's health and grant\n+25% damage and armour for 20 seconds\n Left click icon then left click on target enemy infantry unit" 
+"Requires Level 5 \n Kill target enemy infantry unit to restore 30% of Sharku's health and grant\n+25% damage and armour for 20 seconds\n Left click icon then left click on target enemy infantry unit" 
 END
 
 CONTROLBAR:ToolTipSpeechCraft
@@ -60077,7 +60085,7 @@ END
 CONTROLBAR:ToolTipMouthOfSauronDissent
 //"Requires Level 6 \n Causes targeted units to become hostile towards each other \n Left click icon then left click on target area"
 //"Requires Level 7 \n Causes targeted units to become hostile towards each other \n Left click icon then left click on target area"
-"Requires Level 10 \n Causes targeted units to become hostile towards each other for 45 seconds\nAffects enemy and allied units\nLeft click icon then left click on target area"
+"Requires Level 10 \n Causes targeted units to become hostile towards each other for 35 seconds\nAffects enemy and allied units\nLeft click icon then left click on target area"
 END
 CONTROLBAR:ToolTipMouthOfSauronHerald
 "Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% damage and -20% armour\n Passive ability""
@@ -60186,7 +60194,7 @@ END
 
 CONTROLBAR:ToolTipBuildWildMountainGiant
 //"Requires Level 3 Pit \n Strong vs Structures and Swordsmen"
-"Requires Level 3 Troll Lair and the Brood of the North upgrade \n Limited to 5 \n Strong vs. Structures and Swordsmen \n \n 'There they were sheltering under a hanging rock for the night, and Bilbo lay beneath a blanket and shook from head to toe. When he peeped out in the lightning-flashes, he saw that across the valley the stone-giants were out, and were hurling rocks at one another for a game, and catching them, and tossing them down into the darkness where they smashed among the trees far below, or splintered into little bits with a bang.'"
+"Requires Level 3 Troll Lair \n Limited to 2 \n Brood of the North raises limit to 5 \n Strong vs. Structures and Swordsmen \n \n 'There they were sheltering under a hanging rock for the night, and Bilbo lay beneath a blanket and shook from head to toe. When he peeped out in the lightning-flashes, he saw that across the valley the stone-giants were out, and were hurling rocks at one another for a game, and catching them, and tossing them down into the darkness where they smashed among the trees far below, or splintered into little bits with a bang.'"
 END
 
 CONTROLBAR:LW_ToolTipBuild_WildMountainGiant
