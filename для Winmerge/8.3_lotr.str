@@ -60281,7 +60281,7 @@ CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade
 END
 CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade
 //"Level 3: +25% faster build speed \n Allows training of Mountain Giants and Fire Drake Brood"
-"Allows training of Gundabad Stone-trolls and Mountain Giants\n+25% faster build speed"
+"Allows training of Gundabad Stone-trolls and Mountain Giants\n+25% faster build speed\nAdds defensive Cave-troll to Lair"
 END
 
 CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade_WOTR
@@ -61720,7 +61720,7 @@ CONTROLBAR:LW_ToolTipBuild_MordorCatapult
 END
 CONTROLBAR:LW_ToolTip_MordorCatapult
 //"\nUnit Type: Siege\nStrong vs. Structures"
-"\nUnit Type: Siege\nStrong vs. Structures and Archers"
+"Unit Type: Siege\nStrong vs. Structures and Archers"
 END
 
 BANNERUI:MordorBlackRider
@@ -62146,7 +62146,8 @@ CONTROLBAR:FellowshipLegolasSlayer
 END
 
 CONTROLBAR:ToolTipFellowshipLegolasSlayer
-"Requires Level 6 \n For 15 seconds, Legolas ignores enemy armour and slows down his targets by 40%\n Left click to activate"
+//"Requires Level 6 \n For 15 seconds, Legolas ignores enemy armour and slows down his targets by 40%\n Left click to activate"
+"Requires Level 6 \n For 15 seconds, Legolas' arrows ignore enemy armour and slow down their targets by 40% for 5 seconds\n Left click to activate"
 END
 
 CONTROLBAR:TooltipDwarvenRiches
@@ -62221,8 +62222,8 @@ CONTROLBAR:ToolTipTameTheBeast
 //"Requires Level 2 \n Target wargs or warg riders come under Sharku's control \n Left click icon then left click on target"
 //"Requires Level 5 \n Target monster or cavalry battalion comes under Sharku's control \n Left click icon then left click on target"
 //"Requires Level 9 \n Target monster or cavalry battalion comes under Sharku's control \n Left click icon then left click on target"
-//"Target Wargs or Warg Riders come under Sharku's control \n Left click icon then left click on target"
-"Requires Level 5 \n Target Wargs or Warg Riders come under Sharku's control \n Left click icon then left click on target"
+//"Target Wargs or Warg-riders come under Sharku's control \n Left click icon then left click on target"
+"Requires Level 5 \n Target Wargs or Warg-riders come under Sharku's control \n Left click icon then left click on target"
 END
 
 CONTROLBAR:ToolTipTameTheBeast
@@ -62236,7 +62237,7 @@ CONTROLBAR:ToolTipSpecialAbilityChargeAttack
 END
 
 CONTROLBAR:ToolTipSpecialAbilityChargeAttackHarad
-"Modifier Type: Leadership \n Nearby friendly units gain +15% armour against ranged attacks \n Nearby structures gain +15% armour \nPassive ability \n\n Can be cast to order Mûmak to trample the enemy \n Left click icon then left click on target"
+"Modifier Type: Leadership \n Nearby friendly units gain +15% armour against ranged attacks \n Nearby structures gain +15% armour \nPassive ability \n\n When activated, the Mûmak gains +33% movement speed for 5 seconds\n Left click to activate"
 END
 
 CONTROLBAR:ToolTipGothmogIronHand
@@ -62244,7 +62245,7 @@ CONTROLBAR:ToolTipGothmogIronHand
 //"Requires Level 2 \n Orcs near Gothmog gain immunity to fear and terror \n Passive Ability"
 //"Requires Level 4 \n Orcs near Gothmog gain immunity to fear and terror \n Passive Ability"
 //"Requires Level 4 \n Orcs near Gothmog gain immunity to Fear and Terror \n Passive Ability"
-"Orcs near Gothmog gain \n +33% damage, +33% armour,\n Immunity to fear and terror \nand earn experience 50% faster\nPassive ability\n\nAt rank 5, can be activated to call down a barrage of severed heads into a targeted area, causing fear in enemy units and dealing poison damage for 20 seconds\nLeft click icon then click on target area"
+"Modifier Type: Leadership\nOrcs near Gothmog gain \n +33% damage, +33% armour,\n Immunity to fear and terror \nand earn experience 50% faster\nPassive ability\n\nAt rank 5, can be activated to call down a barrage of severed heads into a targeted area, causing fear in enemy units and dealing poison damage for 20 seconds\nLeft click icon then click on target area"
 END
 
 CONTROLBAR:ToolTipGothmogDayoftheOrc
@@ -62307,7 +62308,7 @@ CONTROLBAR:ToolTipFueltheFires
 //"+100% resources from harvesting trees \n Passive power"
 //"+80% resources from harvesting trees\n Passive power"
 //"+70% resources from harvesting trees\n Passive power"
-"+60% resources from harvesting trees \n Unlocks Heat Blast for Furnaces \n Passive power"
+"+55% resources from harvesting trees \n Unlocks Heat Blast for Furnaces \n Passive power"
 End
 
 CONTROLBAR:ToolTipWildShelobPoisonedStinger
@@ -62508,7 +62509,7 @@ CONTROLBAR:TooltipFrozenLandAotR
 //"Freezes an area of terrain \n All ally units gain +33% damage and +33% armour\nSlows enemy units\nLeft click icon then left click on target area"
 //"Freezes an area of terrain \n All ally units gain\n+33% damage, +33% armour\nSlows enemy units\nLeft click icon then left click on target area"
 //"Freezes an area of terrain \n All ally units gain\n+33% damage, +33% armour \nearn experience 50% faster \nSlows enemy units and extinguishes all fires\nLeft click icon then left click on target area"
-"Freezes an area of terrain for 3 minutes \n Modifier Type: Leadership and Spell \n All allied units gain +25% damage, +25% armour and earn experience 50% faster \nEnemy units suffer -15% speed \n Extinguishes all fires\nLeft click icon then left click on target area"
+"Freezes an area of terrain for 90 seconds \n Modifier Type: Leadership and Spell \n All allied units gain +25% damage and +25% armour \nEnemy units suffer -15% speed \n Extinguishes all fires\nLeft click icon then left click on target area"
 End
 
 CONTROLBAR:TooltipNecroBlackIce
@@ -62527,7 +62528,7 @@ End
 
 CONTROLBAR:ToolTipBuildGrandHarvestUpgrade
 //"+10% resources from farms \n Player must maintain a Marketplace to benefit from this upgrade"
-"+15% resources from farms \n Player must maintain a Marketplace to benefit from this upgrade"
+"+12% resources from farms \n Player must maintain a Marketplace to benefit from this upgrade"
 END
 
 OBJECT:GondorMarketPlaceDescription
@@ -62543,7 +62544,7 @@ CONTROLBAR:ToolTipConstructMenMarketPlace
 //"Increases resources from Farms by 15%"
 //"Increases resources from Farms by 12%"
 //"Increases resources from Farms by 15%"
-"Increases resources from farms by 12%\n Limited to 1"
+"Marketplace creates economy upgrades\n Limited to 1"
 END
 
 CONTROLBAR:ToolTipConstructMenMarketPlace_Disabled
@@ -62556,8 +62557,8 @@ END
 
 CONTROLBAR:ToolTipBuildGoblinFighterHorde
 //"Strong vs. Pikemen"
-//"Strong vs. Pikemen \n Horde Bonus \n All Goblin Warriors and Goblin Archers gain +50% armour when gathered in numbers of 150 or more \n \n After the Dwarves abandoned Khazad-dum, these Orcish usurpers plundered and desecrated its emptied halls."
-"Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Moria-orc Screechers, Moria-orc Archers and Moria-orc Spearmen gain +50% damage when gathered in numbers of 150 or more\n \n After the Dwarves abandoned Khazad-dum, these Orcish usurpers plundered and desecrated its emptied halls."
+//"Strong vs. Pikemen \n Horde Bonus \n All Goblin Warriors and Goblin Archers gain +50% armour when gathered in numbers of 150 or more \n \n After the Dwarves abandoned Khazad-dûm, these Orcish usurpers plundered and desecrated its emptied halls."
+"Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Moria-orc Screechers, Moria-orc Archers and Moria-orc Spearmen gain +50% damage when gathered in numbers of 150 or more\n \n After the Dwarves abandoned Khazad-dûm, these Orcish usurpers plundered and desecrated its emptied halls."
 END
 
 CONTROLBAR:ToolTipBuildGoblinArcherHorde
@@ -62575,7 +62576,7 @@ END
 CONTROLBAR:ToolTipBuildIsengardOrcFighterHorde
 //"Strong vs. Pikemen"
 //"Strong vs. Pikemen \n Horde Bonus \n All Orc Warriors, Orc Archers and Black Uruks gain +50% damage when gathered in numbers of 150 or more \n \n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr."
-"Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors and Orc Archers gain +50% damage when gathered in numbers of 100 or more\n\n Saruman used hordes of Orcish snaga to whittle his enemy's forces before sending in the elite Uruk-hai"
+"Strong vs. Pikemen \n\n Horde Bonus \n Modifier Type: Spell \n All Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more\n\n Saruman used hordes of Orcish snaga to whittle his enemy's forces before sending in the elite Uruk-hai"
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
@@ -62593,7 +62594,7 @@ END
 CONTROLBAR:ToolTipBuildIsengardOrcArcherHorde
 //"Strong at Range"
 //"Strong vs. Infantry \n Horde Bonus \n All Orc Warriors, Orc Archers and Black Uruks gain +50% damage when gathered in numbers of 150 or more \n \n Largely unskilled and ill-equipped, Mordor's archers are a prime example of strength in numbers."
-"Strong vs. Infantry \n\n Horde Bonus \n Modifier Type: Spell \n Orc Warriors and Orc Archers gain +50% damage when gathered in numbers of 100 or more\n\n Largely unskilled and ill-equipped, Isengard's archers are a prime example of strength in numbers."
+"Strong vs. Infantry \n\n Horde Bonus \n Modifier Type: Spell \n Orc Warriors, Orc Pikemen and Orc Archers gain +50% damage when gathered in numbers of 100 or more\n\n Largely unskilled and ill-equipped, Isengard's archers are a prime example of strength in numbers."
 END
 
 CONTROLBAR:ToolTipBuildMordorBlackOrcHorde
@@ -62844,7 +62845,7 @@ CONTROLBAR:BrandLeadership
 END
 
 CONTROLBAR:ToolTipBrandLeadership
-"Modifier Type: Leadership\nKing Brand gains +33% armour when near King Dáin\nAt Level 3, nearby Mannish allies gain +25% damage and +33% armour\n Passive ability \n\n At Level 8, Brand can summon a battalion of Barding Outriders \n Left click to activate"
+"Modifier Type: Leadership\nKing Brand gains +33% armour when near King Dáin\nAt Level 3, nearby Mannish allies gain +33% damage and +33% armour\n Passive ability \n\n At Level 8, Brand can summon a battalion of Barding Outriders \n Left click to activate"
 END
 
 CONTROLBAR:ToolTipBrandTrainArchers
@@ -62981,7 +62982,7 @@ Version:Format2
 //"Age of the Ring Version 6.1"
 //"Age of the Ring Version 7.0"
 //"Age of the Ring Version 7.1"
-"Age of the Ring Version 8.3"
+"Age of the Ring Version 9.0"
 END
 
 Version:Format3
@@ -63337,7 +63338,7 @@ CONTROLBAR:PippinCourage
 END
 
 CONTROLBAR:ToolTipPippinCourage
-"Requires Level 5\n Modifier Type: Leadership \n Nearby heroes earn experience 33% faster \n Pippin's health is increased \n Passive ability"
+"Requires Level 5\n Modifier Type: Leadership \n Nearby heroes earn experience 15% faster \n Pippin's health is increased \n Passive ability"
 END
 
 CONTROLBAR:GondorArcherBonus
@@ -63446,6 +63447,10 @@ CONTROLBAR:ToolTipHalbaradPerseverance
 "Requires Level 5 \n Nearby Dúnedain gain +30% armour and +50% resistance to knockback for 30 seconds\n At level 7 summons four single Grey Company Rangers around Halbarad \n Left click to activate"
 END
 
+CONTROLBAR:ToolTipHalbaradPerseveranceFellowship
+"Requires Level 5 \n Nearby Dúnedain gain +30% armour and +50% resistance to knockback for 30 seconds\n Left click to activate"
+END
+
 CONTROLBAR:HalbaradCaptainoftheNorth
 "Captain of the North"
 END
@@ -63551,7 +63556,7 @@ CONTROLBAR:ToolTipBuildBolgNew
 "Recruit Bolg of the North"
 END
 CONTROLBAR:BolgRecruitNew
-"Recruit the Scourge of the Misty Mountains \n \n 'The Goblins are upon you! Bolg of the North is coming. O Dain! whose father you slew in Moria. \n Behold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'"
+"Recruit the Scourge of the Misty Mountains \n \n 'The Goblins are upon you! Bolg of the North is coming. O Dáin! whose father you slew in Moria. \n Behold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'"
 END
 CONTROLBAR:BolgReviveNew
 "Revive the fallen Hero, Bolg"
@@ -63587,7 +63592,7 @@ CONTROLBAR:BolgGrowingHatred
 "Growing Hatred (&R)"
 END
 CONTROLBAR:ToolTipBolgGrowingHatred
-"Requires Level 3\n Bolg deals increased damage against Dwarves \n Passive ability \n\n When activated, Bolg deals knockback damage with a greater attack radius for 30 seconds\n Consecutive attacks temporarily increase attack damage by 10% up to a maximum of 50% \n Left click to activate"
+"Bolg deals increased damage against Dwarves \n Passive ability \n\n When activated, Bolg deals knockback damage with a greater attack radius for 30 seconds\n At Level 3, consecutive attacks temporarily increase attack damage by 10% up to a maximum of 50% whilst ability is active\n Left click to activate"
 END
 CONTROLBAR:BolgRuledByFear
 "Ruled By Fear (&T)"
@@ -63692,7 +63697,7 @@ CONTROLBAR:MuzgashDiscipline
 END
 
 CONTROLBAR:ToolTipMuzgashDiscipline
-"Requires Level 6 \n Mûzgash whips his underlings into proper formation,\ngranting them +33% movement speed for 30 seconds\n Left click on icon then left click on target"
+"Requires Level 6 \n Mûzgash whips his underlings into proper formation,\ngranting them +25% movement speed for 30 seconds\n Left click on icon then left click on target"
 End
 
 CONTROLBAR:MuzgashSupremacy
@@ -63793,7 +63798,7 @@ CONTROLBAR:LW_ToolTip_CerinAmrothSentinelHorde
 END
 
 CONTROLBAR:ToolTipBuildCerinAmrothSentinelHorde
-"Sentinels of Cerin Amroth \n Requires Level 2 Galadhrim Garrison\nStrong vs. Cavalry and Heroes \n \n These warriors are tasked with safeguarding the revered hill of Amroth, once the home of Amroth Amdirion, the last king of Lórien."
+"Sentinels of Cerin Amroth \n Requires Level 2 Galadhrim Garrison\nStrong vs. Cavalry and Heroes \n \n These warriors are tasked with safeguarding the revered hill of Amroth, once the home of Amroth Amdírion, the last king of Lórien."
 END
 
 CONTROLBAR:LW_ToolTipBuild_CerinAmrothSentinelHorde
@@ -63886,7 +63891,7 @@ END
 CONTROLBAR:TooltipLorienShadowstrike
 //"Wormtongue becomes stealthed and can\n neither be attacked nor make an attack\nLeft click icon to activate"
 //"Requires Level 2 \n The Pathstalkers briefly become fully stealthed. \n +150% damage for duration. \n Left click icon to activate"
-"Requires Level 2 \n Sindar Pathstalkers briefly become fully stealthed and deal +125% damage for 20 seconds\n Left click icon to activate"
+"Requires Level 2 \n Sindar Pathstalkers briefly become fully stealthed and deal +100% damage for 20 seconds\n Left click icon to activate"
 END
 
 //------------ Sindar Warriors---------------
@@ -64641,7 +64646,7 @@ CONTROLBAR:MordorMollokReapingSlash
 END
 
 CONTROLBAR:ToolTipMordorMollokReapingSlash
-"Requires Level 8 \n Mollok gains +100% damage and +25% armour and regains health per hit for 20 seconds\n Left click icon to activate"
+"Requires Level 8 \n Mollok gains +100% damage and +25% armour and passively heals over time for 20 seconds\n Left click icon to activate"
 END
 
 CONTROLBAR:MollokLeadership
@@ -64717,7 +64722,7 @@ CONTROLBAR:ToolTipRangerLureIthilien
 End
 
 CONTROLBAR:ToolTipFrodoLeadership
-"Modifier Type: Leadership \n Nearby allies in a large radius gain\n+50% damage, +50% armour,\nand earn experience twice as fast\nNearby unit and hero ability cooldown times are reduced by 25% \nPassive ability"
+"Modifier Type: Spell \n Nearby allies in a large radius gain\n+50% damage, +50% armour,\nand earn experience twice as fast\nNearby unit and hero ability cooldown times are reduced by 25% \nPassive ability"
 END
 
 CONTROLBAR:FrodoLeadership
@@ -64814,11 +64819,11 @@ CONTROLBAR:RumilSummon
 END
 
 CONTROLBAR:ToolTipRumilSummon
-"Requires Level 8 \nSummons an illusion of Silvan Scouts at the target location \n Illusion archers' arrows deal no damage but debuff enemy units' speed and damage by 33% for 3 seconds\n Left click icon then left click on pathable location"
+"Requires Level 8 \nSummons an illusion of Silvan Scouts at the target location \n Illusion archers' arrows deal no damage but debuff enemy units' speed and damage by 33% for 3 seconds\nDoes not affect heroic units or heroes\nLeft click icon then left click on pathable location"
 END
 
 CONTROLBAR:OrophinLeadership
-"Warden of the Naith (&T)"
+"Warden of the Naith"
 END
 
 CONTROLBAR:ToolTipOrophinLeadership
@@ -64868,12 +64873,12 @@ END
 
 CONTROLBAR:TooltipOrophinBladeMaster
 //"Requires Level 3 \n Modifier Type: Buff \n Orophin temporarily gains\n+100% damage, +100% armour \n Left click to activate"
-"Requires Level 2 \n Modifier Type: Buff \n Orophin gains\n+50% damage, +50% armour for 30 seconds\n Left click to activate"
+"Requires Level 3 \n Modifier Type: Buff \n Orophin gains\n+25% damage, +50% armour for 30 seconds\n Left click to activate"
 END
 
 CONTROLBAR:TooltipOrophinBladeMasterGifts
 //"Requires Level 3 \n Modifier Type: Buff \n Orophin temporarily gains\n+100% damage, +100% armour \n Left click to activate"
-"Requires Level 2 \n Modifier Type: Buff \n Orophin gains +50% damage, +50% armour for 30 seconds\nOrophin deals splash damage and knockback for 30 seconds\nLeft click to activate"
+"Requires Level 3 \n Modifier Type: Buff \n Orophin gains +25% damage, +50% armour for 30 seconds\nOrophin deals splash damage and knockback for 30 seconds\nLeft click to activate"
 END
 
 CONTROLBAR:AmrothBladeMaster
@@ -64886,15 +64891,15 @@ CONTROLBAR:TooltipAmrothBladeMaster
 END
 
 CONTROLBAR:OrophinBorderGuardsJudgement
-"Border Guard's Judgement (&C)"
+"Border Guard's Judgement (&V)"
 END
 
 CONTROLBAR:TooltipOrophinBorderGuardsJudgement
-"Requires Level 7 \n Targeted enemy hero's ability timers are set to just used \n Left click icon then left click on target"
+"Requires Level 9 \n Targeted enemy hero's ability timers are set to just used \n Left click icon then left click on target"
 END
 
 CONTROLBAR:HaldirLeadership
-"Captain of the Galadhrim (&C)"
+"Captain of the Galadhrim (&R)"
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
@@ -64908,11 +64913,11 @@ CONTROLBAR:ToolTipHaldirLeadershipGifts
 END
 
 CONTROLBAR:HaldirTeleport
-"Marchwarden of Lothlórien (&T)"
+"Marchwarden of Lothlórien (&C)"
 END
 
 CONTROLBAR:TooltipHaldirTeleport
-"Requires Level 3 \n Haldir guides allied units from one location on the battlefield to anywhere on the map \n Does not work on siege units\n\n Left click icon, then left click on target units, then left click on pathable location"
+"Requires Level 8 \n Haldir guides allied units from one location on the battlefield to anywhere on the map \n Does not work on siege units\n\n Left click icon, then left click on target units, then left click on pathable location"
 End
 
 CONTROLBAR:HaldirLastStand
@@ -65110,7 +65115,7 @@ END
 
 CONTROLBAR:ToolTipSpecialPowerCelebornCunning
 //"Requires Level 4 \n Celeborn temporarily becomes immune to damage and is resistant to knockback  \n Left click to activate"
-"Requires Level 4 \n Celeborn gains +100% armour and deals splash damage for 30 seconds\n Enemy units around him lose 20% damage and 20% armour for the duration of the ability\n Left click to activate"
+"Requires Level 4 \n Celeborn gains +50% armour and deals splash damage for 30 seconds\n Enemy units around him lose 20% damage and 20% armour for the duration of the ability\n Left click to activate"
 END
 
 CONTROLBAR:CelebornArmor
@@ -65192,7 +65197,7 @@ CONTROLBAR:LW_ToolTip_IsengardManSlayerHorde_WOTR
 END
 
 CONTROLBAR:ToolTipBuildIsengardManSlayerHorde
-"Requires Level 3 Uruk Pit \n Hero Unit. Limited to 3 \n Strong vs. All Unit Types \n \n Driven mad by the scent of Man-flesh, these deranged creatures are capable of cleaving through armour and sustaining wounds that would kill ordinary orcs and uruks."
+"Requires Level 3 Uruk Pit \n Hero Unit. Limited to 2 \n Strong vs. All Unit Types \n \n Driven mad by the scent of Man-flesh, these deranged creatures are capable of cleaving through armour and sustaining wounds that would kill ordinary orcs and uruks."
 END
 
 CONTROLBAR:LW_ToolTipBuild_IsengardManSlayerHorde
@@ -65313,6 +65318,10 @@ CONTROLBAR:IsengardUglukHotKey
 "Uglúk (&R)"
 END
 
+CONTROLBAR:IsengardUglukHotKey_WhiteHand
+"Uglúk (&T)"
+END
+
 CONTROLBAR:IsengardUglukOrcMedicine
 "Orcish Medicine (&W)"
 END
@@ -65326,7 +65335,7 @@ CONTROLBAR:IsengardUglukHuntfortheRing
 END
 
 CONTROLBAR:TooltipIsengardUglukHuntfortheRing
-"Requires Level 3 \n Modifier Type: Spell \n Nearby infantry and heroes gain a 15% speed bonus, a 50% experience bonus and resistance to fear and terror for 20 seconds\nLeft click to activate"
+"Requires Level 3 \n Modifier Type: Spell \n Uglúk, nearby infantry and heroes gain a 15% speed bonus, a 50% experience bonus and resistance to fear and terror for 20 seconds\nLeft click to activate"
 END
 
 CONTROLBAR:IsengardUglukHeadhunter
@@ -65334,7 +65343,7 @@ CONTROLBAR:IsengardUglukHeadhunter
 END
 
 CONTROLBAR:ToolTipIsengardUglukHeadhunter
-"Requires Level 5 \n Modifier Type: Spell \n Nearby Uruk-hai gain +100% damage and Uglúk regains health per attack for 25 seconds\nLeft click icon to activate"
+"Requires Level 5 \n Modifier Type: Spell \n Nearby Uruk-hai gain +75% damage and Uglúk regains health per attack for 20 seconds\nLeft click icon to activate"
 END
 
 CONTROLBAR:IsengardUglukReinforcements
